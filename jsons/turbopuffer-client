@@ -1,1 +1,70 @@
-{"name":"turbopuffer-client","vers":"0.0.1","deps":[{"name":"anyhow","req":"^1.0.81","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"dotenv","req":"^0.15.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"reqwest","req":"^0.12.2","features":["gzip","json"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.197","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.114","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"bc36797a8eed18040c7d276e114ff380df1fec4922c63cdfe491d221c65e5fe5","features":{},"yanked":false}
+{
+    "name": "turbopuffer-client",
+    "vers": "0.0.1",
+    "deps": [
+        {
+            "name": "anyhow",
+            "req": "^1.0.81",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "dotenv",
+            "req": "^0.15.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "reqwest",
+            "req": "^0.12.2",
+            "features": [
+                "gzip",
+                "json"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.197",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.114",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "bc36797a8eed18040c7d276e114ff380df1fec4922c63cdfe491d221c65e5fe5",
+    "features": {},
+    "yanked": false
+}

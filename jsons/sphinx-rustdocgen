@@ -1,1 +1,39 @@
-{"name":"sphinx-rustdocgen","vers":"0.1.0","deps":[{"name":"log","req":"^0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"quote","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"syn","req":"^2","features":["full","extra-traits"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"e3fa711e3a1dda37d7d170c9e8e680529a2525b6642edd348a9f4dc518500d31","features":{},"yanked":true}
+{
+    "name": "sphinx-rustdocgen",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "log",
+            "req": "^0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "quote",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "syn",
+            "req": "^2",
+            "features": [
+                "full",
+                "extra-traits"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "e3fa711e3a1dda37d7d170c9e8e680529a2525b6642edd348a9f4dc518500d31",
+    "features": {},
+    "yanked": true
+}

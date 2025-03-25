@@ -1,1 +1,43 @@
-{"name":"mutringbuf","vers":"0.1.0-alpha.0","deps":[{"name":"cpal","req":"^0.15.2","features":[],"optional":false,"default_features":true,"target":"cfg(cpal)","kind":"normal"},{"name":"criterion","req":"^0.5.1","features":["html_reports"],"optional":false,"default_features":true,"target":"cfg(bench)","kind":"normal"},{"name":"crossbeam-utils","req":"^0.8.16","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"}],"cksum":"86a4c1f20f01e451c491ab8861bdd50b8cc461c81112a7bd8fd1a33707758461","features":{"alloc":[],"default":["alloc"]},"yanked":true}
+{
+    "name": "mutringbuf",
+    "vers": "0.1.0-alpha.0",
+    "deps": [
+        {
+            "name": "cpal",
+            "req": "^0.15.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": "cfg(cpal)",
+            "kind": "normal"
+        },
+        {
+            "name": "criterion",
+            "req": "^0.5.1",
+            "features": [
+                "html_reports"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": "cfg(bench)",
+            "kind": "normal"
+        },
+        {
+            "name": "crossbeam-utils",
+            "req": "^0.8.16",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "86a4c1f20f01e451c491ab8861bdd50b8cc461c81112a7bd8fd1a33707758461",
+    "features": {
+        "alloc": [],
+        "default": [
+            "alloc"
+        ]
+    },
+    "yanked": true
+}

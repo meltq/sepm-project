@@ -1,1 +1,85 @@
-{"name":"pecos","vers":"0.1.0","deps":[{"name":"criterion","req":"^0.5","features":[],"optional":false,"default_features":true,"target":"cfg(not(target_arch = \"wasm32\"))","kind":"dev"},{"name":"flamegraph","req":"^0.6","features":[],"optional":false,"default_features":true,"target":"cfg(not(target_arch = \"wasm32\"))","kind":"dev"},{"name":"getrandom","req":"^0.2","features":["js"],"optional":false,"default_features":true,"target":"cfg(target_arch = \"wasm32\")","kind":"dev"},{"name":"pecos-core","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"pecos-qec","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"pecos-qsim","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rand","req":"^0.8","features":["getrandom"],"optional":false,"default_features":true,"target":"cfg(target_arch = \"wasm32\")","kind":"dev"},{"name":"wasm-bindgen-test","req":"^0.3","features":[],"optional":false,"default_features":true,"target":"cfg(target_arch = \"wasm32\")","kind":"dev"}],"cksum":"197ae97dcbe3739ff11a44c3ea0c28b4885e5c8ac8b0c58f0731e36107598974","features":{},"yanked":false}
+{
+    "name": "pecos",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "criterion",
+            "req": "^0.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": "cfg(not(target_arch = \"wasm32\"))",
+            "kind": "dev"
+        },
+        {
+            "name": "flamegraph",
+            "req": "^0.6",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": "cfg(not(target_arch = \"wasm32\"))",
+            "kind": "dev"
+        },
+        {
+            "name": "getrandom",
+            "req": "^0.2",
+            "features": [
+                "js"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": "cfg(target_arch = \"wasm32\")",
+            "kind": "dev"
+        },
+        {
+            "name": "pecos-core",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "pecos-qec",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "pecos-qsim",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rand",
+            "req": "^0.8",
+            "features": [
+                "getrandom"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": "cfg(target_arch = \"wasm32\")",
+            "kind": "dev"
+        },
+        {
+            "name": "wasm-bindgen-test",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": "cfg(target_arch = \"wasm32\")",
+            "kind": "dev"
+        }
+    ],
+    "cksum": "197ae97dcbe3739ff11a44c3ea0c28b4885e5c8ac8b0c58f0731e36107598974",
+    "features": {},
+    "yanked": false
+}

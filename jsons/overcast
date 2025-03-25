@@ -1,1 +1,89 @@
-{"name":"overcast","vers":"0.1.0","deps":[{"name":"askama","req":"^0.12","features":[],"optional":true,"default_features":false,"target":null,"kind":"normal"},{"name":"chrono","req":"^0.4","features":[],"optional":true,"default_features":false,"target":null,"kind":"normal"},{"name":"expect-test","req":"^1.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"semver","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0","features":["derive"],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"730e4f53931659bb89fee257dcedd9656dda0f6c5d9311d5dd8a13e7b1d3f2e7","features":{"default":["render_markdown","dates"],"overcast_changelog":[]},"features2":{"dates":["dep:chrono"],"render_json":["serde","dep:serde_json"],"render_markdown":["dep:askama"],"serde":["dep:serde","semver/serde","chrono/serde"]},"yanked":false,"v":2}
+{
+    "name": "overcast",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "askama",
+            "req": "^0.12",
+            "features": [],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "chrono",
+            "req": "^0.4",
+            "features": [],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "expect-test",
+            "req": "^1.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "semver",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [
+                "derive"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "730e4f53931659bb89fee257dcedd9656dda0f6c5d9311d5dd8a13e7b1d3f2e7",
+    "features": {
+        "default": [
+            "render_markdown",
+            "dates"
+        ],
+        "overcast_changelog": []
+    },
+    "features2": {
+        "dates": [
+            "dep:chrono"
+        ],
+        "render_json": [
+            "serde",
+            "dep:serde_json"
+        ],
+        "render_markdown": [
+            "dep:askama"
+        ],
+        "serde": [
+            "dep:serde",
+            "semver/serde",
+            "chrono/serde"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

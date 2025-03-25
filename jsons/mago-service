@@ -1,1 +1,214 @@
-{"name":"mago-service","vers":"0.0.0","deps":[{"name":"ahash","req":"^0.8.11","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"async-walkdir","req":"^2.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"config","req":"^0.14.0","features":["toml"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"futures","req":"^0.3.31","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"glob-match","req":"^0.2.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"mago-ast","req":"^0.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"mago-feedback","req":"^0.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"mago-formatter","req":"^0.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"mago-interner","req":"^0.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"mago-linter","req":"^0.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"mago-parser","req":"^0.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"mago-reflection","req":"^0.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"mago-reflector","req":"^0.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"mago-reporting","req":"^0.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"mago-semantics","req":"^0.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"mago-source","req":"^0.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"mago-span","req":"^0.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"num_cpus","req":"^1.16.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.39.3","features":["rt","time"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"toml","req":"^0.8.19","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing","req":"^0.1.40","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"7e1bcbaaccda45687768b26c6236995a5e12508a392bf0e7e4fe32ebe518a2a5","features":{},"yanked":false}
+{
+    "name": "mago-service",
+    "vers": "0.0.0",
+    "deps": [
+        {
+            "name": "ahash",
+            "req": "^0.8.11",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "async-walkdir",
+            "req": "^2.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "config",
+            "req": "^0.14.0",
+            "features": [
+                "toml"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "futures",
+            "req": "^0.3.31",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "glob-match",
+            "req": "^0.2.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "mago-ast",
+            "req": "^0.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "mago-feedback",
+            "req": "^0.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "mago-formatter",
+            "req": "^0.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "mago-interner",
+            "req": "^0.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "mago-linter",
+            "req": "^0.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "mago-parser",
+            "req": "^0.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "mago-reflection",
+            "req": "^0.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "mago-reflector",
+            "req": "^0.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "mago-reporting",
+            "req": "^0.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "mago-semantics",
+            "req": "^0.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "mago-source",
+            "req": "^0.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "mago-span",
+            "req": "^0.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "num_cpus",
+            "req": "^1.16.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.39.3",
+            "features": [
+                "rt",
+                "time"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "toml",
+            "req": "^0.8.19",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1.40",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "7e1bcbaaccda45687768b26c6236995a5e12508a392bf0e7e4fe32ebe518a2a5",
+    "features": {},
+    "yanked": false
+}

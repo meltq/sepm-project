@@ -1,1 +1,31 @@
-{"name":"ndtensor","vers":"0.0.0","deps":[{"name":"serde","req":"^1.0","features":["derive"],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"b13f3c3d12d8876897d08dddb1f1b906e5ad4d1124f712cd534c121e67892730","features":{"default":["std"],"std":[]},"features2":{"serde":["dep:serde"]},"yanked":false,"v":2}
+{
+    "name": "ndtensor",
+    "vers": "0.0.0",
+    "deps": [
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [
+                "derive"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "b13f3c3d12d8876897d08dddb1f1b906e5ad4d1124f712cd534c121e67892730",
+    "features": {
+        "default": [
+            "std"
+        ],
+        "std": []
+    },
+    "features2": {
+        "serde": [
+            "dep:serde"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

@@ -1,1 +1,58 @@
-{"name":"ironrdp-rdpsnd-native","vers":"0.1.0","deps":[{"name":"anyhow","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"cpal","req":"^0.15.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"ironrdp-rdpsnd","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing","req":"^0.1","features":["log"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing-subscriber","req":"^0.3.19","features":["env-filter"],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"00cff27ee682227558533876f2cea157daf59b463913abec997746e2d6e91239","features":{},"yanked":false}
+{
+    "name": "ironrdp-rdpsnd-native",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "anyhow",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "cpal",
+            "req": "^0.15.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ironrdp-rdpsnd",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1",
+            "features": [
+                "log"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing-subscriber",
+            "req": "^0.3.19",
+            "features": [
+                "env-filter"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "00cff27ee682227558533876f2cea157daf59b463913abec997746e2d6e91239",
+    "features": {},
+    "yanked": false
+}

@@ -1,1 +1,58 @@
-{"name":"micromegas-transit","vers":"0.1.0","deps":[{"name":"anyhow","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"log","req":"^0.4","features":["std"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"memoffset","req":"^0.6","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"micromegas-derive-transit","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"0ba4f903c67b8cd2a26a988a7b3d5ec519e2336c1c4ee79c750c1de3b4d0f539","features":{},"yanked":false}
+{
+    "name": "micromegas-transit",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "anyhow",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "log",
+            "req": "^0.4",
+            "features": [
+                "std"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "memoffset",
+            "req": "^0.6",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "micromegas-derive-transit",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "0ba4f903c67b8cd2a26a988a7b3d5ec519e2336c1c4ee79c750c1de3b4d0f539",
+    "features": {},
+    "yanked": false
+}

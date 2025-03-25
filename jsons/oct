@@ -1,1 +1,30 @@
-{"name":"oct","vers":"0.14.0","deps":[{"name":"oct-macros","req":"^0.14.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"e2805f1443a128c7ac17db62312ba9ba90901afbef11569cfed28be584a3aacf","features":{"alloc":[],"default":["alloc","proc-macro","std"],"proc-macro":["oct-macros"],"std":[]},"yanked":true,"rust_version":"1.83"}
+{
+    "name": "oct",
+    "vers": "0.14.0",
+    "deps": [
+        {
+            "name": "oct-macros",
+            "req": "^0.14.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "e2805f1443a128c7ac17db62312ba9ba90901afbef11569cfed28be584a3aacf",
+    "features": {
+        "alloc": [],
+        "default": [
+            "alloc",
+            "proc-macro",
+            "std"
+        ],
+        "proc-macro": [
+            "oct-macros"
+        ],
+        "std": []
+    },
+    "yanked": true,
+    "rust_version": "1.83"
+}

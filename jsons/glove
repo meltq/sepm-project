@@ -1,1 +1,71 @@
-{"name":"glove","vers":"0.1.1","deps":[{"name":"defer","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"libc","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rustix","req":"^0.38","features":["fs"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1","features":["io-util","net","fs"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"5f362460f36edaa0733bb14024996a32600d5e519468ba9394370675ddb297f5","features":{},"yanked":false}
+{
+    "name": "glove",
+    "vers": "0.1.1",
+    "deps": [
+        {
+            "name": "defer",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "libc",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rustix",
+            "req": "^0.38",
+            "features": [
+                "fs"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1",
+            "features": [
+                "io-util",
+                "net",
+                "fs"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "5f362460f36edaa0733bb14024996a32600d5e519468ba9394370675ddb297f5",
+    "features": {},
+    "yanked": false
+}

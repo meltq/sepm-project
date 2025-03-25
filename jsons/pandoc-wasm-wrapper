@@ -1,1 +1,38 @@
-{"name":"pandoc-wasm-wrapper","vers":"0.1.0","deps":[{"name":"reqwest","req":"^0.12.9","features":["blocking"],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"wasmer","req":"^5.0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"wasmer-wasix","req":"^0.32.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"c723e15db9f134fcfbce9812902cbcd69d2d50a9beb2d94d123dfc55a923634c","features":{},"yanked":false}
+{
+    "name": "pandoc-wasm-wrapper",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "reqwest",
+            "req": "^0.12.9",
+            "features": [
+                "blocking"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "wasmer",
+            "req": "^5.0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "wasmer-wasix",
+            "req": "^0.32.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "c723e15db9f134fcfbce9812902cbcd69d2d50a9beb2d94d123dfc55a923634c",
+    "features": {},
+    "yanked": false
+}

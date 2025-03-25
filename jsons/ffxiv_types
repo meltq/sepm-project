@@ -1,1 +1,51 @@
-{"name":"ffxiv_types","vers":"0.1.0","deps":[{"name":"serde","req":"^1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_derive","req":"^1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"7c0e52962d81b2bb633a567f207342dfc45e65003fd4542d955289e9104b4125","features":{"all_const":[],"combat_jobs":[],"data_centers":[],"default":["jobs","roles","data_centers","worlds","all_const"],"job_classifications":[],"jobs":["combat_jobs","non_combat_jobs","job_classifications"],"non_combat_jobs":[],"roles":[],"with_serde":["serde","serde_derive"],"worlds":[]},"yanked":false}
+{
+    "name": "ffxiv_types",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "serde",
+            "req": "^1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_derive",
+            "req": "^1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "7c0e52962d81b2bb633a567f207342dfc45e65003fd4542d955289e9104b4125",
+    "features": {
+        "all_const": [],
+        "combat_jobs": [],
+        "data_centers": [],
+        "default": [
+            "jobs",
+            "roles",
+            "data_centers",
+            "worlds",
+            "all_const"
+        ],
+        "job_classifications": [],
+        "jobs": [
+            "combat_jobs",
+            "non_combat_jobs",
+            "job_classifications"
+        ],
+        "non_combat_jobs": [],
+        "roles": [],
+        "with_serde": [
+            "serde",
+            "serde_derive"
+        ],
+        "worlds": []
+    },
+    "yanked": false
+}

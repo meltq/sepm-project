@@ -1,1 +1,85 @@
-{"name":"map_await","vers":"0.1.1","deps":[{"name":"aok","req":"^0.1.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"aok","req":"^0.1.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"loginit","req":"^0.1.10","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"static_init","req":"^1.0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"tokio","req":"^1.37.0","features":["macros","rt","rt-multi-thread","time","fs","io-util"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.37.0","features":["macros","rt","rt-multi-thread","time","sync"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"tracing","req":"^0.1.40","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"98baf1a0449a238940d2a8a7aa0a73aa2f3a50885da0e9731229b571d8f0f296","features":{},"yanked":false}
+{
+    "name": "map_await",
+    "vers": "0.1.1",
+    "deps": [
+        {
+            "name": "aok",
+            "req": "^0.1.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "aok",
+            "req": "^0.1.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "loginit",
+            "req": "^0.1.10",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "static_init",
+            "req": "^1.0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.37.0",
+            "features": [
+                "macros",
+                "rt",
+                "rt-multi-thread",
+                "time",
+                "fs",
+                "io-util"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.37.0",
+            "features": [
+                "macros",
+                "rt",
+                "rt-multi-thread",
+                "time",
+                "sync"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1.40",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "98baf1a0449a238940d2a8a7aa0a73aa2f3a50885da0e9731229b571d8f0f296",
+    "features": {},
+    "yanked": false
+}

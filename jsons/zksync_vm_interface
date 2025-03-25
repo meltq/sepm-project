@@ -1,1 +1,117 @@
-{"name":"zksync_vm_interface","vers":"26.1.0-non-semver-compat","deps":[{"name":"anyhow","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"assert_matches","req":"^1.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"async-trait","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"hex","req":"^0.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"pretty_assertions","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"thiserror","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"zksync_contracts","req":"=26.1.0-non-semver-compat","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"zksync_system_constants","req":"=26.1.0-non-semver-compat","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"zksync_types","req":"=26.1.0-non-semver-compat","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"537176886673949ba437e8db99162d96c7efdb13e48f03e9e488840b8fd8ef18","features":{},"yanked":false}
+{
+    "name": "zksync_vm_interface",
+    "vers": "26.1.0-non-semver-compat",
+    "deps": [
+        {
+            "name": "anyhow",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "assert_matches",
+            "req": "^1.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "async-trait",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "hex",
+            "req": "^0.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "pretty_assertions",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "thiserror",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "zksync_contracts",
+            "req": "=26.1.0-non-semver-compat",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "zksync_system_constants",
+            "req": "=26.1.0-non-semver-compat",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "zksync_types",
+            "req": "=26.1.0-non-semver-compat",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "537176886673949ba437e8db99162d96c7efdb13e48f03e9e488840b8fd8ef18",
+    "features": {},
+    "yanked": false
+}

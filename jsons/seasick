@@ -1,1 +1,34 @@
-{"name":"seasick","vers":"0.1.0","deps":[{"name":"libc","req":"^0.2.166","features":[],"optional":true,"default_features":false,"target":null,"kind":"normal"}],"cksum":"567364672fe707341525041972feadfbb65d359b05c44bedd0da721cc5231cc9","features":{"alloc":[]},"features2":{"default":["std","libc"],"libc":["dep:libc"],"std":["alloc","libc?/std"]},"yanked":false,"v":2}
+{
+    "name": "seasick",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "libc",
+            "req": "^0.2.166",
+            "features": [],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "567364672fe707341525041972feadfbb65d359b05c44bedd0da721cc5231cc9",
+    "features": {
+        "alloc": []
+    },
+    "features2": {
+        "default": [
+            "std",
+            "libc"
+        ],
+        "libc": [
+            "dep:libc"
+        ],
+        "std": [
+            "alloc",
+            "libc?/std"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

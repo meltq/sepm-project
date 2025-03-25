@@ -1,1 +1,83 @@
-{"name":"pragmatic-segmenter","vers":"0.1.0","deps":[{"name":"aho-corasick","req":"^0.7","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"indicatif","req":"^0.15","features":["rayon"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"onig","req":"^6","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rayon","req":"^1.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"regex","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"unic-ucd-case","req":"^0.9.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"xz2","req":"^0.1.6","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"e96502cbed1a34e66976e3b569dd884a0e5b86c9fbac384195c6391a2d36f2ef","features":{},"yanked":false}
+{
+    "name": "pragmatic-segmenter",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "aho-corasick",
+            "req": "^0.7",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "indicatif",
+            "req": "^0.15",
+            "features": [
+                "rayon"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "onig",
+            "req": "^6",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rayon",
+            "req": "^1.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "regex",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "unic-ucd-case",
+            "req": "^0.9.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "xz2",
+            "req": "^0.1.6",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "e96502cbed1a34e66976e3b569dd884a0e5b86c9fbac384195c6391a2d36f2ef",
+    "features": {},
+    "yanked": false
+}

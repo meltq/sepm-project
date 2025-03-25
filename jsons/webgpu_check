@@ -1,1 +1,55 @@
-{"name":"webgpu_check","vers":"0.1.1","deps":[{"name":"notify-rust","req":"^4.11.0","features":[],"optional":false,"default_features":true,"target":"cfg(not(target_arch = \"wasm32\"))","kind":"dev"},{"name":"wasm-bindgen-test","req":"^0.3.42","features":[],"optional":false,"default_features":true,"target":"cfg(target_arch = \"wasm32\")","kind":"dev"},{"name":"web-sys","req":"^0.3","features":["Window","Navigator","Gpu"],"optional":false,"default_features":true,"target":"cfg(target_arch = \"wasm32\")","kind":"normal"},{"name":"web-sys","req":"^0.3","features":["Window","Document","HtmlElement","Navigator","Gpu"],"optional":false,"default_features":true,"target":"cfg(target_arch = \"wasm32\")","kind":"dev"}],"cksum":"992656017266a9c4e48e9596c59878a09302b31d6abd27f01da8b126e1f2461e","features":{},"yanked":true}
+{
+    "name": "webgpu_check",
+    "vers": "0.1.1",
+    "deps": [
+        {
+            "name": "notify-rust",
+            "req": "^4.11.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": "cfg(not(target_arch = \"wasm32\"))",
+            "kind": "dev"
+        },
+        {
+            "name": "wasm-bindgen-test",
+            "req": "^0.3.42",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": "cfg(target_arch = \"wasm32\")",
+            "kind": "dev"
+        },
+        {
+            "name": "web-sys",
+            "req": "^0.3",
+            "features": [
+                "Window",
+                "Navigator",
+                "Gpu"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": "cfg(target_arch = \"wasm32\")",
+            "kind": "normal"
+        },
+        {
+            "name": "web-sys",
+            "req": "^0.3",
+            "features": [
+                "Window",
+                "Document",
+                "HtmlElement",
+                "Navigator",
+                "Gpu"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": "cfg(target_arch = \"wasm32\")",
+            "kind": "dev"
+        }
+    ],
+    "cksum": "992656017266a9c4e48e9596c59878a09302b31d6abd27f01da8b126e1f2461e",
+    "features": {},
+    "yanked": true
+}

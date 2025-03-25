@@ -1,1 +1,57 @@
-{"name":"oxc_sourcemap","vers":"0.11.0","deps":[{"name":"base64-simd","req":"^0.7","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rayon","req":"^1.10.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rustc-hash","req":"^1.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.197","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.115","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"0e2b6596388e1a50c61f13954d13eb81b522832050276bf15c56d3ec9f3759b1","features":{},"yanked":false,"rust_version":"1.74"}
+{
+    "name": "oxc_sourcemap",
+    "vers": "0.11.0",
+    "deps": [
+        {
+            "name": "base64-simd",
+            "req": "^0.7",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rayon",
+            "req": "^1.10.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rustc-hash",
+            "req": "^1.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.197",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.115",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "0e2b6596388e1a50c61f13954d13eb81b522832050276bf15c56d3ec9f3759b1",
+    "features": {},
+    "yanked": false,
+    "rust_version": "1.74"
+}

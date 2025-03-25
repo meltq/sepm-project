@@ -1,1 +1,92 @@
-{"name":"daipendency-extractor-rust","vers":"0.1.0","deps":[{"name":"assertables","req":"^9.5.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"cc","req":"^1.2.6","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"daipendency-extractor","req":"^1.0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.217","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tempfile","req":"^3.10.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"toml","req":"^0.8.19","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tree-sitter","req":"^0.24.6","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tree-sitter-rust","req":"^0.23.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"walkdir","req":"^2.4.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"8dcb70ecf651be74db712e82c4fae34a63216146e05d73233619aaca5f6539d5","features":{},"yanked":false}
+{
+    "name": "daipendency-extractor-rust",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "assertables",
+            "req": "^9.5.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "cc",
+            "req": "^1.2.6",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "daipendency-extractor",
+            "req": "^1.0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.217",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tempfile",
+            "req": "^3.10.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "toml",
+            "req": "^0.8.19",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tree-sitter",
+            "req": "^0.24.6",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tree-sitter-rust",
+            "req": "^0.23.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "walkdir",
+            "req": "^2.4.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "8dcb70ecf651be74db712e82c4fae34a63216146e05d73233619aaca5f6539d5",
+    "features": {},
+    "yanked": false
+}

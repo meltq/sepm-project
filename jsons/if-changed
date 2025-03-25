@@ -1,1 +1,65 @@
-{"name":"if-changed","vers":"0.1.0","deps":[{"name":"bstr","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"clap","req":"^4","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"git2","req":"^0.18","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"indoc","req":"^2","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"insta","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"tempfile","req":"^3","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"52e3004de839c2406340e01e4f78989261753cefe78e58870d6c3e6371372305","features":{},"yanked":false}
+{
+    "name": "if-changed",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "bstr",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "clap",
+            "req": "^4",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "git2",
+            "req": "^0.18",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "indoc",
+            "req": "^2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "insta",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "tempfile",
+            "req": "^3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "52e3004de839c2406340e01e4f78989261753cefe78e58870d6c3e6371372305",
+    "features": {},
+    "yanked": false
+}

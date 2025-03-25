@@ -1,1 +1,68 @@
-{"name":"flood-tide","vers":"0.1.15","deps":[{"name":"criterion","req":"^0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"criterion-cycles-per-byte","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"05c7ac19930e54c63b297d0484aad6fcde35c4e9db071e12457e0e34a165b1b9","features":{"abbreviate":[],"argument":[],"default":["plain"],"long_only":[],"no_std":[],"no_std_plain":["no_std","plain"],"option_argument":[],"optnum_u16":[],"plain":["option_argument","argument","stop_at_mm"],"plain_lo":["plain","long_only"],"plain_lo_subc":["plain","long_only","subcommand"],"plain_subc":["plain","subcommand"],"simple_gnu_style":["plain","abbreviate"],"single_error":[],"stop_at_free":[],"stop_at_mm":[],"subcommand":[],"was_long":[]},"yanked":true}
+{
+    "name": "flood-tide",
+    "vers": "0.1.15",
+    "deps": [
+        {
+            "name": "criterion",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "criterion-cycles-per-byte",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "05c7ac19930e54c63b297d0484aad6fcde35c4e9db071e12457e0e34a165b1b9",
+    "features": {
+        "abbreviate": [],
+        "argument": [],
+        "default": [
+            "plain"
+        ],
+        "long_only": [],
+        "no_std": [],
+        "no_std_plain": [
+            "no_std",
+            "plain"
+        ],
+        "option_argument": [],
+        "optnum_u16": [],
+        "plain": [
+            "option_argument",
+            "argument",
+            "stop_at_mm"
+        ],
+        "plain_lo": [
+            "plain",
+            "long_only"
+        ],
+        "plain_lo_subc": [
+            "plain",
+            "long_only",
+            "subcommand"
+        ],
+        "plain_subc": [
+            "plain",
+            "subcommand"
+        ],
+        "simple_gnu_style": [
+            "plain",
+            "abbreviate"
+        ],
+        "single_error": [],
+        "stop_at_free": [],
+        "stop_at_mm": [],
+        "subcommand": [],
+        "was_long": []
+    },
+    "yanked": true
+}

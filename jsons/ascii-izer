@@ -1,1 +1,38 @@
-{"name":"ascii-izer","vers":"0.1.0","deps":[{"name":"crossterm","req":"^0.28.1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"image","req":"^0.25.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"4eb17c342863e2ec374282b1a2dbcd0c2d3dbfd90c9650e2c9f6694c9ca2e4b0","features":{"color":[],"default":["color"]},"features2":{"crossterm":["dep:crossterm"]},"yanked":false,"v":2}
+{
+    "name": "ascii-izer",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "crossterm",
+            "req": "^0.28.1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "image",
+            "req": "^0.25.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "4eb17c342863e2ec374282b1a2dbcd0c2d3dbfd90c9650e2c9f6694c9ca2e4b0",
+    "features": {
+        "color": [],
+        "default": [
+            "color"
+        ]
+    },
+    "features2": {
+        "crossterm": [
+            "dep:crossterm"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

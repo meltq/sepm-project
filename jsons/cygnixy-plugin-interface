@@ -1,1 +1,41 @@
-{"name":"cygnixy-plugin-interface","vers":"0.1.0","deps":[{"name":"libloading","req":"^0.8","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"mlua","req":"^0.10","features":["luau","vendored","serialize","error-send"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"283a21363a87f0576a8a8ab483ec3aec421657f90b41f47cc32babd2c8e218e3","features":{},"yanked":false}
+{
+    "name": "cygnixy-plugin-interface",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "libloading",
+            "req": "^0.8",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "mlua",
+            "req": "^0.10",
+            "features": [
+                "luau",
+                "vendored",
+                "serialize",
+                "error-send"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "283a21363a87f0576a8a8ab483ec3aec421657f90b41f47cc32babd2c8e218e3",
+    "features": {},
+    "yanked": false
+}

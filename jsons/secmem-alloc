@@ -1,1 +1,72 @@
-{"name":"secmem-alloc","vers":"0.1.0","deps":[{"name":"cc","req":"^1.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"build"},{"name":"cfg-if","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"criterion","req":"^0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"libc","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^1.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"3bb3bde87abf0fe1d4c8b51285cb408553f0f9fb9844e82b9179a29482243ac6","features":{"default":["std","cc"],"dev":["std","nightly_allocator_api"],"nightly":["nightly_allocator_api","nightly_core_intrinsics"],"nightly_allocator_api":[],"nightly_core_intrinsics":[],"std":["thiserror"]},"yanked":false}
+{
+    "name": "secmem-alloc",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "cc",
+            "req": "^1.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "cfg-if",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "criterion",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "libc",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^1.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "3bb3bde87abf0fe1d4c8b51285cb408553f0f9fb9844e82b9179a29482243ac6",
+    "features": {
+        "default": [
+            "std",
+            "cc"
+        ],
+        "dev": [
+            "std",
+            "nightly_allocator_api"
+        ],
+        "nightly": [
+            "nightly_allocator_api",
+            "nightly_core_intrinsics"
+        ],
+        "nightly_allocator_api": [],
+        "nightly_core_intrinsics": [],
+        "std": [
+            "thiserror"
+        ]
+    },
+    "yanked": false
+}

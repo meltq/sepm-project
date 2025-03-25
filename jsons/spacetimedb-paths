@@ -1,1 +1,95 @@
-{"name":"spacetimedb-paths","vers":"1.0.0-rc3","deps":[{"name":"anyhow","req":"^1.0.68","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"chrono","req":"^0.4.24","features":["now"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"dirs","req":"^5.0.1","features":[],"optional":false,"default_features":true,"target":"cfg(windows)","kind":"normal"},{"name":"fs2","req":"^0.4.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"itoa","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.136","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tempfile","req":"^3.8","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"thiserror","req":"^1.0.37","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"xdg","req":"^2.5","features":[],"optional":false,"default_features":true,"target":"cfg(not(windows))","kind":"normal"}],"cksum":"29d568264711a3013b2de52f846575ede45867f7090c47455f5921c72f388546","features":{},"yanked":false,"rust_version":"1.78.0"}
+{
+    "name": "spacetimedb-paths",
+    "vers": "1.0.0-rc3",
+    "deps": [
+        {
+            "name": "anyhow",
+            "req": "^1.0.68",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "chrono",
+            "req": "^0.4.24",
+            "features": [
+                "now"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "dirs",
+            "req": "^5.0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": "cfg(windows)",
+            "kind": "normal"
+        },
+        {
+            "name": "fs2",
+            "req": "^0.4.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "itoa",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.136",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tempfile",
+            "req": "^3.8",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "thiserror",
+            "req": "^1.0.37",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "xdg",
+            "req": "^2.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": "cfg(not(windows))",
+            "kind": "normal"
+        }
+    ],
+    "cksum": "29d568264711a3013b2de52f846575ede45867f7090c47455f5921c72f388546",
+    "features": {},
+    "yanked": false,
+    "rust_version": "1.78.0"
+}

@@ -1,1 +1,78 @@
-{"name":"data-for-seo","vers":"0.1.0","deps":[{"name":"base64","req":"^0.22.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"csv","req":"^1.3.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"dotenv","req":"^0.15.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"reqwest","req":"^0.12.9","features":["json"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"~1","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"~1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"~1","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"b7afa67d8c597b1dab5232ec01271f7f0fba274e67018db86989e7fddf65d3cd","features":{},"yanked":false}
+{
+    "name": "data-for-seo",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "base64",
+            "req": "^0.22.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "csv",
+            "req": "^1.3.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "dotenv",
+            "req": "^0.15.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "reqwest",
+            "req": "^0.12.9",
+            "features": [
+                "json"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "~1",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "~1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "~1",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "b7afa67d8c597b1dab5232ec01271f7f0fba274e67018db86989e7fddf65d3cd",
+    "features": {},
+    "yanked": false
+}

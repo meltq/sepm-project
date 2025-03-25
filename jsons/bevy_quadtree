@@ -1,1 +1,62 @@
-{"name":"bevy_quadtree","vers":"0.15.1-alpha1","deps":[{"name":"bevy","req":"^0.15.1","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"parking_lot","req":"^0.12.3","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"paste","req":"^1.0.15","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"rand","req":"^0.8.5","features":[],"optional":false,"default_features":false,"target":null,"kind":"dev"},{"name":"rand_chacha","req":"^0.3.1","features":[],"optional":false,"default_features":false,"target":null,"kind":"dev"}],"cksum":"2bdbeb0951771d305ef2ffb14c6555c741957dcf8d7c8a34015d171789fe7e38","features":{"default":[],"gizmos":["bevy/bevy_gizmos"],"sprite":["bevy/bevy_sprite"]},"yanked":false}
+{
+    "name": "bevy_quadtree",
+    "vers": "0.15.1-alpha1",
+    "deps": [
+        {
+            "name": "bevy",
+            "req": "^0.15.1",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "parking_lot",
+            "req": "^0.12.3",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "paste",
+            "req": "^1.0.15",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rand",
+            "req": "^0.8.5",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "rand_chacha",
+            "req": "^0.3.1",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "2bdbeb0951771d305ef2ffb14c6555c741957dcf8d7c8a34015d171789fe7e38",
+    "features": {
+        "default": [],
+        "gizmos": [
+            "bevy/bevy_gizmos"
+        ],
+        "sprite": [
+            "bevy/bevy_sprite"
+        ]
+    },
+    "yanked": false
+}

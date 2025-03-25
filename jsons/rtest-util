@@ -1,1 +1,53 @@
-{"name":"rtest-util","vers":"0.1.0","deps":[{"name":"darling","req":"^0.20","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"proc-macro2","req":"^1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"quote","req":"^1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1","features":["derive"],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"d3ce961bdc6e48c02bb311ef0f430e8e15efbab6f92502246385530a16466572","features":{"derive":["darling","quote","proc-macro2"]},"yanked":false}
+{
+    "name": "rtest-util",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "darling",
+            "req": "^0.20",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "proc-macro2",
+            "req": "^1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "quote",
+            "req": "^1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1",
+            "features": [
+                "derive"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "d3ce961bdc6e48c02bb311ef0f430e8e15efbab6f92502246385530a16466572",
+    "features": {
+        "derive": [
+            "darling",
+            "quote",
+            "proc-macro2"
+        ]
+    },
+    "yanked": false
+}

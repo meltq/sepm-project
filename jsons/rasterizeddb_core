@@ -1,1 +1,67 @@
-{"name":"rasterizeddb_core","vers":"0.0.1","deps":[{"name":"ahash","req":"^0.8","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"byteorder","req":"^1.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"itertools","req":"^0.13","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"moka","req":"^0.12","features":["sync"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"once_cell","req":"^1.20","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"5af6e1738e0559b6affd3a1571eaa072cd09dcb018eb9d04d5e03af7e6fe12bd","features":{},"yanked":false}
+{
+    "name": "rasterizeddb_core",
+    "vers": "0.0.1",
+    "deps": [
+        {
+            "name": "ahash",
+            "req": "^0.8",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "byteorder",
+            "req": "^1.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "itertools",
+            "req": "^0.13",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "moka",
+            "req": "^0.12",
+            "features": [
+                "sync"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "once_cell",
+            "req": "^1.20",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "5af6e1738e0559b6affd3a1571eaa072cd09dcb018eb9d04d5e03af7e6fe12bd",
+    "features": {},
+    "yanked": false
+}

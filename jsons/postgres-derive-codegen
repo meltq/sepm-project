@@ -1,1 +1,45 @@
-{"name":"postgres-derive-codegen","vers":"0.1.0","deps":[{"name":"syntex","req":"^0.29","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"syntex","req":"^0.29","features":[],"optional":true,"default_features":true,"target":null,"kind":"build"},{"name":"syntex_syntax","req":"^0.29","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"775eabce6533e95468da627fc9afb597e19d98c12dc6735cc73ffc857ce08c48","features":{"default":["with-syntex"],"nightly":[],"with-syntex":["syntex","syntex_syntax"]},"yanked":false}
+{
+    "name": "postgres-derive-codegen",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "syntex",
+            "req": "^0.29",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "syntex",
+            "req": "^0.29",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "syntex_syntax",
+            "req": "^0.29",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "775eabce6533e95468da627fc9afb597e19d98c12dc6735cc73ffc857ce08c48",
+    "features": {
+        "default": [
+            "with-syntex"
+        ],
+        "nightly": [],
+        "with-syntex": [
+            "syntex",
+            "syntex_syntax"
+        ]
+    },
+    "yanked": false
+}

@@ -1,1 +1,305 @@
-{"name":"zng-wgt-inspector","vers":"0.2.2","deps":[{"name":"parking_lot","req":"^0.12","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"zng-app","req":"^0.2.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"zng-color","req":"^0.2.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"zng-ext-config","req":"^0.2.1","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"zng-ext-font","req":"^0.2.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"zng-ext-input","req":"^0.2.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"zng-ext-l10n","req":"^0.2.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"zng-ext-window","req":"^0.2.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"zng-layout","req":"^0.2.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"zng-var","req":"^0.2.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"zng-view-api","req":"^0.2.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"zng-wgt","req":"^0.2.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"zng-wgt-access","req":"^0.2.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"zng-wgt-ansi-text","req":"^0.2.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"zng-wgt-button","req":"^0.2.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"zng-wgt-container","req":"^0.2.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"zng-wgt-fill","req":"^0.2.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"zng-wgt-filter","req":"^0.2.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"zng-wgt-input","req":"^0.2.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"zng-wgt-rule-line","req":"^0.2.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"zng-wgt-scroll","req":"^0.2.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"zng-wgt-size-offset","req":"^0.2.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"zng-wgt-stack","req":"^0.2.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"zng-wgt-style","req":"^0.2.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"zng-wgt-text","req":"^0.2.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"zng-wgt-text-input","req":"^0.2.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"zng-wgt-toggle","req":"^0.2.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"zng-wgt-tooltip","req":"^0.2.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"zng-wgt-window","req":"^0.2.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"zng-wgt-wrap","req":"^0.2.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"351f7d8a483bcd006c33baacc990adaa240ed878a0fa2de82fd35e7c7140b54d","features":{"debug_default":[],"default":["debug_default"],"live":[]},"yanked":false}
+{
+    "name": "zng-wgt-inspector",
+    "vers": "0.2.2",
+    "deps": [
+        {
+            "name": "parking_lot",
+            "req": "^0.12",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "zng-app",
+            "req": "^0.2.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "zng-color",
+            "req": "^0.2.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "zng-ext-config",
+            "req": "^0.2.1",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "zng-ext-font",
+            "req": "^0.2.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "zng-ext-input",
+            "req": "^0.2.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "zng-ext-l10n",
+            "req": "^0.2.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "zng-ext-window",
+            "req": "^0.2.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "zng-layout",
+            "req": "^0.2.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "zng-var",
+            "req": "^0.2.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "zng-view-api",
+            "req": "^0.2.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "zng-wgt",
+            "req": "^0.2.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "zng-wgt-access",
+            "req": "^0.2.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "zng-wgt-ansi-text",
+            "req": "^0.2.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "zng-wgt-button",
+            "req": "^0.2.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "zng-wgt-container",
+            "req": "^0.2.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "zng-wgt-fill",
+            "req": "^0.2.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "zng-wgt-filter",
+            "req": "^0.2.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "zng-wgt-input",
+            "req": "^0.2.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "zng-wgt-rule-line",
+            "req": "^0.2.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "zng-wgt-scroll",
+            "req": "^0.2.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "zng-wgt-size-offset",
+            "req": "^0.2.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "zng-wgt-stack",
+            "req": "^0.2.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "zng-wgt-style",
+            "req": "^0.2.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "zng-wgt-text",
+            "req": "^0.2.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "zng-wgt-text-input",
+            "req": "^0.2.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "zng-wgt-toggle",
+            "req": "^0.2.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "zng-wgt-tooltip",
+            "req": "^0.2.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "zng-wgt-window",
+            "req": "^0.2.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "zng-wgt-wrap",
+            "req": "^0.2.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "351f7d8a483bcd006c33baacc990adaa240ed878a0fa2de82fd35e7c7140b54d",
+    "features": {
+        "debug_default": [],
+        "default": [
+            "debug_default"
+        ],
+        "live": []
+    },
+    "yanked": false
+}

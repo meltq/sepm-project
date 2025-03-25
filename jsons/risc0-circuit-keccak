@@ -1,1 +1,192 @@
-{"name":"risc0-circuit-keccak","vers":"1.2.1-rc.0","deps":[{"name":"anyhow","req":"^1.0","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"bytemuck","req":"^1.20","features":[],"optional":false,"default_features":true,"target":"cfg(not(target_os = \"zkvm\"))","kind":"normal"},{"name":"cfg-if","req":"^1.0","features":[],"optional":true,"default_features":true,"target":"cfg(not(target_os = \"zkvm\"))","kind":"normal"},{"name":"clap","req":"^4.5","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"paste","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rand","req":"^0.8","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"rayon","req":"^1.10","features":[],"optional":true,"default_features":true,"target":"cfg(not(target_os = \"zkvm\"))","kind":"normal"},{"name":"risc0-binfmt","req":"^1.2.1-rc.0","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"risc0-circuit-keccak-sys","req":"^1.2.1-rc.0","features":[],"optional":true,"default_features":false,"target":"cfg(not(target_os = \"zkvm\"))","kind":"normal"},{"name":"risc0-circuit-recursion","req":"^1.2.1-rc.0","features":[],"optional":false,"default_features":false,"target":"cfg(not(target_os = \"zkvm\"))","kind":"normal"},{"name":"risc0-core","req":"^1.2.1-rc.0","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"risc0-sys","req":"^1.2.1-rc.0","features":[],"optional":true,"default_features":false,"target":"cfg(not(target_os = \"zkvm\"))","kind":"normal"},{"name":"risc0-zkp","req":"^1.2.1-rc.0","features":["default"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"test-log","req":"^0.2","features":["trace"],"optional":false,"default_features":false,"target":null,"kind":"dev"},{"name":"tracing","req":"^0.1","features":["attributes"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"tracing-subscriber","req":"^0.3","features":["env-filter"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"xz2","req":"^0.1","features":[],"optional":true,"default_features":true,"target":"cfg(not(target_os = \"zkvm\"))","kind":"normal"}],"cksum":"ce0c34d988c3845bc42dd13b4d18a1bf43697317708b02e3ed4d699e7e7ae8aa","features":{},"features2":{"cuda":["prove","risc0-circuit-keccak-sys/cuda","risc0-sys/cuda","risc0-zkp/cuda"],"default":["prove"],"prove":["dep:cfg-if","dep:rayon","dep:risc0-circuit-keccak-sys","dep:risc0-sys","dep:xz2","risc0-circuit-recursion/prove"]},"yanked":false,"v":2}
+{
+    "name": "risc0-circuit-keccak",
+    "vers": "1.2.1-rc.0",
+    "deps": [
+        {
+            "name": "anyhow",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "bytemuck",
+            "req": "^1.20",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": "cfg(not(target_os = \"zkvm\"))",
+            "kind": "normal"
+        },
+        {
+            "name": "cfg-if",
+            "req": "^1.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": "cfg(not(target_os = \"zkvm\"))",
+            "kind": "normal"
+        },
+        {
+            "name": "clap",
+            "req": "^4.5",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "paste",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rand",
+            "req": "^0.8",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "rayon",
+            "req": "^1.10",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": "cfg(not(target_os = \"zkvm\"))",
+            "kind": "normal"
+        },
+        {
+            "name": "risc0-binfmt",
+            "req": "^1.2.1-rc.0",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "risc0-circuit-keccak-sys",
+            "req": "^1.2.1-rc.0",
+            "features": [],
+            "optional": true,
+            "default_features": false,
+            "target": "cfg(not(target_os = \"zkvm\"))",
+            "kind": "normal"
+        },
+        {
+            "name": "risc0-circuit-recursion",
+            "req": "^1.2.1-rc.0",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": "cfg(not(target_os = \"zkvm\"))",
+            "kind": "normal"
+        },
+        {
+            "name": "risc0-core",
+            "req": "^1.2.1-rc.0",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "risc0-sys",
+            "req": "^1.2.1-rc.0",
+            "features": [],
+            "optional": true,
+            "default_features": false,
+            "target": "cfg(not(target_os = \"zkvm\"))",
+            "kind": "normal"
+        },
+        {
+            "name": "risc0-zkp",
+            "req": "^1.2.1-rc.0",
+            "features": [
+                "default"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "test-log",
+            "req": "^0.2",
+            "features": [
+                "trace"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1",
+            "features": [
+                "attributes"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing-subscriber",
+            "req": "^0.3",
+            "features": [
+                "env-filter"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "xz2",
+            "req": "^0.1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": "cfg(not(target_os = \"zkvm\"))",
+            "kind": "normal"
+        }
+    ],
+    "cksum": "ce0c34d988c3845bc42dd13b4d18a1bf43697317708b02e3ed4d699e7e7ae8aa",
+    "features": {},
+    "features2": {
+        "cuda": [
+            "prove",
+            "risc0-circuit-keccak-sys/cuda",
+            "risc0-sys/cuda",
+            "risc0-zkp/cuda"
+        ],
+        "default": [
+            "prove"
+        ],
+        "prove": [
+            "dep:cfg-if",
+            "dep:rayon",
+            "dep:risc0-circuit-keccak-sys",
+            "dep:risc0-sys",
+            "dep:xz2",
+            "risc0-circuit-recursion/prove"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

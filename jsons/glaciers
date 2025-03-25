@@ -1,1 +1,95 @@
-{"name":"glaciers","vers":"1.0.0","deps":[{"name":"alloy","req":"^0.2.0","features":["json-abi","dyn-abi"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"chrono","req":"^0.4.38","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"polars","req":"^0.36.2","features":["lazy","parquet","dtype-struct","strings","semi_anti_join","binary_encoding"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.215","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.128","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"sysinfo","req":"^0.33.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^1.0.50","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.42.0","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"ba2d24efddce544f1a9f36e5b6004a4d847672cdaa7960065df944544db6aa12","features":{},"yanked":false}
+{
+    "name": "glaciers",
+    "vers": "1.0.0",
+    "deps": [
+        {
+            "name": "alloy",
+            "req": "^0.2.0",
+            "features": [
+                "json-abi",
+                "dyn-abi"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "chrono",
+            "req": "^0.4.38",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "polars",
+            "req": "^0.36.2",
+            "features": [
+                "lazy",
+                "parquet",
+                "dtype-struct",
+                "strings",
+                "semi_anti_join",
+                "binary_encoding"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.215",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.128",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "sysinfo",
+            "req": "^0.33.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^1.0.50",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.42.0",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "ba2d24efddce544f1a9f36e5b6004a4d847672cdaa7960065df944544db6aa12",
+    "features": {},
+    "yanked": false
+}

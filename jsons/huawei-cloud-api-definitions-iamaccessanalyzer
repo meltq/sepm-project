@@ -1,1 +1,103 @@
-{"name":"huawei-cloud-api-definitions-IAMAccessAnalyzer","vers":"0.1.20240402","deps":[{"name":"chrono","req":"^0","features":["serde"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"regress","req":"^0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"typify","req":"^0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"8f92aba246363e7ae25a18ccda9e006b1d7f7ee86b5bc7ad497553fb834cdd81","features":{"ApplyArchiveRule":[],"CreateAccessPreview":[],"CreateAnalyzer":[],"CreateArchiveRule":[],"DeleteAnalyzer":[],"DeleteArchiveRule":[],"GetAccessPreview":[],"ListAccessPreviews":[],"ListAnalyzers":[],"ListArchiveRules":[],"ListFindings":[],"ListPreviewFindings":[],"ShowAnalyzer":[],"ShowArchiveRule":[],"ShowFinding":[],"StartResourceScan":[],"TagResource":[],"UntagResource":[],"UpdateArchiveRule":[],"UpdateFindings":[],"ValidatePolicy":[],"full":["ApplyArchiveRule","CreateAccessPreview","CreateAnalyzer","CreateArchiveRule","DeleteAnalyzer","DeleteArchiveRule","GetAccessPreview","ListAccessPreviews","ListAnalyzers","ListArchiveRules","ListFindings","ListPreviewFindings","ShowAnalyzer","ShowArchiveRule","ShowFinding","StartResourceScan","TagResource","UntagResource","UpdateArchiveRule","UpdateFindings","ValidatePolicy"]},"yanked":false}
+{
+    "name": "huawei-cloud-api-definitions-IAMAccessAnalyzer",
+    "vers": "0.1.20240402",
+    "deps": [
+        {
+            "name": "chrono",
+            "req": "^0",
+            "features": [
+                "serde"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "regress",
+            "req": "^0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "typify",
+            "req": "^0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "8f92aba246363e7ae25a18ccda9e006b1d7f7ee86b5bc7ad497553fb834cdd81",
+    "features": {
+        "ApplyArchiveRule": [],
+        "CreateAccessPreview": [],
+        "CreateAnalyzer": [],
+        "CreateArchiveRule": [],
+        "DeleteAnalyzer": [],
+        "DeleteArchiveRule": [],
+        "GetAccessPreview": [],
+        "ListAccessPreviews": [],
+        "ListAnalyzers": [],
+        "ListArchiveRules": [],
+        "ListFindings": [],
+        "ListPreviewFindings": [],
+        "ShowAnalyzer": [],
+        "ShowArchiveRule": [],
+        "ShowFinding": [],
+        "StartResourceScan": [],
+        "TagResource": [],
+        "UntagResource": [],
+        "UpdateArchiveRule": [],
+        "UpdateFindings": [],
+        "ValidatePolicy": [],
+        "full": [
+            "ApplyArchiveRule",
+            "CreateAccessPreview",
+            "CreateAnalyzer",
+            "CreateArchiveRule",
+            "DeleteAnalyzer",
+            "DeleteArchiveRule",
+            "GetAccessPreview",
+            "ListAccessPreviews",
+            "ListAnalyzers",
+            "ListArchiveRules",
+            "ListFindings",
+            "ListPreviewFindings",
+            "ShowAnalyzer",
+            "ShowArchiveRule",
+            "ShowFinding",
+            "StartResourceScan",
+            "TagResource",
+            "UntagResource",
+            "UpdateArchiveRule",
+            "UpdateFindings",
+            "ValidatePolicy"
+        ]
+    },
+    "yanked": false
+}

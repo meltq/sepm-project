@@ -1,1 +1,47 @@
-{"name":"roboplc-derive","vers":"0.1.0","deps":[{"name":"darling","req":"^0.13.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"proc-macro2","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"quote","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"syn","req":"^1.0","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"0154cb38e5e0af16a633041e5011755c0972dd7cf1de94438106f4b70d5319fc","features":{},"yanked":false}
+{
+    "name": "roboplc-derive",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "darling",
+            "req": "^0.13.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "proc-macro2",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "quote",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "syn",
+            "req": "^1.0",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "0154cb38e5e0af16a633041e5011755c0972dd7cf1de94438106f4b70d5319fc",
+    "features": {},
+    "yanked": false
+}

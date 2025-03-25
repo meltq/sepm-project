@@ -1,1 +1,88 @@
-{"name":"datastore_connect","vers":"0.1.0","deps":[{"name":"bb8-redis","req":"^0.15.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"env_utils","req":"^0.2.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"sqlx","req":"^0.7.4","features":["runtime-tokio","tls-rustls"],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"surrealdb","req":"^1.3.1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^1.0.58","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.37.0","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"6551851a7ac6b67dc3188a2a2768a289eafc56658191c77765d6204076887a61","features":{"default":[],"mysql":["sqlx/mysql"],"postgres":["sqlx/postgres"],"sqlite":["sqlx/sqlite"]},"features2":{"redis":["dep:bb8-redis"],"surreal":["dep:surrealdb"]},"yanked":true,"v":2}
+{
+    "name": "datastore_connect",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "bb8-redis",
+            "req": "^0.15.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "env_utils",
+            "req": "^0.2.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "sqlx",
+            "req": "^0.7.4",
+            "features": [
+                "runtime-tokio",
+                "tls-rustls"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "surrealdb",
+            "req": "^1.3.1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^1.0.58",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.37.0",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "6551851a7ac6b67dc3188a2a2768a289eafc56658191c77765d6204076887a61",
+    "features": {
+        "default": [],
+        "mysql": [
+            "sqlx/mysql"
+        ],
+        "postgres": [
+            "sqlx/postgres"
+        ],
+        "sqlite": [
+            "sqlx/sqlite"
+        ]
+    },
+    "features2": {
+        "redis": [
+            "dep:bb8-redis"
+        ],
+        "surreal": [
+            "dep:surrealdb"
+        ]
+    },
+    "yanked": true,
+    "v": 2
+}

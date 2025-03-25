@@ -1,1 +1,60 @@
-{"name":"bevy_nfws","vers":"0.1.0","deps":[{"name":"async-channel","req":"^2.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"bevy","req":"^0.14","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"bevy_async_task","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"futures-util","req":"^0.3","features":["sink"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio-tungstenite-wasm","req":"^0.3.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"7d79483ea0173ea08f43df5fdc3223a7c6b6e6ae3f37917cda71e3feb2e4a593","features":{"wss":["tokio-tungstenite-wasm/rustls-tls-native-roots"]},"yanked":false}
+{
+    "name": "bevy_nfws",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "async-channel",
+            "req": "^2.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "bevy",
+            "req": "^0.14",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "bevy_async_task",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "futures-util",
+            "req": "^0.3",
+            "features": [
+                "sink"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio-tungstenite-wasm",
+            "req": "^0.3.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "7d79483ea0173ea08f43df5fdc3223a7c6b6e6ae3f37917cda71e3feb2e4a593",
+    "features": {
+        "wss": [
+            "tokio-tungstenite-wasm/rustls-tls-native-roots"
+        ]
+    },
+    "yanked": false
+}

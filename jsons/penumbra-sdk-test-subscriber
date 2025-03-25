@@ -1,1 +1,29 @@
-{"name":"penumbra-sdk-test-subscriber","vers":"0.82.0-alpha.0","deps":[{"name":"tracing","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing-subscriber","req":"^0.3.17","features":["env-filter"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"8bbd90693eb61fa02ae3c34171acb0bbbb5d282b51152d2df0d1c32ff0624b31","features":{},"yanked":false}
+{
+    "name": "penumbra-sdk-test-subscriber",
+    "vers": "0.82.0-alpha.0",
+    "deps": [
+        {
+            "name": "tracing",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing-subscriber",
+            "req": "^0.3.17",
+            "features": [
+                "env-filter"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "8bbd90693eb61fa02ae3c34171acb0bbbb5d282b51152d2df0d1c32ff0624b31",
+    "features": {},
+    "yanked": false
+}

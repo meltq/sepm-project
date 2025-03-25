@@ -1,1 +1,125 @@
-{"name":"inertia-rust","vers":"0.1.0","deps":[{"name":"actix-web","req":"~4.9.0","features":["default"],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"async-trait","req":"~0.1.83","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"futures","req":"~0.3.30","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"futures-util","req":"~0.3.31","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"log","req":"^0.4.22","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"reqwest","req":"~0.12","features":["json"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"~1.0.210","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"~1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"~1.40.0","features":["fs","io-std","test-util","rt","macros"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"vite-rust","req":"~0.2","features":["basic-directives"],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"1448c2b440064e2df8490864440437ca392df4acc768ba03b7fb4c38632ecabf","features":{},"features2":{"actix":["dep:actix-web"],"basic-vite-resolver":["dep:vite-rust"],"default":["actix"]},"yanked":false,"v":2}
+{
+    "name": "inertia-rust",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "actix-web",
+            "req": "~4.9.0",
+            "features": [
+                "default"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "async-trait",
+            "req": "~0.1.83",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "futures",
+            "req": "~0.3.30",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "futures-util",
+            "req": "~0.3.31",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "log",
+            "req": "^0.4.22",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "reqwest",
+            "req": "~0.12",
+            "features": [
+                "json"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "~1.0.210",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "~1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "~1.40.0",
+            "features": [
+                "fs",
+                "io-std",
+                "test-util",
+                "rt",
+                "macros"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "vite-rust",
+            "req": "~0.2",
+            "features": [
+                "basic-directives"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "1448c2b440064e2df8490864440437ca392df4acc768ba03b7fb4c38632ecabf",
+    "features": {},
+    "features2": {
+        "actix": [
+            "dep:actix-web"
+        ],
+        "basic-vite-resolver": [
+            "dep:vite-rust"
+        ],
+        "default": [
+            "actix"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

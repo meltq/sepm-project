@@ -1,1 +1,78 @@
-{"name":"rusaint-cli","vers":"0.1.0","deps":[{"name":"clap","req":"^4.5.27","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"dotenv","req":"^0.15.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rusaint","req":"^0.8.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^2.0.8","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.29.1","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"d0218abbbfc95ed4ed90746be0d9b0781253eb84ecbc4972244d90178a0ea7cb","features":{},"yanked":false}
+{
+    "name": "rusaint-cli",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "clap",
+            "req": "^4.5.27",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "dotenv",
+            "req": "^0.15.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rusaint",
+            "req": "^0.8.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^2.0.8",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.29.1",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "d0218abbbfc95ed4ed90746be0d9b0781253eb84ecbc4972244d90178a0ea7cb",
+    "features": {},
+    "yanked": false
+}

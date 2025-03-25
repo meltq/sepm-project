@@ -1,1 +1,83 @@
-{"name":"hdp-worker","vers":"0.1.0","deps":[{"name":"async-nats","req":"^0.38.0","features":["service"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"bytes","req":"^1.9.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"futures","req":"^0.3.31","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"hdp_protobufs","req":"^0.1.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"prost","req":"^0.13.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^2.0.11","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.43.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"ulid","req":"^1.1.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"422615bcbbf4743522d2c6ba606fa4fd28c1025bcf00e366269ec719a6ed89fb","features":{},"yanked":false}
+{
+    "name": "hdp-worker",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "async-nats",
+            "req": "^0.38.0",
+            "features": [
+                "service"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "bytes",
+            "req": "^1.9.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "futures",
+            "req": "^0.3.31",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "hdp_protobufs",
+            "req": "^0.1.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "prost",
+            "req": "^0.13.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^2.0.11",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.43.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ulid",
+            "req": "^1.1.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "422615bcbbf4743522d2c6ba606fa4fd28c1025bcf00e366269ec719a6ed89fb",
+    "features": {},
+    "yanked": false
+}

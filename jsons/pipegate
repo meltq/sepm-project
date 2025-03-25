@@ -1,1 +1,78 @@
-{"name":"pipegate","vers":"0.1.0","deps":[{"name":"alloy","req":"^0.6.4","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"axum","req":"^0.7.8","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.215","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.132","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_with","req":"^3.11.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^2.0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.41.1","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"eec621f474df5f0ffd6b0d7437284869d06a9cc39b42bd6e008700007b41d6bf","features":{},"yanked":false}
+{
+    "name": "pipegate",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "alloy",
+            "req": "^0.6.4",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "axum",
+            "req": "^0.7.8",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.215",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.132",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_with",
+            "req": "^3.11.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^2.0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.41.1",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "eec621f474df5f0ffd6b0d7437284869d06a9cc39b42bd6e008700007b41d6bf",
+    "features": {},
+    "yanked": false
+}

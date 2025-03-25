@@ -1,1 +1,30 @@
-{"name":"nanom","vers":"0.1.0","deps":[{"name":"nanom-derive","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"napi-sys","req":"^2.4.0","features":["napi9","dyn-symbols"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"7f4675ca257a642687a00a1ccb922b11e5a9811533a24f059d87c525ff149e14","features":{},"yanked":false}
+{
+    "name": "nanom",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "nanom-derive",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "napi-sys",
+            "req": "^2.4.0",
+            "features": [
+                "napi9",
+                "dyn-symbols"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "7f4675ca257a642687a00a1ccb922b11e5a9811533a24f059d87c525ff149e14",
+    "features": {},
+    "yanked": false
+}

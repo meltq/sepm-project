@@ -1,1 +1,109 @@
-{"name":"relib_host","vers":"0.1.2","deps":[{"name":"libc","req":"^0.2.164","features":[],"optional":false,"default_features":true,"target":"cfg(target_os = \"linux\")","kind":"normal"},{"name":"libloading","req":"^0.8.6","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"relib_interface","req":"=0.1.2","features":["include"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"relib_interface","req":"=0.1.2","features":["internal","build"],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"relib_internal_crate_compilation_info","req":"=0.1.2","features":["normal"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"relib_internal_crate_compilation_info","req":"=0.1.2","features":["build"],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"relib_internal_shared","req":"=0.1.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"relib_internal_shared","req":"=0.1.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"thiserror","req":"^2.0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thread-id","req":"^5.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"bdd4fe41e9e6a972cc8fac8afee7534674777e29d3df9d77e7381af86e2c648a","features":{},"yanked":false,"rust_version":"1.83.0"}
+{
+    "name": "relib_host",
+    "vers": "0.1.2",
+    "deps": [
+        {
+            "name": "libc",
+            "req": "^0.2.164",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": "cfg(target_os = \"linux\")",
+            "kind": "normal"
+        },
+        {
+            "name": "libloading",
+            "req": "^0.8.6",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "relib_interface",
+            "req": "=0.1.2",
+            "features": [
+                "include"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "relib_interface",
+            "req": "=0.1.2",
+            "features": [
+                "internal",
+                "build"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "relib_internal_crate_compilation_info",
+            "req": "=0.1.2",
+            "features": [
+                "normal"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "relib_internal_crate_compilation_info",
+            "req": "=0.1.2",
+            "features": [
+                "build"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "relib_internal_shared",
+            "req": "=0.1.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "relib_internal_shared",
+            "req": "=0.1.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "thiserror",
+            "req": "^2.0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thread-id",
+            "req": "^5.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "bdd4fe41e9e6a972cc8fac8afee7534674777e29d3df9d77e7381af86e2c648a",
+    "features": {},
+    "yanked": false,
+    "rust_version": "1.83.0"
+}

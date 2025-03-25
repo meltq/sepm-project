@@ -1,1 +1,52 @@
-{"name":"ckb_ssri_sdk","vers":"0.1.0","deps":[{"name":"ckb-std","req":"^0.16.4","features":["allocator","ckb-types"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"ckb_ssri_sdk_proc_macro","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.210","features":["derive"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"serde_molecule","req":"^1.1.0","features":["alloc"],"optional":false,"default_features":false,"target":null,"kind":"normal"}],"cksum":"ef8de7c71eae2dc2aae8b9fb7bf97f2db635f076b53550febd9424922c8f3895","features":{},"yanked":false}
+{
+    "name": "ckb_ssri_sdk",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "ckb-std",
+            "req": "^0.16.4",
+            "features": [
+                "allocator",
+                "ckb-types"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ckb_ssri_sdk_proc_macro",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.210",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_molecule",
+            "req": "^1.1.0",
+            "features": [
+                "alloc"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "ef8de7c71eae2dc2aae8b9fb7bf97f2db635f076b53550febd9424922c8f3895",
+    "features": {},
+    "yanked": false
+}

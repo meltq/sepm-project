@@ -1,1 +1,79 @@
-{"name":"libflo_event","vers":"0.1.0","deps":[{"name":"error-chain","req":"^0.7","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"libflo_func","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"libflo_module","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^0.8","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_codegen","req":"^0.8","features":[],"optional":true,"default_features":true,"target":null,"kind":"build"},{"name":"serde_json","req":"^0.8","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_macros","req":"^0.8","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"2fe71fc7f4d8513d8a3e3a54559276553cf08f68a39fe76814191eeb443869fe","features":{"default":["serde_codegen"],"unstable":["serde_macros"]},"yanked":false}
+{
+    "name": "libflo_event",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "error-chain",
+            "req": "^0.7",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "libflo_func",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "libflo_module",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^0.8",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_codegen",
+            "req": "^0.8",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "serde_json",
+            "req": "^0.8",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_macros",
+            "req": "^0.8",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "2fe71fc7f4d8513d8a3e3a54559276553cf08f68a39fe76814191eeb443869fe",
+    "features": {
+        "default": [
+            "serde_codegen"
+        ],
+        "unstable": [
+            "serde_macros"
+        ]
+    },
+    "yanked": false
+}

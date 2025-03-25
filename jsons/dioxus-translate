@@ -1,1 +1,55 @@
-{"name":"dioxus-translate","vers":"0.1.0","deps":[{"name":"dioxus-translate-macro","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"dioxus-translate-types","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.197","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"web-sys","req":"^0.3.76","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"bf55ba0b1ac90bb8bcc31c45d7f91ad26529c669bcc6f89e7175368d5a59cf29","features":{"ko":["dioxus-translate-types/ko","dioxus-translate-macro/ko"],"web":["web-sys"]},"yanked":false}
+{
+    "name": "dioxus-translate",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "dioxus-translate-macro",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "dioxus-translate-types",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.197",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "web-sys",
+            "req": "^0.3.76",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "bf55ba0b1ac90bb8bcc31c45d7f91ad26529c669bcc6f89e7175368d5a59cf29",
+    "features": {
+        "ko": [
+            "dioxus-translate-types/ko",
+            "dioxus-translate-macro/ko"
+        ],
+        "web": [
+            "web-sys"
+        ]
+    },
+    "yanked": false
+}

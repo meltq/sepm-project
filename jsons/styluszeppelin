@@ -1,1 +1,60 @@
-{"name":"styluszeppelin","vers":"0.1.0","deps":[{"name":"alloy-primitives","req":"^0.3.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"alloy-sol-types","req":"^0.3.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"stylus-proc","req":"^0.4.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"stylus-sdk","req":"^0.4.3","features":["docs"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"wee_alloc","req":"^0.4.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"c86f998e4f11cc1da0d2dd2cbb39916519f6c3fcbb8e700d8b4809b3f0cadb8d","features":{"export-abi":["stylus-sdk/export-abi"]},"yanked":false}
+{
+    "name": "styluszeppelin",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "alloy-primitives",
+            "req": "^0.3.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "alloy-sol-types",
+            "req": "^0.3.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "stylus-proc",
+            "req": "^0.4.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "stylus-sdk",
+            "req": "^0.4.3",
+            "features": [
+                "docs"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "wee_alloc",
+            "req": "^0.4.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "c86f998e4f11cc1da0d2dd2cbb39916519f6c3fcbb8e700d8b4809b3f0cadb8d",
+    "features": {
+        "export-abi": [
+            "stylus-sdk/export-abi"
+        ]
+    },
+    "yanked": false
+}

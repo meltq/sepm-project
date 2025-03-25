@@ -1,1 +1,86 @@
-{"name":"rustcraft","vers":"0.1.0","deps":[{"name":"chrono","req":"^0.4.39","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"colored","req":"^3.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"gl","req":"^0.14.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"glfw","req":"^0.59.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"image","req":"^0.25.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"json","req":"^0.12.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"lazy_static","req":"^1.5.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"5b49e68192d1fe44de747dcd94319bd2b504bff0f04afcb1826a08a6df300d1d","features":{"default":["log_debug"],"log_debug":["log_info"],"log_error":[],"log_info":["log_warn"],"log_warn":["log_error"]},"yanked":false}
+{
+    "name": "rustcraft",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "chrono",
+            "req": "^0.4.39",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "colored",
+            "req": "^3.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "gl",
+            "req": "^0.14.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "glfw",
+            "req": "^0.59.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "image",
+            "req": "^0.25.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "json",
+            "req": "^0.12.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "lazy_static",
+            "req": "^1.5.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "5b49e68192d1fe44de747dcd94319bd2b504bff0f04afcb1826a08a6df300d1d",
+    "features": {
+        "default": [
+            "log_debug"
+        ],
+        "log_debug": [
+            "log_info"
+        ],
+        "log_error": [],
+        "log_info": [
+            "log_warn"
+        ],
+        "log_warn": [
+            "log_error"
+        ]
+    },
+    "yanked": false
+}

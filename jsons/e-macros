@@ -1,1 +1,40 @@
-{"name":"e-macros","vers":"0.1.0","deps":[{"name":"proc-macro2","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"quote","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"syn","req":"^2.0","features":["full","visit"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"1c7bb89b13cef3b483e084b2cfb05a1668b8fcf30bb8de97b04d3f58d85729ed","features":{},"yanked":true,"rust_version":"1.76.0"}
+{
+    "name": "e-macros",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "proc-macro2",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "quote",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "syn",
+            "req": "^2.0",
+            "features": [
+                "full",
+                "visit"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "1c7bb89b13cef3b483e084b2cfb05a1668b8fcf30bb8de97b04d3f58d85729ed",
+    "features": {},
+    "yanked": true,
+    "rust_version": "1.76.0"
+}

@@ -1,1 +1,122 @@
-{"name":"core-graphics2","vers":"0.1.0","deps":[{"name":"bitflags","req":"^2.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"block2","req":"^0.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"cfg-if","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"core-foundation","req":"^0.9","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"core-video","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"dispatch2","req":"^0.1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"io-surface","req":"^0.15","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"libc","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"metal","req":"^0.28","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"objc2","req":"^0.5","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"1335d81722241c786ead7c1c7987a23e4fd1d8f26eb093d9f2a8d8f39d90e81c","features":{"default":["display","display-stream","event","link","window"],"display":[],"display-stream":["dispatch2","display","io-surface","objc"],"event":[],"link":["core-foundation/link"],"objc":["objc2"],"window":[]},"yanked":false}
+{
+    "name": "core-graphics2",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "bitflags",
+            "req": "^2.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "block2",
+            "req": "^0.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "cfg-if",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "core-foundation",
+            "req": "^0.9",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "core-video",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "dispatch2",
+            "req": "^0.1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "io-surface",
+            "req": "^0.15",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "libc",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "metal",
+            "req": "^0.28",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "objc2",
+            "req": "^0.5",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "1335d81722241c786ead7c1c7987a23e4fd1d8f26eb093d9f2a8d8f39d90e81c",
+    "features": {
+        "default": [
+            "display",
+            "display-stream",
+            "event",
+            "link",
+            "window"
+        ],
+        "display": [],
+        "display-stream": [
+            "dispatch2",
+            "display",
+            "io-surface",
+            "objc"
+        ],
+        "event": [],
+        "link": [
+            "core-foundation/link"
+        ],
+        "objc": [
+            "objc2"
+        ],
+        "window": []
+    },
+    "yanked": false
+}

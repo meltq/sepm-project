@@ -1,1 +1,67 @@
-{"name":"lcax_core","vers":"2.0.4","deps":[{"name":"chrono","req":"^0.4.38","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"pkg-version","req":"^1.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rust_iso3166","req":"^0.1.12","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"schemars","req":"^0.8.12","features":["chrono"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.152","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.93","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"4eff6acaa9cf111fee7c1408c9994441c19593679ac457b9e74c522e411a2f9b","features":{},"yanked":false}
+{
+    "name": "lcax_core",
+    "vers": "2.0.4",
+    "deps": [
+        {
+            "name": "chrono",
+            "req": "^0.4.38",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "pkg-version",
+            "req": "^1.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rust_iso3166",
+            "req": "^0.1.12",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "schemars",
+            "req": "^0.8.12",
+            "features": [
+                "chrono"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.152",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.93",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "4eff6acaa9cf111fee7c1408c9994441c19593679ac457b9e74c522e411a2f9b",
+    "features": {},
+    "yanked": false
+}

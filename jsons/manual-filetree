@@ -1,1 +1,136 @@
-{"name":"manual-filetree","vers":"0.0.1-rc.1","deps":[{"name":"anyhow","req":"^1.0.80","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"anyhow","req":"^1.0.80","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"clap","req":"^4.5.1","features":["derive"],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"colored","req":"^2.1.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_yaml","req":"^0.9.32","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"textwrap","req":"^0.16.1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"textwrap","req":"^0.16.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"thiserror","req":"^1.0.57","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"uuid","req":"^1.7.0","features":["v4"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"uuid","req":"^1.7.0","features":["js","v4"],"optional":false,"default_features":true,"target":"cfg(target_family = \"wasm\")","kind":"normal"},{"name":"wasm-bindgen","req":"^0.2.92","features":[],"optional":false,"default_features":true,"target":"cfg(target_family = \"wasm\")","kind":"normal"},{"name":"wasm-bindgen-test","req":"^0.3.42","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"192674f3171437c0ef2265bc19419c03ee5b1c8621c3389e7cc23b9bc6325eb6","features":{},"features2":{"cli":["color","dep:anyhow","dep:clap","dep:textwrap"],"color":["dep:colored"]},"yanked":false,"v":2}
+{
+    "name": "manual-filetree",
+    "vers": "0.0.1-rc.1",
+    "deps": [
+        {
+            "name": "anyhow",
+            "req": "^1.0.80",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "anyhow",
+            "req": "^1.0.80",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "clap",
+            "req": "^4.5.1",
+            "features": [
+                "derive"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "colored",
+            "req": "^2.1.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_yaml",
+            "req": "^0.9.32",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "textwrap",
+            "req": "^0.16.1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "textwrap",
+            "req": "^0.16.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "thiserror",
+            "req": "^1.0.57",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "uuid",
+            "req": "^1.7.0",
+            "features": [
+                "v4"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "uuid",
+            "req": "^1.7.0",
+            "features": [
+                "js",
+                "v4"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": "cfg(target_family = \"wasm\")",
+            "kind": "normal"
+        },
+        {
+            "name": "wasm-bindgen",
+            "req": "^0.2.92",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": "cfg(target_family = \"wasm\")",
+            "kind": "normal"
+        },
+        {
+            "name": "wasm-bindgen-test",
+            "req": "^0.3.42",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "192674f3171437c0ef2265bc19419c03ee5b1c8621c3389e7cc23b9bc6325eb6",
+    "features": {},
+    "features2": {
+        "cli": [
+            "color",
+            "dep:anyhow",
+            "dep:clap",
+            "dep:textwrap"
+        ],
+        "color": [
+            "dep:colored"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

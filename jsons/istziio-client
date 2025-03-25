@@ -1,1 +1,115 @@
-{"name":"istziio-client","vers":"0.1.0","deps":[{"name":"anyhow","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"arrow","req":"^50.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"async-trait","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"clap","req":"^3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"env_logger","req":"^0.11.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"log","req":"^0.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"parquet","req":"^50.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"reqwest","req":"^0.11","features":["stream","json"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rocket","req":"^0.5.0","features":["json"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"147c1f6ae119ec809f47bb02b233b795bb36ebee171d4f3747f817446b1c7cbf","features":{},"yanked":false}
+{
+    "name": "istziio-client",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "anyhow",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "arrow",
+            "req": "^50.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "async-trait",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "clap",
+            "req": "^3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "env_logger",
+            "req": "^0.11.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "log",
+            "req": "^0.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "parquet",
+            "req": "^50.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "reqwest",
+            "req": "^0.11",
+            "features": [
+                "stream",
+                "json"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rocket",
+            "req": "^0.5.0",
+            "features": [
+                "json"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "147c1f6ae119ec809f47bb02b233b795bb36ebee171d4f3747f817446b1c7cbf",
+    "features": {},
+    "yanked": false
+}

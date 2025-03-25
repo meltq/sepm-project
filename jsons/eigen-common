@@ -1,1 +1,69 @@
-{"name":"eigen-common","vers":"0.1.2","deps":[{"name":"alloy-provider","req":"^0.9","features":["reqwest","ws"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"alloy-pubsub","req":"^0.9","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"alloy-signer-local","req":"^0.9","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"alloy-transport","req":"^0.9","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"alloy-transport-http","req":"^0.9","features":["reqwest-rustls-tls"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"url","req":"^2.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"78eb6cd947b27ab5446be6893792da520343e9eaced3f7aa3dc164cc335322ae","features":{},"yanked":false,"rust_version":"1.79"}
+{
+    "name": "eigen-common",
+    "vers": "0.1.2",
+    "deps": [
+        {
+            "name": "alloy-provider",
+            "req": "^0.9",
+            "features": [
+                "reqwest",
+                "ws"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "alloy-pubsub",
+            "req": "^0.9",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "alloy-signer-local",
+            "req": "^0.9",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "alloy-transport",
+            "req": "^0.9",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "alloy-transport-http",
+            "req": "^0.9",
+            "features": [
+                "reqwest-rustls-tls"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "url",
+            "req": "^2.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "78eb6cd947b27ab5446be6893792da520343e9eaced3f7aa3dc164cc335322ae",
+    "features": {},
+    "yanked": false,
+    "rust_version": "1.79"
+}

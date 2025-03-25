@@ -1,1 +1,71 @@
-{"name":"kek","vers":"0.0.0","deps":[{"name":"clap","req":"^4.5.3","features":["derive","cargo","derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"futures","req":"^0.3.30","features":["std"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"hex","req":"^0.4.3","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"subxt","req":"^0.35.0","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.36","features":["macros","time","rt-multi-thread"],"optional":false,"default_features":false,"target":null,"kind":"normal"}],"cksum":"8ed0227e443c70a151970f9e5cd7cc8e49a821926e6a2adbf5c4ef867a5d5759","features":{"default":["subxt/unstable-light-client","subxt/jsonrpsee","subxt/native"]},"yanked":false,"rust_version":"1.74.0"}
+{
+    "name": "kek",
+    "vers": "0.0.0",
+    "deps": [
+        {
+            "name": "clap",
+            "req": "^4.5.3",
+            "features": [
+                "derive",
+                "cargo",
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "futures",
+            "req": "^0.3.30",
+            "features": [
+                "std"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "hex",
+            "req": "^0.4.3",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "subxt",
+            "req": "^0.35.0",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.36",
+            "features": [
+                "macros",
+                "time",
+                "rt-multi-thread"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "8ed0227e443c70a151970f9e5cd7cc8e49a821926e6a2adbf5c4ef867a5d5759",
+    "features": {
+        "default": [
+            "subxt/unstable-light-client",
+            "subxt/jsonrpsee",
+            "subxt/native"
+        ]
+    },
+    "yanked": false,
+    "rust_version": "1.74.0"
+}

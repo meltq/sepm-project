@@ -1,1 +1,30 @@
-{"name":"firefly-rust","vers":"0.1.0","deps":[{"name":"nalgebra","req":"^0.32.5","features":[],"optional":true,"default_features":false,"target":null,"kind":"normal"}],"cksum":"66b22b7a1810d7ce5d0daeb8d150892ab1b71069748123b2b73f398ed47a22a1","features":{"alloc":[],"default":["alloc","sudo","nalgebra_support"],"nalgebra_support":["nalgebra"],"std":[],"sudo":[]},"yanked":false}
+{
+    "name": "firefly-rust",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "nalgebra",
+            "req": "^0.32.5",
+            "features": [],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "66b22b7a1810d7ce5d0daeb8d150892ab1b71069748123b2b73f398ed47a22a1",
+    "features": {
+        "alloc": [],
+        "default": [
+            "alloc",
+            "sudo",
+            "nalgebra_support"
+        ],
+        "nalgebra_support": [
+            "nalgebra"
+        ],
+        "std": [],
+        "sudo": []
+    },
+    "yanked": false
+}

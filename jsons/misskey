@@ -1,1 +1,140 @@
-{"name":"misskey","vers":"0.1.0","deps":[{"name":"anyhow","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"futures","req":"^0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"misskey-api","req":"^0.1.0","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"misskey-core","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"misskey-http","req":"^0.1.0","features":[],"optional":true,"default_features":false,"target":null,"kind":"normal"},{"name":"misskey-websocket","req":"^0.1.0","features":[],"optional":true,"default_features":false,"target":null,"kind":"normal"},{"name":"tokio","req":"^0.2","features":["macros","rt-core"],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"d41cb92954f18c6179e083a0626c27d61c662b01bbb8a0fc88edd6b96b556f7f","features":{"12-10-0":["misskey-api/12-10-0"],"12-13-0":["misskey-api/12-13-0"],"12-19-0":["misskey-api/12-19-0"],"12-27-0":["misskey-api/12-27-0"],"12-28-0":["misskey-api/12-28-0"],"12-29-0":["misskey-api/12-29-0"],"12-31-0":["misskey-api/12-31-0"],"12-37-0":["misskey-api/12-37-0"],"12-39-0":["misskey-api/12-39-0"],"12-47-0":["misskey-api/12-47-0"],"12-5-0":["misskey-api/12-5-0"],"12-8-0":["misskey-api/12-8-0"],"12-9-0":["misskey-api/12-9-0"],"async-std-runtime":["misskey-websocket/async-std-runtime"],"default":["12-47-0","http-client","websocket-client","tokio-runtime"],"head":["misskey-api/head"],"http-client":["misskey-http"],"inspect-contents":["misskey-http/inspect-contents","misskey-websocket/inspect-contents"],"tokio-runtime":["misskey-websocket/tokio-runtime"],"websocket-client":["misskey-websocket"]},"yanked":false}
+{
+    "name": "misskey",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "anyhow",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "futures",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "misskey-api",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "misskey-core",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "misskey-http",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "misskey-websocket",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^0.2",
+            "features": [
+                "macros",
+                "rt-core"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "d41cb92954f18c6179e083a0626c27d61c662b01bbb8a0fc88edd6b96b556f7f",
+    "features": {
+        "12-10-0": [
+            "misskey-api/12-10-0"
+        ],
+        "12-13-0": [
+            "misskey-api/12-13-0"
+        ],
+        "12-19-0": [
+            "misskey-api/12-19-0"
+        ],
+        "12-27-0": [
+            "misskey-api/12-27-0"
+        ],
+        "12-28-0": [
+            "misskey-api/12-28-0"
+        ],
+        "12-29-0": [
+            "misskey-api/12-29-0"
+        ],
+        "12-31-0": [
+            "misskey-api/12-31-0"
+        ],
+        "12-37-0": [
+            "misskey-api/12-37-0"
+        ],
+        "12-39-0": [
+            "misskey-api/12-39-0"
+        ],
+        "12-47-0": [
+            "misskey-api/12-47-0"
+        ],
+        "12-5-0": [
+            "misskey-api/12-5-0"
+        ],
+        "12-8-0": [
+            "misskey-api/12-8-0"
+        ],
+        "12-9-0": [
+            "misskey-api/12-9-0"
+        ],
+        "async-std-runtime": [
+            "misskey-websocket/async-std-runtime"
+        ],
+        "default": [
+            "12-47-0",
+            "http-client",
+            "websocket-client",
+            "tokio-runtime"
+        ],
+        "head": [
+            "misskey-api/head"
+        ],
+        "http-client": [
+            "misskey-http"
+        ],
+        "inspect-contents": [
+            "misskey-http/inspect-contents",
+            "misskey-websocket/inspect-contents"
+        ],
+        "tokio-runtime": [
+            "misskey-websocket/tokio-runtime"
+        ],
+        "websocket-client": [
+            "misskey-websocket"
+        ]
+    },
+    "yanked": false
+}

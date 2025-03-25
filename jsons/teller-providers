@@ -1,1 +1,282 @@
-{"name":"teller-providers","vers":"2.0.2","deps":[{"name":"async-trait","req":"^0.1.80","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"aws-config","req":"^1.2.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"aws-sdk-secretsmanager","req":"^1.22.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"aws-sdk-ssm","req":"^1.22.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"base64","req":"^0.22.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"crc32c","req":"^0.6","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"dockertest-server","req":"^0.1.7","features":["hashi","cloud"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"dotenvy","req":"^0.15.7","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"fs-err","req":"^2.9.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"google-secretmanager1","req":"^5.0.2","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"home","req":"^0.5.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"hyper","req":"^0.14","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"insta","req":"^1.29.0","features":["redactions","yaml","filters"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"lazy_static","req":"^1.4.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rs-consul","req":"^0.6.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"rustify","req":"^0.5.3","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_derive","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_variant","req":"^0.1.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_yaml","req":"^0.9","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"strum","req":"^0.25","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^1.0.49","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"vaultrs","req":"^0.7.2","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"5f5e53d326c644e383b2a80426a28ebee1c61bd7aa3fbde6b89485117b43d539","features":{"default":["hashicorp_vault","dotenv","ssm","aws_secretsmanager","google_secretmanager","hashicorp_consul"]},"features2":{"aws":["dep:aws-config"],"aws_secretsmanager":["aws","dep:aws-sdk-secretsmanager"],"dotenv":["dep:dotenvy"],"google_secretmanager":["dep:google-secretmanager1","dep:crc32c"],"hashicorp_consul":["dep:rs-consul"],"hashicorp_vault":["dep:vaultrs","dep:rustify"],"ssm":["aws","dep:aws-sdk-ssm"]},"yanked":false,"v":2}
+{
+    "name": "teller-providers",
+    "vers": "2.0.2",
+    "deps": [
+        {
+            "name": "async-trait",
+            "req": "^0.1.80",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "aws-config",
+            "req": "^1.2.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "aws-sdk-secretsmanager",
+            "req": "^1.22.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "aws-sdk-ssm",
+            "req": "^1.22.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "base64",
+            "req": "^0.22.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "crc32c",
+            "req": "^0.6",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "dockertest-server",
+            "req": "^0.1.7",
+            "features": [
+                "hashi",
+                "cloud"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "dotenvy",
+            "req": "^0.15.7",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "fs-err",
+            "req": "^2.9.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "google-secretmanager1",
+            "req": "^5.0.2",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "home",
+            "req": "^0.5.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "hyper",
+            "req": "^0.14",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "insta",
+            "req": "^1.29.0",
+            "features": [
+                "redactions",
+                "yaml",
+                "filters"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "lazy_static",
+            "req": "^1.4.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rs-consul",
+            "req": "^0.6.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rustify",
+            "req": "^0.5.3",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_derive",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_variant",
+            "req": "^0.1.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_yaml",
+            "req": "^0.9",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "strum",
+            "req": "^0.25",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^1.0.49",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "vaultrs",
+            "req": "^0.7.2",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "5f5e53d326c644e383b2a80426a28ebee1c61bd7aa3fbde6b89485117b43d539",
+    "features": {
+        "default": [
+            "hashicorp_vault",
+            "dotenv",
+            "ssm",
+            "aws_secretsmanager",
+            "google_secretmanager",
+            "hashicorp_consul"
+        ]
+    },
+    "features2": {
+        "aws": [
+            "dep:aws-config"
+        ],
+        "aws_secretsmanager": [
+            "aws",
+            "dep:aws-sdk-secretsmanager"
+        ],
+        "dotenv": [
+            "dep:dotenvy"
+        ],
+        "google_secretmanager": [
+            "dep:google-secretmanager1",
+            "dep:crc32c"
+        ],
+        "hashicorp_consul": [
+            "dep:rs-consul"
+        ],
+        "hashicorp_vault": [
+            "dep:vaultrs",
+            "dep:rustify"
+        ],
+        "ssm": [
+            "aws",
+            "dep:aws-sdk-ssm"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

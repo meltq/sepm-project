@@ -1,1 +1,34 @@
-{"name":"titan-utils","vers":"0.1.0","deps":[{"name":"cssparser","req":"^0.33.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"lightningcss","req":"^1.0.0-alpha.61","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"7b9dd6b86853ce67b3dfc10fcb6577c8dfd9fda8d96134313e56f3d66a225580","features":{},"features2":{"internal-cssvalidate":["dep:cssparser","dep:lightningcss"]},"yanked":false,"v":2}
+{
+    "name": "titan-utils",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "cssparser",
+            "req": "^0.33.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "lightningcss",
+            "req": "^1.0.0-alpha.61",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "7b9dd6b86853ce67b3dfc10fcb6577c8dfd9fda8d96134313e56f3d66a225580",
+    "features": {},
+    "features2": {
+        "internal-cssvalidate": [
+            "dep:cssparser",
+            "dep:lightningcss"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

@@ -1,1 +1,63 @@
-{"name":"semaphore-rs-poseidon","vers":"0.1.0","deps":[{"name":"ark-bn254","req":"=0.4.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"ark-ff","req":"^0.4.2","features":["parallel","asm"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"once_cell","req":"^1.8","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"ruint","req":"^1.12.3","features":["rand","bytemuck","serde","num-bigint","ark-ff-04"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"semaphore-rs-hasher","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"cbe119f703147c730276fc6e1b8893144e777b1e5ec3790088ef35c016e4c445","features":{},"yanked":false}
+{
+    "name": "semaphore-rs-poseidon",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "ark-bn254",
+            "req": "=0.4.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ark-ff",
+            "req": "^0.4.2",
+            "features": [
+                "parallel",
+                "asm"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "once_cell",
+            "req": "^1.8",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ruint",
+            "req": "^1.12.3",
+            "features": [
+                "rand",
+                "bytemuck",
+                "serde",
+                "num-bigint",
+                "ark-ff-04"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "semaphore-rs-hasher",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "cbe119f703147c730276fc6e1b8893144e777b1e5ec3790088ef35c016e4c445",
+    "features": {},
+    "yanked": false
+}

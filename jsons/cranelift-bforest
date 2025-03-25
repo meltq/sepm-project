@@ -1,1 +1,25 @@
-{"name":"cranelift-bforest","vers":"0.19.0","deps":[{"name":"cranelift-entity","req":"^0.19.0","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"}],"cksum":"e7c4e62492a441de3e59776af6ffbd4bebc17f0d6ac814fd9c39cdbc92496c2c","features":{"default":["std"],"std":["cranelift-entity/std"]},"yanked":false}
+{
+    "name": "cranelift-bforest",
+    "vers": "0.19.0",
+    "deps": [
+        {
+            "name": "cranelift-entity",
+            "req": "^0.19.0",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "e7c4e62492a441de3e59776af6ffbd4bebc17f0d6ac814fd9c39cdbc92496c2c",
+    "features": {
+        "default": [
+            "std"
+        ],
+        "std": [
+            "cranelift-entity/std"
+        ]
+    },
+    "yanked": false
+}

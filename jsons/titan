@@ -1,1 +1,134 @@
-{"name":"titan","vers":"0.1.0","deps":[{"name":"futures-util","req":"^0.3.31","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"pin-project-lite","req":"^0.2.14","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1","features":["derive"],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_urlencoded","req":"^0.7","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"titan-core","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"titan-html","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"titan-http","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"titan-router","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"titan-server","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"titan-utils","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.38.1","features":["macros","rt-multi-thread","time"],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"b95dd8cb9f05e92c4591624b35293aaf7c7c701f15204e0d1c62e9295e09bc87","features":{},"features2":{"default":["types"],"types":["dep:serde","dep:serde_json","dep:serde_urlencoded"]},"yanked":false,"v":2}
+{
+    "name": "titan",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "futures-util",
+            "req": "^0.3.31",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "pin-project-lite",
+            "req": "^0.2.14",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1",
+            "features": [
+                "derive"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_urlencoded",
+            "req": "^0.7",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "titan-core",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "titan-html",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "titan-http",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "titan-router",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "titan-server",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "titan-utils",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.38.1",
+            "features": [
+                "macros",
+                "rt-multi-thread",
+                "time"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "b95dd8cb9f05e92c4591624b35293aaf7c7c701f15204e0d1c62e9295e09bc87",
+    "features": {},
+    "features2": {
+        "default": [
+            "types"
+        ],
+        "types": [
+            "dep:serde",
+            "dep:serde_json",
+            "dep:serde_urlencoded"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

@@ -1,1 +1,104 @@
-{"name":"dead-man-switch","vers":"0.1.0","deps":[{"name":"anyhow","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"chrono","req":"^0.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"crossterm","req":"^0.27","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"directories-next","req":"^2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"lettre","req":"^0.10","features":["rustls-tls","builder"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"lettre_email","req":"^0.9","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"mime_guess","req":"^2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"ratatui","req":"^0.20","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"toml","req":"^0.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"5700588248748f7b29fc8f75335cc511bd0dc62eead126bb69f6fe09dca31c2d","features":{},"yanked":true}
+{
+    "name": "dead-man-switch",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "anyhow",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "chrono",
+            "req": "^0.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "crossterm",
+            "req": "^0.27",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "directories-next",
+            "req": "^2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "lettre",
+            "req": "^0.10",
+            "features": [
+                "rustls-tls",
+                "builder"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "lettre_email",
+            "req": "^0.9",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "mime_guess",
+            "req": "^2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ratatui",
+            "req": "^0.20",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "toml",
+            "req": "^0.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "5700588248748f7b29fc8f75335cc511bd0dc62eead126bb69f6fe09dca31c2d",
+    "features": {},
+    "yanked": true
+}

@@ -1,1 +1,29 @@
-{"name":"buf-ref-reader","vers":"0.2.0","deps":[{"name":"fnv","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"memchr","req":"^2","features":["libc"],"optional":false,"default_features":false,"target":null,"kind":"normal"}],"cksum":"e06ad06193c311eaba3bf530e18f1c52e1b4d856c9693ef9455de6dd46ceee71","features":{},"yanked":false}
+{
+    "name": "buf-ref-reader",
+    "vers": "0.2.0",
+    "deps": [
+        {
+            "name": "fnv",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "memchr",
+            "req": "^2",
+            "features": [
+                "libc"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "e06ad06193c311eaba3bf530e18f1c52e1b4d856c9693ef9455de6dd46ceee71",
+    "features": {},
+    "yanked": false
+}

@@ -1,1 +1,47 @@
-{"name":"mstak-interpret","vers":"0.1.0","deps":[{"name":"libc","req":"^0.2.153","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"stak-device","req":"^0.2.24","features":["libc"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"stak-primitive","req":"^0.2.25","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"stak-vm","req":"^0.3.25","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"c03ee8da316c2ba7518c510f32b248a665ad069ea1d748548535fc15187a92ae","features":{},"yanked":false}
+{
+    "name": "mstak-interpret",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "libc",
+            "req": "^0.2.153",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "stak-device",
+            "req": "^0.2.24",
+            "features": [
+                "libc"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "stak-primitive",
+            "req": "^0.2.25",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "stak-vm",
+            "req": "^0.3.25",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "c03ee8da316c2ba7518c510f32b248a665ad069ea1d748548535fc15187a92ae",
+    "features": {},
+    "yanked": false
+}

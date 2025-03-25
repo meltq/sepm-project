@@ -1,1 +1,34 @@
-{"name":"postit","vers":"0.1.0","deps":[{"name":"clap","req":"^4.5","features":["std","derive","help","usage","error-context","suggestions"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"colored","req":"^2.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"0a0d96f4db5522f3563a75f46a246b006541dfbea7add7342e9f7736864ed0f7","features":{},"yanked":false}
+{
+    "name": "postit",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "clap",
+            "req": "^4.5",
+            "features": [
+                "std",
+                "derive",
+                "help",
+                "usage",
+                "error-context",
+                "suggestions"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "colored",
+            "req": "^2.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "0a0d96f4db5522f3563a75f46a246b006541dfbea7add7342e9f7736864ed0f7",
+    "features": {},
+    "yanked": false
+}

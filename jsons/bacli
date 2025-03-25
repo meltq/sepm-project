@@ -1,1 +1,88 @@
-{"name":"bacli","vers":"0.1.0","deps":[{"name":"anyhow","req":"^1.0.94","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"bitaxe_api","req":"^0.1.0","features":["clap"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"clap","req":"^4.5.22","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"env_logger","req":"^0.11.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"humantime","req":"^2.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"log","req":"^0.4.22","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.133","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.42.0","features":["macros","rt-multi-thread"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"9c1a9ef4679b8956e5c8ed5dff3f5fd0dcde16cc2530e73075f072babc50e461","features":{},"yanked":false}
+{
+    "name": "bacli",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "anyhow",
+            "req": "^1.0.94",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "bitaxe_api",
+            "req": "^0.1.0",
+            "features": [
+                "clap"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "clap",
+            "req": "^4.5.22",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "env_logger",
+            "req": "^0.11.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "humantime",
+            "req": "^2.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "log",
+            "req": "^0.4.22",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.133",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.42.0",
+            "features": [
+                "macros",
+                "rt-multi-thread"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "9c1a9ef4679b8956e5c8ed5dff3f5fd0dcde16cc2530e73075f072babc50e461",
+    "features": {},
+    "yanked": false
+}

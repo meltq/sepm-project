@@ -1,1 +1,152 @@
-{"name":"fuel-streams-store","vers":"0.0.21","deps":[{"name":"async-stream","req":"^0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"async-trait","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"dotenvy","req":"^0.15","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"fuel-data-parser","req":"^0.0.21","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"fuel-streams-macros","req":"^0.0.21","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"fuel-streams-types","req":"^0.0.21","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"futures","req":"^0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"sqlx","req":"^0.8.3","features":["macros","postgres","runtime-tokio","tls-native-tls","any","macros","postgres","runtime-tokio","tls-native-tls"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"test-case","req":"^3.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"thiserror","req":"^2.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.41","features":["io-util","macros","rt-multi-thread","test-util","macros","rt-multi-thread","test-util"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"3c4d614146fc9e272c62e781daf4af0c78fff6b1734b26ca65ac0d90638629eb","features":{"default":[],"test-helpers":["fuel-data-parser/test-helpers"]},"yanked":false,"rust_version":"1.84.0"}
+{
+    "name": "fuel-streams-store",
+    "vers": "0.0.21",
+    "deps": [
+        {
+            "name": "async-stream",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "async-trait",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "dotenvy",
+            "req": "^0.15",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "fuel-data-parser",
+            "req": "^0.0.21",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "fuel-streams-macros",
+            "req": "^0.0.21",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "fuel-streams-types",
+            "req": "^0.0.21",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "futures",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "sqlx",
+            "req": "^0.8.3",
+            "features": [
+                "macros",
+                "postgres",
+                "runtime-tokio",
+                "tls-native-tls",
+                "any",
+                "macros",
+                "postgres",
+                "runtime-tokio",
+                "tls-native-tls"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "test-case",
+            "req": "^3.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "thiserror",
+            "req": "^2.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.41",
+            "features": [
+                "io-util",
+                "macros",
+                "rt-multi-thread",
+                "test-util",
+                "macros",
+                "rt-multi-thread",
+                "test-util"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "3c4d614146fc9e272c62e781daf4af0c78fff6b1734b26ca65ac0d90638629eb",
+    "features": {
+        "default": [],
+        "test-helpers": [
+            "fuel-data-parser/test-helpers"
+        ]
+    },
+    "yanked": false,
+    "rust_version": "1.84.0"
+}

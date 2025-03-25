@@ -1,1 +1,59 @@
-{"name":"oxiplate","vers":"0.1.0","deps":[{"name":"nom","req":"^7.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"proc-macro2","req":"^1.0.92","features":["nightly","span-locations"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"quote","req":"^1.0.37","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"syn","req":"^2.0.91","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"trybuild","req":"^1.0.101","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"deaa1dd3a247e37bba6b0d5bee1b5f7fb915834ddfad7e229e5d62c1ff44e976","features":{},"yanked":false}
+{
+    "name": "oxiplate",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "nom",
+            "req": "^7.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "proc-macro2",
+            "req": "^1.0.92",
+            "features": [
+                "nightly",
+                "span-locations"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "quote",
+            "req": "^1.0.37",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "syn",
+            "req": "^2.0.91",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "trybuild",
+            "req": "^1.0.101",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "deaa1dd3a247e37bba6b0d5bee1b5f7fb915834ddfad7e229e5d62c1ff44e976",
+    "features": {},
+    "yanked": false
+}

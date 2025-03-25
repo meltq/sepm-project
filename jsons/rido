@@ -1,1 +1,34 @@
-{"name":"rido","vers":"0.1.0","deps":[{"name":"reqwest","req":"^0.12.2","features":["blocking"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"uuid","req":"^1.8.0","features":["v4","fast-rng"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"c3240ed25c09c5bf5334d7f20c66e996591687147818677427863d3d8ae3d9be","features":{"consumer":[]},"yanked":false}
+{
+    "name": "rido",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "reqwest",
+            "req": "^0.12.2",
+            "features": [
+                "blocking"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "uuid",
+            "req": "^1.8.0",
+            "features": [
+                "v4",
+                "fast-rng"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "c3240ed25c09c5bf5334d7f20c66e996591687147818677427863d3d8ae3d9be",
+    "features": {
+        "consumer": []
+    },
+    "yanked": false
+}

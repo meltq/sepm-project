@@ -1,1 +1,157 @@
-{"name":"drain_server","vers":"0.6.5","deps":[{"name":"brotli","req":"^7.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"bstr","req":"^1.11.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"bytes","req":"^1.8.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"chrono","req":"^0.4.34","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"drain_common","req":"^0.4.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"flate2","req":"^1.0.34","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"glob","req":"^0.3.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"libloading","req":"^0.8.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"mime_guess","req":"^2.0.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"openssl","req":"^0.10.68","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"regex","req":"^1.10.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.210","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.132","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.41.1","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio-openssl","req":"^0.6.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"urlencoding","req":"^2.1.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"bbe21f27b90f1b5362253a0be7d087efe3c8c81fb3b45535f32947000d69d0f6","features":{},"yanked":false}
+{
+    "name": "drain_server",
+    "vers": "0.6.5",
+    "deps": [
+        {
+            "name": "brotli",
+            "req": "^7.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "bstr",
+            "req": "^1.11.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "bytes",
+            "req": "^1.8.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "chrono",
+            "req": "^0.4.34",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "drain_common",
+            "req": "^0.4.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "flate2",
+            "req": "^1.0.34",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "glob",
+            "req": "^0.3.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "libloading",
+            "req": "^0.8.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "mime_guess",
+            "req": "^2.0.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "openssl",
+            "req": "^0.10.68",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "regex",
+            "req": "^1.10.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.210",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.132",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.41.1",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio-openssl",
+            "req": "^0.6.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "urlencoding",
+            "req": "^2.1.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "bbe21f27b90f1b5362253a0be7d087efe3c8c81fb3b45535f32947000d69d0f6",
+    "features": {},
+    "yanked": false
+}

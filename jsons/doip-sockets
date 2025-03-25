@@ -1,1 +1,61 @@
-{"name":"doip-sockets","vers":"0.1.0","deps":[{"name":"doip-codec","req":"^2.0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"doip-definitions","req":"^1.0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"futures","req":"^0.3.31","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.42.0","features":["rt-multi-thread","macros","net","io-util"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio-util","req":"^0.7.13","features":["codec"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"27283316cbaa93fab2f04a36bbbdb3779ee9630285d04395fa6edd9d2b42932d","features":{},"yanked":false}
+{
+    "name": "doip-sockets",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "doip-codec",
+            "req": "^2.0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "doip-definitions",
+            "req": "^1.0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "futures",
+            "req": "^0.3.31",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.42.0",
+            "features": [
+                "rt-multi-thread",
+                "macros",
+                "net",
+                "io-util"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio-util",
+            "req": "^0.7.13",
+            "features": [
+                "codec"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "27283316cbaa93fab2f04a36bbbdb3779ee9630285d04395fa6edd9d2b42932d",
+    "features": {},
+    "yanked": false
+}

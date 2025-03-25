@@ -1,1 +1,41 @@
-{"name":"enum_desc","vers":"0.1.0","deps":[{"name":"proc-macro2","req":"^1.0.79","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"quote","req":"^1.0.35","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"syn","req":"^2.0.53","features":["parsing","extra-traits","full","visit"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"57a6a237fc17f8919741a2c60ae87bca05575c16aebce36840ebfe0059450a4c","features":{},"yanked":true}
+{
+    "name": "enum_desc",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "proc-macro2",
+            "req": "^1.0.79",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "quote",
+            "req": "^1.0.35",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "syn",
+            "req": "^2.0.53",
+            "features": [
+                "parsing",
+                "extra-traits",
+                "full",
+                "visit"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "57a6a237fc17f8919741a2c60ae87bca05575c16aebce36840ebfe0059450a4c",
+    "features": {},
+    "yanked": true
+}

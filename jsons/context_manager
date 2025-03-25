@@ -1,1 +1,40 @@
-{"name":"context_manager","vers":"0.1.0","deps":[{"name":"context_manager_macro","req":"=0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1","features":["macros","rt","rt-multi-thread"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"trybuild","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"2f702cd4f9c28190f88ab830eb9bfa3d9be3b5626ff8478bfbf8ae46ab4f528c","features":{},"yanked":true}
+{
+    "name": "context_manager",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "context_manager_macro",
+            "req": "=0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1",
+            "features": [
+                "macros",
+                "rt",
+                "rt-multi-thread"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "trybuild",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "2f702cd4f9c28190f88ab830eb9bfa3d9be3b5626ff8478bfbf8ae46ab4f528c",
+    "features": {},
+    "yanked": true
+}

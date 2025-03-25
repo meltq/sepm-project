@@ -1,1 +1,59 @@
-{"name":"grow-rs","vers":"1.0.0","deps":[{"name":"clap","req":"^4.5.23","features":["derive","string"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"dotenv","req":"^0.15.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"grow_libsql","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"grow_sqlx","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.42.0","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"a77397dbd852574f0abbba2daa7b18dd58742683c1ea8964bf98fbf2ff1e59ed","features":{},"yanked":false}
+{
+    "name": "grow-rs",
+    "vers": "1.0.0",
+    "deps": [
+        {
+            "name": "clap",
+            "req": "^4.5.23",
+            "features": [
+                "derive",
+                "string"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "dotenv",
+            "req": "^0.15.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "grow_libsql",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "grow_sqlx",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.42.0",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "a77397dbd852574f0abbba2daa7b18dd58742683c1ea8964bf98fbf2ff1e59ed",
+    "features": {},
+    "yanked": false
+}

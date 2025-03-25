@@ -1,1 +1,69 @@
-{"name":"hadorn","vers":"0.1.0","deps":[{"name":"hadorn-macro","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"http","req":"^1.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"reqwest","req":"^0.12","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"reqwest","req":"^0.12","features":["json"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"serde","req":"^1.0","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.43","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"ae23ccfc9cad3ab02aff9a2e0a1a6888248f0cdd370fdb97e666490218114deb","features":{},"yanked":true}
+{
+    "name": "hadorn",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "hadorn-macro",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "http",
+            "req": "^1.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "reqwest",
+            "req": "^0.12",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "reqwest",
+            "req": "^0.12",
+            "features": [
+                "json"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.43",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "ae23ccfc9cad3ab02aff9a2e0a1a6888248f0cdd370fdb97e666490218114deb",
+    "features": {},
+    "yanked": true
+}

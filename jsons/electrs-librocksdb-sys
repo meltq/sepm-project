@@ -1,1 +1,80 @@
-{"name":"electrs-librocksdb-sys","vers":"6.11.4-e1","deps":[{"name":"bindgen","req":"^0.55","features":["runtime"],"optional":false,"default_features":false,"target":null,"kind":"build"},{"name":"cc","req":"^1.0","features":["parallel"],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"const-cstr","req":"^0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"glob","req":"^0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"libc","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"uuid","req":"^0.8","features":["v4"],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"3ea83087d8b40a3f0ef9ad4028eac4e797d2e2ab611c610f28cfcff85bdb8f49","features":{"bzip2":[],"default":["static"],"lz4":[],"snappy":[],"static":[],"zlib":[],"zstd":[]},"yanked":false,"links":"rocksdb"}
+{
+    "name": "electrs-librocksdb-sys",
+    "vers": "6.11.4-e1",
+    "deps": [
+        {
+            "name": "bindgen",
+            "req": "^0.55",
+            "features": [
+                "runtime"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "cc",
+            "req": "^1.0",
+            "features": [
+                "parallel"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "const-cstr",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "glob",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "libc",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "uuid",
+            "req": "^0.8",
+            "features": [
+                "v4"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "3ea83087d8b40a3f0ef9ad4028eac4e797d2e2ab611c610f28cfcff85bdb8f49",
+    "features": {
+        "bzip2": [],
+        "default": [
+            "static"
+        ],
+        "lz4": [],
+        "snappy": [],
+        "static": [],
+        "zlib": [],
+        "zstd": []
+    },
+    "yanked": false,
+    "links": "rocksdb"
+}

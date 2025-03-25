@@ -1,1 +1,124 @@
-{"name":"congressdotgov_rs","vers":"0.1.0","deps":[{"name":"bytes","req":"^1.9.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"chrono","req":"^0.4.39","features":["serde"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"derive_builder","req":"^0.20.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"dotenvy","req":"^0.15.7","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"http","req":"^1.2.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"reqwest","req":"^0.12.9","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.216","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.134","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^2.0.9","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1","features":["macros","rt-multi-thread"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"tokio-test","req":"^0.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"url","req":"^2.5.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"a77e3a305060d024a1ef8eade407671a08fa36413ceeb941bc306094bce230c5","features":{},"yanked":false}
+{
+    "name": "congressdotgov_rs",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "bytes",
+            "req": "^1.9.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "chrono",
+            "req": "^0.4.39",
+            "features": [
+                "serde"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "derive_builder",
+            "req": "^0.20.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "dotenvy",
+            "req": "^0.15.7",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "http",
+            "req": "^1.2.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "reqwest",
+            "req": "^0.12.9",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.216",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.134",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^2.0.9",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1",
+            "features": [
+                "macros",
+                "rt-multi-thread"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "tokio-test",
+            "req": "^0.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "url",
+            "req": "^2.5.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "a77e3a305060d024a1ef8eade407671a08fa36413ceeb941bc306094bce230c5",
+    "features": {},
+    "yanked": false
+}

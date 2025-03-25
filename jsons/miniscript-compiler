@@ -1,1 +1,56 @@
-{"name":"miniscript-compiler","vers":"0.1.0","deps":[{"name":"bitcoin","req":"^0.31.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"elements-miniscript","req":"^0.3.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"hex","req":"^0.3.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.84","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.34","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"ebbf67da6eb04cbd0b18b732b11086c6f44dbf840f18bd44aaf6633504049399","features":{},"yanked":false}
+{
+    "name": "miniscript-compiler",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "bitcoin",
+            "req": "^0.31.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "elements-miniscript",
+            "req": "^0.3.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "hex",
+            "req": "^0.3.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.84",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.34",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "ebbf67da6eb04cbd0b18b732b11086c6f44dbf840f18bd44aaf6633504049399",
+    "features": {},
+    "yanked": false
+}

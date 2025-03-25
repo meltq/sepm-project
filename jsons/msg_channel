@@ -1,1 +1,56 @@
-{"name":"msg_channel","vers":"0.1.0-beat.1","deps":[{"name":"color-eyre","req":"^0.6","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"msg_channel_core","req":"^0.1.0-beat.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"msg_channel_macro","req":"^0.1.0-beat.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"paste","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.0.0","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"bfdad078e2425e589edb070e4ecb69e130f82c7c80eb2113f413e4134d1626eb","features":{},"yanked":true}
+{
+    "name": "msg_channel",
+    "vers": "0.1.0-beat.1",
+    "deps": [
+        {
+            "name": "color-eyre",
+            "req": "^0.6",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "msg_channel_core",
+            "req": "^0.1.0-beat.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "msg_channel_macro",
+            "req": "^0.1.0-beat.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "paste",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.0.0",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "bfdad078e2425e589edb070e4ecb69e130f82c7c80eb2113f413e4134d1626eb",
+    "features": {},
+    "yanked": true
+}

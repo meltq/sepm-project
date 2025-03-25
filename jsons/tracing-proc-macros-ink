@@ -1,1 +1,39 @@
-{"name":"tracing-proc-macros-ink","vers":"0.1.0","deps":[{"name":"tracing","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing-subscriber","req":"^0.3","features":["fmt"],"optional":false,"default_features":false,"target":null,"kind":"normal"}],"cksum":"046cca5575eedb05be6c33aabcbffd1f313b36ff54adafde371481675c612cee","features":{"default":["default-setup"],"default-setup":["tracing-subscriber/std","tracing-subscriber/env-filter","tracing-subscriber/time","tracing-subscriber/local-time"]},"yanked":false}
+{
+    "name": "tracing-proc-macros-ink",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "tracing",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing-subscriber",
+            "req": "^0.3",
+            "features": [
+                "fmt"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "046cca5575eedb05be6c33aabcbffd1f313b36ff54adafde371481675c612cee",
+    "features": {
+        "default": [
+            "default-setup"
+        ],
+        "default-setup": [
+            "tracing-subscriber/std",
+            "tracing-subscriber/env-filter",
+            "tracing-subscriber/time",
+            "tracing-subscriber/local-time"
+        ]
+    },
+    "yanked": false
+}

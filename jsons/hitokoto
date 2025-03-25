@@ -1,1 +1,119 @@
-{"name":"hitokoto","vers":"0.1.0","deps":[{"name":"anyhow","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"bitflags","req":"^2.6","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"rand","req":"~0.8","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"reqwest","req":"~0.12","features":["json"],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"serde","req":"^1.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"tokio","req":"^1.43","features":["rt-multi-thread","macros","fs"],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"uuid","req":"^1.11","features":["serde"],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"uuid","req":"^1.11","features":["serde"],"optional":false,"default_features":true,"target":null,"kind":"build"}],"cksum":"1af7f67a92b156c80ad3ad6a5f084056ca0c8024d90c024b7bf015f7e2ce8447","features":{},"features2":{"default":["random"],"random":["dep:rand","dep:bitflags"],"serde":["dep:serde","uuid?/serde"],"uuid":["dep:uuid"]},"yanked":false,"v":2}
+{
+    "name": "hitokoto",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "anyhow",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "bitflags",
+            "req": "^2.6",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rand",
+            "req": "~0.8",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "reqwest",
+            "req": "~0.12",
+            "features": [
+                "json"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.43",
+            "features": [
+                "rt-multi-thread",
+                "macros",
+                "fs"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "uuid",
+            "req": "^1.11",
+            "features": [
+                "serde"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "uuid",
+            "req": "^1.11",
+            "features": [
+                "serde"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        }
+    ],
+    "cksum": "1af7f67a92b156c80ad3ad6a5f084056ca0c8024d90c024b7bf015f7e2ce8447",
+    "features": {},
+    "features2": {
+        "default": [
+            "random"
+        ],
+        "random": [
+            "dep:rand",
+            "dep:bitflags"
+        ],
+        "serde": [
+            "dep:serde",
+            "uuid?/serde"
+        ],
+        "uuid": [
+            "dep:uuid"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

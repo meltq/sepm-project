@@ -1,1 +1,57 @@
-{"name":"zino-chatbot","vers":"0.1.0","deps":[{"name":"async-openai","req":"^0.26.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"futures","req":"^0.3.31","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"toml","req":"^0.8.19","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"tracing","req":"^0.1.41","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"zino-core","req":"^0.29.3","features":["http-client"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"9c4cff7a282ad6396575a7c6aee7702d5f94591c50e183764d929c7ea5d41091","features":{},"yanked":false,"rust_version":"1.80"}
+{
+    "name": "zino-chatbot",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "async-openai",
+            "req": "^0.26.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "futures",
+            "req": "^0.3.31",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "toml",
+            "req": "^0.8.19",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1.41",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "zino-core",
+            "req": "^0.29.3",
+            "features": [
+                "http-client"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "9c4cff7a282ad6396575a7c6aee7702d5f94591c50e183764d929c7ea5d41091",
+    "features": {},
+    "yanked": false,
+    "rust_version": "1.80"
+}

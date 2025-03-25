@@ -1,1 +1,74 @@
-{"name":"process-fun-core","vers":"0.1.0","deps":[{"name":"interprocess","req":"^2.2.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"nix","req":"^0.29","features":["process","fs","signal"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.214","features":["derive","derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.132","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"syn","req":"^2.0.90","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^2.0.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"5afd58edb81ef9a9ec2a29ca84ac0690185a36e41f6a2de703d0d2d3478730af","features":{"debug":[]},"yanked":false}
+{
+    "name": "process-fun-core",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "interprocess",
+            "req": "^2.2.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "nix",
+            "req": "^0.29",
+            "features": [
+                "process",
+                "fs",
+                "signal"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.214",
+            "features": [
+                "derive",
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.132",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "syn",
+            "req": "^2.0.90",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^2.0.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "5afd58edb81ef9a9ec2a29ca84ac0690185a36e41f6a2de703d0d2d3478730af",
+    "features": {
+        "debug": []
+    },
+    "yanked": false
+}

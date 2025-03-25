@@ -1,1 +1,273 @@
-{"name":"datafusion-sqllogictest","vers":"43.0.0","deps":[{"name":"arrow","req":"^53.2.0","features":["prettyprint"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"async-trait","req":"^0.1.73","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"bigdecimal","req":"=0.4.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"bytes","req":"^1.4","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"chrono","req":"^0.4.38","features":[],"optional":true,"default_features":false,"target":null,"kind":"normal"},{"name":"clap","req":"^4.5.16","features":["derive","env"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"datafusion","req":"^43.0.0","features":["avro"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"datafusion-common","req":"^43.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"datafusion-common-runtime","req":"^43.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"env_logger","req":"^0.11","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"futures","req":"^0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"half","req":"^2.2.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"itertools","req":"^0.13","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"log","req":"^0.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"num_cpus","req":"^1.13.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"object_store","req":"^0.11.0","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"postgres-protocol","req":"^0.6.4","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"postgres-types","req":"^0.2.4","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"rust_decimal","req":"^1.27.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"sqllogictest","req":"^0.22.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"sqlparser","req":"^0.51.0","features":["visitor"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tempfile","req":"^3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^1.0.44","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.36","features":["macros","rt","sync"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.36","features":["macros","rt","sync","rt-multi-thread"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"tokio-postgres","req":"^0.7.7","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"d7e3f2b14616cb049db4ad6eeb5649ccd4f677fd276207ced4196471fb58ae9f","features":{"avro":["datafusion/avro"],"postgres":["bytes","chrono","tokio-postgres","postgres-types","postgres-protocol"]},"yanked":false,"rust_version":"1.79"}
+{
+    "name": "datafusion-sqllogictest",
+    "vers": "43.0.0",
+    "deps": [
+        {
+            "name": "arrow",
+            "req": "^53.2.0",
+            "features": [
+                "prettyprint"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "async-trait",
+            "req": "^0.1.73",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "bigdecimal",
+            "req": "=0.4.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "bytes",
+            "req": "^1.4",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "chrono",
+            "req": "^0.4.38",
+            "features": [],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "clap",
+            "req": "^4.5.16",
+            "features": [
+                "derive",
+                "env"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "datafusion",
+            "req": "^43.0.0",
+            "features": [
+                "avro"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "datafusion-common",
+            "req": "^43.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "datafusion-common-runtime",
+            "req": "^43.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "env_logger",
+            "req": "^0.11",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "futures",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "half",
+            "req": "^2.2.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "itertools",
+            "req": "^0.13",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "log",
+            "req": "^0.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "num_cpus",
+            "req": "^1.13.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "object_store",
+            "req": "^0.11.0",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "postgres-protocol",
+            "req": "^0.6.4",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "postgres-types",
+            "req": "^0.2.4",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rust_decimal",
+            "req": "^1.27.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "sqllogictest",
+            "req": "^0.22.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "sqlparser",
+            "req": "^0.51.0",
+            "features": [
+                "visitor"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tempfile",
+            "req": "^3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^1.0.44",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.36",
+            "features": [
+                "macros",
+                "rt",
+                "sync"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.36",
+            "features": [
+                "macros",
+                "rt",
+                "sync",
+                "rt-multi-thread"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "tokio-postgres",
+            "req": "^0.7.7",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "d7e3f2b14616cb049db4ad6eeb5649ccd4f677fd276207ced4196471fb58ae9f",
+    "features": {
+        "avro": [
+            "datafusion/avro"
+        ],
+        "postgres": [
+            "bytes",
+            "chrono",
+            "tokio-postgres",
+            "postgres-types",
+            "postgres-protocol"
+        ]
+    },
+    "yanked": false,
+    "rust_version": "1.79"
+}

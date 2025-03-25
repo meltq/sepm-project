@@ -1,1 +1,56 @@
-{"name":"bril-frontend","vers":"0.1.0","deps":[{"name":"annotate-snippets","req":"^0.11.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"inform","req":"^0.3.3","features":["io"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"insta","req":"^1.42.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"logos","req":"^0.14.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"snafu","req":"^0.8.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"aa3729072f35c82b77f7677da2e92a2e309d3094a986af7e682ca89731ba9e6f","features":{},"yanked":false}
+{
+    "name": "bril-frontend",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "annotate-snippets",
+            "req": "^0.11.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "inform",
+            "req": "^0.3.3",
+            "features": [
+                "io"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "insta",
+            "req": "^1.42.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "logos",
+            "req": "^0.14.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "snafu",
+            "req": "^0.8.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "aa3729072f35c82b77f7677da2e92a2e309d3094a986af7e682ca89731ba9e6f",
+    "features": {},
+    "yanked": false
+}

@@ -1,1 +1,44 @@
-{"name":"compiler_builtins","vers":"0.1.0","deps":[{"name":"cc","req":"^1.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"build"},{"name":"core","req":"^1.0.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal","package":"rustc-std-workspace-core"}],"cksum":"425356d982f29211c24265eeaae37de3593c99efac05a12d3d5c114d95721e5d","features":{"c":["cc"],"compiler-builtins":[],"default":["compiler-builtins"],"mangled-names":[],"mem":[],"no-lang-items":[],"rustc-dep-of-std":["c","compiler-builtins","core"]},"yanked":false}
+{
+    "name": "compiler_builtins",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "cc",
+            "req": "^1.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "core",
+            "req": "^1.0.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal",
+            "package": "rustc-std-workspace-core"
+        }
+    ],
+    "cksum": "425356d982f29211c24265eeaae37de3593c99efac05a12d3d5c114d95721e5d",
+    "features": {
+        "c": [
+            "cc"
+        ],
+        "compiler-builtins": [],
+        "default": [
+            "compiler-builtins"
+        ],
+        "mangled-names": [],
+        "mem": [],
+        "no-lang-items": [],
+        "rustc-dep-of-std": [
+            "c",
+            "compiler-builtins",
+            "core"
+        ]
+    },
+    "yanked": false
+}

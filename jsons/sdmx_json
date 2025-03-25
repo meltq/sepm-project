@@ -1,1 +1,30 @@
-{"name":"sdmx_json","vers":"0.1.0","deps":[{"name":"serde","req":"^1.0.216","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.133","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"cc9f5f248c8936c5df5350d40b49a410f7645588f08fabb7e171f54c4f6493ae","features":{},"yanked":false,"rust_version":"1.76.0"}
+{
+    "name": "sdmx_json",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "serde",
+            "req": "^1.0.216",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.133",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "cc9f5f248c8936c5df5350d40b49a410f7645588f08fabb7e171f54c4f6493ae",
+    "features": {},
+    "yanked": false,
+    "rust_version": "1.76.0"
+}

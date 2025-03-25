@@ -1,1 +1,45 @@
-{"name":"sha3-kmac","vers":"0.2.0","deps":[{"name":"generic-array","req":"^1","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"sha3","req":"^0.10","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"sha3-utils","req":"^0.2.0","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"}],"cksum":"4babf4c669525174f2f07752f0fad87e12408706efa59d6b8dfe0aff9f2bd1db","features":{"alloc":["sha3-utils/alloc"],"default":[],"std":["sha3/std","sha3-utils/std"]},"yanked":false}
+{
+    "name": "sha3-kmac",
+    "vers": "0.2.0",
+    "deps": [
+        {
+            "name": "generic-array",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "sha3",
+            "req": "^0.10",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "sha3-utils",
+            "req": "^0.2.0",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "4babf4c669525174f2f07752f0fad87e12408706efa59d6b8dfe0aff9f2bd1db",
+    "features": {
+        "alloc": [
+            "sha3-utils/alloc"
+        ],
+        "default": [],
+        "std": [
+            "sha3/std",
+            "sha3-utils/std"
+        ]
+    },
+    "yanked": false
+}

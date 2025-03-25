@@ -1,1 +1,79 @@
-{"name":"aws-smithy-types","vers":"0.27.0-alpha","deps":[{"name":"base64","req":"^0.13.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"chrono","req":"^0.4","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"chrono","req":"^0.4","features":["alloc"],"optional":false,"default_features":false,"target":null,"kind":"dev"},{"name":"itoa","req":"^0.4.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"num-integer","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"proptest","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"ryu","req":"^1.0.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"a6bcfd3eaa047d37438d72dfe059ddcf01d5b758c844a8930ce7b6a6acdc543f","features":{"chrono-conversions":[],"default":["chrono-conversions"]},"yanked":false}
+{
+    "name": "aws-smithy-types",
+    "vers": "0.27.0-alpha",
+    "deps": [
+        {
+            "name": "base64",
+            "req": "^0.13.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "chrono",
+            "req": "^0.4",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "chrono",
+            "req": "^0.4",
+            "features": [
+                "alloc"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "itoa",
+            "req": "^0.4.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "num-integer",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "proptest",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "ryu",
+            "req": "^1.0.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "a6bcfd3eaa047d37438d72dfe059ddcf01d5b758c844a8930ce7b6a6acdc543f",
+    "features": {
+        "chrono-conversions": [],
+        "default": [
+            "chrono-conversions"
+        ]
+    },
+    "yanked": false
+}

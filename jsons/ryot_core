@@ -1,1 +1,228 @@
-{"name":"ryot_core","vers":"0.2.2","deps":[{"name":"async-std","req":"^1.12.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"bevy_asset","req":"^0.13","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"bevy_asset_loader","req":"^0.20.1","features":["2d","standard_dynamic_assets"],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"bevy_ecs","req":"^0.13","features":["bevy_reflect"],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"bevy_math","req":"^0.13","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"bevy_reflect","req":"^0.13","features":["bevy"],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"bevy_render","req":"^0.13","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"bevy_sprite","req":"^0.13","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"bevy_utils","req":"^0.13","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"derive_more","req":"^0.99.17","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"glam","req":"^0.25","features":["serde"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"quickcheck","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"quickcheck_macros","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"rand","req":"^0.8","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"rstest","req":"^0.18","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"serde","req":"^1.0","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_repr","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"strum","req":"^0.26","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"time-test","req":"^0.2.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"c84d4d8f099f2ee627abcf6d706134729c575b0d178d72257da10755bbc84f30","features":{"default":["bevy"]},"features2":{"bevy":["dep:bevy_asset","dep:bevy_ecs","dep:bevy_math","dep:bevy_reflect","dep:bevy_render","dep:bevy_sprite","dep:bevy_utils","dep:bevy_asset_loader"]},"yanked":false,"v":2}
+{
+    "name": "ryot_core",
+    "vers": "0.2.2",
+    "deps": [
+        {
+            "name": "async-std",
+            "req": "^1.12.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "bevy_asset",
+            "req": "^0.13",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "bevy_asset_loader",
+            "req": "^0.20.1",
+            "features": [
+                "2d",
+                "standard_dynamic_assets"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "bevy_ecs",
+            "req": "^0.13",
+            "features": [
+                "bevy_reflect"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "bevy_math",
+            "req": "^0.13",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "bevy_reflect",
+            "req": "^0.13",
+            "features": [
+                "bevy"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "bevy_render",
+            "req": "^0.13",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "bevy_sprite",
+            "req": "^0.13",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "bevy_utils",
+            "req": "^0.13",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "derive_more",
+            "req": "^0.99.17",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "glam",
+            "req": "^0.25",
+            "features": [
+                "serde"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "quickcheck",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "quickcheck_macros",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "rand",
+            "req": "^0.8",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "rstest",
+            "req": "^0.18",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_repr",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "strum",
+            "req": "^0.26",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "time-test",
+            "req": "^0.2.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "c84d4d8f099f2ee627abcf6d706134729c575b0d178d72257da10755bbc84f30",
+    "features": {
+        "default": [
+            "bevy"
+        ]
+    },
+    "features2": {
+        "bevy": [
+            "dep:bevy_asset",
+            "dep:bevy_ecs",
+            "dep:bevy_math",
+            "dep:bevy_reflect",
+            "dep:bevy_render",
+            "dep:bevy_sprite",
+            "dep:bevy_utils",
+            "dep:bevy_asset_loader"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

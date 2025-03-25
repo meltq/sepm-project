@@ -1,1 +1,162 @@
-{"name":"gut","vers":"0.1.0","deps":[{"name":"approx","req":"^0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"autodiff","req":"^0.1","features":["cgmath"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"buffer","req":"^0.7","features":["numeric"],"optional":false,"default_features":true,"target":null,"kind":"normal","package":"data-buffer"},{"name":"chashmap","req":"^2","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"criterion","req":"^0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"fnv","req":"^1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"gut-derive","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"math","req":"^0.17","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal","package":"cgmath"},{"name":"num-traits","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rand","req":"^0.7","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"rayon","req":"^1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"reinterpret","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0","features":["derive"],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"vtkio","req":"^0.2","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"c2b08db3637da6c0600da5f05529509d6120681e232a56f7e70660d1f0f8e34b","features":{"default":["fnv"],"io":["vtkio"],"parallel":["rayon","chashmap"],"serde_all":["serde","math/serde","buffer/serde_all"],"unstable":["criterion/real_blackbox"]},"yanked":false}
+{
+    "name": "gut",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "approx",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "autodiff",
+            "req": "^0.1",
+            "features": [
+                "cgmath"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "buffer",
+            "req": "^0.7",
+            "features": [
+                "numeric"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal",
+            "package": "data-buffer"
+        },
+        {
+            "name": "chashmap",
+            "req": "^2",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "criterion",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "fnv",
+            "req": "^1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "gut-derive",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "math",
+            "req": "^0.17",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal",
+            "package": "cgmath"
+        },
+        {
+            "name": "num-traits",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rand",
+            "req": "^0.7",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "rayon",
+            "req": "^1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "reinterpret",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [
+                "derive"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "vtkio",
+            "req": "^0.2",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "c2b08db3637da6c0600da5f05529509d6120681e232a56f7e70660d1f0f8e34b",
+    "features": {
+        "default": [
+            "fnv"
+        ],
+        "io": [
+            "vtkio"
+        ],
+        "parallel": [
+            "rayon",
+            "chashmap"
+        ],
+        "serde_all": [
+            "serde",
+            "math/serde",
+            "buffer/serde_all"
+        ],
+        "unstable": [
+            "criterion/real_blackbox"
+        ]
+    },
+    "yanked": false
+}

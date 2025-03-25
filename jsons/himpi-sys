@@ -1,1 +1,89 @@
-{"name":"himpi-sys","vers":"0.1.0","deps":[{"name":"bindgen","req":"^0.51.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"cfg-if","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"regex","req":"^1.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"rust-bitfield","req":"^0.1.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"50343118882ca93355e3f81b09586ad4f89aaa21e438d0122bf160cc4e616598","features":{"default":["hi3559av100","mpi-hdmi","mpi-sys","mpi-vb","mpi-vdec","mpi-venc","mpi-vi","mpi-vo","mpi-vpss"],"hi3516ev200":[],"hi3516ev300":[],"hi3518ev200":[],"hi3518ev300":[],"hi3519av100":[],"hi3531v100":[],"hi3559av100":[],"mpi-ae":[],"mpi-audio":[],"mpi-avs":[],"mpi-awb":[],"mpi-dpu":[],"mpi-dsp":[],"mpi-gdc":[],"mpi-hdmi":[],"mpi-hdr":[],"mpi-isp":[],"mpi-ive":[],"mpi-nnie":[],"mpi-pciv":[],"mpi-photo":[],"mpi-region":[],"mpi-snap":[],"mpi-sys":[],"mpi-vb":[],"mpi-vdec":[],"mpi-venc":[],"mpi-vgs":[],"mpi-vi":[],"mpi-vo":[],"mpi-vpss":[],"static-link":[]},"yanked":false}
+{
+    "name": "himpi-sys",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "bindgen",
+            "req": "^0.51.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "cfg-if",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "regex",
+            "req": "^1.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "rust-bitfield",
+            "req": "^0.1.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "50343118882ca93355e3f81b09586ad4f89aaa21e438d0122bf160cc4e616598",
+    "features": {
+        "default": [
+            "hi3559av100",
+            "mpi-hdmi",
+            "mpi-sys",
+            "mpi-vb",
+            "mpi-vdec",
+            "mpi-venc",
+            "mpi-vi",
+            "mpi-vo",
+            "mpi-vpss"
+        ],
+        "hi3516ev200": [],
+        "hi3516ev300": [],
+        "hi3518ev200": [],
+        "hi3518ev300": [],
+        "hi3519av100": [],
+        "hi3531v100": [],
+        "hi3559av100": [],
+        "mpi-ae": [],
+        "mpi-audio": [],
+        "mpi-avs": [],
+        "mpi-awb": [],
+        "mpi-dpu": [],
+        "mpi-dsp": [],
+        "mpi-gdc": [],
+        "mpi-hdmi": [],
+        "mpi-hdr": [],
+        "mpi-isp": [],
+        "mpi-ive": [],
+        "mpi-nnie": [],
+        "mpi-pciv": [],
+        "mpi-photo": [],
+        "mpi-region": [],
+        "mpi-snap": [],
+        "mpi-sys": [],
+        "mpi-vb": [],
+        "mpi-vdec": [],
+        "mpi-venc": [],
+        "mpi-vgs": [],
+        "mpi-vi": [],
+        "mpi-vo": [],
+        "mpi-vpss": [],
+        "static-link": []
+    },
+    "yanked": false
+}

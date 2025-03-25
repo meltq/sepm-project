@@ -1,1 +1,92 @@
-{"name":"decaf377-frost","vers":"0.82.0-alpha.0","deps":[{"name":"anyhow","req":"^1.0.75","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"ark-ff","req":"^0.4.2","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"blake2b_simd","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"decaf377","req":"^0.10.1","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"decaf377-rdsa","req":"^0.11.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"frost-core","req":"^0.7","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"frost-rerandomized","req":"^0.7","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"penumbra-sdk-proto","req":"^0.82.0-alpha.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rand_core","req":"^0.6.4","features":["getrandom"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"c21e9aaec1ec958d589028736251b5719ddc5cd268c0589971ce8b4f8f3fed87","features":{},"yanked":false}
+{
+    "name": "decaf377-frost",
+    "vers": "0.82.0-alpha.0",
+    "deps": [
+        {
+            "name": "anyhow",
+            "req": "^1.0.75",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ark-ff",
+            "req": "^0.4.2",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "blake2b_simd",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "decaf377",
+            "req": "^0.10.1",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "decaf377-rdsa",
+            "req": "^0.11.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "frost-core",
+            "req": "^0.7",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "frost-rerandomized",
+            "req": "^0.7",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "penumbra-sdk-proto",
+            "req": "^0.82.0-alpha.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rand_core",
+            "req": "^0.6.4",
+            "features": [
+                "getrandom"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "c21e9aaec1ec958d589028736251b5719ddc5cd268c0589971ce8b4f8f3fed87",
+    "features": {},
+    "yanked": false
+}

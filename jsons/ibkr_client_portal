@@ -1,1 +1,144 @@
-{"name":"ibkr_client_portal","vers":"0.0.1","deps":[{"name":"async-trait","req":"^0.1.77","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"dotenv","req":"^0.15.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"futures-util","req":"^0.3.30","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"reqwest","req":"^0.11.24","features":["json"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rust_decimal","req":"^1.34.3","features":["maths","serde-float","serde-with-str"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rust_decimal_macros","req":"^1.34.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.196","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.113","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_repr","req":"^0.1.18","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serial_test","req":"^3.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"time","req":"^0.3.34","features":["parsing","macros","formatting","serde"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.35.1","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio-tungstenite","req":"^0.21.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"beff6c22237798b9d609978293c21dbe9a7adf8d3a70fdfec2bb885732225be8","features":{"ci":[],"flaky_test_cases":[]},"yanked":false}
+{
+    "name": "ibkr_client_portal",
+    "vers": "0.0.1",
+    "deps": [
+        {
+            "name": "async-trait",
+            "req": "^0.1.77",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "dotenv",
+            "req": "^0.15.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "futures-util",
+            "req": "^0.3.30",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "reqwest",
+            "req": "^0.11.24",
+            "features": [
+                "json"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rust_decimal",
+            "req": "^1.34.3",
+            "features": [
+                "maths",
+                "serde-float",
+                "serde-with-str"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rust_decimal_macros",
+            "req": "^1.34.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.196",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.113",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_repr",
+            "req": "^0.1.18",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serial_test",
+            "req": "^3.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "time",
+            "req": "^0.3.34",
+            "features": [
+                "parsing",
+                "macros",
+                "formatting",
+                "serde"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.35.1",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio-tungstenite",
+            "req": "^0.21.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "beff6c22237798b9d609978293c21dbe9a7adf8d3a70fdfec2bb885732225be8",
+    "features": {
+        "ci": [],
+        "flaky_test_cases": []
+    },
+    "yanked": false
+}

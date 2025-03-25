@@ -1,1 +1,66 @@
-{"name":"proxus","vers":"0.1.1","deps":[{"name":"futures","req":"^0.3.28","features":["thread-pool"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.189","features":["derive"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.33.0","features":["io-util","net","macros","rt-multi-thread","time"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"toml","req":"^0.8.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"validator","req":"^0.16.1","features":["derive"],"optional":false,"default_features":false,"target":null,"kind":"normal"}],"cksum":"ffaf28ca38338a9d52f372b242dae0c58eae3cd42d2d9ccd8633ab95c1aaa0e8","features":{},"yanked":false}
+{
+    "name": "proxus",
+    "vers": "0.1.1",
+    "deps": [
+        {
+            "name": "futures",
+            "req": "^0.3.28",
+            "features": [
+                "thread-pool"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.189",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.33.0",
+            "features": [
+                "io-util",
+                "net",
+                "macros",
+                "rt-multi-thread",
+                "time"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "toml",
+            "req": "^0.8.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "validator",
+            "req": "^0.16.1",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "ffaf28ca38338a9d52f372b242dae0c58eae3cd42d2d9ccd8633ab95c1aaa0e8",
+    "features": {},
+    "yanked": false
+}

@@ -1,1 +1,61 @@
-{"name":"imgutils","vers":"0.1.0","deps":[{"name":"anyhow","req":"^1.0.81","features":["backtrace"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"clap","req":"^4.5.3","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"image","req":"^0.25.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"indicatif","req":"^0.17.8","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"owo-colors","req":"^4.0.0","features":["supports-colors"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"32d0c1c7b775bc98013449d5c018c3d7becde3f24b2cd0e74c98f117881746e9","features":{},"yanked":true,"rust_version":"1.74"}
+{
+    "name": "imgutils",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "anyhow",
+            "req": "^1.0.81",
+            "features": [
+                "backtrace"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "clap",
+            "req": "^4.5.3",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "image",
+            "req": "^0.25.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "indicatif",
+            "req": "^0.17.8",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "owo-colors",
+            "req": "^4.0.0",
+            "features": [
+                "supports-colors"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "32d0c1c7b775bc98013449d5c018c3d7becde3f24b2cd0e74c98f117881746e9",
+    "features": {},
+    "yanked": true,
+    "rust_version": "1.74"
+}

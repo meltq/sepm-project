@@ -1,1 +1,61 @@
-{"name":"playht_rs","vers":"0.0.1","deps":[{"name":"reqwest","req":"^0.12","features":["json","multipart"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"=1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^1.0.58","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"ed03104a055b839eefdf08f80d32bb8ec191a6dd5d901c742db73353f70dc550","features":{},"yanked":false}
+{
+    "name": "playht_rs",
+    "vers": "0.0.1",
+    "deps": [
+        {
+            "name": "reqwest",
+            "req": "^0.12",
+            "features": [
+                "json",
+                "multipart"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "=1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^1.0.58",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "ed03104a055b839eefdf08f80d32bb8ec191a6dd5d901c742db73353f70dc550",
+    "features": {},
+    "yanked": false
+}

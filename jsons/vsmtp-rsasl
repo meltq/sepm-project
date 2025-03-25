@@ -1,1 +1,43 @@
-{"name":"vsmtp-rsasl","vers":"1.5.0","deps":[{"name":"discard","req":"^1.0.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"gsasl-sys","req":"^0.2.3","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"libc","req":"^0.2.125","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"e83f3a9c45deebffc9afcf22bd13043f71655006f753fdeb85ccfcaa90e09abb","features":{"build_bindgen":["gsasl-sys/build_bindgen"],"default":["build_bindgen"]},"yanked":true}
+{
+    "name": "vsmtp-rsasl",
+    "vers": "1.5.0",
+    "deps": [
+        {
+            "name": "discard",
+            "req": "^1.0.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "gsasl-sys",
+            "req": "^0.2.3",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "libc",
+            "req": "^0.2.125",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "e83f3a9c45deebffc9afcf22bd13043f71655006f753fdeb85ccfcaa90e09abb",
+    "features": {
+        "build_bindgen": [
+            "gsasl-sys/build_bindgen"
+        ],
+        "default": [
+            "build_bindgen"
+        ]
+    },
+    "yanked": true
+}

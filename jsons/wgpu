@@ -1,1 +1,44 @@
-{"name":"wgpu","vers":"0.1.0","deps":[{"name":"arrayvec","req":"^0.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"wgpu-native","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"4cd642035df9f901af12bca57f285a77be72638b02e5b20c7f513341ef8972f8","features":{"default":[],"dx11":["wgpu-native/gfx-backend-dx11"],"dx12":["wgpu-native/gfx-backend-dx12"],"metal":["wgpu-native/gfx-backend-metal"],"vulkan":["wgpu-native/gfx-backend-vulkan"],"winit":["wgpu-native/winit"]},"yanked":false}
+{
+    "name": "wgpu",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "arrayvec",
+            "req": "^0.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "wgpu-native",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "4cd642035df9f901af12bca57f285a77be72638b02e5b20c7f513341ef8972f8",
+    "features": {
+        "default": [],
+        "dx11": [
+            "wgpu-native/gfx-backend-dx11"
+        ],
+        "dx12": [
+            "wgpu-native/gfx-backend-dx12"
+        ],
+        "metal": [
+            "wgpu-native/gfx-backend-metal"
+        ],
+        "vulkan": [
+            "wgpu-native/gfx-backend-vulkan"
+        ],
+        "winit": [
+            "wgpu-native/winit"
+        ]
+    },
+    "yanked": false
+}

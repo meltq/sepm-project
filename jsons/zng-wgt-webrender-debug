@@ -1,1 +1,85 @@
-{"name":"zng-wgt-webrender-debug","vers":"0.2.1","deps":[{"name":"bitflags","req":"^2","features":["serde","bytemuck"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"webrender-api","req":"^0.62.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal","package":"zng-webrender-api"},{"name":"zng-app","req":"^0.2.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"zng-ext-window","req":"^0.2.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"zng-view-api","req":"^0.2.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"zng-wgt","req":"^0.2.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"f488b18edc40b489d05098169fa7acb6f37b4f2f586dcdeb7026ae0837619ee2","features":{},"yanked":false}
+{
+    "name": "zng-wgt-webrender-debug",
+    "vers": "0.2.1",
+    "deps": [
+        {
+            "name": "bitflags",
+            "req": "^2",
+            "features": [
+                "serde",
+                "bytemuck"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "webrender-api",
+            "req": "^0.62.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal",
+            "package": "zng-webrender-api"
+        },
+        {
+            "name": "zng-app",
+            "req": "^0.2.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "zng-ext-window",
+            "req": "^0.2.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "zng-view-api",
+            "req": "^0.2.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "zng-wgt",
+            "req": "^0.2.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "f488b18edc40b489d05098169fa7acb6f37b4f2f586dcdeb7026ae0837619ee2",
+    "features": {},
+    "yanked": false
+}

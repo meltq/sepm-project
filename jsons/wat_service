@@ -1,1 +1,120 @@
-{"name":"wat_service","vers":"0.1.0","deps":[{"name":"criterion","req":"^0.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"indexmap","req":"^2.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"insta","req":"^1.39","features":["glob","json"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"line-index","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"lsp-types","req":"^0.97","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rowan","req":"^0.15","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rustc-hash","req":"^2.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"salsa","req":"^0.16","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"smallvec","req":"^1.13","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"wat_formatter","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"wat_parser","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"wat_syntax","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"aa716d383d45db95f43761a45cb6a954e428b0e95abdee1d43c0eda6d5ac97a1","features":{},"yanked":false}
+{
+    "name": "wat_service",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "criterion",
+            "req": "^0.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "indexmap",
+            "req": "^2.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "insta",
+            "req": "^1.39",
+            "features": [
+                "glob",
+                "json"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "line-index",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "lsp-types",
+            "req": "^0.97",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rowan",
+            "req": "^0.15",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rustc-hash",
+            "req": "^2.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "salsa",
+            "req": "^0.16",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "smallvec",
+            "req": "^1.13",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "wat_formatter",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "wat_parser",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "wat_syntax",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "aa716d383d45db95f43761a45cb6a954e428b0e95abdee1d43c0eda6d5ac97a1",
+    "features": {},
+    "yanked": false
+}

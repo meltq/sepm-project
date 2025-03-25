@@ -1,1 +1,51 @@
-{"name":"rcublas","vers":"0.2.0","deps":[{"name":"clippy","req":"^0.0.35","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"coaster","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"libc","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rcublas-sys","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"8719e68c483192885ad75ee824a2d21cf3231f8265190d75507fbd6d9de50314","features":{"dev":[],"lint":["clippy"],"travis":[]},"yanked":false}
+{
+    "name": "rcublas",
+    "vers": "0.2.0",
+    "deps": [
+        {
+            "name": "clippy",
+            "req": "^0.0.35",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "coaster",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "libc",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rcublas-sys",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "8719e68c483192885ad75ee824a2d21cf3231f8265190d75507fbd6d9de50314",
+    "features": {
+        "dev": [],
+        "lint": [
+            "clippy"
+        ],
+        "travis": []
+    },
+    "yanked": false
+}

@@ -1,1 +1,51 @@
-{"name":"covcon","vers":"0.1.0","deps":[{"name":"insta","req":"^1.41.1","features":["ron"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"quick-xml","req":"^0.37.1","features":["serialize"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"525d0603aaef5f9dafda07ac63639ff211024e6ceb90254fd0c9a40d14200f42","features":{},"yanked":false}
+{
+    "name": "covcon",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "insta",
+            "req": "^1.41.1",
+            "features": [
+                "ron"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "quick-xml",
+            "req": "^0.37.1",
+            "features": [
+                "serialize"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "525d0603aaef5f9dafda07ac63639ff211024e6ceb90254fd0c9a40d14200f42",
+    "features": {},
+    "yanked": false
+}

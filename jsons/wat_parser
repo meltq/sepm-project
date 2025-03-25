@@ -1,1 +1,68 @@
-{"name":"wat_parser","vers":"0.1.0","deps":[{"name":"codespan-reporting","req":"^0.11","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"insta","req":"^1.39","features":["glob","json"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"rowan","req":"^0.15","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"similar-asserts","req":"^1.6","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"wat_syntax","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"winnow","req":"^0.6","features":["unstable-recover"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"52d010134f3eb2ffe5e65164dbf62666fad6362f9f97f2dc47575cc8af998456","features":{},"yanked":false}
+{
+    "name": "wat_parser",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "codespan-reporting",
+            "req": "^0.11",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "insta",
+            "req": "^1.39",
+            "features": [
+                "glob",
+                "json"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "rowan",
+            "req": "^0.15",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "similar-asserts",
+            "req": "^1.6",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "wat_syntax",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "winnow",
+            "req": "^0.6",
+            "features": [
+                "unstable-recover"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "52d010134f3eb2ffe5e65164dbf62666fad6362f9f97f2dc47575cc8af998456",
+    "features": {},
+    "yanked": false
+}

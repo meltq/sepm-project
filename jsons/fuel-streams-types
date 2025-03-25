@@ -1,1 +1,175 @@
-{"name":"fuel-streams-types","vers":"0.0.18","deps":[{"name":"anyhow","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"async-trait","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"fuel-core","req":"^0.40.2","features":["p2p","relayer","rocksdb","p2p","relayer","rocksdb","test-helpers"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"fuel-core-bin","req":"^0.40.2","features":["p2p","relayer","rocksdb","p2p","relayer","rocksdb"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"fuel-core-client","req":"^0.40.2","features":["std","std"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"fuel-core-importer","req":"^0.40.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"fuel-core-services","req":"^0.40.2","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"fuel-core-storage","req":"^0.40.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"fuel-core-types","req":"^0.40.2","features":["std","serde","std","serde"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"hex","req":"^0.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"netlink-proto","req":"=0.11.3","features":[],"optional":true,"default_features":true,"target":"cfg(target_os = \"linux\")","kind":"normal"},{"name":"serde","req":"^1.0","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^2.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.41","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"a7cffc7ddb690084023e84a84ecaf9e6d0df95cffa760b54b3fcc664c339432d","features":{"default":[],"test-helpers":[]},"yanked":false,"rust_version":"1.81.0"}
+{
+    "name": "fuel-streams-types",
+    "vers": "0.0.18",
+    "deps": [
+        {
+            "name": "anyhow",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "async-trait",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "fuel-core",
+            "req": "^0.40.2",
+            "features": [
+                "p2p",
+                "relayer",
+                "rocksdb",
+                "p2p",
+                "relayer",
+                "rocksdb",
+                "test-helpers"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "fuel-core-bin",
+            "req": "^0.40.2",
+            "features": [
+                "p2p",
+                "relayer",
+                "rocksdb",
+                "p2p",
+                "relayer",
+                "rocksdb"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "fuel-core-client",
+            "req": "^0.40.2",
+            "features": [
+                "std",
+                "std"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "fuel-core-importer",
+            "req": "^0.40.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "fuel-core-services",
+            "req": "^0.40.2",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "fuel-core-storage",
+            "req": "^0.40.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "fuel-core-types",
+            "req": "^0.40.2",
+            "features": [
+                "std",
+                "serde",
+                "std",
+                "serde"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "hex",
+            "req": "^0.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "netlink-proto",
+            "req": "=0.11.3",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": "cfg(target_os = \"linux\")",
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^2.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.41",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "a7cffc7ddb690084023e84a84ecaf9e6d0df95cffa760b54b3fcc664c339432d",
+    "features": {
+        "default": [],
+        "test-helpers": []
+    },
+    "yanked": false,
+    "rust_version": "1.81.0"
+}

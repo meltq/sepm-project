@@ -1,1 +1,34 @@
-{"name":"nil-slip44","vers":"0.2.0","deps":[{"name":"itertools","req":"^0.10.1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"reqwest","req":"^0.11.4","features":["blocking"],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"09075a7c563424081cc5926796914892e0afd9460a4c5189759a713004645fd1","features":{"parse-coins":["itertools","reqwest"]},"yanked":false}
+{
+    "name": "nil-slip44",
+    "vers": "0.2.0",
+    "deps": [
+        {
+            "name": "itertools",
+            "req": "^0.10.1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "reqwest",
+            "req": "^0.11.4",
+            "features": [
+                "blocking"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "09075a7c563424081cc5926796914892e0afd9460a4c5189759a713004645fd1",
+    "features": {
+        "parse-coins": [
+            "itertools",
+            "reqwest"
+        ]
+    },
+    "yanked": false
+}

@@ -1,1 +1,61 @@
-{"name":"txn-core","vers":"0.1.0","deps":[{"name":"cheap-clone","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"either","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"indexmap","req":"^2","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"smallvec-wrapper","req":"^0.1","features":["const_new"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"08a7e0028c611775b8f03c13e99cde915778e716175df6fe310ff164863a1b49","features":{"default":["std"],"std":[]},"yanked":false}
+{
+    "name": "txn-core",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "cheap-clone",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "either",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "indexmap",
+            "req": "^2",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "smallvec-wrapper",
+            "req": "^0.1",
+            "features": [
+                "const_new"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "08a7e0028c611775b8f03c13e99cde915778e716175df6fe310ff164863a1b49",
+    "features": {
+        "default": [
+            "std"
+        ],
+        "std": []
+    },
+    "yanked": false
+}

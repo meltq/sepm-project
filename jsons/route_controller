@@ -1,1 +1,58 @@
-{"name":"route_controller","vers":"0.1.0","deps":[{"name":"axum","req":"^0.8.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"proc-macro2","req":"^1.0.92","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"quote","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"syn","req":"^1.0","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.0","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"22f741b5d51c206da1f7af810265565a576b9cef7bc7f3ab470fc936f4e19d81","features":{},"yanked":false}
+{
+    "name": "route_controller",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "axum",
+            "req": "^0.8.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "proc-macro2",
+            "req": "^1.0.92",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "quote",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "syn",
+            "req": "^1.0",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.0",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "22f741b5d51c206da1f7af810265565a576b9cef7bc7f3ab470fc936f4e19d81",
+    "features": {},
+    "yanked": false
+}

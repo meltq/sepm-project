@@ -1,1 +1,67 @@
-{"name":"qm-kafka","vers":"0.0.1","deps":[{"name":"anyhow","req":"^1.0.79","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"envy","req":"^0.4.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"log","req":"^0.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rdkafka","req":"^0.36.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.195","features":["derive","rc"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.111","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"920b353bf3b4bb53925424139571338ea1f8796d4b8552a1d839f196779e01ce","features":{},"yanked":false,"rust_version":"1.75.0"}
+{
+    "name": "qm-kafka",
+    "vers": "0.0.1",
+    "deps": [
+        {
+            "name": "anyhow",
+            "req": "^1.0.79",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "envy",
+            "req": "^0.4.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "log",
+            "req": "^0.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rdkafka",
+            "req": "^0.36.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.195",
+            "features": [
+                "derive",
+                "rc"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.111",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "920b353bf3b4bb53925424139571338ea1f8796d4b8552a1d839f196779e01ce",
+    "features": {},
+    "yanked": false,
+    "rust_version": "1.75.0"
+}

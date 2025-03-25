@@ -1,1 +1,200 @@
-{"name":"zino-connector","vers":"0.0.1","deps":[{"name":"apache-avro","req":"^0.17.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"datafusion","req":"^42.2.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"futures","req":"^0.3.31","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"http","req":"^1.2.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"percent-encoding","req":"^2.3.1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"regex","req":"^1.11.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"reqwest","req":"^0.12.9","features":["blocking","gzip","json","multipart"],"optional":true,"default_features":false,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.216","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.133","features":["raw_value"],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_qs","req":"^0.13.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"sqlx","req":"^0.8.2","features":["chrono","json","rust_decimal","uuid"],"optional":true,"default_features":false,"target":null,"kind":"normal"},{"name":"toml","req":"^0.8.19","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"tracing","req":"^0.1.41","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"url","req":"^2.5.4","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"zino-core","req":"^0.29.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"f63979649ccd868aad87736b25808c145c66e2ac675ca6012ab8325f81293042","features":{},"features2":{"all-connectors":["connector-arrow","connector-http","connector-mysql","connector-postgres","connector-sqlite"],"connector-arrow":["dep:datafusion","zino-core/http-client"],"connector-http":["dep:http","dep:reqwest","dep:percent-encoding","dep:serde_json","dep:serde_qs","dep:url","zino-core/http-client"],"connector-mysql":["dep:futures","sqlx","sqlx/mysql"],"connector-postgres":["dep:futures","sqlx","sqlx/postgres"],"connector-sqlite":["dep:futures","sqlx","sqlx/sqlite"],"default":["connector-http"]},"yanked":false,"rust_version":"1.80","v":2}
+{
+    "name": "zino-connector",
+    "vers": "0.0.1",
+    "deps": [
+        {
+            "name": "apache-avro",
+            "req": "^0.17.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "datafusion",
+            "req": "^42.2.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "futures",
+            "req": "^0.3.31",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "http",
+            "req": "^1.2.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "percent-encoding",
+            "req": "^2.3.1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "regex",
+            "req": "^1.11.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "reqwest",
+            "req": "^0.12.9",
+            "features": [
+                "blocking",
+                "gzip",
+                "json",
+                "multipart"
+            ],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.216",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.133",
+            "features": [
+                "raw_value"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_qs",
+            "req": "^0.13.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "sqlx",
+            "req": "^0.8.2",
+            "features": [
+                "chrono",
+                "json",
+                "rust_decimal",
+                "uuid"
+            ],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "toml",
+            "req": "^0.8.19",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1.41",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "url",
+            "req": "^2.5.4",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "zino-core",
+            "req": "^0.29.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "f63979649ccd868aad87736b25808c145c66e2ac675ca6012ab8325f81293042",
+    "features": {},
+    "features2": {
+        "all-connectors": [
+            "connector-arrow",
+            "connector-http",
+            "connector-mysql",
+            "connector-postgres",
+            "connector-sqlite"
+        ],
+        "connector-arrow": [
+            "dep:datafusion",
+            "zino-core/http-client"
+        ],
+        "connector-http": [
+            "dep:http",
+            "dep:reqwest",
+            "dep:percent-encoding",
+            "dep:serde_json",
+            "dep:serde_qs",
+            "dep:url",
+            "zino-core/http-client"
+        ],
+        "connector-mysql": [
+            "dep:futures",
+            "sqlx",
+            "sqlx/mysql"
+        ],
+        "connector-postgres": [
+            "dep:futures",
+            "sqlx",
+            "sqlx/postgres"
+        ],
+        "connector-sqlite": [
+            "dep:futures",
+            "sqlx",
+            "sqlx/sqlite"
+        ],
+        "default": [
+            "connector-http"
+        ]
+    },
+    "yanked": false,
+    "rust_version": "1.80",
+    "v": 2
+}

@@ -1,1 +1,33 @@
-{"name":"libsubid-dylib","vers":"0.1.4","deps":[{"name":"libc","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"libsubid","req":"^0.1.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"dd66620530011b15acd94bbf0a52e657fedd2580504887a0eaeb45f7f2810bc5","features":{"dynamic-subgid":[],"dynamic-subuid":[],"mock-subgid":[],"mock-subuid":[]},"yanked":false,"rust_version":"1.83"}
+{
+    "name": "libsubid-dylib",
+    "vers": "0.1.4",
+    "deps": [
+        {
+            "name": "libc",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "libsubid",
+            "req": "^0.1.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "dd66620530011b15acd94bbf0a52e657fedd2580504887a0eaeb45f7f2810bc5",
+    "features": {
+        "dynamic-subgid": [],
+        "dynamic-subuid": [],
+        "mock-subgid": [],
+        "mock-subuid": []
+    },
+    "yanked": false,
+    "rust_version": "1.83"
+}

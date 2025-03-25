@@ -1,1 +1,60 @@
-{"name":"sefar","vers":"0.1.0","deps":[{"name":"csv","req":"^1.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rand","req":"^0.8.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rand_distr","req":"^0.4.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rayon","req":"^1.10.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"0bff4f046aa31a54485b5e3b43017f78daa2a1064012a91fb4fce603fdc9b524","features":{"binary":[],"parallel":[],"report":[]},"yanked":true}
+{
+    "name": "sefar",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "csv",
+            "req": "^1.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rand",
+            "req": "^0.8.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rand_distr",
+            "req": "^0.4.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rayon",
+            "req": "^1.10.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "0bff4f046aa31a54485b5e3b43017f78daa2a1064012a91fb4fce603fdc9b524",
+    "features": {
+        "binary": [],
+        "parallel": [],
+        "report": []
+    },
+    "yanked": true
+}

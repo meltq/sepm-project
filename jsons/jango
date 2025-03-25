@@ -1,1 +1,82 @@
-{"name":"jango","vers":"0.1.0","deps":[{"name":"camino","req":"^1.1.6","features":["serde1"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"clap","req":"^4.5.4","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"color-eyre","req":"^0.6.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"markdown","req":"^1.0.0-alpha.16","features":["serde"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.197","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tera","req":"^1.19.1","features":["date-locale"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"toml","req":"^0.8.12","features":["parse"],"optional":false,"default_features":false,"target":null,"kind":"normal"}],"cksum":"6e16e2587f2b7e09154c4d1db96f7b000daf8f6eafcf0f0deb3a90ab6b93340f","features":{},"yanked":false}
+{
+    "name": "jango",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "camino",
+            "req": "^1.1.6",
+            "features": [
+                "serde1"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "clap",
+            "req": "^4.5.4",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "color-eyre",
+            "req": "^0.6.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "markdown",
+            "req": "^1.0.0-alpha.16",
+            "features": [
+                "serde"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.197",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tera",
+            "req": "^1.19.1",
+            "features": [
+                "date-locale"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "toml",
+            "req": "^0.8.12",
+            "features": [
+                "parse"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "6e16e2587f2b7e09154c4d1db96f7b000daf8f6eafcf0f0deb3a90ab6b93340f",
+    "features": {},
+    "yanked": false
+}

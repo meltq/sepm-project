@@ -1,1 +1,53 @@
-{"name":"midix","vers":"0.0.1","deps":[{"name":"midly","req":"^0.5.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"pretty_assertions","req":"^1.4.1","features":["alloc"],"optional":false,"default_features":false,"target":null,"kind":"dev"},{"name":"rayon","req":"^1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"dda7a99e2a4114c8fed560e1e4a08825496d417afc2ea83aeb8327d11509e714","features":{"alloc":[],"default":["alloc","std","parallel"],"parallel":["std","rayon"],"std":["alloc"],"strict":[]},"yanked":false}
+{
+    "name": "midix",
+    "vers": "0.0.1",
+    "deps": [
+        {
+            "name": "midly",
+            "req": "^0.5.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "pretty_assertions",
+            "req": "^1.4.1",
+            "features": [
+                "alloc"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "rayon",
+            "req": "^1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "dda7a99e2a4114c8fed560e1e4a08825496d417afc2ea83aeb8327d11509e714",
+    "features": {
+        "alloc": [],
+        "default": [
+            "alloc",
+            "std",
+            "parallel"
+        ],
+        "parallel": [
+            "std",
+            "rayon"
+        ],
+        "std": [
+            "alloc"
+        ],
+        "strict": []
+    },
+    "yanked": false
+}

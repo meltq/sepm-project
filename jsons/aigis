@@ -1,1 +1,166 @@
-{"name":"aigis","vers":"0.1.0","deps":[{"name":"anyhow","req":"^1.0.81","features":["backtrace"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"axum","req":"^0.7.4","features":["http2","tracing"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"bytes","req":"^1.5.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"dotenvy","req":"^0.15.7","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"http-cache-reqwest","req":"^0.13.0","features":[],"optional":true,"default_features":false,"target":null,"kind":"normal"},{"name":"image","req":"^0.25.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"mime","req":"^0.3.17","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"reqwest","req":"^0.11.27","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"reqwest-middleware","req":"^0.2.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.197","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.36.0","features":["full","tracing"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tower-http","req":"^0.5.2","features":["catch-panic","normalize-path","timeout","trace"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing","req":"^0.1.40","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"url","req":"^2.5.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"df34449b8016008c2bf5307ec7485f062fc04140aad6254427f0d793637e631c","features":{"cache-moka":["http-cache-reqwest","http-cache-reqwest/manager-moka"],"default":["rustls-tls","cache-moka"],"native-tls":["reqwest/native-tls"],"rustls-tls":["reqwest/rustls-tls"]},"yanked":false,"rust_version":"1.74"}
+{
+    "name": "aigis",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "anyhow",
+            "req": "^1.0.81",
+            "features": [
+                "backtrace"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "axum",
+            "req": "^0.7.4",
+            "features": [
+                "http2",
+                "tracing"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "bytes",
+            "req": "^1.5.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "dotenvy",
+            "req": "^0.15.7",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "http-cache-reqwest",
+            "req": "^0.13.0",
+            "features": [],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "image",
+            "req": "^0.25.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "mime",
+            "req": "^0.3.17",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "reqwest",
+            "req": "^0.11.27",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "reqwest-middleware",
+            "req": "^0.2.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.197",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.36.0",
+            "features": [
+                "full",
+                "tracing"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tower-http",
+            "req": "^0.5.2",
+            "features": [
+                "catch-panic",
+                "normalize-path",
+                "timeout",
+                "trace"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1.40",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "url",
+            "req": "^2.5.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "df34449b8016008c2bf5307ec7485f062fc04140aad6254427f0d793637e631c",
+    "features": {
+        "cache-moka": [
+            "http-cache-reqwest",
+            "http-cache-reqwest/manager-moka"
+        ],
+        "default": [
+            "rustls-tls",
+            "cache-moka"
+        ],
+        "native-tls": [
+            "reqwest/native-tls"
+        ],
+        "rustls-tls": [
+            "reqwest/rustls-tls"
+        ]
+    },
+    "yanked": false,
+    "rust_version": "1.74"
+}

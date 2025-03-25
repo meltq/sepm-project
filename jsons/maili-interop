@@ -1,1 +1,167 @@
-{"name":"maili-interop","vers":"0.1.7","deps":[{"name":"alloy-consensus","req":"^0.9.2","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"alloy-eips","req":"^0.9.2","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"alloy-primitives","req":"^0.8.18","features":["map"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"alloy-rlp","req":"^0.3.10","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"alloy-sol-types","req":"^0.8.18","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"arbitrary","req":"^1.4.1","features":["derive","derive"],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"arbitrary","req":"^1.4.1","features":["derive","derive"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"derive_more","req":"^1.0.0","features":["from","as_ref"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"rand","req":"^0.8.5","features":["small_rng"],"optional":false,"default_features":false,"target":null,"kind":"dev"},{"name":"serde","req":"^1.0.217","features":["derive","alloc"],"optional":true,"default_features":false,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.135","features":["alloc"],"optional":false,"default_features":false,"target":null,"kind":"dev"},{"name":"thiserror","req":"^2.0.9","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"}],"cksum":"4f8aaa9e4ef4dd0afd0495c5636d5644cf9b16e548a65c4433a125a71d6b5e1f","features":{},"features2":{"arbitrary":["std","dep:arbitrary","alloy-consensus/arbitrary","alloy-eips/arbitrary","alloy-primitives/rand","alloy-primitives/arbitrary"],"default":["serde","std"],"serde":["dep:serde","alloy-eips/serde","alloy-primitives/serde","alloy-consensus/serde"],"std":["alloy-consensus/std","alloy-eips/std","alloy-primitives/std","alloy-rlp/std","alloy-sol-types/std","derive_more/std","serde?/std","thiserror/std"]},"yanked":false,"rust_version":"1.81","v":2}
+{
+    "name": "maili-interop",
+    "vers": "0.1.7",
+    "deps": [
+        {
+            "name": "alloy-consensus",
+            "req": "^0.9.2",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "alloy-eips",
+            "req": "^0.9.2",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "alloy-primitives",
+            "req": "^0.8.18",
+            "features": [
+                "map"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "alloy-rlp",
+            "req": "^0.3.10",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "alloy-sol-types",
+            "req": "^0.8.18",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "arbitrary",
+            "req": "^1.4.1",
+            "features": [
+                "derive",
+                "derive"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "arbitrary",
+            "req": "^1.4.1",
+            "features": [
+                "derive",
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "derive_more",
+            "req": "^1.0.0",
+            "features": [
+                "from",
+                "as_ref"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rand",
+            "req": "^0.8.5",
+            "features": [
+                "small_rng"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.217",
+            "features": [
+                "derive",
+                "alloc"
+            ],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.135",
+            "features": [
+                "alloc"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "thiserror",
+            "req": "^2.0.9",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "4f8aaa9e4ef4dd0afd0495c5636d5644cf9b16e548a65c4433a125a71d6b5e1f",
+    "features": {},
+    "features2": {
+        "arbitrary": [
+            "std",
+            "dep:arbitrary",
+            "alloy-consensus/arbitrary",
+            "alloy-eips/arbitrary",
+            "alloy-primitives/rand",
+            "alloy-primitives/arbitrary"
+        ],
+        "default": [
+            "serde",
+            "std"
+        ],
+        "serde": [
+            "dep:serde",
+            "alloy-eips/serde",
+            "alloy-primitives/serde",
+            "alloy-consensus/serde"
+        ],
+        "std": [
+            "alloy-consensus/std",
+            "alloy-eips/std",
+            "alloy-primitives/std",
+            "alloy-rlp/std",
+            "alloy-sol-types/std",
+            "derive_more/std",
+            "serde?/std",
+            "thiserror/std"
+        ]
+    },
+    "yanked": false,
+    "rust_version": "1.81",
+    "v": 2
+}

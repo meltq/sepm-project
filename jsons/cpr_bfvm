@@ -1,1 +1,52 @@
-{"name":"cpr_bfvm","vers":"0.1.2","deps":[{"name":"clap","req":"^4.5.2","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"cpr_bf","req":"^0.1.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"log","req":"^0.4.21","features":["std","release_max_level_info"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"simple_logger","req":"^4.3.3","features":["stderr"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"cf4f551297a2724435c63d64d8dc2d49b03c2345a95a9feafa0805d652685a35","features":{},"yanked":false}
+{
+    "name": "cpr_bfvm",
+    "vers": "0.1.2",
+    "deps": [
+        {
+            "name": "clap",
+            "req": "^4.5.2",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "cpr_bf",
+            "req": "^0.1.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "log",
+            "req": "^0.4.21",
+            "features": [
+                "std",
+                "release_max_level_info"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "simple_logger",
+            "req": "^4.3.3",
+            "features": [
+                "stderr"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "cf4f551297a2724435c63d64d8dc2d49b03c2345a95a9feafa0805d652685a35",
+    "features": {},
+    "yanked": false
+}

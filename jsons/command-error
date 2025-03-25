@@ -1,1 +1,60 @@
-{"name":"command-error","vers":"0.2.0","deps":[{"name":"indoc","req":"^2.0.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"pretty_assertions","req":"^1.4.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"shell-words","req":"^1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing","req":"^0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"utf8-command","req":"^1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"6298bbb467d4e6e4d560f45f5b3a71be96d543ea47316751e7dd88093cc49f76","features":{"default":["utf8-command","shell-words","tracing"]},"yanked":false}
+{
+    "name": "command-error",
+    "vers": "0.2.0",
+    "deps": [
+        {
+            "name": "indoc",
+            "req": "^2.0.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "pretty_assertions",
+            "req": "^1.4.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "shell-words",
+            "req": "^1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing",
+            "req": "^0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "utf8-command",
+            "req": "^1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "6298bbb467d4e6e4d560f45f5b3a71be96d543ea47316751e7dd88093cc49f76",
+    "features": {
+        "default": [
+            "utf8-command",
+            "shell-words",
+            "tracing"
+        ]
+    },
+    "yanked": false
+}

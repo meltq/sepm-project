@@ -1,1 +1,50 @@
-{"name":"plugin-lua-cygnixy","vers":"0.1.0","deps":[{"name":"control-craft","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"cygnixy-plugin-interface","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"mlua","req":"^0.10","features":["luau","vendored","serialize","error-send"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"75071f5e374205d139664295c9c9b334a11178a2827898a0b89ce4be54fed6e5","features":{},"yanked":false}
+{
+    "name": "plugin-lua-cygnixy",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "control-craft",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "cygnixy-plugin-interface",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "mlua",
+            "req": "^0.10",
+            "features": [
+                "luau",
+                "vendored",
+                "serialize",
+                "error-send"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "75071f5e374205d139664295c9c9b334a11178a2827898a0b89ce4be54fed6e5",
+    "features": {},
+    "yanked": false
+}

@@ -1,1 +1,144 @@
-{"name":"systemd-crontab-generator","vers":"1.0.0-rc1","deps":[{"name":"cronparse","req":"*","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"docopt","req":"*","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"glob","req":"*","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"handlebars","req":"*","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"kernlog","req":"*","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"libc","req":"*","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"log","req":"*","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"md5","req":"*","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rustc-serialize","req":"*","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rustc-serialize","req":"*","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"tempfile","req":"*","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"time","req":"*","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"users","req":"*","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"89d50b00794143d1d8f37b5e56e9ca7c6b17457849a878f3e29e39570398e7b1","features":{"default":["sched-boot","sched-hourly","sched-daily","sched-weekly","sched-monthly"],"persistent":[],"sched-boot":[],"sched-daily":[],"sched-hourly":[],"sched-minutely":[],"sched-monthly":[],"sched-quarterly":[],"sched-semi-annually":[],"sched-weekly":[],"sched-yearly":[]},"yanked":false}
+{
+    "name": "systemd-crontab-generator",
+    "vers": "1.0.0-rc1",
+    "deps": [
+        {
+            "name": "cronparse",
+            "req": "*",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "docopt",
+            "req": "*",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "glob",
+            "req": "*",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "handlebars",
+            "req": "*",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "kernlog",
+            "req": "*",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "libc",
+            "req": "*",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "log",
+            "req": "*",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "md5",
+            "req": "*",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rustc-serialize",
+            "req": "*",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rustc-serialize",
+            "req": "*",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "tempfile",
+            "req": "*",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "time",
+            "req": "*",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "users",
+            "req": "*",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "89d50b00794143d1d8f37b5e56e9ca7c6b17457849a878f3e29e39570398e7b1",
+    "features": {
+        "default": [
+            "sched-boot",
+            "sched-hourly",
+            "sched-daily",
+            "sched-weekly",
+            "sched-monthly"
+        ],
+        "persistent": [],
+        "sched-boot": [],
+        "sched-daily": [],
+        "sched-hourly": [],
+        "sched-minutely": [],
+        "sched-monthly": [],
+        "sched-quarterly": [],
+        "sched-semi-annually": [],
+        "sched-weekly": [],
+        "sched-yearly": []
+    },
+    "yanked": false
+}

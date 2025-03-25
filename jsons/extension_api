@@ -1,1 +1,38 @@
-{"name":"extension_api","vers":"0.0.1","deps":[{"name":"serde","req":"^1.0","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"wit-bindgen","req":"^0.36","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"7ea0f713f2f24fd1dd74db98af0e6373bcd6205dec992d2c599244e9b831d8f8","features":{},"yanked":true}
+{
+    "name": "extension_api",
+    "vers": "0.0.1",
+    "deps": [
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "wit-bindgen",
+            "req": "^0.36",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "7ea0f713f2f24fd1dd74db98af0e6373bcd6205dec992d2c599244e9b831d8f8",
+    "features": {},
+    "yanked": true
+}

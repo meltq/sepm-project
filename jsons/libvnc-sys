@@ -1,1 +1,42 @@
-{"name":"libvnc-sys","vers":"0.1.0","deps":[{"name":"bindgen","req":"^0.69.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"cc","req":"^1.0.95","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"pkg-config","req":"^0.3.30","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"}],"cksum":"c8f139110b6ca9e3ba52dd2b1898ec8580689d8d348421d24908132334e4afea","features":{"default":["pkg"],"pkg":[],"source":[]},"yanked":false}
+{
+    "name": "libvnc-sys",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "bindgen",
+            "req": "^0.69.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "cc",
+            "req": "^1.0.95",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "pkg-config",
+            "req": "^0.3.30",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        }
+    ],
+    "cksum": "c8f139110b6ca9e3ba52dd2b1898ec8580689d8d348421d24908132334e4afea",
+    "features": {
+        "default": [
+            "pkg"
+        ],
+        "pkg": [],
+        "source": []
+    },
+    "yanked": false
+}

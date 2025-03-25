@@ -1,1 +1,50 @@
-{"name":"scaffolding-macros","vers":"0.0.1","deps":[{"name":"quote","req":"^1.0.35","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_yaml","req":"^0.9.27","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"syn","req":"^2.0.53","features":["full","extra-traits"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"uuid","req":"^1.5.0","features":["v4"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"7b0e20e0a6d42e84419d64f9cbb16d83f4bd5bcb03d5b8bfd3e082f997867658","features":{},"yanked":false}
+{
+    "name": "scaffolding-macros",
+    "vers": "0.0.1",
+    "deps": [
+        {
+            "name": "quote",
+            "req": "^1.0.35",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_yaml",
+            "req": "^0.9.27",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "syn",
+            "req": "^2.0.53",
+            "features": [
+                "full",
+                "extra-traits"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "uuid",
+            "req": "^1.5.0",
+            "features": [
+                "v4"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "7b0e20e0a6d42e84419d64f9cbb16d83f4bd5bcb03d5b8bfd3e082f997867658",
+    "features": {},
+    "yanked": false
+}

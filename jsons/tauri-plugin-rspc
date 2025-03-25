@@ -1,1 +1,61 @@
-{"name":"tauri-plugin-rspc","vers":"0.2.0","deps":[{"name":"rspc-procedure","req":"^0.0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1","features":["raw_value"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tauri","req":"^2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tauri-plugin","req":"^2.0.3","features":["build"],"optional":false,"default_features":true,"target":null,"kind":"build"}],"cksum":"680331062121edc09c2317b4ec335fd9880c463038331672d3d8acbd6494be4e","features":{},"yanked":false,"links":"tauri-plugin-rspc"}
+{
+    "name": "tauri-plugin-rspc",
+    "vers": "0.2.0",
+    "deps": [
+        {
+            "name": "rspc-procedure",
+            "req": "^0.0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1",
+            "features": [
+                "raw_value"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tauri",
+            "req": "^2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tauri-plugin",
+            "req": "^2.0.3",
+            "features": [
+                "build"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        }
+    ],
+    "cksum": "680331062121edc09c2317b4ec335fd9880c463038331672d3d8acbd6494be4e",
+    "features": {},
+    "yanked": false,
+    "links": "tauri-plugin-rspc"
+}

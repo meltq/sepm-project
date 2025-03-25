@@ -1,1 +1,31 @@
-{"name":"noise-functions-config","vers":"0.0.0","deps":[{"name":"noise-functions","req":"^0.0.0","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"}],"cksum":"b281721396f0a046127b3cbcf3d49f40ae2a6bf3ede47323922f779dc2dee9fe","features":{"default":["std"],"libm":["noise-functions/libm"],"nightly-simd":["noise-functions/nightly-simd"],"std":["noise-functions/std"]},"yanked":false}
+{
+    "name": "noise-functions-config",
+    "vers": "0.0.0",
+    "deps": [
+        {
+            "name": "noise-functions",
+            "req": "^0.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "b281721396f0a046127b3cbcf3d49f40ae2a6bf3ede47323922f779dc2dee9fe",
+    "features": {
+        "default": [
+            "std"
+        ],
+        "libm": [
+            "noise-functions/libm"
+        ],
+        "nightly-simd": [
+            "noise-functions/nightly-simd"
+        ],
+        "std": [
+            "noise-functions/std"
+        ]
+    },
+    "yanked": false
+}

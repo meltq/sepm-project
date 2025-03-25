@@ -1,1 +1,50 @@
-{"name":"rust_transiter_types","vers":"0.1.0","deps":[{"name":"prost","req":"^0.13.4","features":["prost-derive"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0","features":["derive","alloc"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"serde-json-core","req":"^0.6","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tonic-build","req":"^0.11.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"}],"cksum":"a094150d2f34c0513456327fc4c9755de5e989662f686df564d4e5dae736af11","features":{},"yanked":false}
+{
+    "name": "rust_transiter_types",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "prost",
+            "req": "^0.13.4",
+            "features": [
+                "prost-derive"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [
+                "derive",
+                "alloc"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde-json-core",
+            "req": "^0.6",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tonic-build",
+            "req": "^0.11.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        }
+    ],
+    "cksum": "a094150d2f34c0513456327fc4c9755de5e989662f686df564d4e5dae736af11",
+    "features": {},
+    "yanked": false
+}

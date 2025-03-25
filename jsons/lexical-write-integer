@@ -1,1 +1,63 @@
-{"name":"lexical-write-integer","vers":"0.8.0","deps":[{"name":"lexical-util","req":"^0.8","features":["write-integers"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"proptest","req":"^0.10.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"static_assertions","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"ece956492e0e40fd95ef8658a34d53a3b8c2015762fdcaaff2167b28de1f56ef","features":{"compact":["lexical-util/compact"],"default":["std"],"format":["lexical-util/format"],"lint":["lexical-util/lint"],"nightly":[],"power-of-two":["lexical-util/power-of-two"],"radix":["lexical-util/radix","power-of-two"],"safe":[],"std":["lexical-util/std"]},"yanked":false}
+{
+    "name": "lexical-write-integer",
+    "vers": "0.8.0",
+    "deps": [
+        {
+            "name": "lexical-util",
+            "req": "^0.8",
+            "features": [
+                "write-integers"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "proptest",
+            "req": "^0.10.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "static_assertions",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "ece956492e0e40fd95ef8658a34d53a3b8c2015762fdcaaff2167b28de1f56ef",
+    "features": {
+        "compact": [
+            "lexical-util/compact"
+        ],
+        "default": [
+            "std"
+        ],
+        "format": [
+            "lexical-util/format"
+        ],
+        "lint": [
+            "lexical-util/lint"
+        ],
+        "nightly": [],
+        "power-of-two": [
+            "lexical-util/power-of-two"
+        ],
+        "radix": [
+            "lexical-util/radix",
+            "power-of-two"
+        ],
+        "safe": [],
+        "std": [
+            "lexical-util/std"
+        ]
+    },
+    "yanked": false
+}

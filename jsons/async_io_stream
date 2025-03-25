@@ -1,1 +1,135 @@
-{"name":"async_io_stream","vers":"0.1.0","deps":[{"name":"assert_matches","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"async-std","req":"^1","features":["attributes"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"flexi_logger","req":"^0.15","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"futures","req":"^0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"futures-core","req":"^0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"futures-io","req":"^0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"futures-sink","req":"^0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"futures-task","req":"^0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"futures-test","req":"^0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"log","req":"^0.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"pharos","req":"^0.4","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"pretty_assertions","req":"^0.6","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"tokio","req":"^0.2","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"f0ca05f2071458a2a17b4a12684d1d5f0a519762d30fc69fe9ef447a5c6b3198","features":{"map_pharos":["pharos"],"tokio_io":["tokio"]},"yanked":false}
+{
+    "name": "async_io_stream",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "assert_matches",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "async-std",
+            "req": "^1",
+            "features": [
+                "attributes"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "flexi_logger",
+            "req": "^0.15",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "futures",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "futures-core",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "futures-io",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "futures-sink",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "futures-task",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "futures-test",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "log",
+            "req": "^0.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "pharos",
+            "req": "^0.4",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "pretty_assertions",
+            "req": "^0.6",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "tokio",
+            "req": "^0.2",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "f0ca05f2071458a2a17b4a12684d1d5f0a519762d30fc69fe9ef447a5c6b3198",
+    "features": {
+        "map_pharos": [
+            "pharos"
+        ],
+        "tokio_io": [
+            "tokio"
+        ]
+    },
+    "yanked": false
+}

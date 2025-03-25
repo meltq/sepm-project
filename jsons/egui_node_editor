@@ -1,1 +1,63 @@
-{"name":"egui_node_editor","vers":"0.5.0","deps":[{"name":"egui","req":"^0.29.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0","features":["derive"],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"slotmap","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"smallvec","req":"^1.10.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"9e8c3d5dd4896642ea11296e23a293b99dc11cce205634631f3b45b02554f381","features":{"persistence":["serde","slotmap/serde","smallvec/serde","egui/persistence"]},"yanked":false}
+{
+    "name": "egui_node_editor",
+    "vers": "0.5.0",
+    "deps": [
+        {
+            "name": "egui",
+            "req": "^0.29.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [
+                "derive"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "slotmap",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "smallvec",
+            "req": "^1.10.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "9e8c3d5dd4896642ea11296e23a293b99dc11cce205634631f3b45b02554f381",
+    "features": {
+        "persistence": [
+            "serde",
+            "slotmap/serde",
+            "smallvec/serde",
+            "egui/persistence"
+        ]
+    },
+    "yanked": false
+}

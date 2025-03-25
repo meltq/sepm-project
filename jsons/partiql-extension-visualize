@@ -1,1 +1,54 @@
-{"name":"partiql-extension-visualize","vers":"0.7.0","deps":[{"name":"dot-writer","req":"0.1.*","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"itertools","req":"0.10.*","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"partiql-ast","req":"0.7.*","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"partiql-logical","req":"0.7.*","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"eaaa0777ac0ad7e63a43cc46d6f1467a159ac0bd45a3b743bf3e035c54b76363","features":{"default":[]},"features2":{"visualize-dot":["dep:dot-writer","dep:itertools"]},"yanked":false,"v":2}
+{
+    "name": "partiql-extension-visualize",
+    "vers": "0.7.0",
+    "deps": [
+        {
+            "name": "dot-writer",
+            "req": "0.1.*",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "itertools",
+            "req": "0.10.*",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "partiql-ast",
+            "req": "0.7.*",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "partiql-logical",
+            "req": "0.7.*",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "eaaa0777ac0ad7e63a43cc46d6f1467a159ac0bd45a3b743bf3e035c54b76363",
+    "features": {
+        "default": []
+    },
+    "features2": {
+        "visualize-dot": [
+            "dep:dot-writer",
+            "dep:itertools"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

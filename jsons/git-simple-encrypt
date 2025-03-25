@@ -1,1 +1,182 @@
-{"name":"git-simple-encrypt","vers":"0.1.0","deps":[{"name":"aes-gcm-siv","req":"^0.11.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"anyhow","req":"^1.0.82","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"assert2","req":"^0.3.14","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"clap","req":"^4.5.4","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"colored","req":"^2.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"compio","req":"^0.10.0","features":["macros","dispatcher"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"die-exit","req":"^0.5.0","features":["red"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"env_logger","req":"^0.11.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"futures-util","req":"^0.3.30","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"git2","req":"^0.18.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"libz-sys","req":"^1.1.16","features":["static"],"optional":false,"default_features":true,"target":"cfg(target_arch = \"aarch64\")","kind":"normal"},{"name":"log","req":"^0.4.21","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"openssl","req":"^0.10","features":["vendored"],"optional":false,"default_features":true,"target":"cfg(not(target_os = \"windows\"))","kind":"normal"},{"name":"regex","req":"^1.10.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"same-file","req":"^1.0.6","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"sha3","req":"^0.10.8","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tap","req":"^1.0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"temp_testdir","req":"^0.2.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"472cd6e82ff5993fae6cc698b121a5303ea6d574aa572617ba6e130124a4ff1c","features":{},"yanked":false}
+{
+    "name": "git-simple-encrypt",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "aes-gcm-siv",
+            "req": "^0.11.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "anyhow",
+            "req": "^1.0.82",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "assert2",
+            "req": "^0.3.14",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "clap",
+            "req": "^4.5.4",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "colored",
+            "req": "^2.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "compio",
+            "req": "^0.10.0",
+            "features": [
+                "macros",
+                "dispatcher"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "die-exit",
+            "req": "^0.5.0",
+            "features": [
+                "red"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "env_logger",
+            "req": "^0.11.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "futures-util",
+            "req": "^0.3.30",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "git2",
+            "req": "^0.18.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "libz-sys",
+            "req": "^1.1.16",
+            "features": [
+                "static"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": "cfg(target_arch = \"aarch64\")",
+            "kind": "normal"
+        },
+        {
+            "name": "log",
+            "req": "^0.4.21",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "openssl",
+            "req": "^0.10",
+            "features": [
+                "vendored"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": "cfg(not(target_os = \"windows\"))",
+            "kind": "normal"
+        },
+        {
+            "name": "regex",
+            "req": "^1.10.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "same-file",
+            "req": "^1.0.6",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "sha3",
+            "req": "^0.10.8",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tap",
+            "req": "^1.0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "temp_testdir",
+            "req": "^0.2.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "472cd6e82ff5993fae6cc698b121a5303ea6d574aa572617ba6e130124a4ff1c",
+    "features": {},
+    "yanked": false
+}

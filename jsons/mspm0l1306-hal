@@ -1,1 +1,74 @@
-{"name":"MSPM0L1306-HAL","vers":"0.1.0","deps":[{"name":"cortex-m","req":"^0.7.7","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"cortex-m-rt","req":"^0.6.10","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"cortex-m-rtic","req":"^1.1.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"cortex-m-semihosting","req":"^0.5.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"embedded-hal","req":"^1.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"mspm0l130x","req":"^0.1.5","features":["rt"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"paste","req":"^1.0.14","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"2b65559b41324fe55bee67b2f98e77028da536e965598aae234295385181555e","features":{},"yanked":false}
+{
+    "name": "MSPM0L1306-HAL",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "cortex-m",
+            "req": "^0.7.7",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "cortex-m-rt",
+            "req": "^0.6.10",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "cortex-m-rtic",
+            "req": "^1.1.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "cortex-m-semihosting",
+            "req": "^0.5.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "embedded-hal",
+            "req": "^1.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "mspm0l130x",
+            "req": "^0.1.5",
+            "features": [
+                "rt"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "paste",
+            "req": "^1.0.14",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "2b65559b41324fe55bee67b2f98e77028da536e965598aae234295385181555e",
+    "features": {},
+    "yanked": false
+}

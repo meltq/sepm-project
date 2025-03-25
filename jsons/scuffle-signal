@@ -1,1 +1,51 @@
-{"name":"scuffle-signal","vers":"0.1.0","deps":[{"name":"futures","req":"^0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"libc","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"tokio","req":"^1.41.1","features":["signal"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.41.1","features":["macros","rt","time"],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"c5c9e004f096ea1fcf9385738f98c9a6a5034cf9369450353e63701d2ad076c9","features":{},"yanked":true}
+{
+    "name": "scuffle-signal",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "futures",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "libc",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.41.1",
+            "features": [
+                "signal"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.41.1",
+            "features": [
+                "macros",
+                "rt",
+                "time"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "c5c9e004f096ea1fcf9385738f98c9a6a5034cf9369450353e63701d2ad076c9",
+    "features": {},
+    "yanked": true
+}

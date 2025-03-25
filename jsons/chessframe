@@ -1,1 +1,58 @@
-{"name":"chessframe","vers":"0.1.0","deps":[{"name":"rand_chacha","req":"^0.3.1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"rand_chacha","req":"^0.3.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"rand_chacha","req":"^0.3.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"thiserror","req":"^2.0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^2.0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"}],"cksum":"a185e5525b4778da3a92707167350c80aed4b84795af62b113637ee6983742ae","features":{"rand-chacha":["rand_chacha"]},"yanked":false}
+{
+    "name": "chessframe",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "rand_chacha",
+            "req": "^0.3.1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rand_chacha",
+            "req": "^0.3.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "rand_chacha",
+            "req": "^0.3.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "thiserror",
+            "req": "^2.0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^2.0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        }
+    ],
+    "cksum": "a185e5525b4778da3a92707167350c80aed4b84795af62b113637ee6983742ae",
+    "features": {
+        "rand-chacha": [
+            "rand_chacha"
+        ]
+    },
+    "yanked": false
+}

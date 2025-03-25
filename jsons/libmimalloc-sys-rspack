@@ -1,1 +1,48 @@
-{"name":"libmimalloc-sys-rspack","vers":"0.1.39","deps":[{"name":"cc","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"cty","req":"^0.2","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"libc","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"0c4e4c0461640099aeb5f3f5cc0fe59bfd3545337bf2e06534e7ee994777ad57","features":{"arena":[],"debug":[],"debug_in_debug":[],"extended":["cty"],"local_dynamic_tls":[],"no_thp":[],"override":[],"secure":[]},"yanked":false,"links":"mimalloc"}
+{
+    "name": "libmimalloc-sys-rspack",
+    "vers": "0.1.39",
+    "deps": [
+        {
+            "name": "cc",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "cty",
+            "req": "^0.2",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "libc",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "0c4e4c0461640099aeb5f3f5cc0fe59bfd3545337bf2e06534e7ee994777ad57",
+    "features": {
+        "arena": [],
+        "debug": [],
+        "debug_in_debug": [],
+        "extended": [
+            "cty"
+        ],
+        "local_dynamic_tls": [],
+        "no_thp": [],
+        "override": [],
+        "secure": []
+    },
+    "yanked": false,
+    "links": "mimalloc"
+}

@@ -1,1 +1,32 @@
-{"name":"vqf-rs","vers":"0.1.0","deps":[{"name":"libm","req":"^0.2.8","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"8e3b02cc15bec70bab370bfb8a445fbafecbac56353f88a3fad95acf3e0e281e","features":{"default":["std","motion-bias-estimation"],"f32":[],"motion-bias-estimation":[],"std":[]},"features2":{"libm":["dep:libm"]},"yanked":false,"v":2}
+{
+    "name": "vqf-rs",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "libm",
+            "req": "^0.2.8",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "8e3b02cc15bec70bab370bfb8a445fbafecbac56353f88a3fad95acf3e0e281e",
+    "features": {
+        "default": [
+            "std",
+            "motion-bias-estimation"
+        ],
+        "f32": [],
+        "motion-bias-estimation": [],
+        "std": []
+    },
+    "features2": {
+        "libm": [
+            "dep:libm"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

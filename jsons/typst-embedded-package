@@ -1,1 +1,43 @@
-{"name":"typst-embedded-package","vers":"0.1.0","deps":[{"name":"flate2","req":"^1","features":[],"optional":true,"default_features":false,"target":null,"kind":"normal"},{"name":"tar","req":"^0.4","features":[],"optional":true,"default_features":false,"target":null,"kind":"normal"},{"name":"typst","req":"^0.12.0","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"}],"cksum":"70ec8585046edeeb2a0e749aa9697a37f2b90cea0d5d7b1aad60bbd6fa42d31f","features":{},"features2":{"read-archive":["dep:flate2","dep:tar"]},"yanked":true,"v":2}
+{
+    "name": "typst-embedded-package",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "flate2",
+            "req": "^1",
+            "features": [],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tar",
+            "req": "^0.4",
+            "features": [],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "typst",
+            "req": "^0.12.0",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "70ec8585046edeeb2a0e749aa9697a37f2b90cea0d5d7b1aad60bbd6fa42d31f",
+    "features": {},
+    "features2": {
+        "read-archive": [
+            "dep:flate2",
+            "dep:tar"
+        ]
+    },
+    "yanked": true,
+    "v": 2
+}

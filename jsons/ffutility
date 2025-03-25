@@ -1,1 +1,62 @@
-{"name":"ffutility","vers":"0.1.0","deps":[{"name":"ffmpeg-next","req":"^7.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"opencv","req":"^0.93.4","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.215","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^2.0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing","req":"^0.1.40","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"2cd98b8f9e3daab1347c7cf767c39260b091a9a1ce6b9aa5818a861575a3cdaa","features":{},"features2":{"opencv":["dep:opencv"]},"yanked":false,"v":2}
+{
+    "name": "ffutility",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "ffmpeg-next",
+            "req": "^7.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "opencv",
+            "req": "^0.93.4",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.215",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^2.0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1.40",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "2cd98b8f9e3daab1347c7cf767c39260b091a9a1ce6b9aa5818a861575a3cdaa",
+    "features": {},
+    "features2": {
+        "opencv": [
+            "dep:opencv"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

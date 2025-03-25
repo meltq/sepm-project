@@ -1,1 +1,68 @@
-{"name":"hktrading-client","vers":"0.0.1","deps":[{"name":"bytes","req":"^1.5.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"futures-core","req":"^0.3.30","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"progenitor-client","req":"^0.6","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"reqwest","req":"^0.11.24","features":["json","stream"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.197","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_urlencoded","req":"^0.7.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"f5598141a677b1635e4c7bdffd66833777f9c3406d4236abf5b04bd551b20b0a","features":{},"yanked":true}
+{
+    "name": "hktrading-client",
+    "vers": "0.0.1",
+    "deps": [
+        {
+            "name": "bytes",
+            "req": "^1.5.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "futures-core",
+            "req": "^0.3.30",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "progenitor-client",
+            "req": "^0.6",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "reqwest",
+            "req": "^0.11.24",
+            "features": [
+                "json",
+                "stream"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.197",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_urlencoded",
+            "req": "^0.7.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "f5598141a677b1635e4c7bdffd66833777f9c3406d4236abf5b04bd551b20b0a",
+    "features": {},
+    "yanked": true
+}

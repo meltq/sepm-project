@@ -1,1 +1,73 @@
-{"name":"simple-useragent","vers":"0.1.0","deps":[{"name":"postcard","req":"^1.1","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"postcard","req":"^1.1","features":["alloc"],"optional":false,"default_features":false,"target":null,"kind":"build"},{"name":"regex","req":"^1.11","features":["unicode-perl"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"serde_yaml","req":"^0.9.34","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"}],"cksum":"617cb9f5e5390c42a046d210e705928c12111dcfc29542c2543225cdf4329cfe","features":{"serde":[]},"yanked":false}
+{
+    "name": "simple-useragent",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "postcard",
+            "req": "^1.1",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "postcard",
+            "req": "^1.1",
+            "features": [
+                "alloc"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "regex",
+            "req": "^1.11",
+            "features": [
+                "unicode-perl"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "serde_yaml",
+            "req": "^0.9.34",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        }
+    ],
+    "cksum": "617cb9f5e5390c42a046d210e705928c12111dcfc29542c2543225cdf4329cfe",
+    "features": {
+        "serde": []
+    },
+    "yanked": false
+}

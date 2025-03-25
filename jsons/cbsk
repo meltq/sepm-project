@@ -1,1 +1,39 @@
-{"name":"cbsk","vers":"0.1.0","deps":[{"name":"cbsk_base","req":"^0.1.7","features":["macro"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"cbsk_socket","req":"^0.3.13","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"8c987cac883b9ae7bdfd0fa8227f4212d51d182373d54c035a680c0016324958","features":{"client":["cbsk_socket/tcp_client"],"default":["client"],"server":["cbsk_socket/tcp_server"]},"yanked":false}
+{
+    "name": "cbsk",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "cbsk_base",
+            "req": "^0.1.7",
+            "features": [
+                "macro"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "cbsk_socket",
+            "req": "^0.3.13",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "8c987cac883b9ae7bdfd0fa8227f4212d51d182373d54c035a680c0016324958",
+    "features": {
+        "client": [
+            "cbsk_socket/tcp_client"
+        ],
+        "default": [
+            "client"
+        ],
+        "server": [
+            "cbsk_socket/tcp_server"
+        ]
+    },
+    "yanked": false
+}

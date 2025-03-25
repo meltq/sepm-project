@@ -1,1 +1,49 @@
-{"name":"affinitypool","vers":"0.1.0","deps":[{"name":"async-channel","req":"^2.3.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"num_cpus","req":"^1.16.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^1.0.63","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.42.0","features":["sync"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"04fab2304b9a24464d90f301e0811a398c8219f0e11850ae6ab02d25faf2e616","features":{"default":[]},"yanked":false}
+{
+    "name": "affinitypool",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "async-channel",
+            "req": "^2.3.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "num_cpus",
+            "req": "^1.16.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^1.0.63",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.42.0",
+            "features": [
+                "sync"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "04fab2304b9a24464d90f301e0811a398c8219f0e11850ae6ab02d25faf2e616",
+    "features": {
+        "default": []
+    },
+    "yanked": false
+}

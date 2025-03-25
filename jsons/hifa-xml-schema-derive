@@ -1,1 +1,117 @@
-{"name":"hifa-xml-schema-derive","vers":"0.3.0","deps":[{"name":"darling","req":"^0.20.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"heck","req":"^0.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"hifa_yaserde","req":"^0.9","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"hifa_yaserde_derive","req":"^0.9","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"log","req":"^0.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"proc-macro2","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"quote","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"reqwest","req":"^0.11","features":["blocking"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"simple_logger","req":"^4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"syn","req":"^2.0","features":["visit","extra-traits"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"xml-rs","req":"^0.8","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"f7af7d2810bdf61b4d3c943760748385ef33b5d68d9728d34065afd66c8646e4","features":{"default":["reqwest/default-tls"]},"yanked":false}
+{
+    "name": "hifa-xml-schema-derive",
+    "vers": "0.3.0",
+    "deps": [
+        {
+            "name": "darling",
+            "req": "^0.20.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "heck",
+            "req": "^0.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "hifa_yaserde",
+            "req": "^0.9",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "hifa_yaserde_derive",
+            "req": "^0.9",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "log",
+            "req": "^0.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "proc-macro2",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "quote",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "reqwest",
+            "req": "^0.11",
+            "features": [
+                "blocking"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "simple_logger",
+            "req": "^4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "syn",
+            "req": "^2.0",
+            "features": [
+                "visit",
+                "extra-traits"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "xml-rs",
+            "req": "^0.8",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "f7af7d2810bdf61b4d3c943760748385ef33b5d68d9728d34065afd66c8646e4",
+    "features": {
+        "default": [
+            "reqwest/default-tls"
+        ]
+    },
+    "yanked": false
+}

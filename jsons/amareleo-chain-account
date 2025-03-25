@@ -1,1 +1,36 @@
-{"name":"amareleo-chain-account","vers":"2.0.1","deps":[{"name":"colored","req":"^2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"snarkvm","req":"=1.2.1","features":["circuit","console","rocks","console"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"d46e97964d129eebbb0e10208551ec125d821a589509a67b24ddc818d8c7631d","features":{"test_targets":["snarkvm/test_targets"]},"yanked":false}
+{
+    "name": "amareleo-chain-account",
+    "vers": "2.0.1",
+    "deps": [
+        {
+            "name": "colored",
+            "req": "^2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "snarkvm",
+            "req": "=1.2.1",
+            "features": [
+                "circuit",
+                "console",
+                "rocks",
+                "console"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "d46e97964d129eebbb0e10208551ec125d821a589509a67b24ddc818d8c7631d",
+    "features": {
+        "test_targets": [
+            "snarkvm/test_targets"
+        ]
+    },
+    "yanked": false
+}

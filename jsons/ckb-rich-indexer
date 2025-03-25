@@ -1,1 +1,131 @@
-{"name":"ckb-rich-indexer","vers":"0.115.0-rc2","deps":[{"name":"anyhow","req":"^1.0.34","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"ckb-app-config","req":"=0.115.0-rc2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"ckb-async-runtime","req":"=0.115.0-rc2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"ckb-indexer-sync","req":"=0.115.0-rc2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"ckb-jsonrpc-types","req":"=0.115.0-rc2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"ckb-notify","req":"=0.115.0-rc2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"ckb-types","req":"=0.115.0-rc2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"futures","req":"^0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"log","req":"^0.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"num-bigint","req":"^0.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"once_cell","req":"^1.8.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"sql-builder","req":"^3.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"sqlx","req":"^0.6","features":["runtime-tokio-rustls","any","sqlite","postgres"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"caa11e41bda2cdc1d16fb4ece7e9709fff472cf9634b5587442ac4bae60694fd","features":{},"yanked":false}
+{
+    "name": "ckb-rich-indexer",
+    "vers": "0.115.0-rc2",
+    "deps": [
+        {
+            "name": "anyhow",
+            "req": "^1.0.34",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ckb-app-config",
+            "req": "=0.115.0-rc2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ckb-async-runtime",
+            "req": "=0.115.0-rc2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ckb-indexer-sync",
+            "req": "=0.115.0-rc2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ckb-jsonrpc-types",
+            "req": "=0.115.0-rc2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ckb-notify",
+            "req": "=0.115.0-rc2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ckb-types",
+            "req": "=0.115.0-rc2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "futures",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "log",
+            "req": "^0.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "num-bigint",
+            "req": "^0.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "once_cell",
+            "req": "^1.8.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "sql-builder",
+            "req": "^3.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "sqlx",
+            "req": "^0.6",
+            "features": [
+                "runtime-tokio-rustls",
+                "any",
+                "sqlite",
+                "postgres"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "caa11e41bda2cdc1d16fb4ece7e9709fff472cf9634b5587442ac4bae60694fd",
+    "features": {},
+    "yanked": false
+}

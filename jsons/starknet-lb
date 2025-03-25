@@ -1,1 +1,122 @@
-{"name":"starknet-lb","vers":"0.1.0","deps":[{"name":"anyhow","req":"^1.0.94","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"arc-swap","req":"^1.7.1","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"axum","req":"^0.7.9","features":["tokio","http1","http2"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"clap","req":"^4.5.23","features":["derive","env","std"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"futures-util","req":"^0.3.31","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"rand","req":"^0.8.5","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"reqwest","req":"^0.11.27","features":["rustls-tls"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"starknet","req":"^0.12.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.42.0","features":["macros","rt-multi-thread","signal"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"tokio-util","req":"^0.7.13","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"url","req":"^2.5.4","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"}],"cksum":"5c768ca9dc5107b032cc73eaea18d8e00b2f1d42952a427fc08bae1d9518fd4f","features":{},"yanked":false}
+{
+    "name": "starknet-lb",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "anyhow",
+            "req": "^1.0.94",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "arc-swap",
+            "req": "^1.7.1",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "axum",
+            "req": "^0.7.9",
+            "features": [
+                "tokio",
+                "http1",
+                "http2"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "clap",
+            "req": "^4.5.23",
+            "features": [
+                "derive",
+                "env",
+                "std"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "futures-util",
+            "req": "^0.3.31",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rand",
+            "req": "^0.8.5",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "reqwest",
+            "req": "^0.11.27",
+            "features": [
+                "rustls-tls"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "starknet",
+            "req": "^0.12.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.42.0",
+            "features": [
+                "macros",
+                "rt-multi-thread",
+                "signal"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio-util",
+            "req": "^0.7.13",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "url",
+            "req": "^2.5.4",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "5c768ca9dc5107b032cc73eaea18d8e00b2f1d42952a427fc08bae1d9518fd4f",
+    "features": {},
+    "yanked": false
+}

@@ -1,1 +1,65 @@
-{"name":"ic_cose","vers":"0.6.0","deps":[{"name":"candid","req":"^0.10","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"ic-agent","req":"^0.39","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"ic_cose_types","req":"^0.6","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rand","req":"^0.8","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_bytes","req":"^0.11","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"x25519-dalek","req":"^2","features":["static_secrets"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"6d56a15f9197f5882b2f1501905e4fb2d7129c03acaf5e2d24b147475cd28482","features":{},"yanked":false}
+{
+    "name": "ic_cose",
+    "vers": "0.6.0",
+    "deps": [
+        {
+            "name": "candid",
+            "req": "^0.10",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ic-agent",
+            "req": "^0.39",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ic_cose_types",
+            "req": "^0.6",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rand",
+            "req": "^0.8",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_bytes",
+            "req": "^0.11",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "x25519-dalek",
+            "req": "^2",
+            "features": [
+                "static_secrets"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "6d56a15f9197f5882b2f1501905e4fb2d7129c03acaf5e2d24b147475cd28482",
+    "features": {},
+    "yanked": false
+}

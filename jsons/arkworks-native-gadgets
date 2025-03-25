@@ -1,1 +1,83 @@
-{"name":"arkworks-native-gadgets","vers":"0.5.0","deps":[{"name":"ark-bn254","req":"^0.3.0","features":[],"optional":false,"default_features":false,"target":null,"kind":"dev"},{"name":"ark-crypto-primitives","req":"^0.3.0","features":["r1cs"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"ark-ed-on-bls12-381","req":"^0.3.0","features":["r1cs"],"optional":false,"default_features":false,"target":null,"kind":"dev"},{"name":"ark-ed-on-bn254","req":"^0.3.0","features":["r1cs"],"optional":false,"default_features":false,"target":null,"kind":"dev"},{"name":"ark-ff","req":"^0.3.0","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"ark-std","req":"^0.3.0","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"}],"cksum":"70be58656886e21ee66fbc6624847dc5f48ac78109092707f4b80d012ee49ce6","features":{"default":["std"],"parallel":["ark-crypto-primitives/parallel","ark-ff/parallel","ark-std/parallel"],"std":["ark-std/std","ark-ff/std","ark-crypto-primitives/std"]},"yanked":false}
+{
+    "name": "arkworks-native-gadgets",
+    "vers": "0.5.0",
+    "deps": [
+        {
+            "name": "ark-bn254",
+            "req": "^0.3.0",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "ark-crypto-primitives",
+            "req": "^0.3.0",
+            "features": [
+                "r1cs"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ark-ed-on-bls12-381",
+            "req": "^0.3.0",
+            "features": [
+                "r1cs"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "ark-ed-on-bn254",
+            "req": "^0.3.0",
+            "features": [
+                "r1cs"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "ark-ff",
+            "req": "^0.3.0",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ark-std",
+            "req": "^0.3.0",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "70be58656886e21ee66fbc6624847dc5f48ac78109092707f4b80d012ee49ce6",
+    "features": {
+        "default": [
+            "std"
+        ],
+        "parallel": [
+            "ark-crypto-primitives/parallel",
+            "ark-ff/parallel",
+            "ark-std/parallel"
+        ],
+        "std": [
+            "ark-std/std",
+            "ark-ff/std",
+            "ark-crypto-primitives/std"
+        ]
+    },
+    "yanked": false
+}

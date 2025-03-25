@@ -1,1 +1,208 @@
-{"name":"atac","vers":"0.11.0","deps":[{"name":"clap","req":"^4.5.0","features":["derive","color"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"cookie_store","req":"^0.20.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"crossterm","req":"^0.27.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"envfile","req":"^0.2.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"lazy_static","req":"^1.4.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"parse_postman_collection","req":"^0.2.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"ratatui","req":"^0.26.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"regex","req":"^1.10.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"reqwest","req":"^0.11.27","features":["cookies","rustls-tls-native-roots","multipart","gzip","brotli","deflate"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"reqwest_cookie_store","req":"^0.6.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.197","features":["derive","rc"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.114","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"strum","req":"^0.26.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"syntect","req":"^5.2.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"throbber-widgets-tui","req":"^0.5.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.36.0","features":["rt","rt-multi-thread","macros"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"toml","req":"^0.8.11","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tui-big-text","req":"^0.4.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tui-textarea","req":"^0.4.0","features":["ratatui"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tui-tree-widget","req":"^0.19.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"7bcd10d86a4f700f7c471ee937223fe489d2633f016f208b0e8ca4adc13e8cd3","features":{},"yanked":false}
+{
+    "name": "atac",
+    "vers": "0.11.0",
+    "deps": [
+        {
+            "name": "clap",
+            "req": "^4.5.0",
+            "features": [
+                "derive",
+                "color"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "cookie_store",
+            "req": "^0.20.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "crossterm",
+            "req": "^0.27.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "envfile",
+            "req": "^0.2.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "lazy_static",
+            "req": "^1.4.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "parse_postman_collection",
+            "req": "^0.2.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ratatui",
+            "req": "^0.26.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "regex",
+            "req": "^1.10.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "reqwest",
+            "req": "^0.11.27",
+            "features": [
+                "cookies",
+                "rustls-tls-native-roots",
+                "multipart",
+                "gzip",
+                "brotli",
+                "deflate"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "reqwest_cookie_store",
+            "req": "^0.6.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.197",
+            "features": [
+                "derive",
+                "rc"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.114",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "strum",
+            "req": "^0.26.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "syntect",
+            "req": "^5.2.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "throbber-widgets-tui",
+            "req": "^0.5.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.36.0",
+            "features": [
+                "rt",
+                "rt-multi-thread",
+                "macros"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "toml",
+            "req": "^0.8.11",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tui-big-text",
+            "req": "^0.4.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tui-textarea",
+            "req": "^0.4.0",
+            "features": [
+                "ratatui"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tui-tree-widget",
+            "req": "^0.19.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "7bcd10d86a4f700f7c471ee937223fe489d2633f016f208b0e8ca4adc13e8cd3",
+    "features": {},
+    "yanked": false
+}

@@ -1,1 +1,94 @@
-{"name":"kitsune2","vers":"0.0.1-alpha","deps":[{"name":"bytes","req":"^1.8.0","features":["serde"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"futures","req":"^0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"kitsune2_api","req":"^0.0.1-alpha","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"kitsune2_core","req":"^0.0.1-alpha","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"kitsune2_gossip","req":"^0.0.1-alpha","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"kitsune2_gossip","req":"^0.0.1-alpha","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"kitsune2_transport_tx5","req":"^0.0.1-alpha","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"sbd-server","req":"^0.0.9-alpha2","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"tokio","req":"^1.41.1","features":["test-util"],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"7deb9f8d7daea4b31bca08081801bf3a320e960bbf9eb50605d69735f2a3b784","features":{},"yanked":false}
+{
+    "name": "kitsune2",
+    "vers": "0.0.1-alpha",
+    "deps": [
+        {
+            "name": "bytes",
+            "req": "^1.8.0",
+            "features": [
+                "serde"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "futures",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "kitsune2_api",
+            "req": "^0.0.1-alpha",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "kitsune2_core",
+            "req": "^0.0.1-alpha",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "kitsune2_gossip",
+            "req": "^0.0.1-alpha",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "kitsune2_gossip",
+            "req": "^0.0.1-alpha",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "kitsune2_transport_tx5",
+            "req": "^0.0.1-alpha",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "sbd-server",
+            "req": "^0.0.9-alpha2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.41.1",
+            "features": [
+                "test-util"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "7deb9f8d7daea4b31bca08081801bf3a320e960bbf9eb50605d69735f2a3b784",
+    "features": {},
+    "yanked": false
+}

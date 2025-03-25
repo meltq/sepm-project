@@ -1,1 +1,109 @@
-{"name":"alive_api","vers":"0.1.1","deps":[{"name":"aok","req":"^0.1.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"aok","req":"^0.1.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"loginit","req":"^0.1.10","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"prost","req":"^0.12.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"prost-build","req":"^0.12.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"rkyv","req":"^0.7.44","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"static_init","req":"^1.0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"strum","req":"^0.26.2","features":["strum_macros","derive","phf"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.37.0","features":["macros","rt","rt-multi-thread","time","sync"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"tracing","req":"^0.1.40","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"7f3b4355cf09e0c8df091ed37f59106bc9176fb5fcef971bc06596ab44f9ccd1","features":{},"yanked":false}
+{
+    "name": "alive_api",
+    "vers": "0.1.1",
+    "deps": [
+        {
+            "name": "aok",
+            "req": "^0.1.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "aok",
+            "req": "^0.1.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "loginit",
+            "req": "^0.1.10",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "prost",
+            "req": "^0.12.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "prost-build",
+            "req": "^0.12.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "rkyv",
+            "req": "^0.7.44",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "static_init",
+            "req": "^1.0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "strum",
+            "req": "^0.26.2",
+            "features": [
+                "strum_macros",
+                "derive",
+                "phf"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.37.0",
+            "features": [
+                "macros",
+                "rt",
+                "rt-multi-thread",
+                "time",
+                "sync"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1.40",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "7f3b4355cf09e0c8df091ed37f59106bc9176fb5fcef971bc06596ab44f9ccd1",
+    "features": {},
+    "yanked": false
+}

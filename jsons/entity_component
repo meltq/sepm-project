@@ -1,1 +1,67 @@
-{"name":"entity_component","vers":"0.99.0","deps":[{"name":"bitset-core","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"criterion","req":"^0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"itertools","req":"^0.9.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"paste","req":"^1.0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0","features":["derive"],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"cff93de8e9252a08c936a958ce8743811da7696bce75038e00aff0464a398eaa","features":{"default":["keysize16"],"keysize16":[],"keysize20":[],"keysize24":[],"keysize32":[],"ser":["serde"]},"yanked":false}
+{
+    "name": "entity_component",
+    "vers": "0.99.0",
+    "deps": [
+        {
+            "name": "bitset-core",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "criterion",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "itertools",
+            "req": "^0.9.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "paste",
+            "req": "^1.0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [
+                "derive"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "cff93de8e9252a08c936a958ce8743811da7696bce75038e00aff0464a398eaa",
+    "features": {
+        "default": [
+            "keysize16"
+        ],
+        "keysize16": [],
+        "keysize20": [],
+        "keysize24": [],
+        "keysize32": [],
+        "ser": [
+            "serde"
+        ]
+    },
+    "yanked": false
+}

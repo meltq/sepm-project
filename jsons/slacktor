@@ -1,1 +1,38 @@
-{"name":"slacktor","vers":"0.1.0","deps":[{"name":"rand","req":"^0.8.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"rayon","req":"^1.10.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"slab","req":"^0.4.9","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"}],"cksum":"e70307a2a60c1d7676532a0c5a61eccbee3b348569ca199c0db1d106481538aa","features":{"async":[]},"yanked":false}
+{
+    "name": "slacktor",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "rand",
+            "req": "^0.8.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "rayon",
+            "req": "^1.10.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "slab",
+            "req": "^0.4.9",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "e70307a2a60c1d7676532a0c5a61eccbee3b348569ca199c0db1d106481538aa",
+    "features": {
+        "async": []
+    },
+    "yanked": false
+}

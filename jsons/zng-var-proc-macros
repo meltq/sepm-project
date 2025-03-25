@@ -1,1 +1,41 @@
-{"name":"zng-var-proc-macros","vers":"0.2.0","deps":[{"name":"proc-macro2","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"quote","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"syn","req":"^2","features":["full","visit","extra-traits","derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"37c8ec5310bea604247fbfa510373e10607dcfa30cd55016018185070ad840b7","features":{},"yanked":false}
+{
+    "name": "zng-var-proc-macros",
+    "vers": "0.2.0",
+    "deps": [
+        {
+            "name": "proc-macro2",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "quote",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "syn",
+            "req": "^2",
+            "features": [
+                "full",
+                "visit",
+                "extra-traits",
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "37c8ec5310bea604247fbfa510373e10607dcfa30cd55016018185070ad840b7",
+    "features": {},
+    "yanked": false
+}

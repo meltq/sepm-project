@@ -1,1 +1,120 @@
-{"name":"vapbloom","vers":"0.11.0","deps":[{"name":"criterion","req":"^0.3.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"crunchy","req":"^0.2.2","features":["limit_256"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"hex-literal","req":"^0.3.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"rand","req":"^0.8.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"tetsy-fixed-hash","req":"^0.7","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"tetsy-impl-codec","req":"^0.5.0","features":[],"optional":true,"default_features":false,"target":null,"kind":"normal"},{"name":"tetsy-impl-rlp","req":"^0.3","features":[],"optional":true,"default_features":false,"target":null,"kind":"normal"},{"name":"tetsy-impl-serde","req":"^0.3","features":[],"optional":true,"default_features":false,"target":null,"kind":"normal"},{"name":"tiny-keccak","req":"^2.0","features":["keccak"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"737acd62f92dcf58574995b9d43296918f35cd6a8476158e06fd0f0d468fa4f3","features":{"arbitrary":["tetsy-fixed-hash/arbitrary"],"codec":["tetsy-impl-codec"],"default":["std","tetsy-rlp","serialize","rustc-hex"],"rustc-hex":["tetsy-fixed-hash/rustc-hex"],"serialize":["tetsy-impl-serde"],"std":["tetsy-fixed-hash/std","crunchy/std"],"tetsy-rlp":["tetsy-impl-rlp"]},"yanked":false}
+{
+    "name": "vapbloom",
+    "vers": "0.11.0",
+    "deps": [
+        {
+            "name": "criterion",
+            "req": "^0.3.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "crunchy",
+            "req": "^0.2.2",
+            "features": [
+                "limit_256"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "hex-literal",
+            "req": "^0.3.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "rand",
+            "req": "^0.8.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "tetsy-fixed-hash",
+            "req": "^0.7",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tetsy-impl-codec",
+            "req": "^0.5.0",
+            "features": [],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tetsy-impl-rlp",
+            "req": "^0.3",
+            "features": [],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tetsy-impl-serde",
+            "req": "^0.3",
+            "features": [],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tiny-keccak",
+            "req": "^2.0",
+            "features": [
+                "keccak"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "737acd62f92dcf58574995b9d43296918f35cd6a8476158e06fd0f0d468fa4f3",
+    "features": {
+        "arbitrary": [
+            "tetsy-fixed-hash/arbitrary"
+        ],
+        "codec": [
+            "tetsy-impl-codec"
+        ],
+        "default": [
+            "std",
+            "tetsy-rlp",
+            "serialize",
+            "rustc-hex"
+        ],
+        "rustc-hex": [
+            "tetsy-fixed-hash/rustc-hex"
+        ],
+        "serialize": [
+            "tetsy-impl-serde"
+        ],
+        "std": [
+            "tetsy-fixed-hash/std",
+            "crunchy/std"
+        ],
+        "tetsy-rlp": [
+            "tetsy-impl-rlp"
+        ]
+    },
+    "yanked": false
+}

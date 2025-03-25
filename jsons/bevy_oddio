@@ -1,1 +1,122 @@
-{"name":"bevy_oddio","vers":"0.1.0","deps":[{"name":"bevy","req":"^0.8","features":["bevy_asset"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"bevy","req":"^0.8","features":["render","animation","bevy_winit","bevy_gilrs","bevy_asset","filesystem_watcher","x11"],"optional":false,"default_features":false,"target":null,"kind":"dev"},{"name":"claxon","req":"^0.4","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"cpal","req":"^0.13","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"fastrand","req":"^1.8","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"hound","req":"^3.4","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"lewton","req":"^0.10","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"minimp3","req":"^0.5","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"oddio","req":"^0.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"parking_lot","req":"^0.12","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"941798dcd81134ebfedcb57d64d45efbd109cac034a56ed627dec7bf806812cf","features":{"flac":["claxon"],"mp3":["minimp3"],"ogg":["lewton"],"wav":["hound"]},"yanked":false}
+{
+    "name": "bevy_oddio",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "bevy",
+            "req": "^0.8",
+            "features": [
+                "bevy_asset"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "bevy",
+            "req": "^0.8",
+            "features": [
+                "render",
+                "animation",
+                "bevy_winit",
+                "bevy_gilrs",
+                "bevy_asset",
+                "filesystem_watcher",
+                "x11"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "claxon",
+            "req": "^0.4",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "cpal",
+            "req": "^0.13",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "fastrand",
+            "req": "^1.8",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "hound",
+            "req": "^3.4",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "lewton",
+            "req": "^0.10",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "minimp3",
+            "req": "^0.5",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "oddio",
+            "req": "^0.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "parking_lot",
+            "req": "^0.12",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "941798dcd81134ebfedcb57d64d45efbd109cac034a56ed627dec7bf806812cf",
+    "features": {
+        "flac": [
+            "claxon"
+        ],
+        "mp3": [
+            "minimp3"
+        ],
+        "ogg": [
+            "lewton"
+        ],
+        "wav": [
+            "hound"
+        ]
+    },
+    "yanked": false
+}

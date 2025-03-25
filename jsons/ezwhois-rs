@@ -1,1 +1,45 @@
-{"name":"ezwhois-rs","vers":"0.1.0","deps":[{"name":"chrono","req":"^0.4.39","features":["alloc"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^2.0.11","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.43.0","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"0766ac512f4c4f0413d5b4ca8f301a0af8ce5dcb63139602926e07ca07eb44a5","features":{"default":["parser"],"parser":[]},"yanked":false}
+{
+    "name": "ezwhois-rs",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "chrono",
+            "req": "^0.4.39",
+            "features": [
+                "alloc"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^2.0.11",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.43.0",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "0766ac512f4c4f0413d5b4ca8f301a0af8ce5dcb63139602926e07ca07eb44a5",
+    "features": {
+        "default": [
+            "parser"
+        ],
+        "parser": []
+    },
+    "yanked": false
+}

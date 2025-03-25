@@ -1,1 +1,64 @@
-{"name":"lazy-mut-rs","vers":"0.1.0","deps":[{"name":"cfg-if","req":"^1.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"lock_api","req":"^0.4.12","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"parking_lot","req":"^0.12.3","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"spin","req":"^0.9.8","features":["lock_api"],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"76ee4da3011b4d901b9a4714090d1cc2f98ff15ec00ab97c293f240b3189b23e","features":{"std_lock":["lock_api/default"]},"features2":{"default":["parking_lot"],"parking_lot":["dep:parking_lot","std_lock"],"spin":["dep:spin"]},"yanked":true,"v":2}
+{
+    "name": "lazy-mut-rs",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "cfg-if",
+            "req": "^1.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "lock_api",
+            "req": "^0.4.12",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "parking_lot",
+            "req": "^0.12.3",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "spin",
+            "req": "^0.9.8",
+            "features": [
+                "lock_api"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "76ee4da3011b4d901b9a4714090d1cc2f98ff15ec00ab97c293f240b3189b23e",
+    "features": {
+        "std_lock": [
+            "lock_api/default"
+        ]
+    },
+    "features2": {
+        "default": [
+            "parking_lot"
+        ],
+        "parking_lot": [
+            "dep:parking_lot",
+            "std_lock"
+        ],
+        "spin": [
+            "dep:spin"
+        ]
+    },
+    "yanked": true,
+    "v": 2
+}

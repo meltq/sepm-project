@@ -1,1 +1,38 @@
-{"name":"shared_lib_deployer","vers":"1.1.0","deps":[{"name":"clap","req":"^4.5.2","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"regex","req":"^1.10.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"walkdir","req":"^2.5.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"d949920ebf100fcc6bc8fde022a17bcf2798f94031ef896ea80f3d221dfe781e","features":{},"yanked":false}
+{
+    "name": "shared_lib_deployer",
+    "vers": "1.1.0",
+    "deps": [
+        {
+            "name": "clap",
+            "req": "^4.5.2",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "regex",
+            "req": "^1.10.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "walkdir",
+            "req": "^2.5.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "d949920ebf100fcc6bc8fde022a17bcf2798f94031ef896ea80f3d221dfe781e",
+    "features": {},
+    "yanked": false
+}

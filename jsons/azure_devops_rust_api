@@ -1,1 +1,140 @@
-{"name":"azure_devops_rust_api","vers":"0.1.0","deps":[{"name":"azure_core","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"azure_identity","req":"^0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"bytes","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"futures","req":"^0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"http","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.0","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"url","req":"^2.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"81128a055edc88dcf13e6bd194fc508551dbd9676a471a8067aea9f1da49a9f5","features":{"accounts":[],"artifacts":[],"artifacts_package_types":[],"audit":[],"build":[],"clt":[],"core":[],"dashboard":[],"distributed_task":[],"extension_management":[],"git":[],"graph":[],"hooks":[],"ims":[],"member_entitlement_management":[],"operations":[],"permissions_report":[],"pipelines":[],"policy":[],"processadmin":[],"processes":[],"profile":[],"release":[],"search":[],"security":[],"service_endpoint":[],"status":[],"symbol":[],"test":[],"test_plan":[],"test_results":[],"tfvc":[],"token_admin":[],"wiki":[],"wit":[],"work":[]},"yanked":false}
+{
+    "name": "azure_devops_rust_api",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "azure_core",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "azure_identity",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "bytes",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "futures",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "http",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.0",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "url",
+            "req": "^2.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "81128a055edc88dcf13e6bd194fc508551dbd9676a471a8067aea9f1da49a9f5",
+    "features": {
+        "accounts": [],
+        "artifacts": [],
+        "artifacts_package_types": [],
+        "audit": [],
+        "build": [],
+        "clt": [],
+        "core": [],
+        "dashboard": [],
+        "distributed_task": [],
+        "extension_management": [],
+        "git": [],
+        "graph": [],
+        "hooks": [],
+        "ims": [],
+        "member_entitlement_management": [],
+        "operations": [],
+        "permissions_report": [],
+        "pipelines": [],
+        "policy": [],
+        "processadmin": [],
+        "processes": [],
+        "profile": [],
+        "release": [],
+        "search": [],
+        "security": [],
+        "service_endpoint": [],
+        "status": [],
+        "symbol": [],
+        "test": [],
+        "test_plan": [],
+        "test_results": [],
+        "tfvc": [],
+        "token_admin": [],
+        "wiki": [],
+        "wit": [],
+        "work": []
+    },
+    "yanked": false
+}

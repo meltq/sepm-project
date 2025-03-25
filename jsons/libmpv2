@@ -1,1 +1,44 @@
-{"name":"libmpv2","vers":"3.0.1","deps":[{"name":"crossbeam","req":"^0.7","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"libmpv2-sys","req":"^4.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"sdl2","req":"^0.36.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"43f013151504252f38d6c2dc70a61e18c123bc69c43833e022a62722917382a2","features":{"build_libmpv":[],"default":["protocols","render"],"protocols":[],"render":[]},"yanked":true}
+{
+    "name": "libmpv2",
+    "vers": "3.0.1",
+    "deps": [
+        {
+            "name": "crossbeam",
+            "req": "^0.7",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "libmpv2-sys",
+            "req": "^4.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "sdl2",
+            "req": "^0.36.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "43f013151504252f38d6c2dc70a61e18c123bc69c43833e022a62722917382a2",
+    "features": {
+        "build_libmpv": [],
+        "default": [
+            "protocols",
+            "render"
+        ],
+        "protocols": [],
+        "render": []
+    },
+    "yanked": true
+}

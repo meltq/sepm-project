@@ -1,1 +1,95 @@
-{"name":"psp-net","vers":"0.1.0","deps":[{"name":"dns-protocol","req":"^0.1.1","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"embedded-io","req":"^0.6.1","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"embedded-nal","req":"^0.8","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"embedded-tls","req":"^0.17","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"lazy_static","req":"^1.4","features":["spin_no_std"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"psp","req":"^0.3.7","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rand","req":"^0.8.5","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"rand_chacha","req":"^0.3.1","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"regex","req":"^1.10","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"}],"cksum":"4624fc113a46e4fcf51ed7de97f40082491902d5ea300f2c70b23bedebcd7548","features":{"default":[],"std":[]},"yanked":false}
+{
+    "name": "psp-net",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "dns-protocol",
+            "req": "^0.1.1",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "embedded-io",
+            "req": "^0.6.1",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "embedded-nal",
+            "req": "^0.8",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "embedded-tls",
+            "req": "^0.17",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "lazy_static",
+            "req": "^1.4",
+            "features": [
+                "spin_no_std"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "psp",
+            "req": "^0.3.7",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rand",
+            "req": "^0.8.5",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rand_chacha",
+            "req": "^0.3.1",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "regex",
+            "req": "^1.10",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "4624fc113a46e4fcf51ed7de97f40082491902d5ea300f2c70b23bedebcd7548",
+    "features": {
+        "default": [],
+        "std": []
+    },
+    "yanked": false
+}

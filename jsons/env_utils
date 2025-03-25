@@ -1,1 +1,34 @@
-{"name":"env_utils","vers":"0.1.0","deps":[{"name":"dotenvy","req":"^0.15.7","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.10.0","features":["full"],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"9ff9202b2e5c7dba8b791fa9fe3e34794d44f739794d1f183ea39a71122df58b","features":{"default":[],"testing":["tokio"]},"yanked":true}
+{
+    "name": "env_utils",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "dotenvy",
+            "req": "^0.15.7",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.10.0",
+            "features": [
+                "full"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "9ff9202b2e5c7dba8b791fa9fe3e34794d44f739794d1f183ea39a71122df58b",
+    "features": {
+        "default": [],
+        "testing": [
+            "tokio"
+        ]
+    },
+    "yanked": true
+}

@@ -1,1 +1,85 @@
-{"name":"fluentci-common","vers":"0.1.0","deps":[{"name":"anyhow","req":"^1.0.81","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"dirs","req":"^5.0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"fluentci-core","req":"^0.1.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"fluentci-ext","req":"^0.1.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"fluentci-types","req":"^0.1.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"regex","req":"^1.10.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"sha256","req":"^1.5.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"uuid","req":"^1.8.0","features":["v4","fast-rng","macro-diagnostics"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"9294313a4c48520b3ee5163ba8be9a19335c8b4872f5ea7366540dc4a1936518","features":{},"yanked":false}
+{
+    "name": "fluentci-common",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "anyhow",
+            "req": "^1.0.81",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "dirs",
+            "req": "^5.0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "fluentci-core",
+            "req": "^0.1.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "fluentci-ext",
+            "req": "^0.1.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "fluentci-types",
+            "req": "^0.1.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "regex",
+            "req": "^1.10.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "sha256",
+            "req": "^1.5.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "uuid",
+            "req": "^1.8.0",
+            "features": [
+                "v4",
+                "fast-rng",
+                "macro-diagnostics"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "9294313a4c48520b3ee5163ba8be9a19335c8b4872f5ea7366540dc4a1936518",
+    "features": {},
+    "yanked": false
+}

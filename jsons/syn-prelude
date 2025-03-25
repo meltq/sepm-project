@@ -1,1 +1,59 @@
-{"name":"syn-prelude","vers":"0.1.0","deps":[{"name":"convert_case","req":"^0.6","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"proc-macro2","req":"^1","features":["span-locations"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"quote","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"syn","req":"^2","features":["full","extra-traits"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"syn-prelude-macros","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"3d687bef456371aabc73433126bef1ab6d27674299d877d8b7c3f5b83718d001","features":{},"yanked":false}
+{
+    "name": "syn-prelude",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "convert_case",
+            "req": "^0.6",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "proc-macro2",
+            "req": "^1",
+            "features": [
+                "span-locations"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "quote",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "syn",
+            "req": "^2",
+            "features": [
+                "full",
+                "extra-traits"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "syn-prelude-macros",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "3d687bef456371aabc73433126bef1ab6d27674299d877d8b7c3f5b83718d001",
+    "features": {},
+    "yanked": false
+}

@@ -1,1 +1,103 @@
-{"name":"miku-server-timing","vers":"0.1.0","deps":[{"name":"axum","req":"^0.7","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"http","req":"^1.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"macro-toolset","req":"^0.7.5","features":["feat-string","feat-string-ext-ryu"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"minreq","req":"^2.13","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"pin-project-lite","req":"^0.2.7","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.42","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"tower-layer","req":"^0.3.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tower-service","req":"^0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing","req":"^0.1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"9e350e7d7a81d229446d9a8cce403b9a70d204f8936bc83c417c7b80c8498916","features":{},"features2":{"default":["feat-tracing"],"feat-tracing":["dep:tracing"]},"yanked":true,"rust_version":"1.70","v":2}
+{
+    "name": "miku-server-timing",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "axum",
+            "req": "^0.7",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "http",
+            "req": "^1.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "macro-toolset",
+            "req": "^0.7.5",
+            "features": [
+                "feat-string",
+                "feat-string-ext-ryu"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "minreq",
+            "req": "^2.13",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "pin-project-lite",
+            "req": "^0.2.7",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.42",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "tower-layer",
+            "req": "^0.3.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tower-service",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "9e350e7d7a81d229446d9a8cce403b9a70d204f8936bc83c417c7b80c8498916",
+    "features": {},
+    "features2": {
+        "default": [
+            "feat-tracing"
+        ],
+        "feat-tracing": [
+            "dep:tracing"
+        ]
+    },
+    "yanked": true,
+    "rust_version": "1.70",
+    "v": 2
+}

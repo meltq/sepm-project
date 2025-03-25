@@ -1,1 +1,126 @@
-{"name":"v_exchanges_api_generics","vers":"0.3.0","deps":[{"name":"bytes","req":"^1.9.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"futures-util","req":"^0.3.31","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"parking_lot","req":"^0.12.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"reqwest","req":"^0.12.9","features":["blocking","json"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.216","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^2.0.7","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.42.0","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio-tungstenite","req":"^0.26.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing","req":"^0.1.41","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"v_utils","req":"^1.9.1","features":["trades","tracing"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"bf1abf0240fa600065857e03cc7929c8d2b1bbab1bd456a9fb57de7bde2a6484","features":{"native-tls":["reqwest/native-tls","tokio-tungstenite/native-tls"],"native-tls-vendored":["reqwest/native-tls-vendored","tokio-tungstenite/native-tls-vendored"],"rustls-tls-native-roots":["reqwest/rustls-tls-native-roots","tokio-tungstenite/rustls-tls-native-roots"],"rustls-tls-webpki-roots":["reqwest/rustls-tls-webpki-roots","tokio-tungstenite/rustls-tls-webpki-roots"]},"yanked":false}
+{
+    "name": "v_exchanges_api_generics",
+    "vers": "0.3.0",
+    "deps": [
+        {
+            "name": "bytes",
+            "req": "^1.9.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "futures-util",
+            "req": "^0.3.31",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "parking_lot",
+            "req": "^0.12.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "reqwest",
+            "req": "^0.12.9",
+            "features": [
+                "blocking",
+                "json"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.216",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^2.0.7",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.42.0",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio-tungstenite",
+            "req": "^0.26.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1.41",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "v_utils",
+            "req": "^1.9.1",
+            "features": [
+                "trades",
+                "tracing"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "bf1abf0240fa600065857e03cc7929c8d2b1bbab1bd456a9fb57de7bde2a6484",
+    "features": {
+        "native-tls": [
+            "reqwest/native-tls",
+            "tokio-tungstenite/native-tls"
+        ],
+        "native-tls-vendored": [
+            "reqwest/native-tls-vendored",
+            "tokio-tungstenite/native-tls-vendored"
+        ],
+        "rustls-tls-native-roots": [
+            "reqwest/rustls-tls-native-roots",
+            "tokio-tungstenite/rustls-tls-native-roots"
+        ],
+        "rustls-tls-webpki-roots": [
+            "reqwest/rustls-tls-webpki-roots",
+            "tokio-tungstenite/rustls-tls-webpki-roots"
+        ]
+    },
+    "yanked": false
+}

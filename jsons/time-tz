@@ -1,1 +1,47 @@
-{"name":"time-tz","vers":"0.1.0","deps":[{"name":"parse-zoneinfo","req":"^0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"phf","req":"^0.10.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"phf_codegen","req":"^0.10.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"time","req":"^0.3.7","features":["macros"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"77bbf53da39e6a133d1c5c5d496567531c826cafed044dee55a3752ca9606a88","features":{},"yanked":false}
+{
+    "name": "time-tz",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "parse-zoneinfo",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "phf",
+            "req": "^0.10.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "phf_codegen",
+            "req": "^0.10.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "time",
+            "req": "^0.3.7",
+            "features": [
+                "macros"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "77bbf53da39e6a133d1c5c5d496567531c826cafed044dee55a3752ca9606a88",
+    "features": {},
+    "yanked": false
+}

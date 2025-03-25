@@ -1,1 +1,76 @@
-{"name":"episko_lib","vers":"0.0.1-dev","deps":[{"name":"chrono","req":"^0.4.39","features":["serde","serde"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.217","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"sha2","req":"^0.10.8","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^2.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"toml","req":"^0.8.19","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"uuid","req":"^1.12.0","features":["serde","v4"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"df8820ed2c9362968b7a0948ae196be7077b2fb5470c091f5a62e0ec4e8efe32","features":{"default":["files"],"files":[]},"yanked":true}
+{
+    "name": "episko_lib",
+    "vers": "0.0.1-dev",
+    "deps": [
+        {
+            "name": "chrono",
+            "req": "^0.4.39",
+            "features": [
+                "serde",
+                "serde"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.217",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "sha2",
+            "req": "^0.10.8",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^2.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "toml",
+            "req": "^0.8.19",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "uuid",
+            "req": "^1.12.0",
+            "features": [
+                "serde",
+                "v4"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "df8820ed2c9362968b7a0948ae196be7077b2fb5470c091f5a62e0ec4e8efe32",
+    "features": {
+        "default": [
+            "files"
+        ],
+        "files": []
+    },
+    "yanked": true
+}

@@ -1,1 +1,116 @@
-{"name":"gn-communicator","vers":"0.1.0","deps":[{"name":"async-trait","req":"^0.1.83","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"chrono","req":"^0.4.39","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"futures-lite","req":"^2.5.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"gn-matchmaking-state","req":"^0.1.9","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"gn-matchmaking-state-types","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"lapin","req":"^2.5.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.207","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.124","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.38.1","features":["rt","macros","rt-multi-thread"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing","req":"^0.1.41","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"uuid","req":"^1.11.0","features":["v4"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"9e5762d1576f0ba9f85d6e673e426da7aae47c4bdc0def73324f844ea9be7d82","features":{},"yanked":false}
+{
+    "name": "gn-communicator",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "async-trait",
+            "req": "^0.1.83",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "chrono",
+            "req": "^0.4.39",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "futures-lite",
+            "req": "^2.5.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "gn-matchmaking-state",
+            "req": "^0.1.9",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "gn-matchmaking-state-types",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "lapin",
+            "req": "^2.5.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.207",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.124",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.38.1",
+            "features": [
+                "rt",
+                "macros",
+                "rt-multi-thread"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1.41",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "uuid",
+            "req": "^1.11.0",
+            "features": [
+                "v4"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "9e5762d1576f0ba9f85d6e673e426da7aae47c4bdc0def73324f844ea9be7d82",
+    "features": {},
+    "yanked": false
+}

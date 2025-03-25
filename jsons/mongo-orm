@@ -1,1 +1,78 @@
-{"name":"mongo-orm","vers":"0.1.0","deps":[{"name":"async-trait","req":"^0.1.83","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"bson","req":"^2.13.0","features":["chrono-0_4"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"futures","req":"^0.3.31","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"mongo-orm-macro","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"mongodb","req":"^3.1.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.42.0","features":["time","rt-multi-thread","full"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"typed-builder","req":"^0.20.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"923a4957b5edc4997b69ecb2b49b1064a816e59683e591d03d5f18bc89202be3","features":{},"yanked":false}
+{
+    "name": "mongo-orm",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "async-trait",
+            "req": "^0.1.83",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "bson",
+            "req": "^2.13.0",
+            "features": [
+                "chrono-0_4"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "futures",
+            "req": "^0.3.31",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "mongo-orm-macro",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "mongodb",
+            "req": "^3.1.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.42.0",
+            "features": [
+                "time",
+                "rt-multi-thread",
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "typed-builder",
+            "req": "^0.20.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "923a4957b5edc4997b69ecb2b49b1064a816e59683e591d03d5f18bc89202be3",
+    "features": {},
+    "yanked": false
+}

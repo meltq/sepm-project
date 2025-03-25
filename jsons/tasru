@@ -1,1 +1,44 @@
-{"name":"tasru","vers":"0.1.0","deps":[{"name":"gimli","req":"^0.31","features":["endian-reader","read","std"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"object","req":"^0.36","features":["elf","read_core","std"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rustc-demangle","req":"^0.1.24","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"46afd004bfdbacfef4355b284a7e32a4af100982aa4afd2dcd7c84c0f09f62fa","features":{},"yanked":false}
+{
+    "name": "tasru",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "gimli",
+            "req": "^0.31",
+            "features": [
+                "endian-reader",
+                "read",
+                "std"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "object",
+            "req": "^0.36",
+            "features": [
+                "elf",
+                "read_core",
+                "std"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rustc-demangle",
+            "req": "^0.1.24",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "46afd004bfdbacfef4355b284a7e32a4af100982aa4afd2dcd7c84c0f09f62fa",
+    "features": {},
+    "yanked": false
+}

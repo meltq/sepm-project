@@ -1,1 +1,69 @@
-{"name":"redis_ipc","vers":"0.1.0","deps":[{"name":"dotenvy","req":"^0.15","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"r2d2","req":"^0.8","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"redis","req":"^0.27","features":["r2d2"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.215","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"uuid","req":"^1.11","features":["v4"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"f2829e993faffc374b7a1f7ea783679af978ceed401f66fc2630996e0b49dbb5","features":{},"yanked":true}
+{
+    "name": "redis_ipc",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "dotenvy",
+            "req": "^0.15",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "r2d2",
+            "req": "^0.8",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "redis",
+            "req": "^0.27",
+            "features": [
+                "r2d2"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.215",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "uuid",
+            "req": "^1.11",
+            "features": [
+                "v4"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "f2829e993faffc374b7a1f7ea783679af978ceed401f66fc2630996e0b49dbb5",
+    "features": {},
+    "yanked": true
+}

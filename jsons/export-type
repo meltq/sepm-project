@@ -1,1 +1,93 @@
-{"name":"export-type","vers":"0.1.1","deps":[{"name":"convert_case","req":"^0.6.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"once_cell","req":"^1.20.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"pathdiff","req":"^0.2.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"pretty_assertions","req":"^1.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"proc-macro2","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"quote","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"syn","req":"^2.0","features":["full","extra-traits"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tempfile","req":"^3.8","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"thiserror","req":"^2.0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"718ebdf89da51c424f399b722b28c2f1803d2ec5aff6ce3ab4cbe01beb36a602","features":{},"yanked":false}
+{
+    "name": "export-type",
+    "vers": "0.1.1",
+    "deps": [
+        {
+            "name": "convert_case",
+            "req": "^0.6.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "once_cell",
+            "req": "^1.20.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "pathdiff",
+            "req": "^0.2.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "pretty_assertions",
+            "req": "^1.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "proc-macro2",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "quote",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "syn",
+            "req": "^2.0",
+            "features": [
+                "full",
+                "extra-traits"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tempfile",
+            "req": "^3.8",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "thiserror",
+            "req": "^2.0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "718ebdf89da51c424f399b722b28c2f1803d2ec5aff6ce3ab4cbe01beb36a602",
+    "features": {},
+    "yanked": false
+}

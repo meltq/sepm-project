@@ -1,1 +1,49 @@
-{"name":"datamuse-api-rs","vers":"2.1.0","deps":[{"name":"reqwest","req":"^0.12.12","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.118","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.60","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.42.0","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"7fe14a3b5d51b3e4b8342f766cf280e917e084092415c8d03a8be52e9761e623","features":{},"yanked":false}
+{
+    "name": "datamuse-api-rs",
+    "vers": "2.1.0",
+    "deps": [
+        {
+            "name": "reqwest",
+            "req": "^0.12.12",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.118",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.60",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.42.0",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "7fe14a3b5d51b3e4b8342f766cf280e917e084092415c8d03a8be52e9761e623",
+    "features": {},
+    "yanked": false
+}

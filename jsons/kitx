@@ -1,1 +1,74 @@
-{"name":"kitx","vers":"0.0.1","deps":[{"name":"chrono","req":"^0.4.38","features":["serde"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"field_access","req":"^0.1.11","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.215","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.133","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"sqlx","req":"^0.8.2","features":["runtime-tokio-native-tls","chrono","json","sqlite"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.42.0","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"ac38d3c80b71c2e651cf83bf7755cedec77b8fc60e7f21f5c2e10d861ccdf8a4","features":{},"yanked":true}
+{
+    "name": "kitx",
+    "vers": "0.0.1",
+    "deps": [
+        {
+            "name": "chrono",
+            "req": "^0.4.38",
+            "features": [
+                "serde"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "field_access",
+            "req": "^0.1.11",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.215",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.133",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "sqlx",
+            "req": "^0.8.2",
+            "features": [
+                "runtime-tokio-native-tls",
+                "chrono",
+                "json",
+                "sqlite"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.42.0",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "ac38d3c80b71c2e651cf83bf7755cedec77b8fc60e7f21f5c2e10d861ccdf8a4",
+    "features": {},
+    "yanked": true
+}

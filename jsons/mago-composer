@@ -1,1 +1,38 @@
-{"name":"mago-composer","vers":"0.0.0","deps":[{"name":"ahash","req":"^0.8.11","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.128","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"f31afac65b3d18030945aa04078782d4811e3efc53961eba07953c605036a1ee","features":{},"yanked":false}
+{
+    "name": "mago-composer",
+    "vers": "0.0.0",
+    "deps": [
+        {
+            "name": "ahash",
+            "req": "^0.8.11",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.128",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "f31afac65b3d18030945aa04078782d4811e3efc53961eba07953c605036a1ee",
+    "features": {},
+    "yanked": false
+}

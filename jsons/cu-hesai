@@ -1,1 +1,123 @@
-{"name":"cu-hesai","vers":"0.5.0","deps":[{"name":"bytemuck","req":"^1.19.0","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"chrono","req":"^0.4.38","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"cu-sensor-payloads","req":"^0.5.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"cu29","req":"^0.5.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"cu29-clock","req":"^0.5.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"cu29-log","req":"^0.5.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"cu29-log-derive","req":"^0.5.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"cu29-log-runtime","req":"^0.5.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"pcap","req":"^2.2.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"socket2","req":"^0.5.7","features":["all"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"sysctl","req":"^0.6","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"uom","req":"^0.36.0","features":["serde"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"7c73e201b9b0bee926f987fd07d837da0f231b07f2eafa44d37e05996e5551ee","features":{},"yanked":false}
+{
+    "name": "cu-hesai",
+    "vers": "0.5.0",
+    "deps": [
+        {
+            "name": "bytemuck",
+            "req": "^1.19.0",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "chrono",
+            "req": "^0.4.38",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "cu-sensor-payloads",
+            "req": "^0.5.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "cu29",
+            "req": "^0.5.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "cu29-clock",
+            "req": "^0.5.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "cu29-log",
+            "req": "^0.5.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "cu29-log-derive",
+            "req": "^0.5.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "cu29-log-runtime",
+            "req": "^0.5.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "pcap",
+            "req": "^2.2.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "socket2",
+            "req": "^0.5.7",
+            "features": [
+                "all"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "sysctl",
+            "req": "^0.6",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "uom",
+            "req": "^0.36.0",
+            "features": [
+                "serde"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "7c73e201b9b0bee926f987fd07d837da0f231b07f2eafa44d37e05996e5551ee",
+    "features": {},
+    "yanked": false
+}

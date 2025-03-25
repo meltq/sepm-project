@@ -1,1 +1,40 @@
-{"name":"cartesi-coprocessor","vers":"0.1.0","deps":[{"name":"clap","req":"^4.1","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"colored","req":"^2.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.0","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"397a81c67b5165325e9db6bf76c5b28bd61ab1e8a65d6ad03210d050995f11ec","features":{},"yanked":false}
+{
+    "name": "cartesi-coprocessor",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "clap",
+            "req": "^4.1",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "colored",
+            "req": "^2.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.0",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "397a81c67b5165325e9db6bf76c5b28bd61ab1e8a65d6ad03210d050995f11ec",
+    "features": {},
+    "yanked": false
+}

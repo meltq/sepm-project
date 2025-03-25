@@ -1,1 +1,111 @@
-{"name":"rusqlcipher","vers":"0.12.0","deps":[{"name":"bitflags","req":"^0.9","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"chrono","req":"^0.3","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"lazy_static","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"libsqlcipher-sys","req":"^0.8","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"lru-cache","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"regex","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"serde_json","req":"^1.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"tempdir","req":"^0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"time","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"67ddd6b2f62421926bef16c83c70b8d0beed66733518b0ce7c5a7f09e4ed032d","features":{"backup":["libsqlcipher-sys/min_sqlite_version_3_6_11"],"blob":["libsqlcipher-sys/min_sqlite_version_3_7_4"],"buildtime_bindgen":["libsqlcipher-sys/buildtime_bindgen"],"bundled":["libsqlcipher-sys/bundled"],"functions":["libsqlcipher-sys/min_sqlite_version_3_7_3"],"limits":[],"load_extension":[],"trace":["libsqlcipher-sys/min_sqlite_version_3_6_23"]},"yanked":false}
+{
+    "name": "rusqlcipher",
+    "vers": "0.12.0",
+    "deps": [
+        {
+            "name": "bitflags",
+            "req": "^0.9",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "chrono",
+            "req": "^0.3",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "lazy_static",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "libsqlcipher-sys",
+            "req": "^0.8",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "lru-cache",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "regex",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tempdir",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "time",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "67ddd6b2f62421926bef16c83c70b8d0beed66733518b0ce7c5a7f09e4ed032d",
+    "features": {
+        "backup": [
+            "libsqlcipher-sys/min_sqlite_version_3_6_11"
+        ],
+        "blob": [
+            "libsqlcipher-sys/min_sqlite_version_3_7_4"
+        ],
+        "buildtime_bindgen": [
+            "libsqlcipher-sys/buildtime_bindgen"
+        ],
+        "bundled": [
+            "libsqlcipher-sys/bundled"
+        ],
+        "functions": [
+            "libsqlcipher-sys/min_sqlite_version_3_7_3"
+        ],
+        "limits": [],
+        "load_extension": [],
+        "trace": [
+            "libsqlcipher-sys/min_sqlite_version_3_6_23"
+        ]
+    },
+    "yanked": false
+}

@@ -1,1 +1,34 @@
-{"name":"statig","vers":"0.1.0-beta.0","deps":[{"name":"heapless","req":"^0.7","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"statig_macro","req":"^0.1.0-beta","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"e02376f952168157ee0ac55bb6b561b38ec6c2f65fb536d3a39eeac130d0f3bd","features":{"default":["macro"],"macro":["statig_macro"]},"yanked":false}
+{
+    "name": "statig",
+    "vers": "0.1.0-beta.0",
+    "deps": [
+        {
+            "name": "heapless",
+            "req": "^0.7",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "statig_macro",
+            "req": "^0.1.0-beta",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "e02376f952168157ee0ac55bb6b561b38ec6c2f65fb536d3a39eeac130d0f3bd",
+    "features": {
+        "default": [
+            "macro"
+        ],
+        "macro": [
+            "statig_macro"
+        ]
+    },
+    "yanked": false
+}

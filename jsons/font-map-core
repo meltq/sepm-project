@@ -1,1 +1,77 @@
-{"name":"font-map-core","vers":"0.1.0","deps":[{"name":"base64","req":"^0.22","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"encoding_rs","req":"^0.8.35","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"flate2","req":"^1.0","features":["zlib-ng"],"optional":true,"default_features":false,"target":null,"kind":"normal"},{"name":"proc-macro2","req":"^1.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"quote","req":"^1.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"syn","req":"^2.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"1ec3eebb4a9bbb6859afae86e67bc0c4224529e9c419f951d79f955720abf39f","features":{"codegen":["proc-macro2","syn","quote"],"debug-parser":[],"default":[],"extended-svg":["base64","flate2"]},"yanked":false}
+{
+    "name": "font-map-core",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "base64",
+            "req": "^0.22",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "encoding_rs",
+            "req": "^0.8.35",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "flate2",
+            "req": "^1.0",
+            "features": [
+                "zlib-ng"
+            ],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "proc-macro2",
+            "req": "^1.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "quote",
+            "req": "^1.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "syn",
+            "req": "^2.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "1ec3eebb4a9bbb6859afae86e67bc0c4224529e9c419f951d79f955720abf39f",
+    "features": {
+        "codegen": [
+            "proc-macro2",
+            "syn",
+            "quote"
+        ],
+        "debug-parser": [],
+        "default": [],
+        "extended-svg": [
+            "base64",
+            "flate2"
+        ]
+    },
+    "yanked": false
+}

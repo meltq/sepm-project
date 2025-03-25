@@ -1,1 +1,48 @@
-{"name":"op-alloy-flz","vers":"0.9.6","deps":[{"name":"alloy-primitives","req":"^0.8.12","features":[],"optional":false,"default_features":false,"target":null,"kind":"dev"},{"name":"fastlz","req":"^0.1.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"rstest","req":"^0.24.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"76b44f5edbd5293636934a88ec38d683ee2075bfce43658d1033d76191e7aff6","features":{"default":[]},"features2":{"compress":["dep:fastlz"],"decompress":["dep:fastlz"]},"yanked":false,"rust_version":"1.81","v":2}
+{
+    "name": "op-alloy-flz",
+    "vers": "0.9.6",
+    "deps": [
+        {
+            "name": "alloy-primitives",
+            "req": "^0.8.12",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "fastlz",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rstest",
+            "req": "^0.24.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "76b44f5edbd5293636934a88ec38d683ee2075bfce43658d1033d76191e7aff6",
+    "features": {
+        "default": []
+    },
+    "features2": {
+        "compress": [
+            "dep:fastlz"
+        ],
+        "decompress": [
+            "dep:fastlz"
+        ]
+    },
+    "yanked": false,
+    "rust_version": "1.81",
+    "v": 2
+}

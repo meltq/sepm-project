@@ -1,1 +1,108 @@
-{"name":"datetime-rs","vers":"0.1.0","deps":[{"name":"anyhow","req":"^1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"assert2","req":"^0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"date-rs","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"serde_test","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"strptime","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tz-rs","req":"^0.6","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"tzdb","req":"^0.6","features":["local"],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"d9f36ffed9bb14eac868e81cbec3d029144d5ca0b3c59f433b4f262dcd544f37","features":{"default":["serde"]},"features2":{"tz":["dep:anyhow","dep:tz-rs","dep:tzdb","date-rs/tzdb"]},"yanked":false,"rust_version":"1.70","v":2}
+{
+    "name": "datetime-rs",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "anyhow",
+            "req": "^1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "assert2",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "date-rs",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "serde_test",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "strptime",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tz-rs",
+            "req": "^0.6",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tzdb",
+            "req": "^0.6",
+            "features": [
+                "local"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "d9f36ffed9bb14eac868e81cbec3d029144d5ca0b3c59f433b4f262dcd544f37",
+    "features": {
+        "default": [
+            "serde"
+        ]
+    },
+    "features2": {
+        "tz": [
+            "dep:anyhow",
+            "dep:tz-rs",
+            "dep:tzdb",
+            "date-rs/tzdb"
+        ]
+    },
+    "yanked": false,
+    "rust_version": "1.70",
+    "v": 2
+}

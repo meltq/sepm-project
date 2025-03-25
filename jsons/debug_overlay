@@ -1,1 +1,45 @@
-{"name":"debug_overlay","vers":"0.1.0","deps":[{"name":"bytemuck","req":"^1.15.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"wgpu","req":"^0.19.3","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"wgpu-core","req":"^0.19.3","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"bcf667845793cfb4b4227ebbb4faf8e9de1da678db3351f0ec79fcc1b10ae1dc","features":{},"features2":{"wgpu":["dep:wgpu"],"wgpu-core":["dep:wgpu-core"]},"yanked":false,"v":2}
+{
+    "name": "debug_overlay",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "bytemuck",
+            "req": "^1.15.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "wgpu",
+            "req": "^0.19.3",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "wgpu-core",
+            "req": "^0.19.3",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "bcf667845793cfb4b4227ebbb4faf8e9de1da678db3351f0ec79fcc1b10ae1dc",
+    "features": {},
+    "features2": {
+        "wgpu": [
+            "dep:wgpu"
+        ],
+        "wgpu-core": [
+            "dep:wgpu-core"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

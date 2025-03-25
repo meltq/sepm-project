@@ -1,1 +1,82 @@
-{"name":"dip721-rs","vers":"0.1.0","deps":[{"name":"async-trait","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"candid","req":"^0.10","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"ic-cdk","req":"^0.12","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"ic-stable-structures","req":"^0.6","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"pretty_assertions","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"serde","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"d28ae0556ac567a6b4d3e27447ac6f5bb16d13607dc6e2cd7943900674f0672c","features":{"default":["ic-stable-structures"]},"features2":{"ic-stable-structures":["dep:ic-stable-structures"]},"yanked":false,"v":2}
+{
+    "name": "dip721-rs",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "async-trait",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "candid",
+            "req": "^0.10",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ic-cdk",
+            "req": "^0.12",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ic-stable-structures",
+            "req": "^0.6",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "pretty_assertions",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "serde",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "d28ae0556ac567a6b4d3e27447ac6f5bb16d13607dc6e2cd7943900674f0672c",
+    "features": {
+        "default": [
+            "ic-stable-structures"
+        ]
+    },
+    "features2": {
+        "ic-stable-structures": [
+            "dep:ic-stable-structures"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

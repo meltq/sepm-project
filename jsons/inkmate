@@ -1,1 +1,71 @@
-{"name":"inkmate","vers":"0.0.1","deps":[{"name":"alloy-primitives","req":"^0.3.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"alloy-sol-types","req":"^0.3.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"hex","req":"^0.4.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"inkmate-common","req":"^0.0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"mini-alloc","req":"^0.4.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"stylus-sdk","req":"^0.4.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"4e016fdc615876829eb0927ccf2d68c24ed65e25d8f2c77eac15fc6f80a0c0d3","features":{"debug":["stylus-sdk/debug"],"erc20":[],"export-abi":["stylus-sdk/export-abi"]},"yanked":true}
+{
+    "name": "inkmate",
+    "vers": "0.0.1",
+    "deps": [
+        {
+            "name": "alloy-primitives",
+            "req": "^0.3.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "alloy-sol-types",
+            "req": "^0.3.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "hex",
+            "req": "^0.4.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "inkmate-common",
+            "req": "^0.0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "mini-alloc",
+            "req": "^0.4.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "stylus-sdk",
+            "req": "^0.4.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "4e016fdc615876829eb0927ccf2d68c24ed65e25d8f2c77eac15fc6f80a0c0d3",
+    "features": {
+        "debug": [
+            "stylus-sdk/debug"
+        ],
+        "erc20": [],
+        "export-abi": [
+            "stylus-sdk/export-abi"
+        ]
+    },
+    "yanked": true
+}

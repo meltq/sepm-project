@@ -1,1 +1,69 @@
-{"name":"refind","vers":"0.1.0","deps":[{"name":"dunce","req":"^1.0.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"env_logger","req":"^0.11.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"eyre","req":"^0.6.12","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"libc","req":"^0.2.154","features":[],"optional":false,"default_features":true,"target":"cfg(target_os = \"macos\")","kind":"normal"},{"name":"log","req":"^0.4.21","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"windows","req":"^0.56.0","features":["Storage","Win32","Win32_Storage","Win32_Storage_FileSystem","Win32_Security"],"optional":false,"default_features":true,"target":"cfg(windows)","kind":"normal"}],"cksum":"006ee2f5aed5c73709e58b3c4f7de02ee6740b59d096f90a4b469b346045e684","features":{},"yanked":false}
+{
+    "name": "refind",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "dunce",
+            "req": "^1.0.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "env_logger",
+            "req": "^0.11.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "eyre",
+            "req": "^0.6.12",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "libc",
+            "req": "^0.2.154",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": "cfg(target_os = \"macos\")",
+            "kind": "normal"
+        },
+        {
+            "name": "log",
+            "req": "^0.4.21",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "windows",
+            "req": "^0.56.0",
+            "features": [
+                "Storage",
+                "Win32",
+                "Win32_Storage",
+                "Win32_Storage_FileSystem",
+                "Win32_Security"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": "cfg(windows)",
+            "kind": "normal"
+        }
+    ],
+    "cksum": "006ee2f5aed5c73709e58b3c4f7de02ee6740b59d096f90a4b469b346045e684",
+    "features": {},
+    "yanked": false
+}

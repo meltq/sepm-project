@@ -1,1 +1,69 @@
-{"name":"ya-rand","vers":"0.1.0","deps":[{"name":"fastrand","req":"^2.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"getrandom","req":"^0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rand","req":"^0.9","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"rand_chacha","req":"^0.9","features":[],"optional":true,"default_features":false,"target":null,"kind":"normal"},{"name":"rayon","req":"^1.10","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"10ee4f0da3ae9b0ff5c451c7fb2befedf41e0ca7f538c4065ebe8574693d0de3","features":{"inline":[]},"features2":{"default":["std"],"secure":["dep:rand_chacha"],"std":["getrandom/std","rand_chacha?/std"]},"yanked":false,"v":2}
+{
+    "name": "ya-rand",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "fastrand",
+            "req": "^2.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "getrandom",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rand",
+            "req": "^0.9",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "rand_chacha",
+            "req": "^0.9",
+            "features": [],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rayon",
+            "req": "^1.10",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "10ee4f0da3ae9b0ff5c451c7fb2befedf41e0ca7f538c4065ebe8574693d0de3",
+    "features": {
+        "inline": []
+    },
+    "features2": {
+        "default": [
+            "std"
+        ],
+        "secure": [
+            "dep:rand_chacha"
+        ],
+        "std": [
+            "getrandom/std",
+            "rand_chacha?/std"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

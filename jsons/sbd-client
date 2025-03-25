@@ -1,1 +1,153 @@
-{"name":"sbd-client","vers":"0.0.1-alpha","deps":[{"name":"base64","req":"^0.22.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"ed25519-dalek","req":"^2.1.1","features":["rand_core"],"optional":true,"default_features":false,"target":null,"kind":"normal"},{"name":"escargot","req":"^0.5.10","features":["print"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"futures","req":"^0.3.30","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"hex","req":"^0.4.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"rand","req":"^0.8.5","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"rustls","req":"^0.22.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rustls-native-certs","req":"^0.7.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.37.0","features":["io-util","net","sync","time","rt"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.37.0","features":["full"],"optional":false,"default_features":false,"target":null,"kind":"dev"},{"name":"tokio-rustls","req":"^0.25.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio-tungstenite","req":"^0.21.0","features":["connect","__rustls-tls"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"webpki-roots","req":"^0.26.1","features":[],"optional":false,"default_features":true,"target":"cfg(not(any(target_os = \"windows\", target_os = \"linux\", target_os = \"macos\")))","kind":"normal"}],"cksum":"a53e255b3ef2ae08df6c30a5969ea3f7bd8824888bcac0782900b572288a9d26","features":{"raw_client":[]},"features2":{"crypto":["dep:ed25519-dalek","dep:rand"],"default":["crypto"]},"yanked":false,"v":2}
+{
+    "name": "sbd-client",
+    "vers": "0.0.1-alpha",
+    "deps": [
+        {
+            "name": "base64",
+            "req": "^0.22.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ed25519-dalek",
+            "req": "^2.1.1",
+            "features": [
+                "rand_core"
+            ],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "escargot",
+            "req": "^0.5.10",
+            "features": [
+                "print"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "futures",
+            "req": "^0.3.30",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "hex",
+            "req": "^0.4.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "rand",
+            "req": "^0.8.5",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rustls",
+            "req": "^0.22.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rustls-native-certs",
+            "req": "^0.7.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.37.0",
+            "features": [
+                "io-util",
+                "net",
+                "sync",
+                "time",
+                "rt"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.37.0",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "tokio-rustls",
+            "req": "^0.25.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio-tungstenite",
+            "req": "^0.21.0",
+            "features": [
+                "connect",
+                "__rustls-tls"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "webpki-roots",
+            "req": "^0.26.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": "cfg(not(any(target_os = \"windows\", target_os = \"linux\", target_os = \"macos\")))",
+            "kind": "normal"
+        }
+    ],
+    "cksum": "a53e255b3ef2ae08df6c30a5969ea3f7bd8824888bcac0782900b572288a9d26",
+    "features": {
+        "raw_client": []
+    },
+    "features2": {
+        "crypto": [
+            "dep:ed25519-dalek",
+            "dep:rand"
+        ],
+        "default": [
+            "crypto"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

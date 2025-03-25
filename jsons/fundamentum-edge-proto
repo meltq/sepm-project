@@ -1,1 +1,61 @@
-{"name":"fundamentum-edge-proto","vers":"0.1.0","deps":[{"name":"cargo-husky","req":"^1.5.0","features":["precommit-hook","run-cargo-fmt"],"optional":false,"default_features":false,"target":null,"kind":"dev"},{"name":"prost","req":"^0.12.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tonic","req":"^0.11","features":["codegen","prost","transport"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"tonic-build","req":"^0.11","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"}],"cksum":"c73279c112f77d061c70b7f66028690e682d62ada260eb7bf0f169a09315849b","features":{"client":[],"default":["server","client","reflection"],"reflection":[],"server":[]},"yanked":false}
+{
+    "name": "fundamentum-edge-proto",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "cargo-husky",
+            "req": "^1.5.0",
+            "features": [
+                "precommit-hook",
+                "run-cargo-fmt"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "prost",
+            "req": "^0.12.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tonic",
+            "req": "^0.11",
+            "features": [
+                "codegen",
+                "prost",
+                "transport"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tonic-build",
+            "req": "^0.11",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        }
+    ],
+    "cksum": "c73279c112f77d061c70b7f66028690e682d62ada260eb7bf0f169a09315849b",
+    "features": {
+        "client": [],
+        "default": [
+            "server",
+            "client",
+            "reflection"
+        ],
+        "reflection": [],
+        "server": []
+    },
+    "yanked": false
+}

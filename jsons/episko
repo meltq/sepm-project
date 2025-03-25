@@ -1,1 +1,65 @@
-{"name":"episko","vers":"0.0.1-dev","deps":[{"name":"episko_lib","req":"^0.0.1-dev","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tauri","req":"^2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tauri-build","req":"^2.0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"tauri-plugin-shell","req":"^2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"633c87b3e77f997c3a523e760bd5c18f2120642b1e08f6b58e21c4527ed6cd99","features":{},"yanked":true}
+{
+    "name": "episko",
+    "vers": "0.0.1-dev",
+    "deps": [
+        {
+            "name": "episko_lib",
+            "req": "^0.0.1-dev",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tauri",
+            "req": "^2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tauri-build",
+            "req": "^2.0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "tauri-plugin-shell",
+            "req": "^2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "633c87b3e77f997c3a523e760bd5c18f2120642b1e08f6b58e21c4527ed6cd99",
+    "features": {},
+    "yanked": true
+}

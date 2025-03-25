@@ -1,1 +1,77 @@
-{"name":"egui-screenshot-testing","vers":"0.1.0","deps":[{"name":"eframe","req":">=0.27.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"egui","req":">=0.27.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"image","req":"^0.24.9","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"skia-safe","req":"^0.72.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"temp-env","req":"^0.3.6","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"tempfile","req":"^3.10.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"visual-hash","req":"^3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"cdadb6cf5704e20263f890569893b0baa2603dbac2475b30fa440221a53cfea0","features":{"cpu_fix":[],"default":["cpu_fix"]},"yanked":false}
+{
+    "name": "egui-screenshot-testing",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "eframe",
+            "req": ">=0.27.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "egui",
+            "req": ">=0.27.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "image",
+            "req": "^0.24.9",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "skia-safe",
+            "req": "^0.72.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "temp-env",
+            "req": "^0.3.6",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "tempfile",
+            "req": "^3.10.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "visual-hash",
+            "req": "^3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "cdadb6cf5704e20263f890569893b0baa2603dbac2475b30fa440221a53cfea0",
+    "features": {
+        "cpu_fix": [],
+        "default": [
+            "cpu_fix"
+        ]
+    },
+    "yanked": false
+}

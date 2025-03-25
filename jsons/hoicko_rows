@@ -1,1 +1,125 @@
-{"name":"hoicko_rows","vers":"0.1.0","deps":[{"name":"chrono","req":"^0.4.38","features":["serde"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"chrono-tz","req":"^0.10.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"nanoid","req":"^0.4.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"phonenumber","req":"^0.3.6","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"regex","req":"^1.11.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.215","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.133","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^2.0.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing","req":"^0.1.41","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing-attributes","req":"^0.1.28","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing-futures","req":"^0.2.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing-subscriber","req":"^0.3.19","features":["env-filter"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"f54c617f93f9a19a37c1dcdb6bad80e8e7439f83db03f984f5855bd9cf7115e8","features":{"default":[]},"yanked":false}
+{
+    "name": "hoicko_rows",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "chrono",
+            "req": "^0.4.38",
+            "features": [
+                "serde"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "chrono-tz",
+            "req": "^0.10.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "nanoid",
+            "req": "^0.4.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "phonenumber",
+            "req": "^0.3.6",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "regex",
+            "req": "^1.11.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.215",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.133",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^2.0.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1.41",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing-attributes",
+            "req": "^0.1.28",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing-futures",
+            "req": "^0.2.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing-subscriber",
+            "req": "^0.3.19",
+            "features": [
+                "env-filter"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "f54c617f93f9a19a37c1dcdb6bad80e8e7439f83db03f984f5855bd9cf7115e8",
+    "features": {
+        "default": []
+    },
+    "yanked": false
+}

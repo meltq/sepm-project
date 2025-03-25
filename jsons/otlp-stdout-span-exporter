@@ -1,1 +1,120 @@
-{"name":"otlp-stdout-span-exporter","vers":"0.1.0","deps":[{"name":"async-trait","req":"^0.1.82","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"base64","req":"^0.22.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"flate2","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"futures-util","req":"^0.3.31","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"opentelemetry","req":"^0.27.1","features":["trace"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"opentelemetry-proto","req":"^0.27","features":["gen-tonic","trace"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"opentelemetry_sdk","req":"^0.27.1","features":["rt-tokio"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"prost","req":"^0.13.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"4ccd05749e943a4e9438974126159e7dbef22580f4f85c0c745b330de845d572","features":{},"yanked":false,"rust_version":"1.70"}
+{
+    "name": "otlp-stdout-span-exporter",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "async-trait",
+            "req": "^0.1.82",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "base64",
+            "req": "^0.22.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "flate2",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "futures-util",
+            "req": "^0.3.31",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "opentelemetry",
+            "req": "^0.27.1",
+            "features": [
+                "trace"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "opentelemetry-proto",
+            "req": "^0.27",
+            "features": [
+                "gen-tonic",
+                "trace"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "opentelemetry_sdk",
+            "req": "^0.27.1",
+            "features": [
+                "rt-tokio"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "prost",
+            "req": "^0.13.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "4ccd05749e943a4e9438974126159e7dbef22580f4f85c0c745b330de845d572",
+    "features": {},
+    "yanked": false,
+    "rust_version": "1.70"
+}

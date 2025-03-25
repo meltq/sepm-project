@@ -1,1 +1,125 @@
-{"name":"crate2bib","vers":"0.1.0","deps":[{"name":"chrono","req":"^0.4","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"citeworks-cff","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"crates_io_api","req":"^0.11","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"pyo3","req":"^0.23","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"pyo3-async-runtimes","req":"^0.23","features":["tokio-runtime"],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"reqwest","req":"^0.12","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"semver","req":"^1.0","features":["serde"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.43.0","features":["macros"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"web-time","req":"^1.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"8fae1850393812c9436a8089cdd3462b2d5c532301e2290af8f3f6d60230cd7b","features":{"default":[]},"features2":{"pyo3":["dep:pyo3","dep:pyo3-async-runtimes"]},"yanked":false,"v":2}
+{
+    "name": "crate2bib",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "chrono",
+            "req": "^0.4",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "citeworks-cff",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "crates_io_api",
+            "req": "^0.11",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "pyo3",
+            "req": "^0.23",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "pyo3-async-runtimes",
+            "req": "^0.23",
+            "features": [
+                "tokio-runtime"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "reqwest",
+            "req": "^0.12",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "semver",
+            "req": "^1.0",
+            "features": [
+                "serde"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.43.0",
+            "features": [
+                "macros"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "web-time",
+            "req": "^1.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "8fae1850393812c9436a8089cdd3462b2d5c532301e2290af8f3f6d60230cd7b",
+    "features": {
+        "default": []
+    },
+    "features2": {
+        "pyo3": [
+            "dep:pyo3",
+            "dep:pyo3-async-runtimes"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

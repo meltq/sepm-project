@@ -1,1 +1,65 @@
-{"name":"rune-modules","vers":"0.4.0","deps":[{"name":"reqwest","req":"^0.10.7","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"runestick","req":"^0.4.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.57","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^0.2.22","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"d6e7f5acdd72880016ec0a492d6e497fed314790da1e491efc2de9a0635281d3","features":{"full":["time","http","json","process"],"http":["reqwest"],"json":["serde_json"],"process":["tokio/process"],"time":["tokio","tokio/time"]},"yanked":false}
+{
+    "name": "rune-modules",
+    "vers": "0.4.0",
+    "deps": [
+        {
+            "name": "reqwest",
+            "req": "^0.10.7",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "runestick",
+            "req": "^0.4.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.57",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^0.2.22",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "d6e7f5acdd72880016ec0a492d6e497fed314790da1e491efc2de9a0635281d3",
+    "features": {
+        "full": [
+            "time",
+            "http",
+            "json",
+            "process"
+        ],
+        "http": [
+            "reqwest"
+        ],
+        "json": [
+            "serde_json"
+        ],
+        "process": [
+            "tokio/process"
+        ],
+        "time": [
+            "tokio",
+            "tokio/time"
+        ]
+    },
+    "yanked": false
+}

@@ -1,1 +1,69 @@
-{"name":"ckb-rpc-gen","vers":"0.115.0-pre","deps":[{"name":"ckb-rpc","req":"=0.115.0-pre","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"schemars","req":"^0.8.16","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal","package":"ckb_schemars"},{"name":"serde_json","req":"~1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"syn","req":"^2.0.39","features":["extra-traits","full","parsing","visit"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tera","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"walkdir","req":"^2.1.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"adc590022af84fd0848066b8ff0d93434dd6042107442fd362021ad7d21f78a8","features":{},"yanked":false}
+{
+    "name": "ckb-rpc-gen",
+    "vers": "0.115.0-pre",
+    "deps": [
+        {
+            "name": "ckb-rpc",
+            "req": "=0.115.0-pre",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "schemars",
+            "req": "^0.8.16",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal",
+            "package": "ckb_schemars"
+        },
+        {
+            "name": "serde_json",
+            "req": "~1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "syn",
+            "req": "^2.0.39",
+            "features": [
+                "extra-traits",
+                "full",
+                "parsing",
+                "visit"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tera",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "walkdir",
+            "req": "^2.1.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "adc590022af84fd0848066b8ff0d93434dd6042107442fd362021ad7d21f78a8",
+    "features": {},
+    "yanked": false
+}

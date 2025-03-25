@@ -1,1 +1,39 @@
-{"name":"nullnet-libdatastore","vers":"0.1.0","deps":[{"name":"prost","req":"^0.13.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tonic","req":"^0.12.3","features":["tls","tls-roots"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tonic-build","req":"^0.12.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"}],"cksum":"c7bdf3525bd8222c4ed79a52d2a8a702138d0e70ca0260e4d448f7790daace49","features":{},"yanked":false}
+{
+    "name": "nullnet-libdatastore",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "prost",
+            "req": "^0.13.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tonic",
+            "req": "^0.12.3",
+            "features": [
+                "tls",
+                "tls-roots"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tonic-build",
+            "req": "^0.12.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        }
+    ],
+    "cksum": "c7bdf3525bd8222c4ed79a52d2a8a702138d0e70ca0260e4d448f7790daace49",
+    "features": {},
+    "yanked": false
+}

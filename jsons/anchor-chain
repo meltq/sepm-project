@@ -1,1 +1,96 @@
-{"name":"anchor-chain","vers":"0.1.0","deps":[{"name":"anyhow","req":"^1.0.81","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"async-openai","req":"^0.19.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"async-trait","req":"^0.1.79","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"aws-config","req":"^1.1.9","features":["behavior-version-latest"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"aws-sdk-bedrockruntime","req":"^1.19.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"futures","req":"^0.3.30","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.197","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.114","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.36.0","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"dfc79a2984a01f6844481a9af70ac997e3b4c56775dcdc844d1c0247d34324bb","features":{},"yanked":false}
+{
+    "name": "anchor-chain",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "anyhow",
+            "req": "^1.0.81",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "async-openai",
+            "req": "^0.19.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "async-trait",
+            "req": "^0.1.79",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "aws-config",
+            "req": "^1.1.9",
+            "features": [
+                "behavior-version-latest"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "aws-sdk-bedrockruntime",
+            "req": "^1.19.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "futures",
+            "req": "^0.3.30",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.197",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.114",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.36.0",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "dfc79a2984a01f6844481a9af70ac997e3b4c56775dcdc844d1c0247d34324bb",
+    "features": {},
+    "yanked": false
+}

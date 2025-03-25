@@ -1,1 +1,234 @@
-{"name":"kuma-client","vers":"0.0.0","deps":[{"name":"config","req":"^0.14.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"derivative","req":"^2.2.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"futures-util","req":"^0.3.30","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"itertools","req":"^0.12.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"log","req":"^0.4.20","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"reqwest","req":"^0.12.2","features":["json"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rust_socketio","req":"^0.5.0","features":["async"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.194","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.194","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"serde-inline-default","req":"^0.2.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_alias","req":"^0.0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.111","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.111","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"serde_merge","req":"^0.1.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_repr","req":"^0.1.18","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_with","req":"^3.4.0","features":["time_0_3"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"shadow-rs","req":"^0.27.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"shadow-rs","req":"^0.27.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"strum","req":"^0.26.1","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^1.0.56","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"time","req":"^0.3.31","features":["serde"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.35.1","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"url","req":"^2.5.0","features":["serde"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"680e301c4f526d64a218fdfe8d1319128ace5b964d2e4f20eac4265a4ace0e5e","features":{},"yanked":true}
+{
+    "name": "kuma-client",
+    "vers": "0.0.0",
+    "deps": [
+        {
+            "name": "config",
+            "req": "^0.14.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "derivative",
+            "req": "^2.2.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "futures-util",
+            "req": "^0.3.30",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "itertools",
+            "req": "^0.12.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "log",
+            "req": "^0.4.20",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "reqwest",
+            "req": "^0.12.2",
+            "features": [
+                "json"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rust_socketio",
+            "req": "^0.5.0",
+            "features": [
+                "async"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.194",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.194",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "serde-inline-default",
+            "req": "^0.2.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_alias",
+            "req": "^0.0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.111",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.111",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "serde_merge",
+            "req": "^0.1.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_repr",
+            "req": "^0.1.18",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_with",
+            "req": "^3.4.0",
+            "features": [
+                "time_0_3"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "shadow-rs",
+            "req": "^0.27.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "shadow-rs",
+            "req": "^0.27.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "strum",
+            "req": "^0.26.1",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^1.0.56",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "time",
+            "req": "^0.3.31",
+            "features": [
+                "serde"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.35.1",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "url",
+            "req": "^2.5.0",
+            "features": [
+                "serde"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "680e301c4f526d64a218fdfe8d1319128ace5b964d2e4f20eac4265a4ace0e5e",
+    "features": {},
+    "yanked": true
+}

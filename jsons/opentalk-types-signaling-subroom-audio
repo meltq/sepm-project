@@ -1,1 +1,116 @@
-{"name":"opentalk-types-signaling-subroom-audio","vers":"0.28.0","deps":[{"name":"derive_more","req":"^1.0","features":["as_ref","display","from","from_str","into"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"opentalk-types-common","req":"^0.28.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"opentalk-types-signaling","req":"^0.28.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"redis-args","req":"^0.17","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1","features":["derive"],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"strum","req":"^0.26","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"uuid","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"7da77521a337082e82742497e09fb54d0a3ad30cd6f36cb99b14fd8b4e5fe218","features":{"rand":["opentalk-types-common/rand","uuid/v4"]},"features2":{"backend":["redis","serde"],"frontend":["serde"],"redis":["dep:redis-args","opentalk-types-common/redis","serde"],"serde":["dep:serde","opentalk-types-common/serde","opentalk-types-signaling/serde"]},"yanked":false,"v":2}
+{
+    "name": "opentalk-types-signaling-subroom-audio",
+    "vers": "0.28.0",
+    "deps": [
+        {
+            "name": "derive_more",
+            "req": "^1.0",
+            "features": [
+                "as_ref",
+                "display",
+                "from",
+                "from_str",
+                "into"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "opentalk-types-common",
+            "req": "^0.28.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "opentalk-types-signaling",
+            "req": "^0.28.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "redis-args",
+            "req": "^0.17",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1",
+            "features": [
+                "derive"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "strum",
+            "req": "^0.26",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "uuid",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "7da77521a337082e82742497e09fb54d0a3ad30cd6f36cb99b14fd8b4e5fe218",
+    "features": {
+        "rand": [
+            "opentalk-types-common/rand",
+            "uuid/v4"
+        ]
+    },
+    "features2": {
+        "backend": [
+            "redis",
+            "serde"
+        ],
+        "frontend": [
+            "serde"
+        ],
+        "redis": [
+            "dep:redis-args",
+            "opentalk-types-common/redis",
+            "serde"
+        ],
+        "serde": [
+            "dep:serde",
+            "opentalk-types-common/serde",
+            "opentalk-types-signaling/serde"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

@@ -1,1 +1,38 @@
-{"name":"minion-cli","vers":"0.0.1","deps":[{"name":"clap","req":"^4.5.23","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"dotenvy","req":"^0.15.7","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"ssh2","req":"^0.9.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"23fc82c6027a5ec9746afab3a596f027b36ab2302926396e24a781aa20aa435f","features":{},"yanked":false}
+{
+    "name": "minion-cli",
+    "vers": "0.0.1",
+    "deps": [
+        {
+            "name": "clap",
+            "req": "^4.5.23",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "dotenvy",
+            "req": "^0.15.7",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ssh2",
+            "req": "^0.9.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "23fc82c6027a5ec9746afab3a596f027b36ab2302926396e24a781aa20aa435f",
+    "features": {},
+    "yanked": false
+}

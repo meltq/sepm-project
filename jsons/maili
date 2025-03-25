@@ -1,1 +1,82 @@
-{"name":"maili","vers":"0.1.0","deps":[{"name":"maili-protocol","req":"^0.1.0","features":[],"optional":true,"default_features":false,"target":null,"kind":"normal"},{"name":"maili-provider","req":"^0.1.0","features":[],"optional":true,"default_features":false,"target":null,"kind":"normal"},{"name":"maili-registry","req":"^0.1.0","features":[],"optional":true,"default_features":false,"target":null,"kind":"normal"},{"name":"maili-rpc-types-engine","req":"^0.1.0","features":[],"optional":true,"default_features":false,"target":null,"kind":"normal"}],"cksum":"23c96bf75cb1a8266600fee6ec1491e3e20e6b8aebc46f34db2ee12bbaeec03b","features":{},"features2":{"arbitrary":["maili-protocol?/arbitrary"],"default":["std","serde"],"full":["protocol","provider","registry"],"protocol":["dep:maili-protocol"],"provider":["dep:maili-provider"],"registry":["dep:maili-registry"],"rpc-types-engine":["dep:maili-rpc-types-engine"],"serde":["maili-protocol?/serde","maili-rpc-types-engine?/serde"],"std":["maili-protocol?/std","maili-registry?/std","maili-rpc-types-engine?/std"]},"yanked":false,"rust_version":"1.81","v":2}
+{
+    "name": "maili",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "maili-protocol",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "maili-provider",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "maili-registry",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "maili-rpc-types-engine",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "23c96bf75cb1a8266600fee6ec1491e3e20e6b8aebc46f34db2ee12bbaeec03b",
+    "features": {},
+    "features2": {
+        "arbitrary": [
+            "maili-protocol?/arbitrary"
+        ],
+        "default": [
+            "std",
+            "serde"
+        ],
+        "full": [
+            "protocol",
+            "provider",
+            "registry"
+        ],
+        "protocol": [
+            "dep:maili-protocol"
+        ],
+        "provider": [
+            "dep:maili-provider"
+        ],
+        "registry": [
+            "dep:maili-registry"
+        ],
+        "rpc-types-engine": [
+            "dep:maili-rpc-types-engine"
+        ],
+        "serde": [
+            "maili-protocol?/serde",
+            "maili-rpc-types-engine?/serde"
+        ],
+        "std": [
+            "maili-protocol?/std",
+            "maili-registry?/std",
+            "maili-rpc-types-engine?/std"
+        ]
+    },
+    "yanked": false,
+    "rust_version": "1.81",
+    "v": 2
+}

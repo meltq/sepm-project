@@ -1,1 +1,165 @@
-{"name":"sark0y_tam_rst","vers":"1.9.85","deps":[{"name":"ansi_term","req":"^0.12.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"chrono","req":"^0.4.31","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"cli-table","req":"^0.4.7","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"colored","req":"^2.0.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"console","req":"^0.15.6","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"crossterm","req":"^0.27.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"ctrlc","req":"^1.0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"libc","req":"=0.2.149","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"num-traits","req":"^0.2.17","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"once_cell","req":"^1.18.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"os_pipe","req":"^1.1.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"regex","req":"=1.10.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"substring","req":"^1.4.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"terminal_size","req":"^0.3.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"termion","req":"^3.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"termios","req":"=0.3.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"threadpool","req":"^1.8.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"daae469af5b8d03ee36a4383b980c477724ecf9bb19d2e7988f85fbc84472566","features":{"dbg0":[],"in_dbg":[]},"yanked":false}
+{
+    "name": "sark0y_tam_rst",
+    "vers": "1.9.85",
+    "deps": [
+        {
+            "name": "ansi_term",
+            "req": "^0.12.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "chrono",
+            "req": "^0.4.31",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "cli-table",
+            "req": "^0.4.7",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "colored",
+            "req": "^2.0.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "console",
+            "req": "^0.15.6",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "crossterm",
+            "req": "^0.27.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ctrlc",
+            "req": "^1.0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "libc",
+            "req": "=0.2.149",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "num-traits",
+            "req": "^0.2.17",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "once_cell",
+            "req": "^1.18.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "os_pipe",
+            "req": "^1.1.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "regex",
+            "req": "=1.10.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "substring",
+            "req": "^1.4.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "terminal_size",
+            "req": "^0.3.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "termion",
+            "req": "^3.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "termios",
+            "req": "=0.3.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "threadpool",
+            "req": "^1.8.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "daae469af5b8d03ee36a4383b980c477724ecf9bb19d2e7988f85fbc84472566",
+    "features": {
+        "dbg0": [],
+        "in_dbg": []
+    },
+    "yanked": false
+}

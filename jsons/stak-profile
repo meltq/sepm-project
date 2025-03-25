@@ -1,1 +1,72 @@
-{"name":"stak-profile","vers":"0.1.1","deps":[{"name":"clap","req":"^4.5.4","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"main_error","req":"^0.1.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"stak-configuration","req":"^0.1.27","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"stak-device","req":"^0.2.31","features":["std"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"stak-primitive","req":"^0.2.32","features":["std"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"stak-vm","req":"^0.4.1","features":["profile","std"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"b57f41def547595d098897f51035b8d007e919625df2ff0b6e2ebea8e32638ee","features":{},"yanked":false}
+{
+    "name": "stak-profile",
+    "vers": "0.1.1",
+    "deps": [
+        {
+            "name": "clap",
+            "req": "^4.5.4",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "main_error",
+            "req": "^0.1.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "stak-configuration",
+            "req": "^0.1.27",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "stak-device",
+            "req": "^0.2.31",
+            "features": [
+                "std"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "stak-primitive",
+            "req": "^0.2.32",
+            "features": [
+                "std"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "stak-vm",
+            "req": "^0.4.1",
+            "features": [
+                "profile",
+                "std"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "b57f41def547595d098897f51035b8d007e919625df2ff0b6e2ebea8e32638ee",
+    "features": {},
+    "yanked": false
+}

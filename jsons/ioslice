@@ -1,1 +1,44 @@
-{"name":"ioslice","vers":"0.1.0","deps":[{"name":"libc","req":"^0.2","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"libc","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"stable_deref_trait","req":"^1.2","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"3fa317a3566060c1b213b6887a67e634b8123665be61340eb51278b61b59d285","features":{"default":["std"],"nightly":[],"std":["libc"]},"yanked":false}
+{
+    "name": "ioslice",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "libc",
+            "req": "^0.2",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "libc",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "stable_deref_trait",
+            "req": "^1.2",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "3fa317a3566060c1b213b6887a67e634b8123665be61340eb51278b61b59d285",
+    "features": {
+        "default": [
+            "std"
+        ],
+        "nightly": [],
+        "std": [
+            "libc"
+        ]
+    },
+    "yanked": false
+}

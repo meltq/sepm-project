@@ -1,1 +1,41 @@
-{"name":"bt_http_utils","vers":"0.1.0","deps":[{"name":"bt_logger","req":"^0.2.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"reqwest","req":"^0.12.12","features":["json","hickory-dns"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.43.0","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"684282098c21a29fd6387d773889ea645acf5ee3b62252cb7d7a0a10f3baeeed","features":{},"yanked":false}
+{
+    "name": "bt_http_utils",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "bt_logger",
+            "req": "^0.2.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "reqwest",
+            "req": "^0.12.12",
+            "features": [
+                "json",
+                "hickory-dns"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.43.0",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "684282098c21a29fd6387d773889ea645acf5ee3b62252cb7d7a0a10f3baeeed",
+    "features": {},
+    "yanked": false
+}

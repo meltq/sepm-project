@@ -1,1 +1,86 @@
-{"name":"netsock","vers":"0.0.1","deps":[{"name":"bitflags","req":"^2.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"byteorder","req":"^1.5.0","features":[],"optional":false,"default_features":true,"target":"cfg(target_os = \"macos\")","kind":"normal"},{"name":"num-derive","req":"^0.4","features":[],"optional":false,"default_features":true,"target":"cfg(target_os = \"macos\")","kind":"normal"},{"name":"num-traits","req":"^0.2","features":[],"optional":false,"default_features":true,"target":"cfg(target_os = \"macos\")","kind":"normal"},{"name":"once_cell","req":"^1.19.0","features":[],"optional":false,"default_features":true,"target":"cfg(target_os = \"linux\")","kind":"normal"},{"name":"rustix","req":"^0.38.31","features":["fs"],"optional":false,"default_features":true,"target":"cfg(target_os = \"linux\")","kind":"normal"},{"name":"thiserror","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"windows","req":"^0.54.0","features":["Win32_Foundation","Win32_System_Diagnostics_ToolHelp"],"optional":false,"default_features":true,"target":"cfg(target_os = \"windows\")","kind":"normal"}],"cksum":"92da887f418260b4d4efe491f1764fd6ee2f596c534572a3b6ba0c81dc99536a","features":{},"yanked":false}
+{
+    "name": "netsock",
+    "vers": "0.0.1",
+    "deps": [
+        {
+            "name": "bitflags",
+            "req": "^2.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "byteorder",
+            "req": "^1.5.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": "cfg(target_os = \"macos\")",
+            "kind": "normal"
+        },
+        {
+            "name": "num-derive",
+            "req": "^0.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": "cfg(target_os = \"macos\")",
+            "kind": "normal"
+        },
+        {
+            "name": "num-traits",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": "cfg(target_os = \"macos\")",
+            "kind": "normal"
+        },
+        {
+            "name": "once_cell",
+            "req": "^1.19.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": "cfg(target_os = \"linux\")",
+            "kind": "normal"
+        },
+        {
+            "name": "rustix",
+            "req": "^0.38.31",
+            "features": [
+                "fs"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": "cfg(target_os = \"linux\")",
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "windows",
+            "req": "^0.54.0",
+            "features": [
+                "Win32_Foundation",
+                "Win32_System_Diagnostics_ToolHelp"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": "cfg(target_os = \"windows\")",
+            "kind": "normal"
+        }
+    ],
+    "cksum": "92da887f418260b4d4efe491f1764fd6ee2f596c534572a3b6ba0c81dc99536a",
+    "features": {},
+    "yanked": false
+}

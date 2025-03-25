@@ -1,1 +1,44 @@
-{"name":"hylo-fix","vers":"0.1.0","deps":[{"name":"anchor-lang","req":"^0.29.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"num-traits","req":"^0.2.17","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"typenum","req":"^1.17.0","features":["i128"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"172a2af7be63cabcd21d6a1dd871b0154ff1e212d3eca5baf226fe855c162f97","features":{},"features2":{"anchor":["dep:anchor-lang"]},"yanked":false,"v":2}
+{
+    "name": "hylo-fix",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "anchor-lang",
+            "req": "^0.29.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "num-traits",
+            "req": "^0.2.17",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "typenum",
+            "req": "^1.17.0",
+            "features": [
+                "i128"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "172a2af7be63cabcd21d6a1dd871b0154ff1e212d3eca5baf226fe855c162f97",
+    "features": {},
+    "features2": {
+        "anchor": [
+            "dep:anchor-lang"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

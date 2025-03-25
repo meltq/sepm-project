@@ -1,1 +1,50 @@
-{"name":"floating-ui-dom","vers":"0.0.1","deps":[{"name":"floating-ui-core","req":"^0.0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"floating-ui-utils","req":"^0.0.1","features":["dom"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"web-sys","req":"^0.3.69","features":["css","CssStyleDeclaration","Document","DomRect","DomRectList","Element","HtmlElement","HtmlSlotElement","Node","ShadowRoot","Window"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"2f3d2cdb826fa93182849554fe6bfe7c0493c198f5edd2ec45f703fc40116c9c","features":{},"yanked":false}
+{
+    "name": "floating-ui-dom",
+    "vers": "0.0.1",
+    "deps": [
+        {
+            "name": "floating-ui-core",
+            "req": "^0.0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "floating-ui-utils",
+            "req": "^0.0.1",
+            "features": [
+                "dom"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "web-sys",
+            "req": "^0.3.69",
+            "features": [
+                "css",
+                "CssStyleDeclaration",
+                "Document",
+                "DomRect",
+                "DomRectList",
+                "Element",
+                "HtmlElement",
+                "HtmlSlotElement",
+                "Node",
+                "ShadowRoot",
+                "Window"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "2f3d2cdb826fa93182849554fe6bfe7c0493c198f5edd2ec45f703fc40116c9c",
+    "features": {},
+    "yanked": false
+}

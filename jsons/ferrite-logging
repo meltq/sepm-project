@@ -1,1 +1,47 @@
-{"name":"ferrite-logging","vers":"0.1.1","deps":[{"name":"tracing","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing-subscriber","req":"^0.3","features":["env-filter"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing-tracy","req":"^0.10","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracy-client","req":"^0.16","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"f65643f9a6c7cd9a267c31aa2de15632e10e04d5255f3233edb8b1c791f51149","features":{},"yanked":false}
+{
+    "name": "ferrite-logging",
+    "vers": "0.1.1",
+    "deps": [
+        {
+            "name": "tracing",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing-subscriber",
+            "req": "^0.3",
+            "features": [
+                "env-filter"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing-tracy",
+            "req": "^0.10",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracy-client",
+            "req": "^0.16",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "f65643f9a6c7cd9a267c31aa2de15632e10e04d5255f3233edb8b1c791f51149",
+    "features": {},
+    "yanked": false
+}

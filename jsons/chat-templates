@@ -1,1 +1,38 @@
-{"name":"chat-templates","vers":"0.1.0","deps":[{"name":"minijinja","req":"^1.0.12","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^1.0.58","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"4e70e346daff84a6306612431328fd1e540fdba1e3c2aa4c65d6912887b91c74","features":{},"yanked":false}
+{
+    "name": "chat-templates",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "minijinja",
+            "req": "^1.0.12",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^1.0.58",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "4e70e346daff84a6306612431328fd1e540fdba1e3c2aa4c65d6912887b91c74",
+    "features": {},
+    "yanked": false
+}

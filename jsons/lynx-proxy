@@ -1,1 +1,60 @@
-{"name":"lynx-proxy","vers":"0.0.1-alpha.0","deps":[{"name":"anyhow","req":"^1.0.95","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"lynx-core","req":"^0.0.1-alpha.0","features":["test"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.10.0","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing","req":"^0.1.41","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing-subscriber","req":"^0.3.19","features":["env-filter"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"4214c6e1221cbdbdb68ca348b0b23a95d8654ff5e68d7a02abc2a2a49dafaa17","features":{},"yanked":false}
+{
+    "name": "lynx-proxy",
+    "vers": "0.0.1-alpha.0",
+    "deps": [
+        {
+            "name": "anyhow",
+            "req": "^1.0.95",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "lynx-core",
+            "req": "^0.0.1-alpha.0",
+            "features": [
+                "test"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.10.0",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1.41",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing-subscriber",
+            "req": "^0.3.19",
+            "features": [
+                "env-filter"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "4214c6e1221cbdbdb68ca348b0b23a95d8654ff5e68d7a02abc2a2a49dafaa17",
+    "features": {},
+    "yanked": false
+}

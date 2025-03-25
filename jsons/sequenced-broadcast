@@ -1,1 +1,60 @@
-{"name":"sequenced-broadcast","vers":"0.1.0","deps":[{"name":"tokio","req":"^1.40","features":["time","sync","rt"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.40","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"tokio-util","req":"^0.7.12","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing","req":"^0.1.40","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing-subscriber","req":"^0.3.18","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"aa4e589933f2ea4eeab46417b3eb02c9c3913318f0213b6756efaef825725adc","features":{},"yanked":false}
+{
+    "name": "sequenced-broadcast",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "tokio",
+            "req": "^1.40",
+            "features": [
+                "time",
+                "sync",
+                "rt"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.40",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "tokio-util",
+            "req": "^0.7.12",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1.40",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing-subscriber",
+            "req": "^0.3.18",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "aa4e589933f2ea4eeab46417b3eb02c9c3913318f0213b6756efaef825725adc",
+    "features": {},
+    "yanked": false
+}

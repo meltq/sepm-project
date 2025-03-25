@@ -1,1 +1,68 @@
-{"name":"schemafy","vers":"0.1.0","deps":[{"name":"Inflector","req":"^0.6.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"quote","req":"^0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"schemafy_snapshot","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"serde","req":"^0.8","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_derive","req":"^0.8","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^0.8","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"95258a80d5f4ec76e7403d39c2d40e5e2ace5730d2f09550fddc7db515d76630","features":{"default":["rustfmt"],"rustfmt":[]},"yanked":false}
+{
+    "name": "schemafy",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "Inflector",
+            "req": "^0.6.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "quote",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "schemafy_snapshot",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "serde",
+            "req": "^0.8",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_derive",
+            "req": "^0.8",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^0.8",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "95258a80d5f4ec76e7403d39c2d40e5e2ace5730d2f09550fddc7db515d76630",
+    "features": {
+        "default": [
+            "rustfmt"
+        ],
+        "rustfmt": []
+    },
+    "yanked": false
+}

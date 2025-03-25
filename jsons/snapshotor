@@ -1,1 +1,31 @@
-{"name":"snapshotor","vers":"0.1.0","deps":[{"name":"crossbeam-skiplist","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev","package":"crossbeam-skiplist-pr1132"},{"name":"dbutils","req":"^0.12","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"}],"cksum":"007ab9082e8fded0d081a69be02af02b35449a26455db73cb8753a8dad0501f9","features":{"default":[]},"yanked":false,"rust_version":"1.81.0"}
+{
+    "name": "snapshotor",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "crossbeam-skiplist",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev",
+            "package": "crossbeam-skiplist-pr1132"
+        },
+        {
+            "name": "dbutils",
+            "req": "^0.12",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "007ab9082e8fded0d081a69be02af02b35449a26455db73cb8753a8dad0501f9",
+    "features": {
+        "default": []
+    },
+    "yanked": false,
+    "rust_version": "1.81.0"
+}

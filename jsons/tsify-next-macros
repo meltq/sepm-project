@@ -1,1 +1,54 @@
-{"name":"tsify-next-macros","vers":"0.5.0","deps":[{"name":"proc-macro2","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"quote","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_derive_internals","req":"^0.29","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"syn","req":"^2.0","features":["full","parsing","printing","proc-macro"],"optional":false,"default_features":false,"target":null,"kind":"normal"}],"cksum":"9c193870a62cdad46c3ab2fa1563fe6f4956d382eb6131f02338d5d899012740","features":{"js":[],"json":[],"wasm-bindgen":[]},"yanked":false}
+{
+    "name": "tsify-next-macros",
+    "vers": "0.5.0",
+    "deps": [
+        {
+            "name": "proc-macro2",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "quote",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_derive_internals",
+            "req": "^0.29",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "syn",
+            "req": "^2.0",
+            "features": [
+                "full",
+                "parsing",
+                "printing",
+                "proc-macro"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "9c193870a62cdad46c3ab2fa1563fe6f4956d382eb6131f02338d5d899012740",
+    "features": {
+        "js": [],
+        "json": [],
+        "wasm-bindgen": []
+    },
+    "yanked": false
+}

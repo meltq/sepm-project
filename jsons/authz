@@ -1,1 +1,79 @@
-{"name":"authz","vers":"0.1.0","deps":[{"name":"bencher","req":"^0.1.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"libc","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"seahash","req":"^3.0.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^0.8","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_codegen","req":"^0.8","features":[],"optional":true,"default_features":true,"target":null,"kind":"build"},{"name":"serde_derive","req":"^0.8","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^0.8","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"776dd59e7b4306c54a9105b54d97ab7bd77a2d35264563e39b63fe72434300ae","features":{"default":["serde_codegen"],"nightly":["serde_derive"]},"yanked":true}
+{
+    "name": "authz",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "bencher",
+            "req": "^0.1.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "libc",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "seahash",
+            "req": "^3.0.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^0.8",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_codegen",
+            "req": "^0.8",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "serde_derive",
+            "req": "^0.8",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^0.8",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "776dd59e7b4306c54a9105b54d97ab7bd77a2d35264563e39b63fe72434300ae",
+    "features": {
+        "default": [
+            "serde_codegen"
+        ],
+        "nightly": [
+            "serde_derive"
+        ]
+    },
+    "yanked": true
+}

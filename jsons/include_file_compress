@@ -1,1 +1,73 @@
-{"name":"include_file_compress","vers":"0.1.0","deps":[{"name":"cast","req":"^0.3.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"flate2","req":"^1.0.28","features":["rust_backend"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"memmap2","req":"^0.9.4","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"quote","req":"^1.0.36","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"syn","req":"^2.0.60","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"thiserror","req":"^1.0.59","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"40868d65644888cb67d9684713790ca02ba6598a509a824e33cd4d8ad01976ce","features":{"default":[]},"features2":{"mmap":["dep:memmap2"]},"yanked":false,"v":2}
+{
+    "name": "include_file_compress",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "cast",
+            "req": "^0.3.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "flate2",
+            "req": "^1.0.28",
+            "features": [
+                "rust_backend"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "memmap2",
+            "req": "^0.9.4",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "quote",
+            "req": "^1.0.36",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "syn",
+            "req": "^2.0.60",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^1.0.59",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "40868d65644888cb67d9684713790ca02ba6598a509a824e33cd4d8ad01976ce",
+    "features": {
+        "default": []
+    },
+    "features2": {
+        "mmap": [
+            "dep:memmap2"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

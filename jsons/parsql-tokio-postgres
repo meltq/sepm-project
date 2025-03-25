@@ -1,1 +1,85 @@
-{"name":"parsql-tokio-postgres","vers":"0.1.1","deps":[{"name":"criterion","req":"^0.5.1","features":["html_reports","async_tokio"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"deadpool-postgres","req":"^0.14.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"parsql-core","req":"^0.1.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"parsql-macros","req":"^0.1.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"postgres","req":"^0.19.9","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.41.1","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"tokio-postgres","req":"^0.7.12","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"d0ef99d4336ed0f35e1ff4c816b8154ecf7ed917b840b133ffabc43c62ddf347","features":{"default":[]},"features2":{"deadpool-postgres":["dep:deadpool-postgres"]},"yanked":false,"v":2}
+{
+    "name": "parsql-tokio-postgres",
+    "vers": "0.1.1",
+    "deps": [
+        {
+            "name": "criterion",
+            "req": "^0.5.1",
+            "features": [
+                "html_reports",
+                "async_tokio"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "deadpool-postgres",
+            "req": "^0.14.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "parsql-core",
+            "req": "^0.1.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "parsql-macros",
+            "req": "^0.1.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "postgres",
+            "req": "^0.19.9",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.41.1",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "tokio-postgres",
+            "req": "^0.7.12",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "d0ef99d4336ed0f35e1ff4c816b8154ecf7ed917b840b133ffabc43c62ddf347",
+    "features": {
+        "default": []
+    },
+    "features2": {
+        "deadpool-postgres": [
+            "dep:deadpool-postgres"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

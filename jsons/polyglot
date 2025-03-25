@@ -1,1 +1,58 @@
-{"name":"polyglot","vers":"0.1.0","deps":[{"name":"rmp-serde","req":"^0.14.3","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.104","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.46","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"toml","req":"^0.5.6","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"295ac599b133114f0bc3fd9dd6cb30a7fd755a7bb3719f45623081132ff2c4e4","features":{"default":[],"json_fmt":["serde_json"],"msgpack_fmt":["rmp-serde"],"toml_fmt":["toml"]},"yanked":false}
+{
+    "name": "polyglot",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "rmp-serde",
+            "req": "^0.14.3",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.104",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.46",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "toml",
+            "req": "^0.5.6",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "295ac599b133114f0bc3fd9dd6cb30a7fd755a7bb3719f45623081132ff2c4e4",
+    "features": {
+        "default": [],
+        "json_fmt": [
+            "serde_json"
+        ],
+        "msgpack_fmt": [
+            "rmp-serde"
+        ],
+        "toml_fmt": [
+            "toml"
+        ]
+    },
+    "yanked": false
+}

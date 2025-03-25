@@ -1,1 +1,47 @@
-{"name":"pg-interval-sql-json-binding","vers":"1.0.0","deps":[{"name":"pg_interval","req":"^0.4.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"postgres-types","req":"^0.2.6","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.197","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.115","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"2f88d5cb490a003d21442a59ea13f18abc56b83d38024f25bf0237cee15a9f30","features":{},"yanked":false}
+{
+    "name": "pg-interval-sql-json-binding",
+    "vers": "1.0.0",
+    "deps": [
+        {
+            "name": "pg_interval",
+            "req": "^0.4.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "postgres-types",
+            "req": "^0.2.6",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.197",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.115",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "2f88d5cb490a003d21442a59ea13f18abc56b83d38024f25bf0237cee15a9f30",
+    "features": {},
+    "yanked": false
+}

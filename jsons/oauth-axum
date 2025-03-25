@@ -1,1 +1,58 @@
-{"name":"oauth-axum","vers":"0.1.0","deps":[{"name":"axum","req":"^0.7.5","features":["macros"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"oauth2","req":"^4.4.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.198","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"tokio","req":"^1.37.0","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio-postgres","req":"^0.7.10","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"d89c169b2a009ee4a1ce69ab99783b4b25a6b700c40a3ca2f6cf77b914dc4b12","features":{},"yanked":false}
+{
+    "name": "oauth-axum",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "axum",
+            "req": "^0.7.5",
+            "features": [
+                "macros"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "oauth2",
+            "req": "^4.4.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.198",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.37.0",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio-postgres",
+            "req": "^0.7.10",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "d89c169b2a009ee4a1ce69ab99783b4b25a6b700c40a3ca2f6cf77b914dc4b12",
+    "features": {},
+    "yanked": false
+}

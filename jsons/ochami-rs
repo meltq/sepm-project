@@ -1,1 +1,210 @@
-{"name":"ochami-rs","vers":"0.1.0","deps":[{"name":"anyhow","req":"^1.0.44","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"backend-dispatcher","req":"^0.1.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"base64","req":"^0.22.1","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"chrono","req":"^0.4.38","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"clap","req":"^4.5.7","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"comfy-table","req":"^6.1.1","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"config","req":"^0.13.2","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"dialoguer","req":"^0.11.0","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"directories","req":"^4.0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"dirs","req":"^5.0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"jsonwebtoken","req":"^9.3.0","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"log","req":"^0.4.17","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"log4rs","req":"^1.2.0","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"reqwest","req":"^0.11","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"rustls","req":"^0.23.11","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"rustls-pemfile","req":"^2.1.2","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.145","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^1.0.56","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1","features":["macros","rt-multi-thread"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"toml_edit","req":"^0.20.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"uuid","req":"^1.6.1","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"}],"cksum":"019454459b7c905714ec3f836e0212815b3d7f206e864d0723193a3059886916","features":{},"yanked":false}
+{
+    "name": "ochami-rs",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "anyhow",
+            "req": "^1.0.44",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "backend-dispatcher",
+            "req": "^0.1.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "base64",
+            "req": "^0.22.1",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "chrono",
+            "req": "^0.4.38",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "clap",
+            "req": "^4.5.7",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "comfy-table",
+            "req": "^6.1.1",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "config",
+            "req": "^0.13.2",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "dialoguer",
+            "req": "^0.11.0",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "directories",
+            "req": "^4.0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "dirs",
+            "req": "^5.0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "jsonwebtoken",
+            "req": "^9.3.0",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "log",
+            "req": "^0.4.17",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "log4rs",
+            "req": "^1.2.0",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "reqwest",
+            "req": "^0.11",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rustls",
+            "req": "^0.23.11",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rustls-pemfile",
+            "req": "^2.1.2",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.145",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^1.0.56",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1",
+            "features": [
+                "macros",
+                "rt-multi-thread"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "toml_edit",
+            "req": "^0.20.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "uuid",
+            "req": "^1.6.1",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "019454459b7c905714ec3f836e0212815b3d7f206e864d0723193a3059886916",
+    "features": {},
+    "yanked": false
+}

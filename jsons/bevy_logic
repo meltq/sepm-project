@@ -1,1 +1,83 @@
-{"name":"bevy_logic","vers":"0.1.0","deps":[{"name":"bevy","req":"^0.13.2","features":["bevy_render"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"bevy","req":"^0.13.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"bevy-inspector-egui","req":"^0.24","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"bevy-trait-query","req":"^0.5.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"bevy_mod_picking","req":"^0.18.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"derive-new","req":"^0.6.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"derive_more","req":"^0.99.17","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"leafwing-input-manager","req":"^0.13.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"c6bf5eee226b38622742011027eabf44848bbc770f9486d8081452295713405a","features":{},"yanked":false}
+{
+    "name": "bevy_logic",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "bevy",
+            "req": "^0.13.2",
+            "features": [
+                "bevy_render"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "bevy",
+            "req": "^0.13.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "bevy-inspector-egui",
+            "req": "^0.24",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "bevy-trait-query",
+            "req": "^0.5.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "bevy_mod_picking",
+            "req": "^0.18.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "derive-new",
+            "req": "^0.6.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "derive_more",
+            "req": "^0.99.17",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "leafwing-input-manager",
+            "req": "^0.13.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "c6bf5eee226b38622742011027eabf44848bbc770f9486d8081452295713405a",
+    "features": {},
+    "yanked": false
+}

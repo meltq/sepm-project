@@ -1,1 +1,56 @@
-{"name":"mozilla-root-ca","vers":"2024.12.15","deps":[{"name":"bytes","req":"^1.9.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"const-decoder2","req":"^0.5.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"x509-certificate","req":"^0.24.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"x509cert","req":"^0.25.1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"8a2eedef1bf70b7bd24e6c7f181fc038b15ed553899543895b3b2768ff2542a6","features":{"default":[]},"features2":{"x509-certificate":["dep:x509-certificate"],"x509cert":["dep:x509cert"]},"yanked":false,"v":2}
+{
+    "name": "mozilla-root-ca",
+    "vers": "2024.12.15",
+    "deps": [
+        {
+            "name": "bytes",
+            "req": "^1.9.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "const-decoder2",
+            "req": "^0.5.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "x509-certificate",
+            "req": "^0.24.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "x509cert",
+            "req": "^0.25.1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "8a2eedef1bf70b7bd24e6c7f181fc038b15ed553899543895b3b2768ff2542a6",
+    "features": {
+        "default": []
+    },
+    "features2": {
+        "x509-certificate": [
+            "dep:x509-certificate"
+        ],
+        "x509cert": [
+            "dep:x509cert"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

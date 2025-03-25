@@ -1,1 +1,98 @@
-{"name":"os-monitor-service","vers":"0.1.0","deps":[{"name":"dirs","req":"^6.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"dotenv","req":"^0.15.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"once_cell","req":"^1.20.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"os-monitor","req":"^0.1.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"parking_lot","req":"^0.12","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"sqlx","req":"^0.8.2","features":["sqlite","runtime-tokio","time"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"sqlx","req":"^0.8.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"time","req":"^0.3","features":["serde"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.42.0","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"aa75efa748a7667b9a500bf61a683ed3cdb1826fc4ec39b69b339079e28ab066","features":{},"yanked":false}
+{
+    "name": "os-monitor-service",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "dirs",
+            "req": "^6.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "dotenv",
+            "req": "^0.15.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "once_cell",
+            "req": "^1.20.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "os-monitor",
+            "req": "^0.1.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "parking_lot",
+            "req": "^0.12",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "sqlx",
+            "req": "^0.8.2",
+            "features": [
+                "sqlite",
+                "runtime-tokio",
+                "time"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "sqlx",
+            "req": "^0.8.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "time",
+            "req": "^0.3",
+            "features": [
+                "serde"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.42.0",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "aa75efa748a7667b9a500bf61a683ed3cdb1826fc4ec39b69b339079e28ab066",
+    "features": {},
+    "yanked": false
+}

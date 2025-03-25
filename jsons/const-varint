@@ -1,1 +1,76 @@
-{"name":"const-varint","vers":"0.1.0","deps":[{"name":"paste","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"quickcheck","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"quickcheck_macros","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"ruint_1","req":"^1","features":[],"optional":true,"default_features":false,"target":null,"kind":"normal","package":"ruint"},{"name":"ruint_1","req":"^1","features":["arbitrary","quickcheck"],"optional":false,"default_features":true,"target":null,"kind":"dev","package":"ruint"},{"name":"thiserror","req":"^2","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"}],"cksum":"baf835c4537a4fa10a079c58d59e5595fd52494549aa67dff312bbadc84d6805","features":{"default":["std"],"std":["thiserror/default"]},"yanked":true,"rust_version":"1.81.0"}
+{
+    "name": "const-varint",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "paste",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "quickcheck",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "quickcheck_macros",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "ruint_1",
+            "req": "^1",
+            "features": [],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal",
+            "package": "ruint"
+        },
+        {
+            "name": "ruint_1",
+            "req": "^1",
+            "features": [
+                "arbitrary",
+                "quickcheck"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev",
+            "package": "ruint"
+        },
+        {
+            "name": "thiserror",
+            "req": "^2",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "baf835c4537a4fa10a079c58d59e5595fd52494549aa67dff312bbadc84d6805",
+    "features": {
+        "default": [
+            "std"
+        ],
+        "std": [
+            "thiserror/default"
+        ]
+    },
+    "yanked": true,
+    "rust_version": "1.81.0"
+}

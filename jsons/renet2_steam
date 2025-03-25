@@ -1,1 +1,60 @@
-{"name":"renet2_steam","vers":"0.1.0","deps":[{"name":"bevy_ecs","req":"^0.15","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"env_logger","req":"^0.11","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"log","req":"^0.4.19","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"renet2","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"steamworks","req":"^0.11","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"13966045342be68920d8372dfba67a03d0426b4bbecaf1d2124226d7d85d874c","features":{},"features2":{"bevy":["dep:bevy_ecs"]},"yanked":false,"v":2}
+{
+    "name": "renet2_steam",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "bevy_ecs",
+            "req": "^0.15",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "env_logger",
+            "req": "^0.11",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "log",
+            "req": "^0.4.19",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "renet2",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "steamworks",
+            "req": "^0.11",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "13966045342be68920d8372dfba67a03d0426b4bbecaf1d2124226d7d85d874c",
+    "features": {},
+    "features2": {
+        "bevy": [
+            "dep:bevy_ecs"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

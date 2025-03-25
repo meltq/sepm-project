@@ -1,1 +1,76 @@
-{"name":"openat_ct","vers":"0.1.21","deps":[{"name":"argparse","req":"^0.2.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"conf_test","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"libc","req":"^0.2.34","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"libc","req":"^0.2.104","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"tempfile","req":"^3.0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"637cac2dd2fa33f831dcc0610ff4e4806a5f253890e0c06a806fef529d578a5b","features":{"default":[],"fcntl_o_directory":[],"link_file_at":[],"linux":["o_path","o_directory","o_tmpfile","statx","proc_self_fd","link_file_at","rename_exchange","renameat_flags"],"o_directory":[],"o_path":[],"o_search":[],"o_tmpfile":[],"proc_self_fd":[],"rename_exchange":[],"renameat_flags":[],"statx":[]},"yanked":false}
+{
+    "name": "openat_ct",
+    "vers": "0.1.21",
+    "deps": [
+        {
+            "name": "argparse",
+            "req": "^0.2.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "conf_test",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "libc",
+            "req": "^0.2.34",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "libc",
+            "req": "^0.2.104",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "tempfile",
+            "req": "^3.0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "637cac2dd2fa33f831dcc0610ff4e4806a5f253890e0c06a806fef529d578a5b",
+    "features": {
+        "default": [],
+        "fcntl_o_directory": [],
+        "link_file_at": [],
+        "linux": [
+            "o_path",
+            "o_directory",
+            "o_tmpfile",
+            "statx",
+            "proc_self_fd",
+            "link_file_at",
+            "rename_exchange",
+            "renameat_flags"
+        ],
+        "o_directory": [],
+        "o_path": [],
+        "o_search": [],
+        "o_tmpfile": [],
+        "proc_self_fd": [],
+        "rename_exchange": [],
+        "renameat_flags": [],
+        "statx": []
+    },
+    "yanked": false
+}

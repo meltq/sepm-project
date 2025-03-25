@@ -1,1 +1,194 @@
-{"name":"rIC3","vers":"1.2.0","deps":[{"name":"abc-rs","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"aig","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"bitfield-struct","req":"^0.8.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"btor","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"clap","req":"^4.5.16","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"ctrlc","req":"^3.4.1","features":["termination"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"giputils","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"logic-form","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"nix","req":"^0.27.1","features":["signal"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"process_control","req":"^4.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"procspawn","req":"^1.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rand","req":"^0.8.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"satif","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"satif-cadical","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"satif-kissat","req":"^0.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"satif-minisat","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"shadow-rs","req":"^0.34.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"shadow-rs","req":"^0.34.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"tempfile","req":"^3.10.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"e2c7ca1c777c0ed0ec10a877a9944d3250ab7fff7789aa7113b6722039a4ce94","features":{"default":["no_bound_check"],"no_bound_check":["logic-form/no_bound_check","giputils/no_bound_check"]},"yanked":false}
+{
+    "name": "rIC3",
+    "vers": "1.2.0",
+    "deps": [
+        {
+            "name": "abc-rs",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "aig",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "bitfield-struct",
+            "req": "^0.8.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "btor",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "clap",
+            "req": "^4.5.16",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ctrlc",
+            "req": "^3.4.1",
+            "features": [
+                "termination"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "giputils",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "logic-form",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "nix",
+            "req": "^0.27.1",
+            "features": [
+                "signal"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "process_control",
+            "req": "^4.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "procspawn",
+            "req": "^1.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rand",
+            "req": "^0.8.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "satif",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "satif-cadical",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "satif-kissat",
+            "req": "^0.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "satif-minisat",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "shadow-rs",
+            "req": "^0.34.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "shadow-rs",
+            "req": "^0.34.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "tempfile",
+            "req": "^3.10.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "e2c7ca1c777c0ed0ec10a877a9944d3250ab7fff7789aa7113b6722039a4ce94",
+    "features": {
+        "default": [
+            "no_bound_check"
+        ],
+        "no_bound_check": [
+            "logic-form/no_bound_check",
+            "giputils/no_bound_check"
+        ]
+    },
+    "yanked": false
+}

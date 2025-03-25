@@ -1,1 +1,31 @@
-{"name":"ohkami_openapi","vers":"0.21.0","deps":[{"name":"serde","req":"^1.0","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"ba810ed9d4d9a30457e5174e1cd156b2a24fa05fd8bc21a2b7ed30beb91c696f","features":{"no-release-serialize":[]},"yanked":false}
+{
+    "name": "ohkami_openapi",
+    "vers": "0.21.0",
+    "deps": [
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "ba810ed9d4d9a30457e5174e1cd156b2a24fa05fd8bc21a2b7ed30beb91c696f",
+    "features": {
+        "no-release-serialize": []
+    },
+    "yanked": false
+}

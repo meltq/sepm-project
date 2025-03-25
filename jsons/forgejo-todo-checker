@@ -1,1 +1,123 @@
-{"name":"forgejo-todo-checker","vers":"1.2.0","deps":[{"name":"anyhow","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"assert2","req":"^0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"bon","req":"^3.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"file-format","req":"^0.26","features":["reader-txt"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"ignore","req":"^0.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"kxio","req":"^3.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"mutants","req":"^0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"pretty_assertions","req":"^1.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"regex","req":"^1.10","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rstest","req":"^0.23","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"serde","req":"^1.0","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.37","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"a33c67bb2d07ae5a947a9f1949033d09a4cf440b1d7831fc0e75d62b5d1c4b93","features":{},"yanked":false}
+{
+    "name": "forgejo-todo-checker",
+    "vers": "1.2.0",
+    "deps": [
+        {
+            "name": "anyhow",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "assert2",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "bon",
+            "req": "^3.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "file-format",
+            "req": "^0.26",
+            "features": [
+                "reader-txt"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ignore",
+            "req": "^0.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "kxio",
+            "req": "^3.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "mutants",
+            "req": "^0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "pretty_assertions",
+            "req": "^1.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "regex",
+            "req": "^1.10",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rstest",
+            "req": "^0.23",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.37",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "a33c67bb2d07ae5a947a9f1949033d09a4cf440b1d7831fc0e75d62b5d1c4b93",
+    "features": {},
+    "yanked": false
+}

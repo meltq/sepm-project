@@ -1,1 +1,95 @@
-{"name":"length-delimited","vers":"0.1.0","deps":[{"name":"bstr1","req":"^1","features":[],"optional":true,"default_features":false,"target":null,"kind":"normal","package":"bstr"},{"name":"bytes1","req":"^1","features":[],"optional":true,"default_features":false,"target":null,"kind":"normal","package":"bytes"},{"name":"dbutils","req":"^0.12","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"paste","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"smol_str03","req":"^0.3","features":[],"optional":true,"default_features":false,"target":null,"kind":"normal","package":"smol_str"},{"name":"triomphe01","req":"^0.1","features":[],"optional":true,"default_features":false,"target":null,"kind":"normal","package":"triomphe"}],"cksum":"ee5ad2f0b5bc764f4961d8e46c29c419e9463703cf8f743ae93a194d042272ca","features":{"debug":[],"display":[],"error":["debug","display"],"send":[],"static":[],"sync":[]},"features2":{"alloc":["bstr1?/alloc"],"default":["std","send","sync","static","error"],"std":["bstr1?/std","bytes1?/std"]},"yanked":false,"rust_version":"1.81.0","v":2}
+{
+    "name": "length-delimited",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "bstr1",
+            "req": "^1",
+            "features": [],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal",
+            "package": "bstr"
+        },
+        {
+            "name": "bytes1",
+            "req": "^1",
+            "features": [],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal",
+            "package": "bytes"
+        },
+        {
+            "name": "dbutils",
+            "req": "^0.12",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "paste",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "smol_str03",
+            "req": "^0.3",
+            "features": [],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal",
+            "package": "smol_str"
+        },
+        {
+            "name": "triomphe01",
+            "req": "^0.1",
+            "features": [],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal",
+            "package": "triomphe"
+        }
+    ],
+    "cksum": "ee5ad2f0b5bc764f4961d8e46c29c419e9463703cf8f743ae93a194d042272ca",
+    "features": {
+        "debug": [],
+        "display": [],
+        "error": [
+            "debug",
+            "display"
+        ],
+        "send": [],
+        "static": [],
+        "sync": []
+    },
+    "features2": {
+        "alloc": [
+            "bstr1?/alloc"
+        ],
+        "default": [
+            "std",
+            "send",
+            "sync",
+            "static",
+            "error"
+        ],
+        "std": [
+            "bstr1?/std",
+            "bytes1?/std"
+        ]
+    },
+    "yanked": false,
+    "rust_version": "1.81.0",
+    "v": 2
+}

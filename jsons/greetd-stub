@@ -1,1 +1,51 @@
-{"name":"greetd-stub","vers":"0.1.0","deps":[{"name":"getopts","req":"^0.2.21","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"greetd_ipc","req":"^0.10.0","features":["tokio-codec"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"libfprint-rs","req":"^0.2.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.37.0","features":["macros","net","rt"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"5ab65c37f7c4b962b69a7976229214c20cd52d7467545d5f4776cd78a898871c","features":{},"yanked":false}
+{
+    "name": "greetd-stub",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "getopts",
+            "req": "^0.2.21",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "greetd_ipc",
+            "req": "^0.10.0",
+            "features": [
+                "tokio-codec"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "libfprint-rs",
+            "req": "^0.2.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.37.0",
+            "features": [
+                "macros",
+                "net",
+                "rt"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "5ab65c37f7c4b962b69a7976229214c20cd52d7467545d5f4776cd78a898871c",
+    "features": {},
+    "yanked": false
+}

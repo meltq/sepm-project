@@ -1,1 +1,156 @@
-{"name":"qm-entity","vers":"0.0.2","deps":[{"name":"anyhow","req":"^1.0.79","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"async-graphql","req":"^7.0.1","features":["bson","chrono","chrono-tz","uuid","graphiql"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"async-trait","req":"^0.1.77","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"chrono","req":"^0.4.31","features":["serde"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"futures","req":"^0.3.30","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"qm-entity-derive","req":"^0.0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"qm-keycloak","req":"^0.0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"qm-mongodb","req":"^0.0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"qm-redis","req":"^0.0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"qm-role","req":"^0.0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"reqwest","req":"^0.11.23","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.195","features":["derive","rc"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.111","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^1.0.56","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tynm","req":"^0.1.8","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"d533d48c0ca5180e7cdcea7ed116762e9c8a6da7ee5447d3fcdd62f6ae86b0cc","features":{},"yanked":false,"rust_version":"1.75.0"}
+{
+    "name": "qm-entity",
+    "vers": "0.0.2",
+    "deps": [
+        {
+            "name": "anyhow",
+            "req": "^1.0.79",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "async-graphql",
+            "req": "^7.0.1",
+            "features": [
+                "bson",
+                "chrono",
+                "chrono-tz",
+                "uuid",
+                "graphiql"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "async-trait",
+            "req": "^0.1.77",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "chrono",
+            "req": "^0.4.31",
+            "features": [
+                "serde"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "futures",
+            "req": "^0.3.30",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "qm-entity-derive",
+            "req": "^0.0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "qm-keycloak",
+            "req": "^0.0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "qm-mongodb",
+            "req": "^0.0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "qm-redis",
+            "req": "^0.0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "qm-role",
+            "req": "^0.0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "reqwest",
+            "req": "^0.11.23",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.195",
+            "features": [
+                "derive",
+                "rc"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.111",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^1.0.56",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tynm",
+            "req": "^0.1.8",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "d533d48c0ca5180e7cdcea7ed116762e9c8a6da7ee5447d3fcdd62f6ae86b0cc",
+    "features": {},
+    "yanked": false,
+    "rust_version": "1.75.0"
+}

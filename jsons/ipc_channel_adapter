@@ -1,1 +1,44 @@
-{"name":"ipc_channel_adapter","vers":"0.1.0","deps":[{"name":"ipc-channel","req":"^0.18.0","features":["memfd"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.0","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.0.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"fc3a616f3213771baaefc42a81851490822485c7097c8e646b651d0d9507abb2","features":{"async":["tokio"]},"yanked":false}
+{
+    "name": "ipc_channel_adapter",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "ipc-channel",
+            "req": "^0.18.0",
+            "features": [
+                "memfd"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.0",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.0.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "fc3a616f3213771baaefc42a81851490822485c7097c8e646b651d0d9507abb2",
+    "features": {
+        "async": [
+            "tokio"
+        ]
+    },
+    "yanked": false
+}

@@ -1,1 +1,81 @@
-{"name":"jara","vers":"0.1.0","deps":[{"name":"clap","req":"^4.4.11","features":["derive","cargo"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"colored","req":"^2.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"reqwest","req":"^0.12.2","features":["json"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.193","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"simple-home-dir","req":"^0.3.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"toml","req":"^0.8.12","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"95325cfe71c111df936573aab6afd1a17a8595b7c3abc190b8ee533974b287e5","features":{},"yanked":false}
+{
+    "name": "jara",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "clap",
+            "req": "^4.4.11",
+            "features": [
+                "derive",
+                "cargo"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "colored",
+            "req": "^2.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "reqwest",
+            "req": "^0.12.2",
+            "features": [
+                "json"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.193",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "simple-home-dir",
+            "req": "^0.3.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "toml",
+            "req": "^0.8.12",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "95325cfe71c111df936573aab6afd1a17a8595b7c3abc190b8ee533974b287e5",
+    "features": {},
+    "yanked": false
+}

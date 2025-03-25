@@ -1,1 +1,40 @@
-{"name":"mzdata-spectra","vers":"0.45.0","deps":[{"name":"mzdata","req":"^0.45.0","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"}],"cksum":"96338402b9f1db215660efd7429928e3248b8c4b3705e4c330df4a98e710f2ce","features":{"intel-mkl":["mzdata/intel-mkl"],"mzsignal":["mzdata/mzsignal"],"nalgebra":["mzdata/nalgebra"],"netlib":["mzdata/netlib"],"openblas":["mzdata/openblas"],"parallelism":["mzdata/parallelism"],"serde":["mzdata/serde"]},"yanked":true}
+{
+    "name": "mzdata-spectra",
+    "vers": "0.45.0",
+    "deps": [
+        {
+            "name": "mzdata",
+            "req": "^0.45.0",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "96338402b9f1db215660efd7429928e3248b8c4b3705e4c330df4a98e710f2ce",
+    "features": {
+        "intel-mkl": [
+            "mzdata/intel-mkl"
+        ],
+        "mzsignal": [
+            "mzdata/mzsignal"
+        ],
+        "nalgebra": [
+            "mzdata/nalgebra"
+        ],
+        "netlib": [
+            "mzdata/netlib"
+        ],
+        "openblas": [
+            "mzdata/openblas"
+        ],
+        "parallelism": [
+            "mzdata/parallelism"
+        ],
+        "serde": [
+            "mzdata/serde"
+        ]
+    },
+    "yanked": true
+}

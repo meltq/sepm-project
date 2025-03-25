@@ -1,1 +1,37 @@
-{"name":"wplot","vers":"0.1.1","deps":[{"name":"test_tools","req":"~0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"wtools","req":"~0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"3413dd763a92725898bbddd2e1a6f22fabb698bae62313ea4aa36c67d5a156f6","features":{"default":["use_std"],"full":["use_std","use_alloc"],"use_alloc":[],"use_std":[]},"yanked":false}
+{
+    "name": "wplot",
+    "vers": "0.1.1",
+    "deps": [
+        {
+            "name": "test_tools",
+            "req": "~0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "wtools",
+            "req": "~0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "3413dd763a92725898bbddd2e1a6f22fabb698bae62313ea4aa36c67d5a156f6",
+    "features": {
+        "default": [
+            "use_std"
+        ],
+        "full": [
+            "use_std",
+            "use_alloc"
+        ],
+        "use_alloc": [],
+        "use_std": []
+    },
+    "yanked": false
+}

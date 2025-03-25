@@ -1,1 +1,57 @@
-{"name":"playdate-simulator-utils","vers":"0.1.0","deps":[{"name":"log","req":"^0.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.37","features":["process"],"optional":true,"default_features":false,"target":null,"kind":"normal"},{"name":"tracing","req":"^0.1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"utils","req":"^0.2","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal","package":"playdate-build-utils"}],"cksum":"45ecadc83cafe750fbdaa3f40d28b832981b930f12d4d9248de57e83d88306d9","features":{},"yanked":false}
+{
+    "name": "playdate-simulator-utils",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "log",
+            "req": "^0.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.37",
+            "features": [
+                "process"
+            ],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "utils",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal",
+            "package": "playdate-build-utils"
+        }
+    ],
+    "cksum": "45ecadc83cafe750fbdaa3f40d28b832981b930f12d4d9248de57e83d88306d9",
+    "features": {},
+    "yanked": false
+}

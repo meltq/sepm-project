@@ -1,1 +1,135 @@
-{"name":"suppaftp","vers":"4.1.0","deps":[{"name":"async-attributes","req":"^1.1.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"async-native-tls","req":"^0.3.3","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"async-std","req":"^1.9.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"chrono","req":"^0.4.19","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"lazy_static","req":"^1.4.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"native-tls","req":"^0.2","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"pin-project","req":"^1.0.8","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"pretty_assertions","req":"^0.7.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"rand","req":"^0.8.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"regex","req":"^1.4.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rpassword","req":"^5.0.1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^1.0.26","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"a992276cb5002ce8107772853e9f41a9bc87ae85a32739082e04d2cb51d4f0ec","features":{"async":["async-std","pin-project"],"async-secure":["async-std","async-native-tls","pin-project"],"cli-bin":["rpassword"],"debug_print":[],"secure":["native-tls"],"with-containers":[]},"yanked":true}
+{
+    "name": "suppaftp",
+    "vers": "4.1.0",
+    "deps": [
+        {
+            "name": "async-attributes",
+            "req": "^1.1.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "async-native-tls",
+            "req": "^0.3.3",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "async-std",
+            "req": "^1.9.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "chrono",
+            "req": "^0.4.19",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "lazy_static",
+            "req": "^1.4.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "native-tls",
+            "req": "^0.2",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "pin-project",
+            "req": "^1.0.8",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "pretty_assertions",
+            "req": "^0.7.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "rand",
+            "req": "^0.8.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "regex",
+            "req": "^1.4.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rpassword",
+            "req": "^5.0.1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^1.0.26",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "a992276cb5002ce8107772853e9f41a9bc87ae85a32739082e04d2cb51d4f0ec",
+    "features": {
+        "async": [
+            "async-std",
+            "pin-project"
+        ],
+        "async-secure": [
+            "async-std",
+            "async-native-tls",
+            "pin-project"
+        ],
+        "cli-bin": [
+            "rpassword"
+        ],
+        "debug_print": [],
+        "secure": [
+            "native-tls"
+        ],
+        "with-containers": []
+    },
+    "yanked": true
+}

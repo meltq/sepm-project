@@ -1,1 +1,65 @@
-{"name":"bio-streams","vers":"0.3.0","deps":[{"name":"bio-seq","req":"^0.12","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"bio-seq","req":"^0.12","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"clap","req":"^4","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"flate2","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"futures","req":"^0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"futures-test","req":"^0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"9d129a69be58e3e682363b2aafc529af9dfdab7f4b3fbdd2e26ae4d746ae1238","features":{},"yanked":false}
+{
+    "name": "bio-streams",
+    "vers": "0.3.0",
+    "deps": [
+        {
+            "name": "bio-seq",
+            "req": "^0.12",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "bio-seq",
+            "req": "^0.12",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "clap",
+            "req": "^4",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "flate2",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "futures",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "futures-test",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "9d129a69be58e3e682363b2aafc529af9dfdab7f4b3fbdd2e26ae4d746ae1238",
+    "features": {},
+    "yanked": false
+}

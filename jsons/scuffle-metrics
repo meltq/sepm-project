@@ -1,1 +1,95 @@
-{"name":"scuffle-metrics","vers":"0.0.0","deps":[{"name":"itoa","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"opentelemetry","req":"^0.27.0","features":["metrics"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"opentelemetry_sdk","req":"^0.27.0","features":["metrics"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"prometheus","req":"^0.13","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"protobuf","req":"^2","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"ryu","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"scuffle-metrics-derive","req":"^0.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"947558f6260ca6f2ce137b879e79f51ef235701e49f422674d370aa87de37276","features":{},"features2":{"default":["prometheus"],"prometheus":["dep:prometheus","protobuf"]},"yanked":false,"v":2}
+{
+    "name": "scuffle-metrics",
+    "vers": "0.0.0",
+    "deps": [
+        {
+            "name": "itoa",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "opentelemetry",
+            "req": "^0.27.0",
+            "features": [
+                "metrics"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "opentelemetry_sdk",
+            "req": "^0.27.0",
+            "features": [
+                "metrics"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "prometheus",
+            "req": "^0.13",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "protobuf",
+            "req": "^2",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ryu",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "scuffle-metrics-derive",
+            "req": "^0.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "947558f6260ca6f2ce137b879e79f51ef235701e49f422674d370aa87de37276",
+    "features": {},
+    "features2": {
+        "default": [
+            "prometheus"
+        ],
+        "prometheus": [
+            "dep:prometheus",
+            "protobuf"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

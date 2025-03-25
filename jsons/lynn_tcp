@@ -1,1 +1,60 @@
-{"name":"lynn_tcp","vers":"1.0.1","deps":[{"name":"bytes","req":"^1.9","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1","features":["macros","net","sync","rt-multi-thread","time","io-util"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing-subscriber","req":"^0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"e8954c6778b282771588cd357fc8c57259f5fe43973fae6fd2bf085129b4aa68","features":{"client":[],"default":["server","client"],"server":[]},"yanked":true,"rust_version":"1.83"}
+{
+    "name": "lynn_tcp",
+    "vers": "1.0.1",
+    "deps": [
+        {
+            "name": "bytes",
+            "req": "^1.9",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1",
+            "features": [
+                "macros",
+                "net",
+                "sync",
+                "rt-multi-thread",
+                "time",
+                "io-util"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing-subscriber",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "e8954c6778b282771588cd357fc8c57259f5fe43973fae6fd2bf085129b4aa68",
+    "features": {
+        "client": [],
+        "default": [
+            "server",
+            "client"
+        ],
+        "server": []
+    },
+    "yanked": true,
+    "rust_version": "1.83"
+}

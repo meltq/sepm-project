@@ -1,1 +1,44 @@
-{"name":"email_provider_validator","vers":"0.1.0","deps":[{"name":"phf","req":"^0.11","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"phf_codegen","req":"^0.11","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"reqwest","req":"^0.11","features":["blocking"],"optional":false,"default_features":true,"target":null,"kind":"build"}],"cksum":"95901571e1eaaa30ea99d1be93d9a44b7f822ef1dacdbdf0beab2702f9593e8f","features":{"default":["free"],"disposable":[],"free":[]},"yanked":true}
+{
+    "name": "email_provider_validator",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "phf",
+            "req": "^0.11",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "phf_codegen",
+            "req": "^0.11",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "reqwest",
+            "req": "^0.11",
+            "features": [
+                "blocking"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        }
+    ],
+    "cksum": "95901571e1eaaa30ea99d1be93d9a44b7f822ef1dacdbdf0beab2702f9593e8f",
+    "features": {
+        "default": [
+            "free"
+        ],
+        "disposable": [],
+        "free": []
+    },
+    "yanked": true
+}

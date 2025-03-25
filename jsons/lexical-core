@@ -1,1 +1,91 @@
-{"name":"lexical-core","vers":"0.1.0","deps":[{"name":"approx","req":"^0.3.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"cfg-if","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"dtoa","req":"^0.4","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"quickcheck","req":"^0.7","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"ryu","req":"^0.2.7","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"stackvector","req":"^1.0.1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"static_assertions","req":"^0.2.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"1ed420752a4e7fb8de012ac91a86b0c8eecb580a71ef57fcdc1b3d96e37090fb","features":{"algorithm_m":["correct"],"correct":["stackvector","table"],"default":["correct","ryu","std"],"grisu3":["dtoa"],"radix":[],"std":[],"table":[]},"yanked":true}
+{
+    "name": "lexical-core",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "approx",
+            "req": "^0.3.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "cfg-if",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "dtoa",
+            "req": "^0.4",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "quickcheck",
+            "req": "^0.7",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "ryu",
+            "req": "^0.2.7",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "stackvector",
+            "req": "^1.0.1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "static_assertions",
+            "req": "^0.2.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "1ed420752a4e7fb8de012ac91a86b0c8eecb580a71ef57fcdc1b3d96e37090fb",
+    "features": {
+        "algorithm_m": [
+            "correct"
+        ],
+        "correct": [
+            "stackvector",
+            "table"
+        ],
+        "default": [
+            "correct",
+            "ryu",
+            "std"
+        ],
+        "grisu3": [
+            "dtoa"
+        ],
+        "radix": [],
+        "std": [],
+        "table": []
+    },
+    "yanked": true
+}

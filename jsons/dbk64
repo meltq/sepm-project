@@ -1,1 +1,33 @@
-{"name":"dbk64","vers":"0.0.1","deps":[{"name":"dataview","req":"^1.0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"windows","req":"^0.59.0","features":["Win32_Foundation","Win32_Security","Win32_Storage","Win32_Storage_FileSystem","Win32_System_IO"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"178362bc63878ac5c75bb27a1746d4da5c254ab9d611f420c9d6463484130d9d","features":{},"yanked":false}
+{
+    "name": "dbk64",
+    "vers": "0.0.1",
+    "deps": [
+        {
+            "name": "dataview",
+            "req": "^1.0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "windows",
+            "req": "^0.59.0",
+            "features": [
+                "Win32_Foundation",
+                "Win32_Security",
+                "Win32_Storage",
+                "Win32_Storage_FileSystem",
+                "Win32_System_IO"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "178362bc63878ac5c75bb27a1746d4da5c254ab9d611f420c9d6463484130d9d",
+    "features": {},
+    "yanked": false
+}

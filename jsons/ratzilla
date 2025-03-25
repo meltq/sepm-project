@@ -1,1 +1,45 @@
-{"name":"ratzilla","vers":"0.0.0-alpha.0","deps":[{"name":"console_error_panic_hook","req":"^0.1.7","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"ratatui","req":"^0.29","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"web-sys","req":"^0.3.76","features":["Document","Element","HtmlElement","Node","Window","Screen","console","KeyboardEvent"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"56dc6f34994647b04813e5ce9840cc912a367372ecc909103f6a2e823a319f30","features":{},"yanked":false}
+{
+    "name": "ratzilla",
+    "vers": "0.0.0-alpha.0",
+    "deps": [
+        {
+            "name": "console_error_panic_hook",
+            "req": "^0.1.7",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ratatui",
+            "req": "^0.29",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "web-sys",
+            "req": "^0.3.76",
+            "features": [
+                "Document",
+                "Element",
+                "HtmlElement",
+                "Node",
+                "Window",
+                "Screen",
+                "console",
+                "KeyboardEvent"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "56dc6f34994647b04813e5ce9840cc912a367372ecc909103f6a2e823a319f30",
+    "features": {},
+    "yanked": false
+}

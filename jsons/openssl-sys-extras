@@ -1,1 +1,39 @@
-{"name":"openssl-sys-extras","vers":"0.7.0","deps":[{"name":"gcc","req":"^0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"libc","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"openssl-sys","req":"^0.7","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"ee53c1581f8c9694ac6f620a6785c2c8e73f23aec0ff49bbcfe73b405bffb833","features":{"ecdh_auto":[]},"yanked":false,"links":"openssl_shim"}
+{
+    "name": "openssl-sys-extras",
+    "vers": "0.7.0",
+    "deps": [
+        {
+            "name": "gcc",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "libc",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "openssl-sys",
+            "req": "^0.7",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "ee53c1581f8c9694ac6f620a6785c2c8e73f23aec0ff49bbcfe73b405bffb833",
+    "features": {
+        "ecdh_auto": []
+    },
+    "yanked": false,
+    "links": "openssl_shim"
+}

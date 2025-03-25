@@ -1,1 +1,39 @@
-{"name":"femtopb-derive","vers":"0.1.1","deps":[{"name":"proc-macro2","req":"^1.0.79","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"quote","req":"^1.0.35","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"syn","req":"^2.0.57","features":["derive","extra-traits"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"ae86c01bc4d4c9f2541a18cd2e51a5872703d8907aa60d917f9f555d46d4585f","features":{},"yanked":false}
+{
+    "name": "femtopb-derive",
+    "vers": "0.1.1",
+    "deps": [
+        {
+            "name": "proc-macro2",
+            "req": "^1.0.79",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "quote",
+            "req": "^1.0.35",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "syn",
+            "req": "^2.0.57",
+            "features": [
+                "derive",
+                "extra-traits"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "ae86c01bc4d4c9f2541a18cd2e51a5872703d8907aa60d917f9f555d46d4585f",
+    "features": {},
+    "yanked": false
+}

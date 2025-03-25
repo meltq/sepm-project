@@ -1,1 +1,41 @@
-{"name":"measured-process","vers":"0.0.19","deps":[{"name":"measured","req":"^0.0.19","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"nix","req":"^0.28","features":["process","feature"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"procfs","req":"^0.16","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"}],"cksum":"aa31d994bc3719fa3ca463829abacb1fcb1af2915d26df67cf9e5632efd99d97","features":{"default":[]},"yanked":false}
+{
+    "name": "measured-process",
+    "vers": "0.0.19",
+    "deps": [
+        {
+            "name": "measured",
+            "req": "^0.0.19",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "nix",
+            "req": "^0.28",
+            "features": [
+                "process",
+                "feature"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "procfs",
+            "req": "^0.16",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "aa31d994bc3719fa3ca463829abacb1fcb1af2915d26df67cf9e5632efd99d97",
+    "features": {
+        "default": []
+    },
+    "yanked": false
+}

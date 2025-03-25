@@ -1,1 +1,66 @@
-{"name":"chopstick","vers":"0.2.0","deps":[{"name":"assert_cmd","req":"^2.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"assert_fs","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"bytesize","req":"^1.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"clap","req":"=3.0.0-beta.5","features":["std","color"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"rand","req":"^0.8","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"walkdir","req":"^2.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"28e5cf74cad569e013f4cbf749c69d02bf3116934c301b8f25c8079002d92c41","features":{},"yanked":false}
+{
+    "name": "chopstick",
+    "vers": "0.2.0",
+    "deps": [
+        {
+            "name": "assert_cmd",
+            "req": "^2.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "assert_fs",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "bytesize",
+            "req": "^1.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "clap",
+            "req": "=3.0.0-beta.5",
+            "features": [
+                "std",
+                "color"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rand",
+            "req": "^0.8",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "walkdir",
+            "req": "^2.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "28e5cf74cad569e013f4cbf749c69d02bf3116934c301b8f25c8079002d92c41",
+    "features": {},
+    "yanked": false
+}

@@ -1,1 +1,65 @@
-{"name":"tyche","vers":"0.1.0","deps":[{"name":"ariadne","req":"^0.4","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"chumsky","req":"^1.0.0-alpha.7","features":["label"],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"fastrand","req":"^2.0.1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^1.0.57","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"49c7b3328925c37d01ae819f016eef9bf525eb52e3f3135203c9bbfc8b403b17","features":{},"features2":{"build-binary":["parse","fastrand","dep:ariadne"],"default":["parse","fastrand"],"fastrand":["dep:fastrand"],"parse":["dep:chumsky"]},"yanked":false,"v":2}
+{
+    "name": "tyche",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "ariadne",
+            "req": "^0.4",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "chumsky",
+            "req": "^1.0.0-alpha.7",
+            "features": [
+                "label"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "fastrand",
+            "req": "^2.0.1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^1.0.57",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "49c7b3328925c37d01ae819f016eef9bf525eb52e3f3135203c9bbfc8b403b17",
+    "features": {},
+    "features2": {
+        "build-binary": [
+            "parse",
+            "fastrand",
+            "dep:ariadne"
+        ],
+        "default": [
+            "parse",
+            "fastrand"
+        ],
+        "fastrand": [
+            "dep:fastrand"
+        ],
+        "parse": [
+            "dep:chumsky"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

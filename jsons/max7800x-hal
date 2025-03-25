@@ -1,1 +1,77 @@
-{"name":"max7800x-hal","vers":"0.3.0","deps":[{"name":"cortex-m","req":"^0.7.7","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"cortex-m-rt","req":"^0.7.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"embedded-hal","req":"^1.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"embedded-hal-nb","req":"^1.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"embedded-io","req":"^0.6.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"max78000-pac","req":"^0.3.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"paste","req":"^1.0.15","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"e9b87303ac2990293084b401216282475bb1543f64aa9d227088b28f597db5d4","features":{"rt":["max78000-pac/critical-section","max78000-pac/rt"]},"yanked":false}
+{
+    "name": "max7800x-hal",
+    "vers": "0.3.0",
+    "deps": [
+        {
+            "name": "cortex-m",
+            "req": "^0.7.7",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "cortex-m-rt",
+            "req": "^0.7.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "embedded-hal",
+            "req": "^1.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "embedded-hal-nb",
+            "req": "^1.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "embedded-io",
+            "req": "^0.6.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "max78000-pac",
+            "req": "^0.3.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "paste",
+            "req": "^1.0.15",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "e9b87303ac2990293084b401216282475bb1543f64aa9d227088b28f597db5d4",
+    "features": {
+        "rt": [
+            "max78000-pac/critical-section",
+            "max78000-pac/rt"
+        ]
+    },
+    "yanked": false
+}

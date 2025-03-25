@@ -1,1 +1,40 @@
-{"name":"lorem-ipsum","vers":"0.1.0","deps":[{"name":"clap","req":"^4.5.3","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rand","req":"^0.8.5","features":["alloc"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"regex","req":"^1.10.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"5c6c8b26748a03261c46de9aec65cffd83f46d98cb9171cfb13d306df9d6f95b","features":{},"yanked":false}
+{
+    "name": "lorem-ipsum",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "clap",
+            "req": "^4.5.3",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rand",
+            "req": "^0.8.5",
+            "features": [
+                "alloc"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "regex",
+            "req": "^1.10.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "5c6c8b26748a03261c46de9aec65cffd83f46d98cb9171cfb13d306df9d6f95b",
+    "features": {},
+    "yanked": false
+}

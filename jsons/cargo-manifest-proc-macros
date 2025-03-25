@@ -1,1 +1,61 @@
-{"name":"cargo-manifest-proc-macros","vers":"0.0.1","deps":[{"name":"syn","req":"^2.0","features":["derive","parsing"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"syn","req":"^2.0","features":["proc-macro"],"optional":false,"default_features":false,"target":null,"kind":"dev"},{"name":"thiserror","req":"^2.0","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"toml_edit","req":"^0.22","features":["parse"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"tracing","req":"^0.1","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"}],"cksum":"e870a6340e680602c28d5cf4832954c070f2a87cc05b9fd6f5cba9e0e9ec15b2","features":{},"yanked":false}
+{
+    "name": "cargo-manifest-proc-macros",
+    "vers": "0.0.1",
+    "deps": [
+        {
+            "name": "syn",
+            "req": "^2.0",
+            "features": [
+                "derive",
+                "parsing"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "syn",
+            "req": "^2.0",
+            "features": [
+                "proc-macro"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "thiserror",
+            "req": "^2.0",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "toml_edit",
+            "req": "^0.22",
+            "features": [
+                "parse"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "e870a6340e680602c28d5cf4832954c070f2a87cc05b9fd6f5cba9e0e9ec15b2",
+    "features": {},
+    "yanked": false
+}

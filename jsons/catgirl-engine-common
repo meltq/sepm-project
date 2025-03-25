@@ -1,1 +1,31 @@
-{"name":"catgirl-engine-common","vers":"0.14.39","deps":[{"name":"serde","req":"~1.0","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"serde_json","req":"~1.0","features":["alloc"],"optional":false,"default_features":false,"target":null,"kind":"normal"}],"cksum":"a2e473d31035a7f0a15294f7565c4c7d3abe58ba44ec60a168a5dbb9a03b6c67","features":{"default":[]},"yanked":false}
+{
+    "name": "catgirl-engine-common",
+    "vers": "0.14.39",
+    "deps": [
+        {
+            "name": "serde",
+            "req": "~1.0",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "~1.0",
+            "features": [
+                "alloc"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "a2e473d31035a7f0a15294f7565c4c7d3abe58ba44ec60a168a5dbb9a03b6c67",
+    "features": {
+        "default": []
+    },
+    "yanked": false
+}

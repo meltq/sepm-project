@@ -1,1 +1,102 @@
-{"name":"autosway","vers":"0.3.0","deps":[{"name":"clap","req":"^4.5.26","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"directories","req":"^6.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"mlua","req":"^0.10.2","features":["luajit","vendored","serialize","macros","send"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"notify-rust","req":"^4.11.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rodio","req":"^0.20.1","features":["symphonia-all"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.217","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.137","features":["arbitrary_precision"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"swayipc","req":"^3.0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"urs","req":"^0.4.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"c2015c005e58d496bcd108e4e9b9076c6bf6b83497a80b6dd34587b2612a1b69","features":{},"yanked":false}
+{
+    "name": "autosway",
+    "vers": "0.3.0",
+    "deps": [
+        {
+            "name": "clap",
+            "req": "^4.5.26",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "directories",
+            "req": "^6.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "mlua",
+            "req": "^0.10.2",
+            "features": [
+                "luajit",
+                "vendored",
+                "serialize",
+                "macros",
+                "send"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "notify-rust",
+            "req": "^4.11.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rodio",
+            "req": "^0.20.1",
+            "features": [
+                "symphonia-all"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.217",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.137",
+            "features": [
+                "arbitrary_precision"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "swayipc",
+            "req": "^3.0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "urs",
+            "req": "^0.4.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "c2015c005e58d496bcd108e4e9b9076c6bf6b83497a80b6dd34587b2612a1b69",
+    "features": {},
+    "yanked": false
+}

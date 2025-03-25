@@ -1,1 +1,159 @@
-{"name":"mago-parser","vers":"0.0.0","deps":[{"name":"either","req":"^1.13.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"mago-ast","req":"^0.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"mago-feedback","req":"^0.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"mago-interner","req":"^0.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"mago-lexer","req":"^0.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"mago-reporting","req":"^0.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"mago-source","req":"^0.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"mago-span","req":"^0.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"mago-token","req":"^0.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"ordered-float","req":"^4.0","features":["serde","serde","rand"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"pretty_assertions","req":"^1.4.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"serde","req":"^1.0","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.128","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"strum","req":"^0.26","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.39.3","features":["rt","time","rt","rt-multi-thread","test-util","macros"],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"ed483b31ba9f5f66fa8fd951ca10924a0582513b3a0838b5fc5be8844da9ce91","features":{},"yanked":false}
+{
+    "name": "mago-parser",
+    "vers": "0.0.0",
+    "deps": [
+        {
+            "name": "either",
+            "req": "^1.13.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "mago-ast",
+            "req": "^0.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "mago-feedback",
+            "req": "^0.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "mago-interner",
+            "req": "^0.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "mago-lexer",
+            "req": "^0.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "mago-reporting",
+            "req": "^0.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "mago-source",
+            "req": "^0.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "mago-span",
+            "req": "^0.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "mago-token",
+            "req": "^0.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ordered-float",
+            "req": "^4.0",
+            "features": [
+                "serde",
+                "serde",
+                "rand"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "pretty_assertions",
+            "req": "^1.4.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.128",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "strum",
+            "req": "^0.26",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.39.3",
+            "features": [
+                "rt",
+                "time",
+                "rt",
+                "rt-multi-thread",
+                "test-util",
+                "macros"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "ed483b31ba9f5f66fa8fd951ca10924a0582513b3a0838b5fc5be8844da9ce91",
+    "features": {},
+    "yanked": false
+}

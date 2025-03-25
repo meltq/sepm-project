@@ -1,1 +1,128 @@
-{"name":"esptools","vers":"0.1.0","deps":[{"name":"directories","req":"^3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"env_logger","req":"^0.11","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"flate2","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"flate2","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"hex","req":"^0.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"log","req":"^0.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"log","req":"^0.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"reqwest","req":"^0.12","features":["rustls-tls","charset","blocking"],"optional":false,"default_features":false,"target":null,"kind":"build"},{"name":"sha1","req":"^0.10","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"tar","req":"^0.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"zip","req":"^2","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"}],"cksum":"1932dcdfc5664e7b2530a3612f251adce98966e0b2bec073d1f2a0bc1b88f2e9","features":{"bin":["env_logger","esptool","espsecure","espefuse","espidfnvs"],"default":["bin"],"espefuse":[],"espidfnvs":[],"espsecure":[],"esptool":[]},"yanked":false,"rust_version":"1.82"}
+{
+    "name": "esptools",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "directories",
+            "req": "^3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "env_logger",
+            "req": "^0.11",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "flate2",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "flate2",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "hex",
+            "req": "^0.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "log",
+            "req": "^0.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "log",
+            "req": "^0.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "reqwest",
+            "req": "^0.12",
+            "features": [
+                "rustls-tls",
+                "charset",
+                "blocking"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "sha1",
+            "req": "^0.10",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "tar",
+            "req": "^0.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "zip",
+            "req": "^2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        }
+    ],
+    "cksum": "1932dcdfc5664e7b2530a3612f251adce98966e0b2bec073d1f2a0bc1b88f2e9",
+    "features": {
+        "bin": [
+            "env_logger",
+            "esptool",
+            "espsecure",
+            "espefuse",
+            "espidfnvs"
+        ],
+        "default": [
+            "bin"
+        ],
+        "espefuse": [],
+        "espidfnvs": [],
+        "espsecure": [],
+        "esptool": []
+    },
+    "yanked": false,
+    "rust_version": "1.82"
+}

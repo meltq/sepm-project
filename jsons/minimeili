@@ -1,1 +1,81 @@
-{"name":"minimeili","vers":"0.2.0","deps":[{"name":"reqwest","req":"^0.12.2","features":["rustls-tls"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.197","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.115","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^1.0.58","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.37.0","features":["time"],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.37.0","features":["rt-multi-thread","macros"],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"ced43d5053fee38cbe77d3104e2d56b3ed24a9a484c27f243c35a93f031e8235","features":{},"features2":{"default":["tokio"],"tokio":["dep:tokio"]},"yanked":false,"v":2}
+{
+    "name": "minimeili",
+    "vers": "0.2.0",
+    "deps": [
+        {
+            "name": "reqwest",
+            "req": "^0.12.2",
+            "features": [
+                "rustls-tls"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.197",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.115",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^1.0.58",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.37.0",
+            "features": [
+                "time"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.37.0",
+            "features": [
+                "rt-multi-thread",
+                "macros"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "ced43d5053fee38cbe77d3104e2d56b3ed24a9a484c27f243c35a93f031e8235",
+    "features": {},
+    "features2": {
+        "default": [
+            "tokio"
+        ],
+        "tokio": [
+            "dep:tokio"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

@@ -1,1 +1,46 @@
-{"name":"const-serialize","vers":"0.6.0-rc.0","deps":[{"name":"const-serialize-macro","req":"^0.6.0-rc.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rand","req":"^0.8.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"serde","req":"^1.0.61","features":["derive"],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"6c075270e81c5fac2325b02dc0ea989d91f127f41c25017ecb2b7a1ae55ecb06","features":{"test-big-endian":[]},"features2":{"serde":["dep:serde"]},"yanked":false,"v":2}
+{
+    "name": "const-serialize",
+    "vers": "0.6.0-rc.0",
+    "deps": [
+        {
+            "name": "const-serialize-macro",
+            "req": "^0.6.0-rc.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rand",
+            "req": "^0.8.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.61",
+            "features": [
+                "derive"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "6c075270e81c5fac2325b02dc0ea989d91f127f41c25017ecb2b7a1ae55ecb06",
+    "features": {
+        "test-big-endian": []
+    },
+    "features2": {
+        "serde": [
+            "dep:serde"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

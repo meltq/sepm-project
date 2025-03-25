@@ -1,1 +1,71 @@
-{"name":"rancher_client","vers":"1.0.0","deps":[{"name":"reqwest","req":"^0.12","features":["json","multipart"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_repr","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"url","req":"^2.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"uuid","req":"^1.8","features":["serde","v4"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"407ed6299301844fdb22cfda7a297450f808035334af854270e58021e9f3162d","features":{},"yanked":false}
+{
+    "name": "rancher_client",
+    "vers": "1.0.0",
+    "deps": [
+        {
+            "name": "reqwest",
+            "req": "^0.12",
+            "features": [
+                "json",
+                "multipart"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_repr",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "url",
+            "req": "^2.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "uuid",
+            "req": "^1.8",
+            "features": [
+                "serde",
+                "v4"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "407ed6299301844fdb22cfda7a297450f808035334af854270e58021e9f3162d",
+    "features": {},
+    "yanked": false
+}

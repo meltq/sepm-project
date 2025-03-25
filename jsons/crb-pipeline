@@ -1,1 +1,83 @@
-{"name":"crb-pipeline","vers":"0.0.16","deps":[{"name":"anyhow","req":"^1.0.94","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"async-trait","req":"^0.1.83","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"crb-actor","req":"^0.0.16","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"crb-core","req":"^0.0.16","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"crb-runtime","req":"^0.0.16","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"crb-supervisor","req":"^0.0.16","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"log","req":"^0.4.22","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"typedmap","req":"^0.6.0","features":["dashmap"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"ae8875d6c49c65c03bd9009e5860b5e8cd14d9f35647109e44c490a7c0216c31","features":{},"yanked":false}
+{
+    "name": "crb-pipeline",
+    "vers": "0.0.16",
+    "deps": [
+        {
+            "name": "anyhow",
+            "req": "^1.0.94",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "async-trait",
+            "req": "^0.1.83",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "crb-actor",
+            "req": "^0.0.16",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "crb-core",
+            "req": "^0.0.16",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "crb-runtime",
+            "req": "^0.0.16",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "crb-supervisor",
+            "req": "^0.0.16",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "log",
+            "req": "^0.4.22",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "typedmap",
+            "req": "^0.6.0",
+            "features": [
+                "dashmap"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "ae8875d6c49c65c03bd9009e5860b5e8cd14d9f35647109e44c490a7c0216c31",
+    "features": {},
+    "yanked": false
+}

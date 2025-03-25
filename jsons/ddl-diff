@@ -1,1 +1,45 @@
-{"name":"ddl-diff","vers":"0.1.0","deps":[{"name":"clap","req":"^4.5.26","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"sqlx","req":"^0.8.3","features":["runtime-tokio","mysql"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.43.0","features":["rt","rt-multi-thread","macros"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"ef83324a8feffb0fd0175f868716cc8c176d428de1a75179a11057631c2e3674","features":{},"yanked":false}
+{
+    "name": "ddl-diff",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "clap",
+            "req": "^4.5.26",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "sqlx",
+            "req": "^0.8.3",
+            "features": [
+                "runtime-tokio",
+                "mysql"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.43.0",
+            "features": [
+                "rt",
+                "rt-multi-thread",
+                "macros"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "ef83324a8feffb0fd0175f868716cc8c176d428de1a75179a11057631c2e3674",
+    "features": {},
+    "yanked": false
+}

@@ -1,1 +1,43 @@
-{"name":"autokani","vers":"0.0.1","deps":[{"name":"proc-macro2","req":"^1.0.38","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"quote","req":"^1.0.38","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"syn","req":"^1.0.38","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"dd77a52b26123978c3baea56567893111bffdc1c95dd4f5456dd9822fce25409","features":{"debug_log":[],"default":["debug_log"]},"yanked":true}
+{
+    "name": "autokani",
+    "vers": "0.0.1",
+    "deps": [
+        {
+            "name": "proc-macro2",
+            "req": "^1.0.38",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "quote",
+            "req": "^1.0.38",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "syn",
+            "req": "^1.0.38",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "dd77a52b26123978c3baea56567893111bffdc1c95dd4f5456dd9822fce25409",
+    "features": {
+        "debug_log": [],
+        "default": [
+            "debug_log"
+        ]
+    },
+    "yanked": true
+}

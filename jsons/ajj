@@ -1,1 +1,180 @@
-{"name":"ajj","vers":"0.1.0","deps":[{"name":"axum","req":"^0.8.1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"bytes","req":"^1.9.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"futures-util","req":"^0.3.31","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"interprocess","req":"^2.2.2","features":["async","tokio"],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"pin-project","req":"^1.1.8","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.217","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.135","features":["raw_value"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^2.0.9","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.43.0","features":["sync","rt","macros"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio-stream","req":"^0.1.17","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio-tungstenite","req":"^0.26.1","features":["rustls-tls-webpki-roots"],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio-util","req":"^0.7.13","features":["io"],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"tower","req":"^0.5.2","features":["util"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing","req":"^0.1.41","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"266741493b5b32bebeeeaa4bf7e89566fe6559efd56624493c8b457123757586","features":{},"features2":{"axum":["dep:axum"],"default":["axum","ws","ipc"],"ipc":["pubsub","dep:tokio-util","dep:interprocess"],"pubsub":["dep:tokio-stream"],"tokio-util":["dep:tokio-util"],"ws":["pubsub","dep:tokio-tungstenite","dep:futures-util"]},"yanked":false,"rust_version":"1.81","v":2}
+{
+    "name": "ajj",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "axum",
+            "req": "^0.8.1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "bytes",
+            "req": "^1.9.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "futures-util",
+            "req": "^0.3.31",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "interprocess",
+            "req": "^2.2.2",
+            "features": [
+                "async",
+                "tokio"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "pin-project",
+            "req": "^1.1.8",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.217",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.135",
+            "features": [
+                "raw_value"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^2.0.9",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.43.0",
+            "features": [
+                "sync",
+                "rt",
+                "macros"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio-stream",
+            "req": "^0.1.17",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio-tungstenite",
+            "req": "^0.26.1",
+            "features": [
+                "rustls-tls-webpki-roots"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio-util",
+            "req": "^0.7.13",
+            "features": [
+                "io"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tower",
+            "req": "^0.5.2",
+            "features": [
+                "util"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1.41",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "266741493b5b32bebeeeaa4bf7e89566fe6559efd56624493c8b457123757586",
+    "features": {},
+    "features2": {
+        "axum": [
+            "dep:axum"
+        ],
+        "default": [
+            "axum",
+            "ws",
+            "ipc"
+        ],
+        "ipc": [
+            "pubsub",
+            "dep:tokio-util",
+            "dep:interprocess"
+        ],
+        "pubsub": [
+            "dep:tokio-stream"
+        ],
+        "tokio-util": [
+            "dep:tokio-util"
+        ],
+        "ws": [
+            "pubsub",
+            "dep:tokio-tungstenite",
+            "dep:futures-util"
+        ]
+    },
+    "yanked": false,
+    "rust_version": "1.81",
+    "v": 2
+}

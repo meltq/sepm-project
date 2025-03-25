@@ -1,1 +1,74 @@
-{"name":"epics_gen_macros","vers":"0.1.0","deps":[{"name":"calamine","req":"^0.25.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"proc-macro2","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"quote","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"strum","req":"^0.26.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"strum_macros","req":"^0.26.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"syn","req":"^2.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"syn","req":"^2.0","features":["extra-traits"],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"6dc4964afc67baee8483dce54c76676cc565c027ea13cd7cb6ec27605a286b2a","features":{},"yanked":false}
+{
+    "name": "epics_gen_macros",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "calamine",
+            "req": "^0.25.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "proc-macro2",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "quote",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "strum",
+            "req": "^0.26.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "strum_macros",
+            "req": "^0.26.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "syn",
+            "req": "^2.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "syn",
+            "req": "^2.0",
+            "features": [
+                "extra-traits"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "6dc4964afc67baee8483dce54c76676cc565c027ea13cd7cb6ec27605a286b2a",
+    "features": {},
+    "yanked": false
+}

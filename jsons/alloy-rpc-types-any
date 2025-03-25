@@ -1,1 +1,82 @@
-{"name":"alloy-rpc-types-any","vers":"0.7.0","deps":[{"name":"alloy-consensus","req":"^0.7","features":["serde"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"alloy-consensus-any","req":"^0.7","features":["serde"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"alloy-primitives","req":"^0.8.11","features":[],"optional":false,"default_features":false,"target":null,"kind":"dev"},{"name":"alloy-rpc-types-eth","req":"^0.7","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"alloy-serde","req":"^0.7","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0","features":["derive","alloc"],"optional":false,"default_features":false,"target":null,"kind":"dev"},{"name":"serde_json","req":"^1.0","features":["alloc"],"optional":false,"default_features":false,"target":null,"kind":"dev"}],"cksum":"79d7620e22d6ed7c58451dd303d0501ade5a8bec9dc8daef0fbc48ceffabbae1","features":{},"yanked":false,"rust_version":"1.79"}
+{
+    "name": "alloy-rpc-types-any",
+    "vers": "0.7.0",
+    "deps": [
+        {
+            "name": "alloy-consensus",
+            "req": "^0.7",
+            "features": [
+                "serde"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "alloy-consensus-any",
+            "req": "^0.7",
+            "features": [
+                "serde"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "alloy-primitives",
+            "req": "^0.8.11",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "alloy-rpc-types-eth",
+            "req": "^0.7",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "alloy-serde",
+            "req": "^0.7",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [
+                "derive",
+                "alloc"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0",
+            "features": [
+                "alloc"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "79d7620e22d6ed7c58451dd303d0501ade5a8bec9dc8daef0fbc48ceffabbae1",
+    "features": {},
+    "yanked": false,
+    "rust_version": "1.79"
+}

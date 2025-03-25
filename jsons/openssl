@@ -1,1 +1,130 @@
-{"name":"openssl","vers":"0.0.1","deps":[{"name":"libressl-pnacl-sys","req":"*","features":[],"optional":false,"default_features":true,"target":"arm-unknown-nacl","kind":"normal"},{"name":"libressl-pnacl-sys","req":"*","features":[],"optional":false,"default_features":true,"target":"i686-unknown-nacl","kind":"normal"},{"name":"libressl-pnacl-sys","req":"*","features":[],"optional":false,"default_features":true,"target":"le32-unknown-nacl","kind":"normal"},{"name":"libressl-pnacl-sys","req":"*","features":[],"optional":false,"default_features":true,"target":"x86_64-unknown-nacl","kind":"normal"},{"name":"openssl-sys","req":"*","features":[],"optional":false,"default_features":true,"target":"arm-apple-ios","kind":"normal"},{"name":"openssl-sys","req":"*","features":[],"optional":false,"default_features":true,"target":"i386-apple-ios","kind":"normal"},{"name":"openssl-sys","req":"*","features":[],"optional":false,"default_features":true,"target":"i686-apple-darwin","kind":"normal"},{"name":"openssl-sys","req":"*","features":[],"optional":false,"default_features":true,"target":"i686-unknown-freebsd","kind":"normal"},{"name":"openssl-sys","req":"*","features":[],"optional":false,"default_features":true,"target":"i686-unknown-linux-gnu","kind":"normal"},{"name":"openssl-sys","req":"*","features":[],"optional":false,"default_features":true,"target":"x86_64-apple-darwin","kind":"normal"},{"name":"openssl-sys","req":"*","features":[],"optional":false,"default_features":true,"target":"x86_64-unknown-freebsd","kind":"normal"},{"name":"openssl-sys","req":"*","features":[],"optional":false,"default_features":true,"target":"x86_64-unknown-linux-gnu","kind":"normal"}],"cksum":"763242dd08b8c774acbf4ef45e3607eb02033a2182d5c6392d3bd27f5b918a2f","features":{"aes_xts":["openssl-sys/aes_xts"],"sslv2":["openssl-sys/sslv2"],"tlsv1_1":["openssl-sys/tlsv1_1"],"tlsv1_2":["openssl-sys/tlsv1_2"]},"yanked":true}
+{
+    "name": "openssl",
+    "vers": "0.0.1",
+    "deps": [
+        {
+            "name": "libressl-pnacl-sys",
+            "req": "*",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": "arm-unknown-nacl",
+            "kind": "normal"
+        },
+        {
+            "name": "libressl-pnacl-sys",
+            "req": "*",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": "i686-unknown-nacl",
+            "kind": "normal"
+        },
+        {
+            "name": "libressl-pnacl-sys",
+            "req": "*",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": "le32-unknown-nacl",
+            "kind": "normal"
+        },
+        {
+            "name": "libressl-pnacl-sys",
+            "req": "*",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": "x86_64-unknown-nacl",
+            "kind": "normal"
+        },
+        {
+            "name": "openssl-sys",
+            "req": "*",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": "arm-apple-ios",
+            "kind": "normal"
+        },
+        {
+            "name": "openssl-sys",
+            "req": "*",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": "i386-apple-ios",
+            "kind": "normal"
+        },
+        {
+            "name": "openssl-sys",
+            "req": "*",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": "i686-apple-darwin",
+            "kind": "normal"
+        },
+        {
+            "name": "openssl-sys",
+            "req": "*",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": "i686-unknown-freebsd",
+            "kind": "normal"
+        },
+        {
+            "name": "openssl-sys",
+            "req": "*",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": "i686-unknown-linux-gnu",
+            "kind": "normal"
+        },
+        {
+            "name": "openssl-sys",
+            "req": "*",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": "x86_64-apple-darwin",
+            "kind": "normal"
+        },
+        {
+            "name": "openssl-sys",
+            "req": "*",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": "x86_64-unknown-freebsd",
+            "kind": "normal"
+        },
+        {
+            "name": "openssl-sys",
+            "req": "*",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": "x86_64-unknown-linux-gnu",
+            "kind": "normal"
+        }
+    ],
+    "cksum": "763242dd08b8c774acbf4ef45e3607eb02033a2182d5c6392d3bd27f5b918a2f",
+    "features": {
+        "aes_xts": [
+            "openssl-sys/aes_xts"
+        ],
+        "sslv2": [
+            "openssl-sys/sslv2"
+        ],
+        "tlsv1_1": [
+            "openssl-sys/tlsv1_1"
+        ],
+        "tlsv1_2": [
+            "openssl-sys/tlsv1_2"
+        ]
+    },
+    "yanked": true
+}

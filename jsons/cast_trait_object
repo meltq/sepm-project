@@ -1,1 +1,33 @@
-{"name":"cast_trait_object","vers":"0.1.0","deps":[{"name":"cast_trait_object_macros","req":"^0.1.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"2f3996445485017a1dddc9dd7bbdec8323d7299e3b48a06ec5621a70f1b925f1","features":{"alloc":[],"default":["full"],"docs":["full"],"full":["alloc","proc-macros"],"proc-macros":["cast_trait_object_macros"]},"yanked":false}
+{
+    "name": "cast_trait_object",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "cast_trait_object_macros",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "2f3996445485017a1dddc9dd7bbdec8323d7299e3b48a06ec5621a70f1b925f1",
+    "features": {
+        "alloc": [],
+        "default": [
+            "full"
+        ],
+        "docs": [
+            "full"
+        ],
+        "full": [
+            "alloc",
+            "proc-macros"
+        ],
+        "proc-macros": [
+            "cast_trait_object_macros"
+        ]
+    },
+    "yanked": false
+}

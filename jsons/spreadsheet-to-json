@@ -1,1 +1,102 @@
-{"name":"spreadsheet-to-json","vers":"0.1.0","deps":[{"name":"calamine","req":"^0.26.1","features":["chrono","dates"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"chrono","req":"^0.4.38","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"csv","req":"^1.3.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"heck","req":"^0.5.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"indexmap","req":"^2.7.0","features":["serde"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.215","features":["derive","serde_derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.133","features":["preserve_order"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"simple-string-patterns","req":"^0.3.15","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":">=1.42.0, <2.0.0","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"a549d5fc75c6895f4d54efedd2949b53517181c30c98036591b903b09c02a971","features":{},"yanked":true}
+{
+    "name": "spreadsheet-to-json",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "calamine",
+            "req": "^0.26.1",
+            "features": [
+                "chrono",
+                "dates"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "chrono",
+            "req": "^0.4.38",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "csv",
+            "req": "^1.3.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "heck",
+            "req": "^0.5.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "indexmap",
+            "req": "^2.7.0",
+            "features": [
+                "serde"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.215",
+            "features": [
+                "derive",
+                "serde_derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.133",
+            "features": [
+                "preserve_order"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "simple-string-patterns",
+            "req": "^0.3.15",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": ">=1.42.0, <2.0.0",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "a549d5fc75c6895f4d54efedd2949b53517181c30c98036591b903b09c02a971",
+    "features": {},
+    "yanked": true
+}

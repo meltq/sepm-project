@@ -1,1 +1,53 @@
-{"name":"sheep","vers":"0.2.1","deps":[{"name":"image","req":"^0.20","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"ron","req":"^0.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"serde","req":"^1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_derive","req":"^1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"647a5cfd8047d0ce12bf5b5f5cea2b619dc9915aac73c400dd1b8645804e6841","features":{"amethyst":["serde","serde_derive"],"default":["amethyst"]},"yanked":false}
+{
+    "name": "sheep",
+    "vers": "0.2.1",
+    "deps": [
+        {
+            "name": "image",
+            "req": "^0.20",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "ron",
+            "req": "^0.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "serde",
+            "req": "^1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_derive",
+            "req": "^1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "647a5cfd8047d0ce12bf5b5f5cea2b619dc9915aac73c400dd1b8645804e6841",
+    "features": {
+        "amethyst": [
+            "serde",
+            "serde_derive"
+        ],
+        "default": [
+            "amethyst"
+        ]
+    },
+    "yanked": false
+}

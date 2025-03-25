@@ -1,1 +1,98 @@
-{"name":"frozen-collections-core","vers":"0.1.0","deps":[{"name":"ahash","req":"^0.8.11","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"const-random","req":"^0.1.18","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"equivalent","req":"^1.0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"hashbrown","req":"^0.15.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"mutants","req":"^0.0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"proc-macro2","req":"^1.0.92","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"quote","req":"^1.0.37","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rand","req":"^0.9.0-beta.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"syn","req":"^2.0.90","features":["extra-traits","full"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"25c419bdf39bf37204a97ac90a0c534728843ed8e48b21f66de0121410931c47","features":{"default":["std"],"std":[]},"yanked":false}
+{
+    "name": "frozen-collections-core",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "ahash",
+            "req": "^0.8.11",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "const-random",
+            "req": "^0.1.18",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "equivalent",
+            "req": "^1.0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "hashbrown",
+            "req": "^0.15.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "mutants",
+            "req": "^0.0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "proc-macro2",
+            "req": "^1.0.92",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "quote",
+            "req": "^1.0.37",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rand",
+            "req": "^0.9.0-beta.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "syn",
+            "req": "^2.0.90",
+            "features": [
+                "extra-traits",
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "25c419bdf39bf37204a97ac90a0c534728843ed8e48b21f66de0121410931c47",
+    "features": {
+        "default": [
+            "std"
+        ],
+        "std": []
+    },
+    "yanked": false
+}

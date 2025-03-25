@@ -1,1 +1,82 @@
-{"name":"stellar-axelar-gas-service","vers":"0.1.0","deps":[{"name":"cfg-if","req":"^1.0","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"goldie","req":"^0.5.0","features":[],"optional":false,"default_features":false,"target":null,"kind":"dev"},{"name":"paste","req":"^1.0","features":[],"optional":false,"default_features":false,"target":null,"kind":"dev"},{"name":"soroban-sdk","req":"^22.0.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"soroban-sdk","req":"^22.0.5","features":["testutils"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"stellar-axelar-std","req":"^0.1.0","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"stellar-axelar-std","req":"^0.1.0","features":["derive","testutils"],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"5d824133904ca402b74ad4d8c79be3b674a0917af8e861030c42f2ace42a1684","features":{"library":[],"testutils":[]},"yanked":false}
+{
+    "name": "stellar-axelar-gas-service",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "cfg-if",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "goldie",
+            "req": "^0.5.0",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "paste",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "soroban-sdk",
+            "req": "^22.0.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "soroban-sdk",
+            "req": "^22.0.5",
+            "features": [
+                "testutils"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "stellar-axelar-std",
+            "req": "^0.1.0",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "stellar-axelar-std",
+            "req": "^0.1.0",
+            "features": [
+                "derive",
+                "testutils"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "5d824133904ca402b74ad4d8c79be3b674a0917af8e861030c42f2ace42a1684",
+    "features": {
+        "library": [],
+        "testutils": []
+    },
+    "yanked": false
+}

@@ -1,1 +1,45 @@
-{"name":"gn-matchmaking-state-types","vers":"0.1.0","deps":[{"name":"gn-matchmaking-state","req":"^0.1.10","features":["redis"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"gn-redisadapter-derive","req":"^0.1.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.215","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"bcbe172c8fdfb9342a2ea1297ca5a81d0332e14be943c9a9e2a3576445ccd3a5","features":{"default":["redis"],"redis":[]},"yanked":false}
+{
+    "name": "gn-matchmaking-state-types",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "gn-matchmaking-state",
+            "req": "^0.1.10",
+            "features": [
+                "redis"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "gn-redisadapter-derive",
+            "req": "^0.1.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.215",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "bcbe172c8fdfb9342a2ea1297ca5a81d0332e14be943c9a9e2a3576445ccd3a5",
+    "features": {
+        "default": [
+            "redis"
+        ],
+        "redis": []
+    },
+    "yanked": false
+}

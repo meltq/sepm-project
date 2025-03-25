@@ -1,1 +1,32 @@
-{"name":"aggregate-map","vers":"1.0.0","deps":[{"name":"serde","req":"^1","features":["derive"],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"caf71194d1d3e8fe48965cd57d7178503abf6d6d2648c9465049996b8e291f93","features":{"btreemap":[],"default":["hashmap"],"hashmap":[]},"features2":{"serde":["dep:serde"]},"yanked":false,"v":2}
+{
+    "name": "aggregate-map",
+    "vers": "1.0.0",
+    "deps": [
+        {
+            "name": "serde",
+            "req": "^1",
+            "features": [
+                "derive"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "caf71194d1d3e8fe48965cd57d7178503abf6d6d2648c9465049996b8e291f93",
+    "features": {
+        "btreemap": [],
+        "default": [
+            "hashmap"
+        ],
+        "hashmap": []
+    },
+    "features2": {
+        "serde": [
+            "dep:serde"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

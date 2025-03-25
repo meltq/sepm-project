@@ -1,1 +1,95 @@
-{"name":"pathfinder-serde","vers":"0.15.4-beta.0","deps":[{"name":"anyhow","req":"^1.0.75","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"num-bigint","req":"^0.4.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"pathfinder-common","req":"^0.15.4-beta.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"pathfinder-crypto","req":"^0.15.4-beta.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"pretty_assertions_sorted","req":"^1.2.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"primitive-types","req":"^0.12.1","features":["serde"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.192","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.105","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_with","req":"^3.7.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"3cc0f46dd93cff86d2d87fa3dae5667664d9efb901820c2cd36ce86546ff44d7","features":{},"yanked":false,"rust_version":"1.83"}
+{
+    "name": "pathfinder-serde",
+    "vers": "0.15.4-beta.0",
+    "deps": [
+        {
+            "name": "anyhow",
+            "req": "^1.0.75",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "num-bigint",
+            "req": "^0.4.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "pathfinder-common",
+            "req": "^0.15.4-beta.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "pathfinder-crypto",
+            "req": "^0.15.4-beta.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "pretty_assertions_sorted",
+            "req": "^1.2.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "primitive-types",
+            "req": "^0.12.1",
+            "features": [
+                "serde"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.192",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.105",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_with",
+            "req": "^3.7.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "3cc0f46dd93cff86d2d87fa3dae5667664d9efb901820c2cd36ce86546ff44d7",
+    "features": {},
+    "yanked": false,
+    "rust_version": "1.83"
+}

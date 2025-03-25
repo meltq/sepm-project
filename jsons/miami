@@ -1,1 +1,35 @@
-{"name":"miami","vers":"0.1.0","deps":[{"name":"serde","req":"^1.0.217","features":["derive"],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^2.0.11","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"93334e6d22170ea9ee8b35033dd6e947c3c9d80b57dbab0474938a3a35117fac","features":{},"features2":{"serde":["dep:serde"]},"yanked":false,"v":2}
+{
+    "name": "miami",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "serde",
+            "req": "^1.0.217",
+            "features": [
+                "derive"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^2.0.11",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "93334e6d22170ea9ee8b35033dd6e947c3c9d80b57dbab0474938a3a35117fac",
+    "features": {},
+    "features2": {
+        "serde": [
+            "dep:serde"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

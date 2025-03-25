@@ -1,1 +1,181 @@
-{"name":"penumbra-sdk-funding","vers":"0.82.0-alpha.0","deps":[{"name":"anyhow","req":"^1.0.75","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"async-trait","req":"^0.1.52","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"cnidarium","req":"^0.82.1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"cnidarium-component","req":"^0.82.0-alpha.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"futures","req":"^0.3.28","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"metrics","req":"^0.24.1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"penumbra-sdk-asset","req":"^0.82.0-alpha.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"penumbra-sdk-community-pool","req":"^0.82.0-alpha.0","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"penumbra-sdk-distributions","req":"^0.82.0-alpha.0","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"penumbra-sdk-num","req":"^0.82.0-alpha.0","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"penumbra-sdk-proto","req":"^0.82.0-alpha.0","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"penumbra-sdk-sct","req":"^0.82.0-alpha.0","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"penumbra-sdk-shielded-pool","req":"^0.82.0-alpha.0","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"penumbra-sdk-stake","req":"^0.82.0-alpha.0","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.186","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tendermint","req":"^0.40.1","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"tracing","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"7f2dc8bd5603f9bac42115a3dd04b7338670ac59ade2e1b9739d84d78d3064ae","features":{"component":["cnidarium-component","cnidarium","penumbra-sdk-proto/cnidarium","penumbra-sdk-community-pool/component","penumbra-sdk-distributions/component","penumbra-sdk-sct/component","penumbra-sdk-shielded-pool/component","penumbra-sdk-stake/component","metrics","futures"],"default":["component"],"docsrs":[]},"yanked":false}
+{
+    "name": "penumbra-sdk-funding",
+    "vers": "0.82.0-alpha.0",
+    "deps": [
+        {
+            "name": "anyhow",
+            "req": "^1.0.75",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "async-trait",
+            "req": "^0.1.52",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "cnidarium",
+            "req": "^0.82.1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "cnidarium-component",
+            "req": "^0.82.0-alpha.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "futures",
+            "req": "^0.3.28",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "metrics",
+            "req": "^0.24.1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "penumbra-sdk-asset",
+            "req": "^0.82.0-alpha.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "penumbra-sdk-community-pool",
+            "req": "^0.82.0-alpha.0",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "penumbra-sdk-distributions",
+            "req": "^0.82.0-alpha.0",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "penumbra-sdk-num",
+            "req": "^0.82.0-alpha.0",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "penumbra-sdk-proto",
+            "req": "^0.82.0-alpha.0",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "penumbra-sdk-sct",
+            "req": "^0.82.0-alpha.0",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "penumbra-sdk-shielded-pool",
+            "req": "^0.82.0-alpha.0",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "penumbra-sdk-stake",
+            "req": "^0.82.0-alpha.0",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.186",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tendermint",
+            "req": "^0.40.1",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "7f2dc8bd5603f9bac42115a3dd04b7338670ac59ade2e1b9739d84d78d3064ae",
+    "features": {
+        "component": [
+            "cnidarium-component",
+            "cnidarium",
+            "penumbra-sdk-proto/cnidarium",
+            "penumbra-sdk-community-pool/component",
+            "penumbra-sdk-distributions/component",
+            "penumbra-sdk-sct/component",
+            "penumbra-sdk-shielded-pool/component",
+            "penumbra-sdk-stake/component",
+            "metrics",
+            "futures"
+        ],
+        "default": [
+            "component"
+        ],
+        "docsrs": []
+    },
+    "yanked": false
+}

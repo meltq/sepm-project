@@ -1,1 +1,47 @@
-{"name":"elicit_macro","vers":"0.1.0","deps":[{"name":"proc-macro2","req":"^1","features":["proc-macro"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"quote","req":"^1","features":["proc-macro"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"syn","req":"^2","features":["derive","parsing","printing","proc-macro","extra-traits","full"],"optional":false,"default_features":false,"target":null,"kind":"normal"}],"cksum":"c2d51068046cff66089a6ce1f3196db910304eb12abd78bbb818ed8f74baf0f0","features":{},"yanked":true}
+{
+    "name": "elicit_macro",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "proc-macro2",
+            "req": "^1",
+            "features": [
+                "proc-macro"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "quote",
+            "req": "^1",
+            "features": [
+                "proc-macro"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "syn",
+            "req": "^2",
+            "features": [
+                "derive",
+                "parsing",
+                "printing",
+                "proc-macro",
+                "extra-traits",
+                "full"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "c2d51068046cff66089a6ce1f3196db910304eb12abd78bbb818ed8f74baf0f0",
+    "features": {},
+    "yanked": true
+}

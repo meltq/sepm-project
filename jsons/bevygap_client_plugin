@@ -1,1 +1,79 @@
-{"name":"bevygap_client_plugin","vers":"0.2.3","deps":[{"name":"base64","req":"^0.22","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"bevy","req":"^0.14","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"bevy","req":"^0.14","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"bevy_nfws","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"bevygap_shared","req":"^0.2.3","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"lightyear","req":"^0.17","features":["webtransport"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"60829219b51bfc32fe6ee3beaffcbc2941de67fe139e4585a40513545cba705b","features":{"default":[],"matchmaker-tls":["bevy_nfws/wss"]},"yanked":false}
+{
+    "name": "bevygap_client_plugin",
+    "vers": "0.2.3",
+    "deps": [
+        {
+            "name": "base64",
+            "req": "^0.22",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "bevy",
+            "req": "^0.14",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "bevy",
+            "req": "^0.14",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "bevy_nfws",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "bevygap_shared",
+            "req": "^0.2.3",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "lightyear",
+            "req": "^0.17",
+            "features": [
+                "webtransport"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "60829219b51bfc32fe6ee3beaffcbc2941de67fe139e4585a40513545cba705b",
+    "features": {
+        "default": [],
+        "matchmaker-tls": [
+            "bevy_nfws/wss"
+        ]
+    },
+    "yanked": false
+}

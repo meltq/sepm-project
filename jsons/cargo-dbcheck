@@ -1,1 +1,51 @@
-{"name":"cargo-dbcheck","vers":"0.1.0","deps":[{"name":"anyhow","req":"^1.0.93","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"clap","req":"^4.5.4","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"clap-cargo","req":"^0.14.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"keyring","req":"^3","features":["apple-native","windows-native","sync-secret-service"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"bcaa3d893b292801427ef81a405e221fafa57149f41d761707a28c2cc2f0aecf","features":{},"yanked":true}
+{
+    "name": "cargo-dbcheck",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "anyhow",
+            "req": "^1.0.93",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "clap",
+            "req": "^4.5.4",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "clap-cargo",
+            "req": "^0.14.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "keyring",
+            "req": "^3",
+            "features": [
+                "apple-native",
+                "windows-native",
+                "sync-secret-service"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "bcaa3d893b292801427ef81a405e221fafa57149f41d761707a28c2cc2f0aecf",
+    "features": {},
+    "yanked": true
+}

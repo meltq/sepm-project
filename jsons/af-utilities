@@ -1,1 +1,56 @@
-{"name":"af-utilities","vers":"0.6.0","deps":[{"name":"af-sui-types","req":"^0.6","features":["u256"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"num-traits","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"proptest","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"serde","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"f5e318fc4a4a98a513276c322c6d997f84c0311386cbc201a739e7c522885945","features":{},"yanked":false}
+{
+    "name": "af-utilities",
+    "vers": "0.6.0",
+    "deps": [
+        {
+            "name": "af-sui-types",
+            "req": "^0.6",
+            "features": [
+                "u256"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "num-traits",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "proptest",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "serde",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "f5e318fc4a4a98a513276c322c6d997f84c0311386cbc201a739e7c522885945",
+    "features": {},
+    "yanked": false
+}

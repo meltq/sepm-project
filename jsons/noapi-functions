@@ -1,1 +1,67 @@
-{"name":"noapi-functions","vers":"0.1.0","deps":[{"name":"axum","req":"^0.8.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"listenfd","req":"^1.0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"regex","req":"^1.11.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.43.0","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tower","req":"^0.5.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tower-http","req":"^0.6.2","features":["fs"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"4ce808b3a360dc3d6a827d2c64f0537b36b68ab31f06ccc91fcc644c714c1709","features":{},"yanked":false}
+{
+    "name": "noapi-functions",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "axum",
+            "req": "^0.8.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "listenfd",
+            "req": "^1.0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "regex",
+            "req": "^1.11.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.43.0",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tower",
+            "req": "^0.5.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tower-http",
+            "req": "^0.6.2",
+            "features": [
+                "fs"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "4ce808b3a360dc3d6a827d2c64f0537b36b68ab31f06ccc91fcc644c714c1709",
+    "features": {},
+    "yanked": false
+}

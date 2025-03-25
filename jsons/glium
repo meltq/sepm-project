@@ -1,1 +1,85 @@
-{"name":"glium","vers":"0.0.2","deps":[{"name":"clock_ticks","req":"*","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"gl_common","req":"*","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"gl_generator","req":"*","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"glutin","req":"*","features":["window"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"khronos_api","req":"*","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"libc","req":"*","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"7312c65f87d3c0eff5084b90653e2bf3350cb8eb846597d2bc91c9811bba43e0","features":{"default":["gl_read_buffer","gl_depth_textures"],"gl_depth_textures":[],"gl_instancing":[],"gl_integral_textures":[],"gl_persistent_mapping":["gl_sync"],"gl_program_binary":[],"gl_read_buffer":[],"gl_stencil_textures":[],"gl_sync":[],"gl_tessellation":[],"gl_uniform_blocks":[],"headless":["glutin/headless"]},"yanked":false}
+{
+    "name": "glium",
+    "vers": "0.0.2",
+    "deps": [
+        {
+            "name": "clock_ticks",
+            "req": "*",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "gl_common",
+            "req": "*",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "gl_generator",
+            "req": "*",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "glutin",
+            "req": "*",
+            "features": [
+                "window"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "khronos_api",
+            "req": "*",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "libc",
+            "req": "*",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "7312c65f87d3c0eff5084b90653e2bf3350cb8eb846597d2bc91c9811bba43e0",
+    "features": {
+        "default": [
+            "gl_read_buffer",
+            "gl_depth_textures"
+        ],
+        "gl_depth_textures": [],
+        "gl_instancing": [],
+        "gl_integral_textures": [],
+        "gl_persistent_mapping": [
+            "gl_sync"
+        ],
+        "gl_program_binary": [],
+        "gl_read_buffer": [],
+        "gl_stencil_textures": [],
+        "gl_sync": [],
+        "gl_tessellation": [],
+        "gl_uniform_blocks": [],
+        "headless": [
+            "glutin/headless"
+        ]
+    },
+    "yanked": false
+}

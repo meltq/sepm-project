@@ -1,1 +1,78 @@
-{"name":"steel-sdk","vers":"0.1.0","deps":[{"name":"solana-account-decoder","req":"^1.18","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"solana-client","req":"^1.18","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"solana-client-wasm","req":"^1.18","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"solana-extra-wasm","req":"^1.18","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"solana-sdk","req":"^1.18","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"solana-transaction-status","req":"^1.18","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"web-time","req":"^1.0.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"f0db33ae900f8e3e3d6f1fd8bfe2291c4ae24efb42704fca0d949f1adecf9cd0","features":{"deafult":[],"wasm":["solana-client-wasm","solana-extra-wasm"]},"yanked":false}
+{
+    "name": "steel-sdk",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "solana-account-decoder",
+            "req": "^1.18",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "solana-client",
+            "req": "^1.18",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "solana-client-wasm",
+            "req": "^1.18",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "solana-extra-wasm",
+            "req": "^1.18",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "solana-sdk",
+            "req": "^1.18",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "solana-transaction-status",
+            "req": "^1.18",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "web-time",
+            "req": "^1.0.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "f0db33ae900f8e3e3d6f1fd8bfe2291c4ae24efb42704fca0d949f1adecf9cd0",
+    "features": {
+        "deafult": [],
+        "wasm": [
+            "solana-client-wasm",
+            "solana-extra-wasm"
+        ]
+    },
+    "yanked": false
+}

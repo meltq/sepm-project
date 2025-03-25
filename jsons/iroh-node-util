@@ -1,1 +1,245 @@
-{"name":"iroh-node-util","vers":"0.29.0","deps":[{"name":"anyhow","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"clap","req":"^4","features":["derive"],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"colored","req":"^2.0.4","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"comfy-table","req":"^7.0.1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"derive_more","req":"^1.0.0","features":["display"],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"dirs-next","req":"^2.0.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"futures-lite","req":"^2.5.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"human-time","req":"^0.1.6","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"iroh","req":"^0.29","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"nested_enum_utils","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"quic-rpc","req":"^0.17","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"quic-rpc-derive","req":"^0.17","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rustyline","req":"^12.0.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde-error","req":"^0.1.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_with","req":"^3.7.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"strum","req":"^0.26","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tempfile","req":"^3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"time","req":"^0.3","features":["formatting"],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing","req":"^0.1.40","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing-appender","req":"^0.2.3","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing-subscriber","req":"^0.3","features":["env-filter"],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"1ef6518a30707bb6394d1286ede6fad4ec7d0896fef2c75d7d966eb5d0658a55","features":{},"features2":{"cli":["dep:clap","dep:colored","dep:comfy-table","dep:time","dep:human-time"],"config":["dep:dirs-next"],"logging":["dep:derive_more","dep:serde_with","dep:rustyline","dep:tracing-appender","dep:tracing-subscriber"]},"yanked":false,"rust_version":"1.76","v":2}
+{
+    "name": "iroh-node-util",
+    "vers": "0.29.0",
+    "deps": [
+        {
+            "name": "anyhow",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "clap",
+            "req": "^4",
+            "features": [
+                "derive"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "colored",
+            "req": "^2.0.4",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "comfy-table",
+            "req": "^7.0.1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "derive_more",
+            "req": "^1.0.0",
+            "features": [
+                "display"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "dirs-next",
+            "req": "^2.0.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "futures-lite",
+            "req": "^2.5.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "human-time",
+            "req": "^0.1.6",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "iroh",
+            "req": "^0.29",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "nested_enum_utils",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "quic-rpc",
+            "req": "^0.17",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "quic-rpc-derive",
+            "req": "^0.17",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rustyline",
+            "req": "^12.0.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde-error",
+            "req": "^0.1.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_with",
+            "req": "^3.7.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "strum",
+            "req": "^0.26",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tempfile",
+            "req": "^3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "time",
+            "req": "^0.3",
+            "features": [
+                "formatting"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1.40",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing-appender",
+            "req": "^0.2.3",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing-subscriber",
+            "req": "^0.3",
+            "features": [
+                "env-filter"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "1ef6518a30707bb6394d1286ede6fad4ec7d0896fef2c75d7d966eb5d0658a55",
+    "features": {},
+    "features2": {
+        "cli": [
+            "dep:clap",
+            "dep:colored",
+            "dep:comfy-table",
+            "dep:time",
+            "dep:human-time"
+        ],
+        "config": [
+            "dep:dirs-next"
+        ],
+        "logging": [
+            "dep:derive_more",
+            "dep:serde_with",
+            "dep:rustyline",
+            "dep:tracing-appender",
+            "dep:tracing-subscriber"
+        ]
+    },
+    "yanked": false,
+    "rust_version": "1.76",
+    "v": 2
+}

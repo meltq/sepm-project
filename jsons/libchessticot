@@ -1,1 +1,24 @@
-{"name":"libchessticot","vers":"0.1.0","deps":[{"name":"rand","req":"^0.9.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"09a98fe340048c997c54d56a602769f0420dc861bf6663713e07e506cecd6a06","features":{},"features2":{"rng":["dep:rand"]},"yanked":false,"v":2}
+{
+    "name": "libchessticot",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "rand",
+            "req": "^0.9.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "09a98fe340048c997c54d56a602769f0420dc861bf6663713e07e506cecd6a06",
+    "features": {},
+    "features2": {
+        "rng": [
+            "dep:rand"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

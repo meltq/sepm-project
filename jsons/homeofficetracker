@@ -1,1 +1,76 @@
-{"name":"homeofficetracker","vers":"0.2.0","deps":[{"name":"anyhow","req":"^1.0.95","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"chrono","req":"^0.4.39","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"clap","req":"^4.5.27","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"crossterm","req":"^0.28.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"dirs","req":"^6.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"ratatui","req":"^0.29.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rusqlite","req":"^0.33.0","features":["bundled"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"4531b68b0e1e72f588de1ca1b943223fc6c75f8a97b51c8d75b7443b8e81a9ef","features":{},"yanked":false}
+{
+    "name": "homeofficetracker",
+    "vers": "0.2.0",
+    "deps": [
+        {
+            "name": "anyhow",
+            "req": "^1.0.95",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "chrono",
+            "req": "^0.4.39",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "clap",
+            "req": "^4.5.27",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "crossterm",
+            "req": "^0.28.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "dirs",
+            "req": "^6.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ratatui",
+            "req": "^0.29.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rusqlite",
+            "req": "^0.33.0",
+            "features": [
+                "bundled"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "4531b68b0e1e72f588de1ca1b943223fc6c75f8a97b51c8d75b7443b8e81a9ef",
+    "features": {},
+    "yanked": false
+}

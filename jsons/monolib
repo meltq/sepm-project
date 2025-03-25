@@ -1,1 +1,47 @@
-{"name":"monolib","vers":"0.2.1","deps":[{"name":"byteorder","req":"^1.5.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rmp-serde","req":"^1.1.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rodio","req":"^0.17.3","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.197","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"679e6dce0c4317ef804ea6fd21b0b2f6f6b8e2ff9252073daf565c46e0f16200","features":{},"yanked":false}
+{
+    "name": "monolib",
+    "vers": "0.2.1",
+    "deps": [
+        {
+            "name": "byteorder",
+            "req": "^1.5.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rmp-serde",
+            "req": "^1.1.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rodio",
+            "req": "^0.17.3",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.197",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "679e6dce0c4317ef804ea6fd21b0b2f6f6b8e2ff9252073daf565c46e0f16200",
+    "features": {},
+    "yanked": false
+}

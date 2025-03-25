@@ -1,1 +1,65 @@
-{"name":"rustpython-unparser","vers":"0.1.0","deps":[{"name":"pretty_assertions","req":"^1.4.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"rand","req":"^0.8.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"rustpython-ast","req":">=0.4.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rustpython-ast","req":"^0.4.0","features":["fold"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"rustpython-literal","req":">=0.4.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rustpython-parser","req":"^0.4.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"248365c7f7185f3dd61ffaf722a36536fb15474bfbb44b6917336376a830449d","features":{},"yanked":false}
+{
+    "name": "rustpython-unparser",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "pretty_assertions",
+            "req": "^1.4.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "rand",
+            "req": "^0.8.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "rustpython-ast",
+            "req": ">=0.4.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rustpython-ast",
+            "req": "^0.4.0",
+            "features": [
+                "fold"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "rustpython-literal",
+            "req": ">=0.4.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rustpython-parser",
+            "req": "^0.4.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "248365c7f7185f3dd61ffaf722a36536fb15474bfbb44b6917336376a830449d",
+    "features": {},
+    "yanked": false
+}

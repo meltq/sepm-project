@@ -1,1 +1,156 @@
-{"name":"syno-photos-util","vers":"0.1.0","deps":[{"name":"anyhow","req":"1.*","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"clap","req":"4.*","features":["derive","wrap_help"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"derive_more","req":"^0.99","features":["display"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"dirs","req":"5.*","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"futures","req":"^0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"log","req":"^0.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"mockall","req":"^0.12","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"reqwest","req":"^0.12","features":["json"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"1.*","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"1.*","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_with","req":"3.*","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"simple_logger","req":"^4.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"syno_api","req":"^0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"yapp","req":"^0.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"d385bd26f9ea6eaf7f58e432ff6ee0c8e47b686102c88db19b89a330c3945f94","features":{},"yanked":true,"rust_version":"1.75.0"}
+{
+    "name": "syno-photos-util",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "anyhow",
+            "req": "1.*",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "clap",
+            "req": "4.*",
+            "features": [
+                "derive",
+                "wrap_help"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "derive_more",
+            "req": "^0.99",
+            "features": [
+                "display"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "dirs",
+            "req": "5.*",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "futures",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "log",
+            "req": "^0.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "mockall",
+            "req": "^0.12",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "reqwest",
+            "req": "^0.12",
+            "features": [
+                "json"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "1.*",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "1.*",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_with",
+            "req": "3.*",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "simple_logger",
+            "req": "^4.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "syno_api",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "yapp",
+            "req": "^0.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "d385bd26f9ea6eaf7f58e432ff6ee0c8e47b686102c88db19b89a330c3945f94",
+    "features": {},
+    "yanked": true,
+    "rust_version": "1.75.0"
+}

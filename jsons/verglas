@@ -1,1 +1,82 @@
-{"name":"verglas","vers":"0.1.0","deps":[{"name":"font-types","req":"^0.8.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"kurbo","req":"^0.11.1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"read-fonts","req":"^0.25.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rstest","req":"^0.23.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"thiserror","req":"^2.0.6","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"usvg","req":"^0.44.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"write-fonts","req":"^0.33.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"739af7da3a8d5434d3548654439c272490a76352717dd1c17aec26e9736804de","features":{"index":[]},"features2":{"forge":["dep:usvg","dep:kurbo","dep:write-fonts"]},"yanked":false,"v":2}
+{
+    "name": "verglas",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "font-types",
+            "req": "^0.8.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "kurbo",
+            "req": "^0.11.1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "read-fonts",
+            "req": "^0.25.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rstest",
+            "req": "^0.23.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "thiserror",
+            "req": "^2.0.6",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "usvg",
+            "req": "^0.44.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "write-fonts",
+            "req": "^0.33.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "739af7da3a8d5434d3548654439c272490a76352717dd1c17aec26e9736804de",
+    "features": {
+        "index": []
+    },
+    "features2": {
+        "forge": [
+            "dep:usvg",
+            "dep:kurbo",
+            "dep:write-fonts"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

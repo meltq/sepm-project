@@ -1,1 +1,233 @@
-{"name":"glowrs","vers":"0.1.1","deps":[{"name":"anyhow","req":"^1.0.79","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"axum","req":"^0.7.4","features":["macros"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"bytes","req":"^1.5.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"candle-core","req":"^0.4.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"candle-nn","req":"^0.4.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"candle-transformers","req":"^0.4.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"clap","req":"^4.4.18","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"console-subscriber","req":"^0.2.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"futures-util","req":"^0.3.28","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"hf-hub","req":"^0.3.2","features":["tokio"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"once_cell","req":"^1.19.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.183","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.111","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^1.0.56","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokenizers","req":"^0.15.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.31.0","features":["full","rt-multi-thread","tracing"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tower-http","req":"^0.5.1","features":["trace","timeout"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing","req":"^0.1.37","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing-chrome","req":"^0.7.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing-subscriber","req":"^0.3.18","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"uuid","req":"^1.6.1","features":["v4"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"7922fb4cd8bf0f6fc3d3a65f6be2772bd7c9f58bae76bc616fc4f64792d26ac6","features":{"accelerate":["candle-core/accelerate","candle-nn/accelerate","candle-transformers/accelerate"],"cuda":["candle-core/cuda","candle-nn/cuda","candle-transformers/cuda"],"default":[],"jina":[],"metal":["candle-core/metal","candle-nn/metal","candle-transformers/metal"]},"yanked":false}
+{
+    "name": "glowrs",
+    "vers": "0.1.1",
+    "deps": [
+        {
+            "name": "anyhow",
+            "req": "^1.0.79",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "axum",
+            "req": "^0.7.4",
+            "features": [
+                "macros"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "bytes",
+            "req": "^1.5.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "candle-core",
+            "req": "^0.4.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "candle-nn",
+            "req": "^0.4.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "candle-transformers",
+            "req": "^0.4.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "clap",
+            "req": "^4.4.18",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "console-subscriber",
+            "req": "^0.2.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "futures-util",
+            "req": "^0.3.28",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "hf-hub",
+            "req": "^0.3.2",
+            "features": [
+                "tokio"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "once_cell",
+            "req": "^1.19.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.183",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.111",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^1.0.56",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokenizers",
+            "req": "^0.15.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.31.0",
+            "features": [
+                "full",
+                "rt-multi-thread",
+                "tracing"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tower-http",
+            "req": "^0.5.1",
+            "features": [
+                "trace",
+                "timeout"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1.37",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing-chrome",
+            "req": "^0.7.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing-subscriber",
+            "req": "^0.3.18",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "uuid",
+            "req": "^1.6.1",
+            "features": [
+                "v4"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "7922fb4cd8bf0f6fc3d3a65f6be2772bd7c9f58bae76bc616fc4f64792d26ac6",
+    "features": {
+        "accelerate": [
+            "candle-core/accelerate",
+            "candle-nn/accelerate",
+            "candle-transformers/accelerate"
+        ],
+        "cuda": [
+            "candle-core/cuda",
+            "candle-nn/cuda",
+            "candle-transformers/cuda"
+        ],
+        "default": [],
+        "jina": [],
+        "metal": [
+            "candle-core/metal",
+            "candle-nn/metal",
+            "candle-transformers/metal"
+        ]
+    },
+    "yanked": false
+}

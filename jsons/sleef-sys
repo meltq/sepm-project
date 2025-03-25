@@ -1,1 +1,49 @@
-{"name":"sleef-sys","vers":"0.1.0","deps":[{"name":"bindgen","req":"^0.38","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"cfg-if","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"cmake","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"libc","req":"^0.2","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"}],"cksum":"f1a5822ed04c9d8ab3c864ac0f5fccad6c4f9040fb592371febb84a4d4eff5cc","features":{"default":[],"dft":[]},"yanked":false,"links":"sleef"}
+{
+    "name": "sleef-sys",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "bindgen",
+            "req": "^0.38",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "cfg-if",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "cmake",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "libc",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "f1a5822ed04c9d8ab3c864ac0f5fccad6c4f9040fb592371febb84a4d4eff5cc",
+    "features": {
+        "default": [],
+        "dft": []
+    },
+    "yanked": false,
+    "links": "sleef"
+}

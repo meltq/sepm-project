@@ -1,1 +1,46 @@
-{"name":"thermorawfilereader","vers":"0.1.0","deps":[{"name":"dotnetrawfilereader-sys","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"flatbuffers","req":"^23.5.26","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"netcorehost","req":"^0.17.0","features":["net7_0","nethost"],"optional":false,"default_features":false,"target":null,"kind":"normal"}],"cksum":"a2802604d9976f00c6c9789387f19292794946af24820c38bf673105391561f2","features":{"default":["nethost-download"],"nethost-download":["netcorehost/nethost-download"]},"yanked":false}
+{
+    "name": "thermorawfilereader",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "dotnetrawfilereader-sys",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "flatbuffers",
+            "req": "^23.5.26",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "netcorehost",
+            "req": "^0.17.0",
+            "features": [
+                "net7_0",
+                "nethost"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "a2802604d9976f00c6c9789387f19292794946af24820c38bf673105391561f2",
+    "features": {
+        "default": [
+            "nethost-download"
+        ],
+        "nethost-download": [
+            "netcorehost/nethost-download"
+        ]
+    },
+    "yanked": false
+}

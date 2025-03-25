@@ -1,1 +1,42 @@
-{"name":"gimpey-db-gateway","vers":"0.0.1","deps":[{"name":"prost","req":"^0.13","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.42","features":["rt-multi-thread","macros"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tonic","req":"^0.12","features":["transport","tls"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"162539d95e4855186e3847951a3778937651abfac673ea561aeb91186d298928","features":{},"yanked":false}
+{
+    "name": "gimpey-db-gateway",
+    "vers": "0.0.1",
+    "deps": [
+        {
+            "name": "prost",
+            "req": "^0.13",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.42",
+            "features": [
+                "rt-multi-thread",
+                "macros"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tonic",
+            "req": "^0.12",
+            "features": [
+                "transport",
+                "tls"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "162539d95e4855186e3847951a3778937651abfac673ea561aeb91186d298928",
+    "features": {},
+    "yanked": false
+}

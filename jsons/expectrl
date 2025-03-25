@@ -1,1 +1,46 @@
-{"name":"expectrl","vers":"0.1.0","deps":[{"name":"futures-lite","req":"^1.12.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"ptyprocess","req":"^0.1.1","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"regex","req":"^1.5.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"ff5670c551e61debc05993768d1b7e8a11ccc0007867710463f521d40c8f077c","features":{"async":["ptyprocess/async"],"default":["sync"],"sync":["ptyprocess/sync"]},"yanked":false}
+{
+    "name": "expectrl",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "futures-lite",
+            "req": "^1.12.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "ptyprocess",
+            "req": "^0.1.1",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "regex",
+            "req": "^1.5.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "ff5670c551e61debc05993768d1b7e8a11ccc0007867710463f521d40c8f077c",
+    "features": {
+        "async": [
+            "ptyprocess/async"
+        ],
+        "default": [
+            "sync"
+        ],
+        "sync": [
+            "ptyprocess/sync"
+        ]
+    },
+    "yanked": false
+}

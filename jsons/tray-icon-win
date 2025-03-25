@@ -1,1 +1,113 @@
-{"name":"tray-icon-win","vers":"0.1.0","deps":[{"name":"crossbeam-channel","req":"^0.5.14","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"eframe","req":"^0.30.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"image","req":"^0.25.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"muda","req":"^0.15.3","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.216","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_jsonc2","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"tao","req":"^0.31.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"windows-sys","req":"^0.59","features":["Win32_UI_WindowsAndMessaging","Win32_Foundation","Win32_System_SystemServices","Win32_Graphics_Gdi","Win32_UI_Shell"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"winit","req":"^0.30.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"e35787269c516aff2c927046789d3009554469bb28ee5a8d7e010cf64a333f43","features":{"common-controls-v6":["muda/common-controls-v6"],"default":["libxdo"],"libxdo":["muda/libxdo"]},"features2":{"serde":["muda/serde","dep:serde"]},"yanked":false,"v":2}
+{
+    "name": "tray-icon-win",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "crossbeam-channel",
+            "req": "^0.5.14",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "eframe",
+            "req": "^0.30.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "image",
+            "req": "^0.25.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "muda",
+            "req": "^0.15.3",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.216",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_jsonc2",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "tao",
+            "req": "^0.31.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "windows-sys",
+            "req": "^0.59",
+            "features": [
+                "Win32_UI_WindowsAndMessaging",
+                "Win32_Foundation",
+                "Win32_System_SystemServices",
+                "Win32_Graphics_Gdi",
+                "Win32_UI_Shell"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "winit",
+            "req": "^0.30.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "e35787269c516aff2c927046789d3009554469bb28ee5a8d7e010cf64a333f43",
+    "features": {
+        "common-controls-v6": [
+            "muda/common-controls-v6"
+        ],
+        "default": [
+            "libxdo"
+        ],
+        "libxdo": [
+            "muda/libxdo"
+        ]
+    },
+    "features2": {
+        "serde": [
+            "muda/serde",
+            "dep:serde"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

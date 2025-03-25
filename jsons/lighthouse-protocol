@@ -1,1 +1,38 @@
-{"name":"lighthouse-protocol","vers":"1.0.1","deps":[{"name":"rand","req":"^0.8","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_with","req":"^3.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"81182ee313110529635201a7c24659fea102c31612438bc619b30749148c4b76","features":{},"yanked":false}
+{
+    "name": "lighthouse-protocol",
+    "vers": "1.0.1",
+    "deps": [
+        {
+            "name": "rand",
+            "req": "^0.8",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_with",
+            "req": "^3.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "81182ee313110529635201a7c24659fea102c31612438bc619b30749148c4b76",
+    "features": {},
+    "yanked": false
+}

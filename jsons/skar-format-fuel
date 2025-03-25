@@ -1,1 +1,85 @@
-{"name":"skar-format-fuel","vers":"0.0.1","deps":[{"name":"arrayvec","req":"^0.7","features":["serde"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"derive_more","req":"^0.99","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"faster-hex","req":"^0.9","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"hex-literal","req":"^0.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"serde","req":"^1","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"serde_test","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"thiserror","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"4d7a33a045484240d69dc8414a014fe8c015ba5d0d5930e100471451effb673e","features":{},"yanked":false}
+{
+    "name": "skar-format-fuel",
+    "vers": "0.0.1",
+    "deps": [
+        {
+            "name": "arrayvec",
+            "req": "^0.7",
+            "features": [
+                "serde"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "derive_more",
+            "req": "^0.99",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "faster-hex",
+            "req": "^0.9",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "hex-literal",
+            "req": "^0.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "serde",
+            "req": "^1",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "serde_test",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "thiserror",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "4d7a33a045484240d69dc8414a014fe8c015ba5d0d5930e100471451effb673e",
+    "features": {},
+    "yanked": false
+}

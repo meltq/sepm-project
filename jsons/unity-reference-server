@@ -1,1 +1,110 @@
-{"name":"unity-reference-server","vers":"0.1.0","deps":[{"name":"clap","req":"^4.5.27","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"futures","req":"^0.3.31","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"jsonrpsee","req":"^0.24.7","features":["server"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"log","req":"^0.4.25","features":["release_max_level_debug","std"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"regex","req":"^1.11.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"saphyr","req":"^0.0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"saphyr-parser","req":"^0.0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.27","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"simplelog","req":"^0.12.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.43.0","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"fb245f8ef1d9a8c8ca2cb271c03ad0a7b880f93956e5befef52902c296192e0a","features":{},"yanked":false}
+{
+    "name": "unity-reference-server",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "clap",
+            "req": "^4.5.27",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "futures",
+            "req": "^0.3.31",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "jsonrpsee",
+            "req": "^0.24.7",
+            "features": [
+                "server"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "log",
+            "req": "^0.4.25",
+            "features": [
+                "release_max_level_debug",
+                "std"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "regex",
+            "req": "^1.11.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "saphyr",
+            "req": "^0.0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "saphyr-parser",
+            "req": "^0.0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.27",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "simplelog",
+            "req": "^0.12.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.43.0",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "fb245f8ef1d9a8c8ca2cb271c03ad0a7b880f93956e5befef52902c296192e0a",
+    "features": {},
+    "yanked": false
+}

@@ -1,1 +1,45 @@
-{"name":"apidoc","vers":"0.1.1","deps":[{"name":"apidoc-attr","req":"^0.1.1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"apidoc-core","req":"^0.1.1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"apidoc-proc","req":"^0.1.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"66236fdf76e566e89792873e91d095a84ff6d2deb4f507caca9de66102518af1","features":{"cod":["apidoc-proc/cod"],"proc":["apidoc-core","apidoc-attr","apidoc-proc/proc"]},"yanked":false}
+{
+    "name": "apidoc",
+    "vers": "0.1.1",
+    "deps": [
+        {
+            "name": "apidoc-attr",
+            "req": "^0.1.1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "apidoc-core",
+            "req": "^0.1.1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "apidoc-proc",
+            "req": "^0.1.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "66236fdf76e566e89792873e91d095a84ff6d2deb4f507caca9de66102518af1",
+    "features": {
+        "cod": [
+            "apidoc-proc/cod"
+        ],
+        "proc": [
+            "apidoc-core",
+            "apidoc-attr",
+            "apidoc-proc/proc"
+        ]
+    },
+    "yanked": false
+}

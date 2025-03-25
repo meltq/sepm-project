@@ -1,1 +1,53 @@
-{"name":"mm1-common","vers":"0.5.0","deps":[{"name":"pin-project","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing","req":"^0.1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"3ebceaf0bd51dd76063e48b86111bb576b99591376fa276a40f3b73d00dc7e6e","features":{"default":[],"futures":["tokio/time"],"logging":["tracing"]},"yanked":true}
+{
+    "name": "mm1-common",
+    "vers": "0.5.0",
+    "deps": [
+        {
+            "name": "pin-project",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "3ebceaf0bd51dd76063e48b86111bb576b99591376fa276a40f3b73d00dc7e6e",
+    "features": {
+        "default": [],
+        "futures": [
+            "tokio/time"
+        ],
+        "logging": [
+            "tracing"
+        ]
+    },
+    "yanked": true
+}

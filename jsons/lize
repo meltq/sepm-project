@@ -1,1 +1,38 @@
-{"name":"lize","vers":"0.1.0","deps":[{"name":"anyhow","req":"^1.0.95","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"bincode","req":"^1.3.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"smallvec","req":"^1.13.2","features":["write"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"8194aed9f3333ff91281ecd2d1593e2da147074a2ca5eb971a51ba190884e50d","features":{},"yanked":false}
+{
+    "name": "lize",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "anyhow",
+            "req": "^1.0.95",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "bincode",
+            "req": "^1.3.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "smallvec",
+            "req": "^1.13.2",
+            "features": [
+                "write"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "8194aed9f3333ff91281ecd2d1593e2da147074a2ca5eb971a51ba190884e50d",
+    "features": {},
+    "yanked": false
+}

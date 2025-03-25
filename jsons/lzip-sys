@@ -1,1 +1,41 @@
-{"name":"lzip-sys","vers":"0.1.0+1.13","deps":[{"name":"bindgen","req":"^0.59.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"cc","req":"^1.0.73","features":["parallel"],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"libc","req":"^0.2.120","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"e0ccc5fe8133308aeddcbcde28170bf24b0cfec89a6c2c831bf9ac821fdfefc1","features":{"static":[]},"yanked":false,"links":"lzip"}
+{
+    "name": "lzip-sys",
+    "vers": "0.1.0+1.13",
+    "deps": [
+        {
+            "name": "bindgen",
+            "req": "^0.59.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "cc",
+            "req": "^1.0.73",
+            "features": [
+                "parallel"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "libc",
+            "req": "^0.2.120",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "e0ccc5fe8133308aeddcbcde28170bf24b0cfec89a6c2c831bf9ac821fdfefc1",
+    "features": {
+        "static": []
+    },
+    "yanked": false,
+    "links": "lzip"
+}

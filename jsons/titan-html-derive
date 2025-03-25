@@ -1,1 +1,40 @@
-{"name":"titan-html-derive","vers":"0.1.0","deps":[{"name":"quote","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"syn","req":"^2","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"titan-utils","req":"^0.1.0","features":["internal-cssvalidate"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"b7b3945ea45f2fa6cf95815b854033f785ab1841c6f1985dcb7874f013e253f1","features":{},"yanked":false}
+{
+    "name": "titan-html-derive",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "quote",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "syn",
+            "req": "^2",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "titan-utils",
+            "req": "^0.1.0",
+            "features": [
+                "internal-cssvalidate"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "b7b3945ea45f2fa6cf95815b854033f785ab1841c6f1985dcb7874f013e253f1",
+    "features": {},
+    "yanked": false
+}

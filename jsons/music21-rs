@@ -1,1 +1,65 @@
-{"name":"music21-rs","vers":"0.0.1","deps":[{"name":"fraction","req":"^0.15.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"itertools","req":"^0.14.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"num","req":"^0.4.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"num-traits","req":"^0.2.19","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"ordered-float","req":"^4.6.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"pyo3","req":"^0.23.4","features":["auto-initialize"],"optional":false,"default_features":true,"target":null,"kind":"build"}],"cksum":"27d9f47b5dac2f5e43f779f98d265b7b57f0e98acef101c5a20b04c1d148c532","features":{},"yanked":false}
+{
+    "name": "music21-rs",
+    "vers": "0.0.1",
+    "deps": [
+        {
+            "name": "fraction",
+            "req": "^0.15.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "itertools",
+            "req": "^0.14.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "num",
+            "req": "^0.4.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "num-traits",
+            "req": "^0.2.19",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ordered-float",
+            "req": "^4.6.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "pyo3",
+            "req": "^0.23.4",
+            "features": [
+                "auto-initialize"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        }
+    ],
+    "cksum": "27d9f47b5dac2f5e43f779f98d265b7b57f0e98acef101c5a20b04c1d148c532",
+    "features": {},
+    "yanked": false
+}

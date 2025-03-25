@@ -1,1 +1,136 @@
-{"name":"pitchfork-cli","vers":"0.1.0","deps":[{"name":"clap","req":"^4.5.23","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"dirs","req":"^5.0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"env_logger","req":"^0.11.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"eyre","req":"^0.6.12","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"interprocess","req":"^2.2.2","features":["tokio"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"log","req":"^0.4.22","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"once_cell","req":"^1.20.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"psutil","req":"^3.3.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.215","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"sysinfo","req":"^0.33.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.42.0","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"toml","req":"^0.8.19","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"xx","req":"^2","features":["fslock"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"9461db70b78023ddfdd6106922f9f2befb6a8546d84095e0bd0cf7676c2bccef","features":{},"yanked":false}
+{
+    "name": "pitchfork-cli",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "clap",
+            "req": "^4.5.23",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "dirs",
+            "req": "^5.0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "env_logger",
+            "req": "^0.11.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "eyre",
+            "req": "^0.6.12",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "interprocess",
+            "req": "^2.2.2",
+            "features": [
+                "tokio"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "log",
+            "req": "^0.4.22",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "once_cell",
+            "req": "^1.20.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "psutil",
+            "req": "^3.3.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.215",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "sysinfo",
+            "req": "^0.33.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.42.0",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "toml",
+            "req": "^0.8.19",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "xx",
+            "req": "^2",
+            "features": [
+                "fslock"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "9461db70b78023ddfdd6106922f9f2befb6a8546d84095e0bd0cf7676c2bccef",
+    "features": {},
+    "yanked": false
+}

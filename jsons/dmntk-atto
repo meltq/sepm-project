@@ -1,1 +1,30 @@
-{"name":"dmntk-atto","vers":"0.0.1","deps":[{"name":"difference","req":"^2.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"ncurses","req":"^5.101.0","features":["wide","extended_colors"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"7d9193b16689ab5f1d6160216272412dab3d81dc796f0ea6ab0550de1b20c940","features":{},"yanked":false}
+{
+    "name": "dmntk-atto",
+    "vers": "0.0.1",
+    "deps": [
+        {
+            "name": "difference",
+            "req": "^2.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "ncurses",
+            "req": "^5.101.0",
+            "features": [
+                "wide",
+                "extended_colors"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "7d9193b16689ab5f1d6160216272412dab3d81dc796f0ea6ab0550de1b20c940",
+    "features": {},
+    "yanked": false
+}

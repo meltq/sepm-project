@@ -1,1 +1,52 @@
-{"name":"backend-dispatcher","vers":"0.1.0","deps":[{"name":"reqwest","req":"^0.11","features":["blocking","json","rustls-tls","socks"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.145","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^1.0.56","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"52755c90924ba134f78cb95b17c46b4a5afe38bc6367e980efc812d5f11062fe","features":{},"yanked":false}
+{
+    "name": "backend-dispatcher",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "reqwest",
+            "req": "^0.11",
+            "features": [
+                "blocking",
+                "json",
+                "rustls-tls",
+                "socks"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.145",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^1.0.56",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "52755c90924ba134f78cb95b17c46b4a5afe38bc6367e980efc812d5f11062fe",
+    "features": {},
+    "yanked": false
+}

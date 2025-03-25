@@ -1,1 +1,37 @@
-{"name":"const-dispatch","vers":"0.1.0-rc1","deps":[{"name":"const-dispatch-proc_macros","req":"=0.1.0-rc1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"paste","req":"^1.0.15","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"e6042dba30cb97f36e434741ed6efacf901aac5a23d6fffa05a95c71dd3b8684","features":{"better-docs":[],"default":[],"docs-rs":["better-docs"],"ui-tests":["better-docs"]},"yanked":false,"rust_version":"1.79.0"}
+{
+    "name": "const-dispatch",
+    "vers": "0.1.0-rc1",
+    "deps": [
+        {
+            "name": "const-dispatch-proc_macros",
+            "req": "=0.1.0-rc1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "paste",
+            "req": "^1.0.15",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "e6042dba30cb97f36e434741ed6efacf901aac5a23d6fffa05a95c71dd3b8684",
+    "features": {
+        "better-docs": [],
+        "default": [],
+        "docs-rs": [
+            "better-docs"
+        ],
+        "ui-tests": [
+            "better-docs"
+        ]
+    },
+    "yanked": false,
+    "rust_version": "1.79.0"
+}

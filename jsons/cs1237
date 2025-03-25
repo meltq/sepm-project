@@ -1,1 +1,51 @@
-{"name":"cs1237","vers":"0.1.0","deps":[{"name":"cortex-m","req":"^0.7.7","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"defmt","req":"^0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"embassy-stm32","req":"^0.1.0","features":["exti"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"embassy-time","req":"^0.3.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"f3a4cb96a76e30d8512f542051ca7e6fae0d7a9121185c98afb98818c22ce0a0","features":{"default":["embassy-stm32/stm32f103c8"]},"yanked":true}
+{
+    "name": "cs1237",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "cortex-m",
+            "req": "^0.7.7",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "defmt",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "embassy-stm32",
+            "req": "^0.1.0",
+            "features": [
+                "exti"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "embassy-time",
+            "req": "^0.3.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "f3a4cb96a76e30d8512f542051ca7e6fae0d7a9121185c98afb98818c22ce0a0",
+    "features": {
+        "default": [
+            "embassy-stm32/stm32f103c8"
+        ]
+    },
+    "yanked": true
+}

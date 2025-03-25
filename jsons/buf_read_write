@@ -1,1 +1,32 @@
-{"name":"buf_read_write","vers":"0.1.0","deps":[{"name":"criterion","req":"^0.5","features":["html_reports"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"rand","req":"^0.8","features":["small_rng"],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"07c970f4edcb63e041616825ad873e4c0ea499c5cf3a807f026f0ec389153e13","features":{},"yanked":true,"rust_version":"1.70"}
+{
+    "name": "buf_read_write",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "criterion",
+            "req": "^0.5",
+            "features": [
+                "html_reports"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "rand",
+            "req": "^0.8",
+            "features": [
+                "small_rng"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "07c970f4edcb63e041616825ad873e4c0ea499c5cf3a807f026f0ec389153e13",
+    "features": {},
+    "yanked": true,
+    "rust_version": "1.70"
+}

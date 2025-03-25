@@ -1,1 +1,61 @@
-{"name":"yi","vers":"0.1.1","deps":[{"name":"anchor-lang","req":">=0.17, <0.21","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"anchor-spl","req":">=0.17, <0.21","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"num-traits","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"proptest","req":"^1.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"vipers","req":"^1.5.9","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"5ac8b10745070fc9bed55594be7939266c7394e24875243c1d5925f532a44103","features":{"cpi":["no-entrypoint"],"default":[],"no-entrypoint":[],"no-idl":[]},"yanked":false}
+{
+    "name": "yi",
+    "vers": "0.1.1",
+    "deps": [
+        {
+            "name": "anchor-lang",
+            "req": ">=0.17, <0.21",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "anchor-spl",
+            "req": ">=0.17, <0.21",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "num-traits",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "proptest",
+            "req": "^1.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "vipers",
+            "req": "^1.5.9",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "5ac8b10745070fc9bed55594be7939266c7394e24875243c1d5925f532a44103",
+    "features": {
+        "cpi": [
+            "no-entrypoint"
+        ],
+        "default": [],
+        "no-entrypoint": [],
+        "no-idl": []
+    },
+    "yanked": false
+}

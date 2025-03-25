@@ -1,1 +1,49 @@
-{"name":"rsrpp-cli","vers":"1.0.2","deps":[{"name":"clap","req":"^4.5.21","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rsrpp","req":"^1.0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.132","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.41.0","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"cb79847f8f7b58ab25c970644a459a8a611d5a27bbc875fd4ad054dec2b1dc5b","features":{},"yanked":false}
+{
+    "name": "rsrpp-cli",
+    "vers": "1.0.2",
+    "deps": [
+        {
+            "name": "clap",
+            "req": "^4.5.21",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rsrpp",
+            "req": "^1.0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.132",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.41.0",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "cb79847f8f7b58ab25c970644a459a8a611d5a27bbc875fd4ad054dec2b1dc5b",
+    "features": {},
+    "yanked": false
+}

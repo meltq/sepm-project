@@ -1,1 +1,38 @@
-{"name":"serde-save","vers":"0.1.0","deps":[{"name":"serde","req":"^1.0.198","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.198","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"valuable","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"442fe163125385c5bf84765b53c66c5010534cfa58503901d18bc7e8d704a39e","features":{},"yanked":false}
+{
+    "name": "serde-save",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "serde",
+            "req": "^1.0.198",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.198",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "valuable",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "442fe163125385c5bf84765b53c66c5010534cfa58503901d18bc7e8d704a39e",
+    "features": {},
+    "yanked": false
+}

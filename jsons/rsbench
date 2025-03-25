@@ -1,1 +1,134 @@
-{"name":"rsbench","vers":"0.0.1","deps":[{"name":"async-stream","req":"^0.3.6","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"async-trait","req":"^0.1.83","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"clap","req":"^4.5.23","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"dmidecode","req":"^0.8.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"futures","req":"^0.3.31","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"paris","req":"^1.5.15","features":["macros"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rand","req":"^0.8.5","features":["std","std_rng"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"regex","req":"^1.11.1","features":["std","unicode-perl"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"reqwest","req":"^0.12.9","features":["rustls-tls","cookies","stream"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"sysinfo","req":"^0.33.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"termcolor","req":"^1.4.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.42.0","features":["rt-multi-thread","macros"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"8410727e6406d09b8299eff116f83a7782adeadebfdd96eaad662662cdb0c0f9","features":{},"yanked":false}
+{
+    "name": "rsbench",
+    "vers": "0.0.1",
+    "deps": [
+        {
+            "name": "async-stream",
+            "req": "^0.3.6",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "async-trait",
+            "req": "^0.1.83",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "clap",
+            "req": "^4.5.23",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "dmidecode",
+            "req": "^0.8.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "futures",
+            "req": "^0.3.31",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "paris",
+            "req": "^1.5.15",
+            "features": [
+                "macros"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rand",
+            "req": "^0.8.5",
+            "features": [
+                "std",
+                "std_rng"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "regex",
+            "req": "^1.11.1",
+            "features": [
+                "std",
+                "unicode-perl"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "reqwest",
+            "req": "^0.12.9",
+            "features": [
+                "rustls-tls",
+                "cookies",
+                "stream"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "sysinfo",
+            "req": "^0.33.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "termcolor",
+            "req": "^1.4.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.42.0",
+            "features": [
+                "rt-multi-thread",
+                "macros"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "8410727e6406d09b8299eff116f83a7782adeadebfdd96eaad662662cdb0c0f9",
+    "features": {},
+    "yanked": false
+}

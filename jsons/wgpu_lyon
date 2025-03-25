@@ -1,1 +1,38 @@
-{"name":"wgpu_lyon","vers":"1.0.0","deps":[{"name":"bytemuck","req":"^1.16","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"lyon_tessellation","req":"^1.0.15","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"wgpu","req":"^22.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"3fb9e0a778bc206d01a2ee0223b68e3b64f4ed3a9a9bd1d0d042a33d9a0e4de6","features":{},"yanked":false}
+{
+    "name": "wgpu_lyon",
+    "vers": "1.0.0",
+    "deps": [
+        {
+            "name": "bytemuck",
+            "req": "^1.16",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "lyon_tessellation",
+            "req": "^1.0.15",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "wgpu",
+            "req": "^22.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "3fb9e0a778bc206d01a2ee0223b68e3b64f4ed3a9a9bd1d0d042a33d9a0e4de6",
+    "features": {},
+    "yanked": false
+}

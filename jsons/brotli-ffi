@@ -1,1 +1,43 @@
-{"name":"brotli-ffi","vers":"1.0.0","deps":[{"name":"brotli","req":"~3.0","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"}],"cksum":"f40f80931ccada61634c51f8e533c2e0d782728ccfc2f2685cfbc769fe98c01b","features":{"benchmark":["brotli/benchmark"],"default":["std"],"disable-timer":["brotli/disable-timer"],"seccomp":["brotli/seccomp"],"simd":["brotli/simd"],"std":["brotli/std"],"validation":["brotli/validation"],"vector_scratch_space":["brotli/vector_scratch_space"]},"yanked":false}
+{
+    "name": "brotli-ffi",
+    "vers": "1.0.0",
+    "deps": [
+        {
+            "name": "brotli",
+            "req": "~3.0",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "f40f80931ccada61634c51f8e533c2e0d782728ccfc2f2685cfbc769fe98c01b",
+    "features": {
+        "benchmark": [
+            "brotli/benchmark"
+        ],
+        "default": [
+            "std"
+        ],
+        "disable-timer": [
+            "brotli/disable-timer"
+        ],
+        "seccomp": [
+            "brotli/seccomp"
+        ],
+        "simd": [
+            "brotli/simd"
+        ],
+        "std": [
+            "brotli/std"
+        ],
+        "validation": [
+            "brotli/validation"
+        ],
+        "vector_scratch_space": [
+            "brotli/vector_scratch_space"
+        ]
+    },
+    "yanked": false
+}

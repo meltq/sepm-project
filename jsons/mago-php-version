@@ -1,1 +1,30 @@
-{"name":"mago-php-version","vers":"0.2.0","deps":[{"name":"serde","req":"^1.0","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.128","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"c952970ba3444e9813c66e586761c82e4d3d0bf0cf66b06d60404295b4bfb128","features":{},"yanked":false,"rust_version":"1.84.0"}
+{
+    "name": "mago-php-version",
+    "vers": "0.2.0",
+    "deps": [
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.128",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "c952970ba3444e9813c66e586761c82e4d3d0bf0cf66b06d60404295b4bfb128",
+    "features": {},
+    "yanked": false,
+    "rust_version": "1.84.0"
+}

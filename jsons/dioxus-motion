@@ -1,1 +1,167 @@
-{"name":"dioxus-motion","vers":"0.1.0","deps":[{"name":"dioxus","req":"^0.6.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"dioxus-hooks","req":"^0.6.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"dioxus-lib","req":"^0.6.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"dioxus-signals","req":"^0.6.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"easer","req":"^0.3.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"futures","req":"^0.3.31","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"futures-channel","req":"^0.3","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"futures-util","req":"^0.3.31","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"getrandom","req":"^0.2.15","features":["js"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"instant","req":"^0.1.13","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1","features":["time"],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"uuid","req":"^1.11.0","features":["v4"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"wasm-bindgen","req":"^0.2","features":[],"optional":true,"default_features":false,"target":null,"kind":"normal"},{"name":"web-sys","req":"^0.3.76","features":["Window"],"optional":true,"default_features":false,"target":null,"kind":"normal"}],"cksum":"d0d030a0e95fe8acf6e1f88f29773ee2741d98f81ed1d687c7e990675ccb834b","features":{"default":["desktop"],"desktop":["tokio","instant"],"web":["wasm-bindgen","web-sys","instant/wasm-bindgen"]},"yanked":false}
+{
+    "name": "dioxus-motion",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "dioxus",
+            "req": "^0.6.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "dioxus-hooks",
+            "req": "^0.6.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "dioxus-lib",
+            "req": "^0.6.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "dioxus-signals",
+            "req": "^0.6.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "easer",
+            "req": "^0.3.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "futures",
+            "req": "^0.3.31",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "futures-channel",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "futures-util",
+            "req": "^0.3.31",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "getrandom",
+            "req": "^0.2.15",
+            "features": [
+                "js"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "instant",
+            "req": "^0.1.13",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1",
+            "features": [
+                "time"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "uuid",
+            "req": "^1.11.0",
+            "features": [
+                "v4"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "wasm-bindgen",
+            "req": "^0.2",
+            "features": [],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "web-sys",
+            "req": "^0.3.76",
+            "features": [
+                "Window"
+            ],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "d0d030a0e95fe8acf6e1f88f29773ee2741d98f81ed1d687c7e990675ccb834b",
+    "features": {
+        "default": [
+            "desktop"
+        ],
+        "desktop": [
+            "tokio",
+            "instant"
+        ],
+        "web": [
+            "wasm-bindgen",
+            "web-sys",
+            "instant/wasm-bindgen"
+        ]
+    },
+    "yanked": false
+}

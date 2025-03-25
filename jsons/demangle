@@ -1,1 +1,31 @@
-{"name":"demangle","vers":"0.1.0","deps":[{"name":"clap","req":"^4.5.4","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"symbolic","req":"^12.8.0","features":["demangle"],"optional":false,"default_features":false,"target":null,"kind":"normal"}],"cksum":"f0fd88d7ab4e163d3c0ff94750fb779096bc811b926802618b59c914fe04bef4","features":{},"yanked":false}
+{
+    "name": "demangle",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "clap",
+            "req": "^4.5.4",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "symbolic",
+            "req": "^12.8.0",
+            "features": [
+                "demangle"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "f0fd88d7ab4e163d3c0ff94750fb779096bc811b926802618b59c914fe04bef4",
+    "features": {},
+    "yanked": false
+}

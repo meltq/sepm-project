@@ -1,1 +1,48 @@
-{"name":"nate-engine-macros","vers":"0.1.0","deps":[{"name":"proc-macro2","req":"^1.0.81","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"quote","req":"^1.0.36","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rand","req":"^0.8.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"syn","req":"^2.0.60","features":["full","extra-traits"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"16a4d6862918286e8fab30c919ae7bf824cfb605745555082bf5422133ba2b3b","features":{},"yanked":false}
+{
+    "name": "nate-engine-macros",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "proc-macro2",
+            "req": "^1.0.81",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "quote",
+            "req": "^1.0.36",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rand",
+            "req": "^0.8.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "syn",
+            "req": "^2.0.60",
+            "features": [
+                "full",
+                "extra-traits"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "16a4d6862918286e8fab30c919ae7bf824cfb605745555082bf5422133ba2b3b",
+    "features": {},
+    "yanked": false
+}

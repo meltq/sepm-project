@@ -1,1 +1,117 @@
-{"name":"requestty","vers":"0.1.0","deps":[{"name":"fuzzy-matcher","req":"^0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"insta","req":"^1.7.1","features":[],"optional":false,"default_features":false,"target":null,"kind":"dev"},{"name":"macro","req":"=0.1.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal","package":"requestty-macro"},{"name":"rand","req":"^0.8","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"rand_chacha","req":"^0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"regex","req":"^1.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"smallvec","req":"^1.6","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"tempfile","req":"^3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"trybuild","req":"^1.0.42","features":["diff"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"ui","req":"=0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal","package":"requestty-ui"}],"cksum":"d74d465db7a846181b8495ce870678ada6eae2b2809a79989dac0304355cde53","features":{"crossterm":["ui/crossterm"],"default":["crossterm","smallvec"],"macros":["macro"],"termion":["ui/termion"]},"yanked":false}
+{
+    "name": "requestty",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "fuzzy-matcher",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "insta",
+            "req": "^1.7.1",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "macro",
+            "req": "=0.1.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal",
+            "package": "requestty-macro"
+        },
+        {
+            "name": "rand",
+            "req": "^0.8",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "rand_chacha",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "regex",
+            "req": "^1.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "smallvec",
+            "req": "^1.6",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tempfile",
+            "req": "^3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "trybuild",
+            "req": "^1.0.42",
+            "features": [
+                "diff"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "ui",
+            "req": "=0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal",
+            "package": "requestty-ui"
+        }
+    ],
+    "cksum": "d74d465db7a846181b8495ce870678ada6eae2b2809a79989dac0304355cde53",
+    "features": {
+        "crossterm": [
+            "ui/crossterm"
+        ],
+        "default": [
+            "crossterm",
+            "smallvec"
+        ],
+        "macros": [
+            "macro"
+        ],
+        "termion": [
+            "ui/termion"
+        ]
+    },
+    "yanked": false
+}

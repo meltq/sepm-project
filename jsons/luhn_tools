@@ -1,1 +1,30 @@
-{"name":"luhn_tools","vers":"0.2.0","deps":[{"name":"criterion","req":"^0.5","features":["html_reports"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"rand","req":"^0.8","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"50dd5103dfa78363ec681388c377397099d36a816aac7ef09d84e170fdf2db01","features":{},"yanked":false,"rust_version":"1.65.0"}
+{
+    "name": "luhn_tools",
+    "vers": "0.2.0",
+    "deps": [
+        {
+            "name": "criterion",
+            "req": "^0.5",
+            "features": [
+                "html_reports"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "rand",
+            "req": "^0.8",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "50dd5103dfa78363ec681388c377397099d36a816aac7ef09d84e170fdf2db01",
+    "features": {},
+    "yanked": false,
+    "rust_version": "1.65.0"
+}

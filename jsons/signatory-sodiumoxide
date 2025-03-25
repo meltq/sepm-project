@@ -1,1 +1,38 @@
-{"name":"signatory-sodiumoxide","vers":"0.7.0-alpha1","deps":[{"name":"criterion","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"signatory","req":"^0.7.0-alpha1","features":["ed25519"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"sodiumoxide","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"6838056439d2c4e0fcd49d260732750d37159a63acebb460609f3a1c36b0df6d","features":{},"yanked":true}
+{
+    "name": "signatory-sodiumoxide",
+    "vers": "0.7.0-alpha1",
+    "deps": [
+        {
+            "name": "criterion",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "signatory",
+            "req": "^0.7.0-alpha1",
+            "features": [
+                "ed25519"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "sodiumoxide",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "6838056439d2c4e0fcd49d260732750d37159a63acebb460609f3a1c36b0df6d",
+    "features": {},
+    "yanked": true
+}

@@ -1,1 +1,29 @@
-{"name":"penrose","vers":"0.1.0","deps":[{"name":"mockiato","req":"^0.9.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"xcb","req":"^0.9.0","features":["randr"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"ed82549ac61e210ffd614f1408f1f8839ad84c7c23dca7d847c02d44e3b1def6","features":{},"yanked":false}
+{
+    "name": "penrose",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "mockiato",
+            "req": "^0.9.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "xcb",
+            "req": "^0.9.0",
+            "features": [
+                "randr"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "ed82549ac61e210ffd614f1408f1f8839ad84c7c23dca7d847c02d44e3b1def6",
+    "features": {},
+    "yanked": false
+}

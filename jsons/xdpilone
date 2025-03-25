@@ -1,1 +1,41 @@
-{"name":"xdpilone","vers":"1.0.0","deps":[{"name":"clap","req":"^4","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"libc","req":"^0.2","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"spin","req":"^0.9","features":["rwlock"],"optional":false,"default_features":false,"target":null,"kind":"normal"}],"cksum":"a28e28ec1548c17e138451391c17db725ef9b38f5d088305c826457e84976399","features":{},"yanked":true,"rust_version":"1.65.0"}
+{
+    "name": "xdpilone",
+    "vers": "1.0.0",
+    "deps": [
+        {
+            "name": "clap",
+            "req": "^4",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "libc",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "spin",
+            "req": "^0.9",
+            "features": [
+                "rwlock"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "a28e28ec1548c17e138451391c17db725ef9b38f5d088305c826457e84976399",
+    "features": {},
+    "yanked": true,
+    "rust_version": "1.65.0"
+}

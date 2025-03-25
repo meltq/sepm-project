@@ -1,1 +1,31 @@
-{"name":"numberlab","vers":"0.1.0","deps":[{"name":"criterion","req":"=0.5.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"num-bigint","req":"=0.4.6","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"ca3296d5c225110c5a7f5d4f941216749fd04386a310d67b7e2c286c820563c0","features":{"html_reports":["criterion/html_reports"]},"yanked":true}
+{
+    "name": "numberlab",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "criterion",
+            "req": "=0.5.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "num-bigint",
+            "req": "=0.4.6",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "ca3296d5c225110c5a7f5d4f941216749fd04386a310d67b7e2c286c820563c0",
+    "features": {
+        "html_reports": [
+            "criterion/html_reports"
+        ]
+    },
+    "yanked": true
+}

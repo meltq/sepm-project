@@ -1,1 +1,77 @@
-{"name":"hallucination-detection","vers":"0.1.0","deps":[{"name":"lazy_static","req":"^1.5.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"ort","req":"^1.16.3","features":["download-binaries","load-dynamic"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"regex","req":"^1.11.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rstest","req":"^0.23.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rust-bert","req":"^0.23.0","features":["onnx"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rust-stemmers","req":"^1.2.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.215","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"d64eb9c16bc6b6094b7af1544f3582aba5e88899350a5d16f44285c13bf0ef6a","features":{},"yanked":false}
+{
+    "name": "hallucination-detection",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "lazy_static",
+            "req": "^1.5.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ort",
+            "req": "^1.16.3",
+            "features": [
+                "download-binaries",
+                "load-dynamic"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "regex",
+            "req": "^1.11.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rstest",
+            "req": "^0.23.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rust-bert",
+            "req": "^0.23.0",
+            "features": [
+                "onnx"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rust-stemmers",
+            "req": "^1.2.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.215",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "d64eb9c16bc6b6094b7af1544f3582aba5e88899350a5d16f44285c13bf0ef6a",
+    "features": {},
+    "yanked": false
+}

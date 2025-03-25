@@ -1,1 +1,40 @@
-{"name":"image-dwt","vers":"0.1.0","deps":[{"name":"image","req":"^0.25.0","features":["tiff"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"ndarray","req":"^0.15.6","features":["rayon"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tiff","req":"^0.9.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"28edd309b3c33a5b6bbf9e23a6ad06324c3ddc3542e767b8c9a118cda9a34b44","features":{},"yanked":false}
+{
+    "name": "image-dwt",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "image",
+            "req": "^0.25.0",
+            "features": [
+                "tiff"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ndarray",
+            "req": "^0.15.6",
+            "features": [
+                "rayon"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tiff",
+            "req": "^0.9.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "28edd309b3c33a5b6bbf9e23a6ad06324c3ddc3542e767b8c9a118cda9a34b44",
+    "features": {},
+    "yanked": false
+}

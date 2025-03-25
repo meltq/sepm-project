@@ -1,1 +1,81 @@
-{"name":"tokio-process-tools","vers":"0.1.0","deps":[{"name":"mockall","req":"^0.13.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"nix","req":"^0.29.0","features":["signal","process"],"optional":false,"default_features":true,"target":"cfg(unix)","kind":"normal"},{"name":"tempfile","req":"^3.12.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"thiserror","req":"^2.0.10","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.39.3","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing","req":"^0.1.40","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"windows-sys","req":"^0.59.0","features":["Win32_Foundation","Win32_System_Console"],"optional":false,"default_features":true,"target":"cfg(windows)","kind":"normal"}],"cksum":"19847e82ae9d020a40c98bdbd526e2618aeb0a6cdc4765f84f98b4d93af0284f","features":{},"yanked":false,"rust_version":"1.78.0"}
+{
+    "name": "tokio-process-tools",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "mockall",
+            "req": "^0.13.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "nix",
+            "req": "^0.29.0",
+            "features": [
+                "signal",
+                "process"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": "cfg(unix)",
+            "kind": "normal"
+        },
+        {
+            "name": "tempfile",
+            "req": "^3.12.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "thiserror",
+            "req": "^2.0.10",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.39.3",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1.40",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "windows-sys",
+            "req": "^0.59.0",
+            "features": [
+                "Win32_Foundation",
+                "Win32_System_Console"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": "cfg(windows)",
+            "kind": "normal"
+        }
+    ],
+    "cksum": "19847e82ae9d020a40c98bdbd526e2618aeb0a6cdc4765f84f98b4d93af0284f",
+    "features": {},
+    "yanked": false,
+    "rust_version": "1.78.0"
+}

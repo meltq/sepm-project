@@ -1,1 +1,38 @@
-{"name":"serde-opml","vers":"0.1.0","deps":[{"name":"serde","req":"^1.0","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde-xml-rs","req":"^0.6","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"11a57af64931c21ad609b028f260c10ca240d2a201e91b7ad01c40f75ce93728","features":{},"yanked":false}
+{
+    "name": "serde-opml",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde-xml-rs",
+            "req": "^0.6",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "11a57af64931c21ad609b028f260c10ca240d2a201e91b7ad01c40f75ce93728",
+    "features": {},
+    "yanked": false
+}

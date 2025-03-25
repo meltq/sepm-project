@@ -1,1 +1,61 @@
-{"name":"epics_gen","vers":"0.1.0","deps":[{"name":"calamine","req":"^0.26.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"epics_gen_macros","req":"^0.1.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"regex","req":"^1.11.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"strum","req":"^0.26","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"strum_macros","req":"^0.26","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"47bf2861ec6426c3ed1b4847d895826f207304cc7ae3fc00d051992736d894b6","features":{"default":["derive"],"derive":["epics_gen_macros"]},"yanked":false}
+{
+    "name": "epics_gen",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "calamine",
+            "req": "^0.26.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "epics_gen_macros",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "regex",
+            "req": "^1.11.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "strum",
+            "req": "^0.26",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "strum_macros",
+            "req": "^0.26",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "47bf2861ec6426c3ed1b4847d895826f207304cc7ae3fc00d051992736d894b6",
+    "features": {
+        "default": [
+            "derive"
+        ],
+        "derive": [
+            "epics_gen_macros"
+        ]
+    },
+    "yanked": false
+}

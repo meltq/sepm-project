@@ -1,1 +1,51 @@
-{"name":"simple_cloudconvert","vers":"0.5.0","deps":[{"name":"dotenv","req":"^0.15.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"reqwest","req":"^0.12.12","features":["json","multipart","blocking"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.163","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.134","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"b4aeeca8e1ccfa96186d8d1f0cafc630edfcb0f96553ec1c81365ac1b1bfe32a","features":{},"yanked":false}
+{
+    "name": "simple_cloudconvert",
+    "vers": "0.5.0",
+    "deps": [
+        {
+            "name": "dotenv",
+            "req": "^0.15.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "reqwest",
+            "req": "^0.12.12",
+            "features": [
+                "json",
+                "multipart",
+                "blocking"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.163",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.134",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "b4aeeca8e1ccfa96186d8d1f0cafc630edfcb0f96553ec1c81365ac1b1bfe32a",
+    "features": {},
+    "yanked": false
+}

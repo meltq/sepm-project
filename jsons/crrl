@@ -1,1 +1,64 @@
-{"name":"crrl","vers":"0.1.0","deps":[{"name":"blake2","req":"^0.10.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"hex","req":"^0.4.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"num-bigint","req":"^0.4.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"rand_core","req":"^0.6","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"sha2","req":"^0.10.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"b45abcc7c9fdec56284e5928ee6f21d34fa91ddbae79cc041fa76db5b0014612","features":{"alloc":[],"default":["std"],"std":["alloc"],"w32_backend":[],"w64_backend":[]},"yanked":false}
+{
+    "name": "crrl",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "blake2",
+            "req": "^0.10.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "hex",
+            "req": "^0.4.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "num-bigint",
+            "req": "^0.4.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "rand_core",
+            "req": "^0.6",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "sha2",
+            "req": "^0.10.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "b45abcc7c9fdec56284e5928ee6f21d34fa91ddbae79cc041fa76db5b0014612",
+    "features": {
+        "alloc": [],
+        "default": [
+            "std"
+        ],
+        "std": [
+            "alloc"
+        ],
+        "w32_backend": [],
+        "w64_backend": []
+    },
+    "yanked": false
+}

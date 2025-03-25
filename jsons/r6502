@@ -1,1 +1,95 @@
-{"name":"r6502","vers":"1.0.0","deps":[{"name":"arbitrary","req":"^1","features":["derive"],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"bitflags","req":"^2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"bytemuck","req":"^1","features":["derive","min_const_generics"],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"cfg_eval","req":"^0.1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1","features":["derive"],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_with","req":"^3","features":["macros"],"optional":true,"default_features":false,"target":null,"kind":"normal"}],"cksum":"a70b82e2fe3b34d317412752f40656cc51e0819aaf73b3ec095e976acabb8611","features":{"bcd":[],"default":["bcd"]},"features2":{"arbitrary":["dep:arbitrary","bitflags/arbitrary"],"bytemuck":["dep:bytemuck","bitflags/bytemuck"],"serde":["dep:serde","dep:serde_with","dep:cfg_eval","bitflags/serde"]},"yanked":false,"rust_version":"1.66.1","v":2}
+{
+    "name": "r6502",
+    "vers": "1.0.0",
+    "deps": [
+        {
+            "name": "arbitrary",
+            "req": "^1",
+            "features": [
+                "derive"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "bitflags",
+            "req": "^2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "bytemuck",
+            "req": "^1",
+            "features": [
+                "derive",
+                "min_const_generics"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "cfg_eval",
+            "req": "^0.1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1",
+            "features": [
+                "derive"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_with",
+            "req": "^3",
+            "features": [
+                "macros"
+            ],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "a70b82e2fe3b34d317412752f40656cc51e0819aaf73b3ec095e976acabb8611",
+    "features": {
+        "bcd": [],
+        "default": [
+            "bcd"
+        ]
+    },
+    "features2": {
+        "arbitrary": [
+            "dep:arbitrary",
+            "bitflags/arbitrary"
+        ],
+        "bytemuck": [
+            "dep:bytemuck",
+            "bitflags/bytemuck"
+        ],
+        "serde": [
+            "dep:serde",
+            "dep:serde_with",
+            "dep:cfg_eval",
+            "bitflags/serde"
+        ]
+    },
+    "yanked": false,
+    "rust_version": "1.66.1",
+    "v": 2
+}

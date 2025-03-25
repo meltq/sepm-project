@@ -1,1 +1,56 @@
-{"name":"notedown-wasi","vers":"0.0.0","deps":[{"name":"rctree","req":"^0.6.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"wit-bindgen","req":"^0.23.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"wit-bindgen-core","req":"^0.23.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"wit-bindgen-rust","req":"^0.23.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"wit-parser","req":"^0.202.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"2ca0d161293386f5a6705ec839d5ccb0fd55c75b48ec7b254edc6458eaab08b5","features":{"default":[]},"yanked":false}
+{
+    "name": "notedown-wasi",
+    "vers": "0.0.0",
+    "deps": [
+        {
+            "name": "rctree",
+            "req": "^0.6.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "wit-bindgen",
+            "req": "^0.23.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "wit-bindgen-core",
+            "req": "^0.23.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "wit-bindgen-rust",
+            "req": "^0.23.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "wit-parser",
+            "req": "^0.202.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "2ca0d161293386f5a6705ec839d5ccb0fd55c75b48ec7b254edc6458eaab08b5",
+    "features": {
+        "default": []
+    },
+    "yanked": false
+}

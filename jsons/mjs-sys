@@ -1,1 +1,65 @@
-{"name":"mjs-sys","vers":"0.1.0","deps":[{"name":"bindgen","req":"^0.53","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"cc","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"cstr_core","req":"^0.2","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"cty","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"a16b261fbc050d43f3b39cccc26914be0ac32bc4cc566499d97096242572d8ff","features":{"platform-cc3100":[],"platform-cc3200":[],"platform-cc3220":[],"platform-custom":[],"platform-esp32":[],"platform-esp8266":[],"platform-mbed":[],"platform-msp432":[],"platform-nrf51":[],"platform-nrf52":[],"platform-nxp_kinetis":[],"platform-nxp_lpc":[],"platform-pic32":[],"platform-rs14100":[],"platform-stm32":[],"platform-tm4c129":[],"platform-unix":[],"platform-wince":[],"platform-windows":[]},"yanked":false}
+{
+    "name": "mjs-sys",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "bindgen",
+            "req": "^0.53",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "cc",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "cstr_core",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "cty",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "a16b261fbc050d43f3b39cccc26914be0ac32bc4cc566499d97096242572d8ff",
+    "features": {
+        "platform-cc3100": [],
+        "platform-cc3200": [],
+        "platform-cc3220": [],
+        "platform-custom": [],
+        "platform-esp32": [],
+        "platform-esp8266": [],
+        "platform-mbed": [],
+        "platform-msp432": [],
+        "platform-nrf51": [],
+        "platform-nrf52": [],
+        "platform-nxp_kinetis": [],
+        "platform-nxp_lpc": [],
+        "platform-pic32": [],
+        "platform-rs14100": [],
+        "platform-stm32": [],
+        "platform-tm4c129": [],
+        "platform-unix": [],
+        "platform-wince": [],
+        "platform-windows": []
+    },
+    "yanked": false
+}

@@ -1,1 +1,35 @@
-{"name":"sapio-secp256k1-sys","vers":"0.21.4","deps":[{"name":"cc","req":"^1.0.28","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"libc","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"43348a3209b43cb24c95f06b7a0e819327fb542aba1aecc727b72c6fe93502e7","features":{"default":["std"],"lowmemory":[],"recovery":[],"std":[]},"yanked":true,"links":"rustsecp256k1_v0_4_1"}
+{
+    "name": "sapio-secp256k1-sys",
+    "vers": "0.21.4",
+    "deps": [
+        {
+            "name": "cc",
+            "req": "^1.0.28",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "libc",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "43348a3209b43cb24c95f06b7a0e819327fb542aba1aecc727b72c6fe93502e7",
+    "features": {
+        "default": [
+            "std"
+        ],
+        "lowmemory": [],
+        "recovery": [],
+        "std": []
+    },
+    "yanked": true,
+    "links": "rustsecp256k1_v0_4_1"
+}

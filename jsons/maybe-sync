@@ -1,1 +1,27 @@
-{"name":"maybe-sync","vers":"0.1.0","deps":[{"name":"parking_lot","req":"^0.10.2","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"bb859eff105208aaf881af1813d3fd824792ddf872ba06b33e61ca0d2f910c8c","features":{"alloc":[],"default":["alloc"],"sync":["parking_lot"],"unstable-doc":[]},"yanked":false}
+{
+    "name": "maybe-sync",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "parking_lot",
+            "req": "^0.10.2",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "bb859eff105208aaf881af1813d3fd824792ddf872ba06b33e61ca0d2f910c8c",
+    "features": {
+        "alloc": [],
+        "default": [
+            "alloc"
+        ],
+        "sync": [
+            "parking_lot"
+        ],
+        "unstable-doc": []
+    },
+    "yanked": false
+}

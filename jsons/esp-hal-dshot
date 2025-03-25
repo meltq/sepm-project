@@ -1,1 +1,79 @@
-{"name":"esp-hal-dshot","vers":"0.1.0","deps":[{"name":"embassy-executor","req":"^0.6.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"embassy-time","req":"^0.3.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"embedded-hal","req":"^1.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"esp-hal","req":"^0.21.1","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"fugit","req":"^0.3.7","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"48490d98f375b163e8470cfaf2c3c1bedf0e45ce04f8da9a5ece62ba70033910","features":{"default":["esp32"],"esp32":["esp-hal/esp32"],"esp32c2":["esp-hal/esp32c2"],"esp32c3":["esp-hal/esp32c3"],"esp32c6":["esp-hal/esp32c6"],"esp32h2":["esp-hal/esp32h2"],"esp32s2":["esp-hal/esp32s2"],"esp32s3":["esp-hal/esp32s3"]},"yanked":true}
+{
+    "name": "esp-hal-dshot",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "embassy-executor",
+            "req": "^0.6.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "embassy-time",
+            "req": "^0.3.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "embedded-hal",
+            "req": "^1.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "esp-hal",
+            "req": "^0.21.1",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "fugit",
+            "req": "^0.3.7",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "48490d98f375b163e8470cfaf2c3c1bedf0e45ce04f8da9a5ece62ba70033910",
+    "features": {
+        "default": [
+            "esp32"
+        ],
+        "esp32": [
+            "esp-hal/esp32"
+        ],
+        "esp32c2": [
+            "esp-hal/esp32c2"
+        ],
+        "esp32c3": [
+            "esp-hal/esp32c3"
+        ],
+        "esp32c6": [
+            "esp-hal/esp32c6"
+        ],
+        "esp32h2": [
+            "esp-hal/esp32h2"
+        ],
+        "esp32s2": [
+            "esp-hal/esp32s2"
+        ],
+        "esp32s3": [
+            "esp-hal/esp32s3"
+        ]
+    },
+    "yanked": true
+}

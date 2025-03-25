@@ -1,1 +1,65 @@
-{"name":"ftswarm_emulator","vers":"0.2.0","deps":[{"name":"env_logger","req":"^0.11.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"ftswarm","req":"^0.2.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"ftswarm_proto","req":"^0.2.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"ftswarm_serial","req":"^0.2.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"log","req":"^0.4.21","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"3ee0b9ce33233dc2b8d9415a40aa29ec99075e79cda86a85d45c85d6c31b9c00","features":{},"yanked":false}
+{
+    "name": "ftswarm_emulator",
+    "vers": "0.2.0",
+    "deps": [
+        {
+            "name": "env_logger",
+            "req": "^0.11.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "ftswarm",
+            "req": "^0.2.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "ftswarm_proto",
+            "req": "^0.2.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ftswarm_serial",
+            "req": "^0.2.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "log",
+            "req": "^0.4.21",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "3ee0b9ce33233dc2b8d9415a40aa29ec99075e79cda86a85d45c85d6c31b9c00",
+    "features": {},
+    "yanked": false
+}

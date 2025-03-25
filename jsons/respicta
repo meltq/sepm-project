@@ -1,1 +1,105 @@
-{"name":"respicta","vers":"0.1.0","deps":[{"name":"anyhow","req":"^1.0.80","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"axum","req":"^0.7.4","features":["multipart"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"axum-test","req":"^14.4.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"clap","req":"^4.5.3","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"image","req":"^0.25.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"libwebp-sys","req":"^0.9.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"magick_rust","req":"^0.20.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"oxipng","req":"^9.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tempfile","req":"^3.10.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.36.0","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"086f4371f4810fd7794effec1b30137ef8eef763e8ac1cb4c370226e0bd2b066","features":{},"yanked":false}
+{
+    "name": "respicta",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "anyhow",
+            "req": "^1.0.80",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "axum",
+            "req": "^0.7.4",
+            "features": [
+                "multipart"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "axum-test",
+            "req": "^14.4.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "clap",
+            "req": "^4.5.3",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "image",
+            "req": "^0.25.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "libwebp-sys",
+            "req": "^0.9.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "magick_rust",
+            "req": "^0.20.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "oxipng",
+            "req": "^9.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tempfile",
+            "req": "^3.10.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.36.0",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "086f4371f4810fd7794effec1b30137ef8eef763e8ac1cb4c370226e0bd2b066",
+    "features": {},
+    "yanked": false
+}

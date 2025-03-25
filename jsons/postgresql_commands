@@ -1,1 +1,77 @@
-{"name":"postgresql_commands","vers":"0.8.0","deps":[{"name":"anyhow","req":"^1.0.81","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"test-log","req":"^0.2.15","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"thiserror","req":"^1.0.58","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.36.0","features":["full"],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.36.0","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"tracing","req":"^0.1.40","features":["log"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"76d2c21140eab8d1dd51f0f4fedd4c0df5a1804ad997e9608e6683be92e1e0a9","features":{"default":[]},"features2":{"tokio":["dep:tokio"]},"yanked":false,"v":2}
+{
+    "name": "postgresql_commands",
+    "vers": "0.8.0",
+    "deps": [
+        {
+            "name": "anyhow",
+            "req": "^1.0.81",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "test-log",
+            "req": "^0.2.15",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "thiserror",
+            "req": "^1.0.58",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.36.0",
+            "features": [
+                "full"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.36.0",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1.40",
+            "features": [
+                "log"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "76d2c21140eab8d1dd51f0f4fedd4c0df5a1804ad997e9608e6683be92e1e0a9",
+    "features": {
+        "default": []
+    },
+    "features2": {
+        "tokio": [
+            "dep:tokio"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

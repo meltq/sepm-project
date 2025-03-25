@@ -1,1 +1,79 @@
-{"name":"exon-cram","vers":"0.15.0","deps":[{"name":"arrow","req":"^50.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"exon-common","req":"^0.15.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"exon-sam","req":"^0.15.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"futures","req":"^0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"noodles","req":"^0.66","features":["core","async","cram","fasta"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"object_store","req":"^0.9","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1","features":["io-util"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"d8b732904c2420ffec3a11076681b5801e13a8cb5f03477893b78f6badaa3bf7","features":{},"yanked":false}
+{
+    "name": "exon-cram",
+    "vers": "0.15.0",
+    "deps": [
+        {
+            "name": "arrow",
+            "req": "^50.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "exon-common",
+            "req": "^0.15.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "exon-sam",
+            "req": "^0.15.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "futures",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "noodles",
+            "req": "^0.66",
+            "features": [
+                "core",
+                "async",
+                "cram",
+                "fasta"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "object_store",
+            "req": "^0.9",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1",
+            "features": [
+                "io-util"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "d8b732904c2420ffec3a11076681b5801e13a8cb5f03477893b78f6badaa3bf7",
+    "features": {},
+    "yanked": false
+}

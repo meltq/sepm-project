@@ -1,1 +1,18 @@
-{"name":"proc_pidinfo","vers":"0.1.0","deps":[{"name":"libc","req":"^0.2","features":[],"optional":false,"default_features":true,"target":"cfg(target_os = \"macos\")","kind":"normal"}],"cksum":"6f485a527f9e970ae67a94fe561ef91c044fae49c7f038fa8b6319a2c7e4d08d","features":{},"yanked":false}
+{
+    "name": "proc_pidinfo",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "libc",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": "cfg(target_os = \"macos\")",
+            "kind": "normal"
+        }
+    ],
+    "cksum": "6f485a527f9e970ae67a94fe561ef91c044fae49c7f038fa8b6319a2c7e4d08d",
+    "features": {},
+    "yanked": false
+}

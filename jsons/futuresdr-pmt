@@ -1,1 +1,29 @@
-{"name":"futuresdr-pmt","vers":"0.0.2-experimental","deps":[{"name":"flexbuffers","req":"^2.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"serde","req":"^1.0.127","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"4c25b07262121ca400f955140e47a407b9432df162fd87d9ac26bc6a3579364a","features":{},"yanked":false}
+{
+    "name": "futuresdr-pmt",
+    "vers": "0.0.2-experimental",
+    "deps": [
+        {
+            "name": "flexbuffers",
+            "req": "^2.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.127",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "4c25b07262121ca400f955140e47a407b9432df162fd87d9ac26bc6a3579364a",
+    "features": {},
+    "yanked": false
+}

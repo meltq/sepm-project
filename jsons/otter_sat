@@ -1,1 +1,48 @@
-{"name":"otter_sat","vers":"0.0.9","deps":[{"name":"crossbeam","req":"^0.8.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"log","req":"^0.4.22","features":["max_level_trace","release_max_level_off"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rand","req":"^0.8.5","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"rand_core","req":"^0.6.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"eb9aa35fd1e506db06342c41bf3dda4956a60c161ab22c1c78297768fd3f577b","features":{},"yanked":false}
+{
+    "name": "otter_sat",
+    "vers": "0.0.9",
+    "deps": [
+        {
+            "name": "crossbeam",
+            "req": "^0.8.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "log",
+            "req": "^0.4.22",
+            "features": [
+                "max_level_trace",
+                "release_max_level_off"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rand",
+            "req": "^0.8.5",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rand_core",
+            "req": "^0.6.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "eb9aa35fd1e506db06342c41bf3dda4956a60c161ab22c1c78297768fd3f577b",
+    "features": {},
+    "yanked": false
+}

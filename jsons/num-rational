@@ -1,1 +1,62 @@
-{"name":"num-rational","vers":"0.1.32","deps":[{"name":"num-bigint","req":"^0.1.32","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"num-integer","req":"^0.1.32","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"num-traits","req":"^0.1.32","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rustc-serialize","req":"^0.3.19","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^0.7.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"48cdcc9ff4ae2a8296805ac15af88b3d88ce62128ded0cb74ffb63a587502a84","features":{"bigint":["num-bigint"],"default":["bigint","rustc-serialize"]},"yanked":false}
+{
+    "name": "num-rational",
+    "vers": "0.1.32",
+    "deps": [
+        {
+            "name": "num-bigint",
+            "req": "^0.1.32",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "num-integer",
+            "req": "^0.1.32",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "num-traits",
+            "req": "^0.1.32",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rustc-serialize",
+            "req": "^0.3.19",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^0.7.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "48cdcc9ff4ae2a8296805ac15af88b3d88ce62128ded0cb74ffb63a587502a84",
+    "features": {
+        "bigint": [
+            "num-bigint"
+        ],
+        "default": [
+            "bigint",
+            "rustc-serialize"
+        ]
+    },
+    "yanked": false
+}

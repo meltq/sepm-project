@@ -1,1 +1,150 @@
-{"name":"kitsune2_gossip","vers":"0.0.1-alpha","deps":[{"name":"bytes","req":"^1.8.0","features":["serde"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"kitsune2_api","req":"^0.0.1-alpha","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"kitsune2_api","req":"^0.0.1-alpha","features":["mockall"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"kitsune2_core","req":"^0.0.1-alpha","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"kitsune2_core","req":"^0.0.1-alpha","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"kitsune2_dht","req":"^0.0.1-alpha","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"kitsune2_dht","req":"^0.0.1-alpha","features":["mockall"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"prost","req":"^0.13.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rand","req":"^0.8.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.215","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.132","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.41.1","features":["rt","sync"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.41.1","features":["test-util"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"tracing","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"be1b01ef643d0a34d11201920752f4cb4100ea454fc28977f7e92a0c364d3625","features":{"sharding":[]},"yanked":false}
+{
+    "name": "kitsune2_gossip",
+    "vers": "0.0.1-alpha",
+    "deps": [
+        {
+            "name": "bytes",
+            "req": "^1.8.0",
+            "features": [
+                "serde"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "kitsune2_api",
+            "req": "^0.0.1-alpha",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "kitsune2_api",
+            "req": "^0.0.1-alpha",
+            "features": [
+                "mockall"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "kitsune2_core",
+            "req": "^0.0.1-alpha",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "kitsune2_core",
+            "req": "^0.0.1-alpha",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "kitsune2_dht",
+            "req": "^0.0.1-alpha",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "kitsune2_dht",
+            "req": "^0.0.1-alpha",
+            "features": [
+                "mockall"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "prost",
+            "req": "^0.13.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rand",
+            "req": "^0.8.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.215",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.132",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.41.1",
+            "features": [
+                "rt",
+                "sync"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.41.1",
+            "features": [
+                "test-util"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "be1b01ef643d0a34d11201920752f4cb4100ea454fc28977f7e92a0c364d3625",
+    "features": {
+        "sharding": []
+    },
+    "yanked": false
+}

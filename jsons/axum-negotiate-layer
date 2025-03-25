@@ -1,1 +1,65 @@
-{"name":"axum-negotiate-layer","vers":"0.1.0","deps":[{"name":"axum","req":"^0.7.9","features":["tokio"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"base64","req":"^0.22.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"cross-krb5","req":"^0.4.1","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"futures-util","req":"^0.3.31","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"tower","req":"^0.5.2","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"winauth","req":"^0.0.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"7d54e71323a6881cb0bb293ab90961977add54fe6de3f8929ac15c2251fcf186","features":{},"yanked":false}
+{
+    "name": "axum-negotiate-layer",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "axum",
+            "req": "^0.7.9",
+            "features": [
+                "tokio"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "base64",
+            "req": "^0.22.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "cross-krb5",
+            "req": "^0.4.1",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "futures-util",
+            "req": "^0.3.31",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tower",
+            "req": "^0.5.2",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "winauth",
+            "req": "^0.0.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "7d54e71323a6881cb0bb293ab90961977add54fe6de3f8929ac15c2251fcf186",
+    "features": {},
+    "yanked": false
+}

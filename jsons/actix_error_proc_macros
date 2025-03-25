@@ -1,1 +1,49 @@
-{"name":"actix_error_proc_macros","vers":"0.1.0","deps":[{"name":"actix-web","req":"^4.9.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"quote","req":"^1.0.38","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"syn","req":"^2.0.98","features":["full","fold","parsing"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^2.0.11","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"2c7f8b4d6f2e1b4025ecff89c97edcef15cff9279c0cfa2a03b37ce8d9ac6fc1","features":{},"yanked":false}
+{
+    "name": "actix_error_proc_macros",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "actix-web",
+            "req": "^4.9.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "quote",
+            "req": "^1.0.38",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "syn",
+            "req": "^2.0.98",
+            "features": [
+                "full",
+                "fold",
+                "parsing"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^2.0.11",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "2c7f8b4d6f2e1b4025ecff89c97edcef15cff9279c0cfa2a03b37ce8d9ac6fc1",
+    "features": {},
+    "yanked": false
+}

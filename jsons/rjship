@@ -1,1 +1,54 @@
-{"name":"rjship","vers":"0.1.0","deps":[{"name":"serde","req":"1.*","features":["derive"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"serde_json","req":"1.*","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"}],"cksum":"e2c5c11766f7857c399036d0678ddada6377d17e797496b715915faedfb2f119","features":{"alloc":["serde_json/alloc"],"arbitrary_precision":["serde_json/arbitrary_precision"],"default":["std"],"float_roundtrip":["serde_json/float_roundtrip"],"preserve_order":["serde_json/preserve_order"],"rc":["serde/rc"],"std":["alloc"],"unbounded_depth":["serde_json/unbounded_depth"]},"yanked":false}
+{
+    "name": "rjship",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "serde",
+            "req": "1.*",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "1.*",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "e2c5c11766f7857c399036d0678ddada6377d17e797496b715915faedfb2f119",
+    "features": {
+        "alloc": [
+            "serde_json/alloc"
+        ],
+        "arbitrary_precision": [
+            "serde_json/arbitrary_precision"
+        ],
+        "default": [
+            "std"
+        ],
+        "float_roundtrip": [
+            "serde_json/float_roundtrip"
+        ],
+        "preserve_order": [
+            "serde_json/preserve_order"
+        ],
+        "rc": [
+            "serde/rc"
+        ],
+        "std": [
+            "alloc"
+        ],
+        "unbounded_depth": [
+            "serde_json/unbounded_depth"
+        ]
+    },
+    "yanked": false
+}

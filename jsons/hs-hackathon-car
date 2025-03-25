@@ -1,1 +1,95 @@
-{"name":"hs-hackathon-car","vers":"0.1.0","deps":[{"name":"eyre","req":"^0.6.12","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"futures","req":"^0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"i2cdev","req":"^0.3.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"lazy_static","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"linux-embedded-hal","req":"^0.3","features":[],"optional":false,"default_features":true,"target":"cfg(target_os = \"linux\")","kind":"normal"},{"name":"pwm-pca9685","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rppal","req":"^0.11","features":["hal"],"optional":false,"default_features":true,"target":"cfg(target_os = \"linux\")","kind":"normal"},{"name":"sysfs_gpio","req":"^0.5.0","features":[],"optional":false,"default_features":true,"target":"cfg(target_os = \"linux\")","kind":"normal"},{"name":"tokio","req":"^1.36","features":["full","sync"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"13c771547b2b5c0f542ecaea2292af716c613a69d7ec6d6046c5ea51f3d5ca8d","features":{},"yanked":false}
+{
+    "name": "hs-hackathon-car",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "eyre",
+            "req": "^0.6.12",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "futures",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "i2cdev",
+            "req": "^0.3.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "lazy_static",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "linux-embedded-hal",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": "cfg(target_os = \"linux\")",
+            "kind": "normal"
+        },
+        {
+            "name": "pwm-pca9685",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rppal",
+            "req": "^0.11",
+            "features": [
+                "hal"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": "cfg(target_os = \"linux\")",
+            "kind": "normal"
+        },
+        {
+            "name": "sysfs_gpio",
+            "req": "^0.5.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": "cfg(target_os = \"linux\")",
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.36",
+            "features": [
+                "full",
+                "sync"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "13c771547b2b5c0f542ecaea2292af716c613a69d7ec6d6046c5ea51f3d5ca8d",
+    "features": {},
+    "yanked": false
+}

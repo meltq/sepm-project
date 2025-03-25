@@ -1,1 +1,190 @@
-{"name":"satkit","vers":"0.2.3","deps":[{"name":"approx","req":"^0.5.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"cc","req":"^1.0.74","features":["parallel"],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"chrono","req":"^0.4.19","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"chrono","req":"^0.4.19","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"cty","req":"^0.2.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"json","req":"^0.12.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"libc","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"nalgebra","req":"^0.32.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"ndarray","req":"^0.15.6","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"num-traits","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"numpy","req":"^0.20.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"once_cell","req":"^1.6.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"process_path","req":"^0.1.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"pyo3","req":"^0.20.0","features":["extension-module"],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"pyo3-build-config","req":"^0.20.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"build"},{"name":"rand","req":"^0.8.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"simba","req":"^0.8","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"ureq","req":"^2.9.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"5318827ec036de1420ca928ad12a3215de1ff5f6c7b6969ecd1c46048034156e","features":{"pybindings":["pyo3","numpy","pyo3-build-config"]},"yanked":true}
+{
+    "name": "satkit",
+    "vers": "0.2.3",
+    "deps": [
+        {
+            "name": "approx",
+            "req": "^0.5.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "cc",
+            "req": "^1.0.74",
+            "features": [
+                "parallel"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "chrono",
+            "req": "^0.4.19",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "chrono",
+            "req": "^0.4.19",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "cty",
+            "req": "^0.2.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "json",
+            "req": "^0.12.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "libc",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "nalgebra",
+            "req": "^0.32.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ndarray",
+            "req": "^0.15.6",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "num-traits",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "numpy",
+            "req": "^0.20.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "once_cell",
+            "req": "^1.6.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "process_path",
+            "req": "^0.1.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "pyo3",
+            "req": "^0.20.0",
+            "features": [
+                "extension-module"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "pyo3-build-config",
+            "req": "^0.20.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "rand",
+            "req": "^0.8.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "simba",
+            "req": "^0.8",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ureq",
+            "req": "^2.9.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "5318827ec036de1420ca928ad12a3215de1ff5f6c7b6969ecd1c46048034156e",
+    "features": {
+        "pybindings": [
+            "pyo3",
+            "numpy",
+            "pyo3-build-config"
+        ]
+    },
+    "yanked": true
+}

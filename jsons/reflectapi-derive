@@ -1,1 +1,65 @@
-{"name":"reflectapi-derive","vers":"0.1.0","deps":[{"name":"proc-macro-error","req":"^1.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"proc-macro2","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"quote","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"reflectapi-schema","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_derive_internals","req":"^0.29.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"syn","req":"^2.0.52","features":["extra-traits"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"c8007ced8acb69683b32efc95e85fc764ec953c644985a5019bbeabee43e1e9a","features":{},"yanked":false}
+{
+    "name": "reflectapi-derive",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "proc-macro-error",
+            "req": "^1.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "proc-macro2",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "quote",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "reflectapi-schema",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_derive_internals",
+            "req": "^0.29.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "syn",
+            "req": "^2.0.52",
+            "features": [
+                "extra-traits"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "c8007ced8acb69683b32efc95e85fc764ec953c644985a5019bbeabee43e1e9a",
+    "features": {},
+    "yanked": false
+}

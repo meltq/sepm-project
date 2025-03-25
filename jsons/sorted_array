@@ -1,1 +1,35 @@
-{"name":"sorted_array","vers":"0.1.0","deps":[{"name":"serde","req":"^1.0.197","features":["derive"],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"slice_search","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"1cbfba419433cefcf10f55aeeb223d5496b9a0b78d9b04a6a2a64673260e6d7d","features":{},"features2":{"serde":["dep:serde"]},"yanked":false,"v":2}
+{
+    "name": "sorted_array",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "serde",
+            "req": "^1.0.197",
+            "features": [
+                "derive"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "slice_search",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "1cbfba419433cefcf10f55aeeb223d5496b9a0b78d9b04a6a2a64673260e6d7d",
+    "features": {},
+    "features2": {
+        "serde": [
+            "dep:serde"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

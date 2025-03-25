@@ -1,1 +1,35 @@
-{"name":"libmpv","vers":"1.0.0","deps":[{"name":"crossbeam","req":"^0.7","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"libmpv-sys","req":"^3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"c508395e93078214f55348d78ca0414bdd128b68ecec1b03eee4f439098355e5","features":{"build_libmpv":[],"default":["protocols","render"],"protocols":[],"render":[]},"yanked":false}
+{
+    "name": "libmpv",
+    "vers": "1.0.0",
+    "deps": [
+        {
+            "name": "crossbeam",
+            "req": "^0.7",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "libmpv-sys",
+            "req": "^3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "c508395e93078214f55348d78ca0414bdd128b68ecec1b03eee4f439098355e5",
+    "features": {
+        "build_libmpv": [],
+        "default": [
+            "protocols",
+            "render"
+        ],
+        "protocols": [],
+        "render": []
+    },
+    "yanked": false
+}

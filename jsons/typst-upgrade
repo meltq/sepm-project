@@ -1,1 +1,81 @@
-{"name":"typst-upgrade","vers":"0.1.0","deps":[{"name":"clap","req":"^4.5.4","features":["derive","env","suggestions"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"regex","req":"^1.10.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"reqwest","req":"^0.12.3","features":["blocking","json"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"semver","req":"^1.0.22","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.197","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.115","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"typst-syntax","req":"^0.11.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"a27e352ad0bab46774f7f6820650f080fbdcfac522bcd0c0c9b0ba370be5daf9","features":{},"yanked":false}
+{
+    "name": "typst-upgrade",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "clap",
+            "req": "^4.5.4",
+            "features": [
+                "derive",
+                "env",
+                "suggestions"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "regex",
+            "req": "^1.10.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "reqwest",
+            "req": "^0.12.3",
+            "features": [
+                "blocking",
+                "json"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "semver",
+            "req": "^1.0.22",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.197",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.115",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "typst-syntax",
+            "req": "^0.11.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "a27e352ad0bab46774f7f6820650f080fbdcfac522bcd0c0c9b0ba370be5daf9",
+    "features": {},
+    "yanked": false
+}

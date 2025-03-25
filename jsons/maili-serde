@@ -1,1 +1,65 @@
-{"name":"maili-serde","vers":"0.1.6","deps":[{"name":"alloy-primitives","req":"^0.8.18","features":["serde"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.217","features":["derive","alloc"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.135","features":["alloc","alloc"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"toml","req":"^0.8.19","features":["parse"],"optional":false,"default_features":false,"target":null,"kind":"dev"}],"cksum":"57a6cf1968babc2d8d078366585e7ae4207ca71f52f0663f6fa8dba94409188d","features":{"default":["std"],"std":["serde/std","serde_json/std","alloy-primitives/serde"]},"yanked":false,"rust_version":"1.81"}
+{
+    "name": "maili-serde",
+    "vers": "0.1.6",
+    "deps": [
+        {
+            "name": "alloy-primitives",
+            "req": "^0.8.18",
+            "features": [
+                "serde"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.217",
+            "features": [
+                "derive",
+                "alloc"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.135",
+            "features": [
+                "alloc",
+                "alloc"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "toml",
+            "req": "^0.8.19",
+            "features": [
+                "parse"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "57a6cf1968babc2d8d078366585e7ae4207ca71f52f0663f6fa8dba94409188d",
+    "features": {
+        "default": [
+            "std"
+        ],
+        "std": [
+            "serde/std",
+            "serde_json/std",
+            "alloy-primitives/serde"
+        ]
+    },
+    "yanked": false,
+    "rust_version": "1.81"
+}

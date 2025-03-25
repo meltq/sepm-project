@@ -1,1 +1,58 @@
-{"name":"somen","vers":"0.1.0","deps":[{"name":"futures","req":"^0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"futures-core","req":"^0.3","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"futures-io","req":"^0.3","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"pin-project-lite","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"6ec70f0b0e34feaba17c419c6d2a5a272e48eec2a2fc976ce14217fb20bcee0e","features":{"alloc":["futures-core/alloc"],"default":["std"],"nightly":[],"std":["alloc","futures-core/std","futures-io"]},"yanked":false}
+{
+    "name": "somen",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "futures",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "futures-core",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "futures-io",
+            "req": "^0.3",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "pin-project-lite",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "6ec70f0b0e34feaba17c419c6d2a5a272e48eec2a2fc976ce14217fb20bcee0e",
+    "features": {
+        "alloc": [
+            "futures-core/alloc"
+        ],
+        "default": [
+            "std"
+        ],
+        "nightly": [],
+        "std": [
+            "alloc",
+            "futures-core/std",
+            "futures-io"
+        ]
+    },
+    "yanked": false
+}

@@ -1,1 +1,30 @@
-{"name":"killswitch_std","vers":"0.2.0","deps":[{"name":"tokio","req":"^1.42.0","features":["macros","time"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"tokio-test","req":"^0.4.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"5fd01c1d4d1c1b3f059f56694d9254739146ff75d7885feb35c3599d1930ec33","features":{},"yanked":false}
+{
+    "name": "killswitch_std",
+    "vers": "0.2.0",
+    "deps": [
+        {
+            "name": "tokio",
+            "req": "^1.42.0",
+            "features": [
+                "macros",
+                "time"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "tokio-test",
+            "req": "^0.4.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "5fd01c1d4d1c1b3f059f56694d9254739146ff75d7885feb35c3599d1930ec33",
+    "features": {},
+    "yanked": false
+}

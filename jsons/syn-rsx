@@ -1,1 +1,43 @@
-{"name":"syn-rsx","vers":"0.1.0","deps":[{"name":"proc-macro2","req":"^1.0.17","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"quote","req":"^1.0.6","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"syn","req":"^1.0.27","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"5f89b9d4503b933916981da0d15090c681e6f3b44e451af6eb41fcadeeb53c6f","features":{"default":[],"syn-extra-traits":["syn/extra-traits"]},"yanked":false}
+{
+    "name": "syn-rsx",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "proc-macro2",
+            "req": "^1.0.17",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "quote",
+            "req": "^1.0.6",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "syn",
+            "req": "^1.0.27",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "5f89b9d4503b933916981da0d15090c681e6f3b44e451af6eb41fcadeeb53c6f",
+    "features": {
+        "default": [],
+        "syn-extra-traits": [
+            "syn/extra-traits"
+        ]
+    },
+    "yanked": false
+}

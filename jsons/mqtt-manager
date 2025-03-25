@@ -1,1 +1,59 @@
-{"name":"mqtt-manager","vers":"1.0.0","deps":[{"name":"bytes","req":"^1.6.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rumqttc","req":"^0.24.0","features":["url"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.37.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.37.0","features":["rt-multi-thread","signal"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"url","req":"^2.5.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"3b4c8d5ba212bcdf6afa84d81eadf586f3808146e2546d7c524bca2504e10bc0","features":{},"yanked":false}
+{
+    "name": "mqtt-manager",
+    "vers": "1.0.0",
+    "deps": [
+        {
+            "name": "bytes",
+            "req": "^1.6.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rumqttc",
+            "req": "^0.24.0",
+            "features": [
+                "url"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.37.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.37.0",
+            "features": [
+                "rt-multi-thread",
+                "signal"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "url",
+            "req": "^2.5.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "3b4c8d5ba212bcdf6afa84d81eadf586f3808146e2546d7c524bca2504e10bc0",
+    "features": {},
+    "yanked": false
+}

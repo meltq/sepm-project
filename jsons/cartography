@@ -1,1 +1,88 @@
-{"name":"cartography","vers":"0.1.0","deps":[{"name":"egui","req":"^0.29","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"egui-wgpu","req":"^0.29","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"geo","req":"^0.29","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"geojson","req":"^0.24","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"num-traits","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rand","req":"^0.8","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"vello","req":"^0.3.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"317928d10d4c9407d7403c4f5304ee998ffa07f8f273fb4c7551876c12d86068","features":{"default":[]},"features2":{"egui":["dep:egui","dep:egui-wgpu","vello"],"geojson":["dep:geojson"],"vello":["dep:vello"]},"yanked":false,"v":2}
+{
+    "name": "cartography",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "egui",
+            "req": "^0.29",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "egui-wgpu",
+            "req": "^0.29",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "geo",
+            "req": "^0.29",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "geojson",
+            "req": "^0.24",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "num-traits",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rand",
+            "req": "^0.8",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "vello",
+            "req": "^0.3.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "317928d10d4c9407d7403c4f5304ee998ffa07f8f273fb4c7551876c12d86068",
+    "features": {
+        "default": []
+    },
+    "features2": {
+        "egui": [
+            "dep:egui",
+            "dep:egui-wgpu",
+            "vello"
+        ],
+        "geojson": [
+            "dep:geojson"
+        ],
+        "vello": [
+            "dep:vello"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

@@ -1,1 +1,67 @@
-{"name":"xiapi","vers":"0.1.0","deps":[{"name":"approx","req":"^0.5.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"image","req":"^0.24.2","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"paste","req":"^1.0.6","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serial_test","req":"^0.6.0","features":["file_locks"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"xiapi-sys","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"ff4058a0f70cccc7ffd6662442624f5fc3528d529c623f64cfdaa3b378d8567c","features":{"default":["image"]},"features2":{"image":["dep:image"]},"yanked":false,"rust_version":"1.59.0","v":2}
+{
+    "name": "xiapi",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "approx",
+            "req": "^0.5.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "image",
+            "req": "^0.24.2",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "paste",
+            "req": "^1.0.6",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serial_test",
+            "req": "^0.6.0",
+            "features": [
+                "file_locks"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "xiapi-sys",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "ff4058a0f70cccc7ffd6662442624f5fc3528d529c623f64cfdaa3b378d8567c",
+    "features": {
+        "default": [
+            "image"
+        ]
+    },
+    "features2": {
+        "image": [
+            "dep:image"
+        ]
+    },
+    "yanked": false,
+    "rust_version": "1.59.0",
+    "v": 2
+}

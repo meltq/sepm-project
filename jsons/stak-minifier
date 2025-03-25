@@ -1,1 +1,65 @@
-{"name":"stak-minifier","vers":"0.1.0","deps":[{"name":"pretty_assertions","req":"^1.4.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"stak-configuration","req":"^0.1.18","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"stak-device","req":"^0.2.22","features":["std"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"stak-macro","req":"^0.1.23","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"stak-primitive","req":"^0.2.23","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"stak-vm","req":"^0.3.23","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"6e28ed3183a84b0c8c0aec3348d59ba69630b2781f467663398173705d020e69","features":{},"yanked":false}
+{
+    "name": "stak-minifier",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "pretty_assertions",
+            "req": "^1.4.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "stak-configuration",
+            "req": "^0.1.18",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "stak-device",
+            "req": "^0.2.22",
+            "features": [
+                "std"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "stak-macro",
+            "req": "^0.1.23",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "stak-primitive",
+            "req": "^0.2.23",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "stak-vm",
+            "req": "^0.3.23",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "6e28ed3183a84b0c8c0aec3348d59ba69630b2781f467663398173705d020e69",
+    "features": {},
+    "yanked": false
+}

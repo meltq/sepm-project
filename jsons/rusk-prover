@@ -1,1 +1,106 @@
-{"name":"rusk-prover","vers":"1.0.0","deps":[{"name":"dusk-bytes","req":"=0.1.7","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"dusk-core","req":"^0.1.0","features":["zk"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"dusk-plonk","req":"=0.20.2","features":["rkyv-impl","alloc"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"hex","req":"=0.4.3","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"hex","req":"=0.4.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"once_cell","req":"=1.19.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rand","req":"=0.8.5","features":["getrandom"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"rusk-profile","req":"^1.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing","req":"=0.1.40","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"6cb6dcba5652436589107e6f043f66ee2e8f1a65c9a2cbd3928ba2ad2087ecb3","features":{"debug":["hex","tracing"],"no_random":[],"std":["dusk-plonk/std"]},"yanked":false}
+{
+    "name": "rusk-prover",
+    "vers": "1.0.0",
+    "deps": [
+        {
+            "name": "dusk-bytes",
+            "req": "=0.1.7",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "dusk-core",
+            "req": "^0.1.0",
+            "features": [
+                "zk"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "dusk-plonk",
+            "req": "=0.20.2",
+            "features": [
+                "rkyv-impl",
+                "alloc"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "hex",
+            "req": "=0.4.3",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "hex",
+            "req": "=0.4.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "once_cell",
+            "req": "=1.19.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rand",
+            "req": "=0.8.5",
+            "features": [
+                "getrandom"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rusk-profile",
+            "req": "^1.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing",
+            "req": "=0.1.40",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "6cb6dcba5652436589107e6f043f66ee2e8f1a65c9a2cbd3928ba2ad2087ecb3",
+    "features": {
+        "debug": [
+            "hex",
+            "tracing"
+        ],
+        "no_random": [],
+        "std": [
+            "dusk-plonk/std"
+        ]
+    },
+    "yanked": false
+}

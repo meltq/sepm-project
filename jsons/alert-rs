@@ -1,1 +1,75 @@
-{"name":"alert-rs","vers":"0.2.0","deps":[{"name":"bump2version","req":"^0.1.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"gloo","req":"^0.11.0","features":["timers"],"optional":true,"default_features":false,"target":null,"kind":"normal"},{"name":"log","req":"^0.4.22","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"wasm-bindgen","req":"^0.2.99","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"web-sys","req":"^0.3.76","features":["Window"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"yew","req":"^0.21.0","features":[],"optional":true,"default_features":false,"target":null,"kind":"normal"}],"cksum":"77a5a78f2dc53ca7e76956f92e7e60d112997f11a5a4f49d269d803149096cb4","features":{},"features2":{"yew":["dep:yew","gloo"]},"yanked":false,"rust_version":"1.79","v":2}
+{
+    "name": "alert-rs",
+    "vers": "0.2.0",
+    "deps": [
+        {
+            "name": "bump2version",
+            "req": "^0.1.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "gloo",
+            "req": "^0.11.0",
+            "features": [
+                "timers"
+            ],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "log",
+            "req": "^0.4.22",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "wasm-bindgen",
+            "req": "^0.2.99",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "web-sys",
+            "req": "^0.3.76",
+            "features": [
+                "Window"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "yew",
+            "req": "^0.21.0",
+            "features": [],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "77a5a78f2dc53ca7e76956f92e7e60d112997f11a5a4f49d269d803149096cb4",
+    "features": {},
+    "features2": {
+        "yew": [
+            "dep:yew",
+            "gloo"
+        ]
+    },
+    "yanked": false,
+    "rust_version": "1.79",
+    "v": 2
+}

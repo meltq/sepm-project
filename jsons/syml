@@ -1,1 +1,61 @@
-{"name":"syml","vers":"0.1.0","deps":[{"name":"linked-hash-map","req":"^0.5.6","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"peg","req":"^0.8.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.197","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.115","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"unicode-ident","req":"^1.0.12","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"c1dffc38f17d4beaad8ee108b635e8822a05f22c297fed2cdc6cef1aeceab77c","features":{"default":[],"serde_impl":["serde","serde/derive","linked-hash-map/serde_impl"]},"yanked":false}
+{
+    "name": "syml",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "linked-hash-map",
+            "req": "^0.5.6",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "peg",
+            "req": "^0.8.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.197",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.115",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "unicode-ident",
+            "req": "^1.0.12",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "c1dffc38f17d4beaad8ee108b635e8822a05f22c297fed2cdc6cef1aeceab77c",
+    "features": {
+        "default": [],
+        "serde_impl": [
+            "serde",
+            "serde/derive",
+            "linked-hash-map/serde_impl"
+        ]
+    },
+    "yanked": false
+}

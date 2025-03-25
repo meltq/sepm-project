@@ -1,1 +1,84 @@
-{"name":"rumoca_parser","vers":"0.4.5","deps":[{"name":"codespan-reporting","req":"^0.11.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"lalrpop","req":"^0.22.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"lalrpop-util","req":"^0.22.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"logos","req":"^0.15.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"macro_rules_attribute","req":"^0.2.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"md5","req":"^0.7.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rerun_except","req":"^1.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"serde","req":"^1.0.214","features":["derive","serde_derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"fbaefdf13df6a6b7e7b73c0a29d41b95b30b601e62c4646613992fb755eaa03a","features":{},"yanked":false}
+{
+    "name": "rumoca_parser",
+    "vers": "0.4.5",
+    "deps": [
+        {
+            "name": "codespan-reporting",
+            "req": "^0.11.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "lalrpop",
+            "req": "^0.22.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "lalrpop-util",
+            "req": "^0.22.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "logos",
+            "req": "^0.15.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "macro_rules_attribute",
+            "req": "^0.2.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "md5",
+            "req": "^0.7.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rerun_except",
+            "req": "^1.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.214",
+            "features": [
+                "derive",
+                "serde_derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "fbaefdf13df6a6b7e7b73c0a29d41b95b30b601e62c4646613992fb755eaa03a",
+    "features": {},
+    "yanked": false
+}

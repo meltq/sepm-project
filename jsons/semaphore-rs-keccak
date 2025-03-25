@@ -1,1 +1,36 @@
-{"name":"semaphore-rs-keccak","vers":"0.1.0","deps":[{"name":"semaphore-rs-hasher","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tiny-keccak","req":"^2.0.2","features":["keccak"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"f122582bfb06700aa25634356139c05db3b7959fa5aa944a6b9aa5c39a53cd99","features":{"default":["sha3"],"sha3":["tiny-keccak/sha3"]},"yanked":false}
+{
+    "name": "semaphore-rs-keccak",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "semaphore-rs-hasher",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tiny-keccak",
+            "req": "^2.0.2",
+            "features": [
+                "keccak"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "f122582bfb06700aa25634356139c05db3b7959fa5aa944a6b9aa5c39a53cd99",
+    "features": {
+        "default": [
+            "sha3"
+        ],
+        "sha3": [
+            "tiny-keccak/sha3"
+        ]
+    },
+    "yanked": false
+}

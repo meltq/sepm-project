@@ -1,1 +1,49 @@
-{"name":"fleetmod","vers":"0.1.0","deps":[{"name":"chrono","req":"^0.4.38","features":["serde"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"chrono-tz","req":"^0.6","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.215","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_yaml","req":"^0.9.34","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"ed56e624153cec09bb9234e2b15e4f1b6a41471ea6c724545f26708baf934f53","features":{},"yanked":false}
+{
+    "name": "fleetmod",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "chrono",
+            "req": "^0.4.38",
+            "features": [
+                "serde"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "chrono-tz",
+            "req": "^0.6",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.215",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_yaml",
+            "req": "^0.9.34",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "ed56e624153cec09bb9234e2b15e4f1b6a41471ea6c724545f26708baf934f53",
+    "features": {},
+    "yanked": false
+}

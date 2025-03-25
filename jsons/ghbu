@@ -1,1 +1,50 @@
-{"name":"ghbu","vers":"0.1.0","deps":[{"name":"clap","req":"^4.5.4","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"git2","req":"^0.18.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"reqwest","req":"^0.12.4","features":["blocking","json"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.116","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"2d426b128ba3a4e043f6af4389de463b260b2dcb35405866c3ec6f8a44eaf978","features":{},"yanked":false}
+{
+    "name": "ghbu",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "clap",
+            "req": "^4.5.4",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "git2",
+            "req": "^0.18.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "reqwest",
+            "req": "^0.12.4",
+            "features": [
+                "blocking",
+                "json"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.116",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "2d426b128ba3a4e043f6af4389de463b260b2dcb35405866c3ec6f8a44eaf978",
+    "features": {},
+    "yanked": false
+}

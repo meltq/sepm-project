@@ -1,1 +1,60 @@
-{"name":"axumapi","vers":"0.1.0","deps":[{"name":"axum","req":"^0.7.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"pyo3","req":"^0.20.0","features":["auto-initialize"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"pyo3-asyncio","req":"^0.20.0","features":["tokio-runtime"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.37.0","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tower","req":"^0.4.13","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"f28a7774493a8575eebcf4228d6286350a02cc5f5bbd60f1a45e0e0a951ff854","features":{},"yanked":false}
+{
+    "name": "axumapi",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "axum",
+            "req": "^0.7.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "pyo3",
+            "req": "^0.20.0",
+            "features": [
+                "auto-initialize"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "pyo3-asyncio",
+            "req": "^0.20.0",
+            "features": [
+                "tokio-runtime"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.37.0",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tower",
+            "req": "^0.4.13",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "f28a7774493a8575eebcf4228d6286350a02cc5f5bbd60f1a45e0e0a951ff854",
+    "features": {},
+    "yanked": false
+}

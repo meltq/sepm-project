@@ -1,1 +1,83 @@
-{"name":"rsmgp-sys","vers":"0.1.0","deps":[{"name":"bindgen","req":"^0.57.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"c_str_macro","req":"^1.0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"cargo-husky","req":"^1","features":["user-hooks"],"optional":false,"default_features":false,"target":null,"kind":"dev"},{"name":"libc","req":"^0.2.95","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"mockall","req":"^0.9.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"mockall_double","req":"^0.2.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serial_test","req":"^0.5.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"snafu","req":"^0.6.10","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"63261266e813f3e6302d9ad8961c61a289e6e6ec50aba4b42234cea69c304bdd","features":{},"yanked":false}
+{
+    "name": "rsmgp-sys",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "bindgen",
+            "req": "^0.57.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "c_str_macro",
+            "req": "^1.0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "cargo-husky",
+            "req": "^1",
+            "features": [
+                "user-hooks"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "libc",
+            "req": "^0.2.95",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "mockall",
+            "req": "^0.9.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "mockall_double",
+            "req": "^0.2.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serial_test",
+            "req": "^0.5.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "snafu",
+            "req": "^0.6.10",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "63261266e813f3e6302d9ad8961c61a289e6e6ec50aba4b42234cea69c304bdd",
+    "features": {},
+    "yanked": false
+}

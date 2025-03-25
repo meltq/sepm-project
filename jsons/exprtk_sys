@@ -1,1 +1,39 @@
-{"name":"exprtk_sys","vers":"0.0.1","deps":[{"name":"gcc","req":"^0.3.54","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"libc","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"f751f4846563bffb435c37c9c89d91c0c66ea2361366fdd7a1042bdddde3a3ba","features":{"break_continue":[],"caseinsensitivity":[],"comments":[],"debug":[],"default":[],"enhanced_features":[],"return_statement":[],"rtl_io_file":[],"rtl_vecops":[],"sc_andor":[],"superscalar_unroll":[]},"yanked":false}
+{
+    "name": "exprtk_sys",
+    "vers": "0.0.1",
+    "deps": [
+        {
+            "name": "gcc",
+            "req": "^0.3.54",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "libc",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "f751f4846563bffb435c37c9c89d91c0c66ea2361366fdd7a1042bdddde3a3ba",
+    "features": {
+        "break_continue": [],
+        "caseinsensitivity": [],
+        "comments": [],
+        "debug": [],
+        "default": [],
+        "enhanced_features": [],
+        "return_statement": [],
+        "rtl_io_file": [],
+        "rtl_vecops": [],
+        "sc_andor": [],
+        "superscalar_unroll": []
+    },
+    "yanked": false
+}

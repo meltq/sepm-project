@@ -1,1 +1,45 @@
-{"name":"egui_hotkey","vers":"0.1.0","deps":[{"name":"eframe","req":"^0.18","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"egui","req":"^0.18","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0","features":["derive"],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"4cff5ffdc5c3d0f0da66821b6bf44ffb35ebdf55c10f413f1dc457caf1a9b322","features":{},"features2":{"serde":["dep:serde","egui/serde"]},"yanked":false,"v":2}
+{
+    "name": "egui_hotkey",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "eframe",
+            "req": "^0.18",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "egui",
+            "req": "^0.18",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [
+                "derive"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "4cff5ffdc5c3d0f0da66821b6bf44ffb35ebdf55c10f413f1dc457caf1a9b322",
+    "features": {},
+    "features2": {
+        "serde": [
+            "dep:serde",
+            "egui/serde"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

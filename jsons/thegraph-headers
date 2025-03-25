@@ -1,1 +1,72 @@
-{"name":"thegraph-headers","vers":"0.1.0","deps":[{"name":"fake","req":"^3.0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"headers","req":"^0.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"http","req":"^1.2.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"serde","req":"^1.0","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thegraph-core","req":"^0.9.0","features":["serde"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"38ced1bb92efbc0a9743144f41ee916a727d45e3fa65f58834221ed5fae7b49f","features":{"attestation":["thegraph-core/attestation"]},"yanked":false,"rust_version":"1.81.0"}
+{
+    "name": "thegraph-headers",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "fake",
+            "req": "^3.0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "headers",
+            "req": "^0.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "http",
+            "req": "^1.2.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thegraph-core",
+            "req": "^0.9.0",
+            "features": [
+                "serde"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "38ced1bb92efbc0a9743144f41ee916a727d45e3fa65f58834221ed5fae7b49f",
+    "features": {
+        "attestation": [
+            "thegraph-core/attestation"
+        ]
+    },
+    "yanked": false,
+    "rust_version": "1.81.0"
+}

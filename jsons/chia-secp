@@ -1,1 +1,87 @@
-{"name":"chia-secp","vers":"0.17.0","deps":[{"name":"anyhow","req":"^1.0.94","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"arbitrary","req":"^1.4.1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"chia-sha2","req":"^0.17.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"hex","req":"^0.4.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"k256","req":"^0.13.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"p256","req":"^0.13.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rand","req":"^0.8.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"rand_chacha","req":"^0.3.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"ac31ae4205b92add186fd27ee81158c7d6ff5f069c8fe3365b2d8ed686010ce9","features":{},"features2":{"arbitrary":["dep:arbitrary"]},"yanked":false,"v":2}
+{
+    "name": "chia-secp",
+    "vers": "0.17.0",
+    "deps": [
+        {
+            "name": "anyhow",
+            "req": "^1.0.94",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "arbitrary",
+            "req": "^1.4.1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "chia-sha2",
+            "req": "^0.17.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "hex",
+            "req": "^0.4.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "k256",
+            "req": "^0.13.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "p256",
+            "req": "^0.13.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rand",
+            "req": "^0.8.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "rand_chacha",
+            "req": "^0.3.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "ac31ae4205b92add186fd27ee81158c7d6ff5f069c8fe3365b2d8ed686010ce9",
+    "features": {},
+    "features2": {
+        "arbitrary": [
+            "dep:arbitrary"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

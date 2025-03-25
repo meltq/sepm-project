@@ -1,1 +1,83 @@
-{"name":"lightning-dns-resolver","vers":"0.1.0","deps":[{"name":"bitcoin","req":"^0.32","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"dnssec-prover","req":"^0.6","features":["std","tokio"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"lightning","req":"^0.1.0-beta1","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"lightning","req":"^0.1.0-beta1","features":["dnssec","_test_utils"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"lightning-types","req":"^0.2.0-beta1","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.0","features":["rt"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.0","features":["macros","time"],"optional":false,"default_features":false,"target":null,"kind":"dev"}],"cksum":"5158b7a162e56106d0d215b691ee42d3efd3379c46a7920c7ff88ac05e43d25e","features":{},"yanked":true}
+{
+    "name": "lightning-dns-resolver",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "bitcoin",
+            "req": "^0.32",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "dnssec-prover",
+            "req": "^0.6",
+            "features": [
+                "std",
+                "tokio"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "lightning",
+            "req": "^0.1.0-beta1",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "lightning",
+            "req": "^0.1.0-beta1",
+            "features": [
+                "dnssec",
+                "_test_utils"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "lightning-types",
+            "req": "^0.2.0-beta1",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.0",
+            "features": [
+                "rt"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.0",
+            "features": [
+                "macros",
+                "time"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "5158b7a162e56106d0d215b691ee42d3efd3379c46a7920c7ff88ac05e43d25e",
+    "features": {},
+    "yanked": true
+}

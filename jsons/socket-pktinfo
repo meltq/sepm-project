@@ -1,1 +1,50 @@
-{"name":"socket-pktinfo","vers":"0.1.0","deps":[{"name":"libc","req":"^0.2.153","features":[],"optional":false,"default_features":true,"target":"cfg(not(windows))","kind":"normal"},{"name":"network-interface","req":"^1.1.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"socket2","req":"^0.4","features":["all"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"winapi","req":"^0.3.9","features":["mswsock"],"optional":false,"default_features":true,"target":"cfg(windows)","kind":"normal"}],"cksum":"7058188ee1f2a66ba36cea830adc6681fe7688f041e57251d921dd159bb7a8a9","features":{},"yanked":false,"rust_version":"1.61.0"}
+{
+    "name": "socket-pktinfo",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "libc",
+            "req": "^0.2.153",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": "cfg(not(windows))",
+            "kind": "normal"
+        },
+        {
+            "name": "network-interface",
+            "req": "^1.1.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "socket2",
+            "req": "^0.4",
+            "features": [
+                "all"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "winapi",
+            "req": "^0.3.9",
+            "features": [
+                "mswsock"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": "cfg(windows)",
+            "kind": "normal"
+        }
+    ],
+    "cksum": "7058188ee1f2a66ba36cea830adc6681fe7688f041e57251d921dd159bb7a8a9",
+    "features": {},
+    "yanked": false,
+    "rust_version": "1.61.0"
+}

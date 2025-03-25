@@ -1,1 +1,42 @@
-{"name":"open-lark","vers":"0.0.1","deps":[{"name":"reqwest","req":"^0.12.3","features":["blocking","json","rustls-tls"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.197","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.115","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"1dafcbb38c0d8229cb8f385a27adae9c8a0a459bf79018d61f0c3d8b1e20840c","features":{},"yanked":false}
+{
+    "name": "open-lark",
+    "vers": "0.0.1",
+    "deps": [
+        {
+            "name": "reqwest",
+            "req": "^0.12.3",
+            "features": [
+                "blocking",
+                "json",
+                "rustls-tls"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.197",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.115",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "1dafcbb38c0d8229cb8f385a27adae9c8a0a459bf79018d61f0c3d8b1e20840c",
+    "features": {},
+    "yanked": false
+}

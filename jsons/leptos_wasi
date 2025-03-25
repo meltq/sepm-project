@@ -1,1 +1,166 @@
-{"name":"leptos_wasi","vers":"0.1.0","deps":[{"name":"bytes","req":"^1.7.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"futures","req":"^0.3.30","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"http","req":"^1.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"hydration_context","req":"^0.2.0-rc2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"leptos","req":"^0.7.0-rc2","features":["nonce","ssr"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"leptos_integration_utils","req":"^0.7.0-rc2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"leptos_macro","req":"^0.7.0-rc2","features":["generic"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"leptos_meta","req":"^0.7.0-rc2","features":["ssr"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"leptos_router","req":"^0.7.0-rc2","features":["ssr"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"mime_guess","req":"^2.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"parking_lot","req":"^0.12.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"routefinder","req":"^0.5.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"server_fn","req":"^0.7.0-rc2","features":["generic"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"throw_error","req":"^0.2.0-rc2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"wasi","req":"^0.13.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"92dec11eaba7c7a2373a621e22a6e5cfc8b04663cd8f564b2f5e93ff4342c3ba","features":{"islands-router":[]},"yanked":false}
+{
+    "name": "leptos_wasi",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "bytes",
+            "req": "^1.7.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "futures",
+            "req": "^0.3.30",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "http",
+            "req": "^1.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "hydration_context",
+            "req": "^0.2.0-rc2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "leptos",
+            "req": "^0.7.0-rc2",
+            "features": [
+                "nonce",
+                "ssr"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "leptos_integration_utils",
+            "req": "^0.7.0-rc2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "leptos_macro",
+            "req": "^0.7.0-rc2",
+            "features": [
+                "generic"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "leptos_meta",
+            "req": "^0.7.0-rc2",
+            "features": [
+                "ssr"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "leptos_router",
+            "req": "^0.7.0-rc2",
+            "features": [
+                "ssr"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "mime_guess",
+            "req": "^2.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "parking_lot",
+            "req": "^0.12.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "routefinder",
+            "req": "^0.5.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "server_fn",
+            "req": "^0.7.0-rc2",
+            "features": [
+                "generic"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "throw_error",
+            "req": "^0.2.0-rc2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "wasi",
+            "req": "^0.13.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "92dec11eaba7c7a2373a621e22a6e5cfc8b04663cd8f564b2f5e93ff4342c3ba",
+    "features": {
+        "islands-router": []
+    },
+    "yanked": false
+}

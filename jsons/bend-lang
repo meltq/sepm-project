@@ -1,1 +1,137 @@
-{"name":"bend-lang","vers":"0.2.3","deps":[{"name":"TSPL","req":"^0.0.12","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"clap","req":"^4.4.1","features":["derive"],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"highlight_error","req":"^0.1.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"hvm-core","req":"=0.3.0-hvm32.compat","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"indexmap","req":"^2.2.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"insta","req":"^1.34.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"interner","req":"^0.2.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"itertools","req":"^0.11.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"loaned","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"parking_lot","req":"^0.12.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"stacker","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"stdext","req":"^0.3.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"walkdir","req":"^2.3.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"5f70c8a1e4c11d024463e67cf9a01839c5cf3a93618f33cc77a141dc91af1afb","features":{},"features2":{"cli":["dep:clap"],"default":["cli"]},"yanked":false,"v":2}
+{
+    "name": "bend-lang",
+    "vers": "0.2.3",
+    "deps": [
+        {
+            "name": "TSPL",
+            "req": "^0.0.12",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "clap",
+            "req": "^4.4.1",
+            "features": [
+                "derive"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "highlight_error",
+            "req": "^0.1.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "hvm-core",
+            "req": "=0.3.0-hvm32.compat",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "indexmap",
+            "req": "^2.2.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "insta",
+            "req": "^1.34.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "interner",
+            "req": "^0.2.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "itertools",
+            "req": "^0.11.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "loaned",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "parking_lot",
+            "req": "^0.12.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "stacker",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "stdext",
+            "req": "^0.3.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "walkdir",
+            "req": "^2.3.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "5f70c8a1e4c11d024463e67cf9a01839c5cf3a93618f33cc77a141dc91af1afb",
+    "features": {},
+    "features2": {
+        "cli": [
+            "dep:clap"
+        ],
+        "default": [
+            "cli"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

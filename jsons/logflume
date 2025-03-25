@@ -1,1 +1,65 @@
-{"name":"logflume","vers":"0.0.1","deps":[{"name":"chrono","req":"^0.4.22","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"core_affinity","req":"^0.5.10","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"crossbeam-channel","req":"^0.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"lockfree","req":"^0.5.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"log","req":"^0.4.17","features":["std"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"log4rs","req":"^1.1.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"9cc506c82175e76f5d82870cf904a6cd6a0ab4ebd6a6b1a0602725370a4ecdb4","features":{},"yanked":false}
+{
+    "name": "logflume",
+    "vers": "0.0.1",
+    "deps": [
+        {
+            "name": "chrono",
+            "req": "^0.4.22",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "core_affinity",
+            "req": "^0.5.10",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "crossbeam-channel",
+            "req": "^0.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "lockfree",
+            "req": "^0.5.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "log",
+            "req": "^0.4.17",
+            "features": [
+                "std"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "log4rs",
+            "req": "^1.1.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "9cc506c82175e76f5d82870cf904a6cd6a0ab4ebd6a6b1a0602725370a4ecdb4",
+    "features": {},
+    "yanked": false
+}

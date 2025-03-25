@@ -1,1 +1,152 @@
-{"name":"kdeets","vers":"0.1.1","deps":[{"name":"clap","req":"^4.5.23","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"clap-verbosity","req":"^2.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"clap-verbosity-flag","req":"^3.0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"colorful","req":"^0.3.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"env_logger","req":"^0.11.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"fs_extra","req":"^1.3.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"log","req":"^0.4.22","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rstest","req":"^0.23.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"semver","req":"^1.0.24","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"simple_logger","req":"^5.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"smol_str","req":"^0.3.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tame-index","req":"^0.16.0","features":["git","local","local-builder","sparse"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tempfile","req":"^3.14.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"thiserror","req":"^2.0.8","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"trycmd","req":"^0.15.8","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"986a7450eb849269e316480091a150e4fbd591e0a1318a26ed6f451d261491a2","features":{},"yanked":false,"rust_version":"1.81"}
+{
+    "name": "kdeets",
+    "vers": "0.1.1",
+    "deps": [
+        {
+            "name": "clap",
+            "req": "^4.5.23",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "clap-verbosity",
+            "req": "^2.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "clap-verbosity-flag",
+            "req": "^3.0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "colorful",
+            "req": "^0.3.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "env_logger",
+            "req": "^0.11.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "fs_extra",
+            "req": "^1.3.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "log",
+            "req": "^0.4.22",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rstest",
+            "req": "^0.23.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "semver",
+            "req": "^1.0.24",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "simple_logger",
+            "req": "^5.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "smol_str",
+            "req": "^0.3.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tame-index",
+            "req": "^0.16.0",
+            "features": [
+                "git",
+                "local",
+                "local-builder",
+                "sparse"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tempfile",
+            "req": "^3.14.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "thiserror",
+            "req": "^2.0.8",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "trycmd",
+            "req": "^0.15.8",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "986a7450eb849269e316480091a150e4fbd591e0a1318a26ed6f451d261491a2",
+    "features": {},
+    "yanked": false,
+    "rust_version": "1.81"
+}

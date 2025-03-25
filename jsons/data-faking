@@ -1,1 +1,136 @@
-{"name":"data-faking","vers":"0.0.6","deps":[{"name":"bitcoin","req":"^0.31.0","features":["rand-std"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"chrono","req":"^0.4.26","features":["serde"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"console_error_panic_hook","req":"^0.1.7","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"getrandom","req":"^0.2","features":["js"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"lazy_static","req":"^1.4.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"md5","req":"^0.7.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rand","req":"^0.8.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rand_isaac","req":"^0.3.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"regex","req":"^1.10.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"uuid","req":"^1.6.1","features":["fast-rng","v1","v3","v4","v5","v6","v7","v8"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"wasm-bindgen","req":"^0.2.84","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"wasm-bindgen-test","req":"^0.3.34","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"5a24dfcd0773c34e12559fa363aaff670b68a5d7e1521b52f3538309fa0ace48","features":{"default":["console_error_panic_hook"]},"yanked":false}
+{
+    "name": "data-faking",
+    "vers": "0.0.6",
+    "deps": [
+        {
+            "name": "bitcoin",
+            "req": "^0.31.0",
+            "features": [
+                "rand-std"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "chrono",
+            "req": "^0.4.26",
+            "features": [
+                "serde"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "console_error_panic_hook",
+            "req": "^0.1.7",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "getrandom",
+            "req": "^0.2",
+            "features": [
+                "js"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "lazy_static",
+            "req": "^1.4.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "md5",
+            "req": "^0.7.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rand",
+            "req": "^0.8.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rand_isaac",
+            "req": "^0.3.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "regex",
+            "req": "^1.10.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "uuid",
+            "req": "^1.6.1",
+            "features": [
+                "fast-rng",
+                "v1",
+                "v3",
+                "v4",
+                "v5",
+                "v6",
+                "v7",
+                "v8"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "wasm-bindgen",
+            "req": "^0.2.84",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "wasm-bindgen-test",
+            "req": "^0.3.34",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "5a24dfcd0773c34e12559fa363aaff670b68a5d7e1521b52f3538309fa0ace48",
+    "features": {
+        "default": [
+            "console_error_panic_hook"
+        ]
+    },
+    "yanked": false
+}

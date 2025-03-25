@@ -1,1 +1,73 @@
-{"name":"laza","vers":"0.1.0","deps":[{"name":"blake3","req":"^1.5.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"criterion","req":"^0.5.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rand","req":"^0.8.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rayon","req":"^1.10.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"sha2","req":"^0.10.8","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"zeroize","req":"^1.8.1","features":["zeroize_derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"bfd578167e5bec922e79f122c3847b72ee18be192c2f12a51e73dfaa27cc92b6","features":{"default":["parallel"],"parallel":["rayon"],"simd":[]},"yanked":false}
+{
+    "name": "laza",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "blake3",
+            "req": "^1.5.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "criterion",
+            "req": "^0.5.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rand",
+            "req": "^0.8.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rayon",
+            "req": "^1.10.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "sha2",
+            "req": "^0.10.8",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "zeroize",
+            "req": "^1.8.1",
+            "features": [
+                "zeroize_derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "bfd578167e5bec922e79f122c3847b72ee18be192c2f12a51e73dfaa27cc92b6",
+    "features": {
+        "default": [
+            "parallel"
+        ],
+        "parallel": [
+            "rayon"
+        ],
+        "simd": []
+    },
+    "yanked": false
+}

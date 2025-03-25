@@ -1,1 +1,43 @@
-{"name":"serde1","vers":"1.0.0","deps":[{"name":"serde","req":"^1.0","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"}],"cksum":"5877f6c64f9f3db64a8b9d01fb9d07658977e5cd9ef9149a88d82791a348bb7d","features":{"alloc":["serde/alloc"],"collections":["serde/collections"],"default":["std"],"derive":["serde/derive"],"playground":["serde/playground"],"rc":["serde/rc"],"std":["serde/std"],"unstable":["serde/unstable"]},"yanked":false}
+{
+    "name": "serde1",
+    "vers": "1.0.0",
+    "deps": [
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "5877f6c64f9f3db64a8b9d01fb9d07658977e5cd9ef9149a88d82791a348bb7d",
+    "features": {
+        "alloc": [
+            "serde/alloc"
+        ],
+        "collections": [
+            "serde/collections"
+        ],
+        "default": [
+            "std"
+        ],
+        "derive": [
+            "serde/derive"
+        ],
+        "playground": [
+            "serde/playground"
+        ],
+        "rc": [
+            "serde/rc"
+        ],
+        "std": [
+            "serde/std"
+        ],
+        "unstable": [
+            "serde/unstable"
+        ]
+    },
+    "yanked": false
+}

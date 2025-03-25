@@ -1,1 +1,192 @@
-{"name":"eio-okta-sync","vers":"0.1.0","deps":[{"name":"camino","req":"^1.1.9","features":["serde1"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"clap","req":"^4.5.20","features":["color","derive","env","error-context","help","std","string","suggestions","unicode","usage","wrap_help"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"divan","req":"^0.1.14","features":[],"optional":false,"default_features":false,"target":null,"kind":"dev"},{"name":"eio-okta-api","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"eio-okta-client","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"eio-okta-data","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"fs-err","req":"^3.0.0","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"indexmap","req":"^2.6.0","features":["serde"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"iri-string","req":"^0.7.7","features":["serde"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"miette","req":"^7.2.0","features":["derive","fancy","serde"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"octocrab","req":"^0.42.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"remain","req":"^0.2.14","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.213","features":["derive","std"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.132","features":["preserve_order"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"serde_yml","req":"^0.0.12","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"thiserror","req":"^1.0.65","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.41.0","features":["full"],"optional":false,"default_features":false,"target":null,"kind":"normal"}],"cksum":"e09da978ca3e4b9c52e5fcd06614b756756d624b0455834d51f4a8d908bf4bdb","features":{},"yanked":false,"rust_version":"1.81"}
+{
+    "name": "eio-okta-sync",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "camino",
+            "req": "^1.1.9",
+            "features": [
+                "serde1"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "clap",
+            "req": "^4.5.20",
+            "features": [
+                "color",
+                "derive",
+                "env",
+                "error-context",
+                "help",
+                "std",
+                "string",
+                "suggestions",
+                "unicode",
+                "usage",
+                "wrap_help"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "divan",
+            "req": "^0.1.14",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "eio-okta-api",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "eio-okta-client",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "eio-okta-data",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "fs-err",
+            "req": "^3.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "indexmap",
+            "req": "^2.6.0",
+            "features": [
+                "serde"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "iri-string",
+            "req": "^0.7.7",
+            "features": [
+                "serde"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "miette",
+            "req": "^7.2.0",
+            "features": [
+                "derive",
+                "fancy",
+                "serde"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "octocrab",
+            "req": "^0.42.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "remain",
+            "req": "^0.2.14",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.213",
+            "features": [
+                "derive",
+                "std"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.132",
+            "features": [
+                "preserve_order"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_yml",
+            "req": "^0.0.12",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^1.0.65",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.41.0",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "e09da978ca3e4b9c52e5fcd06614b756756d624b0455834d51f4a8d908bf4bdb",
+    "features": {},
+    "yanked": false,
+    "rust_version": "1.81"
+}

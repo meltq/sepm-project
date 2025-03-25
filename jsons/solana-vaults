@@ -1,1 +1,65 @@
-{"name":"solana-vaults","vers":"1.0.0","deps":[{"name":"arrayref","req":"^0.3.6","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"solana-farm-sdk","req":"^1.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"solana-program","req":"^1.9.18","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"solana-program-test","req":"^1.9.18","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"spl-token","req":"^3.2.0","features":["no-entrypoint"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"b265de22f62f86fb35aa725578bca007ba20524dd4fdf190b775ef52aa06f227","features":{"RDM-STAKE-LP-COMPOUND":[],"SBR-STAKE-LP-COMPOUND":[],"debug":[],"default":["RDM-STAKE-LP-COMPOUND"],"no-entrypoint":[],"test-bpf":[]},"yanked":true}
+{
+    "name": "solana-vaults",
+    "vers": "1.0.0",
+    "deps": [
+        {
+            "name": "arrayref",
+            "req": "^0.3.6",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "solana-farm-sdk",
+            "req": "^1.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "solana-program",
+            "req": "^1.9.18",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "solana-program-test",
+            "req": "^1.9.18",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "spl-token",
+            "req": "^3.2.0",
+            "features": [
+                "no-entrypoint"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "b265de22f62f86fb35aa725578bca007ba20524dd4fdf190b775ef52aa06f227",
+    "features": {
+        "RDM-STAKE-LP-COMPOUND": [],
+        "SBR-STAKE-LP-COMPOUND": [],
+        "debug": [],
+        "default": [
+            "RDM-STAKE-LP-COMPOUND"
+        ],
+        "no-entrypoint": [],
+        "test-bpf": []
+    },
+    "yanked": true
+}

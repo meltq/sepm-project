@@ -1,1 +1,35 @@
-{"name":"messagepack-async","vers":"0.1.0","deps":[{"name":"tokio","req":"^1","features":["rt","macros","sync","net"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio-util","req":"^0.7","features":["io-util","io"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"a469d1152c27946eec4dc18d80727db643b18028a912097b755c8b5b5ca90832","features":{},"yanked":false}
+{
+    "name": "messagepack-async",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "tokio",
+            "req": "^1",
+            "features": [
+                "rt",
+                "macros",
+                "sync",
+                "net"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio-util",
+            "req": "^0.7",
+            "features": [
+                "io-util",
+                "io"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "a469d1152c27946eec4dc18d80727db643b18028a912097b755c8b5b5ca90832",
+    "features": {},
+    "yanked": false
+}

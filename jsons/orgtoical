@@ -1,1 +1,41 @@
-{"name":"orgtoical","vers":"0.1.0","deps":[{"name":"chrono","req":"^0.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"orgize","req":"^0.10.0-alpha.10","features":["chrono"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"uuid","req":"^1","features":["v4","fast-rng"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"09784ec4d92e30f8967808ccd7d88cd463deda4cc84c1e9d9c4fe3ea59dd89b4","features":{},"yanked":false}
+{
+    "name": "orgtoical",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "chrono",
+            "req": "^0.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "orgize",
+            "req": "^0.10.0-alpha.10",
+            "features": [
+                "chrono"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "uuid",
+            "req": "^1",
+            "features": [
+                "v4",
+                "fast-rng"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "09784ec4d92e30f8967808ccd7d88cd463deda4cc84c1e9d9c4fe3ea59dd89b4",
+    "features": {},
+    "yanked": false
+}

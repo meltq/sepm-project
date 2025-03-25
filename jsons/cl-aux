@@ -1,1 +1,81 @@
-{"name":"cl-aux","vers":"1.0.0","deps":[{"name":"arrayvec","req":"^0.7","features":[],"optional":true,"default_features":false,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0","features":[],"optional":true,"default_features":false,"target":null,"kind":"normal"},{"name":"smallvec","req":"^1.0","features":[],"optional":true,"default_features":false,"target":null,"kind":"normal"},{"name":"staticvec","req":"^0.11","features":[],"optional":true,"default_features":false,"target":null,"kind":"normal"},{"name":"tinyvec","req":"^1.0","features":[],"optional":true,"default_features":false,"target":null,"kind":"normal"}],"cksum":"d5dbf26cd093b1f8002d7e3399a9f0b7e00750aec98d46a75911d687b2268c41","features":{"alloc":[],"default":[],"gat":[],"std":["alloc"]},"features2":{"arrayvec":["dep:arrayvec"],"serde":["dep:serde"],"smallvec":["dep:smallvec"],"staticvec":["dep:staticvec"],"tinyvec":["dep:tinyvec","tinyvec?/alloc"]},"yanked":false,"rust_version":"1.61","v":2}
+{
+    "name": "cl-aux",
+    "vers": "1.0.0",
+    "deps": [
+        {
+            "name": "arrayvec",
+            "req": "^0.7",
+            "features": [],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "smallvec",
+            "req": "^1.0",
+            "features": [],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "staticvec",
+            "req": "^0.11",
+            "features": [],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tinyvec",
+            "req": "^1.0",
+            "features": [],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "d5dbf26cd093b1f8002d7e3399a9f0b7e00750aec98d46a75911d687b2268c41",
+    "features": {
+        "alloc": [],
+        "default": [],
+        "gat": [],
+        "std": [
+            "alloc"
+        ]
+    },
+    "features2": {
+        "arrayvec": [
+            "dep:arrayvec"
+        ],
+        "serde": [
+            "dep:serde"
+        ],
+        "smallvec": [
+            "dep:smallvec"
+        ],
+        "staticvec": [
+            "dep:staticvec"
+        ],
+        "tinyvec": [
+            "dep:tinyvec",
+            "tinyvec?/alloc"
+        ]
+    },
+    "yanked": false,
+    "rust_version": "1.61",
+    "v": 2
+}

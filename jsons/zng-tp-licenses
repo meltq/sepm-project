@@ -1,1 +1,77 @@
-{"name":"zng-tp-licenses","vers":"0.2.2","deps":[{"name":"bincode","req":"^1.3","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"deflate","req":"^1.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"inflate","req":"^0.4","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"zng-txt","req":"^0.2.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"a896cb5b5cc03eb92667166245b0514e8e47650328c199d696ba77e5352e84dd","features":{},"features2":{"build":["dep:serde_json","dep:deflate","dep:bincode"],"bundle":["dep:inflate","dep:bincode"]},"yanked":false,"v":2}
+{
+    "name": "zng-tp-licenses",
+    "vers": "0.2.2",
+    "deps": [
+        {
+            "name": "bincode",
+            "req": "^1.3",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "deflate",
+            "req": "^1.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "inflate",
+            "req": "^0.4",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "zng-txt",
+            "req": "^0.2.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "a896cb5b5cc03eb92667166245b0514e8e47650328c199d696ba77e5352e84dd",
+    "features": {},
+    "features2": {
+        "build": [
+            "dep:serde_json",
+            "dep:deflate",
+            "dep:bincode"
+        ],
+        "bundle": [
+            "dep:inflate",
+            "dep:bincode"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

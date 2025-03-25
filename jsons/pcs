@@ -1,1 +1,179 @@
-{"name":"pcs","vers":"0.1.0","deps":[{"name":"anyhow","req":"^1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"b64-ct","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"base16","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"dcap-ql","req":"^0.4.0","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"failure","req":"^0.1.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"hex","req":"^0.4.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"mbedtls","req":"^0.12.3","features":["std","time"],"optional":true,"default_features":false,"target":null,"kind":"normal"},{"name":"num","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"percent-encoding","req":"^2.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"pkix","req":"^0.2.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"quick-error","req":"^1.2.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rustc-serialize","req":"^0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.7","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0","features":["raw_value"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"sgx-isa","req":"^0.4.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"sgx_pkix","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"yasna","req":"^0.3","features":["num-bigint","bit-vec"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"23320155dd9ed4674c6c72223423ce93b38073ba3825d629a08143d250fdd9a9","features":{"sgx":[],"verify":["anyhow","mbedtls","mbedtls/x509"]},"yanked":false}
+{
+    "name": "pcs",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "anyhow",
+            "req": "^1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "b64-ct",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "base16",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "dcap-ql",
+            "req": "^0.4.0",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "failure",
+            "req": "^0.1.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "hex",
+            "req": "^0.4.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "mbedtls",
+            "req": "^0.12.3",
+            "features": [
+                "std",
+                "time"
+            ],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "num",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "percent-encoding",
+            "req": "^2.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "pkix",
+            "req": "^0.2.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "quick-error",
+            "req": "^1.2.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rustc-serialize",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.7",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0",
+            "features": [
+                "raw_value"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "sgx-isa",
+            "req": "^0.4.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "sgx_pkix",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "yasna",
+            "req": "^0.3",
+            "features": [
+                "num-bigint",
+                "bit-vec"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "23320155dd9ed4674c6c72223423ce93b38073ba3825d629a08143d250fdd9a9",
+    "features": {
+        "sgx": [],
+        "verify": [
+            "anyhow",
+            "mbedtls",
+            "mbedtls/x509"
+        ]
+    },
+    "yanked": false
+}

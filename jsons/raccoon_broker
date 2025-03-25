@@ -1,1 +1,101 @@
-{"name":"raccoon_broker","vers":"0.1.0","deps":[{"name":"chrono","req":"^0.4","features":["serde"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"lapin","req":"^2.3.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.197","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.114","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio-executor-trait","req":"^2.1.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio-reactor-trait","req":"^1.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio-stream","req":"^0.1.14","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"uuid","req":"^1.7.0","features":["v4","serde"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"3e74171281f2c4aa51d774973eb50c7de35e5656e1b9cfe1193627fc75a466e7","features":{},"yanked":false}
+{
+    "name": "raccoon_broker",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "chrono",
+            "req": "^0.4",
+            "features": [
+                "serde"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "lapin",
+            "req": "^2.3.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.197",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.114",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio-executor-trait",
+            "req": "^2.1.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio-reactor-trait",
+            "req": "^1.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio-stream",
+            "req": "^0.1.14",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "uuid",
+            "req": "^1.7.0",
+            "features": [
+                "v4",
+                "serde"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "3e74171281f2c4aa51d774973eb50c7de35e5656e1b9cfe1193627fc75a466e7",
+    "features": {},
+    "yanked": false
+}

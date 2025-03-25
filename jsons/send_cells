@@ -1,1 +1,19 @@
-{"name":"send_cells","vers":"0.1.0","deps":[{"name":"wasm_thread","req":"^0.3.3","features":[],"optional":false,"default_features":true,"target":"cfg(target_arch=\"wasm32\")","kind":"normal"}],"cksum":"0b25aec59c07ec52ffba3b9f9428dfdf5b9051be037d303918448ff2adadd914","features":{},"yanked":false,"rust_version":"1.78.0"}
+{
+    "name": "send_cells",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "wasm_thread",
+            "req": "^0.3.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": "cfg(target_arch=\"wasm32\")",
+            "kind": "normal"
+        }
+    ],
+    "cksum": "0b25aec59c07ec52ffba3b9f9428dfdf5b9051be037d303918448ff2adadd914",
+    "features": {},
+    "yanked": false,
+    "rust_version": "1.78.0"
+}

@@ -1,1 +1,29 @@
-{"name":"sh-secgen","vers":"0.1.0","deps":[{"name":"ed25519-dalek","req":"^2.1.1","features":["rand_core"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rand","req":"^0.8.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"7947004c996c0d16fee86b75eb6528964fc1825ca5cba0c9c3d77ed089105043","features":{},"yanked":false}
+{
+    "name": "sh-secgen",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "ed25519-dalek",
+            "req": "^2.1.1",
+            "features": [
+                "rand_core"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rand",
+            "req": "^0.8.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "7947004c996c0d16fee86b75eb6528964fc1825ca5cba0c9c3d77ed089105043",
+    "features": {},
+    "yanked": false
+}

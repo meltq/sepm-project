@@ -1,1 +1,90 @@
-{"name":"sos-core","vers":"0.16.0","deps":[{"name":"hex","req":"^0.4","features":["serde"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"mime_guess","req":"^2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rs_merkle","req":"^1.4.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rustc_version","req":"^0.4.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"serde","req":"^1","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"url","req":"^2","features":["serde"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"uuid","req":"^1","features":["serde","v4"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"8ede4d3b2c891c8ef37820c73973413c58cb8b7563eb4c1bbb35e7d5f331237b","features":{},"yanked":false}
+{
+    "name": "sos-core",
+    "vers": "0.16.0",
+    "deps": [
+        {
+            "name": "hex",
+            "req": "^0.4",
+            "features": [
+                "serde"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "mime_guess",
+            "req": "^2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rs_merkle",
+            "req": "^1.4.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rustc_version",
+            "req": "^0.4.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "serde",
+            "req": "^1",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "url",
+            "req": "^2",
+            "features": [
+                "serde"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "uuid",
+            "req": "^1",
+            "features": [
+                "serde",
+                "v4"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "8ede4d3b2c891c8ef37820c73973413c58cb8b7563eb4c1bbb35e7d5f331237b",
+    "features": {},
+    "yanked": false
+}

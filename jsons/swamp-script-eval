@@ -1,1 +1,112 @@
-{"name":"swamp-script-eval","vers":"0.0.2-a03","deps":[{"name":"fixed32","req":"^0.0.17","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"pest","req":"^2.7.14","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"seq-fmt","req":"^0.0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"swamp-script-analyzer","req":"^0.0.2-a03","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"swamp-script-ast","req":"^0.0.2-a03","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"swamp-script-dep-loader","req":"^0.0.2-a03","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"swamp-script-eval-loader","req":"^0.0.2-a03","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"swamp-script-parser","req":"^0.0.2-a03","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"swamp-script-semantic","req":"^0.0.2-a03","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"test-log","req":"^0.2.16","features":["trace","log","color"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"tracing","req":"^0.1.40","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"f1d74630af6f1a383a4303ec2c7091c6b2b84f43b93e71e30fea275d75cbcc12","features":{},"yanked":false}
+{
+    "name": "swamp-script-eval",
+    "vers": "0.0.2-a03",
+    "deps": [
+        {
+            "name": "fixed32",
+            "req": "^0.0.17",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "pest",
+            "req": "^2.7.14",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "seq-fmt",
+            "req": "^0.0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "swamp-script-analyzer",
+            "req": "^0.0.2-a03",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "swamp-script-ast",
+            "req": "^0.0.2-a03",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "swamp-script-dep-loader",
+            "req": "^0.0.2-a03",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "swamp-script-eval-loader",
+            "req": "^0.0.2-a03",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "swamp-script-parser",
+            "req": "^0.0.2-a03",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "swamp-script-semantic",
+            "req": "^0.0.2-a03",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "test-log",
+            "req": "^0.2.16",
+            "features": [
+                "trace",
+                "log",
+                "color"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1.40",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "f1d74630af6f1a383a4303ec2c7091c6b2b84f43b93e71e30fea275d75cbcc12",
+    "features": {},
+    "yanked": false
+}

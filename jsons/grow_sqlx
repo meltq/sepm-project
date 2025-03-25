@@ -1,1 +1,34 @@
-{"name":"grow_sqlx","vers":"0.1.0","deps":[{"name":"ron","req":"^0.8.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"sqlx","req":"^0.8.2","features":["runtime-async-std","sqlite","postgres","mysql","macros","migrate"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"bc229ca38ece3b87ba555ca474ec128baab6d7e236404505aca6728ace34acda","features":{},"yanked":false}
+{
+    "name": "grow_sqlx",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "ron",
+            "req": "^0.8.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "sqlx",
+            "req": "^0.8.2",
+            "features": [
+                "runtime-async-std",
+                "sqlite",
+                "postgres",
+                "mysql",
+                "macros",
+                "migrate"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "bc229ca38ece3b87ba555ca474ec128baab6d7e236404505aca6728ace34acda",
+    "features": {},
+    "yanked": false
+}

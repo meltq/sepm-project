@@ -1,1 +1,74 @@
-{"name":"scuffle-h3-webtransport","vers":"0.0.0","deps":[{"name":"bytes","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"futures-util","req":"^0.3","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"h3","req":"^0","features":["i-implement-a-third-party-backend-and-opt-into-breaking-changes"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"http","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"pin-project-lite","req":"^0.2","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.28","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"tracing","req":"^0.1.37","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"9c9bbd6884e1cda8cd399215596379a6f12b935bf15ef5880eb7452ba928557f","features":{},"yanked":false}
+{
+    "name": "scuffle-h3-webtransport",
+    "vers": "0.0.0",
+    "deps": [
+        {
+            "name": "bytes",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "futures-util",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "h3",
+            "req": "^0",
+            "features": [
+                "i-implement-a-third-party-backend-and-opt-into-breaking-changes"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "http",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "pin-project-lite",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.28",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1.37",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "9c9bbd6884e1cda8cd399215596379a6f12b935bf15ef5880eb7452ba928557f",
+    "features": {},
+    "yanked": false
+}

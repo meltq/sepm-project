@@ -1,1 +1,61 @@
-{"name":"acme-tensor","vers":"0.3.0-nightly","deps":[{"name":"acme-core","req":"^0.3.0-nightly","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"num","req":"^0.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1","features":["derive"],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"strum","req":"^0.26","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"7362a4fb7301ff76b47363a910124b09241484d9f7f148d8000062fa1b1fbeee","features":{"default":[],"serde-ext":["acme-core/serde"]},"features2":{"serde":["dep:serde","serde-ext"]},"yanked":false,"v":2}
+{
+    "name": "acme-tensor",
+    "vers": "0.3.0-nightly",
+    "deps": [
+        {
+            "name": "acme-core",
+            "req": "^0.3.0-nightly",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "num",
+            "req": "^0.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1",
+            "features": [
+                "derive"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "strum",
+            "req": "^0.26",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "7362a4fb7301ff76b47363a910124b09241484d9f7f148d8000062fa1b1fbeee",
+    "features": {
+        "default": [],
+        "serde-ext": [
+            "acme-core/serde"
+        ]
+    },
+    "features2": {
+        "serde": [
+            "dep:serde",
+            "serde-ext"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

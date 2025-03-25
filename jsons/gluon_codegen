@@ -1,1 +1,65 @@
-{"name":"gluon_codegen","vers":"0.8.0","deps":[{"name":"gluon","req":">= 0.7.0","features":["serialization"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"proc-macro2","req":"^0.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"quote","req":"^0.6","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"serde_derive","req":"^1.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"syn","req":"^0.14","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"b3a13e1c3182f958eb843ca5bf164afe61e1d4eb36e837be804df05f3e34df5d","features":{},"yanked":false}
+{
+    "name": "gluon_codegen",
+    "vers": "0.8.0",
+    "deps": [
+        {
+            "name": "gluon",
+            "req": ">= 0.7.0",
+            "features": [
+                "serialization"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "proc-macro2",
+            "req": "^0.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "quote",
+            "req": "^0.6",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "serde_derive",
+            "req": "^1.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "syn",
+            "req": "^0.14",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "b3a13e1c3182f958eb843ca5bf164afe61e1d4eb36e837be804df05f3e34df5d",
+    "features": {},
+    "yanked": false
+}

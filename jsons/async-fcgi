@@ -1,1 +1,128 @@
-{"name":"async-fcgi","vers":"0.1.0","deps":[{"name":"bytes","req":"^0.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"http","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"http-body","req":"^0.3.1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"httparse","req":"^1.3.4","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"hyper","req":"^0.13","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"log","req":"^0.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"pretty_env_logger","req":"^0.4.0","features":[],"optional":false,"default_features":false,"target":null,"kind":"dev"},{"name":"slab","req":"^0.4.2","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^0.2.21","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^0.2","features":["rt-core","macros"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"tokio-util","req":"^0.3.1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"5b420b90a796656464583ad00c8ce3b138ed6f67ef2b64b3833ea6b61a46dc15","features":{"application":["tokio-util/codec"],"con_pool":["web_server"],"default":[],"web_server":["slab","http-body","httparse","tokio/tcp","tokio/uds","tokio/io-util","tokio/sync"]},"yanked":false}
+{
+    "name": "async-fcgi",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "bytes",
+            "req": "^0.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "http",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "http-body",
+            "req": "^0.3.1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "httparse",
+            "req": "^1.3.4",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "hyper",
+            "req": "^0.13",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "log",
+            "req": "^0.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "pretty_env_logger",
+            "req": "^0.4.0",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "slab",
+            "req": "^0.4.2",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^0.2.21",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^0.2",
+            "features": [
+                "rt-core",
+                "macros"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "tokio-util",
+            "req": "^0.3.1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "5b420b90a796656464583ad00c8ce3b138ed6f67ef2b64b3833ea6b61a46dc15",
+    "features": {
+        "application": [
+            "tokio-util/codec"
+        ],
+        "con_pool": [
+            "web_server"
+        ],
+        "default": [],
+        "web_server": [
+            "slab",
+            "http-body",
+            "httparse",
+            "tokio/tcp",
+            "tokio/uds",
+            "tokio/io-util",
+            "tokio/sync"
+        ]
+    },
+    "yanked": false
+}

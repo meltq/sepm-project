@@ -1,1 +1,108 @@
-{"name":"binator_core","vers":"0.0.0","deps":[{"name":"either","req":"^1.7","features":[],"optional":true,"default_features":false,"target":null,"kind":"normal"},{"name":"owo-colors","req":"^3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"quote","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"rustfmt-wrapper","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"serde","req":"^1.0","features":["derive"],"optional":true,"default_features":false,"target":null,"kind":"normal"},{"name":"smallvec","req":"^1.7","features":["const_new","union","const_generics"],"optional":true,"default_features":false,"target":null,"kind":"normal"},{"name":"syn","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"tracing","req":"^0.1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"559a59ac2abb30c9feb2e2c643b6c15c1a7c0babe88be7858be1cca97a469029","features":{"alloc":[],"default":["hashmap","serde","smallvec","either"],"hashmap":["std"],"nightly":[],"std":["alloc"]},"features2":{"tracing":["dep:tracing"]},"yanked":false,"v":2}
+{
+    "name": "binator_core",
+    "vers": "0.0.0",
+    "deps": [
+        {
+            "name": "either",
+            "req": "^1.7",
+            "features": [],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "owo-colors",
+            "req": "^3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "quote",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "rustfmt-wrapper",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [
+                "derive"
+            ],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "smallvec",
+            "req": "^1.7",
+            "features": [
+                "const_new",
+                "union",
+                "const_generics"
+            ],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "syn",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "559a59ac2abb30c9feb2e2c643b6c15c1a7c0babe88be7858be1cca97a469029",
+    "features": {
+        "alloc": [],
+        "default": [
+            "hashmap",
+            "serde",
+            "smallvec",
+            "either"
+        ],
+        "hashmap": [
+            "std"
+        ],
+        "nightly": [],
+        "std": [
+            "alloc"
+        ]
+    },
+    "features2": {
+        "tracing": [
+            "dep:tracing"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

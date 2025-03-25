@@ -1,1 +1,53 @@
-{"name":"encrypted-message","vers":"0.1.0","deps":[{"name":"diesel","req":"^2.1.5","features":["serde_json"],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.197","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.115","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"97f80e90f4783587af106a34b6ed04eb4ab033c481ac7aa665de52a40e8705f0","features":{"diesel-mysql":["diesel/mysql"],"diesel-postgres":["diesel/postgres"]},"features2":{"diesel":["dep:diesel"]},"yanked":true,"v":2}
+{
+    "name": "encrypted-message",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "diesel",
+            "req": "^2.1.5",
+            "features": [
+                "serde_json"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.197",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.115",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "97f80e90f4783587af106a34b6ed04eb4ab033c481ac7aa665de52a40e8705f0",
+    "features": {
+        "diesel-mysql": [
+            "diesel/mysql"
+        ],
+        "diesel-postgres": [
+            "diesel/postgres"
+        ]
+    },
+    "features2": {
+        "diesel": [
+            "dep:diesel"
+        ]
+    },
+    "yanked": true,
+    "v": 2
+}

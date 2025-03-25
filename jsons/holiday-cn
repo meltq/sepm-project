@@ -1,1 +1,81 @@
-{"name":"holiday-cn","vers":"0.1.20250102","deps":[{"name":"dashmap","req":"^6.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"once_cell","req":"^1.19","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"serde_json","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"time","req":"^0.3","features":["parsing","formatting","macros","local-offset"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"f0f945f0e3a8419f84908c997b840919f5921e7e7128304fdaed0f58f6353569","features":{},"yanked":false}
+{
+    "name": "holiday-cn",
+    "vers": "0.1.20250102",
+    "deps": [
+        {
+            "name": "dashmap",
+            "req": "^6.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "once_cell",
+            "req": "^1.19",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "time",
+            "req": "^0.3",
+            "features": [
+                "parsing",
+                "formatting",
+                "macros",
+                "local-offset"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "f0f945f0e3a8419f84908c997b840919f5921e7e7128304fdaed0f58f6353569",
+    "features": {},
+    "yanked": false
+}

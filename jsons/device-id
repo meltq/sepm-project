@@ -1,1 +1,40 @@
-{"name":"device-id","vers":"0.1.0","deps":[{"name":"cache-dir","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing","req":"^0.1.41","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"uuid","req":"^1.11.0","features":["v4","serde","fast-rng"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"e2862620597c473a263f41335e17f5c479f9183f55fa5693eeed0c382a3f70a8","features":{},"yanked":false}
+{
+    "name": "device-id",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "cache-dir",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1.41",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "uuid",
+            "req": "^1.11.0",
+            "features": [
+                "v4",
+                "serde",
+                "fast-rng"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "e2862620597c473a263f41335e17f5c479f9183f55fa5693eeed0c382a3f70a8",
+    "features": {},
+    "yanked": false
+}

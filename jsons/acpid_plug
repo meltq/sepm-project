@@ -1,1 +1,43 @@
-{"name":"acpid_plug","vers":"0.1.0","deps":[{"name":"futures-util","req":"^0.3.30","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.37.0","features":["fs","io-util","net"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.37.0","features":["macros","rt"],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"569c4a1a5b836486003ad9041d3aa5a980cc62e223103bb7477eef8fca560af5","features":{},"yanked":true}
+{
+    "name": "acpid_plug",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "futures-util",
+            "req": "^0.3.30",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.37.0",
+            "features": [
+                "fs",
+                "io-util",
+                "net"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.37.0",
+            "features": [
+                "macros",
+                "rt"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "569c4a1a5b836486003ad9041d3aa5a980cc62e223103bb7477eef8fca560af5",
+    "features": {},
+    "yanked": true
+}

@@ -1,1 +1,50 @@
-{"name":"rlua-lua53-sys","vers":"0.1.0","deps":[{"name":"bindgen","req":"^0.59.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"cc","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"libc","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"pkg-config","req":"^0.3.24","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"}],"cksum":"2acb8e446fa89cafd88fdd2141f53293041d65661bef86983902abfde84d3e9b","features":{"default":[],"lua53-pkg-config":[],"static":[]},"yanked":false,"links":"lua5.3"}
+{
+    "name": "rlua-lua53-sys",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "bindgen",
+            "req": "^0.59.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "cc",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "libc",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "pkg-config",
+            "req": "^0.3.24",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        }
+    ],
+    "cksum": "2acb8e446fa89cafd88fdd2141f53293041d65661bef86983902abfde84d3e9b",
+    "features": {
+        "default": [],
+        "lua53-pkg-config": [],
+        "static": []
+    },
+    "yanked": false,
+    "links": "lua5.3"
+}

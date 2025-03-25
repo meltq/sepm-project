@@ -1,1 +1,196 @@
-{"name":"musicgpt","vers":"0.1.16","deps":[{"name":"clap","req":"^4.5.4","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"cpal","req":"^0.15.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"directories","req":"^5.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"futures-util","req":"^0.3.30","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"hound","req":"^3.5.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"indicatif","req":"^0.17.8","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"log","req":"^0.4.21","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"ndarray","req":"^0.15.6","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"num-traits","req":"^0.2.18","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"openssl","req":"^0.10.59","features":["vendored"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"ort","req":"^2.0.0-rc.2","features":["cuda","tensorrt"],"optional":false,"default_features":true,"target":"cfg(target_os = \"linux\")","kind":"normal"},{"name":"ort","req":"^2.0.0-rc.2","features":["coreml"],"optional":false,"default_features":true,"target":"cfg(target_os = \"macos\")","kind":"normal"},{"name":"ort","req":"^2.0.0-rc.2","features":["cuda","tensorrt"],"optional":false,"default_features":true,"target":"cfg(target_os = \"windows\")","kind":"normal"},{"name":"rand","req":"^0.8.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"reqwest","req":"^0.12.4","features":["stream"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.200","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.116","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokenizers","req":"^0.19.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.37.0","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"92520e5c88172c46c067f668adbab4f594a4aec3a2ab91f308432e7630dd7244","features":{},"yanked":false}
+{
+    "name": "musicgpt",
+    "vers": "0.1.16",
+    "deps": [
+        {
+            "name": "clap",
+            "req": "^4.5.4",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "cpal",
+            "req": "^0.15.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "directories",
+            "req": "^5.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "futures-util",
+            "req": "^0.3.30",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "hound",
+            "req": "^3.5.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "indicatif",
+            "req": "^0.17.8",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "log",
+            "req": "^0.4.21",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ndarray",
+            "req": "^0.15.6",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "num-traits",
+            "req": "^0.2.18",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "openssl",
+            "req": "^0.10.59",
+            "features": [
+                "vendored"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ort",
+            "req": "^2.0.0-rc.2",
+            "features": [
+                "cuda",
+                "tensorrt"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": "cfg(target_os = \"linux\")",
+            "kind": "normal"
+        },
+        {
+            "name": "ort",
+            "req": "^2.0.0-rc.2",
+            "features": [
+                "coreml"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": "cfg(target_os = \"macos\")",
+            "kind": "normal"
+        },
+        {
+            "name": "ort",
+            "req": "^2.0.0-rc.2",
+            "features": [
+                "cuda",
+                "tensorrt"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": "cfg(target_os = \"windows\")",
+            "kind": "normal"
+        },
+        {
+            "name": "rand",
+            "req": "^0.8.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "reqwest",
+            "req": "^0.12.4",
+            "features": [
+                "stream"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.200",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.116",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokenizers",
+            "req": "^0.19.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.37.0",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "92520e5c88172c46c067f668adbab4f594a4aec3a2ab91f308432e7630dd7244",
+    "features": {},
+    "yanked": false
+}

@@ -1,1 +1,40 @@
-{"name":"term_size","vers":"0.1.0","deps":[{"name":"clippy","req":"~0.0.74","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"libc","req":"~0.2.9","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"a6a7c9a4de31e5622ec38533988a9e965aab09b26ee8bd7b8b0f56d488c3784d","features":{"debug":[],"default":[],"lints":["clippy","nightly"],"nightly":[],"travis":["lints","nightly"],"unstable":[]},"yanked":false}
+{
+    "name": "term_size",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "clippy",
+            "req": "~0.0.74",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "libc",
+            "req": "~0.2.9",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "a6a7c9a4de31e5622ec38533988a9e965aab09b26ee8bd7b8b0f56d488c3784d",
+    "features": {
+        "debug": [],
+        "default": [],
+        "lints": [
+            "clippy",
+            "nightly"
+        ],
+        "nightly": [],
+        "travis": [
+            "lints",
+            "nightly"
+        ],
+        "unstable": []
+    },
+    "yanked": false
+}

@@ -1,1 +1,47 @@
-{"name":"zng-swgl","vers":"0.1.0","deps":[{"name":"cc","req":"^1.0.46","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"gleam","req":"^0.15","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"glsl-to-cxx","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"build","package":"zng-glsl-to-cxx"},{"name":"webrender-build","req":"^0.0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"build","package":"zng-webrender-build"}],"cksum":"d9f0cacb3f8cd828214dad1327ff05455ded30c5ddeac8170ac81ac9dfe77a65","features":{},"yanked":false}
+{
+    "name": "zng-swgl",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "cc",
+            "req": "^1.0.46",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "gleam",
+            "req": "^0.15",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "glsl-to-cxx",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build",
+            "package": "zng-glsl-to-cxx"
+        },
+        {
+            "name": "webrender-build",
+            "req": "^0.0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build",
+            "package": "zng-webrender-build"
+        }
+    ],
+    "cksum": "d9f0cacb3f8cd828214dad1327ff05455ded30c5ddeac8170ac81ac9dfe77a65",
+    "features": {},
+    "yanked": false
+}

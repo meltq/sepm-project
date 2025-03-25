@@ -1,1 +1,51 @@
-{"name":"vizier-adql","vers":"0.1.0","deps":[{"name":"reqwest","req":"^0.11","features":["json"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.0","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"e4ab10d19ad32c1563dd65e752e4a97a89d723f57bf41ed8ac13200623e8106c","features":{},"yanked":false}
+{
+    "name": "vizier-adql",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "reqwest",
+            "req": "^0.11",
+            "features": [
+                "json"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.0",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "e4ab10d19ad32c1563dd65e752e4a97a89d723f57bf41ed8ac13200623e8106c",
+    "features": {},
+    "yanked": false
+}

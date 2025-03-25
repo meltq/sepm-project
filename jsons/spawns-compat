@@ -1,1 +1,96 @@
-{"name":"spawns-compat","vers":"0.1.0","deps":[{"name":"async-global-executor","req":"^2.4.1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"async-std","req":"^1.12.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"linkme","req":"^0.3.25","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"smol","req":"^2.0.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"spawns-core","req":"^1.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.37.0","features":["rt"],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.37.0","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"d132c39586b3ead14d0e8a450f866fcb2aa127b36b58a8f231353e63c8b9d357","features":{"default":[]},"features2":{"async-global-executor":["linkme","spawns-core/compat","dep:async-global-executor"],"smol":["linkme","spawns-core/compat","dep:smol"],"tokio":["linkme","spawns-core/compat","dep:tokio"]},"yanked":false,"v":2}
+{
+    "name": "spawns-compat",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "async-global-executor",
+            "req": "^2.4.1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "async-std",
+            "req": "^1.12.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "linkme",
+            "req": "^0.3.25",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "smol",
+            "req": "^2.0.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "spawns-core",
+            "req": "^1.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.37.0",
+            "features": [
+                "rt"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.37.0",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "d132c39586b3ead14d0e8a450f866fcb2aa127b36b58a8f231353e63c8b9d357",
+    "features": {
+        "default": []
+    },
+    "features2": {
+        "async-global-executor": [
+            "linkme",
+            "spawns-core/compat",
+            "dep:async-global-executor"
+        ],
+        "smol": [
+            "linkme",
+            "spawns-core/compat",
+            "dep:smol"
+        ],
+        "tokio": [
+            "linkme",
+            "spawns-core/compat",
+            "dep:tokio"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

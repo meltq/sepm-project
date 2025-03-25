@@ -1,1 +1,88 @@
-{"name":"miku-http-util","vers":"0.1.0","deps":[{"name":"fluent-uri","req":"^0.3.2","features":[],"optional":true,"default_features":false,"target":null,"kind":"normal"},{"name":"foldhash","req":"^0.1.4","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"http","req":"^1.0.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"macro-toolset","req":"^0.8.0-rc.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"md-5","req":"^0.10.6","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing","req":"^0.1.40","features":[],"optional":true,"default_features":false,"target":null,"kind":"normal"}],"cksum":"5d5810692551c08bb35ccfa9eab651f719246284f1922e3bc242f5916e1b443a","features":{},"features2":{"dev":["feat-integrate-http","feat-tracing","feat-request-builder","feat-request-parser"],"feat-integrate-http":["dep:http"],"feat-request-builder":["macro-toolset/feat-string-ext-urlencoding","dep:md-5","macro-toolset/feat-hash"],"feat-request-parser":["dep:fluent-uri","dep:foldhash"],"feat-tracing":["dep:tracing"]},"yanked":false,"rust_version":"1.75.0","v":2}
+{
+    "name": "miku-http-util",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "fluent-uri",
+            "req": "^0.3.2",
+            "features": [],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "foldhash",
+            "req": "^0.1.4",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "http",
+            "req": "^1.0.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "macro-toolset",
+            "req": "^0.8.0-rc.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "md-5",
+            "req": "^0.10.6",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1.40",
+            "features": [],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "5d5810692551c08bb35ccfa9eab651f719246284f1922e3bc242f5916e1b443a",
+    "features": {},
+    "features2": {
+        "dev": [
+            "feat-integrate-http",
+            "feat-tracing",
+            "feat-request-builder",
+            "feat-request-parser"
+        ],
+        "feat-integrate-http": [
+            "dep:http"
+        ],
+        "feat-request-builder": [
+            "macro-toolset/feat-string-ext-urlencoding",
+            "dep:md-5",
+            "macro-toolset/feat-hash"
+        ],
+        "feat-request-parser": [
+            "dep:fluent-uri",
+            "dep:foldhash"
+        ],
+        "feat-tracing": [
+            "dep:tracing"
+        ]
+    },
+    "yanked": false,
+    "rust_version": "1.75.0",
+    "v": 2
+}

@@ -1,1 +1,29 @@
-{"name":"mssf-pal","vers":"0.0.1","deps":[{"name":"libc","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"windows","req":"^0.51","features":["Win32_Foundation"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"b7a222a0e4495c50b4c70ead5a9d69962e898a146d05e43cb63ff0e94306fca5","features":{},"yanked":false}
+{
+    "name": "mssf-pal",
+    "vers": "0.0.1",
+    "deps": [
+        {
+            "name": "libc",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "windows",
+            "req": "^0.51",
+            "features": [
+                "Win32_Foundation"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "b7a222a0e4495c50b4c70ead5a9d69962e898a146d05e43cb63ff0e94306fca5",
+    "features": {},
+    "yanked": false
+}

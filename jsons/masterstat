@@ -1,1 +1,66 @@
-{"name":"masterstat","vers":"0.1.0","deps":[{"name":"anyhow","req":"^1.0.82","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"futures","req":"^0.3.30","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"pretty_assertions","req":"^1.4.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"tokio","req":"^1.37.0","features":["rt","sync"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"zerocopy","req":"^0.7.32","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"zerocopy-derive","req":"^0.7.32","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"2cac98dd2d652d51916f9347936aaf8d1e073e4204e6691457df7571671ebdfc","features":{},"yanked":false}
+{
+    "name": "masterstat",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "anyhow",
+            "req": "^1.0.82",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "futures",
+            "req": "^0.3.30",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "pretty_assertions",
+            "req": "^1.4.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.37.0",
+            "features": [
+                "rt",
+                "sync"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "zerocopy",
+            "req": "^0.7.32",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "zerocopy-derive",
+            "req": "^0.7.32",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "2cac98dd2d652d51916f9347936aaf8d1e073e4204e6691457df7571671ebdfc",
+    "features": {},
+    "yanked": false
+}

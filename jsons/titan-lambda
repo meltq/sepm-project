@@ -1,1 +1,47 @@
-{"name":"titan-lambda","vers":"0.1.5","deps":[{"name":"futures-util","req":"^0.3.31","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"lambda_http","req":"^0.14.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"titan-core","req":"^0.1.5","features":["deploy-lambda"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"titan-http","req":"^0.1.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"0cb0e3c1104c028f86f7eafb93c4b71536408f24491761f2754939ad9cb719b0","features":{},"yanked":false}
+{
+    "name": "titan-lambda",
+    "vers": "0.1.5",
+    "deps": [
+        {
+            "name": "futures-util",
+            "req": "^0.3.31",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "lambda_http",
+            "req": "^0.14.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "titan-core",
+            "req": "^0.1.5",
+            "features": [
+                "deploy-lambda"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "titan-http",
+            "req": "^0.1.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "0cb0e3c1104c028f86f7eafb93c4b71536408f24491761f2754939ad9cb719b0",
+    "features": {},
+    "yanked": false
+}

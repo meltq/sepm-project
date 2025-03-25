@@ -1,1 +1,65 @@
-{"name":"penumbra-sdk-auto-https","vers":"0.82.0-alpha.0","deps":[{"name":"anyhow","req":"^1.0.75","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"axum-server","req":"^0.7.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"futures","req":"^0.3.28","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rustls","req":"^0.23.20","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rustls-acme","req":"^0.12.1","features":["axum"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"72acd5314f384be009d9bbf593db4f352f11c07afe7548cc99c7b5e6874c7184","features":{},"yanked":false}
+{
+    "name": "penumbra-sdk-auto-https",
+    "vers": "0.82.0-alpha.0",
+    "deps": [
+        {
+            "name": "anyhow",
+            "req": "^1.0.75",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "axum-server",
+            "req": "^0.7.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "futures",
+            "req": "^0.3.28",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rustls",
+            "req": "^0.23.20",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rustls-acme",
+            "req": "^0.12.1",
+            "features": [
+                "axum"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "72acd5314f384be009d9bbf593db4f352f11c07afe7548cc99c7b5e6874c7184",
+    "features": {},
+    "yanked": false
+}

@@ -1,1 +1,54 @@
-{"name":"input-rs","vers":"0.2.0","deps":[{"name":"regex","req":"^1.10.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"serde","req":"^1.0.193","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"web-sys","req":"^0.3.64","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"yew","req":"^0.21.0","features":[],"optional":true,"default_features":false,"target":null,"kind":"normal"}],"cksum":"f22d9091e6bb52a91af43d94d4a744938b0d940b04c6bf2e3d90926f9a909b60","features":{},"features2":{"yew":["dep:yew"]},"yanked":false,"rust_version":"1.79","v":2}
+{
+    "name": "input-rs",
+    "vers": "0.2.0",
+    "deps": [
+        {
+            "name": "regex",
+            "req": "^1.10.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.193",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "web-sys",
+            "req": "^0.3.64",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "yew",
+            "req": "^0.21.0",
+            "features": [],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "f22d9091e6bb52a91af43d94d4a744938b0d940b04c6bf2e3d90926f9a909b60",
+    "features": {},
+    "features2": {
+        "yew": [
+            "dep:yew"
+        ]
+    },
+    "yanked": false,
+    "rust_version": "1.79",
+    "v": 2
+}

@@ -1,1 +1,66 @@
-{"name":"titan-server","vers":"0.1.0","deps":[{"name":"chrono","req":"^0.4.38","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"futures-util","req":"^0.3.31","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"titan-core","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"titan-http","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.42.0","features":["net","io-util","rt"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"f358e4cd27e46b1246aa8a42096aa628810359e0a816f4ccd3798e3c6729bf76","features":{"default":[]},"features2":{"date-header":["dep:chrono"]},"yanked":false,"v":2}
+{
+    "name": "titan-server",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "chrono",
+            "req": "^0.4.38",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "futures-util",
+            "req": "^0.3.31",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "titan-core",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "titan-http",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.42.0",
+            "features": [
+                "net",
+                "io-util",
+                "rt"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "f358e4cd27e46b1246aa8a42096aa628810359e0a816f4ccd3798e3c6729bf76",
+    "features": {
+        "default": []
+    },
+    "features2": {
+        "date-header": [
+            "dep:chrono"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

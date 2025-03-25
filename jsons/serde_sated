@@ -1,1 +1,38 @@
-{"name":"serde_sated","vers":"0.1.0","deps":[{"name":"serde","req":"^1.0.198","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"serde_json","req":"^1.0.116","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"syn","req":"^2.0.60","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"38f14f9abdc518f0ca396ff24c2ec528006542172347559e71a9bfa7358d9466","features":{},"yanked":false}
+{
+    "name": "serde_sated",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "serde",
+            "req": "^1.0.198",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.116",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "syn",
+            "req": "^2.0.60",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "38f14f9abdc518f0ca396ff24c2ec528006542172347559e71a9bfa7358d9466",
+    "features": {},
+    "yanked": false
+}

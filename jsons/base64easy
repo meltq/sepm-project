@@ -1,1 +1,29 @@
-{"name":"base64easy","vers":"0.1.0","deps":[{"name":"rand","req":"^0.8","features":["small_rng"],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"d78bacb69bd79ba9d75cdad2202a5a54c8fee38bd1b3716fcb9e4bbba62c6661","features":{"alloc":[],"default":["std"],"std":["alloc"]},"yanked":false,"rust_version":"1.56"}
+{
+    "name": "base64easy",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "rand",
+            "req": "^0.8",
+            "features": [
+                "small_rng"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "d78bacb69bd79ba9d75cdad2202a5a54c8fee38bd1b3716fcb9e4bbba62c6661",
+    "features": {
+        "alloc": [],
+        "default": [
+            "std"
+        ],
+        "std": [
+            "alloc"
+        ]
+    },
+    "yanked": false,
+    "rust_version": "1.56"
+}

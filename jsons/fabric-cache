@@ -1,1 +1,29 @@
-{"name":"fabric-cache","vers":"0.1.0","deps":[{"name":"serde_json","req":"^1.0.133","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"6bdc9e6ad01cb04ee6c3bf913c190934ddd0ea975eb45bb44a2137923436077d","features":{},"yanked":false}
+{
+    "name": "fabric-cache",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "serde_json",
+            "req": "^1.0.133",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "6bdc9e6ad01cb04ee6c3bf913c190934ddd0ea975eb45bb44a2137923436077d",
+    "features": {},
+    "yanked": false
+}

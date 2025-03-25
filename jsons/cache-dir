@@ -1,1 +1,48 @@
-{"name":"cache-dir","vers":"0.1.0","deps":[{"name":"dirs","req":"^5.0.1","features":[],"optional":false,"default_features":true,"target":"cfg(not(any(target_os = \"android\", target_os = \"ios\")))","kind":"normal"},{"name":"droid-wrap","req":"^0.3.6","features":["android_app","android_content"],"optional":false,"default_features":true,"target":"cfg(target_os = \"android\")","kind":"normal"},{"name":"objc2","req":"^0.5.2","features":[],"optional":false,"default_features":true,"target":"cfg(target_os=\"ios\")","kind":"normal"},{"name":"objc2-foundation","req":"^0.2.2","features":[],"optional":false,"default_features":true,"target":"cfg(target_os=\"ios\")","kind":"normal"}],"cksum":"6f3215a79648be19a7ce0ab769256939cae3c5e8c30c0e725b8e9f1ff4345642","features":{},"yanked":false}
+{
+    "name": "cache-dir",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "dirs",
+            "req": "^5.0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": "cfg(not(any(target_os = \"android\", target_os = \"ios\")))",
+            "kind": "normal"
+        },
+        {
+            "name": "droid-wrap",
+            "req": "^0.3.6",
+            "features": [
+                "android_app",
+                "android_content"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": "cfg(target_os = \"android\")",
+            "kind": "normal"
+        },
+        {
+            "name": "objc2",
+            "req": "^0.5.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": "cfg(target_os=\"ios\")",
+            "kind": "normal"
+        },
+        {
+            "name": "objc2-foundation",
+            "req": "^0.2.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": "cfg(target_os=\"ios\")",
+            "kind": "normal"
+        }
+    ],
+    "cksum": "6f3215a79648be19a7ce0ab769256939cae3c5e8c30c0e725b8e9f1ff4345642",
+    "features": {},
+    "yanked": false
+}

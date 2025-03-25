@@ -1,1 +1,39 @@
-{"name":"quarve","vers":"0.1.0","deps":[{"name":"cc","req":"^1.0.94","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"quarve_derive","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rand","req":"^0.8.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"9a6170f0d5eb2696d6f616a505115a4dbc5b8e58bcf3237a0bb09e19b2f46672","features":{"default":[],"qt_backend":[]},"yanked":false}
+{
+    "name": "quarve",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "cc",
+            "req": "^1.0.94",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "quarve_derive",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rand",
+            "req": "^0.8.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "9a6170f0d5eb2696d6f616a505115a4dbc5b8e58bcf3237a0bb09e19b2f46672",
+    "features": {
+        "default": [],
+        "qt_backend": []
+    },
+    "yanked": false
+}

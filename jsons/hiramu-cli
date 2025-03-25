@@ -1,1 +1,48 @@
-{"name":"hiramu-cli","vers":"0.1.0","deps":[{"name":"clap","req":"^4.5.4","features":["derive","cargo"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"futures-util","req":"^0.3.30","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"hiramu","req":"^0.1.9","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.37.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"1215c6c19d3b2932ae9d5b787634d566cbf9f38a48bb6680ee29055ad530af63","features":{},"yanked":false}
+{
+    "name": "hiramu-cli",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "clap",
+            "req": "^4.5.4",
+            "features": [
+                "derive",
+                "cargo"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "futures-util",
+            "req": "^0.3.30",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "hiramu",
+            "req": "^0.1.9",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.37.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "1215c6c19d3b2932ae9d5b787634d566cbf9f38a48bb6680ee29055ad530af63",
+    "features": {},
+    "yanked": false
+}

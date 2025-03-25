@@ -1,1 +1,50 @@
-{"name":"miniorm-example-todo","vers":"0.1.0","deps":[{"name":"dotenv","req":"^0.15.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"miniorm","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"sqlx","req":"^0.7.4","features":["runtime-tokio","chrono"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.36.0","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"403922bcfca364555dd9920228960e926ef3537882a26674054a876f8a3cc1d9","features":{},"yanked":false}
+{
+    "name": "miniorm-example-todo",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "dotenv",
+            "req": "^0.15.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "miniorm",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "sqlx",
+            "req": "^0.7.4",
+            "features": [
+                "runtime-tokio",
+                "chrono"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.36.0",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "403922bcfca364555dd9920228960e926ef3537882a26674054a876f8a3cc1d9",
+    "features": {},
+    "yanked": false
+}

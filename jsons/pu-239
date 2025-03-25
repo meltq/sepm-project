@@ -1,1 +1,43 @@
-{"name":"pu-239","vers":"0.1.0","deps":[{"name":"proc-macro2","req":"^1","features":["span-locations"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"quote","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"syn","req":"^2","features":["visit","visit-mut","full","extra-traits"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"2a61cd401e5f137c700027d8f6b1b4ba3a7a2149b784c16cb2615538f1433126","features":{},"yanked":false}
+{
+    "name": "pu-239",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "proc-macro2",
+            "req": "^1",
+            "features": [
+                "span-locations"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "quote",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "syn",
+            "req": "^2",
+            "features": [
+                "visit",
+                "visit-mut",
+                "full",
+                "extra-traits"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "2a61cd401e5f137c700027d8f6b1b4ba3a7a2149b784c16cb2615538f1433126",
+    "features": {},
+    "yanked": false
+}

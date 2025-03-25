@@ -1,1 +1,86 @@
-{"name":"diesel_derives","vers":"0.99.0","deps":[{"name":"cfg-if","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"clippy","req":"= 0.0.162","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"diesel","req":"^0.16","features":["sqlite","postgres","mysql"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"dotenv","req":">= 0.8, < 0.11","features":[],"optional":false,"default_features":false,"target":null,"kind":"dev"},{"name":"quote","req":"^0.3.12","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"syn","req":"^0.11.4","features":["aster"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tempdir","req":"^0.3.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"ad228b6fd05c86050b95f56e497a8135073ffce28602e2200e63a21047eb474d","features":{"default":[],"lint":["clippy"],"mysql":[],"postgres":[],"sqlite":[]},"yanked":false}
+{
+    "name": "diesel_derives",
+    "vers": "0.99.0",
+    "deps": [
+        {
+            "name": "cfg-if",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "clippy",
+            "req": "= 0.0.162",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "diesel",
+            "req": "^0.16",
+            "features": [
+                "sqlite",
+                "postgres",
+                "mysql"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "dotenv",
+            "req": ">= 0.8, < 0.11",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "quote",
+            "req": "^0.3.12",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "syn",
+            "req": "^0.11.4",
+            "features": [
+                "aster"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tempdir",
+            "req": "^0.3.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "ad228b6fd05c86050b95f56e497a8135073ffce28602e2200e63a21047eb474d",
+    "features": {
+        "default": [],
+        "lint": [
+            "clippy"
+        ],
+        "mysql": [],
+        "postgres": [],
+        "sqlite": []
+    },
+    "yanked": false
+}

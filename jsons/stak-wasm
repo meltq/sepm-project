@@ -1,1 +1,78 @@
-{"name":"stak-wasm","vers":"0.1.1","deps":[{"name":"stak-compiler","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"stak-configuration","req":"^0.1.16","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"stak-device","req":"^0.2","features":["std"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"stak-primitive","req":"^0.2","features":["std"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"stak-vm","req":"^0.3","features":["std"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"wasm-bindgen","req":"^0.2.84","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"wasm-bindgen-test","req":"^0.3.34","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"37b467daba26593bc853842e4c6939376abac87702e8ae260e031dfb482da6ed","features":{},"yanked":false}
+{
+    "name": "stak-wasm",
+    "vers": "0.1.1",
+    "deps": [
+        {
+            "name": "stak-compiler",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "stak-configuration",
+            "req": "^0.1.16",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "stak-device",
+            "req": "^0.2",
+            "features": [
+                "std"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "stak-primitive",
+            "req": "^0.2",
+            "features": [
+                "std"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "stak-vm",
+            "req": "^0.3",
+            "features": [
+                "std"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "wasm-bindgen",
+            "req": "^0.2.84",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "wasm-bindgen-test",
+            "req": "^0.3.34",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "37b467daba26593bc853842e4c6939376abac87702e8ae260e031dfb482da6ed",
+    "features": {},
+    "yanked": false
+}

@@ -1,1 +1,43 @@
-{"name":"synapps","vers":"0.2.0","deps":[{"name":"chrono","req":"^0.4.39","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.217","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.42.0","features":["sync","rt","macros","time"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"6c8de5708261a036379263602cdd0783eb3308f662c77058a2896c13b33a9e8b","features":{},"yanked":false}
+{
+    "name": "synapps",
+    "vers": "0.2.0",
+    "deps": [
+        {
+            "name": "chrono",
+            "req": "^0.4.39",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.217",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.42.0",
+            "features": [
+                "sync",
+                "rt",
+                "macros",
+                "time"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "6c8de5708261a036379263602cdd0783eb3308f662c77058a2896c13b33a9e8b",
+    "features": {},
+    "yanked": false
+}

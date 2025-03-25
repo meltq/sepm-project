@@ -1,1 +1,31 @@
-{"name":"steamgriddb-dl","vers":"0.9.0","deps":[{"name":"serde","req":"^1","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"ureq","req":"^2.12.1","features":["json"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"4efcf32e699706e1a6d2605eba1fb5dc3eca6ff535804e57e053e3f82a459d91","features":{},"yanked":false}
+{
+    "name": "steamgriddb-dl",
+    "vers": "0.9.0",
+    "deps": [
+        {
+            "name": "serde",
+            "req": "^1",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ureq",
+            "req": "^2.12.1",
+            "features": [
+                "json"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "4efcf32e699706e1a6d2605eba1fb5dc3eca6ff535804e57e053e3f82a459d91",
+    "features": {},
+    "yanked": false
+}

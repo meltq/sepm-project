@@ -1,1 +1,47 @@
-{"name":"quest-sys","vers":"0.1.0","deps":[{"name":"bindgen","req":"^0.59","features":[],"optional":true,"default_features":true,"target":null,"kind":"build"},{"name":"cmake","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"openmp-sys","req":"^1.2.0","features":["static"],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"fd31930d631f54cd3173f9ee973f3fc638a374c65ea64c443497fc075c216eab","features":{"default":[],"openmp":["openmp-sys"],"rebuild":["bindgen"]},"yanked":false,"rust_version":"1.56"}
+{
+    "name": "quest-sys",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "bindgen",
+            "req": "^0.59",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "cmake",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "openmp-sys",
+            "req": "^1.2.0",
+            "features": [
+                "static"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "fd31930d631f54cd3173f9ee973f3fc638a374c65ea64c443497fc075c216eab",
+    "features": {
+        "default": [],
+        "openmp": [
+            "openmp-sys"
+        ],
+        "rebuild": [
+            "bindgen"
+        ]
+    },
+    "yanked": false,
+    "rust_version": "1.56"
+}

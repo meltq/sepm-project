@@ -1,1 +1,46 @@
-{"name":"drone-cortexm","vers":"0.12.0","deps":[{"name":"drone-core","req":"^0.12.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"drone-cortexm-macros","req":"= 0.12.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"futures","req":"^0.3.0","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"}],"cksum":"63aab3046b7047c7d17b3ff46ce9949347e8c12c2cbabbbcca61c5ed093bd838","features":{"bit-band":[],"default":[],"floating-point-unit":[],"memory-protection-unit":[],"security-extension":[],"std":["drone-core/std","futures/std"]},"yanked":false}
+{
+    "name": "drone-cortexm",
+    "vers": "0.12.0",
+    "deps": [
+        {
+            "name": "drone-core",
+            "req": "^0.12.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "drone-cortexm-macros",
+            "req": "= 0.12.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "futures",
+            "req": "^0.3.0",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "63aab3046b7047c7d17b3ff46ce9949347e8c12c2cbabbbcca61c5ed093bd838",
+    "features": {
+        "bit-band": [],
+        "default": [],
+        "floating-point-unit": [],
+        "memory-protection-unit": [],
+        "security-extension": [],
+        "std": [
+            "drone-core/std",
+            "futures/std"
+        ]
+    },
+    "yanked": false
+}

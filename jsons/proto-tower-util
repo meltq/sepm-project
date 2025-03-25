@@ -1,1 +1,34 @@
-{"name":"proto-tower-util","vers":"0.1.0","deps":[{"name":"tokio","req":"^1.43.0","features":["io-util","time","macros","rt"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.43.0","features":["rt-multi-thread"],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"8697e80f6edf9bdacc829cab677c60eda8f9026e1d8960063b8eca902dffca6b","features":{},"yanked":false}
+{
+    "name": "proto-tower-util",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "tokio",
+            "req": "^1.43.0",
+            "features": [
+                "io-util",
+                "time",
+                "macros",
+                "rt"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.43.0",
+            "features": [
+                "rt-multi-thread"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "8697e80f6edf9bdacc829cab677c60eda8f9026e1d8960063b8eca902dffca6b",
+    "features": {},
+    "yanked": false
+}

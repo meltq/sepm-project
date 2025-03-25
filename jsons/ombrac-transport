@@ -1,1 +1,113 @@
-{"name":"ombrac-transport","vers":"0.2.1","deps":[{"name":"aws-lc-rs","req":"^1","features":["bindgen"],"optional":true,"default_features":false,"target":null,"kind":"normal"},{"name":"ombrac","req":"^0.2.1","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"ombrac-macros","req":"^0.2.1","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"quinn","req":"^0.11","features":["runtime-tokio","rustls-aws-lc-rs"],"optional":true,"default_features":false,"target":null,"kind":"normal"},{"name":"rustls","req":"^0.23","features":[],"optional":true,"default_features":false,"target":null,"kind":"normal"},{"name":"rustls-pemfile","req":"^2.2","features":["std"],"optional":true,"default_features":false,"target":null,"kind":"normal"},{"name":"tokio","req":"^1","features":["sync"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"tracing","req":"^0.1","features":[],"optional":true,"default_features":false,"target":null,"kind":"normal"},{"name":"webpki-roots","req":"^0.26","features":[],"optional":true,"default_features":false,"target":null,"kind":"normal"}],"cksum":"847e38731017ca26913feb873991285ff57cb6cb3e95bc091010fbabc6912817","features":{"quic":["quinn","rustls","rustls-pemfile","aws-lc-rs","webpki-roots"]},"features2":{"tracing":["dep:tracing"]},"yanked":false,"v":2}
+{
+    "name": "ombrac-transport",
+    "vers": "0.2.1",
+    "deps": [
+        {
+            "name": "aws-lc-rs",
+            "req": "^1",
+            "features": [
+                "bindgen"
+            ],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ombrac",
+            "req": "^0.2.1",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ombrac-macros",
+            "req": "^0.2.1",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "quinn",
+            "req": "^0.11",
+            "features": [
+                "runtime-tokio",
+                "rustls-aws-lc-rs"
+            ],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rustls",
+            "req": "^0.23",
+            "features": [],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rustls-pemfile",
+            "req": "^2.2",
+            "features": [
+                "std"
+            ],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1",
+            "features": [
+                "sync"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1",
+            "features": [],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "webpki-roots",
+            "req": "^0.26",
+            "features": [],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "847e38731017ca26913feb873991285ff57cb6cb3e95bc091010fbabc6912817",
+    "features": {
+        "quic": [
+            "quinn",
+            "rustls",
+            "rustls-pemfile",
+            "aws-lc-rs",
+            "webpki-roots"
+        ]
+    },
+    "features2": {
+        "tracing": [
+            "dep:tracing"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

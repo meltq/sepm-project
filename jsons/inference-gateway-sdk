@@ -1,1 +1,50 @@
-{"name":"inference-gateway-sdk","vers":"0.1.2","deps":[{"name":"mockito","req":"^1.6.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"reqwest","req":"^0.12.12","features":["blocking","json"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.217","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.137","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"9b8c0dc45ae20d1c955cee048b4cc6a61a01eecef2ae850ef80076a3b6381af9","features":{},"yanked":false}
+{
+    "name": "inference-gateway-sdk",
+    "vers": "0.1.2",
+    "deps": [
+        {
+            "name": "mockito",
+            "req": "^1.6.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "reqwest",
+            "req": "^0.12.12",
+            "features": [
+                "blocking",
+                "json"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.217",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.137",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "9b8c0dc45ae20d1c955cee048b4cc6a61a01eecef2ae850ef80076a3b6381af9",
+    "features": {},
+    "yanked": false
+}

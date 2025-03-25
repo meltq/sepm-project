@@ -1,1 +1,63 @@
-{"name":"scopegraphs-macros","vers":"0.1.0","deps":[{"name":"proc-macro2","req":"^1.0.69","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"quote","req":"^1.0.33","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"scopegraphs","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"scopegraphs-regular-expressions","req":"^0.1.0","features":["rust-code-emitting","dot"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"syn","req":"^2.0.29","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"110a648839ba7bf85930f34ec2a9b4bfce060d5ae41fdea7e79cd145ad52e795","features":{"dot":["scopegraphs-regular-expressions/dot"]},"yanked":false}
+{
+    "name": "scopegraphs-macros",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "proc-macro2",
+            "req": "^1.0.69",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "quote",
+            "req": "^1.0.33",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "scopegraphs",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "scopegraphs-regular-expressions",
+            "req": "^0.1.0",
+            "features": [
+                "rust-code-emitting",
+                "dot"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "syn",
+            "req": "^2.0.29",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "110a648839ba7bf85930f34ec2a9b4bfce060d5ae41fdea7e79cd145ad52e795",
+    "features": {
+        "dot": [
+            "scopegraphs-regular-expressions/dot"
+        ]
+    },
+    "yanked": false
+}

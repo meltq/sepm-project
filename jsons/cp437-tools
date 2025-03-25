@@ -1,1 +1,76 @@
-{"name":"cp437-tools","vers":"0.1.0","deps":[{"name":"atty","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"endianness","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"indoc","req":"^2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"lazy_static","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"png","req":"^0.17","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rust-embed","req":"^8","features":["include-exclude","interpolate-folder-path"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"ttf-parser","req":"^0.20","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"41bfa78dc1add8702b54e55dc94d6dbeb64624a8f4ca0b12a810eca6dddabf13","features":{},"yanked":false,"rust_version":"1.77.0"}
+{
+    "name": "cp437-tools",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "atty",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "endianness",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "indoc",
+            "req": "^2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "lazy_static",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "png",
+            "req": "^0.17",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rust-embed",
+            "req": "^8",
+            "features": [
+                "include-exclude",
+                "interpolate-folder-path"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ttf-parser",
+            "req": "^0.20",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "41bfa78dc1add8702b54e55dc94d6dbeb64624a8f4ca0b12a810eca6dddabf13",
+    "features": {},
+    "yanked": false,
+    "rust_version": "1.77.0"
+}

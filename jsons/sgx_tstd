@@ -1,1 +1,74 @@
-{"name":"sgx_tstd","vers":"0.9.8","deps":[{"name":"sgx_alloc","req":"^0.9.8","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"sgx_build_helper","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"sgx_tprotected_fs","req":"^0.9.8","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"sgx_trts","req":"^0.9.8","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"sgx_types","req":"^0.9.8","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"sgx_unwind","req":"^0.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"f3a99559870bfbb939f5baf0e7fc438e8d629c987da4af4f4d0b3a0a24a224a1","features":{"backtrace":["stdio"],"default":["stdio"],"net":[],"stdio":[],"untrusted_fs":[],"untrusted_time":[]},"yanked":false}
+{
+    "name": "sgx_tstd",
+    "vers": "0.9.8",
+    "deps": [
+        {
+            "name": "sgx_alloc",
+            "req": "^0.9.8",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "sgx_build_helper",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "sgx_tprotected_fs",
+            "req": "^0.9.8",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "sgx_trts",
+            "req": "^0.9.8",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "sgx_types",
+            "req": "^0.9.8",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "sgx_unwind",
+            "req": "^0.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "f3a99559870bfbb939f5baf0e7fc438e8d629c987da4af4f4d0b3a0a24a224a1",
+    "features": {
+        "backtrace": [
+            "stdio"
+        ],
+        "default": [
+            "stdio"
+        ],
+        "net": [],
+        "stdio": [],
+        "untrusted_fs": [],
+        "untrusted_time": []
+    },
+    "yanked": false
+}

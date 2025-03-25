@@ -1,1 +1,58 @@
-{"name":"http-timings","vers":"0.1.0","deps":[{"name":"brotli","req":"^5.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"flate2","req":"^1.0.28","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rustls","req":"^0.23.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rustls-connector","req":"^0.20.0","features":["rustls-native-certs","webpki-roots","webpki-roots-certs"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"url","req":"^2.5.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"d9a86fc263997568661889771872092c89c8fb143126afe1af5f9cd9bc3ad7b5","features":{},"yanked":true}
+{
+    "name": "http-timings",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "brotli",
+            "req": "^5.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "flate2",
+            "req": "^1.0.28",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rustls",
+            "req": "^0.23.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rustls-connector",
+            "req": "^0.20.0",
+            "features": [
+                "rustls-native-certs",
+                "webpki-roots",
+                "webpki-roots-certs"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "url",
+            "req": "^2.5.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "d9a86fc263997568661889771872092c89c8fb143126afe1af5f9cd9bc3ad7b5",
+    "features": {},
+    "yanked": true
+}

@@ -1,1 +1,75 @@
-{"name":"i_dao","vers":"0.1.0","deps":[{"name":"env_logger","req":"^0.11.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"lazy_static","req":"^1.4.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"log","req":"^0.4.21","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"mysql","req":"^25.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"r2d2_mysql","req":"^24.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.197","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.115","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"8e93e28e12ef90dee3d5f413e40a5d89cf1b62a0ff2131039b6dcc375db8708c","features":{},"yanked":false,"rust_version":"1.74"}
+{
+    "name": "i_dao",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "env_logger",
+            "req": "^0.11.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "lazy_static",
+            "req": "^1.4.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "log",
+            "req": "^0.4.21",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "mysql",
+            "req": "^25.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "r2d2_mysql",
+            "req": "^24.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.197",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.115",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "8e93e28e12ef90dee3d5f413e40a5d89cf1b62a0ff2131039b6dcc375db8708c",
+    "features": {},
+    "yanked": false,
+    "rust_version": "1.74"
+}

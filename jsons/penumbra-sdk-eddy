@@ -1,1 +1,127 @@
-{"name":"penumbra-sdk-eddy","vers":"0.82.0-alpha.0","deps":[{"name":"anyhow","req":"^1.0.75","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"ark-ff","req":"^0.4.2","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"ark-std","req":"^0.4","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"decaf377","req":"^0.10.1","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"futures","req":"^0.3.28","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"merlin","req":"^3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"parking_lot","req":"^0.12.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"proptest","req":"^1.6","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rand","req":"^0.8.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rand_core","req":"^0.6.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.39.0","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"5d29076c169f2424fbfef9927f58146580c309d81396b578a1b0ba4f7d3bda91","features":{"default":["std"],"std":["ark-ff/std","ark-std/std"]},"yanked":false}
+{
+    "name": "penumbra-sdk-eddy",
+    "vers": "0.82.0-alpha.0",
+    "deps": [
+        {
+            "name": "anyhow",
+            "req": "^1.0.75",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ark-ff",
+            "req": "^0.4.2",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ark-std",
+            "req": "^0.4",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "decaf377",
+            "req": "^0.10.1",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "futures",
+            "req": "^0.3.28",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "merlin",
+            "req": "^3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "parking_lot",
+            "req": "^0.12.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "proptest",
+            "req": "^1.6",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rand",
+            "req": "^0.8.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rand_core",
+            "req": "^0.6.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.39.0",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "5d29076c169f2424fbfef9927f58146580c309d81396b578a1b0ba4f7d3bda91",
+    "features": {
+        "default": [
+            "std"
+        ],
+        "std": [
+            "ark-ff/std",
+            "ark-std/std"
+        ]
+    },
+    "yanked": false
+}

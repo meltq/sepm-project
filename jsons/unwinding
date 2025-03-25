@@ -1,1 +1,83 @@
-{"name":"unwinding","vers":"0.1.0","deps":[{"name":"gimli","req":"^0.25.0","features":["read"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"libc","req":"^0.2","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"spin","req":"^0.9","features":["mutex","spin_mutex"],"optional":true,"default_features":false,"target":null,"kind":"normal"}],"cksum":"58467a2f3560cf0e53d0df4efce3d736fefa682a8e5563be3b6ff88fb48d2d5a","features":{"alloc":[],"default":["unwinder","dwarf-expr","hide-trace","fde-phdr-dl","fde-registry"],"dwarf-expr":[],"fde-gnu-eh-frame-hdr":[],"fde-phdr":["libc"],"fde-phdr-aux":["fde-phdr"],"fde-phdr-dl":["fde-phdr"],"fde-registry":["alloc"],"fde-static":[],"hide-trace":[],"panic":["panicking","alloc"],"panic-handler":["print","panic"],"panic-handler-dummy":[],"panicking":[],"personality":[],"personality-dummy":[],"print":["libc"],"system-alloc":[],"unwinder":[]},"yanked":false}
+{
+    "name": "unwinding",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "gimli",
+            "req": "^0.25.0",
+            "features": [
+                "read"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "libc",
+            "req": "^0.2",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "spin",
+            "req": "^0.9",
+            "features": [
+                "mutex",
+                "spin_mutex"
+            ],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "58467a2f3560cf0e53d0df4efce3d736fefa682a8e5563be3b6ff88fb48d2d5a",
+    "features": {
+        "alloc": [],
+        "default": [
+            "unwinder",
+            "dwarf-expr",
+            "hide-trace",
+            "fde-phdr-dl",
+            "fde-registry"
+        ],
+        "dwarf-expr": [],
+        "fde-gnu-eh-frame-hdr": [],
+        "fde-phdr": [
+            "libc"
+        ],
+        "fde-phdr-aux": [
+            "fde-phdr"
+        ],
+        "fde-phdr-dl": [
+            "fde-phdr"
+        ],
+        "fde-registry": [
+            "alloc"
+        ],
+        "fde-static": [],
+        "hide-trace": [],
+        "panic": [
+            "panicking",
+            "alloc"
+        ],
+        "panic-handler": [
+            "print",
+            "panic"
+        ],
+        "panic-handler-dummy": [],
+        "panicking": [],
+        "personality": [],
+        "personality-dummy": [],
+        "print": [
+            "libc"
+        ],
+        "system-alloc": [],
+        "unwinder": []
+    },
+    "yanked": false
+}

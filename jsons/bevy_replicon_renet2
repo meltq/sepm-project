@@ -1,1 +1,149 @@
-{"name":"bevy_replicon_renet2","vers":"0.1.0","deps":[{"name":"bevy","req":"^0.15","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"bevy","req":"^0.15","features":["bevy_state","bevy_text","bevy_ui","bevy_window","bevy_gizmos","x11","default_font"],"optional":false,"default_features":false,"target":null,"kind":"dev"},{"name":"bevy_renet2","req":"^0.1.0","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"bevy_renet2","req":"^0.1.0","features":["native_transport"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"bevy_replicon","req":"^0.29","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"clap","req":"^4.1","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"log","req":"^0.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"serde","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"tracing-subscriber","req":"^0.3","features":["env-filter","std","tracing-log"],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"7fda940ca376632a4dc323c18d28d129fe9f082ed8afb2ba82441a3d57e3bdf3","features":{"client":["bevy_replicon/client"],"default":["renet_serde","netcode","client","server"],"memory_transport":["netcode","bevy_renet2/memory_transport"],"native_transport":["netcode","bevy_renet2/native_transport"],"netcode":["bevy_renet2/netcode"],"renet_serde":["bevy_renet2/serde"],"server":["bevy_replicon/server"],"ws_client_transport":["netcode","bevy_renet2/ws_client_transport"],"ws_server_transport":["netcode","bevy_renet2/ws_server_transport"],"wt_client_transport":["netcode","bevy_renet2/wt_client_transport"],"wt_server_transport":["netcode","bevy_renet2/wt_server_transport"]},"yanked":false}
+{
+    "name": "bevy_replicon_renet2",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "bevy",
+            "req": "^0.15",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "bevy",
+            "req": "^0.15",
+            "features": [
+                "bevy_state",
+                "bevy_text",
+                "bevy_ui",
+                "bevy_window",
+                "bevy_gizmos",
+                "x11",
+                "default_font"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "bevy_renet2",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "bevy_renet2",
+            "req": "^0.1.0",
+            "features": [
+                "native_transport"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "bevy_replicon",
+            "req": "^0.29",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "clap",
+            "req": "^4.1",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "log",
+            "req": "^0.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "tracing-subscriber",
+            "req": "^0.3",
+            "features": [
+                "env-filter",
+                "std",
+                "tracing-log"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "7fda940ca376632a4dc323c18d28d129fe9f082ed8afb2ba82441a3d57e3bdf3",
+    "features": {
+        "client": [
+            "bevy_replicon/client"
+        ],
+        "default": [
+            "renet_serde",
+            "netcode",
+            "client",
+            "server"
+        ],
+        "memory_transport": [
+            "netcode",
+            "bevy_renet2/memory_transport"
+        ],
+        "native_transport": [
+            "netcode",
+            "bevy_renet2/native_transport"
+        ],
+        "netcode": [
+            "bevy_renet2/netcode"
+        ],
+        "renet_serde": [
+            "bevy_renet2/serde"
+        ],
+        "server": [
+            "bevy_replicon/server"
+        ],
+        "ws_client_transport": [
+            "netcode",
+            "bevy_renet2/ws_client_transport"
+        ],
+        "ws_server_transport": [
+            "netcode",
+            "bevy_renet2/ws_server_transport"
+        ],
+        "wt_client_transport": [
+            "netcode",
+            "bevy_renet2/wt_client_transport"
+        ],
+        "wt_server_transport": [
+            "netcode",
+            "bevy_renet2/wt_server_transport"
+        ]
+    },
+    "yanked": false
+}

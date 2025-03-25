@@ -1,1 +1,72 @@
-{"name":"asyncs","vers":"0.1.0","deps":[{"name":"async-select","req":"^0.1.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"asyncs-test","req":"^0.1.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"spawns","req":"^0.2.3","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"spawns-core","req":"^1.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"test-case","req":"^3.3.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"806d9f7a4f502553680a842c510fc72fec9da329ae1e572d5f360294bfe69a11","features":{"async-global-executor":["spawns/async-global-executor"],"smol":["spawns/smol"],"spawns-compat":["spawns-core/compat"],"test":["spawns-compat","spawns/executor","asyncs-test"],"tokio":["spawns/tokio"]},"yanked":false}
+{
+    "name": "asyncs",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "async-select",
+            "req": "^0.1.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "asyncs-test",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "spawns",
+            "req": "^0.2.3",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "spawns-core",
+            "req": "^1.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "test-case",
+            "req": "^3.3.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "806d9f7a4f502553680a842c510fc72fec9da329ae1e572d5f360294bfe69a11",
+    "features": {
+        "async-global-executor": [
+            "spawns/async-global-executor"
+        ],
+        "smol": [
+            "spawns/smol"
+        ],
+        "spawns-compat": [
+            "spawns-core/compat"
+        ],
+        "test": [
+            "spawns-compat",
+            "spawns/executor",
+            "asyncs-test"
+        ],
+        "tokio": [
+            "spawns/tokio"
+        ]
+    },
+    "yanked": false
+}

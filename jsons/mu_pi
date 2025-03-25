@@ -1,1 +1,86 @@
-{"name":"mu_pi","vers":"5.1.5","deps":[{"name":"alloc-no-stdlib","req":"~2.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"brotli-decompressor","req":"^4.0.0","features":[],"optional":false,"default_features":false,"target":null,"kind":"dev"},{"name":"indoc","req":"^2.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"num-traits","req":"^0.2","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"r-efi","req":"^5.0.0","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.197","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"serde_yaml","req":"^0.9.34","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"uuid","req":"^1.8","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"}],"cksum":"96c82f8cee455c65eebbb5662d698526a9a8a2c87863bd299066db4957309fd0","features":{"nightly":[]},"yanked":false,"rust_version":"1.68"}
+{
+    "name": "mu_pi",
+    "vers": "5.1.5",
+    "deps": [
+        {
+            "name": "alloc-no-stdlib",
+            "req": "~2.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "brotli-decompressor",
+            "req": "^4.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "indoc",
+            "req": "^2.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "num-traits",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "r-efi",
+            "req": "^5.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.197",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "serde_yaml",
+            "req": "^0.9.34",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "uuid",
+            "req": "^1.8",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "96c82f8cee455c65eebbb5662d698526a9a8a2c87863bd299066db4957309fd0",
+    "features": {
+        "nightly": []
+    },
+    "yanked": false,
+    "rust_version": "1.68"
+}

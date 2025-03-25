@@ -1,1 +1,91 @@
-{"name":"scuffle-ffmpeg","vers":"0.0.0","deps":[{"name":"arc-swap","req":"^1.7.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"bytes","req":"^1.8.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"crossbeam-channel","req":"^0.5.13","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"ffmpeg-sys-next","req":"^7.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"libc","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.41.1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing","req":"^0.1.40","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"8619d7130e81ffb29b1e881711ac2877d56a6321351f3fb70cfcfb3b8493d4f9","features":{"default":[]},"features2":{"channel":["dep:bytes"],"crossbeam-channel":["channel","dep:crossbeam-channel"],"tokio-channel":["channel","dep:tokio"],"tracing":["dep:tracing"]},"yanked":false,"v":2}
+{
+    "name": "scuffle-ffmpeg",
+    "vers": "0.0.0",
+    "deps": [
+        {
+            "name": "arc-swap",
+            "req": "^1.7.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "bytes",
+            "req": "^1.8.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "crossbeam-channel",
+            "req": "^0.5.13",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ffmpeg-sys-next",
+            "req": "^7.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "libc",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.41.1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1.40",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "8619d7130e81ffb29b1e881711ac2877d56a6321351f3fb70cfcfb3b8493d4f9",
+    "features": {
+        "default": []
+    },
+    "features2": {
+        "channel": [
+            "dep:bytes"
+        ],
+        "crossbeam-channel": [
+            "channel",
+            "dep:crossbeam-channel"
+        ],
+        "tokio-channel": [
+            "channel",
+            "dep:tokio"
+        ],
+        "tracing": [
+            "dep:tracing"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

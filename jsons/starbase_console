@@ -1,1 +1,98 @@
-{"name":"starbase_console","vers":"0.1.0","deps":[{"name":"crossterm","req":"^0.28.1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"flume","req":"^0.11.1","features":["async"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"iocraft","req":"^0.5.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"miette","req":"^7.4.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"parking_lot","req":"^0.12.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"starbase_styles","req":"^0.4.8","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.42.0","features":["io-util","rt","sync"],"optional":true,"default_features":false,"target":null,"kind":"normal"},{"name":"tracing","req":"^0.1.41","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"b0d660a40f9912b8f06e205fb1ec2db0e7056ebd2781b7a0c41f74d66b0932ef","features":{"default":[]},"features2":{"ui":["dep:crossterm","dep:iocraft","dep:tokio"]},"yanked":false,"rust_version":"1.80.0","v":2}
+{
+    "name": "starbase_console",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "crossterm",
+            "req": "^0.28.1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "flume",
+            "req": "^0.11.1",
+            "features": [
+                "async"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "iocraft",
+            "req": "^0.5.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "miette",
+            "req": "^7.4.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "parking_lot",
+            "req": "^0.12.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "starbase_styles",
+            "req": "^0.4.8",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.42.0",
+            "features": [
+                "io-util",
+                "rt",
+                "sync"
+            ],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1.41",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "b0d660a40f9912b8f06e205fb1ec2db0e7056ebd2781b7a0c41f74d66b0932ef",
+    "features": {
+        "default": []
+    },
+    "features2": {
+        "ui": [
+            "dep:crossterm",
+            "dep:iocraft",
+            "dep:tokio"
+        ]
+    },
+    "yanked": false,
+    "rust_version": "1.80.0",
+    "v": 2
+}

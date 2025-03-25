@@ -1,1 +1,25 @@
-{"name":"valust","vers":"0.1.0","deps":[{"name":"valust-derive","req":"^0.1.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"5c7a5a8c6123e95b0c8420f199ff9b530670359fa12f496e2449481990625f0a","features":{"default":["derive"],"derive":["valust-derive"]},"yanked":false}
+{
+    "name": "valust",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "valust-derive",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "5c7a5a8c6123e95b0c8420f199ff9b530670359fa12f496e2449481990625f0a",
+    "features": {
+        "default": [
+            "derive"
+        ],
+        "derive": [
+            "valust-derive"
+        ]
+    },
+    "yanked": false
+}

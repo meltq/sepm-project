@@ -1,1 +1,30 @@
-{"name":"lazy_azync","vers":"0.1.0","deps":[{"name":"futures","req":"^0.3.31","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.42.0","features":["full","sync"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"fe552e15f4fec601755e67a6e730e4688c118b5fd270b1ea73cb6487e6a71b7e","features":{},"yanked":false}
+{
+    "name": "lazy_azync",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "futures",
+            "req": "^0.3.31",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.42.0",
+            "features": [
+                "full",
+                "sync"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "fe552e15f4fec601755e67a6e730e4688c118b5fd270b1ea73cb6487e6a71b7e",
+    "features": {},
+    "yanked": false
+}

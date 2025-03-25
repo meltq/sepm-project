@@ -1,1 +1,38 @@
-{"name":"rs-opw-kinematics","vers":"1.0.0","deps":[{"name":"nalgebra","req":"^0.32.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"serde_yaml","req":"^0.9.34","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"65fb0ada43b9c894a4140f29fa94248b505ffc139da81a95a4e0bf17f34481a1","features":{},"yanked":true}
+{
+    "name": "rs-opw-kinematics",
+    "vers": "1.0.0",
+    "deps": [
+        {
+            "name": "nalgebra",
+            "req": "^0.32.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "serde_yaml",
+            "req": "^0.9.34",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "65fb0ada43b9c894a4140f29fa94248b505ffc139da81a95a4e0bf17f34481a1",
+    "features": {},
+    "yanked": true
+}

@@ -1,1 +1,47 @@
-{"name":"parquet_to_excel","vers":"0.1.2","deps":[{"name":"chrono","req":"^0.4.35","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"parquet","req":"^53.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"pyo3","req":"^0.23.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"xlsx_batch_reader","req":"^0.3.2","features":["xlsxwriter"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"2cb8f5af95262a11a4a9ad835f2034abe8930866a87102163c27307949741b38","features":{},"yanked":true}
+{
+    "name": "parquet_to_excel",
+    "vers": "0.1.2",
+    "deps": [
+        {
+            "name": "chrono",
+            "req": "^0.4.35",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "parquet",
+            "req": "^53.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "pyo3",
+            "req": "^0.23.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "xlsx_batch_reader",
+            "req": "^0.3.2",
+            "features": [
+                "xlsxwriter"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "2cb8f5af95262a11a4a9ad835f2034abe8930866a87102163c27307949741b38",
+    "features": {},
+    "yanked": true
+}

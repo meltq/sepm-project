@@ -1,1 +1,129 @@
-{"name":"swc_confidential","vers":"0.19.7","deps":[{"name":"cipher","req":"^0.4.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"hex","req":"^0.4.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"magic-crypt","req":"^3.1.13","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.189","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"swc_atoms","req":"^0.6.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"swc_common","req":"^0.33.21","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"swc_ecma_ast","req":"^0.112.6","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"swc_ecma_parser","req":"^0.143.11","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"swc_ecma_transforms_base","req":"^0.137.16","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"swc_ecma_transforms_testing","req":"^0.140.17","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"swc_ecma_utils","req":"^0.127.15","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"swc_ecma_visit","req":"^0.98.7","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"testing","req":"^0.35.21","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"6d1552aefad8b899db226e2bd6ef89c15686871b78d1d652bab39e0756f4d736","features":{},"yanked":false,"rust_version":"1.70"}
+{
+    "name": "swc_confidential",
+    "vers": "0.19.7",
+    "deps": [
+        {
+            "name": "cipher",
+            "req": "^0.4.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "hex",
+            "req": "^0.4.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "magic-crypt",
+            "req": "^3.1.13",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.189",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "swc_atoms",
+            "req": "^0.6.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "swc_common",
+            "req": "^0.33.21",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "swc_ecma_ast",
+            "req": "^0.112.6",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "swc_ecma_parser",
+            "req": "^0.143.11",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "swc_ecma_transforms_base",
+            "req": "^0.137.16",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "swc_ecma_transforms_testing",
+            "req": "^0.140.17",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "swc_ecma_utils",
+            "req": "^0.127.15",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "swc_ecma_visit",
+            "req": "^0.98.7",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "testing",
+            "req": "^0.35.21",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "6d1552aefad8b899db226e2bd6ef89c15686871b78d1d652bab39e0756f4d736",
+    "features": {},
+    "yanked": false,
+    "rust_version": "1.70"
+}

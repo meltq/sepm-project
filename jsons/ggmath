@@ -1,1 +1,47 @@
-{"name":"ggmath","vers":"0.1.1","deps":[{"name":"ggmath_proc_macros","req":"^0.1.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"num-traits","req":"^0.2.19","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"bfd66b036d369f32e27cfeaf71eeb074838015c04420623df495b2d3db0861de","features":{"default":["matrix","primitive_aliases","quaternion"],"full":["line","matrix","primitive_aliases","quaternion","ray","rectangle"],"line":[],"matrix":[],"primitive_aliases":[],"quaternion":[],"ray":[],"rectangle":[]},"yanked":false}
+{
+    "name": "ggmath",
+    "vers": "0.1.1",
+    "deps": [
+        {
+            "name": "ggmath_proc_macros",
+            "req": "^0.1.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "num-traits",
+            "req": "^0.2.19",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "bfd66b036d369f32e27cfeaf71eeb074838015c04420623df495b2d3db0861de",
+    "features": {
+        "default": [
+            "matrix",
+            "primitive_aliases",
+            "quaternion"
+        ],
+        "full": [
+            "line",
+            "matrix",
+            "primitive_aliases",
+            "quaternion",
+            "ray",
+            "rectangle"
+        ],
+        "line": [],
+        "matrix": [],
+        "primitive_aliases": [],
+        "quaternion": [],
+        "ray": [],
+        "rectangle": []
+    },
+    "yanked": false
+}

@@ -1,1 +1,58 @@
-{"name":"test-aplk-oprs","vers":"0.1.5","deps":[{"name":"soroban-sdk","req":"^21.0.1-preview.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"soroban-sdk","req":"^21.0.1-preview.3","features":["testutils"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"srb-std","req":"^0.2.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"srb-std","req":"^0.2.0","features":["testutils"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"srb-trfc","req":"^0.1.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"2401be3fd11b5f0ea0c42f68abd9d19001f7a9a041c578235ba3a0ae7a89c800","features":{},"yanked":false}
+{
+    "name": "test-aplk-oprs",
+    "vers": "0.1.5",
+    "deps": [
+        {
+            "name": "soroban-sdk",
+            "req": "^21.0.1-preview.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "soroban-sdk",
+            "req": "^21.0.1-preview.3",
+            "features": [
+                "testutils"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "srb-std",
+            "req": "^0.2.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "srb-std",
+            "req": "^0.2.0",
+            "features": [
+                "testutils"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "srb-trfc",
+            "req": "^0.1.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "2401be3fd11b5f0ea0c42f68abd9d19001f7a9a041c578235ba3a0ae7a89c800",
+    "features": {},
+    "yanked": false
+}

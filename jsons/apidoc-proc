@@ -1,1 +1,33 @@
-{"name":"apidoc-proc","vers":"0.1.1","deps":[{"name":"apidoc-expand","req":"^0.1.1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"syn","req":"^2.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"f585e9487af0d55b44564741592fd81f5ed877146208aae92729ccfccf9f50b0","features":{"cod":[],"proc":["apidoc-expand","syn"]},"yanked":false}
+{
+    "name": "apidoc-proc",
+    "vers": "0.1.1",
+    "deps": [
+        {
+            "name": "apidoc-expand",
+            "req": "^0.1.1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "syn",
+            "req": "^2.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "f585e9487af0d55b44564741592fd81f5ed877146208aae92729ccfccf9f50b0",
+    "features": {
+        "cod": [],
+        "proc": [
+            "apidoc-expand",
+            "syn"
+        ]
+    },
+    "yanked": false
+}

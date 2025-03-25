@@ -1,1 +1,29 @@
-{"name":"checked_command","vers":"0.2.0","deps":[{"name":"quick-error","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"7733b8e69f28001bfb1548e2c07642df302162ae952b82b13ec8215f72652fd7","features":{"command_envs":["nightly"],"default":[],"enable_integration_tests":[],"nightly":[],"process_try_wait":["nightly"],"use_std_output":[]},"yanked":false}
+{
+    "name": "checked_command",
+    "vers": "0.2.0",
+    "deps": [
+        {
+            "name": "quick-error",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "7733b8e69f28001bfb1548e2c07642df302162ae952b82b13ec8215f72652fd7",
+    "features": {
+        "command_envs": [
+            "nightly"
+        ],
+        "default": [],
+        "enable_integration_tests": [],
+        "nightly": [],
+        "process_try_wait": [
+            "nightly"
+        ],
+        "use_std_output": []
+    },
+    "yanked": false
+}

@@ -1,1 +1,43 @@
-{"name":"gridlife","vers":"0.0.1","deps":[{"name":"crossterm","req":"^0.28.1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"fastrand","req":"^2.3.0","features":["js"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"ratatui","req":"^0.29.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"f4991daf4f269dc09e1a7695f5ed3c334efaf460b54464e52cc820de06023f73","features":{"build-binary":["ratatui","crossterm"]},"yanked":false}
+{
+    "name": "gridlife",
+    "vers": "0.0.1",
+    "deps": [
+        {
+            "name": "crossterm",
+            "req": "^0.28.1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "fastrand",
+            "req": "^2.3.0",
+            "features": [
+                "js"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ratatui",
+            "req": "^0.29.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "f4991daf4f269dc09e1a7695f5ed3c334efaf460b54464e52cc820de06023f73",
+    "features": {
+        "build-binary": [
+            "ratatui",
+            "crossterm"
+        ]
+    },
+    "yanked": false
+}

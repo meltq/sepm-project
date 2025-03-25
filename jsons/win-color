@@ -1,1 +1,62 @@
-{"name":"win-color","vers":"0.0.1","deps":[{"name":"phf","req":"^0.11.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"phf_macros","req":"^0.11.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"regex","req":"^1.11.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.215","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"windows","req":"^0.58.0","features":["Win32_Foundation","Foundation_Numerics","Win32_Graphics_Dwm","Win32_Graphics_Direct2D","Win32_Graphics_Direct2D_Common"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"8b9320da9f6a8d2590fc90f64ff5b3d83da2c9dfe79e6b5cd355786b5cd60937","features":{},"yanked":false}
+{
+    "name": "win-color",
+    "vers": "0.0.1",
+    "deps": [
+        {
+            "name": "phf",
+            "req": "^0.11.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "phf_macros",
+            "req": "^0.11.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "regex",
+            "req": "^1.11.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.215",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "windows",
+            "req": "^0.58.0",
+            "features": [
+                "Win32_Foundation",
+                "Foundation_Numerics",
+                "Win32_Graphics_Dwm",
+                "Win32_Graphics_Direct2D",
+                "Win32_Graphics_Direct2D_Common"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "8b9320da9f6a8d2590fc90f64ff5b3d83da2c9dfe79e6b5cd355786b5cd60937",
+    "features": {},
+    "yanked": false
+}

@@ -1,1 +1,38 @@
-{"name":"stress-cpu","vers":"0.1.0","deps":[{"name":"num_cpus","req":"^1.16.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rand","req":"^0.8.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.41.1","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"4e852572031f62993e8ec84a9cabea1e4541d5dd821d43a6b76ff660eb08153a","features":{},"yanked":false}
+{
+    "name": "stress-cpu",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "num_cpus",
+            "req": "^1.16.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rand",
+            "req": "^0.8.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.41.1",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "4e852572031f62993e8ec84a9cabea1e4541d5dd821d43a6b76ff660eb08153a",
+    "features": {},
+    "yanked": false
+}

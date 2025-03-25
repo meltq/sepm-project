@@ -1,1 +1,34 @@
-{"name":"jsonformat","vers":"1.0.0","deps":[{"name":"clap","req":"^3.0.0-beta.2","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"criterion","req":"^0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"dd6df07ef54a739f44634ae08b1697571442e7537f516ca652830ee98eb88e85","features":{"bin":["clap"],"default":["bin"]},"yanked":false}
+{
+    "name": "jsonformat",
+    "vers": "1.0.0",
+    "deps": [
+        {
+            "name": "clap",
+            "req": "^3.0.0-beta.2",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "criterion",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "dd6df07ef54a739f44634ae08b1697571442e7537f516ca652830ee98eb88e85",
+    "features": {
+        "bin": [
+            "clap"
+        ],
+        "default": [
+            "bin"
+        ]
+    },
+    "yanked": false
+}

@@ -1,1 +1,39 @@
-{"name":"gnir","vers":"0.2.0","deps":[{"name":"lazy_static","req":"^0.2.1","features":[],"optional":false,"default_features":true,"target":"cfg(unix)","kind":"normal"},{"name":"untrusted","req":"^0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal","package":"detsurtnu"}],"cksum":"33c8c75ded6f97f7431f9c3cba75cb638639b67acd58c67c3780bd5693eca204","features":{"default":["use_heap","dev_urandom_fallback"],"dev_urandom_fallback":[],"internal_benches":[],"rsa_signing":[],"slow_tests":[],"test_logging":[],"use_heap":[]},"yanked":false}
+{
+    "name": "gnir",
+    "vers": "0.2.0",
+    "deps": [
+        {
+            "name": "lazy_static",
+            "req": "^0.2.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": "cfg(unix)",
+            "kind": "normal"
+        },
+        {
+            "name": "untrusted",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal",
+            "package": "detsurtnu"
+        }
+    ],
+    "cksum": "33c8c75ded6f97f7431f9c3cba75cb638639b67acd58c67c3780bd5693eca204",
+    "features": {
+        "default": [
+            "use_heap",
+            "dev_urandom_fallback"
+        ],
+        "dev_urandom_fallback": [],
+        "internal_benches": [],
+        "rsa_signing": [],
+        "slow_tests": [],
+        "test_logging": [],
+        "use_heap": []
+    },
+    "yanked": false
+}

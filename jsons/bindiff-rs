@@ -1,1 +1,57 @@
-{"name":"bindiff-rs","vers":"0.1.0","deps":[{"name":"anyhow","req":"^1.0.95","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"chrono","req":"^0.4.39","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"prost","req":"^0.13.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"prost-build","req":"^0.13.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"rusqlite","req":"^0.32.1","features":["bundled","chrono"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"458dc0e0591db118a39ab794d1fd759b7f310bc4a7485d2b819e171c42cde862","features":{},"yanked":false}
+{
+    "name": "bindiff-rs",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "anyhow",
+            "req": "^1.0.95",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "chrono",
+            "req": "^0.4.39",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "prost",
+            "req": "^0.13.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "prost-build",
+            "req": "^0.13.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "rusqlite",
+            "req": "^0.32.1",
+            "features": [
+                "bundled",
+                "chrono"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "458dc0e0591db118a39ab794d1fd759b7f310bc4a7485d2b819e171c42cde862",
+    "features": {},
+    "yanked": false
+}

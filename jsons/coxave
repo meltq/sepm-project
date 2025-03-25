@@ -1,1 +1,30 @@
-{"name":"COXave","vers":"1.0.0","deps":[{"name":"pyo3","req":"^0.23.3","features":["macros","extension-module"],"optional":true,"default_features":false,"target":null,"kind":"normal"}],"cksum":"22f75bd0f0e3636a195987fcf721be94e9a6e0d47d252b72d65359d7982a8430","features":{"default":[]},"features2":{"python":["dep:pyo3"]},"yanked":true,"rust_version":"1.67.0","v":2}
+{
+    "name": "COXave",
+    "vers": "1.0.0",
+    "deps": [
+        {
+            "name": "pyo3",
+            "req": "^0.23.3",
+            "features": [
+                "macros",
+                "extension-module"
+            ],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "22f75bd0f0e3636a195987fcf721be94e9a6e0d47d252b72d65359d7982a8430",
+    "features": {
+        "default": []
+    },
+    "features2": {
+        "python": [
+            "dep:pyo3"
+        ]
+    },
+    "yanked": true,
+    "rust_version": "1.67.0",
+    "v": 2
+}

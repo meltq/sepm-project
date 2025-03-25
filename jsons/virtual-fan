@@ -1,1 +1,48 @@
-{"name":"virtual-fan","vers":"0.2.0","deps":[{"name":"fans","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"log","req":"^0.4","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^2","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"}],"cksum":"c2bad2861a66ce60c89daf2d204081d3bd1e64f5a4cb552fb9f7846bc523e1a5","features":{"alloc":[],"std":[]},"features2":{"default":["log"],"log":["dep:log"]},"yanked":false,"v":2}
+{
+    "name": "virtual-fan",
+    "vers": "0.2.0",
+    "deps": [
+        {
+            "name": "fans",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "log",
+            "req": "^0.4",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^2",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "c2bad2861a66ce60c89daf2d204081d3bd1e64f5a4cb552fb9f7846bc523e1a5",
+    "features": {
+        "alloc": [],
+        "std": []
+    },
+    "features2": {
+        "default": [
+            "log"
+        ],
+        "log": [
+            "dep:log"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

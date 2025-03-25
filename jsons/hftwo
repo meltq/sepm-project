@@ -1,1 +1,44 @@
-{"name":"hftwo","vers":"0.1.0","deps":[{"name":"crc","req":"^3.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"defmt","req":"^0.3","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"zerocopy","req":"^0.7","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"f3fde7178de11b3f33593340cf2e5170f8ce87605d2eac7c2e95ce9473f60023","features":{},"features2":{"defmt-03":["dep:defmt"]},"yanked":false,"v":2}
+{
+    "name": "hftwo",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "crc",
+            "req": "^3.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "defmt",
+            "req": "^0.3",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "zerocopy",
+            "req": "^0.7",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "f3fde7178de11b3f33593340cf2e5170f8ce87605d2eac7c2e95ce9473f60023",
+    "features": {},
+    "features2": {
+        "defmt-03": [
+            "dep:defmt"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

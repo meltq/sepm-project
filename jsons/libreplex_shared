@@ -1,1 +1,113 @@
-{"name":"libreplex_shared","vers":"0.0.0","deps":[{"name":"anchor-lang","req":"^0.29.0","features":["init-if-needed"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"anchor-spl","req":"^0.29.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"mpl-token-metadata","req":"~3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"solana-program","req":"^1.17.13","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"spl-pod","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"spl-token","req":"~4","features":["no-entrypoint"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"spl-token-2022","req":"~1.0","features":["no-entrypoint"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"spl-token-group-interface","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"spl-token-metadata-interface","req":"^0.2.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"spl-type-length-value","req":"^0.3.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"97d6a9c75f3c98f1386e2a22506ca55d3d9251d222da0ecdb7d6e1daa71367b9","features":{"cpi":["no-entrypoint"],"default":[],"no-entrypoint":[],"no-idl":[],"no-log-ix-name":[]},"yanked":false}
+{
+    "name": "libreplex_shared",
+    "vers": "0.0.0",
+    "deps": [
+        {
+            "name": "anchor-lang",
+            "req": "^0.29.0",
+            "features": [
+                "init-if-needed"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "anchor-spl",
+            "req": "^0.29.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "mpl-token-metadata",
+            "req": "~3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "solana-program",
+            "req": "^1.17.13",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "spl-pod",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "spl-token",
+            "req": "~4",
+            "features": [
+                "no-entrypoint"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "spl-token-2022",
+            "req": "~1.0",
+            "features": [
+                "no-entrypoint"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "spl-token-group-interface",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "spl-token-metadata-interface",
+            "req": "^0.2.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "spl-type-length-value",
+            "req": "^0.3.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "97d6a9c75f3c98f1386e2a22506ca55d3d9251d222da0ecdb7d6e1daa71367b9",
+    "features": {
+        "cpi": [
+            "no-entrypoint"
+        ],
+        "default": [],
+        "no-entrypoint": [],
+        "no-idl": [],
+        "no-log-ix-name": []
+    },
+    "yanked": false
+}

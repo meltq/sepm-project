@@ -1,1 +1,23 @@
-{"name":"rusty_gui","vers":"0.1.0","deps":[{"name":"winapi","req":"^0.3","features":["winuser","libloaderapi","wingdi","errhandlingapi"],"optional":false,"default_features":true,"target":"cfg(windows)","kind":"normal"}],"cksum":"978e4ccac051ee66f0ad63c67b6cb3a5d6de30534a2965cead80f0d807c71b74","features":{},"yanked":true}
+{
+    "name": "rusty_gui",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "winapi",
+            "req": "^0.3",
+            "features": [
+                "winuser",
+                "libloaderapi",
+                "wingdi",
+                "errhandlingapi"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": "cfg(windows)",
+            "kind": "normal"
+        }
+    ],
+    "cksum": "978e4ccac051ee66f0ad63c67b6cb3a5d6de30534a2965cead80f0d807c71b74",
+    "features": {},
+    "yanked": true
+}

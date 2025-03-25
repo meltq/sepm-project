@@ -1,1 +1,48 @@
-{"name":"ratatui-eventInput","vers":"0.1.0","deps":[{"name":"crossterm","req":"^0.28","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"termion","req":"^4.0.2","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"termwiz","req":"^0.22","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"be7d6a027a1a03df9df12326c637d4fd48c96f8f00682f5d495c12079a6951e7","features":{},"features2":{"crossterm":["dep:crossterm"],"termion":["dep:termion"],"termwiz":["dep:termwiz"]},"yanked":false,"v":2}
+{
+    "name": "ratatui-eventInput",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "crossterm",
+            "req": "^0.28",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "termion",
+            "req": "^4.0.2",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "termwiz",
+            "req": "^0.22",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "be7d6a027a1a03df9df12326c637d4fd48c96f8f00682f5d495c12079a6951e7",
+    "features": {},
+    "features2": {
+        "crossterm": [
+            "dep:crossterm"
+        ],
+        "termion": [
+            "dep:termion"
+        ],
+        "termwiz": [
+            "dep:termwiz"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

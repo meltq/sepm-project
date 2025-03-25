@@ -1,1 +1,36 @@
-{"name":"catalyzer","vers":"0.1.0","deps":[{"name":"base","req":"^0.1.0","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal","package":"catalyzer-core"},{"name":"macros","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal","package":"catalyzer-macros"}],"cksum":"dba43b7de5613675dbc3c221590d15f82ce3499e2903e33a58ac06f77a593c63","features":{"builtin-logger":["base/builtin-logger"],"default":["builtin-logger"]},"yanked":false}
+{
+    "name": "catalyzer",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "base",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal",
+            "package": "catalyzer-core"
+        },
+        {
+            "name": "macros",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal",
+            "package": "catalyzer-macros"
+        }
+    ],
+    "cksum": "dba43b7de5613675dbc3c221590d15f82ce3499e2903e33a58ac06f77a593c63",
+    "features": {
+        "builtin-logger": [
+            "base/builtin-logger"
+        ],
+        "default": [
+            "builtin-logger"
+        ]
+    },
+    "yanked": false
+}

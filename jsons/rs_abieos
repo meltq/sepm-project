@@ -1,1 +1,67 @@
-{"name":"rs_abieos","vers":"0.1.1","deps":[{"name":"bindgen","req":"^0.69.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"cc","req":"^1.0.90","features":["parallel"],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"cmake","req":"^0.1.50","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"serde","req":"^1.0.197","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.114","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"sys-info","req":"^0.9.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"}],"cksum":"1c5fb1dc7eb8b4bdb0cd8b3e7c1492040ef44ede3daca3c74ca0e9d6d0ea75cc","features":{},"yanked":true}
+{
+    "name": "rs_abieos",
+    "vers": "0.1.1",
+    "deps": [
+        {
+            "name": "bindgen",
+            "req": "^0.69.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "cc",
+            "req": "^1.0.90",
+            "features": [
+                "parallel"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "cmake",
+            "req": "^0.1.50",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.197",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.114",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "sys-info",
+            "req": "^0.9.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        }
+    ],
+    "cksum": "1c5fb1dc7eb8b4bdb0cd8b3e7c1492040ef44ede3daca3c74ca0e9d6d0ea75cc",
+    "features": {},
+    "yanked": true
+}

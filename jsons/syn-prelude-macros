@@ -1,1 +1,50 @@
-{"name":"syn-prelude-macros","vers":"0.1.0","deps":[{"name":"convert_case","req":"^0.6","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"proc-macro2","req":"^1","features":["span-locations"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"quote","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"syn","req":"^2","features":["full","extra-traits"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"a1f3bb420625a98cffc29d3f913718519b433092b0e6e57b337779b2cc33be25","features":{},"yanked":false}
+{
+    "name": "syn-prelude-macros",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "convert_case",
+            "req": "^0.6",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "proc-macro2",
+            "req": "^1",
+            "features": [
+                "span-locations"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "quote",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "syn",
+            "req": "^2",
+            "features": [
+                "full",
+                "extra-traits"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "a1f3bb420625a98cffc29d3f913718519b433092b0e6e57b337779b2cc33be25",
+    "features": {},
+    "yanked": false
+}

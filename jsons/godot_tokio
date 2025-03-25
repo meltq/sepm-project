@@ -1,1 +1,37 @@
-{"name":"godot_tokio","vers":"0.1.1","deps":[{"name":"godot","req":"^0.2.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.41.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"1793b11085fb5667ce1f5abd21a3e0ec69b4abddc353a252c2adef590a616418","features":{"default":["multi-thread"],"multi-thread":["tokio/rt-multi-thread"],"single-thread":["tokio/rt"]},"yanked":false}
+{
+    "name": "godot_tokio",
+    "vers": "0.1.1",
+    "deps": [
+        {
+            "name": "godot",
+            "req": "^0.2.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.41.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "1793b11085fb5667ce1f5abd21a3e0ec69b4abddc353a252c2adef590a616418",
+    "features": {
+        "default": [
+            "multi-thread"
+        ],
+        "multi-thread": [
+            "tokio/rt-multi-thread"
+        ],
+        "single-thread": [
+            "tokio/rt"
+        ]
+    },
+    "yanked": false
+}

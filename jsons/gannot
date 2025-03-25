@@ -1,1 +1,50 @@
-{"name":"gannot","vers":"0.0.1","deps":[{"name":"indexmap","req":"^2.7.0","features":["serde"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"num-traits","req":"^0.2.18","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.217","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^2.0.9","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"75745caf6c8615a5b328458f03166a551d3bf5ede9a7203cc0d926c26c504d77","features":{},"yanked":false,"rust_version":"1.83"}
+{
+    "name": "gannot",
+    "vers": "0.0.1",
+    "deps": [
+        {
+            "name": "indexmap",
+            "req": "^2.7.0",
+            "features": [
+                "serde"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "num-traits",
+            "req": "^0.2.18",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.217",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^2.0.9",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "75745caf6c8615a5b328458f03166a551d3bf5ede9a7203cc0d926c26c504d77",
+    "features": {},
+    "yanked": false,
+    "rust_version": "1.83"
+}

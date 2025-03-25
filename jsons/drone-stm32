@@ -1,1 +1,102 @@
-{"name":"drone-stm32","vers":"0.2.0","deps":[{"name":"Inflector","req":"^0.10","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"clippy","req":"^0.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"drone","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"error-chain","req":"^0.11","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"lazy_static","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"regex","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"serde","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"serde-xml-rs","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"serde_derive","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"}],"cksum":"c2939754b950610bfabc86e4b743afebf0616697e22ffd26d8f60e272e76391d","features":{"default":[],"stm32f100":[],"stm32f101":[],"stm32f102":[],"stm32f103":[],"stm32f107":[],"stm32l4x1":[],"stm32l4x2":[],"stm32l4x3":[],"stm32l4x5":[],"stm32l4x6":[]},"yanked":false}
+{
+    "name": "drone-stm32",
+    "vers": "0.2.0",
+    "deps": [
+        {
+            "name": "Inflector",
+            "req": "^0.10",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "clippy",
+            "req": "^0.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "drone",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "error-chain",
+            "req": "^0.11",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "lazy_static",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "regex",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "serde",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "serde-xml-rs",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "serde_derive",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        }
+    ],
+    "cksum": "c2939754b950610bfabc86e4b743afebf0616697e22ffd26d8f60e272e76391d",
+    "features": {
+        "default": [],
+        "stm32f100": [],
+        "stm32f101": [],
+        "stm32f102": [],
+        "stm32f103": [],
+        "stm32f107": [],
+        "stm32l4x1": [],
+        "stm32l4x2": [],
+        "stm32l4x3": [],
+        "stm32l4x5": [],
+        "stm32l4x6": []
+    },
+    "yanked": false
+}

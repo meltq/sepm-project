@@ -1,1 +1,40 @@
-{"name":"blosc2-sys","vers":"0.2.0+2.13.2","deps":[{"name":"bindgen","req":"^0.64","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"cmake","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"pkg-config","req":"^0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"}],"cksum":"5e41d32cfc718da08fcd6e101fc1681feba8f1d95981f6c136d4255992ac98d3","features":{"defaults":[],"use-system-blosc2":[]},"yanked":false,"links":"blosc2"}
+{
+    "name": "blosc2-sys",
+    "vers": "0.2.0+2.13.2",
+    "deps": [
+        {
+            "name": "bindgen",
+            "req": "^0.64",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "cmake",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "pkg-config",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        }
+    ],
+    "cksum": "5e41d32cfc718da08fcd6e101fc1681feba8f1d95981f6c136d4255992ac98d3",
+    "features": {
+        "defaults": [],
+        "use-system-blosc2": []
+    },
+    "yanked": false,
+    "links": "blosc2"
+}

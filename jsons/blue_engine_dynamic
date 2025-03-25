@@ -1,1 +1,41 @@
-{"name":"blue_engine_dynamic","vers":"0.6.0","deps":[{"name":"blue_engine_core","req":"^0.6.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"4d0cd9abed2ba61755516749271862760059a264b6011077afb3dff5d9857583","features":{"android":["blue_engine_core/android"],"android_game_activity":["blue_engine_core/android_game_activity"],"android_native_activity":["blue_engine_core/android_native_activity"],"debug":["blue_engine_core/debug"],"default":["debug","u16"],"u16":["blue_engine_core/u16"],"u32":["blue_engine_core/u32"]},"yanked":false}
+{
+    "name": "blue_engine_dynamic",
+    "vers": "0.6.0",
+    "deps": [
+        {
+            "name": "blue_engine_core",
+            "req": "^0.6.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "4d0cd9abed2ba61755516749271862760059a264b6011077afb3dff5d9857583",
+    "features": {
+        "android": [
+            "blue_engine_core/android"
+        ],
+        "android_game_activity": [
+            "blue_engine_core/android_game_activity"
+        ],
+        "android_native_activity": [
+            "blue_engine_core/android_native_activity"
+        ],
+        "debug": [
+            "blue_engine_core/debug"
+        ],
+        "default": [
+            "debug",
+            "u16"
+        ],
+        "u16": [
+            "blue_engine_core/u16"
+        ],
+        "u32": [
+            "blue_engine_core/u32"
+        ]
+    },
+    "yanked": false
+}

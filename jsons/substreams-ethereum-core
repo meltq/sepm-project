@@ -1,1 +1,75 @@
-{"name":"substreams-ethereum-core","vers":"0.1.5","deps":[{"name":"anyhow","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"ethabi","req":"^17.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"getrandom","req":"^0.2","features":["custom"],"optional":false,"default_features":true,"target":"wasm32-unknown-unknown","kind":"normal"},{"name":"prost","req":"^0.10.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"prost-build","req":"^0.10.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"prost-types","req":"^0.10.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"substreams","req":"^0.0.15","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"59f6c18207db54281ea2a8babe213d2c639d03930fcd9b508a20a4cd2cb2fbb2","features":{},"yanked":false,"rust_version":"1.60"}
+{
+    "name": "substreams-ethereum-core",
+    "vers": "0.1.5",
+    "deps": [
+        {
+            "name": "anyhow",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "ethabi",
+            "req": "^17.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "getrandom",
+            "req": "^0.2",
+            "features": [
+                "custom"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": "wasm32-unknown-unknown",
+            "kind": "normal"
+        },
+        {
+            "name": "prost",
+            "req": "^0.10.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "prost-build",
+            "req": "^0.10.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "prost-types",
+            "req": "^0.10.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "substreams",
+            "req": "^0.0.15",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "59f6c18207db54281ea2a8babe213d2c639d03930fcd9b508a20a4cd2cb2fbb2",
+    "features": {},
+    "yanked": false,
+    "rust_version": "1.60"
+}

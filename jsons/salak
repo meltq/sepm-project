@@ -1,1 +1,97 @@
-{"name":"salak","vers":"0.1.0","deps":[{"name":"clap","req":"^2.33","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"env_logger","req":"^0.8","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"lazy_static","req":"^1.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"log","req":"^0.4","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"quickcheck","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"quickcheck_macros","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"regex","req":"^1.4","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"toml","req":"^0.5","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"3ba9ca2944fd689e1dd54bbfb81e0a0c7835cf2036ea0b94c08b0bb3d18b9cf7","features":{"default":["enable_args","enable_toml","enable_log"],"enable_args":["clap","regex"],"enable_log":["log"],"enable_toml":["toml"]},"yanked":true}
+{
+    "name": "salak",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "clap",
+            "req": "^2.33",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "env_logger",
+            "req": "^0.8",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "lazy_static",
+            "req": "^1.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "log",
+            "req": "^0.4",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "quickcheck",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "quickcheck_macros",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "regex",
+            "req": "^1.4",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "toml",
+            "req": "^0.5",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "3ba9ca2944fd689e1dd54bbfb81e0a0c7835cf2036ea0b94c08b0bb3d18b9cf7",
+    "features": {
+        "default": [
+            "enable_args",
+            "enable_toml",
+            "enable_log"
+        ],
+        "enable_args": [
+            "clap",
+            "regex"
+        ],
+        "enable_log": [
+            "log"
+        ],
+        "enable_toml": [
+            "toml"
+        ]
+    },
+    "yanked": true
+}

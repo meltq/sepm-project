@@ -1,1 +1,76 @@
-{"name":"crml-derive","vers":"0.1.4","deps":[{"name":"crml-core","req":"^0.1.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"pathbufd","req":"^0.1.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"proc-macro2","req":"^1.0.92","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"quote","req":"^1.0.38","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.217","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.134","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"syn","req":"^2.0.94","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"d192c00acdbae700b90d96d31c1455a650a916808177efb4aa13970d79307467","features":{},"yanked":false}
+{
+    "name": "crml-derive",
+    "vers": "0.1.4",
+    "deps": [
+        {
+            "name": "crml-core",
+            "req": "^0.1.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "pathbufd",
+            "req": "^0.1.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "proc-macro2",
+            "req": "^1.0.92",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "quote",
+            "req": "^1.0.38",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.217",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.134",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "syn",
+            "req": "^2.0.94",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "d192c00acdbae700b90d96d31c1455a650a916808177efb4aa13970d79307467",
+    "features": {},
+    "yanked": false
+}

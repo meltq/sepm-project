@@ -1,1 +1,55 @@
-{"name":"ryg-rans-sys","vers":"1.0.0","deps":[{"name":"bindgen","req":"^0.60.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"cc","req":"^1.0.73","features":["parallel"],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"dunce","req":"^1.0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"libc","req":"^0.2.126","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"0e2cb6dc9a6ec34d41fd0b7aeb66504ad4082d02a85b67478df0cd420637adf4","features":{"64":[],"byte":[],"default":["byte"],"word_sse41":[]},"yanked":true,"links":"ryg_rans"}
+{
+    "name": "ryg-rans-sys",
+    "vers": "1.0.0",
+    "deps": [
+        {
+            "name": "bindgen",
+            "req": "^0.60.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "cc",
+            "req": "^1.0.73",
+            "features": [
+                "parallel"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "dunce",
+            "req": "^1.0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "libc",
+            "req": "^0.2.126",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "0e2cb6dc9a6ec34d41fd0b7aeb66504ad4082d02a85b67478df0cd420637adf4",
+    "features": {
+        "64": [],
+        "byte": [],
+        "default": [
+            "byte"
+        ],
+        "word_sse41": []
+    },
+    "yanked": true,
+    "links": "ryg_rans"
+}

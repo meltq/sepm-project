@@ -1,1 +1,43 @@
-{"name":"wasmer-types-unc","vers":"2.3.0","deps":[{"name":"indexmap","req":"^1.6","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rkyv","req":"^0.7.20","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"fbbf5e4906ccb2a9fcbcf42644a53341be276591917fccd23dc5d519f3ad73c3","features":{"core":[],"default":["std"],"experimental-reference-types-extern-ref":[],"std":[]},"yanked":false}
+{
+    "name": "wasmer-types-unc",
+    "vers": "2.3.0",
+    "deps": [
+        {
+            "name": "indexmap",
+            "req": "^1.6",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rkyv",
+            "req": "^0.7.20",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "fbbf5e4906ccb2a9fcbcf42644a53341be276591917fccd23dc5d519f3ad73c3",
+    "features": {
+        "core": [],
+        "default": [
+            "std"
+        ],
+        "experimental-reference-types-extern-ref": [],
+        "std": []
+    },
+    "yanked": false
+}

@@ -1,1 +1,94 @@
-{"name":"phnt","vers":"0.0.1","deps":[{"name":"bindgen","req":"^0.69.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"chrono","req":"^0.4.37","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"cty","req":"^0.2.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"nt-string","req":"^0.1.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"regex","req":"^1.10.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"windows","req":">=0.52.0","features":["Win32_Foundation"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"windows","req":">=0.52.0","features":["Win32_Foundation"],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"windows-targets","req":">=0.52.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"windows-targets","req":">=0.52.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"}],"cksum":"f9be126131c3e508a280348d78fde28757aaeea9131ba7fa3a2707607cbea467","features":{},"yanked":true}
+{
+    "name": "phnt",
+    "vers": "0.0.1",
+    "deps": [
+        {
+            "name": "bindgen",
+            "req": "^0.69.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "chrono",
+            "req": "^0.4.37",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "cty",
+            "req": "^0.2.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "nt-string",
+            "req": "^0.1.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "regex",
+            "req": "^1.10.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "windows",
+            "req": ">=0.52.0",
+            "features": [
+                "Win32_Foundation"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "windows",
+            "req": ">=0.52.0",
+            "features": [
+                "Win32_Foundation"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "windows-targets",
+            "req": ">=0.52.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "windows-targets",
+            "req": ">=0.52.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        }
+    ],
+    "cksum": "f9be126131c3e508a280348d78fde28757aaeea9131ba7fa3a2707607cbea467",
+    "features": {},
+    "yanked": true
+}

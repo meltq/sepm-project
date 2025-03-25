@@ -1,1 +1,73 @@
-{"name":"verity-memory","vers":"0.1.0","deps":[{"name":"capstone","req":"^0.12.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"ctor","req":"^0.2.9","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"dynasmrt","req":"^3.0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"libloading","req":"^0.8.6","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.42.0","features":["sync","rt","macros"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"winapi","req":"^0.3","features":["memoryapi","processthreadsapi","handleapi","sysinfoapi","libloaderapi"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"c3af72d4fbf5cfa234240b87022bdfcdb41dddc4ef57bad539583dfa4028215c","features":{},"yanked":true}
+{
+    "name": "verity-memory",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "capstone",
+            "req": "^0.12.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ctor",
+            "req": "^0.2.9",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "dynasmrt",
+            "req": "^3.0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "libloading",
+            "req": "^0.8.6",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.42.0",
+            "features": [
+                "sync",
+                "rt",
+                "macros"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "winapi",
+            "req": "^0.3",
+            "features": [
+                "memoryapi",
+                "processthreadsapi",
+                "handleapi",
+                "sysinfoapi",
+                "libloaderapi"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "c3af72d4fbf5cfa234240b87022bdfcdb41dddc4ef57bad539583dfa4028215c",
+    "features": {},
+    "yanked": true
+}

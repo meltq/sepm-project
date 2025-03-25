@@ -1,1 +1,61 @@
-{"name":"polyhorn-yoga","vers":"0.3.2","deps":[{"name":"bindgen","req":"^0.55.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"cc","req":"^1.0.17","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"ordered-float","req":"^1.0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.27","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_derive","req":"^1.0.27","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"3d5f5ba7eac45fd00941d15f710c4ebe2187128eba80bd218cab930ea12e93ce","features":{"default":[],"serde_support":["serde","serde_derive","ordered-float/serde"]},"yanked":false}
+{
+    "name": "polyhorn-yoga",
+    "vers": "0.3.2",
+    "deps": [
+        {
+            "name": "bindgen",
+            "req": "^0.55.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "cc",
+            "req": "^1.0.17",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "ordered-float",
+            "req": "^1.0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.27",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_derive",
+            "req": "^1.0.27",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "3d5f5ba7eac45fd00941d15f710c4ebe2187128eba80bd218cab930ea12e93ce",
+    "features": {
+        "default": [],
+        "serde_support": [
+            "serde",
+            "serde_derive",
+            "ordered-float/serde"
+        ]
+    },
+    "yanked": false
+}

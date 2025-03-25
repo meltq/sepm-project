@@ -1,1 +1,69 @@
-{"name":"jetstream_p9","vers":"0.1.1","deps":[{"name":"genfs","req":"^0.1.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"jetstream_p9_wire_format_derive","req":"^0.1.1","features":[],"optional":false,"default_features":true,"target":"cfg(unix)","kind":"normal"},{"name":"libc","req":"^0.2","features":[],"optional":false,"default_features":true,"target":"cfg(unix)","kind":"normal"},{"name":"serde","req":"^1.0","features":["derive"],"optional":false,"default_features":true,"target":"cfg(unix)","kind":"normal"},{"name":"serde_bytes","req":"^0.11.14","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.29.0","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"db1884a4fd639183c4d5bf3822d9954034a80e0fad3ec892fef8389e8d48e6ae","features":{"trace":[]},"yanked":false}
+{
+    "name": "jetstream_p9",
+    "vers": "0.1.1",
+    "deps": [
+        {
+            "name": "genfs",
+            "req": "^0.1.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "jetstream_p9_wire_format_derive",
+            "req": "^0.1.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": "cfg(unix)",
+            "kind": "normal"
+        },
+        {
+            "name": "libc",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": "cfg(unix)",
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": "cfg(unix)",
+            "kind": "normal"
+        },
+        {
+            "name": "serde_bytes",
+            "req": "^0.11.14",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.29.0",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "db1884a4fd639183c4d5bf3822d9954034a80e0fad3ec892fef8389e8d48e6ae",
+    "features": {
+        "trace": []
+    },
+    "yanked": false
+}

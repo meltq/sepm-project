@@ -1,1 +1,127 @@
-{"name":"af-pyth-wrapper","vers":"0.16.0","deps":[{"name":"af-move-type","req":"^0.7","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"af-oracle","req":"^0.14","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"af-ptbuilder","req":"^3","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"af-sui-pkg-sdk","req":"^0.7","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"af-sui-types","req":"^0.6","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"bcs","req":"^0.1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"extension-traits","req":"^2","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"sui-framework-sdk","req":"^0.9","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"sui-gql-client","req":"^0.13","features":["move-type","queries"],"optional":true,"default_features":false,"target":null,"kind":"normal"},{"name":"thiserror","req":"^2","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"trait-variant","req":"^0.1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"2377b83a8e64bc4017f5f2190fbabf3ed2e82d181abd86162b587fe46e341bfe","features":{},"features2":{"graphql":["dep:af-move-type","dep:af-sui-types","dep:bcs","dep:extension-traits","dep:sui-gql-client","dep:thiserror","dep:trait-variant"],"ptb":["dep:af-ptbuilder","dep:extension-traits"]},"yanked":false,"v":2}
+{
+    "name": "af-pyth-wrapper",
+    "vers": "0.16.0",
+    "deps": [
+        {
+            "name": "af-move-type",
+            "req": "^0.7",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "af-oracle",
+            "req": "^0.14",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "af-ptbuilder",
+            "req": "^3",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "af-sui-pkg-sdk",
+            "req": "^0.7",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "af-sui-types",
+            "req": "^0.6",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "bcs",
+            "req": "^0.1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "extension-traits",
+            "req": "^2",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "sui-framework-sdk",
+            "req": "^0.9",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "sui-gql-client",
+            "req": "^0.13",
+            "features": [
+                "move-type",
+                "queries"
+            ],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^2",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "trait-variant",
+            "req": "^0.1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "2377b83a8e64bc4017f5f2190fbabf3ed2e82d181abd86162b587fe46e341bfe",
+    "features": {},
+    "features2": {
+        "graphql": [
+            "dep:af-move-type",
+            "dep:af-sui-types",
+            "dep:bcs",
+            "dep:extension-traits",
+            "dep:sui-gql-client",
+            "dep:thiserror",
+            "dep:trait-variant"
+        ],
+        "ptb": [
+            "dep:af-ptbuilder",
+            "dep:extension-traits"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

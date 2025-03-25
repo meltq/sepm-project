@@ -1,1 +1,29 @@
-{"name":"dlt_log","vers":"0.1.0","deps":[{"name":"bindgen","req":"^0.71.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"log","req":"^0.4","features":["std"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"55de8cb30384bef9f324f5a361762e3045f282a0729ebe95388e6b35c5272cd0","features":{},"yanked":false}
+{
+    "name": "dlt_log",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "bindgen",
+            "req": "^0.71.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "log",
+            "req": "^0.4",
+            "features": [
+                "std"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "55de8cb30384bef9f324f5a361762e3045f282a0729ebe95388e6b35c5272cd0",
+    "features": {},
+    "yanked": false
+}

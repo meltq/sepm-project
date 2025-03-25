@@ -1,1 +1,72 @@
-{"name":"blend-rs","vers":"0.1.0","deps":[{"name":"blend-bindgen-rs","req":"^0.3.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"blend-inspect-rs","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"glob","req":"^0.3.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"hamcrest2","req":"^0.3.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"sha2","req":"^0.10.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"thiserror","req":"^1.0.31","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"e6912297c72307b310d78ddfa23f3ad542df52b11d3b89e32dd568ea251dc715","features":{"all":["blender2_7","blender2_9","blender3_0"],"blender2_7":[],"blender2_9":[],"blender3_0":[]},"yanked":false}
+{
+    "name": "blend-rs",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "blend-bindgen-rs",
+            "req": "^0.3.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "blend-inspect-rs",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "glob",
+            "req": "^0.3.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "hamcrest2",
+            "req": "^0.3.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "sha2",
+            "req": "^0.10.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "thiserror",
+            "req": "^1.0.31",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "e6912297c72307b310d78ddfa23f3ad542df52b11d3b89e32dd568ea251dc715",
+    "features": {
+        "all": [
+            "blender2_7",
+            "blender2_9",
+            "blender3_0"
+        ],
+        "blender2_7": [],
+        "blender2_9": [],
+        "blender3_0": []
+    },
+    "yanked": false
+}

@@ -1,1 +1,87 @@
-{"name":"axum_responses","vers":"0.1.0","deps":[{"name":"axum","req":"^0.7.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"axum-test","req":"^14.4.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"lazy_static","req":"^1.4.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.111","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.27.0","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tower-http","req":"^0.5.2","features":["trace"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing-subscriber","req":"^0.3.18","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"cc0b090b51f2591eb281578c9f14205f92f1e20bfe8f67d220c10d113ad3e1e9","features":{},"yanked":false}
+{
+    "name": "axum_responses",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "axum",
+            "req": "^0.7.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "axum-test",
+            "req": "^14.4.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "lazy_static",
+            "req": "^1.4.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.111",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.27.0",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tower-http",
+            "req": "^0.5.2",
+            "features": [
+                "trace"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing-subscriber",
+            "req": "^0.3.18",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "cc0b090b51f2591eb281578c9f14205f92f1e20bfe8f67d220c10d113ad3e1e9",
+    "features": {},
+    "yanked": false
+}

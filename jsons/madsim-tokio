@@ -1,1 +1,83 @@
-{"name":"madsim-tokio","vers":"0.2.0-alpha.2","deps":[{"name":"madsim","req":"^0.2.0-alpha.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.18.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"aed42b4655e5d1badf560bee6bd22326aa31a7f087346f10959da746bf84d60a","features":{"bytes":[],"fs":["tokio/fs"],"full":["tokio/full"],"io-std":["tokio/io-std"],"io-util":["tokio/io-util"],"libc":[],"macros":["tokio/macros"],"memchr":[],"mio":[],"net":["tokio/net"],"num_cpus":[],"once_cell":[],"parking_lot":[],"process":["tokio/process"],"rt":["tokio/rt"],"rt-multi-thread":["tokio/rt-multi-thread"],"signal":["tokio/signal"],"signal-hook-registry":[],"sim":["madsim/sim"],"socket2":[],"stats":["tokio/stats"],"sync":["tokio/sync"],"test-util":["tokio/test-util"],"time":["tokio/time"],"tokio-macros":[]},"yanked":false}
+{
+    "name": "madsim-tokio",
+    "vers": "0.2.0-alpha.2",
+    "deps": [
+        {
+            "name": "madsim",
+            "req": "^0.2.0-alpha.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.18.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "aed42b4655e5d1badf560bee6bd22326aa31a7f087346f10959da746bf84d60a",
+    "features": {
+        "bytes": [],
+        "fs": [
+            "tokio/fs"
+        ],
+        "full": [
+            "tokio/full"
+        ],
+        "io-std": [
+            "tokio/io-std"
+        ],
+        "io-util": [
+            "tokio/io-util"
+        ],
+        "libc": [],
+        "macros": [
+            "tokio/macros"
+        ],
+        "memchr": [],
+        "mio": [],
+        "net": [
+            "tokio/net"
+        ],
+        "num_cpus": [],
+        "once_cell": [],
+        "parking_lot": [],
+        "process": [
+            "tokio/process"
+        ],
+        "rt": [
+            "tokio/rt"
+        ],
+        "rt-multi-thread": [
+            "tokio/rt-multi-thread"
+        ],
+        "signal": [
+            "tokio/signal"
+        ],
+        "signal-hook-registry": [],
+        "sim": [
+            "madsim/sim"
+        ],
+        "socket2": [],
+        "stats": [
+            "tokio/stats"
+        ],
+        "sync": [
+            "tokio/sync"
+        ],
+        "test-util": [
+            "tokio/test-util"
+        ],
+        "time": [
+            "tokio/time"
+        ],
+        "tokio-macros": []
+    },
+    "yanked": false
+}

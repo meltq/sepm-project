@@ -1,1 +1,40 @@
-{"name":"hooker","vers":"0.1.0","deps":[{"name":"arrayvec","req":"^0.7.4","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"thiserror-no-std","req":"^2.0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"zydis-sys","req":"^0.1.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"d8c469d85ae22e12ba7373316a9cedd494a096229cbb533e6a6cf25ad24fe4a3","features":{"std":["thiserror-no-std/std"]},"yanked":false}
+{
+    "name": "hooker",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "arrayvec",
+            "req": "^0.7.4",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror-no-std",
+            "req": "^2.0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "zydis-sys",
+            "req": "^0.1.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "d8c469d85ae22e12ba7373316a9cedd494a096229cbb533e6a6cf25ad24fe4a3",
+    "features": {
+        "std": [
+            "thiserror-no-std/std"
+        ]
+    },
+    "yanked": false
+}

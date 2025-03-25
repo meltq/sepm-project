@@ -1,1 +1,50 @@
-{"name":"apalis","vers":"0.2.0","deps":[{"name":"apalis-core","req":"^0.2.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"apalis-redis","req":"^0.2.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"apalis-sql","req":"^0.2.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"9766eb1404821adf4a862ee12fb5cb85742dc73806e3729095855b2ac06159dc","features":{"default":["redis"],"mysql":["apalis-sql/mysql"],"postgres":["apalis-sql/postgres"],"redis":[],"sqlite":["apalis-sql/sqlite"]},"yanked":false}
+{
+    "name": "apalis",
+    "vers": "0.2.0",
+    "deps": [
+        {
+            "name": "apalis-core",
+            "req": "^0.2.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "apalis-redis",
+            "req": "^0.2.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "apalis-sql",
+            "req": "^0.2.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "9766eb1404821adf4a862ee12fb5cb85742dc73806e3729095855b2ac06159dc",
+    "features": {
+        "default": [
+            "redis"
+        ],
+        "mysql": [
+            "apalis-sql/mysql"
+        ],
+        "postgres": [
+            "apalis-sql/postgres"
+        ],
+        "redis": [],
+        "sqlite": [
+            "apalis-sql/sqlite"
+        ]
+    },
+    "yanked": false
+}

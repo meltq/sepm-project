@@ -1,1 +1,64 @@
-{"name":"fakelish","vers":"0.1.0","deps":[{"name":"clap","req":"4.*","features":["derive"],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"rand","req":"^0.8.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"regex","req":"1.*","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"1.*","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"1.*","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"5102817d1661740f8fe98f9fa24635529f359232a601a0354ef828ccdc02b440","features":{},"features2":{"cli":["dep:clap"]},"yanked":false,"v":2}
+{
+    "name": "fakelish",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "clap",
+            "req": "4.*",
+            "features": [
+                "derive"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rand",
+            "req": "^0.8.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "regex",
+            "req": "1.*",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "1.*",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "1.*",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "5102817d1661740f8fe98f9fa24635529f359232a601a0354ef828ccdc02b440",
+    "features": {},
+    "features2": {
+        "cli": [
+            "dep:clap"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

@@ -1,1 +1,56 @@
-{"name":"gemfile_downloader","vers":"0.1.0","deps":[{"name":"flate2","req":"^1.0.35","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"futures","req":"^0.3.31","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"reqwest","req":"^0.12.11","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tar","req":"^0.4.43","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.42.0","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"8157a46e8c463144e4652bfd4625f5d5a46b5235c314d9f2103615dbbab775e7","features":{},"yanked":false}
+{
+    "name": "gemfile_downloader",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "flate2",
+            "req": "^1.0.35",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "futures",
+            "req": "^0.3.31",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "reqwest",
+            "req": "^0.12.11",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tar",
+            "req": "^0.4.43",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.42.0",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "8157a46e8c463144e4652bfd4625f5d5a46b5235c314d9f2103615dbbab775e7",
+    "features": {},
+    "yanked": false
+}

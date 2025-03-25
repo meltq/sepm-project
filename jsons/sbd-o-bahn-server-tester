@@ -1,1 +1,29 @@
-{"name":"sbd-o-bahn-server-tester","vers":"0.0.1-alpha","deps":[{"name":"sbd-client","req":"^0.0.1-alpha","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.37.0","features":["full"],"optional":false,"default_features":false,"target":null,"kind":"normal"}],"cksum":"e97bb0d802eef408620d26cbca8bdc4e1718401633f3f68ebc1c43d8e0c978b0","features":{},"yanked":false}
+{
+    "name": "sbd-o-bahn-server-tester",
+    "vers": "0.0.1-alpha",
+    "deps": [
+        {
+            "name": "sbd-client",
+            "req": "^0.0.1-alpha",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.37.0",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "e97bb0d802eef408620d26cbca8bdc4e1718401633f3f68ebc1c43d8e0c978b0",
+    "features": {},
+    "yanked": false
+}

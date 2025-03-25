@@ -1,1 +1,133 @@
-{"name":"iceberg-file-catalog","vers":"0.6.0","deps":[{"name":"async-trait","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"datafusion","req":"^43.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"datafusion_iceberg","req":"^0.6.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"futures","req":"^0.3.30","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"iceberg-rust","req":"^0.6.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"object_store","req":"^0.11.1","features":["aws","gcp"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"testcontainers","req":"^0.20.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"testcontainers-modules","req":"^0.8.0","features":["localstack"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"thiserror","req":"^2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"url","req":"^2.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"uuid","req":"^1.7.0","features":["v4"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"2361a13cd3a8b3f2ba4a84e1aee949f235dc0785209dd0b4e7bbf1923f109987","features":{},"yanked":false}
+{
+    "name": "iceberg-file-catalog",
+    "vers": "0.6.0",
+    "deps": [
+        {
+            "name": "async-trait",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "datafusion",
+            "req": "^43.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "datafusion_iceberg",
+            "req": "^0.6.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "futures",
+            "req": "^0.3.30",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "iceberg-rust",
+            "req": "^0.6.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "object_store",
+            "req": "^0.11.1",
+            "features": [
+                "aws",
+                "gcp"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "testcontainers",
+            "req": "^0.20.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "testcontainers-modules",
+            "req": "^0.8.0",
+            "features": [
+                "localstack"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "thiserror",
+            "req": "^2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "url",
+            "req": "^2.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "uuid",
+            "req": "^1.7.0",
+            "features": [
+                "v4"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "2361a13cd3a8b3f2ba4a84e1aee949f235dc0785209dd0b4e7bbf1923f109987",
+    "features": {},
+    "yanked": false
+}

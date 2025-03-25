@@ -1,1 +1,132 @@
-{"name":"onechatsocial-models","vers":"0.6.13","deps":[{"name":"indexmap","req":"^1.9.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"iso8601-timestamp","req":"^0.2.11","features":["schema","bson"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"once_cell","req":"^1.17.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"onechatsocial-config","req":"^0.6.13","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"onechatsocial-permissions","req":"^0.6.13","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"regex","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"revolt_optional_struct","req":"^0.2.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"schemars","req":"^0.8.8","features":["indexmap1"],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1","features":["derive"],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"validator","req":"^0.16.0","features":["derive"],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"86a42f1340c094e8272a73dff3cfa881bf08516f0d3295b71ae1bff7315c9b2f","features":{},"features2":{"default":["serde","partials"],"partials":["dep:revolt_optional_struct","serde","schemas"],"schemas":["dep:schemars","onechatsocial-permissions/schemas"],"serde":["dep:serde","onechatsocial-permissions/serde","indexmap/serde"],"validator":["dep:validator"]},"yanked":false,"v":2}
+{
+    "name": "onechatsocial-models",
+    "vers": "0.6.13",
+    "deps": [
+        {
+            "name": "indexmap",
+            "req": "^1.9.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "iso8601-timestamp",
+            "req": "^0.2.11",
+            "features": [
+                "schema",
+                "bson"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "once_cell",
+            "req": "^1.17.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "onechatsocial-config",
+            "req": "^0.6.13",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "onechatsocial-permissions",
+            "req": "^0.6.13",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "regex",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "revolt_optional_struct",
+            "req": "^0.2.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "schemars",
+            "req": "^0.8.8",
+            "features": [
+                "indexmap1"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1",
+            "features": [
+                "derive"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "validator",
+            "req": "^0.16.0",
+            "features": [
+                "derive"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "86a42f1340c094e8272a73dff3cfa881bf08516f0d3295b71ae1bff7315c9b2f",
+    "features": {},
+    "features2": {
+        "default": [
+            "serde",
+            "partials"
+        ],
+        "partials": [
+            "dep:revolt_optional_struct",
+            "serde",
+            "schemas"
+        ],
+        "schemas": [
+            "dep:schemars",
+            "onechatsocial-permissions/schemas"
+        ],
+        "serde": [
+            "dep:serde",
+            "onechatsocial-permissions/serde",
+            "indexmap/serde"
+        ],
+        "validator": [
+            "dep:validator"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

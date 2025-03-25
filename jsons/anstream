@@ -1,1 +1,124 @@
-{"name":"anstream","vers":"0.2.3","deps":[{"name":"anstyle","req":"^0.3.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"anstyle-parse","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"anstyle-wincon","req":"^0.2.0","features":[],"optional":true,"default_features":true,"target":"cfg(windows)","kind":"normal"},{"name":"concolor-override","req":"^1.0.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"concolor-query","req":"^0.3.1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"criterion","req":"^0.4.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"is-terminal","req":"^0.4.4","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"owo-colors","req":"^3.5.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"proptest","req":"^1.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"strip-ansi-escapes","req":"^0.1.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"utf8parse","req":"^0.2.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"fd0982309face56a044e935a18bbffcddeb1ce72e69a3ecc3bafb56d4e959f37","features":{},"features2":{"auto":["dep:concolor-query","dep:concolor-override","dep:is-terminal"],"default":["auto","wincon"],"wincon":["dep:anstyle-wincon"]},"yanked":false,"rust_version":"1.64.0","v":2}
+{
+    "name": "anstream",
+    "vers": "0.2.3",
+    "deps": [
+        {
+            "name": "anstyle",
+            "req": "^0.3.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "anstyle-parse",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "anstyle-wincon",
+            "req": "^0.2.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": "cfg(windows)",
+            "kind": "normal"
+        },
+        {
+            "name": "concolor-override",
+            "req": "^1.0.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "concolor-query",
+            "req": "^0.3.1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "criterion",
+            "req": "^0.4.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "is-terminal",
+            "req": "^0.4.4",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "owo-colors",
+            "req": "^3.5.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "proptest",
+            "req": "^1.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "strip-ansi-escapes",
+            "req": "^0.1.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "utf8parse",
+            "req": "^0.2.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "fd0982309face56a044e935a18bbffcddeb1ce72e69a3ecc3bafb56d4e959f37",
+    "features": {},
+    "features2": {
+        "auto": [
+            "dep:concolor-query",
+            "dep:concolor-override",
+            "dep:is-terminal"
+        ],
+        "default": [
+            "auto",
+            "wincon"
+        ],
+        "wincon": [
+            "dep:anstyle-wincon"
+        ]
+    },
+    "yanked": false,
+    "rust_version": "1.64.0",
+    "v": 2
+}

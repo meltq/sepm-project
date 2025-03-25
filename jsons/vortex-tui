@@ -1,1 +1,79 @@
-{"name":"vortex-tui","vers":"0.23.0","deps":[{"name":"bytes","req":"^1.6.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"clap","req":"^4","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"crossterm","req":"^0.28","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"ratatui","req":"^0.29","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.37.0","features":["rt-multi-thread"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"vortex","req":"^0.23.0","features":["tokio"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"vortex-layout","req":"^0.23.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"26745bb21d83023732c447e660e015f3fee966eaff49ea5ec3e0cd0484f4507c","features":{},"yanked":false,"rust_version":"1.82"}
+{
+    "name": "vortex-tui",
+    "vers": "0.23.0",
+    "deps": [
+        {
+            "name": "bytes",
+            "req": "^1.6.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "clap",
+            "req": "^4",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "crossterm",
+            "req": "^0.28",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ratatui",
+            "req": "^0.29",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.37.0",
+            "features": [
+                "rt-multi-thread"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "vortex",
+            "req": "^0.23.0",
+            "features": [
+                "tokio"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "vortex-layout",
+            "req": "^0.23.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "26745bb21d83023732c447e660e015f3fee966eaff49ea5ec3e0cd0484f4507c",
+    "features": {},
+    "yanked": false,
+    "rust_version": "1.82"
+}

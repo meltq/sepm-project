@@ -1,1 +1,79 @@
-{"name":"fixed-resample","vers":"0.1.0","deps":[{"name":"clap","req":"^4.5.27","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"hound","req":"^3.5.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"ringbuf","req":"^0.4.7","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"ringbuf","req":"^0.4.7","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"rubato","req":"^0.16.1","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"spin_sleep","req":"^1.3.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"a8ee437c61ca7c4ef16b179acba88d2f92b9c6c79d5111bf10756bea1713b4a5","features":{"fft-resampler":["rubato/fft_resampler"]},"features2":{"channel":["dep:ringbuf"],"default":["channel","fft-resampler"]},"yanked":false,"v":2}
+{
+    "name": "fixed-resample",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "clap",
+            "req": "^4.5.27",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "hound",
+            "req": "^3.5.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "ringbuf",
+            "req": "^0.4.7",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ringbuf",
+            "req": "^0.4.7",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "rubato",
+            "req": "^0.16.1",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "spin_sleep",
+            "req": "^1.3.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "a8ee437c61ca7c4ef16b179acba88d2f92b9c6c79d5111bf10756bea1713b4a5",
+    "features": {
+        "fft-resampler": [
+            "rubato/fft_resampler"
+        ]
+    },
+    "features2": {
+        "channel": [
+            "dep:ringbuf"
+        ],
+        "default": [
+            "channel",
+            "fft-resampler"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

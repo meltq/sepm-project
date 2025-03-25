@@ -1,1 +1,121 @@
-{"name":"terrazzo-client","vers":"0.1.1","deps":[{"name":"autoclone","req":"^0.1.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"nameth","req":"^0.1.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"scopeguard","req":"^1.2.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"terrazzo-macro","req":"^0.1.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"thiserror","req":"^2.0.9","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing","req":"^0.1.41","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing-subscriber","req":"^0.3.19","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing-subscriber-wasm","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"wasm-bindgen","req":"^0.2.99","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"web-sys","req":"^0.3.76","features":["Attr","CssStyleDeclaration","Document","Element","EventTarget","NodeList","Text","Window"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"web-sys","req":"^0.3.76","features":["MouseEvent"],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"98e4f8cde8c61e3dfa699a65566ad796c222fd4ec73572ab8a84d639429a47f0","features":{"concise_traces":[]},"yanked":false}
+{
+    "name": "terrazzo-client",
+    "vers": "0.1.1",
+    "deps": [
+        {
+            "name": "autoclone",
+            "req": "^0.1.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "nameth",
+            "req": "^0.1.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "scopeguard",
+            "req": "^1.2.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "terrazzo-macro",
+            "req": "^0.1.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "thiserror",
+            "req": "^2.0.9",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1.41",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing-subscriber",
+            "req": "^0.3.19",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing-subscriber-wasm",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "wasm-bindgen",
+            "req": "^0.2.99",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "web-sys",
+            "req": "^0.3.76",
+            "features": [
+                "Attr",
+                "CssStyleDeclaration",
+                "Document",
+                "Element",
+                "EventTarget",
+                "NodeList",
+                "Text",
+                "Window"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "web-sys",
+            "req": "^0.3.76",
+            "features": [
+                "MouseEvent"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "98e4f8cde8c61e3dfa699a65566ad796c222fd4ec73572ab8a84d639429a47f0",
+    "features": {
+        "concise_traces": []
+    },
+    "yanked": false
+}

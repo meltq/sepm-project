@@ -1,1 +1,65 @@
-{"name":"by-types","vers":"0.1.0","deps":[{"name":"aide","req":"^0.14.0","features":["axum","axum-extra","axum-extra-headers","axum-extra-query","axum-json","swagger","redoc","scalar","macros"],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"axum","req":"^0.8.1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"schemars","req":"^0.8.10","features":["uuid1"],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.217","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"1f34773d069f2163e26cf5ef0848a1abfe9809aa2f825c6de5980d74d1b40c4c","features":{"server":["aide","axum","schemars"]},"yanked":false}
+{
+    "name": "by-types",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "aide",
+            "req": "^0.14.0",
+            "features": [
+                "axum",
+                "axum-extra",
+                "axum-extra-headers",
+                "axum-extra-query",
+                "axum-json",
+                "swagger",
+                "redoc",
+                "scalar",
+                "macros"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "axum",
+            "req": "^0.8.1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "schemars",
+            "req": "^0.8.10",
+            "features": [
+                "uuid1"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.217",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "1f34773d069f2163e26cf5ef0848a1abfe9809aa2f825c6de5980d74d1b40c4c",
+    "features": {
+        "server": [
+            "aide",
+            "axum",
+            "schemars"
+        ]
+    },
+    "yanked": false
+}

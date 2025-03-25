@@ -1,1 +1,77 @@
-{"name":"age-plugin-xwing","vers":"0.1.0","deps":[{"name":"age-core","req":"^0.11.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"age-plugin","req":"^0.6.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"base64","req":"^0.22.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"clap","req":"^4.5.1","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"kem","req":"^0.3.0-pre.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rand_core","req":"^0.6.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"x-wing","req":"^0.0.1-pre.1","features":["getrandom","zeroize"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"74069e38d2ce2c3946d24dd455e1a7958c897753ae94a4dc887edb4344ebf444","features":{},"yanked":false}
+{
+    "name": "age-plugin-xwing",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "age-core",
+            "req": "^0.11.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "age-plugin",
+            "req": "^0.6.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "base64",
+            "req": "^0.22.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "clap",
+            "req": "^4.5.1",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "kem",
+            "req": "^0.3.0-pre.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rand_core",
+            "req": "^0.6.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "x-wing",
+            "req": "^0.0.1-pre.1",
+            "features": [
+                "getrandom",
+                "zeroize"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "74069e38d2ce2c3946d24dd455e1a7958c897753ae94a4dc887edb4344ebf444",
+    "features": {},
+    "yanked": false
+}

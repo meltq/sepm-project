@@ -1,1 +1,47 @@
-{"name":"baton","vers":"0.1.0","deps":[{"name":"baton-derive","req":"^0.1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"futures","req":"^0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"tokio","req":"^1","features":["sync"],"optional":false,"default_features":false,"target":null,"kind":"normal"}],"cksum":"14b9b105684ebf9797fbfcdd2d081e3bb9f7cd52203d7be7b2648cf31a69d306","features":{},"features2":{"default":["derive"],"derive":["dep:baton-derive"]},"yanked":false,"v":2}
+{
+    "name": "baton",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "baton-derive",
+            "req": "^0.1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "futures",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "tokio",
+            "req": "^1",
+            "features": [
+                "sync"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "14b9b105684ebf9797fbfcdd2d081e3bb9f7cd52203d7be7b2648cf31a69d306",
+    "features": {},
+    "features2": {
+        "default": [
+            "derive"
+        ],
+        "derive": [
+            "dep:baton-derive"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

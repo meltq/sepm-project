@@ -1,1 +1,74 @@
-{"name":"xdi","vers":"0.1.0","deps":[{"name":"ahash","req":"^0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"anyhow","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"dashmap","req":"^6","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"parking_lot","req":"^0.12","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1","features":["rt","rt-multi-thread"],"optional":true,"default_features":false,"target":null,"kind":"normal"}],"cksum":"21ea153e477106688c9cbb667c0a2fab0424af9c2dbfdb46c505583f7e153794","features":{"default":[]},"features2":{"task-local":["dep:tokio"]},"yanked":true,"v":2}
+{
+    "name": "xdi",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "ahash",
+            "req": "^0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "anyhow",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "dashmap",
+            "req": "^6",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "parking_lot",
+            "req": "^0.12",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1",
+            "features": [
+                "rt",
+                "rt-multi-thread"
+            ],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "21ea153e477106688c9cbb667c0a2fab0424af9c2dbfdb46c505583f7e153794",
+    "features": {
+        "default": []
+    },
+    "features2": {
+        "task-local": [
+            "dep:tokio"
+        ]
+    },
+    "yanked": true,
+    "v": 2
+}

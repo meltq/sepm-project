@@ -1,1 +1,59 @@
-{"name":"amazon-sp-api","vers":"0.1.1","deps":[{"name":"reqwest","req":"^0.12.8","features":["json","blocking"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.210","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.132","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^1.0.65","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"url","req":"^2.5.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"713cc47d71c317f0da9592ee8f2a4c494b029f8c3fb1587373e050e48552aa76","features":{},"yanked":false}
+{
+    "name": "amazon-sp-api",
+    "vers": "0.1.1",
+    "deps": [
+        {
+            "name": "reqwest",
+            "req": "^0.12.8",
+            "features": [
+                "json",
+                "blocking"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.210",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.132",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^1.0.65",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "url",
+            "req": "^2.5.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "713cc47d71c317f0da9592ee8f2a4c494b029f8c3fb1587373e050e48552aa76",
+    "features": {},
+    "yanked": false
+}

@@ -1,1 +1,78 @@
-{"name":"rest_parser","vers":"0.1.0","deps":[{"name":"anyhow","req":"^1.0.82","features":["backtrace"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"base64","req":"^0.21.7","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"httparse","req":"^1.8.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"indexmap","req":"^2.0.1","features":["serde"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"indoc","req":"^2.0.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"nom","req":"^7.1.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"url","req":"^2.5.0","features":["serde"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"bd747e707ec2fe94d93643e1f8ade1025441147f506ad5921fe14b4af8b68a83","features":{},"yanked":false}
+{
+    "name": "rest_parser",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "anyhow",
+            "req": "^1.0.82",
+            "features": [
+                "backtrace"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "base64",
+            "req": "^0.21.7",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "httparse",
+            "req": "^1.8.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "indexmap",
+            "req": "^2.0.1",
+            "features": [
+                "serde"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "indoc",
+            "req": "^2.0.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "nom",
+            "req": "^7.1.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "url",
+            "req": "^2.5.0",
+            "features": [
+                "serde"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "bd747e707ec2fe94d93643e1f8ade1025441147f506ad5921fe14b4af8b68a83",
+    "features": {},
+    "yanked": false
+}

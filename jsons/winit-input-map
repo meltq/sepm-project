@@ -1,1 +1,33 @@
-{"name":"winit-input-map","vers":"0.1.0","deps":[{"name":"glium-types","req":"^0.1.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"winit","req":"^0.29.15","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"3b8ac3e20df4993d66826729fe84080cc099691cdca64806ee621306eb32c5b9","features":{},"features2":{"glium-types":["dep:glium-types"]},"yanked":false,"v":2}
+{
+    "name": "winit-input-map",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "glium-types",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "winit",
+            "req": "^0.29.15",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "3b8ac3e20df4993d66826729fe84080cc099691cdca64806ee621306eb32c5b9",
+    "features": {},
+    "features2": {
+        "glium-types": [
+            "dep:glium-types"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

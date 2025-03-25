@@ -1,1 +1,39 @@
-{"name":"pqcrypto-internals-wasi","vers":"0.2.1","deps":[{"name":"cc","req":"^1.0","features":["parallel"],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"getrandom","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"libc","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"156401c86905923b24bb989206b5f6d656e4846260eb053fa03d721976735da2","features":{},"yanked":true,"links":"pqcrypto_internals"}
+{
+    "name": "pqcrypto-internals-wasi",
+    "vers": "0.2.1",
+    "deps": [
+        {
+            "name": "cc",
+            "req": "^1.0",
+            "features": [
+                "parallel"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "getrandom",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "libc",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "156401c86905923b24bb989206b5f6d656e4846260eb053fa03d721976735da2",
+    "features": {},
+    "yanked": true,
+    "links": "pqcrypto_internals"
+}

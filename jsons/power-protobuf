@@ -1,1 +1,148 @@
-{"name":"power-protobuf","vers":"0.1.0","deps":[{"name":"convert_case","req":"^0.6","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"http","req":"^1.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"indexmap","req":"^2.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"nom","req":"^7","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"proc-macro2","req":"^1","features":["span-locations"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"prost","req":"^0.12.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"prost-types","req":"^0.12.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"quote","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"syn","req":"^2","features":["full","extra-traits"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"syn-prelude","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.37.0","features":["rt-multi-thread","macros"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"tonic","req":"^0.11.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"3c1e4e58a6b0896faafe5c992dd89fc66a2948e701c3c21eecac7ffab32eb903","features":{"default":["impl_prost","tagless","simplize_rpc_params","derive_serde"],"derive_serde":[],"impl_prost":[],"impl_protobuf_rs":[],"simplize_rpc_params":[],"tagless":[]},"yanked":false}
+{
+    "name": "power-protobuf",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "convert_case",
+            "req": "^0.6",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "http",
+            "req": "^1.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "indexmap",
+            "req": "^2.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "nom",
+            "req": "^7",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "proc-macro2",
+            "req": "^1",
+            "features": [
+                "span-locations"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "prost",
+            "req": "^0.12.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "prost-types",
+            "req": "^0.12.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "quote",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "syn",
+            "req": "^2",
+            "features": [
+                "full",
+                "extra-traits"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "syn-prelude",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.37.0",
+            "features": [
+                "rt-multi-thread",
+                "macros"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "tonic",
+            "req": "^0.11.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "3c1e4e58a6b0896faafe5c992dd89fc66a2948e701c3c21eecac7ffab32eb903",
+    "features": {
+        "default": [
+            "impl_prost",
+            "tagless",
+            "simplize_rpc_params",
+            "derive_serde"
+        ],
+        "derive_serde": [],
+        "impl_prost": [],
+        "impl_protobuf_rs": [],
+        "simplize_rpc_params": [],
+        "tagless": []
+    },
+    "yanked": false
+}

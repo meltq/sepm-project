@@ -1,1 +1,58 @@
-{"name":"tuicam","vers":"0.0.1","deps":[{"name":"crossterm","req":"^0.28.1","features":["event-stream"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"futures","req":"^0.3.31","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"opencv","req":"^0.93.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"ratatui","req":"^0.29.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.41.0","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"3d120eecbd847d56554efa178e21c9fa6a74c526f845004d462019311e19eb46","features":{},"yanked":false}
+{
+    "name": "tuicam",
+    "vers": "0.0.1",
+    "deps": [
+        {
+            "name": "crossterm",
+            "req": "^0.28.1",
+            "features": [
+                "event-stream"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "futures",
+            "req": "^0.3.31",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "opencv",
+            "req": "^0.93.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ratatui",
+            "req": "^0.29.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.41.0",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "3d120eecbd847d56554efa178e21c9fa6a74c526f845004d462019311e19eb46",
+    "features": {},
+    "yanked": false
+}

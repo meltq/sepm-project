@@ -1,1 +1,55 @@
-{"name":"typed-index-collections","vers":"0.0.1","deps":[{"name":"derive_more","req":"^0.99","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"serde","req":"^1.0","features":["derive"],"optional":true,"default_features":false,"target":null,"kind":"normal"},{"name":"version-sync","req":"^0.9","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"3372341179e0feddd366be180d462a0311fbc46c710a69b19c0e3033eafcf8e8","features":{"alloc":[],"default":["alloc","impl-index-from","std"],"impl-index-from":[],"serde-alloc":["alloc","serde/alloc"],"serde-std":["std","serde/std"],"std":[]},"yanked":false}
+{
+    "name": "typed-index-collections",
+    "vers": "0.0.1",
+    "deps": [
+        {
+            "name": "derive_more",
+            "req": "^0.99",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [
+                "derive"
+            ],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "version-sync",
+            "req": "^0.9",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "3372341179e0feddd366be180d462a0311fbc46c710a69b19c0e3033eafcf8e8",
+    "features": {
+        "alloc": [],
+        "default": [
+            "alloc",
+            "impl-index-from",
+            "std"
+        ],
+        "impl-index-from": [],
+        "serde-alloc": [
+            "alloc",
+            "serde/alloc"
+        ],
+        "serde-std": [
+            "std",
+            "serde/std"
+        ],
+        "std": []
+    },
+    "yanked": false
+}

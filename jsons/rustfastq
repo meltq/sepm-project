@@ -1,1 +1,112 @@
-{"name":"rustfastq","vers":"0.4.0","deps":[{"name":"clap","req":"^4","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"counter","req":"^0.6.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"criterion","req":"^0.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"csv","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"fastq","req":"^0.6.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"indicatif","req":"^0.17","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"itertools","req":"^0.13.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"noodles","req":"^0.86","features":["fastq"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"once_cell","req":"^1.19.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"regex","req":"^1.11","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rust-htslib","req":"^0.47.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"da1a082fc065e055cc896084be7d16ab5178eaec8efec844e8ce88106ad9b2dc","features":{},"yanked":false}
+{
+    "name": "rustfastq",
+    "vers": "0.4.0",
+    "deps": [
+        {
+            "name": "clap",
+            "req": "^4",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "counter",
+            "req": "^0.6.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "criterion",
+            "req": "^0.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "csv",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "fastq",
+            "req": "^0.6.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "indicatif",
+            "req": "^0.17",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "itertools",
+            "req": "^0.13.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "noodles",
+            "req": "^0.86",
+            "features": [
+                "fastq"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "once_cell",
+            "req": "^1.19.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "regex",
+            "req": "^1.11",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rust-htslib",
+            "req": "^0.47.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "da1a082fc065e055cc896084be7d16ab5178eaec8efec844e8ce88106ad9b2dc",
+    "features": {},
+    "yanked": false
+}

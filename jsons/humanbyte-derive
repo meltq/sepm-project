@@ -1,1 +1,41 @@
-{"name":"humanbyte-derive","vers":"0.1.0","deps":[{"name":"proc-macro2","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"quote","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"syn","req":"^2","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"260a3f091ff9c725b9586934d60cc6e18c81fb45b8a0382f8719f7614e4d3060","features":{"default":[],"serde":[]},"yanked":false}
+{
+    "name": "humanbyte-derive",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "proc-macro2",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "quote",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "syn",
+            "req": "^2",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "260a3f091ff9c725b9586934d60cc6e18c81fb45b8a0382f8719f7614e4d3060",
+    "features": {
+        "default": [],
+        "serde": []
+    },
+    "yanked": false
+}

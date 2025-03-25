@@ -1,1 +1,64 @@
-{"name":"tokio-rusqlite-new","vers":"0.7.0","deps":[{"name":"crossbeam-channel","req":"~0.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rusqlite","req":"~0.33","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rusqlite","req":"~0.33","features":["bundled"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"tokio","req":"^1.43","features":["sync"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.43","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"c8c523bce6771c8e222affb9332bf7fad7753f7611ee2e3f41fbcf955c1b2a57","features":{"bundled":["rusqlite/bundled"]},"yanked":false}
+{
+    "name": "tokio-rusqlite-new",
+    "vers": "0.7.0",
+    "deps": [
+        {
+            "name": "crossbeam-channel",
+            "req": "~0.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rusqlite",
+            "req": "~0.33",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rusqlite",
+            "req": "~0.33",
+            "features": [
+                "bundled"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.43",
+            "features": [
+                "sync"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.43",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "c8c523bce6771c8e222affb9332bf7fad7753f7611ee2e3f41fbcf955c1b2a57",
+    "features": {
+        "bundled": [
+            "rusqlite/bundled"
+        ]
+    },
+    "yanked": false
+}

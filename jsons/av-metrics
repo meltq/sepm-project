@@ -1,1 +1,72 @@
-{"name":"av-metrics","vers":"0.1.0","deps":[{"name":"criterion","req":"^0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"err-derive","req":"^0.1.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"itertools","req":"^0.8.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"lab","req":"^0.7.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"num-traits","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"y4m","req":"^0.4","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"a555b7136a477ee0c99e5da5b3b2ff267d23c2fdcf40c4ca54cc709eda76c964","features":{"decode":[],"default":["y4m-decode"],"y4m-decode":["y4m","decode"]},"yanked":false}
+{
+    "name": "av-metrics",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "criterion",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "err-derive",
+            "req": "^0.1.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "itertools",
+            "req": "^0.8.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "lab",
+            "req": "^0.7.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "num-traits",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "y4m",
+            "req": "^0.4",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "a555b7136a477ee0c99e5da5b3b2ff267d23c2fdcf40c4ca54cc709eda76c964",
+    "features": {
+        "decode": [],
+        "default": [
+            "y4m-decode"
+        ],
+        "y4m-decode": [
+            "y4m",
+            "decode"
+        ]
+    },
+    "yanked": false
+}

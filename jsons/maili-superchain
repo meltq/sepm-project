@@ -1,1 +1,65 @@
-{"name":"maili-superchain","vers":"0.1.6","deps":[{"name":"alloy-primitives","req":"^0.8.18","features":["map","map-foldhash"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"maili-genesis","req":"^0.1.6","features":["serde"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.217","features":["derive","alloc","derive","alloc"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.135","features":["alloc"],"optional":false,"default_features":false,"target":null,"kind":"dev"}],"cksum":"7fe33eaced86f2ccea9ba95e064ff1b48a33304ce1da6ad25cde3f5a00fc17ae","features":{"default":["std"],"std":["maili-genesis/std"]},"yanked":false,"rust_version":"1.81"}
+{
+    "name": "maili-superchain",
+    "vers": "0.1.6",
+    "deps": [
+        {
+            "name": "alloy-primitives",
+            "req": "^0.8.18",
+            "features": [
+                "map",
+                "map-foldhash"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "maili-genesis",
+            "req": "^0.1.6",
+            "features": [
+                "serde"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.217",
+            "features": [
+                "derive",
+                "alloc",
+                "derive",
+                "alloc"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.135",
+            "features": [
+                "alloc"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "7fe33eaced86f2ccea9ba95e064ff1b48a33304ce1da6ad25cde3f5a00fc17ae",
+    "features": {
+        "default": [
+            "std"
+        ],
+        "std": [
+            "maili-genesis/std"
+        ]
+    },
+    "yanked": false,
+    "rust_version": "1.81"
+}

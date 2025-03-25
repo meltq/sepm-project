@@ -1,1 +1,38 @@
-{"name":"parsql-sqlite","vers":"0.1.0","deps":[{"name":"parsql","req":"^0.1.0","features":["sqlite"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"parsql-macros","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rusqlite","req":"^0.32.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"9b52ac8e3d778141e7aba21790b31f80784451f4ffea7a0b12c6fd5507b52d3d","features":{},"yanked":false}
+{
+    "name": "parsql-sqlite",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "parsql",
+            "req": "^0.1.0",
+            "features": [
+                "sqlite"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "parsql-macros",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rusqlite",
+            "req": "^0.32.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "9b52ac8e3d778141e7aba21790b31f80784451f4ffea7a0b12c6fd5507b52d3d",
+    "features": {},
+    "yanked": false
+}

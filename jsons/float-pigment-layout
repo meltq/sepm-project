@@ -1,1 +1,72 @@
-{"name":"float-pigment-layout","vers":"0.1.0-alpha.1","deps":[{"name":"android_logger","req":"^0.13.0","features":[],"optional":false,"default_features":true,"target":"cfg(target_os=\"android\")","kind":"normal"},{"name":"euclid","req":"^0.22","features":["libm"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"float-pigment-css","req":"^0.1.0-alpha.1","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"log","req":"^0.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"lru","req":"^0.7.8","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"paste","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"4a5fd1a3babd8ffcd5dc63df9fc070a440c8325feb26d133cf69a128b144141b","features":{"default":["std"],"std":["float-pigment-css/std"]},"yanked":false}
+{
+    "name": "float-pigment-layout",
+    "vers": "0.1.0-alpha.1",
+    "deps": [
+        {
+            "name": "android_logger",
+            "req": "^0.13.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": "cfg(target_os=\"android\")",
+            "kind": "normal"
+        },
+        {
+            "name": "euclid",
+            "req": "^0.22",
+            "features": [
+                "libm"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "float-pigment-css",
+            "req": "^0.1.0-alpha.1",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "log",
+            "req": "^0.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "lru",
+            "req": "^0.7.8",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "paste",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "4a5fd1a3babd8ffcd5dc63df9fc070a440c8325feb26d133cf69a128b144141b",
+    "features": {
+        "default": [
+            "std"
+        ],
+        "std": [
+            "float-pigment-css/std"
+        ]
+    },
+    "yanked": false
+}

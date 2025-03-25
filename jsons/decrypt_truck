@@ -1,1 +1,56 @@
-{"name":"decrypt_truck","vers":"1.2.0","deps":[{"name":"aes","req":"^0.8.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"cbc","req":"^0.1.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"cipher","req":"^0.4.4","features":["block-padding"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"flate2","req":"^1.0.35","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"winres","req":"^0.1.12","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"}],"cksum":"540eb4ad97f91e8b7eb36fab486b515c68c27babc308f4b01f6105b30d52a058","features":{},"yanked":false}
+{
+    "name": "decrypt_truck",
+    "vers": "1.2.0",
+    "deps": [
+        {
+            "name": "aes",
+            "req": "^0.8.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "cbc",
+            "req": "^0.1.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "cipher",
+            "req": "^0.4.4",
+            "features": [
+                "block-padding"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "flate2",
+            "req": "^1.0.35",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "winres",
+            "req": "^0.1.12",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        }
+    ],
+    "cksum": "540eb4ad97f91e8b7eb36fab486b515c68c27babc308f4b01f6105b30d52a058",
+    "features": {},
+    "yanked": false
+}

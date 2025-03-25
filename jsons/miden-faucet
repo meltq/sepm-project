@@ -1,1 +1,156 @@
-{"name":"miden-faucet","vers":"0.2.1","deps":[{"name":"actix-cors","req":"^0.7.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"actix-files","req":"^0.6.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"actix-web","req":"^4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"async-mutex","req":"^1.4.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"derive_more","req":"^0.99.17","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"figment","req":"^0.10","features":["toml","env"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"miden-client","req":"^0.2","features":["concurrent"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"miden-lib","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"miden-node-proto","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"miden-node-utils","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"miden-objects","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rand_chacha","req":"^0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"33c1a8961abd7054ba92e557643b74eb7183d67aeec48b0ef9239c4063f74b94","features":{"testing":["miden-client/testing"]},"yanked":false,"rust_version":"1.77"}
+{
+    "name": "miden-faucet",
+    "vers": "0.2.1",
+    "deps": [
+        {
+            "name": "actix-cors",
+            "req": "^0.7.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "actix-files",
+            "req": "^0.6.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "actix-web",
+            "req": "^4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "async-mutex",
+            "req": "^1.4.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "derive_more",
+            "req": "^0.99.17",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "figment",
+            "req": "^0.10",
+            "features": [
+                "toml",
+                "env"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "miden-client",
+            "req": "^0.2",
+            "features": [
+                "concurrent"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "miden-lib",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "miden-node-proto",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "miden-node-utils",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "miden-objects",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rand_chacha",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "33c1a8961abd7054ba92e557643b74eb7183d67aeec48b0ef9239c4063f74b94",
+    "features": {
+        "testing": [
+            "miden-client/testing"
+        ]
+    },
+    "yanked": false,
+    "rust_version": "1.77"
+}

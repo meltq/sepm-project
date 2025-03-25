@@ -1,1 +1,85 @@
-{"name":"af-anndata","vers":"0.1.0","deps":[{"name":"anndata","req":"^0.6.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"anndata-hdf5","req":"^0.5.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"anyhow","req":"^1.0.95","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"libsw","req":"^3.4.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"nalgebra-sparse","req":"^0.10.0","features":["io"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"polars","req":"^0.45.1","features":["polars-io"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.135","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing","req":"^0.1.41","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"67f2102ee5213685c6eb3ffb81e378414f6ac65313d5fc3a451ef584c41c816d","features":{},"yanked":false}
+{
+    "name": "af-anndata",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "anndata",
+            "req": "^0.6.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "anndata-hdf5",
+            "req": "^0.5.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "anyhow",
+            "req": "^1.0.95",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "libsw",
+            "req": "^3.4.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "nalgebra-sparse",
+            "req": "^0.10.0",
+            "features": [
+                "io"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "polars",
+            "req": "^0.45.1",
+            "features": [
+                "polars-io"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.135",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1.41",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "67f2102ee5213685c6eb3ffb81e378414f6ac65313d5fc3a451ef584c41c816d",
+    "features": {},
+    "yanked": false
+}

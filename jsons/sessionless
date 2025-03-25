@@ -1,1 +1,51 @@
-{"name":"sessionless","vers":"0.1.0","deps":[{"name":"hex","req":"^0.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"secp256k1","req":"^0.28","features":["rand-std"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"sha3","req":"^0.10","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"uuid","req":"^1.8","features":["v4"],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"f1fa5608a2f74c00196063e003f6754aa943b67002225db9fac519c5cf144bd2","features":{"default":[]},"yanked":false}
+{
+    "name": "sessionless",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "hex",
+            "req": "^0.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "secp256k1",
+            "req": "^0.28",
+            "features": [
+                "rand-std"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "sha3",
+            "req": "^0.10",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "uuid",
+            "req": "^1.8",
+            "features": [
+                "v4"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "f1fa5608a2f74c00196063e003f6754aa943b67002225db9fac519c5cf144bd2",
+    "features": {
+        "default": []
+    },
+    "yanked": false
+}

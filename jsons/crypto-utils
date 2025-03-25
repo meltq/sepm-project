@@ -1,1 +1,47 @@
-{"name":"crypto-utils","vers":"0.1.0","deps":[{"name":"hex","req":"^0.4.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"sha1","req":"^0.10.1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"sha2","req":"^0.10.2","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"65b4d958d23b8e936ed337c600844aa880a6898da68fc213f2bfcb32a864e531","features":{"default":["full"],"full":["sha"],"sha":["sha1","sha2"]},"yanked":false}
+{
+    "name": "crypto-utils",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "hex",
+            "req": "^0.4.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "sha1",
+            "req": "^0.10.1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "sha2",
+            "req": "^0.10.2",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "65b4d958d23b8e936ed337c600844aa880a6898da68fc213f2bfcb32a864e531",
+    "features": {
+        "default": [
+            "full"
+        ],
+        "full": [
+            "sha"
+        ],
+        "sha": [
+            "sha1",
+            "sha2"
+        ]
+    },
+    "yanked": false
+}

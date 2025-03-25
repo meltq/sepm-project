@@ -1,1 +1,119 @@
-{"name":"rvpacker-txt-rs-lib","vers":"3.0.5","deps":[{"name":"encoding_rs","req":"^0.8.35","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"fastrand","req":"^2.2.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"flate2","req":"^1.0.35","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"indexmap","req":"^2.6.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"log","req":"^0.4.22","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"marshal-rs","req":"^0.3.2","features":["sonic"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"once_cell","req":"^1.20.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rayon","req":"^1.10.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"regex","req":"^1.11.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"sonic-rs","req":"^0.3.16","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"xxhash-rust","req":"^0.8.12","features":["xxh3"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"5fe354b19693abab71bfdbe44b7a46b62aafa32c484f7f1c309d5919b319857d","features":{},"features2":{"log":["dep:log"]},"yanked":false,"rust_version":"1.76.0","v":2}
+{
+    "name": "rvpacker-txt-rs-lib",
+    "vers": "3.0.5",
+    "deps": [
+        {
+            "name": "encoding_rs",
+            "req": "^0.8.35",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "fastrand",
+            "req": "^2.2.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "flate2",
+            "req": "^1.0.35",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "indexmap",
+            "req": "^2.6.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "log",
+            "req": "^0.4.22",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "marshal-rs",
+            "req": "^0.3.2",
+            "features": [
+                "sonic"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "once_cell",
+            "req": "^1.20.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rayon",
+            "req": "^1.10.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "regex",
+            "req": "^1.11.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "sonic-rs",
+            "req": "^0.3.16",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "xxhash-rust",
+            "req": "^0.8.12",
+            "features": [
+                "xxh3"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "5fe354b19693abab71bfdbe44b7a46b62aafa32c484f7f1c309d5919b319857d",
+    "features": {},
+    "features2": {
+        "log": [
+            "dep:log"
+        ]
+    },
+    "yanked": false,
+    "rust_version": "1.76.0",
+    "v": 2
+}

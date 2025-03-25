@@ -1,1 +1,69 @@
-{"name":"musli-serde","vers":"0.0.97","deps":[{"name":"musli","req":"^0.0.97","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"musli-common","req":"^0.0.97","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.197","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"serde_derive","req":"^1.0.197","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"url","req":"^2.5.0","features":["serde"],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"520e101c6d5632279a196ddb4321109eaa516eeb5d875061d06d19f778e0c2f3","features":{"alloc":["musli/alloc","serde/alloc"],"default":["std","alloc"],"std":["musli/std","serde/std"]},"yanked":false}
+{
+    "name": "musli-serde",
+    "vers": "0.0.97",
+    "deps": [
+        {
+            "name": "musli",
+            "req": "^0.0.97",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "musli-common",
+            "req": "^0.0.97",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.197",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_derive",
+            "req": "^1.0.197",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "url",
+            "req": "^2.5.0",
+            "features": [
+                "serde"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "520e101c6d5632279a196ddb4321109eaa516eeb5d875061d06d19f778e0c2f3",
+    "features": {
+        "alloc": [
+            "musli/alloc",
+            "serde/alloc"
+        ],
+        "default": [
+            "std",
+            "alloc"
+        ],
+        "std": [
+            "musli/std",
+            "serde/std"
+        ]
+    },
+    "yanked": false
+}

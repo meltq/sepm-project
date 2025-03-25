@@ -1,1 +1,49 @@
-{"name":"earcut","vers":"0.3.2","deps":[{"name":"criterion","req":"^0.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"num-traits","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"serde_json","req":"^1.0","features":["float_roundtrip"],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"30cc2158444078c6bc0d3552356ae36917125bd2f270f725c5ac16b676119f47","features":{},"yanked":true}
+{
+    "name": "earcut",
+    "vers": "0.3.2",
+    "deps": [
+        {
+            "name": "criterion",
+            "req": "^0.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "num-traits",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0",
+            "features": [
+                "float_roundtrip"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "30cc2158444078c6bc0d3552356ae36917125bd2f270f725c5ac16b676119f47",
+    "features": {},
+    "yanked": true
+}

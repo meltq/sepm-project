@@ -1,1 +1,103 @@
-{"name":"grafo","vers":"0.1.0","deps":[{"name":"ahash","req":"^0.8.11","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"bytemuck","req":"^1.16.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"easy-tree","req":"^0.1.2","features":["rayon"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"env_logger","req":"^0.11.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"futures","req":"^0.3.30","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"glyphon","req":"^0.5.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"image","req":"^0.24.9","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"lyon","req":"^1.0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"wgpu","req":"^0.19.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"winit","req":"^0.29.15","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"a6d31529afbda9d9ec74b6c59132e87fbb2035b55d6105b545b862d046679ab6","features":{"performance_measurement":[]},"yanked":false}
+{
+    "name": "grafo",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "ahash",
+            "req": "^0.8.11",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "bytemuck",
+            "req": "^1.16.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "easy-tree",
+            "req": "^0.1.2",
+            "features": [
+                "rayon"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "env_logger",
+            "req": "^0.11.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "futures",
+            "req": "^0.3.30",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "glyphon",
+            "req": "^0.5.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "image",
+            "req": "^0.24.9",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "lyon",
+            "req": "^1.0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "wgpu",
+            "req": "^0.19.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "winit",
+            "req": "^0.29.15",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "a6d31529afbda9d9ec74b6c59132e87fbb2035b55d6105b545b862d046679ab6",
+    "features": {
+        "performance_measurement": []
+    },
+    "yanked": false
+}

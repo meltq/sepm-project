@@ -1,1 +1,54 @@
-{"name":"gcp-sdk-rpc","vers":"0.1.0-rc3","deps":[{"name":"bytes","req":"^1.8.0","features":["serde"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.216","features":["serde_derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_with","req":"^3.12.0","features":["base64","macros","std"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"wkt","req":"^0.1.0-rc3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal","package":"gcp-sdk-wkt"}],"cksum":"2428cdf701ba78bb2b57f38233e00df974d49f60f348edec98be6c0a74816202","features":{},"yanked":false}
+{
+    "name": "gcp-sdk-rpc",
+    "vers": "0.1.0-rc3",
+    "deps": [
+        {
+            "name": "bytes",
+            "req": "^1.8.0",
+            "features": [
+                "serde"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.216",
+            "features": [
+                "serde_derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_with",
+            "req": "^3.12.0",
+            "features": [
+                "base64",
+                "macros",
+                "std"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "wkt",
+            "req": "^0.1.0-rc3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal",
+            "package": "gcp-sdk-wkt"
+        }
+    ],
+    "cksum": "2428cdf701ba78bb2b57f38233e00df974d49f60f348edec98be6c0a74816202",
+    "features": {},
+    "yanked": false
+}

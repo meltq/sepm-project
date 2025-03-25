@@ -1,1 +1,109 @@
-{"name":"vereinsflieger","vers":"0.1.0","deps":[{"name":"anyhow","req":"^1.0.95","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"anyhow","req":"=1.0.95","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"clap","req":"=4.5.26","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"md-5","req":"^0.10.6","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"reqwest","req":"^0.12.12","features":["json"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.217","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.135","features":["preserve_order"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_path_to_error","req":"^0.1.16","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_urlencoded","req":"^0.7.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"=1.43.0","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"9e4829a28912247fa511295cba750710aa487e5a775dae8126b638ddfd95c6e1","features":{},"yanked":false}
+{
+    "name": "vereinsflieger",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "anyhow",
+            "req": "^1.0.95",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "anyhow",
+            "req": "=1.0.95",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "clap",
+            "req": "=4.5.26",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "md-5",
+            "req": "^0.10.6",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "reqwest",
+            "req": "^0.12.12",
+            "features": [
+                "json"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.217",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.135",
+            "features": [
+                "preserve_order"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_path_to_error",
+            "req": "^0.1.16",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_urlencoded",
+            "req": "^0.7.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "=1.43.0",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "9e4829a28912247fa511295cba750710aa487e5a775dae8126b638ddfd95c6e1",
+    "features": {},
+    "yanked": false
+}

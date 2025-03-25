@@ -1,1 +1,126 @@
-{"name":"nullnet-wallguard-server","vers":"0.1.0","deps":[{"name":"async-channel","req":"^2.3.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"chrono","req":"^0.4.39","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"etherparse","req":"^0.17.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"nullnet-libdatastore","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"nullnet-libtoken","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"once_cell","req":"^1.20.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"prost","req":"^0.13.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.217","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.137","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.43.0","features":["rt-multi-thread"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tonic","req":"^0.12.3","features":["tls","tls-roots"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tonic-build","req":"^0.12.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"}],"cksum":"075d2f1b623e88676bb8154563ebe4c19f863206db72e2bdd7b366e0500d214e","features":{"no-datastore":[]},"yanked":false}
+{
+    "name": "nullnet-wallguard-server",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "async-channel",
+            "req": "^2.3.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "chrono",
+            "req": "^0.4.39",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "etherparse",
+            "req": "^0.17.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "nullnet-libdatastore",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "nullnet-libtoken",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "once_cell",
+            "req": "^1.20.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "prost",
+            "req": "^0.13.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.217",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.137",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.43.0",
+            "features": [
+                "rt-multi-thread"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tonic",
+            "req": "^0.12.3",
+            "features": [
+                "tls",
+                "tls-roots"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tonic-build",
+            "req": "^0.12.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        }
+    ],
+    "cksum": "075d2f1b623e88676bb8154563ebe4c19f863206db72e2bdd7b366e0500d214e",
+    "features": {
+        "no-datastore": []
+    },
+    "yanked": false
+}

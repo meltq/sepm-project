@@ -1,1 +1,26 @@
-{"name":"typed_index","vers":"0.1.0","deps":[{"name":"serde","req":"^1.0.215","features":["derive"],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"94399afc8b11c66de1cf28df6224878c7f8801ed734e984421a499b0cbae568f","features":{},"features2":{"serde":["dep:serde"]},"yanked":false,"v":2}
+{
+    "name": "typed_index",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "serde",
+            "req": "^1.0.215",
+            "features": [
+                "derive"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "94399afc8b11c66de1cf28df6224878c7f8801ed734e984421a499b0cbae568f",
+    "features": {},
+    "features2": {
+        "serde": [
+            "dep:serde"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

@@ -1,1 +1,65 @@
-{"name":"spawns","vers":"0.1.0","deps":[{"name":"async-net","req":"^2.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"futures-lite","req":"^2.3.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"spawns-compat","req":"^0.1.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"spawns-core","req":"^1.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"spawns-executor","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"846347edc5f377c5c566cacefc535225972d40e4e8cbe3621db5c1b6679d45fd","features":{"async-global-executor":["spawns-compat/async-global-executor"],"default":[],"smol":["spawns-compat/smol"],"tokio":["spawns-compat/tokio"]},"yanked":false}
+{
+    "name": "spawns",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "async-net",
+            "req": "^2.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "futures-lite",
+            "req": "^2.3.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "spawns-compat",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "spawns-core",
+            "req": "^1.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "spawns-executor",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "846347edc5f377c5c566cacefc535225972d40e4e8cbe3621db5c1b6679d45fd",
+    "features": {
+        "async-global-executor": [
+            "spawns-compat/async-global-executor"
+        ],
+        "default": [],
+        "smol": [
+            "spawns-compat/smol"
+        ],
+        "tokio": [
+            "spawns-compat/tokio"
+        ]
+    },
+    "yanked": false
+}

@@ -1,1 +1,55 @@
-{"name":"async-executor-trait","vers":"0.0.0","deps":[{"name":"async-std","req":"^1.8","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"async-trait","req":"^0.1.42","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"executor-trait","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"5dd3ed7b9d1fd5736cadd8cda031d212cf86a0a76a94e5ad4605bd5c0ba0f588","features":{"alloc":["async-std/alloc"],"attributes":["async-std/attributes"],"default":["async-std/default"],"docs":["async-std/docs"],"std":["async-std/std"],"unstable":["async-std/unstable"]},"yanked":false}
+{
+    "name": "async-executor-trait",
+    "vers": "0.0.0",
+    "deps": [
+        {
+            "name": "async-std",
+            "req": "^1.8",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "async-trait",
+            "req": "^0.1.42",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "executor-trait",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "5dd3ed7b9d1fd5736cadd8cda031d212cf86a0a76a94e5ad4605bd5c0ba0f588",
+    "features": {
+        "alloc": [
+            "async-std/alloc"
+        ],
+        "attributes": [
+            "async-std/attributes"
+        ],
+        "default": [
+            "async-std/default"
+        ],
+        "docs": [
+            "async-std/docs"
+        ],
+        "std": [
+            "async-std/std"
+        ],
+        "unstable": [
+            "async-std/unstable"
+        ]
+    },
+    "yanked": false
+}

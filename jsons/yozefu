@@ -1,1 +1,34 @@
-{"name":"yozefu","vers":"0.0.1","deps":[{"name":"command","req":"^0.0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal","package":"yozefu-command"},{"name":"tokio","req":"^1","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"863bdf85acf1321168b231edcdab2a599287aab957c44d8be018f4eb62d05c1a","features":{"ssl-vendored":["command/ssl-vendored"]},"yanked":false}
+{
+    "name": "yozefu",
+    "vers": "0.0.1",
+    "deps": [
+        {
+            "name": "command",
+            "req": "^0.0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal",
+            "package": "yozefu-command"
+        },
+        {
+            "name": "tokio",
+            "req": "^1",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "863bdf85acf1321168b231edcdab2a599287aab957c44d8be018f4eb62d05c1a",
+    "features": {
+        "ssl-vendored": [
+            "command/ssl-vendored"
+        ]
+    },
+    "yanked": false
+}

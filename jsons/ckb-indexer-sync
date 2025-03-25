@@ -1,1 +1,143 @@
-{"name":"ckb-indexer-sync","vers":"0.115.0-rc2","deps":[{"name":"ckb-app-config","req":"=0.115.0-rc2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"ckb-async-runtime","req":"=0.115.0-rc2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"ckb-db-schema","req":"=0.115.0-rc2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"ckb-jsonrpc-types","req":"=0.115.0-rc2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"ckb-logger","req":"=0.115.0-rc2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"ckb-notify","req":"=0.115.0-rc2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"ckb-stop-handler","req":"=0.115.0-rc2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"ckb-store","req":"=0.115.0-rc2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"ckb-types","req":"=0.115.0-rc2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"numext-fixed-uint","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rhai","req":"^1.16.0","features":["no_function","no_float","no_module","sync"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rocksdb","req":"=0.21.1","features":["snappy"],"optional":false,"default_features":false,"target":null,"kind":"normal","package":"ckb-rocksdb"},{"name":"serde_json","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"ee102fa007cd3d97b160536db79189e4feffd5e65aca626afcff5417bdb69ac8","features":{},"yanked":false}
+{
+    "name": "ckb-indexer-sync",
+    "vers": "0.115.0-rc2",
+    "deps": [
+        {
+            "name": "ckb-app-config",
+            "req": "=0.115.0-rc2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ckb-async-runtime",
+            "req": "=0.115.0-rc2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ckb-db-schema",
+            "req": "=0.115.0-rc2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ckb-jsonrpc-types",
+            "req": "=0.115.0-rc2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ckb-logger",
+            "req": "=0.115.0-rc2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ckb-notify",
+            "req": "=0.115.0-rc2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ckb-stop-handler",
+            "req": "=0.115.0-rc2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ckb-store",
+            "req": "=0.115.0-rc2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ckb-types",
+            "req": "=0.115.0-rc2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "numext-fixed-uint",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rhai",
+            "req": "^1.16.0",
+            "features": [
+                "no_function",
+                "no_float",
+                "no_module",
+                "sync"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rocksdb",
+            "req": "=0.21.1",
+            "features": [
+                "snappy"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal",
+            "package": "ckb-rocksdb"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "ee102fa007cd3d97b160536db79189e4feffd5e65aca626afcff5417bdb69ac8",
+    "features": {},
+    "yanked": false
+}

@@ -1,1 +1,64 @@
-{"name":"sena","vers":"0.1.0","deps":[{"name":"derive_more","req":"^0.99.17","features":["from"],"optional":false,"default_features":false,"target":null,"kind":"dev"},{"name":"either","req":"^1.11.0","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.37.0","features":["sync","rt"],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.37.0","features":["macros","rt","sync"],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"777c24da966d34bb3aa428506bbceef730a47b7062924fa8c7aa85924ddb87b7","features":{"default":["tokio"]},"features2":{"tokio":["dep:tokio"]},"yanked":false,"v":2}
+{
+    "name": "sena",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "derive_more",
+            "req": "^0.99.17",
+            "features": [
+                "from"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "either",
+            "req": "^1.11.0",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.37.0",
+            "features": [
+                "sync",
+                "rt"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.37.0",
+            "features": [
+                "macros",
+                "rt",
+                "sync"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "777c24da966d34bb3aa428506bbceef730a47b7062924fa8c7aa85924ddb87b7",
+    "features": {
+        "default": [
+            "tokio"
+        ]
+    },
+    "features2": {
+        "tokio": [
+            "dep:tokio"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

@@ -1,1 +1,161 @@
-{"name":"re_view_time_series","vers":"0.21.0-rc.5","deps":[{"name":"egui","req":"^0.30.0","features":["callstack","color-hex","log","rayon"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"egui_plot","req":"^0.30.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"itertools","req":"^0.13","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rayon","req":"^1.7","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"re_chunk_store","req":"=0.21.0-rc.5","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"re_format","req":"=0.21.0-rc.5","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"re_log","req":"=0.21.0-rc.5","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"re_log_types","req":"=0.21.0-rc.5","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"re_query","req":"=0.21.0-rc.5","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"re_renderer","req":"=0.21.0-rc.5","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"re_tracing","req":"=0.21.0-rc.5","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"re_types","req":"=0.21.0-rc.5","features":["egui_plot"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"re_ui","req":"=0.21.0-rc.5","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"re_view","req":"=0.21.0-rc.5","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"re_viewer_context","req":"=0.21.0-rc.5","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"re_viewport_blueprint","req":"=0.21.0-rc.5","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"}],"cksum":"29e4b30330f8e0a3e8903741a4d00d4a96a1d8946c5b064aa0b9cf7adbbbc821","features":{},"yanked":false,"rust_version":"1.80"}
+{
+    "name": "re_view_time_series",
+    "vers": "0.21.0-rc.5",
+    "deps": [
+        {
+            "name": "egui",
+            "req": "^0.30.0",
+            "features": [
+                "callstack",
+                "color-hex",
+                "log",
+                "rayon"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "egui_plot",
+            "req": "^0.30.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "itertools",
+            "req": "^0.13",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rayon",
+            "req": "^1.7",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "re_chunk_store",
+            "req": "=0.21.0-rc.5",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "re_format",
+            "req": "=0.21.0-rc.5",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "re_log",
+            "req": "=0.21.0-rc.5",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "re_log_types",
+            "req": "=0.21.0-rc.5",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "re_query",
+            "req": "=0.21.0-rc.5",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "re_renderer",
+            "req": "=0.21.0-rc.5",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "re_tracing",
+            "req": "=0.21.0-rc.5",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "re_types",
+            "req": "=0.21.0-rc.5",
+            "features": [
+                "egui_plot"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "re_ui",
+            "req": "=0.21.0-rc.5",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "re_view",
+            "req": "=0.21.0-rc.5",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "re_viewer_context",
+            "req": "=0.21.0-rc.5",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "re_viewport_blueprint",
+            "req": "=0.21.0-rc.5",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "29e4b30330f8e0a3e8903741a4d00d4a96a1d8946c5b064aa0b9cf7adbbbc821",
+    "features": {},
+    "yanked": false,
+    "rust_version": "1.80"
+}

@@ -1,1 +1,55 @@
-{"name":"iced-x86","vers":"0.0.0","deps":[{"name":"lazy_static","req":"1.1.*","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rustc_version","req":"^0.2.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"static_assertions","req":"^0.3.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"a887075a1207d88e3efa2dba9d04c8841989ea530467ca7cfa2bee4b931f2839","features":{"ALL_FORMATTERS":[],"DECODER":[],"ENCODER":[],"GAS_FORMATTER":[],"INSTR_INFO":[],"INTEL_FORMATTER":[],"MASM_FORMATTER":[],"NASM_FORMATTER":[],"default":["DECODER","ENCODER","INSTR_INFO","ALL_FORMATTERS","GAS_FORMATTER","INTEL_FORMATTER","MASM_FORMATTER","NASM_FORMATTER"]},"yanked":true}
+{
+    "name": "iced-x86",
+    "vers": "0.0.0",
+    "deps": [
+        {
+            "name": "lazy_static",
+            "req": "1.1.*",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rustc_version",
+            "req": "^0.2.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "static_assertions",
+            "req": "^0.3.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "a887075a1207d88e3efa2dba9d04c8841989ea530467ca7cfa2bee4b931f2839",
+    "features": {
+        "ALL_FORMATTERS": [],
+        "DECODER": [],
+        "ENCODER": [],
+        "GAS_FORMATTER": [],
+        "INSTR_INFO": [],
+        "INTEL_FORMATTER": [],
+        "MASM_FORMATTER": [],
+        "NASM_FORMATTER": [],
+        "default": [
+            "DECODER",
+            "ENCODER",
+            "INSTR_INFO",
+            "ALL_FORMATTERS",
+            "GAS_FORMATTER",
+            "INTEL_FORMATTER",
+            "MASM_FORMATTER",
+            "NASM_FORMATTER"
+        ]
+    },
+    "yanked": true
+}

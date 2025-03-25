@@ -1,1 +1,146 @@
-{"name":"async-skipdb","vers":"0.1.0","deps":[{"name":"async-std","req":"^1","features":["attributes"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"async-txn","req":"^0.1","features":["default"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"cheap-clone","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"crossbeam-skiplist","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"either","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"futures","req":"^0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"rand","req":"^0.8","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"scopeguard","req":"^1","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"scopeguard","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"skipdb-core","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"smol","req":"^2","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"tokio","req":"^1","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"wmark","req":"^0.1","features":["future"],"optional":false,"default_features":false,"target":null,"kind":"dev"}],"cksum":"850ff0d9c7f05205ab962ebfca39a60d63e9fa3688ed135ef620c7ab67821977","features":{"async-std":["async-txn/async-std"],"default":[],"smol":["async-txn/smol"],"tokio":["async-txn/tokio"]},"yanked":true,"rust_version":"1.75.0"}
+{
+    "name": "async-skipdb",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "async-std",
+            "req": "^1",
+            "features": [
+                "attributes"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "async-txn",
+            "req": "^0.1",
+            "features": [
+                "default"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "cheap-clone",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "crossbeam-skiplist",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "either",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "futures",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "rand",
+            "req": "^0.8",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "scopeguard",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "scopeguard",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "skipdb-core",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "smol",
+            "req": "^2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "tokio",
+            "req": "^1",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "wmark",
+            "req": "^0.1",
+            "features": [
+                "future"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "850ff0d9c7f05205ab962ebfca39a60d63e9fa3688ed135ef620c7ab67821977",
+    "features": {
+        "async-std": [
+            "async-txn/async-std"
+        ],
+        "default": [],
+        "smol": [
+            "async-txn/smol"
+        ],
+        "tokio": [
+            "async-txn/tokio"
+        ]
+    },
+    "yanked": true,
+    "rust_version": "1.75.0"
+}

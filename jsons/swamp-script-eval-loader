@@ -1,1 +1,85 @@
-{"name":"swamp-script-eval-loader","vers":"0.0.2-a03","deps":[{"name":"pest","req":"^2.7.14","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"swamp-script-analyzer","req":"^0.0.2-a03","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"swamp-script-ast","req":"^0.0.2-a03","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"swamp-script-dep-loader","req":"^0.0.2-a03","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"swamp-script-parser","req":"^0.0.2-a03","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"swamp-script-semantic","req":"^0.0.2-a03","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"test-log","req":"^0.2.16","features":["trace","log","color"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"tracing","req":"^0.1.41","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"2b74ff656280f8d289eec5d0d11b45c1bc73e143865cea7b0ba86a6e3b77a6b4","features":{},"yanked":false}
+{
+    "name": "swamp-script-eval-loader",
+    "vers": "0.0.2-a03",
+    "deps": [
+        {
+            "name": "pest",
+            "req": "^2.7.14",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "swamp-script-analyzer",
+            "req": "^0.0.2-a03",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "swamp-script-ast",
+            "req": "^0.0.2-a03",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "swamp-script-dep-loader",
+            "req": "^0.0.2-a03",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "swamp-script-parser",
+            "req": "^0.0.2-a03",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "swamp-script-semantic",
+            "req": "^0.0.2-a03",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "test-log",
+            "req": "^0.2.16",
+            "features": [
+                "trace",
+                "log",
+                "color"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1.41",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "2b74ff656280f8d289eec5d0d11b45c1bc73e143865cea7b0ba86a6e3b77a6b4",
+    "features": {},
+    "yanked": false
+}

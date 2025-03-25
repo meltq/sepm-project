@@ -1,1 +1,68 @@
-{"name":"hc_service_check","vers":"0.1.0-dev.0","deps":[{"name":"clap","req":"^4.5.3","features":["derive","wrap_help"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"kitsune_p2p_bootstrap_client","req":"^0.4.0-dev.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.36.0","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tx5-go-pion","req":"^0.0.9-alpha","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tx5-signal","req":"^0.0.9-alpha","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"url2","req":"^0.0.6","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"dd505cca08cfd02410ff22bd9a5d53e1f5ba4e7851a254e445928f80b975d88c","features":{},"yanked":false}
+{
+    "name": "hc_service_check",
+    "vers": "0.1.0-dev.0",
+    "deps": [
+        {
+            "name": "clap",
+            "req": "^4.5.3",
+            "features": [
+                "derive",
+                "wrap_help"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "kitsune_p2p_bootstrap_client",
+            "req": "^0.4.0-dev.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.36.0",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tx5-go-pion",
+            "req": "^0.0.9-alpha",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tx5-signal",
+            "req": "^0.0.9-alpha",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "url2",
+            "req": "^0.0.6",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "dd505cca08cfd02410ff22bd9a5d53e1f5ba4e7851a254e445928f80b975d88c",
+    "features": {},
+    "yanked": false
+}

@@ -1,1 +1,92 @@
-{"name":"scout-audit-dylint-linting","vers":"2.6.1","deps":[{"name":"assert_cmd","req":"^2.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"cargo_metadata","req":"^0.18","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"dylint_internal","req":"=2.6.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"paste","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rustversion","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"toml","req":"^0.8","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"toml","req":"^0.8","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"}],"cksum":"e820760329513e973ca3a04d53c872416437eaf14339856832e5076184135349","features":{"constituent":[]},"yanked":false}
+{
+    "name": "scout-audit-dylint-linting",
+    "vers": "2.6.1",
+    "deps": [
+        {
+            "name": "assert_cmd",
+            "req": "^2.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "cargo_metadata",
+            "req": "^0.18",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "dylint_internal",
+            "req": "=2.6.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "paste",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rustversion",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "toml",
+            "req": "^0.8",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "toml",
+            "req": "^0.8",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        }
+    ],
+    "cksum": "e820760329513e973ca3a04d53c872416437eaf14339856832e5076184135349",
+    "features": {
+        "constituent": []
+    },
+    "yanked": false
+}

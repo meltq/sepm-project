@@ -1,1 +1,78 @@
-{"name":"vhost","vers":"0.1.0","deps":[{"name":"bitflags","req":">=1.0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"libc","req":">=0.2.39","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tempfile","req":">=3.2.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"vm-memory","req":"^0.6","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"vm-memory","req":"^0.6","features":["backend-mmap"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"vmm-sys-util","req":">=0.3.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"8a6b90237e10f1a61b35fba73885c3567e1a5a8c40d44daae335f7710210a7dc","features":{"default":[],"vhost-kern":["vm-memory"],"vhost-user":[],"vhost-user-master":["vhost-user"],"vhost-user-slave":["vhost-user"],"vhost-vsock":[]},"yanked":false}
+{
+    "name": "vhost",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "bitflags",
+            "req": ">=1.0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "libc",
+            "req": ">=0.2.39",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tempfile",
+            "req": ">=3.2.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "vm-memory",
+            "req": "^0.6",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "vm-memory",
+            "req": "^0.6",
+            "features": [
+                "backend-mmap"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "vmm-sys-util",
+            "req": ">=0.3.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "8a6b90237e10f1a61b35fba73885c3567e1a5a8c40d44daae335f7710210a7dc",
+    "features": {
+        "default": [],
+        "vhost-kern": [
+            "vm-memory"
+        ],
+        "vhost-user": [],
+        "vhost-user-master": [
+            "vhost-user"
+        ],
+        "vhost-user-slave": [
+            "vhost-user"
+        ],
+        "vhost-vsock": []
+    },
+    "yanked": false
+}

@@ -1,1 +1,91 @@
-{"name":"rucent","vers":"0.1.1","deps":[{"name":"lazy_static","req":"^1.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"log","req":"^0.4.22","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"reqwest","req":"^0.12.9","features":["json"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.216","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.133","features":["raw_value"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"simple_logger","req":"^5.0.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.42.0","features":["macros","rt","sync","rt-multi-thread"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"44f7e38d11a8fdf15522100fa792bbeb18a8ac0c89234b8c42e80cb9b3062261","features":{"with_local_server":[]},"features2":{"examples":["dep:simple_logger"]},"yanked":true,"v":2}
+{
+    "name": "rucent",
+    "vers": "0.1.1",
+    "deps": [
+        {
+            "name": "lazy_static",
+            "req": "^1.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "log",
+            "req": "^0.4.22",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "reqwest",
+            "req": "^0.12.9",
+            "features": [
+                "json"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.216",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.133",
+            "features": [
+                "raw_value"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "simple_logger",
+            "req": "^5.0.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.42.0",
+            "features": [
+                "macros",
+                "rt",
+                "sync",
+                "rt-multi-thread"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "44f7e38d11a8fdf15522100fa792bbeb18a8ac0c89234b8c42e80cb9b3062261",
+    "features": {
+        "with_local_server": []
+    },
+    "features2": {
+        "examples": [
+            "dep:simple_logger"
+        ]
+    },
+    "yanked": true,
+    "v": 2
+}

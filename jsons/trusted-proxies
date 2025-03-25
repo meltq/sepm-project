@@ -1,1 +1,36 @@
-{"name":"trusted-proxies","vers":"0.1.0","deps":[{"name":"http","req":"^1.2.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"ipnet","req":"^2.10.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"e6337923cd0d405c48bad2b80c71a6e58e8cde9d7aa5d1df152a4de9f9d6c384","features":{},"features2":{"default":["http"],"http":["dep:http"]},"yanked":false,"v":2}
+{
+    "name": "trusted-proxies",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "http",
+            "req": "^1.2.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ipnet",
+            "req": "^2.10.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "e6337923cd0d405c48bad2b80c71a6e58e8cde9d7aa5d1df152a4de9f9d6c384",
+    "features": {},
+    "features2": {
+        "default": [
+            "http"
+        ],
+        "http": [
+            "dep:http"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

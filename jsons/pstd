@@ -1,1 +1,72 @@
-{"name":"pstd","vers":"0.1.0","deps":[{"name":"arrayvec","req":"^0.7.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"bincode","req":"^1.3.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"cap","req":"^0.1.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"criterion","req":"^0.5.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"mimalloc","req":"^0.1.39","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"serde","req":"^1.0.197","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"e27607b84caea4fda76af3050e1a0a9a8eeb5a3d79ebcf62c6bfbd61e4ab2c00","features":{"cap":[],"unsafe-optim":[]},"features2":{"serde":["dep:serde"]},"yanked":false,"v":2}
+{
+    "name": "pstd",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "arrayvec",
+            "req": "^0.7.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "bincode",
+            "req": "^1.3.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "cap",
+            "req": "^0.1.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "criterion",
+            "req": "^0.5.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "mimalloc",
+            "req": "^0.1.39",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.197",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "e27607b84caea4fda76af3050e1a0a9a8eeb5a3d79ebcf62c6bfbd61e4ab2c00",
+    "features": {
+        "cap": [],
+        "unsafe-optim": []
+    },
+    "features2": {
+        "serde": [
+            "dep:serde"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

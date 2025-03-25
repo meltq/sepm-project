@@ -1,1 +1,39 @@
-{"name":"agnostic-lite","vers":"0.1.0","deps":[{"name":"async-std","req":"^1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"smol","req":"^2","features":[],"optional":true,"default_features":false,"target":null,"kind":"normal"},{"name":"tokio","req":"^1","features":["rt"],"optional":true,"default_features":false,"target":null,"kind":"normal"}],"cksum":"c2b0ef2aa58a10b403bbd5524b1b2fa8eeca82bc574bec6d46bb3e35bff80f55","features":{},"yanked":true,"rust_version":"1.75.0"}
+{
+    "name": "agnostic-lite",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "async-std",
+            "req": "^1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "smol",
+            "req": "^2",
+            "features": [],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1",
+            "features": [
+                "rt"
+            ],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "c2b0ef2aa58a10b403bbd5524b1b2fa8eeca82bc574bec6d46bb3e35bff80f55",
+    "features": {},
+    "yanked": true,
+    "rust_version": "1.75.0"
+}

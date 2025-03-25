@@ -1,1 +1,52 @@
-{"name":"rstsr","vers":"0.0.1","deps":[{"name":"rstsr-core","req":"^0.0.1","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"rstsr-openblas","req":"^0.0.1","features":[],"optional":true,"default_features":false,"target":null,"kind":"normal"}],"cksum":"31bb7db153da3c022dd1df3a415e602eeca3fce5a9e25126d98ee18cd69d6972","features":{"default":["rstsr-core/default"],"f_prefer":["rstsr-core/std"],"faer":["rstsr-core/faer"],"faer_as_default":["rstsr-core/faer_as_default"],"rayon":["rstsr-core/rayon"],"std":["rstsr-core/std"]},"features2":{"openblas":["dep:rstsr-openblas"]},"yanked":false,"v":2}
+{
+    "name": "rstsr",
+    "vers": "0.0.1",
+    "deps": [
+        {
+            "name": "rstsr-core",
+            "req": "^0.0.1",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rstsr-openblas",
+            "req": "^0.0.1",
+            "features": [],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "31bb7db153da3c022dd1df3a415e602eeca3fce5a9e25126d98ee18cd69d6972",
+    "features": {
+        "default": [
+            "rstsr-core/default"
+        ],
+        "f_prefer": [
+            "rstsr-core/std"
+        ],
+        "faer": [
+            "rstsr-core/faer"
+        ],
+        "faer_as_default": [
+            "rstsr-core/faer_as_default"
+        ],
+        "rayon": [
+            "rstsr-core/rayon"
+        ],
+        "std": [
+            "rstsr-core/std"
+        ]
+    },
+    "features2": {
+        "openblas": [
+            "dep:rstsr-openblas"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

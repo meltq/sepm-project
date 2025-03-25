@@ -1,1 +1,38 @@
-{"name":"ring","vers":"0.2.0","deps":[{"name":"lazy_static","req":"^0.2.1","features":[],"optional":false,"default_features":true,"target":"cfg(unix)","kind":"normal"},{"name":"untrusted","req":"^0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"ec991224564f841d868593b16f2c36f5dad72088b7bcf1c9e260b938bbcc44b4","features":{"default":["use_heap","dev_urandom_fallback"],"dev_urandom_fallback":[],"internal_benches":[],"rsa_signing":[],"slow_tests":[],"test_logging":[],"use_heap":[]},"yanked":true}
+{
+    "name": "ring",
+    "vers": "0.2.0",
+    "deps": [
+        {
+            "name": "lazy_static",
+            "req": "^0.2.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": "cfg(unix)",
+            "kind": "normal"
+        },
+        {
+            "name": "untrusted",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "ec991224564f841d868593b16f2c36f5dad72088b7bcf1c9e260b938bbcc44b4",
+    "features": {
+        "default": [
+            "use_heap",
+            "dev_urandom_fallback"
+        ],
+        "dev_urandom_fallback": [],
+        "internal_benches": [],
+        "rsa_signing": [],
+        "slow_tests": [],
+        "test_logging": [],
+        "use_heap": []
+    },
+    "yanked": true
+}

@@ -1,1 +1,38 @@
-{"name":"langbeam","vers":"0.1.0","deps":[{"name":"rainbeam-shared","req":"^0.1.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.215","features":["serde_derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.133","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"ae41c98e6394bf9c76b3b6a341623068b684ee2964b6c22a6e068dfab246c89b","features":{},"yanked":false}
+{
+    "name": "langbeam",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "rainbeam-shared",
+            "req": "^0.1.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.215",
+            "features": [
+                "serde_derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.133",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "ae41c98e6394bf9c76b3b6a341623068b684ee2964b6c22a6e068dfab246c89b",
+    "features": {},
+    "yanked": false
+}

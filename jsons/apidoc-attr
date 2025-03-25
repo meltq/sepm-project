@@ -1,1 +1,46 @@
-{"name":"apidoc-attr","vers":"0.1.1","deps":[{"name":"procmeta","req":"^0.2.7","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0","features":["derive"],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"syn","req":"^2.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"17a654061b91ec8fe3d8a4656df2b7b675af341c8ac289527fcf166fba0938c4","features":{"core":["serde"],"proc":["procmeta","syn"]},"yanked":false}
+{
+    "name": "apidoc-attr",
+    "vers": "0.1.1",
+    "deps": [
+        {
+            "name": "procmeta",
+            "req": "^0.2.7",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [
+                "derive"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "syn",
+            "req": "^2.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "17a654061b91ec8fe3d8a4656df2b7b675af341c8ac289527fcf166fba0938c4",
+    "features": {
+        "core": [
+            "serde"
+        ],
+        "proc": [
+            "procmeta",
+            "syn"
+        ]
+    },
+    "yanked": false
+}

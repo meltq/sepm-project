@@ -1,1 +1,127 @@
-{"name":"rusty_dl","vers":"0.0.1","deps":[{"name":"futures","req":"^0.3.30","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"percent-encoding","req":"^2.3.1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"regex","req":"^1.10.4","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"reqwest","req":"^0.12.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rusty_ytdl","req":"^0.7.1","features":["blocking","ffmpeg"],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.197","features":["derive"],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.115","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_urlencoded","req":"^0.7.1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.37.0","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"url","req":"^2.5.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"409f7201364ea0476c8ccb7ac0f51de0f6509062d3c7195d770e4022d34c3bdf","features":{"dev":["full","futures"],"full":["youtube","twitter","resource"],"resource":[],"twitter":["resource","regex","percent-encoding"],"youtube":["rusty_ytdl","serde","serde_json"]},"yanked":false}
+{
+    "name": "rusty_dl",
+    "vers": "0.0.1",
+    "deps": [
+        {
+            "name": "futures",
+            "req": "^0.3.30",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "percent-encoding",
+            "req": "^2.3.1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "regex",
+            "req": "^1.10.4",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "reqwest",
+            "req": "^0.12.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rusty_ytdl",
+            "req": "^0.7.1",
+            "features": [
+                "blocking",
+                "ffmpeg"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.197",
+            "features": [
+                "derive"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.115",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_urlencoded",
+            "req": "^0.7.1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.37.0",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "url",
+            "req": "^2.5.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "409f7201364ea0476c8ccb7ac0f51de0f6509062d3c7195d770e4022d34c3bdf",
+    "features": {
+        "dev": [
+            "full",
+            "futures"
+        ],
+        "full": [
+            "youtube",
+            "twitter",
+            "resource"
+        ],
+        "resource": [],
+        "twitter": [
+            "resource",
+            "regex",
+            "percent-encoding"
+        ],
+        "youtube": [
+            "rusty_ytdl",
+            "serde",
+            "serde_json"
+        ]
+    },
+    "yanked": false
+}

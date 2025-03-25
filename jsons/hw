@@ -1,1 +1,175 @@
-{"name":"hw","vers":"0.1.0-beta","deps":[{"name":"built","req":"^0.7","features":["chrono","git2"],"optional":true,"default_features":true,"target":null,"kind":"build"},{"name":"e-utils","req":"^0.4","features":["tokio","cmd"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"static_vcruntime","req":"^2","features":[],"optional":true,"default_features":true,"target":"cfg(windows)","kind":"build"},{"name":"structopt","req":"^0.3","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"strum","req":"^0.26","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"sysinfo","req":"^0.33","features":[],"optional":true,"default_features":false,"target":null,"kind":"normal"},{"name":"tokio","req":"^1","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"winresource","req":"^0.1","features":[],"optional":true,"default_features":true,"target":"cfg(windows)","kind":"build"},{"name":"wmi","req":"^0.14","features":[],"optional":true,"default_features":true,"target":"cfg(target_os=\"windows\")","kind":"normal"}],"cksum":"064289a18dc370760c34366ef1311fe5de77d4fca486539bd3857151eae141ed","features":{"aida64":["wmi","system"],"build":["winresource","static_vcruntime"],"cli":["structopt"],"component":["sysinfo/component"],"default":["os","aida64","ohm","cli"],"disk":["sysinfo/disk"],"multithread":["sysinfo/multithread"],"network":["sysinfo/network"],"ohm":["wmi","system"],"os":["system","user","network","multithread","disk","component"],"system":["sysinfo/system"],"user":["sysinfo/user"]},"features2":{"built":["dep:built"]},"yanked":true,"rust_version":"1.78.0","v":2}
+{
+    "name": "hw",
+    "vers": "0.1.0-beta",
+    "deps": [
+        {
+            "name": "built",
+            "req": "^0.7",
+            "features": [
+                "chrono",
+                "git2"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "e-utils",
+            "req": "^0.4",
+            "features": [
+                "tokio",
+                "cmd"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "static_vcruntime",
+            "req": "^2",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": "cfg(windows)",
+            "kind": "build"
+        },
+        {
+            "name": "structopt",
+            "req": "^0.3",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "strum",
+            "req": "^0.26",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "sysinfo",
+            "req": "^0.33",
+            "features": [],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "winresource",
+            "req": "^0.1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": "cfg(windows)",
+            "kind": "build"
+        },
+        {
+            "name": "wmi",
+            "req": "^0.14",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": "cfg(target_os=\"windows\")",
+            "kind": "normal"
+        }
+    ],
+    "cksum": "064289a18dc370760c34366ef1311fe5de77d4fca486539bd3857151eae141ed",
+    "features": {
+        "aida64": [
+            "wmi",
+            "system"
+        ],
+        "build": [
+            "winresource",
+            "static_vcruntime"
+        ],
+        "cli": [
+            "structopt"
+        ],
+        "component": [
+            "sysinfo/component"
+        ],
+        "default": [
+            "os",
+            "aida64",
+            "ohm",
+            "cli"
+        ],
+        "disk": [
+            "sysinfo/disk"
+        ],
+        "multithread": [
+            "sysinfo/multithread"
+        ],
+        "network": [
+            "sysinfo/network"
+        ],
+        "ohm": [
+            "wmi",
+            "system"
+        ],
+        "os": [
+            "system",
+            "user",
+            "network",
+            "multithread",
+            "disk",
+            "component"
+        ],
+        "system": [
+            "sysinfo/system"
+        ],
+        "user": [
+            "sysinfo/user"
+        ]
+    },
+    "features2": {
+        "built": [
+            "dep:built"
+        ]
+    },
+    "yanked": true,
+    "rust_version": "1.78.0",
+    "v": 2
+}

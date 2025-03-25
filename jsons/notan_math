@@ -1,1 +1,60 @@
-{"name":"notan_math","vers":"0.1.0","deps":[{"name":"getrandom","req":"^0.2.3","features":["js"],"optional":false,"default_features":true,"target":"cfg(target_arch = \"wasm32\")","kind":"normal"},{"name":"glam","req":"^0.20","features":["scalar-math"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rand","req":"^0.7.2","features":[],"optional":false,"default_features":true,"target":"cfg(not(target_arch = \"wasm32\"))","kind":"normal"},{"name":"rand","req":"^0.7.2","features":["wasm-bindgen"],"optional":false,"default_features":true,"target":"cfg(target_arch = \"wasm32\")","kind":"normal"},{"name":"rand_pcg","req":"^0.2.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"0ce935ab615a803844aab6076d0ad9b714da395a691caf3685c9a2207561f5b1","features":{},"yanked":false}
+{
+    "name": "notan_math",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "getrandom",
+            "req": "^0.2.3",
+            "features": [
+                "js"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": "cfg(target_arch = \"wasm32\")",
+            "kind": "normal"
+        },
+        {
+            "name": "glam",
+            "req": "^0.20",
+            "features": [
+                "scalar-math"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rand",
+            "req": "^0.7.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": "cfg(not(target_arch = \"wasm32\"))",
+            "kind": "normal"
+        },
+        {
+            "name": "rand",
+            "req": "^0.7.2",
+            "features": [
+                "wasm-bindgen"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": "cfg(target_arch = \"wasm32\")",
+            "kind": "normal"
+        },
+        {
+            "name": "rand_pcg",
+            "req": "^0.2.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "0ce935ab615a803844aab6076d0ad9b714da395a691caf3685c9a2207561f5b1",
+    "features": {},
+    "yanked": false
+}

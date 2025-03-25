@@ -1,1 +1,32 @@
-{"name":"seestr","vers":"0.1.0","deps":[{"name":"libc","req":"^0.2.166","features":[],"optional":true,"default_features":false,"target":null,"kind":"normal"}],"cksum":"9fe0cef4f5bb7e2913265db71fdeab02974151a7ccdede8a9ea197384627e7e2","features":{"alloc":[],"std":[]},"features2":{"default":["alloc","std","libc"],"libc":["dep:libc"]},"yanked":false,"v":2}
+{
+    "name": "seestr",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "libc",
+            "req": "^0.2.166",
+            "features": [],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "9fe0cef4f5bb7e2913265db71fdeab02974151a7ccdede8a9ea197384627e7e2",
+    "features": {
+        "alloc": [],
+        "std": []
+    },
+    "features2": {
+        "default": [
+            "alloc",
+            "std",
+            "libc"
+        ],
+        "libc": [
+            "dep:libc"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

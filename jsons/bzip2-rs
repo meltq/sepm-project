@@ -1,1 +1,65 @@
-{"name":"bzip2-rs","vers":"0.1.0","deps":[{"name":"bzip2","req":"^0.4.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"crc32fast","req":"^1.2.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"criterion","req":"^0.3.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"pretty_assertions","req":"^0.6","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"tinyvec","req":"^1.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"bcabc18374001b12515682416410d9a72141edbc72ba3cff48068be695f8be47","features":{"default":[],"rustc_1_37":[],"rustc_1_40":["rustc_1_37","tinyvec/rustc_1_40"],"rustc_1_51":["rustc_1_40","tinyvec/nightly_const_generics"]},"yanked":false}
+{
+    "name": "bzip2-rs",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "bzip2",
+            "req": "^0.4.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "crc32fast",
+            "req": "^1.2.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "criterion",
+            "req": "^0.3.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "pretty_assertions",
+            "req": "^0.6",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "tinyvec",
+            "req": "^1.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "bcabc18374001b12515682416410d9a72141edbc72ba3cff48068be695f8be47",
+    "features": {
+        "default": [],
+        "rustc_1_37": [],
+        "rustc_1_40": [
+            "rustc_1_37",
+            "tinyvec/rustc_1_40"
+        ],
+        "rustc_1_51": [
+            "rustc_1_40",
+            "tinyvec/nightly_const_generics"
+        ]
+    },
+    "yanked": false
+}

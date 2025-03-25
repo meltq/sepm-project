@@ -1,1 +1,114 @@
-{"name":"vaultenator","vers":"0.0.2","deps":[{"name":"cosmwasm-schema","req":"^1.5.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"cosmwasm-std","req":"^1.5.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"cw-controllers","req":"^1.1.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"cw-storage-plus","req":"^1.2.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"cw-utils","req":"^1.0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"cw-vault-standard","req":"^0.4.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"cw2","req":"^1.1.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"osmosis-std","req":"^0.22.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"osmosis-test-tube","req":"^22.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"serde","req":"^1.0.197","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^1.0.57","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"6d53b67c22a4f0d4f87874cb8e821b596c81f1110a4648f5c85786323d2b583b","features":{"backtraces":["cosmwasm-std/backtraces"],"library":[]},"yanked":false,"rust_version":"1.76.0"}
+{
+    "name": "vaultenator",
+    "vers": "0.0.2",
+    "deps": [
+        {
+            "name": "cosmwasm-schema",
+            "req": "^1.5.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "cosmwasm-std",
+            "req": "^1.5.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "cw-controllers",
+            "req": "^1.1.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "cw-storage-plus",
+            "req": "^1.2.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "cw-utils",
+            "req": "^1.0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "cw-vault-standard",
+            "req": "^0.4.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "cw2",
+            "req": "^1.1.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "osmosis-std",
+            "req": "^0.22.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "osmosis-test-tube",
+            "req": "^22.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.197",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^1.0.57",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "6d53b67c22a4f0d4f87874cb8e821b596c81f1110a4648f5c85786323d2b583b",
+    "features": {
+        "backtraces": [
+            "cosmwasm-std/backtraces"
+        ],
+        "library": []
+    },
+    "yanked": false,
+    "rust_version": "1.76.0"
+}

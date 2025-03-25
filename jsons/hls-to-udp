@@ -1,1 +1,56 @@
-{"name":"hls-to-udp","vers":"1.0.0","deps":[{"name":"anyhow","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"clap","req":"^4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"m3u8-rs","req":"^6","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"reqwest","req":"^0.11","features":["blocking"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"url","req":"^2.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"d82851087792d4eedccb3c16fc340fbf3dea77e1485ec9580cb0d83e71ac349e","features":{},"yanked":false}
+{
+    "name": "hls-to-udp",
+    "vers": "1.0.0",
+    "deps": [
+        {
+            "name": "anyhow",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "clap",
+            "req": "^4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "m3u8-rs",
+            "req": "^6",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "reqwest",
+            "req": "^0.11",
+            "features": [
+                "blocking"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "url",
+            "req": "^2.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "d82851087792d4eedccb3c16fc340fbf3dea77e1485ec9580cb0d83e71ac349e",
+    "features": {},
+    "yanked": false
+}

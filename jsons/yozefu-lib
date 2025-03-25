@@ -1,1 +1,151 @@
-{"name":"yozefu-lib","vers":"0.0.1","deps":[{"name":"apache-avro","req":"^0.17.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"chrono","req":"^0.4.39","features":["serde"],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"fuzzydate","req":"^0.2.2","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"insta","req":"^1.41.1","features":["filters","glob"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"itertools","req":"^0.13.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"nom","req":"^8.0.0-beta.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"protobuf","req":"^3.7.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"rdkafka","req":"^0.37.0","features":["cmake-build"],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"reqwest","req":"^0.12.9","features":["json"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.215","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.133","features":["preserve_order"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"strum","req":"^0.26.3","features":["derive","strum_macros"],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"url","req":"^2.5.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"4b89b880136ed46a0d758e90a4c2ee48bf19fc02fb3f7a2f2687a0423cdbd964","features":{},"features2":{"native":["dep:chrono","dep:rdkafka","dep:fuzzydate","dep:strum"]},"yanked":false,"v":2}
+{
+    "name": "yozefu-lib",
+    "vers": "0.0.1",
+    "deps": [
+        {
+            "name": "apache-avro",
+            "req": "^0.17.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "chrono",
+            "req": "^0.4.39",
+            "features": [
+                "serde"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "fuzzydate",
+            "req": "^0.2.2",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "insta",
+            "req": "^1.41.1",
+            "features": [
+                "filters",
+                "glob"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "itertools",
+            "req": "^0.13.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "nom",
+            "req": "^8.0.0-beta.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "protobuf",
+            "req": "^3.7.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "rdkafka",
+            "req": "^0.37.0",
+            "features": [
+                "cmake-build"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "reqwest",
+            "req": "^0.12.9",
+            "features": [
+                "json"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.215",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.133",
+            "features": [
+                "preserve_order"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "strum",
+            "req": "^0.26.3",
+            "features": [
+                "derive",
+                "strum_macros"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "url",
+            "req": "^2.5.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "4b89b880136ed46a0d758e90a4c2ee48bf19fc02fb3f7a2f2687a0423cdbd964",
+    "features": {},
+    "features2": {
+        "native": [
+            "dep:chrono",
+            "dep:rdkafka",
+            "dep:fuzzydate",
+            "dep:strum"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

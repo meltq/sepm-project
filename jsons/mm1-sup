@@ -1,1 +1,114 @@
-{"name":"mm1-sup","vers":"0.5.0","deps":[{"name":"mm1-address","req":"=0.5.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"mm1-common","req":"=0.5.0","features":["logging"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"mm1-core","req":"=0.5.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"mm1-logger","req":"=0.5.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"mm1-node","req":"=0.5.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"mm1-proto","req":"=0.5.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"mm1-proto-sup","req":"=0.5.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"mm1-proto-system","req":"=0.5.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"parking_lot","req":"^0.12","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1","features":["time","rt","macros"],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"0679c45ad5421de9f7da356214bbda6f53b1454c49a3d18f1d98be9855b810b9","features":{},"yanked":true}
+{
+    "name": "mm1-sup",
+    "vers": "0.5.0",
+    "deps": [
+        {
+            "name": "mm1-address",
+            "req": "=0.5.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "mm1-common",
+            "req": "=0.5.0",
+            "features": [
+                "logging"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "mm1-core",
+            "req": "=0.5.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "mm1-logger",
+            "req": "=0.5.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "mm1-node",
+            "req": "=0.5.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "mm1-proto",
+            "req": "=0.5.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "mm1-proto-sup",
+            "req": "=0.5.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "mm1-proto-system",
+            "req": "=0.5.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "parking_lot",
+            "req": "^0.12",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1",
+            "features": [
+                "time",
+                "rt",
+                "macros"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "0679c45ad5421de9f7da356214bbda6f53b1454c49a3d18f1d98be9855b810b9",
+    "features": {},
+    "yanked": true
+}

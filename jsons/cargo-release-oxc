@@ -1,1 +1,79 @@
-{"name":"cargo-release-oxc","vers":"0.0.1","deps":[{"name":"anyhow","req":"^1.0.81","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"bpaf","req":"^0.9.11","features":["derive","batteries"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"cargo_metadata","req":"^0.18.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"git-cliff-core","req":"^2.2.0","features":["repo"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"glob","req":"^0.3.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"semver","req":"^1.0.22","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"toml_edit","req":"^0.22.9","features":["parse"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"280f6cb001724faefb9dab7e9a43c90c210f00ddfeb5ed91c5f29df1126d1d55","features":{},"yanked":false}
+{
+    "name": "cargo-release-oxc",
+    "vers": "0.0.1",
+    "deps": [
+        {
+            "name": "anyhow",
+            "req": "^1.0.81",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "bpaf",
+            "req": "^0.9.11",
+            "features": [
+                "derive",
+                "batteries"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "cargo_metadata",
+            "req": "^0.18.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "git-cliff-core",
+            "req": "^2.2.0",
+            "features": [
+                "repo"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "glob",
+            "req": "^0.3.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "semver",
+            "req": "^1.0.22",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "toml_edit",
+            "req": "^0.22.9",
+            "features": [
+                "parse"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "280f6cb001724faefb9dab7e9a43c90c210f00ddfeb5ed91c5f29df1126d1d55",
+    "features": {},
+    "yanked": false
+}

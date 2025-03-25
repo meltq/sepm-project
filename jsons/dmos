@@ -1,1 +1,66 @@
-{"name":"dmos","vers":"0.2.1","deps":[{"name":"cfg-if","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"inkjet","req":"^0.10.3","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"jotdown","req":"^0.4.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"syntect","req":"^5.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"b0ea2bdccd9b17de02c87ae2986fa2a1a5ce870a42bd212ec93179108eb1564f","features":{},"features2":{"default":["syntect"],"inkjet":["dep:inkjet"],"syntect":["dep:syntect"]},"yanked":false,"v":2}
+{
+    "name": "dmos",
+    "vers": "0.2.1",
+    "deps": [
+        {
+            "name": "cfg-if",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "inkjet",
+            "req": "^0.10.3",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "jotdown",
+            "req": "^0.4.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "syntect",
+            "req": "^5.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "b0ea2bdccd9b17de02c87ae2986fa2a1a5ce870a42bd212ec93179108eb1564f",
+    "features": {},
+    "features2": {
+        "default": [
+            "syntect"
+        ],
+        "inkjet": [
+            "dep:inkjet"
+        ],
+        "syntect": [
+            "dep:syntect"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

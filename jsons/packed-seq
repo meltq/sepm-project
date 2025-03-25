@@ -1,1 +1,65 @@
-{"name":"packed-seq","vers":"1.0.0","deps":[{"name":"cfg-if","req":"^1.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"epserde","req":"^0.6.1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"mem_dbg","req":"^0.2.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"pyo3","req":"^0.23.4","features":["extension-module"],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"rand","req":"^0.9.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"wide","req":"^0.7.32","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"bfc20df5e0f329ea165c3d8b019f65fd45ed16f523cbfed053f8f7e29e157c83","features":{},"yanked":false}
+{
+    "name": "packed-seq",
+    "vers": "1.0.0",
+    "deps": [
+        {
+            "name": "cfg-if",
+            "req": "^1.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "epserde",
+            "req": "^0.6.1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "mem_dbg",
+            "req": "^0.2.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "pyo3",
+            "req": "^0.23.4",
+            "features": [
+                "extension-module"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rand",
+            "req": "^0.9.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "wide",
+            "req": "^0.7.32",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "bfc20df5e0f329ea165c3d8b019f65fd45ed16f523cbfed053f8f7e29e157c83",
+    "features": {},
+    "yanked": false
+}

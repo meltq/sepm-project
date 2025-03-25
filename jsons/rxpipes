@@ -1,1 +1,52 @@
-{"name":"rxpipes","vers":"1.0.0","deps":[{"name":"clap","req":"^4.5.4","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"crossterm","req":"^0.27.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"eyre","req":"^0.6.12","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rand","req":"^0.8.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"da07ca96a7003f5b34ce0ac40a2b81b4a263f66f1e45ef4727bb67aec275af55","features":{"alternate-screen":[],"default":["alternate-screen"]},"yanked":false}
+{
+    "name": "rxpipes",
+    "vers": "1.0.0",
+    "deps": [
+        {
+            "name": "clap",
+            "req": "^4.5.4",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "crossterm",
+            "req": "^0.27.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "eyre",
+            "req": "^0.6.12",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rand",
+            "req": "^0.8.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "da07ca96a7003f5b34ce0ac40a2b81b4a263f66f1e45ef4727bb67aec275af55",
+    "features": {
+        "alternate-screen": [],
+        "default": [
+            "alternate-screen"
+        ]
+    },
+    "yanked": false
+}

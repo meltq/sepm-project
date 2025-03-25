@@ -1,1 +1,77 @@
-{"name":"wit-bindgen-wrpc-rust","vers":"0.1.0-pre","deps":[{"name":"anyhow","req":"^1","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"clap","req":"^4","features":["derive","std"],"optional":true,"default_features":false,"target":null,"kind":"normal"},{"name":"heck","req":"^0.5","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"serde","req":"^1","features":["derive"],"optional":false,"default_features":false,"target":null,"kind":"dev"},{"name":"serde_json","req":"^1","features":[],"optional":false,"default_features":false,"target":null,"kind":"dev"},{"name":"wit-bindgen-core","req":"^0.24","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"wrpc-transport","req":"^0.22","features":[],"optional":false,"default_features":false,"target":null,"kind":"dev"}],"cksum":"55b5f25517ddcc4db579994efd57a514030ab4a4e8d03b6a5a4fc80416285c00","features":{},"yanked":false}
+{
+    "name": "wit-bindgen-wrpc-rust",
+    "vers": "0.1.0-pre",
+    "deps": [
+        {
+            "name": "anyhow",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "clap",
+            "req": "^4",
+            "features": [
+                "derive",
+                "std"
+            ],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "heck",
+            "req": "^0.5",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "wit-bindgen-core",
+            "req": "^0.24",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "wrpc-transport",
+            "req": "^0.22",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "55b5f25517ddcc4db579994efd57a514030ab4a4e8d03b6a5a4fc80416285c00",
+    "features": {},
+    "yanked": false
+}

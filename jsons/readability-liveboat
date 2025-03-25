@@ -1,1 +1,70 @@
-{"name":"readability-liveboat","vers":"0.3.0","deps":[{"name":"html5ever","req":"^0.26","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"lazy_static","req":"^1.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"markup5ever_rcdom","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"regex","req":"^1.9","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"reqwest","req":"^0.11","features":["blocking","rustls-tls"],"optional":true,"default_features":false,"target":null,"kind":"normal"},{"name":"url","req":"^2.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"c9afd5b2db9caf7633c4d33d01cebc943c8dcfdf91a8b075c45cbe1de1e8cc21","features":{"default":["reqwest"]},"yanked":false}
+{
+    "name": "readability-liveboat",
+    "vers": "0.3.0",
+    "deps": [
+        {
+            "name": "html5ever",
+            "req": "^0.26",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "lazy_static",
+            "req": "^1.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "markup5ever_rcdom",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "regex",
+            "req": "^1.9",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "reqwest",
+            "req": "^0.11",
+            "features": [
+                "blocking",
+                "rustls-tls"
+            ],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "url",
+            "req": "^2.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "c9afd5b2db9caf7633c4d33d01cebc943c8dcfdf91a8b075c45cbe1de1e8cc21",
+    "features": {
+        "default": [
+            "reqwest"
+        ]
+    },
+    "yanked": false
+}

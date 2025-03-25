@@ -1,1 +1,37 @@
-{"name":"ismp-parachain-runtime-api","vers":"1.6.0","deps":[{"name":"cumulus-pallet-parachain-system","req":"^0.7.0","features":["parameterized-consensus-hook"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"sp-api","req":"^26.0.0","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"}],"cksum":"aba8056489ea31fcc4b14d70b001ea2220e1f266ea1ffc9ec36bf18562678386","features":{"default":["std"],"std":["sp-api/std","cumulus-pallet-parachain-system/std"]},"yanked":false}
+{
+    "name": "ismp-parachain-runtime-api",
+    "vers": "1.6.0",
+    "deps": [
+        {
+            "name": "cumulus-pallet-parachain-system",
+            "req": "^0.7.0",
+            "features": [
+                "parameterized-consensus-hook"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "sp-api",
+            "req": "^26.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "aba8056489ea31fcc4b14d70b001ea2220e1f266ea1ffc9ec36bf18562678386",
+    "features": {
+        "default": [
+            "std"
+        ],
+        "std": [
+            "sp-api/std",
+            "cumulus-pallet-parachain-system/std"
+        ]
+    },
+    "yanked": false
+}

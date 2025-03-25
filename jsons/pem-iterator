@@ -1,1 +1,34 @@
-{"name":"pem-iterator","vers":"0.1.0","deps":[{"name":"pem","req":"^0.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"rand","req":"^0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"0a639d77e715cbdfef8c5293e0f1ec8a70f3801806cf93a84609876148829b88","features":{"default":["std","store_label"],"std":[],"store_label":[]},"yanked":false}
+{
+    "name": "pem-iterator",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "pem",
+            "req": "^0.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "rand",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "0a639d77e715cbdfef8c5293e0f1ec8a70f3801806cf93a84609876148829b88",
+    "features": {
+        "default": [
+            "std",
+            "store_label"
+        ],
+        "std": [],
+        "store_label": []
+    },
+    "yanked": false
+}

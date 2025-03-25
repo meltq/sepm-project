@@ -1,1 +1,61 @@
-{"name":"kitsune2_showcase","vers":"0.0.1-alpha","deps":[{"name":"clap","req":"^4.5.21","features":["derive","wrap_help"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"kitsune2","req":"^0.0.1-alpha","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"nu-ansi-term","req":"^0.50.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"reedline","req":"^0.38.0","features":["external_printer"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.41.1","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"1cd2ec121348fd5993a433eab37aed1a50527c4b428ec4756f6e1e8b9a829055","features":{},"yanked":false}
+{
+    "name": "kitsune2_showcase",
+    "vers": "0.0.1-alpha",
+    "deps": [
+        {
+            "name": "clap",
+            "req": "^4.5.21",
+            "features": [
+                "derive",
+                "wrap_help"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "kitsune2",
+            "req": "^0.0.1-alpha",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "nu-ansi-term",
+            "req": "^0.50.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "reedline",
+            "req": "^0.38.0",
+            "features": [
+                "external_printer"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.41.1",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "1cd2ec121348fd5993a433eab37aed1a50527c4b428ec4756f6e1e8b9a829055",
+    "features": {},
+    "yanked": false
+}

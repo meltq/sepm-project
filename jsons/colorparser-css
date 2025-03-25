@@ -1,1 +1,47 @@
-{"name":"colorparser-css","vers":"0.0.1","deps":[{"name":"phf","req":"^0.11.2","features":["macros"],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"regex","req":"^1.11.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.217","features":["derive"],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"c140c64ba7a6b15e46572e64e70afd34ee52e37f182d811a4e6dbbdf66918bd8","features":{"default":["named-colors"],"named-colors":["phf"]},"yanked":false}
+{
+    "name": "colorparser-css",
+    "vers": "0.0.1",
+    "deps": [
+        {
+            "name": "phf",
+            "req": "^0.11.2",
+            "features": [
+                "macros"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "regex",
+            "req": "^1.11.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.217",
+            "features": [
+                "derive"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "c140c64ba7a6b15e46572e64e70afd34ee52e37f182d811a4e6dbbdf66918bd8",
+    "features": {
+        "default": [
+            "named-colors"
+        ],
+        "named-colors": [
+            "phf"
+        ]
+    },
+    "yanked": false
+}

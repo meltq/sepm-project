@@ -1,1 +1,49 @@
-{"name":"aes-256-gcm","vers":"1.0.0","deps":[{"name":"aes-gcm","req":"^0.10.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"chrono","req":"^0.4.35","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.193","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.108","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"9f40a7e820698b51a20e96f75f17edccd25f64df0cc15bf1fa73ac2723390d7d","features":{"default":[]},"yanked":false}
+{
+    "name": "aes-256-gcm",
+    "vers": "1.0.0",
+    "deps": [
+        {
+            "name": "aes-gcm",
+            "req": "^0.10.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "chrono",
+            "req": "^0.4.35",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.193",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.108",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "9f40a7e820698b51a20e96f75f17edccd25f64df0cc15bf1fa73ac2723390d7d",
+    "features": {
+        "default": []
+    },
+    "yanked": false
+}

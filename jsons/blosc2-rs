@@ -1,1 +1,61 @@
-{"name":"blosc2-rs","vers":"0.2.0+2.13.2","deps":[{"name":"blosc2-sys","req":"^0.2.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"criterion","req":"^0.4","features":["html_reports"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"ctor","req":"^0.2.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"parking_lot","req":"^0.12","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rand","req":"^0.8.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"644e1ad20be5e35ccb82d9e0f369b93a7ff5805f56295928b1f5ca22f79a402f","features":{"defaults":[],"use-system-blosc2":["blosc2-sys/use-system-blosc2"]},"yanked":false}
+{
+    "name": "blosc2-rs",
+    "vers": "0.2.0+2.13.2",
+    "deps": [
+        {
+            "name": "blosc2-sys",
+            "req": "^0.2.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "criterion",
+            "req": "^0.4",
+            "features": [
+                "html_reports"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "ctor",
+            "req": "^0.2.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "parking_lot",
+            "req": "^0.12",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rand",
+            "req": "^0.8.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "644e1ad20be5e35ccb82d9e0f369b93a7ff5805f56295928b1f5ca22f79a402f",
+    "features": {
+        "defaults": [],
+        "use-system-blosc2": [
+            "blosc2-sys/use-system-blosc2"
+        ]
+    },
+    "yanked": false
+}

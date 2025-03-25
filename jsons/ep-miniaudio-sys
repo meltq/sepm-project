@@ -1,1 +1,78 @@
-{"name":"ep-miniaudio-sys","vers":"0.1.0","deps":[{"name":"bindgen","req":"^0.53","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"bitflags","req":"^1.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"cc","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"libc","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"a220608cca0fa458139dae7e28edf77ffdef05b5e7f08665cc5b1f71a88372f8","features":{"default":["ma-log-level-error"],"ma-debug-output":[],"ma-enable-dr-flac":[],"ma-enable-dr-mp3":[],"ma-enable-dr-wav":[],"ma-log-level-error":[],"ma-log-level-info":[],"ma-log-level-verbose":[],"ma-log-level-warning":[],"ma-no-aaudio":[],"ma-no-alsa":[],"ma-no-audio4":[],"ma-no-avx2":[],"ma-no-avx512":[],"ma-no-coreaudio":[],"ma-no-decoding":[],"ma-no-device-io":[],"ma-no-dsound":[],"ma-no-jack":[],"ma-no-neon":[],"ma-no-null":[],"ma-no-opensl":[],"ma-no-oss":[],"ma-no-pulseaudio":[],"ma-no-sndio":[],"ma-no-sse2":[],"ma-no-stdio":[],"ma-no-wasapi":[],"ma-no-webaudio":[],"ma-no-winmm":[]},"yanked":false}
+{
+    "name": "ep-miniaudio-sys",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "bindgen",
+            "req": "^0.53",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "bitflags",
+            "req": "^1.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "cc",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "libc",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "a220608cca0fa458139dae7e28edf77ffdef05b5e7f08665cc5b1f71a88372f8",
+    "features": {
+        "default": [
+            "ma-log-level-error"
+        ],
+        "ma-debug-output": [],
+        "ma-enable-dr-flac": [],
+        "ma-enable-dr-mp3": [],
+        "ma-enable-dr-wav": [],
+        "ma-log-level-error": [],
+        "ma-log-level-info": [],
+        "ma-log-level-verbose": [],
+        "ma-log-level-warning": [],
+        "ma-no-aaudio": [],
+        "ma-no-alsa": [],
+        "ma-no-audio4": [],
+        "ma-no-avx2": [],
+        "ma-no-avx512": [],
+        "ma-no-coreaudio": [],
+        "ma-no-decoding": [],
+        "ma-no-device-io": [],
+        "ma-no-dsound": [],
+        "ma-no-jack": [],
+        "ma-no-neon": [],
+        "ma-no-null": [],
+        "ma-no-opensl": [],
+        "ma-no-oss": [],
+        "ma-no-pulseaudio": [],
+        "ma-no-sndio": [],
+        "ma-no-sse2": [],
+        "ma-no-stdio": [],
+        "ma-no-wasapi": [],
+        "ma-no-webaudio": [],
+        "ma-no-winmm": []
+    },
+    "yanked": false
+}

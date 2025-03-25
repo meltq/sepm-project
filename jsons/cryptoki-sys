@@ -1,1 +1,31 @@
-{"name":"cryptoki-sys","vers":"0.1.0","deps":[{"name":"bindgen","req":"^0.57.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"build"},{"name":"libloading","req":"^0.7.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"e712c566c87e4c7ef3af69411026dd107f931787c2d3f790b7e6c1f981d6e916","features":{"generate-bindings":["bindgen"]},"yanked":false}
+{
+    "name": "cryptoki-sys",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "bindgen",
+            "req": "^0.57.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "libloading",
+            "req": "^0.7.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "e712c566c87e4c7ef3af69411026dd107f931787c2d3f790b7e6c1f981d6e916",
+    "features": {
+        "generate-bindings": [
+            "bindgen"
+        ]
+    },
+    "yanked": false
+}

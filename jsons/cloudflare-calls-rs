@@ -1,1 +1,31 @@
-{"name":"cloudflare-calls-rs","vers":"0.1.0","deps":[{"name":"reqwest","req":"^0.12","features":["json"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"ffa1798f842b1c5a9288c60dcd8ae121cb5983e9de5a98b06cc352778649ee0c","features":{},"yanked":false}
+{
+    "name": "cloudflare-calls-rs",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "reqwest",
+            "req": "^0.12",
+            "features": [
+                "json"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "ffa1798f842b1c5a9288c60dcd8ae121cb5983e9de5a98b06cc352778649ee0c",
+    "features": {},
+    "yanked": false
+}

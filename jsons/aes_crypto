@@ -1,1 +1,56 @@
-{"name":"aes_crypto","vers":"0.1.0","deps":[{"name":"cfg-if","req":"^1.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"hex","req":"^0.4.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"lazy_static","req":"^1.4.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"pretty_assertions","req":"^1.4.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"rustc_version","req":"^0.4.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"}],"cksum":"932a7238ba132c40e1784568b5bb9ad8a1ddaaf19b433152e4612fde4c4d3f43","features":{"vaes":[]},"yanked":true}
+{
+    "name": "aes_crypto",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "cfg-if",
+            "req": "^1.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "hex",
+            "req": "^0.4.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "lazy_static",
+            "req": "^1.4.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "pretty_assertions",
+            "req": "^1.4.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "rustc_version",
+            "req": "^0.4.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        }
+    ],
+    "cksum": "932a7238ba132c40e1784568b5bb9ad8a1ddaaf19b433152e4612fde4c4d3f43",
+    "features": {
+        "vaes": []
+    },
+    "yanked": true
+}

@@ -1,1 +1,118 @@
-{"name":"vortex-sparse","vers":"0.23.0","deps":[{"name":"itertools","req":"^0.14.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rkyv","req":"^0.8","features":["little_endian","pointer_width_32","bytecheck","unaligned"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rstest","req":"^0.24","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"serde","req":"^1.0.197","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"vortex-array","req":"^0.23.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"vortex-array","req":"^0.23.0","features":["test-harness"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"vortex-buffer","req":"^0.23.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"vortex-dtype","req":"^0.23.0","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"vortex-error","req":"^0.23.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"vortex-mask","req":"^0.23.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"vortex-scalar","req":"^0.23.0","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"}],"cksum":"173a1c6a3f7b97d097ee336554269288b347838dbbffdb1a38042d75d1c7423d","features":{},"yanked":false,"rust_version":"1.82"}
+{
+    "name": "vortex-sparse",
+    "vers": "0.23.0",
+    "deps": [
+        {
+            "name": "itertools",
+            "req": "^0.14.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rkyv",
+            "req": "^0.8",
+            "features": [
+                "little_endian",
+                "pointer_width_32",
+                "bytecheck",
+                "unaligned"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rstest",
+            "req": "^0.24",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.197",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "vortex-array",
+            "req": "^0.23.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "vortex-array",
+            "req": "^0.23.0",
+            "features": [
+                "test-harness"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "vortex-buffer",
+            "req": "^0.23.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "vortex-dtype",
+            "req": "^0.23.0",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "vortex-error",
+            "req": "^0.23.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "vortex-mask",
+            "req": "^0.23.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "vortex-scalar",
+            "req": "^0.23.0",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "173a1c6a3f7b97d097ee336554269288b347838dbbffdb1a38042d75d1c7423d",
+    "features": {},
+    "yanked": false,
+    "rust_version": "1.82"
+}

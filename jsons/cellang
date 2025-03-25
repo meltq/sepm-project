@@ -1,1 +1,89 @@
-{"name":"cellang","vers":"0.1.0","deps":[{"name":"base64","req":"^0.22","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"miette","req":"^7","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"miette","req":"^7","features":["fancy"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"regex","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"thiserror","req":"^2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"time","req":"^0.3","features":["serde","formatting","parsing"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"485ac624482dd4699e79538c0e2d3d3522c12c56f69219c0145ff6d6b34314a4","features":{},"yanked":false}
+{
+    "name": "cellang",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "base64",
+            "req": "^0.22",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "miette",
+            "req": "^7",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "miette",
+            "req": "^7",
+            "features": [
+                "fancy"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "regex",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "thiserror",
+            "req": "^2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "time",
+            "req": "^0.3",
+            "features": [
+                "serde",
+                "formatting",
+                "parsing"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "485ac624482dd4699e79538c0e2d3d3522c12c56f69219c0145ff6d6b34314a4",
+    "features": {},
+    "yanked": false
+}

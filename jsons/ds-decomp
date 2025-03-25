@@ -1,1 +1,69 @@
-{"name":"ds-decomp","vers":"0.3.2","deps":[{"name":"ds-rom","req":"^0.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"log","req":"^0.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_yml","req":"^0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"snafu","req":"^0.8","features":["backtrace"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"unarm","req":"^1.6","features":["arm","thumb","v5te"],"optional":false,"default_features":false,"target":null,"kind":"normal"}],"cksum":"f59e0d141ab2cbfa6978b281b07dfed6b7083776a9780a83bac461ca242d1768","features":{},"yanked":false}
+{
+    "name": "ds-decomp",
+    "vers": "0.3.2",
+    "deps": [
+        {
+            "name": "ds-rom",
+            "req": "^0.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "log",
+            "req": "^0.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_yml",
+            "req": "^0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "snafu",
+            "req": "^0.8",
+            "features": [
+                "backtrace"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "unarm",
+            "req": "^1.6",
+            "features": [
+                "arm",
+                "thumb",
+                "v5te"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "f59e0d141ab2cbfa6978b281b07dfed6b7083776a9780a83bac461ca242d1768",
+    "features": {},
+    "yanked": false
+}

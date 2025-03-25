@@ -1,1 +1,96 @@
-{"name":"moon_file_group","vers":"0.0.2","deps":[{"name":"common-path","req":"^1.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"miette","req":"^7.4.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"moon_common","req":"^0.0.9","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"moon_config","req":"^0.0.11","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"once_cell","req":"^1.20.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.215","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"starbase_sandbox","req":"^0.8.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"starbase_utils","req":"^0.9.1","features":["editor-config","miette","glob"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"thiserror","req":"^2.0.6","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"a83e40dd180f62acb975046b8d02ef3899b95adc44da1a2ecd165ac9e9ea4dbe","features":{},"yanked":false}
+{
+    "name": "moon_file_group",
+    "vers": "0.0.2",
+    "deps": [
+        {
+            "name": "common-path",
+            "req": "^1.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "miette",
+            "req": "^7.4.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "moon_common",
+            "req": "^0.0.9",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "moon_config",
+            "req": "^0.0.11",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "once_cell",
+            "req": "^1.20.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.215",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "starbase_sandbox",
+            "req": "^0.8.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "starbase_utils",
+            "req": "^0.9.1",
+            "features": [
+                "editor-config",
+                "miette",
+                "glob"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^2.0.6",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "a83e40dd180f62acb975046b8d02ef3899b95adc44da1a2ecd165ac9e9ea4dbe",
+    "features": {},
+    "yanked": false
+}

@@ -1,1 +1,85 @@
-{"name":"texter","vers":"0.1.0","deps":[{"name":"criterion","req":"^0.5.1","features":["html_reports"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"lsp-types","req":"^0.97.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"memchr","req":"^2.7.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rstest","req":"^0.23.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"tracing","req":"^0.1.40","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tree-sitter","req":"^0.24.3","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"tree-sitter-html","req":"^0.23.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"8499e25a098ebed7ad73d500849361cc3dfcaef4fc0447bf355ae3cef47377ae","features":{"default":[]},"features2":{"lsp-types":["dep:lsp-types"],"tree-sitter":["dep:tree-sitter"]},"yanked":false,"v":2}
+{
+    "name": "texter",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "criterion",
+            "req": "^0.5.1",
+            "features": [
+                "html_reports"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "lsp-types",
+            "req": "^0.97.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "memchr",
+            "req": "^2.7.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rstest",
+            "req": "^0.23.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1.40",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tree-sitter",
+            "req": "^0.24.3",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tree-sitter-html",
+            "req": "^0.23.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "8499e25a098ebed7ad73d500849361cc3dfcaef4fc0447bf355ae3cef47377ae",
+    "features": {
+        "default": []
+    },
+    "features2": {
+        "lsp-types": [
+            "dep:lsp-types"
+        ],
+        "tree-sitter": [
+            "dep:tree-sitter"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

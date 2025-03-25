@@ -1,1 +1,34 @@
-{"name":"base58-monero","vers":"0.1.0","deps":[{"name":"hex","req":"^0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"keccak-hash","req":"^0.1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"91991e51aacb34e1684e76da025e9fcc6945faa6f4188ee4ecbc3fe4abcacd84","features":{"check":["keccak-hash"],"default":["check"]},"yanked":false}
+{
+    "name": "base58-monero",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "hex",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "keccak-hash",
+            "req": "^0.1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "91991e51aacb34e1684e76da025e9fcc6945faa6f4188ee4ecbc3fe4abcacd84",
+    "features": {
+        "check": [
+            "keccak-hash"
+        ],
+        "default": [
+            "check"
+        ]
+    },
+    "yanked": false
+}

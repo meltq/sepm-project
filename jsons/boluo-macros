@@ -1,1 +1,39 @@
-{"name":"boluo-macros","vers":"0.1.0","deps":[{"name":"proc-macro2","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"quote","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"syn","req":"^2","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"8d4d74756cb205305b5970923411842dece4f2c7e35a23f0cdc2bb16b5a7df86","features":{},"yanked":false,"rust_version":"1.75"}
+{
+    "name": "boluo-macros",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "proc-macro2",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "quote",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "syn",
+            "req": "^2",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "8d4d74756cb205305b5970923411842dece4f2c7e35a23f0cdc2bb16b5a7df86",
+    "features": {},
+    "yanked": false,
+    "rust_version": "1.75"
+}

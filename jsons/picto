@@ -1,1 +1,63 @@
-{"name":"picto","vers":"0.1.0","deps":[{"name":"approx","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"jpeg-decoder","req":"^0.1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"num","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"palette","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"png","req":"^0.5","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"45c6da80d8c5858bbc5cb803516b2eeb2d0e20e14902eec42509668793828ea1","features":{"default":["png","jpeg"],"jpeg":["jpeg-decoder"],"nightly":[]},"yanked":false}
+{
+    "name": "picto",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "approx",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "jpeg-decoder",
+            "req": "^0.1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "num",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "palette",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "png",
+            "req": "^0.5",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "45c6da80d8c5858bbc5cb803516b2eeb2d0e20e14902eec42509668793828ea1",
+    "features": {
+        "default": [
+            "png",
+            "jpeg"
+        ],
+        "jpeg": [
+            "jpeg-decoder"
+        ],
+        "nightly": []
+    },
+    "yanked": false
+}

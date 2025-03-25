@@ -1,1 +1,33 @@
-{"name":"bevy_tailwind","vers":"0.1.0","deps":[{"name":"bevy","req":"^0.15.1","features":["bevy_ui","bevy_window","bevy_winit","bevy_text","default_font"],"optional":false,"default_features":false,"target":null,"kind":"dev"},{"name":"bevy_tailwind_macro","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"4182908676c86fbaa243d37816c6ccdb510cf1a863ae8215633dacb290633690","features":{},"yanked":false}
+{
+    "name": "bevy_tailwind",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "bevy",
+            "req": "^0.15.1",
+            "features": [
+                "bevy_ui",
+                "bevy_window",
+                "bevy_winit",
+                "bevy_text",
+                "default_font"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "bevy_tailwind_macro",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "4182908676c86fbaa243d37816c6ccdb510cf1a863ae8215633dacb290633690",
+    "features": {},
+    "yanked": false
+}

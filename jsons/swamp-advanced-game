@@ -1,1 +1,198 @@
-{"name":"swamp-advanced-game","vers":"0.0.12","deps":[{"name":"fixed32","req":"^0.0.17","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"int_math","req":"^0.0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"limnus-app","req":"^0.0.11","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"limnus-assets","req":"^0.0.11","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"limnus-audio-mixer","req":"^0.0.11","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"limnus-basic-input","req":"^0.0.11","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"limnus-gamepad","req":"^0.0.11","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"limnus-local-resource","req":"^0.0.11","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"limnus-message","req":"^0.0.11","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"limnus-resource","req":"^0.0.11","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"limnus-screen","req":"^0.0.11","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"limnus-system-params","req":"^0.0.11","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"limnus-system-runner","req":"^0.0.11","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"limnus-wgpu-window","req":"^0.0.11","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"monotonic-time-rs","req":"^0.0.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"swamp-font","req":"^0.0.12","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"swamp-game-assets","req":"^0.0.12","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"swamp-game-audio","req":"^0.0.12","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"swamp-render","req":"^0.0.12","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"swamp-render-wgpu","req":"^0.0.12","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing","req":"^0.1.40","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"b24a212269d9bcb5f1e54d96645e0f9317c3189f72d286be545769f10f3fec29","features":{},"yanked":false}
+{
+    "name": "swamp-advanced-game",
+    "vers": "0.0.12",
+    "deps": [
+        {
+            "name": "fixed32",
+            "req": "^0.0.17",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "int_math",
+            "req": "^0.0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "limnus-app",
+            "req": "^0.0.11",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "limnus-assets",
+            "req": "^0.0.11",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "limnus-audio-mixer",
+            "req": "^0.0.11",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "limnus-basic-input",
+            "req": "^0.0.11",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "limnus-gamepad",
+            "req": "^0.0.11",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "limnus-local-resource",
+            "req": "^0.0.11",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "limnus-message",
+            "req": "^0.0.11",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "limnus-resource",
+            "req": "^0.0.11",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "limnus-screen",
+            "req": "^0.0.11",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "limnus-system-params",
+            "req": "^0.0.11",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "limnus-system-runner",
+            "req": "^0.0.11",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "limnus-wgpu-window",
+            "req": "^0.0.11",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "monotonic-time-rs",
+            "req": "^0.0.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "swamp-font",
+            "req": "^0.0.12",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "swamp-game-assets",
+            "req": "^0.0.12",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "swamp-game-audio",
+            "req": "^0.0.12",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "swamp-render",
+            "req": "^0.0.12",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "swamp-render-wgpu",
+            "req": "^0.0.12",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1.40",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "b24a212269d9bcb5f1e54d96645e0f9317c3189f72d286be545769f10f3fec29",
+    "features": {},
+    "yanked": false
+}

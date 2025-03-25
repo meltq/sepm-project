@@ -1,1 +1,117 @@
-{"name":"dms-cdc-operator-client","vers":"0.1.0","deps":[{"name":"anyhow","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"aws-config","req":"^1.1.7","features":["behavior-version-latest"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"aws-sdk-s3","req":"^1.21.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"clap","req":"^4.5.4","features":["derive"],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"colored","req":"^2.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"dms-cdc-operator","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"inquire","req":"^0.7.4","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing","req":"^0.1.40","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing-subscriber","req":"^0.3.18","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"5e1d0e99e67f2443bdf068e70efef5f17f179120bbbd1a2e415a433ef4823389","features":{},"features2":{"default":["with-inquire"],"with-clap":["dep:clap"],"with-inquire":["dep:inquire"]},"yanked":true,"v":2}
+{
+    "name": "dms-cdc-operator-client",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "anyhow",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "aws-config",
+            "req": "^1.1.7",
+            "features": [
+                "behavior-version-latest"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "aws-sdk-s3",
+            "req": "^1.21.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "clap",
+            "req": "^4.5.4",
+            "features": [
+                "derive"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "colored",
+            "req": "^2.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "dms-cdc-operator",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "inquire",
+            "req": "^0.7.4",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1.40",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing-subscriber",
+            "req": "^0.3.18",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "5e1d0e99e67f2443bdf068e70efef5f17f179120bbbd1a2e415a433ef4823389",
+    "features": {},
+    "features2": {
+        "default": [
+            "with-inquire"
+        ],
+        "with-clap": [
+            "dep:clap"
+        ],
+        "with-inquire": [
+            "dep:inquire"
+        ]
+    },
+    "yanked": true,
+    "v": 2
+}

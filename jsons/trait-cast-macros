@@ -1,1 +1,43 @@
-{"name":"trait-cast-macros","vers":"0.3.1","deps":[{"name":"proc-macro2","req":"^1.0","features":["nightly"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"quote","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"syn","req":"^2.0","features":["full","parsing","printing","proc-macro"],"optional":false,"default_features":false,"target":null,"kind":"normal"}],"cksum":"855c62462685b97ddead0563645e02d144e5be0452350fbbcb01da224f31dfef","features":{},"yanked":false}
+{
+    "name": "trait-cast-macros",
+    "vers": "0.3.1",
+    "deps": [
+        {
+            "name": "proc-macro2",
+            "req": "^1.0",
+            "features": [
+                "nightly"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "quote",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "syn",
+            "req": "^2.0",
+            "features": [
+                "full",
+                "parsing",
+                "printing",
+                "proc-macro"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "855c62462685b97ddead0563645e02d144e5be0452350fbbcb01da224f31dfef",
+    "features": {},
+    "yanked": false
+}

@@ -1,1 +1,109 @@
-{"name":"sqltk","vers":"0.1.0","deps":[{"name":"Inflector","req":"^0.11","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"bigdecimal","req":"^0.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"bigdecimal","req":"^0.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"cargo_metadata","req":"^0.19","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"prettyplease","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"proc-macro2","req":"^1.0","features":["span-locations"],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"quote","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"sqlparser","req":"^0.52","features":["bigdecimal"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"sqlparser","req":"^0.52","features":["bigdecimal"],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"syn","req":"^2.0","features":["full","extra-traits","printing"],"optional":false,"default_features":true,"target":null,"kind":"build"}],"cksum":"a73dbe6db8f2a2a488b63104f52b993a9b629b6f758e0fb9b2d3bb85f35727a2","features":{},"yanked":false}
+{
+    "name": "sqltk",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "Inflector",
+            "req": "^0.11",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "bigdecimal",
+            "req": "^0.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "bigdecimal",
+            "req": "^0.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "cargo_metadata",
+            "req": "^0.19",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "prettyplease",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "proc-macro2",
+            "req": "^1.0",
+            "features": [
+                "span-locations"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "quote",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "sqlparser",
+            "req": "^0.52",
+            "features": [
+                "bigdecimal"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "sqlparser",
+            "req": "^0.52",
+            "features": [
+                "bigdecimal"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "syn",
+            "req": "^2.0",
+            "features": [
+                "full",
+                "extra-traits",
+                "printing"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        }
+    ],
+    "cksum": "a73dbe6db8f2a2a488b63104f52b993a9b629b6f758e0fb9b2d3bb85f35727a2",
+    "features": {},
+    "yanked": false
+}

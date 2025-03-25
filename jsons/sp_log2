@@ -1,1 +1,67 @@
-{"name":"sp_log2","vers":"0.0.1","deps":[{"name":"ansi_term","req":"^0.12","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"log","req":"0.4.*","features":["std"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"paris","req":"~1.5.12","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"termcolor","req":"^1.1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"time","req":"^0.3.37","features":["formatting","macros"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"429a8b68e8a71185b329c5d4864012393929566991081e2051458b3e05e3cf26","features":{"default":["termcolor","local-offset"],"local-offset":["time/local-offset"]},"yanked":false}
+{
+    "name": "sp_log2",
+    "vers": "0.0.1",
+    "deps": [
+        {
+            "name": "ansi_term",
+            "req": "^0.12",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "log",
+            "req": "0.4.*",
+            "features": [
+                "std"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "paris",
+            "req": "~1.5.12",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "termcolor",
+            "req": "^1.1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "time",
+            "req": "^0.3.37",
+            "features": [
+                "formatting",
+                "macros"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "429a8b68e8a71185b329c5d4864012393929566991081e2051458b3e05e3cf26",
+    "features": {
+        "default": [
+            "termcolor",
+            "local-offset"
+        ],
+        "local-offset": [
+            "time/local-offset"
+        ]
+    },
+    "yanked": false
+}

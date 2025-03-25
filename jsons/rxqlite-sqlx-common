@@ -1,1 +1,73 @@
-{"name":"rxqlite-sqlx-common","vers":"0.1.0","deps":[{"name":"maplit","req":"^1.0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"rxqlite-common","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"sqlparser","req":"^0.44","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"sqlx","req":"^0.7","features":["runtime-tokio-rustls","chrono"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"sqlx-core","req":"^0.7","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tempfile","req":"^3.4.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"89b0c99e87b80c4a2717d05af81bee8dbc62cb1c1b3e3bb0fa0d6a402cea8fd2","features":{"default":["sqlite"],"sqlite":["sqlx/sqlite"]},"yanked":true}
+{
+    "name": "rxqlite-sqlx-common",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "maplit",
+            "req": "^1.0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "rxqlite-common",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "sqlparser",
+            "req": "^0.44",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "sqlx",
+            "req": "^0.7",
+            "features": [
+                "runtime-tokio-rustls",
+                "chrono"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "sqlx-core",
+            "req": "^0.7",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tempfile",
+            "req": "^3.4.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "89b0c99e87b80c4a2717d05af81bee8dbc62cb1c1b3e3bb0fa0d6a402cea8fd2",
+    "features": {
+        "default": [
+            "sqlite"
+        ],
+        "sqlite": [
+            "sqlx/sqlite"
+        ]
+    },
+    "yanked": true
+}

@@ -1,1 +1,168 @@
-{"name":"boomnet","vers":"0.0.1","deps":[{"name":"ansi_term","req":"^0.12.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"anyhow","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"base64","req":"^0.21.5","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"env_logger","req":"^0.10.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"http","req":"^1.0.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"httparse","req":"^1.8.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"log","req":"^0.4.20","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"mio","req":"^0.8.10","features":["net","os-poll"],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"pnet","req":"^0.34.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rand","req":"^0.8.5","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"rustls","req":"^0.22.1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"socket2","req":"^0.5.5","features":["all"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^1.0.50","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"url","req":"^2.5.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"webpki-roots","req":"^0.26.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"47e52bd2f77f99d8e6792c5199e22275f8d5318fcdbe1f3f29a22d9fcd18c8fc","features":{"default":[],"disable-checks":[],"tls":["rustls","webpki-roots"],"ws":["rand","base64","http","httparse"]},"features2":{"mio":["dep:mio"]},"yanked":false,"v":2}
+{
+    "name": "boomnet",
+    "vers": "0.0.1",
+    "deps": [
+        {
+            "name": "ansi_term",
+            "req": "^0.12.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "anyhow",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "base64",
+            "req": "^0.21.5",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "env_logger",
+            "req": "^0.10.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "http",
+            "req": "^1.0.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "httparse",
+            "req": "^1.8.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "log",
+            "req": "^0.4.20",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "mio",
+            "req": "^0.8.10",
+            "features": [
+                "net",
+                "os-poll"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "pnet",
+            "req": "^0.34.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rand",
+            "req": "^0.8.5",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rustls",
+            "req": "^0.22.1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "socket2",
+            "req": "^0.5.5",
+            "features": [
+                "all"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^1.0.50",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "url",
+            "req": "^2.5.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "webpki-roots",
+            "req": "^0.26.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "47e52bd2f77f99d8e6792c5199e22275f8d5318fcdbe1f3f29a22d9fcd18c8fc",
+    "features": {
+        "default": [],
+        "disable-checks": [],
+        "tls": [
+            "rustls",
+            "webpki-roots"
+        ],
+        "ws": [
+            "rand",
+            "base64",
+            "http",
+            "httparse"
+        ]
+    },
+    "features2": {
+        "mio": [
+            "dep:mio"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

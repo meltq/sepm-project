@@ -1,1 +1,52 @@
-{"name":"eng-pwasm-abi","vers":"0.2.1","deps":[{"name":"byteorder","req":"^1.2","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"hex-literal","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"parity-hash","req":"^1.2","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"uint","req":"^0.3","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"}],"cksum":"f6a52487d7c5f251902b51b049511340759df714297e6e077840fb4ad40d80c3","features":{"default":[],"std":["uint/std","byteorder/std"],"strict":[]},"yanked":false}
+{
+    "name": "eng-pwasm-abi",
+    "vers": "0.2.1",
+    "deps": [
+        {
+            "name": "byteorder",
+            "req": "^1.2",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "hex-literal",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "parity-hash",
+            "req": "^1.2",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "uint",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "f6a52487d7c5f251902b51b049511340759df714297e6e077840fb4ad40d80c3",
+    "features": {
+        "default": [],
+        "std": [
+            "uint/std",
+            "byteorder/std"
+        ],
+        "strict": []
+    },
+    "yanked": false
+}

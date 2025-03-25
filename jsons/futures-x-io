@@ -1,1 +1,88 @@
-{"name":"futures-x-io","vers":"0.1.0","deps":[{"name":"cfg-if","req":"^0.1","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"futures-executor","req":"^0.3","features":["default"],"optional":false,"default_features":false,"target":null,"kind":"dev"},{"name":"futures-io","req":"^0.3","features":["std"],"optional":true,"default_features":false,"target":null,"kind":"normal"},{"name":"futures-lite","req":"^0.1","features":[],"optional":true,"default_features":false,"target":null,"kind":"normal"},{"name":"futures-util","req":"^0.3","features":["io"],"optional":true,"default_features":false,"target":null,"kind":"normal"},{"name":"tokio","req":"^0.2","features":[],"optional":true,"default_features":false,"target":null,"kind":"normal"}],"cksum":"5246a36ac015bd51da3b13bba895e26b8e984ece42f915c7fba63c59a1209b20","features":{"futures_io":["futures-io"],"futures_lite_io":["futures_io","futures-lite"],"futures_util_io":["futures_io","futures-util"],"tokio_io":["tokio"],"tokio_io_util":["tokio_io","tokio/io-util"]},"yanked":false}
+{
+    "name": "futures-x-io",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "cfg-if",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "futures-executor",
+            "req": "^0.3",
+            "features": [
+                "default"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "futures-io",
+            "req": "^0.3",
+            "features": [
+                "std"
+            ],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "futures-lite",
+            "req": "^0.1",
+            "features": [],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "futures-util",
+            "req": "^0.3",
+            "features": [
+                "io"
+            ],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^0.2",
+            "features": [],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "5246a36ac015bd51da3b13bba895e26b8e984ece42f915c7fba63c59a1209b20",
+    "features": {
+        "futures_io": [
+            "futures-io"
+        ],
+        "futures_lite_io": [
+            "futures_io",
+            "futures-lite"
+        ],
+        "futures_util_io": [
+            "futures_io",
+            "futures-util"
+        ],
+        "tokio_io": [
+            "tokio"
+        ],
+        "tokio_io_util": [
+            "tokio_io",
+            "tokio/io-util"
+        ]
+    },
+    "yanked": false
+}

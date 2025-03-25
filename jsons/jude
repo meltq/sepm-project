@@ -1,1 +1,18 @@
-{"name":"jude","vers":"0.1.0","deps":[{"name":"libloading","req":"^0.8.3","features":[],"optional":false,"default_features":true,"target":"cfg(not(target_arch = \"wasm32\"))","kind":"normal"}],"cksum":"b65b59f1027ede5a9f233eebcd2e399e3a0dae223d672af2b89be9f85766eaf1","features":{},"yanked":false}
+{
+    "name": "jude",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "libloading",
+            "req": "^0.8.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": "cfg(not(target_arch = \"wasm32\"))",
+            "kind": "normal"
+        }
+    ],
+    "cksum": "b65b59f1027ede5a9f233eebcd2e399e3a0dae223d672af2b89be9f85766eaf1",
+    "features": {},
+    "yanked": false
+}

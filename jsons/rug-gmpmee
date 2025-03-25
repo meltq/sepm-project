@@ -1,1 +1,57 @@
-{"name":"rug-gmpmee","vers":"0.1.1","deps":[{"name":"gmpmee-sys","req":"^0.1.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rayon","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"rug","req":"^1.6.4","features":["rand"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rug-miller-rabin","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"thiserror","req":"^2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"8626e732c4a188d6e350f172f47ff9fdef8fe8da03ace18bef3b3d3b1e9a639a","features":{},"yanked":false,"rust_version":"1.83"}
+{
+    "name": "rug-gmpmee",
+    "vers": "0.1.1",
+    "deps": [
+        {
+            "name": "gmpmee-sys",
+            "req": "^0.1.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rayon",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "rug",
+            "req": "^1.6.4",
+            "features": [
+                "rand"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rug-miller-rabin",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "thiserror",
+            "req": "^2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "8626e732c4a188d6e350f172f47ff9fdef8fe8da03ace18bef3b3d3b1e9a639a",
+    "features": {},
+    "yanked": false,
+    "rust_version": "1.83"
+}

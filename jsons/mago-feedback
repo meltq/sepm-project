@@ -1,1 +1,40 @@
-{"name":"mago-feedback","vers":"0.0.0","deps":[{"name":"indicatif","req":"^0.17.8","features":["tokio"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing","req":"^0.1.40","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing-subscriber","req":"^0.3.18","features":["env-filter"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"46765ca8c2fbec230bf199c6c33ae56a8eeca470d57dd235a145d42fd35a71e3","features":{},"yanked":false}
+{
+    "name": "mago-feedback",
+    "vers": "0.0.0",
+    "deps": [
+        {
+            "name": "indicatif",
+            "req": "^0.17.8",
+            "features": [
+                "tokio"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1.40",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing-subscriber",
+            "req": "^0.3.18",
+            "features": [
+                "env-filter"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "46765ca8c2fbec230bf199c6c33ae56a8eeca470d57dd235a145d42fd35a71e3",
+    "features": {},
+    "yanked": false
+}

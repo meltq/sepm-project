@@ -1,1 +1,38 @@
-{"name":"parallel-future","vers":"6.0.0","deps":[{"name":"async-std","req":"^1.10.0","features":["unstable"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"futures-concurrency","req":"^7.5.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"pin-project","req":"^1.0.10","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"27ba55bacff57cb0b2d16e3d59688b5aef309fd043bab5b0f3c85934aa594a7a","features":{},"yanked":false}
+{
+    "name": "parallel-future",
+    "vers": "6.0.0",
+    "deps": [
+        {
+            "name": "async-std",
+            "req": "^1.10.0",
+            "features": [
+                "unstable"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "futures-concurrency",
+            "req": "^7.5.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "pin-project",
+            "req": "^1.0.10",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "27ba55bacff57cb0b2d16e3d59688b5aef309fd043bab5b0f3c85934aa594a7a",
+    "features": {},
+    "yanked": false
+}

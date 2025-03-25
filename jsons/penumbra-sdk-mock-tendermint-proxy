@@ -1,1 +1,93 @@
-{"name":"penumbra-sdk-mock-tendermint-proxy","vers":"0.82.0-alpha.0","deps":[{"name":"hex","req":"^0.4.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"pbjson-types","req":"^0.7.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"penumbra-sdk-mock-consensus","req":"^0.82.0-alpha.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"penumbra-sdk-proto","req":"^0.82.0-alpha.0","features":["rpc","tendermint"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"tap","req":"^1.0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tendermint","req":"^0.40.1","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"tendermint-proto","req":"^0.40.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tonic","req":"^0.12.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"1fd9a09ff33c2f4d33a3c40f6f8588cf6e357dd0433082f3dff9a18f56d82bc0","features":{},"yanked":false}
+{
+    "name": "penumbra-sdk-mock-tendermint-proxy",
+    "vers": "0.82.0-alpha.0",
+    "deps": [
+        {
+            "name": "hex",
+            "req": "^0.4.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "pbjson-types",
+            "req": "^0.7.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "penumbra-sdk-mock-consensus",
+            "req": "^0.82.0-alpha.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "penumbra-sdk-proto",
+            "req": "^0.82.0-alpha.0",
+            "features": [
+                "rpc",
+                "tendermint"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tap",
+            "req": "^1.0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tendermint",
+            "req": "^0.40.1",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tendermint-proto",
+            "req": "^0.40.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tonic",
+            "req": "^0.12.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "1fd9a09ff33c2f4d33a3c40f6f8588cf6e357dd0433082f3dff9a18f56d82bc0",
+    "features": {},
+    "yanked": false
+}

@@ -1,1 +1,45 @@
-{"name":"vexide-panic","vers":"0.1.0","deps":[{"name":"vex-sdk","req":"^0.12.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"vexide-core","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"vexide-devices","req":"^0.1.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"8897751b47c4599e9556b10a4bf8381a485c91377c4ca63d2a2122cb285b8d77","features":{},"features2":{"default":["display_panics"],"display_panics":["dep:vexide-devices"]},"yanked":false,"v":2}
+{
+    "name": "vexide-panic",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "vex-sdk",
+            "req": "^0.12.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "vexide-core",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "vexide-devices",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "8897751b47c4599e9556b10a4bf8381a485c91377c4ca63d2a2122cb285b8d77",
+    "features": {},
+    "features2": {
+        "default": [
+            "display_panics"
+        ],
+        "display_panics": [
+            "dep:vexide-devices"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

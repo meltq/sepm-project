@@ -1,1 +1,40 @@
-{"name":"tuple-hash","vers":"0.1.0","deps":[{"name":"generic-array","req":"^1","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"sha3","req":"^0.10","features":[],"optional":true,"default_features":false,"target":null,"kind":"normal"}],"cksum":"f4c48c6bdaf04d9a305b50285d4986e1092969dcd5f051b0f078602b4f0b7167","features":{"default":["rust-crypto"],"rust-crypto":["sha3"]},"features2":{"std":["sha3?/std"]},"yanked":false,"v":2}
+{
+    "name": "tuple-hash",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "generic-array",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "sha3",
+            "req": "^0.10",
+            "features": [],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "f4c48c6bdaf04d9a305b50285d4986e1092969dcd5f051b0f078602b4f0b7167",
+    "features": {
+        "default": [
+            "rust-crypto"
+        ],
+        "rust-crypto": [
+            "sha3"
+        ]
+    },
+    "features2": {
+        "std": [
+            "sha3?/std"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

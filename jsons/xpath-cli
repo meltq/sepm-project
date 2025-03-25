@@ -1,1 +1,30 @@
-{"name":"xpath-cli","vers":"1.1.0","deps":[{"name":"clap","req":"^4.5.28","features":["derive","cargo"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"libxml","req":"^0.3.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"f2c6eb1d128a7f2448579855555712bc5b0c43ccbdf622bee1d71cfe67d21cca","features":{},"yanked":false}
+{
+    "name": "xpath-cli",
+    "vers": "1.1.0",
+    "deps": [
+        {
+            "name": "clap",
+            "req": "^4.5.28",
+            "features": [
+                "derive",
+                "cargo"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "libxml",
+            "req": "^0.3.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "f2c6eb1d128a7f2448579855555712bc5b0c43ccbdf622bee1d71cfe67d21cca",
+    "features": {},
+    "yanked": false
+}

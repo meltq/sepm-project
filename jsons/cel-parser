@@ -1,1 +1,38 @@
-{"name":"cel-parser","vers":"0.1.1","deps":[{"name":"lalrpop","req":"^0.19.1","features":["lexer"],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"lalrpop-util","req":"^0.19.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"regex","req":"^1.4.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"f66e29167d9b539e2f7dfeac27eeae5bb0e30039a53fe0ce4d45998d61543a20","features":{},"yanked":false}
+{
+    "name": "cel-parser",
+    "vers": "0.1.1",
+    "deps": [
+        {
+            "name": "lalrpop",
+            "req": "^0.19.1",
+            "features": [
+                "lexer"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "lalrpop-util",
+            "req": "^0.19.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "regex",
+            "req": "^1.4.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "f66e29167d9b539e2f7dfeac27eeae5bb0e30039a53fe0ce4d45998d61543a20",
+    "features": {},
+    "yanked": false
+}

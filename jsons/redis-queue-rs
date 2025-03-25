@@ -1,1 +1,72 @@
-{"name":"redis-queue-rs","vers":"0.1.1","deps":[{"name":"async-std","req":"^1.12.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"redis","req":"^0.25.2","features":["aio","async-std-comp"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.197","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.115","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.36.0","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"uuid","req":"^1.8.0","features":["v4"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"c8f508df7e1ce73ca447d551be609ffe2567fdb25c5b627936543eb3819ca058","features":{},"yanked":true}
+{
+    "name": "redis-queue-rs",
+    "vers": "0.1.1",
+    "deps": [
+        {
+            "name": "async-std",
+            "req": "^1.12.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "redis",
+            "req": "^0.25.2",
+            "features": [
+                "aio",
+                "async-std-comp"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.197",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.115",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.36.0",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "uuid",
+            "req": "^1.8.0",
+            "features": [
+                "v4"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "c8f508df7e1ce73ca447d551be609ffe2567fdb25c5b627936543eb3819ca058",
+    "features": {},
+    "yanked": true
+}

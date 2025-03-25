@@ -1,1 +1,41 @@
-{"name":"neotest-docker-phpunit","vers":"0.1.0","deps":[{"name":"clap","req":"^4.5.2","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"quick-xml","req":"^0.31.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"uuid","req":"^1.7.0","features":["serde","v4"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"2eb7ca42aa44bce830b8ae762dcf1ee17b50df50441f6c92fdfab2ff042f9713","features":{},"yanked":false}
+{
+    "name": "neotest-docker-phpunit",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "clap",
+            "req": "^4.5.2",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "quick-xml",
+            "req": "^0.31.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "uuid",
+            "req": "^1.7.0",
+            "features": [
+                "serde",
+                "v4"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "2eb7ca42aa44bce830b8ae762dcf1ee17b50df50441f6c92fdfab2ff042f9713",
+    "features": {},
+    "yanked": false
+}

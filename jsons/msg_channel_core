@@ -1,1 +1,66 @@
-{"name":"msg_channel_core","vers":"0.1.0-beat.1","deps":[{"name":"force-send-sync","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"futures-util","req":"^0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"msg_channel_macro","req":"^0.1.0-beat.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"smallvec","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1","features":["sync","rt"],"optional":false,"default_features":false,"target":null,"kind":"normal"}],"cksum":"d01f1e0db719f0d88335a1a09edc2d8515c0691d111fd3aa6da4bb7b41948f0f","features":{},"yanked":true}
+{
+    "name": "msg_channel_core",
+    "vers": "0.1.0-beat.1",
+    "deps": [
+        {
+            "name": "force-send-sync",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "futures-util",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "msg_channel_macro",
+            "req": "^0.1.0-beat.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "smallvec",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1",
+            "features": [
+                "sync",
+                "rt"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "d01f1e0db719f0d88335a1a09edc2d8515c0691d111fd3aa6da4bb7b41948f0f",
+    "features": {},
+    "yanked": true
+}

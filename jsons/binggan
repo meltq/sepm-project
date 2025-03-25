@@ -1,1 +1,84 @@
-{"name":"binggan","vers":"0.2.0","deps":[{"name":"alloca","req":"^0.4.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"miniserde","req":"^0.1.38","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"peakmem-alloc","req":"^0.3.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"perf-event","req":"^0.4.8","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"prettytable-rs","req":"^0.10.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rustop","req":"=1.1.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"unicode-width","req":"^0.1.11","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"yansi","req":"^1.0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"df8abc0c09c4d10966f79d9ff4c78e7ff6f94eeccf92b3810f3bfea4426791a7","features":{"default":[],"real_blackbox":[]},"yanked":false}
+{
+    "name": "binggan",
+    "vers": "0.2.0",
+    "deps": [
+        {
+            "name": "alloca",
+            "req": "^0.4.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "miniserde",
+            "req": "^0.1.38",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "peakmem-alloc",
+            "req": "^0.3.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "perf-event",
+            "req": "^0.4.8",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "prettytable-rs",
+            "req": "^0.10.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rustop",
+            "req": "=1.1.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "unicode-width",
+            "req": "^0.1.11",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "yansi",
+            "req": "^1.0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "df8abc0c09c4d10966f79d9ff4c78e7ff6f94eeccf92b3810f3bfea4426791a7",
+    "features": {
+        "default": [],
+        "real_blackbox": []
+    },
+    "yanked": false
+}

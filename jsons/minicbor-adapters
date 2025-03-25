@@ -1,1 +1,56 @@
-{"name":"minicbor-adapters","vers":"0.0.1","deps":[{"name":"cbor-macro","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"cboritem","req":"^0.1.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"heapless","req":"^0.8.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"minicbor","req":"^0.25.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"minicbor","req":"^0.25.1","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"5c40bdee1568d1b9eaa6116cd94e3325323cea6ef916013dd7b48568f25ea122","features":{},"yanked":false}
+{
+    "name": "minicbor-adapters",
+    "vers": "0.0.1",
+    "deps": [
+        {
+            "name": "cbor-macro",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "cboritem",
+            "req": "^0.1.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "heapless",
+            "req": "^0.8.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "minicbor",
+            "req": "^0.25.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "minicbor",
+            "req": "^0.25.1",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "5c40bdee1568d1b9eaa6116cd94e3325323cea6ef916013dd7b48568f25ea122",
+    "features": {},
+    "yanked": false
+}

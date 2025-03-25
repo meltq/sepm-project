@@ -1,1 +1,137 @@
-{"name":"taitan-orm","vers":"0.1.0","deps":[{"name":"path-absolutize","req":"^3.1.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rinja","req":"^0.3.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"sqlx","req":"^0.8.2","features":["runtime-tokio","mysql","sqlite","postgres","bigdecimal","time","uuid"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"taitan-orm-macro","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"taitan-orm-trait","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^2.0.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"time","req":"^0.3.37","features":["macros","serde"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing","req":"^0.1","features":["max_level_trace","release_max_level_info"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing-subscriber","req":"^0.3.18","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"tracing-test","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"uuid","req":"^1.11.0","features":["v4","serde"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"07e15b326ec65953909e101d99bc5ed732c5212f5e86ced205de191385aa2f1b","features":{},"yanked":false,"rust_version":"1.83"}
+{
+    "name": "taitan-orm",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "path-absolutize",
+            "req": "^3.1.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rinja",
+            "req": "^0.3.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "sqlx",
+            "req": "^0.8.2",
+            "features": [
+                "runtime-tokio",
+                "mysql",
+                "sqlite",
+                "postgres",
+                "bigdecimal",
+                "time",
+                "uuid"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "taitan-orm-macro",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "taitan-orm-trait",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^2.0.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "time",
+            "req": "^0.3.37",
+            "features": [
+                "macros",
+                "serde"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1",
+            "features": [
+                "max_level_trace",
+                "release_max_level_info"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing-subscriber",
+            "req": "^0.3.18",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "tracing-test",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "uuid",
+            "req": "^1.11.0",
+            "features": [
+                "v4",
+                "serde"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "07e15b326ec65953909e101d99bc5ed732c5212f5e86ced205de191385aa2f1b",
+    "features": {},
+    "yanked": false,
+    "rust_version": "1.83"
+}

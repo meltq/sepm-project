@@ -1,1 +1,78 @@
-{"name":"exprtk_rs","vers":"0.0.1","deps":[{"name":"enum_primitive","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"exprtk_sys","req":"^0.0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"libc","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"3c77b5de350062d36513c6bafbc33c775cafbc32d856ddbe863aabc9348b0639","features":{"break_continue":["exprtk_sys/break_continue"],"caseinsensitivity":["exprtk_sys/caseinsensitivity"],"comments":["exprtk_sys/comments"],"debug":["exprtk_sys/debug"],"default":["comments","break_continue","sc_andor","return_statement","rtl_io_file","rtl_vecops","enhanced_features","superscalar_unroll","caseinsensitivity"],"enhanced_features":["exprtk_sys/enhanced_features"],"return_statement":["exprtk_sys/return_statement"],"rtl_io_file":["exprtk_sys/rtl_io_file"],"rtl_vecops":["exprtk_sys/rtl_vecops"],"sc_andor":["exprtk_sys/sc_andor"],"superscalar_unroll":["exprtk_sys/superscalar_unroll"]},"yanked":false}
+{
+    "name": "exprtk_rs",
+    "vers": "0.0.1",
+    "deps": [
+        {
+            "name": "enum_primitive",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "exprtk_sys",
+            "req": "^0.0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "libc",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "3c77b5de350062d36513c6bafbc33c775cafbc32d856ddbe863aabc9348b0639",
+    "features": {
+        "break_continue": [
+            "exprtk_sys/break_continue"
+        ],
+        "caseinsensitivity": [
+            "exprtk_sys/caseinsensitivity"
+        ],
+        "comments": [
+            "exprtk_sys/comments"
+        ],
+        "debug": [
+            "exprtk_sys/debug"
+        ],
+        "default": [
+            "comments",
+            "break_continue",
+            "sc_andor",
+            "return_statement",
+            "rtl_io_file",
+            "rtl_vecops",
+            "enhanced_features",
+            "superscalar_unroll",
+            "caseinsensitivity"
+        ],
+        "enhanced_features": [
+            "exprtk_sys/enhanced_features"
+        ],
+        "return_statement": [
+            "exprtk_sys/return_statement"
+        ],
+        "rtl_io_file": [
+            "exprtk_sys/rtl_io_file"
+        ],
+        "rtl_vecops": [
+            "exprtk_sys/rtl_vecops"
+        ],
+        "sc_andor": [
+            "exprtk_sys/sc_andor"
+        ],
+        "superscalar_unroll": [
+            "exprtk_sys/superscalar_unroll"
+        ]
+    },
+    "yanked": false
+}

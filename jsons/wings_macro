@@ -1,1 +1,41 @@
-{"name":"wings_macro","vers":"0.0.0","deps":[{"name":"proc-macro2","req":"^1.0.81","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"quote","req":"^1.0.36","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"syn","req":"^2.0.60","features":["full","parsing","printing","proc-macro"],"optional":false,"default_features":false,"target":null,"kind":"normal"}],"cksum":"1de389262768aff3e1a1a0c085dcdd6d70ad74b6e52325db30510acbdfc23a7f","features":{},"yanked":false}
+{
+    "name": "wings_macro",
+    "vers": "0.0.0",
+    "deps": [
+        {
+            "name": "proc-macro2",
+            "req": "^1.0.81",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "quote",
+            "req": "^1.0.36",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "syn",
+            "req": "^2.0.60",
+            "features": [
+                "full",
+                "parsing",
+                "printing",
+                "proc-macro"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "1de389262768aff3e1a1a0c085dcdd6d70ad74b6e52325db30510acbdfc23a7f",
+    "features": {},
+    "yanked": false
+}

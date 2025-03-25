@@ -1,1 +1,41 @@
-{"name":"pytauri-core","vers":"0.1.0-beta.0","deps":[{"name":"pyo3","req":"^0.23","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"pyo3-utils","req":"^0.1.0-beta.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tauri","req":"^2","features":["wry"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"27d74ca5716d5cec04142af492c9ed7a2e035903b48d85975cbaa8ea586413ec","features":{"__private":[]},"yanked":false,"rust_version":"1.81"}
+{
+    "name": "pytauri-core",
+    "vers": "0.1.0-beta.0",
+    "deps": [
+        {
+            "name": "pyo3",
+            "req": "^0.23",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "pyo3-utils",
+            "req": "^0.1.0-beta.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tauri",
+            "req": "^2",
+            "features": [
+                "wry"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "27d74ca5716d5cec04142af492c9ed7a2e035903b48d85975cbaa8ea586413ec",
+    "features": {
+        "__private": []
+    },
+    "yanked": false,
+    "rust_version": "1.81"
+}

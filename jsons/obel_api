@@ -1,1 +1,54 @@
-{"name":"obel_api","vers":"0.0.1","deps":[{"name":"obel_diagnostic","req":"^0.0.1","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"obel_platform","req":"^0.0.1","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"obel_reflect","req":"^0.0.1","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"static_assertions","req":"^1.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"276528e03d5be965381a3c6d5d5868163786a0483a0846601f6acdac87f7f571","features":{"default":["portable-atomic"],"dynamic_linking":["obel_diagnostic/dynamic_linking"],"portable-atomic":[]},"yanked":false,"rust_version":"1.82.0"}
+{
+    "name": "obel_api",
+    "vers": "0.0.1",
+    "deps": [
+        {
+            "name": "obel_diagnostic",
+            "req": "^0.0.1",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "obel_platform",
+            "req": "^0.0.1",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "obel_reflect",
+            "req": "^0.0.1",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "static_assertions",
+            "req": "^1.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "276528e03d5be965381a3c6d5d5868163786a0483a0846601f6acdac87f7f571",
+    "features": {
+        "default": [
+            "portable-atomic"
+        ],
+        "dynamic_linking": [
+            "obel_diagnostic/dynamic_linking"
+        ],
+        "portable-atomic": []
+    },
+    "yanked": false,
+    "rust_version": "1.82.0"
+}

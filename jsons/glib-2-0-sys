@@ -1,1 +1,37 @@
-{"name":"glib-2-0-sys","vers":"0.46.0","deps":[{"name":"gtypes","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"libc","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"pkg-config","req":"^0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"}],"cksum":"51e310c54125fb355531b66a376f59375523a5ed6d627f44ec8722ab00bafd23","features":{},"yanked":false,"links":"glib-2.0"}
+{
+    "name": "glib-2-0-sys",
+    "vers": "0.46.0",
+    "deps": [
+        {
+            "name": "gtypes",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "libc",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "pkg-config",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        }
+    ],
+    "cksum": "51e310c54125fb355531b66a376f59375523a5ed6d627f44ec8722ab00bafd23",
+    "features": {},
+    "yanked": false,
+    "links": "glib-2.0"
+}

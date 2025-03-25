@@ -1,1 +1,58 @@
-{"name":"happylock","vers":"0.1.0","deps":[{"name":"lock_api","req":"^0.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"once_cell","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"parking_lot","req":"^0.12","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"spin","req":"^0.9","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"thread_local","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"88804de59006ea6a87687a7ab5c562ec7f871647803efe1d376fc9c93f59dc9f","features":{"default":["parking_lot"]},"yanked":true}
+{
+    "name": "happylock",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "lock_api",
+            "req": "^0.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "once_cell",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "parking_lot",
+            "req": "^0.12",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "spin",
+            "req": "^0.9",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thread_local",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "88804de59006ea6a87687a7ab5c562ec7f871647803efe1d376fc9c93f59dc9f",
+    "features": {
+        "default": [
+            "parking_lot"
+        ]
+    },
+    "yanked": true
+}

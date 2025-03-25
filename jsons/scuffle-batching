@@ -1,1 +1,31 @@
-{"name":"scuffle-batching","vers":"0.0.0","deps":[{"name":"tokio","req":"^1","features":["time","sync","rt"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"tokio-util","req":"^0.7","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"b4ab0a52df69541ed0f1ef1a6f273cf947ed320ea109c28b692f7153371e7b95","features":{},"yanked":false}
+{
+    "name": "scuffle-batching",
+    "vers": "0.0.0",
+    "deps": [
+        {
+            "name": "tokio",
+            "req": "^1",
+            "features": [
+                "time",
+                "sync",
+                "rt"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio-util",
+            "req": "^0.7",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "b4ab0a52df69541ed0f1ef1a6f273cf947ed320ea109c28b692f7153371e7b95",
+    "features": {},
+    "yanked": false
+}

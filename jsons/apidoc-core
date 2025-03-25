@@ -1,1 +1,51 @@
-{"name":"apidoc-core","vers":"0.1.1","deps":[{"name":"apidoc-attr","req":"^0.1.1","features":["core"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"roadblk-attr","req":"^0.1.1","features":["core"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"619182d0ba9cb12f0dbb04147cedd89cfa263edf0964a4798771b2a987c2ef5f","features":{},"yanked":false}
+{
+    "name": "apidoc-core",
+    "vers": "0.1.1",
+    "deps": [
+        {
+            "name": "apidoc-attr",
+            "req": "^0.1.1",
+            "features": [
+                "core"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "roadblk-attr",
+            "req": "^0.1.1",
+            "features": [
+                "core"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "619182d0ba9cb12f0dbb04147cedd89cfa263edf0964a4798771b2a987c2ef5f",
+    "features": {},
+    "yanked": false
+}

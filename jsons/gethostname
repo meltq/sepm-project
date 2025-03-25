@@ -1,1 +1,27 @@
-{"name":"gethostname","vers":"0.1.0","deps":[{"name":"libc","req":"^0.2","features":[],"optional":false,"default_features":true,"target":"cfg(not(windows))","kind":"normal"},{"name":"pretty_assertions","req":"^0.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"746fa5a97ce1f36e36ce53e122eb14485eef81a3fe9d253291e7d39217ceb15f","features":{},"yanked":false}
+{
+    "name": "gethostname",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "libc",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": "cfg(not(windows))",
+            "kind": "normal"
+        },
+        {
+            "name": "pretty_assertions",
+            "req": "^0.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "746fa5a97ce1f36e36ce53e122eb14485eef81a3fe9d253291e7d39217ceb15f",
+    "features": {},
+    "yanked": false
+}

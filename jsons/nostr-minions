@@ -1,1 +1,183 @@
-{"name":"nostr-minions","vers":"0.1.0","deps":[{"name":"gloo","req":"^0.11.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"gloo-timers","req":"^0.3.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"js-sys","req":"^0.3.70","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"nostro2","req":"^0.1.35","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.133","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde-wasm-bindgen","req":"^0.6.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.133","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.41.0","features":["macros","sync"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"wasm-bindgen","req":"^0.2.95","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"wasm-bindgen-futures","req":"^0.4.45","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"wasm-bindgen-test","req":"^0.3.42","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"web-sys","req":"^0.3.70","features":["HtmlInputElement","HtmlFormElement","SubtleCrypto","CryptoKey","Window","Crypto","AesKeyGenParams","AesGcmParams","IdbFactory","IdbOpenDbOptions","HtmlSelectElement","Clipboard","IdbOpenDbRequest","IdbTransaction","IdbRequest","IdbDatabase","IdbObjectStore","IdbRequestReadyState","Navigator","HtmlAudioElement","HtmlMediaElement","Geolocation","Response","ReadableStream","IdbTransactionMode","IdbObjectStoreParameters","Navigator","ServiceWorkerContainer","FetchEvent","CustomEvent","DomStringList"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"yew","req":"^0.21.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"yew","req":"^0.21.0","features":["csr"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"yew-router","req":"^0.18.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"579a97aa3951298e58bbf8d14971a408d5f7645031fe346b5b9a1862272e378c","features":{},"yanked":false}
+{
+    "name": "nostr-minions",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "gloo",
+            "req": "^0.11.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "gloo-timers",
+            "req": "^0.3.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "js-sys",
+            "req": "^0.3.70",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "nostro2",
+            "req": "^0.1.35",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.133",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde-wasm-bindgen",
+            "req": "^0.6.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.133",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.41.0",
+            "features": [
+                "macros",
+                "sync"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "wasm-bindgen",
+            "req": "^0.2.95",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "wasm-bindgen-futures",
+            "req": "^0.4.45",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "wasm-bindgen-test",
+            "req": "^0.3.42",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "web-sys",
+            "req": "^0.3.70",
+            "features": [
+                "HtmlInputElement",
+                "HtmlFormElement",
+                "SubtleCrypto",
+                "CryptoKey",
+                "Window",
+                "Crypto",
+                "AesKeyGenParams",
+                "AesGcmParams",
+                "IdbFactory",
+                "IdbOpenDbOptions",
+                "HtmlSelectElement",
+                "Clipboard",
+                "IdbOpenDbRequest",
+                "IdbTransaction",
+                "IdbRequest",
+                "IdbDatabase",
+                "IdbObjectStore",
+                "IdbRequestReadyState",
+                "Navigator",
+                "HtmlAudioElement",
+                "HtmlMediaElement",
+                "Geolocation",
+                "Response",
+                "ReadableStream",
+                "IdbTransactionMode",
+                "IdbObjectStoreParameters",
+                "Navigator",
+                "ServiceWorkerContainer",
+                "FetchEvent",
+                "CustomEvent",
+                "DomStringList"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "yew",
+            "req": "^0.21.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "yew",
+            "req": "^0.21.0",
+            "features": [
+                "csr"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "yew-router",
+            "req": "^0.18.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "579a97aa3951298e58bbf8d14971a408d5f7645031fe346b5b9a1862272e378c",
+    "features": {},
+    "yanked": false
+}

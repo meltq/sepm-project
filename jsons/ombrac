@@ -1,1 +1,65 @@
-{"name":"ombrac","vers":"0.2.0","deps":[{"name":"bytes","req":"^1","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"criterion","req":"^0.5","features":["html_reports"],"optional":false,"default_features":false,"target":null,"kind":"dev"},{"name":"futures","req":"^0.3","features":["alloc"],"optional":false,"default_features":false,"target":null,"kind":"dev"},{"name":"tokio","req":"^1","features":["io-util","macros"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"tokio","req":"^1","features":["full"],"optional":false,"default_features":false,"target":null,"kind":"dev"}],"cksum":"ac7b7d3cfe04677b0b5b8a68d68e9ca59f5e630efcc0d2301349b741031de9a7","features":{"default":[]},"yanked":false}
+{
+    "name": "ombrac",
+    "vers": "0.2.0",
+    "deps": [
+        {
+            "name": "bytes",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "criterion",
+            "req": "^0.5",
+            "features": [
+                "html_reports"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "futures",
+            "req": "^0.3",
+            "features": [
+                "alloc"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "tokio",
+            "req": "^1",
+            "features": [
+                "io-util",
+                "macros"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "ac7b7d3cfe04677b0b5b8a68d68e9ca59f5e630efcc0d2301349b741031de9a7",
+    "features": {
+        "default": []
+    },
+    "yanked": false
+}

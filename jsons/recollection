@@ -1,1 +1,27 @@
-{"name":"recollection","vers":"0.1.0","deps":[{"name":"serde","req":"^1.0.126","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"cd7c42c838c67fd8e9d2b7065c6f4b748b5e47fd1246df2b1900bf11c6005fa5","features":{"chain":[],"default":["graph","chain"],"graph":[]},"yanked":false}
+{
+    "name": "recollection",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "serde",
+            "req": "^1.0.126",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "cd7c42c838c67fd8e9d2b7065c6f4b748b5e47fd1246df2b1900bf11c6005fa5",
+    "features": {
+        "chain": [],
+        "default": [
+            "graph",
+            "chain"
+        ],
+        "graph": []
+    },
+    "yanked": false
+}

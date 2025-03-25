@@ -1,1 +1,40 @@
-{"name":"rspc-axum","vers":"0.0.1","deps":[{"name":"axum","req":"^0.7.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"httpz","req":"^0.0.6","features":["axum"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rspc","req":"^0.1.4","features":["internal_axum_07"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"d21b98da4662460df8cd9320fe2fecab7f4241e80bb25229568c20eee38378bf","features":{},"yanked":false}
+{
+    "name": "rspc-axum",
+    "vers": "0.0.1",
+    "deps": [
+        {
+            "name": "axum",
+            "req": "^0.7.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "httpz",
+            "req": "^0.0.6",
+            "features": [
+                "axum"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rspc",
+            "req": "^0.1.4",
+            "features": [
+                "internal_axum_07"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "d21b98da4662460df8cd9320fe2fecab7f4241e80bb25229568c20eee38378bf",
+    "features": {},
+    "yanked": false
+}

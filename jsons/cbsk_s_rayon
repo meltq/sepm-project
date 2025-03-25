@@ -1,1 +1,70 @@
-{"name":"cbsk_s_rayon","vers":"1.0.0","deps":[{"name":"cbsk_base","req":"^0.1.8","features":["log","macro","once_cell"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"cbsk_mut_data","req":"^1.0.0","features":["vec"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"cbsk_socket","req":"^1.0.0","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"fastdate","req":"^0.3.28","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rayon","req":"^1.10.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"2bfc4265d3a5a298d5bd42fabbd8c7b7bc41c339b186285c0a2e0417d4d5ba56","features":{"default":["tcp_client"],"tcp_client":["cbsk_socket/tcp_client"],"tcp_server":["cbsk_socket/tcp_server"]},"yanked":true}
+{
+    "name": "cbsk_s_rayon",
+    "vers": "1.0.0",
+    "deps": [
+        {
+            "name": "cbsk_base",
+            "req": "^0.1.8",
+            "features": [
+                "log",
+                "macro",
+                "once_cell"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "cbsk_mut_data",
+            "req": "^1.0.0",
+            "features": [
+                "vec"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "cbsk_socket",
+            "req": "^1.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "fastdate",
+            "req": "^0.3.28",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rayon",
+            "req": "^1.10.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "2bfc4265d3a5a298d5bd42fabbd8c7b7bc41c339b186285c0a2e0417d4d5ba56",
+    "features": {
+        "default": [
+            "tcp_client"
+        ],
+        "tcp_client": [
+            "cbsk_socket/tcp_client"
+        ],
+        "tcp_server": [
+            "cbsk_socket/tcp_server"
+        ]
+    },
+    "yanked": true
+}

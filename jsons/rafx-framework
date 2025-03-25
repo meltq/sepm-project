@@ -1,1 +1,135 @@
-{"name":"rafx-framework","vers":"0.0.3","deps":[{"name":"arrayvec","req":"^0.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"bitflags","req":"^1.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"crossbeam-channel","req":"^0.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"fnv","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"log","req":"^0.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"profiling","req":"^0.1.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rafx-api","req":"^0.0.3","features":["serde-support"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rafx-base","req":"^0.0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rafx-nodes","req":"^0.0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1","features":["serde_derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_bytes","req":"^0.11","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"e824c05ded81b817d806d255eba2a457206ebf3bed4b0a3ac8c853cd7a9ba5a4","features":{"default":[],"profile-with-optick":["profiling/profile-with-optick"],"profile-with-puffin":["profiling/profile-with-puffin"],"profile-with-superluminal":["profiling/profile-with-superluminal"],"profile-with-tracing":["profiling/profile-with-tracing"],"rafx-metal":["rafx-api/rafx-metal"],"rafx-vulkan":["rafx-api/rafx-vulkan"],"static-vulkan":["rafx-api/static-vulkan"]},"yanked":false}
+{
+    "name": "rafx-framework",
+    "vers": "0.0.3",
+    "deps": [
+        {
+            "name": "arrayvec",
+            "req": "^0.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "bitflags",
+            "req": "^1.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "crossbeam-channel",
+            "req": "^0.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "fnv",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "log",
+            "req": "^0.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "profiling",
+            "req": "^0.1.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rafx-api",
+            "req": "^0.0.3",
+            "features": [
+                "serde-support"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rafx-base",
+            "req": "^0.0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rafx-nodes",
+            "req": "^0.0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1",
+            "features": [
+                "serde_derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_bytes",
+            "req": "^0.11",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "e824c05ded81b817d806d255eba2a457206ebf3bed4b0a3ac8c853cd7a9ba5a4",
+    "features": {
+        "default": [],
+        "profile-with-optick": [
+            "profiling/profile-with-optick"
+        ],
+        "profile-with-puffin": [
+            "profiling/profile-with-puffin"
+        ],
+        "profile-with-superluminal": [
+            "profiling/profile-with-superluminal"
+        ],
+        "profile-with-tracing": [
+            "profiling/profile-with-tracing"
+        ],
+        "rafx-metal": [
+            "rafx-api/rafx-metal"
+        ],
+        "rafx-vulkan": [
+            "rafx-api/rafx-vulkan"
+        ],
+        "static-vulkan": [
+            "rafx-api/static-vulkan"
+        ]
+    },
+    "yanked": false
+}

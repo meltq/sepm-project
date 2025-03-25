@@ -1,1 +1,79 @@
-{"name":"flutterwave-v3-models","vers":"0.1.0-alpha.1","deps":[{"name":"chrono","req":"^0.4.38","features":["serde"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"reqwest","req":"^0.12.12","features":["brotli","deflate","gzip","rustls-tls","stream","zstd","json"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.189","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.114","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^1.0.57","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"validator","req":"^0.16.1","features":["card","derive","phone"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"ff1404d07fc0c4fbcc065c04c63f82d1432921704144f17749554ae4e8fe6ccc","features":{},"yanked":false}
+{
+    "name": "flutterwave-v3-models",
+    "vers": "0.1.0-alpha.1",
+    "deps": [
+        {
+            "name": "chrono",
+            "req": "^0.4.38",
+            "features": [
+                "serde"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "reqwest",
+            "req": "^0.12.12",
+            "features": [
+                "brotli",
+                "deflate",
+                "gzip",
+                "rustls-tls",
+                "stream",
+                "zstd",
+                "json"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.189",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.114",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^1.0.57",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "validator",
+            "req": "^0.16.1",
+            "features": [
+                "card",
+                "derive",
+                "phone"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "ff1404d07fc0c4fbcc065c04c63f82d1432921704144f17749554ae4e8fe6ccc",
+    "features": {},
+    "yanked": false
+}

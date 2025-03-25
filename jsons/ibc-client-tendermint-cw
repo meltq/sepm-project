@@ -1,1 +1,55 @@
-{"name":"ibc-client-tendermint-cw","vers":"0.52.0","deps":[{"name":"cosmwasm-std","req":"^1.5.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"ibc-client-cw","req":"^0.52.0","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"ibc-client-tendermint","req":"^0.52.0","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"ibc-core","req":"^0.52.0","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"}],"cksum":"a1c5843e6fb5c9ecfafd2c4e79f618d449d95837e2c62ab21debb149dace9d2b","features":{"default":["std"],"std":["ibc-core/std","ibc-client-cw/std","ibc-client-tendermint/std"]},"yanked":false,"rust_version":"1.72"}
+{
+    "name": "ibc-client-tendermint-cw",
+    "vers": "0.52.0",
+    "deps": [
+        {
+            "name": "cosmwasm-std",
+            "req": "^1.5.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ibc-client-cw",
+            "req": "^0.52.0",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ibc-client-tendermint",
+            "req": "^0.52.0",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ibc-core",
+            "req": "^0.52.0",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "a1c5843e6fb5c9ecfafd2c4e79f618d449d95837e2c62ab21debb149dace9d2b",
+    "features": {
+        "default": [
+            "std"
+        ],
+        "std": [
+            "ibc-core/std",
+            "ibc-client-cw/std",
+            "ibc-client-tendermint/std"
+        ]
+    },
+    "yanked": false,
+    "rust_version": "1.72"
+}

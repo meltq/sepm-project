@@ -1,1 +1,161 @@
-{"name":"jsonrpc-client-transports","vers":"12.0.0","deps":[{"name":"assert_matches","req":"^1.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"env_logger","req":"^0.6","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"failure","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"futures","req":"^0.1.26","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"hyper","req":"^0.12","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"hyper-tls","req":"^0.3.2","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"jsonrpc-core","req":"^12.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"jsonrpc-http-server","req":"^12.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"lazy_static","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"log","req":"^0.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^0.1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"websocket","req":"^0.22","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"0245e08f98d627a579cdee6a2138d05ab64f6093efbcdeec50805d121ee13c0c","features":{"default":["http","tls","ws"],"http":["hyper"],"tls":["hyper-tls","http"],"ws":["websocket","tokio"]},"yanked":false}
+{
+    "name": "jsonrpc-client-transports",
+    "vers": "12.0.0",
+    "deps": [
+        {
+            "name": "assert_matches",
+            "req": "^1.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "env_logger",
+            "req": "^0.6",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "failure",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "futures",
+            "req": "^0.1.26",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "hyper",
+            "req": "^0.12",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "hyper-tls",
+            "req": "^0.3.2",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "jsonrpc-core",
+            "req": "^12.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "jsonrpc-http-server",
+            "req": "^12.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "lazy_static",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "log",
+            "req": "^0.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^0.1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "websocket",
+            "req": "^0.22",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "0245e08f98d627a579cdee6a2138d05ab64f6093efbcdeec50805d121ee13c0c",
+    "features": {
+        "default": [
+            "http",
+            "tls",
+            "ws"
+        ],
+        "http": [
+            "hyper"
+        ],
+        "tls": [
+            "hyper-tls",
+            "http"
+        ],
+        "ws": [
+            "websocket",
+            "tokio"
+        ]
+    },
+    "yanked": false
+}

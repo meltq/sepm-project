@@ -1,1 +1,72 @@
-{"name":"rmicrobit","vers":"0.4.0","deps":[{"name":"cortex-m-rtfm","req":"^0.4.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"cortex-m-semihosting","req":"^0.3.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"embedded-hal","req":"^0.2.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"nrf51-hal","req":"^0.7.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"numtoa","req":"^0.2.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"panic-semihosting","req":"^0.5.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"tiny-led-matrix","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"2f8d3b91a26e893edf4c9ce025ff1924551cdadf888477565a431121b3f8310a","features":{},"yanked":false}
+{
+    "name": "rmicrobit",
+    "vers": "0.4.0",
+    "deps": [
+        {
+            "name": "cortex-m-rtfm",
+            "req": "^0.4.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "cortex-m-semihosting",
+            "req": "^0.3.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "embedded-hal",
+            "req": "^0.2.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "nrf51-hal",
+            "req": "^0.7.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "numtoa",
+            "req": "^0.2.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "panic-semihosting",
+            "req": "^0.5.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "tiny-led-matrix",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "2f8d3b91a26e893edf4c9ce025ff1924551cdadf888477565a431121b3f8310a",
+    "features": {},
+    "yanked": false
+}

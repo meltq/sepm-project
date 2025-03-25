@@ -1,1 +1,57 @@
-{"name":"picnic-bindings","vers":"0.1.0","deps":[{"name":"generic-tests","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"picnic-sys","req":"^3.0","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"signature","req":"^1.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"fcf242cf52a44fada41eb1cf7cf89754e70f18c5b3360892d32ba5ca24f9444f","features":{"default":["system","picnic","picnic3"],"picnic":["picnic-sys/picnic"],"picnic3":["picnic-sys/picnic3"],"static-fallback":["picnic-sys/static-fallback"],"system":["picnic-sys/system"],"unruh-transform":["picnic-sys/unruh-transform"]},"yanked":false}
+{
+    "name": "picnic-bindings",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "generic-tests",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "picnic-sys",
+            "req": "^3.0",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "signature",
+            "req": "^1.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "fcf242cf52a44fada41eb1cf7cf89754e70f18c5b3360892d32ba5ca24f9444f",
+    "features": {
+        "default": [
+            "system",
+            "picnic",
+            "picnic3"
+        ],
+        "picnic": [
+            "picnic-sys/picnic"
+        ],
+        "picnic3": [
+            "picnic-sys/picnic3"
+        ],
+        "static-fallback": [
+            "picnic-sys/static-fallback"
+        ],
+        "system": [
+            "picnic-sys/system"
+        ],
+        "unruh-transform": [
+            "picnic-sys/unruh-transform"
+        ]
+    },
+    "yanked": false
+}

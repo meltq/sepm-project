@@ -1,1 +1,88 @@
-{"name":"fluentci-shared","vers":"0.1.0","deps":[{"name":"extism","req":"^1.2.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"extism-pdk","req":"^1.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"fluentci-common","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"fluentci-core","req":"^0.1.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"fluentci-ext","req":"^0.1.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"fluentci-types","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.197","features":["serde_derive","derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"uuid","req":"^1.8.0","features":["v4","fast-rng","macro-diagnostics"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"6dfeb952330f5c856d91b89d6bb84320dccffc792e8a365fbd5e2fc483b4a9bc","features":{},"yanked":false}
+{
+    "name": "fluentci-shared",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "extism",
+            "req": "^1.2.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "extism-pdk",
+            "req": "^1.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "fluentci-common",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "fluentci-core",
+            "req": "^0.1.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "fluentci-ext",
+            "req": "^0.1.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "fluentci-types",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.197",
+            "features": [
+                "serde_derive",
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "uuid",
+            "req": "^1.8.0",
+            "features": [
+                "v4",
+                "fast-rng",
+                "macro-diagnostics"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "6dfeb952330f5c856d91b89d6bb84320dccffc792e8a365fbd5e2fc483b4a9bc",
+    "features": {},
+    "yanked": false
+}

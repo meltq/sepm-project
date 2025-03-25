@@ -1,1 +1,49 @@
-{"name":"floating-ui-utils","vers":"0.0.1","deps":[{"name":"serde","req":"^1.0.197","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"web-sys","req":"^0.3.69","features":["css","CssStyleDeclaration","Document","DomRect","DomRectList","Element","HtmlElement","HtmlSlotElement","Node","ShadowRoot","Window"],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"d4ce37da43f16a5060de2a35a417840a5f7326a96a1e53f10cea161b9cf0651a","features":{"default":[]},"features2":{"dom":["dep:web-sys"]},"yanked":false,"v":2}
+{
+    "name": "floating-ui-utils",
+    "vers": "0.0.1",
+    "deps": [
+        {
+            "name": "serde",
+            "req": "^1.0.197",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "web-sys",
+            "req": "^0.3.69",
+            "features": [
+                "css",
+                "CssStyleDeclaration",
+                "Document",
+                "DomRect",
+                "DomRectList",
+                "Element",
+                "HtmlElement",
+                "HtmlSlotElement",
+                "Node",
+                "ShadowRoot",
+                "Window"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "d4ce37da43f16a5060de2a35a417840a5f7326a96a1e53f10cea161b9cf0651a",
+    "features": {
+        "default": []
+    },
+    "features2": {
+        "dom": [
+            "dep:web-sys"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

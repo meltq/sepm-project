@@ -1,1 +1,94 @@
-{"name":"openapi-mocker","vers":"0.1.0","deps":[{"name":"actix-rt","req":"^2.9.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"actix-web","req":"^4.5.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"assert_cmd","req":"^2.0.14","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"clap","req":"^4.5.4","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"oas3","req":"^0.4.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"predicates","req":"^3.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"serde","req":"^1.0.198","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.116","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.37.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"0f8f9aeeda773a518a7adfddb0145c1fa4d42246b9bb5fa91fab339eee5cc3cb","features":{},"yanked":false}
+{
+    "name": "openapi-mocker",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "actix-rt",
+            "req": "^2.9.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "actix-web",
+            "req": "^4.5.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "assert_cmd",
+            "req": "^2.0.14",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "clap",
+            "req": "^4.5.4",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "oas3",
+            "req": "^0.4.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "predicates",
+            "req": "^3.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.198",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.116",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.37.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "0f8f9aeeda773a518a7adfddb0145c1fa4d42246b9bb5fa91fab339eee5cc3cb",
+    "features": {},
+    "yanked": false
+}

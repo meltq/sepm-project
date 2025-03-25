@@ -1,1 +1,46 @@
-{"name":"audiopus","vers":"0.1.0","deps":[{"name":"audiopus_sys","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"matches","req":"^0.1.8","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"da01e5d21110d365b5ad875aa56b2c6ac355c67ad3cc295b92a0338242465f20","features":{"coder":["encoder","decoder"],"decoder":["packet"],"default_features":["coder"],"encoder":["packet"],"multistream":[],"packet":[],"repacketizer":["packet"]},"yanked":false}
+{
+    "name": "audiopus",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "audiopus_sys",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "matches",
+            "req": "^0.1.8",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "da01e5d21110d365b5ad875aa56b2c6ac355c67ad3cc295b92a0338242465f20",
+    "features": {
+        "coder": [
+            "encoder",
+            "decoder"
+        ],
+        "decoder": [
+            "packet"
+        ],
+        "default_features": [
+            "coder"
+        ],
+        "encoder": [
+            "packet"
+        ],
+        "multistream": [],
+        "packet": [],
+        "repacketizer": [
+            "packet"
+        ]
+    },
+    "yanked": false
+}

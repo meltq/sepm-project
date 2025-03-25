@@ -1,1 +1,199 @@
-{"name":"spdlog-rs","vers":"0.1.0","deps":[{"name":"arc-swap","req":"^1.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"atomic","req":"^0.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"atty","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"cfg-if","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"chrono","req":"^0.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"clap","req":"^3.0","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"crossbeam","req":"^0.8","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"fern","req":"^0.6.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"flexi_logger","req":"^0.22.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"if_chain","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"lazy_static","req":"^1.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"lazy_static","req":"^1.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"log","req":"^0.4.14","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"log4rs","req":"^1.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"slog","req":"^2.7.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"sloggers","req":"^2.1.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"spin","req":"^0.9","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"static_assertions","req":"^1.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"c8fb2938d4a40d933f9cae73551266b1c27ce017b9cd9f6dbf5e5ea9f5894914","features":{"flexible-string":[],"level-critical":[],"level-debug":[],"level-error":[],"level-info":[],"level-off":[],"level-trace":[],"level-warn":[],"release-level-critical":[],"release-level-debug":[],"release-level-error":[],"release-level-info":[],"release-level-off":[],"release-level-trace":[],"release-level-warn":[],"source-location":[]},"yanked":false}
+{
+    "name": "spdlog-rs",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "arc-swap",
+            "req": "^1.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "atomic",
+            "req": "^0.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "atty",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "cfg-if",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "chrono",
+            "req": "^0.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "clap",
+            "req": "^3.0",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "crossbeam",
+            "req": "^0.8",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "fern",
+            "req": "^0.6.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "flexi_logger",
+            "req": "^0.22.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "if_chain",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "lazy_static",
+            "req": "^1.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "lazy_static",
+            "req": "^1.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "log",
+            "req": "^0.4.14",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "log4rs",
+            "req": "^1.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "slog",
+            "req": "^2.7.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "sloggers",
+            "req": "^2.1.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "spin",
+            "req": "^0.9",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "static_assertions",
+            "req": "^1.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "c8fb2938d4a40d933f9cae73551266b1c27ce017b9cd9f6dbf5e5ea9f5894914",
+    "features": {
+        "flexible-string": [],
+        "level-critical": [],
+        "level-debug": [],
+        "level-error": [],
+        "level-info": [],
+        "level-off": [],
+        "level-trace": [],
+        "level-warn": [],
+        "release-level-critical": [],
+        "release-level-debug": [],
+        "release-level-error": [],
+        "release-level-info": [],
+        "release-level-off": [],
+        "release-level-trace": [],
+        "release-level-warn": [],
+        "source-location": []
+    },
+    "yanked": false
+}

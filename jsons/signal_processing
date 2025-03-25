@@ -1,1 +1,121 @@
-{"name":"signal_processing","vers":"0.1.0","deps":[{"name":"array_math","req":"^0.2.42","features":["ndarray"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"image","req":"^0.25.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"linspace","req":"^0.1.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"moddef","req":"^0.2.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"ndarray","req":"^0.15.6","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"ndarray-linalg","req":"^0.16.0","features":["intel-mkl"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"num","req":"^0.4.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"option_trait","req":"^0.1.16","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"plotters","req":"^0.3.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"rand","req":"^0.8.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"statrs","req":"^0.16.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^1.0.58","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"5baf8054f2370c36597741fd5fa9003117d70220b75529241054d5f4a522bb05","features":{},"yanked":false}
+{
+    "name": "signal_processing",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "array_math",
+            "req": "^0.2.42",
+            "features": [
+                "ndarray"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "image",
+            "req": "^0.25.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "linspace",
+            "req": "^0.1.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "moddef",
+            "req": "^0.2.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ndarray",
+            "req": "^0.15.6",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ndarray-linalg",
+            "req": "^0.16.0",
+            "features": [
+                "intel-mkl"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "num",
+            "req": "^0.4.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "option_trait",
+            "req": "^0.1.16",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "plotters",
+            "req": "^0.3.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "rand",
+            "req": "^0.8.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "statrs",
+            "req": "^0.16.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^1.0.58",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "5baf8054f2370c36597741fd5fa9003117d70220b75529241054d5f4a522bb05",
+    "features": {},
+    "yanked": false
+}

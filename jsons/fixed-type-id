@@ -1,1 +1,55 @@
-{"name":"fixed-type-id","vers":"0.1.0","deps":[{"name":"fixed-type-id-macros","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"fixedstr-ext","req":"^0.5.8","features":["fstr"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rapidhash","req":"^1.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"semver","req":"^1.0.23","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"3564a460a60fe42357a69801ba75b23678260cf2d1684a1cf9ec09a737b234f8","features":{"default":["len128"],"erase_name":[],"len128":[],"len256":[],"len64":[]},"yanked":false}
+{
+    "name": "fixed-type-id",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "fixed-type-id-macros",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "fixedstr-ext",
+            "req": "^0.5.8",
+            "features": [
+                "fstr"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rapidhash",
+            "req": "^1.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "semver",
+            "req": "^1.0.23",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "3564a460a60fe42357a69801ba75b23678260cf2d1684a1cf9ec09a737b234f8",
+    "features": {
+        "default": [
+            "len128"
+        ],
+        "erase_name": [],
+        "len128": [],
+        "len256": [],
+        "len64": []
+    },
+    "yanked": false
+}

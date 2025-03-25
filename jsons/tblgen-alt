@@ -1,1 +1,52 @@
-{"name":"tblgen-alt","vers":"0.3.1","deps":[{"name":"bindgen","req":"^0.69.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"cc","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"paste","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"baff62cabfa7935bb9d9a38989c44078c8dee0c1279af4be76927bc3ba4c2e16","features":{"default":["llvm18-0"],"llvm16-0":[],"llvm17-0":[],"llvm18-0":[]},"yanked":false}
+{
+    "name": "tblgen-alt",
+    "vers": "0.3.1",
+    "deps": [
+        {
+            "name": "bindgen",
+            "req": "^0.69.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "cc",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "paste",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "baff62cabfa7935bb9d9a38989c44078c8dee0c1279af4be76927bc3ba4c2e16",
+    "features": {
+        "default": [
+            "llvm18-0"
+        ],
+        "llvm16-0": [],
+        "llvm17-0": [],
+        "llvm18-0": []
+    },
+    "yanked": false
+}

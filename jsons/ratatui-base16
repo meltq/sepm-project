@@ -1,1 +1,60 @@
-{"name":"ratatui-base16","vers":"0.1.0","deps":[{"name":"figment","req":"^0.10.18","features":["env","toml","yaml"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"ratatui","req":"^0.26.2","features":["serde"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.201","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_with","req":"^3.8.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^1.0.60","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"59ad768d75cda910ba81ca8a0dc737d8b741761552431659b366f8d82677d272","features":{},"yanked":false}
+{
+    "name": "ratatui-base16",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "figment",
+            "req": "^0.10.18",
+            "features": [
+                "env",
+                "toml",
+                "yaml"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ratatui",
+            "req": "^0.26.2",
+            "features": [
+                "serde"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.201",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_with",
+            "req": "^3.8.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^1.0.60",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "59ad768d75cda910ba81ca8a0dc737d8b741761552431659b366f8d82677d272",
+    "features": {},
+    "yanked": false
+}

@@ -1,1 +1,40 @@
-{"name":"cf-r2-sdk","vers":"0.0.1","deps":[{"name":"aws-sdk-s3","req":"^1.69.0","features":["behavior-version-latest"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"dotenvy","req":"^0.15.7","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"tokio","req":"^1.43.0","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"ebba5c2730a2f31bc837f06bf2ced8d7ab237231bc8043de2cb40103654a3a9d","features":{},"yanked":false}
+{
+    "name": "cf-r2-sdk",
+    "vers": "0.0.1",
+    "deps": [
+        {
+            "name": "aws-sdk-s3",
+            "req": "^1.69.0",
+            "features": [
+                "behavior-version-latest"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "dotenvy",
+            "req": "^0.15.7",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.43.0",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "ebba5c2730a2f31bc837f06bf2ced8d7ab237231bc8043de2cb40103654a3a9d",
+    "features": {},
+    "yanked": false
+}

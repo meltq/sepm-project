@@ -1,1 +1,181 @@
-{"name":"tracing-lv","vers":"0.0.1-beta.0","deps":[{"name":"chrono","req":"^0.4","features":["serde"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"flume","req":"^0.11","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"futures-util","req":"^0.3","features":["sink"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"hyper","req":"^1.4","features":["client"],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"hyper-util","req":"^0.1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"pin-project","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.204","features":["derive","std"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"smol_str","req":"^0.2","features":["serde"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1","features":["io-util"],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"tonic","req":"^0.12","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"tower","req":"^0.3","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing-core","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing-lv-proto","req":"^0.0.1-beta.0","features":["client"],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing-subscriber","req":"^0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"uuid","req":"^1","features":["v4"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"fe3bb6dccb0a92b444387614dffb3aa474e03910611fb334822560115b98defe","features":{},"features2":{"default":["dep:tokio","dep:tracing-lv-proto","dep:tonic","dep:tower","dep:hyper","dep:hyper-util"]},"yanked":false,"v":2}
+{
+    "name": "tracing-lv",
+    "vers": "0.0.1-beta.0",
+    "deps": [
+        {
+            "name": "chrono",
+            "req": "^0.4",
+            "features": [
+                "serde"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "flume",
+            "req": "^0.11",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "futures-util",
+            "req": "^0.3",
+            "features": [
+                "sink"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "hyper",
+            "req": "^1.4",
+            "features": [
+                "client"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "hyper-util",
+            "req": "^0.1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "pin-project",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.204",
+            "features": [
+                "derive",
+                "std"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "smol_str",
+            "req": "^0.2",
+            "features": [
+                "serde"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1",
+            "features": [
+                "io-util"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tonic",
+            "req": "^0.12",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tower",
+            "req": "^0.3",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing-core",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing-lv-proto",
+            "req": "^0.0.1-beta.0",
+            "features": [
+                "client"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing-subscriber",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "uuid",
+            "req": "^1",
+            "features": [
+                "v4"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "fe3bb6dccb0a92b444387614dffb3aa474e03910611fb334822560115b98defe",
+    "features": {},
+    "features2": {
+        "default": [
+            "dep:tokio",
+            "dep:tracing-lv-proto",
+            "dep:tonic",
+            "dep:tower",
+            "dep:hyper",
+            "dep:hyper-util"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

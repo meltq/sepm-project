@@ -1,1 +1,66 @@
-{"name":"eigen-trust","vers":"0.1.0","deps":[{"name":"ark-std","req":"^0.3.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"getrandom","req":"^0.2","features":["js"],"optional":false,"default_features":true,"target":"cfg(all(target_arch = \"wasm32\", target_os = \"unknown\"))","kind":"dev"},{"name":"rand","req":"^0.8.5","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"rand","req":"^0.8.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"tiny-keccak","req":"^2.0","features":["keccak"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"c7372dc452ff8c2d07ab524192ab3ff4b2dcf69b207a166d21c25814c9d369ff","features":{"default":["std"],"std":["ark-std/std","rand/std"]},"yanked":false}
+{
+    "name": "eigen-trust",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "ark-std",
+            "req": "^0.3.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "getrandom",
+            "req": "^0.2",
+            "features": [
+                "js"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": "cfg(all(target_arch = \"wasm32\", target_os = \"unknown\"))",
+            "kind": "dev"
+        },
+        {
+            "name": "rand",
+            "req": "^0.8.5",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rand",
+            "req": "^0.8.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "tiny-keccak",
+            "req": "^2.0",
+            "features": [
+                "keccak"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "c7372dc452ff8c2d07ab524192ab3ff4b2dcf69b207a166d21c25814c9d369ff",
+    "features": {
+        "default": [
+            "std"
+        ],
+        "std": [
+            "ark-std/std",
+            "rand/std"
+        ]
+    },
+    "yanked": false
+}

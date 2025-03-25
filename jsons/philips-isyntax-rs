@@ -1,1 +1,85 @@
-{"name":"philips-isyntax-rs","vers":"0.1.0","deps":[{"name":"bencher","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"cxx","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"cxx-build","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"image","req":"^0.24","features":["jpeg"],"optional":true,"default_features":false,"target":null,"kind":"normal"},{"name":"miette","req":"^5","features":["fancy"],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"rstest","req":"^0.15","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"thiserror","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"a7b10bf56e319d2ea0fb571068638481b2ced4dc9ebbe5948945be15d4445f52","features":{},"features2":{"default":["image"],"image":["dep:image"]},"yanked":false,"v":2}
+{
+    "name": "philips-isyntax-rs",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "bencher",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "cxx",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "cxx-build",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "image",
+            "req": "^0.24",
+            "features": [
+                "jpeg"
+            ],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "miette",
+            "req": "^5",
+            "features": [
+                "fancy"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "rstest",
+            "req": "^0.15",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "thiserror",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "a7b10bf56e319d2ea0fb571068638481b2ced4dc9ebbe5948945be15d4445f52",
+    "features": {},
+    "features2": {
+        "default": [
+            "image"
+        ],
+        "image": [
+            "dep:image"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

@@ -1,1 +1,29 @@
-{"name":"aws-lambda-log-proxy","vers":"0.1.0","deps":[{"name":"aws-lambda-runtime-proxy","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"4361a3c13e42ed1af9dbfe95ab0be3e7a9758ec4b76df84f95132b795096c8f1","features":{},"yanked":false}
+{
+    "name": "aws-lambda-log-proxy",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "aws-lambda-runtime-proxy",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "4361a3c13e42ed1af9dbfe95ab0be3e7a9758ec4b76df84f95132b795096c8f1",
+    "features": {},
+    "yanked": false
+}

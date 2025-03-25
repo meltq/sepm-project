@@ -1,1 +1,87 @@
-{"name":"ic-pluto","vers":"0.3.1","deps":[{"name":"candid","req":"^0.10.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"dyn-clone","req":"^1.0.16","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"ic-cdk","req":"^0.13.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"matchit","req":"^0.7.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.192","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_bytes","req":"^0.11.12","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.108","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.34.0","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"5c76c7fb82cc82f602c75b9e89fdf59a2e2db605db778a2015e6d8354481222f","features":{"library":[]},"yanked":false}
+{
+    "name": "ic-pluto",
+    "vers": "0.3.1",
+    "deps": [
+        {
+            "name": "candid",
+            "req": "^0.10.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "dyn-clone",
+            "req": "^1.0.16",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ic-cdk",
+            "req": "^0.13.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "matchit",
+            "req": "^0.7.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.192",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_bytes",
+            "req": "^0.11.12",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.108",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.34.0",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "5c76c7fb82cc82f602c75b9e89fdf59a2e2db605db778a2015e6d8354481222f",
+    "features": {
+        "library": []
+    },
+    "yanked": false
+}

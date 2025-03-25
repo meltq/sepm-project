@@ -1,1 +1,67 @@
-{"name":"tauri-plugin-svelte","vers":"0.0.1","deps":[{"name":"serde","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tauri","req":"^2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tauri-plugin","req":"^2.0","features":["build"],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"tauri-store","req":"^0.4","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing","req":"^0.1","features":[],"optional":false,"default_features":true,"target":"cfg(tauri_store_tracing)","kind":"normal"}],"cksum":"75828a95057e52ecb3303e86d2f3f46b50abffddbf122bd1ae97718f5cad7c1c","features":{"file-sync-all":["tauri-store/file-sync-all"],"unstable-async":["tauri-store/unstable-async"]},"yanked":false,"links":"tauri-plugin-svelte","rust_version":"1.77.2"}
+{
+    "name": "tauri-plugin-svelte",
+    "vers": "0.0.1",
+    "deps": [
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tauri",
+            "req": "^2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tauri-plugin",
+            "req": "^2.0",
+            "features": [
+                "build"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "tauri-store",
+            "req": "^0.4",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": "cfg(tauri_store_tracing)",
+            "kind": "normal"
+        }
+    ],
+    "cksum": "75828a95057e52ecb3303e86d2f3f46b50abffddbf122bd1ae97718f5cad7c1c",
+    "features": {
+        "file-sync-all": [
+            "tauri-store/file-sync-all"
+        ],
+        "unstable-async": [
+            "tauri-store/unstable-async"
+        ]
+    },
+    "yanked": false,
+    "links": "tauri-plugin-svelte",
+    "rust_version": "1.77.2"
+}

@@ -1,1 +1,80 @@
-{"name":"llamaedge","vers":"0.0.1","deps":[{"name":"endpoints","req":"^0.23.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"futures","req":"^0.3.6","features":["async-await","std"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"reqwest","req":"^0.12.0","features":["json","stream"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.134","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.39.0","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"url","req":"^2.5.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"c78c3d8e6d628f9a49ec7a0e153175302a0a5c12b2e10127fcb3f293ccd7b097","features":{},"yanked":false}
+{
+    "name": "llamaedge",
+    "vers": "0.0.1",
+    "deps": [
+        {
+            "name": "endpoints",
+            "req": "^0.23.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "futures",
+            "req": "^0.3.6",
+            "features": [
+                "async-await",
+                "std"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "reqwest",
+            "req": "^0.12.0",
+            "features": [
+                "json",
+                "stream"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.134",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.39.0",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "url",
+            "req": "^2.5.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "c78c3d8e6d628f9a49ec7a0e153175302a0a5c12b2e10127fcb3f293ccd7b097",
+    "features": {},
+    "yanked": false
+}

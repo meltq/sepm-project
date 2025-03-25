@@ -1,1 +1,102 @@
-{"name":"mbedtls","vers":"0.1.0","deps":[{"name":"bitflags","req":"^0.7.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"core_io","req":"^0.1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"gcc","req":"^0.3.28","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"libc","req":"^0.2.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"mbedtls-sys-auto","req":"^2.4.0","features":["custom_printf"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"rand","req":"^0.3.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"spin","req":"^0.4.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"beffc34dd89641e9c7a910b3d66bd05657f7ea5162eaeafb33e4f1f7aadea043","features":{"collections":[],"core_io_collections":["core_io","core_io/collections"],"default":["std"],"force_aesni_support":["mbedtls-sys-auto/custom_has_support"],"pthread":["threading","std","mbedtls-sys-auto/pthread"],"rdrand":[],"spin_threading":["threading","spin","mbedtls-sys-auto/custom_threading"],"std":["mbedtls-sys-auto/std","collections"],"threading":[]},"yanked":false}
+{
+    "name": "mbedtls",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "bitflags",
+            "req": "^0.7.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "core_io",
+            "req": "^0.1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "gcc",
+            "req": "^0.3.28",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "libc",
+            "req": "^0.2.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "mbedtls-sys-auto",
+            "req": "^2.4.0",
+            "features": [
+                "custom_printf"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rand",
+            "req": "^0.3.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "spin",
+            "req": "^0.4.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "beffc34dd89641e9c7a910b3d66bd05657f7ea5162eaeafb33e4f1f7aadea043",
+    "features": {
+        "collections": [],
+        "core_io_collections": [
+            "core_io",
+            "core_io/collections"
+        ],
+        "default": [
+            "std"
+        ],
+        "force_aesni_support": [
+            "mbedtls-sys-auto/custom_has_support"
+        ],
+        "pthread": [
+            "threading",
+            "std",
+            "mbedtls-sys-auto/pthread"
+        ],
+        "rdrand": [],
+        "spin_threading": [
+            "threading",
+            "spin",
+            "mbedtls-sys-auto/custom_threading"
+        ],
+        "std": [
+            "mbedtls-sys-auto/std",
+            "collections"
+        ],
+        "threading": []
+    },
+    "yanked": false
+}

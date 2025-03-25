@@ -1,1 +1,40 @@
-{"name":"win-hotkeys","vers":"0.1.0","deps":[{"name":"crossbeam-channel","req":"^0.5.14","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^2.0.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"windows","req":"^0.52","features":["Win32_Foundation","Win32_UI_Input_KeyboardAndMouse","Win32_UI_WindowsAndMessaging"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"9ae6bfca245f0487c121cab72d1e08b63238e8a87a87151b453c6258cd90787c","features":{},"yanked":false}
+{
+    "name": "win-hotkeys",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "crossbeam-channel",
+            "req": "^0.5.14",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^2.0.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "windows",
+            "req": "^0.52",
+            "features": [
+                "Win32_Foundation",
+                "Win32_UI_Input_KeyboardAndMouse",
+                "Win32_UI_WindowsAndMessaging"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "9ae6bfca245f0487c121cab72d1e08b63238e8a87a87151b453c6258cd90787c",
+    "features": {},
+    "yanked": false
+}

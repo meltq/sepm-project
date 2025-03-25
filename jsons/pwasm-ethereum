@@ -1,1 +1,62 @@
-{"name":"pwasm-ethereum","vers":"0.1.0","deps":[{"name":"bigint","req":"^4","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"byteorder","req":"^1","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"parity-hash","req":"^1","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"parity-hash","req":"^1","features":[],"optional":false,"default_features":false,"target":null,"kind":"build"},{"name":"pwasm-std","req":"^0.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"00c5b415d9b5b9dc365e675f38ee7632ce6e7cfc13c9f5a119d165b4c7600659","features":{"default":[],"std":["pwasm-std/std","parity-hash/std","bigint/std","byteorder/std"]},"yanked":false}
+{
+    "name": "pwasm-ethereum",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "bigint",
+            "req": "^4",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "byteorder",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "parity-hash",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "parity-hash",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "pwasm-std",
+            "req": "^0.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "00c5b415d9b5b9dc365e675f38ee7632ce6e7cfc13c9f5a119d165b4c7600659",
+    "features": {
+        "default": [],
+        "std": [
+            "pwasm-std/std",
+            "parity-hash/std",
+            "bigint/std",
+            "byteorder/std"
+        ]
+    },
+    "yanked": false
+}

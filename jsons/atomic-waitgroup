@@ -1,1 +1,49 @@
-{"name":"atomic-waitgroup","vers":"0.1.0","deps":[{"name":"log","req":"^0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"parking_lot","req":"^0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rand","req":"^0.7","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"tokio","req":"^1","features":["time","sync","rt-multi-thread"],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"9ad6666fc5a6b677697cf3bc33041d98caaa9e62f70e45f255574107c50bbe20","features":{},"yanked":false}
+{
+    "name": "atomic-waitgroup",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "log",
+            "req": "^0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "parking_lot",
+            "req": "^0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rand",
+            "req": "^0.7",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "tokio",
+            "req": "^1",
+            "features": [
+                "time",
+                "sync",
+                "rt-multi-thread"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "9ad6666fc5a6b677697cf3bc33041d98caaa9e62f70e45f255574107c50bbe20",
+    "features": {},
+    "yanked": false
+}

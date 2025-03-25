@@ -1,1 +1,48 @@
-{"name":"hf-hub-simple-progress","vers":"0.1.0","deps":[{"name":"hf-hub","req":"^0.4.1","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.217","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.43.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"f6a71a71999979007fb7734acd482418fc3cf2cdadf45fd100bb2d7546e8533a","features":{"async-closure":["hf-hub/default","hf-hub/tokio"],"default":["sync"],"sync":["hf-hub/default-tls","hf-hub/ureq"]},"yanked":false}
+{
+    "name": "hf-hub-simple-progress",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "hf-hub",
+            "req": "^0.4.1",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.217",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.43.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "f6a71a71999979007fb7734acd482418fc3cf2cdadf45fd100bb2d7546e8533a",
+    "features": {
+        "async-closure": [
+            "hf-hub/default",
+            "hf-hub/tokio"
+        ],
+        "default": [
+            "sync"
+        ],
+        "sync": [
+            "hf-hub/default-tls",
+            "hf-hub/ureq"
+        ]
+    },
+    "yanked": false
+}

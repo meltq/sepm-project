@@ -1,1 +1,34 @@
-{"name":"nostd","vers":"0.1.0","deps":[{"name":"memchr","req":"^2","features":[],"optional":true,"default_features":false,"target":null,"kind":"normal"}],"cksum":"f25333764f4d3504ace1a2e48ccddd0bec40acb9bb8c66220aeffde933190788","features":{"io":["memchr"]},"features2":{"alloc":["memchr?/alloc"],"default":["alloc"],"std":["alloc"]},"yanked":false,"v":2}
+{
+    "name": "nostd",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "memchr",
+            "req": "^2",
+            "features": [],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "f25333764f4d3504ace1a2e48ccddd0bec40acb9bb8c66220aeffde933190788",
+    "features": {
+        "io": [
+            "memchr"
+        ]
+    },
+    "features2": {
+        "alloc": [
+            "memchr?/alloc"
+        ],
+        "default": [
+            "alloc"
+        ],
+        "std": [
+            "alloc"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

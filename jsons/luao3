@@ -1,1 +1,52 @@
-{"name":"luao3","vers":"0.1.0","deps":[{"name":"luao3-macros","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"mlua","req":"^0.7","features":["macros"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"b10ddb3baf8479855f17f886d6390d10dcd24bc971277d933ab86301829ba55b","features":{"default":["lua54"],"lua51":["mlua/lua51"],"lua52":["mlua/lua52"],"lua53":["mlua/lua53"],"lua54":["mlua/lua54"],"luajit":["mlua/luajit"],"module":["mlua/module"]},"yanked":true,"rust_version":"1.57"}
+{
+    "name": "luao3",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "luao3-macros",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "mlua",
+            "req": "^0.7",
+            "features": [
+                "macros"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "b10ddb3baf8479855f17f886d6390d10dcd24bc971277d933ab86301829ba55b",
+    "features": {
+        "default": [
+            "lua54"
+        ],
+        "lua51": [
+            "mlua/lua51"
+        ],
+        "lua52": [
+            "mlua/lua52"
+        ],
+        "lua53": [
+            "mlua/lua53"
+        ],
+        "lua54": [
+            "mlua/lua54"
+        ],
+        "luajit": [
+            "mlua/luajit"
+        ],
+        "module": [
+            "mlua/module"
+        ]
+    },
+    "yanked": true,
+    "rust_version": "1.57"
+}

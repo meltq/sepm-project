@@ -1,1 +1,34 @@
-{"name":"parsql","vers":"0.1.0","deps":[{"name":"parsql-macros","req":"^0.1.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"999eab255a0c2cd75996f3af125bb4952ce3c4c8e6342a6b418d30d0e4d062dd","features":{"deadpool-postgres":["parsql-macros"],"default":["tokio-postgres"],"postgres":["parsql-macros"],"sqlite":["parsql-macros"],"tokio-postgres":["parsql-macros"]},"yanked":false}
+{
+    "name": "parsql",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "parsql-macros",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "999eab255a0c2cd75996f3af125bb4952ce3c4c8e6342a6b418d30d0e4d062dd",
+    "features": {
+        "deadpool-postgres": [
+            "parsql-macros"
+        ],
+        "default": [
+            "tokio-postgres"
+        ],
+        "postgres": [
+            "parsql-macros"
+        ],
+        "sqlite": [
+            "parsql-macros"
+        ],
+        "tokio-postgres": [
+            "parsql-macros"
+        ]
+    },
+    "yanked": false
+}

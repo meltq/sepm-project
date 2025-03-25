@@ -1,1 +1,39 @@
-{"name":"closure-ffi-proc-macros","vers":"0.1.0","deps":[{"name":"proc-macro2","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"quote","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"syn","req":"^2.0","features":["full","visit-mut"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"9ae33896634eea4fa204dbc136aabb507f7ab1aa6207e3fd488e631d1ec05322","features":{},"yanked":false}
+{
+    "name": "closure-ffi-proc-macros",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "proc-macro2",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "quote",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "syn",
+            "req": "^2.0",
+            "features": [
+                "full",
+                "visit-mut"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "9ae33896634eea4fa204dbc136aabb507f7ab1aa6207e3fd488e631d1ec05322",
+    "features": {},
+    "yanked": false
+}

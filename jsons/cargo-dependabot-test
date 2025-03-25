@@ -1,1 +1,73 @@
-{"name":"cargo-dependabot-test","vers":"0.4.10","deps":[{"name":"clap","req":"^4.5.4","features":["derive","unicode"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"crossterm","req":"^0.27","features":["event-stream"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing-appender","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing-subscriber","req":"^0.3","features":["env-filter"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"30195105a7ec6fe6e3ed458c3f5e2d0c921fc49d2601f114f92b80889c7eeabe","features":{},"yanked":true,"rust_version":"1.74.0"}
+{
+    "name": "cargo-dependabot-test",
+    "vers": "0.4.10",
+    "deps": [
+        {
+            "name": "clap",
+            "req": "^4.5.4",
+            "features": [
+                "derive",
+                "unicode"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "crossterm",
+            "req": "^0.27",
+            "features": [
+                "event-stream"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing-appender",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing-subscriber",
+            "req": "^0.3",
+            "features": [
+                "env-filter"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "30195105a7ec6fe6e3ed458c3f5e2d0c921fc49d2601f114f92b80889c7eeabe",
+    "features": {},
+    "yanked": true,
+    "rust_version": "1.74.0"
+}

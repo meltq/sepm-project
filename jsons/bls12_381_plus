@@ -1,1 +1,162 @@
-{"name":"bls12_381_plus","vers":"0.4.0","deps":[{"name":"criterion","req":"^0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"digest","req":"^0.9","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"ff","req":"^0.9","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"ff-zeroize","req":"^0.6","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"group","req":"^0.9","features":[],"optional":true,"default_features":false,"target":null,"kind":"normal"},{"name":"heapless","req":"^0.6","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"hex","req":"^0.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"pairing","req":"^0.19","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"rand_core","req":"^0.6","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"rand_xorshift","req":"^0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"serde","req":"^1.0","features":["derive"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"sha2","req":"^0.9","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"subtle","req":"^2.4","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"zeroize","req":"^1.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"8bdb493273d21d2f80417fec723f861da887d106ae4dd4d0246d3c929cf32bd6","features":{"alloc":["group/alloc"],"default":["groups","pairings","alloc","endo","hashing"],"endo":[],"groups":["group"],"hashing":["digest"],"nightly":["subtle/nightly"],"pairings":["groups","pairing"]},"yanked":false}
+{
+    "name": "bls12_381_plus",
+    "vers": "0.4.0",
+    "deps": [
+        {
+            "name": "criterion",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "digest",
+            "req": "^0.9",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ff",
+            "req": "^0.9",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ff-zeroize",
+            "req": "^0.6",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "group",
+            "req": "^0.9",
+            "features": [],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "heapless",
+            "req": "^0.6",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "hex",
+            "req": "^0.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "pairing",
+            "req": "^0.19",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rand_core",
+            "req": "^0.6",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rand_xorshift",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "sha2",
+            "req": "^0.9",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "subtle",
+            "req": "^2.4",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "zeroize",
+            "req": "^1.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "8bdb493273d21d2f80417fec723f861da887d106ae4dd4d0246d3c929cf32bd6",
+    "features": {
+        "alloc": [
+            "group/alloc"
+        ],
+        "default": [
+            "groups",
+            "pairings",
+            "alloc",
+            "endo",
+            "hashing"
+        ],
+        "endo": [],
+        "groups": [
+            "group"
+        ],
+        "hashing": [
+            "digest"
+        ],
+        "nightly": [
+            "subtle/nightly"
+        ],
+        "pairings": [
+            "groups",
+            "pairing"
+        ]
+    },
+    "yanked": false
+}

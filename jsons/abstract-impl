@@ -1,1 +1,46 @@
-{"name":"abstract-impl","vers":"0.1.0","deps":[{"name":"proc-macro2","req":"^1.0.93","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"quote","req":"^1.0.38","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"syn","req":"^2.0.96","features":["full","fold"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"78880ef556bc7dc0f05edb2c41891d566ffebe7125abb40484f10b9390b25ad2","features":{"default":["dummy","macro"],"dummy":[],"macro":[]},"yanked":false}
+{
+    "name": "abstract-impl",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "proc-macro2",
+            "req": "^1.0.93",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "quote",
+            "req": "^1.0.38",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "syn",
+            "req": "^2.0.96",
+            "features": [
+                "full",
+                "fold"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "78880ef556bc7dc0f05edb2c41891d566ffebe7125abb40484f10b9390b25ad2",
+    "features": {
+        "default": [
+            "dummy",
+            "macro"
+        ],
+        "dummy": [],
+        "macro": []
+    },
+    "yanked": false
+}

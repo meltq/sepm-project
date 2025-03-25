@@ -1,1 +1,142 @@
-{"name":"trunkls","vers":"0.1.0","deps":[{"name":"anyhow","req":"^1.0.92","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"clap","req":"^4.5.20","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"constcat","req":"^0.5.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"fxhash","req":"^0.2.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"lsp-server","req":"^0.7.7","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"lsp-types","req":"^0.97.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.132","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"shellexpand","req":"^3.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"streaming-iterator","req":"^0.1.9","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"texter","req":"^0.1.2","features":["tree-sitter","lsp-types"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing","req":"^0.1.40","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing-subscriber","req":"^0.3.18","features":["env-filter"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tree-sitter","req":"^0.24.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tree-sitter-html","req":"^0.23.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"7810262e5425cd1046425a2fb7910b3ce74cc6ceb3a11521e5e7042e5d292660","features":{},"yanked":false}
+{
+    "name": "trunkls",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "anyhow",
+            "req": "^1.0.92",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "clap",
+            "req": "^4.5.20",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "constcat",
+            "req": "^0.5.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "fxhash",
+            "req": "^0.2.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "lsp-server",
+            "req": "^0.7.7",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "lsp-types",
+            "req": "^0.97.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.132",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "shellexpand",
+            "req": "^3.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "streaming-iterator",
+            "req": "^0.1.9",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "texter",
+            "req": "^0.1.2",
+            "features": [
+                "tree-sitter",
+                "lsp-types"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1.40",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing-subscriber",
+            "req": "^0.3.18",
+            "features": [
+                "env-filter"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tree-sitter",
+            "req": "^0.24.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tree-sitter-html",
+            "req": "^0.23.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "7810262e5425cd1046425a2fb7910b3ce74cc6ceb3a11521e5e7042e5d292660",
+    "features": {},
+    "yanked": false
+}

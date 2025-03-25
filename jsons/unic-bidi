@@ -1,1 +1,61 @@
-{"name":"unic-bidi","vers":"0.1.0","deps":[{"name":"matches","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":">= 0.8, < 2.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_derive","req":">= 0.8, < 2.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_test","req":">= 0.8, < 2.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"unic-ucd-bidi","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"7c79f652d0981648e7d9e5d83d5980a015d69eae77b282598ab4a123b9ee4890","features":{"bench_it":[],"default":[],"with_serde":["serde","serde_derive"]},"yanked":false}
+{
+    "name": "unic-bidi",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "matches",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": ">= 0.8, < 2.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_derive",
+            "req": ">= 0.8, < 2.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_test",
+            "req": ">= 0.8, < 2.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "unic-ucd-bidi",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "7c79f652d0981648e7d9e5d83d5980a015d69eae77b282598ab4a123b9ee4890",
+    "features": {
+        "bench_it": [],
+        "default": [],
+        "with_serde": [
+            "serde",
+            "serde_derive"
+        ]
+    },
+    "yanked": false
+}

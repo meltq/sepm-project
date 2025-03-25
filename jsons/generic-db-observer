@@ -1,1 +1,116 @@
-{"name":"generic-db-observer","vers":"0.1.0","deps":[{"name":"either","req":"^1.9.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"futures-util","req":"^0.3.28","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"kube","req":"^0.87.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"kube-discovery","req":"^0.3.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"redis","req":"^0.23.3","features":["aio","tokio-comp"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rstest","req":"^0.18.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"secrecy","req":"^0.8.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"test-log","req":"^0.2.12","features":["trace"],"optional":false,"default_features":false,"target":null,"kind":"dev"},{"name":"tokio","req":"^1.32.0","features":["rt-multi-thread","macros"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"tracing","req":"^0.1.37","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"url","req":"^2.4.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"2179121e72566b456fcb92c217311fb0e7fb69a26d6a30d3d94e66ca9ebe8cea","features":{},"yanked":false}
+{
+    "name": "generic-db-observer",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "either",
+            "req": "^1.9.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "futures-util",
+            "req": "^0.3.28",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "kube",
+            "req": "^0.87.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "kube-discovery",
+            "req": "^0.3.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "redis",
+            "req": "^0.23.3",
+            "features": [
+                "aio",
+                "tokio-comp"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rstest",
+            "req": "^0.18.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "secrecy",
+            "req": "^0.8.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "test-log",
+            "req": "^0.2.12",
+            "features": [
+                "trace"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.32.0",
+            "features": [
+                "rt-multi-thread",
+                "macros"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1.37",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "url",
+            "req": "^2.4.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "2179121e72566b456fcb92c217311fb0e7fb69a26d6a30d3d94e66ca9ebe8cea",
+    "features": {},
+    "yanked": false
+}

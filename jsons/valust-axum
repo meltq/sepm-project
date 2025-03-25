@@ -1,1 +1,165 @@
-{"name":"valust-axum","vers":"0.4.0","deps":[{"name":"axum","req":"^0.8.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"axum","req":"^0.8.1","features":["macros"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"ciborium","req":"^0.2.2","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"mime","req":"^0.3.17","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"quick-xml","req":"^0.37.2","features":["serialize"],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"rmp-serde","req":"^1.3.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"ron","req":"^0.8","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.217","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.217","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"serde_yaml","req":"^0.9.34","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"sonic-rs","req":"^0.3.17","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"toml","req":"^0.8.19","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"valust","req":"^0.4.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"8be2a70f179ed835fc38f218500c95d4460687f6a98d316562589c43eed46406","features":{"cbor":["ciborium"],"default":["json","form","sonic","yaml","toml","xml","msgpack","cbor","ron"],"form":["axum/form"],"json":["axum/json"],"msgpack":["rmp-serde"],"sonic":["sonic-rs"],"xml":["quick-xml"],"yaml":["serde_yaml"]},"yanked":false}
+{
+    "name": "valust-axum",
+    "vers": "0.4.0",
+    "deps": [
+        {
+            "name": "axum",
+            "req": "^0.8.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "axum",
+            "req": "^0.8.1",
+            "features": [
+                "macros"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "ciborium",
+            "req": "^0.2.2",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "mime",
+            "req": "^0.3.17",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "quick-xml",
+            "req": "^0.37.2",
+            "features": [
+                "serialize"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rmp-serde",
+            "req": "^1.3.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ron",
+            "req": "^0.8",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.217",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.217",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "serde_yaml",
+            "req": "^0.9.34",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "sonic-rs",
+            "req": "^0.3.17",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "toml",
+            "req": "^0.8.19",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "valust",
+            "req": "^0.4.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "8be2a70f179ed835fc38f218500c95d4460687f6a98d316562589c43eed46406",
+    "features": {
+        "cbor": [
+            "ciborium"
+        ],
+        "default": [
+            "json",
+            "form",
+            "sonic",
+            "yaml",
+            "toml",
+            "xml",
+            "msgpack",
+            "cbor",
+            "ron"
+        ],
+        "form": [
+            "axum/form"
+        ],
+        "json": [
+            "axum/json"
+        ],
+        "msgpack": [
+            "rmp-serde"
+        ],
+        "sonic": [
+            "sonic-rs"
+        ],
+        "xml": [
+            "quick-xml"
+        ],
+        "yaml": [
+            "serde_yaml"
+        ]
+    },
+    "yanked": false
+}

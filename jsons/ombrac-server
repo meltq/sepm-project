@@ -1,1 +1,126 @@
-{"name":"ombrac-server","vers":"0.2.0","deps":[{"name":"aws-lc-rs","req":"^1","features":["bindgen"],"optional":true,"default_features":false,"target":null,"kind":"normal"},{"name":"clap","req":"^4","features":["std","derive","color","help","usage","error-context","suggestions"],"optional":true,"default_features":false,"target":null,"kind":"normal"},{"name":"ombrac","req":"^0.2.0","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"s2n-quic","req":"^1","features":["provider-tls-default","provider-address-token-default"],"optional":true,"default_features":false,"target":null,"kind":"normal"},{"name":"tokio","req":"^1","features":["net","sync","io-util"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"tokio","req":"^1","features":["full"],"optional":false,"default_features":false,"target":null,"kind":"dev"},{"name":"tracing","req":"^0.1","features":[],"optional":true,"default_features":false,"target":null,"kind":"normal"},{"name":"tracing-subscriber","req":"^0.3","features":["ansi"],"optional":true,"default_features":false,"target":null,"kind":"normal"}],"cksum":"7660b0c2ec3933a99d48b3c39016af1e4741525d9436666c600a007ca3d2609b","features":{"binary":["clap","tokio/macros","tokio/rt-multi-thread","tracing-subscriber"],"transport-default":["transport-quic"],"transport-quic":["s2n-quic","aws-lc-rs"]},"features2":{"default":["transport-default","tracing"],"tracing":["dep:tracing"]},"yanked":false,"v":2}
+{
+    "name": "ombrac-server",
+    "vers": "0.2.0",
+    "deps": [
+        {
+            "name": "aws-lc-rs",
+            "req": "^1",
+            "features": [
+                "bindgen"
+            ],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "clap",
+            "req": "^4",
+            "features": [
+                "std",
+                "derive",
+                "color",
+                "help",
+                "usage",
+                "error-context",
+                "suggestions"
+            ],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ombrac",
+            "req": "^0.2.0",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "s2n-quic",
+            "req": "^1",
+            "features": [
+                "provider-tls-default",
+                "provider-address-token-default"
+            ],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1",
+            "features": [
+                "net",
+                "sync",
+                "io-util"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1",
+            "features": [],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing-subscriber",
+            "req": "^0.3",
+            "features": [
+                "ansi"
+            ],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "7660b0c2ec3933a99d48b3c39016af1e4741525d9436666c600a007ca3d2609b",
+    "features": {
+        "binary": [
+            "clap",
+            "tokio/macros",
+            "tokio/rt-multi-thread",
+            "tracing-subscriber"
+        ],
+        "transport-default": [
+            "transport-quic"
+        ],
+        "transport-quic": [
+            "s2n-quic",
+            "aws-lc-rs"
+        ]
+    },
+    "features2": {
+        "default": [
+            "transport-default",
+            "tracing"
+        ],
+        "tracing": [
+            "dep:tracing"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

@@ -1,1 +1,103 @@
-{"name":"tauri-plugin-drpc","vers":"0.1.0","deps":[{"name":"anyhow","req":"^1.0.95","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"log","req":"^0.4.25","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"once_cell","req":"^1.20.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rpcdiscord","req":"^0.2.6","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.137","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tauri","req":"^2.2.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tauri-plugin","req":"^2.0.3","features":["build"],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"thiserror","req":"^2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.43.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"21f86759041161aedd83fa36de19107b99b0833e9ff6d6ce035c3e0312b8554d","features":{},"yanked":false,"links":"tauri-plugin-drpc","rust_version":"1.77.2"}
+{
+    "name": "tauri-plugin-drpc",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "anyhow",
+            "req": "^1.0.95",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "log",
+            "req": "^0.4.25",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "once_cell",
+            "req": "^1.20.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rpcdiscord",
+            "req": "^0.2.6",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.137",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tauri",
+            "req": "^2.2.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tauri-plugin",
+            "req": "^2.0.3",
+            "features": [
+                "build"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "thiserror",
+            "req": "^2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.43.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "21f86759041161aedd83fa36de19107b99b0833e9ff6d6ce035c3e0312b8554d",
+    "features": {},
+    "yanked": false,
+    "links": "tauri-plugin-drpc",
+    "rust_version": "1.77.2"
+}

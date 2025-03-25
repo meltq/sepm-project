@@ -1,1 +1,106 @@
-{"name":"ts-gettext-extractor","vers":"0.0.1","deps":[{"name":"clap","req":"^4.5.4","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"indicatif","req":"^0.17.8","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"pathdiff","req":"^0.2.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"pretty_assertions","req":"^1.4.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"swc_atoms","req":"^0.6.7","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"swc_common","req":"^0.33.26","features":["tty-emitter"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"swc_ecma_ast","req":"^0.113.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"swc_ecma_parser","req":"^0.144.1","features":["typescript","swc_ecma_visit"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"swc_ecma_visit","req":"^0.99.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"walkdir","req":"^2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"d5758c8fd21dfd371fa7c20222fc427078c45b28f75acf9ba3a6b20821514d0d","features":{},"yanked":false}
+{
+    "name": "ts-gettext-extractor",
+    "vers": "0.0.1",
+    "deps": [
+        {
+            "name": "clap",
+            "req": "^4.5.4",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "indicatif",
+            "req": "^0.17.8",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "pathdiff",
+            "req": "^0.2.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "pretty_assertions",
+            "req": "^1.4.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "swc_atoms",
+            "req": "^0.6.7",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "swc_common",
+            "req": "^0.33.26",
+            "features": [
+                "tty-emitter"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "swc_ecma_ast",
+            "req": "^0.113.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "swc_ecma_parser",
+            "req": "^0.144.1",
+            "features": [
+                "typescript",
+                "swc_ecma_visit"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "swc_ecma_visit",
+            "req": "^0.99.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "walkdir",
+            "req": "^2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "d5758c8fd21dfd371fa7c20222fc427078c45b28f75acf9ba3a6b20821514d0d",
+    "features": {},
+    "yanked": false
+}

@@ -1,1 +1,34 @@
-{"name":"dlt","vers":"0.1.0","deps":[{"name":"approx","req":"^0.3","features":[],"optional":false,"default_features":false,"target":null,"kind":"dev"},{"name":"nalgebra","req":"^0.20","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"}],"cksum":"b5a26258111bb9e035708e2b5f5b3dcec54fcad86917afce339f2abab0a57773","features":{"default":["std"],"std":["nalgebra/std"]},"yanked":false}
+{
+    "name": "dlt",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "approx",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "nalgebra",
+            "req": "^0.20",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "b5a26258111bb9e035708e2b5f5b3dcec54fcad86917afce339f2abab0a57773",
+    "features": {
+        "default": [
+            "std"
+        ],
+        "std": [
+            "nalgebra/std"
+        ]
+    },
+    "yanked": false
+}

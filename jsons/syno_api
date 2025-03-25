@@ -1,1 +1,36 @@
-{"name":"syno_api","vers":"0.1.0","deps":[{"name":"serde","req":"^1.0","features":["derive"],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"39c8cfe14100d2af4db20350516d7eb480a3517d74a061ef39fd73f9cb26bdef","features":{"dto":[],"error":[]},"features2":{"default":["dto","error","serde"],"serde":["dto","dep:serde"]},"yanked":false,"rust_version":"1.60.0","v":2}
+{
+    "name": "syno_api",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [
+                "derive"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "39c8cfe14100d2af4db20350516d7eb480a3517d74a061ef39fd73f9cb26bdef",
+    "features": {
+        "dto": [],
+        "error": []
+    },
+    "features2": {
+        "default": [
+            "dto",
+            "error",
+            "serde"
+        ],
+        "serde": [
+            "dto",
+            "dep:serde"
+        ]
+    },
+    "yanked": false,
+    "rust_version": "1.60.0",
+    "v": 2
+}

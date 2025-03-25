@@ -1,1 +1,154 @@
-{"name":"watermelon-net","vers":"0.1.0","deps":[{"name":"bytes","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"claims","req":"^0.8","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"futures-sink","req":"^0.3.14","features":[],"optional":true,"default_features":false,"target":null,"kind":"normal"},{"name":"futures-util","req":"^0.3.14","features":["alloc"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"futures-util","req":"^0.3.14","features":[],"optional":false,"default_features":false,"target":null,"kind":"dev"},{"name":"http","req":"^1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"pin-project-lite","req":"^0.2.15","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1","features":["net","time","io-util"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1","features":["macros","rt"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"tokio-websockets","req":"^0.11","features":["client","rand"],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"watermelon-proto","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"b55a1a83c2a717b2f4808760f43a3ca6059d292b69df8e32bbefb299e8976363","features":{"non-standard-zstd":["watermelon-proto/non-standard-zstd"]},"features2":{"aws-lc-rs":["tokio-websockets?/aws-lc-rs"],"default":["aws-lc-rs"],"fips":["tokio-websockets?/fips"],"ring":["tokio-websockets?/ring"],"websocket":["dep:tokio-websockets","dep:futures-sink","dep:http"]},"yanked":false,"rust_version":"1.81","v":2}
+{
+    "name": "watermelon-net",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "bytes",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "claims",
+            "req": "^0.8",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "futures-sink",
+            "req": "^0.3.14",
+            "features": [],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "futures-util",
+            "req": "^0.3.14",
+            "features": [
+                "alloc"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "futures-util",
+            "req": "^0.3.14",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "http",
+            "req": "^1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "pin-project-lite",
+            "req": "^0.2.15",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1",
+            "features": [
+                "net",
+                "time",
+                "io-util"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1",
+            "features": [
+                "macros",
+                "rt"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "tokio-websockets",
+            "req": "^0.11",
+            "features": [
+                "client",
+                "rand"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "watermelon-proto",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "b55a1a83c2a717b2f4808760f43a3ca6059d292b69df8e32bbefb299e8976363",
+    "features": {
+        "non-standard-zstd": [
+            "watermelon-proto/non-standard-zstd"
+        ]
+    },
+    "features2": {
+        "aws-lc-rs": [
+            "tokio-websockets?/aws-lc-rs"
+        ],
+        "default": [
+            "aws-lc-rs"
+        ],
+        "fips": [
+            "tokio-websockets?/fips"
+        ],
+        "ring": [
+            "tokio-websockets?/ring"
+        ],
+        "websocket": [
+            "dep:tokio-websockets",
+            "dep:futures-sink",
+            "dep:http"
+        ]
+    },
+    "yanked": false,
+    "rust_version": "1.81",
+    "v": 2
+}

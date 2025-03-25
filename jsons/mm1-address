@@ -1,1 +1,71 @@
-{"name":"mm1-address","vers":"0.5.0","deps":[{"name":"either","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"insta","req":"^1.29.0","features":["yaml","json","redactions"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"mm1-common","req":"=0.5.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"parking_lot","req":"^0.12","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"837ff079e741c60c4ddfa5b0f1b1ac21d02ca925115505d58765f016cc8ae490","features":{"default":[]},"yanked":true}
+{
+    "name": "mm1-address",
+    "vers": "0.5.0",
+    "deps": [
+        {
+            "name": "either",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "insta",
+            "req": "^1.29.0",
+            "features": [
+                "yaml",
+                "json",
+                "redactions"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "mm1-common",
+            "req": "=0.5.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "parking_lot",
+            "req": "^0.12",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "837ff079e741c60c4ddfa5b0f1b1ac21d02ca925115505d58765f016cc8ae490",
+    "features": {
+        "default": []
+    },
+    "yanked": true
+}

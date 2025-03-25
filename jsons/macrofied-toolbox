@@ -1,1 +1,73 @@
-{"name":"macrofied-toolbox","vers":"0.1.0","deps":[{"name":"cfg-if","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"cli-toolbox","req":"^0.5","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"gag","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"log","req":"^0.4","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"version-sync","req":"^0.9","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"216a1531ed2fb5591c997c8691e5cb3da2e1bec35dc5db2430b2f025c47ad609","features":{"all":["result"],"debug":["cli-toolbox/debug"],"debug-all":["debug-option","debug-result"],"debug-option":["debug"],"debug-result":["debug"],"default":[],"result":[]},"yanked":false}
+{
+    "name": "macrofied-toolbox",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "cfg-if",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "cli-toolbox",
+            "req": "^0.5",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "gag",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "log",
+            "req": "^0.4",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "version-sync",
+            "req": "^0.9",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "216a1531ed2fb5591c997c8691e5cb3da2e1bec35dc5db2430b2f025c47ad609",
+    "features": {
+        "all": [
+            "result"
+        ],
+        "debug": [
+            "cli-toolbox/debug"
+        ],
+        "debug-all": [
+            "debug-option",
+            "debug-result"
+        ],
+        "debug-option": [
+            "debug"
+        ],
+        "debug-result": [
+            "debug"
+        ],
+        "default": [],
+        "result": []
+    },
+    "yanked": false
+}

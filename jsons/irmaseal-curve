@@ -1,1 +1,42 @@
-{"name":"irmaseal-curve","vers":"0.1.1","deps":[{"name":"criterion","req":"^0.2.11","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"subtle","req":"^2.2.1","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"}],"cksum":"42c5516129f17a5ffd275387cfa042a99da82cb72be835ac8a0cd91456c467b6","features":{"alloc":[],"default":["groups","pairings","alloc"],"endo":[],"groups":[],"nightly":["subtle/nightly"],"pairings":["groups"]},"yanked":false}
+{
+    "name": "irmaseal-curve",
+    "vers": "0.1.1",
+    "deps": [
+        {
+            "name": "criterion",
+            "req": "^0.2.11",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "subtle",
+            "req": "^2.2.1",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "42c5516129f17a5ffd275387cfa042a99da82cb72be835ac8a0cd91456c467b6",
+    "features": {
+        "alloc": [],
+        "default": [
+            "groups",
+            "pairings",
+            "alloc"
+        ],
+        "endo": [],
+        "groups": [],
+        "nightly": [
+            "subtle/nightly"
+        ],
+        "pairings": [
+            "groups"
+        ]
+    },
+    "yanked": false
+}

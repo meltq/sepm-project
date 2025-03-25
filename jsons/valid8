@@ -1,1 +1,31 @@
-{"name":"valid8","vers":"0.1.0","deps":[{"name":"regex","req":"^1.11.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"valid8_derive","req":"^0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"14f8531160dedb13bba954dc94034b78a4821f9e4fb20557a4942a0fdae0be03","features":{"derive":["valid8_derive"]},"yanked":false}
+{
+    "name": "valid8",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "regex",
+            "req": "^1.11.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "valid8_derive",
+            "req": "^0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "14f8531160dedb13bba954dc94034b78a4821f9e4fb20557a4942a0fdae0be03",
+    "features": {
+        "derive": [
+            "valid8_derive"
+        ]
+    },
+    "yanked": false
+}

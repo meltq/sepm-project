@@ -1,1 +1,53 @@
-{"name":"leptos_async_signal","vers":"0.1.0","deps":[{"name":"leptos","req":"^0.7.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1","features":["full"],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"7e3796b8819f8b2cde8f3e0aa3de13f6f201c06375b2ee9461194ee60d95361c","features":{"default":[],"hydrate":["leptos/hydrate"]},"features2":{"ssr":["leptos/ssr","dep:tokio"]},"yanked":false,"rust_version":"1.76","v":2}
+{
+    "name": "leptos_async_signal",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "leptos",
+            "req": "^0.7.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1",
+            "features": [
+                "full"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "7e3796b8819f8b2cde8f3e0aa3de13f6f201c06375b2ee9461194ee60d95361c",
+    "features": {
+        "default": [],
+        "hydrate": [
+            "leptos/hydrate"
+        ]
+    },
+    "features2": {
+        "ssr": [
+            "leptos/ssr",
+            "dep:tokio"
+        ]
+    },
+    "yanked": false,
+    "rust_version": "1.76",
+    "v": 2
+}

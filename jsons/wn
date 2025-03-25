@@ -1,1 +1,49 @@
-{"name":"wn","vers":"0.1.0","deps":[{"name":"expect-test","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"quick-xml","req":"^0.22","features":["serialize"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"21c26df1a2c58780674373e7a6cc4d6cd5a0f9c757d9a366ff6b2f3f66cdc5b1","features":{},"yanked":false}
+{
+    "name": "wn",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "expect-test",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "quick-xml",
+            "req": "^0.22",
+            "features": [
+                "serialize"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "21c26df1a2c58780674373e7a6cc4d6cd5a0f9c757d9a366ff6b2f3f66cdc5b1",
+    "features": {},
+    "yanked": false
+}

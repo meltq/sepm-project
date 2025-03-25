@@ -1,1 +1,39 @@
-{"name":"windows_service_controller","vers":"0.1.1","deps":[{"name":"lazy_static","req":"^1.4.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"widestring","req":"^1.0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"windows","req":"^0.54.0","features":["Win32_System_Services","Win32_Security"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"0b4efdfea187e5ee2b7b5b0e3924157e0d6e52c1174fa81e7e1814305fc3ecb8","features":{},"yanked":true}
+{
+    "name": "windows_service_controller",
+    "vers": "0.1.1",
+    "deps": [
+        {
+            "name": "lazy_static",
+            "req": "^1.4.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "widestring",
+            "req": "^1.0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "windows",
+            "req": "^0.54.0",
+            "features": [
+                "Win32_System_Services",
+                "Win32_Security"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "0b4efdfea187e5ee2b7b5b0e3924157e0d6e52c1174fa81e7e1814305fc3ecb8",
+    "features": {},
+    "yanked": true
+}

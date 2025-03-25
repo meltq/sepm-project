@@ -1,1 +1,29 @@
-{"name":"humane_commands","vers":"0.1.0","deps":[{"name":"thiserror","req":"^1.0.50","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"d7ff4febfc7968fa8987e0c7fabaf2265cf4a72b486583d0c9740534f8075bfb","features":{"default":["opt_arg","output","ok"],"ok":["thiserror"],"opt_arg":[],"output":[]},"yanked":false}
+{
+    "name": "humane_commands",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "thiserror",
+            "req": "^1.0.50",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "d7ff4febfc7968fa8987e0c7fabaf2265cf4a72b486583d0c9740534f8075bfb",
+    "features": {
+        "default": [
+            "opt_arg",
+            "output",
+            "ok"
+        ],
+        "ok": [
+            "thiserror"
+        ],
+        "opt_arg": [],
+        "output": []
+    },
+    "yanked": false
+}

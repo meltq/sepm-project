@@ -1,1 +1,61 @@
-{"name":"gmpmee-sys","vers":"0.1.0","deps":[{"name":"cc","req":"^1.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"dirs","req":"^5","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"gmp-mpfr-sys","req":"^1.6.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"libc","req":"^0.2.44","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"windows-sys","req":"^0.59","features":["Win32_Foundation","Win32_Globalization","Win32_System_Com","Win32_UI_Shell"],"optional":false,"default_features":true,"target":"cfg(target_os = \"windows\")","kind":"build"}],"cksum":"9d1d55b889435ba3cc09cfee88ff52ffc37e26841bf363e821dc7d5a49cb7b67","features":{},"yanked":false,"links":"gmpmee","rust_version":"1.83"}
+{
+    "name": "gmpmee-sys",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "cc",
+            "req": "^1.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "dirs",
+            "req": "^5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "gmp-mpfr-sys",
+            "req": "^1.6.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "libc",
+            "req": "^0.2.44",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "windows-sys",
+            "req": "^0.59",
+            "features": [
+                "Win32_Foundation",
+                "Win32_Globalization",
+                "Win32_System_Com",
+                "Win32_UI_Shell"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": "cfg(target_os = \"windows\")",
+            "kind": "build"
+        }
+    ],
+    "cksum": "9d1d55b889435ba3cc09cfee88ff52ffc37e26841bf363e821dc7d5a49cb7b67",
+    "features": {},
+    "yanked": false,
+    "links": "gmpmee",
+    "rust_version": "1.83"
+}

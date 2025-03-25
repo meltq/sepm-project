@@ -1,1 +1,51 @@
-{"name":"nt-time","vers":"0.1.0","deps":[{"name":"anyhow","req":"^1.0.70","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"clap","req":"^3.2.23","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"time","req":"^0.3.20","features":["macros"],"optional":false,"default_features":false,"target":null,"kind":"normal"}],"cksum":"275c86eb6c52575c635171691bb259233b8abf414452d040aad85f0405d2e01d","features":{"default":["std"],"large-dates":["time/large-dates"],"std":["time/std"]},"yanked":false,"rust_version":"1.63.0"}
+{
+    "name": "nt-time",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "anyhow",
+            "req": "^1.0.70",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "clap",
+            "req": "^3.2.23",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "time",
+            "req": "^0.3.20",
+            "features": [
+                "macros"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "275c86eb6c52575c635171691bb259233b8abf414452d040aad85f0405d2e01d",
+    "features": {
+        "default": [
+            "std"
+        ],
+        "large-dates": [
+            "time/large-dates"
+        ],
+        "std": [
+            "time/std"
+        ]
+    },
+    "yanked": false,
+    "rust_version": "1.63.0"
+}

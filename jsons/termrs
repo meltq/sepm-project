@@ -1,1 +1,38 @@
-{"name":"termrs","vers":"0.1.0","deps":[{"name":"core","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal","package":"termrs_core"},{"name":"runtime","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal","package":"termrs_runtime"}],"cksum":"9ae683c7eb6bb872ce837ca653771604d449658cc6e2ca3684689d7617684fac","features":{"wayland":["core/wayland","runtime/wayland"],"x11":["core/x11","runtime/x11"]},"yanked":false}
+{
+    "name": "termrs",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "core",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal",
+            "package": "termrs_core"
+        },
+        {
+            "name": "runtime",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal",
+            "package": "termrs_runtime"
+        }
+    ],
+    "cksum": "9ae683c7eb6bb872ce837ca653771604d449658cc6e2ca3684689d7617684fac",
+    "features": {
+        "wayland": [
+            "core/wayland",
+            "runtime/wayland"
+        ],
+        "x11": [
+            "core/x11",
+            "runtime/x11"
+        ]
+    },
+    "yanked": false
+}

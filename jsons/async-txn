@@ -1,1 +1,167 @@
-{"name":"async-txn","vers":"0.1.0","deps":[{"name":"async-channel","req":"^2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"async-std","req":"^1","features":["attributes"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"cheap-clone","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"crossbeam-utils","req":"^0.8","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"either","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"futures","req":"^0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"indexmap","req":"^2","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"pollster","req":"^0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rand","req":"^0.8","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"rand","req":"^0.8","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"scopeguard","req":"^1","features":["use_std"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"smallvec-wrapper","req":"^0.1","features":["const_new"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"txn-core","req":"^0.1","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"wmark","req":"^0.1","features":["future","default"],"optional":false,"default_features":false,"target":null,"kind":"normal"}],"cksum":"bbe11205aeb2c689043c7e4a349e87897019ad15c53756a76500a7c33c781fbe","features":{"async-std":["wmark/async-std"],"default":[],"smol":["wmark/smol"],"test":["rand"],"tokio":["wmark/tokio"]},"yanked":false}
+{
+    "name": "async-txn",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "async-channel",
+            "req": "^2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "async-std",
+            "req": "^1",
+            "features": [
+                "attributes"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "cheap-clone",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "crossbeam-utils",
+            "req": "^0.8",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "either",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "futures",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "indexmap",
+            "req": "^2",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "pollster",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rand",
+            "req": "^0.8",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rand",
+            "req": "^0.8",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "scopeguard",
+            "req": "^1",
+            "features": [
+                "use_std"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "smallvec-wrapper",
+            "req": "^0.1",
+            "features": [
+                "const_new"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "txn-core",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "wmark",
+            "req": "^0.1",
+            "features": [
+                "future",
+                "default"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "bbe11205aeb2c689043c7e4a349e87897019ad15c53756a76500a7c33c781fbe",
+    "features": {
+        "async-std": [
+            "wmark/async-std"
+        ],
+        "default": [],
+        "smol": [
+            "wmark/smol"
+        ],
+        "test": [
+            "rand"
+        ],
+        "tokio": [
+            "wmark/tokio"
+        ]
+    },
+    "yanked": false
+}

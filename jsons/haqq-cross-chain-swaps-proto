@@ -1,1 +1,50 @@
-{"name":"haqq-cross-chain-swaps-proto","vers":"1.0.0","deps":[{"name":"prost","req":"^0.13.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1","features":["macros","rt-multi-thread"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tonic","req":"^0.12.3","features":["gzip"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tonic-build","req":"^0.12.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"}],"cksum":"cc98b1237897facde21b7348864292590902e6b98fd3277cc0f59577716af1b0","features":{},"yanked":false}
+{
+    "name": "haqq-cross-chain-swaps-proto",
+    "vers": "1.0.0",
+    "deps": [
+        {
+            "name": "prost",
+            "req": "^0.13.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1",
+            "features": [
+                "macros",
+                "rt-multi-thread"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tonic",
+            "req": "^0.12.3",
+            "features": [
+                "gzip"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tonic-build",
+            "req": "^0.12.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        }
+    ],
+    "cksum": "cc98b1237897facde21b7348864292590902e6b98fd3277cc0f59577716af1b0",
+    "features": {},
+    "yanked": false
+}

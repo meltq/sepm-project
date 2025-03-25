@@ -1,1 +1,45 @@
-{"name":"tensorflowlite","vers":"0.1.0","deps":[{"name":"bindgen","req":"^0.65","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"curl","req":"^0.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"fs_extra","req":"^1.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"}],"cksum":"f5bd2b66be51417e58ee16b3da8190e72773ae46ec4f03e576ad985bbf022801","features":{"flex":[],"xnnpack":[],"xnnpack_qs8":["xnnpack"],"xnnpack_qu8":["xnnpack"]},"yanked":false}
+{
+    "name": "tensorflowlite",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "bindgen",
+            "req": "^0.65",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "curl",
+            "req": "^0.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "fs_extra",
+            "req": "^1.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        }
+    ],
+    "cksum": "f5bd2b66be51417e58ee16b3da8190e72773ae46ec4f03e576ad985bbf022801",
+    "features": {
+        "flex": [],
+        "xnnpack": [],
+        "xnnpack_qs8": [
+            "xnnpack"
+        ],
+        "xnnpack_qu8": [
+            "xnnpack"
+        ]
+    },
+    "yanked": false
+}

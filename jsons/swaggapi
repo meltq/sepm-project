@@ -1,1 +1,136 @@
-{"name":"swaggapi","vers":"0.1.0","deps":[{"name":"actix-web","req":"~4","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"axum","req":"~0.7","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"bytes","req":"~1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"indexmap","req":"~2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"log","req":"~0.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"mime","req":"~0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"openapiv3","req":"~2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"schemars","req":"~0.8","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"~1","features":["rc"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"~1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"swaggapi-macro","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"swagger-ui","req":"^0.1.5","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"a924f53e39087fff8ba315c30e12ae752496dddcaebe4d32b1ea41930e07416b","features":{"default":["swagger-ui"]},"features2":{"actix":["dep:actix-web"],"axum":["dep:axum","dep:bytes"],"swagger-ui":["dep:swagger-ui"]},"yanked":false,"v":2}
+{
+    "name": "swaggapi",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "actix-web",
+            "req": "~4",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "axum",
+            "req": "~0.7",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "bytes",
+            "req": "~1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "indexmap",
+            "req": "~2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "log",
+            "req": "~0.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "mime",
+            "req": "~0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "openapiv3",
+            "req": "~2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "schemars",
+            "req": "~0.8",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "~1",
+            "features": [
+                "rc"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "~1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "swaggapi-macro",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "swagger-ui",
+            "req": "^0.1.5",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "a924f53e39087fff8ba315c30e12ae752496dddcaebe4d32b1ea41930e07416b",
+    "features": {
+        "default": [
+            "swagger-ui"
+        ]
+    },
+    "features2": {
+        "actix": [
+            "dep:actix-web"
+        ],
+        "axum": [
+            "dep:axum",
+            "dep:bytes"
+        ],
+        "swagger-ui": [
+            "dep:swagger-ui"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

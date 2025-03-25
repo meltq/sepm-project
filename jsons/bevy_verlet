@@ -1,1 +1,47 @@
-{"name":"bevy_verlet","vers":"0.1.0","deps":[{"name":"bevy","req":"^0.5","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"bevy","req":"^0.5","features":["render","bevy_winit","png","x11","bevy_wgpu"],"optional":false,"default_features":false,"target":null,"kind":"dev"},{"name":"bevy_prototype_debug_lines","req":"^0.3","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"2b0ff28427df93aede0f83d9e53adf8fffe50d399c1abf86b6ec1de6d29adddd","features":{"debug":["bevy_prototype_debug_lines"],"default":[]},"yanked":false}
+{
+    "name": "bevy_verlet",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "bevy",
+            "req": "^0.5",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "bevy",
+            "req": "^0.5",
+            "features": [
+                "render",
+                "bevy_winit",
+                "png",
+                "x11",
+                "bevy_wgpu"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "bevy_prototype_debug_lines",
+            "req": "^0.3",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "2b0ff28427df93aede0f83d9e53adf8fffe50d399c1abf86b6ec1de6d29adddd",
+    "features": {
+        "debug": [
+            "bevy_prototype_debug_lines"
+        ],
+        "default": []
+    },
+    "yanked": false
+}

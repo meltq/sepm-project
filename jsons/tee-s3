@@ -1,1 +1,58 @@
-{"name":"tee-s3","vers":"0.1.0","deps":[{"name":"aws-config","req":"^1.5.14","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"aws-sdk-s3","req":"^1.69.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"bytes","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"clap","req":"^4","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.0","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"f0ea8e6e994f2adae2ffd62c4cde0d4f9fd905ba0bf16a9b8fe9bca979be92fc","features":{},"yanked":false}
+{
+    "name": "tee-s3",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "aws-config",
+            "req": "^1.5.14",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "aws-sdk-s3",
+            "req": "^1.69.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "bytes",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "clap",
+            "req": "^4",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.0",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "f0ea8e6e994f2adae2ffd62c4cde0d4f9fd905ba0bf16a9b8fe9bca979be92fc",
+    "features": {},
+    "yanked": false
+}

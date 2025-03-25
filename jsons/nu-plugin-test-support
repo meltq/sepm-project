@@ -1,1 +1,87 @@
-{"name":"nu-plugin-test-support","vers":"0.92.0","deps":[{"name":"nu-ansi-term","req":"^0.50.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"nu-engine","req":"^0.92.0","features":["plugin"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"nu-parser","req":"^0.92.0","features":["plugin"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"nu-plugin","req":"^0.92.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"nu-protocol","req":"^0.92.0","features":["plugin"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"similar","req":"^2.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"typetag","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"d72edb8821b7960142ce4eebacb82d9f6cf3f0bdf3fa1b6216fade132722d375","features":{},"yanked":false}
+{
+    "name": "nu-plugin-test-support",
+    "vers": "0.92.0",
+    "deps": [
+        {
+            "name": "nu-ansi-term",
+            "req": "^0.50.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "nu-engine",
+            "req": "^0.92.0",
+            "features": [
+                "plugin"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "nu-parser",
+            "req": "^0.92.0",
+            "features": [
+                "plugin"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "nu-plugin",
+            "req": "^0.92.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "nu-protocol",
+            "req": "^0.92.0",
+            "features": [
+                "plugin"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "similar",
+            "req": "^2.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "typetag",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "d72edb8821b7960142ce4eebacb82d9f6cf3f0bdf3fa1b6216fade132722d375",
+    "features": {},
+    "yanked": false
+}

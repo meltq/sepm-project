@@ -1,1 +1,60 @@
-{"name":"mavshark","vers":"0.1.0","deps":[{"name":"clap","req":"^4.5.28","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"crossterm","req":"^0.28.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"mavlink","req":"^0.13","features":["common","emit-extensions","format-generated-code"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.217","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.138","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"addc76eae602a6778c92a7c4409ded39b320179b7c81df221f6a13b45499951e","features":{},"yanked":false}
+{
+    "name": "mavshark",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "clap",
+            "req": "^4.5.28",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "crossterm",
+            "req": "^0.28.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "mavlink",
+            "req": "^0.13",
+            "features": [
+                "common",
+                "emit-extensions",
+                "format-generated-code"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.217",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.138",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "addc76eae602a6778c92a7c4409ded39b320179b7c81df221f6a13b45499951e",
+    "features": {},
+    "yanked": false
+}

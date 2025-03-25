@@ -1,1 +1,61 @@
-{"name":"deft-yoga","vers":"0.4.0","deps":[{"name":"bindgen","req":"^0.63.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"cc","req":"^1.2.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"ordered-float","req":"^3.4.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.151","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_derive","req":"^1.0.151","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"8bbc05b429ace4ed72c21938056071a0a334d85ff0d62d286eb1358c86a0d850","features":{"default":[],"serde_support":["serde","serde_derive","ordered-float/serde"]},"yanked":false}
+{
+    "name": "deft-yoga",
+    "vers": "0.4.0",
+    "deps": [
+        {
+            "name": "bindgen",
+            "req": "^0.63.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "cc",
+            "req": "^1.2.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "ordered-float",
+            "req": "^3.4.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.151",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_derive",
+            "req": "^1.0.151",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "8bbc05b429ace4ed72c21938056071a0a334d85ff0d62d286eb1358c86a0d850",
+    "features": {
+        "default": [],
+        "serde_support": [
+            "serde",
+            "serde_derive",
+            "ordered-float/serde"
+        ]
+    },
+    "yanked": false
+}

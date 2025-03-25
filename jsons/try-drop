@@ -1,1 +1,146 @@
-{"name":"try-drop","vers":"0.1.0","deps":[{"name":"anyhow","req":"^1.0.53","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"downcast-rs","req":"^1.2.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"once_cell","req":"^1.9.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"parking_lot","req":"^0.12.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"rand","req":"^0.8.4","features":["std","std_rng"],"optional":false,"default_features":false,"target":null,"kind":"dev"},{"name":"shrinkwraprs","req":"^0.3.0","features":[],"optional":true,"default_features":false,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.16.1","features":["sync","rt"],"optional":true,"default_features":false,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.16.1","features":["rt-multi-thread"],"optional":false,"default_features":false,"target":null,"kind":"dev"}],"cksum":"56016111e0b4464fd5898ab6b76abadf9b4a3a1af9961f00be156a91ae8a34f7","features":{"default":["global","downcast-rs","std","shrinkwraprs","derives","drop-strategies"],"derives":[],"drop-strategies":["ds-abort","ds-broadcast","ds-exit","ds-noop","ds-panic","ds-write","ds-adhoc-mut","ds-once-cell"],"ds-abort":["std"],"ds-adhoc":[],"ds-adhoc-mut":["ds-adhoc"],"ds-broadcast":["tokio","std"],"ds-exit":["std"],"ds-noop":[],"ds-once-cell":["std","once_cell"],"ds-panic":[],"ds-write":["std","parking_lot"],"global":["std","once_cell","parking_lot","global-defaults"],"global-defaults":["ds-write","ds-abort"],"std":["anyhow/std"]},"yanked":false}
+{
+    "name": "try-drop",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "anyhow",
+            "req": "^1.0.53",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "downcast-rs",
+            "req": "^1.2.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "once_cell",
+            "req": "^1.9.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "parking_lot",
+            "req": "^0.12.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rand",
+            "req": "^0.8.4",
+            "features": [
+                "std",
+                "std_rng"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "shrinkwraprs",
+            "req": "^0.3.0",
+            "features": [],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.16.1",
+            "features": [
+                "sync",
+                "rt"
+            ],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.16.1",
+            "features": [
+                "rt-multi-thread"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "56016111e0b4464fd5898ab6b76abadf9b4a3a1af9961f00be156a91ae8a34f7",
+    "features": {
+        "default": [
+            "global",
+            "downcast-rs",
+            "std",
+            "shrinkwraprs",
+            "derives",
+            "drop-strategies"
+        ],
+        "derives": [],
+        "drop-strategies": [
+            "ds-abort",
+            "ds-broadcast",
+            "ds-exit",
+            "ds-noop",
+            "ds-panic",
+            "ds-write",
+            "ds-adhoc-mut",
+            "ds-once-cell"
+        ],
+        "ds-abort": [
+            "std"
+        ],
+        "ds-adhoc": [],
+        "ds-adhoc-mut": [
+            "ds-adhoc"
+        ],
+        "ds-broadcast": [
+            "tokio",
+            "std"
+        ],
+        "ds-exit": [
+            "std"
+        ],
+        "ds-noop": [],
+        "ds-once-cell": [
+            "std",
+            "once_cell"
+        ],
+        "ds-panic": [],
+        "ds-write": [
+            "std",
+            "parking_lot"
+        ],
+        "global": [
+            "std",
+            "once_cell",
+            "parking_lot",
+            "global-defaults"
+        ],
+        "global-defaults": [
+            "ds-write",
+            "ds-abort"
+        ],
+        "std": [
+            "anyhow/std"
+        ]
+    },
+    "yanked": false
+}

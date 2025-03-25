@@ -1,1 +1,29 @@
-{"name":"webcrawler","vers":"0.1.0","deps":[{"name":"futures-io","req":"^0.3.30","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"reqwest","req":"^0.11","features":["blocking"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"67cf54a96af78b97632891f82ce98e1c0867d5f47df4073cc1a1282770d665a6","features":{},"yanked":false}
+{
+    "name": "webcrawler",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "futures-io",
+            "req": "^0.3.30",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "reqwest",
+            "req": "^0.11",
+            "features": [
+                "blocking"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "67cf54a96af78b97632891f82ce98e1c0867d5f47df4073cc1a1282770d665a6",
+    "features": {},
+    "yanked": false
+}

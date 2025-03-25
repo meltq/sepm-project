@@ -1,1 +1,208 @@
-{"name":"qiniu-download-manager","vers":"0.1.1","deps":[{"name":"anyhow","req":"^1.0.51","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"assert-impl","req":"^0.1.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"async-std","req":"^1.9.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"async-std","req":"^1.9.0","features":["attributes","unstable"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"auto_impl","req":"^0.5.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal","package":"bachue-auto_impl"},{"name":"env_logger","req":"^0.8.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"futures","req":"^0.3.5","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"http","req":"^0.2.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"log","req":"^0.4.14","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"qiniu-apis","req":"^0.1.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rand","req":"^0.8.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"sha-1","req":"^0.9.6","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"smart-default","req":"^0.6.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^1.0.25","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"url-escape","req":"^0.1.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"fded9da95cd2fc0595704cfea24847ef83961ae19b8c90f4077b8e82e7c36d1b","features":{"async":["futures","qiniu-apis/async","async-std","smart-default"],"c_ares":["qiniu-apis/c_ares"],"default":["ureq"],"dns-over-https":["qiniu-apis/dns-over-https"],"dns-over-https-rustls":["qiniu-apis/dns-over-https-rustls"],"dns-over-native-tls":["qiniu-apis/dns-over-native-tls"],"dns-over-rustls":["qiniu-apis/dns-over-rustls"],"dns-over-tls":["qiniu-apis/dns-over-tls"],"dnssec":["qiniu-apis/dnssec"],"dnssec-openssl":["qiniu-apis/dnssec-openssl"],"dnssec-ring":["qiniu-apis/dnssec-ring"],"docs":[],"isahc":["qiniu-apis/isahc"],"reqwest":["qiniu-apis/reqwest"],"tokio02":["qiniu-apis/tokio02"],"tokio03":["qiniu-apis/tokio03"],"tokio1":["qiniu-apis/tokio1"],"trust_dns":["qiniu-apis/trust_dns"],"ureq":["qiniu-apis/ureq"]},"yanked":false,"rust_version":"1.60.0"}
+{
+    "name": "qiniu-download-manager",
+    "vers": "0.1.1",
+    "deps": [
+        {
+            "name": "anyhow",
+            "req": "^1.0.51",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "assert-impl",
+            "req": "^0.1.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "async-std",
+            "req": "^1.9.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "async-std",
+            "req": "^1.9.0",
+            "features": [
+                "attributes",
+                "unstable"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "auto_impl",
+            "req": "^0.5.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal",
+            "package": "bachue-auto_impl"
+        },
+        {
+            "name": "env_logger",
+            "req": "^0.8.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "futures",
+            "req": "^0.3.5",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "http",
+            "req": "^0.2.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "log",
+            "req": "^0.4.14",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "qiniu-apis",
+            "req": "^0.1.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rand",
+            "req": "^0.8.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "sha-1",
+            "req": "^0.9.6",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "smart-default",
+            "req": "^0.6.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^1.0.25",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "url-escape",
+            "req": "^0.1.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "fded9da95cd2fc0595704cfea24847ef83961ae19b8c90f4077b8e82e7c36d1b",
+    "features": {
+        "async": [
+            "futures",
+            "qiniu-apis/async",
+            "async-std",
+            "smart-default"
+        ],
+        "c_ares": [
+            "qiniu-apis/c_ares"
+        ],
+        "default": [
+            "ureq"
+        ],
+        "dns-over-https": [
+            "qiniu-apis/dns-over-https"
+        ],
+        "dns-over-https-rustls": [
+            "qiniu-apis/dns-over-https-rustls"
+        ],
+        "dns-over-native-tls": [
+            "qiniu-apis/dns-over-native-tls"
+        ],
+        "dns-over-rustls": [
+            "qiniu-apis/dns-over-rustls"
+        ],
+        "dns-over-tls": [
+            "qiniu-apis/dns-over-tls"
+        ],
+        "dnssec": [
+            "qiniu-apis/dnssec"
+        ],
+        "dnssec-openssl": [
+            "qiniu-apis/dnssec-openssl"
+        ],
+        "dnssec-ring": [
+            "qiniu-apis/dnssec-ring"
+        ],
+        "docs": [],
+        "isahc": [
+            "qiniu-apis/isahc"
+        ],
+        "reqwest": [
+            "qiniu-apis/reqwest"
+        ],
+        "tokio02": [
+            "qiniu-apis/tokio02"
+        ],
+        "tokio03": [
+            "qiniu-apis/tokio03"
+        ],
+        "tokio1": [
+            "qiniu-apis/tokio1"
+        ],
+        "trust_dns": [
+            "qiniu-apis/trust_dns"
+        ],
+        "ureq": [
+            "qiniu-apis/ureq"
+        ]
+    },
+    "yanked": false,
+    "rust_version": "1.60.0"
+}

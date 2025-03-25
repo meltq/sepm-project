@@ -1,1 +1,115 @@
-{"name":"geekorm-derive","vers":"0.1.0","deps":[{"name":"chrono","req":"^0.4","features":["serde"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"geekorm-core","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"proc-macro2","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"quote","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"syn","req":"^2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"uuid","req":"^1","features":["v4"],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"cc3f05d7f02cd9bec03573fd82b0a4b83d825feca4259a573e672837146d9e7b","features":{"chrono":["geekorm-core/chrono"],"default":[],"helpers":[],"libsql":["geekorm-core/libsql"],"new":[],"primary_key":[]},"features2":{"uuid":["geekorm-core/uuid","dep:uuid"]},"yanked":false,"rust_version":"1.74","v":2}
+{
+    "name": "geekorm-derive",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "chrono",
+            "req": "^0.4",
+            "features": [
+                "serde"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "geekorm-core",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "proc-macro2",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "quote",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "syn",
+            "req": "^2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "uuid",
+            "req": "^1",
+            "features": [
+                "v4"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "cc3f05d7f02cd9bec03573fd82b0a4b83d825feca4259a573e672837146d9e7b",
+    "features": {
+        "chrono": [
+            "geekorm-core/chrono"
+        ],
+        "default": [],
+        "helpers": [],
+        "libsql": [
+            "geekorm-core/libsql"
+        ],
+        "new": [],
+        "primary_key": []
+    },
+    "features2": {
+        "uuid": [
+            "geekorm-core/uuid",
+            "dep:uuid"
+        ]
+    },
+    "yanked": false,
+    "rust_version": "1.74",
+    "v": 2
+}

@@ -1,1 +1,52 @@
-{"name":"lenient_semver_parser","vers":"0.3.0","deps":[{"name":"semver","req":"^0.11","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"semver","req":"^0.11","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"semver10","req":"^0.10","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal","package":"semver"},{"name":"test-case","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"c7cb776fddcf01a2bf698446332a08b38ad591f93126f3d78880bd2e1900cbbe","features":{"default":["semver"],"generator":[],"strict":[]},"yanked":false}
+{
+    "name": "lenient_semver_parser",
+    "vers": "0.3.0",
+    "deps": [
+        {
+            "name": "semver",
+            "req": "^0.11",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "semver",
+            "req": "^0.11",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "semver10",
+            "req": "^0.10",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal",
+            "package": "semver"
+        },
+        {
+            "name": "test-case",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "c7cb776fddcf01a2bf698446332a08b38ad591f93126f3d78880bd2e1900cbbe",
+    "features": {
+        "default": [
+            "semver"
+        ],
+        "generator": [],
+        "strict": []
+    },
+    "yanked": false
+}

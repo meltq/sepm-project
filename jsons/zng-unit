@@ -1,1 +1,52 @@
-{"name":"zng-unit","vers":"0.2.0","deps":[{"name":"bytemuck","req":"^1","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"euclid","req":"^0.22","features":["serde","bytemuck"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"num-traits","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"c9caf1871a8b0c48e49fe4e1866e2a8b5ad861f58151a1a17ee01309d5186178","features":{},"yanked":false}
+{
+    "name": "zng-unit",
+    "vers": "0.2.0",
+    "deps": [
+        {
+            "name": "bytemuck",
+            "req": "^1",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "euclid",
+            "req": "^0.22",
+            "features": [
+                "serde",
+                "bytemuck"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "num-traits",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "c9caf1871a8b0c48e49fe4e1866e2a8b5ad861f58151a1a17ee01309d5186178",
+    "features": {},
+    "yanked": false
+}

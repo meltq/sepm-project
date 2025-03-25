@@ -1,1 +1,33 @@
-{"name":"hw_dcmi_wrapper_sys","vers":"0.1.0","deps":[{"name":"bindgen","req":"^0.70.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"libloading","req":"^0.8","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"a4faf67d6339ec28f3ac51865fdf973db29bb671134a985034f99bc3de95b2fd","features":{},"features2":{"load_dynamic":["dep:libloading"]},"yanked":false,"v":2}
+{
+    "name": "hw_dcmi_wrapper_sys",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "bindgen",
+            "req": "^0.70.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "libloading",
+            "req": "^0.8",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "a4faf67d6339ec28f3ac51865fdf973db29bb671134a985034f99bc3de95b2fd",
+    "features": {},
+    "features2": {
+        "load_dynamic": [
+            "dep:libloading"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

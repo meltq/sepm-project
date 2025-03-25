@@ -1,1 +1,85 @@
-{"name":"zeebe-rs","vers":"0.1.0","deps":[{"name":"oauth2","req":"^5.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"prost","req":"^0.13.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.217","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.137","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^2.0.11","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.43.0","features":["rt-multi-thread"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tonic","req":"^0.12.3","features":["tls"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tonic-build","req":"^0.12.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"}],"cksum":"eddc58c9a77f3a5e27e57f289aa95824be967a262cba96c113a0ae35a3dd069e","features":{},"yanked":false}
+{
+    "name": "zeebe-rs",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "oauth2",
+            "req": "^5.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "prost",
+            "req": "^0.13.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.217",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.137",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^2.0.11",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.43.0",
+            "features": [
+                "rt-multi-thread"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tonic",
+            "req": "^0.12.3",
+            "features": [
+                "tls"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tonic-build",
+            "req": "^0.12.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        }
+    ],
+    "cksum": "eddc58c9a77f3a5e27e57f289aa95824be967a262cba96c113a0ae35a3dd069e",
+    "features": {},
+    "yanked": false
+}

@@ -1,1 +1,115 @@
-{"name":"potatonet","vers":"0.3.0","deps":[{"name":"async-std","req":"^1.4.0","features":["attributes"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"potatonet-bus","req":"^0.3.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"potatonet-client","req":"^0.3.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"potatonet-codegen","req":"^0.3.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"potatonet-common","req":"^0.3.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"potatonet-node","req":"^0.3.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"potatonet-service-logger","req":"^0.3.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"rustyline","req":"^6.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"serde","req":"^1.0.104","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"37d7f48c0be0caa189161851264cc3b8b909968b9b4aff0252dce6feba39244a","features":{"bus":["potatonet-bus"],"client":["potatonet-client"],"codegen":["potatonet-codegen"],"default":["bus","client","codegen","node","service-logger"],"node":["potatonet-node"],"service-logger":["potatonet-service-logger"]},"yanked":false}
+{
+    "name": "potatonet",
+    "vers": "0.3.0",
+    "deps": [
+        {
+            "name": "async-std",
+            "req": "^1.4.0",
+            "features": [
+                "attributes"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "potatonet-bus",
+            "req": "^0.3.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "potatonet-client",
+            "req": "^0.3.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "potatonet-codegen",
+            "req": "^0.3.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "potatonet-common",
+            "req": "^0.3.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "potatonet-node",
+            "req": "^0.3.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "potatonet-service-logger",
+            "req": "^0.3.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rustyline",
+            "req": "^6.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.104",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "37d7f48c0be0caa189161851264cc3b8b909968b9b4aff0252dce6feba39244a",
+    "features": {
+        "bus": [
+            "potatonet-bus"
+        ],
+        "client": [
+            "potatonet-client"
+        ],
+        "codegen": [
+            "potatonet-codegen"
+        ],
+        "default": [
+            "bus",
+            "client",
+            "codegen",
+            "node",
+            "service-logger"
+        ],
+        "node": [
+            "potatonet-node"
+        ],
+        "service-logger": [
+            "potatonet-service-logger"
+        ]
+    },
+    "yanked": false
+}

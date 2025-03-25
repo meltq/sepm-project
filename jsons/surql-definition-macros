@@ -1,1 +1,40 @@
-{"name":"surql-definition-macros","vers":"0.1.0","deps":[{"name":"proc-macro2","req":"^1.0.81","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"quote","req":"^1.0.36","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"syn","req":"^2.0.60","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"cf29865209951336b1f48d4fcca83339bbc4bdd2c6d66311a4883bb0525dd2e3","features":{"default":[]},"yanked":false}
+{
+    "name": "surql-definition-macros",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "proc-macro2",
+            "req": "^1.0.81",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "quote",
+            "req": "^1.0.36",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "syn",
+            "req": "^2.0.60",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "cf29865209951336b1f48d4fcca83339bbc4bdd2c6d66311a4883bb0525dd2e3",
+    "features": {
+        "default": []
+    },
+    "yanked": false
+}

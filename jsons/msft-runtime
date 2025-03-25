@@ -1,1 +1,222 @@
-{"name":"msft-runtime","vers":"0.0.2","deps":[{"name":"bitflags","req":"^2.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"bytes","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"crossbeam","req":"^0.8","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"futures","req":"^0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"mockall","req":"^0.12","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"msft-service","req":"^0.0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"num-derive","req":"^0.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"num-traits","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"parking_lot","req":"^0.12","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"pin-project-lite","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.32","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing-appender","req":"^0.2","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing-subscriber","req":"^0.3","features":["fmt","chrono","std","env-filter","registry","time"],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"trybuild","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"win_etw_macros","req":"0.1.*","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"win_etw_provider","req":"0.1.*","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"win_etw_tracing","req":"0.1.*","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"windows-sys","req":"^0.52","features":["Win32_Devices","Win32_Devices_Communication","Win32_Foundation","Win32_Graphics_Gdi","Win32_Security","Win32_Storage_FileSystem","Win32_System_SystemInformation","Win32_System_IO","Win32_System_Kernel","Win32_System_LibraryLoader","Win32_System_Pipes","Win32_System_Power","Win32_System_Registry","Win32_System_Rpc","Win32_System_Services","Win32_System_SystemServices","Win32_System_Threading","Win32_System_RemoteDesktop","Win32_UI_WindowsAndMessaging"],"optional":false,"default_features":true,"target":"cfg(windows)","kind":"normal"}],"cksum":"dc8bfa3bc38c9cc3ce946f189214d02f3003426370a06799786b11398282b1af","features":{"default":[]},"features2":{"bin":["dep:tracing-appender","dep:tracing-subscriber","dep:win_etw_macros","dep:win_etw_provider","dep:win_etw_tracing","msft-service/bin"]},"yanked":false,"v":2}
+{
+    "name": "msft-runtime",
+    "vers": "0.0.2",
+    "deps": [
+        {
+            "name": "bitflags",
+            "req": "^2.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "bytes",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "crossbeam",
+            "req": "^0.8",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "futures",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "mockall",
+            "req": "^0.12",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "msft-service",
+            "req": "^0.0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "num-derive",
+            "req": "^0.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "num-traits",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "parking_lot",
+            "req": "^0.12",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "pin-project-lite",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.32",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing-appender",
+            "req": "^0.2",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing-subscriber",
+            "req": "^0.3",
+            "features": [
+                "fmt",
+                "chrono",
+                "std",
+                "env-filter",
+                "registry",
+                "time"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "trybuild",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "win_etw_macros",
+            "req": "0.1.*",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "win_etw_provider",
+            "req": "0.1.*",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "win_etw_tracing",
+            "req": "0.1.*",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "windows-sys",
+            "req": "^0.52",
+            "features": [
+                "Win32_Devices",
+                "Win32_Devices_Communication",
+                "Win32_Foundation",
+                "Win32_Graphics_Gdi",
+                "Win32_Security",
+                "Win32_Storage_FileSystem",
+                "Win32_System_SystemInformation",
+                "Win32_System_IO",
+                "Win32_System_Kernel",
+                "Win32_System_LibraryLoader",
+                "Win32_System_Pipes",
+                "Win32_System_Power",
+                "Win32_System_Registry",
+                "Win32_System_Rpc",
+                "Win32_System_Services",
+                "Win32_System_SystemServices",
+                "Win32_System_Threading",
+                "Win32_System_RemoteDesktop",
+                "Win32_UI_WindowsAndMessaging"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": "cfg(windows)",
+            "kind": "normal"
+        }
+    ],
+    "cksum": "dc8bfa3bc38c9cc3ce946f189214d02f3003426370a06799786b11398282b1af",
+    "features": {
+        "default": []
+    },
+    "features2": {
+        "bin": [
+            "dep:tracing-appender",
+            "dep:tracing-subscriber",
+            "dep:win_etw_macros",
+            "dep:win_etw_provider",
+            "dep:win_etw_tracing",
+            "msft-service/bin"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

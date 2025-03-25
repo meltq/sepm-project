@@ -1,1 +1,52 @@
-{"name":"onering","vers":"1.0.0","deps":[{"name":"criterion","req":"^0.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"crossbeam","req":"^0.8","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"crossbeam-utils","req":"^0.8","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"disruptor-rs","req":"^0.1.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"89c9a914b0cdd7e044de41859731b3772554a635a234cf6e987342ea90d03511","features":{"default":["std"],"std":["crossbeam-utils/std"]},"yanked":false}
+{
+    "name": "onering",
+    "vers": "1.0.0",
+    "deps": [
+        {
+            "name": "criterion",
+            "req": "^0.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "crossbeam",
+            "req": "^0.8",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "crossbeam-utils",
+            "req": "^0.8",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "disruptor-rs",
+            "req": "^0.1.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "89c9a914b0cdd7e044de41859731b3772554a635a234cf6e987342ea90d03511",
+    "features": {
+        "default": [
+            "std"
+        ],
+        "std": [
+            "crossbeam-utils/std"
+        ]
+    },
+    "yanked": false
+}

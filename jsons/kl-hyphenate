@@ -1,1 +1,135 @@
-{"name":"kl-hyphenate","vers":"0.7.1","deps":[{"name":"atlatl","req":"^0.1.2","features":["serde"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"atlatl","req":"^0.1.2","features":["serde"],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"bincode","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"bincode","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"hyphenation_commons","req":"^0.7.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"hyphenation_commons","req":"^0.7.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"lazy_static","req":"^1.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"quickcheck","req":"^0.7","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"serde","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"unicode-normalization","req":"^0.1","features":[],"optional":true,"default_features":true,"target":null,"kind":"build"},{"name":"unicode-segmentation","req":"^1.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"1d6b79ac11869e0d88d65f5060cdd7df080d9bf994b32f426d465912c387af16","features":{"build_dictionaries":[],"nfc":["unicode-normalization"],"nfd":["unicode-normalization"],"nfkc":["unicode-normalization"],"nfkd":["unicode-normalization"]},"yanked":false}
+{
+    "name": "kl-hyphenate",
+    "vers": "0.7.1",
+    "deps": [
+        {
+            "name": "atlatl",
+            "req": "^0.1.2",
+            "features": [
+                "serde"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "atlatl",
+            "req": "^0.1.2",
+            "features": [
+                "serde"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "bincode",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "bincode",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "hyphenation_commons",
+            "req": "^0.7.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "hyphenation_commons",
+            "req": "^0.7.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "lazy_static",
+            "req": "^1.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "quickcheck",
+            "req": "^0.7",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "unicode-normalization",
+            "req": "^0.1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "unicode-segmentation",
+            "req": "^1.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "1d6b79ac11869e0d88d65f5060cdd7df080d9bf994b32f426d465912c387af16",
+    "features": {
+        "build_dictionaries": [],
+        "nfc": [
+            "unicode-normalization"
+        ],
+        "nfd": [
+            "unicode-normalization"
+        ],
+        "nfkc": [
+            "unicode-normalization"
+        ],
+        "nfkd": [
+            "unicode-normalization"
+        ]
+    },
+    "yanked": false
+}

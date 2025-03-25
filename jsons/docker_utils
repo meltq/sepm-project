@@ -1,1 +1,43 @@
-{"name":"docker_utils","vers":"0.1.0","deps":[{"name":"bon","req":"^3.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1","features":["macros","net","rt-multi-thread","signal","time"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"wait_utils","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"63bff8b5bfe4528f2d356316d22df71c423d7594918eaaceb2b0e746bc36138b","features":{},"yanked":false,"rust_version":"1.82.0"}
+{
+    "name": "docker_utils",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "bon",
+            "req": "^3.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1",
+            "features": [
+                "macros",
+                "net",
+                "rt-multi-thread",
+                "signal",
+                "time"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "wait_utils",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "63bff8b5bfe4528f2d356316d22df71c423d7594918eaaceb2b0e746bc36138b",
+    "features": {},
+    "yanked": false,
+    "rust_version": "1.82.0"
+}

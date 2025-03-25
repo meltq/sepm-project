@@ -1,1 +1,62 @@
-{"name":"actix_error_proc","vers":"1.0.0","deps":[{"name":"actix-web","req":"^4.9.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"actix_error_proc_macros","req":"^0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"reqwest","req":"^0.12.12","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"thiserror","req":"^2.0.11","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.43.0","features":["macros"],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"d6bef0c39a1774904946eb9dfbce8d409966dd13b8b6b62d20025489cf23dec3","features":{},"features2":{"thiserror":["dep:thiserror"]},"yanked":false,"v":2}
+{
+    "name": "actix_error_proc",
+    "vers": "1.0.0",
+    "deps": [
+        {
+            "name": "actix-web",
+            "req": "^4.9.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "actix_error_proc_macros",
+            "req": "^0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "reqwest",
+            "req": "^0.12.12",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "thiserror",
+            "req": "^2.0.11",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.43.0",
+            "features": [
+                "macros"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "d6bef0c39a1774904946eb9dfbce8d409966dd13b8b6b62d20025489cf23dec3",
+    "features": {},
+    "features2": {
+        "thiserror": [
+            "dep:thiserror"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

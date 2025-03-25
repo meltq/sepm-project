@@ -1,1 +1,31 @@
-{"name":"os_display","vers":"0.1.0","deps":[{"name":"unicode-width","req":"^0.1.9","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"c346032e22bf55850f69bebfbf78309cffde76ec8ef66af634d7f8e825b8e2dc","features":{"alloc":[],"default":["native","alloc","std"],"native":[],"std":["alloc"],"unix":[],"windows":[]},"yanked":false}
+{
+    "name": "os_display",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "unicode-width",
+            "req": "^0.1.9",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "c346032e22bf55850f69bebfbf78309cffde76ec8ef66af634d7f8e825b8e2dc",
+    "features": {
+        "alloc": [],
+        "default": [
+            "native",
+            "alloc",
+            "std"
+        ],
+        "native": [],
+        "std": [
+            "alloc"
+        ],
+        "unix": [],
+        "windows": []
+    },
+    "yanked": false
+}

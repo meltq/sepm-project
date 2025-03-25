@@ -1,1 +1,67 @@
-{"name":"graphql-extract","vers":"0.0.1","deps":[{"name":"derive-syn-parse","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"insta","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"proc-macro2","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"quote","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"syn","req":"^2","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"trybuild","req":"^1","features":["diff"],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"b2a3781ef3de3d9437f9e9f1641a9df90364ca87265ce8601abd3399f5669954","features":{},"yanked":false}
+{
+    "name": "graphql-extract",
+    "vers": "0.0.1",
+    "deps": [
+        {
+            "name": "derive-syn-parse",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "insta",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "proc-macro2",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "quote",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "syn",
+            "req": "^2",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "trybuild",
+            "req": "^1",
+            "features": [
+                "diff"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "b2a3781ef3de3d9437f9e9f1641a9df90364ca87265ce8601abd3399f5669954",
+    "features": {},
+    "yanked": false
+}

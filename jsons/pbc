@@ -1,1 +1,120 @@
-{"name":"pbc","vers":"0.1.8","deps":[{"name":"aok","req":"^0.1.15","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"aok","req":"^0.1.15","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"clap","req":"^4.5.26","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"ifs","req":"^0.1.44","features":["fs"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"loginit","req":"^0.1.13","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"pb-jelly-gen","req":"^0.0.17","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"static_init","req":"^1.0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"tempfile","req":"^3.15.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.42.0","features":["macros","rt","rt-multi-thread","time","sync"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"tracing","req":"^0.1.41","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"walkdir","req":"^2.5.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"a5a804b831ee7e48a7849e85418a86346866dd376b2b6f70dddacd4e3d12f620","features":{"default":[]},"yanked":false}
+{
+    "name": "pbc",
+    "vers": "0.1.8",
+    "deps": [
+        {
+            "name": "aok",
+            "req": "^0.1.15",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "aok",
+            "req": "^0.1.15",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "clap",
+            "req": "^4.5.26",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ifs",
+            "req": "^0.1.44",
+            "features": [
+                "fs"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "loginit",
+            "req": "^0.1.13",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "pb-jelly-gen",
+            "req": "^0.0.17",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "static_init",
+            "req": "^1.0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "tempfile",
+            "req": "^3.15.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.42.0",
+            "features": [
+                "macros",
+                "rt",
+                "rt-multi-thread",
+                "time",
+                "sync"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1.41",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "walkdir",
+            "req": "^2.5.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "a5a804b831ee7e48a7849e85418a86346866dd376b2b6f70dddacd4e3d12f620",
+    "features": {
+        "default": []
+    },
+    "yanked": false
+}

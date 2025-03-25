@@ -1,1 +1,106 @@
-{"name":"bevy_image_font","vers":"0.5.0","deps":[{"name":"bevy","req":"^0.14","features":["bevy_asset","bevy_render","bevy_sprite"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"bevy","req":"^0.14","features":["bevy_asset","bevy_render","bevy_sprite","bevy_core_pipeline","multi_threaded","png","x11"],"optional":false,"default_features":false,"target":null,"kind":"dev"},{"name":"bevy_asset_loader","req":"^0.21.0","features":["2d"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"derive_setters","req":"^0.1.6","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"image","req":"^0.24.9","features":["png"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"ron","req":"^0.8.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.197","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^1.0.58","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"16755e64e11206ae180dc00fbe2139cacb4944eea3333f6bfab450ec120c30eb","features":{"default":["ui"],"ui":["bevy/bevy_ui"]},"yanked":true}
+{
+    "name": "bevy_image_font",
+    "vers": "0.5.0",
+    "deps": [
+        {
+            "name": "bevy",
+            "req": "^0.14",
+            "features": [
+                "bevy_asset",
+                "bevy_render",
+                "bevy_sprite"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "bevy",
+            "req": "^0.14",
+            "features": [
+                "bevy_asset",
+                "bevy_render",
+                "bevy_sprite",
+                "bevy_core_pipeline",
+                "multi_threaded",
+                "png",
+                "x11"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "bevy_asset_loader",
+            "req": "^0.21.0",
+            "features": [
+                "2d"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "derive_setters",
+            "req": "^0.1.6",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "image",
+            "req": "^0.24.9",
+            "features": [
+                "png"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ron",
+            "req": "^0.8.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.197",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^1.0.58",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "16755e64e11206ae180dc00fbe2139cacb4944eea3333f6bfab450ec120c30eb",
+    "features": {
+        "default": [
+            "ui"
+        ],
+        "ui": [
+            "bevy/bevy_ui"
+        ]
+    },
+    "yanked": true
+}

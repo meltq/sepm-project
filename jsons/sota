@@ -1,1 +1,81 @@
-{"name":"sota","vers":"0.6.2","deps":[{"name":"httpmock","req":"^0.6","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"serde","req":"^1.0","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_with","req":"^2.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"time","req":"^0.3","features":["macros","serde","parsing","formatting"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"ureq","req":"^2.5","features":["json"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"49277b9ac571d1322d58457903f1c2129b010281d7a24e0f8899db60198f83d9","features":{},"yanked":false}
+{
+    "name": "sota",
+    "vers": "0.6.2",
+    "deps": [
+        {
+            "name": "httpmock",
+            "req": "^0.6",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_with",
+            "req": "^2.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "time",
+            "req": "^0.3",
+            "features": [
+                "macros",
+                "serde",
+                "parsing",
+                "formatting"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ureq",
+            "req": "^2.5",
+            "features": [
+                "json"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "49277b9ac571d1322d58457903f1c2129b010281d7a24e0f8899db60198f83d9",
+    "features": {},
+    "yanked": false
+}

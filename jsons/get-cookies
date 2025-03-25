@@ -1,1 +1,83 @@
-{"name":"get-cookies","vers":"0.1.0","deps":[{"name":"futures","req":"^0.3.30","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tao","req":"^0.24.1","features":["serde","rwh_05"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.35.1","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"webview2-com","req":"^0.28.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"windows","req":"^0.52.0","features":["Win32_System_Com","Win32_Foundation","implement"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"windows-core","req":"^0.52.0","features":["implement"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"wry","req":"^0.35.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"504ae18325c7633f40507edd4240a176b4c968eccd2a4311bfceb524cf51955b","features":{},"yanked":false}
+{
+    "name": "get-cookies",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "futures",
+            "req": "^0.3.30",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tao",
+            "req": "^0.24.1",
+            "features": [
+                "serde",
+                "rwh_05"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.35.1",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "webview2-com",
+            "req": "^0.28.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "windows",
+            "req": "^0.52.0",
+            "features": [
+                "Win32_System_Com",
+                "Win32_Foundation",
+                "implement"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "windows-core",
+            "req": "^0.52.0",
+            "features": [
+                "implement"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "wry",
+            "req": "^0.35.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "504ae18325c7633f40507edd4240a176b4c968eccd2a4311bfceb524cf51955b",
+    "features": {},
+    "yanked": false
+}

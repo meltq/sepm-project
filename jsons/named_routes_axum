@@ -1,1 +1,40 @@
-{"name":"named_routes_axum","vers":"0.1.0","deps":[{"name":"axum","req":"^0.7.5","features":["default"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rand","req":"^0.8.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"tokio","req":"^1.37.0","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"e87a67cf7492e20e966bce6898cfc1f9673caa9ecca86ab5710679acdcc91670","features":{},"yanked":true}
+{
+    "name": "named_routes_axum",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "axum",
+            "req": "^0.7.5",
+            "features": [
+                "default"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rand",
+            "req": "^0.8.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.37.0",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "e87a67cf7492e20e966bce6898cfc1f9673caa9ecca86ab5710679acdcc91670",
+    "features": {},
+    "yanked": true
+}

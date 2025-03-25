@@ -1,1 +1,97 @@
-{"name":"stellar-axelar-std","vers":"0.1.0","deps":[{"name":"goldie","req":"^0.5.0","features":[],"optional":false,"default_features":false,"target":null,"kind":"dev"},{"name":"hex","req":"^0.4","features":[],"optional":true,"default_features":false,"target":null,"kind":"normal"},{"name":"paste","req":"^1.0","features":[],"optional":false,"default_features":false,"target":null,"kind":"dev"},{"name":"soroban-sdk","req":"^22.0.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"soroban-sdk","req":"^22.0.5","features":["testutils"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"soroban-token-sdk","req":"^22.0.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"stellar-axelar-std-derive","req":"^0.1.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"stellar-axelar-std-derive","req":"^0.1.0","features":["testutils"],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"0117c84b0f66efc5616c6a2731f5fac2433ba14449b3ee7ffd3376c9bf643165","features":{"testutils":["soroban-sdk/testutils","hex","stellar-axelar-std-derive/testutils"]},"features2":{"derive":["dep:stellar-axelar-std-derive"]},"yanked":false,"v":2}
+{
+    "name": "stellar-axelar-std",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "goldie",
+            "req": "^0.5.0",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "hex",
+            "req": "^0.4",
+            "features": [],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "paste",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "soroban-sdk",
+            "req": "^22.0.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "soroban-sdk",
+            "req": "^22.0.5",
+            "features": [
+                "testutils"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "soroban-token-sdk",
+            "req": "^22.0.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "stellar-axelar-std-derive",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "stellar-axelar-std-derive",
+            "req": "^0.1.0",
+            "features": [
+                "testutils"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "0117c84b0f66efc5616c6a2731f5fac2433ba14449b3ee7ffd3376c9bf643165",
+    "features": {
+        "testutils": [
+            "soroban-sdk/testutils",
+            "hex",
+            "stellar-axelar-std-derive/testutils"
+        ]
+    },
+    "features2": {
+        "derive": [
+            "dep:stellar-axelar-std-derive"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

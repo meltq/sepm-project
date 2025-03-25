@@ -1,1 +1,32 @@
-{"name":"bitwuzla-sys","vers":"0.1.0","deps":[{"name":"copy_dir","req":"^0.1.2","features":[],"optional":true,"default_features":true,"target":null,"kind":"build"},{"name":"libc","req":"^0.2.73","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"d4149a78ba391caf23c7f3fe446c796b690151bf83c747c459e0c69eea421386","features":{"vendor-cadical":["copy_dir"]},"yanked":false,"links":"bitwuzla"}
+{
+    "name": "bitwuzla-sys",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "copy_dir",
+            "req": "^0.1.2",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "libc",
+            "req": "^0.2.73",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "d4149a78ba391caf23c7f3fe446c796b690151bf83c747c459e0c69eea421386",
+    "features": {
+        "vendor-cadical": [
+            "copy_dir"
+        ]
+    },
+    "yanked": false,
+    "links": "bitwuzla"
+}

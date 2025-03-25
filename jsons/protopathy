@@ -1,1 +1,29 @@
-{"name":"protopathy","vers":"0.0.0","deps":[{"name":"tracing","req":"^0.1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"5f8f40104c705db893642386cfdf3db7fc10cbca6bc2d4a2ac6230eed5adf2ef","features":{"default":["tracing"]},"features2":{"tracing":["dep:tracing"]},"yanked":false,"rust_version":"1.70","v":2}
+{
+    "name": "protopathy",
+    "vers": "0.0.0",
+    "deps": [
+        {
+            "name": "tracing",
+            "req": "^0.1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "5f8f40104c705db893642386cfdf3db7fc10cbca6bc2d4a2ac6230eed5adf2ef",
+    "features": {
+        "default": [
+            "tracing"
+        ]
+    },
+    "features2": {
+        "tracing": [
+            "dep:tracing"
+        ]
+    },
+    "yanked": false,
+    "rust_version": "1.70",
+    "v": 2
+}

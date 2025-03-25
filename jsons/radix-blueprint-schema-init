@@ -1,1 +1,69 @@
-{"name":"radix-blueprint-schema-init","vers":"1.2.0-dev","deps":[{"name":"bitflags","req":"^1.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"radix-common","req":"^1.2.0-dev","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"sbor","req":"^1.2.0-dev","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.144","features":["derive"],"optional":true,"default_features":false,"target":null,"kind":"normal"}],"cksum":"1a9b46bf6bfde5d49dabb2655edcc6b7b26a2b0633f221121885ebef7552e720","features":{"serde":["serde/derive","sbor/serde","radix-common/serde"]},"features2":{"alloc":["sbor/alloc","radix-common/alloc","serde?/alloc"],"default":["std"],"std":["sbor/std","radix-common/std","serde?/std"]},"yanked":false,"v":2}
+{
+    "name": "radix-blueprint-schema-init",
+    "vers": "1.2.0-dev",
+    "deps": [
+        {
+            "name": "bitflags",
+            "req": "^1.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "radix-common",
+            "req": "^1.2.0-dev",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "sbor",
+            "req": "^1.2.0-dev",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.144",
+            "features": [
+                "derive"
+            ],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "1a9b46bf6bfde5d49dabb2655edcc6b7b26a2b0633f221121885ebef7552e720",
+    "features": {
+        "serde": [
+            "serde/derive",
+            "sbor/serde",
+            "radix-common/serde"
+        ]
+    },
+    "features2": {
+        "alloc": [
+            "sbor/alloc",
+            "radix-common/alloc",
+            "serde?/alloc"
+        ],
+        "default": [
+            "std"
+        ],
+        "std": [
+            "sbor/std",
+            "radix-common/std",
+            "serde?/std"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

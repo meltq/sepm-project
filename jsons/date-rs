@@ -1,1 +1,68 @@
-{"name":"date-rs","vers":"0.1.0","deps":[{"name":"assert2","req":"^0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"diesel","req":"^2","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"serde_json","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"58509f65952b87ff50a6e80f7a962f417c034f7f20729d7f4ace6cfde3ab920d","features":{"default":["serde"]},"features2":{"diesel-pg":["dep:diesel","diesel/postgres"]},"yanked":false,"rust_version":"1.70","v":2}
+{
+    "name": "date-rs",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "assert2",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "diesel",
+            "req": "^2",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "58509f65952b87ff50a6e80f7a962f417c034f7f20729d7f4ace6cfde3ab920d",
+    "features": {
+        "default": [
+            "serde"
+        ]
+    },
+    "features2": {
+        "diesel-pg": [
+            "dep:diesel",
+            "diesel/postgres"
+        ]
+    },
+    "yanked": false,
+    "rust_version": "1.70",
+    "v": 2
+}

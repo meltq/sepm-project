@@ -1,1 +1,56 @@
-{"name":"extract_map","vers":"0.1.0","deps":[{"name":"gat-lending-iterator","req":"^0.1.5","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.197","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"serde_json","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"3ea6520c7df666b87a5abae46a3eaad1d7617161cc1d69b2f207f36cec5312b9","features":{},"features2":{"iter_mut":["dep:gat-lending-iterator"],"serde":["dep:serde"]},"yanked":false,"v":2}
+{
+    "name": "extract_map",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "gat-lending-iterator",
+            "req": "^0.1.5",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.197",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "3ea6520c7df666b87a5abae46a3eaad1d7617161cc1d69b2f207f36cec5312b9",
+    "features": {},
+    "features2": {
+        "iter_mut": [
+            "dep:gat-lending-iterator"
+        ],
+        "serde": [
+            "dep:serde"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

@@ -1,1 +1,28 @@
-{"name":"df_storyteller","vers":"0.3.0-development-1","deps":[{"name":"df_st_cli","req":"^0.3.0-development-1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"c169052113f9de8f8fc98d71128e557a9a5397f4e5b280b4153746269a7a51a2","features":{"default":["sqlite"],"postgres":["df_st_cli/postgres"],"sqlite":["df_st_cli/sqlite"]},"yanked":false}
+{
+    "name": "df_storyteller",
+    "vers": "0.3.0-development-1",
+    "deps": [
+        {
+            "name": "df_st_cli",
+            "req": "^0.3.0-development-1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "c169052113f9de8f8fc98d71128e557a9a5397f4e5b280b4153746269a7a51a2",
+    "features": {
+        "default": [
+            "sqlite"
+        ],
+        "postgres": [
+            "df_st_cli/postgres"
+        ],
+        "sqlite": [
+            "df_st_cli/sqlite"
+        ]
+    },
+    "yanked": false
+}

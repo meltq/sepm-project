@@ -1,1 +1,230 @@
-{"name":"clap_builder","vers":"4.1.14","deps":[{"name":"backtrace","req":"^0.3.67","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"bitflags","req":"^1.2.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"clap_lex","req":"^0.4.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"humantime","req":"^2.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"is-terminal","req":"^0.4.1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"once_cell","req":"^1.12.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"rustversion","req":"^1.0.12","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"shlex","req":"^1.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"snapbox","req":"^0.4.10","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"static_assertions","req":"^1.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"strsim","req":"^0.10.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"termcolor","req":"^1.1.1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"terminal_size","req":"^0.2.1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"trybuild","req":"^1.0.77","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"trycmd","req":"^0.14.15","features":["color-auto","diff","examples"],"optional":false,"default_features":false,"target":null,"kind":"dev"},{"name":"unic-emoji-char","req":"^0.9.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"unicase","req":"^2.6.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"unicode-width","req":"^0.1.9","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"351f9ad9688141ed83dfd8f5fb998a06225ef444b48ff4dc43de6d409b7fd10b","features":{"deprecated":[],"env":[],"error-context":[],"help":[],"std":[],"string":[],"unstable-grouped":[],"unstable-replace":[],"unstable-v5":["deprecated"],"usage":[]},"features2":{"cargo":["dep:once_cell"],"color":["dep:is-terminal","dep:termcolor"],"debug":["dep:backtrace"],"default":["std","color","help","usage","error-context","suggestions"],"suggestions":["dep:strsim","error-context"],"unicode":["dep:unicode-width","dep:unicase"],"unstable-doc":["cargo","wrap_help","env","unicode","string","unstable-replace"],"wrap_help":["help","dep:terminal_size"]},"yanked":false,"rust_version":"1.64.0","v":2}
+{
+    "name": "clap_builder",
+    "vers": "4.1.14",
+    "deps": [
+        {
+            "name": "backtrace",
+            "req": "^0.3.67",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "bitflags",
+            "req": "^1.2.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "clap_lex",
+            "req": "^0.4.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "humantime",
+            "req": "^2.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "is-terminal",
+            "req": "^0.4.1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "once_cell",
+            "req": "^1.12.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rustversion",
+            "req": "^1.0.12",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "shlex",
+            "req": "^1.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "snapbox",
+            "req": "^0.4.10",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "static_assertions",
+            "req": "^1.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "strsim",
+            "req": "^0.10.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "termcolor",
+            "req": "^1.1.1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "terminal_size",
+            "req": "^0.2.1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "trybuild",
+            "req": "^1.0.77",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "trycmd",
+            "req": "^0.14.15",
+            "features": [
+                "color-auto",
+                "diff",
+                "examples"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "unic-emoji-char",
+            "req": "^0.9.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "unicase",
+            "req": "^2.6.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "unicode-width",
+            "req": "^0.1.9",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "351f9ad9688141ed83dfd8f5fb998a06225ef444b48ff4dc43de6d409b7fd10b",
+    "features": {
+        "deprecated": [],
+        "env": [],
+        "error-context": [],
+        "help": [],
+        "std": [],
+        "string": [],
+        "unstable-grouped": [],
+        "unstable-replace": [],
+        "unstable-v5": [
+            "deprecated"
+        ],
+        "usage": []
+    },
+    "features2": {
+        "cargo": [
+            "dep:once_cell"
+        ],
+        "color": [
+            "dep:is-terminal",
+            "dep:termcolor"
+        ],
+        "debug": [
+            "dep:backtrace"
+        ],
+        "default": [
+            "std",
+            "color",
+            "help",
+            "usage",
+            "error-context",
+            "suggestions"
+        ],
+        "suggestions": [
+            "dep:strsim",
+            "error-context"
+        ],
+        "unicode": [
+            "dep:unicode-width",
+            "dep:unicase"
+        ],
+        "unstable-doc": [
+            "cargo",
+            "wrap_help",
+            "env",
+            "unicode",
+            "string",
+            "unstable-replace"
+        ],
+        "wrap_help": [
+            "help",
+            "dep:terminal_size"
+        ]
+    },
+    "yanked": false,
+    "rust_version": "1.64.0",
+    "v": 2
+}

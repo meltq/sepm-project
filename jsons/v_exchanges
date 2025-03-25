@@ -1,1 +1,151 @@
-{"name":"v_exchanges","vers":"0.1.0","deps":[{"name":"chrono","req":"^0.4.39","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"color-eyre","req":"^0.6.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"derive-new","req":"^0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"env_logger","req":"^0.11.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rust_decimal","req":"^1.36.0","features":["serde-with-str","serde-with-float"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.216","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.133","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_with","req":"^3.11.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.42.0","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing","req":"^0.1.41","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"v_exchanges_adapters","req":"^0.1.0","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"v_utils","req":"^2.0","features":["trades","tracing"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"63b3c4ee8f84fea526fa8507592fa6848eb2db145b963142b4cceabc63f24d39","features":{"binance":["v_exchanges_adapters/binance"],"bitflyer":["v_exchanges_adapters/bitflyer"],"bybit":["v_exchanges_adapters/bybit"],"coincheck":["v_exchanges_adapters/coincheck"],"default":["binance"],"full":["binance","bitflyer","bybit","coincheck"]},"yanked":false}
+{
+    "name": "v_exchanges",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "chrono",
+            "req": "^0.4.39",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "color-eyre",
+            "req": "^0.6.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "derive-new",
+            "req": "^0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "env_logger",
+            "req": "^0.11.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rust_decimal",
+            "req": "^1.36.0",
+            "features": [
+                "serde-with-str",
+                "serde-with-float"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.216",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.133",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_with",
+            "req": "^3.11.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.42.0",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1.41",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "v_exchanges_adapters",
+            "req": "^0.1.0",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "v_utils",
+            "req": "^2.0",
+            "features": [
+                "trades",
+                "tracing"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "63b3c4ee8f84fea526fa8507592fa6848eb2db145b963142b4cceabc63f24d39",
+    "features": {
+        "binance": [
+            "v_exchanges_adapters/binance"
+        ],
+        "bitflyer": [
+            "v_exchanges_adapters/bitflyer"
+        ],
+        "bybit": [
+            "v_exchanges_adapters/bybit"
+        ],
+        "coincheck": [
+            "v_exchanges_adapters/coincheck"
+        ],
+        "default": [
+            "binance"
+        ],
+        "full": [
+            "binance",
+            "bitflyer",
+            "bybit",
+            "coincheck"
+        ]
+    },
+    "yanked": false
+}

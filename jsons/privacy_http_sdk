@@ -1,1 +1,90 @@
-{"name":"privacy_http_sdk","vers":"1.0.0-beta","deps":[{"name":"cxx","req":"^1.0.136","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"cxx-build","req":"^1.0.136","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"openai","req":"^1.0.0-alpha.18","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"reqwest","req":"^0.12.12","features":["json","native-tls"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rig-core","req":"^0.6.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.217","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.135","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"e228d641432573437e7ff853c0dbfce2ee4705fc22ecc34ed7684130c86d564b","features":{"default":[]},"yanked":false}
+{
+    "name": "privacy_http_sdk",
+    "vers": "1.0.0-beta",
+    "deps": [
+        {
+            "name": "cxx",
+            "req": "^1.0.136",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "cxx-build",
+            "req": "^1.0.136",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "openai",
+            "req": "^1.0.0-alpha.18",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "reqwest",
+            "req": "^0.12.12",
+            "features": [
+                "json",
+                "native-tls"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rig-core",
+            "req": "^0.6.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.217",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.135",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "e228d641432573437e7ff853c0dbfce2ee4705fc22ecc34ed7684130c86d564b",
+    "features": {
+        "default": []
+    },
+    "yanked": false
+}

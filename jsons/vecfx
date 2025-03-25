@@ -1,1 +1,31 @@
-{"name":"vecfx","vers":"0.0.8","deps":[{"name":"approx","req":"^0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"nalgebra","req":"^0.19","features":["serde-serialize"],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"70b04d230707e5c39a3a33af088dce270801ff6ff686d5e4de55257d4ec3f378","features":{"default":[]},"yanked":false}
+{
+    "name": "vecfx",
+    "vers": "0.0.8",
+    "deps": [
+        {
+            "name": "approx",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "nalgebra",
+            "req": "^0.19",
+            "features": [
+                "serde-serialize"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "70b04d230707e5c39a3a33af088dce270801ff6ff686d5e4de55257d4ec3f378",
+    "features": {
+        "default": []
+    },
+    "yanked": false
+}

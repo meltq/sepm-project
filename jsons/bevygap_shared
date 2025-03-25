@@ -1,1 +1,93 @@
-{"name":"bevygap_shared","vers":"0.2.3","deps":[{"name":"async-nats","req":"^0.36.0","features":["service"],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"bevy","req":"^0.14","features":[],"optional":true,"default_features":false,"target":null,"kind":"normal"},{"name":"log","req":"^0.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"regex","req":"^1.11.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.0","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"tracing-subscriber","req":"^0.3","features":["env-filter","fmt"],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"68c7c9992480bf01394d6a29854c663ea2eb0919ce45b99868191e9932574d82","features":{},"features2":{"bevy":["dep:bevy"],"default":["nats"],"nats":["dep:async-nats"]},"yanked":false,"v":2}
+{
+    "name": "bevygap_shared",
+    "vers": "0.2.3",
+    "deps": [
+        {
+            "name": "async-nats",
+            "req": "^0.36.0",
+            "features": [
+                "service"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "bevy",
+            "req": "^0.14",
+            "features": [],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "log",
+            "req": "^0.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "regex",
+            "req": "^1.11.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.0",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "tracing-subscriber",
+            "req": "^0.3",
+            "features": [
+                "env-filter",
+                "fmt"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "68c7c9992480bf01394d6a29854c663ea2eb0919ce45b99868191e9932574d82",
+    "features": {},
+    "features2": {
+        "bevy": [
+            "dep:bevy"
+        ],
+        "default": [
+            "nats"
+        ],
+        "nats": [
+            "dep:async-nats"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

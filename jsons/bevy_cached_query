@@ -1,1 +1,107 @@
-{"name":"bevy_cached_query","vers":"0.1.0","deps":[{"name":"anyhow","req":"^1.0.94","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"bevy","req":"^0.14.2","features":["bevy_core_pipeline","serialize","multi_threaded"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"color-print","req":"^0.3.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"derive_builder","req":"^0.20.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"hyper","req":"^1.5.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"ntest","req":"^0.9.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"serde","req":"^1","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tiny_http","req":"^0.12.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"ureq","req":"^2.11.0","features":["json"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"0adb010df3fafb407014b93dade7d03345bf7182710ad91853c7639c8b67c10f","features":{},"yanked":false}
+{
+    "name": "bevy_cached_query",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "anyhow",
+            "req": "^1.0.94",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "bevy",
+            "req": "^0.14.2",
+            "features": [
+                "bevy_core_pipeline",
+                "serialize",
+                "multi_threaded"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "color-print",
+            "req": "^0.3.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "derive_builder",
+            "req": "^0.20.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "hyper",
+            "req": "^1.5.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ntest",
+            "req": "^0.9.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "serde",
+            "req": "^1",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tiny_http",
+            "req": "^0.12.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "ureq",
+            "req": "^2.11.0",
+            "features": [
+                "json"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "0adb010df3fafb407014b93dade7d03345bf7182710ad91853c7639c8b67c10f",
+    "features": {},
+    "yanked": false
+}

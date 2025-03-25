@@ -1,1 +1,57 @@
-{"name":"dyn_serde","vers":"1.0.0","deps":[{"name":"criterion","req":"^0.5.1","features":["html_reports"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"erased-serde","req":"^0.4.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"serde","req":"^1.0.216","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.133","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"10591a592a6c6cd28bd5574d984158158587ded5369a0cd6673d5a489e964692","features":{"alloc":["serde/alloc"],"default":["std"],"std":["serde/std"]},"yanked":false}
+{
+    "name": "dyn_serde",
+    "vers": "1.0.0",
+    "deps": [
+        {
+            "name": "criterion",
+            "req": "^0.5.1",
+            "features": [
+                "html_reports"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "erased-serde",
+            "req": "^0.4.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.216",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.133",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "10591a592a6c6cd28bd5574d984158158587ded5369a0cd6673d5a489e964692",
+    "features": {
+        "alloc": [
+            "serde/alloc"
+        ],
+        "default": [
+            "std"
+        ],
+        "std": [
+            "serde/std"
+        ]
+    },
+    "yanked": false
+}

@@ -1,1 +1,120 @@
-{"name":"easy_fuser","vers":"0.1.0","deps":[{"name":"async-trait","req":"^0.1.83","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"bitflags","req":"^2.6.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"env_logger","req":"^0.11","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"fuser","req":"^0.15","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"libc","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"log","req":"^0.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"parking_lot","req":"^0.12","features":["deadlock_detection"],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"tempfile","req":"^3.14","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"threadpool","req":"^1.8","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.42.0","features":["full"],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"5db3e8529e574cce99aa03174e147387b726d1af8d01f41c2004eaf60fb51e95","features":{"default":[],"serial":[]},"features2":{"async":["dep:async-trait","dep:tokio"],"deadlock_detection":["parallel","dep:parking_lot"],"parallel":["dep:threadpool"]},"yanked":false,"v":2}
+{
+    "name": "easy_fuser",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "async-trait",
+            "req": "^0.1.83",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "bitflags",
+            "req": "^2.6.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "env_logger",
+            "req": "^0.11",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "fuser",
+            "req": "^0.15",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "libc",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "log",
+            "req": "^0.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "parking_lot",
+            "req": "^0.12",
+            "features": [
+                "deadlock_detection"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tempfile",
+            "req": "^3.14",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "threadpool",
+            "req": "^1.8",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.42.0",
+            "features": [
+                "full"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "5db3e8529e574cce99aa03174e147387b726d1af8d01f41c2004eaf60fb51e95",
+    "features": {
+        "default": [],
+        "serial": []
+    },
+    "features2": {
+        "async": [
+            "dep:async-trait",
+            "dep:tokio"
+        ],
+        "deadlock_detection": [
+            "parallel",
+            "dep:parking_lot"
+        ],
+        "parallel": [
+            "dep:threadpool"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

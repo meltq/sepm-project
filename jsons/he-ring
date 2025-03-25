@@ -1,1 +1,40 @@
-{"name":"he-ring","vers":"0.1.1","deps":[{"name":"feanor-math","req":"^1.5.2","features":["generic_tests"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rand","req":"^0.8.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rand_distr","req":"^0.4.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"e2cdc77160c58ab5a61adf76d6b24819696ee6dfd1a1412e30f919cc863b3486","features":{"record_timings":[]},"yanked":false}
+{
+    "name": "he-ring",
+    "vers": "0.1.1",
+    "deps": [
+        {
+            "name": "feanor-math",
+            "req": "^1.5.2",
+            "features": [
+                "generic_tests"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rand",
+            "req": "^0.8.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rand_distr",
+            "req": "^0.4.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "e2cdc77160c58ab5a61adf76d6b24819696ee6dfd1a1412e30f919cc863b3486",
+    "features": {
+        "record_timings": []
+    },
+    "yanked": false
+}

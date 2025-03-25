@@ -1,1 +1,63 @@
-{"name":"serde_args","vers":"0.1.0","deps":[{"name":"claims","req":"^0.8.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"serde","req":"^1.0.203","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_args_macros","req":"^0.1.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_derive","req":"^1.0.216","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"unicode-width","req":"^0.2.0","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"}],"cksum":"ab5a743469dd9d9cb5d9ae9a7434c27a9c06b1b8ed2a85e8d2a6ab80c6efe295","features":{},"features2":{"default":["macros"],"macros":["dep:serde_args_macros"]},"yanked":false,"v":2}
+{
+    "name": "serde_args",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "claims",
+            "req": "^0.8.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.203",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_args_macros",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_derive",
+            "req": "^1.0.216",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "unicode-width",
+            "req": "^0.2.0",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "ab5a743469dd9d9cb5d9ae9a7434c27a9c06b1b8ed2a85e8d2a6ab80c6efe295",
+    "features": {},
+    "features2": {
+        "default": [
+            "macros"
+        ],
+        "macros": [
+            "dep:serde_args_macros"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

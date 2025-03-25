@@ -1,1 +1,46 @@
-{"name":"dotnetrawfilereader-sys","vers":"0.1.0","deps":[{"name":"include_dir","req":"^0.7.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"netcorehost","req":"^0.17.0","features":["net7_0","nethost"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"tempdir","req":"^0.3.7","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"073f44fb87a8537d7a9ae5fce9ee2c02ad70c5ec293d983b2ac8cafb73d4e196","features":{"default":["nethost-download"],"nethost-download":["netcorehost/nethost-download"]},"yanked":false}
+{
+    "name": "dotnetrawfilereader-sys",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "include_dir",
+            "req": "^0.7.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "netcorehost",
+            "req": "^0.17.0",
+            "features": [
+                "net7_0",
+                "nethost"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tempdir",
+            "req": "^0.3.7",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "073f44fb87a8537d7a9ae5fce9ee2c02ad70c5ec293d983b2ac8cafb73d4e196",
+    "features": {
+        "default": [
+            "nethost-download"
+        ],
+        "nethost-download": [
+            "netcorehost/nethost-download"
+        ]
+    },
+    "yanked": false
+}

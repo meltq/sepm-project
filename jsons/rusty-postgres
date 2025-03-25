@@ -1,1 +1,78 @@
-{"name":"rusty-postgres","vers":"0.1.3-beta","deps":[{"name":"chrono","req":"^0.4.39","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"postgres","req":"^0.19.9","features":["with-uuid-1","with-chrono-0_4"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rand","req":"^0.8.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.217","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.134","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"uuid","req":"^1.11.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"5b95109abf512c017e87364717f7098829a49290a9d4e8ecc86e511950f786d6","features":{"brin_index":[],"count":[],"full_search":[],"gin_index":[],"horizontal_split":[],"pagination":[],"partition":[],"ranked_search":[],"similar_search":[]},"yanked":true}
+{
+    "name": "rusty-postgres",
+    "vers": "0.1.3-beta",
+    "deps": [
+        {
+            "name": "chrono",
+            "req": "^0.4.39",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "postgres",
+            "req": "^0.19.9",
+            "features": [
+                "with-uuid-1",
+                "with-chrono-0_4"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rand",
+            "req": "^0.8.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.217",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.134",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "uuid",
+            "req": "^1.11.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "5b95109abf512c017e87364717f7098829a49290a9d4e8ecc86e511950f786d6",
+    "features": {
+        "brin_index": [],
+        "count": [],
+        "full_search": [],
+        "gin_index": [],
+        "horizontal_split": [],
+        "pagination": [],
+        "partition": [],
+        "ranked_search": [],
+        "similar_search": []
+    },
+    "yanked": true
+}

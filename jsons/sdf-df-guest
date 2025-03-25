@@ -1,1 +1,62 @@
-{"name":"sdf-df-guest","vers":"0.1.0","deps":[{"name":"anyhow","req":"^1.0.38","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"bytes","req":"^1.6.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"polars","req":"^0.39.2","features":["lazy","fmt_no_tty","temporal"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"polars-arrow","req":"^0.39.2","features":["arrow_rs"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"wit-bindgen","req":"^0.24.0","features":["macros"],"optional":false,"default_features":false,"target":null,"kind":"normal"}],"cksum":"a62d7590f2723148793a495cc576edc357ecbecdaebdc393835b7a3dc643b1fa","features":{},"yanked":false}
+{
+    "name": "sdf-df-guest",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "anyhow",
+            "req": "^1.0.38",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "bytes",
+            "req": "^1.6.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "polars",
+            "req": "^0.39.2",
+            "features": [
+                "lazy",
+                "fmt_no_tty",
+                "temporal"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "polars-arrow",
+            "req": "^0.39.2",
+            "features": [
+                "arrow_rs"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "wit-bindgen",
+            "req": "^0.24.0",
+            "features": [
+                "macros"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "a62d7590f2723148793a495cc576edc357ecbecdaebdc393835b7a3dc643b1fa",
+    "features": {},
+    "yanked": false
+}

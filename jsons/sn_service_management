@@ -1,1 +1,181 @@
-{"name":"sn_service_management","vers":"0.1.0","deps":[{"name":"async-trait","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"dirs-next","req":"^2.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"libp2p","req":"^0.53","features":["kad"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"libp2p-identity","req":"^0.2.7","features":["rand"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"mockall","req":"^0.11.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"prost","req":"^0.9","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"semver","req":"^1.0.20","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"service-manager","req":"^0.6.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"sn_protocol","req":"^0.15.4","features":["rpc"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"sysinfo","req":"^0.29.10","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^1.0.23","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.32.0","features":["time"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tonic","req":"^0.6.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tonic-build","req":"~0.6.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"tracing","req":"~0.1.26","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing-core","req":"^0.1.30","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"5a2e9142866dda0757e019cbaf7f7cc2ef9341de71d41124566b317f5dbadb24","features":{},"yanked":false}
+{
+    "name": "sn_service_management",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "async-trait",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "dirs-next",
+            "req": "^2.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "libp2p",
+            "req": "^0.53",
+            "features": [
+                "kad"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "libp2p-identity",
+            "req": "^0.2.7",
+            "features": [
+                "rand"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "mockall",
+            "req": "^0.11.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "prost",
+            "req": "^0.9",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "semver",
+            "req": "^1.0.20",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "service-manager",
+            "req": "^0.6.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "sn_protocol",
+            "req": "^0.15.4",
+            "features": [
+                "rpc"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "sysinfo",
+            "req": "^0.29.10",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^1.0.23",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.32.0",
+            "features": [
+                "time"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tonic",
+            "req": "^0.6.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tonic-build",
+            "req": "~0.6.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "tracing",
+            "req": "~0.1.26",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing-core",
+            "req": "^0.1.30",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "5a2e9142866dda0757e019cbaf7f7cc2ef9341de71d41124566b317f5dbadb24",
+    "features": {},
+    "yanked": false
+}

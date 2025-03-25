@@ -1,1 +1,37 @@
-{"name":"carrot-protocol-cpi","vers":"0.1.0","deps":[{"name":"anchor-gen","req":"^0.3.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"anchor-lang","req":"^0.28","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"8d3988e7419d4740f617ed9fb689a9854b6f47fe9bd4c8b8d39913fe0dc86729","features":{"cpi":["no-entrypoint"],"default":["cpi"],"no-entrypoint":[],"no-idl":[],"no-log-ix-name":[]},"yanked":false}
+{
+    "name": "carrot-protocol-cpi",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "anchor-gen",
+            "req": "^0.3.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "anchor-lang",
+            "req": "^0.28",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "8d3988e7419d4740f617ed9fb689a9854b6f47fe9bd4c8b8d39913fe0dc86729",
+    "features": {
+        "cpi": [
+            "no-entrypoint"
+        ],
+        "default": [
+            "cpi"
+        ],
+        "no-entrypoint": [],
+        "no-idl": [],
+        "no-log-ix-name": []
+    },
+    "yanked": false
+}

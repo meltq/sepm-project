@@ -1,1 +1,137 @@
-{"name":"h5-tournaments-api","vers":"0.1.0","deps":[{"name":"axum","req":"^0.7.4","features":["query"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"derive_more","req":"^1.0.0","features":["from"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.210","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.128","features":["raw_value"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"shuttle-axum","req":"^0.50.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"shuttle-runtime","req":"^0.50.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"shuttle-shared-db","req":"^0.50.0","features":["postgres","sqlx"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"sqlx","req":"^0.8.3","features":["postgres","runtime-tokio","json","uuid"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"strum","req":"^0.26.3","features":["strum_macros"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.28.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing","req":"^0.1.40","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"uuid","req":"^1.10.0","features":["v4"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"d634727a44e4794f231d0ec2c3891ec7991a5a94d600c57561ea9ee4baf503de","features":{},"yanked":false}
+{
+    "name": "h5-tournaments-api",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "axum",
+            "req": "^0.7.4",
+            "features": [
+                "query"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "derive_more",
+            "req": "^1.0.0",
+            "features": [
+                "from"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.210",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.128",
+            "features": [
+                "raw_value"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "shuttle-axum",
+            "req": "^0.50.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "shuttle-runtime",
+            "req": "^0.50.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "shuttle-shared-db",
+            "req": "^0.50.0",
+            "features": [
+                "postgres",
+                "sqlx"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "sqlx",
+            "req": "^0.8.3",
+            "features": [
+                "postgres",
+                "runtime-tokio",
+                "json",
+                "uuid"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "strum",
+            "req": "^0.26.3",
+            "features": [
+                "strum_macros"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.28.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1.40",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "uuid",
+            "req": "^1.10.0",
+            "features": [
+                "v4"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "d634727a44e4794f231d0ec2c3891ec7991a5a94d600c57561ea9ee4baf503de",
+    "features": {},
+    "yanked": false
+}

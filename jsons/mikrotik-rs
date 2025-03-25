@@ -1,1 +1,36 @@
-{"name":"mikrotik-rs","vers":"0.1.0","deps":[{"name":"getrandom","req":"^0.2.12","features":["std"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.36.0","features":["net","sync","signal","rt","macros","io-util"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"4da4581af9cc922caf0d7749eb81b59c0c6ae47d774d44d2a6baeeb10f4f0e3b","features":{},"yanked":false}
+{
+    "name": "mikrotik-rs",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "getrandom",
+            "req": "^0.2.12",
+            "features": [
+                "std"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.36.0",
+            "features": [
+                "net",
+                "sync",
+                "signal",
+                "rt",
+                "macros",
+                "io-util"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "4da4581af9cc922caf0d7749eb81b59c0c6ae47d774d44d2a6baeeb10f4f0e3b",
+    "features": {},
+    "yanked": false
+}

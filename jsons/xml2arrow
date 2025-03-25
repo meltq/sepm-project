@@ -1,1 +1,116 @@
-{"name":"xml2arrow","vers":"0.1.0","deps":[{"name":"arrow","req":"^54.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"derive_more","req":"^1.0.0","features":["from"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"fxhash","req":"^0.2.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"indexmap","req":"^2.7.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"pyo3","req":"^0.23.3","features":[],"optional":true,"default_features":false,"target":null,"kind":"normal"},{"name":"quick-xml","req":"^0.37.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rstest","req":"^0.18","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"serde","req":"^1.0.216","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_yaml","req":"^0.9.34","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"string_cache","req":"^0.8","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tempfile","req":"^3.14","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"4e1220e8c3b90170e3d143f64e1795f2fe98f016319c1f6ad2e5699078b30581","features":{"python":["pyo3"]},"yanked":false}
+{
+    "name": "xml2arrow",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "arrow",
+            "req": "^54.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "derive_more",
+            "req": "^1.0.0",
+            "features": [
+                "from"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "fxhash",
+            "req": "^0.2.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "indexmap",
+            "req": "^2.7.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "pyo3",
+            "req": "^0.23.3",
+            "features": [],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "quick-xml",
+            "req": "^0.37.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rstest",
+            "req": "^0.18",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.216",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_yaml",
+            "req": "^0.9.34",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "string_cache",
+            "req": "^0.8",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tempfile",
+            "req": "^3.14",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "4e1220e8c3b90170e3d143f64e1795f2fe98f016319c1f6ad2e5699078b30581",
+    "features": {
+        "python": [
+            "pyo3"
+        ]
+    },
+    "yanked": false
+}

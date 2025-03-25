@@ -1,1 +1,52 @@
-{"name":"mlua-gen","vers":"0.1.0","deps":[{"name":"mlua","req":"^0.10.2","features":["lua54"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"proc-macro2","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"quote","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"syn","req":"^2","features":["full","extra-traits"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"c0adcaece4797c9c15c24ada5b779561185220949db305744b1fe8b417df1854","features":{"debug":[]},"yanked":false}
+{
+    "name": "mlua-gen",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "mlua",
+            "req": "^0.10.2",
+            "features": [
+                "lua54"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "proc-macro2",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "quote",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "syn",
+            "req": "^2",
+            "features": [
+                "full",
+                "extra-traits"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "c0adcaece4797c9c15c24ada5b779561185220949db305744b1fe8b417df1854",
+    "features": {
+        "debug": []
+    },
+    "yanked": false
+}

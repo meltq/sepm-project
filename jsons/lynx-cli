@@ -1,1 +1,71 @@
-{"name":"lynx-cli","vers":"0.0.1-alpha.0","deps":[{"name":"anyhow","req":"^1.0.95","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"clap","req":"^4.5.27","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"lynx-core","req":"^0.0.1-alpha.0","features":["test"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.10.0","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing","req":"^0.1.41","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing-subscriber","req":"^0.3.19","features":["env-filter"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"04165d50ee4780c94a08787ad35690e6763e45922d36c12ee1e24615d0542efd","features":{},"yanked":true}
+{
+    "name": "lynx-cli",
+    "vers": "0.0.1-alpha.0",
+    "deps": [
+        {
+            "name": "anyhow",
+            "req": "^1.0.95",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "clap",
+            "req": "^4.5.27",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "lynx-core",
+            "req": "^0.0.1-alpha.0",
+            "features": [
+                "test"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.10.0",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1.41",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing-subscriber",
+            "req": "^0.3.19",
+            "features": [
+                "env-filter"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "04165d50ee4780c94a08787ad35690e6763e45922d36c12ee1e24615d0542efd",
+    "features": {},
+    "yanked": true
+}

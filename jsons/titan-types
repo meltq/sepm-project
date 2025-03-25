@@ -1,1 +1,89 @@
-{"name":"titan-types","vers":"0.1.0","deps":[{"name":"bitcoin","req":"^0.32.5","features":["serde"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"borsh","req":"^1.5.3","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"brotli","req":"^7.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"http","req":"^1.2.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"ordinals","req":"^0.0.14","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.216","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^2.0.8","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"uuid","req":"^1.12.1","features":["borsh","serde","v4"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"32bf8515106dc90f024ada03aaf0714547179dc42011cda5c5011aa5d1b490f4","features":{},"yanked":false}
+{
+    "name": "titan-types",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "bitcoin",
+            "req": "^0.32.5",
+            "features": [
+                "serde"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "borsh",
+            "req": "^1.5.3",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "brotli",
+            "req": "^7.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "http",
+            "req": "^1.2.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ordinals",
+            "req": "^0.0.14",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.216",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^2.0.8",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "uuid",
+            "req": "^1.12.1",
+            "features": [
+                "borsh",
+                "serde",
+                "v4"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "32bf8515106dc90f024ada03aaf0714547179dc42011cda5c5011aa5d1b490f4",
+    "features": {},
+    "yanked": false
+}

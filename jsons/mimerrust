@@ -1,1 +1,82 @@
-{"name":"mimerrust","vers":"1.0.0","deps":[{"name":"chrono","req":"^0.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"fallible-streaming-iterator","req":"^0.1.9","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"geo","req":"^0.29.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"lazy_static","req":"^1.5.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"mimerrust-sys","req":"^1.0.0","features":["internal"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"parking_lot","req":"^0.12.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"uuid","req":"^1.8.0","features":["v4","fast-rng","macro-diagnostics"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"014100aae334f9986d7d50becdd648f3aa5390a801575054b989b1cbcaba0e46","features":{"run_bindgen":["mimerrust-sys/run_bindgen"]},"yanked":false}
+{
+    "name": "mimerrust",
+    "vers": "1.0.0",
+    "deps": [
+        {
+            "name": "chrono",
+            "req": "^0.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "fallible-streaming-iterator",
+            "req": "^0.1.9",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "geo",
+            "req": "^0.29.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "lazy_static",
+            "req": "^1.5.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "mimerrust-sys",
+            "req": "^1.0.0",
+            "features": [
+                "internal"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "parking_lot",
+            "req": "^0.12.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "uuid",
+            "req": "^1.8.0",
+            "features": [
+                "v4",
+                "fast-rng",
+                "macro-diagnostics"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "014100aae334f9986d7d50becdd648f3aa5390a801575054b989b1cbcaba0e46",
+    "features": {
+        "run_bindgen": [
+            "mimerrust-sys/run_bindgen"
+        ]
+    },
+    "yanked": false
+}

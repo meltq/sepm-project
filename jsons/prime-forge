@@ -1,1 +1,31 @@
-{"name":"prime-forge","vers":"0.1.0","deps":[{"name":"nalgebra-glm","req":"^0.18.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"uuid","req":"^1.8.0","features":["v4","fast-rng","macro-diagnostics"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"84932e3bdf3b5cf94d175c8e2d6a74695c000a7889eac1f906f755a1ea66eec6","features":{},"yanked":false}
+{
+    "name": "prime-forge",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "nalgebra-glm",
+            "req": "^0.18.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "uuid",
+            "req": "^1.8.0",
+            "features": [
+                "v4",
+                "fast-rng",
+                "macro-diagnostics"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "84932e3bdf3b5cf94d175c8e2d6a74695c000a7889eac1f906f755a1ea66eec6",
+    "features": {},
+    "yanked": false
+}

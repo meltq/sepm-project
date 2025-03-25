@@ -1,1 +1,64 @@
-{"name":"mssf-com","vers":"0.0.1","deps":[{"name":"mssf-metadata","req":"^0.0.1","features":[],"optional":false,"default_features":true,"target":"cfg(windows)","kind":"normal"},{"name":"mssf-pal","req":"^0.0.1","features":[],"optional":false,"default_features":true,"target":"cfg(unix)","kind":"normal"},{"name":"windows","req":"^0.51","features":["Win32_Foundation","implement"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"windows-core","req":"^0.51","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"e70d28e4165a0e5117507cd24039e76c9f5c1fcb12b8f89feb90e5f16735f283","features":{"ServiceFabric":[],"ServiceFabric_FabricCommon":["ServiceFabric"],"ServiceFabric_FabricCommon_FabricClient":["ServiceFabric_FabricCommon"],"ServiceFabric_FabricCommon_FabricRuntime":["ServiceFabric_FabricCommon"],"ServiceFabric_FabricCommon_FabricTransport":["ServiceFabric_FabricCommon"],"Win32_Foundation":[],"implement":[]},"yanked":false}
+{
+    "name": "mssf-com",
+    "vers": "0.0.1",
+    "deps": [
+        {
+            "name": "mssf-metadata",
+            "req": "^0.0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": "cfg(windows)",
+            "kind": "normal"
+        },
+        {
+            "name": "mssf-pal",
+            "req": "^0.0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": "cfg(unix)",
+            "kind": "normal"
+        },
+        {
+            "name": "windows",
+            "req": "^0.51",
+            "features": [
+                "Win32_Foundation",
+                "implement"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "windows-core",
+            "req": "^0.51",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "e70d28e4165a0e5117507cd24039e76c9f5c1fcb12b8f89feb90e5f16735f283",
+    "features": {
+        "ServiceFabric": [],
+        "ServiceFabric_FabricCommon": [
+            "ServiceFabric"
+        ],
+        "ServiceFabric_FabricCommon_FabricClient": [
+            "ServiceFabric_FabricCommon"
+        ],
+        "ServiceFabric_FabricCommon_FabricRuntime": [
+            "ServiceFabric_FabricCommon"
+        ],
+        "ServiceFabric_FabricCommon_FabricTransport": [
+            "ServiceFabric_FabricCommon"
+        ],
+        "Win32_Foundation": [],
+        "implement": []
+    },
+    "yanked": false
+}

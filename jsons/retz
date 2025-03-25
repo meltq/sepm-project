@@ -1,1 +1,53 @@
-{"name":"retz","vers":"0.1.0","deps":[{"name":"chrono","req":"^0.4.37","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"chrono-tz","req":"^0.9.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"clap","req":"^4.5.4","features":["derive","cargo","error-context","help","std","suggestions","usage"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"eyre","req":"^0.6.12","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"16b171c520a7f1d4e24293ef0560e331914865f23d881f89adad30d25f38215c","features":{},"yanked":false}
+{
+    "name": "retz",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "chrono",
+            "req": "^0.4.37",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "chrono-tz",
+            "req": "^0.9.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "clap",
+            "req": "^4.5.4",
+            "features": [
+                "derive",
+                "cargo",
+                "error-context",
+                "help",
+                "std",
+                "suggestions",
+                "usage"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "eyre",
+            "req": "^0.6.12",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "16b171c520a7f1d4e24293ef0560e331914865f23d881f89adad30d25f38215c",
+    "features": {},
+    "yanked": false
+}

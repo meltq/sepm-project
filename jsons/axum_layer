@@ -1,1 +1,139 @@
-{"name":"axum_layer","vers":"0.1.1","deps":[{"name":"aok","req":"^0.1.15","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"aok","req":"^0.1.15","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"axum","req":"^0.8.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"coarsetime","req":"^0.1.35","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"futures","req":"^0.3.31","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"genv","req":"^0.1.15","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"loginit","req":"^0.1.13","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"static_init","req":"^1.0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"tokio","req":"^1.43.0","features":["macros","rt","rt-multi-thread","time","sync"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"tower","req":"^0.5.2","features":["log","timeout"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tower-http","req":"^0.6.2","features":["compression-zstd"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing","req":"^0.1.41","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing","req":"^0.1.41","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"9153ad0bf0cb2ba743c640061df4da291b0bddcd69593f2a07037c7b3e71acbb","features":{"default":[]},"yanked":false}
+{
+    "name": "axum_layer",
+    "vers": "0.1.1",
+    "deps": [
+        {
+            "name": "aok",
+            "req": "^0.1.15",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "aok",
+            "req": "^0.1.15",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "axum",
+            "req": "^0.8.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "coarsetime",
+            "req": "^0.1.35",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "futures",
+            "req": "^0.3.31",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "genv",
+            "req": "^0.1.15",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "loginit",
+            "req": "^0.1.13",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "static_init",
+            "req": "^1.0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.43.0",
+            "features": [
+                "macros",
+                "rt",
+                "rt-multi-thread",
+                "time",
+                "sync"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "tower",
+            "req": "^0.5.2",
+            "features": [
+                "log",
+                "timeout"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tower-http",
+            "req": "^0.6.2",
+            "features": [
+                "compression-zstd"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1.41",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1.41",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "9153ad0bf0cb2ba743c640061df4da291b0bddcd69593f2a07037c7b3e71acbb",
+    "features": {
+        "default": []
+    },
+    "yanked": false
+}

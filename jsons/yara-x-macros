@@ -1,1 +1,60 @@
-{"name":"yara-x-macros","vers":"0.1.0","deps":[{"name":"convert_case","req":"^0.6.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"darling","req":"^0.14.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"proc-macro2","req":"^1.0.43","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"quote","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"syn","req":"^1.0","features":["full","derive","parsing","visit"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"a102153992894d9bb8bf7441334c4e7c65fdfd6448086dfa4f4469b1f3f40a57","features":{},"yanked":false,"rust_version":"1.74.0"}
+{
+    "name": "yara-x-macros",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "convert_case",
+            "req": "^0.6.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "darling",
+            "req": "^0.14.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "proc-macro2",
+            "req": "^1.0.43",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "quote",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "syn",
+            "req": "^1.0",
+            "features": [
+                "full",
+                "derive",
+                "parsing",
+                "visit"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "a102153992894d9bb8bf7441334c4e7c65fdfd6448086dfa4f4469b1f3f40a57",
+    "features": {},
+    "yanked": false,
+    "rust_version": "1.74.0"
+}

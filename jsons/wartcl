@@ -1,1 +1,41 @@
-{"name":"wartcl","vers":"0.1.0","deps":[{"name":"criterion","req":"^0.5.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"rustyline","req":"^15.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"99a9dc647ea27e8f67fbcc6348e6a6a403be3290e5e9cc1375f6f270fa1a9bf6","features":{"arithmetic":[],"comparison":[],"default":["std","proc","arithmetic","comparison","incr"],"i64":[],"incr":[],"proc":[],"std":[]},"yanked":false}
+{
+    "name": "wartcl",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "criterion",
+            "req": "^0.5.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "rustyline",
+            "req": "^15.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "99a9dc647ea27e8f67fbcc6348e6a6a403be3290e5e9cc1375f6f270fa1a9bf6",
+    "features": {
+        "arithmetic": [],
+        "comparison": [],
+        "default": [
+            "std",
+            "proc",
+            "arithmetic",
+            "comparison",
+            "incr"
+        ],
+        "i64": [],
+        "incr": [],
+        "proc": [],
+        "std": []
+    },
+    "yanked": false
+}

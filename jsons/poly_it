@@ -1,1 +1,38 @@
-{"name":"poly_it","vers":"0.1.0","deps":[{"name":"num-traits","req":"^0.2.18","features":["libm"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0","features":["derive"],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"0da2c136fdf4c1221f8ccad59e4b1d44afe21911a4c62a4a2f217ee67975b07b","features":{},"features2":{"serde":["dep:serde"]},"yanked":true,"rust_version":"1.70.0","v":2}
+{
+    "name": "poly_it",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "num-traits",
+            "req": "^0.2.18",
+            "features": [
+                "libm"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [
+                "derive"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "0da2c136fdf4c1221f8ccad59e4b1d44afe21911a4c62a4a2f217ee67975b07b",
+    "features": {},
+    "features2": {
+        "serde": [
+            "dep:serde"
+        ]
+    },
+    "yanked": true,
+    "rust_version": "1.70.0",
+    "v": 2
+}

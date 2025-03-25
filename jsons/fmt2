@@ -1,1 +1,88 @@
-{"name":"fmt2","vers":"0.3.0","deps":[{"name":"crossterm","req":"^0.28","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"transmute_guard","req":"^0.2.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"577f1279d81934d572659e9ff01d08aadc6e47af92b540b06df3a2b7db1d9ff0","features":{"ascii":["transmute_guard/ascii"],"ascii_char_variants":[],"default":["std"],"fmt_internals":[],"never_type":[],"nightly":["transmute_guard/nightly","never_type","fmt_internals","ascii"],"prompt":["terminal","std"],"screen_area":["terminal"],"std":[],"terminal":[]},"features2":{"dev_all_prompts_nightly":["dev_stable","unsigned_int_prompt"],"dev_nightly":["dev_all_prompts_nightly","nightly"],"dev_stable":["info_prompt","select_prompt"],"event":["terminal","dep:crossterm"],"info_prompt":["prompt","event","screen_area"],"select_prompt":["prompt","event","screen_area"],"unsigned_int_prompt":["prompt","event","screen_area","ascii","ascii_char_variants"]},"yanked":false,"v":2}
+{
+    "name": "fmt2",
+    "vers": "0.3.0",
+    "deps": [
+        {
+            "name": "crossterm",
+            "req": "^0.28",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "transmute_guard",
+            "req": "^0.2.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "577f1279d81934d572659e9ff01d08aadc6e47af92b540b06df3a2b7db1d9ff0",
+    "features": {
+        "ascii": [
+            "transmute_guard/ascii"
+        ],
+        "ascii_char_variants": [],
+        "default": [
+            "std"
+        ],
+        "fmt_internals": [],
+        "never_type": [],
+        "nightly": [
+            "transmute_guard/nightly",
+            "never_type",
+            "fmt_internals",
+            "ascii"
+        ],
+        "prompt": [
+            "terminal",
+            "std"
+        ],
+        "screen_area": [
+            "terminal"
+        ],
+        "std": [],
+        "terminal": []
+    },
+    "features2": {
+        "dev_all_prompts_nightly": [
+            "dev_stable",
+            "unsigned_int_prompt"
+        ],
+        "dev_nightly": [
+            "dev_all_prompts_nightly",
+            "nightly"
+        ],
+        "dev_stable": [
+            "info_prompt",
+            "select_prompt"
+        ],
+        "event": [
+            "terminal",
+            "dep:crossterm"
+        ],
+        "info_prompt": [
+            "prompt",
+            "event",
+            "screen_area"
+        ],
+        "select_prompt": [
+            "prompt",
+            "event",
+            "screen_area"
+        ],
+        "unsigned_int_prompt": [
+            "prompt",
+            "event",
+            "screen_area",
+            "ascii",
+            "ascii_char_variants"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

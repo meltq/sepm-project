@@ -1,1 +1,56 @@
-{"name":"sbd-e2e-crypto-client","vers":"0.0.1-alpha","deps":[{"name":"sbd-client","req":"^0.0.1-alpha","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"sbd-server","req":"^0.0.1-alpha","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"sodoken","req":"^0.0.901-alpha","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.37.0","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.37.0","features":["full"],"optional":false,"default_features":false,"target":null,"kind":"dev"}],"cksum":"c1dcdc1c0e5b7d325fc595e6d2ff8054f9967c6433ec7e00fa971837cc8f9781","features":{},"yanked":false}
+{
+    "name": "sbd-e2e-crypto-client",
+    "vers": "0.0.1-alpha",
+    "deps": [
+        {
+            "name": "sbd-client",
+            "req": "^0.0.1-alpha",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "sbd-server",
+            "req": "^0.0.1-alpha",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "sodoken",
+            "req": "^0.0.901-alpha",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.37.0",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.37.0",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "c1dcdc1c0e5b7d325fc595e6d2ff8054f9967c6433ec7e00fa971837cc8f9781",
+    "features": {},
+    "yanked": false
+}

@@ -1,1 +1,89 @@
-{"name":"icall","vers":"0.1.8","deps":[{"name":"aok","req":"^0.1.15","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"aok","req":"^0.1.15","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"lazy_static","req":"^1.5.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"loginit","req":"^0.1.13","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"pb-jelly","req":"^0.0.17","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"static_init","req":"^1.0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"tokio","req":"^1.42.0","features":["macros","rt","rt-multi-thread","time","sync"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"tracing","req":"^0.1.41","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"2db06910e1541235c20ae3bdd19e975cde0fd2f47c89af13eb7119ed3b95e091","features":{"default":[]},"yanked":false}
+{
+    "name": "icall",
+    "vers": "0.1.8",
+    "deps": [
+        {
+            "name": "aok",
+            "req": "^0.1.15",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "aok",
+            "req": "^0.1.15",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "lazy_static",
+            "req": "^1.5.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "loginit",
+            "req": "^0.1.13",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "pb-jelly",
+            "req": "^0.0.17",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "static_init",
+            "req": "^1.0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.42.0",
+            "features": [
+                "macros",
+                "rt",
+                "rt-multi-thread",
+                "time",
+                "sync"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1.41",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "2db06910e1541235c20ae3bdd19e975cde0fd2f47c89af13eb7119ed3b95e091",
+    "features": {
+        "default": []
+    },
+    "yanked": false
+}

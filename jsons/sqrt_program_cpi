@@ -1,1 +1,37 @@
-{"name":"sqrt_program_cpi","vers":"0.1.0","deps":[{"name":"anchor-gen","req":"^0.3.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"anchor-lang","req":"^0.26.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"c1d5d9c11019ab9037ed9d05c2ec70fbd29164e8c9e10247b2926dcdee7c92b6","features":{"cpi":["no-entrypoint"],"default":["cpi"],"no-entrypoint":[],"no-idl":[],"no-log-ix-name":[]},"yanked":false}
+{
+    "name": "sqrt_program_cpi",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "anchor-gen",
+            "req": "^0.3.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "anchor-lang",
+            "req": "^0.26.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "c1d5d9c11019ab9037ed9d05c2ec70fbd29164e8c9e10247b2926dcdee7c92b6",
+    "features": {
+        "cpi": [
+            "no-entrypoint"
+        ],
+        "default": [
+            "cpi"
+        ],
+        "no-entrypoint": [],
+        "no-idl": [],
+        "no-log-ix-name": []
+    },
+    "yanked": false
+}

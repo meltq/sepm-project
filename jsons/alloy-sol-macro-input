@@ -1,1 +1,103 @@
-{"name":"alloy-sol-macro-input","vers":"0.7.0","deps":[{"name":"alloy-json-abi","req":"^0.7.0","features":[],"optional":true,"default_features":false,"target":null,"kind":"normal"},{"name":"dunce","req":"^1.0.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"heck","req":"^0.5.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"hex","req":"^1.10","features":["alloc"],"optional":false,"default_features":false,"target":null,"kind":"normal","package":"const-hex"},{"name":"proc-macro2","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"quote","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0","features":["alloc"],"optional":true,"default_features":false,"target":null,"kind":"normal"},{"name":"syn","req":"^2.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"syn-solidity","req":"^0.7.0","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"}],"cksum":"df64e094f6d2099339f9e82b5b38440b159757b6920878f28316243f8166c8d1","features":{},"features2":{"json":["dep:alloy-json-abi","dep:serde_json"]},"yanked":false,"rust_version":"1.65","v":2}
+{
+    "name": "alloy-sol-macro-input",
+    "vers": "0.7.0",
+    "deps": [
+        {
+            "name": "alloy-json-abi",
+            "req": "^0.7.0",
+            "features": [],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "dunce",
+            "req": "^1.0.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "heck",
+            "req": "^0.5.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "hex",
+            "req": "^1.10",
+            "features": [
+                "alloc"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal",
+            "package": "const-hex"
+        },
+        {
+            "name": "proc-macro2",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "quote",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0",
+            "features": [
+                "alloc"
+            ],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "syn",
+            "req": "^2.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "syn-solidity",
+            "req": "^0.7.0",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "df64e094f6d2099339f9e82b5b38440b159757b6920878f28316243f8166c8d1",
+    "features": {},
+    "features2": {
+        "json": [
+            "dep:alloy-json-abi",
+            "dep:serde_json"
+        ]
+    },
+    "yanked": false,
+    "rust_version": "1.65",
+    "v": 2
+}

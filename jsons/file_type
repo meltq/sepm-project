@@ -1,1 +1,161 @@
-{"name":"file_type","vers":"0.0.0","deps":[{"name":"anyhow","req":"^1.0.95","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"criterion","req":"^0.5.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"include_dir","req":"^0.7.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"indoc","req":"^2.0.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"jiff","req":"^0.1.19","features":["serde"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"quick-xml","req":"^0.37.2","features":["serde","serialize"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"quick-xml","req":"^0.37.2","features":["serde","serialize"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"rayon","req":"^1.5.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.217","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^2.0.9","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.42.0","features":["macros","rt","sync","fs","io-util"],"optional":false,"default_features":false,"target":"cfg(not(target_arch = \"wasm32\"))","kind":"normal"},{"name":"tokio","req":"^1.42.0","features":["macros","rt","sync"],"optional":false,"default_features":false,"target":"cfg(target_arch = \"wasm32\")","kind":"normal"},{"name":"tokio","req":"^1.42.0","features":["macros","rt","sync","full"],"optional":false,"default_features":false,"target":null,"kind":"dev"},{"name":"walkdir","req":"^2.5.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"bd4062a363214bc2de0eededf26a0c2e1e58cb23bd64aa1612847aeb7fa090ee","features":{},"yanked":false,"rust_version":"1.83.0"}
+{
+    "name": "file_type",
+    "vers": "0.0.0",
+    "deps": [
+        {
+            "name": "anyhow",
+            "req": "^1.0.95",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "criterion",
+            "req": "^0.5.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "include_dir",
+            "req": "^0.7.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "indoc",
+            "req": "^2.0.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "jiff",
+            "req": "^0.1.19",
+            "features": [
+                "serde"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "quick-xml",
+            "req": "^0.37.2",
+            "features": [
+                "serde",
+                "serialize"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "quick-xml",
+            "req": "^0.37.2",
+            "features": [
+                "serde",
+                "serialize"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "rayon",
+            "req": "^1.5.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.217",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^2.0.9",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.42.0",
+            "features": [
+                "macros",
+                "rt",
+                "sync",
+                "fs",
+                "io-util"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": "cfg(not(target_arch = \"wasm32\"))",
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.42.0",
+            "features": [
+                "macros",
+                "rt",
+                "sync"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": "cfg(target_arch = \"wasm32\")",
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.42.0",
+            "features": [
+                "macros",
+                "rt",
+                "sync",
+                "full"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "walkdir",
+            "req": "^2.5.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "bd4062a363214bc2de0eededf26a0c2e1e58cb23bd64aa1612847aeb7fa090ee",
+    "features": {},
+    "yanked": false,
+    "rust_version": "1.83.0"
+}

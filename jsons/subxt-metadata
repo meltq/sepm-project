@@ -1,1 +1,80 @@
-{"name":"subxt-metadata","vers":"0.21.0","deps":[{"name":"bitvec","req":"^1.0.0","features":["alloc"],"optional":false,"default_features":false,"target":null,"kind":"dev"},{"name":"codec","req":"^3.0.0","features":["derive","full"],"optional":false,"default_features":false,"target":null,"kind":"normal","package":"parity-scale-codec"},{"name":"criterion","req":"^0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"frame-metadata","req":"^15.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"scale-info","req":"^2.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"scale-info","req":"^2.0.0","features":["bit-vec"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"sp-core","req":"^6.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"2819a10a1a13bd9645419f59ac9d7cc8deb51052566b9d0c2157354ea44513d5","features":{},"yanked":false}
+{
+    "name": "subxt-metadata",
+    "vers": "0.21.0",
+    "deps": [
+        {
+            "name": "bitvec",
+            "req": "^1.0.0",
+            "features": [
+                "alloc"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "codec",
+            "req": "^3.0.0",
+            "features": [
+                "derive",
+                "full"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal",
+            "package": "parity-scale-codec"
+        },
+        {
+            "name": "criterion",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "frame-metadata",
+            "req": "^15.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "scale-info",
+            "req": "^2.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "scale-info",
+            "req": "^2.0.0",
+            "features": [
+                "bit-vec"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "sp-core",
+            "req": "^6.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "2819a10a1a13bd9645419f59ac9d7cc8deb51052566b9d0c2157354ea44513d5",
+    "features": {},
+    "yanked": false
+}

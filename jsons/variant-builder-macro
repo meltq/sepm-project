@@ -1,1 +1,47 @@
-{"name":"variant-builder-macro","vers":"0.1.0","deps":[{"name":"convert_case","req":"^0.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"derive_builder","req":"^0.20.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"quote","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"syn","req":"^2.0","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"400a92437c9608b30727a92bb9904153256da1b638bcf9bc26e27bd103bd8881","features":{},"yanked":false}
+{
+    "name": "variant-builder-macro",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "convert_case",
+            "req": "^0.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "derive_builder",
+            "req": "^0.20.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "quote",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "syn",
+            "req": "^2.0",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "400a92437c9608b30727a92bb9904153256da1b638bcf9bc26e27bd103bd8881",
+    "features": {},
+    "yanked": false
+}

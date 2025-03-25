@@ -1,1 +1,150 @@
-{"name":"webusb-web","vers":"0.1.0","deps":[{"name":"futures-core","req":"^0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"futures-util","req":"^0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"js-sys","req":"^0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.43","features":["sync"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.43","features":["macros"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"tokio-stream","req":"^0.1.17","features":["sync"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"wasm-bindgen","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"wasm-bindgen-futures","req":"^0.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"wasm-bindgen-test","req":"^0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"web-sys","req":"^0.3","features":["AllowedUsbDevice","Navigator","Usb","UsbAlternateInterface","UsbConfiguration","UsbConnectionEvent","UsbConnectionEventInit","UsbControlTransferParameters","UsbDevice","UsbDeviceFilter","UsbDeviceRequestOptions","UsbDirection","UsbEndpoint","UsbEndpointType","UsbInterface","UsbInTransferResult","UsbInTransferResult","UsbIsochronousInTransferPacket","UsbIsochronousInTransferResult","UsbIsochronousOutTransferPacket","UsbIsochronousOutTransferResult","UsbOutTransferResult","UsbPermissionResult","UsbPermissionStorage","UsbRecipient","UsbRecipient","UsbRequestType","UsbTransferStatus","Window","WorkerGlobalScope","WorkerNavigator"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"web-sys","req":"^0.3","features":["console","Document","HtmlElement"],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"733c4e77adcd6aed4be7bb739c153e7f097a643093b7b5e165f29484f8ae75fb","features":{},"yanked":false}
+{
+    "name": "webusb-web",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "futures-core",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "futures-util",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "js-sys",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.43",
+            "features": [
+                "sync"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.43",
+            "features": [
+                "macros"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "tokio-stream",
+            "req": "^0.1.17",
+            "features": [
+                "sync"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "wasm-bindgen",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "wasm-bindgen-futures",
+            "req": "^0.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "wasm-bindgen-test",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "web-sys",
+            "req": "^0.3",
+            "features": [
+                "AllowedUsbDevice",
+                "Navigator",
+                "Usb",
+                "UsbAlternateInterface",
+                "UsbConfiguration",
+                "UsbConnectionEvent",
+                "UsbConnectionEventInit",
+                "UsbControlTransferParameters",
+                "UsbDevice",
+                "UsbDeviceFilter",
+                "UsbDeviceRequestOptions",
+                "UsbDirection",
+                "UsbEndpoint",
+                "UsbEndpointType",
+                "UsbInterface",
+                "UsbInTransferResult",
+                "UsbInTransferResult",
+                "UsbIsochronousInTransferPacket",
+                "UsbIsochronousInTransferResult",
+                "UsbIsochronousOutTransferPacket",
+                "UsbIsochronousOutTransferResult",
+                "UsbOutTransferResult",
+                "UsbPermissionResult",
+                "UsbPermissionStorage",
+                "UsbRecipient",
+                "UsbRecipient",
+                "UsbRequestType",
+                "UsbTransferStatus",
+                "Window",
+                "WorkerGlobalScope",
+                "WorkerNavigator"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "web-sys",
+            "req": "^0.3",
+            "features": [
+                "console",
+                "Document",
+                "HtmlElement"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "733c4e77adcd6aed4be7bb739c153e7f097a643093b7b5e165f29484f8ae75fb",
+    "features": {},
+    "yanked": false
+}

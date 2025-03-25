@@ -1,1 +1,43 @@
-{"name":"rs-proxy","vers":"0.7.6","deps":[{"name":"futures","req":"^0.3.30","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"getopts","req":"^0.2.21","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.37.0","features":["io-util","net","rt-multi-thread","macros","sync","time"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"6df42adeee8325a4f5b764245a6a285c7f1e169ef625b04d64f7b4d369236b60","features":{},"yanked":true}
+{
+    "name": "rs-proxy",
+    "vers": "0.7.6",
+    "deps": [
+        {
+            "name": "futures",
+            "req": "^0.3.30",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "getopts",
+            "req": "^0.2.21",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.37.0",
+            "features": [
+                "io-util",
+                "net",
+                "rt-multi-thread",
+                "macros",
+                "sync",
+                "time"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "6df42adeee8325a4f5b764245a6a285c7f1e169ef625b04d64f7b4d369236b60",
+    "features": {},
+    "yanked": true
+}

@@ -1,1 +1,52 @@
-{"name":"codspeed-divan-compat-macros","vers":"2.8.0-alpha.0","deps":[{"name":"divan-macros","req":"=0.1.17","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"proc-macro2","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"quote","req":"^1","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"syn","req":"^2.0.18","features":["full","clone-impls","parsing","printing","proc-macro"],"optional":false,"default_features":false,"target":null,"kind":"normal"}],"cksum":"10af55b48a9d81c8187ae1801d64a68fb16fc5fc27009d35d2e0e3c116b191cb","features":{},"yanked":false,"rust_version":"1.74"}
+{
+    "name": "codspeed-divan-compat-macros",
+    "vers": "2.8.0-alpha.0",
+    "deps": [
+        {
+            "name": "divan-macros",
+            "req": "=0.1.17",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "proc-macro2",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "quote",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "syn",
+            "req": "^2.0.18",
+            "features": [
+                "full",
+                "clone-impls",
+                "parsing",
+                "printing",
+                "proc-macro"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "10af55b48a9d81c8187ae1801d64a68fb16fc5fc27009d35d2e0e3c116b191cb",
+    "features": {},
+    "yanked": false,
+    "rust_version": "1.74"
+}

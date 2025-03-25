@@ -1,1 +1,82 @@
-{"name":"re_types_blueprint","vers":"0.16.0-alpha.3","deps":[{"name":"array-init","req":"^2.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"arrow2","req":"^0.17","features":["io_ipc","io_print","compute_concatenate"],"optional":false,"default_features":true,"target":null,"kind":"normal","package":"re_arrow2"},{"name":"bytemuck","req":"^1.11","features":["extern_crate_alloc"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"once_cell","req":"^1.17","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"re_tracing","req":"=0.16.0-alpha.3","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"re_types","req":"=0.16.0-alpha.3","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"re_types_core","req":"=0.16.0-alpha.3","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"}],"cksum":"261ee1e62334298dbec74f7d59d7b48efc25beafe52ec70d5c8d9e4e599c0b54","features":{"default":[]},"yanked":false,"rust_version":"1.76"}
+{
+    "name": "re_types_blueprint",
+    "vers": "0.16.0-alpha.3",
+    "deps": [
+        {
+            "name": "array-init",
+            "req": "^2.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "arrow2",
+            "req": "^0.17",
+            "features": [
+                "io_ipc",
+                "io_print",
+                "compute_concatenate"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal",
+            "package": "re_arrow2"
+        },
+        {
+            "name": "bytemuck",
+            "req": "^1.11",
+            "features": [
+                "extern_crate_alloc"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "once_cell",
+            "req": "^1.17",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "re_tracing",
+            "req": "=0.16.0-alpha.3",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "re_types",
+            "req": "=0.16.0-alpha.3",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "re_types_core",
+            "req": "=0.16.0-alpha.3",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "261ee1e62334298dbec74f7d59d7b48efc25beafe52ec70d5c8d9e4e599c0b54",
+    "features": {
+        "default": []
+    },
+    "yanked": false,
+    "rust_version": "1.76"
+}

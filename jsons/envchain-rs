@@ -1,1 +1,61 @@
-{"name":"envchain-rs","vers":"0.1.2","deps":[{"name":"clap","req":"^4","features":["derive","wrap_help"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rpassword","req":"^7","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"secret-service","req":"^3","features":["rt-tokio-crypto-rust"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"toml","req":"^0.8","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"2b1d27980afeee75c5156ae2deec40f57e04109d8242844c121a4d0c9c5acda9","features":{},"yanked":false}
+{
+    "name": "envchain-rs",
+    "vers": "0.1.2",
+    "deps": [
+        {
+            "name": "clap",
+            "req": "^4",
+            "features": [
+                "derive",
+                "wrap_help"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rpassword",
+            "req": "^7",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "secret-service",
+            "req": "^3",
+            "features": [
+                "rt-tokio-crypto-rust"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "toml",
+            "req": "^0.8",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "2b1d27980afeee75c5156ae2deec40f57e04109d8242844c121a4d0c9c5acda9",
+    "features": {},
+    "yanked": false
+}

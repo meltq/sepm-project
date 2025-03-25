@@ -1,1 +1,45 @@
-{"name":"humanbyte","vers":"0.1.0","deps":[{"name":"humanbyte-derive","req":"^0.1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0","features":["derive"],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"f124e8fbeb48e32c87f5be599c2cf23c23d6a6ef85806683bf277535e940e7df","features":{"default":["std"],"std":[]},"features2":{"derive":["dep:humanbyte-derive"],"serde":["dep:serde","std","humanbyte-derive/serde"]},"yanked":false,"v":2}
+{
+    "name": "humanbyte",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "humanbyte-derive",
+            "req": "^0.1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [
+                "derive"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "f124e8fbeb48e32c87f5be599c2cf23c23d6a6ef85806683bf277535e940e7df",
+    "features": {
+        "default": [
+            "std"
+        ],
+        "std": []
+    },
+    "features2": {
+        "derive": [
+            "dep:humanbyte-derive"
+        ],
+        "serde": [
+            "dep:serde",
+            "std",
+            "humanbyte-derive/serde"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

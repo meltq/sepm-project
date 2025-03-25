@@ -1,1 +1,53 @@
-{"name":"iprfc","vers":"0.1.0","deps":[{"name":"ipnet","req":"^2","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"paste","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1","features":["derive"],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"b4cc0ea705bde7eb0448f14a3d86b84e7a90b155e3025b8a5ccf4049e0f2263d","features":{"default":["std"],"std":["ipnet/default"]},"features2":{"serde":["dep:serde","ipnet/serde"]},"yanked":true,"rust_version":"1.56.0","v":2}
+{
+    "name": "iprfc",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "ipnet",
+            "req": "^2",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "paste",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1",
+            "features": [
+                "derive"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "b4cc0ea705bde7eb0448f14a3d86b84e7a90b155e3025b8a5ccf4049e0f2263d",
+    "features": {
+        "default": [
+            "std"
+        ],
+        "std": [
+            "ipnet/default"
+        ]
+    },
+    "features2": {
+        "serde": [
+            "dep:serde",
+            "ipnet/serde"
+        ]
+    },
+    "yanked": true,
+    "rust_version": "1.56.0",
+    "v": 2
+}

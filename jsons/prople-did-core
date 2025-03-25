@@ -1,1 +1,53 @@
-{"name":"prople-did-core","vers":"0.1.0","deps":[{"name":"multibase","req":"^0.9","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"prople-crypto","req":"~0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rst-common","req":"^1.2.0","features":["standard","with-errors","with-tokio","with-logging","with-cryptography","with-tests"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_jcs","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"8cf90e3cd940f89e7a8c4194fb9ce7d7fd6e1b4521ee2cbf6a166795cd03a96b","features":{},"yanked":false,"rust_version":"1.74"}
+{
+    "name": "prople-did-core",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "multibase",
+            "req": "^0.9",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "prople-crypto",
+            "req": "~0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rst-common",
+            "req": "^1.2.0",
+            "features": [
+                "standard",
+                "with-errors",
+                "with-tokio",
+                "with-logging",
+                "with-cryptography",
+                "with-tests"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_jcs",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "8cf90e3cd940f89e7a8c4194fb9ce7d7fd6e1b4521ee2cbf6a166795cd03a96b",
+    "features": {},
+    "yanked": false,
+    "rust_version": "1.74"
+}

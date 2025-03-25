@@ -1,1 +1,38 @@
-{"name":"mut_set_derive","vers":"0.1.2","deps":[{"name":"proc-macro2","req":"^1.0.74","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"quote","req":"^1.0.35","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"syn","req":"^2.0.46","features":["visit-mut"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"8bdb9f96392456a6ef353bdb28a1fb2b30030bae8aa849d09b7315eebd6cd310","features":{},"yanked":false}
+{
+    "name": "mut_set_derive",
+    "vers": "0.1.2",
+    "deps": [
+        {
+            "name": "proc-macro2",
+            "req": "^1.0.74",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "quote",
+            "req": "^1.0.35",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "syn",
+            "req": "^2.0.46",
+            "features": [
+                "visit-mut"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "8bdb9f96392456a6ef353bdb28a1fb2b30030bae8aa849d09b7315eebd6cd310",
+    "features": {},
+    "yanked": false
+}

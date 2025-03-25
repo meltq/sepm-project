@@ -1,1 +1,151 @@
-{"name":"txtx-addon-network-svm","vers":"0.1.0","deps":[{"name":"anchor-lang-idl","req":"^0.1.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"async-recursion","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"bincode","req":"^1.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"borsh","req":"^1.5.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"lazy_static","req":"^1.4.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_derive","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.113","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"solana-client","req":"^2.1.10","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"solana-sdk","req":"^2.1.10","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"solana_idl","req":"^0.2.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"spl-associated-token-account","req":"=4.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"spl-token","req":"^7.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tiny-bip39","req":"^0.8.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"txtx-addon-kit","req":"^0.2.1","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"}],"cksum":"7a05ac79a3a1c3511d7d65ac1cfda168b4d759f7a48aac926ee88ebf8ba06eb5","features":{"default":["txtx-addon-kit/default"],"wasm":["txtx-addon-kit/wasm"]},"yanked":false}
+{
+    "name": "txtx-addon-network-svm",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "anchor-lang-idl",
+            "req": "^0.1.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "async-recursion",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "bincode",
+            "req": "^1.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "borsh",
+            "req": "^1.5.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "lazy_static",
+            "req": "^1.4.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_derive",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.113",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "solana-client",
+            "req": "^2.1.10",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "solana-sdk",
+            "req": "^2.1.10",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "solana_idl",
+            "req": "^0.2.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "spl-associated-token-account",
+            "req": "=4.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "spl-token",
+            "req": "^7.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tiny-bip39",
+            "req": "^0.8.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "txtx-addon-kit",
+            "req": "^0.2.1",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "7a05ac79a3a1c3511d7d65ac1cfda168b4d759f7a48aac926ee88ebf8ba06eb5",
+    "features": {
+        "default": [
+            "txtx-addon-kit/default"
+        ],
+        "wasm": [
+            "txtx-addon-kit/wasm"
+        ]
+    },
+    "yanked": false
+}

@@ -1,1 +1,107 @@
-{"name":"cnls","vers":"0.1.0","deps":[{"name":"anyhow","req":"^1.0.81","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"colored","req":"^2.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"ignore","req":"^0.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"swc_common","req":"^0.33.19","features":["tty-emitter"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"swc_css","req":"^0.157.38","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"swc_ecma_ast","req":"^0.112.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"swc_ecma_parser","req":"^0.143.9","features":["swc_ecma_visit"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"swc_ecma_visit","req":"^0.98.6","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.36.0","features":["macros","rt-multi-thread","io-std"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tower-lsp","req":"^0.20.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"038fe25b2043acd2869305d3633f8bb4d4715c0667bcf512bb27f2c52614d59b","features":{},"yanked":false}
+{
+    "name": "cnls",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "anyhow",
+            "req": "^1.0.81",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "colored",
+            "req": "^2.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ignore",
+            "req": "^0.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "swc_common",
+            "req": "^0.33.19",
+            "features": [
+                "tty-emitter"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "swc_css",
+            "req": "^0.157.38",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "swc_ecma_ast",
+            "req": "^0.112.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "swc_ecma_parser",
+            "req": "^0.143.9",
+            "features": [
+                "swc_ecma_visit"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "swc_ecma_visit",
+            "req": "^0.98.6",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.36.0",
+            "features": [
+                "macros",
+                "rt-multi-thread",
+                "io-std"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tower-lsp",
+            "req": "^0.20.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "038fe25b2043acd2869305d3633f8bb4d4715c0667bcf512bb27f2c52614d59b",
+    "features": {},
+    "yanked": false
+}

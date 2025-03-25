@@ -1,1 +1,80 @@
-{"name":"systemd-duration","vers":"0.1.0","deps":[{"name":"chrono","req":"^0.4","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"chrono","req":"^0.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"nom","req":"^7.1","features":["alloc"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"time","req":"^0.3","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"time","req":"^0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"66d92605142d5944f5531326ea2914f13314896c582656d37cf2552855951cff","features":{"default":["with-chrono","with-time"]},"features2":{"with-chrono":["dep:chrono"],"with-time":["dep:time"]},"yanked":false,"rust_version":"1.67.1","v":2}
+{
+    "name": "systemd-duration",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "chrono",
+            "req": "^0.4",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "chrono",
+            "req": "^0.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "nom",
+            "req": "^7.1",
+            "features": [
+                "alloc"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "time",
+            "req": "^0.3",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "time",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "66d92605142d5944f5531326ea2914f13314896c582656d37cf2552855951cff",
+    "features": {
+        "default": [
+            "with-chrono",
+            "with-time"
+        ]
+    },
+    "features2": {
+        "with-chrono": [
+            "dep:chrono"
+        ],
+        "with-time": [
+            "dep:time"
+        ]
+    },
+    "yanked": false,
+    "rust_version": "1.67.1",
+    "v": 2
+}

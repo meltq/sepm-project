@@ -1,1 +1,33 @@
-{"name":"chik-sha2","vers":"0.15.0","deps":[{"name":"openssl","req":"^0.10.68","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"sha2","req":"^0.10.8","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"c2f9b5665ca9c2f737eb6033320eb03124fe54730ad51de094271d7e2d32877f","features":{},"features2":{"openssl":["dep:openssl"]},"yanked":false,"v":2}
+{
+    "name": "chik-sha2",
+    "vers": "0.15.0",
+    "deps": [
+        {
+            "name": "openssl",
+            "req": "^0.10.68",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "sha2",
+            "req": "^0.10.8",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "c2f9b5665ca9c2f737eb6033320eb03124fe54730ad51de094271d7e2d32877f",
+    "features": {},
+    "features2": {
+        "openssl": [
+            "dep:openssl"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

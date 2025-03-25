@@ -1,1 +1,48 @@
-{"name":"sequential-integration","vers":"0.0.1","deps":[{"name":"assert_approx_eq","req":"^1.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"fehler","req":"^1.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"mexprp","req":"^0.3.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"snafu","req":"^0.6.8","features":["backtraces","backtraces-impl-backtrace-crate"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"1380d5484179ca4c55360cbefa70cf20096c4ce5bbd63ba95676119f59899389","features":{},"yanked":false}
+{
+    "name": "sequential-integration",
+    "vers": "0.0.1",
+    "deps": [
+        {
+            "name": "assert_approx_eq",
+            "req": "^1.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "fehler",
+            "req": "^1.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "mexprp",
+            "req": "^0.3.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "snafu",
+            "req": "^0.6.8",
+            "features": [
+                "backtraces",
+                "backtraces-impl-backtrace-crate"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "1380d5484179ca4c55360cbefa70cf20096c4ce5bbd63ba95676119f59899389",
+    "features": {},
+    "yanked": false
+}

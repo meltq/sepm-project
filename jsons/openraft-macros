@@ -1,1 +1,40 @@
-{"name":"openraft-macros","vers":"0.9.0","deps":[{"name":"proc-macro2","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"quote","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"syn","req":"^2.0","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"161aaeb701dfa958b82870c90edeac173ff4537dd9f0d58455c0301b4e56f1f7","features":{"singlethreaded":[]},"yanked":false}
+{
+    "name": "openraft-macros",
+    "vers": "0.9.0",
+    "deps": [
+        {
+            "name": "proc-macro2",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "quote",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "syn",
+            "req": "^2.0",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "161aaeb701dfa958b82870c90edeac173ff4537dd9f0d58455c0301b4e56f1f7",
+    "features": {
+        "singlethreaded": []
+    },
+    "yanked": false
+}

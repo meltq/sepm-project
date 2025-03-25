@@ -1,1 +1,56 @@
-{"name":"cargo-cloudrun","vers":"0.0.0","deps":[{"name":"clap","req":"^4.3","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"dialoguer","req":"^0.11.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"google-cloudevents","req":"^0.1.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"7560d6de48a705bf35b39adde5ee73b5dadeb0b2424e14e1ef94c4e2b80eadcd","features":{},"yanked":false}
+{
+    "name": "cargo-cloudrun",
+    "vers": "0.0.0",
+    "deps": [
+        {
+            "name": "clap",
+            "req": "^4.3",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "dialoguer",
+            "req": "^0.11.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "google-cloudevents",
+            "req": "^0.1.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "7560d6de48a705bf35b39adde5ee73b5dadeb0b2424e14e1ef94c4e2b80eadcd",
+    "features": {},
+    "yanked": false
+}

@@ -1,1 +1,138 @@
-{"name":"gcp-sdk-workflows-v1","vers":"0.1.0-rc4","deps":[{"name":"async-trait","req":"^0.1.84","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"bytes","req":"^1.8.0","features":["serde"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"gax","req":"^0.1.0-rc4","features":["unstable-sdk-client"],"optional":false,"default_features":true,"target":null,"kind":"normal","package":"gcp-sdk-gax"},{"name":"lazy_static","req":"^1.5.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"location","req":"^0.1.0-rc4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal","package":"gcp-sdk-location"},{"name":"longrunning","req":"^0.1.0-rc4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal","package":"gcp-sdk-longrunning"},{"name":"reqwest","req":"^0.12.12","features":["json"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.216","features":["serde_derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.134","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_with","req":"^3.12.0","features":["base64","macros","std"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"tracing","req":"^0.1.41","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"wkt","req":"^0.1.0-rc4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal","package":"gcp-sdk-wkt"}],"cksum":"ac69c278a8ef8c028f0e5d39eb95c62bfd2788c99785fe7b8873e2317489ef01","features":{"unstable-stream":["gax/unstable-stream","location/unstable-stream"]},"yanked":false}
+{
+    "name": "gcp-sdk-workflows-v1",
+    "vers": "0.1.0-rc4",
+    "deps": [
+        {
+            "name": "async-trait",
+            "req": "^0.1.84",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "bytes",
+            "req": "^1.8.0",
+            "features": [
+                "serde"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "gax",
+            "req": "^0.1.0-rc4",
+            "features": [
+                "unstable-sdk-client"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal",
+            "package": "gcp-sdk-gax"
+        },
+        {
+            "name": "lazy_static",
+            "req": "^1.5.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "location",
+            "req": "^0.1.0-rc4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal",
+            "package": "gcp-sdk-location"
+        },
+        {
+            "name": "longrunning",
+            "req": "^0.1.0-rc4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal",
+            "package": "gcp-sdk-longrunning"
+        },
+        {
+            "name": "reqwest",
+            "req": "^0.12.12",
+            "features": [
+                "json"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.216",
+            "features": [
+                "serde_derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.134",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_with",
+            "req": "^3.12.0",
+            "features": [
+                "base64",
+                "macros",
+                "std"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1.41",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "wkt",
+            "req": "^0.1.0-rc4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal",
+            "package": "gcp-sdk-wkt"
+        }
+    ],
+    "cksum": "ac69c278a8ef8c028f0e5d39eb95c62bfd2788c99785fe7b8873e2317489ef01",
+    "features": {
+        "unstable-stream": [
+            "gax/unstable-stream",
+            "location/unstable-stream"
+        ]
+    },
+    "yanked": false
+}

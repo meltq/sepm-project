@@ -1,1 +1,38 @@
-{"name":"epd-spectra","vers":"0.1.0","deps":[{"name":"embedded-graphics","req":"^0.8.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"embedded-hal","req":"^1.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rppal","req":"^0.17","features":["hal"],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"371c59f8a9e25dbd379acea892402086c881062486a006944b6c023a05ba2fd4","features":{},"yanked":false}
+{
+    "name": "epd-spectra",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "embedded-graphics",
+            "req": "^0.8.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "embedded-hal",
+            "req": "^1.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rppal",
+            "req": "^0.17",
+            "features": [
+                "hal"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "371c59f8a9e25dbd379acea892402086c881062486a006944b6c023a05ba2fd4",
+    "features": {},
+    "yanked": false
+}

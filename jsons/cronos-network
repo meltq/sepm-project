@@ -1,1 +1,38 @@
-{"name":"cronos-network","vers":"0.1.8","deps":[{"name":"anchor-lang","req":"^0.23.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"anchor-spl","req":"^0.23.0","features":["mint","token"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"b632e3fe456a7c5725434977d110e2437f4295af27eb8c8f941d84f47e17d627","features":{"cpi":["no-entrypoint"],"default":[],"no-entrypoint":[],"no-idl":[],"no-log-ix-name":[]},"yanked":false}
+{
+    "name": "cronos-network",
+    "vers": "0.1.8",
+    "deps": [
+        {
+            "name": "anchor-lang",
+            "req": "^0.23.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "anchor-spl",
+            "req": "^0.23.0",
+            "features": [
+                "mint",
+                "token"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "b632e3fe456a7c5725434977d110e2437f4295af27eb8c8f941d84f47e17d627",
+    "features": {
+        "cpi": [
+            "no-entrypoint"
+        ],
+        "default": [],
+        "no-entrypoint": [],
+        "no-idl": [],
+        "no-log-ix-name": []
+    },
+    "yanked": false
+}

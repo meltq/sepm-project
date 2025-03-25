@@ -1,1 +1,69 @@
-{"name":"VaultAPI-Client","vers":"0.0.1-a","deps":[{"name":"base64","req":"^0.22.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"dotenv","req":"^0.15.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"reqwest","req":"^0.12.7","features":["blocking","json"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"ring","req":"^0.17.8","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.217","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.135","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"f459633c207f5d6265a7a05348cd620ebc635919b1dbd8267d2a1e040ff9d224","features":{},"yanked":false,"rust_version":"1.80.0"}
+{
+    "name": "VaultAPI-Client",
+    "vers": "0.0.1-a",
+    "deps": [
+        {
+            "name": "base64",
+            "req": "^0.22.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "dotenv",
+            "req": "^0.15.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "reqwest",
+            "req": "^0.12.7",
+            "features": [
+                "blocking",
+                "json"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ring",
+            "req": "^0.17.8",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.217",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.135",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "f459633c207f5d6265a7a05348cd620ebc635919b1dbd8267d2a1e040ff9d224",
+    "features": {},
+    "yanked": false,
+    "rust_version": "1.80.0"
+}

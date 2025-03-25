@@ -1,1 +1,41 @@
-{"name":"luavisors","vers":"1.0.0","deps":[{"name":"async-signal","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"mlua","req":"^0.10","features":["luajit52","vendored","async","send"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"smol","req":"^2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"fb78f5dcc1e96c577a76e81b8ab9f1049ce1c6330c0b3f31f1ad4a041fdaa4ed","features":{},"yanked":false}
+{
+    "name": "luavisors",
+    "vers": "1.0.0",
+    "deps": [
+        {
+            "name": "async-signal",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "mlua",
+            "req": "^0.10",
+            "features": [
+                "luajit52",
+                "vendored",
+                "async",
+                "send"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "smol",
+            "req": "^2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "fb78f5dcc1e96c577a76e81b8ab9f1049ce1c6330c0b3f31f1ad4a041fdaa4ed",
+    "features": {},
+    "yanked": false
+}

@@ -1,1 +1,119 @@
-{"name":"csv-diff","vers":"0.1.0-alpha","deps":[{"name":"ahash","req":"^0.6.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"criterion","req":"^0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"crossbeam-channel","req":"^0.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"crossbeam-utils","req":"^0.8.3","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"csv","req":"^1.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"mown","req":"^0.2.1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"pretty_assertions","req":"^0.6.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"rayon","req":"^1.5","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"scoped-pool","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"smallvec","req":"^1.6.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^1.0.24","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"038cb159764807d56738b4b2bcbf335eef1e08363b176305ec3729c0b13bba61","features":{"crossbeam-threads":["crossbeam-utils"],"default":["rayon-threads"],"rayon-threads":["rayon","mown"]},"yanked":false}
+{
+    "name": "csv-diff",
+    "vers": "0.1.0-alpha",
+    "deps": [
+        {
+            "name": "ahash",
+            "req": "^0.6.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "criterion",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "crossbeam-channel",
+            "req": "^0.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "crossbeam-utils",
+            "req": "^0.8.3",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "csv",
+            "req": "^1.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "mown",
+            "req": "^0.2.1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "pretty_assertions",
+            "req": "^0.6.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "rayon",
+            "req": "^1.5",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "scoped-pool",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "smallvec",
+            "req": "^1.6.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^1.0.24",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "038cb159764807d56738b4b2bcbf335eef1e08363b176305ec3729c0b13bba61",
+    "features": {
+        "crossbeam-threads": [
+            "crossbeam-utils"
+        ],
+        "default": [
+            "rayon-threads"
+        ],
+        "rayon-threads": [
+            "rayon",
+            "mown"
+        ]
+    },
+    "yanked": false
+}

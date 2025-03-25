@@ -1,1 +1,39 @@
-{"name":"oxrocksdb-sys","vers":"0.3.0-beta.2","deps":[{"name":"bindgen","req":"^0.59","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"cc","req":"^1","features":["parallel"],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"libc","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"4bdba403f6884b9ede7a0e4d3d58b378426a93a194a62b8cdc3f2545a8cea69e","features":{},"yanked":false,"links":"rocksdb"}
+{
+    "name": "oxrocksdb-sys",
+    "vers": "0.3.0-beta.2",
+    "deps": [
+        {
+            "name": "bindgen",
+            "req": "^0.59",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "cc",
+            "req": "^1",
+            "features": [
+                "parallel"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "libc",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "4bdba403f6884b9ede7a0e4d3d58b378426a93a194a62b8cdc3f2545a8cea69e",
+    "features": {},
+    "yanked": false,
+    "links": "rocksdb"
+}

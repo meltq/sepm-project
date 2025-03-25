@@ -1,1 +1,51 @@
-{"name":"windows-syscall","vers":"0.0.1","deps":[{"name":"const-fnv1a-hash","req":"^1.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"exe","req":"^0.5.6","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"once_cell","req":"^1.19.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"phnt","req":"^0.0.8","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"ee47bd4eca8f0d584ceaf31d5f0d7cad8c3accdb21480c6ac5833169b1e7be7d","features":{"default":["windows-syscall-typesafe"],"windows-syscall-typesafe":[],"windows-syscall-use-linked":[]},"yanked":true}
+{
+    "name": "windows-syscall",
+    "vers": "0.0.1",
+    "deps": [
+        {
+            "name": "const-fnv1a-hash",
+            "req": "^1.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "exe",
+            "req": "^0.5.6",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "once_cell",
+            "req": "^1.19.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "phnt",
+            "req": "^0.0.8",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "ee47bd4eca8f0d584ceaf31d5f0d7cad8c3accdb21480c6ac5833169b1e7be7d",
+    "features": {
+        "default": [
+            "windows-syscall-typesafe"
+        ],
+        "windows-syscall-typesafe": [],
+        "windows-syscall-use-linked": []
+    },
+    "yanked": true
+}

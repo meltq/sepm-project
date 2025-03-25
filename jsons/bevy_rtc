@@ -1,1 +1,95 @@
-{"name":"bevy_rtc","vers":"0.1.0","deps":[{"name":"bevy","req":"^0.13","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"bevy_matchbox","req":"^0.9.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"bevy_rtc_macros","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"bincode","req":"^1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"enum-display","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"instant","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"58b2692bf0a1a58c4bc2dbbdde623a3123fde310459a7c272984cddd3da953e4","features":{"client":[],"server":["bevy_matchbox/signaling"]},"features2":{"binary":["dep:bincode"],"default":["dep:serde_json"]},"yanked":false,"v":2}
+{
+    "name": "bevy_rtc",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "bevy",
+            "req": "^0.13",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "bevy_matchbox",
+            "req": "^0.9.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "bevy_rtc_macros",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "bincode",
+            "req": "^1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "enum-display",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "instant",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "58b2692bf0a1a58c4bc2dbbdde623a3123fde310459a7c272984cddd3da953e4",
+    "features": {
+        "client": [],
+        "server": [
+            "bevy_matchbox/signaling"
+        ]
+    },
+    "features2": {
+        "binary": [
+            "dep:bincode"
+        ],
+        "default": [
+            "dep:serde_json"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

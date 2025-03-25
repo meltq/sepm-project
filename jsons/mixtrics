@@ -1,1 +1,87 @@
-{"name":"mixtrics","vers":"0.0.0","deps":[{"name":"itertools","req":"^0.14","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"opentelemetry_0_26","req":"^0.26","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal","package":"opentelemetry"},{"name":"opentelemetry_0_27","req":"^0.27","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal","package":"opentelemetry"},{"name":"parking_lot","req":"^0.12","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"prometheus","req":"^0.13","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"prometheus-client_0_22","req":"^0.22","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal","package":"prometheus-client"}],"cksum":"c829ad1ee9b8bff3fc0d33c7a11f79651b7441b305d6d147790466fc102721d8","features":{},"features2":{"opentelemetry":["opentelemetry_0_27"],"opentelemetry_0_26":["dep:opentelemetry_0_26"],"opentelemetry_0_27":["dep:opentelemetry_0_27"],"prometheus":["dep:prometheus"],"prometheus-client":["prometheus-client_0_22"],"prometheus-client_0_22":["dep:prometheus-client_0_22"]},"yanked":false,"v":2}
+{
+    "name": "mixtrics",
+    "vers": "0.0.0",
+    "deps": [
+        {
+            "name": "itertools",
+            "req": "^0.14",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "opentelemetry_0_26",
+            "req": "^0.26",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal",
+            "package": "opentelemetry"
+        },
+        {
+            "name": "opentelemetry_0_27",
+            "req": "^0.27",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal",
+            "package": "opentelemetry"
+        },
+        {
+            "name": "parking_lot",
+            "req": "^0.12",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "prometheus",
+            "req": "^0.13",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "prometheus-client_0_22",
+            "req": "^0.22",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal",
+            "package": "prometheus-client"
+        }
+    ],
+    "cksum": "c829ad1ee9b8bff3fc0d33c7a11f79651b7441b305d6d147790466fc102721d8",
+    "features": {},
+    "features2": {
+        "opentelemetry": [
+            "opentelemetry_0_27"
+        ],
+        "opentelemetry_0_26": [
+            "dep:opentelemetry_0_26"
+        ],
+        "opentelemetry_0_27": [
+            "dep:opentelemetry_0_27"
+        ],
+        "prometheus": [
+            "dep:prometheus"
+        ],
+        "prometheus-client": [
+            "prometheus-client_0_22"
+        ],
+        "prometheus-client_0_22": [
+            "dep:prometheus-client_0_22"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

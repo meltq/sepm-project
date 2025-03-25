@@ -1,1 +1,67 @@
-{"name":"edgedb-tokio-ext-derive","vers":"0.1.0","deps":[{"name":"lazy_static","req":"^1.4.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"proc-macro2","req":"^1.0.81","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"quote","req":"^1.0.36","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"regex","req":"^1.10.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"syn","req":"^2.0.60","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"syn","req":"^2.0.60","features":["extra-traits"],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"c202d75607f4e1caa6e2eacefc0d3fbf4d210fa3f91ef1f3ad3de29906eb58e9","features":{},"yanked":false}
+{
+    "name": "edgedb-tokio-ext-derive",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "lazy_static",
+            "req": "^1.4.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "proc-macro2",
+            "req": "^1.0.81",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "quote",
+            "req": "^1.0.36",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "regex",
+            "req": "^1.10.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "syn",
+            "req": "^2.0.60",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "syn",
+            "req": "^2.0.60",
+            "features": [
+                "extra-traits"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "c202d75607f4e1caa6e2eacefc0d3fbf4d210fa3f91ef1f3ad3de29906eb58e9",
+    "features": {},
+    "yanked": false
+}

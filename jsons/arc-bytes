@@ -1,1 +1,49 @@
-{"name":"arc-bytes","vers":"0.1.0","deps":[{"name":"pot","req":"^1.0.0-rc.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"serde","req":"^1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"thiserror","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"5ed1c9c3004eb0605fe6c0acb47c941113973e6cc747ac254ed771d4fb74c527","features":{"default":["serde"]},"yanked":false}
+{
+    "name": "arc-bytes",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "pot",
+            "req": "^1.0.0-rc.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "serde",
+            "req": "^1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "thiserror",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "5ed1c9c3004eb0605fe6c0acb47c941113973e6cc747ac254ed771d4fb74c527",
+    "features": {
+        "default": [
+            "serde"
+        ]
+    },
+    "yanked": false
+}

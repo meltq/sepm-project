@@ -1,1 +1,49 @@
-{"name":"cn-font-proto","vers":"0.1.0","deps":[{"name":"prost","req":"^0.13.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"prost-types","req":"^0.13.3","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"tonic","req":"^0.12.3","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"tonic-build","req":"^0.12.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"}],"cksum":"1ddb5b98f7acb12c558f93bc687780e6d4346beff9595477a5990f132f06c5fd","features":{"server":["tonic"]},"yanked":false}
+{
+    "name": "cn-font-proto",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "prost",
+            "req": "^0.13.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "prost-types",
+            "req": "^0.13.3",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tonic",
+            "req": "^0.12.3",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tonic-build",
+            "req": "^0.12.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        }
+    ],
+    "cksum": "1ddb5b98f7acb12c558f93bc687780e6d4346beff9595477a5990f132f06c5fd",
+    "features": {
+        "server": [
+            "tonic"
+        ]
+    },
+    "yanked": false
+}

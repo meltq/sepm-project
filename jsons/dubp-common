@@ -1,1 +1,75 @@
-{"name":"dubp-common","vers":"0.1.0","deps":[{"name":"bincode","req":"^1.2.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"dup-crypto","req":"^0.18.0","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.105","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"shrinkwraprs","req":"^0.3.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^1.0.20","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"1043caedd6162bae30afb9b9c9b5d1255498283cc5b31c09bb0b7b2ab6cd12ca","features":{"dewif":["dup-crypto/dewif"],"private_message":["dup-crypto/private_message"],"pubkey_check":["dup-crypto/pubkey_check"],"rand":["dup-crypto/rand"],"scrypt":["dup-crypto/scrypt"],"x25519":["dup-crypto/x25519"]},"yanked":false}
+{
+    "name": "dubp-common",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "bincode",
+            "req": "^1.2.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "dup-crypto",
+            "req": "^0.18.0",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.105",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "shrinkwraprs",
+            "req": "^0.3.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^1.0.20",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "1043caedd6162bae30afb9b9c9b5d1255498283cc5b31c09bb0b7b2ab6cd12ca",
+    "features": {
+        "dewif": [
+            "dup-crypto/dewif"
+        ],
+        "private_message": [
+            "dup-crypto/private_message"
+        ],
+        "pubkey_check": [
+            "dup-crypto/pubkey_check"
+        ],
+        "rand": [
+            "dup-crypto/rand"
+        ],
+        "scrypt": [
+            "dup-crypto/scrypt"
+        ],
+        "x25519": [
+            "dup-crypto/x25519"
+        ]
+    },
+    "yanked": false
+}

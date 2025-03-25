@@ -1,1 +1,178 @@
-{"name":"rktk-rrp-client-webhid","vers":"0.1.0-beta.1","deps":[{"name":"anyhow","req":"^1.0.86","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"async-lock","req":"^3.4.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"console_log","req":"^1.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"futures","req":"^0.3.30","features":["std"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"gloo-timers","req":"^0.3.0","features":["futures"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"log","req":"^0.4.22","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rktk-keymanager","req":"^0.1.0-beta.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rktk-rrp","req":"^0.1.0-beta.1","features":["tsify","client"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.207","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"serde-wasm-bindgen","req":"^0.6.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"ssmarshal","req":"^1.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tsify-next","req":"^0.5.4","features":["js"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"usbd-hid","req":"^0.8.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"wasm-bindgen","req":"^0.2.93","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"wasm-bindgen-futures","req":"^0.4.43","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"web-sys","req":"^0.3.70","features":["Hid","HidCollectionInfo","HidConnectionEvent","HidConnectionEventInit","HidDevice","HidDeviceFilter","HidDeviceRequestOptions","HidInputReportEvent","HidInputReportEventInit","HidReportInfo","HidReportItem","HiddenPluginEventInit","HidUnitSystem"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"a4ef0ed66bff1a9bc82b622a14edf53ffdbaeebd21b5485ece582d2d3200e23e","features":{"_check":[]},"yanked":false}
+{
+    "name": "rktk-rrp-client-webhid",
+    "vers": "0.1.0-beta.1",
+    "deps": [
+        {
+            "name": "anyhow",
+            "req": "^1.0.86",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "async-lock",
+            "req": "^3.4.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "console_log",
+            "req": "^1.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "futures",
+            "req": "^0.3.30",
+            "features": [
+                "std"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "gloo-timers",
+            "req": "^0.3.0",
+            "features": [
+                "futures"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "log",
+            "req": "^0.4.22",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rktk-keymanager",
+            "req": "^0.1.0-beta.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rktk-rrp",
+            "req": "^0.1.0-beta.1",
+            "features": [
+                "tsify",
+                "client"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.207",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde-wasm-bindgen",
+            "req": "^0.6.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ssmarshal",
+            "req": "^1.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tsify-next",
+            "req": "^0.5.4",
+            "features": [
+                "js"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "usbd-hid",
+            "req": "^0.8.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "wasm-bindgen",
+            "req": "^0.2.93",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "wasm-bindgen-futures",
+            "req": "^0.4.43",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "web-sys",
+            "req": "^0.3.70",
+            "features": [
+                "Hid",
+                "HidCollectionInfo",
+                "HidConnectionEvent",
+                "HidConnectionEventInit",
+                "HidDevice",
+                "HidDeviceFilter",
+                "HidDeviceRequestOptions",
+                "HidInputReportEvent",
+                "HidInputReportEventInit",
+                "HidReportInfo",
+                "HidReportItem",
+                "HiddenPluginEventInit",
+                "HidUnitSystem"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "a4ef0ed66bff1a9bc82b622a14edf53ffdbaeebd21b5485ece582d2d3200e23e",
+    "features": {
+        "_check": []
+    },
+    "yanked": false
+}

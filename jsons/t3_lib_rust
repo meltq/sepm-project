@@ -1,1 +1,49 @@
-{"name":"t3_lib_rust","vers":"0.1.1","deps":[{"name":"diesel","req":"^2.0.0","features":["postgres"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"dotenv","req":"^0.15.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"libc","req":"^0.2.169","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"reqwest","req":"^0.12.12","features":["blocking"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"f61ebdc9baa17e81bdc866b23559c013189cdedfc8ddc2670247ee5891ea8dbe","features":{},"yanked":false}
+{
+    "name": "t3_lib_rust",
+    "vers": "0.1.1",
+    "deps": [
+        {
+            "name": "diesel",
+            "req": "^2.0.0",
+            "features": [
+                "postgres"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "dotenv",
+            "req": "^0.15.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "libc",
+            "req": "^0.2.169",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "reqwest",
+            "req": "^0.12.12",
+            "features": [
+                "blocking"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "f61ebdc9baa17e81bdc866b23559c013189cdedfc8ddc2670247ee5891ea8dbe",
+    "features": {},
+    "yanked": false
+}

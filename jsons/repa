@@ -1,1 +1,82 @@
-{"name":"repa","vers":"0.1.0","deps":[{"name":"dir_rec","req":"^0.1.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"flager","req":"^0.0.6","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"hyperscan","req":"=0.3.2","features":["v5_4"],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"memmap2","req":"=0.9.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"phf","req":"=0.11.2","features":["macros"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"regex-automata","req":"=0.4.9","features":["dfa","syntax"],"optional":true,"default_features":false,"target":null,"kind":"normal"}],"cksum":"686d4360c3a346780d13fa621832906e9b5991e09b8dc423b99b2ed8d72df20b","features":{},"features2":{"default":["regex"],"hyperscan":["dep:hyperscan"],"regex":["dep:regex-automata"]},"yanked":false,"v":2}
+{
+    "name": "repa",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "dir_rec",
+            "req": "^0.1.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "flager",
+            "req": "^0.0.6",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "hyperscan",
+            "req": "=0.3.2",
+            "features": [
+                "v5_4"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "memmap2",
+            "req": "=0.9.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "phf",
+            "req": "=0.11.2",
+            "features": [
+                "macros"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "regex-automata",
+            "req": "=0.4.9",
+            "features": [
+                "dfa",
+                "syntax"
+            ],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "686d4360c3a346780d13fa621832906e9b5991e09b8dc423b99b2ed8d72df20b",
+    "features": {},
+    "features2": {
+        "default": [
+            "regex"
+        ],
+        "hyperscan": [
+            "dep:hyperscan"
+        ],
+        "regex": [
+            "dep:regex-automata"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

@@ -1,1 +1,130 @@
-{"name":"hpc","vers":"0.1.1","deps":[{"name":"aok","req":"^0.1.15","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"aok","req":"^0.1.15","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"axum","req":"^0.8.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"futures","req":"^0.3.31","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"icall","req":"^0.1.10","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"loginit","req":"^0.1.13","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"pb-jelly","req":"^0.0.17","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"static_init","req":"^1.0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"tokio","req":"^1.43.0","features":["macros","net","rt","rt-multi-thread"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.43.0","features":["macros","rt","rt-multi-thread","time","sync"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"tracing","req":"^0.1.41","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing","req":"^0.1.41","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"a44c164e2c80c84784c354237c65f3a6bf35b88964ec1ad1d377aab9c8a35988","features":{"default":[]},"yanked":false}
+{
+    "name": "hpc",
+    "vers": "0.1.1",
+    "deps": [
+        {
+            "name": "aok",
+            "req": "^0.1.15",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "aok",
+            "req": "^0.1.15",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "axum",
+            "req": "^0.8.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "futures",
+            "req": "^0.3.31",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "icall",
+            "req": "^0.1.10",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "loginit",
+            "req": "^0.1.13",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "pb-jelly",
+            "req": "^0.0.17",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "static_init",
+            "req": "^1.0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.43.0",
+            "features": [
+                "macros",
+                "net",
+                "rt",
+                "rt-multi-thread"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.43.0",
+            "features": [
+                "macros",
+                "rt",
+                "rt-multi-thread",
+                "time",
+                "sync"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1.41",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1.41",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "a44c164e2c80c84784c354237c65f3a6bf35b88964ec1ad1d377aab9c8a35988",
+    "features": {
+        "default": []
+    },
+    "yanked": false
+}

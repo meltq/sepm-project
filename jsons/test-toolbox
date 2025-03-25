@@ -1,1 +1,52 @@
-{"name":"test-toolbox","vers":"0.1.0","deps":[{"name":"cfg-if","req":"^1.0.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"gag","req":"^1.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"version-sync","req":"^0.9","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"136f16483dafb05cf27c1974a080bf7e31147a1cd10ca16c96b9d890e2f448f6","features":{"actual":["cfg-if"],"all":["actual","capture","expected"],"capture":["gag"],"default":[],"expected":["cfg-if"]},"yanked":false}
+{
+    "name": "test-toolbox",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "cfg-if",
+            "req": "^1.0.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "gag",
+            "req": "^1.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "version-sync",
+            "req": "^0.9",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "136f16483dafb05cf27c1974a080bf7e31147a1cd10ca16c96b9d890e2f448f6",
+    "features": {
+        "actual": [
+            "cfg-if"
+        ],
+        "all": [
+            "actual",
+            "capture",
+            "expected"
+        ],
+        "capture": [
+            "gag"
+        ],
+        "default": [],
+        "expected": [
+            "cfg-if"
+        ]
+    },
+    "yanked": false
+}

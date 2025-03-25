@@ -1,1 +1,62 @@
-{"name":"uintx","vers":"0.0.1","deps":[{"name":"getrandom","req":"^0.2.12","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"intx","req":"^0.1.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"num-traits","req":"^0.2.18","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"ux","req":"^0.1.5","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"f4cbf08c22e1e2b7e8e3b4064ded40572aa12dab95f35fe6a0c9b4d0e1abfab7","features":{"all":["num_traits_support","ux_support","intx_support","unsafe_fetch"],"intx_support":["intx"],"num_traits_support":["num-traits"],"unsafe_fetch":[],"ux_support":["ux"]},"yanked":false}
+{
+    "name": "uintx",
+    "vers": "0.0.1",
+    "deps": [
+        {
+            "name": "getrandom",
+            "req": "^0.2.12",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "intx",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "num-traits",
+            "req": "^0.2.18",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ux",
+            "req": "^0.1.5",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "f4cbf08c22e1e2b7e8e3b4064ded40572aa12dab95f35fe6a0c9b4d0e1abfab7",
+    "features": {
+        "all": [
+            "num_traits_support",
+            "ux_support",
+            "intx_support",
+            "unsafe_fetch"
+        ],
+        "intx_support": [
+            "intx"
+        ],
+        "num_traits_support": [
+            "num-traits"
+        ],
+        "unsafe_fetch": [],
+        "ux_support": [
+            "ux"
+        ]
+    },
+    "yanked": false
+}

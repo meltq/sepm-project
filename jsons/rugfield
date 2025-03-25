@@ -1,1 +1,38 @@
-{"name":"rugfield","vers":"0.1.0","deps":[{"name":"peroxide","req":"^0.34.7","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"peroxide","req":"^0.34.7","features":["plot"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"rustfft","req":"^6.2.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"607e249e483a0bf16996f946bf89781cd8a8316c9397f7fd78a20f1fec72043f","features":{},"yanked":false}
+{
+    "name": "rugfield",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "peroxide",
+            "req": "^0.34.7",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "peroxide",
+            "req": "^0.34.7",
+            "features": [
+                "plot"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "rustfft",
+            "req": "^6.2.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "607e249e483a0bf16996f946bf89781cd8a8316c9397f7fd78a20f1fec72043f",
+    "features": {},
+    "yanked": false
+}

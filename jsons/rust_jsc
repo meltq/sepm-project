@@ -1,1 +1,29 @@
-{"name":"rust_jsc","vers":"0.1.0","deps":[{"name":"rust_jsc_macros","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rust_jsc_sys","req":"^0.1.0","features":["patches"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"fec22745fb05e2cb483a01a9d09004b58b8ad647d21ebcaa5229cc2534b04f3b","features":{},"yanked":false}
+{
+    "name": "rust_jsc",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "rust_jsc_macros",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rust_jsc_sys",
+            "req": "^0.1.0",
+            "features": [
+                "patches"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "fec22745fb05e2cb483a01a9d09004b58b8ad647d21ebcaa5229cc2534b04f3b",
+    "features": {},
+    "yanked": false
+}

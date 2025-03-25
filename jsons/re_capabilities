@@ -1,1 +1,50 @@
-{"name":"re_capabilities","vers":"0.21.0-rc.2","deps":[{"name":"document-features","req":"^0.2.8","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"egui","req":"^0.29.1","features":["callstack","color-hex","log","rayon"],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"static_assertions","req":"^1.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"116da108e5065f0e5f067dd7c5c4e6713d922e2dc1032d7d355067535ef3ec04","features":{"default":[]},"features2":{"egui":["dep:egui"]},"yanked":false,"rust_version":"1.80","v":2}
+{
+    "name": "re_capabilities",
+    "vers": "0.21.0-rc.2",
+    "deps": [
+        {
+            "name": "document-features",
+            "req": "^0.2.8",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "egui",
+            "req": "^0.29.1",
+            "features": [
+                "callstack",
+                "color-hex",
+                "log",
+                "rayon"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "static_assertions",
+            "req": "^1.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "116da108e5065f0e5f067dd7c5c4e6713d922e2dc1032d7d355067535ef3ec04",
+    "features": {
+        "default": []
+    },
+    "features2": {
+        "egui": [
+            "dep:egui"
+        ]
+    },
+    "yanked": false,
+    "rust_version": "1.80",
+    "v": 2
+}

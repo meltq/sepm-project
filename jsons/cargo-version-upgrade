@@ -1,1 +1,47 @@
-{"name":"cargo-version-upgrade","vers":"1.0.1","deps":[{"name":"clap","req":"^4.3","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"semver","req":"^1.0.24","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tempfile","req":"^3.6","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"toml_edit","req":"^0.22.22","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"c9b5f106c8794bbe022668de28354474548b0c44b9094f7e2dfaf64a9dc6d0f2","features":{},"yanked":false}
+{
+    "name": "cargo-version-upgrade",
+    "vers": "1.0.1",
+    "deps": [
+        {
+            "name": "clap",
+            "req": "^4.3",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "semver",
+            "req": "^1.0.24",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tempfile",
+            "req": "^3.6",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "toml_edit",
+            "req": "^0.22.22",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "c9b5f106c8794bbe022668de28354474548b0c44b9094f7e2dfaf64a9dc6d0f2",
+    "features": {},
+    "yanked": false
+}

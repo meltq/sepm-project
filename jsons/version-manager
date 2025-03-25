@@ -1,1 +1,71 @@
-{"name":"version-manager","vers":"0.1.0-rc.1","deps":[{"name":"clap","req":"^4.5.4","features":["derive","color"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"clap_complete","req":"^4.5.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"clio","req":"^0.3.5","features":["clap","clap-parse"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"regex","req":"^1.10.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.197","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"toml","req":"^0.8.12","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"ce5b239e8951c3fe1e8b72f9ebb56fd58ab2329f87e2ed52733dc299087af6ef","features":{},"yanked":false}
+{
+    "name": "version-manager",
+    "vers": "0.1.0-rc.1",
+    "deps": [
+        {
+            "name": "clap",
+            "req": "^4.5.4",
+            "features": [
+                "derive",
+                "color"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "clap_complete",
+            "req": "^4.5.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "clio",
+            "req": "^0.3.5",
+            "features": [
+                "clap",
+                "clap-parse"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "regex",
+            "req": "^1.10.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.197",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "toml",
+            "req": "^0.8.12",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "ce5b239e8951c3fe1e8b72f9ebb56fd58ab2329f87e2ed52733dc299087af6ef",
+    "features": {},
+    "yanked": false
+}

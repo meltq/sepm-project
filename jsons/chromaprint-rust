@@ -1,1 +1,50 @@
-{"name":"chromaprint-rust","vers":"0.1.0","deps":[{"name":"chromaprint-sys-next","req":"^1.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"3bad203fc2b0e5b2d6148b748f7ecf47d45fdd6152f5b73bd1898c71064c0c34","features":{"avfft":["chromaprint-sys-next/avfft"],"default":[],"dynamic":["chromaprint-sys-next/dynamic"],"fftw3":["chromaprint-sys-next/fftw3"],"fftw3f":["chromaprint-sys-next/fftw3f"],"kissfft":["chromaprint-sys-next/kissfft"],"static":["chromaprint-sys-next/static"],"vdsp":["chromaprint-sys-next/vdsp"]},"yanked":false}
+{
+    "name": "chromaprint-rust",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "chromaprint-sys-next",
+            "req": "^1.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "3bad203fc2b0e5b2d6148b748f7ecf47d45fdd6152f5b73bd1898c71064c0c34",
+    "features": {
+        "avfft": [
+            "chromaprint-sys-next/avfft"
+        ],
+        "default": [],
+        "dynamic": [
+            "chromaprint-sys-next/dynamic"
+        ],
+        "fftw3": [
+            "chromaprint-sys-next/fftw3"
+        ],
+        "fftw3f": [
+            "chromaprint-sys-next/fftw3f"
+        ],
+        "kissfft": [
+            "chromaprint-sys-next/kissfft"
+        ],
+        "static": [
+            "chromaprint-sys-next/static"
+        ],
+        "vdsp": [
+            "chromaprint-sys-next/vdsp"
+        ]
+    },
+    "yanked": false
+}

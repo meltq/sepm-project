@@ -1,1 +1,125 @@
-{"name":"trs-dataframe","vers":"0.6.0","deps":[{"name":"data-value","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal","package":"trs-data-value"},{"name":"halfbrown","req":"^0.2","features":["serde"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"ndarray","req":"^0.16","features":["serde"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"pyo3","req":"^0.23","features":["auto-initialize"],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"rstest","req":"^0.21","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"serde","req":"^1.0","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"smartstring","req":"^1","features":["serde"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing","req":"^0.1.37","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing-test","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"8c46e4955308776e4f7cdd0f463a6095315e21dd655a6d39a7e014ade757c05c","features":{"default":[],"python":["pyo3","data-value/python"]},"yanked":false}
+{
+    "name": "trs-dataframe",
+    "vers": "0.6.0",
+    "deps": [
+        {
+            "name": "data-value",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal",
+            "package": "trs-data-value"
+        },
+        {
+            "name": "halfbrown",
+            "req": "^0.2",
+            "features": [
+                "serde"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ndarray",
+            "req": "^0.16",
+            "features": [
+                "serde"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "pyo3",
+            "req": "^0.23",
+            "features": [
+                "auto-initialize"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rstest",
+            "req": "^0.21",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "smartstring",
+            "req": "^1",
+            "features": [
+                "serde"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1.37",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing-test",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "8c46e4955308776e4f7cdd0f463a6095315e21dd655a6d39a7e014ade757c05c",
+    "features": {
+        "default": [],
+        "python": [
+            "pyo3",
+            "data-value/python"
+        ]
+    },
+    "yanked": false
+}

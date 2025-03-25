@@ -1,1 +1,38 @@
-{"name":"udptk-core","vers":"0.1.4","deps":[{"name":"thiserror","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"927f1d1b7caece79b89cf5930b5403924f4c28aa78e67286b6beeacaf2e01cf3","features":{},"yanked":false}
+{
+    "name": "udptk-core",
+    "vers": "0.1.4",
+    "deps": [
+        {
+            "name": "thiserror",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "927f1d1b7caece79b89cf5930b5403924f4c28aa78e67286b6beeacaf2e01cf3",
+    "features": {},
+    "yanked": false
+}

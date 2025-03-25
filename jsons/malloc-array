@@ -1,1 +1,36 @@
-{"name":"malloc-array","vers":"1.0.0","deps":[{"name":"jemalloc-sys","req":"^0.3","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"libc","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"c7b5511d138a171bb0ee61cae8c39d1aba8cd47fb6bbec8eb8cf9f13ccc8be75","features":{"assume_libc":[],"default":["zst_noalloc"],"jemalloc":["jemalloc-sys"],"zst_noalloc":[]},"yanked":false}
+{
+    "name": "malloc-array",
+    "vers": "1.0.0",
+    "deps": [
+        {
+            "name": "jemalloc-sys",
+            "req": "^0.3",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "libc",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "c7b5511d138a171bb0ee61cae8c39d1aba8cd47fb6bbec8eb8cf9f13ccc8be75",
+    "features": {
+        "assume_libc": [],
+        "default": [
+            "zst_noalloc"
+        ],
+        "jemalloc": [
+            "jemalloc-sys"
+        ],
+        "zst_noalloc": []
+    },
+    "yanked": false
+}

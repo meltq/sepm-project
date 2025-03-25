@@ -1,1 +1,31 @@
-{"name":"microlog","vers":"1.0.0","deps":[{"name":"colored","req":"^2.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"log","req":"^0.4.21","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"3d11f96ab716990faeef82db98fe16c6bdd79becc68966cf848f718e048b681d","features":{"no-color":["colored/no-color"]},"yanked":false}
+{
+    "name": "microlog",
+    "vers": "1.0.0",
+    "deps": [
+        {
+            "name": "colored",
+            "req": "^2.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "log",
+            "req": "^0.4.21",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "3d11f96ab716990faeef82db98fe16c6bdd79becc68966cf848f718e048b681d",
+    "features": {
+        "no-color": [
+            "colored/no-color"
+        ]
+    },
+    "yanked": false
+}

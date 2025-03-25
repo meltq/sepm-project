@@ -1,1 +1,105 @@
-{"name":"grafbase-sdk","vers":"0.1.0","deps":[{"name":"grafbase-sdk-derive","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"grafbase-workspace-hack","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"http","req":"^1.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"minicbor-serde","req":"^0.3.2","features":["alloc"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"semver","req":"^1.0.25","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.199","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.116","features":["preserve_order"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_urlencoded","req":"^0.7","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"url","req":"^2.5.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"wit-bindgen","req":"^0.38.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"bf2a1ed3d2954ec64f1cf69b6957169b123d9d01e97b03eee06991570ecf2594","features":{},"yanked":false}
+{
+    "name": "grafbase-sdk",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "grafbase-sdk-derive",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "grafbase-workspace-hack",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "http",
+            "req": "^1.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "minicbor-serde",
+            "req": "^0.3.2",
+            "features": [
+                "alloc"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "semver",
+            "req": "^1.0.25",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.199",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.116",
+            "features": [
+                "preserve_order"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_urlencoded",
+            "req": "^0.7",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "url",
+            "req": "^2.5.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "wit-bindgen",
+            "req": "^0.38.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "bf2a1ed3d2954ec64f1cf69b6957169b123d9d01e97b03eee06991570ecf2594",
+    "features": {},
+    "yanked": false
+}

@@ -1,1 +1,217 @@
-{"name":"scuffle-bootstrap-telemetry","vers":"0.0.0","deps":[{"name":"anyhow","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"bytes","req":"^1.6.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"http","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"http-body","req":"^1.0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"http-body-util","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"opentelemetry","req":"^0.27","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"opentelemetry-appender-tracing","req":"^0.27","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"opentelemetry_sdk","req":"^0.27","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"prometheus","req":"^0.13.4","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"querystring","req":"^1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"scuffle-bootstrap","req":"^0.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"scuffle-context","req":"^0.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"scuffle-http","req":"^0.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"scuffle-metrics","req":"^0.0.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"scuffle-pprof","req":"^0.0.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^2","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.36.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing-opentelemetry","req":"^0.28.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"891f15b567b7ec4ceefa1dd74a861e2ebd22ea830970d60828f3627439035351","features":{"pprof":["scuffle-pprof","querystring","tokio"]},"features2":{"default":["prometheus","pprof","opentelemetry-metrics","opentelemetry-traces","opentelemetry-logs"],"opentelemetry":["dep:opentelemetry","dep:opentelemetry_sdk","thiserror"],"opentelemetry-logs":["opentelemetry","opentelemetry-appender-tracing"],"opentelemetry-metrics":["opentelemetry"],"opentelemetry-traces":["opentelemetry","tracing-opentelemetry"],"prometheus":["dep:prometheus","scuffle-metrics","opentelemetry"]},"yanked":false,"v":2}
+{
+    "name": "scuffle-bootstrap-telemetry",
+    "vers": "0.0.0",
+    "deps": [
+        {
+            "name": "anyhow",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "bytes",
+            "req": "^1.6.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "http",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "http-body",
+            "req": "^1.0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "http-body-util",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "opentelemetry",
+            "req": "^0.27",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "opentelemetry-appender-tracing",
+            "req": "^0.27",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "opentelemetry_sdk",
+            "req": "^0.27",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "prometheus",
+            "req": "^0.13.4",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "querystring",
+            "req": "^1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "scuffle-bootstrap",
+            "req": "^0.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "scuffle-context",
+            "req": "^0.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "scuffle-http",
+            "req": "^0.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "scuffle-metrics",
+            "req": "^0.0.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "scuffle-pprof",
+            "req": "^0.0.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^2",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.36.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing-opentelemetry",
+            "req": "^0.28.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "891f15b567b7ec4ceefa1dd74a861e2ebd22ea830970d60828f3627439035351",
+    "features": {
+        "pprof": [
+            "scuffle-pprof",
+            "querystring",
+            "tokio"
+        ]
+    },
+    "features2": {
+        "default": [
+            "prometheus",
+            "pprof",
+            "opentelemetry-metrics",
+            "opentelemetry-traces",
+            "opentelemetry-logs"
+        ],
+        "opentelemetry": [
+            "dep:opentelemetry",
+            "dep:opentelemetry_sdk",
+            "thiserror"
+        ],
+        "opentelemetry-logs": [
+            "opentelemetry",
+            "opentelemetry-appender-tracing"
+        ],
+        "opentelemetry-metrics": [
+            "opentelemetry"
+        ],
+        "opentelemetry-traces": [
+            "opentelemetry",
+            "tracing-opentelemetry"
+        ],
+        "prometheus": [
+            "dep:prometheus",
+            "scuffle-metrics",
+            "opentelemetry"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

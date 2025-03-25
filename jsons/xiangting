@@ -1,1 +1,74 @@
-{"name":"xiangting","vers":"2.0.4","deps":[{"name":"criterion","req":"^0.5.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"cxx","req":"^1.0.128","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"cxx-build","req":"^1.0.128","features":[],"optional":true,"default_features":true,"target":null,"kind":"build"},{"name":"mt19937","req":"^2.0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"rand","req":"^0.8.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"thiserror","req":"^2.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"d235a7197c2568a742c64c3d4b509674f82504d2e8a147a86428303c92a0566a","features":{"build-file":[],"build-map":["build-file"]},"features2":{"correctness":["dep:cxx-build"]},"yanked":false,"v":2}
+{
+    "name": "xiangting",
+    "vers": "2.0.4",
+    "deps": [
+        {
+            "name": "criterion",
+            "req": "^0.5.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "cxx",
+            "req": "^1.0.128",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "cxx-build",
+            "req": "^1.0.128",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "mt19937",
+            "req": "^2.0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "rand",
+            "req": "^0.8.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "thiserror",
+            "req": "^2.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "d235a7197c2568a742c64c3d4b509674f82504d2e8a147a86428303c92a0566a",
+    "features": {
+        "build-file": [],
+        "build-map": [
+            "build-file"
+        ]
+    },
+    "features2": {
+        "correctness": [
+            "dep:cxx-build"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

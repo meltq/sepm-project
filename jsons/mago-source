@@ -1,1 +1,59 @@
-{"name":"mago-source","vers":"0.0.0","deps":[{"name":"codespan-reporting","req":"^0.11.1","features":["serde","serialization"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"dashmap","req":"^6.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"mago-interner","req":"^0.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing","req":"^0.1.40","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"340480365178db1a2bcd55958d6479dc4ad0c5dce1c7cf77e96a28889e373d7c","features":{},"yanked":false}
+{
+    "name": "mago-source",
+    "vers": "0.0.0",
+    "deps": [
+        {
+            "name": "codespan-reporting",
+            "req": "^0.11.1",
+            "features": [
+                "serde",
+                "serialization"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "dashmap",
+            "req": "^6.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "mago-interner",
+            "req": "^0.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1.40",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "340480365178db1a2bcd55958d6479dc4ad0c5dce1c7cf77e96a28889e373d7c",
+    "features": {},
+    "yanked": false
+}

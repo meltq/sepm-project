@@ -1,1 +1,49 @@
-{"name":"adp5360","vers":"0.1.0","deps":[{"name":"embedded-hal-async","req":"^1.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"embedded-hal-mock","req":"^0.11","features":["embedded-hal-async"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"embedded-hal-mock","req":"^0.11","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"tokio","req":"^1","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"56a555e31b180cf66ff7f9fe99ce09e699a61d7b82bef2024be71557805471bd","features":{},"yanked":false}
+{
+    "name": "adp5360",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "embedded-hal-async",
+            "req": "^1.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "embedded-hal-mock",
+            "req": "^0.11",
+            "features": [
+                "embedded-hal-async"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "embedded-hal-mock",
+            "req": "^0.11",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "tokio",
+            "req": "^1",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "56a555e31b180cf66ff7f9fe99ce09e699a61d7b82bef2024be71557805471bd",
+    "features": {},
+    "yanked": false
+}

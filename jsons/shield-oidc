@@ -1,1 +1,65 @@
-{"name":"shield-oidc","vers":"0.0.2","deps":[{"name":"async-trait","req":"^0.1.83","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"chrono","req":"^0.4.39","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"oauth2","req":"^4.4.2","features":["pkce-plain"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"openidconnect","req":"^3.5.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"shield","req":"^0.0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing","req":"^0.1.41","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"354dbf970ddad1047597679cf3f78249de6efa535d1de3d09fdf09bab0dd1cee","features":{},"yanked":false}
+{
+    "name": "shield-oidc",
+    "vers": "0.0.2",
+    "deps": [
+        {
+            "name": "async-trait",
+            "req": "^0.1.83",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "chrono",
+            "req": "^0.4.39",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "oauth2",
+            "req": "^4.4.2",
+            "features": [
+                "pkce-plain"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "openidconnect",
+            "req": "^3.5.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "shield",
+            "req": "^0.0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1.41",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "354dbf970ddad1047597679cf3f78249de6efa535d1de3d09fdf09bab0dd1cee",
+    "features": {},
+    "yanked": false
+}

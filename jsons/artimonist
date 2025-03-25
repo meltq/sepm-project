@@ -1,1 +1,60 @@
-{"name":"artimonist","vers":"0.3.5","deps":[{"name":"bitcoin","req":"^0.32.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"bitcoin","req":"^0.32.5","features":["base64"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"rust-crypto","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"unicode-normalization","req":"^0.1.24","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"96e7898ea048c9f854cfe3c2768a2ba8e4e86bfa65472b65290e892decff9d9e","features":{"default":[],"multilingual":[]},"yanked":false,"rust_version":"1.78.0"}
+{
+    "name": "artimonist",
+    "vers": "0.3.5",
+    "deps": [
+        {
+            "name": "bitcoin",
+            "req": "^0.32.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "bitcoin",
+            "req": "^0.32.5",
+            "features": [
+                "base64"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "rust-crypto",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "unicode-normalization",
+            "req": "^0.1.24",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "96e7898ea048c9f854cfe3c2768a2ba8e4e86bfa65472b65290e892decff9d9e",
+    "features": {
+        "default": [],
+        "multilingual": []
+    },
+    "yanked": false,
+    "rust_version": "1.78.0"
+}

@@ -1,1 +1,40 @@
-{"name":"jobclock","vers":"1.0.0","deps":[{"name":"chrono","req":"^0.4.35","features":["serde"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.197","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.114","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"dfe32c68fa9efbac4cdaac86dffaa69578b0d1314549e0f933f2c4ae7a63396f","features":{},"yanked":false}
+{
+    "name": "jobclock",
+    "vers": "1.0.0",
+    "deps": [
+        {
+            "name": "chrono",
+            "req": "^0.4.35",
+            "features": [
+                "serde"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.197",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.114",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "dfe32c68fa9efbac4cdaac86dffaa69578b0d1314549e0f933f2c4ae7a63396f",
+    "features": {},
+    "yanked": false
+}

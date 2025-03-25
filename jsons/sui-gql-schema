@@ -1,1 +1,147 @@
-{"name":"sui-gql-schema","vers":"0.7.1","deps":[{"name":"af-sui-types","req":"^0.6","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"base64","req":"^0.22","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"chrono","req":"^0.4","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"color-eyre","req":"^0.6","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"cynic","req":"^3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"cynic-codegen","req":"^3","features":["rkyv"],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"cynic-codegen","req":"^3","features":["rkyv"],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"derive_more","req":"^1","features":["as_ref","deref","display","error","into"],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"serde_with","req":"^3","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"ef358ea79cead88c1444b3c0f48ff6dc735413aa29e480411ba716febed07bea","features":{"unstable":[]},"features2":{"build":["dep:cynic-codegen"],"default":["scalars"],"scalars":["dep:af-sui-types","dep:base64","dep:chrono","dep:derive_more","dep:serde","dep:serde_json","dep:serde_with"]},"yanked":false,"v":2}
+{
+    "name": "sui-gql-schema",
+    "vers": "0.7.1",
+    "deps": [
+        {
+            "name": "af-sui-types",
+            "req": "^0.6",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "base64",
+            "req": "^0.22",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "chrono",
+            "req": "^0.4",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "color-eyre",
+            "req": "^0.6",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "cynic",
+            "req": "^3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "cynic-codegen",
+            "req": "^3",
+            "features": [
+                "rkyv"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "cynic-codegen",
+            "req": "^3",
+            "features": [
+                "rkyv"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "derive_more",
+            "req": "^1",
+            "features": [
+                "as_ref",
+                "deref",
+                "display",
+                "error",
+                "into"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "serde_with",
+            "req": "^3",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "ef358ea79cead88c1444b3c0f48ff6dc735413aa29e480411ba716febed07bea",
+    "features": {
+        "unstable": []
+    },
+    "features2": {
+        "build": [
+            "dep:cynic-codegen"
+        ],
+        "default": [
+            "scalars"
+        ],
+        "scalars": [
+            "dep:af-sui-types",
+            "dep:base64",
+            "dep:chrono",
+            "dep:derive_more",
+            "dep:serde",
+            "dep:serde_json",
+            "dep:serde_with"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

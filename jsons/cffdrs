@@ -1,1 +1,29 @@
-{"name":"cffdrs","vers":"0.1.0","deps":[{"name":"serde","req":"^1.0.201","features":["serde_derive"],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"a07383782b18cd3eaee78159143f209e9d2b04a8aa8075471ba5b4d165e1b597","features":{},"features2":{"default":["serde"],"serde":["dep:serde"]},"yanked":true,"v":2}
+{
+    "name": "cffdrs",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "serde",
+            "req": "^1.0.201",
+            "features": [
+                "serde_derive"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "a07383782b18cd3eaee78159143f209e9d2b04a8aa8075471ba5b4d165e1b597",
+    "features": {},
+    "features2": {
+        "default": [
+            "serde"
+        ],
+        "serde": [
+            "dep:serde"
+        ]
+    },
+    "yanked": true,
+    "v": 2
+}

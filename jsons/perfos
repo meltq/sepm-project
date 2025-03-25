@@ -1,1 +1,58 @@
-{"name":"perfos","vers":"0.1.0","deps":[{"name":"ascii_table","req":"^4.0.5","features":["auto_table_width","color_codes"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"crossterm","req":"^0.28.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"humanize-duration","req":"^0.0.6","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rusty-hook","req":"^0.11.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"strip-ansi-escapes","req":"^0.2.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"48141dbd358b9dbb63e2df833e80aa0380feef4f77c4cef6414de2dab41fa286","features":{},"yanked":false,"rust_version":"1.83.0"}
+{
+    "name": "perfos",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "ascii_table",
+            "req": "^4.0.5",
+            "features": [
+                "auto_table_width",
+                "color_codes"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "crossterm",
+            "req": "^0.28.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "humanize-duration",
+            "req": "^0.0.6",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rusty-hook",
+            "req": "^0.11.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "strip-ansi-escapes",
+            "req": "^0.2.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "48141dbd358b9dbb63e2df833e80aa0380feef4f77c4cef6414de2dab41fa286",
+    "features": {},
+    "yanked": false,
+    "rust_version": "1.83.0"
+}

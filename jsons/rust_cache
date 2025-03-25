@@ -1,1 +1,52 @@
-{"name":"rust_cache","vers":"0.1.0","deps":[{"name":"redis","req":"^0.3","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"rust-crypto","req":"^0.2","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"time","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"4a9ce7a7385d8c0ba471250f2aac504f1a390e5a655fd0354a3d30a1e5261599","features":{"all":["hash_map","filesystem","redis_integration"],"default":["hash_map"],"filesystem":["rust-crypto"],"hash_map":[],"redis_integration":["redis"]},"yanked":false}
+{
+    "name": "rust_cache",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "redis",
+            "req": "^0.3",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rust-crypto",
+            "req": "^0.2",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "time",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "4a9ce7a7385d8c0ba471250f2aac504f1a390e5a655fd0354a3d30a1e5261599",
+    "features": {
+        "all": [
+            "hash_map",
+            "filesystem",
+            "redis_integration"
+        ],
+        "default": [
+            "hash_map"
+        ],
+        "filesystem": [
+            "rust-crypto"
+        ],
+        "hash_map": [],
+        "redis_integration": [
+            "redis"
+        ]
+    },
+    "yanked": false
+}

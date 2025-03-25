@@ -1,1 +1,41 @@
-{"name":"kanata-tcp-protocol","vers":"0.160.2","deps":[{"name":"serde","req":"^1","features":["alloc","derive"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"serde_derive","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1","features":["alloc"],"optional":false,"default_features":false,"target":null,"kind":"normal"}],"cksum":"37fc078a1aa37a91d3fbe6649e25e38d41ca0866a5bbabb645960a1b02d65d5b","features":{},"yanked":false}
+{
+    "name": "kanata-tcp-protocol",
+    "vers": "0.160.2",
+    "deps": [
+        {
+            "name": "serde",
+            "req": "^1",
+            "features": [
+                "alloc",
+                "derive"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_derive",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1",
+            "features": [
+                "alloc"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "37fc078a1aa37a91d3fbe6649e25e38d41ca0866a5bbabb645960a1b02d65d5b",
+    "features": {},
+    "yanked": false
+}

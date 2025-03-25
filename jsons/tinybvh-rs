@@ -1,1 +1,47 @@
-{"name":"tinybvh-rs","vers":"0.1.0-beta.0","deps":[{"name":"approx","req":"^0.5.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"bytemuck","req":"^1.20.0","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"cxx","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"cxx-build","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"}],"cksum":"fb3cdf4a158f9686ba305884749662a82455ecbb8156d885457300f473e075d5","features":{},"yanked":false}
+{
+    "name": "tinybvh-rs",
+    "vers": "0.1.0-beta.0",
+    "deps": [
+        {
+            "name": "approx",
+            "req": "^0.5.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "bytemuck",
+            "req": "^1.20.0",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "cxx",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "cxx-build",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        }
+    ],
+    "cksum": "fb3cdf4a158f9686ba305884749662a82455ecbb8156d885457300f473e075d5",
+    "features": {},
+    "yanked": false
+}

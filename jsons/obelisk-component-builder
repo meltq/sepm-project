@@ -1,1 +1,70 @@
-{"name":"obelisk-component-builder","vers":"0.10.0","deps":[{"name":"cargo_metadata","req":"^0.19","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"concepts","req":"^0.10.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal","package":"obeli-sk-concepts"},{"name":"indexmap","req":"^2.7","features":["serde"],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"utils","req":"^0.10.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal","package":"obeli-sk-utils"},{"name":"wasmtime","req":"^28.0","features":["memory-protection-keys"],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"8b8d00c06ac194bae64f0f3f40b927e4f6eca7da7346f35b15f8e77c0a8075df","features":{},"features2":{"genrs":["dep:concepts","dep:utils","dep:indexmap","dep:wasmtime"]},"yanked":false,"rust_version":"1.83.0","v":2}
+{
+    "name": "obelisk-component-builder",
+    "vers": "0.10.0",
+    "deps": [
+        {
+            "name": "cargo_metadata",
+            "req": "^0.19",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "concepts",
+            "req": "^0.10.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal",
+            "package": "obeli-sk-concepts"
+        },
+        {
+            "name": "indexmap",
+            "req": "^2.7",
+            "features": [
+                "serde"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "utils",
+            "req": "^0.10.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal",
+            "package": "obeli-sk-utils"
+        },
+        {
+            "name": "wasmtime",
+            "req": "^28.0",
+            "features": [
+                "memory-protection-keys"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "8b8d00c06ac194bae64f0f3f40b927e4f6eca7da7346f35b15f8e77c0a8075df",
+    "features": {},
+    "features2": {
+        "genrs": [
+            "dep:concepts",
+            "dep:utils",
+            "dep:indexmap",
+            "dep:wasmtime"
+        ]
+    },
+    "yanked": false,
+    "rust_version": "1.83.0",
+    "v": 2
+}

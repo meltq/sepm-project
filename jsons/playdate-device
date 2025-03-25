@@ -1,1 +1,246 @@
-{"name":"playdate-device","vers":"0.1.0","deps":[{"name":"clap","req":"^4.5","features":["std","env","derive","help","color"],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"const-hex","req":"^1.11","features":[],"optional":false,"default_features":true,"target":"cfg(target_os = \"macos\")","kind":"normal"},{"name":"futures","req":"^0.3","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"futures-lite","req":"^2.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"hex","req":"^0.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"lfs-core","req":"^0.11","features":[],"optional":false,"default_features":true,"target":"cfg(target_os = \"linux\")","kind":"normal"},{"name":"log","req":"^0.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"miette","req":"^7.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"nusb","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"object-pool","req":"^0.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"plist","req":"^1.6","features":[],"optional":false,"default_features":true,"target":"cfg(target_os = \"macos\")","kind":"normal"},{"name":"regex","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serialport","req":"^4.3","features":["usbportinfo-interface"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.37","features":["fs","process","time","io-std"],"optional":true,"default_features":false,"target":null,"kind":"normal"},{"name":"tokio-serial","req":"^5.4","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing","req":"^0.1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"udev","req":"^0.8","features":[],"optional":false,"default_features":true,"target":"cfg(target_os = \"linux\")","kind":"normal"},{"name":"usb-ids","req":"^1.2024.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"windows","req":"^0.54.0","features":["Win32_Foundation","Win32_Storage","Win32_Storage_FileSystem","Win32_System","Win32_System_IO","Win32_System_Ioctl","Win32_Security"],"optional":false,"default_features":true,"target":"cfg(target_os = \"windows\")","kind":"normal"}],"cksum":"14544bc83d3e267b7e9df4dc885de714bf99f3afd04784e45aa8fb55ee84d36a","features":{},"features2":{"async":["futures","tokio","tokio-serial"],"default":["async"],"tokio-serial":["dep:tokio-serial","tokio?/io-util","tokio?/rt"]},"yanked":false,"v":2}
+{
+    "name": "playdate-device",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "clap",
+            "req": "^4.5",
+            "features": [
+                "std",
+                "env",
+                "derive",
+                "help",
+                "color"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "const-hex",
+            "req": "^1.11",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": "cfg(target_os = \"macos\")",
+            "kind": "normal"
+        },
+        {
+            "name": "futures",
+            "req": "^0.3",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "futures-lite",
+            "req": "^2.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "hex",
+            "req": "^0.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "lfs-core",
+            "req": "^0.11",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": "cfg(target_os = \"linux\")",
+            "kind": "normal"
+        },
+        {
+            "name": "log",
+            "req": "^0.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "miette",
+            "req": "^7.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "nusb",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "object-pool",
+            "req": "^0.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "plist",
+            "req": "^1.6",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": "cfg(target_os = \"macos\")",
+            "kind": "normal"
+        },
+        {
+            "name": "regex",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serialport",
+            "req": "^4.3",
+            "features": [
+                "usbportinfo-interface"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.37",
+            "features": [
+                "fs",
+                "process",
+                "time",
+                "io-std"
+            ],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio-serial",
+            "req": "^5.4",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "udev",
+            "req": "^0.8",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": "cfg(target_os = \"linux\")",
+            "kind": "normal"
+        },
+        {
+            "name": "usb-ids",
+            "req": "^1.2024.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "windows",
+            "req": "^0.54.0",
+            "features": [
+                "Win32_Foundation",
+                "Win32_Storage",
+                "Win32_Storage_FileSystem",
+                "Win32_System",
+                "Win32_System_IO",
+                "Win32_System_Ioctl",
+                "Win32_Security"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": "cfg(target_os = \"windows\")",
+            "kind": "normal"
+        }
+    ],
+    "cksum": "14544bc83d3e267b7e9df4dc885de714bf99f3afd04784e45aa8fb55ee84d36a",
+    "features": {},
+    "features2": {
+        "async": [
+            "futures",
+            "tokio",
+            "tokio-serial"
+        ],
+        "default": [
+            "async"
+        ],
+        "tokio-serial": [
+            "dep:tokio-serial",
+            "tokio?/io-util",
+            "tokio?/rt"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

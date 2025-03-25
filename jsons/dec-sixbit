@@ -1,1 +1,56 @@
-{"name":"dec-sixbit","vers":"0.1.0","deps":[{"name":"bincode","req":"^1.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"serde","req":"^1.0","features":["derive"],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"thiserror","req":"^2.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"bf7770250970d5ec4b15224cd021e97602d0e4391107cfcbad52dbd084176a81","features":{"default":["with-struct"],"nightly":[],"with-struct":["serde"]},"yanked":false,"rust_version":"1.78.0"}
+{
+    "name": "dec-sixbit",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "bincode",
+            "req": "^1.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [
+                "derive"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "thiserror",
+            "req": "^2.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "bf7770250970d5ec4b15224cd021e97602d0e4391107cfcbad52dbd084176a81",
+    "features": {
+        "default": [
+            "with-struct"
+        ],
+        "nightly": [],
+        "with-struct": [
+            "serde"
+        ]
+    },
+    "yanked": false,
+    "rust_version": "1.78.0"
+}

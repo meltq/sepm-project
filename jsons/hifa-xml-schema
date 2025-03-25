@@ -1,1 +1,63 @@
-{"name":"hifa-xml-schema","vers":"0.3.0","deps":[{"name":"hifa-xml-schema-derive","req":"^0.3.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"hifa-xml-schema-derive","req":"^0.3.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"hifa_yaserde","req":"^0.9","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"hifa_yaserde_derive","req":"^0.9","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"log","req":"^0.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"xml-rs","req":"^0.8","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"587c338150d324b514f342c0fd27a50e46094d2d3a8935a44b483708b10764c7","features":{},"yanked":false}
+{
+    "name": "hifa-xml-schema",
+    "vers": "0.3.0",
+    "deps": [
+        {
+            "name": "hifa-xml-schema-derive",
+            "req": "^0.3.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "hifa-xml-schema-derive",
+            "req": "^0.3.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "hifa_yaserde",
+            "req": "^0.9",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "hifa_yaserde_derive",
+            "req": "^0.9",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "log",
+            "req": "^0.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "xml-rs",
+            "req": "^0.8",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "587c338150d324b514f342c0fd27a50e46094d2d3a8935a44b483708b10764c7",
+    "features": {},
+    "yanked": false
+}

@@ -1,1 +1,41 @@
-{"name":"feature-extension-for-async-std","vers":"0.1.0","deps":[{"name":"async-io","req":"^2","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"async-std","req":"^1","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"}],"cksum":"64b8e3eb67aa47c15cf517f10b69662408d2cf1600207c80fba3d893dec860dd","features":{"default":["async-std/default"],"std":["async-std/std"],"time":["async-io"],"unstable":["async-std/unstable"]},"yanked":false,"rust_version":"1.75.0"}
+{
+    "name": "feature-extension-for-async-std",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "async-io",
+            "req": "^2",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "async-std",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "64b8e3eb67aa47c15cf517f10b69662408d2cf1600207c80fba3d893dec860dd",
+    "features": {
+        "default": [
+            "async-std/default"
+        ],
+        "std": [
+            "async-std/std"
+        ],
+        "time": [
+            "async-io"
+        ],
+        "unstable": [
+            "async-std/unstable"
+        ]
+    },
+    "yanked": false,
+    "rust_version": "1.75.0"
+}

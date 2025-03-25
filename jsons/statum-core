@@ -1,1 +1,28 @@
-{"name":"statum-core","vers":"0.1.15","deps":[{"name":"serde","req":"^1.0","features":["derive"],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"73ba60ca08b3c7a319f8ad16382cf89cb3569a09ab0d4e52ed55bebb77b9ff27","features":{"default":[]},"features2":{"serde":["dep:serde"]},"yanked":false,"v":2}
+{
+    "name": "statum-core",
+    "vers": "0.1.15",
+    "deps": [
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [
+                "derive"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "73ba60ca08b3c7a319f8ad16382cf89cb3569a09ab0d4e52ed55bebb77b9ff27",
+    "features": {
+        "default": []
+    },
+    "features2": {
+        "serde": [
+            "dep:serde"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

@@ -1,1 +1,28 @@
-{"name":"linear_collections","vers":"0.1.0","deps":[{"name":"serde","req":"1.*","features":["std"],"optional":true,"default_features":false,"target":null,"kind":"normal"}],"cksum":"e59ad7f4fcccd5985da9f1305acde342a24219bffe0e8747806eec7af2c5b1f4","features":{"default":[]},"features2":{"serde":["dep:serde"]},"yanked":false,"v":2}
+{
+    "name": "linear_collections",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "serde",
+            "req": "1.*",
+            "features": [
+                "std"
+            ],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "e59ad7f4fcccd5985da9f1305acde342a24219bffe0e8747806eec7af2c5b1f4",
+    "features": {
+        "default": []
+    },
+    "features2": {
+        "serde": [
+            "dep:serde"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

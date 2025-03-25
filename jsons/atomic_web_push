@@ -1,1 +1,372 @@
-{"name":"atomic_web_push","vers":"0.1.0","deps":[{"name":"anyhow","req":"^1.0.95","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"async-trait","req":"^0.1.85","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"base64","req":"^0.22.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"blake2b_simd","req":"^1.0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"chrono","req":"^0.4.39","features":["serde"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"ciborium","req":"^0.2.2","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"coarsetime","req":"^0.1.35","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"ct-codecs","req":"^1.1.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"ece","req":"^2.3.1","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"ed25519-compact","req":"^2.1.1","features":["pem"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"generic-array","req":"^1.2.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"hmac-sha1-compact","req":"^1.1.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"hmac-sha256","req":"^1.1.8","features":["traits010"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"hmac-sha512","req":"^1.1.6","features":["traits010","sha384"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"http","req":"^1.2.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"k256","req":"^0.13.4","features":["ecdsa","std","pkcs8","pem"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"lazy_static","req":"^1.5.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"log","req":"^0.4.25","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"num-bigint","req":"^0.4.6","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"p256","req":"^0.13.2","features":["ecdsa","std","pkcs8","pem"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"p384","req":"^0.13.0","features":["ecdsa","std","pkcs8","pem"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"pem","req":"^3.0.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rand","req":"^0.8.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"regex","req":"^1.11.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"reqwest","req":"^0.12.12","features":["json","rustls-tls","http2","gzip"],"optional":true,"default_features":false,"target":null,"kind":"normal"},{"name":"rsa","req":"^0.9.7","features":["hazmat","sha2"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"sec1_decode","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.217","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_derive","req":"^1.0.217","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.137","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"sha2","req":"^0.10.8","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"signature","req":"^2.2.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^2.0.11","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.43.0","features":["rt-multi-thread"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"zeroize","req":"^1.8.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"df381ef6c342a7c6b14f7fbcdc49b8a5dcbeaf926c1dc1095e46c2d92829e8b7","features":{"cwt":["ciborium"],"default":["reqwest-client"],"reqwest-client":["reqwest"],"wasi-abi2":["coarsetime/wasi-abi2"]},"yanked":false,"rust_version":"1.77"}
+{
+    "name": "atomic_web_push",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "anyhow",
+            "req": "^1.0.95",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "async-trait",
+            "req": "^0.1.85",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "base64",
+            "req": "^0.22.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "blake2b_simd",
+            "req": "^1.0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "chrono",
+            "req": "^0.4.39",
+            "features": [
+                "serde"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ciborium",
+            "req": "^0.2.2",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "coarsetime",
+            "req": "^0.1.35",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ct-codecs",
+            "req": "^1.1.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ece",
+            "req": "^2.3.1",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ed25519-compact",
+            "req": "^2.1.1",
+            "features": [
+                "pem"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "generic-array",
+            "req": "^1.2.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "hmac-sha1-compact",
+            "req": "^1.1.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "hmac-sha256",
+            "req": "^1.1.8",
+            "features": [
+                "traits010"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "hmac-sha512",
+            "req": "^1.1.6",
+            "features": [
+                "traits010",
+                "sha384"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "http",
+            "req": "^1.2.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "k256",
+            "req": "^0.13.4",
+            "features": [
+                "ecdsa",
+                "std",
+                "pkcs8",
+                "pem"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "lazy_static",
+            "req": "^1.5.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "log",
+            "req": "^0.4.25",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "num-bigint",
+            "req": "^0.4.6",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "p256",
+            "req": "^0.13.2",
+            "features": [
+                "ecdsa",
+                "std",
+                "pkcs8",
+                "pem"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "p384",
+            "req": "^0.13.0",
+            "features": [
+                "ecdsa",
+                "std",
+                "pkcs8",
+                "pem"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "pem",
+            "req": "^3.0.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rand",
+            "req": "^0.8.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "regex",
+            "req": "^1.11.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "reqwest",
+            "req": "^0.12.12",
+            "features": [
+                "json",
+                "rustls-tls",
+                "http2",
+                "gzip"
+            ],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rsa",
+            "req": "^0.9.7",
+            "features": [
+                "hazmat",
+                "sha2"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "sec1_decode",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.217",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_derive",
+            "req": "^1.0.217",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.137",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "sha2",
+            "req": "^0.10.8",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "signature",
+            "req": "^2.2.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^2.0.11",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.43.0",
+            "features": [
+                "rt-multi-thread"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "zeroize",
+            "req": "^1.8.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "df381ef6c342a7c6b14f7fbcdc49b8a5dcbeaf926c1dc1095e46c2d92829e8b7",
+    "features": {
+        "cwt": [
+            "ciborium"
+        ],
+        "default": [
+            "reqwest-client"
+        ],
+        "reqwest-client": [
+            "reqwest"
+        ],
+        "wasi-abi2": [
+            "coarsetime/wasi-abi2"
+        ]
+    },
+    "yanked": false,
+    "rust_version": "1.77"
+}

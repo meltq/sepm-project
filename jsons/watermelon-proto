@@ -1,1 +1,124 @@
-{"name":"watermelon-proto","vers":"0.1.0","deps":[{"name":"bytes","req":"^1","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"bytestring","req":"^1","features":["serde"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"claims","req":"^0.8","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"memchr","req":"^2.4","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"percent-encoding","req":"^2","features":["alloc"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.107","features":["derive"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1","features":["alloc"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"thiserror","req":"^2","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"unicase","req":"^2.7","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"url","req":"^2.5.3","features":["serde"],"optional":false,"default_features":false,"target":null,"kind":"normal"}],"cksum":"2e3aee13139b7eefda398bd5db715eb5b5f1796bb9215b8e710d01210061e24d","features":{"default":["std"],"non-standard-zstd":[],"std":["bytes/std","url/std","percent-encoding/std","memchr/std","serde/std","serde_json/std","thiserror/std"]},"yanked":false,"rust_version":"1.81"}
+{
+    "name": "watermelon-proto",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "bytes",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "bytestring",
+            "req": "^1",
+            "features": [
+                "serde"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "claims",
+            "req": "^0.8",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "memchr",
+            "req": "^2.4",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "percent-encoding",
+            "req": "^2",
+            "features": [
+                "alloc"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.107",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1",
+            "features": [
+                "alloc"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^2",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "unicase",
+            "req": "^2.7",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "url",
+            "req": "^2.5.3",
+            "features": [
+                "serde"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "2e3aee13139b7eefda398bd5db715eb5b5f1796bb9215b8e710d01210061e24d",
+    "features": {
+        "default": [
+            "std"
+        ],
+        "non-standard-zstd": [],
+        "std": [
+            "bytes/std",
+            "url/std",
+            "percent-encoding/std",
+            "memchr/std",
+            "serde/std",
+            "serde_json/std",
+            "thiserror/std"
+        ]
+    },
+    "yanked": false,
+    "rust_version": "1.81"
+}

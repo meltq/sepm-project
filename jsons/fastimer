@@ -1,1 +1,114 @@
-{"name":"fastimer","vers":"0.1.0","deps":[{"name":"atomic-waker","req":"^1.1.2","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"crossbeam-queue","req":"^0.3.11","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"log","req":"^0.4.22","features":["kv"],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"logforth","req":"^0.19.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"parking","req":"^2.2.1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"pollster","req":"^0.4.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"tokio","req":"^1.42.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.42.0","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"06372eb8ff7e3d5a75d10f4869bf949e5fe4abb45ecdb180b28a5a7ea22abb03","features":{},"features2":{"driver":["dep:atomic-waker","dep:crossbeam-queue","dep:parking"],"logging":["dep:log"],"test":["tokio","driver","logging"],"tokio":["tokio-time","tokio-spawn"],"tokio-spawn":["dep:tokio","tokio/rt-multi-thread"],"tokio-time":["dep:tokio","tokio/time"]},"yanked":false,"rust_version":"1.83.0","v":2}
+{
+    "name": "fastimer",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "atomic-waker",
+            "req": "^1.1.2",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "crossbeam-queue",
+            "req": "^0.3.11",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "log",
+            "req": "^0.4.22",
+            "features": [
+                "kv"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "logforth",
+            "req": "^0.19.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "parking",
+            "req": "^2.2.1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "pollster",
+            "req": "^0.4.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.42.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.42.0",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "06372eb8ff7e3d5a75d10f4869bf949e5fe4abb45ecdb180b28a5a7ea22abb03",
+    "features": {},
+    "features2": {
+        "driver": [
+            "dep:atomic-waker",
+            "dep:crossbeam-queue",
+            "dep:parking"
+        ],
+        "logging": [
+            "dep:log"
+        ],
+        "test": [
+            "tokio",
+            "driver",
+            "logging"
+        ],
+        "tokio": [
+            "tokio-time",
+            "tokio-spawn"
+        ],
+        "tokio-spawn": [
+            "dep:tokio",
+            "tokio/rt-multi-thread"
+        ],
+        "tokio-time": [
+            "dep:tokio",
+            "tokio/time"
+        ]
+    },
+    "yanked": false,
+    "rust_version": "1.83.0",
+    "v": 2
+}

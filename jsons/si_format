@@ -1,1 +1,48 @@
-{"name":"si_format","vers":"0.1.0","deps":[{"name":"bounded-integer","req":"^0.5.7","features":["types"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"libm","req":"^0.2.8","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"num-traits","req":"^0.2.18","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"2054f8c9bdc803218bdaffc41a9d3930b6663be5bdee30fd57ce70b1a33fed05","features":{"default":["std","float64"],"float32":[],"float64":["float32"],"std":[]},"yanked":false}
+{
+    "name": "si_format",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "bounded-integer",
+            "req": "^0.5.7",
+            "features": [
+                "types"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "libm",
+            "req": "^0.2.8",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "num-traits",
+            "req": "^0.2.18",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "2054f8c9bdc803218bdaffc41a9d3930b6663be5bdee30fd57ce70b1a33fed05",
+    "features": {
+        "default": [
+            "std",
+            "float64"
+        ],
+        "float32": [],
+        "float64": [
+            "float32"
+        ],
+        "std": []
+    },
+    "yanked": false
+}

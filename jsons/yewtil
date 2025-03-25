@@ -1,1 +1,78 @@
-{"name":"yewtil","vers":"0.1.0","deps":[{"name":"failure","req":"^0.1.6","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"log","req":"^0.4.8","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"yew","req":"^0.10.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"yewtil-macro","req":"^0.1.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"841f1b1c7f6ec9e886a1a1c695a6473b706062c79d20fe896c9d7b9a544b1daf","features":{"all":["stable","experimental"],"default":["stable"],"dsl":[],"experimental":["dsl","lrc","with_callback"],"history":[],"lrc":[],"mrc_irc":[],"neq":[],"ptr":["lrc","mrc_irc"],"pure":["neq","yewtil-macro"],"stable":["neq","pure","history","mrc_irc"],"with_callback":[]},"yanked":false}
+{
+    "name": "yewtil",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "failure",
+            "req": "^0.1.6",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "log",
+            "req": "^0.4.8",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "yew",
+            "req": "^0.10.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "yewtil-macro",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "841f1b1c7f6ec9e886a1a1c695a6473b706062c79d20fe896c9d7b9a544b1daf",
+    "features": {
+        "all": [
+            "stable",
+            "experimental"
+        ],
+        "default": [
+            "stable"
+        ],
+        "dsl": [],
+        "experimental": [
+            "dsl",
+            "lrc",
+            "with_callback"
+        ],
+        "history": [],
+        "lrc": [],
+        "mrc_irc": [],
+        "neq": [],
+        "ptr": [
+            "lrc",
+            "mrc_irc"
+        ],
+        "pure": [
+            "neq",
+            "yewtil-macro"
+        ],
+        "stable": [
+            "neq",
+            "pure",
+            "history",
+            "mrc_irc"
+        ],
+        "with_callback": []
+    },
+    "yanked": false
+}

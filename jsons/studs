@@ -1,1 +1,29 @@
-{"name":"studs","vers":"0.1.0","deps":[{"name":"studs-macro","req":"^0.1.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"74b81aefef5031324ebb07ab1b31848194a7e2d77e3b5e360e2e64306dc3c118","features":{"async":[],"default":["macro"],"macro":["studs-macro"],"no-std":["studs-macro/no-std"]},"yanked":false}
+{
+    "name": "studs",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "studs-macro",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "74b81aefef5031324ebb07ab1b31848194a7e2d77e3b5e360e2e64306dc3c118",
+    "features": {
+        "async": [],
+        "default": [
+            "macro"
+        ],
+        "macro": [
+            "studs-macro"
+        ],
+        "no-std": [
+            "studs-macro/no-std"
+        ]
+    },
+    "yanked": false
+}

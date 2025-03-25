@@ -1,1 +1,58 @@
-{"name":"cargo-config-profiles","vers":"0.1.0","deps":[{"name":"clap","req":"^4.5.4","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"miette","req":"^7.2.0","features":["fancy"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"owo-colors","req":"^4.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"simple-home-dir","req":"^0.3.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"which","req":"^6.0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"6fa09005fdb440249a1c28c39deb0f60fa380fc9348b4b2d9870cc43b3eac686","features":{},"yanked":false}
+{
+    "name": "cargo-config-profiles",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "clap",
+            "req": "^4.5.4",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "miette",
+            "req": "^7.2.0",
+            "features": [
+                "fancy"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "owo-colors",
+            "req": "^4.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "simple-home-dir",
+            "req": "^0.3.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "which",
+            "req": "^6.0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "6fa09005fdb440249a1c28c39deb0f60fa380fc9348b4b2d9870cc43b3eac686",
+    "features": {},
+    "yanked": false
+}

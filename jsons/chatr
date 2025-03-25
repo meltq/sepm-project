@@ -1,1 +1,67 @@
-{"name":"chatr","vers":"0.6.0","deps":[{"name":"base64","req":"^0.21.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"deku","req":"^0.16.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"lazy_static","req":"^1.4.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"reqwest","req":"^0.11.22","features":["blocking"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.190","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.107","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"1fb7cd682ab3b4d3720f27ee808233eacfea6efc9fb0b0d445a2191148334e80","features":{},"yanked":false}
+{
+    "name": "chatr",
+    "vers": "0.6.0",
+    "deps": [
+        {
+            "name": "base64",
+            "req": "^0.21.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "deku",
+            "req": "^0.16.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "lazy_static",
+            "req": "^1.4.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "reqwest",
+            "req": "^0.11.22",
+            "features": [
+                "blocking"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.190",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.107",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "1fb7cd682ab3b4d3720f27ee808233eacfea6efc9fb0b0d445a2191148334e80",
+    "features": {},
+    "yanked": false
+}

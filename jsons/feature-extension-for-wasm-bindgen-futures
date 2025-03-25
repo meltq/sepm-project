@@ -1,1 +1,33 @@
-{"name":"feature-extension-for-wasm-bindgen-futures","vers":"0.1.0","deps":[{"name":"futures-timer","req":"^3","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"wasm-bindgen-futures","req":"^0.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"fc39cf4884c6a5af6ddd8285eda0eb020fec87861c0e6d7cfec2f06937f5acdc","features":{"default":[],"time":["futures-timer/wasm-bindgen"]},"yanked":false,"rust_version":"1.75.0"}
+{
+    "name": "feature-extension-for-wasm-bindgen-futures",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "futures-timer",
+            "req": "^3",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "wasm-bindgen-futures",
+            "req": "^0.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "fc39cf4884c6a5af6ddd8285eda0eb020fec87861c0e6d7cfec2f06937f5acdc",
+    "features": {
+        "default": [],
+        "time": [
+            "futures-timer/wasm-bindgen"
+        ]
+    },
+    "yanked": false,
+    "rust_version": "1.75.0"
+}

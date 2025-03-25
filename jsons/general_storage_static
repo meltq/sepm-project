@@ -1,1 +1,58 @@
-{"name":"general_storage_static","vers":"0.1.0","deps":[{"name":"general_storage","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"general_storage_file","req":"^0.1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"general_storage_web","req":"^0.1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"caab50ef7c2a823dd342db90eaccad4ae7d3d179dd81e1623bca4becbaa04589","features":{"bincode":["general_storage/bincode"],"compress":["general_storage/compress"],"file":["general_storage_file"],"json":["general_storage/json"],"toml":["general_storage/toml"],"web":["general_storage_web"],"yaml":["general_storage/yaml"]},"yanked":false}
+{
+    "name": "general_storage_static",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "general_storage",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "general_storage_file",
+            "req": "^0.1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "general_storage_web",
+            "req": "^0.1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "caab50ef7c2a823dd342db90eaccad4ae7d3d179dd81e1623bca4becbaa04589",
+    "features": {
+        "bincode": [
+            "general_storage/bincode"
+        ],
+        "compress": [
+            "general_storage/compress"
+        ],
+        "file": [
+            "general_storage_file"
+        ],
+        "json": [
+            "general_storage/json"
+        ],
+        "toml": [
+            "general_storage/toml"
+        ],
+        "web": [
+            "general_storage_web"
+        ],
+        "yaml": [
+            "general_storage/yaml"
+        ]
+    },
+    "yanked": false
+}

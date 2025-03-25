@@ -1,1 +1,60 @@
-{"name":"nu_plugin_roaring","vers":"0.1.0","deps":[{"name":"nu-plugin","req":"^0.101.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"nu-protocol","req":"^0.101.0","features":["plugin"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"roaring","req":"^0.10.9","features":["serde"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"typetag","req":"^0.2.19","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"9de74db40b64625c8c33b30f7f80e3f0b3f80ffd20e4c73cc74f2e55e7bcee06","features":{},"yanked":false}
+{
+    "name": "nu_plugin_roaring",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "nu-plugin",
+            "req": "^0.101.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "nu-protocol",
+            "req": "^0.101.0",
+            "features": [
+                "plugin"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "roaring",
+            "req": "^0.10.9",
+            "features": [
+                "serde"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "typetag",
+            "req": "^0.2.19",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "9de74db40b64625c8c33b30f7f80e3f0b3f80ffd20e4c73cc74f2e55e7bcee06",
+    "features": {},
+    "yanked": false
+}

@@ -1,1 +1,56 @@
-{"name":"crab_nbt","vers":"0.0.1","deps":[{"name":"bytes","req":"^1.5.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"cesu8","req":"^1.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"derive_more","req":"^1.0.0-beta.6","features":["into","from"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^1.0.58","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"4b7086b835e62be8e8471ecd6d47875a43f5f793b675e7c7cd6a97fbab732818","features":{"default":["macro"],"full":["macro"],"macro":[]},"yanked":false}
+{
+    "name": "crab_nbt",
+    "vers": "0.0.1",
+    "deps": [
+        {
+            "name": "bytes",
+            "req": "^1.5.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "cesu8",
+            "req": "^1.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "derive_more",
+            "req": "^1.0.0-beta.6",
+            "features": [
+                "into",
+                "from"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^1.0.58",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "4b7086b835e62be8e8471ecd6d47875a43f5f793b675e7c7cd6a97fbab732818",
+    "features": {
+        "default": [
+            "macro"
+        ],
+        "full": [
+            "macro"
+        ],
+        "macro": []
+    },
+    "yanked": false
+}

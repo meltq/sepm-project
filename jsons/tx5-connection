@@ -1,1 +1,105 @@
-{"name":"tx5-connection","vers":"0.0.10-alpha","deps":[{"name":"bit_field","req":"^0.10.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rand","req":"^0.8.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"sbd-server","req":"^0.0.3-alpha","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"tokio","req":"^1.35.1","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing","req":"^0.1.37","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing-subscriber","req":"^0.3.16","features":["env-filter"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"tx5-core","req":"^0.0.10-alpha","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"tx5-go-pion","req":"^0.0.10-alpha","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"tx5-signal","req":"^0.0.10-alpha","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"c73d0899f40cf469604b08e0485450380c061ba3010b1f81ee6e80fbe4f82789","features":{"backend-webrtc-rs":[]},"features2":{"backend-go-pion":["dep:tx5-go-pion"],"default":["backend-go-pion"]},"yanked":false,"v":2}
+{
+    "name": "tx5-connection",
+    "vers": "0.0.10-alpha",
+    "deps": [
+        {
+            "name": "bit_field",
+            "req": "^0.10.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rand",
+            "req": "^0.8.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "sbd-server",
+            "req": "^0.0.3-alpha",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.35.1",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1.37",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing-subscriber",
+            "req": "^0.3.16",
+            "features": [
+                "env-filter"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "tx5-core",
+            "req": "^0.0.10-alpha",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tx5-go-pion",
+            "req": "^0.0.10-alpha",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tx5-signal",
+            "req": "^0.0.10-alpha",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "c73d0899f40cf469604b08e0485450380c061ba3010b1f81ee6e80fbe4f82789",
+    "features": {
+        "backend-webrtc-rs": []
+    },
+    "features2": {
+        "backend-go-pion": [
+            "dep:tx5-go-pion"
+        ],
+        "default": [
+            "backend-go-pion"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

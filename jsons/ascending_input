@@ -1,1 +1,52 @@
-{"name":"ascending_input","vers":"0.1.0","deps":[{"name":"ordered-float","req":"^4.2.0","features":["serde"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.197","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"smol_str","req":"^0.2.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"winit","req":"^0.29.15","features":["serde","rwh_05"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"b4f6c8c2799bf0ba5666f72ecd253db7bb0c661aaee21cc5187bb6149aba0d32","features":{},"yanked":true}
+{
+    "name": "ascending_input",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "ordered-float",
+            "req": "^4.2.0",
+            "features": [
+                "serde"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.197",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "smol_str",
+            "req": "^0.2.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "winit",
+            "req": "^0.29.15",
+            "features": [
+                "serde",
+                "rwh_05"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "b4f6c8c2799bf0ba5666f72ecd253db7bb0c661aaee21cc5187bb6149aba0d32",
+    "features": {},
+    "yanked": true
+}

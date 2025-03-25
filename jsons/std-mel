@@ -1,1 +1,52 @@
-{"name":"std-mel","vers":"0.8.0-rc1","deps":[{"name":"futures","req":"~0.3.28","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"melodium-core","req":"=0.8.0-rc1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"melodium-macro","req":"=0.8.0-rc1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"a9f22c4b38c83f6b3309673df1c0d8162c6d5c2e33d11d76c6745484e2627bd3","features":{"mock":[],"plugin":[],"real":[]},"yanked":false,"rust_version":"1.60"}
+{
+    "name": "std-mel",
+    "vers": "0.8.0-rc1",
+    "deps": [
+        {
+            "name": "futures",
+            "req": "~0.3.28",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "melodium-core",
+            "req": "=0.8.0-rc1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "melodium-macro",
+            "req": "=0.8.0-rc1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "a9f22c4b38c83f6b3309673df1c0d8162c6d5c2e33d11d76c6745484e2627bd3",
+    "features": {
+        "mock": [],
+        "plugin": [],
+        "real": []
+    },
+    "yanked": false,
+    "rust_version": "1.60"
+}

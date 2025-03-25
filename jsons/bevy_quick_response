@@ -1,1 +1,49 @@
-{"name":"bevy_quick_response","vers":"0.1.0","deps":[{"name":"bevy","req":"^0.13","features":["bevy_winit","bevy_asset"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"bevy","req":"^0.13","features":["bevy_winit","bevy_asset","bevy_sprite","bevy_core_pipeline","bevy_gizmos","bevy_ui","bevy_text","bevy_render","default_font"],"optional":false,"default_features":false,"target":null,"kind":"dev"},{"name":"bevy_framepace","req":"^0.15.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"46bb84c7fc54fb0d63060f339adfa035a0d5d989ec19d51a6b32db99f430be3e","features":{},"yanked":false}
+{
+    "name": "bevy_quick_response",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "bevy",
+            "req": "^0.13",
+            "features": [
+                "bevy_winit",
+                "bevy_asset"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "bevy",
+            "req": "^0.13",
+            "features": [
+                "bevy_winit",
+                "bevy_asset",
+                "bevy_sprite",
+                "bevy_core_pipeline",
+                "bevy_gizmos",
+                "bevy_ui",
+                "bevy_text",
+                "bevy_render",
+                "default_font"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "bevy_framepace",
+            "req": "^0.15.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "46bb84c7fc54fb0d63060f339adfa035a0d5d989ec19d51a6b32db99f430be3e",
+    "features": {},
+    "yanked": false
+}

@@ -1,1 +1,62 @@
-{"name":"openbrush_contracts_derive","vers":"1.8.0","deps":[{"name":"openbrush","req":"^1.8.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal","package":"openbrush_lang"},{"name":"proc-macro2","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"quote","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"syn","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"89a07848558f23a518107bfcdf2d141a1d2aea013ba4909f218ba93ebecc8a0f","features":{"access_control":[],"default":["std"],"diamond":[],"ownable":[],"pausable":[],"payment_splitter":[],"proxy":[],"psp1155":[],"psp22":[],"psp34":[],"reentrancy_guard":[],"std":[],"timelock_controller":[]},"yanked":false}
+{
+    "name": "openbrush_contracts_derive",
+    "vers": "1.8.0",
+    "deps": [
+        {
+            "name": "openbrush",
+            "req": "^1.8.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal",
+            "package": "openbrush_lang"
+        },
+        {
+            "name": "proc-macro2",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "quote",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "syn",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "89a07848558f23a518107bfcdf2d141a1d2aea013ba4909f218ba93ebecc8a0f",
+    "features": {
+        "access_control": [],
+        "default": [
+            "std"
+        ],
+        "diamond": [],
+        "ownable": [],
+        "pausable": [],
+        "payment_splitter": [],
+        "proxy": [],
+        "psp1155": [],
+        "psp22": [],
+        "psp34": [],
+        "reentrancy_guard": [],
+        "std": [],
+        "timelock_controller": []
+    },
+    "yanked": false
+}

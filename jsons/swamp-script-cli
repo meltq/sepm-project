@@ -1,1 +1,122 @@
-{"name":"swamp-script-cli","vers":"0.0.2-a03","deps":[{"name":"clap","req":"^4.4","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"pest","req":"^2.7.14","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"swamp-script-analyzer","req":"^0.0.2-a03","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"swamp-script-ast","req":"^0.0.2-a03","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"swamp-script-dep-loader","req":"^0.0.2-a03","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"swamp-script-eval","req":"^0.0.2-a03","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"swamp-script-eval-loader","req":"^0.0.2-a03","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"swamp-script-parser","req":"^0.0.2-a03","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"swamp-script-semantic","req":"^0.0.2-a03","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing","req":"^0.1.40","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing-log","req":"^0.2.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing-subscriber","req":"^0.3.18","features":["registry","env-filter"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"c2759c17d9a5df4d9c3f0c11f71cfa358d6cc3fa0405efa3b51df449ce020a01","features":{},"yanked":false}
+{
+    "name": "swamp-script-cli",
+    "vers": "0.0.2-a03",
+    "deps": [
+        {
+            "name": "clap",
+            "req": "^4.4",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "pest",
+            "req": "^2.7.14",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "swamp-script-analyzer",
+            "req": "^0.0.2-a03",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "swamp-script-ast",
+            "req": "^0.0.2-a03",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "swamp-script-dep-loader",
+            "req": "^0.0.2-a03",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "swamp-script-eval",
+            "req": "^0.0.2-a03",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "swamp-script-eval-loader",
+            "req": "^0.0.2-a03",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "swamp-script-parser",
+            "req": "^0.0.2-a03",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "swamp-script-semantic",
+            "req": "^0.0.2-a03",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1.40",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing-log",
+            "req": "^0.2.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing-subscriber",
+            "req": "^0.3.18",
+            "features": [
+                "registry",
+                "env-filter"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "c2759c17d9a5df4d9c3f0c11f71cfa358d6cc3fa0405efa3b51df449ce020a01",
+    "features": {},
+    "yanked": false
+}

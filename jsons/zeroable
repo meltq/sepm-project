@@ -1,1 +1,33 @@
-{"name":"zeroable","vers":"0.1.0","deps":[{"name":"bytemuck","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"zeroable_derive","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"893fad286316d385acfa96d4cba3c65135fb4d864eca77ab2574fb1e67658684","features":{"nightly_testing":["testing"],"print_type":[],"testing":[]},"yanked":false}
+{
+    "name": "zeroable",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "bytemuck",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "zeroable_derive",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "893fad286316d385acfa96d4cba3c65135fb4d864eca77ab2574fb1e67658684",
+    "features": {
+        "nightly_testing": [
+            "testing"
+        ],
+        "print_type": [],
+        "testing": []
+    },
+    "yanked": false
+}

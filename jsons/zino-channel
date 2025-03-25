@@ -1,1 +1,84 @@
-{"name":"zino-channel","vers":"0.1.0","deps":[{"name":"ahash","req":"^0.8.11","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"flume","req":"^0.11.1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"futures","req":"^0.3.31","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"parking_lot","req":"^0.12.3","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.216","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.133","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"zino-core","req":"^0.29.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"ca9dafd8d4d06ec0e7f9c74a93281e1c0718247a3c143d7acecd1208f5788da3","features":{},"features2":{"flume":["dep:ahash","dep:flume","dep:futures","dep:parking_lot"]},"yanked":false,"rust_version":"1.80","v":2}
+{
+    "name": "zino-channel",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "ahash",
+            "req": "^0.8.11",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "flume",
+            "req": "^0.11.1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "futures",
+            "req": "^0.3.31",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "parking_lot",
+            "req": "^0.12.3",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.216",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.133",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "zino-core",
+            "req": "^0.29.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "ca9dafd8d4d06ec0e7f9c74a93281e1c0718247a3c143d7acecd1208f5788da3",
+    "features": {},
+    "features2": {
+        "flume": [
+            "dep:ahash",
+            "dep:flume",
+            "dep:futures",
+            "dep:parking_lot"
+        ]
+    },
+    "yanked": false,
+    "rust_version": "1.80",
+    "v": 2
+}

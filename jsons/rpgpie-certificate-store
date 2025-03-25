@@ -1,1 +1,84 @@
-{"name":"rpgpie-certificate-store","vers":"0.0.1","deps":[{"name":"diesel","req":"^2","features":["sqlite","chrono"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"diesel_migrations","req":"^2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"email-address-parser","req":"^2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"env_logger","req":"^0.11","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"hex","req":"^0.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"log","req":"^0.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"openpgp-cert-d","req":"^0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rpgpie","req":"^0.0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"2e5740ede6bac75ea0da78c8f4820e6b98b98ef7e300250e24dece97ed231e97","features":{},"yanked":false}
+{
+    "name": "rpgpie-certificate-store",
+    "vers": "0.0.1",
+    "deps": [
+        {
+            "name": "diesel",
+            "req": "^2",
+            "features": [
+                "sqlite",
+                "chrono"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "diesel_migrations",
+            "req": "^2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "email-address-parser",
+            "req": "^2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "env_logger",
+            "req": "^0.11",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "hex",
+            "req": "^0.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "log",
+            "req": "^0.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "openpgp-cert-d",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rpgpie",
+            "req": "^0.0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "2e5740ede6bac75ea0da78c8f4820e6b98b98ef7e300250e24dece97ed231e97",
+    "features": {},
+    "yanked": false
+}

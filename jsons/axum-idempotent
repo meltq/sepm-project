@@ -1,1 +1,104 @@
-{"name":"axum-idempotent","vers":"0.1.0","deps":[{"name":"axum","req":"^0.8.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"fred","req":"^10.0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"hex","req":"^0.4.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"ruts","req":"^0.5.2","features":["axum"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.43.0","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"tower","req":"^0.5.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"tower-cookies","req":"^0.11.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"tower-layer","req":"^0.3.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tower-service","req":"^0.3.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing","req":"^0.1.41","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"5313e42c3cb4bbc22a3765b599d1202f030777537c2ae28f73fd809a46b5e347","features":{},"yanked":false,"rust_version":"1.75.0"}
+{
+    "name": "axum-idempotent",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "axum",
+            "req": "^0.8.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "fred",
+            "req": "^10.0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "hex",
+            "req": "^0.4.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ruts",
+            "req": "^0.5.2",
+            "features": [
+                "axum"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.43.0",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "tower",
+            "req": "^0.5.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "tower-cookies",
+            "req": "^0.11.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "tower-layer",
+            "req": "^0.3.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tower-service",
+            "req": "^0.3.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1.41",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "5313e42c3cb4bbc22a3765b599d1202f030777537c2ae28f73fd809a46b5e347",
+    "features": {},
+    "yanked": false,
+    "rust_version": "1.75.0"
+}

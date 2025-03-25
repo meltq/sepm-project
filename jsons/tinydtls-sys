@@ -1,1 +1,68 @@
-{"name":"tinydtls-sys","vers":"0.1.0+tinydtls-68f6045","deps":[{"name":"autotools","req":"^0.2.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"bindgen","req":"^0.59.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"fs_extra","req":"^1.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"lazy_static","req":"^1.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"libc","req":"^0.2.112","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"929d6db99c558364ef0fd0153161626d5c03de038a6ab52aedb0f810e3fdc0a4","features":{"default":["vendored","static","ecc","psk"],"ecc":[],"psk":[],"static":[],"vendored":["static"]},"yanked":false,"links":"tinydtls"}
+{
+    "name": "tinydtls-sys",
+    "vers": "0.1.0+tinydtls-68f6045",
+    "deps": [
+        {
+            "name": "autotools",
+            "req": "^0.2.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "bindgen",
+            "req": "^0.59.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "fs_extra",
+            "req": "^1.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "lazy_static",
+            "req": "^1.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "libc",
+            "req": "^0.2.112",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "929d6db99c558364ef0fd0153161626d5c03de038a6ab52aedb0f810e3fdc0a4",
+    "features": {
+        "default": [
+            "vendored",
+            "static",
+            "ecc",
+            "psk"
+        ],
+        "ecc": [],
+        "psk": [],
+        "static": [],
+        "vendored": [
+            "static"
+        ]
+    },
+    "yanked": false,
+    "links": "tinydtls"
+}

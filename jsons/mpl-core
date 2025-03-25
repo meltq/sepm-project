@@ -1,1 +1,119 @@
-{"name":"mpl-core","vers":"0.1.0","deps":[{"name":"assert_matches","req":"^1.5.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"base64","req":"^0.22.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"borsh","req":"^0.10","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"num-derive","req":"^0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"num-traits","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0","features":["derive"],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_with","req":"^3.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"solana-program","req":">1.14, <1.18","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"solana-program-test","req":">1.14, <1.18","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"solana-sdk","req":">1.14, <1.18","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"thiserror","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"e2aa89feb937353e5744ca7d30132a07e7380127ad42278e92b90796c60c4b11","features":{"test-sbf":[]},"features2":{"serde":["dep:serde","dep:serde_with"]},"yanked":false,"v":2}
+{
+    "name": "mpl-core",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "assert_matches",
+            "req": "^1.5.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "base64",
+            "req": "^0.22.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "borsh",
+            "req": "^0.10",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "num-derive",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "num-traits",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [
+                "derive"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_with",
+            "req": "^3.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "solana-program",
+            "req": ">1.14, <1.18",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "solana-program-test",
+            "req": ">1.14, <1.18",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "solana-sdk",
+            "req": ">1.14, <1.18",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "thiserror",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "e2aa89feb937353e5744ca7d30132a07e7380127ad42278e92b90796c60c4b11",
+    "features": {
+        "test-sbf": []
+    },
+    "features2": {
+        "serde": [
+            "dep:serde",
+            "dep:serde_with"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

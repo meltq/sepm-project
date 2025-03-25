@@ -1,1 +1,38 @@
-{"name":"css-image","vers":"0.1.0","deps":[{"name":"cairo-rs","req":"^0.19.2","features":["png"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"criterion","req":"^0.5.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"rayon","req":"^1.10.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"9cc76244189df3f141f67194dffb2f83b3f0e941074af8f5cb01630769644f2c","features":{},"yanked":false}
+{
+    "name": "css-image",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "cairo-rs",
+            "req": "^0.19.2",
+            "features": [
+                "png"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "criterion",
+            "req": "^0.5.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "rayon",
+            "req": "^1.10.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "9cc76244189df3f141f67194dffb2f83b3f0e941074af8f5cb01630769644f2c",
+    "features": {},
+    "yanked": false
+}

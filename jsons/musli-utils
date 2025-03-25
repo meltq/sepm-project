@@ -1,1 +1,49 @@
-{"name":"musli-utils","vers":"0.0.111","deps":[{"name":"musli","req":"^0.0.111","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"musli-allocator","req":"^0.0.111","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"rand","req":"^0.8.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"d6858df47df71ec548c9161926da9acb05b71445921a237385cf3e864b5deeb3","features":{"alloc":["musli-allocator/alloc"],"default":["std","alloc"],"std":["musli/std","musli-allocator/std"]},"yanked":false,"rust_version":"1.76"}
+{
+    "name": "musli-utils",
+    "vers": "0.0.111",
+    "deps": [
+        {
+            "name": "musli",
+            "req": "^0.0.111",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "musli-allocator",
+            "req": "^0.0.111",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rand",
+            "req": "^0.8.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "d6858df47df71ec548c9161926da9acb05b71445921a237385cf3e864b5deeb3",
+    "features": {
+        "alloc": [
+            "musli-allocator/alloc"
+        ],
+        "default": [
+            "std",
+            "alloc"
+        ],
+        "std": [
+            "musli/std",
+            "musli-allocator/std"
+        ]
+    },
+    "yanked": false,
+    "rust_version": "1.76"
+}

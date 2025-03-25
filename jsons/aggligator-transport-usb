@@ -1,1 +1,97 @@
-{"name":"aggligator-transport-usb","vers":"0.1.0","deps":[{"name":"aggligator","req":"^0.9.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"async-trait","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"futures","req":"^0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rusb","req":"^0.9","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.43","features":["macros"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"upc","req":"^0.5","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"usb-gadget","req":"^0.7","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"7538a6585e92145d031fa927458cc8b9daf59ece34b3a750da7829fd5bbd3ba8","features":{"default":["host","device"],"device":["upc/device","usb-gadget"],"host":["upc/host","rusb"]},"yanked":false,"rust_version":"1.80"}
+{
+    "name": "aggligator-transport-usb",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "aggligator",
+            "req": "^0.9.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "async-trait",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "futures",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rusb",
+            "req": "^0.9",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.43",
+            "features": [
+                "macros"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "upc",
+            "req": "^0.5",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "usb-gadget",
+            "req": "^0.7",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "7538a6585e92145d031fa927458cc8b9daf59ece34b3a750da7829fd5bbd3ba8",
+    "features": {
+        "default": [
+            "host",
+            "device"
+        ],
+        "device": [
+            "upc/device",
+            "usb-gadget"
+        ],
+        "host": [
+            "upc/host",
+            "rusb"
+        ]
+    },
+    "yanked": false,
+    "rust_version": "1.80"
+}

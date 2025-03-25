@@ -1,1 +1,45 @@
-{"name":"wolfrpg-map-parser","vers":"0.2.0","deps":[{"name":"encoding_rs","req":"^0.8.35","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.210","features":["derive"],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.128","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"12292c09faba160cd1c38f4d73aee4df42d90f7217744fccc7662a167d60530c","features":{},"features2":{"serde":["dep:serde","dep:serde_json"]},"yanked":true,"v":2}
+{
+    "name": "wolfrpg-map-parser",
+    "vers": "0.2.0",
+    "deps": [
+        {
+            "name": "encoding_rs",
+            "req": "^0.8.35",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.210",
+            "features": [
+                "derive"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.128",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "12292c09faba160cd1c38f4d73aee4df42d90f7217744fccc7662a167d60530c",
+    "features": {},
+    "features2": {
+        "serde": [
+            "dep:serde",
+            "dep:serde_json"
+        ]
+    },
+    "yanked": true,
+    "v": 2
+}

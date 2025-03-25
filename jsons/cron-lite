@@ -1,1 +1,40 @@
-{"name":"cron-lite","vers":"0.1.0","deps":[{"name":"chrono","req":"^0.4","features":["std","now"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"rstest","req":"^0.23.0","features":[],"optional":false,"default_features":false,"target":null,"kind":"dev"},{"name":"rstest_reuse","req":"^0.7.0","features":[],"optional":false,"default_features":false,"target":null,"kind":"dev"}],"cksum":"4d40bc35e4c3481c10209cf0fff0ce321c2e63e7386ae6c4185c982beb54c7e3","features":{},"yanked":false,"rust_version":"1.67.1"}
+{
+    "name": "cron-lite",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "chrono",
+            "req": "^0.4",
+            "features": [
+                "std",
+                "now"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rstest",
+            "req": "^0.23.0",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "rstest_reuse",
+            "req": "^0.7.0",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "4d40bc35e4c3481c10209cf0fff0ce321c2e63e7386ae6c4185c982beb54c7e3",
+    "features": {},
+    "yanked": false,
+    "rust_version": "1.67.1"
+}

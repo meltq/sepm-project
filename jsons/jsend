@@ -1,1 +1,73 @@
-{"name":"jsend","vers":"1.0.0","deps":[{"name":"axum","req":"^0.7.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"serde","req":"^1.0","features":["derive"],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.36.0","features":["macros","rt-multi-thread"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"uuid","req":"^1.7.0","features":["serde","v4"],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"f679ea98aa97fd1a72ae3b7afac55670052c39cc25cb5b3defad61356b903610","features":{"default":["serde"]},"features2":{"serde":["dep:serde","dep:serde_json"]},"yanked":false,"v":2}
+{
+    "name": "jsend",
+    "vers": "1.0.0",
+    "deps": [
+        {
+            "name": "axum",
+            "req": "^0.7.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [
+                "derive"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.36.0",
+            "features": [
+                "macros",
+                "rt-multi-thread"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "uuid",
+            "req": "^1.7.0",
+            "features": [
+                "serde",
+                "v4"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "f679ea98aa97fd1a72ae3b7afac55670052c39cc25cb5b3defad61356b903610",
+    "features": {
+        "default": [
+            "serde"
+        ]
+    },
+    "features2": {
+        "serde": [
+            "dep:serde",
+            "dep:serde_json"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

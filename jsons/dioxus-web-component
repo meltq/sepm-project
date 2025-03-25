@@ -1,1 +1,56 @@
-{"name":"dioxus-web-component","vers":"0.0.1","deps":[{"name":"async-channel","req":"^2.2.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"dioxus","req":"^0.5.1","features":["web"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"wasm-bindgen","req":"^0.2.92","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"web-sys","req":"^0.3.68","features":["Document","Element","HtmlElement","Node","Window","CustomEvent","ShadowRoot"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"92b36afe6260c39b526fae1520c665fea267b22d92b456ea68945409e5a57c9f","features":{},"yanked":false,"rust_version":"1.75.0"}
+{
+    "name": "dioxus-web-component",
+    "vers": "0.0.1",
+    "deps": [
+        {
+            "name": "async-channel",
+            "req": "^2.2.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "dioxus",
+            "req": "^0.5.1",
+            "features": [
+                "web"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "wasm-bindgen",
+            "req": "^0.2.92",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "web-sys",
+            "req": "^0.3.68",
+            "features": [
+                "Document",
+                "Element",
+                "HtmlElement",
+                "Node",
+                "Window",
+                "CustomEvent",
+                "ShadowRoot"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "92b36afe6260c39b526fae1520c665fea267b22d92b456ea68945409e5a57c9f",
+    "features": {},
+    "yanked": false,
+    "rust_version": "1.75.0"
+}

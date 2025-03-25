@@ -1,1 +1,68 @@
-{"name":"kutil-cli","vers":"0.0.1","deps":[{"name":"anstream","req":"^0.6.18","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"anstyle","req":"^1.0.10","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"clap","req":"^4.5.23","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"owo-colors","req":"^4.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing","req":"^0.1.41","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing-subscriber","req":"^0.3.19","features":["env-filter"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"0c9ea231f4e56fc720a8924fc41c8164ccd7ed81899ce2e3c4129a95e5741266","features":{},"yanked":false,"rust_version":"1.83"}
+{
+    "name": "kutil-cli",
+    "vers": "0.0.1",
+    "deps": [
+        {
+            "name": "anstream",
+            "req": "^0.6.18",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "anstyle",
+            "req": "^1.0.10",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "clap",
+            "req": "^4.5.23",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "owo-colors",
+            "req": "^4.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1.41",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing-subscriber",
+            "req": "^0.3.19",
+            "features": [
+                "env-filter"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "0c9ea231f4e56fc720a8924fc41c8164ccd7ed81899ce2e3c4129a95e5741266",
+    "features": {},
+    "yanked": false,
+    "rust_version": "1.83"
+}

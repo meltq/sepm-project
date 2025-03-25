@@ -1,1 +1,49 @@
-{"name":"tauri-plugin-openurl","vers":"0.1.0-beta.1","deps":[{"name":"serde","req":"^1.0.197","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tauri","req":"^2.0.0-beta.14","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tauri-plugin","req":"^2.0.0-beta.11","features":["build"],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"thiserror","req":"^1.0.58","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"fa167cb0a5a14d4df55006b6e6edb24d08059b00d1c4cfca7acb36de390b2d28","features":{},"yanked":false,"links":"tauri-plugin-openurl","rust_version":"1.77"}
+{
+    "name": "tauri-plugin-openurl",
+    "vers": "0.1.0-beta.1",
+    "deps": [
+        {
+            "name": "serde",
+            "req": "^1.0.197",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tauri",
+            "req": "^2.0.0-beta.14",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tauri-plugin",
+            "req": "^2.0.0-beta.11",
+            "features": [
+                "build"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "thiserror",
+            "req": "^1.0.58",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "fa167cb0a5a14d4df55006b6e6edb24d08059b00d1c4cfca7acb36de390b2d28",
+    "features": {},
+    "yanked": false,
+    "links": "tauri-plugin-openurl",
+    "rust_version": "1.77"
+}

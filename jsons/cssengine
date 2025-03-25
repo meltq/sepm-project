@@ -1,1 +1,82 @@
-{"name":"cssengine","vers":"0.1.0","deps":[{"name":"csscolorparser","req":"^0.7.0","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"divan","req":"^0.1.16","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"serde","req":"^1","features":["derive"],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"smallvec","req":"^1.13.2","features":["const_new"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"taffy","req":"^0.6.2","features":["taffy_tree","block_layout"],"optional":false,"default_features":false,"target":null,"kind":"normal"}],"cksum":"9b9d15ba79184fd3c90cc22f65afbf094bd19f5403e1977e83f1434541e41775","features":{"default":["grid","flexbox"],"flexbox":["taffy/flexbox"],"grid":["taffy/grid"],"tailwind_colors":[]},"features2":{"serde":["dep:serde","smallvec/serde","taffy/serde","csscolorparser/serde"]},"yanked":false,"v":2}
+{
+    "name": "cssengine",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "csscolorparser",
+            "req": "^0.7.0",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "divan",
+            "req": "^0.1.16",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "serde",
+            "req": "^1",
+            "features": [
+                "derive"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "smallvec",
+            "req": "^1.13.2",
+            "features": [
+                "const_new"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "taffy",
+            "req": "^0.6.2",
+            "features": [
+                "taffy_tree",
+                "block_layout"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "9b9d15ba79184fd3c90cc22f65afbf094bd19f5403e1977e83f1434541e41775",
+    "features": {
+        "default": [
+            "grid",
+            "flexbox"
+        ],
+        "flexbox": [
+            "taffy/flexbox"
+        ],
+        "grid": [
+            "taffy/grid"
+        ],
+        "tailwind_colors": []
+    },
+    "features2": {
+        "serde": [
+            "dep:serde",
+            "smallvec/serde",
+            "taffy/serde",
+            "csscolorparser/serde"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

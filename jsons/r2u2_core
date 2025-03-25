@@ -1,1 +1,69 @@
-{"name":"r2u2_core","vers":"0.1.0","deps":[{"name":"byteorder","req":"^1","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"const_env","req":"^0.1.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"cortex-m-semihosting","req":"^0.5.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"libc-print","req":"^0.1.23","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"libm","req":"^0.2.8","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"f9bb9fad77ed52c1d502df335cb90097ee83c864fdf8565e8c32c48f4413b756","features":{"configurable":[],"default":["configurable"]},"features2":{"debug_print_semihosting":["dep:cortex-m-semihosting"],"debug_print_std":["dep:libc-print"]},"yanked":false,"rust_version":"1.79.0","v":2}
+{
+    "name": "r2u2_core",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "byteorder",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "const_env",
+            "req": "^0.1.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "cortex-m-semihosting",
+            "req": "^0.5.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "libc-print",
+            "req": "^0.1.23",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "libm",
+            "req": "^0.2.8",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "f9bb9fad77ed52c1d502df335cb90097ee83c864fdf8565e8c32c48f4413b756",
+    "features": {
+        "configurable": [],
+        "default": [
+            "configurable"
+        ]
+    },
+    "features2": {
+        "debug_print_semihosting": [
+            "dep:cortex-m-semihosting"
+        ],
+        "debug_print_std": [
+            "dep:libc-print"
+        ]
+    },
+    "yanked": false,
+    "rust_version": "1.79.0",
+    "v": 2
+}

@@ -1,1 +1,77 @@
-{"name":"gost-modes","vers":"0.1.0","deps":[{"name":"block-modes","req":"^0.5","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"generic-array","req":"^0.14","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"hex-literal","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"kuznyechik","req":"^0.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"magma","req":"^0.4.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"stream-cipher","req":"^0.5","features":["block-cipher"],"optional":false,"default_features":false,"target":null,"kind":"normal"}],"cksum":"095332049c63a72eb9a1dd3012909d9e06ebce61ed05a7389cc7b89b788b38b2","features":{"alloc":["block-modes/alloc"],"default":["std"],"std":["alloc","block-modes/std","stream-cipher/std"]},"yanked":true}
+{
+    "name": "gost-modes",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "block-modes",
+            "req": "^0.5",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "generic-array",
+            "req": "^0.14",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "hex-literal",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "kuznyechik",
+            "req": "^0.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "magma",
+            "req": "^0.4.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "stream-cipher",
+            "req": "^0.5",
+            "features": [
+                "block-cipher"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "095332049c63a72eb9a1dd3012909d9e06ebce61ed05a7389cc7b89b788b38b2",
+    "features": {
+        "alloc": [
+            "block-modes/alloc"
+        ],
+        "default": [
+            "std"
+        ],
+        "std": [
+            "alloc",
+            "block-modes/std",
+            "stream-cipher/std"
+        ]
+    },
+    "yanked": true
+}

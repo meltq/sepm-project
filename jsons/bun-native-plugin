@@ -1,1 +1,52 @@
-{"name":"bun-native-plugin","vers":"0.1.0","deps":[{"name":"anyhow","req":"^1.0.94","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"bindgen","req":"^0.70.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"bun-macro","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"napi","req":"^2.14.1","features":["napi4"],"optional":false,"default_features":false,"target":null,"kind":"normal"}],"cksum":"16a05ff4e9fb0caa3c6a553117d6ab6ee553df598be098d4e6aaa4d565b77628","features":{"default":["napi"],"napi":[]},"yanked":false}
+{
+    "name": "bun-native-plugin",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "anyhow",
+            "req": "^1.0.94",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "bindgen",
+            "req": "^0.70.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "bun-macro",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "napi",
+            "req": "^2.14.1",
+            "features": [
+                "napi4"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "16a05ff4e9fb0caa3c6a553117d6ab6ee553df598be098d4e6aaa4d565b77628",
+    "features": {
+        "default": [
+            "napi"
+        ],
+        "napi": []
+    },
+    "yanked": false
+}

@@ -1,1 +1,74 @@
-{"name":"relib_interface","vers":"0.1.1","deps":[{"name":"prettyplease","req":"^0.2.25","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"proc-macro2","req":"^1.0.92","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"quote","req":"^1.0.37","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"relib_internal_shared","req":"=0.1.1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"syn","req":"^2.0.89","features":["full"],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"a8e4c4011a1d48ddc1f37aa38e04ed59625ae0157edec6dce3ee2143c6950331","features":{"default":["public"],"include":[],"internal":[],"public":[]},"features2":{"build":["dep:relib_internal_shared","dep:prettyplease","dep:proc-macro2","dep:quote","dep:syn"]},"yanked":false,"rust_version":"1.83.0","v":2}
+{
+    "name": "relib_interface",
+    "vers": "0.1.1",
+    "deps": [
+        {
+            "name": "prettyplease",
+            "req": "^0.2.25",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "proc-macro2",
+            "req": "^1.0.92",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "quote",
+            "req": "^1.0.37",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "relib_internal_shared",
+            "req": "=0.1.1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "syn",
+            "req": "^2.0.89",
+            "features": [
+                "full"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "a8e4c4011a1d48ddc1f37aa38e04ed59625ae0157edec6dce3ee2143c6950331",
+    "features": {
+        "default": [
+            "public"
+        ],
+        "include": [],
+        "internal": [],
+        "public": []
+    },
+    "features2": {
+        "build": [
+            "dep:relib_internal_shared",
+            "dep:prettyplease",
+            "dep:proc-macro2",
+            "dep:quote",
+            "dep:syn"
+        ]
+    },
+    "yanked": false,
+    "rust_version": "1.83.0",
+    "v": 2
+}

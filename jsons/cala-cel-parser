@@ -1,1 +1,33 @@
-{"name":"cala-cel-parser","vers":"0.1.0-dev","deps":[{"name":"lalrpop","req":"^0.20","features":["lexer"],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"lalrpop-util","req":"^0.20","features":["lexer"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"8f735bf1fb274323e936e58e78baa6fddd0d7f6c9764ae6c9a7cb8643e3e47ca","features":{"fail-on-warnings":[]},"yanked":false}
+{
+    "name": "cala-cel-parser",
+    "vers": "0.1.0-dev",
+    "deps": [
+        {
+            "name": "lalrpop",
+            "req": "^0.20",
+            "features": [
+                "lexer"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "lalrpop-util",
+            "req": "^0.20",
+            "features": [
+                "lexer"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "8f735bf1fb274323e936e58e78baa6fddd0d7f6c9764ae6c9a7cb8643e3e47ca",
+    "features": {
+        "fail-on-warnings": []
+    },
+    "yanked": false
+}

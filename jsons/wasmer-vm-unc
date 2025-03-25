@@ -1,1 +1,124 @@
-{"name":"wasmer-vm-unc","vers":"2.3.0","deps":[{"name":"backtrace","req":"^0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"cc","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"cfg-if","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"indexmap","req":"^1.6","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"libc","req":"^0.2","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"memoffset","req":"^0.6","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"more-asserts","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"region","req":"^3.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rkyv","req":"^0.7.20","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"wasmer-types","req":"=2.4.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal","package":"wasmer-types-near"},{"name":"winapi","req":"^0.3","features":["winbase","memoryapi","errhandlingapi"],"optional":false,"default_features":true,"target":"cfg(target_os = \"windows\")","kind":"normal"}],"cksum":"80b3afc0b3f740e1ae5cd86f9e956a62650a964514b3069e9fd61b2f26ae55b9","features":{"default":[]},"yanked":false}
+{
+    "name": "wasmer-vm-unc",
+    "vers": "2.3.0",
+    "deps": [
+        {
+            "name": "backtrace",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "cc",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "cfg-if",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "indexmap",
+            "req": "^1.6",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "libc",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "memoffset",
+            "req": "^0.6",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "more-asserts",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "region",
+            "req": "^3.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rkyv",
+            "req": "^0.7.20",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "wasmer-types",
+            "req": "=2.4.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal",
+            "package": "wasmer-types-near"
+        },
+        {
+            "name": "winapi",
+            "req": "^0.3",
+            "features": [
+                "winbase",
+                "memoryapi",
+                "errhandlingapi"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": "cfg(target_os = \"windows\")",
+            "kind": "normal"
+        }
+    ],
+    "cksum": "80b3afc0b3f740e1ae5cd86f9e956a62650a964514b3069e9fd61b2f26ae55b9",
+    "features": {
+        "default": []
+    },
+    "yanked": false
+}

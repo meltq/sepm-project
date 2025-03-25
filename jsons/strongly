@@ -1,1 +1,50 @@
-{"name":"strongly","vers":"0.0.1","deps":[{"name":"proc-macro2","req":"^1","features":["proc-macro"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"quote","req":"^1","features":["proc-macro"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"syn","req":"^2","features":["full","proc-macro","parsing"],"optional":false,"default_features":false,"target":null,"kind":"normal"}],"cksum":"a8b453a5fd77d56e3f4bc18d9b1d31b0ebfc7fa2ca34cfa02c5579d8995afd9e","features":{"default":["std"],"std":[]},"yanked":true,"rust_version":"1.58"}
+{
+    "name": "strongly",
+    "vers": "0.0.1",
+    "deps": [
+        {
+            "name": "proc-macro2",
+            "req": "^1",
+            "features": [
+                "proc-macro"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "quote",
+            "req": "^1",
+            "features": [
+                "proc-macro"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "syn",
+            "req": "^2",
+            "features": [
+                "full",
+                "proc-macro",
+                "parsing"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "a8b453a5fd77d56e3f4bc18d9b1d31b0ebfc7fa2ca34cfa02c5579d8995afd9e",
+    "features": {
+        "default": [
+            "std"
+        ],
+        "std": []
+    },
+    "yanked": true,
+    "rust_version": "1.58"
+}

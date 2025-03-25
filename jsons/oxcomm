@@ -1,1 +1,58 @@
-{"name":"oxcomm","vers":"0.1.0","deps":[{"name":"reqwest","req":"^0.12.9","features":["blocking"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"scraper","req":"^0.22.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.133","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.42.0","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"urlencoding","req":"^2.1.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"c7cc0397f24721d3fe8fed3e72b9656f63ee8844b9f32291270bbc655208e603","features":{},"yanked":false}
+{
+    "name": "oxcomm",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "reqwest",
+            "req": "^0.12.9",
+            "features": [
+                "blocking"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "scraper",
+            "req": "^0.22.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.133",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.42.0",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "urlencoding",
+            "req": "^2.1.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "c7cc0397f24721d3fe8fed3e72b9656f63ee8844b9f32291270bbc655208e603",
+    "features": {},
+    "yanked": false
+}

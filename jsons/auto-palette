@@ -1,1 +1,66 @@
-{"name":"auto-palette","vers":"0.1.0","deps":[{"name":"image","req":"^0.25.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"num-traits","req":"^0.2.18","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rand","req":"^0.8.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rand_distr","req":"^0.4.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"reqwest","req":"^0.12.4","features":["blocking"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"rstest","req":"^0.19.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"9103ab65e5866cada3f7c6ea5d008102f9cf65095df4fa5d5923a73c727c9c5a","features":{},"yanked":false,"rust_version":"1.75.0"}
+{
+    "name": "auto-palette",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "image",
+            "req": "^0.25.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "num-traits",
+            "req": "^0.2.18",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rand",
+            "req": "^0.8.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rand_distr",
+            "req": "^0.4.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "reqwest",
+            "req": "^0.12.4",
+            "features": [
+                "blocking"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "rstest",
+            "req": "^0.19.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "9103ab65e5866cada3f7c6ea5d008102f9cf65095df4fa5d5923a73c727c9c5a",
+    "features": {},
+    "yanked": false,
+    "rust_version": "1.75.0"
+}

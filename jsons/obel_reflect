@@ -1,1 +1,336 @@
-{"name":"obel_reflect","vers":"0.0.1","deps":[{"name":"assert_type_match","req":"^0.1.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"bincode","req":"^1.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"derive_more","req":"^1","features":["from"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"disqualified","req":"^1.0","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"downcast-rs","req":"^2","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"erased-serde","req":"^0.4","features":["alloc"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"foldhash","req":"^0.1.3","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"glam","req":"^0.29","features":["serde"],"optional":true,"default_features":false,"target":null,"kind":"normal"},{"name":"obel_platform","req":"^0.0.1","features":["alloc","serialize"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"petgraph","req":"^0.6","features":["serde-1"],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"proc-macro2","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"quote","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rmp-serde","req":"^1.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"ron","req":"^0.8.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"serde","req":"^1","features":["alloc","derive"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"serde","req":"^1","features":[],"optional":false,"default_features":false,"target":null,"kind":"dev"},{"name":"serde_json","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"smallvec","req":"^1.11","features":[],"optional":true,"default_features":false,"target":null,"kind":"normal"},{"name":"smol_str","req":"^0.2.0","features":["serde"],"optional":true,"default_features":false,"target":null,"kind":"normal"},{"name":"spin","req":"^0.9.8","features":["once","rwlock"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"static_assertions","req":"^1.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"syn","req":"^2.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^2","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"toml_edit","req":"^0.22.7","features":["parse"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"uuid","req":"^1.0","features":["v4","serde"],"optional":true,"default_features":false,"target":null,"kind":"normal"},{"name":"variadics_please","req":"^1.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"wgpu-types","req":"^23","features":["serde"],"optional":true,"default_features":false,"target":null,"kind":"normal"}],"cksum":"6b7204e8b2db0f66fbfdaf464aaa2015def4534fa7661ba7a6187c2b5f90a378","features":{"alloc":[],"critical-section":["obel_platform/critical-section"],"debug":["debug_stack"],"debug_stack":[],"documentation":[],"functions":[],"platform_std":["obel_platform/std","obel_platform/serialize"],"portable-atomic":["obel_platform/portable-atomic"]},"features2":{"default":["std","smallvec","debug"],"glam":["dep:glam"],"obel":["smallvec","smol_str"],"petgraph":["dep:petgraph","std"],"smallvec":["dep:smallvec"],"std":["alloc","platform_std","erased-serde/std","downcast-rs/std","serde/std","glam?/std","smol_str?/std","uuid?/std"],"uuid":["dep:uuid"],"wgpu-types":["dep:wgpu-types","std"]},"yanked":false,"rust_version":"1.82.0","v":2}
+{
+    "name": "obel_reflect",
+    "vers": "0.0.1",
+    "deps": [
+        {
+            "name": "assert_type_match",
+            "req": "^0.1.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "bincode",
+            "req": "^1.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "derive_more",
+            "req": "^1",
+            "features": [
+                "from"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "disqualified",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "downcast-rs",
+            "req": "^2",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "erased-serde",
+            "req": "^0.4",
+            "features": [
+                "alloc"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "foldhash",
+            "req": "^0.1.3",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "glam",
+            "req": "^0.29",
+            "features": [
+                "serde"
+            ],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "obel_platform",
+            "req": "^0.0.1",
+            "features": [
+                "alloc",
+                "serialize"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "petgraph",
+            "req": "^0.6",
+            "features": [
+                "serde-1"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "proc-macro2",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "quote",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rmp-serde",
+            "req": "^1.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "ron",
+            "req": "^0.8.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "serde",
+            "req": "^1",
+            "features": [
+                "alloc",
+                "derive"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "smallvec",
+            "req": "^1.11",
+            "features": [],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "smol_str",
+            "req": "^0.2.0",
+            "features": [
+                "serde"
+            ],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "spin",
+            "req": "^0.9.8",
+            "features": [
+                "once",
+                "rwlock"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "static_assertions",
+            "req": "^1.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "syn",
+            "req": "^2.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^2",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "toml_edit",
+            "req": "^0.22.7",
+            "features": [
+                "parse"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "uuid",
+            "req": "^1.0",
+            "features": [
+                "v4",
+                "serde"
+            ],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "variadics_please",
+            "req": "^1.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "wgpu-types",
+            "req": "^23",
+            "features": [
+                "serde"
+            ],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "6b7204e8b2db0f66fbfdaf464aaa2015def4534fa7661ba7a6187c2b5f90a378",
+    "features": {
+        "alloc": [],
+        "critical-section": [
+            "obel_platform/critical-section"
+        ],
+        "debug": [
+            "debug_stack"
+        ],
+        "debug_stack": [],
+        "documentation": [],
+        "functions": [],
+        "platform_std": [
+            "obel_platform/std",
+            "obel_platform/serialize"
+        ],
+        "portable-atomic": [
+            "obel_platform/portable-atomic"
+        ]
+    },
+    "features2": {
+        "default": [
+            "std",
+            "smallvec",
+            "debug"
+        ],
+        "glam": [
+            "dep:glam"
+        ],
+        "obel": [
+            "smallvec",
+            "smol_str"
+        ],
+        "petgraph": [
+            "dep:petgraph",
+            "std"
+        ],
+        "smallvec": [
+            "dep:smallvec"
+        ],
+        "std": [
+            "alloc",
+            "platform_std",
+            "erased-serde/std",
+            "downcast-rs/std",
+            "serde/std",
+            "glam?/std",
+            "smol_str?/std",
+            "uuid?/std"
+        ],
+        "uuid": [
+            "dep:uuid"
+        ],
+        "wgpu-types": [
+            "dep:wgpu-types",
+            "std"
+        ]
+    },
+    "yanked": false,
+    "rust_version": "1.82.0",
+    "v": 2
+}

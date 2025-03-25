@@ -1,1 +1,56 @@
-{"name":"ffgl-glium","vers":"0.1.0","deps":[{"name":"ffgl-core","req":"^0.2.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"gl","req":"^0.14.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"gl_loader","req":"^0.1.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"glium","req":"^0.33.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing","req":"^0.1.40","features":["log"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"aefebe004b12cb03e4758ff139d02d756e8805b1c4c38849ea97688389a421c9","features":{},"yanked":false}
+{
+    "name": "ffgl-glium",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "ffgl-core",
+            "req": "^0.2.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "gl",
+            "req": "^0.14.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "gl_loader",
+            "req": "^0.1.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "glium",
+            "req": "^0.33.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1.40",
+            "features": [
+                "log"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "aefebe004b12cb03e4758ff139d02d756e8805b1c4c38849ea97688389a421c9",
+    "features": {},
+    "yanked": false
+}

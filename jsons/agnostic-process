@@ -1,1 +1,147 @@
-{"name":"agnostic-process","vers":"0.1.0","deps":[{"name":"agnostic-io","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"async-process","req":"^2","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"async-std","req":"^0.2.1","features":["unstable"],"optional":true,"default_features":false,"target":null,"kind":"normal","package":"feature-extension-for-async-std"},{"name":"async-std","req":"^0.2.1","features":["default"],"optional":false,"default_features":false,"target":null,"kind":"dev","package":"feature-extension-for-async-std"},{"name":"futures-util","req":"^0.3","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"paste","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"smol","req":"^0.2.1","features":[],"optional":true,"default_features":false,"target":null,"kind":"normal","package":"feature-extension-for-smol"},{"name":"smol","req":"^0.2.1","features":["default"],"optional":false,"default_features":false,"target":null,"kind":"dev","package":"feature-extension-for-smol"},{"name":"tokio","req":"^1","features":["process"],"optional":true,"default_features":false,"target":null,"kind":"normal"},{"name":"tokio","req":"^1","features":["process","rt"],"optional":false,"default_features":false,"target":null,"kind":"dev"},{"name":"windows-sys","req":"^0.59","features":["Win32_Foundation","Win32_System_Threading"],"optional":false,"default_features":false,"target":"cfg(windows)","kind":"dev"}],"cksum":"cd845e28ba230a2cab70a5b9f2b6376915aaf828e440eaa8e22f7408f55b1a79","features":{"default":[],"tokio-io":["agnostic-io/tokio"]},"features2":{"async-std":["dep:async-std","async-process"],"smol":["dep:smol","async-process"],"tokio":["dep:tokio","tokio-io"]},"yanked":false,"rust_version":"1.81.0","v":2}
+{
+    "name": "agnostic-process",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "agnostic-io",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "async-process",
+            "req": "^2",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "async-std",
+            "req": "^0.2.1",
+            "features": [
+                "unstable"
+            ],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal",
+            "package": "feature-extension-for-async-std"
+        },
+        {
+            "name": "async-std",
+            "req": "^0.2.1",
+            "features": [
+                "default"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "dev",
+            "package": "feature-extension-for-async-std"
+        },
+        {
+            "name": "futures-util",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "paste",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "smol",
+            "req": "^0.2.1",
+            "features": [],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal",
+            "package": "feature-extension-for-smol"
+        },
+        {
+            "name": "smol",
+            "req": "^0.2.1",
+            "features": [
+                "default"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "dev",
+            "package": "feature-extension-for-smol"
+        },
+        {
+            "name": "tokio",
+            "req": "^1",
+            "features": [
+                "process"
+            ],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1",
+            "features": [
+                "process",
+                "rt"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "windows-sys",
+            "req": "^0.59",
+            "features": [
+                "Win32_Foundation",
+                "Win32_System_Threading"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": "cfg(windows)",
+            "kind": "dev"
+        }
+    ],
+    "cksum": "cd845e28ba230a2cab70a5b9f2b6376915aaf828e440eaa8e22f7408f55b1a79",
+    "features": {
+        "default": [],
+        "tokio-io": [
+            "agnostic-io/tokio"
+        ]
+    },
+    "features2": {
+        "async-std": [
+            "dep:async-std",
+            "async-process"
+        ],
+        "smol": [
+            "dep:smol",
+            "async-process"
+        ],
+        "tokio": [
+            "dep:tokio",
+            "tokio-io"
+        ]
+    },
+    "yanked": false,
+    "rust_version": "1.81.0",
+    "v": 2
+}

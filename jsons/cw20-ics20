@@ -1,1 +1,122 @@
-{"name":"cw20-ics20","vers":"0.6.0-alpha1","deps":[{"name":"cosmwasm-schema","req":"^0.14.0-alpha2","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"cosmwasm-std","req":"^0.14.0-alpha2","features":["iterator","stargate"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"cw-multi-test","req":"^0.6.0-alpha1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"cw-storage-plus","req":"^0.6.0-alpha1","features":["iterator"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"cw0","req":"^0.6.0-alpha1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"cw2","req":"^0.6.0-alpha1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"cw20","req":"^0.6.0-alpha1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"cw20-base","req":"^0.6.0-alpha1","features":["library"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"schemars","req":"^0.7","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.103","features":["derive"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"thiserror","req":"^1.0.20","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"272e793d6de8df07f95c1c2c797030f781d8ff36ecb15255af4170c8ade02313","features":{"backtraces":["cosmwasm-std/backtraces"],"library":[]},"yanked":false}
+{
+    "name": "cw20-ics20",
+    "vers": "0.6.0-alpha1",
+    "deps": [
+        {
+            "name": "cosmwasm-schema",
+            "req": "^0.14.0-alpha2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "cosmwasm-std",
+            "req": "^0.14.0-alpha2",
+            "features": [
+                "iterator",
+                "stargate"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "cw-multi-test",
+            "req": "^0.6.0-alpha1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "cw-storage-plus",
+            "req": "^0.6.0-alpha1",
+            "features": [
+                "iterator"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "cw0",
+            "req": "^0.6.0-alpha1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "cw2",
+            "req": "^0.6.0-alpha1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "cw20",
+            "req": "^0.6.0-alpha1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "cw20-base",
+            "req": "^0.6.0-alpha1",
+            "features": [
+                "library"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "schemars",
+            "req": "^0.7",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.103",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^1.0.20",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "272e793d6de8df07f95c1c2c797030f781d8ff36ecb15255af4170c8ade02313",
+    "features": {
+        "backtraces": [
+            "cosmwasm-std/backtraces"
+        ],
+        "library": []
+    },
+    "yanked": false
+}

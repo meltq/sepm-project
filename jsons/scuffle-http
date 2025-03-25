@@ -1,1 +1,367 @@
-{"name":"scuffle-http","vers":"0.0.0","deps":[{"name":"async-trait","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"axum","req":"^0.7","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"axum-core","req":"^0.4","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"bytes","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"derive_more","req":"^1.0.0","features":["debug","from"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"futures","req":"^0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"h2","req":"^0.4.6","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"h3","req":"^0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"h3-quinn","req":"^0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"http","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"http-body","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"httparse","req":"^1.9.5","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"httpdate","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"itoa","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"libc","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"pin-project-lite","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"quinn","req":"^0.11","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"rustls","req":"^0.23","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"rustls-pemfile","req":"^2.2","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"scuffle-context","req":"^0.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"scuffle-h3-webtransport","req":"^0.0.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"smallvec","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"spin","req":"^0.9","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^2.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1","features":["net","sync","time","rt"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"tokio","req":"^1","features":["macros"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"tokio-rustls","req":"^0.26","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio-stream","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"tower-service","req":"^0.3","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing","req":"^0.1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing-fmt","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"tracing-subscriber","req":"^0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"f799dcd8a9e4e58ec842ea9db7bf8c0c21ce1f4e55e212f8cb7b2fba6f8a3a71","features":{"_quic":[],"_tcp":[],"_tls":[],"error-backtrace":[],"http1":["_tcp","httparse"],"http2":["_tcp","h2"],"http3":["h3","quic-quinn"],"http3-default":["http3","quic-quinn","tls-rustls"],"http3-webtransport":["http3","quic-quinn","scuffle-h3-webtransport"],"quic-quinn":["_quic","http3","h3-quinn","quinn"],"tls-rustls":["_tls","rustls","tokio-rustls"],"tls-rustls-pem":["tls-rustls","rustls-pemfile"]},"features2":{"axum":["dep:axum-core","tower"],"default":["http1","http2","tracing"],"tower":["dep:tower-service"],"tracing":["dep:tracing"]},"yanked":false,"v":2}
+{
+    "name": "scuffle-http",
+    "vers": "0.0.0",
+    "deps": [
+        {
+            "name": "async-trait",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "axum",
+            "req": "^0.7",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "axum-core",
+            "req": "^0.4",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "bytes",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "derive_more",
+            "req": "^1.0.0",
+            "features": [
+                "debug",
+                "from"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "futures",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "h2",
+            "req": "^0.4.6",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "h3",
+            "req": "^0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "h3-quinn",
+            "req": "^0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "http",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "http-body",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "httparse",
+            "req": "^1.9.5",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "httpdate",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "itoa",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "libc",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "pin-project-lite",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "quinn",
+            "req": "^0.11",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rustls",
+            "req": "^0.23",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rustls-pemfile",
+            "req": "^2.2",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "scuffle-context",
+            "req": "^0.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "scuffle-h3-webtransport",
+            "req": "^0.0.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "smallvec",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "spin",
+            "req": "^0.9",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^2.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1",
+            "features": [
+                "net",
+                "sync",
+                "time",
+                "rt"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1",
+            "features": [
+                "macros"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "tokio-rustls",
+            "req": "^0.26",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio-stream",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "tower-service",
+            "req": "^0.3",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing-fmt",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "tracing-subscriber",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "f799dcd8a9e4e58ec842ea9db7bf8c0c21ce1f4e55e212f8cb7b2fba6f8a3a71",
+    "features": {
+        "_quic": [],
+        "_tcp": [],
+        "_tls": [],
+        "error-backtrace": [],
+        "http1": [
+            "_tcp",
+            "httparse"
+        ],
+        "http2": [
+            "_tcp",
+            "h2"
+        ],
+        "http3": [
+            "h3",
+            "quic-quinn"
+        ],
+        "http3-default": [
+            "http3",
+            "quic-quinn",
+            "tls-rustls"
+        ],
+        "http3-webtransport": [
+            "http3",
+            "quic-quinn",
+            "scuffle-h3-webtransport"
+        ],
+        "quic-quinn": [
+            "_quic",
+            "http3",
+            "h3-quinn",
+            "quinn"
+        ],
+        "tls-rustls": [
+            "_tls",
+            "rustls",
+            "tokio-rustls"
+        ],
+        "tls-rustls-pem": [
+            "tls-rustls",
+            "rustls-pemfile"
+        ]
+    },
+    "features2": {
+        "axum": [
+            "dep:axum-core",
+            "tower"
+        ],
+        "default": [
+            "http1",
+            "http2",
+            "tracing"
+        ],
+        "tower": [
+            "dep:tower-service"
+        ],
+        "tracing": [
+            "dep:tracing"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

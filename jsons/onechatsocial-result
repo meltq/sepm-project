@@ -1,1 +1,85 @@
-{"name":"onechatsocial-result","vers":"0.6.13","deps":[{"name":"revolt_okapi","req":"^0.9.1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"revolt_rocket_okapi","req":"^0.9.1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"rocket","req":"^0.5.0-rc.2","features":[],"optional":true,"default_features":false,"target":null,"kind":"normal"},{"name":"schemars","req":"^0.8.8","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1","features":["derive"],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"11c4ea2a0a8606c72fd4c5630fcb3b32678c52126ba64ec19be3533756ef8325","features":{},"features2":{"default":["serde"],"okapi":["dep:revolt_rocket_okapi","dep:revolt_okapi"],"rocket":["dep:rocket","dep:serde_json"],"schemas":["dep:schemars"],"serde":["dep:serde"]},"yanked":false,"v":2}
+{
+    "name": "onechatsocial-result",
+    "vers": "0.6.13",
+    "deps": [
+        {
+            "name": "revolt_okapi",
+            "req": "^0.9.1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "revolt_rocket_okapi",
+            "req": "^0.9.1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rocket",
+            "req": "^0.5.0-rc.2",
+            "features": [],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "schemars",
+            "req": "^0.8.8",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1",
+            "features": [
+                "derive"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "11c4ea2a0a8606c72fd4c5630fcb3b32678c52126ba64ec19be3533756ef8325",
+    "features": {},
+    "features2": {
+        "default": [
+            "serde"
+        ],
+        "okapi": [
+            "dep:revolt_rocket_okapi",
+            "dep:revolt_okapi"
+        ],
+        "rocket": [
+            "dep:rocket",
+            "dep:serde_json"
+        ],
+        "schemas": [
+            "dep:schemars"
+        ],
+        "serde": [
+            "dep:serde"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

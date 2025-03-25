@@ -1,1 +1,37 @@
-{"name":"legacy-serde","vers":"0.6.0","deps":[{"name":"serde","req":"^0.6","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"}],"cksum":"3778fb1d1eb71dce3a803817cd4e5395798c1694503e1828c52680c5db2e50f4","features":{"nightly":["serde/nightly"],"nightly-testing":["serde/nightly-testing"],"num-bigint":["serde/num-bigint"],"num-complex":["serde/num-complex"],"num-impls":["serde/num-impls"],"num-rational":["serde/num-rational"]},"yanked":false}
+{
+    "name": "legacy-serde",
+    "vers": "0.6.0",
+    "deps": [
+        {
+            "name": "serde",
+            "req": "^0.6",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "3778fb1d1eb71dce3a803817cd4e5395798c1694503e1828c52680c5db2e50f4",
+    "features": {
+        "nightly": [
+            "serde/nightly"
+        ],
+        "nightly-testing": [
+            "serde/nightly-testing"
+        ],
+        "num-bigint": [
+            "serde/num-bigint"
+        ],
+        "num-complex": [
+            "serde/num-complex"
+        ],
+        "num-impls": [
+            "serde/num-impls"
+        ],
+        "num-rational": [
+            "serde/num-rational"
+        ]
+    },
+    "yanked": false
+}

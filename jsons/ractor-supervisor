@@ -1,1 +1,59 @@
-{"name":"ractor-supervisor","vers":"0.1.0","deps":[{"name":"futures-util","req":"^0.3.31","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"if_chain","req":"^1.0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"ractor","req":"^0.14.3","features":["async-trait"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^2.0.11","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.43.0","features":["rt-multi-thread"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"4e47dffd8e6b6ace0bd55012b8f0cd95782cc72e4114c309583c1ba0044e9c43","features":{},"yanked":true,"rust_version":"1.83.0"}
+{
+    "name": "ractor-supervisor",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "futures-util",
+            "req": "^0.3.31",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "if_chain",
+            "req": "^1.0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ractor",
+            "req": "^0.14.3",
+            "features": [
+                "async-trait"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^2.0.11",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.43.0",
+            "features": [
+                "rt-multi-thread"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "4e47dffd8e6b6ace0bd55012b8f0cd95782cc72e4114c309583c1ba0044e9c43",
+    "features": {},
+    "yanked": true,
+    "rust_version": "1.83.0"
+}

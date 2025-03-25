@@ -1,1 +1,45 @@
-{"name":"gkquad","vers":"0.0.1","deps":[{"name":"bencher","req":"^0.1.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"smallbox","req":"^0.8.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"smallvec","req":"^1.2.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"e7fe6c260846d4f53a59df467f2e0e4e5369d48933bd8ae50540478cf118adcc","features":{"default":["std","single"],"single":[],"std":["smallbox/std"]},"yanked":false}
+{
+    "name": "gkquad",
+    "vers": "0.0.1",
+    "deps": [
+        {
+            "name": "bencher",
+            "req": "^0.1.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "smallbox",
+            "req": "^0.8.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "smallvec",
+            "req": "^1.2.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "e7fe6c260846d4f53a59df467f2e0e4e5369d48933bd8ae50540478cf118adcc",
+    "features": {
+        "default": [
+            "std",
+            "single"
+        ],
+        "single": [],
+        "std": [
+            "smallbox/std"
+        ]
+    },
+    "yanked": false
+}

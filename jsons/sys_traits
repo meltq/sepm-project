@@ -1,1 +1,55 @@
-{"name":"sys_traits","vers":"0.1.0-alpha.1","deps":[{"name":"getrandom","req":"^0.2","features":[],"optional":false,"default_features":true,"target":"cfg(not(target_arch = \"wasm32\"))","kind":"normal"},{"name":"js-sys","req":"^0.3","features":[],"optional":false,"default_features":true,"target":"cfg(target_arch = \"wasm32\")","kind":"normal"},{"name":"serde","req":"^1.0.216","features":["derive"],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"wasm-bindgen","req":"^0.2","features":[],"optional":false,"default_features":true,"target":"cfg(target_arch = \"wasm32\")","kind":"normal"}],"cksum":"2912e958f9c1d4f0737da1ab97e4dd1a466ccb15b9205a31d8c64434ebd53914","features":{"default":[]},"features2":{"serde":["dep:serde"]},"yanked":false,"v":2}
+{
+    "name": "sys_traits",
+    "vers": "0.1.0-alpha.1",
+    "deps": [
+        {
+            "name": "getrandom",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": "cfg(not(target_arch = \"wasm32\"))",
+            "kind": "normal"
+        },
+        {
+            "name": "js-sys",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": "cfg(target_arch = \"wasm32\")",
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.216",
+            "features": [
+                "derive"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "wasm-bindgen",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": "cfg(target_arch = \"wasm32\")",
+            "kind": "normal"
+        }
+    ],
+    "cksum": "2912e958f9c1d4f0737da1ab97e4dd1a466ccb15b9205a31d8c64434ebd53914",
+    "features": {
+        "default": []
+    },
+    "features2": {
+        "serde": [
+            "dep:serde"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

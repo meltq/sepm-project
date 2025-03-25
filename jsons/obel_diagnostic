@@ -1,1 +1,59 @@
-{"name":"obel_diagnostic","vers":"0.0.1","deps":[{"name":"const-fnv1a-hash","req":"^1.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"obel_utils","req":"^0.0.1","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"sysinfo","req":"^0.33.0","features":["apple-app-store","system"],"optional":true,"default_features":false,"target":"cfg(all(target_os=\"macos\"))","kind":"normal"},{"name":"sysinfo","req":"^0.33.0","features":["system"],"optional":true,"default_features":false,"target":"cfg(any(target_os = \"linux\", target_os = \"windows\", target_os = \"android\", target_os = \"freebsd\"))","kind":"normal"}],"cksum":"36c90dd71dc8347afe895cd302bf12588848a2b270bca11aa1635038145b8fe9","features":{"dynamic_linking":[]},"features2":{"sysinfo_plugin":["dep:sysinfo"]},"yanked":false,"rust_version":"1.82.0","v":2}
+{
+    "name": "obel_diagnostic",
+    "vers": "0.0.1",
+    "deps": [
+        {
+            "name": "const-fnv1a-hash",
+            "req": "^1.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "obel_utils",
+            "req": "^0.0.1",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "sysinfo",
+            "req": "^0.33.0",
+            "features": [
+                "apple-app-store",
+                "system"
+            ],
+            "optional": true,
+            "default_features": false,
+            "target": "cfg(all(target_os=\"macos\"))",
+            "kind": "normal"
+        },
+        {
+            "name": "sysinfo",
+            "req": "^0.33.0",
+            "features": [
+                "system"
+            ],
+            "optional": true,
+            "default_features": false,
+            "target": "cfg(any(target_os = \"linux\", target_os = \"windows\", target_os = \"android\", target_os = \"freebsd\"))",
+            "kind": "normal"
+        }
+    ],
+    "cksum": "36c90dd71dc8347afe895cd302bf12588848a2b270bca11aa1635038145b8fe9",
+    "features": {
+        "dynamic_linking": []
+    },
+    "features2": {
+        "sysinfo_plugin": [
+            "dep:sysinfo"
+        ]
+    },
+    "yanked": false,
+    "rust_version": "1.82.0",
+    "v": 2
+}

@@ -1,1 +1,101 @@
-{"name":"fast-graph","vers":"1.0.0","deps":[{"name":"hashbrown","req":"^0.14.3","features":["inline-more","ahash"],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0","features":["derive"],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"slotmap","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"specta","req":"=2.0.0-rc.7","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"tauri-specta","req":"=2.0.0-rc.4","features":["javascript","typescript"],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^1.0.58","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"24bed887bd5117efab9c879b6ee55831625056b7b898286bd92f79eca4bbd64e","features":{"categories":[],"default":["hashbrown"]},"features2":{"hashbrown":["dep:hashbrown","hashbrown/serde"],"serde":["dep:serde","dep:serde_json","slotmap/serde"],"specta":["dep:specta","dep:tauri-specta"]},"yanked":true,"v":2}
+{
+    "name": "fast-graph",
+    "vers": "1.0.0",
+    "deps": [
+        {
+            "name": "hashbrown",
+            "req": "^0.14.3",
+            "features": [
+                "inline-more",
+                "ahash"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [
+                "derive"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "slotmap",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "specta",
+            "req": "=2.0.0-rc.7",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tauri-specta",
+            "req": "=2.0.0-rc.4",
+            "features": [
+                "javascript",
+                "typescript"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^1.0.58",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "24bed887bd5117efab9c879b6ee55831625056b7b898286bd92f79eca4bbd64e",
+    "features": {
+        "categories": [],
+        "default": [
+            "hashbrown"
+        ]
+    },
+    "features2": {
+        "hashbrown": [
+            "dep:hashbrown",
+            "hashbrown/serde"
+        ],
+        "serde": [
+            "dep:serde",
+            "dep:serde_json",
+            "slotmap/serde"
+        ],
+        "specta": [
+            "dep:specta",
+            "dep:tauri-specta"
+        ]
+    },
+    "yanked": true,
+    "v": 2
+}

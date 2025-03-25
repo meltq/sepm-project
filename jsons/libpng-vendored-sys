@@ -1,1 +1,36 @@
-{"name":"libpng-vendored-sys","vers":"0.1.0","deps":[{"name":"libc","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"libpng-src","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"libz-sys","req":"=1.1.15","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"eb3637108a084c50bcb9085a89603d8a41be850077e3117c7fa24a89431215a3","features":{},"yanked":false}
+{
+    "name": "libpng-vendored-sys",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "libc",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "libpng-src",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "libz-sys",
+            "req": "=1.1.15",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "eb3637108a084c50bcb9085a89603d8a41be850077e3117c7fa24a89431215a3",
+    "features": {},
+    "yanked": false
+}

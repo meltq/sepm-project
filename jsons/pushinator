@@ -1,1 +1,50 @@
-{"name":"pushinator","vers":"0.1.0","deps":[{"name":"mockito","req":"^0.31","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"reqwest","req":"^0.11","features":["json","blocking"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"9344545d68302891c25187498147c5b88f6dbef0246dd439f32f92f64b6cf31b","features":{},"yanked":true}
+{
+    "name": "pushinator",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "mockito",
+            "req": "^0.31",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "reqwest",
+            "req": "^0.11",
+            "features": [
+                "json",
+                "blocking"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "9344545d68302891c25187498147c5b88f6dbef0246dd439f32f92f64b6cf31b",
+    "features": {},
+    "yanked": true
+}

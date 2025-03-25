@@ -1,1 +1,25 @@
-{"name":"trait-cast","vers":"0.3.1","deps":[{"name":"trait-cast-macros","req":"^0.3.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"7c88c07d3955605aece2cd267f959c2c70de12238e32e5c1cdf34508998abba1","features":{"alloc":[],"default":["alloc"],"downcast_unchecked":[],"min_specialization":[]},"yanked":false}
+{
+    "name": "trait-cast",
+    "vers": "0.3.1",
+    "deps": [
+        {
+            "name": "trait-cast-macros",
+            "req": "^0.3.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "7c88c07d3955605aece2cd267f959c2c70de12238e32e5c1cdf34508998abba1",
+    "features": {
+        "alloc": [],
+        "default": [
+            "alloc"
+        ],
+        "downcast_unchecked": [],
+        "min_specialization": []
+    },
+    "yanked": false
+}

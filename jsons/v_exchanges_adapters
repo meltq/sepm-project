@@ -1,1 +1,172 @@
-{"name":"v_exchanges_adapters","vers":"0.1.0","deps":[{"name":"env_logger","req":"^0.11.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"hex","req":"^0.4.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"hmac","req":"^0.12.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rand","req":"^0.8.5","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"rust_decimal","req":"^1.36.0","features":["serde-with-str","serde-with-float"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"serde","req":"^1.0.216","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.133","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_urlencoded","req":"^0.7.1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_with","req":"^3.11.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"sha2","req":"^0.10.8","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.42.0","features":["rt-multi-thread","macros"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"tracing","req":"^0.1.41","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"v_exchanges_api_generics","req":"^0.3.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"1816c870344bc7682cbfab20fc598ee62ac0641228abcf239aa87f24cde2347b","features":{"default":["native-tls"],"native-tls":["v_exchanges_api_generics/native-tls"],"native-tls-vendored":["v_exchanges_api_generics/native-tls-vendored"],"rustls-tls-native-roots":["v_exchanges_api_generics/rustls-tls-native-roots"],"rustls-tls-webpki-roots":["v_exchanges_api_generics/rustls-tls-webpki-roots"]},"features2":{"binance":["dep:serde_urlencoded"],"bitflyer":["dep:rand"],"bybit":["dep:serde_urlencoded","dep:rand"],"coincheck":["dep:serde_urlencoded"],"full":["binance","bitflyer","bybit","coincheck"]},"yanked":false,"v":2}
+{
+    "name": "v_exchanges_adapters",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "env_logger",
+            "req": "^0.11.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "hex",
+            "req": "^0.4.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "hmac",
+            "req": "^0.12.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rand",
+            "req": "^0.8.5",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rust_decimal",
+            "req": "^1.36.0",
+            "features": [
+                "serde-with-str",
+                "serde-with-float"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.216",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.133",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_urlencoded",
+            "req": "^0.7.1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_with",
+            "req": "^3.11.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "sha2",
+            "req": "^0.10.8",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.42.0",
+            "features": [
+                "rt-multi-thread",
+                "macros"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1.41",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "v_exchanges_api_generics",
+            "req": "^0.3.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "1816c870344bc7682cbfab20fc598ee62ac0641228abcf239aa87f24cde2347b",
+    "features": {
+        "default": [
+            "native-tls"
+        ],
+        "native-tls": [
+            "v_exchanges_api_generics/native-tls"
+        ],
+        "native-tls-vendored": [
+            "v_exchanges_api_generics/native-tls-vendored"
+        ],
+        "rustls-tls-native-roots": [
+            "v_exchanges_api_generics/rustls-tls-native-roots"
+        ],
+        "rustls-tls-webpki-roots": [
+            "v_exchanges_api_generics/rustls-tls-webpki-roots"
+        ]
+    },
+    "features2": {
+        "binance": [
+            "dep:serde_urlencoded"
+        ],
+        "bitflyer": [
+            "dep:rand"
+        ],
+        "bybit": [
+            "dep:serde_urlencoded",
+            "dep:rand"
+        ],
+        "coincheck": [
+            "dep:serde_urlencoded"
+        ],
+        "full": [
+            "binance",
+            "bitflyer",
+            "bybit",
+            "coincheck"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

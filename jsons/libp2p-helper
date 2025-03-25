@@ -1,1 +1,78 @@
-{"name":"libp2p-helper","vers":"0.1.0","deps":[{"name":"anyhow","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"futures","req":"^0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"libp2p","req":"^0.46","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"libp2p","req":"^0.46","features":["tcp-tokio"],"optional":false,"default_features":false,"target":null,"kind":"dev"},{"name":"tokio","req":"^1","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"tracing","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"54cf44300d235fd00e435d3e5faefb76843a76b4343d96bd8d8e9feab0712c6b","features":{"default":["floodsub","gossipsub"],"floodsub":["libp2p/floodsub"],"gossipsub":["libp2p/floodsub"]},"yanked":false}
+{
+    "name": "libp2p-helper",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "anyhow",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "futures",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "libp2p",
+            "req": "^0.46",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "libp2p",
+            "req": "^0.46",
+            "features": [
+                "tcp-tokio"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "tokio",
+            "req": "^1",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "54cf44300d235fd00e435d3e5faefb76843a76b4343d96bd8d8e9feab0712c6b",
+    "features": {
+        "default": [
+            "floodsub",
+            "gossipsub"
+        ],
+        "floodsub": [
+            "libp2p/floodsub"
+        ],
+        "gossipsub": [
+            "libp2p/floodsub"
+        ]
+    },
+    "yanked": false
+}

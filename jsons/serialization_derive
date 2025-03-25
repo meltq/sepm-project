@@ -1,1 +1,38 @@
-{"name":"serialization_derive","vers":"0.1.0","deps":[{"name":"proc-macro2","req":"^1.0.86","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"quote","req":"^1.0.36","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"syn","req":"^2.0.68","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"4558dda61767ad047773736d57e801fc11873324356d60b8fa613e7b6518e47d","features":{},"yanked":false}
+{
+    "name": "serialization_derive",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "proc-macro2",
+            "req": "^1.0.86",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "quote",
+            "req": "^1.0.36",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "syn",
+            "req": "^2.0.68",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "4558dda61767ad047773736d57e801fc11873324356d60b8fa613e7b6518e47d",
+    "features": {},
+    "yanked": false
+}

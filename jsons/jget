@@ -1,1 +1,40 @@
-{"name":"jget","vers":"0.1.0","deps":[{"name":"jget_derive","req":"^0.1.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"jget_derive","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"thiserror","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"851301a5fd60b971f462f80f0d1b34e52035de30254c7b5b59f949e5412919da","features":{"derive":["jget_derive"]},"yanked":false}
+{
+    "name": "jget",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "jget_derive",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "jget_derive",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "thiserror",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "851301a5fd60b971f462f80f0d1b34e52035de30254c7b5b59f949e5412919da",
+    "features": {
+        "derive": [
+            "jget_derive"
+        ]
+    },
+    "yanked": false
+}

@@ -1,1 +1,79 @@
-{"name":"databeam","vers":"0.1.1","deps":[{"name":"rainbeam-shared","req":"^0.1.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"redis","req":"^0.25.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.215","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.115","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"sqlx","req":"^0.8.0","features":["sqlite","postgres","mysql","any","runtime-tokio","tls-native-tls"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"toml","req":"^0.8.14","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"ac95217ce65a20d64c06fb52a9b7a02df87bf778a49b1605223a980134290347","features":{"default":["sqlite"],"mysql":[],"postgres":[],"sqlite":[]},"yanked":false}
+{
+    "name": "databeam",
+    "vers": "0.1.1",
+    "deps": [
+        {
+            "name": "rainbeam-shared",
+            "req": "^0.1.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "redis",
+            "req": "^0.25.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.215",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.115",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "sqlx",
+            "req": "^0.8.0",
+            "features": [
+                "sqlite",
+                "postgres",
+                "mysql",
+                "any",
+                "runtime-tokio",
+                "tls-native-tls"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "toml",
+            "req": "^0.8.14",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "ac95217ce65a20d64c06fb52a9b7a02df87bf778a49b1605223a980134290347",
+    "features": {
+        "default": [
+            "sqlite"
+        ],
+        "mysql": [],
+        "postgres": [],
+        "sqlite": []
+    },
+    "yanked": false
+}

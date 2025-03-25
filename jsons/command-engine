@@ -1,1 +1,29 @@
-{"name":"command-engine","vers":"1.0.0-rc.1","deps":[{"name":"tokio","req":"1.*","features":["rt-multi-thread","sync"],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"dd2efa321cc72f4c50deefe9ab77b6915ea95872134bc39ea5afa65dcfb965e8","features":{"async":["tokio"],"default":["engine"],"engine":[]},"yanked":false}
+{
+    "name": "command-engine",
+    "vers": "1.0.0-rc.1",
+    "deps": [
+        {
+            "name": "tokio",
+            "req": "1.*",
+            "features": [
+                "rt-multi-thread",
+                "sync"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "dd2efa321cc72f4c50deefe9ab77b6915ea95872134bc39ea5afa65dcfb965e8",
+    "features": {
+        "async": [
+            "tokio"
+        ],
+        "default": [
+            "engine"
+        ],
+        "engine": []
+    },
+    "yanked": false
+}

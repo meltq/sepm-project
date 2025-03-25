@@ -1,1 +1,51 @@
-{"name":"hs-hackathon-macros","vers":"0.1.0","deps":[{"name":"lazy_static","req":"^1.4.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"proc-macro2","req":"^1.0.36","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"quote","req":"^1.0.14","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"syn","req":"^2.0.39","features":["parsing","proc-macro","full"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"a775a028e861fa1a3a331faa348db4a8927f328cc5da358ad99772492021f55e","features":{"default":[]},"yanked":false}
+{
+    "name": "hs-hackathon-macros",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "lazy_static",
+            "req": "^1.4.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "proc-macro2",
+            "req": "^1.0.36",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "quote",
+            "req": "^1.0.14",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "syn",
+            "req": "^2.0.39",
+            "features": [
+                "parsing",
+                "proc-macro",
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "a775a028e861fa1a3a331faa348db4a8927f328cc5da358ad99772492021f55e",
+    "features": {
+        "default": []
+    },
+    "yanked": false
+}

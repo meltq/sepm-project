@@ -1,1 +1,68 @@
-{"name":"firewheel-nodes","vers":"0.2.0-beta.0","deps":[{"name":"atomic_float","req":"^1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"crossbeam-utils","req":"^0.8","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"firewheel-core","req":"^0.2.0-beta.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"smallvec","req":"^1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"03c9d011953b745ec6da7d0cca08651f2807c4808566051f97601c69be69482a","features":{"beep_test":[],"stereo_to_mono":[],"volume":[],"volume_pan":[]},"features2":{"default":["beep_test","peak_meter","sampler","stereo_to_mono","volume_pan","volume"],"peak_meter":["dep:atomic_float"],"sampler":["dep:smallvec","dep:crossbeam-utils"]},"yanked":false,"v":2}
+{
+    "name": "firewheel-nodes",
+    "vers": "0.2.0-beta.0",
+    "deps": [
+        {
+            "name": "atomic_float",
+            "req": "^1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "crossbeam-utils",
+            "req": "^0.8",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "firewheel-core",
+            "req": "^0.2.0-beta.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "smallvec",
+            "req": "^1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "03c9d011953b745ec6da7d0cca08651f2807c4808566051f97601c69be69482a",
+    "features": {
+        "beep_test": [],
+        "stereo_to_mono": [],
+        "volume": [],
+        "volume_pan": []
+    },
+    "features2": {
+        "default": [
+            "beep_test",
+            "peak_meter",
+            "sampler",
+            "stereo_to_mono",
+            "volume_pan",
+            "volume"
+        ],
+        "peak_meter": [
+            "dep:atomic_float"
+        ],
+        "sampler": [
+            "dep:smallvec",
+            "dep:crossbeam-utils"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

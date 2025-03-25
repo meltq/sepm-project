@@ -1,1 +1,63 @@
-{"name":"rdf-borsh","vers":"0.1.1","deps":[{"name":"borsh","req":"^1.5","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"rdf-model","req":"=0.1.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rdf-reader","req":"=0.1.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rdf-writer","req":"=0.1.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"363b8feaa144a6d42b9eeaee69543084cb682294655a1354c6b255ba7540d70c","features":{"all":[],"default":["all","std"],"std":["borsh/std","rdf-model/std","rdf-reader/std","rdf-writer/std"],"unstable":["rdf-model/unstable","rdf-reader/unstable","rdf-writer/unstable"]},"yanked":false,"rust_version":"1.81"}
+{
+    "name": "rdf-borsh",
+    "vers": "0.1.1",
+    "deps": [
+        {
+            "name": "borsh",
+            "req": "^1.5",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rdf-model",
+            "req": "=0.1.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rdf-reader",
+            "req": "=0.1.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rdf-writer",
+            "req": "=0.1.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "363b8feaa144a6d42b9eeaee69543084cb682294655a1354c6b255ba7540d70c",
+    "features": {
+        "all": [],
+        "default": [
+            "all",
+            "std"
+        ],
+        "std": [
+            "borsh/std",
+            "rdf-model/std",
+            "rdf-reader/std",
+            "rdf-writer/std"
+        ],
+        "unstable": [
+            "rdf-model/unstable",
+            "rdf-reader/unstable",
+            "rdf-writer/unstable"
+        ]
+    },
+    "yanked": false,
+    "rust_version": "1.81"
+}

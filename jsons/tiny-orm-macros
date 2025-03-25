@@ -1,1 +1,125 @@
-{"name":"tiny-orm-macros","vers":"0.3.1","deps":[{"name":"convert_case","req":"<1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"once_cell","req":"<2.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"proc-macro2","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"quote","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"regex","req":"<2.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"sqlx","req":"^0.8.2","features":["runtime-tokio-native-tls","sqlite","chrono","uuid","derive"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"syn","req":"^2.0","features":["full","extra-traits"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tiny-orm-model","req":"^0.3.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.41.0","features":["rt","macros"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"uuid","req":"^1.11.0","features":["v4"],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"99568b5960fa26c54a6a3273a5dbe2af3da66a62f9102786c4fd3735106ad679","features":{"default":[],"mysql":["sqlx/mysql"],"postgres":["sqlx/postgres"],"sqlite":["sqlx/sqlite"]},"yanked":false,"rust_version":"1.74.1"}
+{
+    "name": "tiny-orm-macros",
+    "vers": "0.3.1",
+    "deps": [
+        {
+            "name": "convert_case",
+            "req": "<1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "once_cell",
+            "req": "<2.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "proc-macro2",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "quote",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "regex",
+            "req": "<2.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "sqlx",
+            "req": "^0.8.2",
+            "features": [
+                "runtime-tokio-native-tls",
+                "sqlite",
+                "chrono",
+                "uuid",
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "syn",
+            "req": "^2.0",
+            "features": [
+                "full",
+                "extra-traits"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tiny-orm-model",
+            "req": "^0.3.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.41.0",
+            "features": [
+                "rt",
+                "macros"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "uuid",
+            "req": "^1.11.0",
+            "features": [
+                "v4"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "99568b5960fa26c54a6a3273a5dbe2af3da66a62f9102786c4fd3735106ad679",
+    "features": {
+        "default": [],
+        "mysql": [
+            "sqlx/mysql"
+        ],
+        "postgres": [
+            "sqlx/postgres"
+        ],
+        "sqlite": [
+            "sqlx/sqlite"
+        ]
+    },
+    "yanked": false,
+    "rust_version": "1.74.1"
+}

@@ -1,1 +1,34 @@
-{"name":"mollusk-svm-programs-memo","vers":"0.0.7-solana-1.18","deps":[{"name":"mollusk-svm","req":"^0.0.7-solana-1.18","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"solana-sdk","req":"^1.18","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"92984e9b8662958b4a7a4b07d573c2960506c482d6f46c6bef5b1d4c480b9469","features":{"default":["memo","memo-v1"],"memo":[],"memo-v1":[]},"yanked":false}
+{
+    "name": "mollusk-svm-programs-memo",
+    "vers": "0.0.7-solana-1.18",
+    "deps": [
+        {
+            "name": "mollusk-svm",
+            "req": "^0.0.7-solana-1.18",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "solana-sdk",
+            "req": "^1.18",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "92984e9b8662958b4a7a4b07d573c2960506c482d6f46c6bef5b1d4c480b9469",
+    "features": {
+        "default": [
+            "memo",
+            "memo-v1"
+        ],
+        "memo": [],
+        "memo-v1": []
+    },
+    "yanked": false
+}

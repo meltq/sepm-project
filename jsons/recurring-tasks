@@ -1,1 +1,66 @@
-{"name":"recurring-tasks","vers":"1.0.0","deps":[{"name":"async-trait","req":"^0.1.86","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"futures","req":"^0.3.31","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.43.0","features":["macros","rt-multi-thread","signal","sync","time"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing","req":"^0.1.41","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing-subscriber","req":"^0.3.18","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"0ac247927a9c5ecd205601fd0eb93a4d7db1a4fceb28c298b8d519f4578a7886","features":{"default":["instant"],"instant":[],"system":[]},"yanked":false}
+{
+    "name": "recurring-tasks",
+    "vers": "1.0.0",
+    "deps": [
+        {
+            "name": "async-trait",
+            "req": "^0.1.86",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "futures",
+            "req": "^0.3.31",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.43.0",
+            "features": [
+                "macros",
+                "rt-multi-thread",
+                "signal",
+                "sync",
+                "time"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1.41",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing-subscriber",
+            "req": "^0.3.18",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "0ac247927a9c5ecd205601fd0eb93a4d7db1a4fceb28c298b8d519f4578a7886",
+    "features": {
+        "default": [
+            "instant"
+        ],
+        "instant": [],
+        "system": []
+    },
+    "yanked": false
+}

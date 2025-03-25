@@ -1,1 +1,36 @@
-{"name":"font-map-macros","vers":"0.1.0","deps":[{"name":"font-map-core","req":"^0.1.0","features":["codegen"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"syn","req":"^2.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"0e0504589968f6b20a92ff1508890ba8b189ded232bd26e695247a79cb6dc60a","features":{"default":["extended-svg"],"extended-svg":["font-map-core/extended-svg"]},"yanked":false}
+{
+    "name": "font-map-macros",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "font-map-core",
+            "req": "^0.1.0",
+            "features": [
+                "codegen"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "syn",
+            "req": "^2.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "0e0504589968f6b20a92ff1508890ba8b189ded232bd26e695247a79cb6dc60a",
+    "features": {
+        "default": [
+            "extended-svg"
+        ],
+        "extended-svg": [
+            "font-map-core/extended-svg"
+        ]
+    },
+    "yanked": false
+}

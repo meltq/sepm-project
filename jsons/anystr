@@ -1,1 +1,40 @@
-{"name":"anystr","vers":"0.0.0","deps":[{"name":"ascii","req":"^1.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"widestring","req":"^1.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"880702ad001a608b2be321e9158164fe9654e7e160d8185c15dfdc8733268666","features":{"alloc":["ascii/alloc","widestring/alloc"],"default":["std"],"std":["alloc","ascii/std","widestring/std"]},"yanked":false}
+{
+    "name": "anystr",
+    "vers": "0.0.0",
+    "deps": [
+        {
+            "name": "ascii",
+            "req": "^1.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "widestring",
+            "req": "^1.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "880702ad001a608b2be321e9158164fe9654e7e160d8185c15dfdc8733268666",
+    "features": {
+        "alloc": [
+            "ascii/alloc",
+            "widestring/alloc"
+        ],
+        "default": [
+            "std"
+        ],
+        "std": [
+            "alloc",
+            "ascii/std",
+            "widestring/std"
+        ]
+    },
+    "yanked": false
+}

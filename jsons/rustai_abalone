@@ -1,1 +1,78 @@
-{"name":"rustai_abalone","vers":"0.1.0","deps":[{"name":"criterion","req":"^0.5.1","features":["html_reports"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"crossbeam-channel","req":"^0.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"phf","req":"^0.11","features":["macros"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rand","req":"^0.8.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"reqwest","req":"^0.12","features":["blocking"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tensorflow","req":"^0.21.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"zip","req":"^2.2.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"868166d9193bf4c1e8a144a82f06e6cddfe0c90741fe6cfd83bc6a35c1f6d1b0","features":{},"yanked":true}
+{
+    "name": "rustai_abalone",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "criterion",
+            "req": "^0.5.1",
+            "features": [
+                "html_reports"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "crossbeam-channel",
+            "req": "^0.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "phf",
+            "req": "^0.11",
+            "features": [
+                "macros"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rand",
+            "req": "^0.8.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "reqwest",
+            "req": "^0.12",
+            "features": [
+                "blocking"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tensorflow",
+            "req": "^0.21.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "zip",
+            "req": "^2.2.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "868166d9193bf4c1e8a144a82f06e6cddfe0c90741fe6cfd83bc6a35c1f6d1b0",
+    "features": {},
+    "yanked": true
+}

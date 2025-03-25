@@ -1,1 +1,38 @@
-{"name":"ndarray-ndimage","vers":"0.1.0","deps":[{"name":"approx","req":"^0.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"ndarray","req":"^0.15","features":["approx"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"num-traits","req":"^0.2","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"}],"cksum":"8541e86b502e1d7849ef109fee68459ba4ebf439999812522b63a32b608540e8","features":{},"yanked":false}
+{
+    "name": "ndarray-ndimage",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "approx",
+            "req": "^0.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "ndarray",
+            "req": "^0.15",
+            "features": [
+                "approx"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "num-traits",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "8541e86b502e1d7849ef109fee68459ba4ebf439999812522b63a32b608540e8",
+    "features": {},
+    "yanked": false
+}

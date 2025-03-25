@@ -1,1 +1,70 @@
-{"name":"osakit","vers":"0.1.0","deps":[{"name":"icrate","req":"^0.1.0","features":["OSAKit","OSAKit_OSAScript","Foundation_NSString","OSAKit_OSALanguage","Foundation_NSURL","OSAKit_OSALanguageInstance","Foundation_NSDictionary","Foundation_NSAppleEventDescriptor","Foundation_NSValue","Foundation_NSNumber","Foundation_NSNull","Foundation_NSDate"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"8d218437f5feccecb2856c6698208e84c6b39c251fee99931ae96fe3cc99ed09","features":{"declare-script":[],"full":["stable","unstable"],"stable":[],"unstable":["declare-script"]},"yanked":false}
+{
+    "name": "osakit",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "icrate",
+            "req": "^0.1.0",
+            "features": [
+                "OSAKit",
+                "OSAKit_OSAScript",
+                "Foundation_NSString",
+                "OSAKit_OSALanguage",
+                "Foundation_NSURL",
+                "OSAKit_OSALanguageInstance",
+                "Foundation_NSDictionary",
+                "Foundation_NSAppleEventDescriptor",
+                "Foundation_NSValue",
+                "Foundation_NSNumber",
+                "Foundation_NSNull",
+                "Foundation_NSDate"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "8d218437f5feccecb2856c6698208e84c6b39c251fee99931ae96fe3cc99ed09",
+    "features": {
+        "declare-script": [],
+        "full": [
+            "stable",
+            "unstable"
+        ],
+        "stable": [],
+        "unstable": [
+            "declare-script"
+        ]
+    },
+    "yanked": false
+}

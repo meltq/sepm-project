@@ -1,1 +1,50 @@
-{"name":"imperator-tiger","vers":"0.9.3","deps":[{"name":"ansiterm","req":"^0.12.2","features":[],"optional":false,"default_features":true,"target":"cfg(windows)","kind":"normal"},{"name":"anyhow","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"clap","req":"~4.4","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tiger-lib","req":"^0.9.3","features":["imperator"],"optional":false,"default_features":false,"target":null,"kind":"normal"}],"cksum":"a58a112548ec4db3e1dea26bd7170fabd264953de91de5b4b856049feea82388","features":{},"yanked":false,"rust_version":"1.70"}
+{
+    "name": "imperator-tiger",
+    "vers": "0.9.3",
+    "deps": [
+        {
+            "name": "ansiterm",
+            "req": "^0.12.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": "cfg(windows)",
+            "kind": "normal"
+        },
+        {
+            "name": "anyhow",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "clap",
+            "req": "~4.4",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tiger-lib",
+            "req": "^0.9.3",
+            "features": [
+                "imperator"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "a58a112548ec4db3e1dea26bd7170fabd264953de91de5b4b856049feea82388",
+    "features": {},
+    "yanked": false,
+    "rust_version": "1.70"
+}

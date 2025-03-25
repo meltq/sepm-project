@@ -1,1 +1,67 @@
-{"name":"oca-sdk-rs","vers":"0.1.0","deps":[{"name":"oca-ast-semantics","req":"^0.6.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"oca-bundle-semantics","req":"^0.6.5","features":["format_overlay"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"oca-rs","req":"^0.6.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"transformation-file","req":"^0.6.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"96578c0cb28680c0686f08fe66500df52944bb9520d9418e32cce34b81d8f6fc","features":{},"yanked":false}
+{
+    "name": "oca-sdk-rs",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "oca-ast-semantics",
+            "req": "^0.6.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "oca-bundle-semantics",
+            "req": "^0.6.5",
+            "features": [
+                "format_overlay"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "oca-rs",
+            "req": "^0.6.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "transformation-file",
+            "req": "^0.6.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "96578c0cb28680c0686f08fe66500df52944bb9520d9418e32cce34b81d8f6fc",
+    "features": {},
+    "yanked": false
+}

@@ -1,1 +1,41 @@
-{"name":"yozefu-wasm-types","vers":"0.0.1","deps":[{"name":"lib","req":"^0.0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal","package":"yozefu-lib"},{"name":"serde","req":"^1.0.215","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.133","features":["preserve_order"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"787a9398093bf8291482f3c32de550d78156bacc433456d7132becb586a2bdae","features":{},"yanked":false}
+{
+    "name": "yozefu-wasm-types",
+    "vers": "0.0.1",
+    "deps": [
+        {
+            "name": "lib",
+            "req": "^0.0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal",
+            "package": "yozefu-lib"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.215",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.133",
+            "features": [
+                "preserve_order"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "787a9398093bf8291482f3c32de550d78156bacc433456d7132becb586a2bdae",
+    "features": {},
+    "yanked": false
+}

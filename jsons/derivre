@@ -1,1 +1,100 @@
-{"name":"derivre","vers":"0.2.0","deps":[{"name":"ahash","req":"^0.8.11","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"anyhow","req":"^1.0.95","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"bstr","req":"^1.11.3","features":["std","serde"],"optional":false,"default_features":false,"target":null,"kind":"dev"},{"name":"bytemuck","req":"^1.21.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"bytemuck_derive","req":"^1.8.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"hashbrown","req":"^0.15.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"regex-syntax","req":"^0.8.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.217","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"toml","req":"^0.8.20","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"d7405aab1d6da4bd0fb3bd6b217745d78f54b9d4412b7c5471d5f4332aee6139","features":{"compress":[],"default":["compress"]},"yanked":false}
+{
+    "name": "derivre",
+    "vers": "0.2.0",
+    "deps": [
+        {
+            "name": "ahash",
+            "req": "^0.8.11",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "anyhow",
+            "req": "^1.0.95",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "bstr",
+            "req": "^1.11.3",
+            "features": [
+                "std",
+                "serde"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "bytemuck",
+            "req": "^1.21.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "bytemuck_derive",
+            "req": "^1.8.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "hashbrown",
+            "req": "^0.15.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "regex-syntax",
+            "req": "^0.8.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.217",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "toml",
+            "req": "^0.8.20",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "d7405aab1d6da4bd0fb3bd6b217745d78f54b9d4412b7c5471d5f4332aee6139",
+    "features": {
+        "compress": [],
+        "default": [
+            "compress"
+        ]
+    },
+    "yanked": false
+}

@@ -1,1 +1,47 @@
-{"name":"ty-tag","vers":"0.1.0","deps":[{"name":"document-features","req":"^0.2.10","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"ty-tag-macros","req":"^0.1.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"c269921888ab1b1b136b4639d73f65602a05bb28dc1cee2a6333885392c5728c","features":{"alloc":["core"],"core":[],"std":["alloc"],"unsafe":[]},"features2":{"default":["macros","core"],"macros":["dep:ty-tag-macros"]},"yanked":false,"rust_version":"1.83.0","v":2}
+{
+    "name": "ty-tag",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "document-features",
+            "req": "^0.2.10",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ty-tag-macros",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "c269921888ab1b1b136b4639d73f65602a05bb28dc1cee2a6333885392c5728c",
+    "features": {
+        "alloc": [
+            "core"
+        ],
+        "core": [],
+        "std": [
+            "alloc"
+        ],
+        "unsafe": []
+    },
+    "features2": {
+        "default": [
+            "macros",
+            "core"
+        ],
+        "macros": [
+            "dep:ty-tag-macros"
+        ]
+    },
+    "yanked": false,
+    "rust_version": "1.83.0",
+    "v": 2
+}

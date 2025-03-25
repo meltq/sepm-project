@@ -1,1 +1,74 @@
-{"name":"kitsune2_dht","vers":"0.0.1-alpha","deps":[{"name":"bytes","req":"^1.8.0","features":["serde"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"kitsune2_api","req":"^0.0.1-alpha","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"mockall","req":"^0.13","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"rand","req":"^0.8.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"tokio","req":"^1.41.1","features":["macros","rt"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"tracing","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"654a7b43c91656a0e250ebd8d2b793d8c9621b12b6659e263ac6f7b071af4db6","features":{},"features2":{"mockall":["dep:mockall"]},"yanked":false,"v":2}
+{
+    "name": "kitsune2_dht",
+    "vers": "0.0.1-alpha",
+    "deps": [
+        {
+            "name": "bytes",
+            "req": "^1.8.0",
+            "features": [
+                "serde"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "kitsune2_api",
+            "req": "^0.0.1-alpha",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "mockall",
+            "req": "^0.13",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rand",
+            "req": "^0.8.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.41.1",
+            "features": [
+                "macros",
+                "rt"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "654a7b43c91656a0e250ebd8d2b793d8c9621b12b6659e263ac6f7b071af4db6",
+    "features": {},
+    "features2": {
+        "mockall": [
+            "dep:mockall"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

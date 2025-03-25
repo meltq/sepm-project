@@ -1,1 +1,93 @@
-{"name":"fnsql-macro","vers":"0.2.6","deps":[{"name":"arbitrary","req":"^1","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"fnsql","req":"^0.2.6","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"lazy_static","req":"^1.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"proc-macro2","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"quote","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"regex","req":"^1.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rusqlite","req":"^0.26.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"syn","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"56ca5d603369d3b2c27fb1f09bda25fd8dae1f415e47158922e885a05d6ebe25","features":{"all":["with-rusqlite","with-postgres","prepare-cache"],"default":[],"prepare-cache":[],"with-postgres":[],"with-rusqlite":[]},"yanked":false}
+{
+    "name": "fnsql-macro",
+    "vers": "0.2.6",
+    "deps": [
+        {
+            "name": "arbitrary",
+            "req": "^1",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "fnsql",
+            "req": "^0.2.6",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "lazy_static",
+            "req": "^1.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "proc-macro2",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "quote",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "regex",
+            "req": "^1.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rusqlite",
+            "req": "^0.26.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "syn",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "56ca5d603369d3b2c27fb1f09bda25fd8dae1f415e47158922e885a05d6ebe25",
+    "features": {
+        "all": [
+            "with-rusqlite",
+            "with-postgres",
+            "prepare-cache"
+        ],
+        "default": [],
+        "prepare-cache": [],
+        "with-postgres": [],
+        "with-rusqlite": []
+    },
+    "yanked": false
+}

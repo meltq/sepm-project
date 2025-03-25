@@ -1,1 +1,34 @@
-{"name":"general_storage_file","vers":"0.1.0","deps":[{"name":"general_storage","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"ebd9dd22447da4f568a45dd1e347cec8320b68e6ecf3b2e9e1ba8b92537a20f0","features":{"bincode":["general_storage/bincode"],"compress":["general_storage/compress"],"json":["general_storage/json"],"toml":["general_storage/toml"],"yaml":["general_storage/yaml"]},"yanked":false}
+{
+    "name": "general_storage_file",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "general_storage",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "ebd9dd22447da4f568a45dd1e347cec8320b68e6ecf3b2e9e1ba8b92537a20f0",
+    "features": {
+        "bincode": [
+            "general_storage/bincode"
+        ],
+        "compress": [
+            "general_storage/compress"
+        ],
+        "json": [
+            "general_storage/json"
+        ],
+        "toml": [
+            "general_storage/toml"
+        ],
+        "yaml": [
+            "general_storage/yaml"
+        ]
+    },
+    "yanked": false
+}

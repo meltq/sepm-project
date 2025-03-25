@@ -1,1 +1,36 @@
-{"name":"oid-registry","vers":"0.0.1","deps":[{"name":"der-parser","req":"^4.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"230375bff09f3f1b994ea223927223612f3d2b36b178d2f60dad84bac1dd1746","features":{"crypto":["rsadsi","kdf","pkcs7","pkcs9","nist_algs","x962"],"default":[],"kdf":[],"ms_spc":[],"nist_algs":[],"pkcs7":[],"pkcs9":[],"rsadsi":[],"x509":[],"x962":[]},"yanked":false}
+{
+    "name": "oid-registry",
+    "vers": "0.0.1",
+    "deps": [
+        {
+            "name": "der-parser",
+            "req": "^4.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "230375bff09f3f1b994ea223927223612f3d2b36b178d2f60dad84bac1dd1746",
+    "features": {
+        "crypto": [
+            "rsadsi",
+            "kdf",
+            "pkcs7",
+            "pkcs9",
+            "nist_algs",
+            "x962"
+        ],
+        "default": [],
+        "kdf": [],
+        "ms_spc": [],
+        "nist_algs": [],
+        "pkcs7": [],
+        "pkcs9": [],
+        "rsadsi": [],
+        "x509": [],
+        "x962": []
+    },
+    "yanked": false
+}

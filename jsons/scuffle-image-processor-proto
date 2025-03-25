@@ -1,1 +1,83 @@
-{"name":"scuffle-image-processor-proto","vers":"0.0.0","deps":[{"name":"pbjson","req":"^0.7","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"pbjson-build","req":"^0.7","features":[],"optional":true,"default_features":true,"target":null,"kind":"build"},{"name":"prost","req":"^0.13","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"prost-build","req":"^0.13","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"serde","req":"^1.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"tonic","req":"^0.12","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tonic-build","req":"^0.12","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"}],"cksum":"aa4697193bae919338d270e06b5c3a2e6bdd1bf5d37e0a3286326c4aa4ab2289","features":{"client":[],"server":[]},"features2":{"serde":["dep:serde","pbjson-build","pbjson"]},"yanked":true,"v":2}
+{
+    "name": "scuffle-image-processor-proto",
+    "vers": "0.0.0",
+    "deps": [
+        {
+            "name": "pbjson",
+            "req": "^0.7",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "pbjson-build",
+            "req": "^0.7",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "prost",
+            "req": "^0.13",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "prost-build",
+            "req": "^0.13",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tonic",
+            "req": "^0.12",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tonic-build",
+            "req": "^0.12",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        }
+    ],
+    "cksum": "aa4697193bae919338d270e06b5c3a2e6bdd1bf5d37e0a3286326c4aa4ab2289",
+    "features": {
+        "client": [],
+        "server": []
+    },
+    "features2": {
+        "serde": [
+            "dep:serde",
+            "pbjson-build",
+            "pbjson"
+        ]
+    },
+    "yanked": true,
+    "v": 2
+}

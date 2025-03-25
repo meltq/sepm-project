@@ -1,1 +1,40 @@
-{"name":"icu_capi_cdylib","vers":"0.6.0","deps":[{"name":"icu_capi","req":"^0.6","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"}],"cksum":"10860fbe2911dce83d50c95b280a6aa051afaece739a83205bfd39527dbe308a","features":{"default":["icu_capi/default"],"deserialize_bincode_1":["icu_capi/deserialize_bincode_1"],"deserialize_json":["icu_capi/deserialize_json"],"deserialize_postcard_07":["icu_capi/deserialize_postcard_07"],"provider_fs":["icu_capi/provider_fs"],"provider_test":["icu_capi/provider_test"],"smaller_test":["icu_capi/smaller_test"]},"yanked":false}
+{
+    "name": "icu_capi_cdylib",
+    "vers": "0.6.0",
+    "deps": [
+        {
+            "name": "icu_capi",
+            "req": "^0.6",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "10860fbe2911dce83d50c95b280a6aa051afaece739a83205bfd39527dbe308a",
+    "features": {
+        "default": [
+            "icu_capi/default"
+        ],
+        "deserialize_bincode_1": [
+            "icu_capi/deserialize_bincode_1"
+        ],
+        "deserialize_json": [
+            "icu_capi/deserialize_json"
+        ],
+        "deserialize_postcard_07": [
+            "icu_capi/deserialize_postcard_07"
+        ],
+        "provider_fs": [
+            "icu_capi/provider_fs"
+        ],
+        "provider_test": [
+            "icu_capi/provider_test"
+        ],
+        "smaller_test": [
+            "icu_capi/smaller_test"
+        ]
+    },
+    "yanked": false
+}

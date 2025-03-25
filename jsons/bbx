@@ -1,1 +1,29 @@
-{"name":"bbx","vers":"0.1.0","deps":[{"name":"bitflags","req":"^2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"6acfed56ea4abb3a8b0d36b3b4698826a8e10c38ea275b6be2504cdd2f8210fd","features":{"default":["track_open_tags","parser_rules"],"nightly":[],"parser_rules":["track_open_tags"],"track_open_tags":[]},"yanked":false,"rust_version":"1.65"}
+{
+    "name": "bbx",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "bitflags",
+            "req": "^2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "6acfed56ea4abb3a8b0d36b3b4698826a8e10c38ea275b6be2504cdd2f8210fd",
+    "features": {
+        "default": [
+            "track_open_tags",
+            "parser_rules"
+        ],
+        "nightly": [],
+        "parser_rules": [
+            "track_open_tags"
+        ],
+        "track_open_tags": []
+    },
+    "yanked": false,
+    "rust_version": "1.65"
+}

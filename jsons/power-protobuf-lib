@@ -1,1 +1,89 @@
-{"name":"power-protobuf-lib","vers":"0.1.2","deps":[{"name":"convert_case","req":"^0.6","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"indexmap","req":"^2.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"nom","req":"^7","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"proc-macro2","req":"^1","features":["span-locations"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"quote","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"syn","req":"^2","features":["full","extra-traits"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"syn-prelude","req":"^0.1.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"4b9cc29c6045b07a5c315feac7cb9c30543af8b6dfd2b334ce7e10db11cdef5f","features":{"default":["impl_prost","tagless","simplize_rpc_params","derive_serde"],"derive_serde":[],"impl_prost":[],"impl_protobuf_rs":[],"simplize_rpc_params":[],"tagless":[]},"yanked":false}
+{
+    "name": "power-protobuf-lib",
+    "vers": "0.1.2",
+    "deps": [
+        {
+            "name": "convert_case",
+            "req": "^0.6",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "indexmap",
+            "req": "^2.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "nom",
+            "req": "^7",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "proc-macro2",
+            "req": "^1",
+            "features": [
+                "span-locations"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "quote",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "syn",
+            "req": "^2",
+            "features": [
+                "full",
+                "extra-traits"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "syn-prelude",
+            "req": "^0.1.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "4b9cc29c6045b07a5c315feac7cb9c30543af8b6dfd2b334ce7e10db11cdef5f",
+    "features": {
+        "default": [
+            "impl_prost",
+            "tagless",
+            "simplize_rpc_params",
+            "derive_serde"
+        ],
+        "derive_serde": [],
+        "impl_prost": [],
+        "impl_protobuf_rs": [],
+        "simplize_rpc_params": [],
+        "tagless": []
+    },
+    "yanked": false
+}

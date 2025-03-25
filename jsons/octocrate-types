@@ -1,1 +1,94 @@
-{"name":"octocrate-types","vers":"0.1.0","deps":[{"name":"serde","req":"^1.0.197","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.115","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"typed-builder","req":"^0.18","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"url","req":"^2","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"33c979f6f05eccd8dc601829947dbbb61517be86f2e1417e9e943e402af00d2e","features":{"actions":[],"activity":[],"apps":[],"billing":[],"checks":[],"classroom":[],"code_scanning":[],"codes_of_conduct":[],"codespaces":[],"copilot":[],"dependabot":[],"dependency_graph":[],"desktop":[],"emojis":[],"gists":[],"git":[],"gitignore":[],"interactions":[],"issues":[],"licenses":[],"markdown":[],"merge_queue":[],"meta":[],"migrations":[],"oidc":[],"orgs":[],"packages":[],"projects":[],"pulls":[],"rate_limit":[],"reactions":[],"repos":[],"search":[],"secret_scanning":[],"security_advisories":[],"teams":[],"users":[]},"features2":{"full":["pagination"],"pagination":["dep:url"]},"yanked":false,"v":2}
+{
+    "name": "octocrate-types",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "serde",
+            "req": "^1.0.197",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.115",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "typed-builder",
+            "req": "^0.18",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "url",
+            "req": "^2",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "33c979f6f05eccd8dc601829947dbbb61517be86f2e1417e9e943e402af00d2e",
+    "features": {
+        "actions": [],
+        "activity": [],
+        "apps": [],
+        "billing": [],
+        "checks": [],
+        "classroom": [],
+        "code_scanning": [],
+        "codes_of_conduct": [],
+        "codespaces": [],
+        "copilot": [],
+        "dependabot": [],
+        "dependency_graph": [],
+        "desktop": [],
+        "emojis": [],
+        "gists": [],
+        "git": [],
+        "gitignore": [],
+        "interactions": [],
+        "issues": [],
+        "licenses": [],
+        "markdown": [],
+        "merge_queue": [],
+        "meta": [],
+        "migrations": [],
+        "oidc": [],
+        "orgs": [],
+        "packages": [],
+        "projects": [],
+        "pulls": [],
+        "rate_limit": [],
+        "reactions": [],
+        "repos": [],
+        "search": [],
+        "secret_scanning": [],
+        "security_advisories": [],
+        "teams": [],
+        "users": []
+    },
+    "features2": {
+        "full": [
+            "pagination"
+        ],
+        "pagination": [
+            "dep:url"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

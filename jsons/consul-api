@@ -1,1 +1,73 @@
-{"name":"consul-api","vers":"0.0.0-pre","deps":[{"name":"anyhow","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"chrono","req":"^0.4","features":["serde"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"reqwest","req":"^0.12","features":["json"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"38eb676fd19ec8563e10dbe94a02960500d7dface0b9036eeaee85064e033f82","features":{"default":["v1"],"enterprise":[],"full":["v1","enterprise"],"v1":["v1_20_1"],"v1_20_1":[]},"yanked":true}
+{
+    "name": "consul-api",
+    "vers": "0.0.0-pre",
+    "deps": [
+        {
+            "name": "anyhow",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "chrono",
+            "req": "^0.4",
+            "features": [
+                "serde"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "reqwest",
+            "req": "^0.12",
+            "features": [
+                "json"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "38eb676fd19ec8563e10dbe94a02960500d7dface0b9036eeaee85064e033f82",
+    "features": {
+        "default": [
+            "v1"
+        ],
+        "enterprise": [],
+        "full": [
+            "v1",
+            "enterprise"
+        ],
+        "v1": [
+            "v1_20_1"
+        ],
+        "v1_20_1": []
+    },
+    "yanked": true
+}

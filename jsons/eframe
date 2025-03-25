@@ -1,1 +1,59 @@
-{"name":"eframe","vers":"0.7.0","deps":[{"name":"egui","req":"^0.7.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"egui_glium","req":"^0.7.0","features":[],"optional":false,"default_features":true,"target":"cfg(not(target_arch = \"wasm32\"))","kind":"normal"},{"name":"egui_web","req":"^0.7.0","features":[],"optional":false,"default_features":true,"target":"cfg(target_arch = \"wasm32\")","kind":"normal"},{"name":"epi","req":"^0.7.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"e9d45b24f7ffb090780029d210f345bada5f27c1cfed650ada44e4a381f121ef","features":{"default":[],"http":["egui_glium/http","egui_web/http"],"persistence":["epi/persistence","egui_glium/persistence","egui_web/persistence"],"time":["egui_glium/time"]},"yanked":false}
+{
+    "name": "eframe",
+    "vers": "0.7.0",
+    "deps": [
+        {
+            "name": "egui",
+            "req": "^0.7.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "egui_glium",
+            "req": "^0.7.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": "cfg(not(target_arch = \"wasm32\"))",
+            "kind": "normal"
+        },
+        {
+            "name": "egui_web",
+            "req": "^0.7.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": "cfg(target_arch = \"wasm32\")",
+            "kind": "normal"
+        },
+        {
+            "name": "epi",
+            "req": "^0.7.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "e9d45b24f7ffb090780029d210f345bada5f27c1cfed650ada44e4a381f121ef",
+    "features": {
+        "default": [],
+        "http": [
+            "egui_glium/http",
+            "egui_web/http"
+        ],
+        "persistence": [
+            "epi/persistence",
+            "egui_glium/persistence",
+            "egui_web/persistence"
+        ],
+        "time": [
+            "egui_glium/time"
+        ]
+    },
+    "yanked": false
+}

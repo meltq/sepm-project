@@ -1,1 +1,51 @@
-{"name":"wasmi_collections","vers":"0.1.0","deps":[{"name":"ahash","req":"^0.8.11","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"hashbrown","req":"^0.14","features":["ahash","inline-more"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"string-interner","req":"^0.17","features":["inline-more","backends"],"optional":false,"default_features":false,"target":null,"kind":"normal"}],"cksum":"940a5198807d9e7b3317f62dcae2745ba35699720d4600cb79c1cd652c8318b7","features":{"default":["std"],"no-hash-maps":[],"std":["string-interner/std"]},"yanked":false,"rust_version":"1.77"}
+{
+    "name": "wasmi_collections",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "ahash",
+            "req": "^0.8.11",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "hashbrown",
+            "req": "^0.14",
+            "features": [
+                "ahash",
+                "inline-more"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "string-interner",
+            "req": "^0.17",
+            "features": [
+                "inline-more",
+                "backends"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "940a5198807d9e7b3317f62dcae2745ba35699720d4600cb79c1cd652c8318b7",
+    "features": {
+        "default": [
+            "std"
+        ],
+        "no-hash-maps": [],
+        "std": [
+            "string-interner/std"
+        ]
+    },
+    "yanked": false,
+    "rust_version": "1.77"
+}

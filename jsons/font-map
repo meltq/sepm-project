@@ -1,1 +1,46 @@
-{"name":"font-map","vers":"0.1.0","deps":[{"name":"font-map-core","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"font-map-macros","req":"^0.1.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"1da2be42d6d078adf3925556c4115bf4314e118241736aefdd41736c36535b56","features":{"codegen":["font-map-core/codegen"],"debug-parser":["font-map-core/debug-parser"],"default":["codegen","extended-svg","macros"],"extended-svg":["font-map-core/extended-svg","font-map-macros/extended-svg"],"macros":["font-map-macros"]},"yanked":false}
+{
+    "name": "font-map",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "font-map-core",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "font-map-macros",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "1da2be42d6d078adf3925556c4115bf4314e118241736aefdd41736c36535b56",
+    "features": {
+        "codegen": [
+            "font-map-core/codegen"
+        ],
+        "debug-parser": [
+            "font-map-core/debug-parser"
+        ],
+        "default": [
+            "codegen",
+            "extended-svg",
+            "macros"
+        ],
+        "extended-svg": [
+            "font-map-core/extended-svg",
+            "font-map-macros/extended-svg"
+        ],
+        "macros": [
+            "font-map-macros"
+        ]
+    },
+    "yanked": false
+}

@@ -1,1 +1,34 @@
-{"name":"rmp3","vers":"0.1.0","deps":[{"name":"cc","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"libc","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"71fe5ec3121e9e4a6f47fe99a3297df9125d0b413b7f32d536e93cd092f6e4df","features":{"default":["only-mp3"],"float":[],"no-simd":[],"only-mp3":[]},"yanked":false}
+{
+    "name": "rmp3",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "cc",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "libc",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "71fe5ec3121e9e4a6f47fe99a3297df9125d0b413b7f32d536e93cd092f6e4df",
+    "features": {
+        "default": [
+            "only-mp3"
+        ],
+        "float": [],
+        "no-simd": [],
+        "only-mp3": []
+    },
+    "yanked": false
+}

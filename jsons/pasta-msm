@@ -1,1 +1,93 @@
-{"name":"pasta-msm","vers":"0.1.0","deps":[{"name":"cc","req":"^1.0.70","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"criterion","req":"^0.3","features":["html_reports"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"pasta_curves","req":"^0.3.1","features":["repr-c"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rand","req":"^0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"rand_chacha","req":"^0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"rayon","req":"^1.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"semolina","req":"^0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"which","req":"^4.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"}],"cksum":"c815cbda5e6845c84862c5bbbb65752e9af78445a720406def22e260929bad39","features":{"default":[],"force-adx":["semolina/force-adx"],"portable":["semolina/portable"]},"yanked":false}
+{
+    "name": "pasta-msm",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "cc",
+            "req": "^1.0.70",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "criterion",
+            "req": "^0.3",
+            "features": [
+                "html_reports"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "pasta_curves",
+            "req": "^0.3.1",
+            "features": [
+                "repr-c"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rand",
+            "req": "^0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "rand_chacha",
+            "req": "^0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "rayon",
+            "req": "^1.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "semolina",
+            "req": "^0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "which",
+            "req": "^4.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        }
+    ],
+    "cksum": "c815cbda5e6845c84862c5bbbb65752e9af78445a720406def22e260929bad39",
+    "features": {
+        "default": [],
+        "force-adx": [
+            "semolina/force-adx"
+        ],
+        "portable": [
+            "semolina/portable"
+        ]
+    },
+    "yanked": false
+}

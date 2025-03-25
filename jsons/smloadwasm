@@ -1,1 +1,56 @@
-{"name":"smloadwasm","vers":"0.1.0","deps":[{"name":"json","req":"^0.12.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"lazy_static","req":"^1.4.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"smcore","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"smdton","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"wasmtime","req":"^17.0.0","features":["default"],"optional":false,"default_features":false,"target":null,"kind":"normal"}],"cksum":"7675bd96e9cbf2a7b33b191785d3c25e9cc0718e7ea0a84e345b483227665078","features":{},"yanked":true}
+{
+    "name": "smloadwasm",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "json",
+            "req": "^0.12.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "lazy_static",
+            "req": "^1.4.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "smcore",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "smdton",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "wasmtime",
+            "req": "^17.0.0",
+            "features": [
+                "default"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "7675bd96e9cbf2a7b33b191785d3c25e9cc0718e7ea0a84e345b483227665078",
+    "features": {},
+    "yanked": true
+}

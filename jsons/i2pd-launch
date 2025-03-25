@@ -1,1 +1,30 @@
-{"name":"i2pd-launch","vers":"0.0.1","deps":[{"name":"dirs-sys","req":"^0.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"windows-sys","req":"^0.48","features":["Win32_UI_Shell"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"17c94d65e1560c48dc1d960cfdb9fd62aac304245ba4af984a470cbad11ecbd6","features":{},"yanked":false,"rust_version":"1.61.0"}
+{
+    "name": "i2pd-launch",
+    "vers": "0.0.1",
+    "deps": [
+        {
+            "name": "dirs-sys",
+            "req": "^0.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "windows-sys",
+            "req": "^0.48",
+            "features": [
+                "Win32_UI_Shell"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "17c94d65e1560c48dc1d960cfdb9fd62aac304245ba4af984a470cbad11ecbd6",
+    "features": {},
+    "yanked": false,
+    "rust_version": "1.61.0"
+}

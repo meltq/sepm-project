@@ -1,1 +1,48 @@
-{"name":"spawns-core","vers":"1.0.0","deps":[{"name":"futures","req":"^0.3.30","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"linkme","req":"^0.3.25","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"static_assertions","req":"^1.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"4b846410d8a6a6dd209c01bd7f72d1d163bccba5dd7a32367d2fdeb93b8924dd","features":{"compat":["linkme"],"default":[],"test-compat-global1":["compat"],"test-compat-global2":["compat","test-compat-global1"]},"yanked":false}
+{
+    "name": "spawns-core",
+    "vers": "1.0.0",
+    "deps": [
+        {
+            "name": "futures",
+            "req": "^0.3.30",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "linkme",
+            "req": "^0.3.25",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "static_assertions",
+            "req": "^1.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "4b846410d8a6a6dd209c01bd7f72d1d163bccba5dd7a32367d2fdeb93b8924dd",
+    "features": {
+        "compat": [
+            "linkme"
+        ],
+        "default": [],
+        "test-compat-global1": [
+            "compat"
+        ],
+        "test-compat-global2": [
+            "compat",
+            "test-compat-global1"
+        ]
+    },
+    "yanked": false
+}

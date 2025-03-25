@@ -1,1 +1,42 @@
-{"name":"ant-build-info","vers":"0.1.20","deps":[{"name":"chrono","req":"^0.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing","req":"~0.1.26","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"vergen","req":"^8.0.0","features":["build","git","gitcl"],"optional":false,"default_features":true,"target":null,"kind":"build"}],"cksum":"ed09557f3d4eed245a2657592e67343135723a33e6d33c72c8c5a1b1462acd0b","features":{"nightly":[]},"yanked":false}
+{
+    "name": "ant-build-info",
+    "vers": "0.1.20",
+    "deps": [
+        {
+            "name": "chrono",
+            "req": "^0.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing",
+            "req": "~0.1.26",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "vergen",
+            "req": "^8.0.0",
+            "features": [
+                "build",
+                "git",
+                "gitcl"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        }
+    ],
+    "cksum": "ed09557f3d4eed245a2657592e67343135723a33e6d33c72c8c5a1b1462acd0b",
+    "features": {
+        "nightly": []
+    },
+    "yanked": false
+}

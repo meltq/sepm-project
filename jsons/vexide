@@ -1,1 +1,150 @@
-{"name":"vexide","vers":"0.1.0","deps":[{"name":"vex-sdk","req":"^0.12.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"vexide-async","req":"^0.1.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"vexide-core","req":"^0.1.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"vexide-devices","req":"^0.1.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"vexide-graphics","req":"^0.1.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"vexide-macro","req":"^0.1.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"vexide-math","req":"^0.1.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"vexide-panic","req":"^0.1.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"vexide-startup","req":"^0.1.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"0908b2427d99157425a0a21bf0176078dd2f4da67cf2682732ed247f5bae1dc2","features":{"dangerous_motor_tuning":["vexide-devices/dangerous_motor_tuning"],"display_panics":["vexide-panic/display_panics"],"smart_leds_trait":["vexide-devices/smart_leds_trait"]},"features2":{"async":["dep:vexide-async"],"core":["dep:vexide-core"],"default":["async","devices","panic","display_panics","core","math","startup","macro"],"devices":["dep:vexide-devices"],"embedded-graphics":["vexide-graphics/embedded-graphics","graphics"],"graphics":["dep:vexide-graphics"],"macro":["dep:vexide-macro","startup","async","core","devices"],"math":["dep:vexide-math"],"panic":["dep:vexide-panic"],"slint":["vexide-graphics/slint","graphics"],"startup":["dep:vexide-startup"]},"yanked":false,"rust_version":"1.75.0","v":2}
+{
+    "name": "vexide",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "vex-sdk",
+            "req": "^0.12.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "vexide-async",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "vexide-core",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "vexide-devices",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "vexide-graphics",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "vexide-macro",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "vexide-math",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "vexide-panic",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "vexide-startup",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "0908b2427d99157425a0a21bf0176078dd2f4da67cf2682732ed247f5bae1dc2",
+    "features": {
+        "dangerous_motor_tuning": [
+            "vexide-devices/dangerous_motor_tuning"
+        ],
+        "display_panics": [
+            "vexide-panic/display_panics"
+        ],
+        "smart_leds_trait": [
+            "vexide-devices/smart_leds_trait"
+        ]
+    },
+    "features2": {
+        "async": [
+            "dep:vexide-async"
+        ],
+        "core": [
+            "dep:vexide-core"
+        ],
+        "default": [
+            "async",
+            "devices",
+            "panic",
+            "display_panics",
+            "core",
+            "math",
+            "startup",
+            "macro"
+        ],
+        "devices": [
+            "dep:vexide-devices"
+        ],
+        "embedded-graphics": [
+            "vexide-graphics/embedded-graphics",
+            "graphics"
+        ],
+        "graphics": [
+            "dep:vexide-graphics"
+        ],
+        "macro": [
+            "dep:vexide-macro",
+            "startup",
+            "async",
+            "core",
+            "devices"
+        ],
+        "math": [
+            "dep:vexide-math"
+        ],
+        "panic": [
+            "dep:vexide-panic"
+        ],
+        "slint": [
+            "vexide-graphics/slint",
+            "graphics"
+        ],
+        "startup": [
+            "dep:vexide-startup"
+        ]
+    },
+    "yanked": false,
+    "rust_version": "1.75.0",
+    "v": 2
+}

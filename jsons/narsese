@@ -1,1 +1,41 @@
-{"name":"narsese","vers":"0.13.0","deps":[{"name":"lazy_static","req":"^1.4.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"nar_dev_utils","req":"^0","features":["bundled"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"2cbb48e37fc65a9d76f2ac9e097fd5b7391ef31e2591f6b1f6ad6c5ba9e68b14","features":{"bundled":["enum_narsese","lexical_narsese"],"default":["bundled"],"enum_narsese":[],"lexical_narsese":["lazy_static"]},"yanked":false}
+{
+    "name": "narsese",
+    "vers": "0.13.0",
+    "deps": [
+        {
+            "name": "lazy_static",
+            "req": "^1.4.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "nar_dev_utils",
+            "req": "^0",
+            "features": [
+                "bundled"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "2cbb48e37fc65a9d76f2ac9e097fd5b7391ef31e2591f6b1f6ad6c5ba9e68b14",
+    "features": {
+        "bundled": [
+            "enum_narsese",
+            "lexical_narsese"
+        ],
+        "default": [
+            "bundled"
+        ],
+        "enum_narsese": [],
+        "lexical_narsese": [
+            "lazy_static"
+        ]
+    },
+    "yanked": false
+}

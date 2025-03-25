@@ -1,1 +1,151 @@
-{"name":"inindexer","vers":"0.1.0-alpha.1","deps":[{"name":"async-trait","req":"^0.1.79","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"futures","req":"^0.3.30","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"log","req":"^0.4.21","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"near-indexer-primitives","req":"^0.20.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"near-lake-framework","req":"^0.7.7","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"reqwest","req":"^0.12.4","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"semver","req":"^1.0.22","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.198","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.115","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"simple_logger","req":"^5.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"temp-file","req":"^0.1.8","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"tokio","req":"^1.37.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.37.0","features":["macros","rt-multi-thread"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"tokio-stream","req":"^0.1.15","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"50276dea31d2bcbce56ae1bb97f91c658ee490859bbccf6b66a6b77b9116997a","features":{"default":[],"fastnear-data-server":["message-provider","reqwest"],"lake":["message-provider","near-lake-framework"],"message-provider":[]},"yanked":false}
+{
+    "name": "inindexer",
+    "vers": "0.1.0-alpha.1",
+    "deps": [
+        {
+            "name": "async-trait",
+            "req": "^0.1.79",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "futures",
+            "req": "^0.3.30",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "log",
+            "req": "^0.4.21",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "near-indexer-primitives",
+            "req": "^0.20.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "near-lake-framework",
+            "req": "^0.7.7",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "reqwest",
+            "req": "^0.12.4",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "semver",
+            "req": "^1.0.22",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.198",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.115",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "simple_logger",
+            "req": "^5.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "temp-file",
+            "req": "^0.1.8",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.37.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.37.0",
+            "features": [
+                "macros",
+                "rt-multi-thread"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "tokio-stream",
+            "req": "^0.1.15",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "50276dea31d2bcbce56ae1bb97f91c658ee490859bbccf6b66a6b77b9116997a",
+    "features": {
+        "default": [],
+        "fastnear-data-server": [
+            "message-provider",
+            "reqwest"
+        ],
+        "lake": [
+            "message-provider",
+            "near-lake-framework"
+        ],
+        "message-provider": []
+    },
+    "yanked": false
+}

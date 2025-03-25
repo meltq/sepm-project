@@ -1,1 +1,157 @@
-{"name":"moq-web","vers":"0.3.5","deps":[{"name":"console_error_panic_hook","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"gloo-net","req":"^0.6","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"hex","req":"^0.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"js-sys","req":"^0.3.72","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"moq-karp","req":"^0.11","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"thiserror","req":"^2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1","features":["sync"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"url","req":"^2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"wasm-bindgen","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"wasm-bindgen-futures","req":"^0.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"wasm-tracing","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"web-codecs","req":"^0.3.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"web-sys","req":"^0.3.72","features":["Window","Document","HtmlElement","Node","Text","VideoDecoder","VideoDecoderInit","VideoDecoderConfig","VideoFrame","VideoColorSpaceInit","EncodedVideoChunk","EncodedVideoChunkInit","EncodedVideoChunkType","CanvasRenderingContext2d","HtmlCanvasElement","HtmlImageElement","OffscreenCanvas","DedicatedWorkerGlobalScope","OffscreenCanvasRenderingContext2d"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"c84d994903cba401f57d15eb985568309867b8da1b20320639f41321592dc124","features":{},"yanked":false}
+{
+    "name": "moq-web",
+    "vers": "0.3.5",
+    "deps": [
+        {
+            "name": "console_error_panic_hook",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "gloo-net",
+            "req": "^0.6",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "hex",
+            "req": "^0.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "js-sys",
+            "req": "^0.3.72",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "moq-karp",
+            "req": "^0.11",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1",
+            "features": [
+                "sync"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "url",
+            "req": "^2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "wasm-bindgen",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "wasm-bindgen-futures",
+            "req": "^0.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "wasm-tracing",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "web-codecs",
+            "req": "^0.3.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "web-sys",
+            "req": "^0.3.72",
+            "features": [
+                "Window",
+                "Document",
+                "HtmlElement",
+                "Node",
+                "Text",
+                "VideoDecoder",
+                "VideoDecoderInit",
+                "VideoDecoderConfig",
+                "VideoFrame",
+                "VideoColorSpaceInit",
+                "EncodedVideoChunk",
+                "EncodedVideoChunkInit",
+                "EncodedVideoChunkType",
+                "CanvasRenderingContext2d",
+                "HtmlCanvasElement",
+                "HtmlImageElement",
+                "OffscreenCanvas",
+                "DedicatedWorkerGlobalScope",
+                "OffscreenCanvasRenderingContext2d"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "c84d994903cba401f57d15eb985568309867b8da1b20320639f41321592dc124",
+    "features": {},
+    "yanked": false
+}

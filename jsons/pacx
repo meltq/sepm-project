@@ -1,1 +1,60 @@
-{"name":"pacx","vers":"0.4.0","deps":[{"name":"assert_cmd","req":"^2.0.16","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"assert_fs","req":"^1.1.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"clap","req":"^4.5.23","features":["cargo","string"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"dirs","req":"^5.0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"mlua","req":"^0.10.2","features":["lua54","vendored"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"693ea521a518c0c73e2098c18dbac0e414c91f508e321a98af01d78a90a11ef9","features":{},"yanked":false}
+{
+    "name": "pacx",
+    "vers": "0.4.0",
+    "deps": [
+        {
+            "name": "assert_cmd",
+            "req": "^2.0.16",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "assert_fs",
+            "req": "^1.1.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "clap",
+            "req": "^4.5.23",
+            "features": [
+                "cargo",
+                "string"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "dirs",
+            "req": "^5.0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "mlua",
+            "req": "^0.10.2",
+            "features": [
+                "lua54",
+                "vendored"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "693ea521a518c0c73e2098c18dbac0e414c91f508e321a98af01d78a90a11ef9",
+    "features": {},
+    "yanked": false
+}

@@ -1,1 +1,40 @@
-{"name":"metricus_macros","vers":"0.0.5","deps":[{"name":"proc-macro2","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"quote","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"syn","req":"^1.0","features":["derive","full"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"0a84c01f3af7291dde0497e5d3e5b273ac8dbdac7a4448fac9d8b8fc5bfa1fcc","features":{},"yanked":false,"rust_version":"1.83.0"}
+{
+    "name": "metricus_macros",
+    "vers": "0.0.5",
+    "deps": [
+        {
+            "name": "proc-macro2",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "quote",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "syn",
+            "req": "^1.0",
+            "features": [
+                "derive",
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "0a84c01f3af7291dde0497e5d3e5b273ac8dbdac7a4448fac9d8b8fc5bfa1fcc",
+    "features": {},
+    "yanked": false,
+    "rust_version": "1.83.0"
+}

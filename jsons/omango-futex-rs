@@ -1,1 +1,40 @@
-{"name":"omango-futex-rs","vers":"0.1.0","deps":[{"name":"libc","req":"^0.2.153","features":[],"optional":false,"default_features":true,"target":"cfg(any(target_os = \"linux\", target_os = \"android\", target_os = \"freebsd\"))","kind":"normal"},{"name":"omango-util-rs","req":"^0.1.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"windows-sys","req":"^0.48.0","features":["Win32_Foundation","Win32_System_Threading","Win32_System_WindowsProgramming"],"optional":false,"default_features":true,"target":"cfg(windows)","kind":"normal"}],"cksum":"fdf7f00eed4a44515be20d76254bf9c5321d28579115b10aa986a6a0ecf2bc37","features":{},"yanked":true}
+{
+    "name": "omango-futex-rs",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "libc",
+            "req": "^0.2.153",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": "cfg(any(target_os = \"linux\", target_os = \"android\", target_os = \"freebsd\"))",
+            "kind": "normal"
+        },
+        {
+            "name": "omango-util-rs",
+            "req": "^0.1.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "windows-sys",
+            "req": "^0.48.0",
+            "features": [
+                "Win32_Foundation",
+                "Win32_System_Threading",
+                "Win32_System_WindowsProgramming"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": "cfg(windows)",
+            "kind": "normal"
+        }
+    ],
+    "cksum": "fdf7f00eed4a44515be20d76254bf9c5321d28579115b10aa986a6a0ecf2bc37",
+    "features": {},
+    "yanked": true
+}

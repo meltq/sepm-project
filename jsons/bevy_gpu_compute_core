@@ -1,1 +1,41 @@
-{"name":"bevy_gpu_compute_core","vers":"0.1.0","deps":[{"name":"bytemuck","req":"^1.21.0","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"paste","req":"^1.0.15","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"pretty_assertions","req":"^1.4.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"5ce98e6d0cfac5090e6f3ad4eb072353d4d2a70c8945ae0bc3cf62ae6947ef16","features":{"f16":[]},"yanked":false,"rust_version":"1.86"}
+{
+    "name": "bevy_gpu_compute_core",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "bytemuck",
+            "req": "^1.21.0",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "paste",
+            "req": "^1.0.15",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "pretty_assertions",
+            "req": "^1.4.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "5ce98e6d0cfac5090e6f3ad4eb072353d4d2a70c8945ae0bc3cf62ae6947ef16",
+    "features": {
+        "f16": []
+    },
+    "yanked": false,
+    "rust_version": "1.86"
+}

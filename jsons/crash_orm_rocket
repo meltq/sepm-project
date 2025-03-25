@@ -1,1 +1,66 @@
-{"name":"crash_orm_rocket","vers":"0.7.0","deps":[{"name":"crash_orm","req":"^0.7.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"crash_orm_rocket_derive","req":"^0.7.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rocket","req":"^0.5","features":["json"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"tokio","req":"^1.29","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"bb60e481281f22e96748736f8fd5298d1ff3080a92a2f52fb28bb81436bf6596","features":{"crud":["crash_orm_rocket_derive/crud"],"default":[],"migration":["crash_orm/migration"]},"yanked":false}
+{
+    "name": "crash_orm_rocket",
+    "vers": "0.7.0",
+    "deps": [
+        {
+            "name": "crash_orm",
+            "req": "^0.7.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "crash_orm_rocket_derive",
+            "req": "^0.7.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rocket",
+            "req": "^0.5",
+            "features": [
+                "json"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.29",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "bb60e481281f22e96748736f8fd5298d1ff3080a92a2f52fb28bb81436bf6596",
+    "features": {
+        "crud": [
+            "crash_orm_rocket_derive/crud"
+        ],
+        "default": [],
+        "migration": [
+            "crash_orm/migration"
+        ]
+    },
+    "yanked": false
+}

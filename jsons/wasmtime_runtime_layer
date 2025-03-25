@@ -1,1 +1,77 @@
-{"name":"wasmtime_runtime_layer","vers":"18.0.0","deps":[{"name":"anyhow","req":"^1.0","features":["std"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"fxhash","req":"^0.2","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"ref-cast","req":"^1.0","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"smallvec","req":"^1.11","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"wasm_runtime_layer","req":"^0.4","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"wasmtime","req":"^18.0.0","features":["runtime"],"optional":false,"default_features":false,"target":null,"kind":"normal"}],"cksum":"caa8432c78ef2f525016798f45f7a24bb96f241c9e5a68d3c6e67478d3316ff0","features":{"cranelift":["wasmtime/cranelift"],"default":["cranelift"],"winch":["wasmtime/winch"]},"yanked":false}
+{
+    "name": "wasmtime_runtime_layer",
+    "vers": "18.0.0",
+    "deps": [
+        {
+            "name": "anyhow",
+            "req": "^1.0",
+            "features": [
+                "std"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "fxhash",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ref-cast",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "smallvec",
+            "req": "^1.11",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "wasm_runtime_layer",
+            "req": "^0.4",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "wasmtime",
+            "req": "^18.0.0",
+            "features": [
+                "runtime"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "caa8432c78ef2f525016798f45f7a24bb96f241c9e5a68d3c6e67478d3316ff0",
+    "features": {
+        "cranelift": [
+            "wasmtime/cranelift"
+        ],
+        "default": [
+            "cranelift"
+        ],
+        "winch": [
+            "wasmtime/winch"
+        ]
+    },
+    "yanked": false
+}

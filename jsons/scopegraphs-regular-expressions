@@ -1,1 +1,61 @@
-{"name":"scopegraphs-regular-expressions","vers":"0.1.0","deps":[{"name":"proc-macro2","req":"^1.0.69","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"quote","req":"^1.0.33","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"syn","req":"^2.0.29","features":["full","extra-traits"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^1.0.50","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"6956f529050e01e3804ede6f43e8d71bd4423ccc63a5435008866b3ad3b5a4b0","features":{"dot":["pretty-print"],"dynamic":["quote"],"pretty-print":["quote"],"rust-code-emitting":["quote"]},"yanked":false}
+{
+    "name": "scopegraphs-regular-expressions",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "proc-macro2",
+            "req": "^1.0.69",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "quote",
+            "req": "^1.0.33",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "syn",
+            "req": "^2.0.29",
+            "features": [
+                "full",
+                "extra-traits"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^1.0.50",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "6956f529050e01e3804ede6f43e8d71bd4423ccc63a5435008866b3ad3b5a4b0",
+    "features": {
+        "dot": [
+            "pretty-print"
+        ],
+        "dynamic": [
+            "quote"
+        ],
+        "pretty-print": [
+            "quote"
+        ],
+        "rust-code-emitting": [
+            "quote"
+        ]
+    },
+    "yanked": false
+}

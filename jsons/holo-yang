@@ -1,1 +1,50 @@
-{"name":"holo-yang","vers":"0.4.0","deps":[{"name":"maplit","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0","features":["derive","rc"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"yang2","req":"^0.9","features":["bundled"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"706d11be1c1192d568f7f46f3d781af9da89c5bc5a87d27d390f740660d8dba2","features":{},"yanked":false}
+{
+    "name": "holo-yang",
+    "vers": "0.4.0",
+    "deps": [
+        {
+            "name": "maplit",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [
+                "derive",
+                "rc"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "yang2",
+            "req": "^0.9",
+            "features": [
+                "bundled"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "706d11be1c1192d568f7f46f3d781af9da89c5bc5a87d27d390f740660d8dba2",
+    "features": {},
+    "yanked": false
+}

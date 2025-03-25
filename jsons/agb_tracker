@@ -1,1 +1,45 @@
-{"name":"agb_tracker","vers":"0.16.0","deps":[{"name":"agb","req":"^0.17.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"agb_tracker_interop","req":"^0.16.0","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"agb_xm","req":"^0.16.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"a08f3d115c1d02aaf0224c6292d98de9241ad857fd4ada54b0f8eec1e3a0f53d","features":{},"features2":{"default":["xm"],"xm":["dep:agb_xm"]},"yanked":false,"v":2}
+{
+    "name": "agb_tracker",
+    "vers": "0.16.0",
+    "deps": [
+        {
+            "name": "agb",
+            "req": "^0.17.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "agb_tracker_interop",
+            "req": "^0.16.0",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "agb_xm",
+            "req": "^0.16.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "a08f3d115c1d02aaf0224c6292d98de9241ad857fd4ada54b0f8eec1e3a0f53d",
+    "features": {},
+    "features2": {
+        "default": [
+            "xm"
+        ],
+        "xm": [
+            "dep:agb_xm"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

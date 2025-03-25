@@ -1,1 +1,251 @@
-{"name":"zar","vers":"0.1.0","deps":[{"name":"arbitrary","req":"^1.4.1","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"arbtest","req":"^0.3.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"base16ct","req":"^0.2.0","features":["std"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"base64ct","req":"^1.6.0","features":["std"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"bzip2","req":"^0.4.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"chrono","req":"^0.4.38","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"deko","req":"^0.1.0","features":["flate2","bzip2","xz"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"digest","req":"^0.10.7","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"flate2","req":"^1.0.35","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"libc","req":"^0.2.168","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"md5","req":"^0.7.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"normalize-path","req":"^0.2.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"quick-xml","req":"^0.37.1","features":["serialize"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"random-dir","req":"^0.2.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"rsa","req":"^0.9.7","features":["sha2","sha1"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.215","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"sha1","req":"^0.10.6","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"sha2","req":"^0.10.8","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"similar-asserts","req":"^1.6.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"tempfile","req":"^3.14.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"x509-cert","req":"^0.2.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"x509-cert","req":"^0.2.5","features":["builder"],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"x509-cert","req":"^0.2.5","features":["builder"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"xz","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"a265c8dcb98a7cba15055cde82393e330f51b64ebc70e7760a8373e0403a6ca6","features":{"apple-root-cert":[],"default":["apple-root-cert"]},"yanked":false}
+{
+    "name": "zar",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "arbitrary",
+            "req": "^1.4.1",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "arbtest",
+            "req": "^0.3.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "base16ct",
+            "req": "^0.2.0",
+            "features": [
+                "std"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "base64ct",
+            "req": "^1.6.0",
+            "features": [
+                "std"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "bzip2",
+            "req": "^0.4.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "chrono",
+            "req": "^0.4.38",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "deko",
+            "req": "^0.1.0",
+            "features": [
+                "flate2",
+                "bzip2",
+                "xz"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "digest",
+            "req": "^0.10.7",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "flate2",
+            "req": "^1.0.35",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "libc",
+            "req": "^0.2.168",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "md5",
+            "req": "^0.7.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "normalize-path",
+            "req": "^0.2.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "quick-xml",
+            "req": "^0.37.1",
+            "features": [
+                "serialize"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "random-dir",
+            "req": "^0.2.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "rsa",
+            "req": "^0.9.7",
+            "features": [
+                "sha2",
+                "sha1"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.215",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "sha1",
+            "req": "^0.10.6",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "sha2",
+            "req": "^0.10.8",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "similar-asserts",
+            "req": "^1.6.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "tempfile",
+            "req": "^3.14.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "x509-cert",
+            "req": "^0.2.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "x509-cert",
+            "req": "^0.2.5",
+            "features": [
+                "builder"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "x509-cert",
+            "req": "^0.2.5",
+            "features": [
+                "builder"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "xz",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "a265c8dcb98a7cba15055cde82393e330f51b64ebc70e7760a8373e0403a6ca6",
+    "features": {
+        "apple-root-cert": [],
+        "default": [
+            "apple-root-cert"
+        ]
+    },
+    "yanked": false
+}

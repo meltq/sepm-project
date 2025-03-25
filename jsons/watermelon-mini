@@ -1,1 +1,117 @@
-{"name":"watermelon-mini","vers":"0.1.0","deps":[{"name":"async-compression","req":"^0.4","features":["tokio"],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"rustls-platform-verifier","req":"^0.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1","features":["net"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio-rustls","req":"^0.26","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"watermelon-net","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"watermelon-nkeys","req":"^0.1","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"watermelon-proto","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"3856183795f65f6b44573a8cacaecd12557591509e9fe4546cf19ab8bc779575","features":{"aws-lc-rs":["tokio-rustls/aws-lc-rs","watermelon-net/aws-lc-rs","watermelon-nkeys/aws-lc-rs"],"default":["aws-lc-rs"],"fips":["tokio-rustls/fips","watermelon-net/fips","watermelon-nkeys/fips"],"ring":["tokio-rustls/ring","watermelon-net/ring","watermelon-nkeys/ring"],"websocket":["watermelon-net/websocket"]},"features2":{"non-standard-zstd":["watermelon-net/non-standard-zstd","watermelon-proto/non-standard-zstd","dep:async-compression","async-compression/zstd"]},"yanked":false,"rust_version":"1.81","v":2}
+{
+    "name": "watermelon-mini",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "async-compression",
+            "req": "^0.4",
+            "features": [
+                "tokio"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rustls-platform-verifier",
+            "req": "^0.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1",
+            "features": [
+                "net"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio-rustls",
+            "req": "^0.26",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "watermelon-net",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "watermelon-nkeys",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "watermelon-proto",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "3856183795f65f6b44573a8cacaecd12557591509e9fe4546cf19ab8bc779575",
+    "features": {
+        "aws-lc-rs": [
+            "tokio-rustls/aws-lc-rs",
+            "watermelon-net/aws-lc-rs",
+            "watermelon-nkeys/aws-lc-rs"
+        ],
+        "default": [
+            "aws-lc-rs"
+        ],
+        "fips": [
+            "tokio-rustls/fips",
+            "watermelon-net/fips",
+            "watermelon-nkeys/fips"
+        ],
+        "ring": [
+            "tokio-rustls/ring",
+            "watermelon-net/ring",
+            "watermelon-nkeys/ring"
+        ],
+        "websocket": [
+            "watermelon-net/websocket"
+        ]
+    },
+    "features2": {
+        "non-standard-zstd": [
+            "watermelon-net/non-standard-zstd",
+            "watermelon-proto/non-standard-zstd",
+            "dep:async-compression",
+            "async-compression/zstd"
+        ]
+    },
+    "yanked": false,
+    "rust_version": "1.81",
+    "v": 2
+}

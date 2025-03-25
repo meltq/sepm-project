@@ -1,1 +1,51 @@
-{"name":"key-mutex","vers":"0.1.0","deps":[{"name":"dashmap","req":"^5.5.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"guardian","req":"^1.1.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.36.0","features":["sync"],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"46cf019bbbbe12fcbb21cf7729943d008b526cdb09d1c00466f3c232e1a3178f","features":{"default":["std"]},"features2":{"std":["dep:guardian"],"tokio":["dep:tokio"]},"yanked":false,"v":2}
+{
+    "name": "key-mutex",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "dashmap",
+            "req": "^5.5.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "guardian",
+            "req": "^1.1.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.36.0",
+            "features": [
+                "sync"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "46cf019bbbbe12fcbb21cf7729943d008b526cdb09d1c00466f3c232e1a3178f",
+    "features": {
+        "default": [
+            "std"
+        ]
+    },
+    "features2": {
+        "std": [
+            "dep:guardian"
+        ],
+        "tokio": [
+            "dep:tokio"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

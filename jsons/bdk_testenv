@@ -1,1 +1,60 @@
-{"name":"bdk_testenv","vers":"0.1.0","deps":[{"name":"anyhow","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"bdk_chain","req":"^0.11","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"bitcoincore-rpc","req":"^0.17","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"electrsd","req":"^0.25.0","features":["bitcoind_25_0","esplora_a33e97e1","legacy"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"bfe1b9ab0efea77ccdbfe54dc173ebef742e48c8bfb3fc44a5d85d8cf6399f29","features":{"default":["std"],"serde":["bdk_chain/serde"],"std":["bdk_chain/std"]},"yanked":false,"rust_version":"1.63"}
+{
+    "name": "bdk_testenv",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "anyhow",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "bdk_chain",
+            "req": "^0.11",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "bitcoincore-rpc",
+            "req": "^0.17",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "electrsd",
+            "req": "^0.25.0",
+            "features": [
+                "bitcoind_25_0",
+                "esplora_a33e97e1",
+                "legacy"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "bfe1b9ab0efea77ccdbfe54dc173ebef742e48c8bfb3fc44a5d85d8cf6399f29",
+    "features": {
+        "default": [
+            "std"
+        ],
+        "serde": [
+            "bdk_chain/serde"
+        ],
+        "std": [
+            "bdk_chain/std"
+        ]
+    },
+    "yanked": false,
+    "rust_version": "1.63"
+}

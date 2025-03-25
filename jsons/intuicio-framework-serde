@@ -1,1 +1,56 @@
-{"name":"intuicio-framework-serde","vers":"0.39.6","deps":[{"name":"intuicio-core","req":"^0.39","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"intuicio-data","req":"^0.39","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"intuicio-derive","req":"^0.39","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"serde","req":"^1","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde-intermediate","req":"^1.6","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"}],"cksum":"3dfd67e93065d5a6a81de2e56675d52b11f77210567e1423e6507454ff8cb6a6","features":{},"yanked":false}
+{
+    "name": "intuicio-framework-serde",
+    "vers": "0.39.6",
+    "deps": [
+        {
+            "name": "intuicio-core",
+            "req": "^0.39",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "intuicio-data",
+            "req": "^0.39",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "intuicio-derive",
+            "req": "^0.39",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "serde",
+            "req": "^1",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde-intermediate",
+            "req": "^1.6",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "3dfd67e93065d5a6a81de2e56675d52b11f77210567e1423e6507454ff8cb6a6",
+    "features": {},
+    "yanked": false
+}

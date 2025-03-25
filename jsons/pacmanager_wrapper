@@ -1,1 +1,48 @@
-{"name":"pacmanager_wrapper","vers":"0.1.0","deps":[{"name":"async-process","req":"^2.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"futures-lite","req":"^2.2.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"thiserror","req":"^1.0.58","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.36.0","features":["macros","rt-multi-thread"],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"460a0ab0e64e6e47a1861d68ee48786a4606e5612a8af01f92ac8205f4c67f36","features":{},"yanked":false}
+{
+    "name": "pacmanager_wrapper",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "async-process",
+            "req": "^2.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "futures-lite",
+            "req": "^2.2.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "thiserror",
+            "req": "^1.0.58",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.36.0",
+            "features": [
+                "macros",
+                "rt-multi-thread"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "460a0ab0e64e6e47a1861d68ee48786a4606e5612a8af01f92ac8205f4c67f36",
+    "features": {},
+    "yanked": false
+}

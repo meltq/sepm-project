@@ -1,1 +1,73 @@
-{"name":"obel_reflect_derive","vers":"0.0.6","deps":[{"name":"obel_platform","req":"^0.0.6","features":["alloc"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"obel_reflect_utils","req":"^0.0.6","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"proc-macro2","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"quote","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"syn","req":"^2.0","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"uuid","req":"^1.0","features":["v4"],"optional":false,"default_features":false,"target":null,"kind":"normal"}],"cksum":"382cee777f21705eb8910b3258b1f06d0ff56ef953c9b339e1661f2c26e2c5ec","features":{"documentation":[],"functions":[]},"yanked":false,"rust_version":"1.82.0"}
+{
+    "name": "obel_reflect_derive",
+    "vers": "0.0.6",
+    "deps": [
+        {
+            "name": "obel_platform",
+            "req": "^0.0.6",
+            "features": [
+                "alloc"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "obel_reflect_utils",
+            "req": "^0.0.6",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "proc-macro2",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "quote",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "syn",
+            "req": "^2.0",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "uuid",
+            "req": "^1.0",
+            "features": [
+                "v4"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "382cee777f21705eb8910b3258b1f06d0ff56ef953c9b339e1661f2c26e2c5ec",
+    "features": {
+        "documentation": [],
+        "functions": []
+    },
+    "yanked": false,
+    "rust_version": "1.82.0"
+}

@@ -1,1 +1,273 @@
-{"name":"sui-gql-client","vers":"0.13.2","deps":[{"name":"af-move-type","req":"^0.7","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"af-sui-types","req":"^0.6","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"bcs","req":"^0.1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"bimap","req":"^0.6","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"clap","req":"^4","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"clap","req":"^4","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"color-eyre","req":"^0.6","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"cynic","req":"^3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"derive_more","req":"^1","features":["display"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"extension-traits","req":"^2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"insta","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"itertools","req":"^0.14","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"rand","req":"^0.8","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"reqwest","req":"^0.12","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"sui-gql-schema","req":"^0.7","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"sui-gql-schema","req":"^0.7","features":["build"],"optional":false,"default_features":false,"target":null,"kind":"build"},{"name":"tap","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"tokio-test","req":"^0.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"trait-variant","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"47d9c8d33b8606ef6d50cd3809bc508ce8a816db4f84ec8338d27732f223a35a","features":{"scalars":["sui-gql-schema/scalars"],"unstable":["sui-gql-schema/unstable"]},"features2":{"default":["move-type","mutations","queries","reqwest"],"move-type":["dep:af-move-type","dep:bcs","queries"],"mutations":["dep:af-sui-types","scalars"],"queries":["dep:af-sui-types","dep:itertools","scalars"],"raw":["dep:serde_json"],"reqwest":["cynic/http-reqwest","dep:reqwest","raw"]},"yanked":false,"v":2}
+{
+    "name": "sui-gql-client",
+    "vers": "0.13.2",
+    "deps": [
+        {
+            "name": "af-move-type",
+            "req": "^0.7",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "af-sui-types",
+            "req": "^0.6",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "bcs",
+            "req": "^0.1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "bimap",
+            "req": "^0.6",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "clap",
+            "req": "^4",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "clap",
+            "req": "^4",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "color-eyre",
+            "req": "^0.6",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "cynic",
+            "req": "^3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "derive_more",
+            "req": "^1",
+            "features": [
+                "display"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "extension-traits",
+            "req": "^2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "insta",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "itertools",
+            "req": "^0.14",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rand",
+            "req": "^0.8",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "reqwest",
+            "req": "^0.12",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "sui-gql-schema",
+            "req": "^0.7",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "sui-gql-schema",
+            "req": "^0.7",
+            "features": [
+                "build"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "tap",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "tokio-test",
+            "req": "^0.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "trait-variant",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "47d9c8d33b8606ef6d50cd3809bc508ce8a816db4f84ec8338d27732f223a35a",
+    "features": {
+        "scalars": [
+            "sui-gql-schema/scalars"
+        ],
+        "unstable": [
+            "sui-gql-schema/unstable"
+        ]
+    },
+    "features2": {
+        "default": [
+            "move-type",
+            "mutations",
+            "queries",
+            "reqwest"
+        ],
+        "move-type": [
+            "dep:af-move-type",
+            "dep:bcs",
+            "queries"
+        ],
+        "mutations": [
+            "dep:af-sui-types",
+            "scalars"
+        ],
+        "queries": [
+            "dep:af-sui-types",
+            "dep:itertools",
+            "scalars"
+        ],
+        "raw": [
+            "dep:serde_json"
+        ],
+        "reqwest": [
+            "cynic/http-reqwest",
+            "dep:reqwest",
+            "raw"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

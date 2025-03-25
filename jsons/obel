@@ -1,1 +1,35 @@
-{"name":"obel","vers":"0.0.1","deps":[{"name":"obel_dylib","req":"^0.0.1","features":[],"optional":true,"default_features":false,"target":"cfg(not(target_family = \"wasm\"))","kind":"normal"},{"name":"obel_root","req":"^0.0.1","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"}],"cksum":"6df52f6daa20829beb99dcc2cb70e20e0101f1f9e4762d4e673d85ccdf2a67dc","features":{},"features2":{"dynamic_linking":["dep:obel_dylib","obel_root/dynamic_linking"]},"yanked":false,"rust_version":"1.82.0","v":2}
+{
+    "name": "obel",
+    "vers": "0.0.1",
+    "deps": [
+        {
+            "name": "obel_dylib",
+            "req": "^0.0.1",
+            "features": [],
+            "optional": true,
+            "default_features": false,
+            "target": "cfg(not(target_family = \"wasm\"))",
+            "kind": "normal"
+        },
+        {
+            "name": "obel_root",
+            "req": "^0.0.1",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "6df52f6daa20829beb99dcc2cb70e20e0101f1f9e4762d4e673d85ccdf2a67dc",
+    "features": {},
+    "features2": {
+        "dynamic_linking": [
+            "dep:obel_dylib",
+            "obel_root/dynamic_linking"
+        ]
+    },
+    "yanked": false,
+    "rust_version": "1.82.0",
+    "v": 2
+}

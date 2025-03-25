@@ -1,1 +1,32 @@
-{"name":"nng-c-sys","vers":"1.8.0-beta.1","deps":[{"name":"bindgen","req":"^0.69","features":[],"optional":true,"default_features":true,"target":null,"kind":"build"},{"name":"cmake","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"}],"cksum":"5556cb53857153b813cb20b6a2c975d0e0516e45b8734f39861cea2ab342707c","features":{"build-bindgen":["bindgen"],"http":[]},"yanked":false}
+{
+    "name": "nng-c-sys",
+    "vers": "1.8.0-beta.1",
+    "deps": [
+        {
+            "name": "bindgen",
+            "req": "^0.69",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "cmake",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        }
+    ],
+    "cksum": "5556cb53857153b813cb20b6a2c975d0e0516e45b8734f39861cea2ab342707c",
+    "features": {
+        "build-bindgen": [
+            "bindgen"
+        ],
+        "http": []
+    },
+    "yanked": false
+}

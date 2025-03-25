@@ -1,1 +1,46 @@
-{"name":"whitelist-tester","vers":"0.1.8","deps":[{"name":"anchor-lang","req":">=0.17","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"anchor-spl","req":">=0.17","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"locked-voter","req":"^0.1","features":["cpi"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"c49edc25d9fe5d58b7deefbca16ca738c9b864b118908dd94b1b05adf92479e4","features":{"cpi":["no-entrypoint"],"default":[],"no-entrypoint":[],"no-idl":[],"no-log-ix-name":[]},"yanked":false}
+{
+    "name": "whitelist-tester",
+    "vers": "0.1.8",
+    "deps": [
+        {
+            "name": "anchor-lang",
+            "req": ">=0.17",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "anchor-spl",
+            "req": ">=0.17",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "locked-voter",
+            "req": "^0.1",
+            "features": [
+                "cpi"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "c49edc25d9fe5d58b7deefbca16ca738c9b864b118908dd94b1b05adf92479e4",
+    "features": {
+        "cpi": [
+            "no-entrypoint"
+        ],
+        "default": [],
+        "no-entrypoint": [],
+        "no-idl": [],
+        "no-log-ix-name": []
+    },
+    "yanked": false
+}

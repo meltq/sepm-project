@@ -1,1 +1,23 @@
-{"name":"datafusion-common-runtime","vers":"37.0.0","deps":[{"name":"tokio","req":"^1.36","features":["macros","rt","sync"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"a5cf713ae1f5423b5625aeb3ddfb0d5c29e880cf6a0d2059d0724219c873a76c","features":{},"yanked":false,"rust_version":"1.72"}
+{
+    "name": "datafusion-common-runtime",
+    "vers": "37.0.0",
+    "deps": [
+        {
+            "name": "tokio",
+            "req": "^1.36",
+            "features": [
+                "macros",
+                "rt",
+                "sync"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "a5cf713ae1f5423b5625aeb3ddfb0d5c29e880cf6a0d2059d0724219c873a76c",
+    "features": {},
+    "yanked": false,
+    "rust_version": "1.72"
+}

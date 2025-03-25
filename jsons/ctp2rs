@@ -1,1 +1,113 @@
-{"name":"ctp2rs","vers":"0.1.0","deps":[{"name":"Inflector","req":"^0.11.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"bindgen","req":"^0.71.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"clang","req":"^2.0.0","features":["clang_10_0"],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"clang-sys","req":"^1.8.1","features":["clang_16_0","runtime"],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"encoding_rs","req":"^0.8.35","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"futures","req":"^0.3.31","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"libloading","req":"^0.8.6","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"memchr","req":"^2.7.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"regex","req":"^1.11.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"}],"cksum":"09eb24cbaac179f9664bc80bd27d5cd2de9487c22aa92cbcbfc6672e1d776e03","features":{"ctp_v6_7_2":["dynlib"],"ctp_v6_7_7":["dynlib"],"default":["v1alpha1","dynlib","ctp_v6_7_2"],"dynlib":[],"openctp":["dynlib"],"v1alpha1":[],"v1alpha2":[]},"yanked":false}
+{
+    "name": "ctp2rs",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "Inflector",
+            "req": "^0.11.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "bindgen",
+            "req": "^0.71.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "clang",
+            "req": "^2.0.0",
+            "features": [
+                "clang_10_0"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "clang-sys",
+            "req": "^1.8.1",
+            "features": [
+                "clang_16_0",
+                "runtime"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "encoding_rs",
+            "req": "^0.8.35",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "futures",
+            "req": "^0.3.31",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "libloading",
+            "req": "^0.8.6",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "memchr",
+            "req": "^2.7.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "regex",
+            "req": "^1.11.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        }
+    ],
+    "cksum": "09eb24cbaac179f9664bc80bd27d5cd2de9487c22aa92cbcbfc6672e1d776e03",
+    "features": {
+        "ctp_v6_7_2": [
+            "dynlib"
+        ],
+        "ctp_v6_7_7": [
+            "dynlib"
+        ],
+        "default": [
+            "v1alpha1",
+            "dynlib",
+            "ctp_v6_7_2"
+        ],
+        "dynlib": [],
+        "openctp": [
+            "dynlib"
+        ],
+        "v1alpha1": [],
+        "v1alpha2": []
+    },
+    "yanked": false
+}

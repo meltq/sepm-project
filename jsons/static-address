@@ -1,1 +1,45 @@
-{"name":"static-address","vers":"0.1.1","deps":[{"name":"mv-core-types","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"static-address-parser","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"syn","req":"^1","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"a860c76bd883428f6821fe44c592b2536953118eec02073d9f9219548d66bd56","features":{"address20":["static-address-parser/address20"],"address32":["static-address-parser/address32"]},"yanked":false}
+{
+    "name": "static-address",
+    "vers": "0.1.1",
+    "deps": [
+        {
+            "name": "mv-core-types",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "static-address-parser",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "syn",
+            "req": "^1",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "a860c76bd883428f6821fe44c592b2536953118eec02073d9f9219548d66bd56",
+    "features": {
+        "address20": [
+            "static-address-parser/address20"
+        ],
+        "address32": [
+            "static-address-parser/address32"
+        ]
+    },
+    "yanked": false
+}

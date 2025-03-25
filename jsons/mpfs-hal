@@ -1,1 +1,70 @@
-{"name":"mpfs-hal","vers":"0.1.0","deps":[{"name":"critical-section","req":"^1.2","features":["restore-state-u8"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"embedded-alloc","req":"^0.6","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"itoa","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"mpfs-hal-procmacros","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"mpfs-pac","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"riscv","req":"^0.12","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"caa93e1260dfc0851ee9b6a14e59016e6f611a4ae971427df9ccdd15a1b2b96f","features":{"alloc":["embedded-alloc"],"debug_logs":[]},"yanked":false}
+{
+    "name": "mpfs-hal",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "critical-section",
+            "req": "^1.2",
+            "features": [
+                "restore-state-u8"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "embedded-alloc",
+            "req": "^0.6",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "itoa",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "mpfs-hal-procmacros",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "mpfs-pac",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "riscv",
+            "req": "^0.12",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "caa93e1260dfc0851ee9b6a14e59016e6f611a4ae971427df9ccdd15a1b2b96f",
+    "features": {
+        "alloc": [
+            "embedded-alloc"
+        ],
+        "debug_logs": []
+    },
+    "yanked": false
+}

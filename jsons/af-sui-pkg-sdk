@@ -1,1 +1,76 @@
-{"name":"af-sui-pkg-sdk","vers":"0.7.0","deps":[{"name":"af-move-type","req":"^0.7","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"af-sui-types","req":"^0.6","features":["u256"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"anyhow","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"derive-new","req":"^0.6.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"derive_more","req":"^1","features":["display"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"serde","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tabled","req":"^0.16","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"40d5f4ffddd72caa81abf2f7236363d69cffcd3373aea5c20a6ba435d43a3ea2","features":{},"yanked":false}
+{
+    "name": "af-sui-pkg-sdk",
+    "vers": "0.7.0",
+    "deps": [
+        {
+            "name": "af-move-type",
+            "req": "^0.7",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "af-sui-types",
+            "req": "^0.6",
+            "features": [
+                "u256"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "anyhow",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "derive-new",
+            "req": "^0.6.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "derive_more",
+            "req": "^1",
+            "features": [
+                "display"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "serde",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tabled",
+            "req": "^0.16",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "40d5f4ffddd72caa81abf2f7236363d69cffcd3373aea5c20a6ba435d43a3ea2",
+    "features": {},
+    "yanked": false
+}

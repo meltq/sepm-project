@@ -1,1 +1,43 @@
-{"name":"gxi","vers":"0.1.0","deps":[{"name":"gxi_desktop_binds","req":"^0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"gxi_interface","req":"^0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"gxi_web_binds","req":"^0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"47ba1660496e9a4f4ca066d53d84c37c52f09b88dd6d259e61b9880abdb9847d","features":{"desktop":["gxi_desktop_binds"],"web":["gxi_web_binds"]},"yanked":false}
+{
+    "name": "gxi",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "gxi_desktop_binds",
+            "req": "^0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "gxi_interface",
+            "req": "^0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "gxi_web_binds",
+            "req": "^0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "47ba1660496e9a4f4ca066d53d84c37c52f09b88dd6d259e61b9880abdb9847d",
+    "features": {
+        "desktop": [
+            "gxi_desktop_binds"
+        ],
+        "web": [
+            "gxi_web_binds"
+        ]
+    },
+    "yanked": false
+}

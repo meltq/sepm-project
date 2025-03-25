@@ -1,1 +1,72 @@
-{"name":"atomiq","vers":"0.1.0","deps":[{"name":"env_logger","req":"^0.11.6","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"log","req":"^0.4.22","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"loom","req":"^0.7.2","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"pretty_assertions","req":"^1.4.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"test-log","req":"^0.2.16","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"e2fa49ad0c29dd5b82519b50c749aa4d5c7bf2f82817655c4387670e204407cf","features":{"compat_core":[],"default":["compat_core","default_core"],"default_core":["compat_core"]},"features2":{"compat_loom":["dep:loom"],"default_loom":["compat_loom"]},"yanked":false,"v":2}
+{
+    "name": "atomiq",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "env_logger",
+            "req": "^0.11.6",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "log",
+            "req": "^0.4.22",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "loom",
+            "req": "^0.7.2",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "pretty_assertions",
+            "req": "^1.4.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "test-log",
+            "req": "^0.2.16",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "e2fa49ad0c29dd5b82519b50c749aa4d5c7bf2f82817655c4387670e204407cf",
+    "features": {
+        "compat_core": [],
+        "default": [
+            "compat_core",
+            "default_core"
+        ],
+        "default_core": [
+            "compat_core"
+        ]
+    },
+    "features2": {
+        "compat_loom": [
+            "dep:loom"
+        ],
+        "default_loom": [
+            "compat_loom"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

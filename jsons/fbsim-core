@@ -1,1 +1,38 @@
-{"name":"fbsim-core","vers":"1.0.0-alpha.1","deps":[{"name":"rand","req":"^0.8.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rand_distr","req":"^0.4.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.217","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"d584b86b6f52f8be9888c5e5a3a2ad5c8caad8bc8877afd8b04f0d4895742e7d","features":{},"yanked":false}
+{
+    "name": "fbsim-core",
+    "vers": "1.0.0-alpha.1",
+    "deps": [
+        {
+            "name": "rand",
+            "req": "^0.8.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rand_distr",
+            "req": "^0.4.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.217",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "d584b86b6f52f8be9888c5e5a3a2ad5c8caad8bc8877afd8b04f0d4895742e7d",
+    "features": {},
+    "yanked": false
+}

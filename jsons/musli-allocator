@@ -1,1 +1,29 @@
-{"name":"musli-allocator","vers":"0.0.97","deps":[{"name":"musli","req":"^0.0.97","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"}],"cksum":"0cbee4165440c0af8bb7355829ec024a4412ad274ecadc39dda3d8236441d735","features":{"alloc":["musli/alloc"],"default":["std","alloc"],"std":["musli/std"]},"yanked":false}
+{
+    "name": "musli-allocator",
+    "vers": "0.0.97",
+    "deps": [
+        {
+            "name": "musli",
+            "req": "^0.0.97",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "0cbee4165440c0af8bb7355829ec024a4412ad274ecadc39dda3d8236441d735",
+    "features": {
+        "alloc": [
+            "musli/alloc"
+        ],
+        "default": [
+            "std",
+            "alloc"
+        ],
+        "std": [
+            "musli/std"
+        ]
+    },
+    "yanked": false
+}

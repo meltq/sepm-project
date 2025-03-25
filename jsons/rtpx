@@ -1,1 +1,109 @@
-{"name":"rtpx","vers":"1.0.0","deps":[{"name":"bindgen","req":"^0.70","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"crossbeam-channel","req":"^0.5","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"encoding","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"encoding","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"memchr","req":"^2.3.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"simple-error","req":"^0.3.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"simple-error","req":"^0.3.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"time","req":"^0.1.43","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.31","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"xmltree","req":"^0.11.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"}],"cksum":"2c2294b56b9e69ace49e6e2ee058045b0a2b19b0d83f016bb5d3ad848b84b9f7","features":{"atp":[],"channel":["crossbeam-channel"],"ctp":[],"default":["ctp"],"xtp":[]},"yanked":false}
+{
+    "name": "rtpx",
+    "vers": "1.0.0",
+    "deps": [
+        {
+            "name": "bindgen",
+            "req": "^0.70",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "crossbeam-channel",
+            "req": "^0.5",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "encoding",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "encoding",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "memchr",
+            "req": "^2.3.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "simple-error",
+            "req": "^0.3.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "simple-error",
+            "req": "^0.3.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "time",
+            "req": "^0.1.43",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.31",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "xmltree",
+            "req": "^0.11.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        }
+    ],
+    "cksum": "2c2294b56b9e69ace49e6e2ee058045b0a2b19b0d83f016bb5d3ad848b84b9f7",
+    "features": {
+        "atp": [],
+        "channel": [
+            "crossbeam-channel"
+        ],
+        "ctp": [],
+        "default": [
+            "ctp"
+        ],
+        "xtp": []
+    },
+    "yanked": false
+}

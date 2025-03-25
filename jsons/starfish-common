@@ -1,1 +1,290 @@
-{"name":"starfish-common","vers":"1.0.0","deps":[{"name":"anyhow","req":"^1.0.75","features":["backtrace"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"async-trait","req":"^0.1.77","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"axum","req":"^0.7.2","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"base64","req":"^0.22.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"chrono","req":"^0.4.34","features":["serde"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"config","req":"^0.14.0","features":["toml"],"optional":true,"default_features":false,"target":null,"kind":"normal"},{"name":"derive_more","req":"^1.0.0-beta.6","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"futures","req":"^0.3.30","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"num_cpus","req":"^1.16.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"reqwest","req":"^0.12.1","features":["rustls-tls","json"],"optional":true,"default_features":false,"target":null,"kind":"normal"},{"name":"ring","req":"^0.17.8","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"rust_decimal","req":"^1.34","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rust_decimal_macros","req":"^1.34","features":["reexportable"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"sea-orm","req":"^0.12.14","features":["sqlx-mysql","runtime-tokio-rustls"],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.197","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.114","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_urlencoded","req":"^0.7","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_with","req":"^3.6.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"snowflaked","req":"^1.0.2","features":["sync"],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"strum","req":"^0.26.1","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.36.0","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tower-http","req":"^0.5.0","features":["trace"],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing","req":"^0.1.40","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing-appender","req":"^0.2.3","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing-subscriber","req":"^0.3.18","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"f2e9b35900f4d6832e77420bb42c4a3442f5b5d9b3379aed1d4143d865e34d96","features":{"default":[]},"features2":{"encrypt":["dep:ring","dep:base64"],"env":["dep:config"],"http":["dep:reqwest"],"log":["dep:tracing","dep:tracing-subscriber","dep:tracing-appender"],"orm":["dep:sea-orm"],"uuid":["dep:snowflaked"],"web":["dep:axum","dep:tower-http"]},"yanked":false,"v":2}
+{
+    "name": "starfish-common",
+    "vers": "1.0.0",
+    "deps": [
+        {
+            "name": "anyhow",
+            "req": "^1.0.75",
+            "features": [
+                "backtrace"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "async-trait",
+            "req": "^0.1.77",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "axum",
+            "req": "^0.7.2",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "base64",
+            "req": "^0.22.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "chrono",
+            "req": "^0.4.34",
+            "features": [
+                "serde"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "config",
+            "req": "^0.14.0",
+            "features": [
+                "toml"
+            ],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "derive_more",
+            "req": "^1.0.0-beta.6",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "futures",
+            "req": "^0.3.30",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "num_cpus",
+            "req": "^1.16.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "reqwest",
+            "req": "^0.12.1",
+            "features": [
+                "rustls-tls",
+                "json"
+            ],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ring",
+            "req": "^0.17.8",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rust_decimal",
+            "req": "^1.34",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rust_decimal_macros",
+            "req": "^1.34",
+            "features": [
+                "reexportable"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "sea-orm",
+            "req": "^0.12.14",
+            "features": [
+                "sqlx-mysql",
+                "runtime-tokio-rustls"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.197",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.114",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_urlencoded",
+            "req": "^0.7",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_with",
+            "req": "^3.6.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "snowflaked",
+            "req": "^1.0.2",
+            "features": [
+                "sync"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "strum",
+            "req": "^0.26.1",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.36.0",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tower-http",
+            "req": "^0.5.0",
+            "features": [
+                "trace"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1.40",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing-appender",
+            "req": "^0.2.3",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing-subscriber",
+            "req": "^0.3.18",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "f2e9b35900f4d6832e77420bb42c4a3442f5b5d9b3379aed1d4143d865e34d96",
+    "features": {
+        "default": []
+    },
+    "features2": {
+        "encrypt": [
+            "dep:ring",
+            "dep:base64"
+        ],
+        "env": [
+            "dep:config"
+        ],
+        "http": [
+            "dep:reqwest"
+        ],
+        "log": [
+            "dep:tracing",
+            "dep:tracing-subscriber",
+            "dep:tracing-appender"
+        ],
+        "orm": [
+            "dep:sea-orm"
+        ],
+        "uuid": [
+            "dep:snowflaked"
+        ],
+        "web": [
+            "dep:axum",
+            "dep:tower-http"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

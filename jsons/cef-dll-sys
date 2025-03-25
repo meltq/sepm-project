@@ -1,1 +1,39 @@
-{"name":"cef-dll-sys","vers":"131.3.4","deps":[{"name":"anyhow","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"cmake","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"download-cef","req":"^1.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"}],"cksum":"b2b081ac91f08945fb7c8cde6281e211d4a62453e8d295eae58c43b5be2ce403","features":{"dox":[]},"yanked":false,"links":"cef_dll_wrapper"}
+{
+    "name": "cef-dll-sys",
+    "vers": "131.3.4",
+    "deps": [
+        {
+            "name": "anyhow",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "cmake",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "download-cef",
+            "req": "^1.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        }
+    ],
+    "cksum": "b2b081ac91f08945fb7c8cde6281e211d4a62453e8d295eae58c43b5be2ce403",
+    "features": {
+        "dox": []
+    },
+    "yanked": false,
+    "links": "cef_dll_wrapper"
+}

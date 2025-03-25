@@ -1,1 +1,52 @@
-{"name":"worker-ratelimit","vers":"0.1.0","deps":[{"name":"serde_json","req":"^1.0.114","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^1.0.58","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"worker","req":"^0.0.21","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"worker-kv","req":"^0.6.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"85e061876fd6943c51661c85901582cac7f82fe10aea54850de3e940eb341c61","features":{"default":["worker-sdk"],"worker-sdk":["worker"]},"yanked":false}
+{
+    "name": "worker-ratelimit",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "serde_json",
+            "req": "^1.0.114",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^1.0.58",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "worker",
+            "req": "^0.0.21",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "worker-kv",
+            "req": "^0.6.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "85e061876fd6943c51661c85901582cac7f82fe10aea54850de3e940eb341c61",
+    "features": {
+        "default": [
+            "worker-sdk"
+        ],
+        "worker-sdk": [
+            "worker"
+        ]
+    },
+    "yanked": false
+}

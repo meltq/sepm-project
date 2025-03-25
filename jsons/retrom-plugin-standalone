@@ -1,1 +1,120 @@
-{"name":"retrom-plugin-standalone","vers":"0.5.0","deps":[{"name":"local-ip-address","req":"^0.6.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"retrom-codegen","req":"^0.5.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"retrom-plugin-config","req":"^0.5.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"retrom-service","req":"^0.5.0","features":["embedded_db"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.197","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tauri","req":"^2.0.0-rc.8","features":["tracing"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tauri-plugin","req":"^2.0.0-rc.6","features":["build"],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"thiserror","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.37.0","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing","req":"^0.1.40","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"urlencoding","req":"^2.1.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"adea39116dc71f76dccf814f8682ebc9dea9849f1f34ce6a8021259460aa78c1","features":{},"yanked":false,"links":"tauri-plugin-standalone","rust_version":"1.80"}
+{
+    "name": "retrom-plugin-standalone",
+    "vers": "0.5.0",
+    "deps": [
+        {
+            "name": "local-ip-address",
+            "req": "^0.6.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "retrom-codegen",
+            "req": "^0.5.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "retrom-plugin-config",
+            "req": "^0.5.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "retrom-service",
+            "req": "^0.5.0",
+            "features": [
+                "embedded_db"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.197",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tauri",
+            "req": "^2.0.0-rc.8",
+            "features": [
+                "tracing"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tauri-plugin",
+            "req": "^2.0.0-rc.6",
+            "features": [
+                "build"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "thiserror",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.37.0",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1.40",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "urlencoding",
+            "req": "^2.1.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "adea39116dc71f76dccf814f8682ebc9dea9849f1f34ce6a8021259460aa78c1",
+    "features": {},
+    "yanked": false,
+    "links": "tauri-plugin-standalone",
+    "rust_version": "1.80"
+}

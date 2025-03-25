@@ -1,1 +1,62 @@
-{"name":"pktmon","vers":"0.1.0","deps":[{"name":"cidr","req":"^0.2.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"colog","req":"^1.3.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"log","req":"^0.4.25","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"utf16string","req":"^0.2.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"windows","req":"^0.48","features":["Win32_Foundation","Win32_Security","Win32_System_Services","Win32_Storage_FileSystem","Win32_System_IO","Win32_System_Time","Win32_System_Diagnostics_Etw"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"f7b2b86cd1f6411a8af27e5051ab1d760bfe02d29e2d73b29cbae806d90e1161","features":{},"yanked":false}
+{
+    "name": "pktmon",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "cidr",
+            "req": "^0.2.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "colog",
+            "req": "^1.3.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "log",
+            "req": "^0.4.25",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "utf16string",
+            "req": "^0.2.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "windows",
+            "req": "^0.48",
+            "features": [
+                "Win32_Foundation",
+                "Win32_Security",
+                "Win32_System_Services",
+                "Win32_Storage_FileSystem",
+                "Win32_System_IO",
+                "Win32_System_Time",
+                "Win32_System_Diagnostics_Etw"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "f7b2b86cd1f6411a8af27e5051ab1d760bfe02d29e2d73b29cbae806d90e1161",
+    "features": {},
+    "yanked": false
+}

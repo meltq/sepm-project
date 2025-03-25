@@ -1,1 +1,42 @@
-{"name":"aws-lambda-runtime-proxy","vers":"0.1.0","deps":[{"name":"hyper","req":"^1","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"hyper-util","req":"^0.1","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"dfbb08474a19da279873cc9b241a9cabc08f604745f9cc7a4e038f7a973168c6","features":{},"yanked":false}
+{
+    "name": "aws-lambda-runtime-proxy",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "hyper",
+            "req": "^1",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "hyper-util",
+            "req": "^0.1",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "dfbb08474a19da279873cc9b241a9cabc08f604745f9cc7a4e038f7a973168c6",
+    "features": {},
+    "yanked": false
+}

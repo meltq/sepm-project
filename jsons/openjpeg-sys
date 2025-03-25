@@ -1,1 +1,32 @@
-{"name":"openjpeg-sys","vers":"1.0.0","deps":[{"name":"cc","req":"^1.0.37","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"libc","req":"^0.2.54","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"537af6264bc9940d795b5358e891caa2aa0def878b91983fb6bd4915db97f422","features":{"parallel":["cc/parallel"]},"yanked":true,"links":"openjpeg"}
+{
+    "name": "openjpeg-sys",
+    "vers": "1.0.0",
+    "deps": [
+        {
+            "name": "cc",
+            "req": "^1.0.37",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "libc",
+            "req": "^0.2.54",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "537af6264bc9940d795b5358e891caa2aa0def878b91983fb6bd4915db97f422",
+    "features": {
+        "parallel": [
+            "cc/parallel"
+        ]
+    },
+    "yanked": true,
+    "links": "openjpeg"
+}

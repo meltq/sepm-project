@@ -1,1 +1,38 @@
-{"name":"musli-core","vers":"0.0.118","deps":[{"name":"musli","req":"=0.0.118","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"musli-macros","req":"=0.0.118","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"d39d320fe9764c2de87a533a5e336fe670cef1202ca979517e0dbfff83854dfb","features":{"alloc":[],"default":["std","alloc"],"std":[],"verbose":["musli-macros/verbose"]},"yanked":false,"rust_version":"1.76"}
+{
+    "name": "musli-core",
+    "vers": "0.0.118",
+    "deps": [
+        {
+            "name": "musli",
+            "req": "=0.0.118",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "musli-macros",
+            "req": "=0.0.118",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "d39d320fe9764c2de87a533a5e336fe670cef1202ca979517e0dbfff83854dfb",
+    "features": {
+        "alloc": [],
+        "default": [
+            "std",
+            "alloc"
+        ],
+        "std": [],
+        "verbose": [
+            "musli-macros/verbose"
+        ]
+    },
+    "yanked": false,
+    "rust_version": "1.76"
+}

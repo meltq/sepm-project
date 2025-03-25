@@ -1,1 +1,169 @@
-{"name":"fsevent-stream","vers":"0.1.0","deps":[{"name":"async-std1","req":"^1.10","features":["std"],"optional":true,"default_features":false,"target":null,"kind":"normal","package":"async-std"},{"name":"async-std1","req":"^1.10","features":["attributes"],"optional":false,"default_features":true,"target":null,"kind":"dev","package":"async-std"},{"name":"bitflags","req":"^1.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"core-foundation","req":"^0.9","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"either","req":"^1.6","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"futures-core","req":"^0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"futures-util","req":"^0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"libc","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"log","req":"^0.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"once_cell","req":"^1.8","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"pretty_env_logger","req":"^0.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"tempfile","req":"^3.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"tokio-stream","req":"^0.1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio1","req":"^1.14","features":["sync"],"optional":true,"default_features":true,"target":null,"kind":"normal","package":"tokio"},{"name":"tokio1","req":"^1.14","features":["rt-multi-thread","sync","macros"],"optional":false,"default_features":true,"target":null,"kind":"dev","package":"tokio"}],"cksum":"e1484da2928e07151424a46edc91875c551ee1805500a1194ddfc8db893d01d1","features":{"async-std":["async-std1"],"default":["tokio"],"tokio":["tokio1","tokio-stream"]},"yanked":false}
+{
+    "name": "fsevent-stream",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "async-std1",
+            "req": "^1.10",
+            "features": [
+                "std"
+            ],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal",
+            "package": "async-std"
+        },
+        {
+            "name": "async-std1",
+            "req": "^1.10",
+            "features": [
+                "attributes"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev",
+            "package": "async-std"
+        },
+        {
+            "name": "bitflags",
+            "req": "^1.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "core-foundation",
+            "req": "^0.9",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "either",
+            "req": "^1.6",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "futures-core",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "futures-util",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "libc",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "log",
+            "req": "^0.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "once_cell",
+            "req": "^1.8",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "pretty_env_logger",
+            "req": "^0.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "tempfile",
+            "req": "^3.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "tokio-stream",
+            "req": "^0.1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio1",
+            "req": "^1.14",
+            "features": [
+                "sync"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal",
+            "package": "tokio"
+        },
+        {
+            "name": "tokio1",
+            "req": "^1.14",
+            "features": [
+                "rt-multi-thread",
+                "sync",
+                "macros"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev",
+            "package": "tokio"
+        }
+    ],
+    "cksum": "e1484da2928e07151424a46edc91875c551ee1805500a1194ddfc8db893d01d1",
+    "features": {
+        "async-std": [
+            "async-std1"
+        ],
+        "default": [
+            "tokio"
+        ],
+        "tokio": [
+            "tokio1",
+            "tokio-stream"
+        ]
+    },
+    "yanked": false
+}

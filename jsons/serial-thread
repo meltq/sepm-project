@@ -1,1 +1,59 @@
-{"name":"serial-thread","vers":"0.0.1","deps":[{"name":"async-channel","req":"^2.2.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"log","req":"^0.4.21","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serial","req":"^0.4.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serialport","req":"^4.3.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.36.0","features":["rt","rt-multi-thread","macros","time"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"79de7b2ee1916d2ea69c5baae5d36628f500c4661abd8d0a6c6a6cf7e8833f21","features":{},"yanked":false}
+{
+    "name": "serial-thread",
+    "vers": "0.0.1",
+    "deps": [
+        {
+            "name": "async-channel",
+            "req": "^2.2.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "log",
+            "req": "^0.4.21",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serial",
+            "req": "^0.4.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serialport",
+            "req": "^4.3.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.36.0",
+            "features": [
+                "rt",
+                "rt-multi-thread",
+                "macros",
+                "time"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "79de7b2ee1916d2ea69c5baae5d36628f500c4661abd8d0a6c6a6cf7e8833f21",
+    "features": {},
+    "yanked": false
+}

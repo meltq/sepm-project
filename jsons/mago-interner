@@ -1,1 +1,42 @@
-{"name":"mago-interner","vers":"0.0.0","deps":[{"name":"criterion","req":"^0.5.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"lasso","req":"^0.7.3","features":["multi-threaded","ahasher","inline-more"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"bf4f36941bc37b409e1e72a924bb5eb27b034893368a5af09f4d05cf18ce6c7c","features":{},"yanked":false}
+{
+    "name": "mago-interner",
+    "vers": "0.0.0",
+    "deps": [
+        {
+            "name": "criterion",
+            "req": "^0.5.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "lasso",
+            "req": "^0.7.3",
+            "features": [
+                "multi-threaded",
+                "ahasher",
+                "inline-more"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "bf4f36941bc37b409e1e72a924bb5eb27b034893368a5af09f4d05cf18ce6c7c",
+    "features": {},
+    "yanked": false
+}

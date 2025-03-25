@@ -1,1 +1,114 @@
-{"name":"relib_module","vers":"0.1.2","deps":[{"name":"backtrace","req":"^0.3.74","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"libc","req":"^0.2.164","features":[],"optional":false,"default_features":true,"target":"cfg(target_os = \"linux\")","kind":"normal"},{"name":"relib_export","req":"=0.1.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"relib_interface","req":"=0.1.2","features":["include"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"relib_interface","req":"=0.1.2","features":["internal","build"],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"relib_internal_crate_compilation_info","req":"=0.1.2","features":["normal"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"relib_internal_crate_compilation_info","req":"=0.1.2","features":["build"],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"relib_internal_shared","req":"=0.1.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"relib_internal_shared","req":"=0.1.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"thread-id","req":"^5.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"19d3a9a54eb9d8a4a03d2497f08f116025eaa5781719e2e8c974ae4bc4e1a13a","features":{"default":["global_alloc_tracker"],"global_alloc_tracker":[]},"yanked":false,"rust_version":"1.83.0"}
+{
+    "name": "relib_module",
+    "vers": "0.1.2",
+    "deps": [
+        {
+            "name": "backtrace",
+            "req": "^0.3.74",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "libc",
+            "req": "^0.2.164",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": "cfg(target_os = \"linux\")",
+            "kind": "normal"
+        },
+        {
+            "name": "relib_export",
+            "req": "=0.1.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "relib_interface",
+            "req": "=0.1.2",
+            "features": [
+                "include"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "relib_interface",
+            "req": "=0.1.2",
+            "features": [
+                "internal",
+                "build"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "relib_internal_crate_compilation_info",
+            "req": "=0.1.2",
+            "features": [
+                "normal"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "relib_internal_crate_compilation_info",
+            "req": "=0.1.2",
+            "features": [
+                "build"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "relib_internal_shared",
+            "req": "=0.1.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "relib_internal_shared",
+            "req": "=0.1.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "thread-id",
+            "req": "^5.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "19d3a9a54eb9d8a4a03d2497f08f116025eaa5781719e2e8c974ae4bc4e1a13a",
+    "features": {
+        "default": [
+            "global_alloc_tracker"
+        ],
+        "global_alloc_tracker": []
+    },
+    "yanked": false,
+    "rust_version": "1.83.0"
+}

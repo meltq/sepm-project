@@ -1,1 +1,54 @@
-{"name":"hdp-primitives","vers":"0.1.0","deps":[{"name":"alloy-primitives","req":"^0.6.2","features":["rlp","serde"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"alloy-rlp","req":"^0.3.4","features":["derive","derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"anyhow","req":"^1.0.79","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0","features":["derive","derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"8fbebb57a9dd828d8a036c1f2fcd6ffbd98de370f931f4c1a0ea2d919b3d5ce0","features":{},"yanked":false}
+{
+    "name": "hdp-primitives",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "alloy-primitives",
+            "req": "^0.6.2",
+            "features": [
+                "rlp",
+                "serde"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "alloy-rlp",
+            "req": "^0.3.4",
+            "features": [
+                "derive",
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "anyhow",
+            "req": "^1.0.79",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [
+                "derive",
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "8fbebb57a9dd828d8a036c1f2fcd6ffbd98de370f931f4c1a0ea2d919b3d5ce0",
+    "features": {},
+    "yanked": false
+}

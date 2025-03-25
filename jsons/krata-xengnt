@@ -1,1 +1,38 @@
-{"name":"krata-xengnt","vers":"0.0.2","deps":[{"name":"libc","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"nix","req":"^0.28.0","features":["ioctl"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"4dfa60807de405d8584660272b14acc506306d8ed8cab9f8856446ae2838696a","features":{},"yanked":false}
+{
+    "name": "krata-xengnt",
+    "vers": "0.0.2",
+    "deps": [
+        {
+            "name": "libc",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "nix",
+            "req": "^0.28.0",
+            "features": [
+                "ioctl"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "4dfa60807de405d8584660272b14acc506306d8ed8cab9f8856446ae2838696a",
+    "features": {},
+    "yanked": false
+}

@@ -1,1 +1,50 @@
-{"name":"gocardless-unofficial","vers":"0.1.0","deps":[{"name":"reqwest","req":"^0.12.4","features":["json"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"secrecy","req":"^0.8.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.199","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.116","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"77a5a9185ff223915365f35f7fe98f5472640aa72e0bd623c41e60ca4982530a","features":{},"yanked":false,"rust_version":"1.63.0"}
+{
+    "name": "gocardless-unofficial",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "reqwest",
+            "req": "^0.12.4",
+            "features": [
+                "json"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "secrecy",
+            "req": "^0.8.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.199",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.116",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "77a5a9185ff223915365f35f7fe98f5472640aa72e0bd623c41e60ca4982530a",
+    "features": {},
+    "yanked": false,
+    "rust_version": "1.63.0"
+}

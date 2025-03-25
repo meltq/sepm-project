@@ -1,1 +1,77 @@
-{"name":"memtest","vers":"0.1.0","deps":[{"name":"anyhow","req":"^1.0.69","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"libc","req":"^0.2.158","features":[],"optional":false,"default_features":true,"target":"cfg(unix)","kind":"normal"},{"name":"num_cpus","req":"^1.16.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rand","req":"^0.8.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing","req":"^0.1.37","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing-subscriber","req":"^0.3.18","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"windows","req":"^0.58.0","features":["Win32_Foundation","Win32_System_Memory","Win32_System_SystemInformation","Win32_System_Threading"],"optional":false,"default_features":true,"target":"cfg(windows)","kind":"normal"}],"cksum":"158bcc007dd2f2345e5f832723a5c4c0097d7e8b53f2d2cc64b388d62070044e","features":{},"yanked":false}
+{
+    "name": "memtest",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "anyhow",
+            "req": "^1.0.69",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "libc",
+            "req": "^0.2.158",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": "cfg(unix)",
+            "kind": "normal"
+        },
+        {
+            "name": "num_cpus",
+            "req": "^1.16.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rand",
+            "req": "^0.8.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1.37",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing-subscriber",
+            "req": "^0.3.18",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "windows",
+            "req": "^0.58.0",
+            "features": [
+                "Win32_Foundation",
+                "Win32_System_Memory",
+                "Win32_System_SystemInformation",
+                "Win32_System_Threading"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": "cfg(windows)",
+            "kind": "normal"
+        }
+    ],
+    "cksum": "158bcc007dd2f2345e5f832723a5c4c0097d7e8b53f2d2cc64b388d62070044e",
+    "features": {},
+    "yanked": false
+}

@@ -1,1 +1,74 @@
-{"name":"cargo-nvim","vers":"0.1.0","deps":[{"name":"mlua","req":"^0.9","features":["luajit","module"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"mlua","req":"^0.9","features":["luajit"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"reqwest","req":"^0.11","features":["json"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.0","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"d8bb61b902674208080f981b3e3800d29bf96eeffbc6d700a9f0b095ed915c24","features":{},"yanked":false}
+{
+    "name": "cargo-nvim",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "mlua",
+            "req": "^0.9",
+            "features": [
+                "luajit",
+                "module"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "mlua",
+            "req": "^0.9",
+            "features": [
+                "luajit"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "reqwest",
+            "req": "^0.11",
+            "features": [
+                "json"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.0",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "d8bb61b902674208080f981b3e3800d29bf96eeffbc6d700a9f0b095ed915c24",
+    "features": {},
+    "yanked": false
+}

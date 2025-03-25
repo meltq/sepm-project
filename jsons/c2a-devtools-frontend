@@ -1,1 +1,30 @@
-{"name":"c2a-devtools-frontend","vers":"0.7.0-beta.5","deps":[{"name":"opslang-wasm","req":"^0.7.0-beta.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rust-embed","req":"^8.0.0","features":["interpolate-folder-path","debug-embed"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"7657e224f21117455e9de889d15e02386594515ec2a8dad3f2013f15e121e96c","features":{},"yanked":false}
+{
+    "name": "c2a-devtools-frontend",
+    "vers": "0.7.0-beta.5",
+    "deps": [
+        {
+            "name": "opslang-wasm",
+            "req": "^0.7.0-beta.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rust-embed",
+            "req": "^8.0.0",
+            "features": [
+                "interpolate-folder-path",
+                "debug-embed"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "7657e224f21117455e9de889d15e02386594515ec2a8dad3f2013f15e121e96c",
+    "features": {},
+    "yanked": false
+}

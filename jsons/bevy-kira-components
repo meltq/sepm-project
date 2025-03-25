@@ -1,1 +1,54 @@
-{"name":"bevy-kira-components","vers":"0.1.0-rc.0","deps":[{"name":"bevy","req":"^0.13.0","features":["bevy_asset"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"kira","req":"^0.8.7","features":["serde"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.197","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^1.0.57","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"c3f11b9408fcac689ecae88bd4c0ba18b74e16ce78b63d8dfbb4df229b172c2b","features":{"default":[],"diagnostics":[]},"yanked":false}
+{
+    "name": "bevy-kira-components",
+    "vers": "0.1.0-rc.0",
+    "deps": [
+        {
+            "name": "bevy",
+            "req": "^0.13.0",
+            "features": [
+                "bevy_asset"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "kira",
+            "req": "^0.8.7",
+            "features": [
+                "serde"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.197",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^1.0.57",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "c3f11b9408fcac689ecae88bd4c0ba18b74e16ce78b63d8dfbb4df229b172c2b",
+    "features": {
+        "default": [],
+        "diagnostics": []
+    },
+    "yanked": false
+}

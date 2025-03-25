@@ -1,1 +1,64 @@
-{"name":"twurst-error","vers":"0.0.1","deps":[{"name":"axum-core-04","req":"^0.4.5","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal","package":"axum-core"},{"name":"http","req":"^1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.132","features":["derive"],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"4b23aa90eaa91a15861a63c013c98e3d9ae262be0a59ffeea29fc134549c70d1","features":{},"features2":{"axum-07":["dep:axum-core-04","http"],"http":["dep:http","dep:serde_json","serde"],"serde":["dep:serde"]},"yanked":false,"rust_version":"1.79","v":2}
+{
+    "name": "twurst-error",
+    "vers": "0.0.1",
+    "deps": [
+        {
+            "name": "axum-core-04",
+            "req": "^0.4.5",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal",
+            "package": "axum-core"
+        },
+        {
+            "name": "http",
+            "req": "^1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.132",
+            "features": [
+                "derive"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "4b23aa90eaa91a15861a63c013c98e3d9ae262be0a59ffeea29fc134549c70d1",
+    "features": {},
+    "features2": {
+        "axum-07": [
+            "dep:axum-core-04",
+            "http"
+        ],
+        "http": [
+            "dep:http",
+            "dep:serde_json",
+            "serde"
+        ],
+        "serde": [
+            "dep:serde"
+        ]
+    },
+    "yanked": false,
+    "rust_version": "1.79",
+    "v": 2
+}

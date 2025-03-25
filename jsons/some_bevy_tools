@@ -1,1 +1,53 @@
-{"name":"some_bevy_tools","vers":"0.1.0","deps":[{"name":"bevy","req":"^0.13.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"bevy_rapier2d","req":"^0.25.0","features":["debug-render-2d"],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"bevy_rapier3d","req":"^0.25.0","features":["debug-render"],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"4c9537592d219758337d23a245329c4d1a4bba08d82378f5ea58aa46d6b82bac","features":{"default":["bevy_rapier2d"]},"features2":{"bevy_rapier2d":["dep:bevy_rapier2d"],"bevy_rapier3d":["dep:bevy_rapier3d"]},"yanked":false,"v":2}
+{
+    "name": "some_bevy_tools",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "bevy",
+            "req": "^0.13.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "bevy_rapier2d",
+            "req": "^0.25.0",
+            "features": [
+                "debug-render-2d"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "bevy_rapier3d",
+            "req": "^0.25.0",
+            "features": [
+                "debug-render"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "4c9537592d219758337d23a245329c4d1a4bba08d82378f5ea58aa46d6b82bac",
+    "features": {
+        "default": [
+            "bevy_rapier2d"
+        ]
+    },
+    "features2": {
+        "bevy_rapier2d": [
+            "dep:bevy_rapier2d"
+        ],
+        "bevy_rapier3d": [
+            "dep:bevy_rapier3d"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

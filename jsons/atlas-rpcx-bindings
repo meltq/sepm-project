@@ -1,1 +1,52 @@
-{"name":"atlas-rpcx-bindings","vers":"0.0.1","deps":[{"name":"base64","req":"^0.22.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.215","features":["derive","rc"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.135","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"wit-bindgen-rt","req":"^0.36.0","features":["bitflags"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"3585d7db7ec25af59055d400bfeae3ea96974656efb57079bca54f86a740d3ed","features":{"default":[]},"yanked":false}
+{
+    "name": "atlas-rpcx-bindings",
+    "vers": "0.0.1",
+    "deps": [
+        {
+            "name": "base64",
+            "req": "^0.22.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.215",
+            "features": [
+                "derive",
+                "rc"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.135",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "wit-bindgen-rt",
+            "req": "^0.36.0",
+            "features": [
+                "bitflags"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "3585d7db7ec25af59055d400bfeae3ea96974656efb57079bca54f86a740d3ed",
+    "features": {
+        "default": []
+    },
+    "yanked": false
+}

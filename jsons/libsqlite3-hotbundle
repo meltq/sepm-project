@@ -1,1 +1,35 @@
-{"name":"libsqlite3-hotbundle","vers":"1.470200.0","deps":[{"name":"cc","req":"^1.2.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"rusqlite","req":"^0.32.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"c19aa6a1cab8d44c10023928df01ad7ef9fdc4226b88814e853a67e26c9293a4","features":{"default":[],"double-quoted-string-literals":[],"preupdate_hook":[],"session":[],"unlock_notify":[],"wasm32-wasi-vfs":[],"with-asan":[]},"yanked":false}
+{
+    "name": "libsqlite3-hotbundle",
+    "vers": "1.470200.0",
+    "deps": [
+        {
+            "name": "cc",
+            "req": "^1.2.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "rusqlite",
+            "req": "^0.32.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "c19aa6a1cab8d44c10023928df01ad7ef9fdc4226b88814e853a67e26c9293a4",
+    "features": {
+        "default": [],
+        "double-quoted-string-literals": [],
+        "preupdate_hook": [],
+        "session": [],
+        "unlock_notify": [],
+        "wasm32-wasi-vfs": [],
+        "with-asan": []
+    },
+    "yanked": false
+}

@@ -1,1 +1,64 @@
-{"name":"noise-functions","vers":"0.0.0","deps":[{"name":"document-features","req":"^0.2","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"fast-noise-lite-rs","req":"^0.8.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"libm","req":"^0.2.8","features":[],"optional":true,"default_features":false,"target":null,"kind":"normal"},{"name":"rand","req":"^0.8.5","features":["small_rng"],"optional":false,"default_features":false,"target":null,"kind":"dev"}],"cksum":"83f6a05149372b01901aa0cd01aa7cda4d1b321ae0c4a89aa7832ce00807e492","features":{"alloc":[],"default":["std"],"nightly-const-fn-float":[],"nightly-simd":[],"std":["alloc"]},"features2":{"libm":["dep:libm"]},"yanked":false,"rust_version":"1.64.0","v":2}
+{
+    "name": "noise-functions",
+    "vers": "0.0.0",
+    "deps": [
+        {
+            "name": "document-features",
+            "req": "^0.2",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "fast-noise-lite-rs",
+            "req": "^0.8.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "libm",
+            "req": "^0.2.8",
+            "features": [],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rand",
+            "req": "^0.8.5",
+            "features": [
+                "small_rng"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "83f6a05149372b01901aa0cd01aa7cda4d1b321ae0c4a89aa7832ce00807e492",
+    "features": {
+        "alloc": [],
+        "default": [
+            "std"
+        ],
+        "nightly-const-fn-float": [],
+        "nightly-simd": [],
+        "std": [
+            "alloc"
+        ]
+    },
+    "features2": {
+        "libm": [
+            "dep:libm"
+        ]
+    },
+    "yanked": false,
+    "rust_version": "1.64.0",
+    "v": 2
+}

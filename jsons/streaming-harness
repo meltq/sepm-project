@@ -1,1 +1,53 @@
-{"name":"streaming-harness","vers":"0.1.0","deps":[{"name":"num-traits","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rand","req":"^0.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"streaming-harness-hdrhist","req":"^0.2","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"timely","req":"^0.6","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"8e6159f0442f21d0504aee5340b5b7792433c753e9c308cb2aade9539ed6246d","features":{"default":[],"hdrhist-support":["streaming-harness-hdrhist"],"timely-support":["timely"]},"yanked":false}
+{
+    "name": "streaming-harness",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "num-traits",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rand",
+            "req": "^0.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "streaming-harness-hdrhist",
+            "req": "^0.2",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "timely",
+            "req": "^0.6",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "8e6159f0442f21d0504aee5340b5b7792433c753e9c308cb2aade9539ed6246d",
+    "features": {
+        "default": [],
+        "hdrhist-support": [
+            "streaming-harness-hdrhist"
+        ],
+        "timely-support": [
+            "timely"
+        ]
+    },
+    "yanked": false
+}

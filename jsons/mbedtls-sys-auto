@@ -1,1 +1,73 @@
-{"name":"mbedtls-sys-auto","vers":"2.4.0","deps":[{"name":"bindgen","req":"^0.19.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"cmake","req":"^0.1.17","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"libc","req":"^0.2.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"libz-sys","req":"^1.0.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"5ce5d5a4de194fb71a33532014041bf4a9a63c775c7a930df40aa9415b7c2459","features":{"custom_has_support":[],"custom_printf":[],"custom_threading":["threading"],"default":["std","zlib","time","pthread"],"havege":["time"],"pkcs11":[],"pthread":["libc","threading"],"std":[],"threading":[],"time":["libc"],"zlib":["libz-sys"]},"yanked":false}
+{
+    "name": "mbedtls-sys-auto",
+    "vers": "2.4.0",
+    "deps": [
+        {
+            "name": "bindgen",
+            "req": "^0.19.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "cmake",
+            "req": "^0.1.17",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "libc",
+            "req": "^0.2.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "libz-sys",
+            "req": "^1.0.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "5ce5d5a4de194fb71a33532014041bf4a9a63c775c7a930df40aa9415b7c2459",
+    "features": {
+        "custom_has_support": [],
+        "custom_printf": [],
+        "custom_threading": [
+            "threading"
+        ],
+        "default": [
+            "std",
+            "zlib",
+            "time",
+            "pthread"
+        ],
+        "havege": [
+            "time"
+        ],
+        "pkcs11": [],
+        "pthread": [
+            "libc",
+            "threading"
+        ],
+        "std": [],
+        "threading": [],
+        "time": [
+            "libc"
+        ],
+        "zlib": [
+            "libz-sys"
+        ]
+    },
+    "yanked": false
+}

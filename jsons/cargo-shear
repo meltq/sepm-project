@@ -1,1 +1,48 @@
-{"name":"cargo-shear","vers":"0.0.1","deps":[{"name":"cargo_metadata","req":"^0.18.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"cargo_toml","req":"^0.19.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"syn","req":"^2","features":["full","visit"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"walkdir","req":"^2.5.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"23b05d7674b9b27b63da010b238e115cd56301f21e5c8eaeceaeeaba26a29c5a","features":{},"yanked":false}
+{
+    "name": "cargo-shear",
+    "vers": "0.0.1",
+    "deps": [
+        {
+            "name": "cargo_metadata",
+            "req": "^0.18.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "cargo_toml",
+            "req": "^0.19.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "syn",
+            "req": "^2",
+            "features": [
+                "full",
+                "visit"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "walkdir",
+            "req": "^2.5.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "23b05d7674b9b27b63da010b238e115cd56301f21e5c8eaeceaeeaba26a29c5a",
+    "features": {},
+    "yanked": false
+}

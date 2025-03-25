@@ -1,1 +1,98 @@
-{"name":"tide-compress","vers":"0.1.0","deps":[{"name":"async-compression","req":"^0.3","features":["futures-bufread"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"async-h1","req":"^2.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"async-std","req":"^1.6","features":["unstable"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"async-std","req":"^1.6","features":["unstable","attributes"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"futures","req":"^0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"http-types","req":"^2.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tide","req":"^0.9","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"08c9d29cf71010ed0df5e4bd46645612d14099fa84c3902f7c237475eb611486","features":{"all":["brotli","gzip","deflate"],"brotli":["async-compression/brotli"],"default":["brotli","gzip"],"deflate":["async-compression/deflate"],"gzip":["async-compression/gzip"]},"yanked":false}
+{
+    "name": "tide-compress",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "async-compression",
+            "req": "^0.3",
+            "features": [
+                "futures-bufread"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "async-h1",
+            "req": "^2.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "async-std",
+            "req": "^1.6",
+            "features": [
+                "unstable"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "async-std",
+            "req": "^1.6",
+            "features": [
+                "unstable",
+                "attributes"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "futures",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "http-types",
+            "req": "^2.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tide",
+            "req": "^0.9",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "08c9d29cf71010ed0df5e4bd46645612d14099fa84c3902f7c237475eb611486",
+    "features": {
+        "all": [
+            "brotli",
+            "gzip",
+            "deflate"
+        ],
+        "brotli": [
+            "async-compression/brotli"
+        ],
+        "default": [
+            "brotli",
+            "gzip"
+        ],
+        "deflate": [
+            "async-compression/deflate"
+        ],
+        "gzip": [
+            "async-compression/gzip"
+        ]
+    },
+    "yanked": false
+}

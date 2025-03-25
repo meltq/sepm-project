@@ -1,1 +1,134 @@
-{"name":"bonsol-interface","vers":"0.1.0","deps":[{"name":"anchor-lang","req":">=0.28","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"arrayref","req":"^0.3.6","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"bonsol-schema","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"bytemuck","req":"^1.15.0","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"flatbuffers","req":"^24.3.25","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"hex","req":"^0.4.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"paste","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.197","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"sha3","req":"^0.10","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"solana-program","req":"^1.18.22","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"solana-sdk","req":"^1.18.22","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^1.0.57","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"1866c354ee8abbdae08c85028357d6f6608e0417732956fdd250ccf6c652cce5","features":{"anchor":["on-chain","anchor-lang"],"default":["solana-sdk","serde"],"idl-build":["anchor-lang/idl-build"],"on-chain":["solana-program"]},"yanked":false}
+{
+    "name": "bonsol-interface",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "anchor-lang",
+            "req": ">=0.28",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "arrayref",
+            "req": "^0.3.6",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "bonsol-schema",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "bytemuck",
+            "req": "^1.15.0",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "flatbuffers",
+            "req": "^24.3.25",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "hex",
+            "req": "^0.4.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "paste",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.197",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "sha3",
+            "req": "^0.10",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "solana-program",
+            "req": "^1.18.22",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "solana-sdk",
+            "req": "^1.18.22",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^1.0.57",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "1866c354ee8abbdae08c85028357d6f6608e0417732956fdd250ccf6c652cce5",
+    "features": {
+        "anchor": [
+            "on-chain",
+            "anchor-lang"
+        ],
+        "default": [
+            "solana-sdk",
+            "serde"
+        ],
+        "idl-build": [
+            "anchor-lang/idl-build"
+        ],
+        "on-chain": [
+            "solana-program"
+        ]
+    },
+    "yanked": false
+}

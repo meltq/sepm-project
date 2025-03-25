@@ -1,1 +1,76 @@
-{"name":"swamp-script-parser","vers":"0.0.2-a03","deps":[{"name":"fixed32","req":"^0.0.17","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"pest","req":"^2.7.14","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"pest_derive","req":"^2.7.14","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"seq-map","req":"^0.0.11","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"swamp-script-ast","req":"^0.0.2-a03","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"test-log","req":"^0.2.16","features":["trace","log","color"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"tracing","req":"^0.1.40","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"10d6f3d82959c72406d7ca3ab2c834342277ce7c76cb623d4ede5714b1b0873f","features":{},"yanked":false}
+{
+    "name": "swamp-script-parser",
+    "vers": "0.0.2-a03",
+    "deps": [
+        {
+            "name": "fixed32",
+            "req": "^0.0.17",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "pest",
+            "req": "^2.7.14",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "pest_derive",
+            "req": "^2.7.14",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "seq-map",
+            "req": "^0.0.11",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "swamp-script-ast",
+            "req": "^0.0.2-a03",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "test-log",
+            "req": "^0.2.16",
+            "features": [
+                "trace",
+                "log",
+                "color"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "tracing",
+            "req": "^0.1.40",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "10d6f3d82959c72406d7ca3ab2c834342277ce7c76cb623d4ede5714b1b0873f",
+    "features": {},
+    "yanked": false
+}

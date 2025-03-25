@@ -1,1 +1,44 @@
-{"name":"solid","vers":"0.1.0","deps":[{"name":"solid-core","req":"^0.1.0","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"solid-derive","req":"^0.1.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"253e69edc47071f09eaaf367442ca3c7a03c51bc2fabff4c69ab62cd10b733e8","features":{"bigint":["solid-core/bigint"],"default":["serde","derive"],"derive":["solid-derive"],"nightly":["solid-core/nightly"],"serde":["solid-core/derive"]},"yanked":false}
+{
+    "name": "solid",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "solid-core",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "solid-derive",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "253e69edc47071f09eaaf367442ca3c7a03c51bc2fabff4c69ab62cd10b733e8",
+    "features": {
+        "bigint": [
+            "solid-core/bigint"
+        ],
+        "default": [
+            "serde",
+            "derive"
+        ],
+        "derive": [
+            "solid-derive"
+        ],
+        "nightly": [
+            "solid-core/nightly"
+        ],
+        "serde": [
+            "solid-core/derive"
+        ]
+    },
+    "yanked": false
+}

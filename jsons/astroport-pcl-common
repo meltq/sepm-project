@@ -1,1 +1,92 @@
-{"name":"astroport-pcl-common","vers":"1.1.0","deps":[{"name":"anyhow","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"astroport","req":"^3.7","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"astroport-factory","req":"^1.6","features":["library"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"cosmwasm-schema","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"cosmwasm-std","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"cw-storage-plus","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"cw20","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"itertools","req":"^0.11","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"e35b37e6c1828e3aabd6b739a6fdaf4c07b40cb14435b045bf988fba108666a8","features":{},"yanked":false}
+{
+    "name": "astroport-pcl-common",
+    "vers": "1.1.0",
+    "deps": [
+        {
+            "name": "anyhow",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "astroport",
+            "req": "^3.7",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "astroport-factory",
+            "req": "^1.6",
+            "features": [
+                "library"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "cosmwasm-schema",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "cosmwasm-std",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "cw-storage-plus",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "cw20",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "itertools",
+            "req": "^0.11",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "e35b37e6c1828e3aabd6b739a6fdaf4c07b40cb14435b045bf988fba108666a8",
+    "features": {},
+    "yanked": false
+}

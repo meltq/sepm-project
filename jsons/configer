@@ -1,1 +1,38 @@
-{"name":"configer","vers":"0.1.0","deps":[{"name":"chrono","req":"^0.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"chronounit","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"snowflaker","req":"^0.3","features":["dynamic"],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"b0ceb7a9fa8422968fc88cba3bc3a36fc46c9c26bd66f1c1d7adda5246976fee","features":{},"yanked":false}
+{
+    "name": "configer",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "chrono",
+            "req": "^0.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "chronounit",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "snowflaker",
+            "req": "^0.3",
+            "features": [
+                "dynamic"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "b0ceb7a9fa8422968fc88cba3bc3a36fc46c9c26bd66f1c1d7adda5246976fee",
+    "features": {},
+    "yanked": false
+}

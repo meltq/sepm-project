@@ -1,1 +1,74 @@
-{"name":"onechatsocial-config","vers":"0.6.13","deps":[{"name":"async-std","req":"^1.8.0","features":["attributes"],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"cached","req":"^0.44.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"config","req":"^0.13.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"futures-locks","req":"^0.7.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"once_cell","req":"^1.18.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"72af833e396ca7d645f985ef8b8e2086fb9eef8ecef17c364dc0e5f87ee88fb5","features":{"default":["test"],"test":["async-std"]},"yanked":false}
+{
+    "name": "onechatsocial-config",
+    "vers": "0.6.13",
+    "deps": [
+        {
+            "name": "async-std",
+            "req": "^1.8.0",
+            "features": [
+                "attributes"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "cached",
+            "req": "^0.44.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "config",
+            "req": "^0.13.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "futures-locks",
+            "req": "^0.7.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "once_cell",
+            "req": "^1.18.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "72af833e396ca7d645f985ef8b8e2086fb9eef8ecef17c364dc0e5f87ee88fb5",
+    "features": {
+        "default": [
+            "test"
+        ],
+        "test": [
+            "async-std"
+        ]
+    },
+    "yanked": false
+}

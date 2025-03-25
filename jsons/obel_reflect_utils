@@ -1,1 +1,61 @@
-{"name":"obel_reflect_utils","vers":"0.0.5","deps":[{"name":"obel_platform","req":"^0.0.5","features":["std"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"proc-macro2","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"quote","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"syn","req":"^2.0","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"toml_edit","req":"^0.22.7","features":["parse"],"optional":false,"default_features":false,"target":null,"kind":"normal"}],"cksum":"1ce96fe9d5c5c67ef2f5b8edeb0589f4fdad68a3939bb104ea24a92ea94174be","features":{},"yanked":false,"rust_version":"1.82.0"}
+{
+    "name": "obel_reflect_utils",
+    "vers": "0.0.5",
+    "deps": [
+        {
+            "name": "obel_platform",
+            "req": "^0.0.5",
+            "features": [
+                "std"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "proc-macro2",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "quote",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "syn",
+            "req": "^2.0",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "toml_edit",
+            "req": "^0.22.7",
+            "features": [
+                "parse"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "1ce96fe9d5c5c67ef2f5b8edeb0589f4fdad68a3939bb104ea24a92ea94174be",
+    "features": {},
+    "yanked": false,
+    "rust_version": "1.82.0"
+}

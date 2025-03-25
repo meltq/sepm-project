@@ -1,1 +1,79 @@
-{"name":"csgrs","vers":"0.2.0","deps":[{"name":"chull","req":"^0.2.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"meshtext","req":"^0.3.1","features":["owned"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"nalgebra","req":"^0.33","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"parry3d-f64","req":"^0.18.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rapier3d-f64","req":"^0.23.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rayon","req":"^1.7","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"stl_io","req":"^0.8.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"8ba26eccc2eb22ed81daf8ea6c89aca7a2d78e404e7e14ff09aae4e89a90d7d8","features":{"default":[],"parallel":["rayon"]},"yanked":false}
+{
+    "name": "csgrs",
+    "vers": "0.2.0",
+    "deps": [
+        {
+            "name": "chull",
+            "req": "^0.2.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "meshtext",
+            "req": "^0.3.1",
+            "features": [
+                "owned"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "nalgebra",
+            "req": "^0.33",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "parry3d-f64",
+            "req": "^0.18.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rapier3d-f64",
+            "req": "^0.23.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rayon",
+            "req": "^1.7",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "stl_io",
+            "req": "^0.8.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "8ba26eccc2eb22ed81daf8ea6c89aca7a2d78e404e7e14ff09aae4e89a90d7d8",
+    "features": {
+        "default": [],
+        "parallel": [
+            "rayon"
+        ]
+    },
+    "yanked": false
+}

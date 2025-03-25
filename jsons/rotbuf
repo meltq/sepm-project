@@ -1,1 +1,47 @@
-{"name":"rotbuf","vers":"0.0.1","deps":[{"name":"bytes","req":"^1.6.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"env_logger","req":"^0.11.3","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"log","req":"^0.4.21","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"fa41603d10c6ebc7fc6996a14d5886837663066aa33321a2c34ee11db4bad597","features":{"default":["DEBUG_TRACING"]},"features2":{"DEBUG_TRACING":["dep:env_logger","dep:log"]},"yanked":false,"v":2}
+{
+    "name": "rotbuf",
+    "vers": "0.0.1",
+    "deps": [
+        {
+            "name": "bytes",
+            "req": "^1.6.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "env_logger",
+            "req": "^0.11.3",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "log",
+            "req": "^0.4.21",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "fa41603d10c6ebc7fc6996a14d5886837663066aa33321a2c34ee11db4bad597",
+    "features": {
+        "default": [
+            "DEBUG_TRACING"
+        ]
+    },
+    "features2": {
+        "DEBUG_TRACING": [
+            "dep:env_logger",
+            "dep:log"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

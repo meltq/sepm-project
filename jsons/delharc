@@ -1,1 +1,53 @@
-{"name":"delharc","vers":"0.1.0","deps":[{"name":"bitflags","req":"^1.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"chrono","req":"^0.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"crc-any","req":"^2.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"rand","req":"^0.7","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"c4e83293ef93491a6201311aa9466fa3ef56b0e4dd152f85cecbfed451709f4a","features":{"default":["lh1","lz"],"lh1":[],"lhx":[],"lz":[]},"yanked":false}
+{
+    "name": "delharc",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "bitflags",
+            "req": "^1.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "chrono",
+            "req": "^0.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "crc-any",
+            "req": "^2.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "rand",
+            "req": "^0.7",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "c4e83293ef93491a6201311aa9466fa3ef56b0e4dd152f85cecbfed451709f4a",
+    "features": {
+        "default": [
+            "lh1",
+            "lz"
+        ],
+        "lh1": [],
+        "lhx": [],
+        "lz": []
+    },
+    "yanked": false
+}

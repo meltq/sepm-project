@@ -1,1 +1,50 @@
-{"name":"amfiteatr_proc_macro","vers":"0.3.0","deps":[{"name":"enum-map-derive","req":"^0.17.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"proc-macro2","req":"^1.0.78","features":["proc-macro"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"quote","req":"^1.0.35","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"syn","req":"^2.0.52","features":["full","fold"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"0ed70a0790c7c723a226d13c8f99fdd232d64f43e5b154f001f5bf6ac95e52f6","features":{},"yanked":false}
+{
+    "name": "amfiteatr_proc_macro",
+    "vers": "0.3.0",
+    "deps": [
+        {
+            "name": "enum-map-derive",
+            "req": "^0.17.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "proc-macro2",
+            "req": "^1.0.78",
+            "features": [
+                "proc-macro"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "quote",
+            "req": "^1.0.35",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "syn",
+            "req": "^2.0.52",
+            "features": [
+                "full",
+                "fold"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "0ed70a0790c7c723a226d13c8f99fdd232d64f43e5b154f001f5bf6ac95e52f6",
+    "features": {},
+    "yanked": false
+}

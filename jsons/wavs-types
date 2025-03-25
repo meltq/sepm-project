@@ -1,1 +1,88 @@
-{"name":"wavs-types","vers":"0.3.0-alpha1","deps":[{"name":"alloy-primitives","req":"^0.8.20","features":["serde"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"const-hex","req":"^1.14.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"cosmwasm-std","req":"^2.2.0","features":["stargate"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"layer-climb-address","req":"^0.3.6","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.211","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.127","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"sha2","req":"^0.10.8","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^1.0.42","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"40885d732b9f305dd6f5ccebee01e2a3354ed233af89a0485b2038499ed79ce9","features":{},"yanked":false,"rust_version":"1.84.0"}
+{
+    "name": "wavs-types",
+    "vers": "0.3.0-alpha1",
+    "deps": [
+        {
+            "name": "alloy-primitives",
+            "req": "^0.8.20",
+            "features": [
+                "serde"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "const-hex",
+            "req": "^1.14.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "cosmwasm-std",
+            "req": "^2.2.0",
+            "features": [
+                "stargate"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "layer-climb-address",
+            "req": "^0.3.6",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.211",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.127",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "sha2",
+            "req": "^0.10.8",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^1.0.42",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "40885d732b9f305dd6f5ccebee01e2a3354ed233af89a0485b2038499ed79ce9",
+    "features": {},
+    "yanked": false,
+    "rust_version": "1.84.0"
+}

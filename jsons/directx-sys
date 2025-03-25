@@ -1,1 +1,60 @@
-{"name":"directx-sys","vers":"0.0.1","deps":[{"name":"bitflags","req":"*","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"com-rs","req":"^0.1.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"libc","req":"*","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"winapi","req":"*","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"77fef8dfc26206c058b110b158322f1b0f0d411de5f3ab9f75e68ac95d98f891","features":{"d3d11":["dxgi"],"default":["dxgi1_3","d3d11"],"dxgi":[],"dxgi1_2":["dxgi"],"dxgi1_3":["dxgi1_2"]},"yanked":false}
+{
+    "name": "directx-sys",
+    "vers": "0.0.1",
+    "deps": [
+        {
+            "name": "bitflags",
+            "req": "*",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "com-rs",
+            "req": "^0.1.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "libc",
+            "req": "*",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "winapi",
+            "req": "*",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "77fef8dfc26206c058b110b158322f1b0f0d411de5f3ab9f75e68ac95d98f891",
+    "features": {
+        "d3d11": [
+            "dxgi"
+        ],
+        "default": [
+            "dxgi1_3",
+            "d3d11"
+        ],
+        "dxgi": [],
+        "dxgi1_2": [
+            "dxgi"
+        ],
+        "dxgi1_3": [
+            "dxgi1_2"
+        ]
+    },
+    "yanked": false
+}

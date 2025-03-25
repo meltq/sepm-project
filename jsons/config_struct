@@ -1,1 +1,68 @@
-{"name":"config_struct","vers":"0.1.0","deps":[{"name":"failure","req":"~0.1.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"ron","req":"~0.1.4","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"~1.0.8","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_yaml","req":"~0.7.3","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"toml","req":"~0.4.5","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"57f4c4e9ca01bc1c544987ba7ad5dad76107a8e2240265e040082355a9b452a7","features":{"default":[],"json-parsing":["serde_json"],"ron-parsing":["ron"],"toml-parsing":["toml"],"yaml-parsing":["serde_yaml"]},"yanked":false}
+{
+    "name": "config_struct",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "failure",
+            "req": "~0.1.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ron",
+            "req": "~0.1.4",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "~1.0.8",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_yaml",
+            "req": "~0.7.3",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "toml",
+            "req": "~0.4.5",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "57f4c4e9ca01bc1c544987ba7ad5dad76107a8e2240265e040082355a9b452a7",
+    "features": {
+        "default": [],
+        "json-parsing": [
+            "serde_json"
+        ],
+        "ron-parsing": [
+            "ron"
+        ],
+        "toml-parsing": [
+            "toml"
+        ],
+        "yaml-parsing": [
+            "serde_yaml"
+        ]
+    },
+    "yanked": false
+}

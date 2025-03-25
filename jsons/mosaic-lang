@@ -1,1 +1,75 @@
-{"name":"mosaic-lang","vers":"0.0.1","deps":[{"name":"colored","req":"^2.2.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"cranelift-codegen","req":"^0.115.0","features":["all-arch"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"cranelift-frontend","req":"^0.115.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"cranelift-module","req":"^0.115.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"cranelift-native","req":"^0.115.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"cranelift-object","req":"^0.115.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"target-lexicon","req":"^0.12.16","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"c0f0faf9c82c2132e116f7e0bb3d6d5eb8d30593b2be3e542e328b62fb86fde9","features":{},"yanked":false,"rust_version":"1.80.0"}
+{
+    "name": "mosaic-lang",
+    "vers": "0.0.1",
+    "deps": [
+        {
+            "name": "colored",
+            "req": "^2.2.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "cranelift-codegen",
+            "req": "^0.115.0",
+            "features": [
+                "all-arch"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "cranelift-frontend",
+            "req": "^0.115.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "cranelift-module",
+            "req": "^0.115.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "cranelift-native",
+            "req": "^0.115.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "cranelift-object",
+            "req": "^0.115.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "target-lexicon",
+            "req": "^0.12.16",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "c0f0faf9c82c2132e116f7e0bb3d6d5eb8d30593b2be3e542e328b62fb86fde9",
+    "features": {},
+    "yanked": false,
+    "rust_version": "1.80.0"
+}

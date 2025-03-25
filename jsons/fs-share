@@ -1,1 +1,30 @@
-{"name":"fs-share","vers":"0.1.0-dev","deps":[{"name":"clap","req":"^4.5.15","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"share-utils","req":"^0.1.0-dev","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal","package":"fs-share-utils"}],"cksum":"0593e3abd8676362bc6d09af19cc687fd204aae7a3bbd857ce49261e7971bbfd","features":{},"yanked":true}
+{
+    "name": "fs-share",
+    "vers": "0.1.0-dev",
+    "deps": [
+        {
+            "name": "clap",
+            "req": "^4.5.15",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "share-utils",
+            "req": "^0.1.0-dev",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal",
+            "package": "fs-share-utils"
+        }
+    ],
+    "cksum": "0593e3abd8676362bc6d09af19cc687fd204aae7a3bbd857ce49261e7971bbfd",
+    "features": {},
+    "yanked": true
+}

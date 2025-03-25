@@ -1,1 +1,21 @@
-{"name":"lealang_chalk_rs","vers":"1.1.0","deps":[{"name":"windows","req":">=0.57.0","features":["Win32_Foundation","Win32_System_Console"],"optional":false,"default_features":true,"target":"cfg(windows)","kind":"normal"}],"cksum":"603dd373983a49719f621879b0a4ea714585c9fcb780255c93a5f17af38e4e04","features":{},"yanked":false}
+{
+    "name": "lealang_chalk_rs",
+    "vers": "1.1.0",
+    "deps": [
+        {
+            "name": "windows",
+            "req": ">=0.57.0",
+            "features": [
+                "Win32_Foundation",
+                "Win32_System_Console"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": "cfg(windows)",
+            "kind": "normal"
+        }
+    ],
+    "cksum": "603dd373983a49719f621879b0a4ea714585c9fcb780255c93a5f17af38e4e04",
+    "features": {},
+    "yanked": false
+}

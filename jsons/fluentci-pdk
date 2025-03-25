@@ -1,1 +1,39 @@
-{"name":"fluentci-pdk","vers":"0.1.1","deps":[{"name":"extism-pdk","req":"^1.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"fluentci-types","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.197","features":["serde_derive","derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"5804b443f4dd0982ad791732fe848ae1695b99e0c5fa5e25abf0624d3cb29a3a","features":{},"yanked":false}
+{
+    "name": "fluentci-pdk",
+    "vers": "0.1.1",
+    "deps": [
+        {
+            "name": "extism-pdk",
+            "req": "^1.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "fluentci-types",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.197",
+            "features": [
+                "serde_derive",
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "5804b443f4dd0982ad791732fe848ae1695b99e0c5fa5e25abf0624d3cb29a3a",
+    "features": {},
+    "yanked": false
+}

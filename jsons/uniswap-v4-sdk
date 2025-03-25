@@ -1,1 +1,106 @@
-{"name":"uniswap-v4-sdk","vers":"0.1.0","deps":[{"name":"alloy-primitives","req":"^0.8","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"alloy-signer","req":"^0.8","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"alloy-signer-local","req":"^0.8","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"alloy-sol-types","req":"^0.8","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"derive_more","req":"^1.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"once_cell","req":"^1.20.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"rustc-hash","req":"^2.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^2","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"uniswap-sdk-core","req":"^3.2.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"uniswap-v3-sdk","req":"^2.9.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"58eab9e658c54627bb9f598da7c21e580f5fb93364c5679940083c78ea8063da","features":{"default":[],"std":["thiserror/std","uniswap-sdk-core/std","uniswap-v3-sdk/std"]},"yanked":false}
+{
+    "name": "uniswap-v4-sdk",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "alloy-primitives",
+            "req": "^0.8",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "alloy-signer",
+            "req": "^0.8",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "alloy-signer-local",
+            "req": "^0.8",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "alloy-sol-types",
+            "req": "^0.8",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "derive_more",
+            "req": "^1.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "once_cell",
+            "req": "^1.20.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "rustc-hash",
+            "req": "^2.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^2",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "uniswap-sdk-core",
+            "req": "^3.2.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "uniswap-v3-sdk",
+            "req": "^2.9.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "58eab9e658c54627bb9f598da7c21e580f5fb93364c5679940083c78ea8063da",
+    "features": {
+        "default": [],
+        "std": [
+            "thiserror/std",
+            "uniswap-sdk-core/std",
+            "uniswap-v3-sdk/std"
+        ]
+    },
+    "yanked": false
+}

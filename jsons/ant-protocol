@@ -1,1 +1,248 @@
-{"name":"ant-protocol","vers":"0.3.0","deps":[{"name":"ant-build-info","req":"^0.1.20","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"ant-evm","req":"^0.1.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"ant-registers","req":"^0.4.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"bls","req":"^8.0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal","package":"blsttc"},{"name":"bytes","req":"^1.0.1","features":["serde"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"color-eyre","req":"^0.6.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"crdts","req":"^7.3","features":["merkle"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"custom_debug","req":"~0.6.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"dirs-next","req":"~2.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"exponential-backoff","req":"^2.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"hex","req":"~0.4.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"lazy_static","req":"^1.4.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"libp2p","req":"^0.54.1","features":["identify","kad"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"prost","req":"^0.9","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"rmp-serde","req":"^1.1.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.133","features":["derive","rc"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"sha2","req":"^0.10.7","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^1.0.23","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tiny-keccak","req":"~2.0.2","features":["sha3"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tonic","req":"^0.6.2","features":["prost","tls","codegen"],"optional":true,"default_features":false,"target":null,"kind":"normal"},{"name":"tonic-build","req":"~0.6.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"tracing","req":"~0.1.26","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"xor_name","req":"^5.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"f276b6691d18c3d92006fda69bd326e29488e06d8fad4c9b8933d8dfc512ac5e","features":{"default":[],"rpc":["tonic","prost"]},"yanked":false}
+{
+    "name": "ant-protocol",
+    "vers": "0.3.0",
+    "deps": [
+        {
+            "name": "ant-build-info",
+            "req": "^0.1.20",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ant-evm",
+            "req": "^0.1.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ant-registers",
+            "req": "^0.4.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "bls",
+            "req": "^8.0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal",
+            "package": "blsttc"
+        },
+        {
+            "name": "bytes",
+            "req": "^1.0.1",
+            "features": [
+                "serde"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "color-eyre",
+            "req": "^0.6.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "crdts",
+            "req": "^7.3",
+            "features": [
+                "merkle"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "custom_debug",
+            "req": "~0.6.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "dirs-next",
+            "req": "~2.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "exponential-backoff",
+            "req": "^2.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "hex",
+            "req": "~0.4.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "lazy_static",
+            "req": "^1.4.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "libp2p",
+            "req": "^0.54.1",
+            "features": [
+                "identify",
+                "kad"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "prost",
+            "req": "^0.9",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rmp-serde",
+            "req": "^1.1.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.133",
+            "features": [
+                "derive",
+                "rc"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "sha2",
+            "req": "^0.10.7",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^1.0.23",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tiny-keccak",
+            "req": "~2.0.2",
+            "features": [
+                "sha3"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tonic",
+            "req": "^0.6.2",
+            "features": [
+                "prost",
+                "tls",
+                "codegen"
+            ],
+            "optional": true,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tonic-build",
+            "req": "~0.6.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "tracing",
+            "req": "~0.1.26",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "xor_name",
+            "req": "^5.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "f276b6691d18c3d92006fda69bd326e29488e06d8fad4c9b8933d8dfc512ac5e",
+    "features": {
+        "default": [],
+        "rpc": [
+            "tonic",
+            "prost"
+        ]
+    },
+    "yanked": false
+}

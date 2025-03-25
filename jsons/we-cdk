@@ -1,1 +1,29 @@
-{"name":"we-cdk","vers":"0.3.0","deps":[{"name":"we-contract-proc-macro","req":"^0.3.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"wevm-core","req":"^0.3.2","features":["bindings"],"optional":false,"default_features":false,"target":null,"kind":"normal"}],"cksum":"7af4f4120182030209404a8f1250d4c773c84845af7c4b0f325b6af4e4f4ed98","features":{},"yanked":false}
+{
+    "name": "we-cdk",
+    "vers": "0.3.0",
+    "deps": [
+        {
+            "name": "we-contract-proc-macro",
+            "req": "^0.3.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "wevm-core",
+            "req": "^0.3.2",
+            "features": [
+                "bindings"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "7af4f4120182030209404a8f1250d4c773c84845af7c4b0f325b6af4e4f4ed98",
+    "features": {},
+    "yanked": false
+}

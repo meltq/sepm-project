@@ -1,1 +1,115 @@
-{"name":"mcdata","vers":"0.1.0","deps":[{"name":"bounded-integer","req":"^0.5.7","features":["types","std"],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"document-features","req":"^0.2.8","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"either","req":"^1.11.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"fastnbt","req":"^2.5.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rustc_version","req":"^0.4.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"build"},{"name":"serde","req":"^1.0.198","features":["derive"],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"strum","req":"^0.26.2","features":["derive"],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"3ddd06df81378e68f90a4780e854d1892a045113ef371d327ac9299126984e04","features":{"1.14":[],"1.15":[],"1.16":[],"1.17-1.18":[],"1.19":[],"1.19.3":[],"1.19.4":[],"1.20":[],"1.20.2":[],"1.20.3":[],"1.20.5":[],"block-entities":[],"default":[],"latest":["1.20.5"]},"features2":{"block-states":["dep:bounded-integer"],"docs":["dep:document-features","dep:rustc_version"],"entities":["dep:either"],"serde":["dep:serde","dep:strum","bounded-integer/serde1","either/serde"]},"yanked":false,"v":2}
+{
+    "name": "mcdata",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "bounded-integer",
+            "req": "^0.5.7",
+            "features": [
+                "types",
+                "std"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "document-features",
+            "req": "^0.2.8",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "either",
+            "req": "^1.11.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "fastnbt",
+            "req": "^2.5.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rustc_version",
+            "req": "^0.4.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.198",
+            "features": [
+                "derive"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "strum",
+            "req": "^0.26.2",
+            "features": [
+                "derive"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "3ddd06df81378e68f90a4780e854d1892a045113ef371d327ac9299126984e04",
+    "features": {
+        "1.14": [],
+        "1.15": [],
+        "1.16": [],
+        "1.17-1.18": [],
+        "1.19": [],
+        "1.19.3": [],
+        "1.19.4": [],
+        "1.20": [],
+        "1.20.2": [],
+        "1.20.3": [],
+        "1.20.5": [],
+        "block-entities": [],
+        "default": [],
+        "latest": [
+            "1.20.5"
+        ]
+    },
+    "features2": {
+        "block-states": [
+            "dep:bounded-integer"
+        ],
+        "docs": [
+            "dep:document-features",
+            "dep:rustc_version"
+        ],
+        "entities": [
+            "dep:either"
+        ],
+        "serde": [
+            "dep:serde",
+            "dep:strum",
+            "bounded-integer/serde1",
+            "either/serde"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

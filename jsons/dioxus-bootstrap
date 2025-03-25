@@ -1,1 +1,31 @@
-{"name":"dioxus-bootstrap","vers":"0.1.0","deps":[{"name":"dioxus","req":"^0.6.0","features":["fullstack"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"33ce24c1301846e276fdc12d45a114689ce115954ad3a0e7abd0c4a937e7a574","features":{"default":[],"desktop":["dioxus/desktop"],"mobile":["dioxus/mobile"],"web":["dioxus/web"]},"yanked":false}
+{
+    "name": "dioxus-bootstrap",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "dioxus",
+            "req": "^0.6.0",
+            "features": [
+                "fullstack"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "33ce24c1301846e276fdc12d45a114689ce115954ad3a0e7abd0c4a937e7a574",
+    "features": {
+        "default": [],
+        "desktop": [
+            "dioxus/desktop"
+        ],
+        "mobile": [
+            "dioxus/mobile"
+        ],
+        "web": [
+            "dioxus/web"
+        ]
+    },
+    "yanked": false
+}

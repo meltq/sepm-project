@@ -1,1 +1,50 @@
-{"name":"mpfs-pac","vers":"0.1.0","deps":[{"name":"bindgen","req":"^0.70","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"cc","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"riscv","req":"^0.12","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"walkdir","req":"^2.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"}],"cksum":"1872e10b0307be805bdecd37f53b1231c1b1d28885b3995eedf1b9697a3729cd","features":{"beaglev-fire":[],"default":["beaglev-fire"]},"yanked":false}
+{
+    "name": "mpfs-pac",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "bindgen",
+            "req": "^0.70",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "cc",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "riscv",
+            "req": "^0.12",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "walkdir",
+            "req": "^2.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        }
+    ],
+    "cksum": "1872e10b0307be805bdecd37f53b1231c1b1d28885b3995eedf1b9697a3729cd",
+    "features": {
+        "beaglev-fire": [],
+        "default": [
+            "beaglev-fire"
+        ]
+    },
+    "yanked": false
+}

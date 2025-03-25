@@ -1,1 +1,75 @@
-{"name":"stapifaction","vers":"0.0.1","deps":[{"name":"erased-serde","req":"^0.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"eyre","req":"^0.6","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"serde_json","req":"^1.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"stapifaction_derive","req":"^0.0.1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"98b952105a3b1c2caaff675caaa5c953ba8ea522140fa7e747445fef8fecb607","features":{"default":["derive"],"derive":["stapifaction_derive"],"json":["serde_json"]},"yanked":false}
+{
+    "name": "stapifaction",
+    "vers": "0.0.1",
+    "deps": [
+        {
+            "name": "erased-serde",
+            "req": "^0.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "eyre",
+            "req": "^0.6",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "stapifaction_derive",
+            "req": "^0.0.1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "98b952105a3b1c2caaff675caaa5c953ba8ea522140fa7e747445fef8fecb607",
+    "features": {
+        "default": [
+            "derive"
+        ],
+        "derive": [
+            "stapifaction_derive"
+        ],
+        "json": [
+            "serde_json"
+        ]
+    },
+    "yanked": false
+}

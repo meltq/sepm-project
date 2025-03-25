@@ -1,1 +1,36 @@
-{"name":"openssl-hkdf","vers":"0.1.0","deps":[{"name":"hex","req":"^0.4.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"openssl","req":"^0.10","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"openssl-sys","req":"^0.9","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"1df1f93fc9a792d93fea2fca718114bf1ef1bc4a7f86559ce2bfd54fc61aea04","features":{},"yanked":false}
+{
+    "name": "openssl-hkdf",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "hex",
+            "req": "^0.4.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "openssl",
+            "req": "^0.10",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "openssl-sys",
+            "req": "^0.9",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "1df1f93fc9a792d93fea2fca718114bf1ef1bc4a7f86559ce2bfd54fc61aea04",
+    "features": {},
+    "yanked": false
+}

@@ -1,1 +1,37 @@
-{"name":"python3-sys","vers":"0.1.0","deps":[{"name":"libc","req":"*","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"pkg-config","req":"^0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"}],"cksum":"b750b02924ac6ff3c5ac2f80c124e5ec60cfe87aa4562bb783ffa1b7d40591e4","features":{"Py_TRACE_REFS":[],"WITH_THREAD":[],"default":["WITH_THREAD"],"python3.3":[],"python3.4":["python3.3"]},"yanked":false}
+{
+    "name": "python3-sys",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "libc",
+            "req": "*",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "pkg-config",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        }
+    ],
+    "cksum": "b750b02924ac6ff3c5ac2f80c124e5ec60cfe87aa4562bb783ffa1b7d40591e4",
+    "features": {
+        "Py_TRACE_REFS": [],
+        "WITH_THREAD": [],
+        "default": [
+            "WITH_THREAD"
+        ],
+        "python3.3": [],
+        "python3.4": [
+            "python3.3"
+        ]
+    },
+    "yanked": false
+}

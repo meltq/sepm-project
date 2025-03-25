@@ -1,1 +1,57 @@
-{"name":"thaw_components","vers":"0.0.1","deps":[{"name":"cfg-if","req":"^1.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"leptos","req":"^0.6.9","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thaw_utils","req":"^0.0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"web-sys","req":"^0.3.69","features":["DomRect"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"fb7d4316915080a8be364e01876aa41f2af20c11b1560ee06291ba2ad3cc4bb5","features":{"csr":["leptos/csr"],"hydrate":["leptos/hydrate"],"ssr":["leptos/ssr"]},"yanked":false}
+{
+    "name": "thaw_components",
+    "vers": "0.0.1",
+    "deps": [
+        {
+            "name": "cfg-if",
+            "req": "^1.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "leptos",
+            "req": "^0.6.9",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thaw_utils",
+            "req": "^0.0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "web-sys",
+            "req": "^0.3.69",
+            "features": [
+                "DomRect"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "fb7d4316915080a8be364e01876aa41f2af20c11b1560ee06291ba2ad3cc4bb5",
+    "features": {
+        "csr": [
+            "leptos/csr"
+        ],
+        "hydrate": [
+            "leptos/hydrate"
+        ],
+        "ssr": [
+            "leptos/ssr"
+        ]
+    },
+    "yanked": false
+}

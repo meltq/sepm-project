@@ -1,1 +1,74 @@
-{"name":"rp2040-multicore-per-cpu","vers":"0.1.0","deps":[{"name":"cortex-m","req":"^0.7","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"cortex-m-rt","req":"^0.7","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"critical-section","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"embedded-hal","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"panic-halt","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"rp2040-boot2","req":"^0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"rp2040-hal","req":"^0.10","features":["critical-section-impl"],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"d017aaaa17297c41cc150957d2eb30bc6e9e36376f8c9a5963aadcb463fcca30","features":{},"yanked":false}
+{
+    "name": "rp2040-multicore-per-cpu",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "cortex-m",
+            "req": "^0.7",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "cortex-m-rt",
+            "req": "^0.7",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "critical-section",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "embedded-hal",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "panic-halt",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "rp2040-boot2",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "rp2040-hal",
+            "req": "^0.10",
+            "features": [
+                "critical-section-impl"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "d017aaaa17297c41cc150957d2eb30bc6e9e36376f8c9a5963aadcb463fcca30",
+    "features": {},
+    "yanked": false
+}

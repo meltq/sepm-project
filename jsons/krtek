@@ -1,1 +1,41 @@
-{"name":"krtek","vers":"0.1.0","deps":[{"name":"reqwest","req":"^0.12.9","features":["blocking","json"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"scraper","req":"^0.21.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"476298571fea53a36111cc6d3d4f36f7ba93cea30da5ee17d7ef67c050311488","features":{},"yanked":false}
+{
+    "name": "krtek",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "reqwest",
+            "req": "^0.12.9",
+            "features": [
+                "blocking",
+                "json"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "scraper",
+            "req": "^0.21.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "476298571fea53a36111cc6d3d4f36f7ba93cea30da5ee17d7ef67c050311488",
+    "features": {},
+    "yanked": false
+}

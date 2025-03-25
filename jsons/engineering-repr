@@ -1,1 +1,56 @@
-{"name":"engineering-repr","vers":"0.1.0","deps":[{"name":"more-asserts","req":"^0.3.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"num-rational","req":"^0.4.2","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"num-traits","req":"^0.2.19","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"798415c22297803107826f146fd6c286fcafdf9ecba2ac004dbec7bbba1f7881","features":{},"yanked":false}
+{
+    "name": "engineering-repr",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "more-asserts",
+            "req": "^0.3.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "num-rational",
+            "req": "^0.4.2",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "num-traits",
+            "req": "^0.2.19",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "798415c22297803107826f146fd6c286fcafdf9ecba2ac004dbec7bbba1f7881",
+    "features": {},
+    "yanked": false
+}

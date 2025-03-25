@@ -1,1 +1,56 @@
-{"name":"aubio-rs","vers":"0.1.0","deps":[{"name":"aubio-sys","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"70d3879685862ab17516b3ac44b7e6052eff162b09629e2014dad51d3c18a0e6","features":{"check-size":[],"compile-library":["aubio-sys/compile-library"],"dynamic-link":["aubio-sys/dynamic-link"],"fetch-prebuilt":["aubio-sys/fetch-prebuilt"],"generate-bindings":["aubio-sys/generate-bindings"],"rustdoc":["aubio-sys/rustdoc"],"with-avcodec":["aubio-sys/with-avcodec"],"with-fftw3":["aubio-sys/with-fftw3"],"with-fftw3f":["aubio-sys/with-fftw3f"],"with-jack":["aubio-sys/with-jack"],"with-samplerate":["aubio-sys/with-samplerate"],"with-sndfile":["aubio-sys/with-sndfile"],"with-wav":["aubio-sys/with-wav"]},"yanked":false}
+{
+    "name": "aubio-rs",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "aubio-sys",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "70d3879685862ab17516b3ac44b7e6052eff162b09629e2014dad51d3c18a0e6",
+    "features": {
+        "check-size": [],
+        "compile-library": [
+            "aubio-sys/compile-library"
+        ],
+        "dynamic-link": [
+            "aubio-sys/dynamic-link"
+        ],
+        "fetch-prebuilt": [
+            "aubio-sys/fetch-prebuilt"
+        ],
+        "generate-bindings": [
+            "aubio-sys/generate-bindings"
+        ],
+        "rustdoc": [
+            "aubio-sys/rustdoc"
+        ],
+        "with-avcodec": [
+            "aubio-sys/with-avcodec"
+        ],
+        "with-fftw3": [
+            "aubio-sys/with-fftw3"
+        ],
+        "with-fftw3f": [
+            "aubio-sys/with-fftw3f"
+        ],
+        "with-jack": [
+            "aubio-sys/with-jack"
+        ],
+        "with-samplerate": [
+            "aubio-sys/with-samplerate"
+        ],
+        "with-sndfile": [
+            "aubio-sys/with-sndfile"
+        ],
+        "with-wav": [
+            "aubio-sys/with-wav"
+        ]
+    },
+    "yanked": false
+}

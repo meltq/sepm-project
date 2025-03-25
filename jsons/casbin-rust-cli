@@ -1,1 +1,53 @@
-{"name":"casbin-rust-cli","vers":"1.0.0","deps":[{"name":"casbin","req":"^2.7.0","features":["explain","logging"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"clap","req":"^4.5.27","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.137","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.43.0","features":["macros","rt-multi-thread"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"dc99f04f46d87e5e2a07542bc9fc23da73479b935e17cb3a19df238fdcca21d2","features":{},"yanked":false}
+{
+    "name": "casbin-rust-cli",
+    "vers": "1.0.0",
+    "deps": [
+        {
+            "name": "casbin",
+            "req": "^2.7.0",
+            "features": [
+                "explain",
+                "logging"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "clap",
+            "req": "^4.5.27",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.137",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.43.0",
+            "features": [
+                "macros",
+                "rt-multi-thread"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "dc99f04f46d87e5e2a07542bc9fc23da73479b935e17cb3a19df238fdcca21d2",
+    "features": {},
+    "yanked": false
+}

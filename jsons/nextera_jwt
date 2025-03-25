@@ -1,1 +1,56 @@
-{"name":"nextera_jwt","vers":"0.1.0","deps":[{"name":"actix-web","req":"^4.9.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"nextera_utils","req":"^0.1.6","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"proc-macro2","req":"^1.0.92","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"quote","req":"^1.0.37","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"syn","req":"^2.0.90","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"caa72235ddbc6fcd4c4ece141651104854ece9309fbf218ce24f68b038df2e96","features":{},"yanked":false}
+{
+    "name": "nextera_jwt",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "actix-web",
+            "req": "^4.9.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "nextera_utils",
+            "req": "^0.1.6",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "proc-macro2",
+            "req": "^1.0.92",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "quote",
+            "req": "^1.0.37",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "syn",
+            "req": "^2.0.90",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "caa72235ddbc6fcd4c4ece141651104854ece9309fbf218ce24f68b038df2e96",
+    "features": {},
+    "yanked": false
+}

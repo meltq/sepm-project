@@ -1,1 +1,84 @@
-{"name":"notify-win","vers":"0.1.0","deps":[{"name":"crossbeam-channel","req":"^0.5.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"filetime","req":"^0.2.22","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"log","req":"^0.4.17","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"notify-win-types","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tempfile","req":"^3.10.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"walkdir","req":"^2.4.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"windows-sys","req":"^0.59.0","features":["Win32_System_Threading","Win32_Foundation","Win32_Storage_FileSystem","Win32_Security","Win32_System_WindowsProgramming","Win32_System_IO"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"8513a1ed536f3d457dccfa6c20759fffd48cbfab8abec61585d128c731508cf4","features":{"default":[],"serialization-compat-6":["notify-win-types/serialization-compat-6"]},"yanked":false}
+{
+    "name": "notify-win",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "crossbeam-channel",
+            "req": "^0.5.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "filetime",
+            "req": "^0.2.22",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "log",
+            "req": "^0.4.17",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "notify-win-types",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tempfile",
+            "req": "^3.10.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "walkdir",
+            "req": "^2.4.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "windows-sys",
+            "req": "^0.59.0",
+            "features": [
+                "Win32_System_Threading",
+                "Win32_Foundation",
+                "Win32_Storage_FileSystem",
+                "Win32_Security",
+                "Win32_System_WindowsProgramming",
+                "Win32_System_IO"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "8513a1ed536f3d457dccfa6c20759fffd48cbfab8abec61585d128c731508cf4",
+    "features": {
+        "default": [],
+        "serialization-compat-6": [
+            "notify-win-types/serialization-compat-6"
+        ]
+    },
+    "yanked": false
+}

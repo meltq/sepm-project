@@ -1,1 +1,51 @@
-{"name":"a11y","vers":"0.1.0","deps":[{"name":"rigela-utils","req":"^0.1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"win-wrap","req":"^0.1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"windows","req":"^0.54.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"32edd4ac658177de6fd7943f241956c4af0fd802706837069008b9db1c1952ec","features":{"IAccessible2Lib":["rigela-utils/library","windows/windows-interface"],"JabLib":["rigela-utils/library"],"ia2":["IAccessible2Lib","win-wrap/msaa"],"jab":["JabLib"]},"yanked":false}
+{
+    "name": "a11y",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "rigela-utils",
+            "req": "^0.1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "win-wrap",
+            "req": "^0.1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "windows",
+            "req": "^0.54.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "32edd4ac658177de6fd7943f241956c4af0fd802706837069008b9db1c1952ec",
+    "features": {
+        "IAccessible2Lib": [
+            "rigela-utils/library",
+            "windows/windows-interface"
+        ],
+        "JabLib": [
+            "rigela-utils/library"
+        ],
+        "ia2": [
+            "IAccessible2Lib",
+            "win-wrap/msaa"
+        ],
+        "jab": [
+            "JabLib"
+        ]
+    },
+    "yanked": false
+}

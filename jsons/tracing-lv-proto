@@ -1,1 +1,41 @@
-{"name":"tracing-lv-proto","vers":"0.0.1-beta.0","deps":[{"name":"prost","req":"^0.13","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tonic","req":"^0.12","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tonic-build","req":"^0.12","features":["prost"],"optional":false,"default_features":true,"target":null,"kind":"build"}],"cksum":"1397cd829e829d2fb82ae7fca981c963e9010d755f7c899b40f812179499017d","features":{"client":[],"server":[]},"yanked":false}
+{
+    "name": "tracing-lv-proto",
+    "vers": "0.0.1-beta.0",
+    "deps": [
+        {
+            "name": "prost",
+            "req": "^0.13",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tonic",
+            "req": "^0.12",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tonic-build",
+            "req": "^0.12",
+            "features": [
+                "prost"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        }
+    ],
+    "cksum": "1397cd829e829d2fb82ae7fca981c963e9010d755f7c899b40f812179499017d",
+    "features": {
+        "client": [],
+        "server": []
+    },
+    "yanked": false
+}

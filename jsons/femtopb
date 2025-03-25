@@ -1,1 +1,54 @@
-{"name":"femtopb","vers":"0.1.1","deps":[{"name":"bytes","req":"^1.5.0","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"femtopb-derive","req":"^0.1.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"proptest","req":"^1.4.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"proptest-derive","req":"^0.4.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"prost","req":"^0.12.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"d7717298be0b9cbd1e43a7e783c2c95a2e2cb21447642ba27432039f769d2314","features":{},"yanked":false}
+{
+    "name": "femtopb",
+    "vers": "0.1.1",
+    "deps": [
+        {
+            "name": "bytes",
+            "req": "^1.5.0",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "femtopb-derive",
+            "req": "^0.1.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "proptest",
+            "req": "^1.4.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "proptest-derive",
+            "req": "^0.4.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "prost",
+            "req": "^0.12.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "d7717298be0b9cbd1e43a7e783c2c95a2e2cb21447642ba27432039f769d2314",
+    "features": {},
+    "yanked": false
+}

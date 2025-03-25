@@ -1,1 +1,74 @@
-{"name":"http-body-io","vers":"0.1.1","deps":[{"name":"bytes","req":"^1.5.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"futures","req":"^0.3.30","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"http-body","req":"^1.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"http-body-util","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"tokio","req":"^1.36.0","features":["sync","io-std"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.36.0","features":["sync","io-std","io-util","test-util","tokio-macros","rt","macros"],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"043a9db88fab9403a0f34daa7528fe85e22285a9b548a8e3c8220a576c71cd43","features":{},"yanked":false}
+{
+    "name": "http-body-io",
+    "vers": "0.1.1",
+    "deps": [
+        {
+            "name": "bytes",
+            "req": "^1.5.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "futures",
+            "req": "^0.3.30",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "http-body",
+            "req": "^1.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "http-body-util",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.36.0",
+            "features": [
+                "sync",
+                "io-std"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.36.0",
+            "features": [
+                "sync",
+                "io-std",
+                "io-util",
+                "test-util",
+                "tokio-macros",
+                "rt",
+                "macros"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "043a9db88fab9403a0f34daa7528fe85e22285a9b548a8e3c8220a576c71cd43",
+    "features": {},
+    "yanked": false
+}

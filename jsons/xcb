@@ -1,1 +1,104 @@
-{"name":"xcb","vers":"0.4.0","deps":[{"name":"libc","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"libc","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"}],"cksum":"9938b52ad299db990d974835e484fd4f2ac61a003e012a8915f510a5bd600efc","features":{"bigreq":[],"composite":["xfixes"],"damage":["xfixes"],"debug_all":["bigreq","composite","damage","dpms","dri2","dri3","glx","randr","record","render","res","screensaver","shape","shm","xc_misc","xevie","xf86dri","xfixes","xinerama","xkb","xprint","xselinux","xtest","xvmc","xv"],"dpms":[],"dri2":[],"dri3":[],"ge":[],"glx":[],"present":["render","xfixes","sync"],"randr":["render"],"record":[],"render":[],"res":[],"screensaver":[],"shape":[],"shm":[],"sync":[],"xc_misc":[],"xevie":[],"xf86dri":[],"xf86vidmode":[],"xfixes":["render","shape"],"xinerama":[],"xinput":["xfixes"],"xkb":[],"xprint":[],"xselinux":[],"xtest":[],"xv":["shm"],"xvmc":["xv"]},"yanked":false}
+{
+    "name": "xcb",
+    "vers": "0.4.0",
+    "deps": [
+        {
+            "name": "libc",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "libc",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        }
+    ],
+    "cksum": "9938b52ad299db990d974835e484fd4f2ac61a003e012a8915f510a5bd600efc",
+    "features": {
+        "bigreq": [],
+        "composite": [
+            "xfixes"
+        ],
+        "damage": [
+            "xfixes"
+        ],
+        "debug_all": [
+            "bigreq",
+            "composite",
+            "damage",
+            "dpms",
+            "dri2",
+            "dri3",
+            "glx",
+            "randr",
+            "record",
+            "render",
+            "res",
+            "screensaver",
+            "shape",
+            "shm",
+            "xc_misc",
+            "xevie",
+            "xf86dri",
+            "xfixes",
+            "xinerama",
+            "xkb",
+            "xprint",
+            "xselinux",
+            "xtest",
+            "xvmc",
+            "xv"
+        ],
+        "dpms": [],
+        "dri2": [],
+        "dri3": [],
+        "ge": [],
+        "glx": [],
+        "present": [
+            "render",
+            "xfixes",
+            "sync"
+        ],
+        "randr": [
+            "render"
+        ],
+        "record": [],
+        "render": [],
+        "res": [],
+        "screensaver": [],
+        "shape": [],
+        "shm": [],
+        "sync": [],
+        "xc_misc": [],
+        "xevie": [],
+        "xf86dri": [],
+        "xf86vidmode": [],
+        "xfixes": [
+            "render",
+            "shape"
+        ],
+        "xinerama": [],
+        "xinput": [
+            "xfixes"
+        ],
+        "xkb": [],
+        "xprint": [],
+        "xselinux": [],
+        "xtest": [],
+        "xv": [
+            "shm"
+        ],
+        "xvmc": [
+            "xv"
+        ]
+    },
+    "yanked": false
+}

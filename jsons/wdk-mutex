@@ -1,1 +1,34 @@
-{"name":"wdk-mutex","vers":"0.0.1","deps":[{"name":"wdk","req":"^0.3.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"wdk-sys","req":"^0.3.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"1ee1ad27e4482c036e6336f18e6e3072543ce88cc6e4541cb57081ce6a3535ac","features":{"debug":[],"default":[],"nightly":["wdk/nightly","wdk-sys/nightly"]},"yanked":false}
+{
+    "name": "wdk-mutex",
+    "vers": "0.0.1",
+    "deps": [
+        {
+            "name": "wdk",
+            "req": "^0.3.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "wdk-sys",
+            "req": "^0.3.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "1ee1ad27e4482c036e6336f18e6e3072543ce88cc6e4541cb57081ce6a3535ac",
+    "features": {
+        "debug": [],
+        "default": [],
+        "nightly": [
+            "wdk/nightly",
+            "wdk-sys/nightly"
+        ]
+    },
+    "yanked": false
+}

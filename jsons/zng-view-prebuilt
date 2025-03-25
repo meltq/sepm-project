@@ -1,1 +1,50 @@
-{"name":"zng-view-prebuilt","vers":"0.2.0","deps":[{"name":"base64","req":"^0.22","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"hashers","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"home","req":"^0","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"libloading","req":"^0.8","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"8cb941cf335ad1b892414965cdac004595155a5f49140e59dadfd84fa2eb6f13","features":{"default":["embedded"],"embedded":[]},"yanked":false}
+{
+    "name": "zng-view-prebuilt",
+    "vers": "0.2.0",
+    "deps": [
+        {
+            "name": "base64",
+            "req": "^0.22",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "hashers",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "home",
+            "req": "^0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "libloading",
+            "req": "^0.8",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "8cb941cf335ad1b892414965cdac004595155a5f49140e59dadfd84fa2eb6f13",
+    "features": {
+        "default": [
+            "embedded"
+        ],
+        "embedded": []
+    },
+    "yanked": false
+}

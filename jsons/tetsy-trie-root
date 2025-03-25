@@ -1,1 +1,52 @@
-{"name":"tetsy-trie-root","vers":"0.16.0","deps":[{"name":"hex-literal","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"tetsy-hash-db","req":"^0.15.2","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"tetsy-keccak-hasher","req":"^0.15.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"tetsy-trie-standardmap","req":"^0.15.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"69b16555fddafabb7e3707b16fa3d5643825d5239c363f38863866b7eb21ec3e","features":{"default":["std"],"std":["tetsy-hash-db/std"]},"yanked":false}
+{
+    "name": "tetsy-trie-root",
+    "vers": "0.16.0",
+    "deps": [
+        {
+            "name": "hex-literal",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "tetsy-hash-db",
+            "req": "^0.15.2",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tetsy-keccak-hasher",
+            "req": "^0.15.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "tetsy-trie-standardmap",
+            "req": "^0.15.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "69b16555fddafabb7e3707b16fa3d5643825d5239c363f38863866b7eb21ec3e",
+    "features": {
+        "default": [
+            "std"
+        ],
+        "std": [
+            "tetsy-hash-db/std"
+        ]
+    },
+    "yanked": false
+}

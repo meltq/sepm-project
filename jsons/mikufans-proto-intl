@@ -1,1 +1,40 @@
-{"name":"mikufans-proto-intl","vers":"3.17.3","deps":[{"name":"prost","req":"^0.13","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"prost-types","req":"^0.13","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tonic","req":"^0.12","features":["codegen","prost"],"optional":false,"default_features":false,"target":null,"kind":"normal"}],"cksum":"7ccb3f4b853b2ac8170a480d04033c85f1ef9cd1b482a56fe1b8df9cee577c80","features":{},"yanked":true,"rust_version":"1.70"}
+{
+    "name": "mikufans-proto-intl",
+    "vers": "3.17.3",
+    "deps": [
+        {
+            "name": "prost",
+            "req": "^0.13",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "prost-types",
+            "req": "^0.13",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tonic",
+            "req": "^0.12",
+            "features": [
+                "codegen",
+                "prost"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "7ccb3f4b853b2ac8170a480d04033c85f1ef9cd1b482a56fe1b8df9cee577c80",
+    "features": {},
+    "yanked": true,
+    "rust_version": "1.70"
+}

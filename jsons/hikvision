@@ -1,1 +1,56 @@
-{"name":"hikvision","vers":"0.1.0","deps":[{"name":"e-utils","req":"^0.3","features":["algorithm","macros","ui"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"libloading","req":"^0.8.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"e22ea7c963b08c6225309cd4e91eb1540ef56ebc0cd38963aa5921c8cf911a20","features":{"default":[],"mvs":[],"net":[]},"yanked":true,"rust_version":"1.76.0"}
+{
+    "name": "hikvision",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "e-utils",
+            "req": "^0.3",
+            "features": [
+                "algorithm",
+                "macros",
+                "ui"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "libloading",
+            "req": "^0.8.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "e22ea7c963b08c6225309cd4e91eb1540ef56ebc0cd38963aa5921c8cf911a20",
+    "features": {
+        "default": [],
+        "mvs": [],
+        "net": []
+    },
+    "yanked": true,
+    "rust_version": "1.76.0"
+}

@@ -1,1 +1,47 @@
-{"name":"alphadb","vers":"1.0.0-dev16","deps":[{"name":"mysql","req":"^25.0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.197","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.114","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^1.0.64","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"c082ab0870022ea774c3a54fc79e9e16b30b9a47672b75937d3b5fd4784e0416","features":{},"yanked":true}
+{
+    "name": "alphadb",
+    "vers": "1.0.0-dev16",
+    "deps": [
+        {
+            "name": "mysql",
+            "req": "^25.0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.197",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.114",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^1.0.64",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "c082ab0870022ea774c3a54fc79e9e16b30b9a47672b75937d3b5fd4784e0416",
+    "features": {},
+    "yanked": true
+}

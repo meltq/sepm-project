@@ -1,1 +1,36 @@
-{"name":"cstream","vers":"0.1.0","deps":[{"name":"libc","req":"^0.2.154","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"tempfile","req":"^3.10.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"6692c8e4045663eadbf10834904355c9118eadd4a3f9f06b35f21df3e9e5288d","features":{"alloc":[],"default":["std"],"std":["alloc","libc/std"]},"yanked":false}
+{
+    "name": "cstream",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "libc",
+            "req": "^0.2.154",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tempfile",
+            "req": "^3.10.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "6692c8e4045663eadbf10834904355c9118eadd4a3f9f06b35f21df3e9e5288d",
+    "features": {
+        "alloc": [],
+        "default": [
+            "std"
+        ],
+        "std": [
+            "alloc",
+            "libc/std"
+        ]
+    },
+    "yanked": false
+}

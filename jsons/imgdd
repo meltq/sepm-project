@@ -1,1 +1,60 @@
-{"name":"imgdd","vers":"0.1.0","deps":[{"name":"anyhow","req":"^1.0.95","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"criterion","req":"^0.5.1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"image","req":"^0.25.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"imgddcore","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tempfile","req":"^3.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"437c52254a08f619d34b62941bd11f13ca0c38880e96ad00b6e9f4af98999c3a","features":{"benchmark":["criterion"],"default":[],"testing":[]},"yanked":false}
+{
+    "name": "imgdd",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "anyhow",
+            "req": "^1.0.95",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "criterion",
+            "req": "^0.5.1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "image",
+            "req": "^0.25.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "imgddcore",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tempfile",
+            "req": "^3.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "437c52254a08f619d34b62941bd11f13ca0c38880e96ad00b6e9f4af98999c3a",
+    "features": {
+        "benchmark": [
+            "criterion"
+        ],
+        "default": [],
+        "testing": []
+    },
+    "yanked": false
+}

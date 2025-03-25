@@ -1,1 +1,53 @@
-{"name":"win-kernel-sys","vers":"2.11.11","deps":[{"name":"bindgen","req":"^0.68","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"cc","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"cty","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"windows-kernel-build","req":"=2.11.11","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"}],"cksum":"59138bbc3ff6732e365f8c67894d77a20dd9055f860af9abb6948583952f5f94","features":{"default":["intrin","ntoskrnl"],"intrin":[],"netio":[],"ntoskrnl":[]},"yanked":true}
+{
+    "name": "win-kernel-sys",
+    "vers": "2.11.11",
+    "deps": [
+        {
+            "name": "bindgen",
+            "req": "^0.68",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "cc",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "cty",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "windows-kernel-build",
+            "req": "=2.11.11",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        }
+    ],
+    "cksum": "59138bbc3ff6732e365f8c67894d77a20dd9055f860af9abb6948583952f5f94",
+    "features": {
+        "default": [
+            "intrin",
+            "ntoskrnl"
+        ],
+        "intrin": [],
+        "netio": [],
+        "ntoskrnl": []
+    },
+    "yanked": true
+}

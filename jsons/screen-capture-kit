@@ -1,1 +1,126 @@
-{"name":"screen-capture-kit","vers":"0.1.0","deps":[{"name":"block2","req":"^0.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"core-audio-types","req":"^0.1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"core-foundation","req":"^0.9","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"core-graphics","req":"^0.23","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"core-media","req":"^0.2","features":["objc"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"core-video","req":"^0.2","features":["objc"],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"dispatch2","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"libc","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"objc2","req":"^0.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"objc2-foundation","req":"^0.2","features":["NSArray","NSDictionary","NSError","NSGeometry","NSString"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"6ea29476d2d462259790a9be3a50a6844d0132d278c130463927281e987494e0","features":{"audio":["core-audio-types"],"default":["audio","video","link"],"link":["core-foundation/link","core-media/link","core-video/link"],"video":["core-video"]},"yanked":true}
+{
+    "name": "screen-capture-kit",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "block2",
+            "req": "^0.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "core-audio-types",
+            "req": "^0.1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "core-foundation",
+            "req": "^0.9",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "core-graphics",
+            "req": "^0.23",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "core-media",
+            "req": "^0.2",
+            "features": [
+                "objc"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "core-video",
+            "req": "^0.2",
+            "features": [
+                "objc"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "dispatch2",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "libc",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "objc2",
+            "req": "^0.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "objc2-foundation",
+            "req": "^0.2",
+            "features": [
+                "NSArray",
+                "NSDictionary",
+                "NSError",
+                "NSGeometry",
+                "NSString"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "6ea29476d2d462259790a9be3a50a6844d0132d278c130463927281e987494e0",
+    "features": {
+        "audio": [
+            "core-audio-types"
+        ],
+        "default": [
+            "audio",
+            "video",
+            "link"
+        ],
+        "link": [
+            "core-foundation/link",
+            "core-media/link",
+            "core-video/link"
+        ],
+        "video": [
+            "core-video"
+        ]
+    },
+    "yanked": true
+}

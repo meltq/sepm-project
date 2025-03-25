@@ -1,1 +1,61 @@
-{"name":"testnumbat-wasm","vers":"0.0.1","deps":[{"name":"arrayvec","req":"^0.5.2","features":["array-sizes-33-128","array-sizes-129-255"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"hashbrown","req":"^0.9.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"hex-literal","req":"^0.3.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"testnumbat-codec","req":"^0.0.1","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"wee_alloc","req":"^0.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"fa6811c9e5a733a3a4b386c06bae1b8d5d20b17034544904b64ae24202151687","features":{"legacy-nft-transfer":[]},"yanked":false}
+{
+    "name": "testnumbat-wasm",
+    "vers": "0.0.1",
+    "deps": [
+        {
+            "name": "arrayvec",
+            "req": "^0.5.2",
+            "features": [
+                "array-sizes-33-128",
+                "array-sizes-129-255"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "hashbrown",
+            "req": "^0.9.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "hex-literal",
+            "req": "^0.3.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "testnumbat-codec",
+            "req": "^0.0.1",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "wee_alloc",
+            "req": "^0.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "fa6811c9e5a733a3a4b386c06bae1b8d5d20b17034544904b64ae24202151687",
+    "features": {
+        "legacy-nft-transfer": []
+    },
+    "yanked": false
+}

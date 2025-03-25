@@ -1,1 +1,97 @@
-{"name":"async-rt","vers":"0.1.0","deps":[{"name":"futures","req":"^0.3.31","features":["std","alloc","async-await"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"futures","req":"^0.3.31","features":["std","alloc","async-await","thread-pool","executor"],"optional":false,"default_features":false,"target":null,"kind":"dev"},{"name":"futures-timer","req":"^3.0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"parking_lot","req":"^0.12.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.42.0","features":["rt","rt-multi-thread"],"optional":true,"default_features":true,"target":"cfg(not(target_arch = \"wasm32\"))","kind":"normal"},{"name":"tokio","req":"^1.42.0","features":["rt","rt-multi-thread","macros"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"wasm-bindgen-futures","req":"^0.4.49","features":[],"optional":false,"default_features":true,"target":"cfg(target_arch = \"wasm32\")","kind":"normal"}],"cksum":"84bd9703d702cb91becdb13f97e985966102ea8ee83c531c4a9ce40719db8500","features":{"default":["tokio"],"threadpool":["futures/thread-pool"]},"yanked":true,"rust_version":"1.83"}
+{
+    "name": "async-rt",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "futures",
+            "req": "^0.3.31",
+            "features": [
+                "std",
+                "alloc",
+                "async-await"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "futures",
+            "req": "^0.3.31",
+            "features": [
+                "std",
+                "alloc",
+                "async-await",
+                "thread-pool",
+                "executor"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "futures-timer",
+            "req": "^3.0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "parking_lot",
+            "req": "^0.12.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.42.0",
+            "features": [
+                "rt",
+                "rt-multi-thread"
+            ],
+            "optional": true,
+            "default_features": true,
+            "target": "cfg(not(target_arch = \"wasm32\"))",
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.42.0",
+            "features": [
+                "rt",
+                "rt-multi-thread",
+                "macros"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "wasm-bindgen-futures",
+            "req": "^0.4.49",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": "cfg(target_arch = \"wasm32\")",
+            "kind": "normal"
+        }
+    ],
+    "cksum": "84bd9703d702cb91becdb13f97e985966102ea8ee83c531c4a9ce40719db8500",
+    "features": {
+        "default": [
+            "tokio"
+        ],
+        "threadpool": [
+            "futures/thread-pool"
+        ]
+    },
+    "yanked": true,
+    "rust_version": "1.83"
+}

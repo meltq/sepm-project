@@ -1,1 +1,54 @@
-{"name":"seq_io_parallel","vers":"0.1.0","deps":[{"name":"anyhow","req":"^1.0.95","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"crossbeam-channel","req":"^0.5.14","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"niffler","req":"^2.6.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"seq_io","req":"^0.3.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^2.0.10","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"36adbbdec6e38bd50efb01f62be8bc1e12d7763c5c81d45ab805ed76783a343a","features":{},"yanked":false}
+{
+    "name": "seq_io_parallel",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "anyhow",
+            "req": "^1.0.95",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "crossbeam-channel",
+            "req": "^0.5.14",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "niffler",
+            "req": "^2.6.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "seq_io",
+            "req": "^0.3.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^2.0.10",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "36adbbdec6e38bd50efb01f62be8bc1e12d7763c5c81d45ab805ed76783a343a",
+    "features": {},
+    "yanked": false
+}

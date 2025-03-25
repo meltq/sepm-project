@@ -1,1 +1,173 @@
-{"name":"pliantdb-server","vers":"0.1.0-dev-2","deps":[{"name":"anyhow","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"async-trait","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"bincode","req":"^1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"flume","req":"^0.10","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"futures","req":"^0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"itertools","req":"^0.10","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"pliantdb-core","req":"^0.1.0-dev-2","features":["networking"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"pliantdb-core","req":"^0.1.0-dev-2","features":["test-util","certificate-generation"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"pliantdb-jobs","req":"^0.1.0-dev-2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"pliantdb-local","req":"^0.1.0-dev-2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"structopt","req":"^0.3","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1","features":["full"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio-tungstenite","req":"^0.14","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"34d9f20c795e1cf2d7018d8e24476560b8f0bb386d7de0c9197899fbe7468a57","features":{"certificate-generation":["pliantdb-core/certificate-generation"],"cli":["certificate-generation","structopt"],"default":[],"test-util":["pliantdb-core/test-util"],"trusted-dns":["pliantdb-core/trusted-dns"],"websockets":["pliantdb-core/websockets","tokio-tungstenite","bincode"]},"yanked":true}
+{
+    "name": "pliantdb-server",
+    "vers": "0.1.0-dev-2",
+    "deps": [
+        {
+            "name": "anyhow",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "async-trait",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "bincode",
+            "req": "^1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "flume",
+            "req": "^0.10",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "futures",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "itertools",
+            "req": "^0.10",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "pliantdb-core",
+            "req": "^0.1.0-dev-2",
+            "features": [
+                "networking"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "pliantdb-core",
+            "req": "^0.1.0-dev-2",
+            "features": [
+                "test-util",
+                "certificate-generation"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "pliantdb-jobs",
+            "req": "^0.1.0-dev-2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "pliantdb-local",
+            "req": "^0.1.0-dev-2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "structopt",
+            "req": "^0.3",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1",
+            "features": [
+                "full"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio-tungstenite",
+            "req": "^0.14",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "34d9f20c795e1cf2d7018d8e24476560b8f0bb386d7de0c9197899fbe7468a57",
+    "features": {
+        "certificate-generation": [
+            "pliantdb-core/certificate-generation"
+        ],
+        "cli": [
+            "certificate-generation",
+            "structopt"
+        ],
+        "default": [],
+        "test-util": [
+            "pliantdb-core/test-util"
+        ],
+        "trusted-dns": [
+            "pliantdb-core/trusted-dns"
+        ],
+        "websockets": [
+            "pliantdb-core/websockets",
+            "tokio-tungstenite",
+            "bincode"
+        ]
+    },
+    "yanked": true
+}

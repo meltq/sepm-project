@@ -1,1 +1,90 @@
-{"name":"arrow_convert","vers":"0.6.0","deps":[{"name":"arrow","req":"^51.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"arrow_convert_derive","req":"^0.6.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"arrow_convert_derive","req":"^0.6.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"chrono","req":"^0.4","features":["std"],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"criterion","req":"^0.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"err-derive","req":"^0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"half","req":"^2.1","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"trybuild","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"b4d700ac7bf307601da6405f25e193d0034200f723cfd299c4e051434947f74c","features":{"default":["derive"],"derive":["arrow_convert_derive"]},"yanked":false}
+{
+    "name": "arrow_convert",
+    "vers": "0.6.0",
+    "deps": [
+        {
+            "name": "arrow",
+            "req": "^51.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "arrow_convert_derive",
+            "req": "^0.6.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "arrow_convert_derive",
+            "req": "^0.6.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "chrono",
+            "req": "^0.4",
+            "features": [
+                "std"
+            ],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "criterion",
+            "req": "^0.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "err-derive",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "half",
+            "req": "^2.1",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "trybuild",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "b4d700ac7bf307601da6405f25e193d0034200f723cfd299c4e051434947f74c",
+    "features": {
+        "default": [
+            "derive"
+        ],
+        "derive": [
+            "arrow_convert_derive"
+        ]
+    },
+    "yanked": false
+}

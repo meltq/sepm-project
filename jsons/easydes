@@ -1,1 +1,46 @@
-{"name":"easydes","vers":"0.1.0","deps":[{"name":"clap","req":"^3.1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"hex","req":"^0.4.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"proc-macro2","req":"^1.0.60","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"d2bd00588948dd99522d32e1fe99b35390425e9a33c65894931daf4cd9562837","features":{"default":["clap"]},"features2":{"clap":["dep:clap"]},"yanked":false,"v":2}
+{
+    "name": "easydes",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "clap",
+            "req": "^3.1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "hex",
+            "req": "^0.4.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "proc-macro2",
+            "req": "^1.0.60",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "d2bd00588948dd99522d32e1fe99b35390425e9a33c65894931daf4cd9562837",
+    "features": {
+        "default": [
+            "clap"
+        ]
+    },
+    "features2": {
+        "clap": [
+            "dep:clap"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

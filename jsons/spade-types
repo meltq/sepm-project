@@ -1,1 +1,41 @@
-{"name":"spade-types","vers":"0.12.1","deps":[{"name":"num","req":"^0.4.0","features":["serde"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.136","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"spade-common","req":"^0.12.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"cc0f7fc3afa9f77c7068b5cb742e6692caa84a777eea9794300c9afbc4535cb2","features":{},"yanked":false,"rust_version":"1.70"}
+{
+    "name": "spade-types",
+    "vers": "0.12.1",
+    "deps": [
+        {
+            "name": "num",
+            "req": "^0.4.0",
+            "features": [
+                "serde"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.136",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "spade-common",
+            "req": "^0.12.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "cc0f7fc3afa9f77c7068b5cb742e6692caa84a777eea9794300c9afbc4535cb2",
+    "features": {},
+    "yanked": false,
+    "rust_version": "1.70"
+}

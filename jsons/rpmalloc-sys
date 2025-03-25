@@ -1,1 +1,48 @@
-{"name":"rpmalloc-sys","vers":"0.1.0","deps":[{"name":"cc","req":"^1","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"},{"name":"libc","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"pkg-config","req":"^0.3.14","features":[],"optional":false,"default_features":true,"target":null,"kind":"build"}],"cksum":"2342fb39da9c8eca498b3534a45f6ef0dba1a578e0fde495638126cd531e0fee","features":{"adaptive_thread_cache":[],"asserts":[],"default":[],"global_cache":[],"guards":[],"statistics":[],"thread_cache":[],"unlimited_cache":[],"unlimited_global_cache":[],"unlimited_thread_cache":[],"validate_args":[]},"yanked":false}
+{
+    "name": "rpmalloc-sys",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "cc",
+            "req": "^1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        },
+        {
+            "name": "libc",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "pkg-config",
+            "req": "^0.3.14",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "build"
+        }
+    ],
+    "cksum": "2342fb39da9c8eca498b3534a45f6ef0dba1a578e0fde495638126cd531e0fee",
+    "features": {
+        "adaptive_thread_cache": [],
+        "asserts": [],
+        "default": [],
+        "global_cache": [],
+        "guards": [],
+        "statistics": [],
+        "thread_cache": [],
+        "unlimited_cache": [],
+        "unlimited_global_cache": [],
+        "unlimited_thread_cache": [],
+        "validate_args": []
+    },
+    "yanked": false
+}

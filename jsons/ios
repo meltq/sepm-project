@@ -1,1 +1,30 @@
-{"name":"ios","vers":"0.0.1-a","deps":[{"name":"dirs","req":"^5.0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rusqlite","req":"^0.29.0","features":["bundled"],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"93401453569b51290f5c6b68c4f8994c9e47f7e9711fd07a35c10d9e9fc9be6c","features":{},"yanked":false,"rust_version":"1.80.0"}
+{
+    "name": "ios",
+    "vers": "0.0.1-a",
+    "deps": [
+        {
+            "name": "dirs",
+            "req": "^5.0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rusqlite",
+            "req": "^0.29.0",
+            "features": [
+                "bundled"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "93401453569b51290f5c6b68c4f8994c9e47f7e9711fd07a35c10d9e9fc9be6c",
+    "features": {},
+    "yanked": false,
+    "rust_version": "1.80.0"
+}

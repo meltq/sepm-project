@@ -1,1 +1,47 @@
-{"name":"flask","vers":"1.0.0","deps":[{"name":"http","req":"^0.2.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"mockito","req":"^0.23.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"nom","req":"^5.1.1","features":["regexp"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rand","req":"^0.7.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"57b0142bbf474e7968040ee593928a534ddf907f7ee75818a7f91b26ee284646","features":{},"yanked":false}
+{
+    "name": "flask",
+    "vers": "1.0.0",
+    "deps": [
+        {
+            "name": "http",
+            "req": "^0.2.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "mockito",
+            "req": "^0.23.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "nom",
+            "req": "^5.1.1",
+            "features": [
+                "regexp"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rand",
+            "req": "^0.7.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "57b0142bbf474e7968040ee593928a534ddf907f7ee75818a7f91b26ee284646",
+    "features": {},
+    "yanked": false
+}

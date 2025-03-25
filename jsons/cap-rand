@@ -1,1 +1,23 @@
-{"name":"cap-rand","vers":"0.4.0","deps":[{"name":"rand","req":"^0.7.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"c1bec4548070f0e58c07c500e5a3f7bca4040c5a250a25b9d70587678882b135","features":{"default":[],"small_rng":["rand/small_rng"]},"yanked":false}
+{
+    "name": "cap-rand",
+    "vers": "0.4.0",
+    "deps": [
+        {
+            "name": "rand",
+            "req": "^0.7.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "c1bec4548070f0e58c07c500e5a3f7bca4040c5a250a25b9d70587678882b135",
+    "features": {
+        "default": [],
+        "small_rng": [
+            "rand/small_rng"
+        ]
+    },
+    "yanked": false
+}

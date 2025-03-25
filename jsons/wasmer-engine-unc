@@ -1,1 +1,111 @@
-{"name":"wasmer-engine-unc","vers":"2.3.0","deps":[{"name":"backtrace","req":"^0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"enumset","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"lazy_static","req":"^1.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"memmap2","req":"^0.5","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"more-asserts","req":"^0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rustc-demangle","req":"^0.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"target-lexicon","req":"^0.12.2","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"thiserror","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"wasmer-compiler","req":"=2.4.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal","package":"wasmer-compiler-near"},{"name":"wasmer-types","req":"=2.4.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal","package":"wasmer-types-near"},{"name":"wasmer-vm","req":"=2.4.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal","package":"wasmer-vm-near"}],"cksum":"91267c1beb41d37bc5780699d47cba93a71282eeaa2b021170955c008d2f300f","features":{},"yanked":false}
+{
+    "name": "wasmer-engine-unc",
+    "vers": "2.3.0",
+    "deps": [
+        {
+            "name": "backtrace",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "enumset",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "lazy_static",
+            "req": "^1.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "memmap2",
+            "req": "^0.5",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "more-asserts",
+            "req": "^0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rustc-demangle",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "target-lexicon",
+            "req": "^0.12.2",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "wasmer-compiler",
+            "req": "=2.4.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal",
+            "package": "wasmer-compiler-near"
+        },
+        {
+            "name": "wasmer-types",
+            "req": "=2.4.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal",
+            "package": "wasmer-types-near"
+        },
+        {
+            "name": "wasmer-vm",
+            "req": "=2.4.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal",
+            "package": "wasmer-vm-near"
+        }
+    ],
+    "cksum": "91267c1beb41d37bc5780699d47cba93a71282eeaa2b021170955c008d2f300f",
+    "features": {},
+    "yanked": false
+}

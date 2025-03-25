@@ -1,1 +1,76 @@
-{"name":"closure-ffi","vers":"0.1.0","deps":[{"name":"closure-ffi-proc-macros","req":"^0.1.0","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"jit-allocator","req":"^0.2.8","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"jit-allocator","req":"^0.2.8","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"seq-macro","req":"^0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"spin","req":"^0.9","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"spin","req":"^0.9","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"cae25c4a75053d9b8e6acb18e5557140d3c6ad22cbe39384708a6a017fac9cb6","features":{"bundled_jit_alloc":["jit-allocator"],"default":["bundled_jit_alloc"],"hrtb_macro":["closure-ffi-proc-macros"],"no_std":["spin"]},"yanked":false}
+{
+    "name": "closure-ffi",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "closure-ffi-proc-macros",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "jit-allocator",
+            "req": "^0.2.8",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "jit-allocator",
+            "req": "^0.2.8",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "seq-macro",
+            "req": "^0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "spin",
+            "req": "^0.9",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "spin",
+            "req": "^0.9",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "cae25c4a75053d9b8e6acb18e5557140d3c6ad22cbe39384708a6a017fac9cb6",
+    "features": {
+        "bundled_jit_alloc": [
+            "jit-allocator"
+        ],
+        "default": [
+            "bundled_jit_alloc"
+        ],
+        "hrtb_macro": [
+            "closure-ffi-proc-macros"
+        ],
+        "no_std": [
+            "spin"
+        ]
+    },
+    "yanked": false
+}

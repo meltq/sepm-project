@@ -1,1 +1,46 @@
-{"name":"wasmi-validation","vers":"0.1.0","deps":[{"name":"assert_matches","req":"^1.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"hashbrown","req":"^0.1.8","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"},{"name":"parity-wasm","req":"^0.31","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"}],"cksum":"ab380192444b3e8522ae79c0a1976e42a82920916ccdfbce3def89f456ea33f3","features":{"core":["hashbrown/nightly"],"default":["std"],"std":["parity-wasm/std"]},"yanked":false}
+{
+    "name": "wasmi-validation",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "assert_matches",
+            "req": "^1.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "hashbrown",
+            "req": "^0.1.8",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "parity-wasm",
+            "req": "^0.31",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "ab380192444b3e8522ae79c0a1976e42a82920916ccdfbce3def89f456ea33f3",
+    "features": {
+        "core": [
+            "hashbrown/nightly"
+        ],
+        "default": [
+            "std"
+        ],
+        "std": [
+            "parity-wasm/std"
+        ]
+    },
+    "yanked": false
+}

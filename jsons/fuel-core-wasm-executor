@@ -1,1 +1,68 @@
-{"name":"fuel-core-wasm-executor","vers":"0.24.0","deps":[{"name":"anyhow","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"fuel-core-executor","req":"^0.24.0","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"fuel-core-storage","req":"^0.24.0","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"fuel-core-types","req":"^0.24.0","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal"},{"name":"postcard","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"proptest","req":"^1.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"cbd0ad6cdaf22d084df179853463ec0c481ad033b29ed4801819cbe7d76206ee","features":{"default":["std"],"std":[]},"yanked":false}
+{
+    "name": "fuel-core-wasm-executor",
+    "vers": "0.24.0",
+    "deps": [
+        {
+            "name": "anyhow",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "fuel-core-executor",
+            "req": "^0.24.0",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "fuel-core-storage",
+            "req": "^0.24.0",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "fuel-core-types",
+            "req": "^0.24.0",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "postcard",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "proptest",
+            "req": "^1.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        }
+    ],
+    "cksum": "cbd0ad6cdaf22d084df179853463ec0c481ad033b29ed4801819cbe7d76206ee",
+    "features": {
+        "default": [
+            "std"
+        ],
+        "std": []
+    },
+    "yanked": false
+}

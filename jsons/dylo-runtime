@@ -1,1 +1,26 @@
-{"name":"dylo-runtime","vers":"1.0.0","deps":[{"name":"rubicon","req":"^3.4.9","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"8fffdb8f33846b61cc1a2c4cbcf6e7c1f8b43be303d2d9f2ea735560cb79ce94","features":{"export-globals":["rubicon/export-globals"],"import-globals":["rubicon/import-globals"]},"yanked":false,"rust_version":"1.83"}
+{
+    "name": "dylo-runtime",
+    "vers": "1.0.0",
+    "deps": [
+        {
+            "name": "rubicon",
+            "req": "^3.4.9",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "8fffdb8f33846b61cc1a2c4cbcf6e7c1f8b43be303d2d9f2ea735560cb79ce94",
+    "features": {
+        "export-globals": [
+            "rubicon/export-globals"
+        ],
+        "import-globals": [
+            "rubicon/import-globals"
+        ]
+    },
+    "yanked": false,
+    "rust_version": "1.83"
+}

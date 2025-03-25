@@ -1,1 +1,45 @@
-{"name":"snmp2","vers":"0.3.0","deps":[{"name":"asn1-rs","req":"^0.6","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"der-parser","req":"^9","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"snmptools","req":"^0.1.2","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"ecf74b8c44a1a40085ec65ee39f1176da4ecdc56d38b62917acf639bad1ffdff","features":{},"features2":{"full":["mibs"],"mibs":["dep:snmptools"]},"yanked":false,"v":2}
+{
+    "name": "snmp2",
+    "vers": "0.3.0",
+    "deps": [
+        {
+            "name": "asn1-rs",
+            "req": "^0.6",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "der-parser",
+            "req": "^9",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "snmptools",
+            "req": "^0.1.2",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "ecf74b8c44a1a40085ec65ee39f1176da4ecdc56d38b62917acf639bad1ffdff",
+    "features": {},
+    "features2": {
+        "full": [
+            "mibs"
+        ],
+        "mibs": [
+            "dep:snmptools"
+        ]
+    },
+    "yanked": false,
+    "v": 2
+}

@@ -1,1 +1,101 @@
-{"name":"deno_os","vers":"0.1.0","deps":[{"name":"deno_core","req":"^0.330.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"deno_error","req":"=0.5.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"deno_path_util","req":"=0.3.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"deno_permissions","req":"^0.44.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"deno_telemetry","req":"^0.7.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"libc","req":"^0.2.168","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"netif","req":"^0.1.6","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"once_cell","req":"^1.17.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.149","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"thiserror","req":"^2.0.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"92c57dd709510d212b05d60ad42e0c2126ee0966b8ef4ec1f574879d6b655863","features":{},"yanked":false}
+{
+    "name": "deno_os",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "deno_core",
+            "req": "^0.330.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "deno_error",
+            "req": "=0.5.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "deno_path_util",
+            "req": "=0.3.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "deno_permissions",
+            "req": "^0.44.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "deno_telemetry",
+            "req": "^0.7.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "libc",
+            "req": "^0.2.168",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "netif",
+            "req": "^0.1.6",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "once_cell",
+            "req": "^1.17.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.149",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "thiserror",
+            "req": "^2.0.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "92c57dd709510d212b05d60ad42e0c2126ee0966b8ef4ec1f574879d6b655863",
+    "features": {},
+    "yanked": false
+}

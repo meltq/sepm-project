@@ -1,1 +1,54 @@
-{"name":"nonstdfloat","vers":"0.1.0","deps":[{"name":"bitvec","req":"~1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"num-traits","req":"~0.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"proptest","req":"~1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"simple-soft-float","req":"~0.1","features":[],"optional":true,"default_features":true,"target":null,"kind":"normal"}],"cksum":"5c8ecc2c6dad08c4c16c76b08d46e101a5f1c7ed1ee75b6041792116d1bdddca","features":{"default":[],"extendable":["simple-soft-float"],"f128":["simple-soft-float"],"f64":[]},"yanked":true}
+{
+    "name": "nonstdfloat",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "bitvec",
+            "req": "~1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "num-traits",
+            "req": "~0.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "proptest",
+            "req": "~1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "simple-soft-float",
+            "req": "~0.1",
+            "features": [],
+            "optional": true,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "5c8ecc2c6dad08c4c16c76b08d46e101a5f1c7ed1ee75b6041792116d1bdddca",
+    "features": {
+        "default": [],
+        "extendable": [
+            "simple-soft-float"
+        ],
+        "f128": [
+            "simple-soft-float"
+        ],
+        "f64": []
+    },
+    "yanked": true
+}

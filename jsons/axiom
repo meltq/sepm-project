@@ -1,1 +1,40 @@
-{"name":"axiom","vers":"0.0.1","deps":[{"name":"env_logger","req":"^0.6.2","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"log","req":"^0.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"uuid","req":"^0.7.4","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"0cdd8b364731636285f7db0e5a85140d038829c496567c27cdf990f9852cf962","features":{"default":["uuid/v4"]},"yanked":false}
+{
+    "name": "axiom",
+    "vers": "0.0.1",
+    "deps": [
+        {
+            "name": "env_logger",
+            "req": "^0.6.2",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "log",
+            "req": "^0.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "uuid",
+            "req": "^0.7.4",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "0cdd8b364731636285f7db0e5a85140d038829c496567c27cdf990f9852cf962",
+    "features": {
+        "default": [
+            "uuid/v4"
+        ]
+    },
+    "yanked": false
+}

@@ -1,1 +1,288 @@
-{"name":"ant-cli","vers":"0.3.0","deps":[{"name":"ant-bootstrap","req":"^0.1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"ant-build-info","req":"^0.1.20","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"ant-logging","req":"^0.2.41","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"ant-protocol","req":"^0.3.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"autonomi","req":"^0.3.0","features":["fs","vault","registers","loud"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"autonomi","req":"^0.3.0","features":["fs"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"clap","req":"^4.2.1","features":["derive"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"color-eyre","req":"~0.6","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"const-hex","req":"^1.13.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"criterion","req":"^0.5.1","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"dirs-next","req":"~2.0.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"eyre","req":"^0.6.8","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"hex","req":"^0.4.3","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"indicatif","req":"^0.17.5","features":["tokio"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"prettytable","req":"^0.10.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rand","req":"~0.8.5","features":["small_rng"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rand","req":"~0.8.5","features":["small_rng"],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"rayon","req":"^1.8.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"ring","req":"^0.17.8","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"rpassword","req":"^7.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde","req":"^1.0.210","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"serde_json","req":"^1.0.132","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tempfile","req":"^3.6.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"thiserror","req":"^1.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tokio","req":"^1.32.0","features":["io-util","macros","parking_lot","rt","sync","time","fs"],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"tracing","req":"~0.1.26","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"},{"name":"walkdir","req":"^2.5.0","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"38c228a84c99985ffba1b04822c13ea63c601890cce1424eb58437522249ffea","features":{"default":["metrics"],"local":["ant-bootstrap/local","autonomi/local","ant-logging/process-metrics"],"metrics":["ant-logging/process-metrics"],"nightly":[]},"yanked":false}
+{
+    "name": "ant-cli",
+    "vers": "0.3.0",
+    "deps": [
+        {
+            "name": "ant-bootstrap",
+            "req": "^0.1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ant-build-info",
+            "req": "^0.1.20",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ant-logging",
+            "req": "^0.2.41",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "ant-protocol",
+            "req": "^0.3.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "autonomi",
+            "req": "^0.3.0",
+            "features": [
+                "fs",
+                "vault",
+                "registers",
+                "loud"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "autonomi",
+            "req": "^0.3.0",
+            "features": [
+                "fs"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "clap",
+            "req": "^4.2.1",
+            "features": [
+                "derive"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "color-eyre",
+            "req": "~0.6",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "const-hex",
+            "req": "^1.13.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "criterion",
+            "req": "^0.5.1",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "dirs-next",
+            "req": "~2.0.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "eyre",
+            "req": "^0.6.8",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "hex",
+            "req": "^0.4.3",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "indicatif",
+            "req": "^0.17.5",
+            "features": [
+                "tokio"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "prettytable",
+            "req": "^0.10.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rand",
+            "req": "~0.8.5",
+            "features": [
+                "small_rng"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rand",
+            "req": "~0.8.5",
+            "features": [
+                "small_rng"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "rayon",
+            "req": "^1.8.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "ring",
+            "req": "^0.17.8",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "rpassword",
+            "req": "^7.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde",
+            "req": "^1.0.210",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "serde_json",
+            "req": "^1.0.132",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tempfile",
+            "req": "^3.6.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "thiserror",
+            "req": "^1.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tokio",
+            "req": "^1.32.0",
+            "features": [
+                "io-util",
+                "macros",
+                "parking_lot",
+                "rt",
+                "sync",
+                "time",
+                "fs"
+            ],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "tracing",
+            "req": "~0.1.26",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        },
+        {
+            "name": "walkdir",
+            "req": "^2.5.0",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "normal"
+        }
+    ],
+    "cksum": "38c228a84c99985ffba1b04822c13ea63c601890cce1424eb58437522249ffea",
+    "features": {
+        "default": [
+            "metrics"
+        ],
+        "local": [
+            "ant-bootstrap/local",
+            "autonomi/local",
+            "ant-logging/process-metrics"
+        ],
+        "metrics": [
+            "ant-logging/process-metrics"
+        ],
+        "nightly": []
+    },
+    "yanked": false
+}

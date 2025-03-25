@@ -1,1 +1,74 @@
-{"name":"winter-air","vers":"0.1.0","deps":[{"name":"crypto","req":"^0.1","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal","package":"winter-crypto"},{"name":"fri","req":"^0.1","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal","package":"winter-fri"},{"name":"math","req":"^0.1","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal","package":"winter-math"},{"name":"rand","req":"^0.8","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"},{"name":"utils","req":"^0.1","features":[],"optional":false,"default_features":false,"target":null,"kind":"normal","package":"winter-utils"}],"cksum":"7f344bbd55f5d0c4b4ecb99b08f3d474199a52006587212731c8a15591403a6d","features":{"alloc":["crypto/alloc","fri/alloc","math/alloc","utils/alloc"],"default":["std"],"std":["crypto/std","fri/std","math/std","utils/std"]},"yanked":false}
+{
+    "name": "winter-air",
+    "vers": "0.1.0",
+    "deps": [
+        {
+            "name": "crypto",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal",
+            "package": "winter-crypto"
+        },
+        {
+            "name": "fri",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal",
+            "package": "winter-fri"
+        },
+        {
+            "name": "math",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal",
+            "package": "winter-math"
+        },
+        {
+            "name": "rand",
+            "req": "^0.8",
+            "features": [],
+            "optional": false,
+            "default_features": true,
+            "target": null,
+            "kind": "dev"
+        },
+        {
+            "name": "utils",
+            "req": "^0.1",
+            "features": [],
+            "optional": false,
+            "default_features": false,
+            "target": null,
+            "kind": "normal",
+            "package": "winter-utils"
+        }
+    ],
+    "cksum": "7f344bbd55f5d0c4b4ecb99b08f3d474199a52006587212731c8a15591403a6d",
+    "features": {
+        "alloc": [
+            "crypto/alloc",
+            "fri/alloc",
+            "math/alloc",
+            "utils/alloc"
+        ],
+        "default": [
+            "std"
+        ],
+        "std": [
+            "crypto/std",
+            "fri/std",
+            "math/std",
+            "utils/std"
+        ]
+    },
+    "yanked": false
+}
