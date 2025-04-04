@@ -1,0 +1,26 @@
+{
+    "name": "duckdb-server",
+    "deps": [
+        "anyhow",
+        "arrow",
+        "async-trait",
+        "axum",
+        "axum-server",
+        "axum-server-dual-protocol",
+        "duckdb",
+        "futures",
+        "http-body-util",
+        "listenfd",
+        "lru",
+        "r2d2",
+        "regex",
+        "serde",
+        "serde_json",
+        "sha2",
+        "tokio",
+        "tower",
+        "tower-http",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "name": "quilt-server",
+    "deps": [
+        "poem",
+        "poem-openapi",
+        "quilt-rs",
+        "temp_testdir",
+        "tokio",
+        "tokio-stream",
+        "tokio-test",
+        "tracing-subscriber"
+    ]
+}

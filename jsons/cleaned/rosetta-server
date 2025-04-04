@@ -1,0 +1,19 @@
+{
+    "name": "rosetta-server",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "clap",
+        "femme",
+        "futures",
+        "hex",
+        "log",
+        "rosetta-core",
+        "rosetta-docker",
+        "serde",
+        "serde_json",
+        "sled",
+        "tide",
+        "tokio"
+    ]
+}

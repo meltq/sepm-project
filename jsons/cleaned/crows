@@ -1,0 +1,18 @@
+{
+    "name": "crows",
+    "deps": [
+        "anyhow",
+        "clap",
+        "crossterm",
+        "crows-service",
+        "crows-utils",
+        "crows-wasm",
+        "futures",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tokio-serde",
+        "tokio-util",
+        "uuid"
+    ]
+}

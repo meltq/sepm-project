@@ -1,0 +1,23 @@
+{
+    "name": "gringron_chain",
+    "deps": [
+        "bit-vec",
+        "bitflags",
+        "byteorder",
+        "chrono",
+        "croaring",
+        "enum_primitive",
+        "env_logger",
+        "gringron_core",
+        "gringron_keychain",
+        "gringron_store",
+        "gringron_util",
+        "lazy_static",
+        "log",
+        "lru-cache",
+        "rand",
+        "serde",
+        "serde_derive",
+        "thiserror"
+    ]
+}

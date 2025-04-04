@@ -1,0 +1,28 @@
+{
+    "name": "encrypted-dns",
+    "deps": [
+        "byteorder",
+        "clap",
+        "clockpro-cache",
+        "coarsetime",
+        "derivative",
+        "dnsstamps",
+        "env_logger",
+        "failure",
+        "futures-preview",
+        "jemallocator",
+        "libsodium-sys-stable",
+        "log",
+        "net2",
+        "parking_lot",
+        "privdrop",
+        "rand",
+        "serde",
+        "serde-big-array",
+        "serde_derive",
+        "siphasher",
+        "tokio",
+        "tokio-net",
+        "toml"
+    ]
+}

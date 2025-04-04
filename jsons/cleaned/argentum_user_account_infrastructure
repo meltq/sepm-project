@@ -1,0 +1,24 @@
+{
+    "name": "argentum_user_account_infrastructure",
+    "deps": [
+        "argentum_encryption_business",
+        "argentum_log_business",
+        "argentum_notification_business",
+        "argentum_rest_infrastructure",
+        "argentum_standard_business",
+        "argentum_standard_infrastructure",
+        "argentum_user_account_business",
+        "argentum_user_account_rest",
+        "argentum_user_business",
+        "argentum_user_infrastructure",
+        "async-trait",
+        "chrono",
+        "derive_more",
+        "futures",
+        "rand",
+        "serde",
+        "serde_json",
+        "sqlx",
+        "uuid"
+    ]
+}

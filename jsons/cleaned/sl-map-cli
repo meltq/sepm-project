@@ -1,0 +1,17 @@
+{
+    "name": "sl-map-cli",
+    "deps": [
+        "clap",
+        "hex_color",
+        "image",
+        "log-panics",
+        "ratelimit",
+        "sl-map-apis",
+        "sl-types",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "tracing-appender",
+        "tracing-subscriber"
+    ]
+}

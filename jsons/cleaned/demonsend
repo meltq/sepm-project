@@ -1,0 +1,27 @@
+{
+    "name": "demonsend",
+    "deps": [
+        "anyhow",
+        "axum",
+        "clap",
+        "daemonize",
+        "directories",
+        "env_logger",
+        "hyper",
+        "hyper-util",
+        "inquire",
+        "libc",
+        "localsend",
+        "log",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "tokio",
+        "toml",
+        "tower",
+        "tower-http",
+        "tracing",
+        "url",
+        "uuid"
+    ]
+}

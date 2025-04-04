@@ -1,0 +1,14 @@
+{
+    "name": "wat_server",
+    "deps": [
+        "anyhow",
+        "lsp-server",
+        "lsp-types",
+        "serde",
+        "serde_json",
+        "tracing",
+        "tracing-journald",
+        "tracing-subscriber",
+        "wat_service"
+    ]
+}

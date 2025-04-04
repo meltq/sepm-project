@@ -1,0 +1,16 @@
+{
+    "name": "iam_token_manager",
+    "deps": [
+        "async-trait",
+        "clap",
+        "futures",
+        "jsonwebtoken",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tracing",
+        "tracing-subscriber",
+        "warp"
+    ]
+}

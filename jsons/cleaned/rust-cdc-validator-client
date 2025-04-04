@@ -1,0 +1,15 @@
+{
+    "name": "rust-cdc-validator-client",
+    "deps": [
+        "anyhow",
+        "aws-config",
+        "aws-sdk-s3",
+        "clap",
+        "colored",
+        "inquire",
+        "rust-cdc-validator",
+        "tokio",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

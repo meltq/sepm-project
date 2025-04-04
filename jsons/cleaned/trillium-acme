@@ -1,0 +1,16 @@
+{
+    "name": "trillium-acme",
+    "deps": [
+        "anyhow",
+        "futures-lite",
+        "rustls-acme",
+        "rustls-pemfile",
+        "smol",
+        "tempfile",
+        "trillium",
+        "trillium-client",
+        "trillium-rustls",
+        "trillium-server-common",
+        "trillium-smol"
+    ]
+}

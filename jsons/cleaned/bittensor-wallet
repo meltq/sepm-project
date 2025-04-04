@@ -1,0 +1,29 @@
+{
+    "name": "bittensor-wallet",
+    "deps": [
+        "aes-gcm",
+        "argon2",
+        "base64",
+        "bincode",
+        "bip39",
+        "clap",
+        "env_logger",
+        "hex",
+        "log",
+        "pkg-config",
+        "pyo3",
+        "pyo3-asyncio",
+        "pyo3-build-config",
+        "rand",
+        "schnorrkel",
+        "serde",
+        "serde",
+        "serde_json",
+        "sp-core",
+        "sp-runtime",
+        "subxt",
+        "tempfile",
+        "thiserror",
+        "tokio"
+    ]
+}

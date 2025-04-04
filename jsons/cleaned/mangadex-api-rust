@@ -1,0 +1,22 @@
+{
+    "name": "mangadex-api-rust",
+    "deps": [
+        "derive_builder",
+        "futures",
+        "mangadex-api-schema",
+        "mangadex-api-types",
+        "reqwest",
+        "serde",
+        "serde_qs",
+        "thiserror",
+        "time",
+        "url",
+        "uuid",
+        "anyhow",
+        "clap",
+        "fake",
+        "serde_json",
+        "tokio",
+        "wiremock"
+    ]
+}

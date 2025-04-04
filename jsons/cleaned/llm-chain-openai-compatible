@@ -1,0 +1,19 @@
+{
+    "name": "llm-chain-openai-compatible",
+    "deps": [
+        "anyhow",
+        "async-openai",
+        "async-trait",
+        "futures",
+        "llm-chain",
+        "qdrant-client",
+        "serde",
+        "serde_yaml",
+        "strum",
+        "strum_macros",
+        "thiserror",
+        "tiktoken-rs",
+        "tokio",
+        "tokio"
+    ]
+}

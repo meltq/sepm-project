@@ -1,0 +1,18 @@
+{
+    "name": "sftp-server",
+    "deps": [
+        "async-trait",
+        "bincode",
+        "camino",
+        "futures",
+        "lexiclean-cow",
+        "nix",
+        "sftp-protocol",
+        "thiserror",
+        "thrussh",
+        "thrussh-keys",
+        "time",
+        "tokio",
+        "uuid"
+    ]
+}

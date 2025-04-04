@@ -1,0 +1,21 @@
+{
+    "name": "eigen-chainio-txmanager",
+    "deps": [
+        "alloy-consensus",
+        "alloy-eips",
+        "alloy-network",
+        "alloy-node-bindings",
+        "alloy-primitives",
+        "alloy-provider",
+        "alloy-rpc-types-eth",
+        "alloy-signer-local",
+        "alloy-transport-http",
+        "eigen-logging",
+        "eigen-signer",
+        "k256",
+        "once_cell",
+        "reqwest",
+        "thiserror",
+        "tokio"
+    ]
+}

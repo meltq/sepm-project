@@ -1,0 +1,23 @@
+{
+    "name": "zksync_consensus_bft",
+    "deps": [
+        "anyhow",
+        "assert_matches",
+        "async-trait",
+        "once_cell",
+        "pretty_assertions",
+        "rand",
+        "test-casing",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "vise",
+        "zksync_concurrency",
+        "zksync_consensus_crypto",
+        "zksync_consensus_network",
+        "zksync_consensus_roles",
+        "zksync_consensus_storage",
+        "zksync_consensus_utils",
+        "zksync_protobuf"
+    ]
+}

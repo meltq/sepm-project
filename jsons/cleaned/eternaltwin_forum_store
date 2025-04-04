@@ -1,0 +1,21 @@
+{
+    "name": "eternaltwin_forum_store",
+    "deps": [
+        "async-trait",
+        "eternaltwin_config",
+        "eternaltwin_constants",
+        "eternaltwin_core",
+        "eternaltwin_core",
+        "eternaltwin_db_schema",
+        "eternaltwin_user_store",
+        "neon",
+        "once_cell",
+        "scraper",
+        "serde",
+        "serde_json",
+        "serial_test",
+        "sqlx",
+        "thiserror",
+        "tokio"
+    ]
+}

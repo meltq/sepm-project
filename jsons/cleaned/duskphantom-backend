@@ -1,0 +1,23 @@
+{
+    "name": "duskphantom-backend",
+    "deps": [
+        "anyhow",
+        "clang-front-back",
+        "criterion",
+        "duskphantom-frontend",
+        "duskphantom-graph",
+        "duskphantom-middle",
+        "duskphantom-utils",
+        "indoc",
+        "insta",
+        "lazy_static",
+        "llvm-ir",
+        "rand",
+        "rayon",
+        "rustc-hash",
+        "serde",
+        "serde_yaml",
+        "tempfile",
+        "thiserror"
+    ]
+}

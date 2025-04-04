@@ -1,0 +1,19 @@
+{
+    "name": "mongo_sync",
+    "deps": [
+        "bson",
+        "chrono",
+        "clap",
+        "crossbeam",
+        "mongodb",
+        "num_cpus",
+        "rayon",
+        "serde",
+        "thiserror",
+        "toml",
+        "tracing",
+        "tracing-appender",
+        "tracing-subscriber",
+        "uuid"
+    ]
+}

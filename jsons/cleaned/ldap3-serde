@@ -1,0 +1,31 @@
+{
+    "name": "ldap3-serde",
+    "deps": [
+        "async-trait",
+        "bytes",
+        "cross-krb5",
+        "env_logger",
+        "futures",
+        "futures-util",
+        "lazy_static",
+        "lber",
+        "lber-serde",
+        "log",
+        "native-tls",
+        "nom",
+        "percent-encoding",
+        "ring",
+        "rustls",
+        "rustls-native-certs",
+        "serde",
+        "thiserror",
+        "tokio",
+        "tokio",
+        "tokio-native-tls",
+        "tokio-rustls",
+        "tokio-stream",
+        "tokio-util",
+        "url",
+        "x509-parser"
+    ]
+}

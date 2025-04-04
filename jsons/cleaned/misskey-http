@@ -1,0 +1,21 @@
+{
+    "name": "misskey-http",
+    "deps": [
+        "async-dup",
+        "async-std",
+        "common-multipart-rfc7578",
+        "env_logger",
+        "futures",
+        "isahc",
+        "log",
+        "mime",
+        "misskey-core",
+        "rustc_version",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "url",
+        "uuid"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "name": "pam-ssh-agent",
+    "deps": [
+        "anyhow",
+        "getrandom",
+        "pam-bindings",
+        "signature",
+        "ssh-agent-client-rs",
+        "ssh-key",
+        "syslog",
+        "time"
+    ]
+}

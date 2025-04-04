@@ -1,0 +1,21 @@
+{
+    "name": "rpk-firmware",
+    "deps": [
+        "critical-section",
+        "defmt",
+        "embassy-executor",
+        "embassy-futures",
+        "embassy-sync",
+        "embassy-time",
+        "embassy-time-driver",
+        "embassy-time-queue-driver",
+        "embassy-usb",
+        "embedded-hal",
+        "embedded-hal-async",
+        "embedded-storage",
+        "heapless",
+        "rpk-common",
+        "rpk-config",
+        "static_cell"
+    ]
+}

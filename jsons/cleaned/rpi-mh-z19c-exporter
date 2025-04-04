@@ -1,0 +1,16 @@
+{
+    "name": "rpi-mh-z19c-exporter",
+    "deps": [
+        "embedded-hal",
+        "lazy_static",
+        "libsystemd",
+        "mh-z19c",
+        "nb",
+        "prometheus",
+        "protobuf",
+        "rppal",
+        "tide",
+        "tide-testing",
+        "tokio"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "name": "cargo-debstatus",
+    "deps": [
+        "cargo",
+        "colored",
+        "env_logger",
+        "failure",
+        "petgraph",
+        "postgres",
+        "semver",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "structopt"
+    ]
+}

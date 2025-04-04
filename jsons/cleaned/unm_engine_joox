@@ -1,0 +1,19 @@
+{
+    "name": "unm_engine_joox",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "base64",
+        "http",
+        "log",
+        "once_cell",
+        "regex",
+        "reqwest",
+        "serde_json",
+        "tokio",
+        "unm_engine",
+        "unm_request",
+        "unm_selector",
+        "unm_types"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "name": "tracebuild",
+    "deps": [
+        "nix",
+        "opentelemetry",
+        "opentelemetry-jaeger",
+        "opentelemetry-otlp",
+        "rand",
+        "structopt",
+        "thiserror",
+        "tokio"
+    ]
+}

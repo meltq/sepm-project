@@ -1,0 +1,12 @@
+{
+    "name": "warp_lambda",
+    "deps": [
+        "anyhow",
+        "aws_lambda_events",
+        "netlify_lambda_http",
+        "thiserror",
+        "tokio",
+        "tower",
+        "warp"
+    ]
+}

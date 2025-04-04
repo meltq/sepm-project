@@ -1,0 +1,28 @@
+{
+    "name": "maelstrom-fuse",
+    "deps": [
+        "anyhow",
+        "anyhow_trace",
+        "async-trait",
+        "clap",
+        "derive_more",
+        "futures",
+        "libc",
+        "maelstrom-base",
+        "maelstrom-linux",
+        "maelstrom-util",
+        "memchr",
+        "page_size",
+        "serde",
+        "serde_repr",
+        "serde_with",
+        "slog",
+        "slog-async",
+        "slog-term",
+        "smallvec",
+        "tempfile",
+        "tokio",
+        "tokio-tar",
+        "zerocopy"
+    ]
+}

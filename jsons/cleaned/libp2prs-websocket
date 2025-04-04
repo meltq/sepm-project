@@ -1,0 +1,23 @@
+{
+    "name": "libp2prs-websocket",
+    "deps": [
+        "async-std",
+        "async-tls",
+        "async-trait",
+        "either",
+        "env_logger",
+        "futures",
+        "libp2prs-core",
+        "libp2prs-dns",
+        "libp2prs-tcp",
+        "libp2prs-traits",
+        "log",
+        "quicksink",
+        "rustls",
+        "rw-stream-sink",
+        "soketto",
+        "url",
+        "webpki",
+        "webpki-roots"
+    ]
+}

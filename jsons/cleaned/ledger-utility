@@ -1,0 +1,13 @@
+{
+    "name": "ledger-utility",
+    "deps": [
+        "btleplug",
+        "env_logger",
+        "ledger-bluetooth",
+        "ledger-transport",
+        "ledger-transport-hid",
+        "log",
+        "thiserror",
+        "tokio"
+    ]
+}

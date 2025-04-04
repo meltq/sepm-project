@@ -1,0 +1,22 @@
+{
+    "name": "bankid",
+    "deps": [
+        "async-trait",
+        "base64",
+        "derive_builder",
+        "dyn-clone",
+        "env_logger",
+        "futures",
+        "maybe-async",
+        "openssl",
+        "pem",
+        "rand",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "url",
+        "webpki-roots"
+    ]
+}

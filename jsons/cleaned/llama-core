@@ -1,0 +1,17 @@
+{
+    "name": "llama-core",
+    "deps": [
+        "chat-prompts",
+        "endpoints",
+        "futures",
+        "futures-util",
+        "once_cell",
+        "qdrant_rest_client",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "uuid",
+        "wasmedge-wasi-nn"
+    ]
+}

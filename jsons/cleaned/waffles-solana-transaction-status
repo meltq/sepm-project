@@ -1,0 +1,23 @@
+{
+    "name": "waffles-solana-transaction-status",
+    "deps": [
+        "Inflector",
+        "base64",
+        "bincode",
+        "borsh",
+        "bs58",
+        "lazy_static",
+        "log",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "solana-account-decoder",
+        "solana-sdk",
+        "spl-associated-token-account",
+        "spl-memo",
+        "spl-token",
+        "spl-token-2022",
+        "thiserror",
+        "waffles-solana-address-lookup-table-program"
+    ]
+}

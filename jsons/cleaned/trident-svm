@@ -1,0 +1,23 @@
+{
+    "name": "trident-svm",
+    "deps": [
+        "bincode",
+        "serde",
+        "solana-address-lookup-table-program",
+        "solana-bpf-loader-program",
+        "solana-compute-budget",
+        "solana-compute-budget-program",
+        "solana-config-program",
+        "solana-loader-v4-program",
+        "solana-logger",
+        "solana-program-runtime",
+        "solana-sdk",
+        "solana-stake-program",
+        "solana-svm",
+        "solana-system-program",
+        "solana-vote-program",
+        "solana_rbpf",
+        "trident-syscall-stubs-v1",
+        "trident-syscall-stubs-v2"
+    ]
+}

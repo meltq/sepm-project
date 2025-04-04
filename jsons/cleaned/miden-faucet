@@ -1,0 +1,20 @@
+{
+    "name": "miden-faucet",
+    "deps": [
+        "actix-cors",
+        "actix-files",
+        "actix-web",
+        "async-mutex",
+        "derive_more",
+        "figment",
+        "miden-client",
+        "miden-lib",
+        "miden-node-proto",
+        "miden-node-utils",
+        "miden-objects",
+        "rand_chacha",
+        "serde",
+        "thiserror",
+        "tracing"
+    ]
+}

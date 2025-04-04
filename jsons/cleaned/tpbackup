@@ -1,0 +1,20 @@
+{
+    "name": "tpbackup",
+    "deps": [
+        "base64",
+        "chrono",
+        "clap",
+        "env_logger",
+        "flate2",
+        "futures",
+        "indicatif",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "tar",
+        "thiserror",
+        "tokio",
+        "tokio-fs",
+        "url"
+    ]
+}

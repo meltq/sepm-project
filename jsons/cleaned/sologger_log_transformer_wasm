@@ -1,0 +1,17 @@
+{
+    "name": "sologger_log_transformer_wasm",
+    "deps": [
+        "anyhow",
+        "console_error_panic_hook",
+        "semver",
+        "serde",
+        "serde-wasm-bindgen",
+        "serde_derive",
+        "serde_json",
+        "sologger_log_context",
+        "thiserror",
+        "wasm-bindgen",
+        "wasm-bindgen-test",
+        "web-sys"
+    ]
+}

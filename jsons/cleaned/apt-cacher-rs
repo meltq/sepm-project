@@ -1,0 +1,32 @@
+{
+    "name": "apt-cacher-rs",
+    "deps": [
+        "anyhow",
+        "async-compression",
+        "build_html",
+        "bytes",
+        "clap",
+        "futures-util",
+        "http-body-util",
+        "hyper",
+        "hyper-timeout",
+        "hyper-tls",
+        "hyper-util",
+        "ipnet",
+        "log",
+        "memfd",
+        "nix",
+        "openssl",
+        "pin-project",
+        "rand",
+        "scopeguard",
+        "serde",
+        "simplelog",
+        "sqlx",
+        "time",
+        "tokio",
+        "tokio-util",
+        "toml",
+        "urlencoding"
+    ]
+}

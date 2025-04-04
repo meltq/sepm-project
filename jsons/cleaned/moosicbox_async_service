@@ -1,0 +1,15 @@
+{
+    "name": "moosicbox_async_service",
+    "deps": [
+        "async-trait",
+        "flume",
+        "futures",
+        "log",
+        "moosicbox_task",
+        "pretty_assertions",
+        "test-log",
+        "thiserror",
+        "tokio",
+        "tokio-util"
+    ]
+}

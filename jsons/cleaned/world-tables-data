@@ -1,0 +1,14 @@
+{
+    "name": "world-tables-data",
+    "deps": [
+        "anyhow",
+        "clap",
+        "csv",
+        "env_logger",
+        "lazy_static",
+        "log",
+        "rusqlite",
+        "rusqlite_migration",
+        "world-tables-base"
+    ]
+}

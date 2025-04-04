@@ -1,0 +1,13 @@
+{
+    "name": "influxdb-dispatcher",
+    "deps": [
+        "async-trait",
+        "envconfig",
+        "futures",
+        "influxdb",
+        "serde",
+        "tokio",
+        "toml",
+        "tracing"
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "name": "chidori",
+    "deps": [
+        "anyhow",
+        "env_logger",
+        "futures",
+        "handlebars",
+        "indoc",
+        "log",
+        "neon",
+        "neon-serde3",
+        "once_cell",
+        "openssl",
+        "prompt-graph-core",
+        "prompt-graph-exec",
+        "prost",
+        "protobuf",
+        "pyo3",
+        "pyo3-asyncio",
+        "pyo3-build-config",
+        "pyo3-log",
+        "serde",
+        "serde-wasm-bindgen",
+        "serde_json",
+        "sqlparser",
+        "tokio",
+        "tonic",
+        "tonic-build",
+        "wasm-bindgen",
+        "wasm-bindgen-test"
+    ]
+}

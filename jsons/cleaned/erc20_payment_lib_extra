@@ -1,0 +1,33 @@
+{
+    "name": "erc20_payment_lib_extra",
+    "deps": [
+        "actix-files",
+        "actix-web",
+        "async-trait",
+        "chrono",
+        "csv",
+        "dotenv",
+        "erc20_payment_lib",
+        "fastrand",
+        "futures",
+        "futures-util",
+        "hex",
+        "humantime",
+        "lazy_static",
+        "log",
+        "rand",
+        "rust_decimal",
+        "rustc-hex",
+        "secp256k1",
+        "serde",
+        "serde_json",
+        "sha3",
+        "sqlx",
+        "stream-rate-limiter",
+        "structopt",
+        "tokio",
+        "toml",
+        "uuid",
+        "web3"
+    ]
+}

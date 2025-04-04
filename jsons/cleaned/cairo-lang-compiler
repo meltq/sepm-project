@@ -1,0 +1,23 @@
+{
+    "name": "cairo-lang-compiler",
+    "deps": [
+        "anyhow",
+        "cairo-lang-defs",
+        "cairo-lang-diagnostics",
+        "cairo-lang-filesystem",
+        "cairo-lang-lowering",
+        "cairo-lang-parser",
+        "cairo-lang-plugins",
+        "cairo-lang-project",
+        "cairo-lang-semantic",
+        "cairo-lang-sierra",
+        "cairo-lang-sierra-generator",
+        "cairo-lang-syntax",
+        "cairo-lang-utils",
+        "clap",
+        "log",
+        "salsa",
+        "test-log",
+        "thiserror"
+    ]
+}

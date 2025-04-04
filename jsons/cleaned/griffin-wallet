@@ -1,0 +1,23 @@
+{
+    "name": "griffin-wallet",
+    "deps": [
+        "anyhow",
+        "clap",
+        "directories",
+        "env_logger",
+        "futures",
+        "griffin-core",
+        "hex",
+        "hex-literal",
+        "jsonrpsee",
+        "log",
+        "parity-scale-codec",
+        "sc-keystore",
+        "serde_json",
+        "sled",
+        "sp-core",
+        "sp-keystore",
+        "sp-runtime",
+        "tokio"
+    ]
+}

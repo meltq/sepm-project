@@ -1,0 +1,23 @@
+{
+    "name": "static-files-module",
+    "deps": [
+        "async-trait",
+        "bytes",
+        "const_format",
+        "env_logger",
+        "http",
+        "httpdate",
+        "log",
+        "mime_guess",
+        "percent-encoding",
+        "pingora-core",
+        "pingora-http",
+        "pingora-proxy",
+        "serde",
+        "serde_yaml",
+        "structopt",
+        "test-log",
+        "tokio",
+        "tokio-test"
+    ]
+}

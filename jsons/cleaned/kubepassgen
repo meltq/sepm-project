@@ -1,0 +1,16 @@
+{
+    "name": "kubepassgen",
+    "deps": [
+        "anyhow",
+        "assert_cmd",
+        "base64",
+        "clap",
+        "log",
+        "serde",
+        "serde_yaml",
+        "stderrlog",
+        "tempfile",
+        "thiserror",
+        "toml"
+    ]
+}

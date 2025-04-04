@@ -1,0 +1,28 @@
+{
+    "name": "quartermaster",
+    "deps": [
+        "axum",
+        "axum-extra",
+        "bytesize",
+        "config",
+        "futures",
+        "hex",
+        "http-body-util",
+        "proptest",
+        "proptest-derive",
+        "relative-path",
+        "rust-s3",
+        "semver",
+        "serde",
+        "serde_json",
+        "serde_path_to_error",
+        "sha2",
+        "stable-eyre",
+        "thiserror",
+        "tokio",
+        "tokio-util",
+        "tracing",
+        "tracing-subscriber",
+        "url"
+    ]
+}

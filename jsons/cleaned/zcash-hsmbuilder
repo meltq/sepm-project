@@ -1,0 +1,28 @@
+{
+    "name": "zcash-hsmbuilder",
+    "deps": [
+        "bellman",
+        "blake2b_simd",
+        "bls12_381",
+        "byteorder",
+        "crypto_api_chachapoly",
+        "directories",
+        "ff",
+        "group",
+        "hex",
+        "jubjub",
+        "lazy_static",
+        "minreq",
+        "pairing",
+        "rand",
+        "rand_core",
+        "ripemd160",
+        "secp256k1",
+        "serde",
+        "serde_derive",
+        "sha2",
+        "wagyu-zcash-parameters",
+        "zcash_primitives",
+        "zcash_proofs"
+    ]
+}

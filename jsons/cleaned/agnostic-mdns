@@ -1,0 +1,27 @@
+{
+    "name": "agnostic-mdns",
+    "deps": [
+        "agnostic",
+        "agnostic",
+        "async-channel",
+        "async-std",
+        "atomic_refcell",
+        "either",
+        "futures",
+        "hostname",
+        "iprobe",
+        "paste",
+        "pin-project-lite",
+        "rustix",
+        "scopeguard",
+        "smallvec-wrapper",
+        "smol",
+        "smol_str",
+        "socket2",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "tracing-subscriber",
+        "triomphe"
+    ]
+}

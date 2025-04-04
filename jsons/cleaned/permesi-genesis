@@ -1,0 +1,33 @@
+{
+    "name": "permesi-genesis",
+    "deps": [
+        "anyhow",
+        "axum",
+        "built",
+        "built",
+        "clap",
+        "mac_address",
+        "openssl",
+        "opentelemetry",
+        "opentelemetry-otlp",
+        "opentelemetry_sdk",
+        "rand",
+        "reqwest",
+        "secrecy",
+        "serde",
+        "serde_json",
+        "sqlx",
+        "temp-env",
+        "tokio",
+        "tonic",
+        "tower",
+        "tower-http",
+        "tracing",
+        "tracing-opentelemetry",
+        "tracing-subscriber",
+        "url",
+        "utoipa",
+        "utoipa-swagger-ui",
+        "uuid"
+    ]
+}

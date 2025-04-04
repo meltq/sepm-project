@@ -1,0 +1,16 @@
+{
+    "name": "ipfs-api-backend-hyper",
+    "deps": [
+        "async-trait",
+        "bytes",
+        "futures",
+        "http",
+        "hyper",
+        "hyper-multipart-rfc7578",
+        "hyper-rustls",
+        "hyper-tls",
+        "ipfs-api-prelude",
+        "serde",
+        "thiserror"
+    ]
+}

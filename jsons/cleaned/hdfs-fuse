@@ -1,0 +1,14 @@
+{
+    "name": "hdfs-fuse",
+    "deps": [
+        "clap",
+        "fuser",
+        "hdfs-client",
+        "libc",
+        "time",
+        "tracing",
+        "tracing-rolling",
+        "tracing-subscriber",
+        "users"
+    ]
+}

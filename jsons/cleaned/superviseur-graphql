@@ -1,0 +1,21 @@
+{
+    "name": "superviseur-graphql",
+    "deps": [
+        "anyhow",
+        "async-graphql",
+        "async-graphql-actix-web",
+        "futures",
+        "futures-channel",
+        "futures-util",
+        "indexmap",
+        "names",
+        "once_cell",
+        "slab",
+        "superviseur-macros",
+        "superviseur-provider",
+        "superviseur-types",
+        "superviseur-util",
+        "tokio",
+        "tokio-stream"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "name": "zksync_node_db_pruner",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "chrono",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tracing",
+        "vise",
+        "zksync_dal",
+        "zksync_health_check",
+        "zksync_types"
+    ]
+}

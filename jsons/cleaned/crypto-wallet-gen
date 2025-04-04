@@ -1,0 +1,27 @@
+{
+    "name": "crypto-wallet-gen",
+    "deps": [
+        "anyhow",
+        "bitcoin",
+        "clap",
+        "failure",
+        "hex",
+        "rand",
+        "rand_chacha",
+        "rand_core_5",
+        "rand_hc",
+        "rand_jitter",
+        "rdrand",
+        "scrypt",
+        "secp256k1",
+        "secp256k1_17",
+        "thiserror",
+        "tiny-bip39",
+        "trompt",
+        "unicode-normalization",
+        "wagyu-ethereum",
+        "wagyu-model",
+        "wagyu-monero",
+        "zeroize"
+    ]
+}

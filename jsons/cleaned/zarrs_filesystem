@@ -1,0 +1,16 @@
+{
+    "name": "zarrs_filesystem",
+    "deps": [
+        "bytes",
+        "derive_more",
+        "itertools",
+        "libc",
+        "page_size",
+        "parking_lot",
+        "pathdiff",
+        "tempfile",
+        "thiserror",
+        "walkdir",
+        "zarrs_storage"
+    ]
+}

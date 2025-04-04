@@ -1,0 +1,12 @@
+{
+    "name": "pim-eventsource",
+    "deps": [
+        "async-std",
+        "crossbeam-channel",
+        "dirs",
+        "serde",
+        "serde_cbor",
+        "sled",
+        "tide"
+    ]
+}

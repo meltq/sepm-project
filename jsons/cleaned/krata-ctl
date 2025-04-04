@@ -1,0 +1,21 @@
+{
+    "name": "krata-ctl",
+    "deps": [
+        "anyhow",
+        "async-stream",
+        "clap",
+        "cli-tables",
+        "crossterm",
+        "ctrlc",
+        "env_logger",
+        "krata",
+        "log",
+        "prost-reflect",
+        "serde_json",
+        "serde_yaml",
+        "tokio",
+        "tokio-stream",
+        "tonic",
+        "tower"
+    ]
+}

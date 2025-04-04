@@ -1,0 +1,32 @@
+{
+    "name": "race-transactor",
+    "deps": [
+        "anyhow",
+        "arrayref",
+        "async-stream",
+        "async-trait",
+        "base64",
+        "borsh",
+        "clap",
+        "futures",
+        "hyper",
+        "jsonrpsee",
+        "project-root",
+        "race-client",
+        "race-core",
+        "race-encryptor",
+        "race-env",
+        "race-transport",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tokio-stream",
+        "tower",
+        "tower-http",
+        "tracing",
+        "tracing-subscriber",
+        "uuid",
+        "wasmer"
+    ]
+}

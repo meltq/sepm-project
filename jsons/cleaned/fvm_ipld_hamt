@@ -1,0 +1,18 @@
+{
+    "name": "fvm_ipld_hamt",
+    "deps": [
+        "anyhow",
+        "byteorder",
+        "cid",
+        "criterion",
+        "forest_hash_utils",
+        "fvm_shared",
+        "hex",
+        "once_cell",
+        "serde",
+        "serde_bytes",
+        "sha2",
+        "thiserror",
+        "unsigned-varint"
+    ]
+}

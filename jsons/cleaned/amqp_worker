@@ -1,0 +1,11 @@
+{
+    "name": "amqp_worker",
+    "deps": [
+        "futures",
+        "lapin-futures",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "tokio-core"
+    ]
+}

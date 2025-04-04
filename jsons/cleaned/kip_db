@@ -1,0 +1,33 @@
+{
+    "name": "kip_db",
+    "deps": [
+        "assert_cmd",
+        "async-trait",
+        "bincode",
+        "bytes",
+        "chrono",
+        "clap",
+        "crc32fast",
+        "criterion",
+        "failure",
+        "futures",
+        "growable-bloom-filter",
+        "itertools",
+        "lru",
+        "memmap2",
+        "predicates",
+        "rand",
+        "rmp-serde",
+        "rs-snowflake",
+        "serde",
+        "sled",
+        "tempfile",
+        "tokio",
+        "tokio-stream",
+        "tokio-test",
+        "tokio-util",
+        "tracing",
+        "tracing-subscriber",
+        "walkdir"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "flexi_logger_datadog",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "bytebuffer",
+        "chrono",
+        "flexi_logger",
+        "flume",
+        "httpmock",
+        "itertools",
+        "log",
+        "reqwest",
+        "serde",
+        "thiserror",
+        "tokio",
+        "tokio-retry"
+    ]
+}

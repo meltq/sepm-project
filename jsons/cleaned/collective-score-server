@@ -1,0 +1,14 @@
+{
+    "name": "collective-score-server",
+    "deps": [
+        "axum",
+        "clap",
+        "figment",
+        "oxi-axum-helpers",
+        "rand",
+        "serde",
+        "sqlx",
+        "tower-http",
+        "tracing"
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "name": "pallet-ismp-rpc",
+    "deps": [
+        "anyhow",
+        "codec",
+        "frame-system",
+        "hash-db",
+        "hex",
+        "hex-literal",
+        "ismp",
+        "jsonrpsee",
+        "pallet-ismp",
+        "pallet-ismp-runtime-api",
+        "sc-client-api",
+        "sc-rpc",
+        "serde",
+        "serde_json",
+        "sp-api",
+        "sp-blockchain",
+        "sp-core",
+        "sp-mmr-primitives",
+        "sp-runtime",
+        "sp-storage",
+        "sp-trie",
+        "trie-db"
+    ]
+}

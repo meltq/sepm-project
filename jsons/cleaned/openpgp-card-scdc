@@ -1,0 +1,13 @@
+{
+    "name": "openpgp-card-scdc",
+    "deps": [
+        "anyhow",
+        "futures",
+        "hex",
+        "lazy_static",
+        "log",
+        "openpgp-card",
+        "sequoia-ipc",
+        "tokio"
+    ]
+}

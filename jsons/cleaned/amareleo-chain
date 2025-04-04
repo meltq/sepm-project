@@ -1,0 +1,19 @@
+{
+    "name": "amareleo-chain",
+    "deps": [
+        "amareleo-chain-account",
+        "amareleo-chain-cli",
+        "amareleo-node",
+        "amareleo-node-bft",
+        "amareleo-node-consensus",
+        "amareleo-node-metrics",
+        "amareleo-node-rest",
+        "amareleo-node-sync",
+        "anyhow",
+        "built",
+        "clap",
+        "rusty-hook",
+        "tikv-jemallocator",
+        "walkdir"
+    ]
+}

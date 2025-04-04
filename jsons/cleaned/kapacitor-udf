@@ -1,0 +1,21 @@
+{
+    "name": "kapacitor-udf",
+    "deps": [
+        "async-std",
+        "async-trait",
+        "byteorder",
+        "env_logger",
+        "futures",
+        "futures-util",
+        "log",
+        "pin-utils",
+        "prost",
+        "prost-build",
+        "prost-derive",
+        "signal-hook",
+        "signal-hook-async-std",
+        "tonic",
+        "tonic-build",
+        "tracing"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "pm-publisher-cli",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "chrono",
+        "clap",
+        "colored",
+        "miden-client",
+        "miden-tx",
+        "pm-accounts",
+        "pm-types",
+        "pm-utils-cli",
+        "prettytable-rs",
+        "rand",
+        "rusqlite",
+        "thiserror",
+        "tokio"
+    ]
+}

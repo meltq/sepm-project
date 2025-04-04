@@ -1,0 +1,22 @@
+{
+    "name": "seedwing-policy-engine",
+    "deps": [
+        "ariadne",
+        "base64",
+        "chumsky",
+        "cidr",
+        "futures-util",
+        "indexmap",
+        "log",
+        "regex",
+        "serde",
+        "serde_json",
+        "sigstore",
+        "thiserror",
+        "walkdir",
+        "x509-parser",
+        "actix-rt",
+        "criterion",
+        "tokio"
+    ]
+}

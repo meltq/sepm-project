@@ -1,0 +1,31 @@
+{
+    "name": "iotzio",
+    "deps": [
+        "async-hid",
+        "async-oneshot",
+        "async-std",
+        "cfg-if",
+        "defmt",
+        "derive_more",
+        "embedded-hal",
+        "embedded-hal-async",
+        "futures-concurrency",
+        "futures-lite",
+        "heapless",
+        "hidparser",
+        "jni",
+        "jni-min-helper",
+        "js-sys",
+        "log",
+        "ndk-context",
+        "postcard",
+        "serde",
+        "serde-wasm-bindgen",
+        "static_assertions",
+        "thiserror-no-std",
+        "uniffi",
+        "wasm-bindgen",
+        "wasm-bindgen-futures",
+        "web-sys"
+    ]
+}

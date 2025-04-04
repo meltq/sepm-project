@@ -1,0 +1,14 @@
+{
+    "name": "actix-redisactor",
+    "deps": [
+        "actix",
+        "backoff",
+        "derive_more",
+        "futures",
+        "log",
+        "redis-async",
+        "tokio-codec",
+        "tokio-io",
+        "tokio-tcp"
+    ]
+}

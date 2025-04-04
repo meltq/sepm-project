@@ -1,0 +1,21 @@
+{
+    "name": "sc-consensus-manual-seal",
+    "deps": [
+        "derive_more",
+        "futures",
+        "jsonrpc-core",
+        "jsonrpc-core-client",
+        "jsonrpc-derive",
+        "log",
+        "parking_lot",
+        "sc-client",
+        "sc-client-api",
+        "sc-transaction-pool",
+        "serde",
+        "sp-blockchain",
+        "sp-consensus",
+        "sp-inherents",
+        "sp-runtime",
+        "sp-transaction-pool"
+    ]
+}

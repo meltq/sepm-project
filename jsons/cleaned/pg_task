@@ -1,0 +1,21 @@
+{
+    "name": "pg_task",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "chrono",
+        "dotenv",
+        "rusty-hook",
+        "serde",
+        "serde_json",
+        "source-chain",
+        "sqlx",
+        "sqlx-error",
+        "thiserror",
+        "tokio",
+        "tokio",
+        "tokio-stream",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

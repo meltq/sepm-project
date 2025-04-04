@@ -1,0 +1,30 @@
+{
+    "name": "moq-relay",
+    "deps": [
+        "anyhow",
+        "axum",
+        "axum-server",
+        "clap",
+        "env_logger",
+        "futures",
+        "hex",
+        "log",
+        "moq-api",
+        "moq-transport",
+        "quictransport-quinn",
+        "quinn",
+        "ring",
+        "rustls",
+        "rustls-native-certs",
+        "rustls-pemfile",
+        "thiserror",
+        "tokio",
+        "tower-http",
+        "tracing",
+        "tracing-subscriber",
+        "url",
+        "webpki",
+        "webtransport-generic",
+        "webtransport-quinn"
+    ]
+}

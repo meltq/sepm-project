@@ -1,0 +1,28 @@
+{
+    "name": "s3s-fs",
+    "deps": [
+        "async-trait",
+        "base64-simd",
+        "bytes",
+        "chrono",
+        "clap",
+        "futures",
+        "hex-simd",
+        "hyper",
+        "md-5",
+        "mime",
+        "numeric_cast",
+        "path-absolutize",
+        "s3s",
+        "serde_json",
+        "thiserror",
+        "time",
+        "tokio",
+        "tokio-util",
+        "tracing",
+        "tracing-error",
+        "tracing-subscriber",
+        "transform-stream",
+        "uuid"
+    ]
+}

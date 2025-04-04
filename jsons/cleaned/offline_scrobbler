@@ -1,0 +1,25 @@
+{
+    "name": "offline_scrobbler",
+    "deps": [
+        "anyhow",
+        "atty",
+        "clap",
+        "directories",
+        "env_logger",
+        "httpmock",
+        "humantime",
+        "log",
+        "md5",
+        "openssl",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "test-log",
+        "thiserror",
+        "time",
+        "toml",
+        "url",
+        "urlencoding",
+        "xmltree"
+    ]
+}

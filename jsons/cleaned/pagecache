@@ -1,0 +1,20 @@
+{
+    "name": "pagecache",
+    "deps": [
+        "bincode",
+        "clippy",
+        "crossbeam-epoch",
+        "env_logger",
+        "historian",
+        "lazy_static",
+        "libc",
+        "log",
+        "num_cpus",
+        "quickcheck",
+        "rand",
+        "rayon",
+        "serde",
+        "serde_derive",
+        "zstd"
+    ]
+}

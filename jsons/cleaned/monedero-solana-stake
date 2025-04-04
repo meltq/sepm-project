@@ -1,0 +1,22 @@
+{
+    "name": "monedero-solana-stake",
+    "deps": [
+        "anyhow",
+        "bincode",
+        "dotenvy",
+        "rstest",
+        "serde",
+        "serde_json",
+        "serde_with",
+        "solana-program",
+        "solana-pubkey",
+        "solana-sdk",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "tracing-subscriber",
+        "url",
+        "wasm_client_solana",
+        "wasm_client_solana"
+    ]
+}

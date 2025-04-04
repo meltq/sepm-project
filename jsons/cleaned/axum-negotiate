@@ -1,0 +1,19 @@
+{
+    "name": "axum-negotiate",
+    "deps": [
+        "async-trait",
+        "axum",
+        "axum-core",
+        "base64",
+        "env_logger",
+        "futures-util",
+        "http",
+        "libgssapi",
+        "log",
+        "thiserror",
+        "tokio",
+        "tower",
+        "tower-layer",
+        "tower-service"
+    ]
+}

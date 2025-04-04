@@ -1,0 +1,15 @@
+{
+    "name": "symcc_runtime",
+    "deps": [
+        "bindgen",
+        "cmake",
+        "ctor",
+        "lazy_static",
+        "libafl",
+        "libc",
+        "regex",
+        "symcc_libafl",
+        "unchecked_unwrap",
+        "which"
+    ]
+}

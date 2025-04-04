@@ -1,0 +1,23 @@
+{
+    "name": "wired_handler_hyper",
+    "deps": [
+        "async_fn_traits",
+        "diesel",
+        "diesel-async",
+        "diesel_migrations",
+        "futures",
+        "http",
+        "http-body-util",
+        "hyper",
+        "hyper-tungstenite",
+        "hyper-util",
+        "serde",
+        "serde_html_form",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "uuid",
+        "wired_handler"
+    ]
+}

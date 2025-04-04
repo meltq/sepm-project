@@ -1,0 +1,14 @@
+{
+    "name": "aptos-compression",
+    "deps": [
+        "aptos-crypto",
+        "aptos-logger",
+        "aptos-metrics-core",
+        "aptos-types",
+        "bcs",
+        "lz4",
+        "once_cell",
+        "serde",
+        "thiserror"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "gfaas",
+    "deps": [
+        "anyhow",
+        "dotenv",
+        "futures",
+        "gfaas-macro",
+        "serde_json",
+        "tempfile",
+        "thiserror",
+        "tokio",
+        "ya-agreement-utils",
+        "ya-runtime-wasi",
+        "yarapi",
+        "zip"
+    ]
+}

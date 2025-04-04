@@ -1,0 +1,23 @@
+{
+    "name": "iroh-metrics",
+    "deps": [
+        "async-trait",
+        "config",
+        "console-subscriber",
+        "iroh-util",
+        "lazy_static",
+        "libp2p",
+        "names",
+        "opentelemetry",
+        "opentelemetry-otlp",
+        "paste",
+        "prometheus-client",
+        "reqwest",
+        "serde",
+        "tokio",
+        "tonic",
+        "tracing",
+        "tracing-opentelemetry",
+        "tracing-subscriber"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "name": "wasm-peers-signaling-server",
+    "deps": [
+        "futures-util",
+        "log",
+        "serde",
+        "serde_json",
+        "simplelog",
+        "tokio",
+        "tokio-stream",
+        "warp",
+        "wasm-peers-protocol"
+    ]
+}

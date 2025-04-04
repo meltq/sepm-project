@@ -1,0 +1,17 @@
+{
+    "name": "pipekube",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "bytes",
+        "chrono",
+        "futures",
+        "k8s-openapi",
+        "kube",
+        "kube-runtime",
+        "log",
+        "pipebase",
+        "serde",
+        "tokio"
+    ]
+}

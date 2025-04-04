@@ -1,0 +1,26 @@
+{
+    "name": "holochain_chc",
+    "deps": [
+        "async-trait",
+        "derive_more",
+        "fixt",
+        "futures",
+        "getrandom",
+        "holochain_keystore",
+        "holochain_nonce",
+        "holochain_serialized_bytes",
+        "holochain_types",
+        "must_future",
+        "one_err",
+        "parking_lot",
+        "pretty_assertions",
+        "reqwest",
+        "serde",
+        "serde_bytes",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "url"
+    ]
+}

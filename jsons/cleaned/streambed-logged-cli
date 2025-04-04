@@ -1,0 +1,15 @@
+{
+    "name": "streambed-logged-cli",
+    "deps": [
+        "clap",
+        "env_logger",
+        "git-version",
+        "humantime",
+        "serde_json",
+        "smol_str",
+        "streambed",
+        "streambed-logged",
+        "tokio",
+        "tokio-stream"
+    ]
+}

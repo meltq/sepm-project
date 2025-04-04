@@ -1,0 +1,15 @@
+{
+    "name": "mailboar_frontend",
+    "deps": [
+        "askama",
+        "axum",
+        "mailboar_backend",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tower",
+        "tower-http",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

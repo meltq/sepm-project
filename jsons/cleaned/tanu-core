@@ -1,0 +1,22 @@
+{
+    "name": "tanu-core",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "console",
+        "eyre",
+        "futures",
+        "http",
+        "once_cell",
+        "pretty_assertions",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "tanu-derive",
+        "thiserror",
+        "tokio",
+        "toml",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

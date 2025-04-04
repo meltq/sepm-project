@@ -1,0 +1,32 @@
+{
+    "name": "openlibspot-playback",
+    "deps": [
+        "alsa",
+        "byteorder",
+        "cpal",
+        "futures-util",
+        "glib",
+        "gstreamer",
+        "gstreamer-app",
+        "gstreamer-audio",
+        "jack",
+        "libpulse-binding",
+        "libpulse-simple-binding",
+        "log",
+        "ogg",
+        "openlibspot-audio",
+        "openlibspot-core",
+        "openlibspot-metadata",
+        "parking_lot",
+        "portaudio-rs",
+        "rand",
+        "rand_distr",
+        "rodio",
+        "sdl2",
+        "shell-words",
+        "symphonia",
+        "thiserror",
+        "tokio",
+        "zerocopy"
+    ]
+}

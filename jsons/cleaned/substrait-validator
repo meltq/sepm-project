@@ -1,0 +1,29 @@
+{
+    "name": "substrait-validator",
+    "deps": [
+        "base64",
+        "chrono",
+        "curl",
+        "glob",
+        "heck",
+        "itertools",
+        "jsonschema",
+        "num-derive",
+        "num-traits",
+        "once_cell",
+        "percent-encoding",
+        "prost",
+        "prost-build",
+        "prost-types",
+        "regex",
+        "serde_json",
+        "strum",
+        "strum_macros",
+        "substrait-validator-derive",
+        "thiserror",
+        "uriparse",
+        "url",
+        "walkdir",
+        "yaml-rust"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "ratcurl",
+    "deps": [
+        "curl-sys",
+        "libc",
+        "socket2",
+        "anyhow",
+        "mio",
+        "mio-extras",
+        "openssl-probe",
+        "openssl-sys",
+        "schannel",
+        "winapi"
+    ]
+}

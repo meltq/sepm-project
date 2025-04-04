@@ -1,0 +1,20 @@
+{
+    "name": "rust-sam",
+    "deps": [
+        "async-trait",
+        "aws-config",
+        "aws-sdk-dynamodb",
+        "fcm",
+        "futures",
+        "lambda_runtime",
+        "openssl",
+        "openssl-sys",
+        "rusty-s3",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "tokio",
+        "tokio-stream",
+        "validator"
+    ]
+}

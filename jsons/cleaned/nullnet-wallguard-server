@@ -1,0 +1,17 @@
+{
+    "name": "nullnet-wallguard-server",
+    "deps": [
+        "async-channel",
+        "chrono",
+        "etherparse",
+        "nullnet-libdatastore",
+        "nullnet-libtoken",
+        "once_cell",
+        "prost",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tonic",
+        "tonic-build"
+    ]
+}

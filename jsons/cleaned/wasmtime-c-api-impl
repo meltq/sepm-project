@@ -1,0 +1,17 @@
+{
+    "name": "wasmtime-c-api-impl",
+    "deps": [
+        "anyhow",
+        "cap-std",
+        "env_logger",
+        "futures",
+        "log",
+        "once_cell",
+        "tracing",
+        "wasi-common",
+        "wasmtime",
+        "wasmtime-c-api-macros",
+        "wasmtime-wasi",
+        "wat"
+    ]
+}

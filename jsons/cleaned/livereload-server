@@ -1,0 +1,16 @@
+{
+    "name": "livereload-server",
+    "deps": [
+        "anyhow",
+        "clap",
+        "dotenv",
+        "futures-util",
+        "hyper",
+        "log",
+        "notify",
+        "pretty_env_logger",
+        "regex",
+        "tokio",
+        "warp"
+    ]
+}

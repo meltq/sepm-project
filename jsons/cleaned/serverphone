@@ -1,0 +1,20 @@
+{
+    "name": "serverphone",
+    "deps": [
+        "anyhow",
+        "argon2",
+        "clap",
+        "futures",
+        "rcgen",
+        "ron",
+        "rpassword",
+        "rustls-pemfile",
+        "sptp",
+        "tempfile",
+        "thrussh-keys",
+        "time",
+        "tokio",
+        "tokio-rustls",
+        "webpki-roots"
+    ]
+}

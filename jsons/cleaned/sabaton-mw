@@ -1,0 +1,23 @@
+{
+    "name": "sabaton-mw",
+    "deps": [
+        "async-signals",
+        "async-std",
+        "async-trait",
+        "cdds_derive",
+        "cyclonedds-rs",
+        "fix-hidden-lifetime-bug",
+        "futures",
+        "futures-util",
+        "libc",
+        "serde",
+        "serde_derive",
+        "someip",
+        "someip_derive",
+        "thiserror",
+        "tokio",
+        "toml",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

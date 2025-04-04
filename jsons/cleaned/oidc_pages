@@ -1,0 +1,24 @@
+{
+    "name": "oidc_pages",
+    "deps": [
+        "anyhow",
+        "askama",
+        "askama_axum",
+        "assert_cmd",
+        "axum",
+        "jsonwebtoken",
+        "log",
+        "openidconnect",
+        "predicates",
+        "serde",
+        "serde_json",
+        "subtle",
+        "systemd-journal-logger",
+        "tempfile",
+        "tokio",
+        "tower",
+        "tower-http",
+        "tower-sessions",
+        "url"
+    ]
+}

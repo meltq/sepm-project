@@ -1,0 +1,22 @@
+{
+    "name": "assemblage_view",
+    "deps": [
+        "assemblage_db",
+        "assemblage_kv",
+        "async-recursion",
+        "async-trait",
+        "console_error_panic_hook",
+        "console_log",
+        "env_logger",
+        "js-sys",
+        "log",
+        "serde",
+        "serde_json",
+        "tokio",
+        "wasm-bindgen",
+        "wasm-bindgen-futures",
+        "wasm-bindgen-test",
+        "web-sys",
+        "wee_alloc"
+    ]
+}

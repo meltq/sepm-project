@@ -1,0 +1,22 @@
+{
+    "name": "divviup-cli",
+    "deps": [
+        "base64",
+        "clap",
+        "colored",
+        "const_format",
+        "divviup-client",
+        "email_address",
+        "env_logger",
+        "hpke-dispatch",
+        "humantime",
+        "rand",
+        "serde",
+        "serde_json",
+        "serde_yaml",
+        "thiserror",
+        "time",
+        "trillium-rustls",
+        "trillium-tokio"
+    ]
+}

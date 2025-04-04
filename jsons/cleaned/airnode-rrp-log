@@ -1,0 +1,21 @@
+{
+    "name": "airnode-rrp-log",
+    "deps": [
+        "airnode-abi",
+        "airnode-events",
+        "anyhow",
+        "dotenv",
+        "futures",
+        "hex",
+        "hex-literal",
+        "serde",
+        "serde_json",
+        "structopt",
+        "tokio",
+        "tokio-stream",
+        "tracing",
+        "tracing-futures",
+        "tracing-subscriber",
+        "web3"
+    ]
+}

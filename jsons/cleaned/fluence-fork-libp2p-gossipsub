@@ -1,0 +1,26 @@
+{
+    "name": "fluence-fork-libp2p-gossipsub",
+    "deps": [
+        "async-std",
+        "base64",
+        "byteorder",
+        "bytes",
+        "env_logger",
+        "fnv",
+        "futures",
+        "futures_codec",
+        "hex_fmt",
+        "libp2p-core",
+        "libp2p-swarm",
+        "log",
+        "lru",
+        "prost",
+        "prost-build",
+        "quickcheck",
+        "rand",
+        "sha2",
+        "smallvec",
+        "unsigned-varint",
+        "wasm-timer"
+    ]
+}

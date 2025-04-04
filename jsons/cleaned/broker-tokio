@@ -1,0 +1,26 @@
+{
+    "name": "broker-tokio",
+    "deps": [
+        "bytes",
+        "fnv",
+        "futures",
+        "futures-core",
+        "iovec",
+        "lazy_static",
+        "libc",
+        "loom",
+        "memchr",
+        "mio",
+        "mio-named-pipes",
+        "mio-uds",
+        "num_cpus",
+        "pin-project-lite",
+        "proptest",
+        "signal-hook-registry",
+        "slab",
+        "tempfile",
+        "tokio-macros",
+        "tokio-test",
+        "winapi"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "hrdf-routing-engine",
+    "deps": [
+        "axum",
+        "chrono",
+        "contour",
+        "hrdf-parser",
+        "kd-tree",
+        "log",
+        "rayon",
+        "rustc-hash",
+        "serde",
+        "simple_logger",
+        "strum",
+        "strum_macros",
+        "tokio",
+        "tower-http",
+        "typenum"
+    ]
+}

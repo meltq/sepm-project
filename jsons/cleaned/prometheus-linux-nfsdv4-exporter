@@ -1,0 +1,12 @@
+{
+    "name": "prometheus-linux-nfsdv4-exporter",
+    "deps": [
+        "clap",
+        "lazy_static",
+        "nix",
+        "prometheus",
+        "semver",
+        "tokio",
+        "warp"
+    ]
+}

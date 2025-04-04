@@ -1,0 +1,20 @@
+{
+    "name": "acme-gateways",
+    "deps": [
+        "async-trait",
+        "axum",
+        "clap",
+        "http",
+        "hyper",
+        "lru",
+        "rust-s3",
+        "scsys",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tower",
+        "tower-http",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

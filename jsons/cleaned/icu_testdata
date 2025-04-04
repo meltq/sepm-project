@@ -1,0 +1,16 @@
+{
+    "name": "icu_testdata",
+    "deps": [
+        "cargo_metadata",
+        "clap",
+        "icu_locid",
+        "icu_locid_macros",
+        "icu_provider",
+        "icu_provider_cldr",
+        "icu_provider_fs",
+        "log",
+        "serde",
+        "serde_json",
+        "simple_logger"
+    ]
+}

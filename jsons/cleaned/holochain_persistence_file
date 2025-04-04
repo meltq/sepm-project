@@ -1,0 +1,15 @@
+{
+    "name": "holochain_persistence_file",
+    "deps": [
+        "glob",
+        "holochain_json_api",
+        "holochain_persistence_api",
+        "lazy_static",
+        "multihash",
+        "serde",
+        "serde_derive",
+        "serde_test",
+        "tempfile",
+        "uuid"
+    ]
+}

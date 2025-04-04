@@ -1,0 +1,29 @@
+{
+    "name": "drift-rs",
+    "deps": [
+        "abi_stable",
+        "anchor-lang",
+        "base64",
+        "bytemuck",
+        "bytes",
+        "dashmap",
+        "drift-idl-gen",
+        "env_logger",
+        "fnv",
+        "futures-util",
+        "hex",
+        "hex-literal",
+        "log",
+        "rayon",
+        "regex",
+        "serde",
+        "serde_json",
+        "solana-account-decoder",
+        "solana-client",
+        "solana-sdk",
+        "solana-transaction-status",
+        "thiserror",
+        "tokio",
+        "type-layout"
+    ]
+}

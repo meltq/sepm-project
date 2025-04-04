@@ -1,0 +1,12 @@
+{
+    "name": "bitcoincore-rpc-async",
+    "deps": [
+        "async-trait",
+        "bitcoincore-rpc-json-async",
+        "jsonrpc-async",
+        "log",
+        "serde",
+        "serde_json",
+        "tokio"
+    ]
+}

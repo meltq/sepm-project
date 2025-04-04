@@ -1,0 +1,9 @@
+{
+    "name": "tikv-jemalloc-ctl",
+    "deps": [
+        "libc",
+        "paste",
+        "tikv-jemalloc-sys",
+        "tikv-jemallocator"
+    ]
+}

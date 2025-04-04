@@ -1,0 +1,23 @@
+{
+    "name": "ecr-dump",
+    "deps": [
+        "anyhow",
+        "aws-config",
+        "aws-sdk-ecr",
+        "aws-smithy-types-convert",
+        "chrono",
+        "clap",
+        "futures-util",
+        "globset",
+        "indicatif",
+        "itertools",
+        "oci-spec",
+        "serde",
+        "serde_json",
+        "strum",
+        "tokio",
+        "tracing",
+        "tracing-indicatif",
+        "tracing-subscriber"
+    ]
+}

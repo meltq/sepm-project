@@ -1,0 +1,12 @@
+{
+    "name": "query_external_ip",
+    "deps": [
+        "futures",
+        "log",
+        "once_cell",
+        "reqwest",
+        "serde_json",
+        "thiserror",
+        "tokio-test"
+    ]
+}

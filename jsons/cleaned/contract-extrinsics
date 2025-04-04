@@ -1,0 +1,27 @@
+{
+    "name": "contract-extrinsics",
+    "deps": [
+        "anyhow",
+        "clap",
+        "colored",
+        "contract-build",
+        "contract-metadata",
+        "contract-transcode",
+        "hex",
+        "jsonrpsee",
+        "pallet-contracts-primitives",
+        "rust_decimal",
+        "scale",
+        "scale-info",
+        "serde",
+        "serde_json",
+        "sp-core",
+        "sp-runtime",
+        "sp-weights",
+        "subxt",
+        "subxt-signer",
+        "tokio",
+        "tracing",
+        "url"
+    ]
+}

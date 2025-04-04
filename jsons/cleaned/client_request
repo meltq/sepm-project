@@ -1,0 +1,13 @@
+{
+    "name": "client_request",
+    "deps": [
+        "async-trait",
+        "log",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "structopt",
+        "thiserror",
+        "tokio"
+    ]
+}

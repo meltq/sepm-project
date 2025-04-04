@@ -1,0 +1,13 @@
+{
+    "name": "gimpey-sol-gateway",
+    "deps": [
+        "dotenv",
+        "prost",
+        "rustls",
+        "rustls-native-certs",
+        "tokio",
+        "tokio-stream",
+        "tonic",
+        "tonic-rustls"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "name": "gday_server",
+    "deps": [
+        "clap",
+        "env_logger",
+        "gday_contact_exchange_protocol",
+        "log",
+        "rustls-pemfile",
+        "socket2",
+        "thiserror",
+        "tokio",
+        "tokio-rustls"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "name": "diskplan",
+    "deps": [
+        "anyhow",
+        "camino",
+        "clap",
+        "diskplan-config",
+        "diskplan-filesystem",
+        "diskplan-traversal",
+        "tracing",
+        "tracing-subscriber",
+        "users"
+    ]
+}

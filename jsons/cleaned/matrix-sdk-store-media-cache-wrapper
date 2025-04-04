@@ -1,0 +1,20 @@
+{
+    "name": "matrix-sdk-store-media-cache-wrapper",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "base64ct",
+        "matrix-sdk-base",
+        "matrix-sdk-sqlite",
+        "matrix-sdk-store-encryption",
+        "matrix-sdk-test",
+        "rmp-serde",
+        "ruma-common",
+        "ruma-events",
+        "serde_json",
+        "tempfile",
+        "tokio",
+        "tracing",
+        "uuid"
+    ]
+}

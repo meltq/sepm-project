@@ -1,0 +1,30 @@
+{
+    "name": "videocall-daemon",
+    "deps": [
+        "anyhow",
+        "base64",
+        "bus",
+        "clap",
+        "cpal",
+        "directories-next",
+        "env-libvpx-sys",
+        "futures-util",
+        "image",
+        "nokhwa",
+        "opus",
+        "protobuf",
+        "quinn",
+        "rayon",
+        "rustls",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "tracing-subscriber",
+        "url",
+        "videocall-types",
+        "webpki-roots",
+        "yuv"
+    ]
+}

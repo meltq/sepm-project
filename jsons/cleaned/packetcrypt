@@ -1,0 +1,25 @@
+{
+    "name": "packetcrypt",
+    "deps": [
+        "anyhow",
+        "blake2b_simd",
+        "bytes",
+        "clap",
+        "crossbeam-channel",
+        "env_logger",
+        "hex",
+        "hex-literal",
+        "log",
+        "num_cpus",
+        "packetcrypt-sys",
+        "rand",
+        "regex",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "sha2",
+        "tokio",
+        "toml",
+        "warp"
+    ]
+}

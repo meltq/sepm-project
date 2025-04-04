@@ -1,0 +1,14 @@
+{
+    "name": "dicomweb-server",
+    "deps": [
+        "async-std",
+        "async-trait",
+        "dicom",
+        "dicomweb-util",
+        "http-types",
+        "log",
+        "serde",
+        "serde_json",
+        "tide"
+    ]
+}

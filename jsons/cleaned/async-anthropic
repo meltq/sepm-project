@@ -1,0 +1,16 @@
+{
+    "name": "async-anthropic",
+    "deps": [
+        "async-trait",
+        "derive_builder",
+        "reqwest",
+        "secrecy",
+        "serde",
+        "serde_json",
+        "test-log",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "wiremock"
+    ]
+}

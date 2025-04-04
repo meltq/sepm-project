@@ -1,0 +1,19 @@
+{
+    "name": "vasystem-api",
+    "deps": [
+        "futures-core",
+        "http",
+        "oauth2",
+        "prost",
+        "prost-build",
+        "prost-types",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tonic",
+        "tonic-build",
+        "tower",
+        "vasystem-api-grpc"
+    ]
+}

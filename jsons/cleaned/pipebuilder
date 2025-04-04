@@ -1,0 +1,22 @@
+{
+    "name": "pipebuilder",
+    "deps": [
+        "chrono",
+        "clap",
+        "etcd-client",
+        "flurry",
+        "http",
+        "pipebuilder_common",
+        "prost",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "termcolor",
+        "tokio",
+        "tonic",
+        "tonic-build",
+        "tracing",
+        "tracing-subscriber",
+        "warp"
+    ]
+}

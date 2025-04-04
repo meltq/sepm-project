@@ -1,0 +1,16 @@
+{
+    "name": "vfs_service",
+    "deps": [
+        "dotenv",
+        "file_node",
+        "file_store",
+        "fuse",
+        "libc",
+        "log",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "syslog",
+        "time"
+    ]
+}

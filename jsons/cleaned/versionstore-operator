@@ -1,0 +1,22 @@
+{
+    "name": "versionstore-operator",
+    "deps": [
+        "awaitgroup",
+        "clap",
+        "flexi_logger",
+        "futures",
+        "google-cloud",
+        "json-patch",
+        "k8s-openapi",
+        "kube",
+        "kube-runtime",
+        "serde",
+        "serde_json",
+        "snafu",
+        "stream-cancel",
+        "tokio",
+        "tonic",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

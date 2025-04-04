@@ -1,0 +1,16 @@
+{
+    "name": "osm_transit_extractor",
+    "deps": [
+        "csv",
+        "geo-types",
+        "log",
+        "osmpbfreader",
+        "serde",
+        "serde_derive",
+        "simple_logger",
+        "structopt",
+        "structopt-derive",
+        "tempdir",
+        "wkt"
+    ]
+}

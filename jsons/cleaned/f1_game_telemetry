@@ -1,0 +1,16 @@
+{
+    "name": "f1_game_telemetry",
+    "deps": [
+        "binread",
+        "env_logger",
+        "error-stack",
+        "futures-util",
+        "log",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tokio-tungstenite",
+        "tungstenite",
+        "url"
+    ]
+}

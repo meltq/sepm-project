@@ -1,0 +1,32 @@
+{
+    "name": "sos-vault",
+    "deps": [
+        "age",
+        "async-trait",
+        "binary-stream",
+        "bitflags",
+        "ed25519-dalek",
+        "futures",
+        "hex",
+        "indexmap",
+        "pem",
+        "rustc_version",
+        "secrecy",
+        "serde",
+        "serde_json",
+        "sha2",
+        "sos-core",
+        "sos-signer",
+        "sos-vfs",
+        "thiserror",
+        "tokio",
+        "tokio-util",
+        "totp-rs",
+        "tracing",
+        "typeshare",
+        "url",
+        "urn",
+        "uuid",
+        "vcard4"
+    ]
+}

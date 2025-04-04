@@ -1,0 +1,15 @@
+{
+    "name": "iceberg-datafusion",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "ctor",
+        "datafusion",
+        "futures",
+        "iceberg",
+        "iceberg-catalog-hms",
+        "log",
+        "port_scanner",
+        "tokio"
+    ]
+}

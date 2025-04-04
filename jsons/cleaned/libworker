@@ -1,0 +1,19 @@
+{
+    "name": "libworker",
+    "deps": [
+        "async-trait",
+        "chrono",
+        "chrono-tz",
+        "edgeworker-sys",
+        "futures",
+        "http",
+        "js-sys",
+        "matchit",
+        "serde",
+        "serde_json",
+        "url",
+        "wasm-bindgen",
+        "wasm-bindgen-futures",
+        "worker-kv"
+    ]
+}

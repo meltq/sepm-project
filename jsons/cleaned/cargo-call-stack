@@ -1,0 +1,15 @@
+{
+    "name": "cargo-call-stack",
+    "deps": [
+        "cargo-project",
+        "clap",
+        "either",
+        "failure",
+        "pest",
+        "pest_derive",
+        "petgraph",
+        "rustc-demangle",
+        "rustc_version",
+        "stack-sizes"
+    ]
+}

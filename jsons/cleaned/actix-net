@@ -1,0 +1,30 @@
+{
+    "name": "actix-net",
+    "deps": [
+        "actix",
+        "bytes",
+        "env_logger",
+        "futures",
+        "log",
+        "mio",
+        "native-tls",
+        "net2",
+        "num_cpus",
+        "openssl",
+        "rustls",
+        "slab",
+        "tokio",
+        "tokio-codec",
+        "tokio-current-thread",
+        "tokio-io",
+        "tokio-openssl",
+        "tokio-reactor",
+        "tokio-rustls",
+        "tokio-tcp",
+        "tokio-timer",
+        "tower-service",
+        "trust-dns-resolver",
+        "webpki",
+        "webpki-roots"
+    ]
+}

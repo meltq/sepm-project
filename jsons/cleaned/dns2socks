@@ -1,0 +1,15 @@
+{
+    "name": "dns2socks",
+    "deps": [
+        "clap",
+        "ctrlc2",
+        "dotenvy",
+        "env_logger",
+        "log",
+        "moka",
+        "rand",
+        "socks5-impl",
+        "tokio",
+        "trust-dns-proto"
+    ]
+}

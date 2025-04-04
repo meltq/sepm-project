@@ -1,0 +1,26 @@
+{
+    "name": "chainvault",
+    "deps": [
+        "anyhow",
+        "aws-config",
+        "aws-sdk-dynamodb",
+        "axum",
+        "chrono",
+        "dotenv",
+        "lambda_http",
+        "lambda_runtime",
+        "lazy_static",
+        "openssl",
+        "regex",
+        "reqwest",
+        "rig-core",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "tweety-rs",
+        "twitter-v2",
+        "uuid"
+    ]
+}

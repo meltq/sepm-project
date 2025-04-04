@@ -1,0 +1,25 @@
+{
+    "name": "zellij-utils",
+    "deps": [
+        "async-std",
+        "backtrace",
+        "bincode",
+        "colors-transform",
+        "directories-next",
+        "interprocess",
+        "lazy_static",
+        "libc",
+        "nix",
+        "once_cell",
+        "serde",
+        "serde_yaml",
+        "signal-hook",
+        "strip-ansi-escapes",
+        "structopt",
+        "strum",
+        "tempfile",
+        "termion",
+        "vte",
+        "zellij-tile"
+    ]
+}

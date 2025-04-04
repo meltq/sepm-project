@@ -1,0 +1,28 @@
+{
+    "name": "miraland-rpc-client",
+    "deps": [
+        "assert_matches",
+        "async-trait",
+        "base64",
+        "bincode",
+        "bs58",
+        "crossbeam-channel",
+        "futures",
+        "indicatif",
+        "jsonrpc-core",
+        "jsonrpc-http-server",
+        "log",
+        "miraland-account-decoder",
+        "miraland-rpc-client-api",
+        "miraland-sdk",
+        "miraland-transaction-status",
+        "miraland-version",
+        "miraland-vote-program",
+        "reqwest",
+        "semver",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "tokio"
+    ]
+}

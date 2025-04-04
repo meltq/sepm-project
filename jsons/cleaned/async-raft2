@@ -1,0 +1,19 @@
+{
+    "name": "async-raft2",
+    "deps": [
+        "anyhow",
+        "bytes",
+        "derive_more",
+        "futures",
+        "log",
+        "maplit",
+        "memstore",
+        "rand",
+        "serde",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "tracing-futures",
+        "tracing-subscriber"
+    ]
+}

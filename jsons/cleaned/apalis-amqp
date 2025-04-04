@@ -1,0 +1,17 @@
+{
+    "name": "apalis-amqp",
+    "deps": [
+        "apalis-core",
+        "async-stream",
+        "deadpool",
+        "deadpool-lapin",
+        "futures",
+        "lapin",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tokio-amqp",
+        "tower",
+        "tracing"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "lumina-node-wasm",
+    "deps": [
+        "anyhow",
+        "celestia-types",
+        "console_error_panic_hook",
+        "js-sys",
+        "libp2p",
+        "lumina-node",
+        "serde",
+        "serde-wasm-bindgen",
+        "serde_repr",
+        "time",
+        "tracing",
+        "tracing-subscriber",
+        "tracing-web",
+        "wasm-bindgen",
+        "wasm-bindgen-futures"
+    ]
+}

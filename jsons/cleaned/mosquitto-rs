@@ -1,0 +1,12 @@
+{
+    "name": "mosquitto-rs",
+    "deps": [
+        "async-channel",
+        "downcast-rs",
+        "lazy_static",
+        "libc",
+        "libmosquitto-sys",
+        "smol",
+        "thiserror"
+    ]
+}

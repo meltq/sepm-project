@@ -1,0 +1,33 @@
+{
+    "name": "cryptr",
+    "deps": [
+        "anyhow",
+        "argon2",
+        "async-stream",
+        "async-trait",
+        "base64",
+        "bincode",
+        "bytes",
+        "chacha20poly1305",
+        "clap",
+        "colored",
+        "dotenvy",
+        "flume",
+        "futures",
+        "home",
+        "lazy_static",
+        "rand",
+        "regex",
+        "reqwest",
+        "rpassword",
+        "rstest",
+        "rusty-s3",
+        "serde",
+        "tokio",
+        "tokio-test",
+        "tokio-util",
+        "tracing",
+        "tracing-subscriber",
+        "url"
+    ]
+}

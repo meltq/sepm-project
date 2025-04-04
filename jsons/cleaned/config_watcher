@@ -1,0 +1,18 @@
+{
+    "name": "config_watcher",
+    "deps": [
+        "futures",
+        "futures-stream-ext",
+        "glob",
+        "k8s-openapi",
+        "kube",
+        "log",
+        "notify",
+        "notify-debouncer-full",
+        "rumqttc",
+        "thiserror",
+        "tokio",
+        "twox-hash",
+        "walkdir"
+    ]
+}

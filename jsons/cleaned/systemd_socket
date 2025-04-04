@@ -1,0 +1,14 @@
+{
+    "name": "systemd_socket",
+    "deps": [
+        "async-std",
+        "lazy_static",
+        "libsystemd",
+        "parse_arg",
+        "serde_crate",
+        "serde_str_helpers",
+        "thiserror",
+        "tokio_0_2",
+        "tokio_0_3"
+    ]
+}

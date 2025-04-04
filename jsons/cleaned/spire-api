@@ -1,0 +1,17 @@
+{
+    "name": "spire-api",
+    "deps": [
+        "anyhow",
+        "bytes",
+        "once_cell",
+        "prost",
+        "prost-build",
+        "prost-types",
+        "spiffe",
+        "tokio",
+        "tokio-stream",
+        "tonic",
+        "tonic-build",
+        "tower"
+    ]
+}

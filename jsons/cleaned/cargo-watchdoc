@@ -1,0 +1,19 @@
+{
+    "name": "cargo-watchdoc",
+    "deps": [
+        "anyhow",
+        "axum",
+        "cargo_metadata",
+        "clap",
+        "ignore-files",
+        "log",
+        "portpicker",
+        "stderrlog",
+        "tokio",
+        "tower-http",
+        "tower-livereload",
+        "watchexec",
+        "watchexec-filterer-globset",
+        "watchexec-filterer-ignore"
+    ]
+}

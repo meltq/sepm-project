@@ -1,0 +1,22 @@
+{
+    "name": "coap-server",
+    "deps": [
+        "anyhow",
+        "async-stream",
+        "async-trait",
+        "bytes",
+        "coap-lite",
+        "dyn-clone",
+        "env_logger",
+        "futures",
+        "log",
+        "pin-project",
+        "rand",
+        "sync_wrapper",
+        "thiserror",
+        "tokio",
+        "tokio",
+        "tokio-stream",
+        "tokio-util"
+    ]
+}

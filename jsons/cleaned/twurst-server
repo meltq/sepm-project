@@ -1,0 +1,17 @@
+{
+    "name": "twurst-server",
+    "deps": [
+        "axum",
+        "http-body-util",
+        "prost",
+        "prost-reflect",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tonic",
+        "tower-service",
+        "tracing",
+        "trait-variant",
+        "twurst-error"
+    ]
+}

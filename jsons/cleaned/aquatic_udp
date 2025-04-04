@@ -1,0 +1,23 @@
+{
+    "name": "aquatic_udp",
+    "deps": [
+        "anyhow",
+        "aquatic_cli_helpers",
+        "aquatic_common",
+        "aquatic_udp_protocol",
+        "crossbeam-channel",
+        "hashbrown",
+        "histogram",
+        "indexmap",
+        "log",
+        "mimalloc",
+        "mio",
+        "parking_lot",
+        "privdrop",
+        "quickcheck",
+        "quickcheck_macros",
+        "rand",
+        "serde",
+        "socket2"
+    ]
+}

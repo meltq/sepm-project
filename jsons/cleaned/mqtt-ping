@@ -1,0 +1,13 @@
+{
+    "name": "mqtt-ping",
+    "deps": [
+        "anyhow",
+        "clap",
+        "rand",
+        "rumqttc",
+        "rustls",
+        "rustls-native-certs",
+        "tokio",
+        "url"
+    ]
+}

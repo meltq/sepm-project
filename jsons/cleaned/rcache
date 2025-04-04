@@ -1,0 +1,18 @@
+{
+    "name": "rcache",
+    "deps": [
+        "bytes",
+        "clap",
+        "deque",
+        "futures",
+        "futures-cpupool",
+        "lru-cache",
+        "mio-uds",
+        "rand",
+        "time",
+        "tokio-core",
+        "tokio-io",
+        "tokio-proto",
+        "tokio-service"
+    ]
+}

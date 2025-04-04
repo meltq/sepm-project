@@ -1,0 +1,21 @@
+{
+    "name": "bevy_eventwork_mod_websockets",
+    "deps": [
+        "async-channel",
+        "async-std",
+        "async-trait",
+        "async-tungstenite",
+        "async_io_stream",
+        "bevy",
+        "bevy",
+        "bevy_eventwork",
+        "bincode",
+        "futures",
+        "futures-lite",
+        "serde",
+        "serde_json",
+        "url",
+        "ws_stream_tungstenite",
+        "ws_stream_wasm"
+    ]
+}

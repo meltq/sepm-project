@@ -1,0 +1,17 @@
+{
+    "name": "netpix",
+    "deps": [
+        "clap",
+        "etherparse",
+        "futures-util",
+        "log",
+        "mime_guess",
+        "netpix_common",
+        "pcap",
+        "pretty_env_logger",
+        "rust-embed",
+        "tokio",
+        "tokio-stream",
+        "warp"
+    ]
+}

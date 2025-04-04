@@ -1,0 +1,20 @@
+{
+    "name": "toy-rpc",
+    "deps": [
+        "async-std",
+        "async-trait",
+        "bincode",
+        "env_logger",
+        "erased-serde",
+        "features",
+        "futures",
+        "lazy_static",
+        "log",
+        "pin-project",
+        "serde",
+        "serde_json",
+        "surf",
+        "tide",
+        "toy-rpc-macros"
+    ]
+}

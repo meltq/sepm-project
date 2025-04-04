@@ -1,0 +1,19 @@
+{
+    "name": "rsip-dns",
+    "deps": [
+        "async-trait",
+        "futures",
+        "log",
+        "nom",
+        "once_cell",
+        "pretty_env_logger",
+        "quote",
+        "rand",
+        "rsip",
+        "rsip",
+        "testing-utils",
+        "tokio",
+        "trust-dns-proto",
+        "trust-dns-resolver"
+    ]
+}

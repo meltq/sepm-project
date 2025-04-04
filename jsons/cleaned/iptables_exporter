@@ -1,0 +1,14 @@
+{
+    "name": "iptables_exporter",
+    "deps": [
+        "anyhow",
+        "clap",
+        "clap",
+        "prometheus",
+        "prometheus-hyper",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

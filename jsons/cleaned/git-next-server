@@ -1,0 +1,15 @@
+{
+    "name": "git-next-server",
+    "deps": [
+        "actix",
+        "actix-rt",
+        "assert2",
+        "console-subscriber",
+        "git-next-config",
+        "git-next-file-watcher-actor",
+        "git-next-server-actor",
+        "kxio",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

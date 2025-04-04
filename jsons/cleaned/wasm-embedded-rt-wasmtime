@@ -1,0 +1,12 @@
+{
+    "name": "wasm-embedded-rt-wasmtime",
+    "deps": [
+        "anyhow",
+        "embedded-hal",
+        "log",
+        "wasm-embedded-spec",
+        "wasmtime",
+        "wasmtime-wasi",
+        "wiggle"
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "name": "tc-server",
+    "deps": [
+        "aes-gcm-siv",
+        "async-trait",
+        "destream",
+        "ds-ext",
+        "env_logger",
+        "freqfs",
+        "futures",
+        "gethostname",
+        "local-ip-address",
+        "log",
+        "mdns-sd",
+        "rand",
+        "rjwt",
+        "safecast",
+        "serde",
+        "tc-collection",
+        "tc-error",
+        "tc-scalar",
+        "tc-state",
+        "tc-transact",
+        "tc-value",
+        "tcgeneric",
+        "tokio",
+        "tokio",
+        "umask",
+        "uuid"
+    ]
+}

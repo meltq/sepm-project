@@ -1,0 +1,22 @@
+{
+    "name": "peer-monitoring-service-server",
+    "deps": [
+        "aptos-config",
+        "aptos-logger",
+        "aptos-metrics-core",
+        "aptos-types",
+        "bcs",
+        "bounded-executor",
+        "bytes",
+        "channel",
+        "claim",
+        "futures",
+        "netcore",
+        "network",
+        "once_cell",
+        "peer-monitoring-service-types",
+        "serde",
+        "thiserror",
+        "tokio"
+    ]
+}

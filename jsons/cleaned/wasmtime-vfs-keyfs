@@ -1,0 +1,22 @@
+{
+    "name": "wasmtime-vfs-keyfs",
+    "deps": [
+        "async-trait",
+        "digest",
+        "ecdsa",
+        "k256",
+        "p256",
+        "p384",
+        "rand",
+        "rsa",
+        "sha2",
+        "signature",
+        "tokio",
+        "uuid",
+        "wasi-common",
+        "wasmtime-vfs-dir",
+        "wasmtime-vfs-file",
+        "wasmtime-vfs-ledger",
+        "wasmtime-vfs-memory"
+    ]
+}

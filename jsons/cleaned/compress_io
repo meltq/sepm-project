@@ -1,0 +1,12 @@
+{
+    "name": "compress_io",
+    "deps": [
+        "lazy_static",
+        "libc",
+        "num_cpus",
+        "os_pipe",
+        "tempfile",
+        "tokio",
+        "tokio-pipe"
+    ]
+}

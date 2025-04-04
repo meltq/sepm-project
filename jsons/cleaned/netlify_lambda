@@ -1,0 +1,21 @@
+{
+    "name": "netlify_lambda",
+    "deps": [
+        "async-stream",
+        "bytes",
+        "http",
+        "hyper",
+        "log",
+        "netlify_lambda_attributes",
+        "once_cell",
+        "serde",
+        "serde_json",
+        "simple-error",
+        "simple_logger",
+        "tokio",
+        "tower-service",
+        "tracing",
+        "tracing-futures",
+        "tracing-subscriber"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "btrfsutil-fake",
+    "deps": [
+        "bitflags",
+        "btrfsutil-sys",
+        "chrono",
+        "libc",
+        "libmount",
+        "loopdev",
+        "nix",
+        "tempfile",
+        "thiserror",
+        "uuid"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "portal-relay",
+    "deps": [
+        "anyhow",
+        "daemonize",
+        "env_logger",
+        "lazy_static",
+        "libc",
+        "log",
+        "mio",
+        "mio-extras",
+        "os_pipe",
+        "portal-lib",
+        "structopt",
+        "threadpool"
+    ]
+}

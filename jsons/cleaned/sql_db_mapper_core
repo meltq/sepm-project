@@ -1,0 +1,14 @@
+{
+    "name": "sql_db_mapper_core",
+    "deps": [
+        "async-trait",
+        "bytes",
+        "chrono",
+        "postgres",
+        "postgres-derive",
+        "postgres-types",
+        "rust_decimal",
+        "sql_db_mapper_derive",
+        "tokio-postgres"
+    ]
+}

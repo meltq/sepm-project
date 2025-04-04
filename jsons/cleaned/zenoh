@@ -1,0 +1,20 @@
+{
+    "name": "zenoh",
+    "deps": [
+        "async-std",
+        "async-trait",
+        "clap",
+        "env_logger",
+        "futures",
+        "hex",
+        "lazy_static",
+        "log",
+        "pin-project-lite",
+        "rand",
+        "regex",
+        "serde_json",
+        "zenoh-protocol",
+        "zenoh-router",
+        "zenoh-util"
+    ]
+}

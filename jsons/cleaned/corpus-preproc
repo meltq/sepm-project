@@ -1,0 +1,31 @@
+{
+    "name": "corpus-preproc",
+    "deps": [
+        "axum",
+        "bytes",
+        "chardetng",
+        "clap",
+        "encoding_rs",
+        "html5ever",
+        "hyper",
+        "indicatif",
+        "kuchiki",
+        "lazy_static",
+        "multer",
+        "num_cpus",
+        "rayon",
+        "regex",
+        "serde",
+        "serde_json",
+        "substring",
+        "tokio",
+        "tower",
+        "tower-http",
+        "tracing",
+        "tracing-subscriber",
+        "ucd-trie",
+        "unicode-normalization",
+        "unicode-segmentation",
+        "walkdir"
+    ]
+}

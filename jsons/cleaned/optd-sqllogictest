@@ -1,0 +1,21 @@
+{
+    "name": "optd-sqllogictest",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "clap",
+        "datafusion",
+        "datafusion-optd-cli",
+        "env_logger",
+        "itertools",
+        "lazy_static",
+        "mimalloc",
+        "optd-datafusion-bridge",
+        "optd-datafusion-repr",
+        "optd-datafusion-repr-adv-cost",
+        "regex",
+        "sqllogictest",
+        "thiserror",
+        "tokio"
+    ]
+}

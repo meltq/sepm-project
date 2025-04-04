@@ -1,0 +1,21 @@
+{
+    "name": "solana-snapshot-etl",
+    "deps": [
+        "bincode",
+        "clap",
+        "csv",
+        "env_logger",
+        "indicatif",
+        "itertools",
+        "log",
+        "memmap2",
+        "rusqlite",
+        "serde",
+        "solana-runtime",
+        "solana-sdk",
+        "spl-token",
+        "tar",
+        "thiserror",
+        "zstd"
+    ]
+}

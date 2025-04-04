@@ -1,0 +1,33 @@
+{
+    "name": "pi_db",
+    "deps": [
+        "async-lock",
+        "async-stream",
+        "bytes",
+        "crossbeam-channel",
+        "crossbeam-channel",
+        "dashmap",
+        "env_logger",
+        "fastrand",
+        "futures",
+        "lazy_static",
+        "log",
+        "opentelemetry",
+        "parking_lot",
+        "pi-async-rt",
+        "pi_async_file",
+        "pi_async_transaction",
+        "pi_atom",
+        "pi_bon",
+        "pi_guid",
+        "pi_hash",
+        "pi_logger",
+        "pi_ordmap",
+        "pi_sinfo",
+        "pi_store",
+        "pi_time",
+        "tracing",
+        "tracing-opentelemetry",
+        "tracing-subscriber"
+    ]
+}

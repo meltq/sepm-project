@@ -1,0 +1,22 @@
+{
+    "name": "externaldns-webhook",
+    "deps": [
+        "anyhow",
+        "clap",
+        "dashmap",
+        "either",
+        "env_logger",
+        "itertools",
+        "log",
+        "logcall",
+        "nonempty",
+        "regex",
+        "rocket",
+        "serde",
+        "serde_json",
+        "serde_with",
+        "sha2",
+        "surrealdb",
+        "tokio"
+    ]
+}

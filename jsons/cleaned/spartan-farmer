@@ -1,0 +1,24 @@
+{
+    "name": "spartan-farmer",
+    "deps": [
+        "async-global-executor",
+        "async-std",
+        "clap",
+        "dirs",
+        "env_logger",
+        "event-listener-primitives",
+        "futures",
+        "indicatif",
+        "jsonrpsee",
+        "log",
+        "rand",
+        "rayon",
+        "ring",
+        "rocksdb",
+        "schnorrkel",
+        "serde",
+        "serde_json",
+        "spartan-codec",
+        "thiserror"
+    ]
+}

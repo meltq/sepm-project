@@ -1,0 +1,30 @@
+{
+    "name": "snarkos-cli",
+    "deps": [
+        "aleo-std",
+        "anstyle",
+        "anyhow",
+        "clap",
+        "colored",
+        "crossterm",
+        "indexmap",
+        "nix",
+        "num_cpus",
+        "parking_lot",
+        "rand",
+        "rand_chacha",
+        "rayon",
+        "self_update",
+        "serde",
+        "serde_json",
+        "snarkos-account",
+        "snarkos-display",
+        "snarkos-node",
+        "snarkos-node-rest",
+        "snarkvm",
+        "thiserror",
+        "tokio",
+        "tracing-subscriber",
+        "ureq"
+    ]
+}

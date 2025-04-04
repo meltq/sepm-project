@@ -1,0 +1,14 @@
+{
+    "name": "cqrs-postgres",
+    "deps": [
+        "cqrs",
+        "cqrs-core",
+        "cqrs-todo-core",
+        "fallible-iterator",
+        "log",
+        "postgres",
+        "serde",
+        "serde_json",
+        "static_assertions"
+    ]
+}

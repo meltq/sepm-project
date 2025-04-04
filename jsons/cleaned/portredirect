@@ -1,0 +1,26 @@
+{
+    "name": "portredirect",
+    "deps": [
+        "anyhow",
+        "clap",
+        "dirs",
+        "env_logger",
+        "getrandom",
+        "hex",
+        "lazy_static",
+        "prometheus",
+        "quinn",
+        "rand",
+        "rcgen",
+        "rustls",
+        "rustls-pemfile",
+        "secrecy",
+        "sha2",
+        "tempfile",
+        "tokio",
+        "tokio-test",
+        "tracing",
+        "tracing-subscriber",
+        "warp"
+    ]
+}

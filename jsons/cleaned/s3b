@@ -1,0 +1,27 @@
+{
+    "name": "s3b",
+    "deps": [
+        "anyhow",
+        "aws-config",
+        "aws-credential-types",
+        "aws-sdk-dynamodb",
+        "bincode",
+        "blake3",
+        "brotli",
+        "chrono",
+        "clap",
+        "cli-table",
+        "colored",
+        "futures",
+        "gluesql",
+        "indicatif",
+        "inquire",
+        "itertools",
+        "object_store",
+        "rayon",
+        "serde",
+        "serde_json",
+        "tokio",
+        "walkdir"
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "name": "mwc_api",
+    "deps": [
+        "bytes",
+        "chrono",
+        "easy-jsonrpc-mw",
+        "futures",
+        "http",
+        "hyper",
+        "hyper-rustls",
+        "hyper-rustls",
+        "hyper-timeout",
+        "lazy_static",
+        "log",
+        "mwc_chain",
+        "mwc_core",
+        "mwc_p2p",
+        "mwc_pool",
+        "mwc_store",
+        "mwc_util",
+        "regex",
+        "ring",
+        "rustls",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tokio-rustls",
+        "url"
+    ]
+}

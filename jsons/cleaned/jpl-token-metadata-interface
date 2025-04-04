@@ -1,0 +1,21 @@
+{
+    "name": "jpl-token-metadata-interface",
+    "deps": [
+        "borsh",
+        "jpl-discriminator",
+        "jpl-pod",
+        "jpl-type-length-value",
+        "num-derive",
+        "num-traits",
+        "serde",
+        "serde_json",
+        "solana-borsh",
+        "solana-decode-error",
+        "solana-instruction",
+        "solana-msg",
+        "solana-program-error",
+        "solana-pubkey",
+        "solana-sha256-hasher",
+        "thiserror"
+    ]
+}

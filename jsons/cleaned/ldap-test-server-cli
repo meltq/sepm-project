@@ -1,0 +1,10 @@
+{
+    "name": "ldap-test-server-cli",
+    "deps": [
+        "clap",
+        "ldap-test-server",
+        "tokio",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

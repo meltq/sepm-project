@@ -1,0 +1,32 @@
+{
+    "name": "spider_chrome",
+    "deps": [
+        "async-std",
+        "async-tungstenite",
+        "base64",
+        "bytes",
+        "cfg-if",
+        "chromiumoxide_cdp",
+        "chromiumoxide_fetcher",
+        "chromiumoxide_types",
+        "chrono",
+        "dunce",
+        "fnv",
+        "futures",
+        "futures-timer",
+        "pin-project-lite",
+        "proc-macro2",
+        "quote",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tokio",
+        "tracing",
+        "tracing-subscriber",
+        "url",
+        "which",
+        "winreg"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "name": "fregate",
+    "deps": [
+        "axum",
+        "bytes",
+        "config",
+        "http-body",
+        "hyper",
+        "metrics",
+        "metrics-exporter-prometheus",
+        "mime",
+        "once_cell",
+        "prost",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tonic",
+        "tower",
+        "tower-http",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

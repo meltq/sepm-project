@@ -1,0 +1,13 @@
+{
+    "name": "dynamodb_testcontainer",
+    "deps": [
+        "log",
+        "pretty_env_logger",
+        "rusoto_core",
+        "rusoto_credential",
+        "rusoto_dynamodb",
+        "spectral",
+        "tc_core",
+        "testcontainers"
+    ]
+}

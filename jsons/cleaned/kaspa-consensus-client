@@ -1,0 +1,27 @@
+{
+    "name": "kaspa-consensus-client",
+    "deps": [
+        "ahash",
+        "cfg-if",
+        "faster-hex",
+        "hex",
+        "itertools",
+        "js-sys",
+        "kaspa-addresses",
+        "kaspa-consensus-core",
+        "kaspa-hashes",
+        "kaspa-math",
+        "kaspa-txscript",
+        "kaspa-utils",
+        "kaspa-wasm-core",
+        "rand",
+        "secp256k1",
+        "serde",
+        "serde-wasm-bindgen",
+        "serde_json",
+        "thiserror",
+        "wasm-bindgen",
+        "workflow-log",
+        "workflow-wasm"
+    ]
+}

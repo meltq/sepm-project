@@ -1,0 +1,20 @@
+{
+    "name": "dcc-decode",
+    "deps": [
+        "base45",
+        "base64",
+        "chrono",
+        "color-eyre",
+        "flate2",
+        "log",
+        "once_cell",
+        "pretty_env_logger",
+        "ring",
+        "serde",
+        "serde_cbor",
+        "serde_cose",
+        "serde_json",
+        "structopt",
+        "x509-parser"
+    ]
+}

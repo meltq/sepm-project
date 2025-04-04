@@ -1,0 +1,15 @@
+{
+    "name": "web-queue-server",
+    "deps": [
+        "actix",
+        "actix-web",
+        "actix-web-actors",
+        "async-stream",
+        "env_logger",
+        "log",
+        "serde",
+        "serde_json",
+        "tokio",
+        "web-queue-meta"
+    ]
+}

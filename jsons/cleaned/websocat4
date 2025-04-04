@@ -1,0 +1,32 @@
+{
+    "name": "websocat4",
+    "deps": [
+        "anyhow",
+        "base64",
+        "bytes",
+        "clap",
+        "clap_lex",
+        "flagset",
+        "futures",
+        "hex",
+        "http",
+        "http-body-util",
+        "hyper",
+        "hyper-util",
+        "lru",
+        "native-tls",
+        "pin-project",
+        "rand",
+        "rhai",
+        "serde",
+        "sha1",
+        "tinyvec",
+        "tokio",
+        "tokio-native-tls",
+        "tokio-seqpacket",
+        "tokio-util",
+        "tracing",
+        "tracing-subscriber",
+        "websocket-sans-io"
+    ]
+}

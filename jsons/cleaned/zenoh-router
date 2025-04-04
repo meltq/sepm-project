@@ -1,0 +1,22 @@
+{
+    "name": "zenoh-router",
+    "deps": [
+        "async-std",
+        "async-trait",
+        "clap",
+        "criterion",
+        "env_logger",
+        "futures",
+        "hex",
+        "lazy_static",
+        "libloading",
+        "log",
+        "rand",
+        "serde_json",
+        "socket2",
+        "uhlc",
+        "uuid",
+        "zenoh-protocol",
+        "zenoh-util"
+    ]
+}

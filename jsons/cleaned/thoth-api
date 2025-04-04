@@ -1,0 +1,27 @@
+{
+    "name": "thoth-api",
+    "deps": [
+        "actix-web",
+        "argon2rs",
+        "cargo-husky",
+        "chrono",
+        "diesel",
+        "diesel-derive-enum",
+        "diesel_migrations",
+        "dotenv",
+        "failure",
+        "futures",
+        "jsonwebtoken",
+        "juniper",
+        "lazy_static",
+        "phf",
+        "rand",
+        "regex",
+        "reqwest",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "uuid",
+        "xml-rs"
+    ]
+}

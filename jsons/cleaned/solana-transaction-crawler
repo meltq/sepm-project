@@ -1,0 +1,13 @@
+{
+    "name": "solana-transaction-crawler",
+    "deps": [
+        "rayon",
+        "serde",
+        "solana-client",
+        "solana-program",
+        "solana-sdk",
+        "solana-transaction-status",
+        "thiserror",
+        "tokio"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "name": "chrometracer",
+    "deps": [
+        "chrometracer-attributes",
+        "crossbeam-channel",
+        "crossbeam-queue",
+        "derive_builder",
+        "lazy_static",
+        "serde_json",
+        "tracing",
+        "tracing-chrometrace",
+        "tracing-subscriber"
+    ]
+}

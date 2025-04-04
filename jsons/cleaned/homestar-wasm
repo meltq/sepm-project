@@ -1,0 +1,27 @@
+{
+    "name": "homestar-wasm",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "atomic_refcell",
+        "criterion",
+        "enum-as-inner",
+        "heck",
+        "homestar-invocation",
+        "itertools",
+        "libipld",
+        "rust_decimal",
+        "serde",
+        "serde_ipld_dagcbor",
+        "stacker",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "wasmparser",
+        "wasmtime",
+        "wasmtime-component-util",
+        "wasmtime-wasi",
+        "wat",
+        "wit-component"
+    ]
+}

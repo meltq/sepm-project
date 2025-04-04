@@ -1,0 +1,12 @@
+{
+    "name": "postgres-tx-retry",
+    "deps": [
+        "deadpool",
+        "deadpool-postgres",
+        "postgres",
+        "r2d2",
+        "r2d2_postgres",
+        "tokio",
+        "tokio-postgres"
+    ]
+}

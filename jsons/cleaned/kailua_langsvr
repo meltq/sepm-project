@@ -1,0 +1,25 @@
+{
+    "name": "kailua_langsvr",
+    "deps": [
+        "futures",
+        "futures-cpupool",
+        "kailua_check",
+        "kailua_diag",
+        "kailua_env",
+        "kailua_langsvr_protocol",
+        "kailua_syntax",
+        "kailua_types",
+        "kailua_workspace",
+        "log",
+        "num_cpus",
+        "owning_ref",
+        "parking_lot",
+        "parse-generics-shim",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "tokio-timer",
+        "url",
+        "walkdir"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "name": "rsiot-http-client-wasm",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "gloo",
+        "http",
+        "rsiot-component-core",
+        "rsiot-components-config",
+        "rsiot-messages-core",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "url"
+    ]
+}

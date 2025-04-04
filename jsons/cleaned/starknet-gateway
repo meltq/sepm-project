@@ -1,0 +1,18 @@
+{
+    "name": "starknet-gateway",
+    "deps": [
+        "async-trait",
+        "auto_impl",
+        "ethereum-types",
+        "flate2",
+        "log",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "serde_with",
+        "starknet-core",
+        "thiserror",
+        "tokio",
+        "url"
+    ]
+}

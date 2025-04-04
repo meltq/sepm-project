@@ -1,0 +1,15 @@
+{
+    "name": "miraland-storage-proto",
+    "deps": [
+        "bincode",
+        "bs58",
+        "enum-iterator",
+        "miraland-account-decoder",
+        "miraland-sdk",
+        "miraland-transaction-status",
+        "prost",
+        "protobuf-src",
+        "serde",
+        "tonic-build"
+    ]
+}

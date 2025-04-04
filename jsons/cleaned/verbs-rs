@@ -1,0 +1,29 @@
+{
+    "name": "verbs-rs",
+    "deps": [
+        "alloy-primitives",
+        "alloy-sol-types",
+        "assert_approx_eq",
+        "async-trait",
+        "clap",
+        "ethereum-types",
+        "ethers-core",
+        "ethers-providers",
+        "eyre",
+        "fastrand",
+        "futures",
+        "hex",
+        "itertools",
+        "kdam",
+        "log",
+        "reqwest",
+        "revm",
+        "rstest",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "url",
+        "verbs-macros"
+    ]
+}

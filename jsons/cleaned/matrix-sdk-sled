@@ -1,0 +1,21 @@
+{
+    "name": "matrix-sdk-sled",
+    "deps": [
+        "async-stream",
+        "async-trait",
+        "dashmap",
+        "futures-core",
+        "futures-util",
+        "matrix-sdk-base",
+        "matrix-sdk-common",
+        "matrix-sdk-crypto",
+        "matrix-sdk-store-encryption",
+        "ruma",
+        "serde",
+        "serde_json",
+        "sled",
+        "thiserror",
+        "tokio",
+        "tracing"
+    ]
+}

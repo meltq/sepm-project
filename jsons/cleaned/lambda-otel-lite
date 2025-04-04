@@ -1,0 +1,28 @@
+{
+    "name": "lambda-otel-lite",
+    "deps": [
+        "aws_lambda_events",
+        "doc-comment",
+        "futures-executor",
+        "futures-util",
+        "lambda-extension",
+        "lambda_runtime",
+        "libc",
+        "mockall",
+        "opentelemetry",
+        "opentelemetry-otlp",
+        "opentelemetry_sdk",
+        "otlp-stdout-span-exporter",
+        "pin-project",
+        "serde",
+        "serde_json",
+        "serial_test",
+        "tokio",
+        "tokio",
+        "tower",
+        "tracing",
+        "tracing-opentelemetry",
+        "tracing-subscriber",
+        "urlencoding"
+    ]
+}

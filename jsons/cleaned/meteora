@@ -1,0 +1,16 @@
+{
+    "name": "meteora",
+    "deps": [
+        "clap",
+        "crossbeam-channel",
+        "ctrlc",
+        "env_logger",
+        "futures",
+        "grpcio",
+        "log",
+        "meteora-client",
+        "meteora-proto",
+        "meteora-server",
+        "raft"
+    ]
+}

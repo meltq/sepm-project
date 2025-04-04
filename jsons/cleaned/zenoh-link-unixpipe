@@ -1,0 +1,20 @@
+{
+    "name": "zenoh-link-unixpipe",
+    "deps": [
+        "advisory-lock",
+        "async-io",
+        "async-std",
+        "async-trait",
+        "filepath",
+        "log",
+        "nix",
+        "rand",
+        "unix-named-pipe",
+        "zenoh-buffers",
+        "zenoh-config",
+        "zenoh-core",
+        "zenoh-link-commons",
+        "zenoh-protocol",
+        "zenoh-result"
+    ]
+}

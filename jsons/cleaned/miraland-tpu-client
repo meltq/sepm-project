@@ -1,0 +1,21 @@
+{
+    "name": "miraland-tpu-client",
+    "deps": [
+        "async-trait",
+        "bincode",
+        "futures-util",
+        "indexmap",
+        "indicatif",
+        "log",
+        "miraland-connection-cache",
+        "miraland-measure",
+        "miraland-metrics",
+        "miraland-pubsub-client",
+        "miraland-rpc-client",
+        "miraland-rpc-client-api",
+        "miraland-sdk",
+        "rayon",
+        "thiserror",
+        "tokio"
+    ]
+}

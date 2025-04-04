@@ -1,0 +1,24 @@
+{
+    "name": "vhost-device-gpu",
+    "deps": [
+        "assert_matches",
+        "bitflags",
+        "clap",
+        "env_logger",
+        "libc",
+        "log",
+        "mockall",
+        "rusty-fork",
+        "rutabaga_gfx",
+        "tempfile",
+        "thiserror",
+        "vhost",
+        "vhost-user-backend",
+        "virtio-bindings",
+        "virtio-queue",
+        "virtio-queue",
+        "vm-memory",
+        "vm-memory",
+        "vmm-sys-util"
+    ]
+}

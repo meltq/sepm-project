@@ -1,0 +1,18 @@
+{
+    "name": "homie-influx",
+    "deps": [
+        "color-backtrace",
+        "dotenv",
+        "eyre",
+        "futures",
+        "homie-controller",
+        "influx_db_client",
+        "log",
+        "pretty_env_logger",
+        "rumqttc",
+        "rustls",
+        "rustls-native-certs",
+        "stable-eyre",
+        "tokio"
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "name": "holochain_cascade",
+    "deps": [
+        "async-trait",
+        "derive_more",
+        "either",
+        "fallible-iterator",
+        "fixt",
+        "futures",
+        "ghost_actor",
+        "hdk",
+        "hdk_derive",
+        "holo_hash",
+        "holochain_p2p",
+        "holochain_serialized_bytes",
+        "holochain_sqlite",
+        "holochain_state",
+        "holochain_types",
+        "holochain_zome_types",
+        "kitsune_p2p",
+        "matches",
+        "mockall",
+        "observability",
+        "pretty_assertions",
+        "serde",
+        "serde_derive",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "tracing-futures"
+    ]
+}

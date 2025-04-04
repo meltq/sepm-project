@@ -1,0 +1,21 @@
+{
+    "name": "sp1-cuda",
+    "deps": [
+        "bincode",
+        "ctrlc",
+        "prost",
+        "prost-build",
+        "prost-types",
+        "serde",
+        "serde_json",
+        "sp1-core-machine",
+        "sp1-core-machine",
+        "sp1-prover",
+        "sp1-stark",
+        "tokio",
+        "tracing",
+        "tracing-subscriber",
+        "twirp",
+        "twirp-build"
+    ]
+}

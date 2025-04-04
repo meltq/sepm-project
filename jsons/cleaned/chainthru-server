@@ -1,0 +1,20 @@
+{
+    "name": "chainthru-server",
+    "deps": [
+        "actix-web",
+        "chainthru-primitives",
+        "futures",
+        "log",
+        "num_cpus",
+        "reqwest",
+        "secrecy",
+        "serde",
+        "serde-aux",
+        "serde_derive",
+        "serde_json",
+        "sqlx",
+        "thiserror",
+        "tokio",
+        "uuid"
+    ]
+}

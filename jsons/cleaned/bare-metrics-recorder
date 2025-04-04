@@ -1,0 +1,15 @@
+{
+    "name": "bare-metrics-recorder",
+    "deps": [
+        "anyhow",
+        "bare-metrics-core",
+        "crossbeam-channel",
+        "dashmap",
+        "fxhash",
+        "hdrhistogram",
+        "log",
+        "metrics",
+        "serde_bare",
+        "thiserror"
+    ]
+}

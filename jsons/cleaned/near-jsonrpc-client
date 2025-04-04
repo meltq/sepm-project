@@ -1,0 +1,16 @@
+{
+    "name": "near-jsonrpc-client",
+    "deps": [
+        "borsh",
+        "lazy_static",
+        "near-chain-configs",
+        "near-client-primitives",
+        "near-jsonrpc-primitives",
+        "near-primitives",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio"
+    ]
+}

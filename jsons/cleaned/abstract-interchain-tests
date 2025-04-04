@@ -1,0 +1,27 @@
+{
+    "name": "abstract-interchain-tests",
+    "deps": [
+        "abstract-adapter",
+        "abstract-app",
+        "abstract-interface",
+        "abstract-sdk",
+        "abstract-std",
+        "abstract-testing",
+        "anyhow",
+        "base64",
+        "cosmwasm-schema",
+        "cosmwasm-std",
+        "cw-controllers",
+        "cw-orch",
+        "cw-orch-interchain",
+        "cw-orch-polytone",
+        "cw-orch-proto",
+        "cw-storage-plus",
+        "env_logger",
+        "ibc-relayer-types",
+        "log",
+        "polytone",
+        "thiserror",
+        "tokio"
+    ]
+}

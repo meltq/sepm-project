@@ -1,0 +1,25 @@
+{
+    "name": "shuk",
+    "deps": [
+        "anyhow",
+        "aws-config",
+        "aws-sdk-s3",
+        "aws-smithy-runtime-api",
+        "aws-smithy-types",
+        "aws-types",
+        "bytes",
+        "clap",
+        "colored",
+        "dirs",
+        "http",
+        "http-body",
+        "indicatif",
+        "pin-project",
+        "serde",
+        "serde_derive",
+        "tokio",
+        "toml",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

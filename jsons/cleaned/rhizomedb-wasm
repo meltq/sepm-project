@@ -1,0 +1,23 @@
+{
+    "name": "rhizomedb-wasm",
+    "deps": [
+        "anyhow",
+        "cid",
+        "console_error_panic_hook",
+        "derive_more",
+        "futures",
+        "gloo-console",
+        "js-sys",
+        "pretty_assertions",
+        "rhizomedb",
+        "rhizomedb-runtime",
+        "serde",
+        "serde-wasm-bindgen",
+        "tracing",
+        "wasm-bindgen",
+        "wasm-bindgen-downcast",
+        "wasm-bindgen-futures",
+        "wasm-bindgen-test",
+        "web-sys"
+    ]
+}

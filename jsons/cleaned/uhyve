@@ -1,0 +1,17 @@
+{
+    "name": "uhyve",
+    "deps": [
+        "aligned_alloc",
+        "clap",
+        "elf",
+        "env_logger",
+        "kvm-bindings",
+        "kvm-ioctls",
+        "lazy_static",
+        "libc",
+        "log",
+        "memmap",
+        "raw-cpuid",
+        "x86"
+    ]
+}

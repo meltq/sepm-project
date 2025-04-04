@@ -1,0 +1,21 @@
+{
+    "name": "rtic-monotonics",
+    "deps": [
+        "atomic-polyfill",
+        "cfg-if",
+        "cortex-m",
+        "critical-section",
+        "embedded-hal-async",
+        "fugit",
+        "nrf52810-pac",
+        "nrf52811-pac",
+        "nrf52832-pac",
+        "nrf52833-pac",
+        "nrf52840-pac",
+        "nrf5340-app-pac",
+        "nrf5340-net-pac",
+        "nrf9160-pac",
+        "rp2040-pac",
+        "rtic-time"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "name": "arenabuddy",
+    "deps": [
+        "anyhow",
+        "arenabuddy_core",
+        "chrono",
+        "crossbeam",
+        "crossbeam-channel",
+        "indoc",
+        "itertools",
+        "notify",
+        "rusqlite",
+        "serde",
+        "serde_json",
+        "tauri",
+        "tauri-build",
+        "tauri-plugin-opener",
+        "tracing",
+        "tracing-appender",
+        "tracing-subscriber"
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "name": "encryptedfs",
+    "deps": [
+        "base64",
+        "bincode",
+        "bytes",
+        "clap",
+        "cryptostream",
+        "ctrlc",
+        "fuse3",
+        "futures-util",
+        "libc",
+        "mio",
+        "openssl",
+        "parking_lot",
+        "pbkdf2",
+        "rand",
+        "rpassword",
+        "serde",
+        "sha2",
+        "strum",
+        "strum_macros",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

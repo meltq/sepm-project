@@ -1,0 +1,19 @@
+{
+    "name": "tetsy-libp2p-request-response",
+    "deps": [
+        "async-std",
+        "async-trait",
+        "bytes",
+        "futures",
+        "log",
+        "lru",
+        "minicbor",
+        "rand",
+        "rand",
+        "smallvec",
+        "tetsy-libp2p-core",
+        "tetsy-libp2p-swarm",
+        "unsigned-varint",
+        "wasm-timer"
+    ]
+}

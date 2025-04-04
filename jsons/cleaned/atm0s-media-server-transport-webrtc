@@ -1,0 +1,21 @@
+{
+    "name": "atm0s-media-server-transport-webrtc",
+    "deps": [
+        "async-std",
+        "async-trait",
+        "criterion",
+        "endpoint",
+        "flate2",
+        "futures",
+        "local-ip-address",
+        "log",
+        "lz4_flex",
+        "media-utils",
+        "poem-openapi",
+        "serde",
+        "serde_json",
+        "str0m",
+        "transport",
+        "udp_sas_async"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "name": "insim",
+    "deps": [
+        "async-trait",
+        "bitflags",
+        "bytes",
+        "from_variants",
+        "futures-util",
+        "if_chain",
+        "indexmap",
+        "insim_core",
+        "insim_pth",
+        "insim_smx",
+        "serde",
+        "thiserror",
+        "tokio",
+        "tokio-test",
+        "tokio-tungstenite",
+        "tracing"
+    ]
+}

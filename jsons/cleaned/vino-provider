@@ -1,0 +1,21 @@
+{
+    "name": "vino-provider",
+    "deps": [
+        "async-trait",
+        "dyn-clone",
+        "env_logger",
+        "log",
+        "serde",
+        "test-env-log",
+        "thiserror",
+        "tokio",
+        "tokio",
+        "tokio-stream",
+        "vino-codec",
+        "vino-entity",
+        "vino-macros",
+        "vino-packet",
+        "vino-transport",
+        "vino-types"
+    ]
+}

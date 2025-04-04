@@ -1,0 +1,16 @@
+{
+    "name": "cloudflare_dyndns",
+    "deps": [
+        "clap",
+        "futures",
+        "log",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "serde_url_params",
+        "serde_with",
+        "simple_logger",
+        "tokio",
+        "toml"
+    ]
+}

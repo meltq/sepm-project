@@ -1,0 +1,32 @@
+{
+    "name": "rocketmq-store",
+    "deps": [
+        "anyhow",
+        "bytes",
+        "dirs",
+        "futures",
+        "futures-core",
+        "futures-io",
+        "futures-sink",
+        "futures-util",
+        "lazy_static",
+        "log",
+        "memmap2",
+        "num_cpus",
+        "parking_lot",
+        "rand",
+        "rocketmq-common",
+        "rocketmq-runtime",
+        "serde",
+        "serde_json",
+        "tempfile",
+        "tempfile",
+        "thiserror",
+        "tokio",
+        "tokio-stream",
+        "tokio-util",
+        "tracing",
+        "tracing-subscriber",
+        "trait-variant"
+    ]
+}

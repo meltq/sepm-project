@@ -1,0 +1,15 @@
+{
+    "name": "redis_connector",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "bb8-redis",
+        "mocktopus",
+        "once_cell",
+        "redis",
+        "serde",
+        "serde-aux",
+        "serde_json",
+        "tracing"
+    ]
+}

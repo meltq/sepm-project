@@ -1,0 +1,23 @@
+{
+    "name": "beancount-language-server",
+    "deps": [
+        "anyhow",
+        "bytes",
+        "chrono",
+        "clap",
+        "dashmap",
+        "linked-list",
+        "log",
+        "log4rs",
+        "lspower",
+        "regex",
+        "ropey",
+        "serde",
+        "serde_json",
+        "shellexpand",
+        "thiserror",
+        "tokio",
+        "tree-sitter",
+        "tree-sitter-beancount"
+    ]
+}

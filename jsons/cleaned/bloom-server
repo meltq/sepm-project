@@ -1,0 +1,20 @@
+{
+    "name": "bloom-server",
+    "deps": [
+        "clap",
+        "farmhash",
+        "futures",
+        "httparse",
+        "hyper",
+        "lazy_static",
+        "log",
+        "r2d2",
+        "r2d2_redis",
+        "rand",
+        "redis",
+        "serde",
+        "serde_derive",
+        "tokio-core",
+        "toml"
+    ]
+}

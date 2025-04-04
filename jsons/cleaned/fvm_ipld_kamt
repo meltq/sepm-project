@@ -1,0 +1,23 @@
+{
+    "name": "fvm_ipld_kamt",
+    "deps": [
+        "anyhow",
+        "byteorder",
+        "cid",
+        "criterion",
+        "forest_hash_utils",
+        "fvm_ipld_blockstore",
+        "fvm_ipld_encoding",
+        "hex",
+        "libipld-core",
+        "multihash",
+        "once_cell",
+        "quickcheck",
+        "quickcheck_macros",
+        "rand",
+        "serde",
+        "sha2",
+        "thiserror",
+        "unsigned-varint"
+    ]
+}

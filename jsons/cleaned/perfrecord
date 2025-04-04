@@ -1,0 +1,17 @@
+{
+    "name": "perfrecord",
+    "deps": [
+        "cocoa",
+        "libc",
+        "mach",
+        "objc",
+        "perfrecord-mach-ipc-rendezvous",
+        "profiler-symbol-server",
+        "serde_json",
+        "structopt",
+        "tempfile",
+        "tokio",
+        "uuid",
+        "which"
+    ]
+}

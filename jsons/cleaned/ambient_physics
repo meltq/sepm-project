@@ -1,0 +1,31 @@
+{
+    "name": "ambient_physics",
+    "deps": [
+        "ambient_core",
+        "ambient_ecs",
+        "ambient_editor_derive",
+        "ambient_gizmos",
+        "ambient_meshes",
+        "ambient_model",
+        "ambient_network",
+        "ambient_primitives",
+        "ambient_profiling",
+        "ambient_std",
+        "ambient_ui_native",
+        "anyhow",
+        "async-trait",
+        "futures",
+        "glam",
+        "itertools",
+        "log",
+        "once_cell",
+        "ordered-float",
+        "parking_lot",
+        "physxx",
+        "rand",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tracing"
+    ]
+}

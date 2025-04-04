@@ -1,0 +1,29 @@
+{
+    "name": "mongo-task-generator",
+    "deps": [
+        "anyhow",
+        "assert_cmd",
+        "async-trait",
+        "cargo-nextest",
+        "chrono",
+        "clap",
+        "cmd_lib",
+        "evg-api-rs",
+        "futures",
+        "lazy_static",
+        "maplit",
+        "rand",
+        "regex",
+        "rstest",
+        "serde",
+        "serde_json",
+        "serde_yaml",
+        "shellexpand",
+        "shrub-rs",
+        "simple-error",
+        "tempdir",
+        "tokio",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

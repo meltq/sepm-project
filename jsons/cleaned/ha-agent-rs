@@ -1,0 +1,19 @@
+{
+    "name": "ha-agent-rs",
+    "deps": [
+        "anyhow",
+        "async-tungstenite",
+        "dotenv",
+        "dotenv_codegen",
+        "futures",
+        "inotify",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "sys-info",
+        "tokio",
+        "tokio-native-tls",
+        "url",
+        "users"
+    ]
+}

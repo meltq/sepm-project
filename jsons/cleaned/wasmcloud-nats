@@ -1,0 +1,15 @@
+{
+    "name": "wasmcloud-nats",
+    "deps": [
+        "crossbeam",
+        "crossbeam-channel",
+        "crossbeam-utils",
+        "env_logger",
+        "log",
+        "nats",
+        "rmp-serde",
+        "serde",
+        "serde_bytes",
+        "wascc-codec"
+    ]
+}

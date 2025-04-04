@@ -1,0 +1,20 @@
+{
+    "name": "remi-azure",
+    "deps": [
+        "async-trait",
+        "azure_core",
+        "azure_storage",
+        "azure_storage_blobs",
+        "bytes",
+        "futures-util",
+        "log",
+        "remi",
+        "serde",
+        "testcontainers",
+        "tokio",
+        "tracing",
+        "tracing-log",
+        "tracing-subscriber",
+        "which"
+    ]
+}

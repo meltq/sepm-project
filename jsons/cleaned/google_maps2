@@ -1,0 +1,25 @@
+{
+    "name": "google_maps2",
+    "deps": [
+        "anyhow",
+        "backoff",
+        "chrono",
+        "chrono-tz",
+        "futures",
+        "geo-types",
+        "http",
+        "miette",
+        "percent-encoding",
+        "phf",
+        "reqwest",
+        "reqwest-middleware",
+        "rust_decimal",
+        "rust_decimal_macros",
+        "serde",
+        "serde_json",
+        "stream_throttle",
+        "thiserror",
+        "tokio",
+        "tracing"
+    ]
+}

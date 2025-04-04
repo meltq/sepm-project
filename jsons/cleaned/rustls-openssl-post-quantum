@@ -1,0 +1,17 @@
+{
+    "name": "rustls-openssl-post-quantum",
+    "deps": [
+        "env_logger",
+        "foreign-types",
+        "once_cell",
+        "openssl",
+        "openssl-sys",
+        "pkg-config",
+        "rustls",
+        "rustls",
+        "rustls-openssl",
+        "rustls-post-quantum",
+        "webpki-roots",
+        "zeroize"
+    ]
+}

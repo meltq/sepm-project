@@ -1,0 +1,20 @@
+{
+    "name": "claw-cli",
+    "deps": [
+        "clap",
+        "claw-ast",
+        "claw-codegen",
+        "claw-common",
+        "claw-parser",
+        "claw-resolver",
+        "cranelift-entity",
+        "logos",
+        "miette",
+        "pretty_assertions",
+        "thiserror",
+        "wasm-encoder",
+        "wasmprinter",
+        "wasmtime",
+        "wat"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "name": "dbus-async-derive",
+    "deps": [
+        "async-trait",
+        "dbus-async",
+        "dbus-message-parser",
+        "futures",
+        "log",
+        "proc-macro2",
+        "quote",
+        "syn",
+        "tokio"
+    ]
+}

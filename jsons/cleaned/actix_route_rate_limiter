@@ -1,0 +1,13 @@
+{
+    "name": "actix_route_rate_limiter",
+    "deps": [
+        "actix-rt",
+        "actix-service",
+        "actix-web",
+        "chrono",
+        "dashmap",
+        "futures",
+        "reqwest",
+        "tokio"
+    ]
+}

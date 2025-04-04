@@ -1,0 +1,31 @@
+{
+    "name": "penumbra-sdk-community-pool",
+    "deps": [
+        "anyhow",
+        "ark-ff",
+        "async-trait",
+        "base64",
+        "blake2b_simd",
+        "cnidarium",
+        "cnidarium-component",
+        "futures",
+        "hex",
+        "metrics",
+        "once_cell",
+        "pbjson-types",
+        "penumbra-sdk-asset",
+        "penumbra-sdk-keys",
+        "penumbra-sdk-num",
+        "penumbra-sdk-proto",
+        "penumbra-sdk-sct",
+        "penumbra-sdk-shielded-pool",
+        "penumbra-sdk-txhash",
+        "prost",
+        "serde",
+        "sha2",
+        "tendermint",
+        "tendermint-light-client-verifier",
+        "tokio",
+        "tracing"
+    ]
+}

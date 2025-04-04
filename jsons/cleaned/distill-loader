@@ -1,0 +1,21 @@
+{
+    "name": "distill-loader",
+    "deps": [
+        "capnp",
+        "capnp-rpc",
+        "crossbeam-channel",
+        "dashmap",
+        "distill-core",
+        "distill-schema",
+        "futures-channel",
+        "futures-core",
+        "futures-util",
+        "log",
+        "memmap",
+        "serde",
+        "thread_local",
+        "tokio",
+        "tokio-util",
+        "uuid"
+    ]
+}

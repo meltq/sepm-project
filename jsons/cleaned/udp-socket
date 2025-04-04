@@ -1,0 +1,13 @@
+{
+    "name": "udp-socket",
+    "deps": [
+        "anyhow",
+        "async-global-executor",
+        "async-io",
+        "env_logger",
+        "futures-lite",
+        "libc",
+        "log",
+        "socket2"
+    ]
+}

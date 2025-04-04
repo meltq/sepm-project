@@ -1,0 +1,19 @@
+{
+    "name": "superviseur-core",
+    "deps": [
+        "anyhow",
+        "async-recursion",
+        "dyn-clone",
+        "futures",
+        "futures-util",
+        "notify",
+        "superviseur-drivers",
+        "superviseur-graphql",
+        "superviseur-log",
+        "superviseur-macros",
+        "superviseur-provider",
+        "superviseur-types",
+        "tantivy",
+        "tokio"
+    ]
+}

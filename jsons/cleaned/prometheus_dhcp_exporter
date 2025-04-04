@@ -1,0 +1,15 @@
+{
+    "name": "prometheus_dhcp_exporter",
+    "deps": [
+        "actix",
+        "actix-web",
+        "clap",
+        "env_logger",
+        "failure",
+        "futures",
+        "log",
+        "serde",
+        "serde_derive",
+        "serde_json"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "name": "mount_status_monitor",
+    "deps": [
+        "argparse",
+        "error-chain",
+        "hostname",
+        "lazy_static",
+        "libc",
+        "prometheus",
+        "rayon",
+        "syslog",
+        "wait-timeout"
+    ]
+}

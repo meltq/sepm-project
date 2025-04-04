@@ -1,0 +1,18 @@
+{
+    "name": "async-dashscope",
+    "deps": [
+        "backoff",
+        "bytes",
+        "derive_builder",
+        "reqwest",
+        "reqwest-eventsource",
+        "secrecy",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tokio-stream",
+        "tokio-util",
+        "tracing"
+    ]
+}

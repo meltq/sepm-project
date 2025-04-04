@@ -1,0 +1,15 @@
+{
+    "name": "enphase-influx",
+    "deps": [
+        "chrono",
+        "enphase-local",
+        "eyre",
+        "influx_db_client",
+        "log",
+        "pretty_env_logger",
+        "serde",
+        "tokio",
+        "toml",
+        "url"
+    ]
+}

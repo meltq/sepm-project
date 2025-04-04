@@ -1,0 +1,14 @@
+{
+    "name": "goods-treasury",
+    "deps": [
+        "eyre",
+        "goods-treasury-import",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tracing",
+        "uuid",
+        "wasmer",
+        "wasmer-wasi"
+    ]
+}

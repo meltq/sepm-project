@@ -1,0 +1,19 @@
+{
+    "name": "gmail-mbox-analyzer",
+    "deps": [
+        "actix-web",
+        "anyhow",
+        "clap",
+        "humansize",
+        "indoc",
+        "mail-parser",
+        "mbox-reader",
+        "rusqlite",
+        "rusqlite",
+        "rusqlite_migration",
+        "serde",
+        "tera",
+        "tokio",
+        "url"
+    ]
+}

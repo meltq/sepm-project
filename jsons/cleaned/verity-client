@@ -1,0 +1,17 @@
+{
+    "name": "verity-client",
+    "deps": [
+        "anyhow",
+        "futures",
+        "http",
+        "reqwest",
+        "reqwest-eventsource",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tokio-util",
+        "tracing",
+        "tracing-subscriber",
+        "uuid"
+    ]
+}

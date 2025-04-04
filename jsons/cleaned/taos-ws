@@ -1,0 +1,22 @@
+{
+    "name": "taos-ws",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "bytes",
+        "futures",
+        "itertools",
+        "log",
+        "once_cell",
+        "pretty_env_logger",
+        "scc",
+        "serde",
+        "serde_json",
+        "serde_repr",
+        "serde_with",
+        "taos-query",
+        "thiserror",
+        "tokio",
+        "tokio-tungstenite"
+    ]
+}

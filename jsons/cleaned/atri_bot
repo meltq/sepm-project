@@ -1,0 +1,27 @@
+{
+    "name": "atri_bot",
+    "deps": [
+        "async-trait",
+        "atri_ffi",
+        "bytes",
+        "cfg-if",
+        "crossbeam-deque",
+        "crossterm",
+        "dashmap",
+        "libc",
+        "libloading",
+        "prost",
+        "rand",
+        "regex",
+        "ricq",
+        "ricq-guild",
+        "serde",
+        "serde_json",
+        "time",
+        "tokio",
+        "toml",
+        "tracing",
+        "tracing-appender",
+        "tracing-subscriber"
+    ]
+}

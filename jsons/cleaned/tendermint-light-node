@@ -1,0 +1,26 @@
+{
+    "name": "tendermint-light-node",
+    "deps": [
+        "abscissa_core",
+        "abscissa_core",
+        "abscissa_tokio",
+        "anomaly",
+        "async-trait",
+        "futures",
+        "gumdrop",
+        "jsonrpc-core",
+        "jsonrpc-core-client",
+        "jsonrpc-derive",
+        "jsonrpc-http-server",
+        "once_cell",
+        "pretty_assertions",
+        "serde",
+        "serde_json",
+        "sled",
+        "tendermint",
+        "tendermint-light-client",
+        "tendermint-rpc",
+        "thiserror",
+        "tokio"
+    ]
+}

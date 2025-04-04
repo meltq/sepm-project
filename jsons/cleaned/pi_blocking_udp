@@ -1,0 +1,20 @@
+{
+    "name": "pi_blocking_udp",
+    "deps": [
+        "async-channel",
+        "bytes",
+        "crossbeam-channel",
+        "dashmap",
+        "env_logger",
+        "fnv",
+        "futures",
+        "lazy_static",
+        "log",
+        "parking_lot",
+        "pi_async",
+        "pi_hash",
+        "pi_slotmap",
+        "socket2",
+        "udp"
+    ]
+}

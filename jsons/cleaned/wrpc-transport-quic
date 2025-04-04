@@ -1,0 +1,20 @@
+{
+    "name": "wrpc-transport-quic",
+    "deps": [
+        "anyhow",
+        "bytes",
+        "futures",
+        "pin-project-lite",
+        "quinn",
+        "rcgen",
+        "rustls",
+        "test-log",
+        "tokio",
+        "tokio",
+        "tokio-stream",
+        "tokio-util",
+        "tracing",
+        "wasm-tokio",
+        "wrpc-transport"
+    ]
+}

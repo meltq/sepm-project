@@ -1,0 +1,30 @@
+{
+    "name": "bsync",
+    "deps": [
+        "anyhow",
+        "blake3",
+        "byteorder",
+        "chrono",
+        "fs2",
+        "hex",
+        "indicatif",
+        "itertools",
+        "lazy_static",
+        "log",
+        "nbd",
+        "parking_lot",
+        "phf",
+        "pretty_env_logger",
+        "prettytable-rs",
+        "rusqlite",
+        "serde",
+        "serde_yaml",
+        "sha2",
+        "shell-escape",
+        "size_format",
+        "snap",
+        "ssh2",
+        "structopt",
+        "thiserror"
+    ]
+}

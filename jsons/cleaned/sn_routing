@@ -1,0 +1,30 @@
+{
+    "name": "sn_routing",
+    "deps": [
+        "anyhow",
+        "assert_matches",
+        "bincode",
+        "bls",
+        "bls_dkg",
+        "bls_signature_aggregator",
+        "bytes",
+        "ed25519-dalek",
+        "env_logger",
+        "err-derive",
+        "futures",
+        "hex_fmt",
+        "itertools",
+        "log",
+        "lru_time_cache",
+        "proptest",
+        "qp2p",
+        "rand",
+        "rand",
+        "rand_chacha",
+        "serde",
+        "structopt",
+        "tiny-keccak",
+        "tokio",
+        "xor_name"
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "name": "coreos-metadata",
+    "deps": [
+        "base64",
+        "byteorder",
+        "clap",
+        "error-chain",
+        "hostname",
+        "hyper",
+        "ipnetwork",
+        "mime",
+        "mockito",
+        "nix",
+        "openssh-keys",
+        "openssl",
+        "pnet",
+        "reqwest",
+        "serde",
+        "serde-xml-rs",
+        "serde_derive",
+        "serde_json",
+        "slog",
+        "slog-async",
+        "slog-scope",
+        "slog-term",
+        "tempdir",
+        "update-ssh-keys",
+        "users"
+    ]
+}

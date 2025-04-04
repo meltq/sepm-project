@@ -1,0 +1,26 @@
+{
+    "name": "pi_async",
+    "deps": [
+        "async-stream",
+        "async-stream",
+        "crossbeam-channel",
+        "crossbeam-deque",
+        "crossbeam-queue",
+        "dashmap",
+        "env_logger",
+        "flume",
+        "future-parking_lot",
+        "futures",
+        "futures-util",
+        "libc",
+        "log",
+        "minstant",
+        "num_cpus",
+        "parking_lot",
+        "pi_hash",
+        "pi_local_timer",
+        "rand",
+        "tokio",
+        "twox-hash"
+    ]
+}

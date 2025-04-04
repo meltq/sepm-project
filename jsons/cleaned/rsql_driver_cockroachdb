@@ -1,0 +1,13 @@
+{
+    "name": "rsql_driver_cockroachdb",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "file_type",
+        "rsql_driver",
+        "rsql_driver_postgresql",
+        "testcontainers",
+        "testcontainers-modules",
+        "tokio"
+    ]
+}

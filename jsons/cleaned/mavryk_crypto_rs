@@ -1,0 +1,26 @@
+{
+    "name": "mavryk_crypto_rs",
+    "deps": [
+        "anyhow",
+        "blst",
+        "bs58",
+        "byteorder",
+        "cryptoxide",
+        "ed25519-dalek",
+        "hex",
+        "libsecp256k1",
+        "mavryk_data_encoding",
+        "nom",
+        "num-bigint",
+        "num-traits",
+        "p256",
+        "proptest",
+        "rand",
+        "serde",
+        "serde_json",
+        "strum",
+        "strum_macros",
+        "thiserror",
+        "zeroize"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "name": "IMAPServer-cli",
+    "deps": [
+        "IMAPServer-shared",
+        "chrono",
+        "clap",
+        "fern",
+        "futures",
+        "log",
+        "tokio",
+        "tokio-util"
+    ]
+}

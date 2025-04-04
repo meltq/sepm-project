@@ -1,0 +1,13 @@
+{
+    "name": "risc0-zkvm-prove",
+    "deps": [
+        "anyhow",
+        "clap",
+        "cxx",
+        "cxx-build",
+        "risc0-zkp-prove",
+        "risc0-zkvm-circuit-gen",
+        "risc0-zkvm-verify",
+        "tbb"
+    ]
+}

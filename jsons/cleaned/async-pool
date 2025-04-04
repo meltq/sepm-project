@@ -1,0 +1,15 @@
+{
+    "name": "async-pool",
+    "deps": [
+        "as-slice-01",
+        "as-slice-02",
+        "atomic-polyfill",
+        "critical-section",
+        "embassy-executor",
+        "embassy-futures",
+        "embassy-sync",
+        "embassy-time",
+        "stable_deref_trait",
+        "tokio"
+    ]
+}

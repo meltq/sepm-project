@@ -1,0 +1,17 @@
+{
+    "name": "ddtrace",
+    "deps": [
+        "axum",
+        "axum-tracing-opentelemetry",
+        "chrono",
+        "opentelemetry",
+        "opentelemetry-datadog",
+        "opentelemetry-otlp",
+        "serde",
+        "serde_json",
+        "tracing",
+        "tracing-opentelemetry",
+        "tracing-serde",
+        "tracing-subscriber"
+    ]
+}

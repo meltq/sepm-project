@@ -1,0 +1,28 @@
+{
+    "name": "wavs-wasi-chain",
+    "deps": [
+        "alloy-json-rpc",
+        "alloy-primitives",
+        "alloy-provider",
+        "alloy-rpc-client",
+        "alloy-rpc-types",
+        "alloy-sol-types",
+        "alloy-transport",
+        "alloy-transport-http",
+        "anyhow",
+        "async-trait",
+        "cfg-if",
+        "cosmwasm-std",
+        "layer-climb",
+        "serde",
+        "serde_json",
+        "tendermint",
+        "tendermint-rpc",
+        "tower-service",
+        "url",
+        "wasi",
+        "wit-bindgen",
+        "wit-bindgen-rt",
+        "wstd"
+    ]
+}

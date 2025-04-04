@@ -1,0 +1,12 @@
+{
+    "name": "wasi-process",
+    "deps": [
+        "futures",
+        "pin-project-lite",
+        "serde",
+        "tokio",
+        "typetag",
+        "wasmer-runtime",
+        "wasmer-wasi"
+    ]
+}

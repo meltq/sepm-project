@@ -1,0 +1,28 @@
+{
+    "name": "mwc-libp2p-gossipsub",
+    "deps": [
+        "async-std",
+        "asynchronous-codec",
+        "base64",
+        "byteorder",
+        "bytes",
+        "derive_builder",
+        "env_logger",
+        "fnv",
+        "futures",
+        "hex",
+        "hex_fmt",
+        "log",
+        "mwc-libp2p-core",
+        "mwc-libp2p-swarm",
+        "prost",
+        "prost-build",
+        "quickcheck",
+        "rand",
+        "regex",
+        "sha2",
+        "smallvec",
+        "unsigned-varint",
+        "wasm-timer"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "snarkvm-synthesizer-coinbase",
+    "deps": [
+        "anyhow",
+        "bincode",
+        "blake2",
+        "console",
+        "criterion",
+        "itertools",
+        "rand",
+        "rayon",
+        "serde_json",
+        "snarkvm-algorithms",
+        "snarkvm-curves",
+        "snarkvm-fields",
+        "snarkvm-synthesizer-snark",
+        "snarkvm-utilities"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "name": "velvet-web",
+    "deps": [
+        "anyhow",
+        "askama",
+        "askama_axum",
+        "axum",
+        "axum-extra",
+        "axum-prometheus",
+        "dotenv",
+        "jsonwebtoken",
+        "mime_guess",
+        "reqwest",
+        "rust-embed",
+        "sentry",
+        "sentry-tower",
+        "serde",
+        "sqlx",
+        "tokio",
+        "tracing",
+        "tracing-subscriber",
+        "valuable"
+    ]
+}

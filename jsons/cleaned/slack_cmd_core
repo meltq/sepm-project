@@ -1,0 +1,18 @@
+{
+    "name": "slack_cmd_core",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "chrono",
+        "clap",
+        "dashmap",
+        "env_logger",
+        "log",
+        "rsb_derive",
+        "shlex",
+        "slack-morphism",
+        "tokio",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

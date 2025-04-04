@@ -1,0 +1,28 @@
+{
+    "name": "solana-program-test-anchor-fix",
+    "deps": [
+        "assert_matches",
+        "async-trait",
+        "base64",
+        "bincode",
+        "chrono-humanize",
+        "crossbeam-channel",
+        "log",
+        "serde",
+        "solana-accounts-db",
+        "solana-banks-client",
+        "solana-banks-interface",
+        "solana-banks-server",
+        "solana-bpf-loader-program",
+        "solana-logger",
+        "solana-program-runtime",
+        "solana-runtime",
+        "solana-sdk",
+        "solana-stake-program",
+        "solana-vote-program",
+        "solana_rbpf",
+        "test-case",
+        "thiserror",
+        "tokio"
+    ]
+}

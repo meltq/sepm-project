@@ -1,0 +1,27 @@
+{
+    "name": "autd3-simulator",
+    "deps": [
+        "anyhow",
+        "autd3-core",
+        "autd3-firmware-emulator",
+        "autd3-protobuf",
+        "bitflags",
+        "bytemuck",
+        "camera_controllers",
+        "cgmath",
+        "crossbeam-channel",
+        "futures-util",
+        "image",
+        "imgui",
+        "png",
+        "scarlet",
+        "serde",
+        "spdlog-rs",
+        "tokio",
+        "tonic",
+        "vulkano",
+        "vulkano-shaders",
+        "vulkano-win",
+        "winit"
+    ]
+}

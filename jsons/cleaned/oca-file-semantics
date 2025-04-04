@@ -1,0 +1,20 @@
+{
+    "name": "oca-file-semantics",
+    "deps": [
+        "clap",
+        "convert_case",
+        "env_logger",
+        "indexmap",
+        "log",
+        "oca-ast-semantics",
+        "pest",
+        "pest_derive",
+        "pretty_assertions",
+        "recursion",
+        "said",
+        "serde",
+        "serde_json",
+        "sled",
+        "thiserror"
+    ]
+}

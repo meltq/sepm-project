@@ -1,0 +1,13 @@
+{
+    "name": "llmvm-core",
+    "deps": [
+        "clap",
+        "futures",
+        "llmvm-core-lib",
+        "llmvm-protocol",
+        "llmvm-util",
+        "serde",
+        "tokio",
+        "tracing"
+    ]
+}

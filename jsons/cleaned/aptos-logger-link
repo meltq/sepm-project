@@ -1,0 +1,23 @@
+{
+    "name": "aptos-logger-link",
+    "deps": [
+        "aptos-infallible",
+        "aptos-log-derive",
+        "backtrace",
+        "chrono",
+        "console-subscriber",
+        "erased-serde",
+        "futures",
+        "hostname",
+        "once_cell",
+        "pretty_assertions",
+        "prometheus",
+        "serde",
+        "serde_json",
+        "strum",
+        "strum_macros",
+        "tokio",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

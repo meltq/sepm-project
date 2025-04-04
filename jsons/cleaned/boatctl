@@ -1,0 +1,29 @@
+{
+    "name": "boatctl",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "cfg-if",
+        "data-encoding",
+        "dirs",
+        "ed25519-dalek",
+        "graphql_client",
+        "indexmap",
+        "log",
+        "maplit",
+        "miette",
+        "pretty_env_logger",
+        "regex",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "structopt",
+        "tabled",
+        "tar",
+        "tempdir",
+        "termcolor",
+        "thiserror",
+        "tokio",
+        "toml"
+    ]
+}

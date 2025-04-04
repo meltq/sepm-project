@@ -1,0 +1,32 @@
+{
+    "name": "aptos-telemetry-service",
+    "deps": [
+        "anyhow",
+        "aptos-config",
+        "aptos-crypto",
+        "aptos-crypto-derive",
+        "aptos-infallible",
+        "aptos-logger",
+        "aptos-rest-client",
+        "aptos-types",
+        "bcs",
+        "chrono",
+        "clap",
+        "gcp-bigquery-client",
+        "hex",
+        "jsonwebtoken",
+        "rand",
+        "rand_core",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "serde_repr",
+        "serde_with",
+        "serde_yaml",
+        "thiserror",
+        "tokio",
+        "tokio_schedule",
+        "url",
+        "warp"
+    ]
+}

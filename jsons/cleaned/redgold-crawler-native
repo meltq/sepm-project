@@ -1,0 +1,16 @@
+{
+    "name": "redgold-crawler-native",
+    "deps": [
+        "flume",
+        "futures-util",
+        "metrics",
+        "redgold-common",
+        "redgold-common-no-wasm",
+        "redgold-crawler",
+        "redgold-schema",
+        "serde_json",
+        "tokio",
+        "tokio-tungstenite",
+        "url"
+    ]
+}

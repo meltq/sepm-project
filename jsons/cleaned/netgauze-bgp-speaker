@@ -1,0 +1,32 @@
+{
+    "name": "netgauze-bgp-speaker",
+    "deps": [
+        "arbitrary",
+        "arbitrary_ext",
+        "async-trait",
+        "byteorder",
+        "bytes",
+        "chrono",
+        "clap",
+        "env_logger",
+        "futures",
+        "futures-core",
+        "futures-util",
+        "ipnet",
+        "log",
+        "netgauze-bgp-pkt",
+        "netgauze-iana",
+        "netgauze-locate",
+        "netgauze-parse-utils",
+        "nom",
+        "pin-project",
+        "rand",
+        "serde",
+        "strum_macros",
+        "test-log",
+        "tokio",
+        "tokio-stream",
+        "tokio-test",
+        "tokio-util"
+    ]
+}

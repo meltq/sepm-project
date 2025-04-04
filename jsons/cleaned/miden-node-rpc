@@ -1,0 +1,25 @@
+{
+    "name": "miden-node-rpc",
+    "deps": [
+        "anyhow",
+        "clap",
+        "directories",
+        "figment",
+        "figment",
+        "hex",
+        "miden-node-block-producer",
+        "miden-node-proto",
+        "miden-node-store",
+        "miden-node-utils",
+        "miden-node-utils",
+        "miden-objects",
+        "miden-tx",
+        "prost",
+        "serde",
+        "tokio",
+        "toml",
+        "tonic",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

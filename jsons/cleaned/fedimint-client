@@ -1,0 +1,29 @@
+{
+    "name": "fedimint-client",
+    "deps": [
+        "anyhow",
+        "aquamarine",
+        "async-stream",
+        "async-trait",
+        "bitcoin",
+        "bitcoin_hashes",
+        "fedimint-aead",
+        "fedimint-build",
+        "fedimint-core",
+        "fedimint-derive-secret",
+        "fedimint-logging",
+        "futures",
+        "itertools",
+        "rand",
+        "ring",
+        "secp256k1-zkp",
+        "serde",
+        "serde_json",
+        "strum",
+        "strum_macros",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "tracing-test"
+    ]
+}

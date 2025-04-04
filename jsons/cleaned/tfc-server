@@ -1,0 +1,12 @@
+{
+    "name": "tfc-server",
+    "deps": [
+        "futures",
+        "log",
+        "pretty_env_logger",
+        "tfc",
+        "tokio",
+        "tokio-stream",
+        "warp"
+    ]
+}

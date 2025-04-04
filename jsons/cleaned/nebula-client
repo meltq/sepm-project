@@ -1,0 +1,16 @@
+{
+    "name": "nebula-client",
+    "deps": [
+        "async-trait",
+        "bytes",
+        "cfg-if",
+        "fbthrift",
+        "fbthrift-transport-response-handler",
+        "nebula-fbthrift-graph",
+        "nebula-fbthrift-graph-v2",
+        "nebula-fbthrift-meta",
+        "nebula-fbthrift-storage",
+        "serde",
+        "serde-nebula-fbthrift-graph"
+    ]
+}

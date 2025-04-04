@@ -1,0 +1,21 @@
+{
+    "name": "zksync_protobuf",
+    "deps": [
+        "anyhow",
+        "bit-vec",
+        "once_cell",
+        "prost",
+        "prost-reflect",
+        "quick-protobuf",
+        "rand",
+        "serde",
+        "serde_json",
+        "serde_yaml",
+        "tokio",
+        "tracing",
+        "tracing-subscriber",
+        "zksync_concurrency",
+        "zksync_consensus_utils",
+        "zksync_protobuf_build"
+    ]
+}

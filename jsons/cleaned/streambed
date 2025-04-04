@@ -1,0 +1,23 @@
+{
+    "name": "streambed",
+    "deps": [
+        "aes",
+        "async-trait",
+        "base64",
+        "cache_loader_async",
+        "chrono",
+        "exponential-backoff",
+        "hex",
+        "hmac",
+        "log",
+        "rand",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "serde_with",
+        "sha2",
+        "smol_str",
+        "tokio",
+        "tokio-stream"
+    ]
+}

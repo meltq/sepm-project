@@ -1,0 +1,15 @@
+{
+    "name": "webtonic-server",
+    "deps": [
+        "bytes",
+        "futures",
+        "http",
+        "log",
+        "prost",
+        "tokio",
+        "tonic",
+        "tower-service",
+        "warp",
+        "webtonic-proto"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "helm2oci",
+    "deps": [
+        "anyhow",
+        "argh",
+        "flate2",
+        "ocidir",
+        "serde_json",
+        "serde_yml",
+        "tar",
+        "test-temp-dir",
+        "testcontainers",
+        "testcontainers-modules"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "name": "qiniu-with-libcurl",
+    "deps": [
+        "curl",
+        "derive_builder",
+        "lazy_static",
+        "object-pool",
+        "qiniu-http",
+        "rustc_version_runtime",
+        "tempfile",
+        "url"
+    ]
+}

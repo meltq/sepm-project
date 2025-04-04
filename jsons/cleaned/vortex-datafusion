@@ -1,0 +1,24 @@
+{
+    "name": "vortex-datafusion",
+    "deps": [
+        "arrow-array",
+        "arrow-schema",
+        "async-trait",
+        "datafusion",
+        "datafusion-common",
+        "datafusion-execution",
+        "datafusion-expr",
+        "datafusion-physical-expr",
+        "datafusion-physical-plan",
+        "futures",
+        "itertools",
+        "lazy_static",
+        "pin-project",
+        "tokio",
+        "vortex-array",
+        "vortex-dtype",
+        "vortex-error",
+        "vortex-expr",
+        "vortex-scalar"
+    ]
+}

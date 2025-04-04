@@ -1,0 +1,17 @@
+{
+    "name": "lightspeed_email",
+    "deps": [
+        "lazy_static",
+        "lettre",
+        "lettre_email",
+        "lightspeed_core",
+        "lightspeed_logger",
+        "log",
+        "native-tls",
+        "parking_lot",
+        "serde",
+        "serde_derive",
+        "structopt",
+        "testcontainers"
+    ]
+}

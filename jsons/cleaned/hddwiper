@@ -1,0 +1,20 @@
+{
+    "name": "hddwiper",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "clap",
+        "crossbeam-channel",
+        "env_logger",
+        "flume",
+        "futures",
+        "generic-array",
+        "hex",
+        "log",
+        "rand",
+        "rdrand",
+        "running-average",
+        "salsa20",
+        "tokio"
+    ]
+}

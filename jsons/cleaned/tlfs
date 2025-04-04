@@ -1,0 +1,22 @@
+{
+    "name": "tlfs",
+    "deps": [
+        "anyhow",
+        "async-global-executor",
+        "async-std",
+        "async-trait",
+        "bytecheck",
+        "ed25519-dalek",
+        "fnv",
+        "futures",
+        "libp2p",
+        "libp2p-broadcast",
+        "log-panics",
+        "rkyv",
+        "tlfs-crdt",
+        "tracing",
+        "tracing-android",
+        "tracing-log",
+        "tracing-subscriber"
+    ]
+}

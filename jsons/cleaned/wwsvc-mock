@@ -1,0 +1,25 @@
+{
+    "name": "wwsvc-mock",
+    "deps": [
+        "anyhow",
+        "axum",
+        "axum-test",
+        "encoding_rs",
+        "figment",
+        "http-body-util",
+        "httpdate",
+        "md5",
+        "pretty_assertions",
+        "rand",
+        "reqwest",
+        "serde",
+        "serde-inline-default",
+        "serde_json",
+        "serde_json",
+        "strum",
+        "tokio",
+        "tracing",
+        "tracing-subscriber",
+        "wwsvc-rs"
+    ]
+}

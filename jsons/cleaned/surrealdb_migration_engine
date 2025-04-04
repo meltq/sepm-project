@@ -1,0 +1,16 @@
+{
+    "name": "surrealdb_migration_engine",
+    "deps": [
+        "anyhow",
+        "chrono",
+        "regex",
+        "rust-embed",
+        "serde",
+        "serde_json",
+        "surrealdb",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "name": "eventsourced-postgres",
+    "deps": [
+        "anyhow",
+        "async-stream",
+        "bb8-postgres",
+        "bytes",
+        "eventsourced",
+        "futures",
+        "humantime-serde",
+        "prost",
+        "serde",
+        "testcontainers",
+        "thiserror",
+        "tokio",
+        "tokio",
+        "tokio-postgres",
+        "tracing",
+        "tracing-subscriber",
+        "uuid"
+    ]
+}

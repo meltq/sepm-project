@@ -1,0 +1,27 @@
+{
+    "name": "octocrab_wasi",
+    "deps": [
+        "arc-swap",
+        "async-trait",
+        "base64",
+        "bytes",
+        "cfg-if",
+        "chrono",
+        "either",
+        "futures-core",
+        "futures-util",
+        "hyperx",
+        "jwt-simple",
+        "once_cell",
+        "reqwest",
+        "reqwest_wasi",
+        "secrecy",
+        "serde",
+        "serde_json",
+        "serde_path_to_error",
+        "snafu",
+        "tokio",
+        "url",
+        "wiremock"
+    ]
+}

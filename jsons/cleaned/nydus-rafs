@@ -1,0 +1,33 @@
+{
+    "name": "nydus-rafs",
+    "deps": [
+        "anyhow",
+        "arc-swap",
+        "assert_matches",
+        "base64",
+        "bitflags",
+        "blake3",
+        "flate2",
+        "fuse-backend-rs",
+        "futures",
+        "hmac",
+        "lazy_static",
+        "libc",
+        "log",
+        "lz4-sys",
+        "nix",
+        "nydus-api",
+        "nydus-error",
+        "nydus-storage",
+        "nydus-utils",
+        "serde",
+        "serde_json",
+        "serde_with",
+        "sha-1",
+        "sha2",
+        "spmc",
+        "url",
+        "vm-memory",
+        "vmm-sys-util"
+    ]
+}

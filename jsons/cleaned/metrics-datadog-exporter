@@ -1,0 +1,22 @@
+{
+    "name": "metrics-datadog-exporter",
+    "deps": [
+        "anyhow",
+        "chrono",
+        "env_logger",
+        "httpmock",
+        "log",
+        "metrics",
+        "metrics-macros",
+        "metrics-util",
+        "once_cell",
+        "parking_lot",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "serde_with",
+        "thiserror",
+        "tokio",
+        "tokio_schedule"
+    ]
+}

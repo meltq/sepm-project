@@ -1,0 +1,27 @@
+{
+    "name": "redis-cacher",
+    "deps": [
+        "async-trait",
+        "const-sha1",
+        "crc16",
+        "crossbeam",
+        "derive_more",
+        "displaydoc",
+        "futures",
+        "lazy_static",
+        "metered",
+        "paste",
+        "rand",
+        "redis",
+        "serde",
+        "serde_json",
+        "slotmap",
+        "strum",
+        "thiserror",
+        "tokio",
+        "toml",
+        "tracing",
+        "tracing-log",
+        "uuid"
+    ]
+}

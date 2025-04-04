@@ -1,0 +1,22 @@
+{
+    "name": "spectacles-gateway",
+    "deps": [
+        "futures",
+        "log",
+        "native-tls",
+        "parking_lot",
+        "reqwest",
+        "serde",
+        "serde_derive",
+        "serde_eetf",
+        "serde_json",
+        "spectacles-model",
+        "tokio",
+        "tokio-dns-unofficial",
+        "tokio-fs",
+        "tokio-sync",
+        "tokio-tls",
+        "tokio-tungstenite",
+        "url"
+    ]
+}

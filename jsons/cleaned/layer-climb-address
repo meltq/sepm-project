@@ -1,0 +1,27 @@
+{
+    "name": "layer-climb-address",
+    "deps": [
+        "alloy-primitives",
+        "anyhow",
+        "async-trait",
+        "base64",
+        "bip32",
+        "bip39",
+        "cfg-if",
+        "hex",
+        "js-sys",
+        "k256",
+        "layer-climb-config",
+        "layer-climb-proto",
+        "log",
+        "serde",
+        "serde-wasm-bindgen",
+        "signature",
+        "subtle-encoding",
+        "tendermint",
+        "thiserror",
+        "wasm-bindgen",
+        "wasm-bindgen-futures",
+        "web-sys"
+    ]
+}

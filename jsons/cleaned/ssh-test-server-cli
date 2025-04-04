@@ -1,0 +1,10 @@
+{
+    "name": "ssh-test-server-cli",
+    "deps": [
+        "clap",
+        "ssh-test-server",
+        "tokio",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

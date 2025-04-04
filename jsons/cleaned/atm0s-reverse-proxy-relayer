@@ -1,0 +1,25 @@
+{
+    "name": "atm0s-reverse-proxy-relayer",
+    "deps": [
+        "async-std",
+        "async-trait",
+        "atm0s-sdn",
+        "clap",
+        "futures",
+        "httparse",
+        "local-ip-address",
+        "log",
+        "metrics",
+        "metrics-dashboard",
+        "poem",
+        "protocol",
+        "protocol-ed25519",
+        "quinn",
+        "rtsp-types",
+        "rustls",
+        "serde",
+        "tls-parser",
+        "tracing-subscriber",
+        "yamux"
+    ]
+}

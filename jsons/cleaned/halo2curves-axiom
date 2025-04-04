@@ -1,0 +1,27 @@
+{
+    "name": "halo2curves-axiom",
+    "deps": [
+        "ark-std",
+        "bincode",
+        "blake2b_simd",
+        "criterion",
+        "ff",
+        "group",
+        "hex",
+        "lazy_static",
+        "maybe-rayon",
+        "num-bigint",
+        "num-traits",
+        "pairing",
+        "pasta_curves",
+        "paste",
+        "rand",
+        "rand_core",
+        "rand_xorshift",
+        "serde",
+        "serde_arrays",
+        "serde_json",
+        "static_assertions",
+        "subtle"
+    ]
+}

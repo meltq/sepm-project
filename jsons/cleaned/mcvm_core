@@ -1,0 +1,25 @@
+{
+    "name": "mcvm_core",
+    "deps": [
+        "anyhow",
+        "bytes",
+        "cfg-match",
+        "directories",
+        "futures",
+        "hex",
+        "libflate",
+        "mcvm_auth",
+        "mcvm_shared",
+        "oauth2",
+        "reqwest",
+        "schemars",
+        "serde",
+        "serde_json",
+        "sha2",
+        "tar",
+        "thiserror",
+        "tokio",
+        "zip",
+        "zip-extract"
+    ]
+}

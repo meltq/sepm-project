@@ -1,0 +1,21 @@
+{
+    "name": "podtender",
+    "deps": [
+        "asynchronous-codec",
+        "derive_builder",
+        "futures",
+        "hyper",
+        "hyperlocal",
+        "lazy_static",
+        "serde",
+        "serde_json",
+        "serde_path_to_error",
+        "serde_qs",
+        "serde_with",
+        "serial_test",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

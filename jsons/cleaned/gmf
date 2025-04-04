@@ -1,0 +1,26 @@
+{
+    "name": "gmf",
+    "deps": [
+        "async-io",
+        "async-stream",
+        "async-trait",
+        "ctrlc-async",
+        "env_logger",
+        "futures",
+        "futures-core",
+        "futures-lite",
+        "futures-time",
+        "futures-util",
+        "glommio",
+        "http",
+        "http-body",
+        "hyper",
+        "log",
+        "serde",
+        "tokio",
+        "tonic",
+        "tower",
+        "tower-service",
+        "warp"
+    ]
+}

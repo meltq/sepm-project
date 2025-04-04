@@ -1,0 +1,25 @@
+{
+    "name": "sp-multihash",
+    "deps": [
+        "blake2b_simd",
+        "blake2s_simd",
+        "blake3",
+        "bytecursor",
+        "criterion",
+        "digest",
+        "generic-array",
+        "hex",
+        "parity-scale-codec",
+        "quickcheck",
+        "rand",
+        "serde",
+        "serde_json",
+        "sha-1",
+        "sha-2",
+        "sha-3",
+        "sp-multihash-derive",
+        "sp-std",
+        "strobe-rs",
+        "unsigned-varint"
+    ]
+}

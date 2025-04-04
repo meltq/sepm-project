@@ -1,0 +1,15 @@
+{
+    "name": "libarchive_src",
+    "deps": [
+        "bindgen",
+        "bzip2-sys",
+        "cmake",
+        "libc",
+        "libz-sys",
+        "lz4-sys",
+        "lzma-sys",
+        "openssl-sys",
+        "path-slash",
+        "zstd-sys"
+    ]
+}

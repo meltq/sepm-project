@@ -1,0 +1,23 @@
+{
+    "name": "sqlm-postgres",
+    "deps": [
+        "bytes",
+        "deadpool-postgres",
+        "dotenvy",
+        "http-error",
+        "once_cell",
+        "pgvector",
+        "postgres-types",
+        "rustls",
+        "rustversion",
+        "serde_json",
+        "sqlm-postgres-macros",
+        "time",
+        "tokio",
+        "tokio-postgres",
+        "tokio-postgres-rustls",
+        "tracing",
+        "uuid",
+        "uuid"
+    ]
+}

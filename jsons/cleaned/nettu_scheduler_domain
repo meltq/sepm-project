@@ -1,0 +1,15 @@
+{
+    "name": "nettu_scheduler_domain",
+    "deps": [
+        "anyhow",
+        "chrono",
+        "chrono-tz",
+        "jsonwebtoken",
+        "mongodb",
+        "nettu_scheduler_utils",
+        "rrule",
+        "serde",
+        "thiserror",
+        "url"
+    ]
+}

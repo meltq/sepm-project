@@ -1,0 +1,23 @@
+{
+    "name": "cluster-mode",
+    "deps": [
+        "almost-raft",
+        "anyhow",
+        "async-trait",
+        "bytes",
+        "cloud-discovery-kubernetes",
+        "futures-util",
+        "http",
+        "hyper",
+        "lazy_static",
+        "log",
+        "rand",
+        "rust-cloud-discovery",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tokio-stream",
+        "tracing-subscriber",
+        "uuid"
+    ]
+}

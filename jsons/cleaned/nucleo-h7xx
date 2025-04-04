@@ -1,0 +1,23 @@
+{
+    "name": "nucleo-h7xx",
+    "deps": [
+        "cfg-if",
+        "cortex-m",
+        "cortex-m-log",
+        "cortex-m-rt",
+        "cortex-m-semihosting",
+        "embedded-timeout-macros",
+        "heapless",
+        "lazy_static",
+        "log",
+        "nb",
+        "panic-halt",
+        "panic-itm",
+        "panic-rtt-target",
+        "panic-semihosting",
+        "rtt-target",
+        "smoltcp",
+        "stm32h7xx-hal",
+        "void"
+    ]
+}

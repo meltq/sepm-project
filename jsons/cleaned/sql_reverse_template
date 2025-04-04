@@ -1,0 +1,13 @@
+{
+    "name": "sql_reverse_template",
+    "deps": [
+        "async-std",
+        "async-trait",
+        "quicli",
+        "serde",
+        "sql_reverse_error",
+        "tera",
+        "tokio",
+        "tracing"
+    ]
+}

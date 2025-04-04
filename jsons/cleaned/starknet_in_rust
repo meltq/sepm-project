@@ -1,0 +1,28 @@
+{
+    "name": "starknet_in_rust",
+    "deps": [
+        "anyhow",
+        "assert_matches",
+        "awc",
+        "cairo-lang-casm",
+        "cairo-lang-starknet",
+        "cairo-vm",
+        "cargo-llvm-cov",
+        "coverage-helper",
+        "getset",
+        "hex",
+        "lambda_starknet_api",
+        "lazy_static",
+        "mimalloc",
+        "num-bigint",
+        "num-integer",
+        "num-traits",
+        "once_cell",
+        "serde",
+        "serde_json",
+        "sha3",
+        "starknet-contract-class",
+        "starknet-crypto",
+        "thiserror"
+    ]
+}

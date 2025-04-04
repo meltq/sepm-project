@@ -1,0 +1,25 @@
+{
+    "name": "twitch-irc",
+    "deps": [
+        "async-trait",
+        "async-tungstenite",
+        "bytes",
+        "chrono",
+        "enum_dispatch",
+        "env_logger",
+        "futures",
+        "itertools",
+        "log",
+        "maplit",
+        "metrics",
+        "native-tls",
+        "reqwest",
+        "serde",
+        "smallvec",
+        "thiserror",
+        "tokio",
+        "tokio-native-tls",
+        "tokio-util",
+        "tungstenite"
+    ]
+}

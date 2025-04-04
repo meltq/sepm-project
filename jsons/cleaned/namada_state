@@ -1,0 +1,29 @@
+{
+    "name": "namada_state",
+    "deps": [
+        "assert_matches",
+        "borsh",
+        "chrono",
+        "clru",
+        "itertools",
+        "linkme",
+        "namada_core",
+        "namada_events",
+        "namada_gas",
+        "namada_macros",
+        "namada_merkle_tree",
+        "namada_migrations",
+        "namada_replay_protection",
+        "namada_storage",
+        "namada_systems",
+        "namada_tx",
+        "patricia_tree",
+        "pretty_assertions",
+        "proptest",
+        "proptest",
+        "smooth-operator",
+        "test-log",
+        "thiserror",
+        "tracing"
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "name": "qm-customer",
+    "deps": [
+        "anyhow",
+        "async-graphql",
+        "async-trait",
+        "chrono",
+        "deadpool-redis",
+        "envy",
+        "futures",
+        "log",
+        "prometheus-client",
+        "qm-entity",
+        "qm-kafka",
+        "qm-keycloak",
+        "qm-mongodb",
+        "qm-redis",
+        "qm-role",
+        "serde",
+        "serde_json",
+        "strum",
+        "tokio",
+        "tynm"
+    ]
+}

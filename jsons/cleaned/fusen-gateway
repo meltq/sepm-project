@@ -1,0 +1,33 @@
+{
+    "name": "fusen-gateway",
+    "deps": [
+        "async-recursion",
+        "async-trait",
+        "bytes",
+        "fusen-proc-macro",
+        "futures",
+        "futures-util",
+        "gateway-common",
+        "h2",
+        "http",
+        "http-body",
+        "http-body-util",
+        "hyper",
+        "hyper-rustls",
+        "hyper-util",
+        "lazy_static",
+        "nacos-sdk",
+        "pin-project-lite",
+        "pretty_env_logger",
+        "rand",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tokio-tungstenite",
+        "tracing",
+        "tracing-futures",
+        "tracing-subscriber",
+        "uuid",
+        "zookeeper-client"
+    ]
+}

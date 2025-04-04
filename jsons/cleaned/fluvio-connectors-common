@@ -1,0 +1,22 @@
+{
+    "name": "fluvio-connectors-common",
+    "deps": [
+        "anyhow",
+        "bytesize",
+        "flate2",
+        "fluvio",
+        "fluvio-future",
+        "fluvio-spu-schema",
+        "humantime",
+        "humantime-serde",
+        "pretty_assertions",
+        "schemars",
+        "serde",
+        "serde_json",
+        "serde_yaml",
+        "structopt",
+        "thiserror",
+        "tokio",
+        "tokio-stream"
+    ]
+}

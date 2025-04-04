@@ -1,0 +1,17 @@
+{
+    "name": "wasm-service",
+    "deps": [
+        "async-trait",
+        "bytes",
+        "js-sys",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "service-logging",
+        "url",
+        "wasm-bindgen",
+        "wasm-bindgen-futures",
+        "wasm-bindgen-test",
+        "web-sys"
+    ]
+}

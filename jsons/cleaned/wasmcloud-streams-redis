@@ -1,0 +1,11 @@
+{
+    "name": "wasmcloud-streams-redis",
+    "deps": [
+        "env_logger",
+        "log",
+        "redis-streams",
+        "wasmcloud-actor-core",
+        "wasmcloud-actor-eventstreams",
+        "wasmcloud-provider-core"
+    ]
+}

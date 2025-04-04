@@ -1,0 +1,27 @@
+{
+    "name": "oled_async",
+    "deps": [
+        "cortex-m",
+        "cortex-m-rt",
+        "cortex-m-rtic",
+        "defmt",
+        "defmt-rtt",
+        "display-interface",
+        "display-interface-i2c",
+        "display-interface-spi",
+        "embassy-executor",
+        "embassy-stm32",
+        "embassy-time",
+        "embedded-graphics",
+        "embedded-graphics-core",
+        "embedded-hal",
+        "embedded-hal-async",
+        "embedded-hal-bus",
+        "heapless",
+        "panic-probe",
+        "panic-semihosting",
+        "stm32f1xx-hal",
+        "stm32f4xx-hal",
+        "stm32g4xx-hal"
+    ]
+}

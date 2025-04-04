@@ -1,0 +1,12 @@
+{
+    "name": "c-ares-resolver",
+    "deps": [
+        "c-ares",
+        "dns-parser",
+        "futures",
+        "mio",
+        "tokio-core",
+        "winapi",
+        "ws2_32-sys"
+    ]
+}

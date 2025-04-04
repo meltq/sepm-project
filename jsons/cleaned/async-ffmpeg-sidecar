@@ -1,0 +1,15 @@
+{
+    "name": "async-ffmpeg-sidecar",
+    "deps": [
+        "anyhow",
+        "async-compression",
+        "async_zip",
+        "futures",
+        "futures-util",
+        "krata-tokio-tar",
+        "reqwest",
+        "sanitize-filename",
+        "tokio",
+        "tokio-util"
+    ]
+}

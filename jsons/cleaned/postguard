@@ -1,0 +1,13 @@
+{
+    "name": "postguard",
+    "deps": [
+        "Inflector",
+        "libpgquery-sys",
+        "once_cell",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tracing",
+        "tracing-test"
+    ]
+}

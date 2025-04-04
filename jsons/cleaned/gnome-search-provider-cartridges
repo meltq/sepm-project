@@ -1,0 +1,14 @@
+{
+    "name": "gnome-search-provider-cartridges",
+    "deps": [
+        "env_logger",
+        "gdk-pixbuf",
+        "log",
+        "search-provider",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "zbus"
+    ]
+}

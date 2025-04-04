@@ -1,0 +1,18 @@
+{
+    "name": "srun",
+    "deps": [
+        "anyhow",
+        "cached-path",
+        "clap",
+        "env_logger",
+        "futures",
+        "hyper",
+        "log",
+        "serde",
+        "serde_yaml",
+        "shiplift",
+        "tempfile",
+        "thiserror",
+        "tokio"
+    ]
+}

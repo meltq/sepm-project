@@ -1,0 +1,22 @@
+{
+    "name": "axum-resp-result",
+    "deps": [
+        "axum",
+        "axum-resp-result-macro",
+        "futures",
+        "http",
+        "mime",
+        "once_cell",
+        "serde",
+        "serde_json",
+        "serde_json",
+        "simple-log",
+        "thiserror",
+        "tokio",
+        "tower",
+        "tower-http",
+        "trace",
+        "tracing-subscriber",
+        "tracing-unwrap"
+    ]
+}

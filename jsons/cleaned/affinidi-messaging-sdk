@@ -1,0 +1,29 @@
+{
+    "name": "affinidi-messaging-sdk",
+    "deps": [
+        "affinidi-did-resolver-cache-sdk",
+        "affinidi-messaging-didcomm",
+        "async-trait",
+        "base64",
+        "clap",
+        "futures-util",
+        "http",
+        "jsonwebtoken",
+        "reqwest",
+        "rustls",
+        "rustls-native-certs",
+        "rustls-pemfile",
+        "serde",
+        "serde_json",
+        "sha256",
+        "ssi",
+        "thiserror",
+        "tokio",
+        "tokio-stream",
+        "tokio-tungstenite",
+        "tracing",
+        "tracing-subscriber",
+        "url",
+        "uuid"
+    ]
+}

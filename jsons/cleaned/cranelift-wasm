@@ -1,0 +1,13 @@
+{
+    "name": "cranelift-wasm",
+    "deps": [
+        "cranelift-codegen",
+        "cranelift-frontend",
+        "failure",
+        "failure_derive",
+        "hashmap_core",
+        "target-lexicon",
+        "wabt",
+        "wasmparser"
+    ]
+}

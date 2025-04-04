@@ -1,0 +1,28 @@
+{
+    "name": "namada_wallet",
+    "deps": [
+        "base58",
+        "bimap",
+        "borsh",
+        "data-encoding",
+        "derivation-path",
+        "fd-lock",
+        "itertools",
+        "masp_primitives",
+        "namada_core",
+        "namada_ibc",
+        "namada_macros",
+        "namada_migrations",
+        "orion",
+        "rand",
+        "rand_core",
+        "serde",
+        "slip10_ed25519",
+        "smooth-operator",
+        "thiserror",
+        "tiny-bip39",
+        "tiny-hderive",
+        "toml",
+        "zeroize"
+    ]
+}

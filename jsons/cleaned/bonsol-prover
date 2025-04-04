@@ -1,0 +1,21 @@
+{
+    "name": "bonsol-prover",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "bincode",
+        "bonsol-schema",
+        "bytes",
+        "futures-util",
+        "mockito",
+        "reqwest",
+        "risc0-binfmt",
+        "risc0-zkvm",
+        "serde",
+        "serde_json",
+        "solana-rpc-client",
+        "solana-rpc-client-api",
+        "solana-sdk",
+        "tokio"
+    ]
+}

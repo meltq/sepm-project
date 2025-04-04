@@ -1,0 +1,12 @@
+{
+    "name": "cfn-teleport",
+    "deps": [
+        "aws-config",
+        "aws-sdk-cloudformation",
+        "clap",
+        "dialoguer",
+        "serde_json",
+        "tokio",
+        "uuid"
+    ]
+}

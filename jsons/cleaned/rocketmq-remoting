@@ -1,0 +1,26 @@
+{
+    "name": "rocketmq-remoting",
+    "deps": [
+        "anyhow",
+        "bytes",
+        "bytes",
+        "futures",
+        "futures-core",
+        "futures-io",
+        "futures-sink",
+        "futures-util",
+        "lazy_static",
+        "num_cpus",
+        "rand",
+        "rocketmq-common",
+        "rocketmq-macros",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tokio-stream",
+        "tokio-util",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

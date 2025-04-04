@@ -1,0 +1,14 @@
+{
+    "name": "wasefire-protocol-usb",
+    "deps": [
+        "anyhow",
+        "defmt",
+        "rusb",
+        "usb-device",
+        "wasefire-board-api",
+        "wasefire-error",
+        "wasefire-logger",
+        "wasefire-protocol",
+        "wasefire-wire"
+    ]
+}

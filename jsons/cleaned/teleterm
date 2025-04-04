@@ -1,0 +1,32 @@
+{
+    "name": "teleterm",
+    "deps": [
+        "bytes",
+        "clap",
+        "config",
+        "crossterm",
+        "directories",
+        "env_logger",
+        "futures",
+        "lazy_static",
+        "log",
+        "mio",
+        "native-tls",
+        "oauth2",
+        "open",
+        "rand",
+        "ratelimit_meter",
+        "regex",
+        "reqwest",
+        "serde",
+        "snafu",
+        "tokio",
+        "tokio-pty-process",
+        "tokio-signal",
+        "tokio-tls",
+        "twoway",
+        "url",
+        "users",
+        "uuid"
+    ]
+}

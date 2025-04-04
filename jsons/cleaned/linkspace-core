@@ -1,0 +1,22 @@
+{
+    "name": "linkspace-core",
+    "deps": [
+        "anyhow",
+        "arrayvec",
+        "dunce",
+        "either",
+        "ipcbus",
+        "lazy_static",
+        "libc",
+        "linkspace-cryptography",
+        "linkspace-pkt",
+        "lmdb-rkv",
+        "lmdb-rkv-sys",
+        "parse-display",
+        "rpds",
+        "serde",
+        "thiserror",
+        "time",
+        "tracing"
+    ]
+}

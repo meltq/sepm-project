@@ -1,0 +1,12 @@
+{
+    "name": "zenu-cuda",
+    "deps": [
+        "libc",
+        "once_cell",
+        "zenu-cublas-sys",
+        "zenu-cuda-driver-sys",
+        "zenu-cuda-kernel-sys",
+        "zenu-cuda-runtime-sys",
+        "zenu-cudnn-sys"
+    ]
+}

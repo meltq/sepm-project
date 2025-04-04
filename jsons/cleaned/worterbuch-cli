@@ -1,0 +1,15 @@
+{
+    "name": "worterbuch-cli",
+    "deps": [
+        "anyhow",
+        "dotenv",
+        "futures-channel",
+        "futures-util",
+        "libworterbuch",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tokio-tungstenite",
+        "url"
+    ]
+}

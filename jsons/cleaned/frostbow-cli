@@ -1,0 +1,29 @@
+{
+    "name": "frostbow-cli",
+    "deps": [
+        "arrow",
+        "assert_cmd",
+        "async-trait",
+        "aws-config",
+        "aws-credential-types",
+        "aws-sdk-sso",
+        "aws-sdk-ssooidc",
+        "aws-sdk-sts",
+        "clap",
+        "ctor",
+        "datafusion",
+        "dirs",
+        "env_logger",
+        "futures",
+        "mimalloc",
+        "object_store",
+        "parking_lot",
+        "parquet",
+        "predicates",
+        "regex",
+        "rstest",
+        "rustyline",
+        "tokio",
+        "url"
+    ]
+}

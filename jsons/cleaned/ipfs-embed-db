@@ -1,0 +1,19 @@
+{
+    "name": "ipfs-embed-db",
+    "deps": [
+        "anyhow",
+        "env_logger",
+        "futures",
+        "ipfs-embed-core",
+        "libipld",
+        "libipld",
+        "log",
+        "parity-db",
+        "parity-scale-codec",
+        "serde",
+        "sled",
+        "tempdir",
+        "thiserror",
+        "tiny-cid"
+    ]
+}

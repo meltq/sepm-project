@@ -1,0 +1,18 @@
+{
+    "name": "simperby-consensus",
+    "deps": [
+        "async-trait",
+        "eyre",
+        "futures",
+        "hex",
+        "itertools",
+        "log",
+        "parking_lot",
+        "serde",
+        "simperby-core",
+        "simperby-network",
+        "thiserror",
+        "tokio",
+        "vetomint"
+    ]
+}

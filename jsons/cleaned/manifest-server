@@ -1,0 +1,11 @@
+{
+    "name": "manifest-server",
+    "deps": [
+        "axum",
+        "manifest-filter",
+        "serde",
+        "tokio",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

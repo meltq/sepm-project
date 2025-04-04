@@ -1,0 +1,19 @@
+{
+    "name": "blockhash-cache",
+    "deps": [
+        "anyhow",
+        "base64",
+        "bincode",
+        "bs58",
+        "dotenv",
+        "hex",
+        "once_cell",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "solana-sdk",
+        "thiserror",
+        "tokio",
+        "tracing"
+    ]
+}

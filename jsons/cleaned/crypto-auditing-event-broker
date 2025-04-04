@@ -1,0 +1,20 @@
+{
+    "name": "crypto-auditing-event-broker",
+    "deps": [
+        "anyhow",
+        "clap",
+        "crypto-auditing",
+        "futures",
+        "inotify",
+        "libsystemd",
+        "serde_cbor",
+        "tempfile",
+        "tokio",
+        "tokio-serde",
+        "tokio-stream",
+        "tokio-util",
+        "toml",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "name": "gn-matchmaking-state",
+    "deps": [
+        "gn-redisadapter-derive",
+        "redis",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tracing"
+    ]
+}

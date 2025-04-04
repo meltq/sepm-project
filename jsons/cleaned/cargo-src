@@ -1,0 +1,21 @@
+{
+    "name": "cargo-src",
+    "deps": [
+        "cargo_metadata",
+        "env_logger",
+        "futures",
+        "hyper",
+        "log",
+        "rls-analysis",
+        "rls-blacklist",
+        "rls-span",
+        "rls-vfs",
+        "rustdoc-highlight",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "toml",
+        "url",
+        "walkdir"
+    ]
+}

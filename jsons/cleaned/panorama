@@ -1,0 +1,27 @@
+{
+    "name": "panorama",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "cfg-if",
+        "chrono",
+        "crossterm",
+        "fern",
+        "futures",
+        "lettre",
+        "log",
+        "notify",
+        "panorama-imap",
+        "pin-project",
+        "rustls-connector",
+        "serde",
+        "structopt",
+        "tokio",
+        "tokio-rustls",
+        "tokio-stream",
+        "tokio-util",
+        "toml",
+        "webpki-roots",
+        "xdg"
+    ]
+}

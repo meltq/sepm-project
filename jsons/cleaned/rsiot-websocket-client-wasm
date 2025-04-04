@@ -1,0 +1,15 @@
+{
+    "name": "rsiot-websocket-client-wasm",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "futures-util",
+        "gloo",
+        "rsiot-component-core",
+        "rsiot-components-config",
+        "rsiot-messages-core",
+        "thiserror",
+        "tokio",
+        "tracing"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "sn_faucet",
+    "deps": [
+        "bls",
+        "clap",
+        "color-eyre",
+        "dirs-next",
+        "sn_client",
+        "sn_logging",
+        "sn_peers_acquisition",
+        "sn_transfers",
+        "tiny_http",
+        "tokio",
+        "tracing",
+        "tracing-core"
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "name": "melwallet-client",
+    "deps": [
+        "anyhow",
+        "async-h1",
+        "colored",
+        "dirs",
+        "format_num",
+        "getrandom",
+        "hex",
+        "http-types",
+        "log",
+        "once_cell",
+        "serde",
+        "serde_json",
+        "serde_with",
+        "smol",
+        "smol-timeout",
+        "smolscale",
+        "stdcode",
+        "structopt",
+        "tabwriter",
+        "themelio-stf",
+        "thiserror",
+        "tmelcrypt",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

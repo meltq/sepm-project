@@ -1,0 +1,17 @@
+{
+    "name": "safecoin-address-lookup-table-program",
+    "deps": [
+        "bincode",
+        "bytemuck",
+        "log",
+        "num-derive",
+        "num-traits",
+        "rustc_version",
+        "safecoin-frozen-abi",
+        "safecoin-frozen-abi-macro",
+        "safecoin-program-runtime",
+        "safecoin-sdk",
+        "serde",
+        "thiserror"
+    ]
+}

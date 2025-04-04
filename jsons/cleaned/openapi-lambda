@@ -1,0 +1,26 @@
+{
+    "name": "openapi-lambda",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "aws_lambda_events",
+        "backtrace",
+        "base64",
+        "chrono",
+        "futures",
+        "headers",
+        "http",
+        "indexmap",
+        "itertools",
+        "lambda_runtime",
+        "log",
+        "mime",
+        "openapi-lambda-codegen",
+        "serde",
+        "serde_json",
+        "serde_path_to_error",
+        "thiserror",
+        "tokio",
+        "urlencoding"
+    ]
+}

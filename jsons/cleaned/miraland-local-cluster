@@ -1,0 +1,28 @@
+{
+    "name": "miraland-local-cluster",
+    "deps": [
+        "assert_matches",
+        "crossbeam-channel",
+        "fs_extra",
+        "gag",
+        "itertools",
+        "log",
+        "miraland-client",
+        "miraland-config-program",
+        "miraland-core",
+        "miraland-download-utils",
+        "miraland-entry",
+        "miraland-gossip",
+        "miraland-ledger",
+        "miraland-logger",
+        "miraland-runtime",
+        "miraland-sdk",
+        "miraland-stake-program",
+        "miraland-streamer",
+        "miraland-vote-program",
+        "rand",
+        "rayon",
+        "serial_test",
+        "tempfile"
+    ]
+}

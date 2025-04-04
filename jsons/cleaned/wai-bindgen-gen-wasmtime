@@ -1,0 +1,12 @@
+{
+    "name": "wai-bindgen-gen-wasmtime",
+    "deps": [
+        "anyhow",
+        "heck",
+        "structopt",
+        "wai-bindgen-gen-core",
+        "wai-bindgen-gen-rust",
+        "wasmtime",
+        "wasmtime-wasi"
+    ]
+}

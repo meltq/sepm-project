@@ -1,0 +1,32 @@
+{
+    "name": "dapol",
+    "deps": [
+        "bincode",
+        "blake3",
+        "bulletproofs",
+        "chrono",
+        "clap",
+        "clap-verbosity-flag",
+        "criterion",
+        "csv",
+        "curve25519-dalek-ng",
+        "dashmap",
+        "derive_builder",
+        "digest",
+        "displaydoc",
+        "env_logger",
+        "hkdf",
+        "log",
+        "logging_timer",
+        "merlin",
+        "patharg",
+        "primitive-types",
+        "rand",
+        "rayon",
+        "serde",
+        "serde_bytes",
+        "sha2",
+        "thiserror",
+        "toml"
+    ]
+}

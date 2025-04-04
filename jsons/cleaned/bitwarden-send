@@ -1,0 +1,17 @@
+{
+    "name": "bitwarden-send",
+    "deps": [
+        "base64",
+        "bitwarden-api-api",
+        "bitwarden-core",
+        "bitwarden-crypto",
+        "chrono",
+        "schemars",
+        "serde",
+        "serde_repr",
+        "thiserror",
+        "uniffi",
+        "uuid",
+        "zeroize"
+    ]
+}

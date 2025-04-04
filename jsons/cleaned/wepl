@@ -1,0 +1,22 @@
+{
+    "name": "wepl",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "bytes",
+        "clap",
+        "colored",
+        "env_logger",
+        "home",
+        "log",
+        "nom",
+        "nom_locate",
+        "rustyline",
+        "tokio",
+        "wasm-compose",
+        "wasmtime",
+        "wasmtime-wasi",
+        "wit-component",
+        "wit-parser"
+    ]
+}

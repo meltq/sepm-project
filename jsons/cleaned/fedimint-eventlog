@@ -1,0 +1,15 @@
+{
+    "name": "fedimint-eventlog",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "fedimint-core",
+        "fedimint-logging",
+        "futures",
+        "serde",
+        "serde_json",
+        "test-log",
+        "tokio",
+        "tracing"
+    ]
+}

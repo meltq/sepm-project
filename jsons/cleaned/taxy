@@ -1,0 +1,29 @@
+{
+    "name": "taxy",
+    "deps": [
+        "anyhow",
+        "built",
+        "clap",
+        "directories",
+        "futures",
+        "hyper",
+        "include_dir",
+        "indexmap",
+        "mime_guess",
+        "multiaddr",
+        "percent-encoding",
+        "pin-project-lite",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tokio-stream",
+        "toml",
+        "toml_edit",
+        "tracing",
+        "tracing-appender",
+        "tracing-subscriber",
+        "warp"
+    ]
+}

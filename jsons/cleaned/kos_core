@@ -1,0 +1,19 @@
+{
+    "name": "kos_core",
+    "deps": [
+        "async-trait",
+        "eyre",
+        "hyper",
+        "lazy_static",
+        "prost",
+        "prost-types",
+        "rumqttc",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tonic",
+        "tonic-build",
+        "tracing",
+        "yaml-rust2"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "zstd-seekable-s3",
+    "deps": [
+        "bytes",
+        "env_logger",
+        "futures",
+        "parking_lot",
+        "pin-project-lite",
+        "rusoto_core",
+        "rusoto_credential",
+        "rusoto_s3",
+        "rusoto_sts",
+        "structopt",
+        "tempfile",
+        "tokio",
+        "tokio",
+        "zstd-seekable"
+    ]
+}

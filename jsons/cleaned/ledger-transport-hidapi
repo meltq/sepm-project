@@ -1,0 +1,18 @@
+{
+    "name": "ledger-transport-hidapi",
+    "deps": [
+        "byteorder",
+        "cfg-if",
+        "env_logger",
+        "futures",
+        "hex",
+        "hidapi",
+        "ledger-transport",
+        "ledger-zondax-generic",
+        "libc",
+        "log",
+        "once_cell",
+        "serial_test",
+        "thiserror"
+    ]
+}

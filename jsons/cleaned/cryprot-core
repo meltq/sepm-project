@@ -1,0 +1,23 @@
+{
+    "name": "cryprot-core",
+    "deps": [
+        "aes",
+        "blake3",
+        "bytemuck",
+        "cpufeatures",
+        "criterion",
+        "hybrid-array",
+        "libc",
+        "num-traits",
+        "proptest",
+        "rand",
+        "rand_core",
+        "rayon",
+        "serde",
+        "subtle",
+        "tokio",
+        "tracing",
+        "tracing-subscriber",
+        "wide"
+    ]
+}

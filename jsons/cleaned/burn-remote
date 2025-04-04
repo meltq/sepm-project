@@ -1,0 +1,20 @@
+{
+    "name": "burn-remote",
+    "deps": [
+        "async-channel",
+        "axum",
+        "burn-common",
+        "burn-router",
+        "burn-tensor",
+        "derive-new",
+        "futures-util",
+        "log",
+        "rmp-serde",
+        "serde",
+        "serde_bytes",
+        "tokio",
+        "tokio-tungstenite",
+        "tracing-core",
+        "tracing-subscriber"
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "name": "getemail",
+    "deps": [
+        "anyhow",
+        "async-imap",
+        "async-pop",
+        "base64",
+        "chrono",
+        "fast-socks5",
+        "futures",
+        "futures-util",
+        "mail-parser",
+        "proxied",
+        "regex",
+        "rustls",
+        "self_cell",
+        "serde",
+        "serde_json",
+        "serde_with",
+        "tokio",
+        "tokio-rustls",
+        "tracing",
+        "webpki-roots"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "name": "openai-req",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "bytes",
+        "derive_more",
+        "futures-util",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "strum",
+        "strum_macros",
+        "tokio",
+        "tokio-stream",
+        "tokio-util",
+        "with-id",
+        "file_diff",
+        "pretty_assertions",
+        "toml"
+    ]
+}

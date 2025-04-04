@@ -1,0 +1,15 @@
+{
+    "name": "argentum_user_rest",
+    "deps": [
+        "argentum_rest_infrastructure",
+        "argentum_standard_business",
+        "argentum_user_business",
+        "async-trait",
+        "erased-serde",
+        "hyper",
+        "regex",
+        "serde",
+        "serde_valid",
+        "uuid"
+    ]
+}

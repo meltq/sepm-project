@@ -1,0 +1,30 @@
+{
+    "name": "senhasegura-rs",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "chrono",
+        "http",
+        "napi",
+        "napi-derive",
+        "oauth2",
+        "reqwest",
+        "reqwest-middleware",
+        "reqwest-retry",
+        "serde",
+        "serde-aux",
+        "serde_json",
+        "serde_repr",
+        "strum",
+        "test-context",
+        "thiserror",
+        "tokio",
+        "tokio",
+        "tokio-test",
+        "tracing",
+        "tracing-subscriber",
+        "uniffi",
+        "url",
+        "wiremock"
+    ]
+}

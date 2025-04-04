@@ -1,0 +1,25 @@
+{
+    "name": "holochain_metrics",
+    "deps": [
+        "csv",
+        "env_logger",
+        "holochain_locksmith",
+        "holochain_logging",
+        "lazy_static",
+        "log",
+        "num-derive",
+        "num-traits",
+        "rand",
+        "regex",
+        "rusoto_cloudwatch",
+        "rusoto_core",
+        "rusoto_logs",
+        "serde",
+        "serde_derive",
+        "shrinkwraprs",
+        "streaming-stats",
+        "strip-ansi-escapes",
+        "structopt",
+        "toml"
+    ]
+}

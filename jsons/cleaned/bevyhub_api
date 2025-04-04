@@ -1,0 +1,32 @@
+{
+    "name": "bevyhub_api",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "aws-config",
+        "aws-sdk-s3",
+        "axum",
+        "cargo-manifest",
+        "extend",
+        "flate2",
+        "futures",
+        "futures-util",
+        "lambda_http",
+        "mongodb",
+        "once_cell",
+        "openssl",
+        "rand",
+        "reqwest",
+        "semver",
+        "serde",
+        "serde_json",
+        "sweet",
+        "tar",
+        "tokio",
+        "toml",
+        "tower",
+        "tower-http",
+        "tracing",
+        "ts-rs"
+    ]
+}

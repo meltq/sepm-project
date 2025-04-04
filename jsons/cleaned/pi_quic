@@ -1,0 +1,33 @@
+{
+    "name": "pi_quic",
+    "deps": [
+        "bytes",
+        "crossbeam-channel",
+        "crossbeam-utils",
+        "dashmap",
+        "der-parser",
+        "ed25519-dalek",
+        "env_logger",
+        "flume",
+        "futures",
+        "log",
+        "parking_lot",
+        "pem",
+        "pi_async",
+        "pi_cancel_timer",
+        "pi_hash",
+        "quinn",
+        "quinn-proto",
+        "rcgen",
+        "rustls",
+        "rustls-pemfile",
+        "slotmap",
+        "tokio",
+        "tracing",
+        "tracing",
+        "tracing-chrome",
+        "tracing-subscriber",
+        "udp",
+        "x509-parser"
+    ]
+}

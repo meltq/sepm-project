@@ -1,0 +1,27 @@
+{
+    "name": "tulpje-gateway",
+    "deps": [
+        "amqprs",
+        "bb8",
+        "bb8-redis",
+        "dotenvy",
+        "futures-util",
+        "metrics",
+        "metrics-exporter-prometheus",
+        "metrics-process",
+        "reqwest",
+        "serde",
+        "serde-envfile",
+        "serde_json",
+        "tokio",
+        "tracing",
+        "tracing-subscriber",
+        "tulpje-shared",
+        "twilight-gateway",
+        "twilight-http",
+        "twilight-model",
+        "twilight-util",
+        "uuid",
+        "vergen-gitcl"
+    ]
+}

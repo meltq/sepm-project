@@ -1,0 +1,12 @@
+{
+    "name": "vault_iam_auth",
+    "deps": [
+        "base64",
+        "reqwest",
+        "rusoto_core",
+        "rusoto_signature",
+        "serde_json",
+        "serde_urlencoded",
+        "tokio"
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "name": "grandpa-verifier",
+    "deps": [
+        "anyhow",
+        "codec",
+        "derive_more",
+        "env_logger",
+        "finality-grandpa",
+        "frame-support",
+        "futures",
+        "grandpa-verifier-primitives",
+        "hex",
+        "hex-literal",
+        "ismp",
+        "log",
+        "polkadot-core-primitives",
+        "sc-consensus-grandpa-rpc",
+        "serde",
+        "sp-consensus-grandpa",
+        "sp-core",
+        "sp-io",
+        "sp-runtime",
+        "sp-std",
+        "sp-storage",
+        "sp-trie",
+        "substrate-state-machine",
+        "subxt",
+        "tokio"
+    ]
+}

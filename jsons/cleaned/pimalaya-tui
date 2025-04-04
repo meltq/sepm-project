@@ -1,0 +1,32 @@
+{
+    "name": "pimalaya-tui",
+    "deps": [
+        "async-trait",
+        "clap",
+        "color-eyre",
+        "comfy-table",
+        "crossterm",
+        "dirs",
+        "email-lib",
+        "email_address",
+        "inquire",
+        "md5",
+        "mml-lib",
+        "oauth-lib",
+        "petgraph",
+        "process-lib",
+        "secret-lib",
+        "serde",
+        "serde-toml-merge",
+        "serde_json",
+        "shellexpand-utils",
+        "sled",
+        "thiserror",
+        "tokio",
+        "toml",
+        "toml_edit",
+        "tracing",
+        "tracing-error",
+        "tracing-subscriber"
+    ]
+}

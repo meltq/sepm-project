@@ -1,0 +1,27 @@
+{
+    "name": "invoice2storage",
+    "deps": [
+        "anyhow",
+        "backoff",
+        "base64",
+        "clap",
+        "clap-serde-derive",
+        "imap",
+        "lazy_static",
+        "log",
+        "maildir",
+        "mailparse",
+        "object_store",
+        "resolve-path",
+        "rustls",
+        "rustls-native-certs",
+        "serde",
+        "stderrlog",
+        "tera",
+        "tokio",
+        "toml",
+        "url",
+        "reqwest",
+        "walkdir"
+    ]
+}

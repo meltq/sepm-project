@@ -1,0 +1,27 @@
+{
+    "name": "mcai_worker_sdk",
+    "deps": [
+        "amq-protocol",
+        "amq-protocol-types",
+        "amq-protocol-uri",
+        "assert_matches",
+        "built",
+        "chrono",
+        "env_logger",
+        "failure",
+        "futures-core",
+        "futures-executor",
+        "futures-util",
+        "lapin",
+        "log",
+        "mockito",
+        "reqwest",
+        "semver",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "sysinfo",
+        "tokio",
+        "uuid"
+    ]
+}

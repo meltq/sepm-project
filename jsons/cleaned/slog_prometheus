@@ -1,0 +1,12 @@
+{
+    "name": "slog_prometheus",
+    "deps": [
+        "prometheus",
+        "prometheus_exporter",
+        "reqwest",
+        "slog",
+        "slog-async",
+        "slog-term",
+        "thiserror"
+    ]
+}

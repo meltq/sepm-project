@@ -1,0 +1,33 @@
+{
+    "name": "zng-task",
+    "deps": [
+        "async-fs",
+        "async-recursion",
+        "async-trait",
+        "base64",
+        "blocking",
+        "flume",
+        "fs4",
+        "futures-lite",
+        "futures-timer",
+        "http-cache-semantics",
+        "http-serde",
+        "isahc",
+        "once_cell",
+        "parking_lot",
+        "pretty-type-name",
+        "rayon",
+        "remove_dir_all",
+        "serde",
+        "serde_json",
+        "sha2",
+        "tracing",
+        "zng-app-context",
+        "zng-clone-move",
+        "zng-task-proc-macros",
+        "zng-time",
+        "zng-txt",
+        "zng-unit",
+        "zng-var"
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "name": "rspack",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "crossbeam",
+        "dashmap",
+        "ena",
+        "env_logger",
+        "futures",
+        "linked-hash-map",
+        "log",
+        "num_cpus",
+        "once_cell",
+        "petgraph",
+        "rayon",
+        "regex",
+        "smol_str",
+        "sugar_path",
+        "swc",
+        "swc_atoms",
+        "swc_ecma_ast",
+        "swc_ecma_codegen",
+        "swc_ecma_parser",
+        "swc_ecma_visit",
+        "tokio",
+        "tracing",
+        "tracing-chrome",
+        "tracing-futures",
+        "tracing-subscriber"
+    ]
+}

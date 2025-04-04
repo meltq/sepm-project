@@ -1,0 +1,19 @@
+{
+    "name": "cala-tracing",
+    "deps": [
+        "anyhow",
+        "axum-extra",
+        "http",
+        "opentelemetry",
+        "opentelemetry-http",
+        "opentelemetry-otlp",
+        "opentelemetry-semantic-conventions",
+        "opentelemetry_sdk",
+        "serde",
+        "serde_json",
+        "tonic",
+        "tracing",
+        "tracing-opentelemetry",
+        "tracing-subscriber"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "name": "dummy-agones",
+    "deps": [
+        "axum",
+        "axum-yaml",
+        "claims",
+        "fake",
+        "futures",
+        "futures-core",
+        "hybrid-service",
+        "hyper",
+        "parking_lot",
+        "prost",
+        "reqwest",
+        "serde",
+        "serde_yaml",
+        "tokio",
+        "tokio-stream",
+        "tonic",
+        "tonic-build",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

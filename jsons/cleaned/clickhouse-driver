@@ -1,0 +1,26 @@
+{
+    "name": "clickhouse-driver",
+    "deps": [
+        "byteorder",
+        "bytes",
+        "chrono",
+        "chrono-tz",
+        "clickhouse-driver-cth",
+        "clickhouse-driver-cthrs",
+        "clickhouse-driver-lz4",
+        "crossbeam",
+        "futures",
+        "hostname",
+        "lazy_static",
+        "log",
+        "parking_lot",
+        "pin-project-lite",
+        "rand",
+        "slab",
+        "thiserror",
+        "tokio",
+        "tokio-native-tls",
+        "url",
+        "uuid"
+    ]
+}

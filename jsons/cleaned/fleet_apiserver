@@ -1,0 +1,24 @@
+{
+    "name": "fleet_apiserver",
+    "deps": [
+        "actix-http",
+        "actix-service",
+        "actix-web",
+        "async-trait",
+        "chrono",
+        "diesel",
+        "diesel_migrations",
+        "dotenv",
+        "env_logger",
+        "feventbus",
+        "jsonschema",
+        "k8s-openapi",
+        "lazy_static",
+        "once_cell",
+        "r2d2",
+        "schemars",
+        "serde",
+        "serde_json",
+        "tokio"
+    ]
+}

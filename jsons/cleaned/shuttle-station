@@ -1,0 +1,17 @@
+{
+    "name": "shuttle-station",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "bytes",
+        "futures",
+        "log",
+        "rustls",
+        "rustls-pemfile",
+        "socks5-proto",
+        "tokio",
+        "tokio-rustls",
+        "tokio-tungstenite",
+        "webpki-roots"
+    ]
+}

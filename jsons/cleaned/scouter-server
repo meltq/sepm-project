@@ -1,0 +1,25 @@
+{
+    "name": "scouter-server",
+    "deps": [
+        "anyhow",
+        "approx",
+        "axum",
+        "chrono",
+        "cron",
+        "futures",
+        "http-body-util",
+        "include_dir",
+        "rdkafka",
+        "scouter",
+        "serde",
+        "serde_json",
+        "sqlx",
+        "sqlx-cli",
+        "time",
+        "tokio",
+        "tower",
+        "tower-http",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

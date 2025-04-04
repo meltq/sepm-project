@@ -1,0 +1,12 @@
+{
+    "name": "indradb-client",
+    "deps": [
+        "clap",
+        "indradb-lib",
+        "indradb-proto",
+        "serde_json",
+        "tokio",
+        "tonic",
+        "uuid"
+    ]
+}

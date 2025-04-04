@@ -1,0 +1,11 @@
+{
+    "name": "replicante_util_upkeep",
+    "deps": [
+        "crossbeam-channel",
+        "humthreads",
+        "nix",
+        "replicante_util_failure",
+        "signal-hook",
+        "slog"
+    ]
+}

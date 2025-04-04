@@ -1,0 +1,15 @@
+{
+    "name": "ntdb_unwrap-cli",
+    "deps": [
+        "axum",
+        "clap",
+        "ntdb_unwrap",
+        "rusqlite",
+        "serde",
+        "snafu",
+        "tokio",
+        "utoipa",
+        "utoipa-axum",
+        "utoipa-scalar"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "profiler-symbol-server",
+    "deps": [
+        "core-foundation",
+        "core-foundation-sys",
+        "failure",
+        "futures",
+        "hyper",
+        "libc",
+        "memmap",
+        "object",
+        "percent-encoding",
+        "profiler-get-symbols",
+        "serde_json",
+        "structopt",
+        "tokio",
+        "uuid"
+    ]
+}

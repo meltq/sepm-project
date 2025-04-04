@@ -1,0 +1,23 @@
+{
+    "name": "carrier-cli",
+    "deps": [
+        "carrier",
+        "clap",
+        "env_logger",
+        "failure",
+        "futures",
+        "hpack",
+        "lazy_static",
+        "log",
+        "prost",
+        "rand",
+        "serde",
+        "serde_derive",
+        "tokio",
+        "tokio-codec",
+        "tokio-file-unix",
+        "toml",
+        "trust-dns-resolver",
+        "url"
+    ]
+}

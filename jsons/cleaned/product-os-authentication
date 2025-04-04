@@ -1,0 +1,24 @@
+{
+    "name": "product-os-authentication",
+    "deps": [
+        "cfg-if",
+        "chrono",
+        "futures",
+        "openidconnect",
+        "parking_lot",
+        "product-os-capabilities",
+        "product-os-command-control",
+        "product-os-configuration",
+        "product-os-request",
+        "product-os-router",
+        "product-os-security",
+        "product-os-store",
+        "product-os-store-macros",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tracing",
+        "url",
+        "uuid"
+    ]
+}

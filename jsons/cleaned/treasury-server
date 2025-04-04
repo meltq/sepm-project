@@ -1,0 +1,22 @@
+{
+    "name": "treasury-server",
+    "deps": [
+        "bincode",
+        "color-eyre",
+        "envy",
+        "eyre",
+        "futures-util",
+        "parking_lot",
+        "pin-project",
+        "serde",
+        "serde_bytes",
+        "tokio",
+        "tracing",
+        "tracing-error",
+        "tracing-subscriber",
+        "treasury-api",
+        "treasury-id",
+        "treasury-store",
+        "url"
+    ]
+}

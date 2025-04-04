@@ -1,0 +1,29 @@
+{
+    "name": "rwhisper",
+    "deps": [
+        "accelerate-src",
+        "anyhow",
+        "async-trait",
+        "byteorder",
+        "candle-core",
+        "candle-nn",
+        "candle-transformers",
+        "cpal",
+        "cudarc",
+        "futures-util",
+        "half",
+        "hf-hub",
+        "hound",
+        "intel-mkl-src",
+        "itertools",
+        "kalosm-streams",
+        "rand",
+        "ringbuf",
+        "rodio",
+        "serde_json",
+        "tokenizers",
+        "tokio",
+        "tracing",
+        "webrtc-vad"
+    ]
+}

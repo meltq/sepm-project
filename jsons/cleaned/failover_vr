@@ -1,0 +1,17 @@
+{
+    "name": "failover_vr",
+    "deps": [
+        "byteorder",
+        "clap",
+        "ipnet",
+        "libc",
+        "log",
+        "pnet",
+        "rand",
+        "serde",
+        "serde_json",
+        "simple_logger",
+        "tokio",
+        "vrrp_packet"
+    ]
+}

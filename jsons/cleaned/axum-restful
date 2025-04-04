@@ -1,0 +1,28 @@
+{
+    "name": "axum-restful",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "axum",
+        "axum-core",
+        "axum-server",
+        "bytes",
+        "http",
+        "hyper",
+        "log",
+        "metrics",
+        "metrics-exporter-prometheus",
+        "pem",
+        "rcgen",
+        "reqwest",
+        "sea-orm",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tokio-rustls",
+        "tower",
+        "tower-service",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

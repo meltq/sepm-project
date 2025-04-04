@@ -1,0 +1,28 @@
+{
+    "name": "tdb_server_core",
+    "deps": [
+        "alloc_counter",
+        "arrayvec",
+        "async-std",
+        "byteorder",
+        "chrono",
+        "circular-queue",
+        "clap",
+        "config",
+        "ctrlc",
+        "fern",
+        "futures",
+        "lazy_static",
+        "log",
+        "openssl-probe",
+        "reqwest",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "surf",
+        "tdb_core",
+        "tempdir",
+        "time",
+        "uuid"
+    ]
+}

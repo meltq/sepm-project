@@ -1,0 +1,12 @@
+{
+    "name": "metrics-sqlite",
+    "deps": [
+        "diesel",
+        "diesel_migrations",
+        "libsqlite3-sys",
+        "log",
+        "metrics",
+        "pretty_env_logger",
+        "thiserror"
+    ]
+}

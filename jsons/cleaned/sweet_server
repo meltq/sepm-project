@@ -1,0 +1,23 @@
+{
+    "name": "sweet_server",
+    "deps": [
+        "anyhow",
+        "axum",
+        "axum-extra",
+        "axum-server",
+        "clap",
+        "colorize",
+        "extend",
+        "futures",
+        "glob",
+        "http",
+        "sweet_fs",
+        "sweet_test",
+        "sweet_utils",
+        "thiserror",
+        "tokio",
+        "tower",
+        "tower-http",
+        "tower-livereload"
+    ]
+}

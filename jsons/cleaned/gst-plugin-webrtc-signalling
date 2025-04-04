@@ -1,0 +1,21 @@
+{
+    "name": "gst-plugin-webrtc-signalling",
+    "deps": [
+        "anyhow",
+        "async-native-tls",
+        "async-std",
+        "async-tungstenite",
+        "clap",
+        "futures",
+        "gst_plugin_webrtc_protocol",
+        "pin-project-lite",
+        "serde",
+        "serde_json",
+        "test-log",
+        "thiserror",
+        "tracing",
+        "tracing-log",
+        "tracing-subscriber",
+        "uuid"
+    ]
+}

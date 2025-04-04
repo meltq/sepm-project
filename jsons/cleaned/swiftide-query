@@ -1,0 +1,23 @@
+{
+    "name": "swiftide-query",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "derive_builder",
+        "futures-util",
+        "indoc",
+        "insta",
+        "mockall",
+        "num_cpus",
+        "pin-project-lite",
+        "swiftide-core",
+        "temp-dir",
+        "test-case",
+        "test-log",
+        "testcontainers",
+        "tokio",
+        "tokio-stream",
+        "tracing",
+        "wiremock"
+    ]
+}

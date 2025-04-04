@@ -1,0 +1,12 @@
+{
+    "name": "quickwit-aws",
+    "deps": [
+        "futures",
+        "rand",
+        "rusoto_core",
+        "rusoto_kinesis",
+        "rusoto_s3",
+        "tokio",
+        "tracing"
+    ]
+}

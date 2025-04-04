@@ -1,0 +1,20 @@
+{
+    "name": "aptos-create-resource-account",
+    "deps": [
+        "anyhow",
+        "aptos-cli-common",
+        "aptos-cli-config",
+        "aptos-crypto",
+        "aptos-keygen",
+        "aptos-rest-client",
+        "aptos-types",
+        "async-trait",
+        "bcs",
+        "clap",
+        "clitool",
+        "mv-core-types",
+        "serde",
+        "static-address",
+        "tokio"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "zksync_prover_interface",
+    "deps": [
+        "bincode",
+        "chrono",
+        "circuit_sequencer_api_1_5_0",
+        "serde",
+        "serde_json",
+        "serde_with",
+        "strum",
+        "tokio",
+        "zksync_multivm",
+        "zksync_object_store",
+        "zksync_state",
+        "zksync_types"
+    ]
+}

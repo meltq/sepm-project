@@ -1,0 +1,15 @@
+{
+    "name": "wasmcloud-telnet",
+    "deps": [
+        "ansi-escapes",
+        "crossbeam",
+        "crossbeam-channel",
+        "env_logger",
+        "log",
+        "serde",
+        "telnet",
+        "uuid",
+        "wasmcloud-actor-core",
+        "wasmcloud-provider-core"
+    ]
+}

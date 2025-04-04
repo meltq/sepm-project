@@ -1,0 +1,24 @@
+{
+    "name": "tea-actorx",
+    "deps": [
+        "base64",
+        "bincode",
+        "clap",
+        "command-fds",
+        "futures",
+        "leb128",
+        "openssl",
+        "primitive-types",
+        "serde",
+        "serde_yaml",
+        "strum",
+        "tea-codec",
+        "thiserror",
+        "tokio",
+        "tokio-util",
+        "tracing",
+        "wasmer",
+        "wasmer-middlewares",
+        "zstd"
+    ]
+}

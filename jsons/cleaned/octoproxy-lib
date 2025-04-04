@@ -1,0 +1,24 @@
+{
+    "name": "octoproxy-lib",
+    "deps": [
+        "anyhow",
+        "bytes",
+        "futures",
+        "futures-util",
+        "http",
+        "httparse",
+        "hyper",
+        "mimalloc",
+        "quinn",
+        "rustls",
+        "rustls-pemfile",
+        "serde",
+        "tokio",
+        "tokio-stream",
+        "tokio-util",
+        "toml",
+        "tracing",
+        "tracing-subscriber",
+        "webpki-roots"
+    ]
+}

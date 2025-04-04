@@ -1,0 +1,24 @@
+{
+    "name": "trust-dns-client",
+    "deps": [
+        "chrono",
+        "data-encoding",
+        "data-encoding-macro",
+        "failure",
+        "futures-preview",
+        "lazy_static",
+        "log",
+        "openssl",
+        "openssl",
+        "radix_trie",
+        "rand",
+        "ring",
+        "rustls",
+        "serde",
+        "tokio",
+        "tokio-net",
+        "trust-dns-https",
+        "trust-dns-proto",
+        "webpki"
+    ]
+}

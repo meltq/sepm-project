@@ -1,0 +1,31 @@
+{
+    "name": "paybox",
+    "deps": [
+        "aes",
+        "aes-gcm-siv",
+        "ahash",
+        "base64",
+        "cfg-if",
+        "chrono",
+        "ctr",
+        "dashmap",
+        "derive-new",
+        "either",
+        "hex",
+        "once_cell",
+        "postgres-types",
+        "rand",
+        "reqwest",
+        "rsa",
+        "rust_decimal",
+        "serde",
+        "serde_json",
+        "serde_repr",
+        "time",
+        "tokio",
+        "tracing",
+        "urlencoding",
+        "uuid",
+        "x509-parser"
+    ]
+}

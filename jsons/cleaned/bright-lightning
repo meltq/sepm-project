@@ -1,0 +1,22 @@
+{
+    "name": "bright-lightning",
+    "deps": [
+        "anyhow",
+        "base64",
+        "futures-util",
+        "httparse",
+        "lightning-invoice",
+        "native-tls",
+        "reqwest",
+        "secp256k1",
+        "serde",
+        "serde_json",
+        "sha2",
+        "tokio",
+        "tokio-tungstenite",
+        "tracing",
+        "tracing-subscriber",
+        "tracing-test",
+        "url"
+    ]
+}

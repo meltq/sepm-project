@@ -1,0 +1,14 @@
+{
+    "name": "cloudflare-kv-proxy",
+    "deps": [
+        "coarsetime",
+        "lru",
+        "parking_lot",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "serde_with",
+        "thiserror",
+        "tokio"
+    ]
+}

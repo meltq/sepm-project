@@ -1,0 +1,13 @@
+{
+    "name": "dns-over-tls",
+    "deps": [
+        "anyhow",
+        "env_logger",
+        "futures",
+        "log",
+        "structopt",
+        "tokio",
+        "tokio-rustls",
+        "tokio-util"
+    ]
+}

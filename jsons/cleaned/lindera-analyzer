@@ -1,0 +1,25 @@
+{
+    "name": "lindera-analyzer",
+    "deps": [
+        "anyhow",
+        "bincode",
+        "byteorder",
+        "encoding",
+        "kanaria",
+        "lindera-cc-cedict-builder",
+        "lindera-core",
+        "lindera-dictionary",
+        "lindera-filter",
+        "lindera-ipadic-builder",
+        "lindera-ko-dic-builder",
+        "lindera-tokenizer",
+        "lindera-unidic-builder",
+        "regex",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "unicode-blocks",
+        "unicode-normalization",
+        "yada"
+    ]
+}

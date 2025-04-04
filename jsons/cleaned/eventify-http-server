@@ -1,0 +1,25 @@
+{
+    "name": "eventify-http-server",
+    "deps": [
+        "actix-web",
+        "eventify-primitives",
+        "futures",
+        "log",
+        "mockito",
+        "num_cpus",
+        "reqwest",
+        "secrecy",
+        "serde",
+        "serde-aux",
+        "serde_derive",
+        "serde_json",
+        "sqlx",
+        "thiserror",
+        "tokio",
+        "utoipa",
+        "utoipa-rapidoc",
+        "utoipa-redoc",
+        "utoipa-swagger-ui",
+        "uuid"
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "name": "aardvark-dns",
+    "deps": [
+        "anyhow",
+        "async-broadcast",
+        "chrono",
+        "clap",
+        "futures-util",
+        "log",
+        "resolv-conf",
+        "signal-hook",
+        "syslog",
+        "tokio",
+        "trust-dns-client",
+        "trust-dns-proto",
+        "trust-dns-server"
+    ]
+}

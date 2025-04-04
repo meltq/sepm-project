@@ -1,0 +1,24 @@
+{
+    "name": "pgp-sig2dot",
+    "deps": [
+        "anyhow",
+        "clap",
+        "clap-verbosity-flag",
+        "clap_complete",
+        "clap_mangen",
+        "clio",
+        "env_logger",
+        "futures",
+        "log",
+        "num_enum",
+        "petgraph",
+        "sequoia-cert-store",
+        "sequoia-net",
+        "sequoia-openpgp",
+        "sequoia-wot",
+        "serde",
+        "serde_json",
+        "serialize_display_adapter_macro_derive",
+        "tokio"
+    ]
+}

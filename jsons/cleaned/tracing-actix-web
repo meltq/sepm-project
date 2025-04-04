@@ -1,0 +1,11 @@
+{
+    "name": "tracing-actix-web",
+    "deps": [
+        "actix-web",
+        "futures",
+        "tracing",
+        "tracing-bunyan-formatter",
+        "tracing-futures",
+        "tracing-subscriber"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "name": "assemblylift-core-iomod",
+    "deps": [
+        "assemblylift_core_io_common",
+        "capnp",
+        "capnp-rpc",
+        "capnpc",
+        "crossbeam-utils",
+        "futures",
+        "lazy_static",
+        "libloading",
+        "once_cell",
+        "paste",
+        "rustc_version",
+        "serde",
+        "tokio",
+        "tokio-util",
+        "wasmer_runtime",
+        "wasmer_runtime_core"
+    ]
+}

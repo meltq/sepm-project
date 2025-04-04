@@ -1,0 +1,26 @@
+{
+    "name": "lotus_rs",
+    "deps": [
+        "anyhow",
+        "base64",
+        "bytes",
+        "derive_builder",
+        "dotenv",
+        "encoding_rs",
+        "env_logger",
+        "futures",
+        "fvm_ipld_encoding",
+        "fvm_shared",
+        "log",
+        "mime",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tracing",
+        "uuid",
+        "cargo-husky",
+        "test-log",
+        "tracing-subscriber"
+    ]
+}

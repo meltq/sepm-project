@@ -1,0 +1,11 @@
+{
+    "name": "batch-loader",
+    "deps": [
+        "batch-recv",
+        "crossbeam-channel",
+        "error-chain",
+        "futures",
+        "itertools",
+        "worker-sentinel"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "name": "netsim-embed-machine",
+    "deps": [
+        "futures",
+        "ioctl-sys",
+        "libc",
+        "log",
+        "mio",
+        "netsim-embed-core",
+        "smol",
+        "tokio"
+    ]
+}

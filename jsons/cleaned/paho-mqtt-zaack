@@ -1,0 +1,23 @@
+{
+    "name": "paho-mqtt-zaack",
+    "deps": [
+        "async-channel",
+        "async-std",
+        "clap",
+        "crossbeam-channel",
+        "ctrlc",
+        "env_logger",
+        "futures",
+        "futures-timer",
+        "futures-util",
+        "lazy_static",
+        "libc",
+        "log",
+        "paho-mqtt-sys",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "thiserror",
+        "toml"
+    ]
+}

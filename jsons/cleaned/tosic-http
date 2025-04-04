@@ -1,0 +1,25 @@
+{
+    "name": "tosic-http",
+    "deps": [
+        "bytes",
+        "clap",
+        "console-subscriber",
+        "flate2",
+        "futures",
+        "http",
+        "httparse",
+        "itertools",
+        "mime",
+        "pin-project-lite",
+        "serde",
+        "serde_json",
+        "serde_urlencoded",
+        "thiserror",
+        "tokio",
+        "tokio-util",
+        "tosic-http-macro",
+        "tower",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "pallet-abci",
+    "deps": [
+        "chrono",
+        "lazy_static",
+        "mockall",
+        "owning_ref",
+        "prost",
+        "prost-types",
+        "serde",
+        "serde_json",
+        "testcontainers",
+        "tokio",
+        "tonic",
+        "tonic-build"
+    ]
+}

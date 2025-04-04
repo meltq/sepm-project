@@ -1,0 +1,14 @@
+{
+    "name": "xwt-test-server",
+    "deps": [
+        "color-eyre",
+        "envfury",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "tracing-subscriber",
+        "wtransport",
+        "xwt-cert-utils",
+        "xwt-test-assets"
+    ]
+}

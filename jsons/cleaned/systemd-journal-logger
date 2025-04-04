@@ -1,0 +1,10 @@
+{
+    "name": "systemd-journal-logger",
+    "deps": [
+        "libsystemd",
+        "log",
+        "pretty_assertions",
+        "serde",
+        "serde_json"
+    ]
+}

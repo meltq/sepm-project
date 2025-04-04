@@ -1,0 +1,17 @@
+{
+    "name": "wasmer-bus",
+    "deps": [
+        "async-trait",
+        "base64",
+        "cooked-waker",
+        "derivative",
+        "once_cell",
+        "serde",
+        "sha2",
+        "tokio",
+        "tracing",
+        "wasi",
+        "wasmer-bus-macros",
+        "wasmer-bus-types"
+    ]
+}

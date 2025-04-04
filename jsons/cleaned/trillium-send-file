@@ -1,0 +1,14 @@
+{
+    "name": "trillium-send-file",
+    "deps": [
+        "async-fs",
+        "async_std_crate",
+        "cfg-if",
+        "futures-lite",
+        "log",
+        "mime_guess",
+        "trillium",
+        "trillium-smol",
+        "trillium-testing"
+    ]
+}

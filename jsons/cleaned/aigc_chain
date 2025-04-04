@@ -1,0 +1,24 @@
+{
+    "name": "aigc_chain",
+    "deps": [
+        "aigc_core",
+        "aigc_keychain",
+        "aigc_store",
+        "aigc_util",
+        "bit-vec",
+        "bitflags",
+        "byteorder",
+        "chrono",
+        "croaring",
+        "enum_primitive",
+        "env_logger",
+        "failure",
+        "failure_derive",
+        "lazy_static",
+        "log",
+        "lru-cache",
+        "rand",
+        "serde",
+        "serde_derive"
+    ]
+}

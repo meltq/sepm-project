@@ -1,0 +1,28 @@
+{
+    "name": "zkevm_test_harness",
+    "deps": [
+        "bincode",
+        "circuit_definitions",
+        "circuit_sequencer_api",
+        "codegen",
+        "crossbeam",
+        "curl",
+        "derivative",
+        "env_logger",
+        "hex",
+        "kzg",
+        "lazy_static",
+        "rand",
+        "rand",
+        "rayon",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "smallvec",
+        "structopt",
+        "test-log",
+        "tracing",
+        "walkdir",
+        "zkevm-assembly"
+    ]
+}

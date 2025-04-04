@@ -1,0 +1,31 @@
+{
+    "name": "wasmer-cli",
+    "deps": [
+        "anyhow",
+        "atty",
+        "bytesize",
+        "cfg-if",
+        "colored",
+        "distance",
+        "fern",
+        "log",
+        "structopt",
+        "tempfile",
+        "wasmer",
+        "wasmer-cache",
+        "wasmer-compiler",
+        "wasmer-compiler-cranelift",
+        "wasmer-compiler-llvm",
+        "wasmer-compiler-singlepass",
+        "wasmer-emscripten",
+        "wasmer-engine",
+        "wasmer-engine-jit",
+        "wasmer-engine-native",
+        "wasmer-engine-object-file",
+        "wasmer-types",
+        "wasmer-vm",
+        "wasmer-wasi",
+        "wasmer-wasi-experimental-io-devices",
+        "wasmer-wast"
+    ]
+}

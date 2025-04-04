@@ -1,0 +1,18 @@
+{
+    "name": "diffuse_rs_backend",
+    "deps": [
+        "bindgen_cuda",
+        "byteorder",
+        "diffuse_rs_common",
+        "float8",
+        "half",
+        "lazy_static",
+        "metal",
+        "once_cell",
+        "paste",
+        "rayon",
+        "serde",
+        "serde_json",
+        "thiserror"
+    ]
+}

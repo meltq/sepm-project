@@ -1,0 +1,25 @@
+{
+    "name": "rosetta-server-astar",
+    "deps": [
+        "anyhow",
+        "async-std",
+        "async-trait",
+        "ethers",
+        "ethers-solc",
+        "hex",
+        "parity-scale-codec",
+        "rosetta-client",
+        "rosetta-config-astar",
+        "rosetta-config-ethereum",
+        "rosetta-docker",
+        "rosetta-server",
+        "rosetta-server",
+        "rosetta-server-ethereum",
+        "serde_json",
+        "sha3",
+        "sp-core",
+        "sp-keyring",
+        "subxt",
+        "tokio"
+    ]
+}

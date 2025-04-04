@@ -1,0 +1,25 @@
+{
+    "name": "x-server-stats",
+    "deps": [
+        "actix-governor",
+        "actix-web",
+        "actix-web-lab",
+        "askama",
+        "askama_actix",
+        "chrono",
+        "config",
+        "deadpool-postgres",
+        "derive_more",
+        "dotenv",
+        "env_logger",
+        "log",
+        "minify",
+        "serde",
+        "strum",
+        "strum_macros",
+        "systemstat",
+        "tokio-pg-mapper",
+        "tokio-pg-mapper-derive",
+        "tokio-postgres"
+    ]
+}

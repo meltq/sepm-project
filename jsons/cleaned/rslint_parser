@@ -1,0 +1,15 @@
+{
+    "name": "rslint_parser",
+    "deps": [
+        "codespan-reporting",
+        "criterion",
+        "expect-test",
+        "lexical",
+        "num-bigint",
+        "rayon",
+        "rslint_lexer",
+        "rslint_rowan",
+        "rslint_syntax",
+        "walkdir"
+    ]
+}

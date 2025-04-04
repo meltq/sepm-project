@@ -1,0 +1,17 @@
+{
+    "name": "hydrus-ptr-client",
+    "deps": [
+        "dotenv",
+        "flate2",
+        "futures-core",
+        "futures-util",
+        "lazy_static",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

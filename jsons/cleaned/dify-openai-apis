@@ -1,0 +1,21 @@
+{
+    "name": "dify-openai-apis",
+    "deps": [
+        "anyhow",
+        "axum",
+        "dify-client",
+        "dotenvy",
+        "env_logger",
+        "futures",
+        "log",
+        "num_cpus",
+        "serde",
+        "serde_json",
+        "serde_repr",
+        "strum",
+        "tokio",
+        "tokio-stream",
+        "tower",
+        "tower-http"
+    ]
+}

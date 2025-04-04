@@ -1,0 +1,22 @@
+{
+    "name": "spacetimedb-standalone",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "axum",
+        "clap",
+        "dirs",
+        "hostname",
+        "http",
+        "log",
+        "openssl",
+        "prometheus",
+        "serde_json",
+        "sled",
+        "spacetimedb-client-api",
+        "spacetimedb-core",
+        "spacetimedb-lib",
+        "tokio",
+        "tower-http"
+    ]
+}

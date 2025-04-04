@@ -1,0 +1,23 @@
+{
+    "name": "snarkos-network",
+    "deps": [
+        "bincode",
+        "byteorder",
+        "chrono",
+        "hex",
+        "log",
+        "rand",
+        "serde",
+        "serial_test",
+        "snarkos-algorithms",
+        "snarkos-consensus",
+        "snarkos-dpc",
+        "snarkos-errors",
+        "snarkos-models",
+        "snarkos-objects",
+        "snarkos-storage",
+        "snarkos-utilities",
+        "tokio",
+        "tokio-test"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "cord-broker",
+    "deps": [
+        "clap",
+        "cord-client",
+        "cord-message",
+        "cord-message",
+        "env_logger",
+        "error-chain",
+        "futures",
+        "futures-locks",
+        "lazy_static",
+        "log",
+        "tokio",
+        "uuid"
+    ]
+}

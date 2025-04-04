@@ -1,0 +1,22 @@
+{
+    "name": "dexterous_developer_manager",
+    "deps": [
+        "axum",
+        "blake3",
+        "camino",
+        "dashmap",
+        "dexterous_developer_builder",
+        "dexterous_developer_types",
+        "futures-util",
+        "rmp-serde",
+        "serde",
+        "thiserror",
+        "tokio",
+        "tower",
+        "tower-http",
+        "tracing",
+        "tracing-subscriber",
+        "uuid",
+        "walkdir"
+    ]
+}

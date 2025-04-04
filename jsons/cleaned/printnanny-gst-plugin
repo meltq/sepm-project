@@ -1,0 +1,31 @@
+{
+    "name": "printnanny-gst-plugin",
+    "deps": [
+        "anyhow",
+        "arrow",
+        "byte-slice-cast",
+        "bytes",
+        "clap",
+        "env_logger",
+        "git-version",
+        "glob",
+        "gst",
+        "gst-app",
+        "gst-base",
+        "gst-check",
+        "gst-plugin-version-helper",
+        "gst-sys",
+        "gst-video",
+        "libc",
+        "log",
+        "nats",
+        "ndarray",
+        "once_cell",
+        "polars",
+        "printnanny-gst-config",
+        "serde",
+        "serde_json",
+        "tempdir",
+        "thiserror"
+    ]
+}

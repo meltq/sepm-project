@@ -1,0 +1,27 @@
+{
+    "name": "datafusion-materialized-views",
+    "deps": [
+        "anyhow",
+        "arrow",
+        "arrow-schema",
+        "async-trait",
+        "dashmap",
+        "datafusion",
+        "datafusion-common",
+        "datafusion-expr",
+        "datafusion-functions",
+        "datafusion-functions-aggregate",
+        "datafusion-optimizer",
+        "datafusion-physical-expr",
+        "datafusion-physical-plan",
+        "datafusion-sql",
+        "env_logger",
+        "futures",
+        "itertools",
+        "log",
+        "object_store",
+        "tempfile",
+        "tokio",
+        "url"
+    ]
+}

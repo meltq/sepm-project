@@ -1,0 +1,28 @@
+{
+    "name": "crdb-indexed-db",
+    "deps": [
+        "anyhow",
+        "arbitrary",
+        "bolero",
+        "console_error_panic_hook",
+        "crdb-core",
+        "crdb-helpers",
+        "crdb-test-utils",
+        "futures",
+        "getrandom",
+        "getrandom-0-2",
+        "indexed-db",
+        "js-sys",
+        "rand",
+        "rand-0-8",
+        "serde",
+        "serde-wasm-bindgen",
+        "serde_json",
+        "tracing",
+        "tracing-wasm",
+        "wasm-bindgen",
+        "wasm-bindgen-futures",
+        "wasm-bindgen-test",
+        "web-sys"
+    ]
+}

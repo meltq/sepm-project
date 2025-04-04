@@ -1,0 +1,24 @@
+{
+    "name": "wasm-pkg-core",
+    "deps": [
+        "anyhow",
+        "futures-util",
+        "indexmap",
+        "libc",
+        "rstest",
+        "semver",
+        "serde",
+        "sha2",
+        "tempfile",
+        "tokio",
+        "tokio-util",
+        "toml",
+        "tracing",
+        "wasm-metadata",
+        "wasm-pkg-client",
+        "wasm-pkg-common",
+        "windows-sys",
+        "wit-component",
+        "wit-parser"
+    ]
+}

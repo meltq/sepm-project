@@ -1,0 +1,20 @@
+{
+    "name": "mylibsql",
+    "deps": [
+        "anyhow",
+        "base64",
+        "bytes",
+        "crc",
+        "futures",
+        "libsql",
+        "libsql-sys",
+        "libsql_replication",
+        "parking_lot",
+        "rand",
+        "tempfile",
+        "tokio",
+        "tracing",
+        "uuid",
+        "zerocopy"
+    ]
+}

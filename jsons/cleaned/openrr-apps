@@ -1,0 +1,27 @@
+{
+    "name": "openrr-apps",
+    "deps": [
+        "anyhow",
+        "arci",
+        "arci-gamepad-gilrs",
+        "arci-ros",
+        "arci-urdf-viz",
+        "async-recursion",
+        "async-trait",
+        "env_logger",
+        "k",
+        "log",
+        "openrr-client",
+        "openrr-command",
+        "openrr-gui",
+        "openrr-teleop",
+        "rand",
+        "rosrust",
+        "serde",
+        "structopt",
+        "thiserror",
+        "tokio",
+        "toml",
+        "urdf-rs"
+    ]
+}

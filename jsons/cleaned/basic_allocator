@@ -1,0 +1,13 @@
+{
+    "name": "basic_allocator",
+    "deps": [
+        "env_logger",
+        "libc",
+        "log",
+        "rand",
+        "spin",
+        "static_assertions",
+        "sysconf",
+        "test-env-log"
+    ]
+}

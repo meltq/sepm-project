@@ -1,0 +1,31 @@
+{
+    "name": "tofuri-pay",
+    "deps": [
+        "axum",
+        "bincode",
+        "chrono",
+        "clap",
+        "colored",
+        "hex",
+        "lazy_static",
+        "log",
+        "regex",
+        "reqwest",
+        "rocksdb",
+        "serde_json",
+        "tempdir",
+        "tofuri-address",
+        "tofuri-api-core",
+        "tofuri-core",
+        "tofuri-int",
+        "tofuri-key",
+        "tofuri-logger",
+        "tofuri-pay-core",
+        "tofuri-pay-db",
+        "tofuri-transaction",
+        "tofuri-util",
+        "tofuri-wallet",
+        "tokio",
+        "tower-http"
+    ]
+}

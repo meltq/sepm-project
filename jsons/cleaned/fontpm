@@ -1,0 +1,23 @@
+{
+    "name": "fontpm",
+    "deps": [
+        "async-trait",
+        "clap",
+        "clap_derive",
+        "dirs",
+        "env_logger",
+        "fontpm-api",
+        "fontpm-source-google-fonts",
+        "futures",
+        "lazy_static",
+        "multimap",
+        "paris",
+        "path-clean",
+        "semver",
+        "serde",
+        "termcolor",
+        "thiserror",
+        "tokio",
+        "toml"
+    ]
+}

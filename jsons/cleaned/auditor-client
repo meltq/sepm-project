@@ -1,0 +1,31 @@
+{
+    "name": "auditor-client",
+    "deps": [
+        "anyhow",
+        "auditor",
+        "bincode",
+        "chrono",
+        "claim",
+        "config",
+        "criterion",
+        "criterion-macro",
+        "fake",
+        "itertools",
+        "once_cell",
+        "rand",
+        "rand_distr",
+        "reqwest",
+        "serde",
+        "serde-aux",
+        "serde_qs",
+        "sqlx",
+        "thiserror",
+        "tokio",
+        "tokio",
+        "tracing",
+        "tracing-subscriber",
+        "urlencoding",
+        "uuid",
+        "wiremock"
+    ]
+}

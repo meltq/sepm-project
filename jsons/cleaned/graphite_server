@@ -1,0 +1,29 @@
+{
+    "name": "graphite_server",
+    "deps": [
+        "anyhow",
+        "bevy_ecs",
+        "bytemuck",
+        "bytes",
+        "criterion",
+        "graphite_binary",
+        "graphite_command",
+        "graphite_mc_constants",
+        "graphite_mc_constants",
+        "graphite_mc_protocol",
+        "graphite_net",
+        "graphite_sticky",
+        "graphite_text_component",
+        "heapless",
+        "io-uring",
+        "num",
+        "parry3d",
+        "paste",
+        "proptest",
+        "queues",
+        "rand",
+        "readonly",
+        "slab",
+        "thiserror"
+    ]
+}

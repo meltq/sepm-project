@@ -1,0 +1,17 @@
+{
+    "name": "tower_governor",
+    "deps": [
+        "axum",
+        "forwarded-header-value",
+        "futures",
+        "futures-core",
+        "governor",
+        "http",
+        "pin-project",
+        "thiserror",
+        "tokio",
+        "tower",
+        "tower-layer",
+        "tracing"
+    ]
+}

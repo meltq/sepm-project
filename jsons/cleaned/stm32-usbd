@@ -1,0 +1,15 @@
+{
+    "name": "stm32-usbd",
+    "deps": [
+        "cortex-m",
+        "cortex-m-rt",
+        "cortex-m-rtfm",
+        "panic-semihosting",
+        "stm32f0xx-hal",
+        "stm32f1xx-hal",
+        "stm32f3xx-hal",
+        "stm32l4xx-hal",
+        "usb-device",
+        "vcell"
+    ]
+}

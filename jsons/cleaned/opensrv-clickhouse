@@ -1,0 +1,28 @@
+{
+    "name": "opensrv-clickhouse",
+    "deps": [
+        "async-trait",
+        "byteorder",
+        "bytes",
+        "chrono",
+        "chrono-tz",
+        "combine",
+        "futures",
+        "futures-core",
+        "futures-sink",
+        "futures-util",
+        "hostname",
+        "lz4",
+        "micromarshal",
+        "naive-cityhash",
+        "once_cell",
+        "rand",
+        "thiserror",
+        "tokio",
+        "tokio-native-tls",
+        "tokio-stream",
+        "tracing",
+        "url",
+        "uuid"
+    ]
+}

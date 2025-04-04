@@ -1,0 +1,28 @@
+{
+    "name": "actor-discord",
+    "deps": [
+        "actix",
+        "actix-broker",
+        "actix-http",
+        "actix-rt",
+        "anyhow",
+        "awc",
+        "bitflags",
+        "dotenv",
+        "env_logger",
+        "futures",
+        "futures-util",
+        "lazy_static",
+        "log",
+        "regex",
+        "rustls",
+        "serde",
+        "serde_json",
+        "serde_repr",
+        "thiserror",
+        "tokio",
+        "tokio-tungstenite",
+        "url",
+        "webpki-roots"
+    ]
+}

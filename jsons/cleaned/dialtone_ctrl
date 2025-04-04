@@ -1,0 +1,22 @@
+{
+    "name": "dialtone_ctrl",
+    "deps": [
+        "anyhow",
+        "clap",
+        "const_format",
+        "dialtone_axum",
+        "dialtone_common",
+        "dialtone_sqlx",
+        "dotenv",
+        "fsio",
+        "git-version",
+        "lazy_static",
+        "rand",
+        "regex",
+        "serde",
+        "serde_json",
+        "sqlx",
+        "tokio",
+        "validator"
+    ]
+}

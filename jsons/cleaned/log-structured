@@ -1,0 +1,12 @@
+{
+    "name": "log-structured",
+    "deps": [
+        "async-trait",
+        "futures",
+        "off64",
+        "seekable-async-file",
+        "signal-future",
+        "tokio",
+        "write-journal"
+    ]
+}

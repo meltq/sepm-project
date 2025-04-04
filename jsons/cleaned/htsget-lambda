@@ -1,0 +1,23 @@
+{
+    "name": "htsget-lambda",
+    "deps": [
+        "async-trait",
+        "bytes",
+        "envy",
+        "htsget-config",
+        "htsget-http",
+        "htsget-search",
+        "lambda_http",
+        "lambda_runtime",
+        "mime",
+        "query_map",
+        "regex",
+        "serde",
+        "serde_json",
+        "tempfile",
+        "tokio",
+        "tower-http",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

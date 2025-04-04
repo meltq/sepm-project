@@ -1,0 +1,30 @@
+{
+    "name": "substrate-txtesttool",
+    "deps": [
+        "async-trait",
+        "average",
+        "chrono",
+        "clap",
+        "clap_derive",
+        "ctrlc",
+        "futures",
+        "futures-util",
+        "hex",
+        "jsonrpsee",
+        "parity-scale-codec",
+        "parking_lot",
+        "rand",
+        "serde",
+        "serde_json",
+        "subxt",
+        "subxt-core",
+        "subxt-signer",
+        "termplot",
+        "thiserror",
+        "time",
+        "tokio",
+        "tokio-util",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

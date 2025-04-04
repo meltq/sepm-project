@@ -1,0 +1,33 @@
+{
+    "name": "sosistab2-obfsudp",
+    "deps": [
+        "ahash",
+        "anyhow",
+        "arc-swap",
+        "async-trait",
+        "blake3",
+        "bytes",
+        "derivative",
+        "hex",
+        "itertools",
+        "log",
+        "lru",
+        "moka",
+        "once_cell",
+        "parking_lot",
+        "priority-queue",
+        "probability",
+        "rand",
+        "reed-solomon-erasure",
+        "replay_filter",
+        "ring",
+        "scopeguard",
+        "serde",
+        "smol",
+        "smol-timeout",
+        "smolscale",
+        "sosistab2",
+        "stdcode",
+        "x25519-dalek"
+    ]
+}

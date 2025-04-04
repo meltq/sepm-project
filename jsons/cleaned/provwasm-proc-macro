@@ -1,0 +1,14 @@
+{
+    "name": "provwasm-proc-macro",
+    "deps": [
+        "cosmwasm-std",
+        "itertools",
+        "proc-macro2",
+        "prost",
+        "provwasm-common",
+        "quote",
+        "serde",
+        "syn",
+        "trybuild"
+    ]
+}

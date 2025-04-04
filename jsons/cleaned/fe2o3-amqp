@@ -1,0 +1,27 @@
+{
+    "name": "fe2o3-amqp",
+    "deps": [
+        "async-trait",
+        "bytes",
+        "crossbeam",
+        "erased-serde",
+        "fe2o3-amqp-types",
+        "futures-util",
+        "pin-project-lite",
+        "rustls",
+        "serde",
+        "serde_amqp",
+        "serde_bytes",
+        "slab",
+        "testcontainers",
+        "thiserror",
+        "tokio",
+        "tokio",
+        "tokio-rustls",
+        "tokio-stream",
+        "tokio-test",
+        "tokio-util",
+        "tracing",
+        "url"
+    ]
+}

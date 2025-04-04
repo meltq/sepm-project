@@ -1,0 +1,17 @@
+{
+    "name": "zenoh-flow-standalone-daemon",
+    "deps": [
+        "anyhow",
+        "async-std",
+        "clap",
+        "serde",
+        "signal-hook",
+        "signal-hook-async-std",
+        "tracing",
+        "tracing-subscriber",
+        "uhlc",
+        "zenoh",
+        "zenoh-flow-commons",
+        "zenoh-flow-daemon"
+    ]
+}

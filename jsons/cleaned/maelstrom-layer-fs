@@ -1,0 +1,25 @@
+{
+    "name": "maelstrom-layer-fs",
+    "deps": [
+        "anyhow",
+        "anyhow_trace",
+        "async-trait",
+        "clap",
+        "derive_more",
+        "futures",
+        "lru",
+        "maelstrom-base",
+        "maelstrom-fuse",
+        "maelstrom-linux",
+        "maelstrom-util",
+        "serde",
+        "serde_repr",
+        "serde_with",
+        "slog",
+        "slog-async",
+        "slog-term",
+        "tempfile",
+        "tokio",
+        "tokio-tar"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "name": "amzn-smt-ir",
+    "deps": [
+        "amzn-smt-ir-derive",
+        "criterion",
+        "either",
+        "internment",
+        "itertools",
+        "num-traits",
+        "once_cell",
+        "paste",
+        "smallvec",
+        "smt2parser",
+        "stacker",
+        "static_assertions",
+        "thiserror",
+        "varisat",
+        "varisat",
+        "z3-sys"
+    ]
+}

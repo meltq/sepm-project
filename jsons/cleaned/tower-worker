@@ -1,0 +1,10 @@
+{
+    "name": "tower-worker",
+    "deps": [
+        "futures-util",
+        "pin-project",
+        "tokio",
+        "tower-layer",
+        "tower-service"
+    ]
+}

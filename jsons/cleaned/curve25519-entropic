@@ -1,0 +1,18 @@
+{
+    "name": "curve25519-entropic",
+    "deps": [
+        "bincode",
+        "byteorder",
+        "criterion",
+        "digest",
+        "fiat-crypto",
+        "hex",
+        "packed_simd",
+        "rand",
+        "rand_core",
+        "serde",
+        "sha2",
+        "subtle",
+        "zeroize"
+    ]
+}

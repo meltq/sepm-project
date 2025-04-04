@@ -1,0 +1,15 @@
+{
+    "name": "artnet-serial",
+    "deps": [
+        "artnet_protocol",
+        "bufstream",
+        "crossbeam-channel",
+        "fern",
+        "get_if_addrs",
+        "glob",
+        "lazy_static",
+        "log",
+        "log-panics",
+        "serial"
+    ]
+}

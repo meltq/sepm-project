@@ -1,0 +1,22 @@
+{
+    "name": "fuel-core-shared-sequencer",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "base64",
+        "cosmos-sdk-proto",
+        "cosmrs",
+        "fuel-core-services",
+        "fuel-core-types",
+        "fuel-sequencer-proto",
+        "futures",
+        "postcard",
+        "prost",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "tendermint-rpc",
+        "tokio",
+        "tracing"
+    ]
+}

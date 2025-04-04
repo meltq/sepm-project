@@ -1,0 +1,19 @@
+{
+    "name": "wasmtime-runtime",
+    "deps": [
+        "cc",
+        "cranelift-codegen",
+        "cranelift-entity",
+        "cranelift-wasm",
+        "errno",
+        "failure",
+        "failure_derive",
+        "indexmap",
+        "lazy_static",
+        "libc",
+        "memoffset",
+        "region",
+        "wasmtime-environ",
+        "winapi"
+    ]
+}

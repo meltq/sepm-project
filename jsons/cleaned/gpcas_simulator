@@ -1,0 +1,19 @@
+{
+    "name": "gpcas_simulator",
+    "deps": [
+        "chrono",
+        "clap",
+        "crossterm",
+        "gpcas_arschitek_zero",
+        "gpcas_base",
+        "gpcas_cpu_model",
+        "gpcas_forwardcom",
+        "gpcas_isa",
+        "lazy_static",
+        "log",
+        "num-format",
+        "ring_buffer",
+        "serde",
+        "sha3"
+    ]
+}

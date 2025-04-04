@@ -1,0 +1,22 @@
+{
+    "name": "safecoin-transaction-status",
+    "deps": [
+        "Inflector",
+        "base64",
+        "bincode",
+        "bs58",
+        "lazy_static",
+        "safecoin-account-decoder",
+        "safecoin-runtime",
+        "safecoin-sdk",
+        "safecoin-stake-program",
+        "safecoin-vote-program",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "spl-associated-token-account-v1-0",
+        "spl-memo",
+        "spl-token-v2-0",
+        "thiserror"
+    ]
+}

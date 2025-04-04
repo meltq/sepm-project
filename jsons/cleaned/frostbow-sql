@@ -1,0 +1,17 @@
+{
+    "name": "frostbow-sql",
+    "deps": [
+        "async-trait",
+        "clap",
+        "datafusion",
+        "datafusion_iceberg",
+        "frostbow",
+        "frostbow-cli",
+        "iceberg-rust",
+        "iceberg-sql-catalog",
+        "object_store",
+        "openssl",
+        "sqlx",
+        "tokio"
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "name": "synd-api",
+    "deps": [
+        "anyhow",
+        "async-graphql",
+        "async-graphql-axum",
+        "async-trait",
+        "axum",
+        "axum-server",
+        "chrono",
+        "clap",
+        "feed-rs",
+        "futures-util",
+        "graphql_client",
+        "headers",
+        "kvsd",
+        "moka",
+        "pin-project",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "supports-color",
+        "synd-feed",
+        "synd-o11y",
+        "thiserror",
+        "tokio",
+        "tower",
+        "tower-http",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

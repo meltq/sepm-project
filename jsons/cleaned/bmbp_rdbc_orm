@@ -1,0 +1,17 @@
+{
+    "name": "bmbp_rdbc_orm",
+    "deps": [
+        "async-trait",
+        "async_static",
+        "bmbp_rdbc_sql",
+        "bmbp_rdbc_type",
+        "chrono",
+        "once_cell",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tokio-postgres",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

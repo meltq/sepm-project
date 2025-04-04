@@ -1,0 +1,16 @@
+{
+    "name": "auth_for_warp",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "jsonwebtoken",
+        "reqwest",
+        "rust-argon2",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "uuid",
+        "warp"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "azure_identity",
+    "deps": [
+        "async-timer",
+        "async-trait",
+        "azure_core",
+        "chrono",
+        "env_logger",
+        "futures",
+        "log",
+        "oauth2",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "serde_test",
+        "thiserror",
+        "tokio",
+        "url"
+    ]
+}

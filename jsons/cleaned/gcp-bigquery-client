@@ -1,0 +1,15 @@
+{
+    "name": "gcp-bigquery-client",
+    "deps": [
+        "hyper",
+        "hyper-rustls",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tokio-test",
+        "url",
+        "yup-oauth2"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "name": "cast-sender",
+    "deps": [
+        "async-channel",
+        "async-native-tls",
+        "async-net",
+        "bytes",
+        "futures-util",
+        "log",
+        "prost",
+        "prost-build",
+        "protobuf-src",
+        "rand",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "smol",
+        "smol-timeout",
+        "strum",
+        "strum_macros",
+        "thiserror"
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "name": "vault-mgmt",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "clap",
+        "clap_complete",
+        "futures-util",
+        "http",
+        "hyper",
+        "hyper-rustls",
+        "k8s-openapi",
+        "kube",
+        "owo-colors",
+        "prettytable",
+        "rand",
+        "secrecy",
+        "self_update",
+        "serde",
+        "serde_json",
+        "serde_yaml",
+        "tokio",
+        "tokio-rustls",
+        "tokio-util",
+        "tower",
+        "tower-test",
+        "tracing",
+        "tracing-subscriber",
+        "which",
+        "wiremock"
+    ]
+}

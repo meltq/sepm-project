@@ -1,0 +1,13 @@
+{
+    "name": "tor-log-ratelim",
+    "deps": [
+        "futures",
+        "humantime",
+        "once_cell",
+        "thiserror",
+        "tor-error",
+        "tor-rtcompat",
+        "tracing",
+        "weak-table"
+    ]
+}

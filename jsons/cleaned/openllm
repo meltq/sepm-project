@@ -1,0 +1,24 @@
+{
+    "name": "openllm",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "bytes",
+        "ctor",
+        "derive_builder",
+        "futures-util",
+        "lazy_static",
+        "reqwest",
+        "reqwest-middleware",
+        "reqwest-retry",
+        "reqwest-tracing",
+        "schemars",
+        "serde",
+        "serde_json",
+        "strum",
+        "task-local-extensions",
+        "tokio",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

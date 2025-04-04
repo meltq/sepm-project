@@ -1,0 +1,24 @@
+{
+    "name": "leetcode-tui-config",
+    "deps": [
+        "anyhow",
+        "better-panic",
+        "clap",
+        "color-eyre",
+        "crossterm",
+        "directories",
+        "human-panic",
+        "leetcode-tui-shared",
+        "libc",
+        "log",
+        "native_db",
+        "ratatui",
+        "reqwest",
+        "serde",
+        "strip-ansi-escapes",
+        "toml",
+        "tracing",
+        "tracing-error",
+        "tracing-subscriber"
+    ]
+}

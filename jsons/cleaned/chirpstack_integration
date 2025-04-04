@@ -1,0 +1,16 @@
+{
+    "name": "chirpstack_integration",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "chirpstack_api",
+        "lazy_static",
+        "redis",
+        "serde",
+        "serde_json",
+        "tokio",
+        "toml",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

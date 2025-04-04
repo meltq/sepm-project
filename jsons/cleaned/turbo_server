@@ -1,0 +1,23 @@
+{
+    "name": "turbo_server",
+    "deps": [
+        "anyhow",
+        "env_logger",
+        "fold_impls",
+        "futures",
+        "i54_",
+        "juniper",
+        "juniper_codegen",
+        "juniper_graphql_ws",
+        "juniper_warp",
+        "log",
+        "mime_guess",
+        "qbsdiff",
+        "rust-embed",
+        "rustc_version",
+        "tokio",
+        "turbocafe",
+        "turbosql",
+        "warp"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "fedimint-lnv2-server",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "bls12_381",
+        "erased-serde",
+        "fedimint-bitcoind",
+        "fedimint-core",
+        "fedimint-lnv2-common",
+        "fedimint-server",
+        "futures",
+        "group",
+        "rand",
+        "serde",
+        "strum",
+        "strum_macros",
+        "tpe"
+    ]
+}

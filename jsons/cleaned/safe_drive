@@ -1,0 +1,17 @@
+{
+    "name": "safe_drive",
+    "deps": [
+        "async-std",
+        "crossbeam-channel",
+        "futures",
+        "libc",
+        "memac",
+        "num-derive",
+        "num-traits",
+        "once_cell",
+        "parking_lot",
+        "serde",
+        "serde_json",
+        "signal-hook"
+    ]
+}

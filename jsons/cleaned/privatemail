@@ -1,0 +1,15 @@
+{
+    "name": "privatemail",
+    "deps": [
+        "clippy",
+        "lambda_runtime",
+        "mailparse",
+        "rusoto_core",
+        "rusoto_ses",
+        "serde",
+        "serde_json",
+        "simple_logger",
+        "tokio",
+        "tracing"
+    ]
+}

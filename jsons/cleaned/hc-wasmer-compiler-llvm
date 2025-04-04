@@ -1,0 +1,21 @@
+{
+    "name": "hc-wasmer-compiler-llvm",
+    "deps": [
+        "byteorder",
+        "cc",
+        "inkwell",
+        "itertools",
+        "lazy_static",
+        "libc",
+        "object",
+        "rayon",
+        "regex",
+        "rustc_version",
+        "semver",
+        "smallvec",
+        "target-lexicon",
+        "wasmer-compiler",
+        "wasmer-types",
+        "wasmer-vm"
+    ]
+}

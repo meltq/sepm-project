@@ -1,0 +1,16 @@
+{
+    "name": "datafusion-flight-sql-server",
+    "deps": [
+        "arrow",
+        "arrow-flight",
+        "datafusion",
+        "datafusion-federation",
+        "datafusion-substrait",
+        "futures",
+        "log",
+        "once_cell",
+        "prost",
+        "tokio",
+        "tonic"
+    ]
+}

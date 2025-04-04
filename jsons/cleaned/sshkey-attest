@@ -1,0 +1,16 @@
+{
+    "name": "sshkey-attest",
+    "deps": [
+        "base64",
+        "base64urlsafedata",
+        "nom",
+        "openssl",
+        "serde",
+        "serde_cbor_2",
+        "sshkeys",
+        "tracing",
+        "tracing-subscriber",
+        "uuid",
+        "webauthn-rs-core"
+    ]
+}

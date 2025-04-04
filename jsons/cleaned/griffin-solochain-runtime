@@ -1,0 +1,28 @@
+{
+    "name": "griffin-solochain-runtime",
+    "deps": [
+        "codec",
+        "griffin-core",
+        "hex",
+        "hex-literal",
+        "log",
+        "scale-info",
+        "serde",
+        "serde_json",
+        "sp-api",
+        "sp-application-crypto",
+        "sp-block-builder",
+        "sp-consensus-aura",
+        "sp-consensus-grandpa",
+        "sp-core",
+        "sp-genesis-builder",
+        "sp-inherents",
+        "sp-io",
+        "sp-runtime",
+        "sp-session",
+        "sp-storage",
+        "sp-transaction-pool",
+        "sp-version",
+        "substrate-wasm-builder"
+    ]
+}

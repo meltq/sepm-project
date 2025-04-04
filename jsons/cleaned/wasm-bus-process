@@ -1,0 +1,12 @@
+{
+    "name": "wasm-bus-process",
+    "deps": [
+        "async-trait",
+        "bytes",
+        "dummy-waker",
+        "serde",
+        "tokio",
+        "tracing",
+        "wasm-bus"
+    ]
+}

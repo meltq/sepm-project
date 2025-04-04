@@ -1,0 +1,27 @@
+{
+    "name": "datacake-cluster",
+    "deps": [
+        "anyhow",
+        "anyhow",
+        "bytecheck",
+        "bytes",
+        "chitchat",
+        "crc32fast",
+        "datacake-crdt",
+        "flume",
+        "futures",
+        "itertools",
+        "lz4_flex",
+        "parking_lot",
+        "prost",
+        "prost-build",
+        "rkyv",
+        "thiserror",
+        "tokio",
+        "tokio-stream",
+        "tonic",
+        "tonic-build",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

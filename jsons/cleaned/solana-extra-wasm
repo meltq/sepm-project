@@ -1,0 +1,30 @@
+{
+    "name": "solana-extra-wasm",
+    "deps": [
+        "Inflector",
+        "arrayref",
+        "assert_matches",
+        "base64",
+        "bincode",
+        "borsh",
+        "bs58",
+        "bytemuck",
+        "chrono",
+        "clap",
+        "console",
+        "fluvio-wasm-timer",
+        "humantime",
+        "lazy_static",
+        "num-derive",
+        "num-traits",
+        "num_enum",
+        "semver",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "solana-frozen-abi",
+        "solana-frozen-abi-macro",
+        "solana-sdk",
+        "thiserror"
+    ]
+}

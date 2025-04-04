@@ -1,0 +1,15 @@
+{
+    "name": "airsim-client",
+    "deps": [
+        "async-std",
+        "async-trait",
+        "crossbeam-channel",
+        "env_logger",
+        "futures",
+        "log",
+        "msgpack-rpc",
+        "rmpv",
+        "thiserror",
+        "tokio"
+    ]
+}

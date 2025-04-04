@@ -1,0 +1,21 @@
+{
+    "name": "rrdnsd",
+    "deps": [
+        "anyhow",
+        "axum",
+        "chrono",
+        "futures",
+        "itertools",
+        "json",
+        "log",
+        "reqwest",
+        "rustdns",
+        "sailfish",
+        "serde",
+        "serde_json",
+        "statsd",
+        "systemd-journal-logger",
+        "time",
+        "tokio"
+    ]
+}

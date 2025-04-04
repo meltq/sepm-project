@@ -1,0 +1,15 @@
+{
+    "name": "rd-agent-intf",
+    "deps": [
+        "anyhow",
+        "chrono",
+        "clap",
+        "enum-iterator",
+        "lazy_static",
+        "libc",
+        "log",
+        "rd-hashd-intf",
+        "rd-util",
+        "serde"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "name": "async-signals",
+    "deps": [
+        "async-std",
+        "futures-util",
+        "lazy_static",
+        "libc",
+        "mio",
+        "nix",
+        "signal-hook"
+    ]
+}

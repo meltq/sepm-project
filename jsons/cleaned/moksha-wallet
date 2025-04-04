@@ -1,0 +1,27 @@
+{
+    "name": "moksha-wallet",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "clap",
+        "dirs",
+        "gloo-net",
+        "lightning-invoice",
+        "moksha-core",
+        "rand",
+        "reqwest",
+        "rexie",
+        "ring",
+        "secp256k1",
+        "serde",
+        "serde-wasm-bindgen",
+        "serde_json",
+        "sqlx",
+        "tempfile",
+        "thiserror",
+        "tokio",
+        "tokio",
+        "url",
+        "wasm-bindgen"
+    ]
+}

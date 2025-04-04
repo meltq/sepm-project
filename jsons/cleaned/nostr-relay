@@ -1,0 +1,32 @@
+{
+    "name": "nostr-relay",
+    "deps": [
+        "actix",
+        "actix-cors",
+        "actix-http",
+        "actix-rt",
+        "actix-server",
+        "actix-test",
+        "actix-web",
+        "actix-web-actors",
+        "anyhow",
+        "bytes",
+        "bytestring",
+        "config",
+        "duration-str",
+        "futures-util",
+        "hex",
+        "metrics",
+        "nostr-db",
+        "notify",
+        "num_cpus",
+        "parking_lot",
+        "serde",
+        "serde_json",
+        "temp-env",
+        "tempfile",
+        "thiserror",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

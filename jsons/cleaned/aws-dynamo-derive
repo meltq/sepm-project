@@ -1,0 +1,12 @@
+{
+    "name": "aws-dynamo-derive",
+    "deps": [
+        "aws-config",
+        "aws-sdk-dynamodb",
+        "proc-macro2",
+        "quote",
+        "syn",
+        "test-context",
+        "tokio"
+    ]
+}

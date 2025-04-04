@@ -1,0 +1,26 @@
+{
+    "name": "flnet-wasm",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "console_error_panic_hook",
+        "femme",
+        "flnet",
+        "flutils",
+        "futures",
+        "getrandom",
+        "js-sys",
+        "log",
+        "parking_lot",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "thiserror",
+        "wasm-bindgen",
+        "wasm-bindgen-futures",
+        "wasm-bindgen-test",
+        "wasm-logger",
+        "wasm-timer",
+        "web-sys"
+    ]
+}

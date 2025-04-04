@@ -1,0 +1,13 @@
+{
+    "name": "imsub-log-crate",
+    "deps": [
+        "dotenv",
+        "lapin",
+        "protobuf",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

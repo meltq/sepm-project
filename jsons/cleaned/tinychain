@@ -1,0 +1,28 @@
+{
+    "name": "tinychain",
+    "deps": [
+        "async-trait",
+        "base64",
+        "bytes",
+        "destream",
+        "destream_json",
+        "env_logger",
+        "futures",
+        "http",
+        "hyper",
+        "log",
+        "rjwt",
+        "safecast",
+        "serde",
+        "serde_json",
+        "structopt",
+        "tc-error",
+        "tc-transact",
+        "tc-value",
+        "tcgeneric",
+        "tokio",
+        "uplock",
+        "url",
+        "uuid"
+    ]
+}

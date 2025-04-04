@@ -1,0 +1,19 @@
+{
+    "name": "speedrun-api",
+    "deps": [
+        "async-trait",
+        "bytes",
+        "derive_builder",
+        "env_logger",
+        "futures",
+        "http",
+        "log",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "serde_urlencoded",
+        "thiserror",
+        "tokio",
+        "url"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "trycp_server",
+    "deps": [
+        "futures",
+        "nix",
+        "once_cell",
+        "parking_lot",
+        "reqwest",
+        "rmp-serde",
+        "serde",
+        "serde_bytes",
+        "slab",
+        "snafu",
+        "structopt",
+        "tokio",
+        "tokio-tungstenite",
+        "trycp_api",
+        "url"
+    ]
+}

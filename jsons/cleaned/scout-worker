@@ -1,0 +1,15 @@
+{
+    "name": "scout-worker",
+    "deps": [
+        "actix-web",
+        "futures-lite",
+        "lapin",
+        "reqwest",
+        "scout-interpreter",
+        "serde",
+        "serde_json",
+        "tokio",
+        "toml",
+        "tracing"
+    ]
+}

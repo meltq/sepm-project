@@ -1,0 +1,10 @@
+{
+    "name": "nova_web",
+    "deps": [
+        "nova_core",
+        "nova_middleware",
+        "nova_router",
+        "nova_serde",
+        "tokio"
+    ]
+}

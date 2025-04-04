@@ -1,0 +1,15 @@
+{
+    "name": "scte35dump",
+    "deps": [
+        "base64",
+        "bitreader",
+        "clap",
+        "futures",
+        "hex",
+        "hexdump",
+        "mpeg2ts-reader",
+        "net2",
+        "rtp-rs",
+        "tokio-core"
+    ]
+}

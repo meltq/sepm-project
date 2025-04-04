@@ -1,0 +1,23 @@
+{
+    "name": "azure_storage_blobs_mirror",
+    "deps": [
+        "RustyXML",
+        "azure_core",
+        "azure_storage",
+        "base64",
+        "bytes",
+        "env_logger",
+        "futures",
+        "log",
+        "md5",
+        "reqwest",
+        "serde",
+        "serde-xml-rs",
+        "serde_derive",
+        "serde_json",
+        "time",
+        "tokio",
+        "url",
+        "uuid"
+    ]
+}

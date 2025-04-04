@@ -1,0 +1,15 @@
+{
+    "name": "bitcoin-send-tx-p2p",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "bitcoin",
+        "env_logger",
+        "hex",
+        "log",
+        "tokio",
+        "tokio",
+        "tokio-socks",
+        "tokio-test"
+    ]
+}

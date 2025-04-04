@@ -1,0 +1,26 @@
+{
+    "name": "ledger-zcash",
+    "deps": [
+        "byteorder",
+        "env_logger",
+        "futures",
+        "group",
+        "hex",
+        "jubjub",
+        "lazy_static",
+        "ledger-transport",
+        "ledger-transport-hid",
+        "ledger-zondax-generic",
+        "log",
+        "matches",
+        "secp256k1",
+        "serde",
+        "serial_test",
+        "thiserror",
+        "tokio",
+        "tokio-test",
+        "zcash-hsmbuilder",
+        "zcash_primitives",
+        "zx-bip44"
+    ]
+}

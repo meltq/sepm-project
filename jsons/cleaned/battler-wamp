@@ -1,0 +1,29 @@
+{
+    "name": "battler-wamp",
+    "deps": [
+        "ahash",
+        "anyhow",
+        "assert_matches",
+        "async-scoped",
+        "async-trait",
+        "battler-wamp-values",
+        "futures-channel",
+        "futures-util",
+        "log",
+        "pretty_assertions",
+        "quote",
+        "rand",
+        "regex",
+        "rmp-serde",
+        "rustls",
+        "serde",
+        "serde-struct-tuple",
+        "serde-struct-tuple-enum",
+        "serde_json",
+        "syn",
+        "thiserror",
+        "tokio",
+        "tokio-tungstenite",
+        "uuid"
+    ]
+}

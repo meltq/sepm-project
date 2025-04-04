@@ -1,0 +1,21 @@
+{
+    "name": "tap_core",
+    "deps": [
+        "async-std",
+        "criterion",
+        "ethereum-types",
+        "ethers",
+        "ethers-contract",
+        "ethers-contract-derive",
+        "ethers-core",
+        "futures",
+        "primitive-types",
+        "rand",
+        "rand_core",
+        "rstest",
+        "serde",
+        "strum",
+        "strum_macros",
+        "thiserror"
+    ]
+}

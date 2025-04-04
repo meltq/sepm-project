@@ -1,0 +1,31 @@
+{
+    "name": "datafusion-sqllogictest",
+    "deps": [
+        "arrow",
+        "async-trait",
+        "bigdecimal",
+        "bytes",
+        "chrono",
+        "clap",
+        "datafusion",
+        "datafusion-common",
+        "datafusion-common-runtime",
+        "env_logger",
+        "futures",
+        "half",
+        "itertools",
+        "log",
+        "num_cpus",
+        "object_store",
+        "postgres-protocol",
+        "postgres-types",
+        "rust_decimal",
+        "sqllogictest",
+        "sqlparser",
+        "tempfile",
+        "thiserror",
+        "tokio",
+        "tokio",
+        "tokio-postgres"
+    ]
+}

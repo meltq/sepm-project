@@ -1,0 +1,16 @@
+{
+    "name": "ledger-transport",
+    "deps": [
+        "byteorder",
+        "futures",
+        "js-sys",
+        "lazy_static",
+        "ledger-apdu",
+        "ledger-transport-hid",
+        "serde",
+        "sha2",
+        "thiserror",
+        "wasm-bindgen",
+        "wasm-bindgen-futures"
+    ]
+}

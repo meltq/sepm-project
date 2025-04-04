@@ -1,0 +1,16 @@
+{
+    "name": "fst-reader",
+    "deps": [
+        "clap",
+        "flate2",
+        "fst-sys",
+        "leb128",
+        "lz4_flex",
+        "num_enum",
+        "proptest",
+        "proptest-derive",
+        "tempfile",
+        "thiserror",
+        "vcd"
+    ]
+}

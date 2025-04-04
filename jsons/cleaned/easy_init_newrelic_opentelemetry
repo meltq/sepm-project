@@ -1,0 +1,17 @@
+{
+    "name": "easy_init_newrelic_opentelemetry",
+    "deps": [
+        "opentelemetry",
+        "opentelemetry-appender-tracing2",
+        "opentelemetry-http",
+        "opentelemetry-otlp",
+        "opentelemetry-semantic-conventions",
+        "opentelemetry-stdout",
+        "opentelemetry_sdk",
+        "time",
+        "tokio",
+        "tracing",
+        "tracing-opentelemetry",
+        "tracing-subscriber"
+    ]
+}

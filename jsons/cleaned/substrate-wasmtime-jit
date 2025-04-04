@@ -1,0 +1,22 @@
+{
+    "name": "substrate-wasmtime-jit",
+    "deps": [
+        "anyhow",
+        "cfg-if",
+        "cranelift-codegen",
+        "cranelift-entity",
+        "cranelift-frontend",
+        "cranelift-native",
+        "cranelift-wasm",
+        "more-asserts",
+        "region",
+        "target-lexicon",
+        "thiserror",
+        "wasmparser",
+        "wasmtime-debug",
+        "wasmtime-environ",
+        "wasmtime-profiling",
+        "wasmtime-runtime",
+        "winapi"
+    ]
+}

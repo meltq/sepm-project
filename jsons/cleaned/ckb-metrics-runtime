@@ -1,0 +1,25 @@
+{
+    "name": "ckb-metrics-runtime",
+    "deps": [
+        "arc-swap",
+        "atomic-shim",
+        "criterion",
+        "crossbeam-utils",
+        "env_logger",
+        "getopts",
+        "hdrhistogram",
+        "lazy_static",
+        "log",
+        "metrics",
+        "metrics-core",
+        "metrics-exporter-http",
+        "metrics-exporter-log",
+        "metrics-observer-json",
+        "metrics-observer-prometheus",
+        "metrics-observer-yaml",
+        "metrics-util",
+        "parking_lot",
+        "quanta",
+        "tokio"
+    ]
+}

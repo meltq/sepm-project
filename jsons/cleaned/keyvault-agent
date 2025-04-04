@@ -1,0 +1,23 @@
+{
+    "name": "keyvault-agent",
+    "deps": [
+        "anyhow",
+        "base64",
+        "byteorder",
+        "clap",
+        "colored",
+        "daemonize",
+        "dirs",
+        "futures",
+        "keyvault-agent-azure-auth",
+        "keyvault-agent-azure-key-vault-keys",
+        "libc",
+        "nix",
+        "openssl",
+        "rpassword",
+        "serde",
+        "serde_yaml",
+        "ssh-agent",
+        "tokio"
+    ]
+}

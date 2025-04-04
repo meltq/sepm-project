@@ -1,0 +1,20 @@
+{
+    "name": "puzzlefs",
+    "deps": [
+        "anyhow",
+        "assert_cmd",
+        "clap",
+        "ctrlc",
+        "daemonize",
+        "dir-diff",
+        "env_logger",
+        "hex",
+        "log",
+        "nix",
+        "os_pipe",
+        "puzzlefs-lib",
+        "syslog",
+        "tempfile",
+        "walkdir"
+    ]
+}

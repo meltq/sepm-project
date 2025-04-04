@@ -1,0 +1,33 @@
+{
+    "name": "waffles-solana-local-cluster",
+    "deps": [
+        "crossbeam-channel",
+        "fs_extra",
+        "itertools",
+        "log",
+        "rand",
+        "rayon",
+        "solana-client",
+        "solana-config-program",
+        "solana-core",
+        "solana-entry",
+        "solana-gossip",
+        "solana-ledger",
+        "solana-pubsub-client",
+        "solana-rpc-client",
+        "solana-rpc-client-api",
+        "solana-runtime",
+        "solana-sdk",
+        "solana-stake-program",
+        "solana-streamer",
+        "solana-thin-client",
+        "solana-tpu-client",
+        "solana-vote-program",
+        "tempfile",
+        "assert_matches",
+        "gag",
+        "serial_test",
+        "solana-download-utils",
+        "solana-logger"
+    ]
+}

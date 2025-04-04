@@ -1,0 +1,32 @@
+{
+    "name": "foyer-storage-bench",
+    "deps": [
+        "anyhow",
+        "bytesize",
+        "clap",
+        "console-subscriber",
+        "foyer-common",
+        "foyer-intrusive",
+        "foyer-storage",
+        "foyer-workspace-hack",
+        "futures",
+        "hdrhistogram",
+        "http-body-util",
+        "hyper",
+        "hyper-util",
+        "itertools",
+        "libc",
+        "nix",
+        "opentelemetry",
+        "opentelemetry-otlp",
+        "opentelemetry-semantic-conventions",
+        "opentelemetry_sdk",
+        "parking_lot",
+        "prometheus",
+        "rand",
+        "tokio",
+        "tracing",
+        "tracing-opentelemetry",
+        "tracing-subscriber"
+    ]
+}

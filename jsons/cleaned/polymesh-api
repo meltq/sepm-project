@@ -1,0 +1,23 @@
+{
+    "name": "polymesh-api",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "codec",
+        "dotenv",
+        "env_logger",
+        "hex",
+        "lazy_static",
+        "log",
+        "log",
+        "polymesh-api-client",
+        "polymesh-api-codegen-macro",
+        "serde",
+        "serde-big-array",
+        "serde_json",
+        "sp-arithmetic",
+        "sp-keyring",
+        "thiserror",
+        "tokio"
+    ]
+}

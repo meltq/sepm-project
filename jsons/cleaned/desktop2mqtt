@@ -1,0 +1,20 @@
+{
+    "name": "desktop2mqtt",
+    "deps": [
+        "anyhow",
+        "directories-next",
+        "env_logger",
+        "futures-util",
+        "humantime-serde",
+        "log",
+        "mqtt-async-client",
+        "notify-rust",
+        "serde",
+        "serde_json",
+        "serde_yaml",
+        "structopt",
+        "systemstat",
+        "tokio",
+        "user-idle"
+    ]
+}

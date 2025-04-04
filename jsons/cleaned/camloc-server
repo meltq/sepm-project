@@ -1,0 +1,13 @@
+{
+    "name": "camloc-server",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "camloc-common",
+        "futures",
+        "serde",
+        "tokio",
+        "tokio-serial",
+        "tokio-util"
+    ]
+}

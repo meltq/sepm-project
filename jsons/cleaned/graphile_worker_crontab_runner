@@ -1,0 +1,16 @@
+{
+    "name": "graphile_worker_crontab_runner",
+    "deps": [
+        "chrono",
+        "getset",
+        "graphile_worker_crontab_types",
+        "graphile_worker_shutdown_signal",
+        "once_cell",
+        "serde",
+        "serde_json",
+        "sqlx",
+        "thiserror",
+        "tokio",
+        "tracing"
+    ]
+}

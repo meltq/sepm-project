@@ -1,0 +1,17 @@
+{
+    "name": "fuel-core-interfaces",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "fuel-asm",
+        "fuel-storage",
+        "fuel-tx",
+        "fuel-types",
+        "fuel-vm",
+        "futures",
+        "lazy_static",
+        "parking_lot",
+        "thiserror",
+        "tokio"
+    ]
+}

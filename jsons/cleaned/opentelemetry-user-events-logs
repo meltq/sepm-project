@@ -1,0 +1,16 @@
+{
+    "name": "opentelemetry-user-events-logs",
+    "deps": [
+        "async-std",
+        "async-trait",
+        "chrono",
+        "eventheader",
+        "eventheader_dynamic",
+        "microbench",
+        "opentelemetry_api",
+        "opentelemetry_sdk",
+        "tracing",
+        "tracing-core",
+        "tracing-subscriber"
+    ]
+}

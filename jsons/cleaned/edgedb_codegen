@@ -1,0 +1,29 @@
+{
+    "name": "edgedb_codegen",
+    "deps": [
+        "assert2",
+        "bigdecimal",
+        "bytes",
+        "chrono",
+        "document-features",
+        "edgedb-derive",
+        "edgedb-errors",
+        "edgedb-protocol",
+        "edgedb-tokio",
+        "edgedb_codegen_core",
+        "edgedb_codegen_macros",
+        "insta",
+        "num-bigint",
+        "num-traits",
+        "proc-macro2",
+        "rstest",
+        "rustversion",
+        "serde",
+        "serde_bytes",
+        "test-log",
+        "tokio",
+        "trybuild",
+        "typed-builder",
+        "uuid"
+    ]
+}

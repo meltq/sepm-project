@@ -1,0 +1,15 @@
+{
+    "name": "tower-sessions-mongodb-store",
+    "deps": [
+        "async-trait",
+        "bson",
+        "mongodb",
+        "rmp-serde",
+        "serde",
+        "thiserror",
+        "time",
+        "tokio-test",
+        "tower-sessions",
+        "tower-sessions-core"
+    ]
+}

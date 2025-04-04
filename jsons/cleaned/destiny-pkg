@@ -1,0 +1,26 @@
+{
+    "name": "destiny-pkg",
+    "deps": [
+        "aes",
+        "aes-gcm",
+        "anyhow",
+        "binrw",
+        "clap",
+        "clap-num",
+        "ddsfile",
+        "env_logger",
+        "itertools",
+        "json",
+        "lazy_static",
+        "libloading",
+        "parking_lot",
+        "rayon",
+        "rustc-hash",
+        "serde",
+        "serde_json",
+        "tracing",
+        "tracing-subscriber",
+        "tracing-tracy",
+        "tracy-client"
+    ]
+}

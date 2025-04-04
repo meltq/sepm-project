@@ -1,0 +1,16 @@
+{
+    "name": "katniss-ingestor",
+    "deps": [
+        "anyhow",
+        "arrow-schema",
+        "chrono",
+        "itertools",
+        "katniss-pb2arrow",
+        "lance",
+        "object_store",
+        "parquet",
+        "tempfile",
+        "thiserror",
+        "tokio"
+    ]
+}

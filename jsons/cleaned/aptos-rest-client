@@ -1,0 +1,19 @@
+{
+    "name": "aptos-rest-client",
+    "deps": [
+        "anyhow",
+        "aptos-api-types",
+        "aptos-crypto",
+        "aptos-transaction-builder",
+        "aptos-types",
+        "aptos-workspace-hack",
+        "bcs",
+        "hex",
+        "move-deps",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "tokio",
+        "url"
+    ]
+}

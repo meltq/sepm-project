@@ -1,0 +1,22 @@
+{
+    "name": "ownserver",
+    "deps": [
+        "anyhow",
+        "dashmap",
+        "futures",
+        "log",
+        "ownserver_lib",
+        "pretty_env_logger",
+        "reqwest",
+        "rmp-serde",
+        "serde",
+        "serde_json",
+        "structopt",
+        "thiserror",
+        "tokio",
+        "tokio-tungstenite",
+        "tokio-util",
+        "url",
+        "warp"
+    ]
+}

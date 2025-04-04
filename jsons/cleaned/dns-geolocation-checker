@@ -1,0 +1,16 @@
+{
+    "name": "dns-geolocation-checker",
+    "deps": [
+        "anyhow",
+        "futures",
+        "hickory-client",
+        "hickory-proto",
+        "hickory-resolver",
+        "rand",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "tokio",
+        "toml"
+    ]
+}

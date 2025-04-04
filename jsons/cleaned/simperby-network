@@ -1,0 +1,25 @@
+{
+    "name": "simperby-network",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "chrono",
+        "env_logger",
+        "eyre",
+        "fs2",
+        "futures",
+        "ip_rfc",
+        "log",
+        "parking_lot",
+        "port_scanner",
+        "rand",
+        "reqwest",
+        "serde",
+        "serde-tc",
+        "serde_json",
+        "simperby-core",
+        "thiserror",
+        "tokio",
+        "tokio-stream"
+    ]
+}

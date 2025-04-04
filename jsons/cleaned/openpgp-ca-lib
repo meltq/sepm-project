@@ -1,0 +1,19 @@
+{
+    "name": "openpgp-ca-lib",
+    "deps": [
+        "anyhow",
+        "chbs",
+        "chrono",
+        "csv",
+        "diesel",
+        "diesel_migrations",
+        "openpgp-keylist",
+        "publicsuffix",
+        "rexpect",
+        "sequoia-net",
+        "sequoia-openpgp",
+        "sha2",
+        "tempfile",
+        "tokio"
+    ]
+}

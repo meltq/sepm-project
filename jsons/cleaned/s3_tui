@@ -1,0 +1,15 @@
+{
+    "name": "s3_tui",
+    "deps": [
+        "aws-config",
+        "aws-sdk-dynamodb",
+        "aws-sdk-s3",
+        "aws-smithy-types",
+        "clap",
+        "clipboard",
+        "crossterm",
+        "eyre",
+        "tokio",
+        "tui"
+    ]
+}

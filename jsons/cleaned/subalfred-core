@@ -1,0 +1,31 @@
+{
+    "name": "subalfred-core",
+    "deps": [
+        "array-bytes",
+        "async-trait",
+        "cargo_metadata",
+        "cargo_toml",
+        "clap",
+        "futures",
+        "fxhash",
+        "once_cell",
+        "parity-scale-codec",
+        "regex",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "subalfred-util",
+        "subcryptor",
+        "subhasher",
+        "submetadatan",
+        "subrpcer",
+        "subruntimer",
+        "substorager",
+        "subversioner",
+        "thiserror",
+        "tokio",
+        "tokio-stream",
+        "tokio-tungstenite",
+        "tracing"
+    ]
+}

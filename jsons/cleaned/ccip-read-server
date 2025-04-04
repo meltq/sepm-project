@@ -1,0 +1,21 @@
+{
+    "name": "ccip-read-server",
+    "deps": [
+        "anyhow",
+        "async-recursion",
+        "async-trait",
+        "ethers",
+        "ethers-contract",
+        "ethers-core",
+        "ethers-providers",
+        "futures-util",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tokio",
+        "tracing",
+        "url",
+        "warp"
+    ]
+}

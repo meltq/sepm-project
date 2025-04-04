@@ -1,0 +1,15 @@
+{
+    "name": "ccp-cu-rpc-client",
+    "deps": [
+        "ccp-shared",
+        "hex",
+        "hyper-util",
+        "prost",
+        "serde",
+        "thiserror",
+        "tokio",
+        "tonic",
+        "tonic-build",
+        "tower"
+    ]
+}

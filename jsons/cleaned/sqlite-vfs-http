@@ -1,0 +1,15 @@
+{
+    "name": "sqlite-vfs-http",
+    "deps": [
+        "anyhow",
+        "rand",
+        "reqwest",
+        "rocket",
+        "rocket_seek_stream",
+        "rusqlite",
+        "sqlite-vfs",
+        "tempfile",
+        "tokio",
+        "tokio"
+    ]
+}

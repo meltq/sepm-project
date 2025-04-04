@@ -1,0 +1,15 @@
+{
+    "name": "celery",
+    "deps": [
+        "amq-protocol-types",
+        "async-trait",
+        "env_logger",
+        "failure",
+        "futures-util",
+        "lapin",
+        "log",
+        "serde",
+        "serde_json",
+        "tokio"
+    ]
+}

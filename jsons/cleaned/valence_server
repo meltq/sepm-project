@@ -1,0 +1,26 @@
+{
+    "name": "valence_server",
+    "deps": [
+        "anyhow",
+        "arrayvec",
+        "bevy_app",
+        "bevy_ecs",
+        "bevy_utils",
+        "bitfield-struct",
+        "byteorder",
+        "bytes",
+        "num-integer",
+        "parking_lot",
+        "rand",
+        "rustc-hash",
+        "tracing",
+        "uuid",
+        "valence_entity",
+        "valence_generated",
+        "valence_math",
+        "valence_nbt",
+        "valence_protocol",
+        "valence_registry",
+        "valence_server_common"
+    ]
+}

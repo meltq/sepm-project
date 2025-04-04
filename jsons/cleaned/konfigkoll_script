@@ -1,0 +1,32 @@
+{
+    "name": "konfigkoll_script",
+    "deps": [
+        "ahash",
+        "anyhow",
+        "camino",
+        "compact_str",
+        "glob",
+        "indoc",
+        "itertools",
+        "konfigkoll_core",
+        "konfigkoll_hwinfo",
+        "konfigkoll_types",
+        "nix",
+        "paketkoll_core",
+        "paketkoll_types",
+        "paketkoll_utils",
+        "parking_lot",
+        "pretty_assertions",
+        "regex",
+        "rune",
+        "rune-modules",
+        "rust-ini",
+        "smallvec",
+        "sysinfo",
+        "tempfile",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "winnow"
+    ]
+}

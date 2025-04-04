@@ -1,0 +1,23 @@
+{
+    "name": "inexor-rgf-plugin-json",
+    "deps": [
+        "async-trait",
+        "inexor-rgf-core-builder",
+        "inexor-rgf-core-di",
+        "inexor-rgf-core-frp",
+        "inexor-rgf-core-model",
+        "inexor-rgf-core-plugins",
+        "inexor-rgf-core-reactive",
+        "inexor-rgf-model-file",
+        "inexor-rgf-model-json",
+        "inexor-rgf-model-result",
+        "inexor-rgf-model-runtime",
+        "log",
+        "log4rs",
+        "paste",
+        "query_interface",
+        "rust-embed",
+        "serde_json",
+        "shellexpand"
+    ]
+}

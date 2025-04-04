@@ -1,0 +1,20 @@
+{
+    "name": "gpuequiv",
+    "deps": [
+        "bytemuck",
+        "console_error_panic_hook",
+        "console_log",
+        "disjoint-sets",
+        "env_logger",
+        "futures-intrusive",
+        "log",
+        "ndarray",
+        "pollster",
+        "regex-lite",
+        "rustc-hash",
+        "serde",
+        "serde_json",
+        "wasm-bindgen-futures",
+        "wgpu"
+    ]
+}

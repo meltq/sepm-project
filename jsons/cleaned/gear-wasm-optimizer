@@ -1,0 +1,17 @@
+{
+    "name": "gear-wasm-optimizer",
+    "deps": [
+        "anyhow",
+        "colored",
+        "gear-wasm-instrument",
+        "log",
+        "pwasm-utils",
+        "regex",
+        "rustc_version",
+        "wabt",
+        "wasm-opt",
+        "wasmi",
+        "wasmparser",
+        "which"
+    ]
+}

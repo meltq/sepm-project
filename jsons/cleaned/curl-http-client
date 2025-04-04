@@ -1,0 +1,15 @@
+{
+    "name": "curl-http-client",
+    "deps": [
+        "async-curl",
+        "curl",
+        "derive-deref-rs",
+        "futures",
+        "http",
+        "tempdir",
+        "thiserror",
+        "tokio",
+        "url",
+        "wiremock"
+    ]
+}

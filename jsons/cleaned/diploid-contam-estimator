@@ -1,0 +1,17 @@
+{
+    "name": "diploid-contam-estimator",
+    "deps": [
+        "assert_approx_eq",
+        "clap",
+        "env_logger",
+        "log",
+        "noodles-bed",
+        "noodles-bgzf",
+        "noodles-tabix",
+        "noodles-vcf",
+        "rstest",
+        "serde",
+        "serde_json",
+        "statrs"
+    ]
+}

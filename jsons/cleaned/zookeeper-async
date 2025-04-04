@@ -1,0 +1,15 @@
+{
+    "name": "zookeeper-async",
+    "deps": [
+        "async-trait",
+        "byteorder",
+        "bytes",
+        "env_logger",
+        "futures",
+        "lazy_static",
+        "log",
+        "snowflake",
+        "tokio",
+        "zookeeper_derive"
+    ]
+}

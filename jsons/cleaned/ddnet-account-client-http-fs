@@ -1,0 +1,20 @@
+{
+    "name": "ddnet-account-client-http-fs",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "chrono",
+        "ddnet-account-client",
+        "ddnet-accounts-shared",
+        "ddnet-accounts-types",
+        "either",
+        "email_address",
+        "parking_lot",
+        "serde",
+        "serde_json",
+        "tempfile",
+        "tokio",
+        "url",
+        "x509-cert"
+    ]
+}

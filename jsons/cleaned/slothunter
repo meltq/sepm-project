@@ -1,0 +1,27 @@
+{
+    "name": "slothunter",
+    "deps": [
+        "anyhow",
+        "app_dirs2",
+        "array-bytes",
+        "clap",
+        "color-eyre",
+        "futures",
+        "lettre",
+        "parity-scale-codec",
+        "regex",
+        "reqwest",
+        "scale-decode",
+        "scale-value",
+        "serde",
+        "serde_json",
+        "sp-core",
+        "sp-runtime",
+        "subxt",
+        "tokio",
+        "toml",
+        "tracing",
+        "tracing-subscriber",
+        "vergen"
+    ]
+}

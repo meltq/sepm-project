@@ -1,0 +1,12 @@
+{
+    "name": "omnipaxos_storage",
+    "deps": [
+        "bincode",
+        "commitlog",
+        "omnipaxos",
+        "rocksdb",
+        "serde",
+        "sled",
+        "zerocopy"
+    ]
+}

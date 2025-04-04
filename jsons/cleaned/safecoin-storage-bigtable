@@ -1,0 +1,26 @@
+{
+    "name": "safecoin-storage-bigtable",
+    "deps": [
+        "arc-swap",
+        "backoff",
+        "bincode",
+        "bzip2",
+        "enum-iterator",
+        "flate2",
+        "futures",
+        "goauth",
+        "log",
+        "prost",
+        "prost-types",
+        "rand_core",
+        "safecoin-sdk",
+        "safecoin-storage-proto",
+        "safecoin-transaction-status",
+        "serde",
+        "serde_derive",
+        "smpl_jwt",
+        "thiserror",
+        "tonic",
+        "zstd"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "gemachain-banks-server",
+    "deps": [
+        "bincode",
+        "futures",
+        "gemachain-banks-interface",
+        "gemachain-runtime",
+        "gemachain-sdk",
+        "gemachain-send-transaction-service",
+        "tarpc",
+        "tokio",
+        "tokio-serde",
+        "tokio-stream"
+    ]
+}

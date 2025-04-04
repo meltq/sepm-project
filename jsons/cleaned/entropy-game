@@ -1,0 +1,23 @@
+{
+    "name": "entropy-game",
+    "deps": [
+        "ahash",
+        "anyhow",
+        "async-trait",
+        "axum",
+        "axum-login",
+        "bincode",
+        "futures",
+        "nanoid",
+        "ordered-float",
+        "rand",
+        "serde",
+        "serde-pickle",
+        "serde_bytes",
+        "serde_json",
+        "sled",
+        "thiserror",
+        "tokio",
+        "typed-sled"
+    ]
+}

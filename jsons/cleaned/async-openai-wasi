@@ -1,0 +1,28 @@
+{
+    "name": "async-openai-wasi",
+    "deps": [
+        "async-convert",
+        "backoff",
+        "base64",
+        "bytes",
+        "derive_builder",
+        "futures",
+        "headers",
+        "hyper_wasi",
+        "rand",
+        "reqwest_wasi",
+        "secrecy",
+        "serde",
+        "serde_json",
+        "serde_urlencoded",
+        "thiserror",
+        "tokio-stream_wasi",
+        "tokio-test",
+        "tokio-util",
+        "tokio_wasi",
+        "tracing",
+        "url",
+        "wasmedge_hyper_rustls",
+        "wasmedge_rustls_api"
+    ]
+}

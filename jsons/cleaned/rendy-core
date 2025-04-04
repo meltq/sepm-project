@@ -1,0 +1,17 @@
+{
+    "name": "rendy-core",
+    "deps": [
+        "gfx-backend-dx12",
+        "gfx-backend-empty",
+        "gfx-backend-gl",
+        "gfx-backend-metal",
+        "gfx-backend-vulkan",
+        "gfx-hal",
+        "lazy_static",
+        "log",
+        "parking_lot",
+        "raw-window-handle",
+        "serde",
+        "thread_profiler"
+    ]
+}

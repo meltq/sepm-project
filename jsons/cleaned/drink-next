@@ -1,0 +1,24 @@
+{
+    "name": "drink-next",
+    "deps": [
+        "contract-metadata",
+        "contract-transcode",
+        "drink-test-macro",
+        "frame-metadata",
+        "frame-support",
+        "frame-system",
+        "pallet-balances",
+        "pallet-contracts",
+        "pallet-contracts-uapi",
+        "pallet-timestamp",
+        "parity-scale-codec",
+        "parity-scale-codec-derive",
+        "scale-info",
+        "serde_json",
+        "sp-externalities",
+        "sp-io",
+        "sp-runtime-interface",
+        "thiserror",
+        "wat"
+    ]
+}

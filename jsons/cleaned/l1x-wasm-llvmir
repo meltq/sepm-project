@@ -1,0 +1,16 @@
+{
+    "name": "l1x-wasm-llvmir",
+    "deps": [
+        "anyhow",
+        "clap",
+        "cranelift-wasm",
+        "env_logger",
+        "inkwell",
+        "log",
+        "rccell",
+        "wasmparser",
+        "wasmprinter",
+        "wasmtime",
+        "wat"
+    ]
+}

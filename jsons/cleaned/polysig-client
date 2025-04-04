@@ -1,0 +1,24 @@
+{
+    "name": "polysig-client",
+    "deps": [
+        "async-stream",
+        "async-trait",
+        "futures",
+        "getrandom",
+        "js-sys",
+        "log",
+        "polysig-driver",
+        "polysig-protocol",
+        "serde",
+        "serde-wasm-bindgen",
+        "thiserror",
+        "tokio",
+        "tokio",
+        "tokio-tungstenite",
+        "tracing",
+        "wasm-bindgen",
+        "wasm-bindgen-futures",
+        "wasm-log",
+        "web-sys"
+    ]
+}

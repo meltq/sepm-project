@@ -1,0 +1,16 @@
+{
+    "name": "lnd-grpc-tonic-client",
+    "deps": [
+        "hex",
+        "hyper",
+        "hyper-openssl",
+        "openssl",
+        "prost",
+        "thiserror",
+        "tokio",
+        "tonic",
+        "tonic-build",
+        "tonic-openssl",
+        "tower-service"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "name": "apiserver",
+    "deps": [
+        "actix-http",
+        "actix-service",
+        "actix-web",
+        "serde",
+        "serde_json",
+        "tokio"
+    ]
+}

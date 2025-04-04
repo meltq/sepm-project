@@ -1,0 +1,25 @@
+{
+    "name": "solana-runtime",
+    "deps": [
+        "bincode",
+        "bv",
+        "byteorder",
+        "fnv",
+        "hashbrown",
+        "libc",
+        "libloading",
+        "log",
+        "memmap",
+        "rand",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "solana-budget-api",
+        "solana-logger",
+        "solana-metrics",
+        "solana-sdk",
+        "solana-storage-api",
+        "solana-token-api",
+        "solana-vote-api"
+    ]
+}

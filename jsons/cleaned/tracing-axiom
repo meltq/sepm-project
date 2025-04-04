@@ -1,0 +1,17 @@
+{
+    "name": "tracing-axiom",
+    "deps": [
+        "lazy_static",
+        "opentelemetry",
+        "opentelemetry-http",
+        "opentelemetry-otlp",
+        "reqwest",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "tracing-core",
+        "tracing-opentelemetry",
+        "tracing-subscriber",
+        "url"
+    ]
+}

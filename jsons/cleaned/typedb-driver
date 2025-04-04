@@ -1,0 +1,20 @@
+{
+    "name": "typedb-driver",
+    "deps": [
+        "async-trait",
+        "chrono",
+        "crossbeam",
+        "futures",
+        "http",
+        "itertools",
+        "log",
+        "maybe-async",
+        "prost",
+        "tokio",
+        "tokio-stream",
+        "tonic",
+        "typedb-protocol",
+        "typeql_lang",
+        "uuid"
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "name": "rd-agent",
+    "deps": [
+        "anyhow",
+        "chrono",
+        "crossbeam",
+        "enum-iterator",
+        "glob",
+        "json",
+        "lazy_static",
+        "libc",
+        "linux_proc",
+        "log",
+        "nix",
+        "proc-mounts",
+        "procfs",
+        "rd-agent-intf",
+        "rd-hashd-intf",
+        "rd-util",
+        "regex",
+        "scan_fmt",
+        "serde",
+        "serde_json",
+        "sysinfo",
+        "users"
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "name": "ssh-vault",
+    "deps": [
+        "aes-gcm",
+        "anyhow",
+        "atty",
+        "base58",
+        "base64ct",
+        "chacha20poly1305",
+        "clap",
+        "ed25519-dalek",
+        "file_shred",
+        "hex-literal",
+        "hkdf",
+        "home",
+        "md5",
+        "rand",
+        "reqwest",
+        "rpassword",
+        "rsa",
+        "secrecy",
+        "sha2",
+        "ssh-key",
+        "tempfile",
+        "url",
+        "x25519-dalek"
+    ]
+}

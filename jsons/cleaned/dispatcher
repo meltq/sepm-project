@@ -1,0 +1,26 @@
+{
+    "name": "dispatcher",
+    "deps": [
+        "base64",
+        "bcrypt",
+        "broker-ntp",
+        "bus",
+        "crossbeam",
+        "envy",
+        "futures",
+        "go-flag",
+        "json",
+        "json-patch",
+        "jsonwebtoken",
+        "lazy_static",
+        "pretty_env_logger",
+        "reqwest",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "sled",
+        "tokio",
+        "uuid",
+        "warp"
+    ]
+}

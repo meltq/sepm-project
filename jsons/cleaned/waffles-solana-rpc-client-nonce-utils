@@ -1,0 +1,16 @@
+{
+    "name": "waffles-solana-rpc-client-nonce-utils",
+    "deps": [
+        "clap",
+        "solana-clap-utils",
+        "solana-rpc-client",
+        "solana-sdk",
+        "thiserror",
+        "anyhow",
+        "futures",
+        "serde_json",
+        "solana-account-decoder",
+        "solana-rpc-client-api",
+        "tokio"
+    ]
+}

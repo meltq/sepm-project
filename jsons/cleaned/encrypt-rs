@@ -1,0 +1,17 @@
+{
+    "name": "encrypt-rs",
+    "deps": [
+        "bincode",
+        "clap",
+        "hex",
+        "mktemp",
+        "secret-keeper",
+        "secret-keeper-cloudkms",
+        "secret-keeper-hashivault",
+        "secret-keeper-prompt",
+        "secret-keeper-test_util",
+        "serde",
+        "thiserror",
+        "tokio"
+    ]
+}

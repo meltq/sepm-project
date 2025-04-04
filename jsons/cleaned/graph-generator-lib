@@ -1,0 +1,23 @@
+{
+    "name": "graph-generator-lib",
+    "deps": [
+        "aws_lambda_events",
+        "failure",
+        "futures",
+        "grapl-graph-descriptions",
+        "lambda_runtime",
+        "log",
+        "prost",
+        "rusoto_core",
+        "rusoto_s3",
+        "rusoto_sqs",
+        "serde_json",
+        "sha2",
+        "sqs-lambda",
+        "thiserror",
+        "tokio",
+        "tokio-compat",
+        "uuid",
+        "zstd"
+    ]
+}

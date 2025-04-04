@@ -1,0 +1,17 @@
+{
+    "name": "sov-risc0-adapter",
+    "deps": [
+        "anyhow",
+        "bincode",
+        "bytemuck",
+        "once_cell",
+        "parking_lot",
+        "risc0-circuit-rv32im",
+        "risc0-zkp",
+        "risc0-zkvm",
+        "risc0-zkvm-platform",
+        "serde",
+        "sov-rollup-interface",
+        "sov-zk-cycle-utils"
+    ]
+}

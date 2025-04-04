@@ -1,0 +1,16 @@
+{
+    "name": "haproxy-otel",
+    "deps": [
+        "const-hex",
+        "haproxy-api",
+        "mlua",
+        "opentelemetry",
+        "opentelemetry-http",
+        "opentelemetry-jaeger-propagator",
+        "opentelemetry-otlp",
+        "opentelemetry-semantic-conventions",
+        "opentelemetry-zipkin",
+        "opentelemetry_sdk",
+        "quick_cache"
+    ]
+}

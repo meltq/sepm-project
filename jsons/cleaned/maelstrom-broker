@@ -1,0 +1,30 @@
+{
+    "name": "maelstrom-broker",
+    "deps": [
+        "anyhow",
+        "assert_matches",
+        "bincode",
+        "bytesize",
+        "clap",
+        "derive_more",
+        "enum-map",
+        "figment",
+        "futures",
+        "hyper",
+        "hyper-tungstenite",
+        "itertools",
+        "maelstrom-base",
+        "maelstrom-test",
+        "maelstrom-util",
+        "maelstrom-web",
+        "maplit",
+        "serde",
+        "serde_with",
+        "slog",
+        "slog-async",
+        "slog-term",
+        "tar",
+        "tempfile",
+        "tokio"
+    ]
+}

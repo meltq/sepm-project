@@ -1,0 +1,24 @@
+{
+    "name": "vercre-did",
+    "deps": [
+        "anyhow",
+        "base64ct",
+        "chrono",
+        "curve25519-dalek",
+        "ecdsa",
+        "ed25519-dalek",
+        "insta",
+        "k256",
+        "multibase",
+        "rand",
+        "regex",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "url",
+        "vercre-core-utils",
+        "vercre-datasec"
+    ]
+}

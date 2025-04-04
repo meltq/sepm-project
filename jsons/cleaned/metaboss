@@ -1,0 +1,30 @@
+{
+    "name": "metaboss",
+    "deps": [
+        "anyhow",
+        "assert_cmd",
+        "borsh",
+        "bs58",
+        "env_logger",
+        "glob",
+        "indicatif",
+        "lazy_static",
+        "log",
+        "metaplex-token-metadata",
+        "num_cpus",
+        "ratelimit",
+        "rayon",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "serde_yaml",
+        "solana-account-decoder",
+        "solana-client",
+        "solana-program",
+        "solana-sdk",
+        "spl-associated-token-account",
+        "spl-token",
+        "structopt",
+        "thiserror"
+    ]
+}

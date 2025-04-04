@@ -1,0 +1,17 @@
+{
+    "name": "cpp_to_rust_generator",
+    "deps": [
+        "clang",
+        "clippy",
+        "cpp_to_rust_common",
+        "libc",
+        "regex",
+        "rustfmt",
+        "select",
+        "serde",
+        "serde_codegen",
+        "serde_json",
+        "tempdir",
+        "toml"
+    ]
+}

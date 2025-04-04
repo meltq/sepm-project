@@ -1,0 +1,32 @@
+{
+    "name": "transmit",
+    "deps": [
+        "async-nats",
+        "async-trait",
+        "bytes",
+        "chrono",
+        "cron",
+        "env_logger",
+        "futures",
+        "futures-util",
+        "http-body-util",
+        "hyper",
+        "hyper-util",
+        "log",
+        "mockall",
+        "prometheus-client",
+        "prost",
+        "prost-types",
+        "reqwest",
+        "ron",
+        "serde",
+        "serde_json",
+        "serde_with",
+        "sqlx",
+        "tokio",
+        "tokio-util",
+        "tonic",
+        "tonic-build",
+        "uuid"
+    ]
+}

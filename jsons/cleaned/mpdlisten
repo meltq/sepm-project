@@ -1,0 +1,21 @@
+{
+    "name": "mpdlisten",
+    "deps": [
+        "anyhow",
+        "clap",
+        "config",
+        "configparser",
+        "itertools",
+        "mpd",
+        "regex",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "strum",
+        "time",
+        "tokio",
+        "tracing",
+        "tracing-subscriber",
+        "xdg"
+    ]
+}

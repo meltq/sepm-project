@@ -1,0 +1,20 @@
+{
+    "name": "polymesh-api-tester",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "env_logger",
+        "hex",
+        "log",
+        "polymesh-api",
+        "polymesh-api-client-extras",
+        "rand",
+        "serde",
+        "sp-core",
+        "sp-keyring",
+        "sp-runtime",
+        "sqlx",
+        "thiserror",
+        "tokio"
+    ]
+}

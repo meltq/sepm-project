@@ -1,0 +1,27 @@
+{
+    "name": "network-discovery",
+    "deps": [
+        "anyhow",
+        "aptos-channel",
+        "aptos-config",
+        "aptos-config",
+        "aptos-crypto",
+        "aptos-logger",
+        "aptos-metrics",
+        "aptos-network",
+        "aptos-secure-storage",
+        "aptos-temppath",
+        "aptos-time-service",
+        "aptos-types",
+        "aptos-workspace-hack",
+        "bcs",
+        "event-notifications",
+        "futures",
+        "move-deps",
+        "once_cell",
+        "rand",
+        "serde_yaml",
+        "short-hex-str",
+        "tokio"
+    ]
+}

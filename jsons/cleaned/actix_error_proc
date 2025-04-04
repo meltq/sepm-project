@@ -1,0 +1,10 @@
+{
+    "name": "actix_error_proc",
+    "deps": [
+        "actix-web",
+        "actix_error_proc_macros",
+        "reqwest",
+        "thiserror",
+        "tokio"
+    ]
+}

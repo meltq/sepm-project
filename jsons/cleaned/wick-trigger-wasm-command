@@ -1,0 +1,19 @@
+{
+    "name": "wick-trigger-wasm-command",
+    "deps": [
+        "async-trait",
+        "parking_lot",
+        "serde_json",
+        "structured-output",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "wasmtime",
+        "wasmtime-wasi",
+        "wick-config",
+        "wick-packet",
+        "wick-runtime",
+        "wick-trigger",
+        "wick-wasm-engine"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "openpgp-card-ssh-agent",
+    "deps": [
+        "base64",
+        "clap",
+        "env_logger",
+        "log",
+        "openpgp-card",
+        "openpgp-card-pcsc",
+        "openpgp-card-sequoia",
+        "openssh-keys",
+        "sequoia-openpgp",
+        "service-binding",
+        "sha2",
+        "ssh-agent-lib",
+        "tokio",
+        "tokio-reactor",
+        "tokio-uds"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "name": "get-all-crates",
+    "deps": [
+        "anyhow",
+        "bytes",
+        "clap",
+        "crypto-hash",
+        "futures",
+        "hex",
+        "memmap2",
+        "num-format",
+        "parking_lot",
+        "rayon",
+        "reqwest",
+        "semver",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tracing",
+        "tracing-subscriber",
+        "url",
+        "walkdir"
+    ]
+}

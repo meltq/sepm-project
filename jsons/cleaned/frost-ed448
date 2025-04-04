@@ -1,0 +1,18 @@
+{
+    "name": "frost-ed448",
+    "deps": [
+        "bincode",
+        "criterion",
+        "ed448-goldilocks",
+        "frost-core",
+        "hex",
+        "lazy_static",
+        "proptest",
+        "proptest-derive",
+        "rand",
+        "rand_chacha",
+        "rand_core",
+        "serde_json",
+        "sha3"
+    ]
+}

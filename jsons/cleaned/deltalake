@@ -1,0 +1,23 @@
+{
+    "name": "deltalake",
+    "deps": [
+        "anyhow",
+        "arrow",
+        "bytes",
+        "chrono",
+        "crossbeam",
+        "datafusion",
+        "futures",
+        "log",
+        "parquet",
+        "regex",
+        "rusoto_core",
+        "rusoto_s3",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tokio-io",
+        "utime"
+    ]
+}

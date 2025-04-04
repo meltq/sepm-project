@@ -1,0 +1,29 @@
+{
+    "name": "cw-orch-interchain-daemon",
+    "deps": [
+        "async-recursion",
+        "base64",
+        "cosmrs",
+        "cosmwasm-schema",
+        "cosmwasm-std",
+        "cosmwasm-std",
+        "cw-orch",
+        "cw-orch-core",
+        "cw-orch-daemon",
+        "cw-orch-interchain-core",
+        "cw-orch-starship",
+        "derive_builder",
+        "dialoguer",
+        "diff-struct",
+        "futures",
+        "futures-util",
+        "ibc-relayer-types",
+        "log",
+        "log4rs",
+        "pretty_env_logger",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tonic"
+    ]
+}

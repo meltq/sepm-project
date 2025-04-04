@@ -1,0 +1,17 @@
+{
+    "name": "ex3-balance-vault-client",
+    "deps": [
+        "async-trait",
+        "candid",
+        "ex3-balance-vault-public-types",
+        "ex3-canister-client",
+        "ex3-canister-types",
+        "ex3-common-error-info",
+        "ex3-core-registry-public-types",
+        "ex3-timestamp",
+        "ic-agent",
+        "ic-cdk",
+        "serde",
+        "serde_bytes"
+    ]
+}

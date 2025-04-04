@@ -1,0 +1,17 @@
+{
+    "name": "mpfs-hal-embassy",
+    "deps": [
+        "critical-section",
+        "embassy-executor",
+        "embassy-sync",
+        "embassy-time",
+        "embassy-time-driver",
+        "embassy-time-queue-utils",
+        "embedded-hal",
+        "embedded-hal-async",
+        "log",
+        "mpfs-hal",
+        "mpfs-hal-procmacros",
+        "static_cell"
+    ]
+}

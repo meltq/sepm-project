@@ -1,0 +1,17 @@
+{
+    "name": "zeronet_tracker",
+    "deps": [
+        "base64",
+        "clap",
+        "futures",
+        "log",
+        "maud",
+        "pretty_env_logger",
+        "rocket",
+        "rocket_contrib",
+        "serde",
+        "serde_bytes",
+        "serde_json",
+        "zeronet_protocol"
+    ]
+}

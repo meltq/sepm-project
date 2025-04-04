@@ -1,0 +1,29 @@
+{
+    "name": "moosicbox_audio_output",
+    "deps": [
+        "actix-web",
+        "bytes",
+        "cpal",
+        "fdk-aac",
+        "libpulse-binding",
+        "libpulse-simple-binding",
+        "log",
+        "moosicbox_assert",
+        "moosicbox_audio_decoder",
+        "moosicbox_audio_encoder",
+        "moosicbox_env_utils",
+        "moosicbox_paging",
+        "moosicbox_resampler",
+        "moosicbox_stream_utils",
+        "moosicbox_task",
+        "mp3lame-encoder",
+        "ogg",
+        "opus",
+        "rb",
+        "serde",
+        "symphonia",
+        "thiserror",
+        "tokio",
+        "utoipa"
+    ]
+}

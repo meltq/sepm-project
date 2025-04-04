@@ -1,0 +1,20 @@
+{
+    "name": "init4-bin-base",
+    "deps": [
+        "metrics",
+        "metrics-exporter-prometheus",
+        "opentelemetry",
+        "opentelemetry-otlp",
+        "opentelemetry-semantic-conventions",
+        "opentelemetry_sdk",
+        "serial_test",
+        "signal-hook",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "tracing-core",
+        "tracing-opentelemetry",
+        "tracing-subscriber",
+        "url"
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "name": "hyprstream",
+    "deps": [
+        "adbc_core",
+        "arrow",
+        "arrow-array",
+        "arrow-flight",
+        "arrow-ipc",
+        "arrow-schema",
+        "async-trait",
+        "bincode",
+        "bytes",
+        "chrono",
+        "clap",
+        "config",
+        "duckdb",
+        "futures",
+        "hex",
+        "lazy_static",
+        "polars",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "sqlparser",
+        "tokio",
+        "tokio-rustls",
+        "tokio-stream",
+        "tonic",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

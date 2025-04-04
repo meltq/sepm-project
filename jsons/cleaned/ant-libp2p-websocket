@@ -1,0 +1,23 @@
+{
+    "name": "ant-libp2p-websocket",
+    "deps": [
+        "ant-libp2p-core",
+        "ant-libp2p-tcp",
+        "async-std",
+        "either",
+        "futures",
+        "futures-rustls",
+        "libp2p-dns",
+        "libp2p-identity",
+        "libp2p-identity",
+        "parking_lot",
+        "pin-project-lite",
+        "rcgen",
+        "rw-stream-sink",
+        "soketto",
+        "thiserror",
+        "tracing",
+        "url",
+        "webpki-roots"
+    ]
+}

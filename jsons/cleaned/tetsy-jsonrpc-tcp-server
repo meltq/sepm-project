@@ -1,0 +1,12 @@
+{
+    "name": "tetsy-jsonrpc-tcp-server",
+    "deps": [
+        "env_logger",
+        "lazy_static",
+        "log",
+        "parking_lot",
+        "tetsy-jsonrpc-core",
+        "tetsy-jsonrpc-server-utils",
+        "tokio-service"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "name": "ayun-core",
+    "deps": [
+        "argon2",
+        "axum",
+        "bb8-redis",
+        "bytes",
+        "dotenvy",
+        "jsonwebtoken",
+        "object_store",
+        "sea-orm-migration",
+        "thiserror",
+        "toml",
+        "tracing-subscriber"
+    ]
+}

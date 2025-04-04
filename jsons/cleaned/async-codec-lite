@@ -1,0 +1,19 @@
+{
+    "name": "async-codec-lite",
+    "deps": [
+        "anyhow",
+        "bytes",
+        "futures-core",
+        "futures-io",
+        "futures-lite",
+        "futures-sink",
+        "futures-util",
+        "log",
+        "memchr",
+        "pin-project-lite",
+        "serde",
+        "serde_cbor",
+        "serde_json",
+        "thiserror"
+    ]
+}

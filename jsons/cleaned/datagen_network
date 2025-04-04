@@ -1,0 +1,15 @@
+{
+    "name": "datagen_network",
+    "deps": [
+        "chrono",
+        "clap",
+        "datagen_gnss",
+        "futures",
+        "mio",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "smelter-worker",
+    "deps": [
+        "error-stack",
+        "opentelemetry",
+        "serde",
+        "serde_json",
+        "sysinfo",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "tracing-opentelemetry",
+        "uuid"
+    ]
+}

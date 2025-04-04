@@ -1,0 +1,23 @@
+{
+    "name": "ozone-ws",
+    "deps": [
+        "actix-multipart",
+        "actix-web",
+        "anyhow",
+        "bytes",
+        "env_logger",
+        "envy",
+        "futures-util",
+        "lazy_static",
+        "pretty_assertions",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "serde_with",
+        "tempfile",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

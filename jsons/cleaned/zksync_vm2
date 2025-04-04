@@ -1,0 +1,15 @@
+{
+    "name": "zksync_vm2",
+    "deps": [
+        "anyhow",
+        "arbitrary",
+        "divan",
+        "enum_dispatch",
+        "primitive-types",
+        "proptest",
+        "zk_evm",
+        "zk_evm_abstractions",
+        "zkevm_opcode_defs",
+        "zksync_vm2_interface"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "name": "bbox-feature-server",
+    "deps": [
+        "actix-web",
+        "async-trait",
+        "bbox-core",
+        "chrono",
+        "clap",
+        "dyn-clone",
+        "futures",
+        "geozero",
+        "log",
+        "minijinja",
+        "once_cell",
+        "rust-embed",
+        "serde",
+        "serde_json",
+        "serde_urlencoded",
+        "sqlx",
+        "test-log",
+        "thiserror",
+        "tokio"
+    ]
+}

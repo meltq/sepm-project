@@ -1,0 +1,14 @@
+{
+    "name": "iceberg-catalog-memory",
+    "deps": [
+        "async-trait",
+        "futures",
+        "iceberg",
+        "itertools",
+        "regex",
+        "serde_json",
+        "tempfile",
+        "tokio",
+        "uuid"
+    ]
+}

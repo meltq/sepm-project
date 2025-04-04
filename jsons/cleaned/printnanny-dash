@@ -1,0 +1,20 @@
+{
+    "name": "printnanny-dash",
+    "deps": [
+        "anyhow",
+        "clap",
+        "indexmap",
+        "log",
+        "printnanny-api-client",
+        "printnanny-services",
+        "rocket",
+        "rocket_dyn_templates",
+        "rocket_sync_db_pools",
+        "serde",
+        "serde_json",
+        "sqlx",
+        "thiserror",
+        "time",
+        "tokio"
+    ]
+}

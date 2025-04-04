@@ -1,0 +1,24 @@
+{
+    "name": "drmemd",
+    "deps": [
+        "chrono",
+        "drmem-api",
+        "drmem-config",
+        "drmem-db-redis",
+        "drmem-db-simple",
+        "drmem-drv-ntp",
+        "drmem-drv-sump",
+        "drmem-drv-weather-wu",
+        "futures",
+        "juniper",
+        "juniper_graphql_ws",
+        "juniper_warp",
+        "tokio",
+        "tokio-stream",
+        "toml",
+        "tracing",
+        "tracing-futures",
+        "tracing-subscriber",
+        "warp"
+    ]
+}

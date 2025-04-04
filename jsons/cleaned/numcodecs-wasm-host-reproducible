@@ -1,0 +1,25 @@
+{
+    "name": "numcodecs-wasm-host-reproducible",
+    "deps": [
+        "anyhow",
+        "indexmap",
+        "log",
+        "numcodecs",
+        "numcodecs-wasm-host",
+        "polonius-the-crab",
+        "schemars",
+        "semver",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "vecmap-rs",
+        "wac-graph",
+        "wasi-sandboxed-component-provider",
+        "wasm-encoder",
+        "wasm_component_layer",
+        "wasm_runtime_layer",
+        "wasmparser",
+        "wit-component",
+        "wit-parser"
+    ]
+}

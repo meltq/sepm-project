@@ -1,0 +1,16 @@
+{
+    "name": "trustchain-cli",
+    "deps": [
+        "clap",
+        "lazy_static",
+        "serde",
+        "serde_json",
+        "ssi",
+        "tokio",
+        "toml",
+        "trustchain-api",
+        "trustchain-core",
+        "trustchain-http",
+        "trustchain-ion"
+    ]
+}

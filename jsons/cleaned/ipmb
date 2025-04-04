@@ -1,0 +1,24 @@
+{
+    "name": "ipmb",
+    "deps": [
+        "bincode",
+        "bytesize",
+        "core-foundation",
+        "env_logger",
+        "io-surface",
+        "ipmb-derive",
+        "libc",
+        "log",
+        "num-format",
+        "once_cell",
+        "rand",
+        "serde",
+        "serde_bytes",
+        "smallvec",
+        "smol_str",
+        "thiserror",
+        "type-uuid",
+        "uuid",
+        "windows"
+    ]
+}

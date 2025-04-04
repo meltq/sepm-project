@@ -1,0 +1,13 @@
+{
+    "name": "fido2luks",
+    "deps": [
+        "cryptsetup-rs",
+        "ctap",
+        "failure",
+        "hex",
+        "libcryptsetup-sys",
+        "rpassword",
+        "rust-crypto",
+        "structopt"
+    ]
+}

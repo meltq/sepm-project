@@ -1,0 +1,13 @@
+{
+    "name": "svc-error",
+    "deps": [
+        "diesel",
+        "http",
+        "r2d2",
+        "serde",
+        "serde_derive",
+        "svc-agent",
+        "svc-authn",
+        "svc-authz"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "name": "zksync_tee_verifier",
+    "deps": [
+        "anyhow",
+        "serde",
+        "tracing",
+        "zksync_config",
+        "zksync_crypto_primitives",
+        "zksync_dal",
+        "zksync_db_connection",
+        "zksync_merkle_tree",
+        "zksync_multivm",
+        "zksync_object_store",
+        "zksync_prover_interface",
+        "zksync_queued_job_processor",
+        "zksync_state",
+        "zksync_types",
+        "zksync_utils",
+        "zksync_vm_utils"
+    ]
+}

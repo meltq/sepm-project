@@ -1,0 +1,22 @@
+{
+    "name": "webauthn-rs-core",
+    "deps": [
+        "base64",
+        "base64urlsafedata",
+        "compact_jwt",
+        "der-parser",
+        "hex-literal",
+        "nom",
+        "openssl",
+        "rand",
+        "serde",
+        "serde_cbor",
+        "serde_json",
+        "thiserror",
+        "tracing",
+        "tracing-subscriber",
+        "url",
+        "webauthn-rs-proto",
+        "x509-parser"
+    ]
+}

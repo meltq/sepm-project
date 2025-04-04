@@ -1,0 +1,19 @@
+{
+    "name": "core_bluetooth",
+    "deps": [
+        "anyhow",
+        "async-std",
+        "chrono",
+        "clap",
+        "enumflags2",
+        "env_logger",
+        "hex",
+        "hex-literal",
+        "lazy_static",
+        "log",
+        "macaddr",
+        "objc",
+        "openssl-sys",
+        "static_assertions"
+    ]
+}

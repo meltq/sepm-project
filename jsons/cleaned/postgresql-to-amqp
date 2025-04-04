@@ -1,0 +1,13 @@
+{
+    "name": "postgresql-to-amqp",
+    "deps": [
+        "amq-protocol",
+        "env_logger",
+        "fallible-iterator",
+        "futures",
+        "lapin-futures",
+        "log",
+        "postgres",
+        "tokio-core"
+    ]
+}

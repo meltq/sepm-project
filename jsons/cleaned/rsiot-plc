@@ -1,0 +1,13 @@
+{
+    "name": "rsiot-plc",
+    "deps": [
+        "rsiot-component-core",
+        "rsiot-extra-components",
+        "rsiot-messages-core",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

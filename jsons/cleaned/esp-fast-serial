@@ -1,0 +1,19 @@
+{
+    "name": "esp-fast-serial",
+    "deps": [
+        "bbqueue",
+        "critical-section",
+        "defmt",
+        "embassy-executor",
+        "embassy-futures",
+        "embassy-sync",
+        "embedded-hal",
+        "embedded-hal-async",
+        "embedded-io",
+        "embedded-io-async",
+        "esp-backtrace",
+        "esp-hal",
+        "esp-hal-embassy",
+        "esp-println"
+    ]
+}

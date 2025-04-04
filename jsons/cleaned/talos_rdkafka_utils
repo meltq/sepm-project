@@ -1,0 +1,16 @@
+{
+    "name": "talos_rdkafka_utils",
+    "deps": [
+        "async-trait",
+        "criterion",
+        "env_logger",
+        "log",
+        "mockall",
+        "rdkafka",
+        "serial_test",
+        "talos_common_utils",
+        "thiserror",
+        "tokio",
+        "tokio-test"
+    ]
+}

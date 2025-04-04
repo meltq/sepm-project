@@ -1,0 +1,17 @@
+{
+    "name": "gear-sandbox-host",
+    "deps": [
+        "codec",
+        "environmental",
+        "gear-sandbox-env",
+        "log",
+        "sandbox-wasmer",
+        "sandbox-wasmer-types",
+        "sp-allocator",
+        "sp-wasm-interface-common",
+        "tempfile",
+        "thiserror",
+        "wasmer-cache",
+        "wasmi"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "name": "gluesql-git-storage",
+    "deps": [
+        "async-trait",
+        "gluesql-core",
+        "gluesql-csv-storage",
+        "gluesql-file-storage",
+        "gluesql-json-storage",
+        "strum_macros",
+        "test-suite",
+        "tokio",
+        "uuid"
+    ]
+}

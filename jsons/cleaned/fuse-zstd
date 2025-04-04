@@ -1,0 +1,19 @@
+{
+    "name": "fuse-zstd",
+    "deps": [
+        "assert_cmd",
+        "clap",
+        "env_logger",
+        "fuser",
+        "libc",
+        "log",
+        "proc-mounts",
+        "rstest",
+        "sentry",
+        "sentry-log",
+        "sled",
+        "tempfile",
+        "xattr",
+        "zstd"
+    ]
+}

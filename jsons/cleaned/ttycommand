@@ -1,0 +1,19 @@
+{
+    "name": "ttycommand",
+    "deps": [
+        "anyhow",
+        "async-stream",
+        "futures",
+        "futures-core",
+        "futures-util",
+        "libc",
+        "log",
+        "nix",
+        "serde",
+        "tokio",
+        "tokio-fd",
+        "tokio-stream",
+        "toml",
+        "which"
+    ]
+}

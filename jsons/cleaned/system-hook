@@ -1,0 +1,23 @@
+{
+    "name": "system-hook",
+    "deps": [
+        "argh",
+        "axum",
+        "color-eyre",
+        "dialoguer",
+        "dotenvy",
+        "futures",
+        "github-webhook-extract",
+        "hyper",
+        "nix",
+        "serde",
+        "serde_json",
+        "text-completions",
+        "thiserror",
+        "tokio",
+        "toml",
+        "tower-http",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

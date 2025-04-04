@@ -1,0 +1,16 @@
+{
+    "name": "degen-sql",
+    "deps": [
+        "dotenvy",
+        "env_logger",
+        "include_dir",
+        "inquire",
+        "log",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tokio-postgres",
+        "tokio-postgres-migration"
+    ]
+}

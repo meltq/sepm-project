@@ -1,0 +1,20 @@
+{
+    "name": "event-store-adapter-rs",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "aws-config",
+        "aws-sdk-dynamodb",
+        "chrono",
+        "env_logger",
+        "log",
+        "once_cell",
+        "serde",
+        "serde_json",
+        "serial_test",
+        "testcontainers",
+        "thiserror",
+        "tokio",
+        "ulid-generator-rs"
+    ]
+}

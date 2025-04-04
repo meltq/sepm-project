@@ -1,0 +1,16 @@
+{
+    "name": "mpd-lyricsd",
+    "deps": [
+        "anyhow",
+        "mpd_client",
+        "regex",
+        "reqwest",
+        "scraper",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tracing",
+        "tracing-subscriber",
+        "universal-config"
+    ]
+}

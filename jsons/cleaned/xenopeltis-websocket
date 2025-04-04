@@ -1,0 +1,17 @@
+{
+    "name": "xenopeltis-websocket",
+    "deps": [
+        "anyhow",
+        "env_logger",
+        "futures",
+        "log",
+        "serde",
+        "serde_json",
+        "structopt",
+        "tokio",
+        "tokio-serde",
+        "tokio-tungstenite",
+        "tokio-util",
+        "xenopeltis-common"
+    ]
+}

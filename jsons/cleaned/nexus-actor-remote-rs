@@ -1,0 +1,24 @@
+{
+    "name": "nexus-actor-remote-rs",
+    "deps": [
+        "async-trait",
+        "dashmap",
+        "futures",
+        "nexus-actor-core-rs",
+        "nexus-actor-message-derive-rs",
+        "nexus-actor-utils-rs",
+        "num_enum",
+        "once_cell",
+        "prost",
+        "prost-types",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tonic",
+        "tonic-build",
+        "tonic-types",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

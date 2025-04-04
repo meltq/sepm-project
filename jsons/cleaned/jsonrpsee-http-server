@@ -1,0 +1,15 @@
+{
+    "name": "jsonrpsee-http-server",
+    "deps": [
+        "anyhow",
+        "env_logger",
+        "hyper",
+        "jsonrpsee-types",
+        "jsonrpsee-utils",
+        "log",
+        "serde",
+        "serde_json",
+        "socket2",
+        "tokio"
+    ]
+}

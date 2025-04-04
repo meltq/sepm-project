@@ -1,0 +1,23 @@
+{
+    "name": "hdp-preprocessor",
+    "deps": [
+        "alloy",
+        "alloy-merkle-tree",
+        "anyhow",
+        "cairo-lang-starknet-classes",
+        "futures",
+        "hdp-cairo-runner",
+        "hdp-primitives",
+        "hdp-provider",
+        "lazy_static",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "starknet",
+        "starknet-crypto",
+        "tempfile",
+        "thiserror",
+        "tokio",
+        "tracing"
+    ]
+}

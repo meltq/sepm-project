@@ -1,0 +1,19 @@
+{
+    "name": "wasm_component_layer",
+    "deps": [
+        "anyhow",
+        "bytemuck",
+        "fxhash",
+        "id-arena",
+        "once_cell",
+        "ref-cast",
+        "semver",
+        "slab",
+        "wasm_runtime_layer",
+        "wasm_runtime_layer",
+        "wasmi",
+        "wasmtime-environ",
+        "wit-component",
+        "wit-parser"
+    ]
+}

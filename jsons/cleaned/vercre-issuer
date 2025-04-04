@@ -1,0 +1,21 @@
+{
+    "name": "vercre-issuer",
+    "deps": [
+        "assert_let_bind",
+        "base64ct",
+        "chrono",
+        "derive_builder",
+        "futures",
+        "insta",
+        "serde",
+        "serde_json",
+        "sha2",
+        "tokio",
+        "tracing",
+        "vercre-core-utils",
+        "vercre-datasec",
+        "vercre-openid",
+        "vercre-test-utils",
+        "vercre-w3c-vc"
+    ]
+}

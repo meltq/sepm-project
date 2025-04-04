@@ -1,0 +1,15 @@
+{
+    "name": "cdpay",
+    "deps": [
+        "futures",
+        "hyper",
+        "hyper-tls",
+        "native-tls",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "tokio-core",
+        "tokio-retry",
+        "urlencoding"
+    ]
+}

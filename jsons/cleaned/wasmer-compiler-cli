@@ -1,0 +1,23 @@
+{
+    "name": "wasmer-compiler-cli",
+    "deps": [
+        "anyhow",
+        "atty",
+        "bytesize",
+        "cfg-if",
+        "colored",
+        "distance",
+        "fern",
+        "log",
+        "structopt",
+        "tempfile",
+        "unix_mode",
+        "wasmer-compiler",
+        "wasmer-compiler-cranelift",
+        "wasmer-compiler-cranelift",
+        "wasmer-compiler-singlepass",
+        "wasmer-compiler-singlepass",
+        "wasmer-engine-universal-artifact",
+        "wasmer-types"
+    ]
+}

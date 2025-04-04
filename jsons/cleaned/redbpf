@@ -1,0 +1,16 @@
+{
+    "name": "redbpf",
+    "deps": [
+        "bindgen",
+        "bpf-sys",
+        "goblin",
+        "lazy_static",
+        "libc",
+        "regex",
+        "ring",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "zero"
+    ]
+}

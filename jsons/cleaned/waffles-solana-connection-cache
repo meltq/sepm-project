@@ -1,0 +1,21 @@
+{
+    "name": "waffles-solana-connection-cache",
+    "deps": [
+        "async-trait",
+        "bincode",
+        "futures-util",
+        "indexmap",
+        "indicatif",
+        "log",
+        "rand",
+        "rand_chacha",
+        "rayon",
+        "solana-logger",
+        "solana-measure",
+        "solana-metrics",
+        "solana-net-utils",
+        "solana-sdk",
+        "thiserror",
+        "tokio"
+    ]
+}

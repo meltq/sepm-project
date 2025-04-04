@@ -1,0 +1,30 @@
+{
+    "name": "etherfuse-arb",
+    "deps": [
+        "anyhow",
+        "base58",
+        "base64",
+        "bincode",
+        "clap",
+        "colored",
+        "futures",
+        "jsonrpsee",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "solana-cli-config",
+        "solana-client",
+        "solana-program",
+        "solana-rpc-client",
+        "solana-sdk",
+        "solana-transaction-status",
+        "spl-associated-token-account",
+        "spl-token",
+        "spl-token-2022",
+        "stablebond-sdk",
+        "thiserror",
+        "tokio",
+        "tokio-tungstenite",
+        "url"
+    ]
+}

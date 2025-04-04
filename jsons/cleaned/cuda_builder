@@ -1,0 +1,10 @@
+{
+    "name": "cuda_builder",
+    "deps": [
+        "find_cuda_helper",
+        "nvvm",
+        "rustc_codegen_nvvm",
+        "serde",
+        "serde_json"
+    ]
+}

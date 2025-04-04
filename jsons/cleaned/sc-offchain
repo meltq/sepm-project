@@ -1,0 +1,24 @@
+{
+    "name": "sc-offchain",
+    "deps": [
+        "bytes",
+        "codec",
+        "fnv",
+        "futures",
+        "futures-timer",
+        "hyper",
+        "hyper-rustls",
+        "log",
+        "num_cpus",
+        "parking_lot",
+        "rand",
+        "sc-client-api",
+        "sc-keystore",
+        "sc-network",
+        "sp-api",
+        "sp-core",
+        "sp-offchain",
+        "sp-runtime",
+        "threadpool"
+    ]
+}

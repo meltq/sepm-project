@@ -1,0 +1,25 @@
+{
+    "name": "wasmer-c-api",
+    "deps": [
+        "cbindgen",
+        "cfg-if",
+        "lazy_static",
+        "libc",
+        "libffi",
+        "paste",
+        "serde",
+        "thiserror",
+        "typetag",
+        "wasmer",
+        "wasmer-compiler",
+        "wasmer-compiler-cranelift",
+        "wasmer-compiler-llvm",
+        "wasmer-compiler-singlepass",
+        "wasmer-emscripten",
+        "wasmer-engine",
+        "wasmer-engine-jit",
+        "wasmer-engine-native",
+        "wasmer-types",
+        "wasmer-wasi"
+    ]
+}

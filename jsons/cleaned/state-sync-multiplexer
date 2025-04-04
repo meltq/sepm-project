@@ -1,0 +1,31 @@
+{
+    "name": "state-sync-multiplexer",
+    "deps": [
+        "aptos-config",
+        "aptos-crypto",
+        "aptos-data-client",
+        "aptos-executor",
+        "aptos-genesis-tool",
+        "aptos-infallible",
+        "aptos-network",
+        "aptos-temppath",
+        "aptos-time-service",
+        "aptos-types",
+        "aptos-vm",
+        "aptos-workspace-hack",
+        "aptosdb",
+        "consensus-notifications",
+        "data-streaming-service",
+        "event-notifications",
+        "executor-test-helpers",
+        "executor-types",
+        "futures",
+        "mempool-notifications",
+        "mempool-notifications",
+        "state-sync-driver",
+        "state-sync-v1",
+        "storage-interface",
+        "storage-service-client",
+        "tokio"
+    ]
+}

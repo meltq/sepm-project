@@ -1,0 +1,20 @@
+{
+    "name": "oxide-auth-db",
+    "deps": [
+        "anyhow",
+        "log",
+        "log4rs",
+        "once_cell",
+        "oxide-auth",
+        "r2d2",
+        "r2d2_redis",
+        "rand",
+        "reqwest",
+        "rust-argon2",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "tokio",
+        "url"
+    ]
+}

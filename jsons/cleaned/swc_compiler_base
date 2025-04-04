@@ -1,0 +1,21 @@
+{
+    "name": "swc_compiler_base",
+    "deps": [
+        "anyhow",
+        "base64",
+        "napi",
+        "napi-derive",
+        "pathdiff",
+        "serde",
+        "sourcemap",
+        "swc_atoms",
+        "swc_common",
+        "swc_config",
+        "swc_ecma_ast",
+        "swc_ecma_codegen",
+        "swc_ecma_minifier",
+        "swc_ecma_parser",
+        "swc_ecma_visit",
+        "swc_timer"
+    ]
+}

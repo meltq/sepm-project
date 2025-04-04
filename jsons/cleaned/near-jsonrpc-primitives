@@ -1,0 +1,20 @@
+{
+    "name": "near-jsonrpc-primitives",
+    "deps": [
+        "actix",
+        "lazy_static",
+        "near-chain-configs",
+        "near-client-primitives",
+        "near-crypto-v01",
+        "near-metrics",
+        "near-network",
+        "near-primitives-core-v01",
+        "near-primitives-v01",
+        "near-rpc-error-macro",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tracing",
+        "uuid"
+    ]
+}

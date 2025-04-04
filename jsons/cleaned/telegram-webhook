@@ -1,0 +1,13 @@
+{
+    "name": "telegram-webhook",
+    "deps": [
+        "actix-web",
+        "anyhow",
+        "clap",
+        "color-eyre",
+        "teloxide",
+        "tracing",
+        "tracing-subscriber",
+        "vergen"
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "name": "stack_test_epic_api",
+    "deps": [
+        "bigint",
+        "easy-jsonrpc-mw",
+        "failure",
+        "failure_derive",
+        "futures",
+        "http",
+        "hyper",
+        "hyper-rustls",
+        "hyper-timeout",
+        "lazy_static",
+        "log",
+        "regex",
+        "ring",
+        "rustls",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "stack_test_epic_chain",
+        "stack_test_epic_core",
+        "stack_test_epic_p2p",
+        "stack_test_epic_pool",
+        "stack_test_epic_store",
+        "stack_test_epic_util",
+        "tokio",
+        "tokio-core",
+        "tokio-rustls",
+        "tokio-tcp",
+        "url"
+    ]
+}

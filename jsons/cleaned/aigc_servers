@@ -1,0 +1,28 @@
+{
+    "name": "aigc_servers",
+    "deps": [
+        "aigc_api",
+        "aigc_chain",
+        "aigc_core",
+        "aigc_keychain",
+        "aigc_p2p",
+        "aigc_pool",
+        "aigc_store",
+        "aigc_util",
+        "chrono",
+        "fs2",
+        "futures",
+        "http",
+        "hyper",
+        "hyper-rustls",
+        "lmdb-zero",
+        "log",
+        "rand",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "tokio",
+        "tokio-util",
+        "walkdir"
+    ]
+}

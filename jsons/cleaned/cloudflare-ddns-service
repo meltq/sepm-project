@@ -1,0 +1,14 @@
+{
+    "name": "cloudflare-ddns-service",
+    "deps": [
+        "anyhow",
+        "cloudflare",
+        "directories-next",
+        "env_logger",
+        "log",
+        "reqwest",
+        "serde",
+        "serde_yaml",
+        "tokio"
+    ]
+}

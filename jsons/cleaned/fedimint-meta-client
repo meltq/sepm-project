@@ -1,0 +1,23 @@
+{
+    "name": "fedimint-meta-client",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "clap",
+        "erased-serde",
+        "fedimint-client",
+        "fedimint-core",
+        "fedimint-meta-common",
+        "futures",
+        "hex",
+        "rand",
+        "secp256k1",
+        "serde",
+        "serde_json",
+        "strum",
+        "strum_macros",
+        "thiserror",
+        "threshold_crypto",
+        "tracing"
+    ]
+}

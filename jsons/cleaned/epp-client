@@ -1,0 +1,23 @@
+{
+    "name": "epp-client",
+    "deps": [
+        "bytes",
+        "chrono",
+        "confy",
+        "env_logger",
+        "epp-client-macros",
+        "futures",
+        "lazy_static",
+        "log",
+        "quick-xml",
+        "regex",
+        "rustls",
+        "rustls-pemfile",
+        "serde",
+        "tokio",
+        "tokio-rustls",
+        "tokio-test",
+        "webpki",
+        "webpki-roots"
+    ]
+}

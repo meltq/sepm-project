@@ -1,0 +1,32 @@
+{
+    "name": "interledger-btp",
+    "deps": [
+        "base64",
+        "byteorder",
+        "bytes",
+        "chrono",
+        "env_logger",
+        "futures",
+        "hashbrown",
+        "hex",
+        "interledger-ildcp",
+        "interledger-packet",
+        "interledger-service",
+        "interledger-service-util",
+        "lazy_static",
+        "log",
+        "num-bigint",
+        "parking_lot",
+        "quick-error",
+        "rand",
+        "ring",
+        "stream-cancel",
+        "tokio",
+        "tokio-executor",
+        "tokio-io",
+        "tokio-tcp",
+        "tokio-tungstenite",
+        "tungstenite",
+        "url"
+    ]
+}

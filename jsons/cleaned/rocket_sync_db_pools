@@ -1,0 +1,17 @@
+{
+    "name": "rocket_sync_db_pools",
+    "deps": [
+        "diesel",
+        "memcache",
+        "postgres",
+        "r2d2",
+        "r2d2-memcache",
+        "r2d2_postgres",
+        "r2d2_sqlite",
+        "rocket",
+        "rocket_sync_db_pools_codegen",
+        "rusqlite",
+        "serde",
+        "tokio"
+    ]
+}

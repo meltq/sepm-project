@@ -1,0 +1,10 @@
+{
+    "name": "embedded-hal-fuzz",
+    "deps": [
+        "embedded-hal",
+        "libfuzzer-sys",
+        "nb",
+        "num-derive",
+        "num-traits"
+    ]
+}

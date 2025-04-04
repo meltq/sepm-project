@@ -1,0 +1,26 @@
+{
+    "name": "cosmwasm-simulate",
+    "deps": [
+        "base64",
+        "bincode",
+        "byteorder",
+        "clap",
+        "colored",
+        "cosmwasm-std",
+        "cosmwasm-vm",
+        "dynasm",
+        "dynasmrt",
+        "itertools",
+        "lazy_static",
+        "libc",
+        "nix",
+        "rustyline",
+        "rustyline-derive",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "smallvec",
+        "wasmer-middleware-common",
+        "wasmer-runtime-core"
+    ]
+}

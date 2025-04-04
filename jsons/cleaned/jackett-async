@@ -1,0 +1,15 @@
+{
+    "name": "jackett-async",
+    "deps": [
+        "itertools",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "torrent-common",
+        "torrent-name-parser",
+        "tracing",
+        "tracing-futures",
+        "urlencoding"
+    ]
+}

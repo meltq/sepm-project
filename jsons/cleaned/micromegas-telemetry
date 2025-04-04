@@ -1,0 +1,19 @@
+{
+    "name": "micromegas-telemetry",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "axum",
+        "bytes",
+        "chrono",
+        "ciborium",
+        "http",
+        "hyper",
+        "lz4",
+        "micromegas-tracing",
+        "micromegas-transit",
+        "object_store",
+        "serde",
+        "url"
+    ]
+}

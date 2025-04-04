@@ -1,0 +1,20 @@
+{
+    "name": "solitaire_cypher_cli",
+    "deps": [
+        "anyhow",
+        "assert_cmd",
+        "bounded-integer",
+        "card_play",
+        "clap",
+        "dotenvy",
+        "lazy_static",
+        "log",
+        "once_cell",
+        "predicates",
+        "pretty_env_logger",
+        "rand",
+        "rand_distr",
+        "regex",
+        "solitaire_cypher"
+    ]
+}

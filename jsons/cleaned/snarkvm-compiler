@@ -1,0 +1,28 @@
+{
+    "name": "snarkvm-compiler",
+    "deps": [
+        "anyhow",
+        "bincode",
+        "circuit",
+        "colored",
+        "console",
+        "indexmap",
+        "once_cell",
+        "parking_lot",
+        "paste",
+        "rand",
+        "rayon",
+        "regex",
+        "serde",
+        "serde_json",
+        "serial_test",
+        "snarkvm-algorithms",
+        "snarkvm-curves",
+        "snarkvm-fields",
+        "snarkvm-parameters",
+        "snarkvm-utilities",
+        "time",
+        "tracing",
+        "tracing-test"
+    ]
+}

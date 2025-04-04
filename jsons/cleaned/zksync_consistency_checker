@@ -1,0 +1,18 @@
+{
+    "name": "zksync_consistency_checker",
+    "deps": [
+        "anyhow",
+        "serde",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "zksync_contracts",
+        "zksync_dal",
+        "zksync_eth_client",
+        "zksync_eth_sender",
+        "zksync_health_check",
+        "zksync_l1_contract_interface",
+        "zksync_shared_metrics",
+        "zksync_types"
+    ]
+}

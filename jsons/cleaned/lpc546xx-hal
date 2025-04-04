@@ -1,0 +1,16 @@
+{
+    "name": "lpc546xx-hal",
+    "deps": [
+        "cortex-m",
+        "cortex-m-rt",
+        "defmt",
+        "defmt-rtt",
+        "defmt-test",
+        "embedded-hal",
+        "embedded-time",
+        "lpc546xx-pac",
+        "nb",
+        "panic-probe",
+        "void"
+    ]
+}

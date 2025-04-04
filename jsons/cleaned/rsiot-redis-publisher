@@ -1,0 +1,12 @@
+{
+    "name": "rsiot-redis-publisher",
+    "deps": [
+        "redis",
+        "rsiot-messages-core",
+        "serde",
+        "tokio",
+        "tracing",
+        "tracing-subscriber",
+        "url"
+    ]
+}

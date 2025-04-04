@@ -1,0 +1,21 @@
+{
+    "name": "drain_server",
+    "deps": [
+        "brotli",
+        "bstr",
+        "bytes",
+        "chrono",
+        "drain_common",
+        "flate2",
+        "glob",
+        "libloading",
+        "mime_guess",
+        "openssl",
+        "regex",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tokio-openssl",
+        "urlencoding"
+    ]
+}

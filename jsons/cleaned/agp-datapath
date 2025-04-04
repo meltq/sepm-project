@@ -1,0 +1,21 @@
+{
+    "name": "agp-datapath",
+    "deps": [
+        "bit-vec",
+        "bytes",
+        "drain",
+        "h2",
+        "parking_lot",
+        "prost",
+        "protoc-bin-vendored",
+        "rand",
+        "thiserror",
+        "tokio",
+        "tokio-stream",
+        "tokio-util",
+        "tonic",
+        "tonic-build",
+        "tracing",
+        "tracing-test"
+    ]
+}

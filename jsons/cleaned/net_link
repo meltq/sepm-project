@@ -1,0 +1,29 @@
+{
+    "name": "net_link",
+    "deps": [
+        "anyhow",
+        "async-shutdown",
+        "bytes",
+        "clap",
+        "crossbeam-queue",
+        "ctrlc2",
+        "env_logger",
+        "futures",
+        "libc",
+        "log",
+        "mime_guess",
+        "net-route",
+        "parking_lot",
+        "pnet_packet",
+        "rust-embed",
+        "rustp2p",
+        "serde",
+        "serde_json",
+        "serde_yaml",
+        "tabled",
+        "tokio",
+        "tun-rs",
+        "warp",
+        "windows-sys"
+    ]
+}

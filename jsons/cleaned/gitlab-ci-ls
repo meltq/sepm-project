@@ -1,0 +1,19 @@
+{
+    "name": "gitlab-ci-ls",
+    "deps": [
+        "anyhow",
+        "git2",
+        "gitlab-ci-ls-parser",
+        "log",
+        "lsp-server",
+        "lsp-types",
+        "regex",
+        "serde",
+        "serde_json",
+        "simple-logging",
+        "simple_logger",
+        "tokio",
+        "tree-sitter",
+        "tree-sitter-yaml"
+    ]
+}

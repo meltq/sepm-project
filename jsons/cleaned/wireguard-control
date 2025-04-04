@@ -1,0 +1,11 @@
+{
+    "name": "wireguard-control",
+    "deps": [
+        "base64",
+        "curve25519-dalek",
+        "hex",
+        "libc",
+        "rand_core",
+        "wireguard-control-sys"
+    ]
+}

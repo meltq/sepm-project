@@ -1,0 +1,26 @@
+{
+    "name": "tx5-signal",
+    "deps": [
+        "futures",
+        "lair_keystore_api",
+        "once_cell",
+        "rand",
+        "rand-utf8",
+        "rcgen",
+        "ring",
+        "rustls",
+        "rustls-native-certs",
+        "rustls-pemfile",
+        "sha2",
+        "socket2",
+        "sodoken",
+        "tokio",
+        "tokio-rustls",
+        "tokio-tungstenite",
+        "tracing",
+        "tracing-subscriber",
+        "tx5-core",
+        "tx5-signal-srv",
+        "url"
+    ]
+}

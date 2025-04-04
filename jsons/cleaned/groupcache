@@ -1,0 +1,24 @@
+{
+    "name": "groupcache",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "axum",
+        "cargo-husky",
+        "groupcache-pb",
+        "hashring",
+        "metrics",
+        "moka",
+        "pretty_assertions",
+        "rmp-serde",
+        "rstest",
+        "serde",
+        "serial_test",
+        "singleflight-async",
+        "thiserror",
+        "tokio",
+        "tokio",
+        "tokio-stream",
+        "tonic"
+    ]
+}

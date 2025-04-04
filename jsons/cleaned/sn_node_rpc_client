@@ -1,0 +1,22 @@
+{
+    "name": "sn_node_rpc_client",
+    "deps": [
+        "assert_fs",
+        "bls",
+        "clap",
+        "color-eyre",
+        "hex",
+        "libp2p",
+        "sn_client",
+        "sn_logging",
+        "sn_node",
+        "sn_peers_acquisition",
+        "sn_protocol",
+        "sn_transfers",
+        "tokio",
+        "tokio-stream",
+        "tonic",
+        "tracing",
+        "tracing-core"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "actix-redis-jobs",
+    "deps": [
+        "actix",
+        "actix-rt",
+        "chrono",
+        "env_logger",
+        "failure",
+        "futures",
+        "log",
+        "redis",
+        "rmp-serde",
+        "serde"
+    ]
+}

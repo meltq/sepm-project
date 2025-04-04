@@ -1,0 +1,27 @@
+{
+    "name": "ckb-extension-fee-estimator",
+    "deps": [
+        "anyhow",
+        "ckb-fee-estimator",
+        "ckb-jsonrpc-types",
+        "ckb-types",
+        "clap",
+        "env_logger",
+        "faketime",
+        "futures",
+        "jsonrpc-core",
+        "jsonrpc-core-client",
+        "jsonrpc-derive",
+        "jsonrpc-http-server",
+        "jsonrpc-pubsub",
+        "jsonrpc-server-utils",
+        "log",
+        "parking_lot",
+        "serde",
+        "serde_json",
+        "statrs",
+        "thiserror",
+        "time",
+        "tokio"
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "name": "async-skipdb",
+    "deps": [
+        "async-std",
+        "async-txn",
+        "cheap-clone",
+        "crossbeam-skiplist",
+        "either",
+        "futures",
+        "rand",
+        "scopeguard",
+        "scopeguard",
+        "skipdb-core",
+        "smol",
+        "tokio",
+        "wmark"
+    ]
+}

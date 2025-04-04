@@ -1,0 +1,33 @@
+{
+    "name": "httproxide",
+    "deps": [
+        "anyhow",
+        "axum",
+        "bytes",
+        "client-util",
+        "env_logger",
+        "futures-util",
+        "h3",
+        "h3-quinn",
+        "http",
+        "http-body",
+        "hyper",
+        "hyper-reverse-proxy",
+        "ipnet",
+        "lazy_static",
+        "log",
+        "once_cell",
+        "quinn",
+        "rcgen",
+        "regex",
+        "rustls",
+        "rustls-pemfile",
+        "serde",
+        "serde-tuple-vec-map",
+        "serde_yaml",
+        "tokio",
+        "tokio-rustls",
+        "tower",
+        "tower-http"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "name": "yellowstone-vixen",
+    "deps": [
+        "clap",
+        "futures-channel",
+        "futures-util",
+        "opentelemetry",
+        "pin-project-lite",
+        "prometheus",
+        "serde",
+        "smallvec",
+        "thiserror",
+        "tokio",
+        "topograph",
+        "tracing",
+        "yellowstone-grpc-client",
+        "yellowstone-grpc-proto",
+        "yellowstone-vixen-core",
+        "yellowstone-vixen-proto"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "name": "pgpkeydump",
+    "deps": [
+        "anyhow",
+        "clap",
+        "env_logger",
+        "hex",
+        "log",
+        "sequoia-openpgp",
+        "serde",
+        "serde_json"
+    ]
+}

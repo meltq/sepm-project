@@ -1,0 +1,18 @@
+{
+    "name": "actix-test-server",
+    "deps": [
+        "actix-rt",
+        "actix-server",
+        "futures",
+        "log",
+        "native-tls",
+        "net2",
+        "openssl",
+        "rustls",
+        "tokio-reactor",
+        "tokio-rustls",
+        "tokio-tcp",
+        "webpki",
+        "webpki-roots"
+    ]
+}

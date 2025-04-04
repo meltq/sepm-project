@@ -1,0 +1,27 @@
+{
+    "name": "azure_storage",
+    "deps": [
+        "RustyXML",
+        "async-trait",
+        "azure_core",
+        "azure_identity",
+        "base64",
+        "bytes",
+        "chrono",
+        "env_logger",
+        "futures",
+        "http",
+        "log",
+        "once_cell",
+        "reqwest",
+        "ring",
+        "serde",
+        "serde-xml-rs",
+        "serde_derive",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "url",
+        "uuid"
+    ]
+}

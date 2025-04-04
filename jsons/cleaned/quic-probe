@@ -1,0 +1,14 @@
+{
+    "name": "quic-probe",
+    "deps": [
+        "anyhow",
+        "quinn",
+        "rustls",
+        "rustls-native-certs",
+        "rustls-pemfile",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "webpki-roots"
+    ]
+}

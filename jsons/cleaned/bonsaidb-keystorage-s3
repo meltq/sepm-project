@@ -1,0 +1,16 @@
+{
+    "name": "bonsaidb-keystorage-s3",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "aws-config",
+        "aws-sdk-s3",
+        "aws-smithy-client",
+        "bonsaidb-core",
+        "bonsaidb-local",
+        "dotenv",
+        "http",
+        "log",
+        "tokio"
+    ]
+}

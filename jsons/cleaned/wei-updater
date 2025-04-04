@@ -1,0 +1,16 @@
+{
+    "name": "wei-updater",
+    "deps": [
+        "reqwest",
+        "serde_json",
+        "serde_yaml",
+        "sha2",
+        "single-instance",
+        "tokio",
+        "wei-daemon",
+        "wei-env",
+        "wei-log",
+        "wei-run",
+        "winrt-notification"
+    ]
+}

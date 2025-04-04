@@ -1,0 +1,16 @@
+{
+    "name": "churn-agent",
+    "deps": [
+        "anyhow",
+        "axum",
+        "churn-domain",
+        "clap",
+        "dotenv",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

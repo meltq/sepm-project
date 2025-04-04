@@ -1,0 +1,29 @@
+{
+    "name": "dumpy",
+    "deps": [
+        "anyhow",
+        "axum",
+        "axum-server",
+        "base64",
+        "bcrypt",
+        "clap",
+        "env_logger",
+        "futures",
+        "futures-util",
+        "log",
+        "mime_guess",
+        "pcap",
+        "regex",
+        "rust-embed",
+        "serde",
+        "serde_json",
+        "serde_yaml",
+        "time",
+        "tokio",
+        "tokio-stream",
+        "tokio-util",
+        "tower-http",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

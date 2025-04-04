@@ -1,0 +1,16 @@
+{
+    "name": "phabricator",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "env_logger",
+        "futures",
+        "phabricator-api",
+        "phabricator-mock",
+        "reqwest",
+        "rust_decimal",
+        "thiserror",
+        "tokio",
+        "url"
+    ]
+}

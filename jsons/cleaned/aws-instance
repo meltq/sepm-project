@@ -1,0 +1,23 @@
+{
+    "name": "aws-instance",
+    "deps": [
+        "async-trait",
+        "chrono",
+        "clap",
+        "dirs",
+        "env_logger",
+        "lazy_static",
+        "log",
+        "regex",
+        "rusoto_core",
+        "rusoto_credential",
+        "rusoto_ec2",
+        "serde",
+        "serde-xml-rs",
+        "serde_derive",
+        "serde_json",
+        "snafu",
+        "structopt",
+        "tokio"
+    ]
+}

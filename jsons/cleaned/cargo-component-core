@@ -1,0 +1,25 @@
+{
+    "name": "cargo-component-core",
+    "deps": [
+        "anyhow",
+        "clap",
+        "futures",
+        "indexmap",
+        "keyring",
+        "libc",
+        "log",
+        "owo-colors",
+        "semver",
+        "serde",
+        "tokio",
+        "toml_edit",
+        "unicode-width",
+        "url",
+        "warg-client",
+        "warg-crypto",
+        "warg-protocol",
+        "windows-sys",
+        "wit-component",
+        "wit-parser"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "casper-hashing",
+    "deps": [
+        "assert_matches",
+        "base16",
+        "blake2",
+        "casper-types",
+        "criterion",
+        "datasize",
+        "hex",
+        "hex-buffer-serde",
+        "itertools",
+        "proptest",
+        "proptest-attr-macro",
+        "schemars",
+        "serde",
+        "tempfile"
+    ]
+}

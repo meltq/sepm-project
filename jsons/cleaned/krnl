@@ -1,0 +1,29 @@
+{
+    "name": "krnl",
+    "deps": [
+        "anyhow",
+        "ash",
+        "atomicbox",
+        "bincode2",
+        "bytemuck",
+        "dashmap",
+        "derive_more",
+        "dry",
+        "flate2",
+        "fxhash",
+        "half",
+        "krnl-core",
+        "krnl-macros",
+        "libtest-mimic",
+        "num-traits",
+        "once_cell",
+        "parking_lot",
+        "paste",
+        "rayon",
+        "rspirv",
+        "serde",
+        "thiserror",
+        "vulkano",
+        "wasm-bindgen-test"
+    ]
+}

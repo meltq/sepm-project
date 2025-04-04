@@ -1,0 +1,15 @@
+{
+    "name": "waffles-solana-storage-proto",
+    "deps": [
+        "bincode",
+        "bs58",
+        "prost",
+        "serde",
+        "solana-account-decoder",
+        "solana-sdk",
+        "solana-transaction-status",
+        "enum-iterator",
+        "tonic-build",
+        "protobuf-src"
+    ]
+}

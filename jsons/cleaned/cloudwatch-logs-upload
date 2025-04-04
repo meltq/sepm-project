@@ -1,0 +1,12 @@
+{
+    "name": "cloudwatch-logs-upload",
+    "deps": [
+        "fehler",
+        "log",
+        "rand",
+        "rusoto_core",
+        "rusoto_logs",
+        "simple_logger",
+        "thiserror"
+    ]
+}

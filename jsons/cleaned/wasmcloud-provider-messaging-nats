@@ -1,0 +1,19 @@
+{
+    "name": "wasmcloud-provider-messaging-nats",
+    "deps": [
+        "anyhow",
+        "async-nats",
+        "bytes",
+        "futures",
+        "opentelemetry-nats",
+        "rustls-pemfile",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tracing",
+        "tracing-futures",
+        "wascap",
+        "wasmcloud-provider-sdk",
+        "wit-bindgen-wrpc"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "name": "msg_channel_core",
+    "deps": [
+        "force-send-sync",
+        "futures-util",
+        "msg_channel_macro",
+        "smallvec",
+        "thiserror",
+        "tokio"
+    ]
+}

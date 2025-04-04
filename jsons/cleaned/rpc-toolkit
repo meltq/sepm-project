@@ -1,0 +1,19 @@
+{
+    "name": "rpc-toolkit",
+    "deps": [
+        "clap",
+        "futures",
+        "hyper",
+        "lazy_static",
+        "openssl",
+        "reqwest",
+        "rpc-toolkit-macro",
+        "serde",
+        "serde_cbor",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "url",
+        "yajrc"
+    ]
+}

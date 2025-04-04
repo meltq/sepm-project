@@ -1,0 +1,29 @@
+{
+    "name": "caffe2-serverquantize",
+    "deps": [
+        "caffe2-c10",
+        "caffe2-context",
+        "caffe2-imports",
+        "caffe2-math",
+        "caffe2-operator",
+        "caffe2-quant",
+        "caffe2-tensor",
+        "caffe2-types",
+        "caffe2-util",
+        "caffe2op-batch",
+        "caffe2op-channelshuffle",
+        "caffe2op-concatsplit",
+        "caffe2op-conv",
+        "caffe2op-copy",
+        "caffe2op-elementwise",
+        "caffe2op-fullyconnected",
+        "caffe2op-gather",
+        "caffe2op-groupnorm",
+        "caffe2op-lstm",
+        "caffe2op-pool",
+        "caffe2op-pow",
+        "caffe2op-resize",
+        "caffe2op-spatialbatchnorm",
+        "caffe2op-utility"
+    ]
+}

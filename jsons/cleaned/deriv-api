@@ -1,0 +1,24 @@
+{
+    "name": "deriv-api",
+    "deps": [
+        "async-trait",
+        "chrono",
+        "convert_case",
+        "deriv-api-schema",
+        "derive_builder",
+        "env_logger",
+        "futures",
+        "futures-util",
+        "handlebars",
+        "log",
+        "regex",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tokio-test",
+        "tokio-tungstenite",
+        "url",
+        "uuid"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "name": "redis_pool",
+    "deps": [
+        "async-trait",
+        "axum-core",
+        "crossbeam-queue",
+        "http",
+        "once_cell",
+        "redis",
+        "thiserror",
+        "tokio",
+        "tracing"
+    ]
+}

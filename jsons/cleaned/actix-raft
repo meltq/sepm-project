@@ -1,0 +1,17 @@
+{
+    "name": "actix-raft",
+    "deps": [
+        "actix",
+        "async-log",
+        "bytes",
+        "env_logger",
+        "futures",
+        "log",
+        "rand",
+        "rmp",
+        "rmp-serde",
+        "serde",
+        "tempfile",
+        "tokio-timer"
+    ]
+}

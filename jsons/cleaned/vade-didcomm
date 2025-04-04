@@ -1,0 +1,33 @@
+{
+    "name": "vade-didcomm",
+    "deps": [
+        "async-trait",
+        "bs58",
+        "cargo-husky",
+        "cfg-if",
+        "data-encoding",
+        "didcomm-rs",
+        "ed25519-dalek",
+        "env_logger",
+        "futures",
+        "getrandom",
+        "hex",
+        "jsonpath_lib",
+        "k256",
+        "log",
+        "rand",
+        "rand_core",
+        "redis",
+        "rocksdb",
+        "serde",
+        "serde-big-array",
+        "serde_derive",
+        "serde_json",
+        "serial_test",
+        "tokio",
+        "uuid",
+        "vade",
+        "web-sys",
+        "x25519-dalek"
+    ]
+}

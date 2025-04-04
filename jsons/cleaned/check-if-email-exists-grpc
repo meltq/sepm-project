@@ -1,0 +1,18 @@
+{
+    "name": "check-if-email-exists-grpc",
+    "deps": [
+        "anyhow",
+        "async-recursion",
+        "check-if-email-exists",
+        "prost",
+        "redis",
+        "serde_json",
+        "tokio",
+        "tokio-stream",
+        "tonic",
+        "tonic-build",
+        "tonic-health",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

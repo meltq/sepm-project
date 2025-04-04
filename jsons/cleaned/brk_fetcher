@@ -1,0 +1,16 @@
+{
+    "name": "brk_fetcher",
+    "deps": [
+        "brk_indexer",
+        "brk_logger",
+        "color-eyre",
+        "derive_deref",
+        "jiff",
+        "log",
+        "minreq",
+        "serde",
+        "serde_json",
+        "storable_vec",
+        "zerocopy"
+    ]
+}

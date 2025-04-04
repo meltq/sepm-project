@@ -1,0 +1,30 @@
+{
+    "name": "morf-mqtt-bridge",
+    "deps": [
+        "anyhow",
+        "base64",
+        "blocking",
+        "bytes",
+        "clap",
+        "constant_time_eq",
+        "futures",
+        "libc",
+        "linked-hash-map",
+        "monoio",
+        "monoio-rustls",
+        "morf",
+        "mqttrs",
+        "once_cell",
+        "rand",
+        "rusqlite",
+        "rusqlite_migration",
+        "rustls",
+        "serde",
+        "serde_json",
+        "serde_yaml",
+        "tracing",
+        "tracing-subscriber",
+        "webpki-roots",
+        "x25519-dalek"
+    ]
+}

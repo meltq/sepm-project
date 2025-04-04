@@ -1,0 +1,16 @@
+{
+    "name": "naia-server-socket",
+    "deps": [
+        "cfg-if",
+        "clap",
+        "futures-channel",
+        "futures-core",
+        "futures-sink",
+        "futures-util",
+        "hyper",
+        "log",
+        "naia-socket-shared",
+        "tokio",
+        "webrtc-unreliable"
+    ]
+}

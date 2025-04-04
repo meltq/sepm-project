@@ -1,0 +1,17 @@
+{
+    "name": "wasmtime-wasi-http",
+    "deps": [
+        "anyhow",
+        "bytes",
+        "http",
+        "http-body",
+        "http-body-util",
+        "hyper",
+        "rustls",
+        "thiserror",
+        "tokio",
+        "tokio-rustls",
+        "wasmtime",
+        "webpki-roots"
+    ]
+}

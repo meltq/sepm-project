@@ -1,0 +1,23 @@
+{
+    "name": "moosicbox_music_api",
+    "deps": [
+        "actix-web",
+        "async-trait",
+        "futures",
+        "log",
+        "moosicbox_core",
+        "moosicbox_database",
+        "moosicbox_json_utils",
+        "moosicbox_paging",
+        "pretty_assertions",
+        "serde",
+        "serde_json",
+        "strum",
+        "strum_macros",
+        "test-log",
+        "thiserror",
+        "tokio",
+        "tokio",
+        "utoipa"
+    ]
+}

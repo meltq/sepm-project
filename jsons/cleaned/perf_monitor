@@ -1,0 +1,16 @@
+{
+    "name": "perf_monitor",
+    "deps": [
+        "bindgen",
+        "cc",
+        "errno",
+        "futures",
+        "libc",
+        "lpfs",
+        "mach",
+        "parking_lot",
+        "scopeguard",
+        "thiserror",
+        "winapi"
+    ]
+}

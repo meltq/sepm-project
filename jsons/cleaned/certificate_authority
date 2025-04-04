@@ -1,0 +1,16 @@
+{
+    "name": "certificate_authority",
+    "deps": [
+        "aes-gcm-siv",
+        "chrono",
+        "color-eyre",
+        "config",
+        "pqc_kyber",
+        "pqcrypto-falcon",
+        "rand",
+        "serde",
+        "thiserror",
+        "toml",
+        "uuid"
+    ]
+}

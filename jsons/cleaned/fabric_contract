@@ -1,0 +1,16 @@
+{
+    "name": "fabric_contract",
+    "deps": [
+        "claim",
+        "fabric_contract_macros",
+        "fabric_ledger_protos",
+        "lazy_static",
+        "log",
+        "mockall",
+        "prost",
+        "prost-build",
+        "protobuf",
+        "wapc-guest",
+        "wasm-bindgen-test"
+    ]
+}

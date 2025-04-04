@@ -1,0 +1,21 @@
+{
+    "name": "tor-rpc-connect",
+    "deps": [
+        "assert_matches",
+        "derive_more",
+        "fs-mistrust",
+        "rand",
+        "safelog",
+        "serde",
+        "serde_with",
+        "tempfile",
+        "thiserror",
+        "toml",
+        "tor-basic-utils",
+        "tor-config-path",
+        "tor-general-addr",
+        "tor-rtcompat",
+        "tracing",
+        "zeroize"
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "name": "aptos-sf-stream",
+    "deps": [
+        "anyhow",
+        "aptos-api",
+        "aptos-api-types",
+        "aptos-config",
+        "aptos-logger",
+        "aptos-mempool",
+        "aptos-metrics-core",
+        "aptos-protos",
+        "aptos-types",
+        "aptos-vm",
+        "base64",
+        "bytes",
+        "fail",
+        "futures",
+        "goldenfile",
+        "hex",
+        "hyper",
+        "move-deps",
+        "once_cell",
+        "prost",
+        "rand",
+        "regex",
+        "serde",
+        "serde_json",
+        "storage-interface",
+        "tokio",
+        "warp"
+    ]
+}

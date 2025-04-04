@@ -1,0 +1,33 @@
+{
+    "name": "netscanner",
+    "deps": [
+        "better-panic",
+        "chrono",
+        "clap",
+        "color-eyre",
+        "config",
+        "crossterm",
+        "derive_deref",
+        "directories",
+        "futures",
+        "human-panic",
+        "itertools",
+        "json5",
+        "lazy_static",
+        "libc",
+        "log",
+        "pretty_assertions",
+        "ratatui",
+        "serde",
+        "serde_json",
+        "signal-hook",
+        "strip-ansi-escapes",
+        "tokio",
+        "tokio-util",
+        "tokio-wifiscanner",
+        "tracing",
+        "tracing-error",
+        "tracing-subscriber",
+        "wifiscanner"
+    ]
+}

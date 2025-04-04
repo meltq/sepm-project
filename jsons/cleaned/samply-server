@@ -1,0 +1,25 @@
+{
+    "name": "samply-server",
+    "deps": [
+        "core-foundation",
+        "core-foundation-sys",
+        "flate2",
+        "futures",
+        "hyper",
+        "libc",
+        "memmap2",
+        "nix-base32",
+        "object",
+        "percent-encoding",
+        "rand",
+        "samply-api",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "structopt",
+        "symsrv",
+        "tokio",
+        "uuid",
+        "webbrowser"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "rustls-cert-gen",
+    "deps": [
+        "anyhow",
+        "assert_fs",
+        "aws-lc-rs",
+        "bpaf",
+        "pem",
+        "pki-types",
+        "rand",
+        "rcgen",
+        "ring",
+        "x509-parser"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "name": "wasmtime-wasi",
+    "deps": [
+        "cranelift-codegen",
+        "cranelift-entity",
+        "cranelift-wasm",
+        "log",
+        "target-lexicon",
+        "wasi-common",
+        "wasmtime-environ",
+        "wasmtime-jit",
+        "wasmtime-runtime"
+    ]
+}

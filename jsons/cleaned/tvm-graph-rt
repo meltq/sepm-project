@@ -1,0 +1,17 @@
+{
+    "name": "tvm-graph-rt",
+    "deps": [
+        "crossbeam-channel",
+        "itertools",
+        "lazy_static",
+        "libloading",
+        "ndarray",
+        "nom",
+        "num_cpus",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tvm-macros",
+        "tvm-sys"
+    ]
+}

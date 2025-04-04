@@ -1,0 +1,13 @@
+{
+    "name": "tracing-appender-plus",
+    "deps": [
+        "criterion",
+        "crossbeam-channel",
+        "parking_lot",
+        "tempfile",
+        "thiserror",
+        "time",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

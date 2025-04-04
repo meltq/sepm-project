@@ -1,0 +1,28 @@
+{
+    "name": "tmkms",
+    "deps": [
+        "abscissa",
+        "abscissa_derive",
+        "bincode",
+        "byteorder",
+        "bytes",
+        "chrono",
+        "failure",
+        "failure_derive",
+        "hkdf",
+        "lazy_static",
+        "prost-amino",
+        "prost-amino-derive",
+        "rand",
+        "ring",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "sha2",
+        "signatory",
+        "signatory-dalek",
+        "signatory-yubihsm",
+        "subtle-encoding",
+        "x25519-dalek"
+    ]
+}

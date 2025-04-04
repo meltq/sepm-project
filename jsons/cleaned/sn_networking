@@ -1,0 +1,22 @@
+{
+    "name": "sn_networking",
+    "deps": [
+        "assert_matches",
+        "async-trait",
+        "bytes",
+        "eyre",
+        "futures",
+        "itertools",
+        "libp2p",
+        "rand",
+        "rmp-serde",
+        "serde",
+        "sn_logging",
+        "sn_protocol",
+        "sn_record_store",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "xor_name"
+    ]
+}

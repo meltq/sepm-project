@@ -1,0 +1,27 @@
+{
+    "name": "cuddle-please",
+    "deps": [
+        "anyhow",
+        "chrono",
+        "clap",
+        "conventional_commit_parser",
+        "cuddle-please-commands",
+        "cuddle-please-frontend",
+        "cuddle-please-misc",
+        "dotenv",
+        "git-cliff-core",
+        "lazy_static",
+        "parse-changelog",
+        "pretty_assertions",
+        "regex",
+        "reqwest",
+        "semver",
+        "serde",
+        "serde_yaml",
+        "tempdir",
+        "tracing",
+        "tracing-subscriber",
+        "tracing-test",
+        "url"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "name": "portproxy",
+    "deps": [
+        "assert_cmd",
+        "color-eyre",
+        "derive-getters",
+        "dirs",
+        "env_logger",
+        "escargot",
+        "futures",
+        "log",
+        "predicates",
+        "rand",
+        "reqwest",
+        "scopeguard",
+        "serde",
+        "tempfile",
+        "tokio",
+        "toml"
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "name": "riftenlabs-indexer",
+    "deps": [
+        "anyhow",
+        "bitcoin_hashes",
+        "bitcoincash",
+        "electrum-client-netagnostic",
+        "hex",
+        "log",
+        "r2d2",
+        "r2d2_sqlite",
+        "rand",
+        "rayon",
+        "riftenlabs-defi",
+        "rocket",
+        "rocket_cors",
+        "rusqlite",
+        "rust_decimal",
+        "rust_decimal_macros",
+        "serde",
+        "serde_json",
+        "stderrlog",
+        "ureq"
+    ]
+}

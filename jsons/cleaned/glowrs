@@ -1,0 +1,26 @@
+{
+    "name": "glowrs",
+    "deps": [
+        "anyhow",
+        "axum",
+        "bytes",
+        "candle-core",
+        "candle-nn",
+        "candle-transformers",
+        "clap",
+        "console-subscriber",
+        "futures-util",
+        "hf-hub",
+        "once_cell",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokenizers",
+        "tokio",
+        "tower-http",
+        "tracing",
+        "tracing-chrome",
+        "tracing-subscriber",
+        "uuid"
+    ]
+}

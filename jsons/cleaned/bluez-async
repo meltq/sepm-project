@@ -1,0 +1,22 @@
+{
+    "name": "bluez-async",
+    "deps": [
+        "async-trait",
+        "bitflags",
+        "bluez-generated",
+        "dbus",
+        "dbus-tokio",
+        "eyre",
+        "futures",
+        "itertools",
+        "log",
+        "pretty_env_logger",
+        "serde",
+        "serde-xml-rs",
+        "serde_derive",
+        "thiserror",
+        "tokio",
+        "tokio",
+        "uuid"
+    ]
+}

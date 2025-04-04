@@ -1,0 +1,17 @@
+{
+    "name": "opentelemetry-xray",
+    "deps": [
+        "futures-util",
+        "http",
+        "opentelemetry",
+        "opentelemetry-aws",
+        "opentelemetry_sdk",
+        "rand_core",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tracing",
+        "tracing-opentelemetry",
+        "tracing-subscriber"
+    ]
+}

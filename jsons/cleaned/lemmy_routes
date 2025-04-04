@@ -1,0 +1,26 @@
+{
+    "name": "lemmy_routes",
+    "deps": [
+        "actix",
+        "actix-web",
+        "actix-web-actors",
+        "anyhow",
+        "awc",
+        "chrono",
+        "diesel",
+        "lazy_static",
+        "lemmy_api_common",
+        "lemmy_db_queries",
+        "lemmy_db_schema",
+        "lemmy_db_views",
+        "lemmy_db_views_actor",
+        "lemmy_utils",
+        "lemmy_websocket",
+        "log",
+        "rss",
+        "serde",
+        "sha2",
+        "strum",
+        "url"
+    ]
+}

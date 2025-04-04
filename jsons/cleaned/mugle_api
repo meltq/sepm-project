@@ -1,0 +1,31 @@
+{
+    "name": "mugle_api",
+    "deps": [
+        "bytes",
+        "easy-jsonrpc-mw",
+        "failure",
+        "failure_derive",
+        "futures",
+        "http",
+        "hyper",
+        "hyper-rustls",
+        "hyper-timeout",
+        "lazy_static",
+        "log",
+        "mugle_chain",
+        "mugle_core",
+        "mugle_p2p",
+        "mugle_pool",
+        "mugle_store",
+        "mugle_util",
+        "regex",
+        "ring",
+        "rustls",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "tokio",
+        "tokio-rustls",
+        "url"
+    ]
+}

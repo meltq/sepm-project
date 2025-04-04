@@ -1,0 +1,13 @@
+{
+    "name": "encrypted-json-kv",
+    "deps": [
+        "base64",
+        "serde",
+        "serde_json",
+        "serde_test",
+        "sled",
+        "sodiumoxide",
+        "thiserror",
+        "toml"
+    ]
+}

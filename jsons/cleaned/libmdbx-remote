@@ -1,0 +1,29 @@
+{
+    "name": "libmdbx-remote",
+    "deps": [
+        "async-stream",
+        "bitflags",
+        "byteorder",
+        "criterion",
+        "dashmap",
+        "derive_more",
+        "futures-util",
+        "indexmap",
+        "mdbx-remote-sys",
+        "parking_lot",
+        "paste",
+        "pprof",
+        "rand",
+        "rand_xorshift",
+        "serde",
+        "smallvec",
+        "tarpc",
+        "tempfile",
+        "thiserror",
+        "tokio",
+        "tokio-stream",
+        "tracing",
+        "tracing-subscriber",
+        "url"
+    ]
+}

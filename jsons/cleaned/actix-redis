@@ -1,0 +1,21 @@
+{
+    "name": "actix-redis",
+    "deps": [
+        "actix",
+        "actix-web",
+        "backoff",
+        "cookie",
+        "env_logger",
+        "failure",
+        "futures",
+        "http",
+        "log",
+        "rand",
+        "redis-async",
+        "serde",
+        "serde_json",
+        "tokio-core",
+        "tokio-io",
+        "trust-dns-resolver"
+    ]
+}

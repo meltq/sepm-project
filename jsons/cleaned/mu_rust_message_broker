@@ -1,0 +1,20 @@
+{
+    "name": "mu_rust_message_broker",
+    "deps": [
+        "axum",
+        "bincode",
+        "chrono",
+        "dirs",
+        "futures-util",
+        "mu_rust_common",
+        "mu_rust_message_common",
+        "queue-file",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tower",
+        "tracing",
+        "tracing-subscriber",
+        "uuid"
+    ]
+}

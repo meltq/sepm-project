@@ -1,0 +1,23 @@
+{
+    "name": "ironfish-proofs",
+    "deps": [
+        "blake2b_simd",
+        "blstrs",
+        "byteorder",
+        "criterion",
+        "directories",
+        "ff",
+        "group",
+        "ironfish-bellperson",
+        "ironfish-jubjub",
+        "ironfish-primitives",
+        "lazy_static",
+        "minreq",
+        "pprof",
+        "rand_core",
+        "rand_xorshift",
+        "redjubjub",
+        "tracing",
+        "wagyu-zcash-parameters"
+    ]
+}

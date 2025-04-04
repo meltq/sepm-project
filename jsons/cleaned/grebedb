@@ -1,0 +1,23 @@
+{
+    "name": "grebedb",
+    "deps": [
+        "anyhow",
+        "clap",
+        "crc32c",
+        "fslock",
+        "fslock",
+        "indexmap",
+        "paste",
+        "rand",
+        "rand_xorshift",
+        "relative-path",
+        "rmp-serde",
+        "serde",
+        "serde_bytes",
+        "tempfile",
+        "thiserror",
+        "uuid",
+        "vfs",
+        "zstd"
+    ]
+}

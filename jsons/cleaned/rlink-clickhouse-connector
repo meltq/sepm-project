@@ -1,0 +1,18 @@
+{
+    "name": "rlink-clickhouse-connector",
+    "deps": [
+        "anyhow",
+        "chrono",
+        "chrono-tz",
+        "clickhouse-rs",
+        "futures",
+        "log",
+        "rlink",
+        "rlink-derive",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "thiserror",
+        "tokio"
+    ]
+}

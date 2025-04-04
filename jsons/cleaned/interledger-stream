@@ -1,0 +1,25 @@
+{
+    "name": "interledger-stream",
+    "deps": [
+        "base64",
+        "byteorder",
+        "bytes",
+        "chrono",
+        "csv",
+        "env_logger",
+        "failure",
+        "futures",
+        "hashbrown",
+        "hex",
+        "interledger-ildcp",
+        "interledger-packet",
+        "interledger-service",
+        "interledger-service-util",
+        "interledger-test-helpers",
+        "lazy_static",
+        "log",
+        "parking_lot",
+        "ring",
+        "tokio"
+    ]
+}

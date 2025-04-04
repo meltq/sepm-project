@@ -1,0 +1,19 @@
+{
+    "name": "boxcar_rpc",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "bincode",
+        "deadqueue",
+        "futures-core",
+        "futures-util",
+        "quote",
+        "rand",
+        "serde",
+        "tokio",
+        "tokio-tungstenite",
+        "tracing",
+        "tracing-subscriber",
+        "url"
+    ]
+}

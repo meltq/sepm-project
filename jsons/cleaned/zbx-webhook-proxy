@@ -1,0 +1,20 @@
+{
+    "name": "zbx-webhook-proxy",
+    "deps": [
+        "chrono",
+        "clap",
+        "fern",
+        "jmespath",
+        "log",
+        "pretty_env_logger",
+        "serde",
+        "serde_json",
+        "simple-eyre",
+        "thiserror",
+        "tokio",
+        "toml",
+        "trust-dns-resolver",
+        "warp",
+        "zbx_sender"
+    ]
+}

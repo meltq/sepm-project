@@ -1,0 +1,17 @@
+{
+    "name": "kubectl-ports",
+    "deps": [
+        "anyhow",
+        "clap",
+        "http",
+        "k8s-openapi",
+        "kube",
+        "openssl",
+        "prettytable-rs",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "tracing-bunyan-formatter",
+        "tracing-subscriber"
+    ]
+}

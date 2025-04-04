@@ -1,0 +1,15 @@
+{
+    "name": "hypertor",
+    "deps": [
+        "anyhow",
+        "arti-client",
+        "bytes",
+        "http-body-util",
+        "hyper",
+        "hyper-util",
+        "tokio",
+        "tokio-native-tls",
+        "tor-rtcompat",
+        "tracing-subscriber"
+    ]
+}

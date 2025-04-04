@@ -1,0 +1,13 @@
+{
+    "name": "query-rds-data",
+    "deps": [
+        "futures",
+        "quicli",
+        "rusoto_core",
+        "rusoto_rds",
+        "rusoto_rds_data",
+        "rusoto_secretsmanager",
+        "structopt",
+        "tokio"
+    ]
+}

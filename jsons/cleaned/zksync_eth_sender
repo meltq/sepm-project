@@ -1,0 +1,23 @@
+{
+    "name": "zksync_eth_sender",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "chrono",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "vise",
+        "zksync_config",
+        "zksync_contracts",
+        "zksync_dal",
+        "zksync_eth_client",
+        "zksync_l1_contract_interface",
+        "zksync_node_fee_model",
+        "zksync_object_store",
+        "zksync_prover_interface",
+        "zksync_shared_metrics",
+        "zksync_types",
+        "zksync_utils"
+    ]
+}

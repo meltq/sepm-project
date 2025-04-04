@@ -1,0 +1,10 @@
+{
+    "name": "derive_fuzztest",
+    "deps": [
+        "arbitrary",
+        "derive_fuzztest_macro",
+        "proptest",
+        "proptest-arbitrary-interop",
+        "quickcheck"
+    ]
+}

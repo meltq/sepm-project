@@ -1,0 +1,25 @@
+{
+    "name": "cloudbbq-homie",
+    "deps": [
+        "backoff",
+        "bluez-async",
+        "cloudbbq",
+        "color-backtrace",
+        "eyre",
+        "futures",
+        "futures-channel",
+        "homie-device",
+        "itertools",
+        "log",
+        "pretty_env_logger",
+        "rumqttc",
+        "rustls",
+        "rustls-native-certs",
+        "serde",
+        "serde_derive",
+        "stable-eyre",
+        "tokio",
+        "toml",
+        "url"
+    ]
+}

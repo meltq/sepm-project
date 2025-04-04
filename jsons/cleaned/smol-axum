@@ -1,0 +1,21 @@
+{
+    "name": "smol-axum",
+    "deps": [
+        "async-executor",
+        "async-io",
+        "async-net",
+        "axum",
+        "axum-core",
+        "futures-lite",
+        "http",
+        "hyper",
+        "hyper-util",
+        "macro_rules_attribute",
+        "pin-project-lite",
+        "smol-hyper",
+        "smol-macros",
+        "tower",
+        "tower-service",
+        "tracing"
+    ]
+}

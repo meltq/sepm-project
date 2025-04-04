@@ -1,0 +1,17 @@
+{
+    "name": "miraland-banks-server",
+    "deps": [
+        "bincode",
+        "crossbeam-channel",
+        "futures",
+        "miraland-banks-interface",
+        "miraland-client",
+        "miraland-runtime",
+        "miraland-sdk",
+        "miraland-send-transaction-service",
+        "tarpc",
+        "tokio",
+        "tokio-serde",
+        "tokio-stream"
+    ]
+}

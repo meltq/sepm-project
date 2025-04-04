@@ -1,0 +1,17 @@
+{
+    "name": "zenoh-link-ws",
+    "deps": [
+        "async-std",
+        "async-trait",
+        "futures-util",
+        "log",
+        "tokio",
+        "tokio-tungstenite",
+        "url",
+        "zenoh-core",
+        "zenoh-link-commons",
+        "zenoh-protocol-core",
+        "zenoh-sync",
+        "zenoh-util"
+    ]
+}

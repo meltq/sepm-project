@@ -1,0 +1,13 @@
+{
+    "name": "ncp-metrics-exporter",
+    "deps": [
+        "async-std",
+        "chrono",
+        "failure",
+        "proc-mounts",
+        "prometheus-client",
+        "regex",
+        "serde_json",
+        "tide"
+    ]
+}

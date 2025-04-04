@@ -1,0 +1,11 @@
+{
+    "name": "async-blocking-stdio",
+    "deps": [
+        "async-lock",
+        "blocking",
+        "futures-lite",
+        "libc",
+        "nolocal-block-on",
+        "pin-project-lite"
+    ]
+}

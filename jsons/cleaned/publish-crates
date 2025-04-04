@@ -1,0 +1,17 @@
+{
+    "name": "publish-crates",
+    "deps": [
+        "action-core",
+        "async-process",
+        "cargo_metadata",
+        "color-eyre",
+        "crates_io_api",
+        "futures",
+        "pretty_assertions",
+        "reqwest",
+        "semver",
+        "thiserror",
+        "tokio",
+        "toml_edit"
+    ]
+}

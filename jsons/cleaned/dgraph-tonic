@@ -1,0 +1,19 @@
+{
+    "name": "dgraph-tonic",
+    "deps": [
+        "async-trait",
+        "env_logger",
+        "failure",
+        "futures",
+        "http",
+        "log",
+        "prost",
+        "rand",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "tokio",
+        "tonic",
+        "tonic-build"
+    ]
+}

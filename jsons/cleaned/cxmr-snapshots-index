@@ -1,0 +1,19 @@
+{
+    "name": "cxmr-snapshots-index",
+    "deps": [
+        "byteorder",
+        "cxmr-exchanges",
+        "cxmr-snapshots",
+        "cxmr-snapshots-cache",
+        "cxmr-tectonic",
+        "err-convert-macro",
+        "failure",
+        "futures-locks",
+        "glob",
+        "log",
+        "rayon",
+        "rocksdb",
+        "serde",
+        "serde_derive"
+    ]
+}

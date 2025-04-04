@@ -1,0 +1,15 @@
+{
+    "name": "tower-opentelemetry",
+    "deps": [
+        "futures-util",
+        "http",
+        "http-body",
+        "lazy_static",
+        "opentelemetry",
+        "opentelemetry-semantic-conventions",
+        "pin-project",
+        "sysinfo",
+        "tower-layer",
+        "tower-service"
+    ]
+}

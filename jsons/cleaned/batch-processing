@@ -1,0 +1,21 @@
+{
+    "name": "batch-processing",
+    "deps": [
+        "async-trait",
+        "chrono",
+        "csv-async",
+        "deadpool-postgres",
+        "diesel",
+        "diesel-async",
+        "diesel_migrations",
+        "futures",
+        "log",
+        "peak_alloc",
+        "pretty_env_logger",
+        "refinery",
+        "tokio",
+        "tokio-fs",
+        "tokio-postgres",
+        "zip"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "kadena",
+    "deps": [
+        "base64",
+        "blake2",
+        "criterion",
+        "ed25519-dalek",
+        "env_logger",
+        "hex",
+        "log",
+        "rand",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "wiremock"
+    ]
+}

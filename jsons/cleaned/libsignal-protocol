@@ -1,0 +1,21 @@
+{
+    "name": "libsignal-protocol",
+    "deps": [
+        "aes",
+        "aes-ctr",
+        "block-modes",
+        "cfg-if",
+        "env_logger",
+        "failure",
+        "failure_derive",
+        "hmac",
+        "libsignal-protocol-sys",
+        "lock_api",
+        "log",
+        "openssl",
+        "parking_lot",
+        "rand",
+        "rental",
+        "sha2"
+    ]
+}

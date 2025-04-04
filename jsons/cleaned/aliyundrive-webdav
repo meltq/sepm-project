@@ -1,0 +1,22 @@
+{
+    "name": "aliyundrive-webdav",
+    "deps": [
+        "anyhow",
+        "bytes",
+        "dashmap",
+        "dav-server",
+        "futures-util",
+        "headers",
+        "hyper",
+        "moka",
+        "openssl-probe",
+        "reqwest",
+        "serde",
+        "structopt",
+        "time",
+        "tokio",
+        "tracing",
+        "tracing-subscriber",
+        "url"
+    ]
+}

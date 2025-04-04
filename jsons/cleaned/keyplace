@@ -1,0 +1,21 @@
+{
+    "name": "keyplace",
+    "deps": [
+        "base64",
+        "bincode",
+        "constant_time_eq",
+        "crypto-mac",
+        "ed25519-dalek",
+        "hmac",
+        "rand",
+        "scrypt",
+        "serde",
+        "sha2",
+        "toboggan-kv",
+        "wasm-bindgen",
+        "wasm-bindgen-console-logger",
+        "wasm-bindgen-futures",
+        "wasm-bindgen-test",
+        "zeroize"
+    ]
+}

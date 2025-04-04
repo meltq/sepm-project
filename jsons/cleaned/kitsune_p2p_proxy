@@ -1,0 +1,25 @@
+{
+    "name": "kitsune_p2p_proxy",
+    "deps": [
+        "base64",
+        "blake2b_simd",
+        "criterion",
+        "crossterm",
+        "derive_more",
+        "futures",
+        "kitsune_p2p_transport_quic",
+        "kitsune_p2p_types",
+        "lair_keystore_api",
+        "nanoid",
+        "observability",
+        "parking_lot",
+        "rmp-serde",
+        "rustls",
+        "serde",
+        "serde_bytes",
+        "structopt",
+        "tokio",
+        "tracing-subscriber",
+        "webpki"
+    ]
+}

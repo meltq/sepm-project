@@ -1,0 +1,22 @@
+{
+    "name": "matrix-sdk-indexeddb",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "base64",
+        "dashmap",
+        "futures-util",
+        "getrandom",
+        "indexed_db_futures",
+        "matrix-sdk-base",
+        "matrix-sdk-crypto",
+        "matrix-sdk-store-encryption",
+        "ruma",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tracing",
+        "wasm-bindgen",
+        "web-sys"
+    ]
+}

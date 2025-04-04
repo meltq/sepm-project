@@ -1,0 +1,18 @@
+{
+    "name": "conditional-s3-fetch",
+    "deps": [
+        "aws-sdk-s3",
+        "aws-smithy-runtime",
+        "aws-smithy-runtime-api",
+        "bytes",
+        "cbor4ii",
+        "futures",
+        "http",
+        "serde",
+        "serde_json",
+        "simd-json",
+        "thiserror",
+        "tokio",
+        "tracing"
+    ]
+}

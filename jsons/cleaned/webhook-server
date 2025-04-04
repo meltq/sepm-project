@@ -1,0 +1,24 @@
+{
+    "name": "webhook-server",
+    "deps": [
+        "actix",
+        "actix-web",
+        "anyhow",
+        "base64",
+        "chrono",
+        "config",
+        "dirs",
+        "futures",
+        "handlebars",
+        "hex",
+        "hmac",
+        "log",
+        "rustls",
+        "serde",
+        "serde_json",
+        "serde_yaml",
+        "sha-1",
+        "simplelog",
+        "subprocess"
+    ]
+}

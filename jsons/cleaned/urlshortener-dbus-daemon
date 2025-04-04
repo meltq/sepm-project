@@ -1,0 +1,14 @@
+{
+    "name": "urlshortener-dbus-daemon",
+    "deps": [
+        "dbus",
+        "dbus-tokio",
+        "futures",
+        "log",
+        "mio",
+        "tokio-core",
+        "tokio-timer",
+        "tokio-timer",
+        "urlshortener"
+    ]
+}

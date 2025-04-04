@@ -1,0 +1,22 @@
+{
+    "name": "unftp",
+    "deps": [
+        "async-trait",
+        "built",
+        "clap",
+        "futures",
+        "http",
+        "hyper",
+        "lazy_static",
+        "libunftp",
+        "prometheus",
+        "slog",
+        "slog-async",
+        "slog-redis",
+        "slog-term",
+        "thiserror",
+        "tokio",
+        "tokio-rustls",
+        "yup-oauth2"
+    ]
+}

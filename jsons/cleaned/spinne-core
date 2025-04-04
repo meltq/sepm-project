@@ -1,0 +1,23 @@
+{
+    "name": "spinne-core",
+    "deps": [
+        "assert_cmd",
+        "glob",
+        "ignore",
+        "itertools",
+        "jsonc-parser",
+        "oxc-miette",
+        "oxc_allocator",
+        "oxc_ast",
+        "oxc_parser",
+        "oxc_resolver",
+        "oxc_semantic",
+        "oxc_span",
+        "petgraph",
+        "predicates",
+        "serde",
+        "serde_json",
+        "spinne-logger",
+        "tempfile"
+    ]
+}

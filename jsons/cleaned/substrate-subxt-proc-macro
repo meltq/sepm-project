@@ -1,0 +1,17 @@
+{
+    "name": "substrate-subxt-proc-macro",
+    "deps": [
+        "async-std",
+        "codec",
+        "env_logger",
+        "heck",
+        "pretty_assertions",
+        "proc-macro-crate",
+        "proc-macro2",
+        "quote",
+        "sp-keyring",
+        "syn",
+        "synstructure",
+        "trybuild"
+    ]
+}

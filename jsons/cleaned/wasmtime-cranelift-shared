@@ -1,0 +1,12 @@
+{
+    "name": "wasmtime-cranelift-shared",
+    "deps": [
+        "anyhow",
+        "cranelift-codegen",
+        "cranelift-native",
+        "gimli",
+        "object",
+        "target-lexicon",
+        "wasmtime-environ"
+    ]
+}

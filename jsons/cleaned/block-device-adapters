@@ -1,0 +1,14 @@
+{
+    "name": "block-device-adapters",
+    "deps": [
+        "anyhow",
+        "block-device-driver",
+        "defmt",
+        "elain",
+        "embedded-io-adapters",
+        "embedded-io-async",
+        "env_logger",
+        "log",
+        "tokio"
+    ]
+}

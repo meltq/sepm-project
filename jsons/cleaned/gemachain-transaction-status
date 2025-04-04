@@ -1,0 +1,21 @@
+{
+    "name": "gemachain-transaction-status",
+    "deps": [
+        "Inflector",
+        "base64",
+        "bincode",
+        "bs58",
+        "gemachain-account-decoder",
+        "gemachain-runtime",
+        "gemachain-sdk",
+        "gemachain-vote-program",
+        "lazy_static",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "spl-associated-token-account-v1-0",
+        "spl-memo",
+        "spl-token-v2-0",
+        "thiserror"
+    ]
+}

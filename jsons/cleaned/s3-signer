@@ -1,0 +1,18 @@
+{
+    "name": "s3-signer",
+    "deps": [
+        "async-h1",
+        "async-std",
+        "built",
+        "clap",
+        "http-types",
+        "log",
+        "rusoto_credential",
+        "rusoto_s3",
+        "rusoto_signature",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "simple_logger"
+    ]
+}

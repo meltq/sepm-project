@@ -1,0 +1,25 @@
+{
+    "name": "ckb-tx-pool",
+    "deps": [
+        "ckb-app-config",
+        "ckb-async-runtime",
+        "ckb-chain-spec",
+        "ckb-dao",
+        "ckb-error",
+        "ckb-fee-estimator",
+        "ckb-jsonrpc-types",
+        "ckb-logger",
+        "ckb-notify",
+        "ckb-reward-calculator",
+        "ckb-snapshot",
+        "ckb-stop-handler",
+        "ckb-store",
+        "ckb-types",
+        "ckb-util",
+        "ckb-verification",
+        "failure",
+        "faketime",
+        "lru",
+        "tokio"
+    ]
+}

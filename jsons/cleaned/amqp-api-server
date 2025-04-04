@@ -1,0 +1,20 @@
+{
+    "name": "amqp-api-server",
+    "deps": [
+        "amqp-api-shared",
+        "async-channel",
+        "async-trait",
+        "cooplan-config-reader",
+        "cooplan-state-tracker",
+        "futures-util",
+        "jsonwebtoken",
+        "lapin",
+        "log",
+        "multiple-connections-lapin-wrapper",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "tokio",
+        "uuid"
+    ]
+}

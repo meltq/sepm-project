@@ -1,0 +1,14 @@
+{
+    "name": "mls-rs-uniffi",
+    "deps": [
+        "async-trait",
+        "maybe-async",
+        "mls-rs",
+        "mls-rs-core",
+        "mls-rs-crypto-openssl",
+        "thiserror",
+        "tokio",
+        "uniffi",
+        "uniffi_bindgen"
+    ]
+}

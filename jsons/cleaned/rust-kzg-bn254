@@ -1,0 +1,24 @@
+{
+    "name": "rust-kzg-bn254",
+    "deps": [
+        "ark-bn254",
+        "ark-ec",
+        "ark-ff",
+        "ark-poly",
+        "ark-serialize",
+        "ark-std",
+        "byteorder",
+        "criterion",
+        "crossbeam-channel",
+        "directories",
+        "hex-literal",
+        "lazy_static",
+        "num-bigint",
+        "num-traits",
+        "num_cpus",
+        "rand",
+        "rayon",
+        "sha2",
+        "ureq"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "name": "sqlite2parquet",
+    "deps": [
+        "anyhow",
+        "crossterm",
+        "fallible-streaming-iterator",
+        "parquet",
+        "parquet-format",
+        "rusqlite",
+        "structopt",
+        "thousands"
+    ]
+}

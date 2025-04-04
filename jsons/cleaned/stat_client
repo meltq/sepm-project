@@ -1,0 +1,33 @@
+{
+    "name": "stat_client",
+    "deps": [
+        "anyhow",
+        "bytes",
+        "chrono",
+        "chrono",
+        "clap",
+        "fastrand",
+        "hyper",
+        "lazy_static",
+        "log",
+        "md5",
+        "once_cell",
+        "pretty_env_logger",
+        "prettytable-rs",
+        "prost",
+        "regex",
+        "reqwest",
+        "rustls",
+        "rustls-pemfile",
+        "serde",
+        "serde_json",
+        "stat_common",
+        "sysinfo",
+        "tokio",
+        "tokio-rustls",
+        "tonic",
+        "tower",
+        "url",
+        "webpki-roots"
+    ]
+}

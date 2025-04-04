@@ -1,0 +1,21 @@
+{
+    "name": "mech-server",
+    "deps": [
+        "bincode",
+        "clap",
+        "iron",
+        "mech-core",
+        "mech-program",
+        "mech-syntax",
+        "mount",
+        "rand",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "staticfile",
+        "term-painter",
+        "time",
+        "walkdir",
+        "ws"
+    ]
+}

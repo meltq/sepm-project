@@ -1,0 +1,23 @@
+{
+    "name": "tetcore-fabric-rpc-system",
+    "deps": [
+        "codec",
+        "fabric-system-rpc-runtime-api",
+        "futures",
+        "log",
+        "serde",
+        "tc-client-api",
+        "tc-rpc-api",
+        "tc-transaction-pool",
+        "tet-core",
+        "tetcore-tracing",
+        "tetsy-jsonrpc-core",
+        "tetsy-jsonrpc-core-client",
+        "tetsy-jsonrpc-derive",
+        "tp-api",
+        "tp-block-builder",
+        "tp-blockchain",
+        "tp-runtime",
+        "tp-transaction-pool"
+    ]
+}

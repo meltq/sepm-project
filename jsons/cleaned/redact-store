@@ -1,0 +1,17 @@
+{
+    "name": "redact-store",
+    "deps": [
+        "async-recursion",
+        "async-trait",
+        "bson",
+        "futures",
+        "mongodb",
+        "pretty_env_logger",
+        "redact-config",
+        "redact-crypto",
+        "serde",
+        "serde_json",
+        "tokio",
+        "warp"
+    ]
+}

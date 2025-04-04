@@ -1,0 +1,22 @@
+{
+    "name": "car-mirror-wasm",
+    "deps": [
+        "anyhow",
+        "bytes",
+        "car-mirror",
+        "console_error_panic_hook",
+        "futures",
+        "js-sys",
+        "libipld",
+        "serde-wasm-bindgen",
+        "serde_json",
+        "tokio-util",
+        "tracing",
+        "wasm-bindgen",
+        "wasm-bindgen-futures",
+        "wasm-bindgen-test",
+        "wasm-streams",
+        "web-sys",
+        "wnfs-common"
+    ]
+}

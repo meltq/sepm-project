@@ -1,0 +1,28 @@
+{
+    "name": "zksync_metadata_calculator",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "axum",
+        "futures",
+        "itertools",
+        "once_cell",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "vise",
+        "zksync_config",
+        "zksync_crypto_primitives",
+        "zksync_dal",
+        "zksync_health_check",
+        "zksync_merkle_tree",
+        "zksync_object_store",
+        "zksync_shared_metrics",
+        "zksync_storage",
+        "zksync_types",
+        "zksync_utils"
+    ]
+}

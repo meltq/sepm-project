@@ -1,0 +1,26 @@
+{
+    "name": "curve25519-elligator2",
+    "deps": [
+        "bincode",
+        "cfg-if",
+        "cpufeatures",
+        "criterion",
+        "curve25519-dalek-derive",
+        "digest",
+        "ff",
+        "fiat-crypto",
+        "group",
+        "hex",
+        "json",
+        "kolmogorov_smirnov",
+        "rand",
+        "rand_core",
+        "rand_core",
+        "rand_distr",
+        "rustc_version",
+        "serde",
+        "sha2",
+        "subtle",
+        "zeroize"
+    ]
+}

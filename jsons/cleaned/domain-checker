@@ -1,0 +1,14 @@
+{
+    "name": "domain-checker",
+    "deps": [
+        "anyhow",
+        "async-stream",
+        "clap",
+        "futures",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tokio-stream",
+        "trust-dns-resolver"
+    ]
+}

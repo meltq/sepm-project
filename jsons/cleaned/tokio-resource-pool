@@ -1,0 +1,11 @@
+{
+    "name": "tokio-resource-pool",
+    "deps": [
+        "crossbeam-queue",
+        "futures",
+        "redis",
+        "tokio",
+        "tokio-sync",
+        "tokio-threadpool"
+    ]
+}

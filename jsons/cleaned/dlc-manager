@@ -1,0 +1,19 @@
+{
+    "name": "dlc-manager",
+    "deps": [
+        "async-trait",
+        "bitcoin",
+        "bitcoincore-rpc",
+        "bitcoincore-rpc-json",
+        "dlc",
+        "dlc-messages",
+        "dlc-trie",
+        "env_logger",
+        "lightning",
+        "log",
+        "secp256k1-zkp",
+        "secp256k1-zkp",
+        "serde",
+        "serde_json"
+    ]
+}

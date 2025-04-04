@@ -1,0 +1,19 @@
+{
+    "name": "ora-storage-sqlite",
+    "deps": [
+        "async-trait",
+        "eyre",
+        "futures",
+        "ora-proto",
+        "ora-storage",
+        "parking_lot",
+        "rkyv",
+        "rusqlite",
+        "sea-query",
+        "sea-query-rusqlite",
+        "serde",
+        "serde_json",
+        "tokio",
+        "uuid"
+    ]
+}

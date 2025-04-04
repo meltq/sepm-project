@@ -1,0 +1,19 @@
+{
+    "name": "paypal-rust",
+    "deps": [
+        "base64",
+        "chrono",
+        "dotenv",
+        "futures",
+        "http-types",
+        "reqwest",
+        "reqwest-middleware",
+        "reqwest-retry",
+        "serde",
+        "serde_json",
+        "serde_qs",
+        "serde_urlencoded",
+        "serde_with",
+        "tokio"
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "name": "cuberef_client",
+    "deps": [
+        "anyhow",
+        "cgmath",
+        "clap",
+        "cuberef_core",
+        "env_logger",
+        "hex",
+        "image",
+        "line_drawing",
+        "log",
+        "microbench",
+        "parking_lot",
+        "rustc-hash",
+        "texture_packer",
+        "tokio",
+        "tokio-scoped",
+        "tokio-stream",
+        "tokio-util",
+        "tonic",
+        "vulkano",
+        "vulkano-shaders",
+        "vulkano-win",
+        "winit"
+    ]
+}

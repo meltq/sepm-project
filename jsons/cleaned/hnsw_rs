@@ -1,0 +1,25 @@
+{
+    "name": "hnsw_rs",
+    "deps": [
+        "clap",
+        "cpu-time",
+        "crossbeam-channel",
+        "crossbeam-utils",
+        "hashbrown",
+        "hdf5",
+        "lazy_static",
+        "log",
+        "ndarray",
+        "num_cpus",
+        "parking_lot",
+        "rand",
+        "rayon",
+        "serde",
+        "serde_derive",
+        "simdeez",
+        "simple_logger",
+        "skiplist",
+        "time",
+        "typename"
+    ]
+}

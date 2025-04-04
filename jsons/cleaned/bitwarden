@@ -1,0 +1,30 @@
+{
+    "name": "bitwarden",
+    "deps": [
+        "aes",
+        "assert_matches",
+        "base64",
+        "bitwarden-api-api",
+        "bitwarden-api-identity",
+        "cbc",
+        "getrandom",
+        "hkdf",
+        "hmac",
+        "lazy_static",
+        "log",
+        "pbkdf2",
+        "rand",
+        "reqwest",
+        "rsa",
+        "schemars",
+        "serde",
+        "serde_json",
+        "serde_qs",
+        "serde_repr",
+        "sha1",
+        "sha2",
+        "thiserror",
+        "tokio",
+        "wiremock"
+    ]
+}

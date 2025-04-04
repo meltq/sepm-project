@@ -1,0 +1,23 @@
+{
+    "name": "aptos-node-checker",
+    "deps": [
+        "anyhow",
+        "aptos-logger",
+        "aptos-metrics",
+        "aptos-rest-client",
+        "async-trait",
+        "clap",
+        "env_logger",
+        "futures",
+        "humantime",
+        "log",
+        "once_cell",
+        "poem",
+        "poem-openapi",
+        "prometheus-parse",
+        "reqwest",
+        "thiserror",
+        "tokio",
+        "url"
+    ]
+}

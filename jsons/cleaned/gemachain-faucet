@@ -1,0 +1,20 @@
+{
+    "name": "gemachain-faucet",
+    "deps": [
+        "bincode",
+        "byteorder",
+        "clap",
+        "gemachain-clap-utils",
+        "gemachain-cli-config",
+        "gemachain-logger",
+        "gemachain-metrics",
+        "gemachain-sdk",
+        "gemachain-version",
+        "log",
+        "serde",
+        "serde_derive",
+        "spl-memo",
+        "thiserror",
+        "tokio"
+    ]
+}

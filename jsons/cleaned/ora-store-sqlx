@@ -1,0 +1,23 @@
+{
+    "name": "ora-store-sqlx",
+    "deps": [
+        "async-stream",
+        "async-trait",
+        "eyre",
+        "futures",
+        "ora-client",
+        "ora-common",
+        "ora-scheduler",
+        "ora-worker",
+        "sea-query",
+        "sea-query-binder",
+        "serde_json",
+        "sqlx",
+        "sqlx-migrate",
+        "sqlx-migrate",
+        "time",
+        "tokio",
+        "tracing",
+        "uuid"
+    ]
+}

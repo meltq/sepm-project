@@ -1,0 +1,23 @@
+{
+    "name": "mpc-relay-server",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "axum",
+        "axum-macros",
+        "axum-server",
+        "binary-stream",
+        "futures",
+        "mpc-relay-protocol",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tokio-stream",
+        "tokio-tungstenite",
+        "toml",
+        "tower-http",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

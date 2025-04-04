@@ -1,0 +1,17 @@
+{
+    "name": "bevy_remote_stream",
+    "deps": [
+        "anyhow",
+        "bevy",
+        "futures-util",
+        "http-body-util",
+        "hyper",
+        "hyper-tungstenite",
+        "serde",
+        "serde_json",
+        "smol",
+        "smol-hyper",
+        "tungstenite",
+        "urlencoding"
+    ]
+}

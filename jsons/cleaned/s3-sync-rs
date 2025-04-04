@@ -1,0 +1,20 @@
+{
+    "name": "s3-sync-rs",
+    "deps": [
+        "aws-config",
+        "aws-sdk-s3",
+        "aws-smithy-http",
+        "aws-smithy-types",
+        "chrono",
+        "cron",
+        "lazy_static",
+        "paho-mqtt",
+        "serde",
+        "serde_json",
+        "time",
+        "tokio",
+        "tokio-stream",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

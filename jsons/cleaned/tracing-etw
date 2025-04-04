@@ -1,0 +1,14 @@
+{
+    "name": "tracing-etw",
+    "deps": [
+        "futures",
+        "tokio",
+        "tracing",
+        "tracing-attributes",
+        "tracing-core",
+        "tracing-futures",
+        "tracing-subscriber",
+        "win_etw_macros",
+        "win_etw_provider"
+    ]
+}

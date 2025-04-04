@@ -1,0 +1,25 @@
+{
+    "name": "rht",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "axum",
+        "axum-macros",
+        "base64",
+        "clap",
+        "env_logger",
+        "http",
+        "hyper",
+        "log",
+        "open",
+        "rand",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tower",
+        "tower-http",
+        "url"
+    ]
+}

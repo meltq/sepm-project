@@ -1,0 +1,17 @@
+{
+    "name": "axum-sqlx-tx",
+    "deps": [
+        "axum",
+        "axum-core",
+        "futures",
+        "http",
+        "hyper",
+        "sqlx",
+        "tempfile",
+        "thiserror",
+        "tokio",
+        "tower",
+        "tower-layer",
+        "tower-service"
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "name": "tower-ipfilter",
+    "deps": [
+        "anyhow",
+        "axum",
+        "axum",
+        "bincode",
+        "bytes",
+        "cfg-if",
+        "csv",
+        "dashmap",
+        "flate2",
+        "futures-lite",
+        "futures-util",
+        "http",
+        "http-body",
+        "http-body-util",
+        "hyper",
+        "ipnetwork",
+        "pin-project-lite",
+        "serde",
+        "tokio",
+        "tower",
+        "tower-http",
+        "tower-layer",
+        "tower-service",
+        "tracing",
+        "zip"
+    ]
+}

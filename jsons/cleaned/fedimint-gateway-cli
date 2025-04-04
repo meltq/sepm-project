@@ -1,0 +1,22 @@
+{
+    "name": "fedimint-gateway-cli",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "axum",
+        "axum-macros",
+        "bitcoin",
+        "clap",
+        "clap_complete",
+        "fedimint-build",
+        "fedimint-core",
+        "fedimint-logging",
+        "ln-gateway",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tracing",
+        "url"
+    ]
+}

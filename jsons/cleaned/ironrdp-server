@@ -1,0 +1,26 @@
+{
+    "name": "ironrdp-server",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "ironrdp-acceptor",
+        "ironrdp-ainput",
+        "ironrdp-async",
+        "ironrdp-cliprdr",
+        "ironrdp-core",
+        "ironrdp-displaycontrol",
+        "ironrdp-dvc",
+        "ironrdp-graphics",
+        "ironrdp-pdu",
+        "ironrdp-rdpsnd",
+        "ironrdp-svc",
+        "ironrdp-tokio",
+        "rayon",
+        "rustls-pemfile",
+        "tokio",
+        "tokio",
+        "tokio-rustls",
+        "tracing",
+        "x509-cert"
+    ]
+}

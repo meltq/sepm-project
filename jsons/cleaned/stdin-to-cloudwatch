@@ -1,0 +1,11 @@
+{
+    "name": "stdin-to-cloudwatch",
+    "deps": [
+        "anyhow",
+        "aws-config",
+        "aws-sdk-cloudwatchlogs",
+        "chrono",
+        "clap",
+        "tokio"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "name": "solders-transaction-status-struct",
+    "deps": [
+        "derive_more",
+        "pyo3",
+        "serde",
+        "solana-transaction-status",
+        "solders-commitment-config",
+        "solders-macros",
+        "solders-traits-core",
+        "solders-transaction-confirmation-status",
+        "solders-transaction-error"
+    ]
+}

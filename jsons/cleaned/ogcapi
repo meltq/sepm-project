@@ -1,0 +1,26 @@
+{
+    "name": "ogcapi",
+    "deps": [
+        "anyhow",
+        "axum",
+        "clap",
+        "dotenv",
+        "gdal",
+        "geo",
+        "geojson",
+        "ogcapi-client",
+        "ogcapi-drivers",
+        "ogcapi-services",
+        "ogcapi-types",
+        "osmpbfreader",
+        "pbr",
+        "serde",
+        "serde_json",
+        "sqlx",
+        "tokio",
+        "tracing",
+        "tracing-subscriber",
+        "url",
+        "wkb"
+    ]
+}

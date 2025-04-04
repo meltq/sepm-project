@@ -1,0 +1,26 @@
+{
+    "name": "pi_async_wsc",
+    "deps": [
+        "actix-codec",
+        "actix-http",
+        "actix-rt",
+        "awc",
+        "bytes",
+        "bytestring",
+        "crossbeam-channel",
+        "env_logger",
+        "flume",
+        "futures",
+        "futures-util",
+        "lazy_static",
+        "log",
+        "parking_lot",
+        "pi_async",
+        "pi_ws",
+        "rustls",
+        "tcp",
+        "url",
+        "webpki",
+        "ws"
+    ]
+}

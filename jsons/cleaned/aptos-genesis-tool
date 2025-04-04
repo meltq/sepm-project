@@ -1,0 +1,27 @@
+{
+    "name": "aptos-genesis-tool",
+    "deps": [
+        "anyhow",
+        "aptos-config",
+        "aptos-config",
+        "aptos-crypto",
+        "aptos-executor",
+        "aptos-global-constants",
+        "aptos-management",
+        "aptos-secure-storage",
+        "aptos-state-view",
+        "aptos-temppath",
+        "aptos-types",
+        "aptos-vm",
+        "aptosdb",
+        "bcs",
+        "cached-framework-packages",
+        "consensus-types",
+        "rand",
+        "serde",
+        "storage-interface",
+        "structopt",
+        "toml",
+        "vm-genesis"
+    ]
+}

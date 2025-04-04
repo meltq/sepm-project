@@ -1,0 +1,15 @@
+{
+    "name": "rsiot-influxdb",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "reqwest",
+        "rsiot-component-core",
+        "rsiot-components-config",
+        "rsiot-messages-core",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "url"
+    ]
+}

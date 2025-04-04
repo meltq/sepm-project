@@ -1,0 +1,17 @@
+{
+    "name": "svls",
+    "deps": [
+        "anyhow",
+        "futures",
+        "jsonrpc-core",
+        "log",
+        "serde_json",
+        "simplelog",
+        "structopt",
+        "sv-parser",
+        "svlint",
+        "tokio",
+        "toml",
+        "tower-lsp"
+    ]
+}

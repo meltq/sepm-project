@@ -1,0 +1,21 @@
+{
+    "name": "cargo-languagetool",
+    "deps": [
+        "annotate-snippets",
+        "clap",
+        "color-eyre",
+        "directories",
+        "dotenv",
+        "env_logger",
+        "languagetool-rust",
+        "log",
+        "proc-macro2",
+        "serde",
+        "serde_json",
+        "sha2",
+        "sled",
+        "syn",
+        "tokio",
+        "walkdir"
+    ]
+}

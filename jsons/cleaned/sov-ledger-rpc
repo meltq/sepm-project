@@ -1,0 +1,14 @@
+{
+    "name": "sov-ledger-rpc",
+    "deps": [
+        "anyhow",
+        "futures",
+        "jsonrpsee",
+        "serde",
+        "serde_json",
+        "sov-modules-api",
+        "sov-rollup-interface",
+        "tempfile",
+        "tokio"
+    ]
+}

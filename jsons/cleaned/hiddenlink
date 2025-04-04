@@ -1,0 +1,25 @@
+{
+    "name": "hiddenlink",
+    "deps": [
+        "async-trait",
+        "bytes",
+        "clap",
+        "const_format",
+        "easy-logging",
+        "itertools",
+        "log",
+        "pktparse",
+        "rstest",
+        "rustls",
+        "rustls-native-certs",
+        "rustls-pemfile",
+        "serde",
+        "serde_derive",
+        "serde_yaml",
+        "tokio",
+        "tokio-rustls",
+        "tokio-tun",
+        "validator",
+        "x509-parser"
+    ]
+}

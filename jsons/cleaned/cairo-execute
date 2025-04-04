@@ -1,0 +1,14 @@
+{
+    "name": "cairo-execute",
+    "deps": [
+        "anyhow",
+        "bincode",
+        "cairo-lang-compiler",
+        "cairo-lang-executable",
+        "cairo-lang-runner",
+        "cairo-vm",
+        "clap",
+        "num-bigint",
+        "serde_json"
+    ]
+}

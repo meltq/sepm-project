@@ -1,0 +1,20 @@
+{
+    "name": "amqp-dump",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "dotenv",
+        "futures",
+        "hex",
+        "lapin",
+        "log",
+        "parse_duration",
+        "pretty_env_logger",
+        "rand",
+        "serde",
+        "serde_json",
+        "serde_yaml",
+        "thiserror",
+        "tokio"
+    ]
+}

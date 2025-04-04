@@ -1,0 +1,30 @@
+{
+    "name": "balter-runtime",
+    "deps": [
+        "async-channel",
+        "axum",
+        "balter-core",
+        "bincode",
+        "cfg_eval",
+        "clap",
+        "futures-util",
+        "lazy_static",
+        "linkme",
+        "rand",
+        "rand_distr",
+        "reqwest",
+        "serde",
+        "serde_with",
+        "thiserror",
+        "time",
+        "tokio",
+        "tokio-tungstenite",
+        "tower",
+        "tower-http",
+        "tracing",
+        "tracing-test",
+        "tungstenite",
+        "url",
+        "uuid"
+    ]
+}

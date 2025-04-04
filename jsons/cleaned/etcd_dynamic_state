@@ -1,0 +1,17 @@
+{
+    "name": "etcd_dynamic_state",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "crc32fast",
+        "env_logger",
+        "etcd-client",
+        "futures",
+        "glob",
+        "hashbrown",
+        "log",
+        "parking_lot",
+        "thiserror",
+        "tokio"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "name": "maelstrom-container",
+    "deps": [
+        "anyhow",
+        "async-compression",
+        "clap",
+        "directories",
+        "futures",
+        "indicatif",
+        "maelstrom-util",
+        "maplit",
+        "oci-spec",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "serde_repr",
+        "tempfile",
+        "tokio",
+        "tokio-util",
+        "toml"
+    ]
+}

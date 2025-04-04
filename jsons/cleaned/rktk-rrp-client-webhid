@@ -1,0 +1,21 @@
+{
+    "name": "rktk-rrp-client-webhid",
+    "deps": [
+        "anyhow",
+        "async-lock",
+        "console_log",
+        "futures",
+        "gloo-timers",
+        "log",
+        "rktk-keymanager",
+        "rktk-rrp",
+        "serde",
+        "serde-wasm-bindgen",
+        "ssmarshal",
+        "tsify-next",
+        "usbd-hid",
+        "wasm-bindgen",
+        "wasm-bindgen-futures",
+        "web-sys"
+    ]
+}

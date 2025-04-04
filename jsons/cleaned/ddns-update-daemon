@@ -1,0 +1,21 @@
+{
+    "name": "ddns-update-daemon",
+    "deps": [
+        "anyhow",
+        "clap",
+        "futures",
+        "idna",
+        "local-ip-address",
+        "log",
+        "parse-display",
+        "reqwest",
+        "reqwest",
+        "reqwest",
+        "rupnp",
+        "serde",
+        "serde_json",
+        "simple_logger",
+        "tokio",
+        "toml"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "aptos-logger",
+    "deps": [
+        "aptos-infallible",
+        "aptos-log-derive",
+        "backtrace",
+        "chrono",
+        "erased-serde",
+        "hostname",
+        "once_cell",
+        "prometheus",
+        "serde",
+        "serde_json",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

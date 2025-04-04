@@ -1,0 +1,31 @@
+{
+    "name": "neutron",
+    "deps": [
+        "async-channel",
+        "async-trait",
+        "base64",
+        "bytes",
+        "chrono",
+        "crc32c",
+        "crc32fast",
+        "env_logger",
+        "futures",
+        "humantime",
+        "itertools",
+        "log",
+        "mockall",
+        "nanoid",
+        "nom",
+        "oauth2",
+        "protobuf",
+        "protobuf-codegen",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tokio-rustls",
+        "tokio-util",
+        "url",
+        "webpki-roots"
+    ]
+}

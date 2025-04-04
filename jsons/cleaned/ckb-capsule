@@ -1,0 +1,28 @@
+{
+    "name": "ckb-capsule",
+    "deps": [
+        "anyhow",
+        "bech32",
+        "chrono",
+        "ckb-tool",
+        "clap",
+        "ctrlc",
+        "env_logger",
+        "faster-hex",
+        "includedir",
+        "includedir_codegen",
+        "lazy_static",
+        "log",
+        "phf",
+        "rpassword",
+        "secp256k1",
+        "serde",
+        "serde_json",
+        "serde_yaml",
+        "simple-jsonrpc-client",
+        "tera",
+        "toml",
+        "toml_edit",
+        "users"
+    ]
+}

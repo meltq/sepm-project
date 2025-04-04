@@ -1,0 +1,17 @@
+{
+    "name": "audio-device",
+    "deps": [
+        "alsa-sys",
+        "anyhow",
+        "audio",
+        "audio-core",
+        "libc",
+        "nix",
+        "rand",
+        "ste",
+        "thiserror",
+        "tokio",
+        "windows",
+        "windows-sys"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "interledger-ccp",
+    "deps": [
+        "byteorder",
+        "bytes",
+        "futures",
+        "hex",
+        "interledger-ildcp",
+        "interledger-packet",
+        "interledger-service",
+        "lazy_static",
+        "log",
+        "parking_lot",
+        "ring",
+        "serde",
+        "tokio-executor",
+        "tokio-timer"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "name": "test-fuzz",
+    "deps": [
+        "afl",
+        "anyhow",
+        "cargo_metadata",
+        "clap",
+        "dirs",
+        "env_logger",
+        "log",
+        "runtime",
+        "serde",
+        "subprocess",
+        "test-fuzz-macro"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "name": "pingora-pool",
+    "deps": [
+        "crossbeam-queue",
+        "log",
+        "lru",
+        "parking_lot",
+        "pingora-timeout",
+        "thread_local",
+        "tokio",
+        "tokio-test"
+    ]
+}

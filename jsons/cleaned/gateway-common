@@ -1,0 +1,21 @@
+{
+    "name": "gateway-common",
+    "deps": [
+        "fusen-proc-macro",
+        "hostname",
+        "http-body-util",
+        "lazy_static",
+        "nacos-sdk",
+        "pretty_env_logger",
+        "serde",
+        "serde_json",
+        "serde_yaml",
+        "tokio",
+        "toml",
+        "tracing",
+        "tracing-appender",
+        "tracing-futures",
+        "tracing-subscriber",
+        "uuid"
+    ]
+}

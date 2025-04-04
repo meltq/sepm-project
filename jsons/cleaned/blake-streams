@@ -1,0 +1,16 @@
+{
+    "name": "blake-streams",
+    "deps": [
+        "anyhow",
+        "async-global-executor",
+        "async-std",
+        "blake-streams-core",
+        "futures",
+        "ipfs-embed",
+        "rand",
+        "tempdir",
+        "tracing",
+        "tracing-subscriber",
+        "zerocopy"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "name": "seismic-enclave",
+    "deps": [
+        "aes-gcm",
+        "anyhow",
+        "bincode",
+        "byteorder",
+        "bytes",
+        "hkdf",
+        "http-body-util",
+        "hyper",
+        "kbs-types",
+        "once_cell",
+        "reqwest",
+        "schnorrkel",
+        "secp256k1",
+        "serde",
+        "serde_json",
+        "sha2",
+        "strum",
+        "tokio"
+    ]
+}

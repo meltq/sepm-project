@@ -1,0 +1,23 @@
+{
+    "name": "clickhouse-readonly",
+    "deps": [
+        "chrono-tz",
+        "crossbeam",
+        "either",
+        "env_logger",
+        "ethereum-types",
+        "ethnum",
+        "futures-core",
+        "futures-util",
+        "hostname",
+        "lazy_static",
+        "log",
+        "native-tls",
+        "pin-project",
+        "thiserror",
+        "tokio",
+        "tokio-native-tls",
+        "url",
+        "rand"
+    ]
+}

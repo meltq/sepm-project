@@ -1,0 +1,28 @@
+{
+    "name": "pi_logger",
+    "deps": [
+        "anyhow",
+        "async_httpc",
+        "chrono",
+        "crossbeam-channel",
+        "derivative",
+        "lazy_static",
+        "log",
+        "log4rs",
+        "opentelemetry",
+        "opentelemetry-otlp",
+        "parking_lot",
+        "pi_async",
+        "regex",
+        "serde",
+        "serde_json",
+        "thread-id",
+        "tokio",
+        "tonic",
+        "tracing",
+        "tracing-attributes",
+        "tracing-opentelemetry",
+        "tracing-subscriber",
+        "url"
+    ]
+}

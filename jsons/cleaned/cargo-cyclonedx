@@ -1,0 +1,20 @@
+{
+    "name": "cargo-cyclonedx",
+    "deps": [
+        "anyhow",
+        "cargo",
+        "cargo_metadata",
+        "chrono",
+        "env_logger",
+        "lazy_static",
+        "log",
+        "packageurl",
+        "regex",
+        "serde",
+        "serde_json",
+        "structopt",
+        "thiserror",
+        "uuid",
+        "xml_writer"
+    ]
+}

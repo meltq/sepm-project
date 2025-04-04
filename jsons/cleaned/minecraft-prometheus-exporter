@@ -1,0 +1,21 @@
+{
+    "name": "minecraft-prometheus-exporter",
+    "deps": [
+        "better-panic",
+        "clap",
+        "eyre",
+        "once_cell",
+        "prometheus",
+        "rcon",
+        "regex",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "serde_yaml",
+        "structopt",
+        "tokio",
+        "tracing",
+        "tracing-subscriber",
+        "warp"
+    ]
+}

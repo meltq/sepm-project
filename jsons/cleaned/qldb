@@ -1,0 +1,14 @@
+{
+    "name": "qldb",
+    "deps": [
+        "async-channel",
+        "async-std",
+        "eyre",
+        "futures",
+        "ion-binary-rs",
+        "rusoto_core",
+        "rusoto_qldb_session",
+        "sha2",
+        "thiserror"
+    ]
+}

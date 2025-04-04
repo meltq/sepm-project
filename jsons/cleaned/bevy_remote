@@ -1,0 +1,20 @@
+{
+    "name": "bevy_remote",
+    "deps": [
+        "anyhow",
+        "async-channel",
+        "async-io",
+        "bevy_app",
+        "bevy_derive",
+        "bevy_ecs",
+        "bevy_hierarchy",
+        "bevy_reflect",
+        "bevy_tasks",
+        "bevy_utils",
+        "http-body-util",
+        "hyper",
+        "serde",
+        "serde_json",
+        "smol-hyper"
+    ]
+}

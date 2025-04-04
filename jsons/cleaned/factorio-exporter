@@ -1,0 +1,24 @@
+{
+    "name": "factorio-exporter",
+    "deps": [
+        "clap",
+        "convert_case",
+        "derive_builder",
+        "indoc",
+        "itertools",
+        "proc-macro2",
+        "quote",
+        "regex",
+        "rust-format",
+        "semver",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "serde_yaml",
+        "syn",
+        "tempfile",
+        "thiserror",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

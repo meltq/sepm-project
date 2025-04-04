@@ -1,0 +1,26 @@
+{
+    "name": "chainthru",
+    "deps": [
+        "alloy-primitives",
+        "chainthru-index",
+        "chainthru-primitives",
+        "chainthru-server",
+        "clap",
+        "ethers-core",
+        "ethers-providers",
+        "futures",
+        "log",
+        "num_cpus",
+        "secrecy",
+        "serial_test",
+        "sqlx",
+        "temp-env",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "tracing-bunyan-formatter",
+        "tracing-log",
+        "tracing-subscriber",
+        "url"
+    ]
+}

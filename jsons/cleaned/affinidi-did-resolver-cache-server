@@ -1,0 +1,24 @@
+{
+    "name": "affinidi-did-resolver-cache-server",
+    "deps": [
+        "affinidi-did-resolver-cache-sdk",
+        "axum",
+        "axum-server",
+        "blake2",
+        "chrono",
+        "did-peer",
+        "http",
+        "moka",
+        "rand",
+        "regex",
+        "serde",
+        "serde_json",
+        "ssi",
+        "thiserror",
+        "tokio",
+        "toml",
+        "tower-http",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

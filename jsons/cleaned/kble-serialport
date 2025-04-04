@@ -1,0 +1,15 @@
+{
+    "name": "kble-serialport",
+    "deps": [
+        "anyhow",
+        "axum",
+        "clap",
+        "futures",
+        "kble-socket",
+        "serde",
+        "tokio",
+        "tokio-serial",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

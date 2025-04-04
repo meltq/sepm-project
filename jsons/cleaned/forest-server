@@ -1,0 +1,25 @@
+{
+    "name": "forest-server",
+    "deps": [
+        "axum",
+        "axum-extra",
+        "clap",
+        "cli-log",
+        "colored",
+        "crossterm",
+        "futures",
+        "futures-util",
+        "log",
+        "maud",
+        "miette",
+        "pretty_env_logger",
+        "ratatui",
+        "tokio",
+        "tokio-stream",
+        "tower-http",
+        "tracing",
+        "watchexec",
+        "watchexec-events",
+        "watchexec-signals"
+    ]
+}

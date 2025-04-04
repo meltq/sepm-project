@@ -1,0 +1,22 @@
+{
+    "name": "luk_chain",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "bincode",
+        "futures",
+        "lazy_static",
+        "log",
+        "pico-args",
+        "rand",
+        "rsa",
+        "rust-crypto",
+        "serde",
+        "serde_json",
+        "tokio",
+        "toml",
+        "tracing",
+        "tracing-subscriber",
+        "tracing-test"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "name": "popgetter-cli",
+    "deps": [
+        "anyhow",
+        "clap",
+        "comfy-table",
+        "dirs",
+        "enum_dispatch",
+        "itertools",
+        "log",
+        "nonempty",
+        "polars",
+        "popgetter-core",
+        "pretty_env_logger",
+        "serde",
+        "serde_json",
+        "spinners",
+        "strum",
+        "strum_macros",
+        "tempfile",
+        "tokio",
+        "toml"
+    ]
+}

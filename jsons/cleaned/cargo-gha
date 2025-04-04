@@ -1,0 +1,24 @@
+{
+    "name": "cargo-gha",
+    "deps": [
+        "anyhow",
+        "async-compression",
+        "cargo-husky",
+        "clap",
+        "ctrlc",
+        "detect-targets",
+        "dialoguer",
+        "octocrab",
+        "owo-colors",
+        "reqwest",
+        "serde",
+        "tokio",
+        "tokio-stream",
+        "tokio-tar",
+        "tokio-util",
+        "toml",
+        "toml_edit",
+        "walkdir",
+        "zip"
+    ]
+}

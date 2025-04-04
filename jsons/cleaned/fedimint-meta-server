@@ -1,0 +1,21 @@
+{
+    "name": "fedimint-meta-server",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "bitcoin_hashes",
+        "erased-serde",
+        "fedimint-core",
+        "fedimint-logging",
+        "fedimint-meta-common",
+        "futures",
+        "rand",
+        "secp256k1",
+        "serde",
+        "strum",
+        "strum_macros",
+        "thiserror",
+        "tokio",
+        "tracing"
+    ]
+}

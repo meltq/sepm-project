@@ -1,0 +1,22 @@
+{
+    "name": "ibc-core-channel-types",
+    "deps": [
+        "borsh",
+        "derive_more",
+        "displaydoc",
+        "ibc-core-client-types",
+        "ibc-core-commitment-types",
+        "ibc-core-connection-types",
+        "ibc-core-host-types",
+        "ibc-primitives",
+        "ibc-proto",
+        "parity-scale-codec",
+        "prost",
+        "scale-info",
+        "schemars",
+        "serde",
+        "sha2",
+        "subtle-encoding",
+        "tendermint"
+    ]
+}

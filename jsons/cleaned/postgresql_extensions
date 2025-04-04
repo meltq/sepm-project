@@ -1,0 +1,29 @@
+{
+    "name": "postgresql_extensions",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "flate2",
+        "postgresql_archive",
+        "postgresql_commands",
+        "postgresql_embedded",
+        "regex",
+        "reqwest",
+        "reqwest-middleware",
+        "reqwest-retry",
+        "reqwest-tracing",
+        "semver",
+        "serde",
+        "serde_json",
+        "tar",
+        "target-triple",
+        "tempfile",
+        "test-log",
+        "thiserror",
+        "tokio",
+        "tokio",
+        "tracing",
+        "url",
+        "zip"
+    ]
+}

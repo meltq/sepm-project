@@ -1,0 +1,26 @@
+{
+    "name": "tor-memquota",
+    "deps": [
+        "derive-deftly",
+        "derive_builder",
+        "derive_more",
+        "educe",
+        "futures",
+        "itertools",
+        "rand",
+        "serde",
+        "slotmap",
+        "static_assertions",
+        "thiserror",
+        "tor-basic-utils",
+        "tor-config",
+        "tor-error",
+        "tor-log-ratelim",
+        "tor-rtcompat",
+        "tor-rtcompat",
+        "tor-rtmock",
+        "tracing",
+        "tracing-test",
+        "void"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "tower-sessions-sqlx-store-chrono",
+    "deps": [
+        "async-trait",
+        "axum",
+        "chrono",
+        "rmp-serde",
+        "serde",
+        "sqlx",
+        "thiserror",
+        "time",
+        "tokio",
+        "tokio-test",
+        "tower-sessions",
+        "tower-sessions-core"
+    ]
+}

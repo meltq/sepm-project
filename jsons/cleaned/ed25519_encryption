@@ -1,0 +1,9 @@
+{
+    "name": "ed25519_encryption",
+    "deps": [
+        "aes-gcm",
+        "ed25519_to_curve25519",
+        "neon",
+        "x25519-dalek"
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "name": "activitypub_federation",
+    "deps": [
+        "activitypub_federation_derive",
+        "activitystreams-kinds",
+        "actix-rt",
+        "actix-web",
+        "anyhow",
+        "async-trait",
+        "background-jobs",
+        "base64",
+        "chrono",
+        "derive_builder",
+        "env_logger",
+        "http",
+        "http-signature-normalization-actix",
+        "http-signature-normalization-reqwest",
+        "once_cell",
+        "openssl",
+        "rand",
+        "reqwest",
+        "reqwest-middleware",
+        "serde",
+        "serde_json",
+        "sha2",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "url"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "name": "unftp-auth-jsonfile",
+    "deps": [
+        "async-trait",
+        "libunftp",
+        "pretty_env_logger",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tracing",
+        "tracing-attributes",
+        "unftp-sbe-fs"
+    ]
+}

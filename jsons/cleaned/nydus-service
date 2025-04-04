@@ -1,0 +1,27 @@
+{
+    "name": "nydus-service",
+    "deps": [
+        "fuse-backend-rs",
+        "libc",
+        "log",
+        "mio",
+        "nix",
+        "nydus-api",
+        "nydus-error",
+        "nydus-rafs",
+        "nydus-storage",
+        "nydus-utils",
+        "rust-fsm",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "time",
+        "tokio",
+        "vhost",
+        "vhost-user-backend",
+        "virtio-bindings",
+        "virtio-queue",
+        "vm-memory",
+        "vmm-sys-util"
+    ]
+}

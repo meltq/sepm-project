@@ -1,0 +1,16 @@
+{
+    "name": "polodb-librocksdb-sys",
+    "deps": [
+        "bindgen",
+        "bzip2-sys",
+        "cc",
+        "glob",
+        "libc",
+        "libz-sys",
+        "lz4-sys",
+        "pkg-config",
+        "tikv-jemalloc-sys",
+        "uuid",
+        "zstd-sys"
+    ]
+}

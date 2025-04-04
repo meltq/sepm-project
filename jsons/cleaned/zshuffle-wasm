@@ -1,0 +1,28 @@
+{
+    "name": "zshuffle-wasm",
+    "deps": [
+        "ark-bn254",
+        "ark-ec",
+        "ark-ed-on-bn254",
+        "ark-ff",
+        "ark-serialize",
+        "ark-std",
+        "bincode",
+        "console_error_panic_hook",
+        "getrandom",
+        "hex",
+        "num-bigint",
+        "once_cell",
+        "rand_chacha",
+        "rand_core",
+        "serde",
+        "serde-wasm-bindgen",
+        "serde_bytes",
+        "thiserror",
+        "uzkge",
+        "wasm-bindgen",
+        "wasm-bindgen-test",
+        "web-sys",
+        "zshuffle"
+    ]
+}

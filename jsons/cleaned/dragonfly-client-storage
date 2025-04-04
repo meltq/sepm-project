@@ -1,0 +1,21 @@
+{
+    "name": "dragonfly-client-storage",
+    "deps": [
+        "base16ct",
+        "chrono",
+        "dragonfly-api",
+        "dragonfly-client-config",
+        "dragonfly-client-core",
+        "dragonfly-client-util",
+        "num_cpus",
+        "prost-wkt-types",
+        "reqwest",
+        "rocksdb",
+        "serde",
+        "serde_json",
+        "sha2",
+        "tokio",
+        "tokio-util",
+        "tracing"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "name": "zenoh-flow-runtime",
+    "deps": [
+        "anyhow",
+        "async-std",
+        "async-trait",
+        "bincode",
+        "flume",
+        "futures",
+        "libloading",
+        "serde",
+        "thiserror",
+        "tracing",
+        "uhlc",
+        "url",
+        "uuid",
+        "zenoh",
+        "zenoh-flow-commons",
+        "zenoh-flow-descriptors",
+        "zenoh-flow-nodes",
+        "zenoh-flow-records"
+    ]
+}

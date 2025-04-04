@@ -1,0 +1,14 @@
+{
+    "name": "reverseproxy",
+    "deps": [
+        "anyhow",
+        "clap",
+        "env_logger",
+        "futures",
+        "libtor",
+        "log",
+        "rand",
+        "tokio",
+        "tokio-socks"
+    ]
+}

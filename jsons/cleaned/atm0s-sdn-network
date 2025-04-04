@@ -1,0 +1,21 @@
+{
+    "name": "atm0s-sdn-network",
+    "deps": [
+        "async-std",
+        "async-trait",
+        "atm0s-sdn-identity",
+        "atm0s-sdn-router",
+        "atm0s-sdn-router",
+        "atm0s-sdn-utils",
+        "bincode",
+        "bytes",
+        "convert-enum",
+        "env_logger",
+        "futures",
+        "log",
+        "mockall",
+        "parking_lot",
+        "serde",
+        "thiserror"
+    ]
+}

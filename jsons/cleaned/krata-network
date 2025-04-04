@@ -1,0 +1,23 @@
+{
+    "name": "krata-network",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "bytes",
+        "clap",
+        "env_logger",
+        "etherparse",
+        "futures",
+        "krata",
+        "krata-advmac",
+        "libc",
+        "log",
+        "rtnetlink",
+        "smoltcp",
+        "tokio",
+        "tokio-tun",
+        "tonic",
+        "udp-stream",
+        "uuid"
+    ]
+}

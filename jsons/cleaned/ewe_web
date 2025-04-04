@@ -1,0 +1,24 @@
+{
+    "name": "ewe_web",
+    "deps": [
+        "anyhow",
+        "async-channel",
+        "cfg-if",
+        "console_error_panic_hook",
+        "futures",
+        "js-sys",
+        "serde",
+        "serde-wasm-bindgen",
+        "serde_json",
+        "serde_with",
+        "thiserror",
+        "tokio",
+        "tokio-test",
+        "tracing",
+        "tracing-subscriber",
+        "tracing-test",
+        "wasm-bindgen",
+        "wasm-bindgen-futures",
+        "web-sys"
+    ]
+}

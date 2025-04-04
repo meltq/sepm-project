@@ -1,0 +1,20 @@
+{
+    "name": "ic_tee_agent",
+    "deps": [
+        "axum",
+        "bytes",
+        "candid",
+        "ciborium",
+        "ed25519-consensus",
+        "ic-agent",
+        "ic_cose_types",
+        "ic_tee_cdk",
+        "mime",
+        "rand",
+        "serde",
+        "serde_bytes",
+        "serde_json",
+        "tokio",
+        "x25519-dalek"
+    ]
+}

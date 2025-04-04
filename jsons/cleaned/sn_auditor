@@ -1,0 +1,18 @@
+{
+    "name": "sn_auditor",
+    "deps": [
+        "bls",
+        "clap",
+        "color-eyre",
+        "dirs-next",
+        "graphviz-rust",
+        "serde",
+        "serde_json",
+        "sn_client",
+        "sn_logging",
+        "sn_peers_acquisition",
+        "tiny_http",
+        "tokio",
+        "tracing"
+    ]
+}

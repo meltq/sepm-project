@@ -1,0 +1,11 @@
+{
+    "name": "keyvaluedb-memorydb",
+    "deps": [
+        "keyvaluedb",
+        "keyvaluedb-shared-tests",
+        "parking_lot",
+        "tokio",
+        "wasm-bindgen-futures",
+        "wasm-bindgen-test"
+    ]
+}

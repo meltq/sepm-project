@@ -1,0 +1,23 @@
+{
+    "name": "adns-server",
+    "deps": [
+        "adns-proto",
+        "adns-zone",
+        "arc-swap",
+        "async-trait",
+        "defer-lite",
+        "env_logger",
+        "futures",
+        "hex",
+        "lazy_static",
+        "log",
+        "notify",
+        "prometheus",
+        "prometheus_exporter",
+        "serde",
+        "serde_yaml",
+        "smallvec",
+        "thiserror",
+        "tokio"
+    ]
+}

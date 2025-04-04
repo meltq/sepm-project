@@ -1,0 +1,32 @@
+{
+    "name": "resctl-bench",
+    "deps": [
+        "anyhow",
+        "chrono",
+        "console",
+        "env_logger",
+        "indicatif",
+        "lazy_static",
+        "libc",
+        "libflate",
+        "linreg",
+        "log",
+        "num-traits",
+        "plotlib",
+        "quantiles",
+        "rand",
+        "rd-agent-intf",
+        "rd-hashd-intf",
+        "rd-util",
+        "resctl-bench-intf",
+        "scan_fmt",
+        "serde",
+        "serde_json",
+        "statistical",
+        "statrs",
+        "tar",
+        "tempfile",
+        "term_size",
+        "thiserror"
+    ]
+}

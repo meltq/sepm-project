@@ -1,0 +1,16 @@
+{
+    "name": "cgroupfs-thrift",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "const-cstr",
+        "fbthrift",
+        "fbthrift_codegen_includer_proc_macro",
+        "fbthrift_compiler",
+        "futures",
+        "lazy_static",
+        "serde",
+        "serde_derive",
+        "thiserror"
+    ]
+}

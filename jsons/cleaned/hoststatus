@@ -1,0 +1,16 @@
+{
+    "name": "hoststatus",
+    "deps": [
+        "async-std",
+        "colored",
+        "fastping-rs",
+        "macros-rs",
+        "serde",
+        "serde_json",
+        "serde_yaml",
+        "tide",
+        "tide-tracing",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

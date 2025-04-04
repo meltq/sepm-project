@@ -1,0 +1,33 @@
+{
+    "name": "sablier-cli",
+    "deps": [
+        "anchor-lang",
+        "anchor-spl",
+        "anyhow",
+        "bincode",
+        "bzip2",
+        "cargo_metadata",
+        "chrono",
+        "clap",
+        "dirs-next",
+        "indicatif",
+        "reqwest",
+        "sablier-cron",
+        "sablier-network-program",
+        "sablier-plugin-utils",
+        "sablier-relayer-api",
+        "sablier-thread-program",
+        "sablier-utils",
+        "sablier-webhook-program",
+        "serde",
+        "serde_json",
+        "solana-cli-config",
+        "solana-client",
+        "solana-sdk",
+        "spl-associated-token-account",
+        "spl-token",
+        "tar",
+        "termcolor",
+        "thiserror"
+    ]
+}

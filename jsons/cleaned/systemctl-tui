@@ -1,0 +1,30 @@
+{
+    "name": "systemctl-tui",
+    "deps": [
+        "anyhow",
+        "better-panic",
+        "clap",
+        "clap_complete",
+        "colored",
+        "crossterm",
+        "directories",
+        "duct",
+        "env_logger",
+        "futures",
+        "itertools",
+        "libc",
+        "log",
+        "ratatui",
+        "signal-hook",
+        "tokio",
+        "tokio-stream",
+        "tokio-util",
+        "tracing",
+        "tracing-macros",
+        "tracing-subscriber",
+        "tui-input",
+        "tui-logger",
+        "unicode-segmentation",
+        "zbus"
+    ]
+}

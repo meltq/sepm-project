@@ -1,0 +1,19 @@
+{
+    "name": "sos-signer",
+    "deps": [
+        "async-trait",
+        "binary-stream",
+        "bs58",
+        "ed25519-dalek",
+        "hex",
+        "k256",
+        "rand",
+        "rustc_version",
+        "serde",
+        "sha2",
+        "sha3",
+        "sos-core",
+        "thiserror",
+        "tokio"
+    ]
+}

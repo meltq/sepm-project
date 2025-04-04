@@ -1,0 +1,15 @@
+{
+    "name": "mv-bytecode-viewer",
+    "deps": [
+        "anyhow",
+        "clap",
+        "crossterm",
+        "move-binary-format",
+        "move-bytecode-source-map",
+        "move-command-line-common",
+        "move-disassembler",
+        "move-ir-types",
+        "regex",
+        "tui"
+    ]
+}

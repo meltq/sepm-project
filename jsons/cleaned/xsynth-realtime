@@ -1,0 +1,17 @@
+{
+    "name": "xsynth-realtime",
+    "deps": [
+        "atomic_refcell",
+        "bytemuck",
+        "cbindgen",
+        "cpal",
+        "crossbeam-channel",
+        "lazy_static",
+        "midi-toolkit-rs",
+        "rayon",
+        "spin_sleep",
+        "to_vec",
+        "wav",
+        "xsynth-core"
+    ]
+}

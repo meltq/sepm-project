@@ -1,0 +1,28 @@
+{
+    "name": "eigen-services-blsaggregation",
+    "deps": [
+        "alloy-node-bindings",
+        "alloy-primitives",
+        "alloy-provider",
+        "ark-bn254",
+        "ark-ec",
+        "eigen-client-avsregistry",
+        "eigen-crypto-bls",
+        "eigen-crypto-bn254",
+        "eigen-logging",
+        "eigen-services-avsregistry",
+        "eigen-services-operatorsinfo",
+        "eigen-testing-utils",
+        "eigen-types",
+        "eigen-utils",
+        "parking_lot",
+        "serde",
+        "serde_json",
+        "serial_test",
+        "sha2",
+        "testcontainers",
+        "thiserror",
+        "tokio",
+        "tokio-util"
+    ]
+}

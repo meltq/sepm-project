@@ -1,0 +1,14 @@
+{
+    "name": "gst-plugin-uriplaylistbin",
+    "deps": [
+        "anyhow",
+        "crossbeam-channel",
+        "gst",
+        "gst-app",
+        "gst-plugin-version-helper",
+        "more-asserts",
+        "once_cell",
+        "structopt",
+        "url"
+    ]
+}

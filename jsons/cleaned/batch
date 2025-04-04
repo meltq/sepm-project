@@ -1,0 +1,19 @@
+{
+    "name": "batch",
+    "deps": [
+        "batch-codegen",
+        "env_logger",
+        "failure",
+        "futures",
+        "lapin-async",
+        "lapin-futures",
+        "lapin-futures-rustls",
+        "lapin-futures-tls-api",
+        "log",
+        "serde",
+        "serde_json",
+        "tokio-core",
+        "uuid",
+        "wait-timeout"
+    ]
+}

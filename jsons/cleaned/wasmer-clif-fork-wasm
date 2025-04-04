@@ -1,0 +1,15 @@
+{
+    "name": "wasmer-clif-fork-wasm",
+    "deps": [
+        "cranelift-codegen",
+        "cranelift-entity",
+        "failure",
+        "failure_derive",
+        "hashmap_core",
+        "log",
+        "target-lexicon",
+        "wabt",
+        "wasmer-clif-fork-frontend",
+        "wasmparser"
+    ]
+}

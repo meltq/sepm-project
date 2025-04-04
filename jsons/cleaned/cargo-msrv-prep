@@ -1,0 +1,22 @@
+{
+    "name": "cargo-msrv-prep",
+    "deps": [
+        "assert_cmd",
+        "assert_fs",
+        "assert_matches",
+        "cargo_metadata",
+        "clap",
+        "clap-cargo",
+        "clap-verbosity-flag",
+        "env_logger",
+        "indoc",
+        "log",
+        "mockall",
+        "mockall_double",
+        "predicates",
+        "test-log",
+        "thiserror",
+        "toml",
+        "toml_edit"
+    ]
+}

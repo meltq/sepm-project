@@ -1,0 +1,17 @@
+{
+    "name": "tracing-layer-core",
+    "deps": [
+        "aws-config",
+        "aws-sdk-lambda",
+        "debug_print",
+        "lambda-extension",
+        "regex",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tracing",
+        "tracing-bunyan-formatter",
+        "tracing-subscriber"
+    ]
+}

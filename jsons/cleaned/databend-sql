@@ -1,0 +1,17 @@
+{
+    "name": "databend-sql",
+    "deps": [
+        "arrow",
+        "arrow-array",
+        "arrow-cast",
+        "arrow-flight",
+        "arrow-schema",
+        "chrono",
+        "databend-client",
+        "serde",
+        "serde_json",
+        "tokio-stream",
+        "tonic",
+        "url"
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "name": "mpc-relay-client",
+    "deps": [
+        "anyhow",
+        "async-stream",
+        "async-trait",
+        "futures",
+        "getrandom",
+        "js-sys",
+        "log",
+        "mpc-relay-protocol",
+        "serde",
+        "serde-wasm-bindgen",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tokio",
+        "tokio-tungstenite",
+        "tracing",
+        "tracing-subscriber",
+        "wasm-bindgen",
+        "wasm-bindgen-futures",
+        "wasm-log",
+        "web-sys"
+    ]
+}

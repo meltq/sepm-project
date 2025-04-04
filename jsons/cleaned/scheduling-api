@@ -1,0 +1,16 @@
+{
+    "name": "scheduling-api",
+    "deps": [
+        "axum",
+        "caldav-utils",
+        "chrono",
+        "icalendar",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tower",
+        "tower-http",
+        "tracing"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "urlseal",
+    "deps": [
+        "async-trait",
+        "base64",
+        "dashmap",
+        "ed25519-dalek",
+        "env_logger",
+        "log",
+        "percent-encoding",
+        "rand",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "url",
+        "urlparse"
+    ]
+}

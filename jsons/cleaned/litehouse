@@ -1,0 +1,30 @@
+{
+    "name": "litehouse",
+    "deps": [
+        "async-trait",
+        "bitcode",
+        "clap",
+        "console-subscriber",
+        "dhat",
+        "directories",
+        "futures",
+        "itertools",
+        "jsonc-parser",
+        "jsonschema",
+        "litehouse-config",
+        "litehouse-plugin",
+        "lz4_flex",
+        "miette",
+        "schemars",
+        "serde",
+        "thiserror",
+        "tokio",
+        "tokio-stream",
+        "tokio-util",
+        "tracing",
+        "tracing-subscriber",
+        "wasmtime",
+        "wasmtime-wasi",
+        "wasmtime-wasi-http"
+    ]
+}

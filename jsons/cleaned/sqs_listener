@@ -1,0 +1,19 @@
+{
+    "name": "sqs_listener",
+    "deps": [
+        "act-zero",
+        "async-trait",
+        "color-eyre",
+        "derive_builder",
+        "env_logger",
+        "eyre",
+        "log",
+        "rusoto_core",
+        "rusoto_sqs",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tokio"
+    ]
+}

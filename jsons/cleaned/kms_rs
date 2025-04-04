@@ -1,0 +1,12 @@
+{
+    "name": "kms_rs",
+    "deps": [
+        "clap",
+        "futures",
+        "rusoto_core",
+        "rusoto_kms",
+        "serde",
+        "serde_json",
+        "tokio"
+    ]
+}

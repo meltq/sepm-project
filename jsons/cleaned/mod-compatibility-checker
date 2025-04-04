@@ -1,0 +1,19 @@
+{
+    "name": "mod-compatibility-checker",
+    "deps": [
+        "async_zip",
+        "blake3",
+        "clap",
+        "crossbeam-channel",
+        "futures",
+        "memmap2",
+        "mimalloc",
+        "num_cpus",
+        "rayon",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tokio-stream",
+        "vc-ltl"
+    ]
+}

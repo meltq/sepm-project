@@ -1,0 +1,16 @@
+{
+    "name": "dicom-findscu",
+    "deps": [
+        "clap",
+        "dicom-core",
+        "dicom-dictionary-std",
+        "dicom-dump",
+        "dicom-encoding",
+        "dicom-object",
+        "dicom-transfer-syntax-registry",
+        "dicom-ul",
+        "snafu",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

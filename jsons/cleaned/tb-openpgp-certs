@@ -1,0 +1,13 @@
+{
+    "name": "tb-openpgp-certs",
+    "deps": [
+        "anyhow",
+        "clap",
+        "diesel",
+        "openpgp-keylist",
+        "sequoia-net",
+        "sequoia-openpgp",
+        "structopt",
+        "tokio"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "name": "cargo-vendor-filterer",
+    "deps": [
+        "anyhow",
+        "camino",
+        "cargo-lock",
+        "cargo_metadata",
+        "clap",
+        "hex",
+        "openssl",
+        "serde",
+        "serde_json",
+        "tempfile",
+        "toml"
+    ]
+}

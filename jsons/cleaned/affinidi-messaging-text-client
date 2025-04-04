@@ -1,0 +1,31 @@
+{
+    "name": "affinidi-messaging-text-client",
+    "deps": [
+        "affinidi-did-resolver-cache-sdk",
+        "affinidi-messaging-didcomm",
+        "affinidi-messaging-sdk",
+        "anyhow",
+        "base64",
+        "chrono",
+        "circular-queue",
+        "color-eyre",
+        "crossterm",
+        "image",
+        "log",
+        "qrcode",
+        "rand",
+        "ratatui",
+        "ratatui-image",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "ssi",
+        "tokio",
+        "tokio-stream",
+        "tracing",
+        "tracing-subscriber",
+        "tui-input",
+        "tui-logger",
+        "uuid"
+    ]
+}

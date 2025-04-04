@@ -1,0 +1,17 @@
+{
+    "name": "tauri-plugin-ota-updater",
+    "deps": [
+        "base64",
+        "log",
+        "minisign-verify",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "tar",
+        "tauri",
+        "tauri-plugin",
+        "tempfile",
+        "thiserror",
+        "walkdir"
+    ]
+}

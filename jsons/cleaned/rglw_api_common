@@ -1,0 +1,20 @@
+{
+    "name": "rglw_api_common",
+    "deps": [
+        "async-trait",
+        "dotenv",
+        "figment",
+        "futures",
+        "futures-util",
+        "log",
+        "mockall",
+        "rglw",
+        "rglw_api_codegen",
+        "rglw_orm",
+        "serde",
+        "serde_json",
+        "sqlx",
+        "tokio",
+        "tokio-tungstenite"
+    ]
+}

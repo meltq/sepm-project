@@ -1,0 +1,21 @@
+{
+    "name": "kiwi-talk-client",
+    "deps": [
+        "arrayvec",
+        "bson",
+        "extend",
+        "futures",
+        "log",
+        "nohash-hasher",
+        "once_cell",
+        "r2d2",
+        "r2d2_sqlite",
+        "rusqlite",
+        "rusqlite_migration",
+        "serde",
+        "serde_json",
+        "talk-loco-client",
+        "thiserror",
+        "tokio"
+    ]
+}

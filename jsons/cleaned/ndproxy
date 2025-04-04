@@ -1,0 +1,22 @@
+{
+    "name": "ndproxy",
+    "deps": [
+        "address_translation",
+        "argparse",
+        "classic_bpf",
+        "config",
+        "futures",
+        "getset",
+        "ipnet",
+        "libc",
+        "log",
+        "netlink-packet-route",
+        "pnet",
+        "pretty_env_logger",
+        "rtnetlink",
+        "socket2",
+        "tokio",
+        "treebitmap",
+        "ttl_cache"
+    ]
+}

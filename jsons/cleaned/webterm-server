@@ -1,0 +1,16 @@
+{
+    "name": "webterm-server",
+    "deps": [
+        "async-shutdown",
+        "clap",
+        "futures",
+        "hyper",
+        "hyper-tungstenite",
+        "libc",
+        "log",
+        "pretty_env_logger",
+        "serde",
+        "serde_json",
+        "tokio"
+    ]
+}

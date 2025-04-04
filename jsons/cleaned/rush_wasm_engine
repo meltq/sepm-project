@@ -1,0 +1,14 @@
+{
+    "name": "rush_wasm_engine",
+    "deps": [
+        "anyhow",
+        "async-channel",
+        "async-trait",
+        "rush_core",
+        "serde",
+        "serde_json",
+        "tokio",
+        "wasmer",
+        "wd_tools"
+    ]
+}

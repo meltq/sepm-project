@@ -1,0 +1,19 @@
+{
+    "name": "rucat_common",
+    "deps": [
+        "anyhow",
+        "clap",
+        "clap_derive",
+        "prost",
+        "rand",
+        "serde",
+        "serde_json",
+        "surrealdb",
+        "time",
+        "tokio",
+        "tonic",
+        "tonic-build",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

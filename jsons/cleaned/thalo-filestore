@@ -1,0 +1,13 @@
+{
+    "name": "thalo-filestore",
+    "deps": [
+        "async-trait",
+        "serde",
+        "serde_json",
+        "tempfile",
+        "thalo",
+        "thalo-inmemory",
+        "thiserror",
+        "tokio"
+    ]
+}

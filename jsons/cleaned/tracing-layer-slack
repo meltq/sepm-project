@@ -1,0 +1,14 @@
+{
+    "name": "tracing-layer-slack",
+    "deps": [
+        "regex",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tracing",
+        "tracing-bunyan-formatter",
+        "tracing-futures",
+        "tracing-subscriber"
+    ]
+}

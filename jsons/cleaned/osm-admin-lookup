@@ -1,0 +1,16 @@
+{
+    "name": "osm-admin-lookup",
+    "deps": [
+        "bincode",
+        "clap",
+        "easybench",
+        "geo",
+        "geo-types",
+        "geojson",
+        "osm_boundaries_utils",
+        "osmpbfreader",
+        "rstar",
+        "serde",
+        "serde_json"
+    ]
+}

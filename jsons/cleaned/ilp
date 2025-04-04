@@ -1,0 +1,33 @@
+{
+    "name": "ilp",
+    "deps": [
+        "base64",
+        "byteorder",
+        "bytes",
+        "chrono",
+        "clap",
+        "env_logger",
+        "failure",
+        "failure_derive",
+        "futures",
+        "hex",
+        "hyper",
+        "lazy_static",
+        "log",
+        "num-bigint",
+        "num-traits",
+        "quick-error",
+        "reqwest",
+        "ring",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "stream-cancel",
+        "tokio",
+        "tokio-io",
+        "tokio-tcp",
+        "tokio-tungstenite",
+        "tungstenite",
+        "url"
+    ]
+}

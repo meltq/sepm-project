@@ -1,0 +1,20 @@
+{
+    "name": "sc-telemetry",
+    "deps": [
+        "bytes",
+        "futures",
+        "futures-timer",
+        "libp2p",
+        "log",
+        "parking_lot",
+        "pin-project",
+        "rand",
+        "serde",
+        "slog",
+        "slog-json",
+        "slog-scope",
+        "take_mut",
+        "void",
+        "wasm-timer"
+    ]
+}

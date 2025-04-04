@@ -1,0 +1,17 @@
+{
+    "name": "ockam_vault_sync_core",
+    "deps": [
+        "async-trait",
+        "ockam_core",
+        "ockam_node",
+        "ockam_vault",
+        "ockam_vault_core",
+        "ockam_vault_test_attribute",
+        "ockam_vault_test_suite",
+        "rand",
+        "serde",
+        "serde-big-array",
+        "tracing",
+        "zeroize"
+    ]
+}

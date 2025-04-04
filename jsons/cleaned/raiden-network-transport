@@ -1,0 +1,26 @@
+{
+    "name": "raiden-network-transport",
+    "deps": [
+        "async-trait",
+        "chrono",
+        "derive_more",
+        "futures",
+        "futures-util",
+        "hex",
+        "matrix-sdk",
+        "raiden-blockchain",
+        "raiden-network-messages",
+        "raiden-primitives",
+        "raiden-transition",
+        "reqwest",
+        "rusqlite",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tokio-stream",
+        "tracing",
+        "ulid",
+        "web3"
+    ]
+}

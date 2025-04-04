@@ -1,0 +1,31 @@
+{
+    "name": "ppaass-agent",
+    "deps": [
+        "bytecodec",
+        "bytes",
+        "clap",
+        "derive_more",
+        "futures",
+        "futures-util",
+        "httpcodec",
+        "mimalloc",
+        "ppaass-codec",
+        "ppaass-crypto",
+        "ppaass-protocol",
+        "pretty-hex",
+        "rand",
+        "serde",
+        "serde_derive",
+        "thiserror",
+        "tokio",
+        "tokio-io-timeout",
+        "tokio-stream",
+        "tokio-util",
+        "toml",
+        "tracing",
+        "tracing-appender",
+        "tracing-subscriber",
+        "url",
+        "uuid"
+    ]
+}

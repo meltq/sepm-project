@@ -1,0 +1,32 @@
+{
+    "name": "atuin-server",
+    "deps": [
+        "async-trait",
+        "atuin-common",
+        "base64",
+        "chrono",
+        "chrono-english",
+        "config",
+        "directories",
+        "eyre",
+        "fern",
+        "fork",
+        "indicatif",
+        "log",
+        "parse_duration",
+        "rand",
+        "rmp-serde",
+        "rust-crypto",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "sodiumoxide",
+        "sqlx",
+        "tokio",
+        "unicode-width",
+        "urlencoding",
+        "uuid",
+        "warp",
+        "whoami"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "threshold_crypto_ce",
+    "deps": [
+        "bincode",
+        "byteorder",
+        "criterion",
+        "errno",
+        "failure",
+        "hex_fmt",
+        "log",
+        "memsec",
+        "pairing",
+        "rand",
+        "rand04_compat",
+        "rand_chacha",
+        "rand_xorshift",
+        "serde",
+        "tiny-keccak"
+    ]
+}

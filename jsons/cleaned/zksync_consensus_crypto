@@ -1,0 +1,22 @@
+{
+    "name": "zksync_consensus_crypto",
+    "deps": [
+        "anyhow",
+        "blst",
+        "criterion",
+        "ed25519-dalek",
+        "elliptic-curve",
+        "ff_ce",
+        "hex",
+        "k256",
+        "num-bigint",
+        "num-traits",
+        "pairing",
+        "rand",
+        "rand04",
+        "sha3",
+        "thiserror",
+        "tracing",
+        "zeroize"
+    ]
+}

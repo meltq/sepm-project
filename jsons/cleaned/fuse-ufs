@@ -1,0 +1,21 @@
+{
+    "name": "fuse-ufs",
+    "deps": [
+        "anyhow",
+        "assert_cmd",
+        "bincode",
+        "cfg-if",
+        "clap",
+        "cstr",
+        "env_logger",
+        "fuser",
+        "lazy_static",
+        "libc",
+        "log",
+        "nix",
+        "rstest",
+        "rstest_reuse",
+        "tempfile",
+        "xattr"
+    ]
+}

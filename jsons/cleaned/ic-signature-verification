@@ -1,0 +1,15 @@
+{
+    "name": "ic-signature-verification",
+    "deps": [
+        "assert_matches",
+        "hex",
+        "ic-canister-sig-creation",
+        "ic-certification",
+        "ic-verify-bls-signature",
+        "ic_principal",
+        "serde",
+        "serde_bytes",
+        "serde_cbor",
+        "sha2"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "name": "kaspa-wrpc-server",
+    "deps": [
+        "async-trait",
+        "borsh",
+        "futures",
+        "kaspa-consensus-core",
+        "kaspa-core",
+        "kaspa-notify",
+        "kaspa-rpc-core",
+        "kaspa-rpc-macros",
+        "kaspa-utils",
+        "num_cpus",
+        "paste",
+        "serde",
+        "thiserror",
+        "tokio",
+        "workflow-core",
+        "workflow-log",
+        "workflow-rpc"
+    ]
+}

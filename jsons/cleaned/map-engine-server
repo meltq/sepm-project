@@ -1,0 +1,16 @@
+{
+    "name": "map-engine-server",
+    "deps": [
+        "async-std",
+        "clap",
+        "dotenv",
+        "log",
+        "map-engine",
+        "pretty_env_logger",
+        "serde",
+        "serde_json",
+        "tempfile",
+        "tide",
+        "tide-testing"
+    ]
+}

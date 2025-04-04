@@ -1,0 +1,19 @@
+{
+    "name": "async_ui_gtk",
+    "deps": [
+        "async-task",
+        "async_ui_core",
+        "enum_dispatch",
+        "futures-lite",
+        "glib",
+        "gtk",
+        "im-rc",
+        "observables",
+        "pin-project-lite",
+        "scoped-tls",
+        "scoped_async_spawn",
+        "scopeguard",
+        "slab",
+        "waker-fn"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "openraft-rocksstore",
+    "deps": [
+        "anyhow",
+        "async-std",
+        "async-trait",
+        "byteorder",
+        "openraft",
+        "rocksdb",
+        "serde",
+        "serde_json",
+        "tempdir",
+        "tracing"
+    ]
+}

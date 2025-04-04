@@ -1,0 +1,21 @@
+{
+    "name": "tastytrade-rs",
+    "deps": [
+        "derive_builder",
+        "dxfeed",
+        "erased-serde",
+        "flume",
+        "futures-util",
+        "once_cell",
+        "reqwest",
+        "reqwest_inspect_json",
+        "rust_decimal",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tokio-tungstenite",
+        "url",
+        "widestring"
+    ]
+}

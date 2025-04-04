@@ -1,0 +1,24 @@
+{
+    "name": "sc-authority-discovery",
+    "deps": [
+        "bytes",
+        "codec",
+        "derive_more",
+        "futures",
+        "futures-timer",
+        "libp2p",
+        "log",
+        "prost",
+        "prost-build",
+        "rand",
+        "sc-client-api",
+        "sc-keystore",
+        "sc-network",
+        "serde_json",
+        "sp-api",
+        "sp-authority-discovery",
+        "sp-blockchain",
+        "sp-core",
+        "sp-runtime"
+    ]
+}

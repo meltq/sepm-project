@@ -1,0 +1,21 @@
+{
+    "name": "argentum_rest_infrastructure",
+    "deps": [
+        "argentum_log_business",
+        "argentum_standard_business",
+        "argentum_standard_infrastructure",
+        "argentum_user_account_business",
+        "argentum_user_business",
+        "async-trait",
+        "bytes",
+        "erased-serde",
+        "http-body-util",
+        "hyper",
+        "pin-project-lite",
+        "serde",
+        "serde_json",
+        "serde_valid",
+        "thiserror",
+        "tokio"
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "name": "ink_e2e",
+    "deps": [
+        "contract-metadata",
+        "env_logger",
+        "impl-serde",
+        "ink",
+        "ink_e2e_macro",
+        "ink_env",
+        "ink_primitives",
+        "jsonrpsee",
+        "log",
+        "pallet-contracts-primitives",
+        "scale",
+        "scale-info",
+        "serde",
+        "serde_json",
+        "sp-core",
+        "sp-keyring",
+        "sp-runtime",
+        "sp-weights",
+        "subxt",
+        "tokio"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "name": "actix-rate-limit",
+    "deps": [
+        "actix",
+        "actix-redis",
+        "actix-service",
+        "actix-web",
+        "futures-util",
+        "log",
+        "serde",
+        "time"
+    ]
+}

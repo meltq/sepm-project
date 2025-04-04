@@ -1,0 +1,24 @@
+{
+    "name": "libp2p-auto-relay",
+    "deps": [
+        "asynchronous-codec",
+        "bytes",
+        "futures-channel",
+        "futures-util",
+        "libp2p-core",
+        "libp2p-swarm",
+        "pin-project",
+        "prost",
+        "prost-codec",
+        "tap",
+        "thiserror",
+        "tracing",
+        "libp2p",
+        "libp2p-noise",
+        "libp2p-swarm",
+        "libp2p-yamux",
+        "tokio",
+        "tracing-subscriber",
+        "prost-build"
+    ]
+}

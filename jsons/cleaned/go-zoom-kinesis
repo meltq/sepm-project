@@ -1,0 +1,25 @@
+{
+    "name": "go-zoom-kinesis",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "aws-config",
+        "aws-credential-types",
+        "aws-sdk-dynamodb",
+        "aws-sdk-kinesis",
+        "aws-smithy-types",
+        "aws-smithy-types-convert",
+        "bytes",
+        "chrono",
+        "futures",
+        "parking_lot",
+        "pretty_assertions",
+        "rand",
+        "serde",
+        "thiserror",
+        "tokio",
+        "tokio-test",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

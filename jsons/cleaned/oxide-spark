@@ -1,0 +1,26 @@
+{
+    "name": "oxide-spark",
+    "deps": [
+        "anyhow",
+        "config",
+        "embedded-hal",
+        "embedded-svc",
+        "embuild",
+        "esp-idf-hal",
+        "esp-idf-svc",
+        "esp-idf-sys",
+        "log",
+        "once_cell",
+        "oxide-spark-utils",
+        "rgb",
+        "serde",
+        "serde_json",
+        "shared-bus",
+        "shtcx",
+        "smart-leds",
+        "strum",
+        "thiserror",
+        "tsl256x",
+        "ws2812-esp32-rmt-driver"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "name": "websocket-server-async",
+    "deps": [
+        "anyhow",
+        "aqueue",
+        "async-trait",
+        "env_logger",
+        "futures-util",
+        "log",
+        "tokio",
+        "tokio-tungstenite"
+    ]
+}

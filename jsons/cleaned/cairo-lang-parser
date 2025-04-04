@@ -1,0 +1,20 @@
+{
+    "name": "cairo-lang-parser",
+    "deps": [
+        "cairo-lang-diagnostics",
+        "cairo-lang-filesystem",
+        "cairo-lang-syntax",
+        "cairo-lang-syntax-codegen",
+        "cairo-lang-test-utils",
+        "cairo-lang-utils",
+        "colored",
+        "env_logger",
+        "itertools",
+        "log",
+        "pretty_assertions",
+        "salsa",
+        "smol_str",
+        "test-case",
+        "test-log"
+    ]
+}

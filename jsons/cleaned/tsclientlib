@@ -1,0 +1,31 @@
+{
+    "name": "tsclientlib",
+    "deps": [
+        "base64",
+        "built",
+        "bytes",
+        "chashmap",
+        "chrono",
+        "derive_more",
+        "failure",
+        "futures",
+        "itertools",
+        "parking_lot",
+        "rand",
+        "reqwest",
+        "slog",
+        "slog-async",
+        "slog-perf",
+        "slog-term",
+        "structopt",
+        "t4rust-derive",
+        "tokio",
+        "tokio-signal",
+        "tokio-threadpool",
+        "trust-dns-proto",
+        "trust-dns-resolver",
+        "tsproto",
+        "tsproto-commands",
+        "tsproto-structs"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "name": "minetest-protocol",
+    "deps": [
+        "anyhow",
+        "minetest-protocol-derive",
+        "miniz_oxide",
+        "rand",
+        "thiserror",
+        "tokio",
+        "tokio-util",
+        "zstd-safe"
+    ]
+}

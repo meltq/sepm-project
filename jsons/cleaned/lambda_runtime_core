@@ -1,0 +1,15 @@
+{
+    "name": "lambda_runtime_core",
+    "deps": [
+        "backtrace",
+        "chrono",
+        "failure",
+        "hyper",
+        "lambda_runtime_client",
+        "lambda_runtime_errors",
+        "log",
+        "rustc_version",
+        "simple_logger",
+        "tokio"
+    ]
+}

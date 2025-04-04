@@ -1,0 +1,30 @@
+{
+    "name": "betfair-stream-server-mock",
+    "deps": [
+        "betfair-adapter",
+        "betfair-rpc-server-mock",
+        "betfair-stream-api",
+        "betfair-stream-types",
+        "chrono",
+        "eyre",
+        "eyre",
+        "futures",
+        "futures-util",
+        "pretty_assertions",
+        "rcgen",
+        "rstest",
+        "rust_decimal",
+        "rust_decimal_macros",
+        "rustls",
+        "rustls-pemfile",
+        "serde_json",
+        "test-log",
+        "tokio",
+        "tokio-rustls",
+        "tokio-stream",
+        "tokio-util",
+        "tracing",
+        "url",
+        "wiremock"
+    ]
+}

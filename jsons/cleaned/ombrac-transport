@@ -1,0 +1,14 @@
+{
+    "name": "ombrac-transport",
+    "deps": [
+        "aws-lc-rs",
+        "ombrac",
+        "ombrac-macros",
+        "quinn",
+        "rustls",
+        "rustls-pemfile",
+        "tokio",
+        "tracing",
+        "webpki-roots"
+    ]
+}

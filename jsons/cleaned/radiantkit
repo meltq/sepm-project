@@ -1,0 +1,28 @@
+{
+    "name": "radiantkit",
+    "deps": [
+        "bytemuck",
+        "cgmath",
+        "console_error_panic_hook",
+        "console_log",
+        "env_logger",
+        "epaint",
+        "futures-intrusive",
+        "js-sys",
+        "log",
+        "macro_magic",
+        "pollster",
+        "radiantkit-core",
+        "radiantkit-image",
+        "radiantkit-macros",
+        "radiantkit-path",
+        "radiantkit-text",
+        "radiantkit-winit",
+        "serde",
+        "serde-wasm-bindgen",
+        "wasm-bindgen",
+        "wasm-bindgen-futures",
+        "web-sys",
+        "wgpu"
+    ]
+}

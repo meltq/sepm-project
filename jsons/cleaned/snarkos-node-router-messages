@@ -1,0 +1,20 @@
+{
+    "name": "snarkos-node-router-messages",
+    "deps": [
+        "anyhow",
+        "bytes",
+        "indexmap",
+        "proptest",
+        "rayon",
+        "serde",
+        "snarkos-node-bft-events",
+        "snarkos-node-sync-locators",
+        "snarkvm",
+        "snarkvm",
+        "snow",
+        "test-strategy",
+        "tokio",
+        "tokio-util",
+        "tracing"
+    ]
+}

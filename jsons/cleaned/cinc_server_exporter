@@ -1,0 +1,13 @@
+{
+    "name": "cinc_server_exporter",
+    "deps": [
+        "axum",
+        "axum-prometheus",
+        "chrono",
+        "color-eyre",
+        "lazy_static",
+        "prometheus",
+        "tokio",
+        "tokio-postgres"
+    ]
+}

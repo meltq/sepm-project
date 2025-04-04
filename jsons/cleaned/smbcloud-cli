@@ -1,0 +1,29 @@
+{
+    "name": "smbcloud-cli",
+    "deps": [
+        "anyhow",
+        "clap",
+        "clap_mangen",
+        "console",
+        "dialoguer",
+        "dirs",
+        "home",
+        "log",
+        "open",
+        "regex",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "serde_repr",
+        "smbcloud-model",
+        "smbcloud-networking",
+        "smbcloud-networking-project",
+        "smbcloud-utils",
+        "spinners",
+        "tokio",
+        "tracing",
+        "tracing-bunyan-formatter",
+        "tracing-subscriber",
+        "url-builder"
+    ]
+}

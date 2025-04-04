@@ -1,0 +1,11 @@
+{
+    "name": "git-next-file-watcher-actor",
+    "deps": [
+        "actix",
+        "git-next-actor-macros",
+        "git-next-config",
+        "inotify",
+        "thiserror",
+        "tracing"
+    ]
+}

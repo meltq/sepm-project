@@ -1,0 +1,13 @@
+{
+    "name": "ecli-server",
+    "deps": [
+        "clap",
+        "ctrlc",
+        "ecli-lib",
+        "ecli-server-codegen",
+        "flexi_logger",
+        "hyper",
+        "log",
+        "tokio"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "name": "deltalake-hdfs",
+    "deps": [
+        "deltalake-core",
+        "hdfs-native-object-store",
+        "object_store",
+        "serial_test",
+        "tokio",
+        "url",
+        "which"
+    ]
+}

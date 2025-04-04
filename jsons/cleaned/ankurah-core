@@ -1,0 +1,30 @@
+{
+    "name": "ankurah-core",
+    "deps": [
+        "ankql",
+        "ankurah-derive",
+        "ankurah-proto",
+        "anyhow",
+        "append-only-vec",
+        "async-trait",
+        "bb8",
+        "bb8-postgres",
+        "bincode",
+        "chrono",
+        "dashmap",
+        "dirs",
+        "futures",
+        "futures-signals",
+        "futures-util",
+        "rand",
+        "serde",
+        "sled",
+        "thiserror",
+        "tokio",
+        "tokio-postgres",
+        "tracing",
+        "ulid",
+        "uuid",
+        "yrs"
+    ]
+}

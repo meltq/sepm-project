@@ -1,0 +1,30 @@
+{
+    "name": "tor-client-lib",
+    "deps": [
+        "anyhow",
+        "base32",
+        "base64",
+        "curve25519-dalek",
+        "ed25519-dalek",
+        "env_logger",
+        "futures",
+        "hex",
+        "hmac",
+        "lazy_static",
+        "log",
+        "rand",
+        "regex",
+        "repl-rs",
+        "rpassword",
+        "rsa",
+        "serde",
+        "serde_json",
+        "serde_with",
+        "sha1",
+        "sha2",
+        "sha3",
+        "tokio",
+        "tokio-socks",
+        "tokio-util"
+    ]
+}

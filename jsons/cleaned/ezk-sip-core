@@ -1,0 +1,21 @@
+{
+    "name": "ezk-sip-core",
+    "deps": [
+        "async-trait",
+        "bytes",
+        "bytesstr",
+        "downcast-rs",
+        "internal",
+        "log",
+        "parking_lot",
+        "rand",
+        "sip-types",
+        "stun",
+        "stun-types",
+        "thiserror",
+        "tokio",
+        "tokio-stream",
+        "tokio-util",
+        "tracing"
+    ]
+}

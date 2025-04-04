@@ -1,0 +1,22 @@
+{
+    "name": "namecom_ddns",
+    "deps": [
+        "async-trait",
+        "clap",
+        "derive_deref",
+        "futures",
+        "libc",
+        "log",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "simplelog",
+        "strum",
+        "strum_macros",
+        "thiserror",
+        "tokio",
+        "toml",
+        "trust-dns-resolver",
+        "winapi"
+    ]
+}

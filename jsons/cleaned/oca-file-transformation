@@ -1,0 +1,20 @@
+{
+    "name": "oca-file-transformation",
+    "deps": [
+        "clap",
+        "convert_case",
+        "env_logger",
+        "indexmap",
+        "log",
+        "oca-ast-transformation",
+        "pest",
+        "pest_derive",
+        "pretty_assertions",
+        "recursion",
+        "said",
+        "serde",
+        "serde_json",
+        "sled",
+        "thiserror"
+    ]
+}

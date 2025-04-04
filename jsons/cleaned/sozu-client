@@ -1,0 +1,15 @@
+{
+    "name": "sozu-client",
+    "deps": [
+        "async-trait",
+        "bb8",
+        "config",
+        "mio",
+        "serde_json",
+        "sozu-command-lib",
+        "tempdir",
+        "thiserror",
+        "tokio",
+        "tracing"
+    ]
+}

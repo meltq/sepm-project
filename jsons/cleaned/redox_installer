@@ -1,0 +1,17 @@
+{
+    "name": "redox_installer",
+    "deps": [
+        "arg_parser",
+        "argon2rs",
+        "failure",
+        "libc",
+        "liner",
+        "rand",
+        "redox_pkgutils",
+        "redoxfs",
+        "serde",
+        "serde_derive",
+        "termion",
+        "toml"
+    ]
+}

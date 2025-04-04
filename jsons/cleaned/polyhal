@@ -1,0 +1,24 @@
+{
+    "name": "polyhal",
+    "deps": [
+        "aarch64-cpu",
+        "arm_gicv2",
+        "arm_pl011",
+        "bitflags",
+        "buddy_system_allocator",
+        "cfg-if",
+        "fdt",
+        "log",
+        "loongArch64",
+        "multiboot",
+        "polyhal-macro",
+        "raw-cpuid",
+        "riscv",
+        "sbi-rt",
+        "spin",
+        "tock-registers",
+        "x2apic",
+        "x86",
+        "x86_64"
+    ]
+}

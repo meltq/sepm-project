@@ -1,0 +1,24 @@
+{
+    "name": "taskrs-server",
+    "deps": [
+        "anyhow",
+        "axum",
+        "axum-test",
+        "cargo-pretty-test",
+        "chrono",
+        "directories",
+        "libtaskrs",
+        "pretty_assertions",
+        "serde",
+        "serde_json",
+        "sqlx",
+        "tempdir",
+        "tokio",
+        "toml",
+        "tracing",
+        "tracing-subscriber",
+        "utoipa",
+        "utoipa-swagger-ui",
+        "uuid"
+    ]
+}

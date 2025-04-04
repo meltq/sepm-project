@@ -1,0 +1,15 @@
+{
+    "name": "local_s3",
+    "deps": [
+        "aws-config",
+        "aws-credential-types",
+        "aws-sdk-s3",
+        "bytes",
+        "futures",
+        "hyper",
+        "hyper-util",
+        "s3s",
+        "s3s-fs",
+        "tokio"
+    ]
+}

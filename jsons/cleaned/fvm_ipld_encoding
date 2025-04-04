@@ -1,0 +1,15 @@
+{
+    "name": "fvm_ipld_encoding",
+    "deps": [
+        "anyhow",
+        "cid",
+        "fvm_ipld_blockstore",
+        "serde",
+        "serde_bytes",
+        "serde_ipld_dagcbor",
+        "serde_json",
+        "serde_repr",
+        "serde_tuple",
+        "thiserror"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "grpc_logger",
+    "deps": [
+        "chrono",
+        "futures",
+        "prost",
+        "serde",
+        "serde_yaml",
+        "tokio",
+        "tokio-stream",
+        "tonic",
+        "tonic-build",
+        "tonic-web",
+        "tower-http",
+        "tracing",
+        "tracing-appender",
+        "tracing-subscriber"
+    ]
+}

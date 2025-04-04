@@ -1,0 +1,14 @@
+{
+    "name": "qcow2-fuse",
+    "deps": [
+        "daemonize",
+        "env_logger",
+        "fuse",
+        "getopts",
+        "libc",
+        "log",
+        "positioned-io",
+        "qcow2",
+        "time"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "name": "vhost-device-vsock",
+    "deps": [
+        "byteorder",
+        "clap",
+        "config",
+        "env_logger",
+        "epoll",
+        "futures",
+        "log",
+        "serde",
+        "serde_yaml",
+        "tempfile",
+        "thiserror",
+        "vhost",
+        "vhost-user-backend",
+        "virtio-bindings",
+        "virtio-queue",
+        "virtio-queue",
+        "virtio-vsock",
+        "vm-memory",
+        "vmm-sys-util"
+    ]
+}

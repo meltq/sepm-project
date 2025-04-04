@@ -1,0 +1,23 @@
+{
+    "name": "bitwarden-vault",
+    "deps": [
+        "base64",
+        "bitwarden-api-api",
+        "bitwarden-core",
+        "bitwarden-crypto",
+        "chrono",
+        "hmac",
+        "rand",
+        "reqwest",
+        "schemars",
+        "serde",
+        "serde_json",
+        "serde_repr",
+        "sha1",
+        "sha2",
+        "thiserror",
+        "tokio",
+        "uniffi",
+        "uuid"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "fuel-core-e2e-client",
+    "deps": [
+        "anyhow",
+        "assert_cmd",
+        "fuel-core",
+        "fuel-core-client",
+        "fuel-core-types",
+        "humantime-serde",
+        "insta",
+        "libtest-mimic",
+        "serde",
+        "tempfile",
+        "tokio",
+        "toml"
+    ]
+}

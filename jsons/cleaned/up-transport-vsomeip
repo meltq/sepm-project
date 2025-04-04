@@ -1,0 +1,23 @@
+{
+    "name": "up-transport-vsomeip",
+    "deps": [
+        "async-trait",
+        "bimap",
+        "bytes",
+        "crossbeam-channel",
+        "cxx",
+        "env_logger",
+        "futures",
+        "lazy_static",
+        "log",
+        "once_cell",
+        "protobuf",
+        "serde",
+        "serde_json",
+        "test-case",
+        "tokio",
+        "up-rust",
+        "vsomeip-proc-macro",
+        "vsomeip-sys"
+    ]
+}

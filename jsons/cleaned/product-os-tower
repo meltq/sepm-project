@@ -1,0 +1,27 @@
+{
+    "name": "product-os-tower",
+    "deps": [
+        "chrono",
+        "core-error",
+        "futures-core",
+        "futures-util",
+        "hdrhistogram",
+        "indexmap",
+        "libm",
+        "no-std-compat",
+        "pin-project-lite",
+        "product-os-async-executor",
+        "product-os-security",
+        "product-os-semaphore",
+        "product-os-tower-layer",
+        "product-os-tower-service",
+        "slab",
+        "spin",
+        "sync_wrapper",
+        "toad-hash",
+        "tokio",
+        "tokio-stream",
+        "tokio-util",
+        "tracing"
+    ]
+}

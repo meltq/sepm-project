@@ -1,0 +1,23 @@
+{
+    "name": "aws-cognito-srp",
+    "deps": [
+        "aws-config",
+        "aws-sdk-cognitoidentityprovider",
+        "base64",
+        "chrono",
+        "digest",
+        "dotenvy",
+        "dotenvy_macro",
+        "hex",
+        "hmac",
+        "lazy_static",
+        "log",
+        "num-bigint",
+        "num-traits",
+        "rand",
+        "regex",
+        "sha2",
+        "thiserror",
+        "tokio"
+    ]
+}

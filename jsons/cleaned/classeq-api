@@ -1,0 +1,28 @@
+{
+    "name": "classeq-api",
+    "deps": [
+        "actix-files",
+        "actix-multipart",
+        "actix-web",
+        "actix-web-httpauth",
+        "actix-web-opentelemetry",
+        "anyhow",
+        "chrono",
+        "classeq-core",
+        "classeq-ports-lib",
+        "futures",
+        "futures-util",
+        "mycelium-base",
+        "mycelium-config",
+        "serde",
+        "serde_yaml",
+        "tokio",
+        "tracing",
+        "tracing-actix-web",
+        "tracing-bunyan-formatter",
+        "tracing-log",
+        "tracing-subscriber",
+        "uuid",
+        "walkdir"
+    ]
+}

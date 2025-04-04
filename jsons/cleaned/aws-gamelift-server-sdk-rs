@@ -1,0 +1,19 @@
+{
+    "name": "aws-gamelift-server-sdk-rs",
+    "deps": [
+        "bytes",
+        "env_logger",
+        "futures-util",
+        "log",
+        "protobuf",
+        "protobuf-codegen-pure",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "strum",
+        "strum_macros",
+        "thiserror",
+        "tokio",
+        "tokio-tungstenite"
+    ]
+}

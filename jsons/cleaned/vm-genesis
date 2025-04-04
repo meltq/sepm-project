@@ -1,0 +1,22 @@
+{
+    "name": "vm-genesis",
+    "deps": [
+        "anyhow",
+        "aptos-config",
+        "aptos-crypto",
+        "aptos-framework",
+        "aptos-proptest-helpers",
+        "aptos-state-view",
+        "aptos-transaction-builder",
+        "aptos-types",
+        "aptos-vm",
+        "bcs",
+        "cached-framework-packages",
+        "move-deps",
+        "move-deps",
+        "once_cell",
+        "proptest",
+        "proptest-derive",
+        "rand"
+    ]
+}

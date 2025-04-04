@@ -1,0 +1,27 @@
+{
+    "name": "sequoia-ipc",
+    "deps": [
+        "anyhow",
+        "buffered-reader",
+        "capnp-rpc",
+        "clap",
+        "ctor",
+        "dirs",
+        "fs2",
+        "futures",
+        "lalrpop",
+        "lalrpop-util",
+        "lazy_static",
+        "libc",
+        "memsec",
+        "quickcheck",
+        "rand",
+        "sequoia-openpgp",
+        "socket2",
+        "tempfile",
+        "thiserror",
+        "tokio",
+        "tokio-util",
+        "winapi"
+    ]
+}

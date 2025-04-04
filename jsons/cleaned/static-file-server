@@ -1,0 +1,15 @@
+{
+    "name": "static-file-server",
+    "deps": [
+        "anyhow",
+        "axum",
+        "axum-extra",
+        "clap",
+        "termcolor",
+        "tokio",
+        "tower",
+        "tower-http",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

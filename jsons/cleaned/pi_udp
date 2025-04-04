@@ -1,0 +1,20 @@
+{
+    "name": "pi_udp",
+    "deps": [
+        "bytes",
+        "crossbeam-channel",
+        "dashmap",
+        "env_logger",
+        "flume",
+        "fnv",
+        "futures",
+        "lazy_static",
+        "log",
+        "mio",
+        "parking_lot",
+        "pi_async",
+        "pi_hash",
+        "pi_slotmap",
+        "spin_sleep"
+    ]
+}

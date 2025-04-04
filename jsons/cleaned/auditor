@@ -1,0 +1,32 @@
+{
+    "name": "auditor",
+    "deps": [
+        "actix-web",
+        "anyhow",
+        "chrono",
+        "claim",
+        "config",
+        "fake",
+        "num-traits",
+        "once_cell",
+        "quickcheck",
+        "quickcheck_macros",
+        "rand",
+        "regex",
+        "reqwest",
+        "secrecy",
+        "serde",
+        "serde-aux",
+        "serde_with",
+        "shell-words",
+        "sqlx",
+        "tokio",
+        "tracing",
+        "tracing-actix-web",
+        "tracing-bunyan-formatter",
+        "tracing-log",
+        "tracing-subscriber",
+        "unicode-segmentation",
+        "uuid"
+    ]
+}

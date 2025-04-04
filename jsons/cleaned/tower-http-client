@@ -1,0 +1,16 @@
+{
+    "name": "tower-http-client",
+    "deps": [
+        "anyhow",
+        "http",
+        "http-body-util",
+        "include-utils",
+        "reqwest",
+        "serde_json",
+        "tokio",
+        "tower",
+        "tower-http",
+        "tower-reqwest",
+        "wiremock"
+    ]
+}

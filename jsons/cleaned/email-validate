@@ -1,0 +1,32 @@
+{
+    "name": "email-validate",
+    "deps": [
+        "anyhow",
+        "check-if-email-exists",
+        "clap",
+        "coarsetime",
+        "colored",
+        "cowstr",
+        "crossterm",
+        "dashmap",
+        "dirs",
+        "futures",
+        "humantime",
+        "kanal",
+        "minstant",
+        "once_cell",
+        "path-clean",
+        "ratatui",
+        "serde",
+        "serde_json",
+        "serde_variant",
+        "slog",
+        "slog-async",
+        "slog-term",
+        "tempfile",
+        "thiserror",
+        "tokio",
+        "typed-builder",
+        "walkdir"
+    ]
+}

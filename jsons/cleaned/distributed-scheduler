@@ -1,0 +1,14 @@
+{
+    "name": "distributed-scheduler",
+    "deps": [
+        "async-trait",
+        "hashring",
+        "job_scheduler",
+        "log",
+        "md5",
+        "redis",
+        "thiserror",
+        "tokio",
+        "uuid"
+    ]
+}

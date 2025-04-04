@@ -1,0 +1,32 @@
+{
+    "name": "tgreddit",
+    "deps": [
+        "anyhow",
+        "chrono",
+        "duct",
+        "env_logger",
+        "getopts",
+        "itertools",
+        "lazy_static",
+        "log",
+        "openssl",
+        "regex",
+        "reqwest",
+        "rusqlite",
+        "rusqlite_migration",
+        "secrecy",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "signal-hook",
+        "strum",
+        "strum_macros",
+        "teloxide",
+        "tempdir",
+        "thiserror",
+        "tokio",
+        "toml",
+        "url",
+        "xdg"
+    ]
+}

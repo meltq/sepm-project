@@ -1,0 +1,16 @@
+{
+    "name": "chess_dl",
+    "deps": [
+        "bytes",
+        "crossbeam-channel",
+        "env_logger",
+        "futures",
+        "log",
+        "pgn-reader",
+        "reqwest",
+        "serde",
+        "shakmaty",
+        "tempfile",
+        "tokio"
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "name": "kaspa-wallet-keys",
+    "deps": [
+        "async-trait",
+        "borsh",
+        "downcast",
+        "faster-hex",
+        "hmac",
+        "js-sys",
+        "kaspa-addresses",
+        "kaspa-bip32",
+        "kaspa-consensus-core",
+        "kaspa-txscript",
+        "kaspa-txscript-errors",
+        "kaspa-utils",
+        "kaspa-wasm-core",
+        "rand",
+        "ripemd",
+        "secp256k1",
+        "serde",
+        "serde-wasm-bindgen",
+        "serde_json",
+        "sha2",
+        "thiserror",
+        "tokio",
+        "wasm-bindgen",
+        "wasm-bindgen-futures",
+        "workflow-core",
+        "workflow-wasm",
+        "zeroize"
+    ]
+}

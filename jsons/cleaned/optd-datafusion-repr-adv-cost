@@ -1,0 +1,20 @@
+{
+    "name": "optd-datafusion-repr-adv-cost",
+    "deps": [
+        "anyhow",
+        "arrow-schema",
+        "assert_approx_eq",
+        "datafusion",
+        "itertools",
+        "optd-core",
+        "optd-datafusion-repr",
+        "optd-gungnir",
+        "ordered-float",
+        "rayon",
+        "serde",
+        "serde_with",
+        "test-case",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

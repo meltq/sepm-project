@@ -1,0 +1,16 @@
+{
+    "name": "open_ai_api",
+    "deps": [
+        "chrono",
+        "dotenv",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "tracing-bunyan-formatter",
+        "tracing-subscriber",
+        "uuid"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "name": "stentorian-server",
+    "deps": [
+        "bytes",
+        "env_logger",
+        "failure",
+        "futures",
+        "jsonrpc-core",
+        "jsonrpc-macros",
+        "log",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "stentorian",
+        "structopt",
+        "tokio-core",
+        "tokio-io",
+        "tokio-proto",
+        "tokio-service"
+    ]
+}

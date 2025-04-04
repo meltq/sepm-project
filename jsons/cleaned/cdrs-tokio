@@ -1,0 +1,23 @@
+{
+    "name": "cdrs-tokio",
+    "deps": [
+        "async-trait",
+        "bb8",
+        "byteorder",
+        "cdrs-tokio-helpers-derive",
+        "env_logger",
+        "fnv",
+        "log",
+        "lz4-compress",
+        "maplit",
+        "rand",
+        "regex",
+        "rustls",
+        "snap",
+        "time",
+        "tokio",
+        "tokio-rustls",
+        "uuid",
+        "webpki"
+    ]
+}

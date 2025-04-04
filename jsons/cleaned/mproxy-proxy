@@ -1,0 +1,11 @@
+{
+    "name": "mproxy-proxy",
+    "deps": [
+        "mproxy-client",
+        "mproxy-server",
+        "mproxy-socket_dispatch",
+        "pico-args",
+        "rustls",
+        "webpki-roots"
+    ]
+}

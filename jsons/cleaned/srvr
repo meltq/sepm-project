@@ -1,0 +1,21 @@
+{
+    "name": "srvr",
+    "deps": [
+        "anyhow",
+        "axum",
+        "axum-extra",
+        "clap",
+        "clap_complete",
+        "httpdate",
+        "humantime",
+        "mime",
+        "mime_guess",
+        "percent-encoding",
+        "thiserror",
+        "tokio",
+        "tower",
+        "tower-http",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

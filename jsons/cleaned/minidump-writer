@@ -1,0 +1,19 @@
+{
+    "name": "minidump-writer",
+    "deps": [
+        "byteorder",
+        "cfg-if",
+        "crash-context",
+        "goblin",
+        "libc",
+        "memmap2",
+        "memoffset",
+        "minidump",
+        "minidump-common",
+        "nix",
+        "scroll",
+        "tempfile",
+        "thiserror",
+        "windows-sys"
+    ]
+}

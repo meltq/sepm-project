@@ -1,0 +1,26 @@
+{
+    "name": "cargo-artifactory-token",
+    "deps": [
+        "actix-web",
+        "addr",
+        "anyhow",
+        "clap",
+        "dirs",
+        "e2p-fileflags",
+        "fs-err",
+        "humantime",
+        "is-root",
+        "paris",
+        "reqwest",
+        "rpassword",
+        "secrecy",
+        "serde",
+        "serde_with",
+        "tempfile",
+        "thiserror",
+        "tokio",
+        "toml_edit",
+        "url",
+        "whoami"
+    ]
+}

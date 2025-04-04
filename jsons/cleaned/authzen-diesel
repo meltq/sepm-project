@@ -1,0 +1,19 @@
+{
+    "name": "authzen-diesel",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "authzen-diesel-core",
+        "authzen-diesel-proc-macros",
+        "chrono",
+        "derivative",
+        "diesel",
+        "lazy_static",
+        "paste",
+        "scoped-futures",
+        "serde_json",
+        "tokio",
+        "uuid",
+        "rustc_version"
+    ]
+}

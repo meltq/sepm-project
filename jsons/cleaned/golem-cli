@@ -1,0 +1,28 @@
+{
+    "name": "golem-cli",
+    "deps": [
+        "async-trait",
+        "chrono",
+        "clap",
+        "clap-verbosity-flag",
+        "derive_more",
+        "futures-util",
+        "golem-client",
+        "golem-examples",
+        "http",
+        "indoc",
+        "itertools",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "serde_yaml",
+        "strum",
+        "strum_macros",
+        "tokio",
+        "tokio-tungstenite",
+        "tracing",
+        "tungstenite",
+        "url",
+        "uuid"
+    ]
+}

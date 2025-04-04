@@ -1,0 +1,20 @@
+{
+    "name": "zenoh-link-serial",
+    "deps": [
+        "async-std",
+        "async-trait",
+        "futures",
+        "log",
+        "tokio",
+        "uuid",
+        "z-serial",
+        "zenoh-cfg-properties",
+        "zenoh-collections",
+        "zenoh-config",
+        "zenoh-core",
+        "zenoh-link-commons",
+        "zenoh-protocol-core",
+        "zenoh-sync",
+        "zenoh-util"
+    ]
+}

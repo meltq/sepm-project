@@ -1,0 +1,21 @@
+{
+    "name": "gemachain-stake-program",
+    "deps": [
+        "bincode",
+        "gemachain-config-program",
+        "gemachain-frozen-abi",
+        "gemachain-frozen-abi-macro",
+        "gemachain-logger",
+        "gemachain-metrics",
+        "gemachain-sdk",
+        "gemachain-vote-program",
+        "log",
+        "num-derive",
+        "num-traits",
+        "proptest",
+        "rustc_version",
+        "serde",
+        "serde_derive",
+        "thiserror"
+    ]
+}

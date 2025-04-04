@@ -1,0 +1,23 @@
+{
+    "name": "risc0-circuit-rv32im",
+    "deps": [
+        "anyhow",
+        "cc",
+        "criterion",
+        "env_logger",
+        "fil-rustacuda",
+        "glob",
+        "log",
+        "metal",
+        "rand",
+        "rayon",
+        "risc0-zkp",
+        "risc0-zkvm-platform",
+        "rustacuda_core",
+        "rustacuda_derive",
+        "sha2",
+        "test-log",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

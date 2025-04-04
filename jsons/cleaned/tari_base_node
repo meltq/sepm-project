@@ -1,0 +1,28 @@
+{
+    "name": "tari_base_node",
+    "deps": [
+        "clap",
+        "config",
+        "dirs",
+        "futures",
+        "log",
+        "log4rs",
+        "rand",
+        "rustyline",
+        "rustyline-derive",
+        "serde_json",
+        "strum",
+        "strum_macros",
+        "tari_broadcast_channel",
+        "tari_common",
+        "tari_comms",
+        "tari_comms_dht",
+        "tari_core",
+        "tari_mmr",
+        "tari_p2p",
+        "tari_service_framework",
+        "tari_shutdown",
+        "tari_wallet",
+        "tokio"
+    ]
+}

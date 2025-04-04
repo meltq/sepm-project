@@ -1,0 +1,17 @@
+{
+    "name": "gpt_core",
+    "deps": [
+        "dirs",
+        "futures-util",
+        "keyring",
+        "reqwest",
+        "rustc_version",
+        "sanitize-filename",
+        "serde",
+        "serde_json",
+        "snafu",
+        "tokio",
+        "url",
+        "uuid"
+    ]
+}

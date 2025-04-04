@@ -1,0 +1,32 @@
+{
+    "name": "listener-radio",
+    "deps": [
+        "anyhow",
+        "async-graphql",
+        "async-graphql-axum",
+        "autometrics",
+        "axum",
+        "clap",
+        "derive-getters",
+        "dotenv",
+        "ethers",
+        "ethers-contract",
+        "ethers-core",
+        "ethers-derive-eip712",
+        "graphcast-sdk",
+        "metrics",
+        "once_cell",
+        "opentelemetry",
+        "prometheus",
+        "prost",
+        "reqwest",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "sqlx",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

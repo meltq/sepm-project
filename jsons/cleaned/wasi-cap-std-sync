@@ -1,0 +1,20 @@
+{
+    "name": "wasi-cap-std-sync",
+    "deps": [
+        "anyhow",
+        "bitflags",
+        "cap-fs-ext",
+        "cap-rand",
+        "cap-std",
+        "cap-time-ext",
+        "fs-set-times",
+        "lazy_static",
+        "libc",
+        "system-interface",
+        "tempfile",
+        "tracing",
+        "unsafe-io",
+        "wasi-common",
+        "winapi"
+    ]
+}

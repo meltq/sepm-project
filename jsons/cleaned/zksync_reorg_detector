@@ -1,0 +1,16 @@
+{
+    "name": "zksync_reorg_detector",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "zksync_dal",
+        "zksync_health_check",
+        "zksync_shared_metrics",
+        "zksync_types",
+        "zksync_web3_decl"
+    ]
+}

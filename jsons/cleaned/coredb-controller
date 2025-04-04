@@ -1,0 +1,30 @@
+{
+    "name": "coredb-controller",
+    "deps": [
+        "actix-web",
+        "assert-json-diff",
+        "chrono",
+        "futures",
+        "http",
+        "hyper",
+        "k8s-openapi",
+        "kube",
+        "opentelemetry",
+        "opentelemetry-otlp",
+        "passwords",
+        "prometheus",
+        "rand",
+        "regex",
+        "schemars",
+        "serde",
+        "serde_json",
+        "serde_yaml",
+        "thiserror",
+        "tokio",
+        "tonic",
+        "tower-test",
+        "tracing",
+        "tracing-opentelemetry",
+        "tracing-subscriber"
+    ]
+}

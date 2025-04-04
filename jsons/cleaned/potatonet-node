@@ -1,0 +1,20 @@
+{
+    "name": "potatonet-node",
+    "deps": [
+        "anyhow",
+        "async-std",
+        "async-trait",
+        "bytes",
+        "env_logger",
+        "futures",
+        "log",
+        "names",
+        "potatonet-bus",
+        "potatonet-client",
+        "potatonet-codegen",
+        "potatonet-common",
+        "rmp-serde",
+        "serde",
+        "serde_derive"
+    ]
+}

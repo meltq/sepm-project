@@ -1,0 +1,21 @@
+{
+    "name": "crcnt_rbac",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "chrono",
+        "crcnt_ddd",
+        "crcnt_ddd_macros",
+        "futures",
+        "hex",
+        "mysql_async",
+        "mysql_common",
+        "sha2",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "tracing-subscriber",
+        "ulid",
+        "zxcvbn"
+    ]
+}

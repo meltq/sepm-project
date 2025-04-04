@@ -1,0 +1,15 @@
+{
+    "name": "cargo-depdiff",
+    "deps": [
+        "anyhow",
+        "cargo",
+        "cargo-lock",
+        "difference",
+        "either",
+        "git2",
+        "itertools",
+        "semver",
+        "structopt",
+        "thiserror"
+    ]
+}

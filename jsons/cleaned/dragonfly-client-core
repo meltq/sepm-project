@@ -1,0 +1,23 @@
+{
+    "name": "dragonfly-client-core",
+    "deps": [
+        "headers",
+        "http",
+        "http-range-header",
+        "hyper",
+        "hyper-util",
+        "rcgen",
+        "reqwest",
+        "rocksdb",
+        "rustls",
+        "serde_json",
+        "serde_yaml",
+        "thiserror",
+        "tokio",
+        "tokio-stream",
+        "tonic",
+        "url",
+        "validator",
+        "warp"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "name": "openpgp-piv-sequoia",
+    "deps": [
+        "anyhow",
+        "asn1-rs",
+        "clap",
+        "log",
+        "openpgp-x509-sequoia",
+        "p256",
+        "p384",
+        "rsa",
+        "sequoia-openpgp",
+        "x509",
+        "yubikey"
+    ]
+}

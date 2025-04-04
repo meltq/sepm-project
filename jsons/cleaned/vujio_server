@@ -1,0 +1,16 @@
+{
+    "name": "vujio_server",
+    "deps": [
+        "anyhow",
+        "async-std",
+        "atty",
+        "http-types",
+        "quote",
+        "serde",
+        "serde_json",
+        "syn",
+        "tide",
+        "tide-websockets",
+        "tungstenite"
+    ]
+}

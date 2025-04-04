@@ -1,0 +1,16 @@
+{
+    "name": "cargo-nix",
+    "deps": [
+        "bstr",
+        "clap",
+        "color-eyre",
+        "flate2",
+        "serde",
+        "tar",
+        "tempfile",
+        "tracing",
+        "tracing-error",
+        "tracing-subscriber",
+        "ureq"
+    ]
+}

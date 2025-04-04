@@ -1,0 +1,17 @@
+{
+    "name": "pagerduty-client",
+    "deps": [
+        "async-trait",
+        "chrono",
+        "chrono-tz",
+        "dotenv",
+        "futures",
+        "http",
+        "http-serde",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio"
+    ]
+}

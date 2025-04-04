@@ -1,0 +1,14 @@
+{
+    "name": "s3_search",
+    "deps": [
+        "aws-config",
+        "aws-sdk-s3",
+        "aws-types",
+        "clap",
+        "cursive",
+        "dialoguer",
+        "envconfig",
+        "envconfig_derive",
+        "tokio"
+    ]
+}

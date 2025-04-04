@@ -1,0 +1,17 @@
+{
+    "name": "wasmrs-rx",
+    "deps": [
+        "anyhow",
+        "bytes",
+        "crossbeam-channel",
+        "dashmap",
+        "futures",
+        "futures-executor",
+        "futures-util",
+        "parking_lot",
+        "pin-project-lite",
+        "tokio",
+        "tracing",
+        "wasmrs-runtime"
+    ]
+}

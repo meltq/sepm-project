@@ -1,0 +1,24 @@
+{
+    "name": "socks-router",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "bytes",
+        "clap",
+        "config",
+        "console-subscriber",
+        "hex",
+        "lazy_static",
+        "nom",
+        "notify",
+        "num-derive",
+        "num-traits",
+        "pin-project",
+        "serde",
+        "thiserror",
+        "tokio",
+        "toml",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

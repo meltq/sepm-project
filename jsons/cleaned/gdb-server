@@ -1,0 +1,20 @@
+{
+    "name": "gdb-server",
+    "deps": [
+        "async-std",
+        "cargo-project",
+        "colored",
+        "console",
+        "failure",
+        "futures",
+        "gdb-protocol",
+        "indicatif",
+        "log",
+        "memchr",
+        "pretty_env_logger",
+        "probe-rs",
+        "recap",
+        "serde",
+        "structopt"
+    ]
+}

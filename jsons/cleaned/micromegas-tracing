@@ -1,0 +1,19 @@
+{
+    "name": "micromegas-tracing",
+    "deps": [
+        "cfg-if",
+        "chrono",
+        "criterion",
+        "lazy_static",
+        "log",
+        "memoffset",
+        "micromegas-tracing-proc-macros",
+        "micromegas-transit",
+        "raw-cpuid",
+        "serde",
+        "thiserror",
+        "thread-id",
+        "uuid",
+        "whoami"
+    ]
+}

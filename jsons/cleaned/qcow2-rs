@@ -1,0 +1,26 @@
+{
+    "name": "qcow2-rs",
+    "deps": [
+        "async-recursion",
+        "async-trait",
+        "bincode",
+        "byteorder",
+        "clap",
+        "clap-num",
+        "clap_derive",
+        "crypto-hash",
+        "env_logger",
+        "futures",
+        "futures-locks",
+        "libc",
+        "log",
+        "miniz_oxide",
+        "nix",
+        "rand",
+        "rustversion",
+        "serde",
+        "tempfile",
+        "tokio",
+        "tokio-uring"
+    ]
+}

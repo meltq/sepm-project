@@ -1,0 +1,20 @@
+{
+    "name": "agp-gw",
+    "deps": [
+        "agp-config",
+        "agp-service",
+        "agp-signal",
+        "agp-tracing",
+        "clap",
+        "duration-str",
+        "jemallocator",
+        "lazy_static",
+        "num_cpus",
+        "serde",
+        "serde_yaml",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "tracing-test"
+    ]
+}

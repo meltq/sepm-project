@@ -1,0 +1,28 @@
+{
+    "name": "coredb-operator",
+    "deps": [
+        "actix-web",
+        "chrono",
+        "futures",
+        "k8s-openapi",
+        "kube",
+        "opentelemetry",
+        "opentelemetry-otlp",
+        "prometheus",
+        "schemars",
+        "serde",
+        "serde_json",
+        "serde_yaml",
+        "thiserror",
+        "tokio",
+        "tonic",
+        "tracing",
+        "tracing-opentelemetry",
+        "tracing-subscriber",
+        "assert-json-diff",
+        "http",
+        "hyper",
+        "rand",
+        "tower-test"
+    ]
+}

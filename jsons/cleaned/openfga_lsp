@@ -1,0 +1,12 @@
+{
+    "name": "openfga_lsp",
+    "deps": [
+        "dashmap",
+        "openfga_checker",
+        "openfga_common",
+        "openfga_model_dsl_parser",
+        "ropey",
+        "tokio",
+        "tower-lsp"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "nws_exporter",
+    "deps": [
+        "clap",
+        "percent-encoding",
+        "prometheus",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tracing",
+        "tracing-subscriber",
+        "warp"
+    ]
+}

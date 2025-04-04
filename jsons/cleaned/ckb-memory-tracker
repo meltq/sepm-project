@@ -1,0 +1,12 @@
+{
+    "name": "ckb-memory-tracker",
+    "deps": [
+        "ckb-db",
+        "ckb-logger",
+        "ckb-metrics",
+        "futures",
+        "heim",
+        "jemalloc-ctl",
+        "jemalloc-sys"
+    ]
+}

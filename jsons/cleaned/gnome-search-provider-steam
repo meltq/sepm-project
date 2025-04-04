@@ -1,0 +1,13 @@
+{
+    "name": "gnome-search-provider-steam",
+    "deps": [
+        "env_logger",
+        "fuzzy-matcher",
+        "lazy_static",
+        "log",
+        "search-provider",
+        "steamlocate",
+        "tokio",
+        "zbus"
+    ]
+}

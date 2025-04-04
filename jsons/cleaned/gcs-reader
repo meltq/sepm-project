@@ -1,0 +1,14 @@
+{
+    "name": "gcs-reader",
+    "deps": [
+        "bytes",
+        "color-eyre",
+        "dotenv",
+        "gcp_auth",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio"
+    ]
+}

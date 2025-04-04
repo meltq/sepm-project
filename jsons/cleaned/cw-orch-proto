@@ -1,0 +1,21 @@
+{
+    "name": "cw-orch-proto",
+    "deps": [
+        "anyhow",
+        "cosmrs",
+        "cosmwasm-std",
+        "cw-orch-core",
+        "cw-orch-interchain-core",
+        "cw-orch-interchain-daemon",
+        "cw-orch-starship",
+        "cw-orch-traits",
+        "env_logger",
+        "ibc-relayer-types",
+        "log",
+        "osmosis-std",
+        "prost",
+        "speculoos",
+        "tokio",
+        "tonic"
+    ]
+}

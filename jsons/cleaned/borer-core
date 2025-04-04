@@ -1,0 +1,17 @@
+{
+    "name": "borer-core",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "bytes",
+        "futures",
+        "log",
+        "rand",
+        "rustls-pemfile",
+        "socks5-proto",
+        "tokio",
+        "tokio-rustls",
+        "tokio-tungstenite",
+        "webpki-roots"
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "name": "acuity-index-substrate",
+    "deps": [
+        "ahash",
+        "base58",
+        "blake2",
+        "byte-unit",
+        "byteorder",
+        "futures",
+        "hex",
+        "hex-literal",
+        "home",
+        "num-format",
+        "serde",
+        "serde_json",
+        "signal-hook",
+        "signal-hook-tokio",
+        "sled",
+        "subxt",
+        "thiserror",
+        "tokio",
+        "tokio-tungstenite",
+        "tracing",
+        "tracing-subscriber",
+        "zerocopy",
+        "zerocopy-derive"
+    ]
+}

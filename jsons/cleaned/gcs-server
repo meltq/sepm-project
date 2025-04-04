@@ -1,0 +1,20 @@
+{
+    "name": "gcs-server",
+    "deps": [
+        "actix-rt",
+        "actix-web",
+        "bytes",
+        "chrono",
+        "dotenv",
+        "env_logger",
+        "envy",
+        "google-storage1",
+        "hyper",
+        "hyper-rustls",
+        "log",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "yup-oauth2"
+    ]
+}

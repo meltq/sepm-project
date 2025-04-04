@@ -1,0 +1,25 @@
+{
+    "name": "tor-guardmgr",
+    "deps": [
+        "derive_builder",
+        "futures",
+        "humantime-serde",
+        "itertools",
+        "pin-project",
+        "rand",
+        "retain_mut",
+        "serde",
+        "thiserror",
+        "tor-linkspec",
+        "tor-llcrypto",
+        "tor-netdir",
+        "tor-netdir",
+        "tor-persist",
+        "tor-persist",
+        "tor-rtcompat",
+        "tor-rtcompat",
+        "tor-rtmock",
+        "tor-units",
+        "tracing"
+    ]
+}

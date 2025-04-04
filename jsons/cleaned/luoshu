@@ -1,0 +1,25 @@
+{
+    "name": "luoshu",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "bytes",
+        "clap",
+        "luoshu_configuration",
+        "luoshu_connection",
+        "luoshu_core",
+        "luoshu_mem_storage",
+        "luoshu_namespace",
+        "luoshu_registry",
+        "luoshu_sled_storage",
+        "once_cell",
+        "salvo",
+        "serde",
+        "serde_json",
+        "sled",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "name": "ecli-lib",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "base64",
+        "bpf-loader-lib",
+        "chrono",
+        "ecli-server-codegen",
+        "flexi_logger",
+        "home",
+        "hyper",
+        "log",
+        "oci-distribution",
+        "reqwest",
+        "rpassword",
+        "serde",
+        "serde_json",
+        "serde_yaml",
+        "swagger",
+        "tar",
+        "tempdir",
+        "thiserror",
+        "tokio",
+        "url",
+        "wasm-bpf-rs"
+    ]
+}

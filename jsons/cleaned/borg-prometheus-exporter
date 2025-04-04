@@ -1,0 +1,18 @@
+{
+    "name": "borg-prometheus-exporter",
+    "deps": [
+        "better-panic",
+        "chrono",
+        "clap",
+        "eyre",
+        "once_cell",
+        "serde",
+        "serde_json",
+        "serde_yaml",
+        "structopt",
+        "tokio",
+        "tracing",
+        "tracing-subscriber",
+        "warp"
+    ]
+}

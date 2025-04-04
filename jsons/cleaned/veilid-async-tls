@@ -1,0 +1,15 @@
+{
+    "name": "veilid-async-tls",
+    "deps": [
+        "async-std",
+        "futures-core",
+        "futures-executor",
+        "futures-io",
+        "futures-util",
+        "lazy_static",
+        "rustls",
+        "rustls-pemfile",
+        "rustls-webpki",
+        "webpki-roots"
+    ]
+}

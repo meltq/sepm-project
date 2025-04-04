@@ -1,0 +1,25 @@
+{
+    "name": "wasmer-journal",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "base64",
+        "bincode",
+        "bytecheck",
+        "bytes",
+        "derivative",
+        "lz4_flex",
+        "num_enum",
+        "rkyv",
+        "serde",
+        "serde_json",
+        "shared-buffer",
+        "tempfile",
+        "thiserror",
+        "tracing",
+        "tracing-test",
+        "virtual-net",
+        "wasmer",
+        "wasmer-wasix-types"
+    ]
+}

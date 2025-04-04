@@ -1,0 +1,26 @@
+{
+    "name": "teloxide",
+    "deps": [
+        "async-trait",
+        "bytes",
+        "derive_more",
+        "either",
+        "futures",
+        "lazy_static",
+        "lockfree",
+        "log",
+        "mime",
+        "pin-project",
+        "pretty_env_logger",
+        "rand",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "serde_with_macros",
+        "smart-default",
+        "teloxide-macros",
+        "thiserror",
+        "tokio",
+        "tokio-util"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "name": "tcp-server",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "env_logger",
+        "log",
+        "serde",
+        "tcp-handler",
+        "tokio",
+        "tokio",
+        "tokio-util"
+    ]
+}

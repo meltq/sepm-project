@@ -1,0 +1,20 @@
+{
+    "name": "pacman-bintrans-sign",
+    "deps": [
+        "base64",
+        "bzip2",
+        "diesel",
+        "diesel_migrations",
+        "env_logger",
+        "flate2",
+        "minisign",
+        "pacman-bintrans-common",
+        "structopt",
+        "tar",
+        "tempfile",
+        "tokio",
+        "tree_magic_mini",
+        "xz",
+        "zstd"
+    ]
+}

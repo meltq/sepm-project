@@ -1,0 +1,29 @@
+{
+    "name": "aw-server",
+    "deps": [
+        "android_logger",
+        "appdirs",
+        "aw-datastore",
+        "aw-models",
+        "aw-query",
+        "aw-transform",
+        "chrono",
+        "fern",
+        "gethostname",
+        "getopts",
+        "jemallocator",
+        "jni",
+        "lazy_static",
+        "libc",
+        "log",
+        "multipart",
+        "openssl-sys",
+        "rocket",
+        "rocket_contrib",
+        "rocket_cors",
+        "serde",
+        "serde_json",
+        "toml",
+        "uuid"
+    ]
+}

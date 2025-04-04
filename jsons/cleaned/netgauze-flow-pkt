@@ -1,0 +1,22 @@
+{
+    "name": "netgauze-flow-pkt",
+    "deps": [
+        "byteorder",
+        "chrono",
+        "criterion",
+        "ipnet",
+        "lazy_static",
+        "netgauze-ipfix-code-generator",
+        "netgauze-locate",
+        "netgauze-parse-utils",
+        "netgauze-parse-utils",
+        "netgauze-serde-macros",
+        "nom",
+        "reqwest",
+        "roxmltree",
+        "serde",
+        "serde_json",
+        "strum",
+        "strum_macros"
+    ]
+}

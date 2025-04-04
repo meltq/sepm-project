@@ -1,0 +1,17 @@
+{
+    "name": "optd-datafusion-bridge",
+    "deps": [
+        "anyhow",
+        "arrow-schema",
+        "async-recursion",
+        "async-trait",
+        "datafusion",
+        "datafusion-expr",
+        "futures-lite",
+        "futures-util",
+        "itertools",
+        "optd-core",
+        "optd-datafusion-repr",
+        "tracing"
+    ]
+}

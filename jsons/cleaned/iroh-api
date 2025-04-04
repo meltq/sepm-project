@@ -1,0 +1,24 @@
+{
+    "name": "iroh-api",
+    "deps": [
+        "anyhow",
+        "async-stream",
+        "bytes",
+        "cid",
+        "config",
+        "futures",
+        "iroh-metrics",
+        "iroh-resolver",
+        "iroh-rpc-client",
+        "iroh-rpc-types",
+        "iroh-util",
+        "libp2p",
+        "mockall",
+        "relative-path",
+        "serde",
+        "tempfile",
+        "thiserror",
+        "tokio",
+        "tracing"
+    ]
+}

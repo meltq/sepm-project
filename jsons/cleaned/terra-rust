@@ -1,0 +1,20 @@
+{
+    "name": "terra-rust",
+    "deps": [
+        "anyhow",
+        "async-anyhow-logger",
+        "bitcoin",
+        "dotenv",
+        "env_logger",
+        "futures",
+        "log",
+        "rust_decimal",
+        "rust_decimal_macros",
+        "serde",
+        "serde_json",
+        "structopt",
+        "terra-rust-api",
+        "terra-rust-wallet",
+        "tokio"
+    ]
+}

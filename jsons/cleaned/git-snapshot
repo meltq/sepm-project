@@ -1,0 +1,20 @@
+{
+    "name": "git-snapshot",
+    "deps": [
+        "anyhow",
+        "dirs",
+        "git2",
+        "humantime-serde",
+        "log",
+        "notify",
+        "pretty_env_logger",
+        "serde",
+        "serde_json",
+        "shellexpand",
+        "structopt",
+        "tempfile",
+        "thiserror",
+        "tokio",
+        "tokio-stream"
+    ]
+}

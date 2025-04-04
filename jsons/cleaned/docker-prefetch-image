@@ -1,0 +1,24 @@
+{
+    "name": "docker-prefetch-image",
+    "deps": [
+        "anyhow",
+        "clap",
+        "docker-api",
+        "futures",
+        "maud",
+        "once_cell",
+        "opentelemetry",
+        "opentelemetry-otlp",
+        "opentelemetry-semantic-conventions",
+        "opentelemetry_sdk",
+        "serde",
+        "serde_json",
+        "signal-hook",
+        "tokio",
+        "toml",
+        "tracing",
+        "tracing-opentelemetry",
+        "tracing-subscriber",
+        "url"
+    ]
+}

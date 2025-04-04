@@ -1,0 +1,21 @@
+{
+    "name": "scratchstack-aws-signature-hyper",
+    "deps": [
+        "chrono",
+        "env_logger",
+        "futures",
+        "http",
+        "http-body",
+        "hyper",
+        "hyper",
+        "log",
+        "rusoto_core",
+        "rusoto_credential",
+        "rusoto_signature",
+        "scratchstack-aws-principal",
+        "scratchstack-aws-signature",
+        "test-env-log",
+        "tokio",
+        "tower"
+    ]
+}

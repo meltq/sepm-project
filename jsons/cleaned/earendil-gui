@@ -1,0 +1,28 @@
+{
+    "name": "earendil-gui",
+    "deps": [
+        "anyctx",
+        "anyhow",
+        "async-std",
+        "blake3",
+        "chrono",
+        "dirs",
+        "earendil",
+        "earendil_crypt",
+        "eframe",
+        "egui",
+        "egui-modal",
+        "either",
+        "futures-util",
+        "nanorpc-http",
+        "once_cell",
+        "poll-promise",
+        "serde",
+        "serde_json",
+        "serde_yaml",
+        "smol",
+        "tap",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

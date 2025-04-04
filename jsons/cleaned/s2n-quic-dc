@@ -1,0 +1,21 @@
+{
+    "name": "s2n-quic-dc",
+    "deps": [
+        "atomic-waker",
+        "aws-lc-rs",
+        "bolero",
+        "bytes",
+        "crossbeam-channel",
+        "libc",
+        "num-rational",
+        "once_cell",
+        "s2n-codec",
+        "s2n-quic-core",
+        "s2n-quic-platform",
+        "thiserror",
+        "tokio",
+        "tokio",
+        "tracing",
+        "zerocopy"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "keyboard-layouts",
+    "deps": [
+        "bytes",
+        "bytes",
+        "futures",
+        "gen_layouts_sys",
+        "lazy_static",
+        "maplit",
+        "pretty_assertions",
+        "structopt",
+        "tokio-core",
+        "tokio-linux-uhid"
+    ]
+}

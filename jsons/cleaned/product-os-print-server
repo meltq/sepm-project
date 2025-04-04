@@ -1,0 +1,20 @@
+{
+    "name": "product-os-print-server",
+    "deps": [
+        "async-trait",
+        "byteorder",
+        "chrono",
+        "flate2",
+        "parking_lot",
+        "product-os-capabilities",
+        "product-os-random",
+        "product-os-request",
+        "product-os-router",
+        "product-os-utilities",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tracing",
+        "zeroconf"
+    ]
+}

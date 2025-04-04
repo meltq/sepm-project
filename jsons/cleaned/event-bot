@@ -1,0 +1,27 @@
+{
+    "name": "event-bot",
+    "deps": [
+        "actix",
+        "base-x",
+        "chrono",
+        "chrono-tz",
+        "dotenv",
+        "env_logger",
+        "event-web",
+        "failure",
+        "failure_derive",
+        "futures",
+        "futures-state-stream",
+        "log",
+        "rand",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "telebot",
+        "time",
+        "tokio-core",
+        "tokio-postgres",
+        "tokio-reactor",
+        "tokio-timer"
+    ]
+}

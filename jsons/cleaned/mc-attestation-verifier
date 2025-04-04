@@ -1,0 +1,22 @@
+{
+    "name": "mc-attestation-verifier",
+    "deps": [
+        "assert_matches",
+        "der",
+        "displaydoc",
+        "hex",
+        "mbedtls",
+        "mc-sgx-core-sys-types",
+        "mc-sgx-core-types",
+        "mc-sgx-dcap-sys-types",
+        "mc-sgx-dcap-types",
+        "p256",
+        "rand",
+        "serde",
+        "serde_json",
+        "subtle",
+        "textwrap",
+        "x509-cert",
+        "yare"
+    ]
+}

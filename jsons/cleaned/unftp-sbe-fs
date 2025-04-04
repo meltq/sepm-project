@@ -1,0 +1,24 @@
+{
+    "name": "unftp-sbe-fs",
+    "deps": [
+        "async-trait",
+        "async_ftp",
+        "clap",
+        "futures",
+        "libunftp",
+        "more-asserts",
+        "path_abs",
+        "pretty_assertions",
+        "pretty_env_logger",
+        "rand",
+        "slog-async",
+        "slog-term",
+        "tempfile",
+        "tokio",
+        "tokio",
+        "tokio-stream",
+        "tracing",
+        "tracing-attributes",
+        "tracing-subscriber"
+    ]
+}

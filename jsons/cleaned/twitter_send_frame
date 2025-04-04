@@ -1,0 +1,19 @@
+{
+    "name": "twitter_send_frame",
+    "deps": [
+        "dotenv",
+        "egg-mode",
+        "env_logger",
+        "hocon",
+        "lazy_static",
+        "log",
+        "pad",
+        "rusoto_core",
+        "rusoto_s3",
+        "serde",
+        "serde_json",
+        "structopt",
+        "tinytemplate",
+        "tokio"
+    ]
+}

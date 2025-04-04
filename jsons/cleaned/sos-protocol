@@ -1,0 +1,21 @@
+{
+    "name": "sos-protocol",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "futures",
+        "indexmap",
+        "prost",
+        "prost-build",
+        "protoc-bin-vendored",
+        "rs_merkle",
+        "rustc_version",
+        "serde",
+        "sos-sdk",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "url",
+        "uuid"
+    ]
+}

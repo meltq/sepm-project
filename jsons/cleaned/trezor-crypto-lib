@@ -1,0 +1,19 @@
+{
+    "name": "trezor-crypto-lib",
+    "deps": [
+        "anyhow",
+        "base64",
+        "bindgen",
+        "cc",
+        "cty",
+        "curve25519-dalek",
+        "ed25519-dalek",
+        "getrandom",
+        "glob",
+        "libc",
+        "rand_core",
+        "sha2",
+        "static_assertions",
+        "x25519-dalek"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "loglogd",
+    "deps": [
+        "binrw",
+        "byteorder",
+        "clap",
+        "error-stack",
+        "nix",
+        "num_enum",
+        "thiserror",
+        "tokio",
+        "tokio-uring",
+        "tracing",
+        "tracing-subscriber",
+        "typed-builder"
+    ]
+}

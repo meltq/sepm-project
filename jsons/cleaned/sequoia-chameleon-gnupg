@@ -1,0 +1,28 @@
+{
+    "name": "sequoia-chameleon-gnupg",
+    "deps": [
+        "anyhow",
+        "base64",
+        "buffered-reader",
+        "chrono",
+        "diff",
+        "dirs",
+        "edit-distance",
+        "filetime",
+        "futures",
+        "home-dir",
+        "lazy_static",
+        "libc",
+        "memchr",
+        "openpgp-cert-d",
+        "rayon",
+        "sequoia-ipc",
+        "sequoia-openpgp",
+        "sequoia-openpgp-mt",
+        "sequoia-wot",
+        "tempfile",
+        "tempfile",
+        "thiserror",
+        "tokio"
+    ]
+}

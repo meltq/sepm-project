@@ -1,0 +1,26 @@
+{
+    "name": "clia-async-openai",
+    "deps": [
+        "async-openai-macros",
+        "backoff",
+        "base64",
+        "bytes",
+        "derive_builder",
+        "eventsource-stream",
+        "futures",
+        "rand",
+        "reqwest",
+        "reqwest-eventsource",
+        "secrecy",
+        "serde",
+        "serde_json",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tokio-stream",
+        "tokio-test",
+        "tokio-tungstenite",
+        "tokio-util",
+        "tracing"
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "name": "async-smtp",
+    "deps": [
+        "async-attributes",
+        "async-std",
+        "async-tls",
+        "async-trait",
+        "base64",
+        "bufstream",
+        "criterion",
+        "env_logger",
+        "fast_chemail",
+        "glob",
+        "hostname",
+        "log",
+        "nom",
+        "pin-project",
+        "pin-utils",
+        "rustls",
+        "rustls-connector",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "snafu",
+        "webpki-roots"
+    ]
+}

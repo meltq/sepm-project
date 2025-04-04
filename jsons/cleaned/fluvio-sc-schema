@@ -1,0 +1,13 @@
+{
+    "name": "fluvio-sc-schema",
+    "deps": [
+        "dataplane",
+        "fluvio-controlplane-metadata",
+        "fluvio-protocol",
+        "fluvio-types",
+        "log",
+        "serde",
+        "thiserror",
+        "tracing"
+    ]
+}

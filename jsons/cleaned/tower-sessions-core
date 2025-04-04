@@ -1,0 +1,22 @@
+{
+    "name": "tower-sessions-core",
+    "deps": [
+        "async-trait",
+        "axum-core",
+        "dashmap",
+        "futures",
+        "http",
+        "parking_lot",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "time",
+        "tokio",
+        "tower-cookies",
+        "tower-layer",
+        "tower-service",
+        "tower-sessions",
+        "tracing",
+        "uuid"
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "name": "miden-vm",
+    "deps": [
+        "assembly",
+        "assert_cmd",
+        "blake3",
+        "criterion",
+        "env_logger",
+        "escargot",
+        "hex",
+        "log",
+        "num-bigint",
+        "predicates",
+        "processor",
+        "proptest",
+        "prover",
+        "rand-utils",
+        "rustyline",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "sha2",
+        "sha3",
+        "stdlib",
+        "structopt",
+        "test-case",
+        "verifier",
+        "vm-core",
+        "winter-fri",
+        "winter-utils",
+        "winterfell"
+    ]
+}

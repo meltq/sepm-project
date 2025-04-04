@@ -1,0 +1,26 @@
+{
+    "name": "solana_libra_vm_runtime",
+    "deps": [
+        "assert_matches",
+        "bytecode_verifier",
+        "canonical_serialization",
+        "compiler",
+        "config",
+        "crypto",
+        "failure",
+        "hex",
+        "lazy_static",
+        "logger",
+        "metrics",
+        "move_ir_natives",
+        "prometheus",
+        "proptest",
+        "rayon",
+        "rental",
+        "state_view",
+        "tiny-keccak",
+        "types",
+        "vm",
+        "vm_cache_map"
+    ]
+}

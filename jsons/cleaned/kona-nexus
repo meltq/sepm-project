@@ -1,0 +1,13 @@
+{
+    "name": "kona-nexus",
+    "deps": [
+        "anyhow",
+        "clap",
+        "kona-net",
+        "kona-registry",
+        "metrics-exporter-prometheus",
+        "tokio",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

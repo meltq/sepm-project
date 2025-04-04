@@ -1,0 +1,16 @@
+{
+    "name": "openssh-sftp-client",
+    "deps": [
+        "awaitable",
+        "concurrent_arena",
+        "derive_destructure2",
+        "once_cell",
+        "openssh-sftp-protocol",
+        "tempfile",
+        "thiserror",
+        "tokio",
+        "tokio",
+        "tokio-io-utility",
+        "tokio-pipe"
+    ]
+}

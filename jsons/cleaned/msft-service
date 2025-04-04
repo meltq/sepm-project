@@ -1,0 +1,23 @@
+{
+    "name": "msft-service",
+    "deps": [
+        "bitflags",
+        "crossbeam",
+        "futures",
+        "mockall",
+        "msft-service-macros",
+        "num-derive",
+        "num-traits",
+        "parking_lot",
+        "pin-project",
+        "tokio",
+        "tracing",
+        "tracing-appender",
+        "tracing-subscriber",
+        "trybuild",
+        "win_etw_macros",
+        "win_etw_provider",
+        "win_etw_tracing",
+        "windows-sys"
+    ]
+}

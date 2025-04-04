@@ -1,0 +1,17 @@
+{
+    "name": "edgee-components-runtime",
+    "deps": [
+        "anyhow",
+        "chrono",
+        "http",
+        "json_pretty",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tracing",
+        "uuid",
+        "wasmtime",
+        "wasmtime-wasi"
+    ]
+}

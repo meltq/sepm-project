@@ -1,0 +1,10 @@
+{
+    "name": "wasmtime_serde_host",
+    "deps": [
+        "anyhow",
+        "bincode",
+        "serde",
+        "wasmtime",
+        "wasmtime_serde_host_macro"
+    ]
+}

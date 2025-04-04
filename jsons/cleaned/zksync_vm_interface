@@ -1,0 +1,17 @@
+{
+    "name": "zksync_vm_interface",
+    "deps": [
+        "anyhow",
+        "assert_matches",
+        "async-trait",
+        "hex",
+        "pretty_assertions",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tracing",
+        "zksync_contracts",
+        "zksync_system_constants",
+        "zksync_types"
+    ]
+}

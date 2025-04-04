@@ -1,0 +1,20 @@
+{
+    "name": "etwin_token_store",
+    "deps": [
+        "async-trait",
+        "chrono",
+        "etwin_config",
+        "etwin_core",
+        "etwin_db_schema",
+        "etwin_dinoparc_store",
+        "etwin_hammerfest_store",
+        "etwin_populate",
+        "etwin_twinoid_store",
+        "neon",
+        "regex",
+        "serde_json",
+        "serial_test",
+        "sqlx",
+        "tokio"
+    ]
+}

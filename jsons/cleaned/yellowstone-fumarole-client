@@ -1,0 +1,20 @@
+{
+    "name": "yellowstone-fumarole-client",
+    "deps": [
+        "http",
+        "hyper",
+        "prost",
+        "protobuf-src",
+        "serde",
+        "serde_with",
+        "serde_yaml",
+        "solana-sdk",
+        "thiserror",
+        "tokio",
+        "tokio-stream",
+        "tonic",
+        "tonic-build",
+        "tower",
+        "yellowstone-grpc-proto"
+    ]
+}

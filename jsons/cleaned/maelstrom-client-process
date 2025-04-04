@@ -1,0 +1,30 @@
+{
+    "name": "maelstrom-client-process",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "atomicbox",
+        "bracoxide",
+        "chrono",
+        "futures",
+        "globset",
+        "itertools",
+        "maelstrom-base",
+        "maelstrom-client-base",
+        "maelstrom-container",
+        "maelstrom-test",
+        "maelstrom-util",
+        "serde",
+        "serde_repr",
+        "serde_with",
+        "sha2",
+        "slog",
+        "slog-async",
+        "slog-term",
+        "tempfile",
+        "tokio",
+        "tokio-stream",
+        "toml",
+        "tonic"
+    ]
+}

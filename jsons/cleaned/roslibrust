@@ -1,0 +1,22 @@
+{
+    "name": "roslibrust",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "dashmap",
+        "deadqueue",
+        "futures",
+        "futures-util",
+        "log",
+        "rand",
+        "roslibrust_codegen_macro",
+        "serde",
+        "serde_json",
+        "simple_logger",
+        "thiserror",
+        "tokio",
+        "tokio-tungstenite",
+        "uuid",
+        "walkdir"
+    ]
+}

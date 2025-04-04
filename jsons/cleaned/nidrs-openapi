@@ -1,0 +1,16 @@
+{
+    "name": "nidrs-openapi",
+    "deps": [
+        "axum",
+        "nidrs-extern",
+        "nidrs-openapi-macro",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "utoipa",
+        "utoipa-rapidoc",
+        "utoipa-redoc",
+        "utoipa-scalar",
+        "utoipa-swagger-ui"
+    ]
+}

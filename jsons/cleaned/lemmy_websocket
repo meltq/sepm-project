@@ -1,0 +1,24 @@
+{
+    "name": "lemmy_websocket",
+    "deps": [
+        "actix",
+        "actix-web",
+        "actix-web-actors",
+        "anyhow",
+        "background-jobs",
+        "chrono",
+        "diesel",
+        "lemmy_api_common",
+        "lemmy_db_queries",
+        "lemmy_db_schema",
+        "lemmy_utils",
+        "log",
+        "rand",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "strum",
+        "strum_macros",
+        "tokio"
+    ]
+}

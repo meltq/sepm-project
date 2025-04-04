@@ -1,0 +1,13 @@
+{
+    "name": "tracing-layer-discord",
+    "deps": [
+        "regex",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tracing",
+        "tracing-bunyan-formatter",
+        "tracing-subscriber"
+    ]
+}

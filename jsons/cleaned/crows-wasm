@@ -1,0 +1,22 @@
+{
+    "name": "crows-wasm",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "bytes",
+        "crows-bindings",
+        "crows-shared",
+        "crows-utils",
+        "futures",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "slab",
+        "thiserror",
+        "tokio",
+        "wasi-common",
+        "wasmtime",
+        "wasmtime-wasi",
+        "wiggle"
+    ]
+}

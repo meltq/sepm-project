@@ -1,0 +1,15 @@
+{
+    "name": "holochain_conductor_services",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "derive_more",
+        "futures",
+        "holochain_keystore",
+        "holochain_types",
+        "mockall",
+        "must_future",
+        "serde",
+        "thiserror"
+    ]
+}

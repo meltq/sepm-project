@@ -1,0 +1,15 @@
+{
+    "name": "cargo-doc-ngrok",
+    "deps": [
+        "axum",
+        "cargo_metadata",
+        "clap",
+        "futures",
+        "http",
+        "hyper",
+        "hyper-staticfile",
+        "ngrok",
+        "tokio",
+        "watchexec"
+    ]
+}

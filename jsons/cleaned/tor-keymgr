@@ -1,0 +1,16 @@
+{
+    "name": "tor-keymgr",
+    "deps": [
+        "derive_more",
+        "dyn-clone",
+        "fs-mistrust",
+        "itertools",
+        "ssh-key",
+        "tempfile",
+        "thiserror",
+        "tor-error",
+        "tor-hscrypto",
+        "tor-llcrypto",
+        "zeroize"
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "name": "cedar-local-agent",
+    "deps": [
+        "async-trait",
+        "cedar-policy",
+        "cedar-policy-core",
+        "cedar-policy-formatter",
+        "cedar-policy-validator",
+        "chrono",
+        "criterion",
+        "derive_builder",
+        "fs2",
+        "futures",
+        "once_cell",
+        "rand",
+        "serde",
+        "serde_json",
+        "serde_repr",
+        "sha256",
+        "tempfile",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "tracing-core",
+        "tracing-subscriber",
+        "uuid"
+    ]
+}

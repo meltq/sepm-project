@@ -1,0 +1,27 @@
+{
+    "name": "obnam",
+    "deps": [
+        "anyhow",
+        "bytes",
+        "chrono",
+        "dirs",
+        "indicatif",
+        "libc",
+        "log",
+        "log4rs",
+        "pretty_env_logger",
+        "reqwest",
+        "rusqlite",
+        "serde",
+        "serde_json",
+        "serde_yaml",
+        "sha2",
+        "structopt",
+        "tempfile",
+        "thiserror",
+        "tokio",
+        "uuid",
+        "walkdir",
+        "warp"
+    ]
+}

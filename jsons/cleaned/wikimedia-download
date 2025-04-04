@@ -1,0 +1,31 @@
+{
+    "name": "wikimedia-download",
+    "deps": [
+        "anyhow",
+        "askama",
+        "askama_axum",
+        "axum",
+        "bzip2",
+        "clap",
+        "clap_complete",
+        "futures",
+        "http-cache-reqwest",
+        "indicatif",
+        "once_cell",
+        "open",
+        "platform-dirs",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tokio-stream",
+        "tokio-util",
+        "tower",
+        "tower-http",
+        "tracing",
+        "tracing-bunyan-formatter",
+        "tracing-subscriber",
+        "valuable",
+        "wikimedia",
+        "wikimedia-store"
+    ]
+}

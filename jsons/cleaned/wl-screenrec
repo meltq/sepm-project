@@ -1,0 +1,18 @@
+{
+    "name": "wl-screenrec",
+    "deps": [
+        "anyhow",
+        "clap",
+        "drm-fourcc",
+        "ffmpeg-next",
+        "human-size",
+        "libc",
+        "nix",
+        "serde_json",
+        "signal-hook",
+        "thiserror",
+        "wayland-client",
+        "wayland-protocols",
+        "wayland-protocols-wlr"
+    ]
+}

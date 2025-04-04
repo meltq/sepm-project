@@ -1,0 +1,12 @@
+{
+    "name": "hime_langserv",
+    "deps": [
+        "clap",
+        "futures",
+        "hime_redist",
+        "hime_sdk",
+        "serde_json",
+        "tokio",
+        "tower-lsp"
+    ]
+}

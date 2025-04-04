@@ -1,0 +1,11 @@
+{
+    "name": "openai-chat",
+    "deps": [
+        "actix-rt",
+        "openai_api_client",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "thiserror"
+    ]
+}

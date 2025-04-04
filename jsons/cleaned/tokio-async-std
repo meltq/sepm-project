@@ -1,0 +1,28 @@
+{
+    "name": "tokio-async-std",
+    "deps": [
+        "broadcaster",
+        "crossbeam-channel",
+        "crossbeam-deque",
+        "crossbeam-utils",
+        "femme",
+        "futures",
+        "futures-core",
+        "futures-io",
+        "futures-timer",
+        "kv-log-macro",
+        "log",
+        "memchr",
+        "mio",
+        "mio-uds",
+        "num_cpus",
+        "once_cell",
+        "pin-project-lite",
+        "pin-utils",
+        "rand",
+        "slab",
+        "surf",
+        "tempdir",
+        "tokio"
+    ]
+}

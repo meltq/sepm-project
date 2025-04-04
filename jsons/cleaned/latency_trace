@@ -1,0 +1,13 @@
+{
+    "name": "latency_trace",
+    "deps": [
+        "base64ct",
+        "hdrhistogram",
+        "log",
+        "sha2",
+        "thread_local_collect",
+        "tokio",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

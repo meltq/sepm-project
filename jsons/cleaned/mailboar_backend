@@ -1,0 +1,22 @@
+{
+    "name": "mailboar_backend",
+    "deps": [
+        "async-stream",
+        "axum",
+        "chrono",
+        "futures",
+        "lettre",
+        "mailparse",
+        "memchr",
+        "regex",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tokio-stream",
+        "tower",
+        "tower-http",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

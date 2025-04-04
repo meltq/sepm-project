@@ -1,0 +1,19 @@
+{
+    "name": "dtbh_interface",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "base64",
+        "futures",
+        "serde",
+        "serde_bytes",
+        "serde_json",
+        "tracing",
+        "wasmbus-rpc",
+        "wasmcloud-interface-httpclient",
+        "wasmcloud-interface-logging",
+        "wasmcloud-interface-messaging",
+        "wasmcloud-interface-numbergen",
+        "weld-codegen"
+    ]
+}

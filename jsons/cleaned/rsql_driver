@@ -1,0 +1,23 @@
+{
+    "name": "rsql_driver",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "base64",
+        "chrono",
+        "file_type",
+        "getrandom",
+        "indexmap",
+        "mockall",
+        "num-format",
+        "rsql_driver_test_utils",
+        "rust-i18n",
+        "serde",
+        "serde_json",
+        "sqlparser",
+        "thiserror",
+        "tokio",
+        "url",
+        "uuid"
+    ]
+}

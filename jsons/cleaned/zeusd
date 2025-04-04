@@ -1,0 +1,21 @@
+{
+    "name": "zeusd",
+    "deps": [
+        "actix-web",
+        "anyhow",
+        "clap",
+        "nix",
+        "nvml-wrapper",
+        "once_cell",
+        "paste",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "tracing-actix-web",
+        "tracing-log",
+        "tracing-subscriber"
+    ]
+}

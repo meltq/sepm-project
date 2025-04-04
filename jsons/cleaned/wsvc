@@ -1,0 +1,32 @@
+{
+    "name": "wsvc",
+    "deps": [
+        "anyhow",
+        "async-recursion",
+        "async-trait",
+        "axum",
+        "blake3",
+        "bytes",
+        "chrono",
+        "clap",
+        "colored",
+        "dirs",
+        "futures",
+        "hyper",
+        "miniz_oxide",
+        "nanoid",
+        "once_cell",
+        "serde",
+        "serde_json",
+        "serde_repr",
+        "thiserror",
+        "tokio",
+        "tokio-stream",
+        "tokio-tungstenite",
+        "tokio-util",
+        "toml",
+        "tower",
+        "tower-http",
+        "tracing"
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "name": "rsql_driver_excel",
+    "deps": [
+        "async-trait",
+        "calamine",
+        "file_type",
+        "indexmap",
+        "polars",
+        "polars-sql",
+        "rsql_driver",
+        "rsql_driver_polars",
+        "rsql_driver_test_utils",
+        "serde_json",
+        "tokio",
+        "tokio",
+        "url"
+    ]
+}

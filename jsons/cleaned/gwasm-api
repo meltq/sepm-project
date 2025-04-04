@@ -1,0 +1,19 @@
+{
+    "name": "gwasm-api",
+    "deps": [
+        "actix",
+        "actix-wamp",
+        "chrono",
+        "failure",
+        "futures",
+        "golem-rpc-api",
+        "golem-rpc-macros",
+        "indicatif",
+        "serde",
+        "serde_json",
+        "tempfile",
+        "tempfile",
+        "tokio",
+        "tokio-ctrlc-error"
+    ]
+}

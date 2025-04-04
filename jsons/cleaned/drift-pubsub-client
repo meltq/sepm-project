@@ -1,0 +1,21 @@
+{
+    "name": "drift-pubsub-client",
+    "deps": [
+        "env_logger",
+        "futures-util",
+        "gjson",
+        "log",
+        "serde",
+        "serde_json",
+        "solana-account-decoder",
+        "solana-client",
+        "solana-rpc-client-api",
+        "solana-sdk",
+        "solana-transaction-status",
+        "thiserror",
+        "tokio",
+        "tokio-stream",
+        "tokio-tungstenite",
+        "url"
+    ]
+}

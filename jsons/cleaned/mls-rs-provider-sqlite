@@ -1,0 +1,18 @@
+{
+    "name": "mls-rs-provider-sqlite",
+    "deps": [
+        "anyhow",
+        "assert_matches",
+        "async-trait",
+        "hex",
+        "maybe-async",
+        "mls-rs-core",
+        "rand",
+        "rusqlite",
+        "tempfile",
+        "thiserror",
+        "uuid",
+        "wasm-bindgen",
+        "zeroize"
+    ]
+}

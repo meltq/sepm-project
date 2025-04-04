@@ -1,0 +1,20 @@
+{
+    "name": "release-exporter",
+    "deps": [
+        "async-std",
+        "clap",
+        "futures",
+        "prometheus-client",
+        "regex",
+        "reqwest",
+        "serde",
+        "serde_regex",
+        "serde_test",
+        "serde_yaml",
+        "thiserror",
+        "tide",
+        "tokio",
+        "tokio-stream",
+        "url"
+    ]
+}

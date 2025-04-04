@@ -1,0 +1,29 @@
+{
+    "name": "solana-replica-node",
+    "deps": [
+        "clap",
+        "crossbeam-channel",
+        "log",
+        "rand",
+        "serial_test",
+        "solana-clap-utils",
+        "solana-core",
+        "solana-download-utils",
+        "solana-genesis-utils",
+        "solana-gossip",
+        "solana-ledger",
+        "solana-local-cluster",
+        "solana-logger",
+        "solana-net-utils",
+        "solana-replica-lib",
+        "solana-rpc",
+        "solana-runtime",
+        "solana-sdk",
+        "solana-send-transaction-service",
+        "solana-streamer",
+        "solana-validator",
+        "solana-version",
+        "tempfile",
+        "tonic-build"
+    ]
+}

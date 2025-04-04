@@ -1,0 +1,13 @@
+{
+    "name": "cloudwatch-log-redirector",
+    "deps": [
+        "aws-config",
+        "aws-sdk-cloudwatchlogs",
+        "clap",
+        "env_logger",
+        "log",
+        "tokio",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

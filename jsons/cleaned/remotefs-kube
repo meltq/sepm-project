@@ -1,0 +1,24 @@
+{
+    "name": "remotefs-kube",
+    "deps": [
+        "chrono",
+        "env_logger",
+        "futures-util",
+        "k8s-openapi",
+        "kube",
+        "kube",
+        "lazy-regex",
+        "log",
+        "path-slash",
+        "pretty_assertions",
+        "rand",
+        "remotefs",
+        "serde_json",
+        "serial_test",
+        "tar",
+        "tempfile",
+        "thiserror",
+        "tokio",
+        "tokio-util"
+    ]
+}

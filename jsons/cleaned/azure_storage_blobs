@@ -1,0 +1,27 @@
+{
+    "name": "azure_storage_blobs",
+    "deps": [
+        "RustyXML",
+        "azure_core",
+        "azure_identity",
+        "azure_storage",
+        "base64",
+        "bytes",
+        "chrono",
+        "env_logger",
+        "futures",
+        "http",
+        "log",
+        "md5",
+        "oauth2",
+        "reqwest",
+        "serde",
+        "serde-xml-rs",
+        "serde_derive",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "url",
+        "uuid"
+    ]
+}

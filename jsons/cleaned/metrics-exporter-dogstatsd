@@ -1,0 +1,13 @@
+{
+    "name": "metrics-exporter-dogstatsd",
+    "deps": [
+        "indexmap",
+        "metrics",
+        "metrics-util",
+        "portable-atomic",
+        "quanta",
+        "thiserror",
+        "tokio",
+        "tracing"
+    ]
+}

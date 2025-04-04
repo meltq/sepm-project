@@ -1,0 +1,14 @@
+{
+    "name": "worterbuch-client",
+    "deps": [
+        "async-stream",
+        "futures-core",
+        "futures-util",
+        "log",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tokio-tungstenite",
+        "worterbuch-common"
+    ]
+}

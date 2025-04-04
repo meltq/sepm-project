@@ -1,0 +1,29 @@
+{
+    "name": "llm_client",
+    "deps": [
+        "anyhow",
+        "async-openai",
+        "backoff",
+        "bytes",
+        "chrono",
+        "clap",
+        "clust",
+        "csv",
+        "derive_builder",
+        "dotenv",
+        "gbnf",
+        "llm_utils",
+        "num2words",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "serde_yaml",
+        "serial_test",
+        "thiserror",
+        "tokio",
+        "tokio-test",
+        "tracing",
+        "tracing-appender",
+        "tracing-subscriber"
+    ]
+}

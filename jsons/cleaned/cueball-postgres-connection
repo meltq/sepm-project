@@ -1,0 +1,16 @@
+{
+    "name": "cueball-postgres-connection",
+    "deps": [
+        "cueball",
+        "cueball-static-resolver",
+        "native-tls",
+        "postgres",
+        "postgres-protocol",
+        "serde",
+        "serde_derive",
+        "slog",
+        "slog-term",
+        "tokio-postgres-native-tls",
+        "unicode-normalization"
+    ]
+}

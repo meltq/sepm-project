@@ -1,0 +1,33 @@
+{
+    "name": "cobalt-s3-archiver",
+    "deps": [
+        "anyhow",
+        "assert_cmd",
+        "async-trait",
+        "async_zip",
+        "aws-config",
+        "aws-sdk-s3",
+        "bytes",
+        "bytesize",
+        "clap",
+        "cobalt-async",
+        "cobalt-aws",
+        "crc32fast",
+        "function_name",
+        "futures",
+        "pin-project-lite",
+        "rand",
+        "rand_chacha",
+        "serde",
+        "serde_json",
+        "testcontainers",
+        "tokio",
+        "tokio-stream",
+        "tokio-test",
+        "tokio-util",
+        "tracing",
+        "tracing-subscriber",
+        "typed-builder",
+        "url"
+    ]
+}

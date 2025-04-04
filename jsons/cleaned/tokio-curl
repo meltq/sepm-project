@@ -1,0 +1,16 @@
+{
+    "name": "tokio-curl",
+    "deps": [
+        "curl",
+        "env_logger",
+        "futures",
+        "libc",
+        "log",
+        "mio",
+        "scoped-tls",
+        "slab",
+        "tokio-core",
+        "winapi",
+        "ws2_32-sys"
+    ]
+}

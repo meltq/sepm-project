@@ -1,0 +1,19 @@
+{
+    "name": "dpdk-flow",
+    "deps": [
+        "arrayvec",
+        "dpdk-core",
+        "dpdk-ethernet",
+        "dpdk-sys",
+        "libc",
+        "likely",
+        "network-address-resolution-protocol",
+        "network-check-sum",
+        "network-endian",
+        "network-ethernet",
+        "network-internet-control-message-protocol",
+        "network-internet-protocol",
+        "serde",
+        "serde_derive"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "name": "indexed_json",
+    "deps": [
+        "anyhow",
+        "bytes",
+        "chrono",
+        "compact_str",
+        "futures",
+        "fxhash",
+        "immutable-chunkmap",
+        "log",
+        "netidx-core",
+        "netidx-derive",
+        "rand",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "sled",
+        "smallvec",
+        "tokio"
+    ]
+}

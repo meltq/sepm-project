@@ -1,0 +1,14 @@
+{
+    "name": "solana-exporter",
+    "deps": [
+        "clap",
+        "lazy_static",
+        "log",
+        "prometheus_exporter",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "syslog",
+        "tokio"
+    ]
+}

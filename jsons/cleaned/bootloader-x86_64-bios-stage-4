@@ -1,0 +1,12 @@
+{
+    "name": "bootloader-x86_64-bios-stage-4",
+    "deps": [
+        "bootloader-x86_64-bios-common",
+        "bootloader-x86_64-common",
+        "bootloader_api",
+        "log",
+        "rsdp",
+        "usize_conversions",
+        "x86_64"
+    ]
+}

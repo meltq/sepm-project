@@ -1,0 +1,28 @@
+{
+    "name": "htsget-storage",
+    "deps": [
+        "async-trait",
+        "aws-config",
+        "aws-sdk-s3",
+        "axum",
+        "base64",
+        "bytes",
+        "criterion",
+        "data-url",
+        "futures",
+        "futures-util",
+        "htsget-config",
+        "htsget-test",
+        "http",
+        "pin-project-lite",
+        "reqwest",
+        "reqwest",
+        "tempfile",
+        "thiserror",
+        "tokio",
+        "tokio-util",
+        "tower-http",
+        "tracing",
+        "url"
+    ]
+}

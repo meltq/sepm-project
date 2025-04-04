@@ -1,0 +1,18 @@
+{
+    "name": "fuel-streams-storage",
+    "deps": [
+        "async-trait",
+        "aws-config",
+        "aws-sdk-s3",
+        "displaydoc",
+        "dotenvy",
+        "pretty_assertions",
+        "rand",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tokio",
+        "tracing",
+        "tracing-test"
+    ]
+}

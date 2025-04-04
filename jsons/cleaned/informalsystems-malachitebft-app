@@ -1,0 +1,21 @@
+{
+    "name": "informalsystems-malachitebft-app",
+    "deps": [
+        "async-trait",
+        "derive-where",
+        "eyre",
+        "libp2p-identity",
+        "malachitebft-codec",
+        "malachitebft-config",
+        "malachitebft-core-consensus",
+        "malachitebft-core-types",
+        "malachitebft-engine",
+        "malachitebft-metrics",
+        "malachitebft-network",
+        "malachitebft-peer",
+        "malachitebft-sync",
+        "rand",
+        "serde",
+        "tracing"
+    ]
+}

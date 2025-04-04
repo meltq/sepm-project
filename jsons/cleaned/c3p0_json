@@ -1,0 +1,18 @@
+{
+    "name": "c3p0_json",
+    "deps": [
+        "c3p0_common",
+        "c3p0_mysql",
+        "c3p0_pg",
+        "c3p0_sqlite",
+        "err-derive",
+        "lazy_static",
+        "log",
+        "maybe-single",
+        "rand",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "testcontainers"
+    ]
+}

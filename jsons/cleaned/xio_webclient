@@ -1,0 +1,23 @@
+{
+    "name": "xio_webclient",
+    "deps": [
+        "crossbeam-channel",
+        "env_logger",
+        "failure",
+        "http",
+        "log",
+        "ommui_file_loading",
+        "prettytable-rs",
+        "reqwest",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "structopt",
+        "uuid",
+        "ws",
+        "xio_base_datatypes",
+        "xio_hwdb",
+        "xio_jobset",
+        "xio_webapi"
+    ]
+}

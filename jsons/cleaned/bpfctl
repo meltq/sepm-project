@@ -1,0 +1,20 @@
+{
+    "name": "bpfctl",
+    "deps": [
+        "anyhow",
+        "base64",
+        "bpfd-api",
+        "clap",
+        "comfy-table",
+        "env_logger",
+        "hex",
+        "itertools",
+        "log",
+        "prost",
+        "serde",
+        "tokio",
+        "toml",
+        "tonic",
+        "tower"
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "name": "solana_libra_vm_genesis",
+    "deps": [
+        "canonical_serialization",
+        "config",
+        "crypto",
+        "failure",
+        "hex",
+        "ir_to_bytecode",
+        "lazy_static",
+        "proptest",
+        "proptest-derive",
+        "proptest_helpers",
+        "proto_conv",
+        "rand",
+        "state_view",
+        "stdlib",
+        "tiny-keccak",
+        "toml",
+        "types",
+        "types",
+        "vm",
+        "vm_cache_map",
+        "vm_runtime"
+    ]
+}

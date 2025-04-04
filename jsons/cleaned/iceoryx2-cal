@@ -1,0 +1,24 @@
+{
+    "name": "iceoryx2-cal",
+    "deps": [
+        "cdr",
+        "generic-tests",
+        "iceoryx2-bb-container",
+        "iceoryx2-bb-elementary",
+        "iceoryx2-bb-lock-free",
+        "iceoryx2-bb-log",
+        "iceoryx2-bb-memory",
+        "iceoryx2-bb-posix",
+        "iceoryx2-bb-system-types",
+        "iceoryx2-bb-testing",
+        "iceoryx2-bb-threadsafe",
+        "iceoryx2-pal-posix",
+        "lazy_static",
+        "once_cell",
+        "ouroboros",
+        "serde",
+        "sha1_smol",
+        "tiny-fn",
+        "toml"
+    ]
+}

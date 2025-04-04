@@ -1,0 +1,13 @@
+{
+    "name": "zng-ext-single-instance",
+    "deps": [
+        "parking_lot",
+        "serde_json",
+        "single-instance",
+        "tracing",
+        "zng-app",
+        "zng-ext-fs-watcher",
+        "zng-task",
+        "zng-txt"
+    ]
+}

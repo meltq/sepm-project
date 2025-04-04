@@ -1,0 +1,32 @@
+{
+    "name": "aaa-test-cw-orch",
+    "deps": [
+        "anyhow",
+        "cosmrs",
+        "cosmwasm-schema",
+        "cosmwasm-std",
+        "cw-orch-contract-derive",
+        "cw-orch-core",
+        "cw-orch-daemon",
+        "cw-orch-fns-derive",
+        "cw-orch-mock",
+        "cw-orch-networks",
+        "cw-orch-traits",
+        "cw-utils",
+        "dotenv",
+        "env_logger",
+        "hex",
+        "insta",
+        "log",
+        "osmosis-test-tube",
+        "prost",
+        "prost-types",
+        "sanitize-filename",
+        "schemars",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tonic"
+    ]
+}

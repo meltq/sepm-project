@@ -1,0 +1,14 @@
+{
+    "name": "duplicati-collector",
+    "deps": [
+        "chrono",
+        "duplicati",
+        "envconfig",
+        "envconfig_derive",
+        "influxdb",
+        "influxdb-config",
+        "thiserror",
+        "tokio",
+        "tokio-util"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "lambda_web_adapter",
+    "deps": [
+        "env_logger",
+        "http",
+        "lambda-extension",
+        "lambda_http",
+        "reqwest",
+        "tokio",
+        "tokio-retry",
+        "tower",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

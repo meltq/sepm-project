@@ -1,0 +1,23 @@
+{
+    "name": "sqlx-macros-core",
+    "deps": [
+        "async-std",
+        "dotenvy",
+        "either",
+        "heck",
+        "hex",
+        "once_cell",
+        "proc-macro2",
+        "quote",
+        "serde",
+        "serde_json",
+        "sha2",
+        "sqlx-core",
+        "sqlx-mysql",
+        "sqlx-postgres",
+        "sqlx-sqlite",
+        "syn",
+        "tokio",
+        "url"
+    ]
+}

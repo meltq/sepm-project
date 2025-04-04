@@ -1,0 +1,20 @@
+{
+    "name": "spacetimedb-commitlog",
+    "deps": [
+        "bitflags",
+        "crc32c",
+        "env_logger",
+        "itertools",
+        "log",
+        "once_cell",
+        "proptest",
+        "proptest-derive",
+        "rand",
+        "serde",
+        "spacetimedb-primitives",
+        "spacetimedb-sats",
+        "tempfile",
+        "thiserror",
+        "tokio"
+    ]
+}

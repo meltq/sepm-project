@@ -1,0 +1,15 @@
+{
+    "name": "tezos-smart-rollup-installer-config",
+    "deps": [
+        "hex",
+        "nom",
+        "serde",
+        "serde_yaml",
+        "tezos-smart-rollup-core",
+        "tezos-smart-rollup-encoding",
+        "tezos-smart-rollup-host",
+        "tezos_crypto_rs",
+        "tezos_data_encoding",
+        "thiserror"
+    ]
+}

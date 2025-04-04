@@ -1,0 +1,21 @@
+{
+    "name": "coingecko_cache_api",
+    "deps": [
+        "actix-web",
+        "base64",
+        "bigdecimal",
+        "chrono",
+        "dotenv",
+        "futures",
+        "hex",
+        "listenfd",
+        "log",
+        "pretty_env_logger",
+        "serde",
+        "serde_json",
+        "serde_with",
+        "snafu",
+        "sqlx",
+        "uuid"
+    ]
+}

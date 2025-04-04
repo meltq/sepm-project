@@ -1,0 +1,13 @@
+{
+    "name": "hitbox-redis",
+    "deps": [
+        "actix",
+        "actix-rt",
+        "actix_derive",
+        "hitbox-backend",
+        "log",
+        "redis",
+        "thiserror",
+        "tokio"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "name": "aws-smithy-http-server",
+    "deps": [
+        "async-trait",
+        "aws-smithy-http",
+        "aws-smithy-json",
+        "aws-smithy-types",
+        "axum",
+        "bytes",
+        "futures-util",
+        "http",
+        "http-body",
+        "hyper",
+        "mime",
+        "pin-project",
+        "pretty_assertions",
+        "regex",
+        "serde_urlencoded",
+        "thiserror",
+        "tokio",
+        "tower",
+        "tower-http"
+    ]
+}

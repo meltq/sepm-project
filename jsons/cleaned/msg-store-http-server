@@ -1,0 +1,23 @@
+{
+    "name": "msg-store-http-server",
+    "deps": [
+        "actix",
+        "actix-multipart",
+        "actix-web",
+        "actix-web-actors",
+        "bytes",
+        "clap",
+        "dirs",
+        "env_logger",
+        "futures",
+        "log",
+        "msg-store",
+        "msg_store_database_in_memory_plugin",
+        "msg_store_database_leveldb_plugin",
+        "msg_store_database_plugin",
+        "msg_store_server_api",
+        "msg_store_uuid",
+        "serde",
+        "serde_json"
+    ]
+}

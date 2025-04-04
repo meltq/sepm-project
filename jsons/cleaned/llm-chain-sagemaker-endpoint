@@ -1,0 +1,17 @@
+{
+    "name": "llm-chain-sagemaker-endpoint",
+    "deps": [
+        "async-trait",
+        "aws-config",
+        "aws-sdk-sagemakerruntime",
+        "futures",
+        "llm-chain",
+        "serde",
+        "serde_json",
+        "serde_with",
+        "strum",
+        "strum_macros",
+        "thiserror",
+        "tokio"
+    ]
+}

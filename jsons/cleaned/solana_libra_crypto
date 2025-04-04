@@ -1,0 +1,30 @@
+{
+    "name": "solana_libra_crypto",
+    "deps": [
+        "bincode",
+        "bitvec",
+        "byteorder",
+        "bytes",
+        "crypto-derive",
+        "curve25519-dalek",
+        "derive_deref",
+        "digest",
+        "ed25519-dalek",
+        "failure",
+        "hex",
+        "hmac",
+        "lazy_static",
+        "pairing",
+        "proptest",
+        "proptest-derive",
+        "proto_conv",
+        "rand",
+        "ripemd160",
+        "serde",
+        "sha2",
+        "sha3",
+        "threshold_crypto",
+        "tiny-keccak",
+        "x25519-dalek"
+    ]
+}

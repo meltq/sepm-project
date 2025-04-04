@@ -1,0 +1,20 @@
+{
+    "name": "libmdns",
+    "deps": [
+        "byteorder",
+        "env_logger",
+        "futures",
+        "kernel32-sys",
+        "libc",
+        "log",
+        "matches",
+        "multimap",
+        "net2",
+        "nix",
+        "quick-error",
+        "rand",
+        "socket2",
+        "tokio-core",
+        "winapi"
+    ]
+}

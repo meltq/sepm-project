@@ -1,0 +1,22 @@
+{
+    "name": "input-emulation",
+    "deps": [
+        "anyhow",
+        "ashpd",
+        "async-trait",
+        "core-graphics",
+        "futures",
+        "input-event",
+        "keycode",
+        "log",
+        "reis",
+        "thiserror",
+        "tokio",
+        "wayland-client",
+        "wayland-protocols",
+        "wayland-protocols-misc",
+        "wayland-protocols-wlr",
+        "windows",
+        "x11"
+    ]
+}

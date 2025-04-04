@@ -1,0 +1,17 @@
+{
+    "name": "nft_storage_core",
+    "deps": [
+        "aes",
+        "async-trait",
+        "cbc",
+        "dotenv",
+        "futures",
+        "nft_storage_api",
+        "rand",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio"
+    ]
+}

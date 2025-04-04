@@ -1,0 +1,22 @@
+{
+    "name": "audio-conv",
+    "deps": [
+        "anyhow",
+        "clap",
+        "derive_more",
+        "futures",
+        "glib",
+        "globset",
+        "gstreamer",
+        "gstreamer-audio",
+        "gstreamer-base",
+        "libc",
+        "num_cpus",
+        "regex",
+        "serde",
+        "serde_yaml",
+        "tokio",
+        "tui",
+        "walkdir"
+    ]
+}

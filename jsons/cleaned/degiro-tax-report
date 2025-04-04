@@ -1,0 +1,19 @@
+{
+    "name": "degiro-tax-report",
+    "deps": [
+        "anyhow",
+        "chrono",
+        "clap",
+        "csv",
+        "dateparser",
+        "decimal",
+        "env_logger",
+        "futures",
+        "lazy_static",
+        "log",
+        "regex",
+        "rev_lines",
+        "serde",
+        "tokio"
+    ]
+}

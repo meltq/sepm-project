@@ -1,0 +1,15 @@
+{
+    "name": "llm_stream",
+    "deps": [
+        "anyhow",
+        "env_logger",
+        "eventsource-client",
+        "futures",
+        "log",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "ureq"
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "name": "boardswarm-cli",
+    "deps": [
+        "anyhow",
+        "async-compression",
+        "async-trait",
+        "bmap-parser",
+        "boardswarm-client",
+        "boardswarm-protocol",
+        "bytes",
+        "clap",
+        "crossterm",
+        "dirs",
+        "futures",
+        "http",
+        "http-serde",
+        "indicatif",
+        "json",
+        "mprocs-vt100",
+        "nix",
+        "reqwest",
+        "rockfile",
+        "serde",
+        "serde_json",
+        "serde_yaml",
+        "tokio",
+        "tokio-util",
+        "tracing",
+        "tracing-subscriber",
+        "tui",
+        "url"
+    ]
+}

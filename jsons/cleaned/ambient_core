@@ -1,0 +1,27 @@
+{
+    "name": "ambient_core",
+    "deps": [
+        "ambient_ecs",
+        "ambient_gpu",
+        "ambient_profiling",
+        "ambient_std",
+        "ambient_sys",
+        "bytemuck",
+        "chrono",
+        "derive_more",
+        "flume",
+        "glam",
+        "itertools",
+        "lazy_static",
+        "ordered-float",
+        "parking_lot",
+        "paste",
+        "serde",
+        "tokio",
+        "tracing",
+        "tracing-subscriber",
+        "wgpu",
+        "winit",
+        "yaml-rust"
+    ]
+}

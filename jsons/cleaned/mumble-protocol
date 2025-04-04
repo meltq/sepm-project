@@ -1,0 +1,16 @@
+{
+    "name": "mumble-protocol",
+    "deps": [
+        "argparse",
+        "byteorder",
+        "bytes",
+        "futures",
+        "native-tls",
+        "openssl",
+        "protobuf",
+        "protobuf-codegen-pure",
+        "tokio",
+        "tokio-codec",
+        "tokio-tls"
+    ]
+}

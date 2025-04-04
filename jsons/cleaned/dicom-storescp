@@ -1,0 +1,16 @@
+{
+    "name": "dicom-storescp",
+    "deps": [
+        "clap",
+        "dicom-core",
+        "dicom-dictionary-std",
+        "dicom-encoding",
+        "dicom-object",
+        "dicom-transfer-syntax-registry",
+        "dicom-ul",
+        "smallvec",
+        "snafu",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

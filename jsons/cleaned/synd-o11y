@@ -1,0 +1,18 @@
+{
+    "name": "synd-o11y",
+    "deps": [
+        "axum",
+        "http",
+        "opentelemetry",
+        "opentelemetry-appender-tracing",
+        "opentelemetry-http",
+        "opentelemetry-otlp",
+        "opentelemetry-semantic-conventions",
+        "opentelemetry_sdk",
+        "rand",
+        "reqwest",
+        "tracing",
+        "tracing-opentelemetry",
+        "tracing-subscriber"
+    ]
+}

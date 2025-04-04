@@ -1,0 +1,29 @@
+{
+    "name": "termusic-playback",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "cpal",
+        "discord-rich-presence",
+        "glib",
+        "gstreamer",
+        "lazy_static",
+        "libmpv-sys",
+        "log",
+        "lovely_env_logger",
+        "parking_lot",
+        "pathdiff",
+        "pretty_assertions",
+        "prost",
+        "rand",
+        "reqwest",
+        "serde",
+        "souvlaki",
+        "symphonia",
+        "termusic-lib",
+        "termusic-stream",
+        "tokio",
+        "tonic",
+        "tonic-build"
+    ]
+}

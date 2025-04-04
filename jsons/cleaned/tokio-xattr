@@ -1,0 +1,14 @@
+{
+    "name": "tokio-xattr",
+    "deps": [
+        "blocking_xattr",
+        "futures-core-preview",
+        "futures-util-preview",
+        "rand",
+        "tempfile",
+        "tokio",
+        "tokio-executor",
+        "tokio-io",
+        "tokio-test"
+    ]
+}

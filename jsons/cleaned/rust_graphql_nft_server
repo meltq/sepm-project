@@ -1,0 +1,19 @@
+{
+    "name": "rust_graphql_nft_server",
+    "deps": [
+        "actix-web",
+        "anyhow",
+        "async-graphql",
+        "async-graphql-actix-web",
+        "async-trait",
+        "dotenv",
+        "futures",
+        "mime",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tokio-test",
+        "web3"
+    ]
+}

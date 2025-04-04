@@ -1,0 +1,30 @@
+{
+    "name": "object_store",
+    "deps": [
+        "async-trait",
+        "azure_core",
+        "azure_storage",
+        "azure_storage_blobs",
+        "bytes",
+        "chrono",
+        "cloud-storage",
+        "dotenv",
+        "futures",
+        "futures-test",
+        "hyper",
+        "hyper-rustls",
+        "itertools",
+        "percent-encoding",
+        "reqwest",
+        "rusoto_core",
+        "rusoto_credential",
+        "rusoto_s3",
+        "snafu",
+        "tempfile",
+        "tempfile",
+        "tokio",
+        "tokio-util",
+        "tracing",
+        "walkdir"
+    ]
+}

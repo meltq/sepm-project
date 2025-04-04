@@ -1,0 +1,19 @@
+{
+    "name": "fwatchd",
+    "deps": [
+        "anyhow",
+        "bincode",
+        "clap",
+        "daemonize",
+        "dirs",
+        "inotify",
+        "libc",
+        "log",
+        "nix",
+        "rust-crypto",
+        "serde",
+        "serde_json",
+        "signal-hook",
+        "syslog"
+    ]
+}

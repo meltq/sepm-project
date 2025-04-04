@@ -1,0 +1,23 @@
+{
+    "name": "ledger-sim",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "bollard",
+        "bytes",
+        "clap",
+        "futures",
+        "image",
+        "lazy_static",
+        "ledger-lib",
+        "ledger-proto",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "strum",
+        "tar",
+        "tokio",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

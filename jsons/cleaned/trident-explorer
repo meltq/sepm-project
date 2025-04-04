@@ -1,0 +1,28 @@
+{
+    "name": "trident-explorer",
+    "deps": [
+        "base64",
+        "bincode",
+        "bs58",
+        "chrono",
+        "console",
+        "num-derive",
+        "num-traits",
+        "phf",
+        "pretty-hex",
+        "serde",
+        "serde_json",
+        "solana-account-decoder",
+        "solana-cli-config",
+        "solana-client",
+        "solana-logger",
+        "solana-program",
+        "solana-sdk",
+        "solana-transaction-status",
+        "solana-vote-program",
+        "spl-associated-token-account",
+        "spl-memo",
+        "spl-token",
+        "thiserror"
+    ]
+}

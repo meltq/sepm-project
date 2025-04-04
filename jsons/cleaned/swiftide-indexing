@@ -1,0 +1,27 @@
+{
+    "name": "swiftide-indexing",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "derive_builder",
+        "futures-util",
+        "ignore",
+        "indoc",
+        "insta",
+        "itertools",
+        "mockall",
+        "num_cpus",
+        "serde",
+        "serde_json",
+        "strum",
+        "strum_macros",
+        "swiftide-core",
+        "swiftide-integrations",
+        "test-case",
+        "test-log",
+        "text-splitter",
+        "tokio",
+        "tokio-stream",
+        "tracing"
+    ]
+}

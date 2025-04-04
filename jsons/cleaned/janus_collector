@@ -1,0 +1,24 @@
+{
+    "name": "janus_collector",
+    "deps": [
+        "anyhow",
+        "assert_matches",
+        "backoff",
+        "base64",
+        "chrono",
+        "clap",
+        "derivative",
+        "janus_core",
+        "mockito",
+        "prio",
+        "rand",
+        "reqwest",
+        "retry-after",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "tracing-log",
+        "tracing-subscriber",
+        "url"
+    ]
+}

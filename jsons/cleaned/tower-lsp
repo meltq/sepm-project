@@ -1,0 +1,19 @@
+{
+    "name": "tower-lsp",
+    "deps": [
+        "bytes",
+        "futures",
+        "jsonrpc-core",
+        "jsonrpc-derive",
+        "log",
+        "lsp-types",
+        "nom",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tokio-codec",
+        "tokio-executor",
+        "tokio-io",
+        "tower-service"
+    ]
+}

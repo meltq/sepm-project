@@ -1,0 +1,20 @@
+{
+    "name": "octoproxy-tui",
+    "deps": [
+        "anyhow",
+        "backtrace",
+        "clap",
+        "crossbeam-channel",
+        "crossterm",
+        "env_logger",
+        "log",
+        "octoproxy-lib",
+        "ratatui",
+        "reqwest",
+        "scopeguard",
+        "serde",
+        "serde_json",
+        "tungstenite",
+        "url"
+    ]
+}

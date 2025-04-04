@@ -1,0 +1,20 @@
+{
+    "name": "vhost-device-can",
+    "deps": [
+        "assert_matches",
+        "clap",
+        "env_logger",
+        "log",
+        "queues",
+        "socketcan",
+        "thiserror",
+        "vhost",
+        "vhost-user-backend",
+        "virtio-bindings",
+        "virtio-queue",
+        "virtio-queue",
+        "vm-memory",
+        "vm-memory",
+        "vmm-sys-util"
+    ]
+}

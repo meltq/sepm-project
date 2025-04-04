@@ -1,0 +1,13 @@
+{
+    "name": "walletd_coin_core",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "base58",
+        "hex",
+        "sha2",
+        "thiserror",
+        "walletd_hd_key",
+        "walletd_mnemonics_core"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "assemblylift-awslambda-iomod",
+    "deps": [
+        "assemblylift_core",
+        "assemblylift_core_event",
+        "assemblylift_core_event_common",
+        "crossbeam-utils",
+        "futures",
+        "lazy_static",
+        "paste",
+        "rusoto_core",
+        "rusoto_dynamodb",
+        "serde_json",
+        "wasmer_runtime",
+        "wasmer_runtime_core"
+    ]
+}

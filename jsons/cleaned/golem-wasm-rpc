@@ -1,0 +1,16 @@
+{
+    "name": "golem-wasm-rpc",
+    "deps": [
+        "arbitrary",
+        "bigdecimal",
+        "golem-wasm-ast",
+        "proptest",
+        "proptest-arbitrary-interop",
+        "prost",
+        "prost-build",
+        "serde",
+        "serde_json",
+        "wasmtime",
+        "wit-bindgen"
+    ]
+}

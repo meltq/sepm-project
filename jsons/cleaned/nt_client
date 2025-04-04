@@ -1,0 +1,15 @@
+{
+    "name": "nt_client",
+    "deps": [
+        "futures-util",
+        "rand",
+        "rmp-serde",
+        "rmpv",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tokio-test",
+        "tokio-tungstenite"
+    ]
+}

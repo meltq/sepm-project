@@ -1,0 +1,17 @@
+{
+    "name": "basws-client",
+    "deps": [
+        "anyhow",
+        "async-channel",
+        "async-handle",
+        "async-trait",
+        "basws-shared",
+        "futures",
+        "once_cell",
+        "serde",
+        "serde_cbor",
+        "tokio",
+        "tokio-tungstenite",
+        "url"
+    ]
+}

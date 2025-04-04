@@ -1,0 +1,17 @@
+{
+    "name": "wadge",
+    "deps": [
+        "anyhow",
+        "http",
+        "tokio",
+        "tracing",
+        "wasi-preview1-component-adapter-provider",
+        "wasmparser",
+        "wasmtime",
+        "wasmtime-wasi",
+        "wasmtime-wasi-http",
+        "wasmtime-wasi-keyvalue",
+        "wasmtime-wasi-runtime-config",
+        "wit-component"
+    ]
+}

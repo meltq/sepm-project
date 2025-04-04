@@ -1,0 +1,13 @@
+{
+    "name": "fcnet",
+    "deps": [
+        "cidr",
+        "clap",
+        "futures",
+        "netlink-packet-route",
+        "netns-rs",
+        "rtnetlink",
+        "tokio",
+        "tokio-tun"
+    ]
+}

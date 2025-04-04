@@ -1,0 +1,30 @@
+{
+    "name": "aeronet_websocket",
+    "deps": [
+        "aeronet_io",
+        "anyhow",
+        "bevy",
+        "bevy_app",
+        "bevy_ecs",
+        "bevy_egui",
+        "bevy_hierarchy",
+        "bytes",
+        "cfg-if",
+        "derive_more",
+        "document-features",
+        "futures",
+        "js-sys",
+        "rcgen",
+        "replace_with",
+        "rustls",
+        "rustls-native-certs",
+        "tokio",
+        "tokio-rustls",
+        "tokio-tungstenite",
+        "tracing",
+        "wasm-bindgen",
+        "wasm-bindgen-futures",
+        "web-sys",
+        "web-time"
+    ]
+}

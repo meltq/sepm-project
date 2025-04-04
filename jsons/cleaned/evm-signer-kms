@@ -1,0 +1,17 @@
+{
+    "name": "evm-signer-kms",
+    "deps": [
+        "asn1",
+        "aws-config",
+        "aws-sdk-kms",
+        "ethnum",
+        "rlp",
+        "secp256k1",
+        "serde",
+        "serde_json",
+        "serde_plain",
+        "sha3",
+        "tokio",
+        "tokio-test"
+    ]
+}

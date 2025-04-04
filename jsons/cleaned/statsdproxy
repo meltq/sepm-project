@@ -1,0 +1,16 @@
+{
+    "name": "statsdproxy",
+    "deps": [
+        "anyhow",
+        "cadence",
+        "clap",
+        "crc32fast",
+        "env_logger",
+        "insta",
+        "log",
+        "serde",
+        "serde_yaml",
+        "signal-hook",
+        "thread_local"
+    ]
+}

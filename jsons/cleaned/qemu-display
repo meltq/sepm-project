@@ -1,0 +1,32 @@
+{
+    "name": "qemu-display",
+    "deps": [
+        "async-broadcast",
+        "async-lock",
+        "async-std",
+        "async-std",
+        "async-trait",
+        "base64",
+        "cfg-if",
+        "derivative",
+        "enumflags2",
+        "futures",
+        "futures-util",
+        "libc",
+        "memmap2",
+        "once_cell",
+        "pixman-sys",
+        "qapi",
+        "rand",
+        "serde",
+        "serde_bytes",
+        "serde_repr",
+        "tracing",
+        "tracing-subscriber",
+        "tracing-subscriber",
+        "uds_windows",
+        "usbredirhost",
+        "windows",
+        "zbus"
+    ]
+}

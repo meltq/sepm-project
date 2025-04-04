@@ -1,0 +1,24 @@
+{
+    "name": "arti-client",
+    "deps": [
+        "anyhow",
+        "derive_builder",
+        "futures",
+        "hyper",
+        "pin-project",
+        "serde",
+        "thiserror",
+        "tokio-crate",
+        "tokio-util",
+        "tor-chanmgr",
+        "tor-circmgr",
+        "tor-config",
+        "tor-dirmgr",
+        "tor-persist",
+        "tor-proto",
+        "tor-rtcompat",
+        "tor-rtcompat",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

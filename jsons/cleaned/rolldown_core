@@ -1,0 +1,31 @@
+{
+    "name": "rolldown_core",
+    "deps": [
+        "derivative",
+        "futures",
+        "hashlink",
+        "itertools",
+        "once_cell",
+        "phf",
+        "rayon",
+        "regex",
+        "rolldown_ast_template",
+        "rolldown_common",
+        "rolldown_compiler",
+        "rolldown_error",
+        "rolldown_plugin",
+        "rolldown_resolver",
+        "rolldown_runtime_helpers",
+        "rolldown_swc_visitors",
+        "rolldown_tracing",
+        "rustc-hash",
+        "sugar_path",
+        "swc_core",
+        "swc_node_comments",
+        "tokio",
+        "tracing",
+        "criterion",
+        "insta",
+        "testing_macros"
+    ]
+}

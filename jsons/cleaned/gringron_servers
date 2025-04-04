@@ -1,0 +1,28 @@
+{
+    "name": "gringron_servers",
+    "deps": [
+        "chrono",
+        "fs2",
+        "futures",
+        "gringron_api",
+        "gringron_chain",
+        "gringron_core",
+        "gringron_keychain",
+        "gringron_p2p",
+        "gringron_pool",
+        "gringron_store",
+        "gringron_util",
+        "http",
+        "hyper",
+        "hyper-rustls",
+        "lmdb-zero",
+        "log",
+        "rand",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "tokio",
+        "tokio-util",
+        "walkdir"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "name": "kormir-wasm",
+    "deps": [
+        "anyhow",
+        "bip39",
+        "chrono",
+        "console_error_panic_hook",
+        "getrandom",
+        "gloo-utils",
+        "hex",
+        "kormir",
+        "log",
+        "nostr",
+        "nostr-sdk",
+        "rexie",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "wasm-bindgen",
+        "wasm-bindgen-futures",
+        "wasm-logger"
+    ]
+}

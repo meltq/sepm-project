@@ -1,0 +1,20 @@
+{
+    "name": "kafka-to-worterbuch",
+    "deps": [
+        "apache-avro",
+        "async-trait",
+        "clap",
+        "env_logger",
+        "log",
+        "miette",
+        "rdkafka",
+        "schema_registry_converter",
+        "serde",
+        "serde_json",
+        "serde_json_path",
+        "tokio",
+        "tokio-graceful-shutdown",
+        "url",
+        "worterbuch-client"
+    ]
+}

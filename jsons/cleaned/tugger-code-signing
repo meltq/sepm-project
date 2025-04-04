@@ -1,0 +1,20 @@
+{
+    "name": "tugger-code-signing",
+    "deps": [
+        "anyhow",
+        "bcder",
+        "cryptographic-message-syntax",
+        "goblin",
+        "p12",
+        "reqwest",
+        "slog",
+        "tempfile",
+        "thiserror",
+        "tugger-apple-bundle",
+        "tugger-apple-codesign",
+        "tugger-file-manifest",
+        "tugger-windows-codesign",
+        "x509-certificate",
+        "yasna"
+    ]
+}

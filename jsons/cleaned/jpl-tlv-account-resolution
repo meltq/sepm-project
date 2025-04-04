@@ -1,0 +1,25 @@
+{
+    "name": "jpl-tlv-account-resolution",
+    "deps": [
+        "bytemuck",
+        "futures",
+        "futures-util",
+        "jpl-discriminator",
+        "jpl-pod",
+        "jpl-program-error",
+        "jpl-type-length-value",
+        "num-derive",
+        "num-traits",
+        "serde",
+        "solana-account-info",
+        "solana-client",
+        "solana-decode-error",
+        "solana-instruction",
+        "solana-msg",
+        "solana-program-error",
+        "solana-program-test",
+        "solana-pubkey",
+        "solana-sdk",
+        "thiserror"
+    ]
+}

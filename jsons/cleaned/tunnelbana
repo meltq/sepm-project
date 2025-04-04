@@ -1,0 +1,17 @@
+{
+    "name": "tunnelbana",
+    "deps": [
+        "http",
+        "hyper-util",
+        "tokio",
+        "tower",
+        "tower-http",
+        "tracing",
+        "tracing-subscriber",
+        "tunnelbana-etags",
+        "tunnelbana-headers",
+        "tunnelbana-hidepaths",
+        "tunnelbana-redirects",
+        "vss"
+    ]
+}

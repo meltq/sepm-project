@@ -1,0 +1,24 @@
+{
+    "name": "spotifatius",
+    "deps": [
+        "anyhow",
+        "clap",
+        "futures",
+        "futures-core",
+        "futures-util",
+        "prost",
+        "rspotify",
+        "serde",
+        "serde_json",
+        "strum",
+        "strum_macros",
+        "tokio",
+        "tokio-stream",
+        "tonic",
+        "tonic-build",
+        "tracing",
+        "tracing-subscriber",
+        "zbus",
+        "zvariant"
+    ]
+}

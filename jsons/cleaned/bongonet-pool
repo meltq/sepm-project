@@ -1,0 +1,13 @@
+{
+    "name": "bongonet-pool",
+    "deps": [
+        "bongonet-timeout",
+        "crossbeam-queue",
+        "log",
+        "lru",
+        "parking_lot",
+        "thread_local",
+        "tokio",
+        "tokio-test"
+    ]
+}

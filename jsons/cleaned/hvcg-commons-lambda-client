@@ -1,0 +1,15 @@
+{
+    "name": "hvcg-commons-lambda-client",
+    "deps": [
+        "async-trait",
+        "bytes",
+        "dotenv",
+        "futures",
+        "hvcg_example_openapi_entity",
+        "rusoto_core",
+        "rusoto_lambda",
+        "serde",
+        "serde_json",
+        "tokio"
+    ]
+}

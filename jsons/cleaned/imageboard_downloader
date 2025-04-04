@@ -1,0 +1,22 @@
+{
+    "name": "imageboard_downloader",
+    "deps": [
+        "anyhow",
+        "bincode",
+        "clap",
+        "colored",
+        "env_logger",
+        "futures",
+        "indicatif",
+        "log",
+        "md5",
+        "reqwest",
+        "roxmltree",
+        "serde",
+        "serde_json",
+        "tempdir",
+        "tokio",
+        "xdg",
+        "zstd"
+    ]
+}

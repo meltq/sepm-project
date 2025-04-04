@@ -1,0 +1,14 @@
+{
+    "name": "otx-pool-client",
+    "deps": [
+        "anyhow",
+        "ckb-types",
+        "jsonrpc-core",
+        "otx-format",
+        "otx-pool-plugin-atomic-swap",
+        "otx-pool-plugin-protocol",
+        "reqwest",
+        "serde",
+        "serde_json"
+    ]
+}

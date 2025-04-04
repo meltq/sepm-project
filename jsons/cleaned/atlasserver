@@ -1,0 +1,19 @@
+{
+    "name": "atlasserver",
+    "deps": [
+        "async-trait",
+        "chrono",
+        "frunk",
+        "protobuf",
+        "protobuf-codegen-pure",
+        "rusoto_core",
+        "rusoto_dynamodb",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "uuid",
+        "warp"
+    ]
+}

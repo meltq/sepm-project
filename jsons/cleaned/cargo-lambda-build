@@ -1,0 +1,16 @@
+{
+    "name": "cargo-lambda-build",
+    "deps": [
+        "cargo-lambda-interactive",
+        "cargo-lambda-metadata",
+        "cargo-zigbuild",
+        "clap",
+        "home",
+        "miette",
+        "rustc_version",
+        "strum",
+        "strum_macros",
+        "tokio",
+        "zip"
+    ]
+}

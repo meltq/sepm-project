@@ -1,0 +1,30 @@
+{
+    "name": "ddns-rs",
+    "deps": [
+        "addr",
+        "anyhow",
+        "async-trait",
+        "chrono",
+        "clap",
+        "cloudflare",
+        "cron",
+        "daemonize",
+        "futures",
+        "lazy_static",
+        "lettre",
+        "log",
+        "log4rs",
+        "maud",
+        "path-value",
+        "pnet",
+        "rand",
+        "regex",
+        "reqwest",
+        "sd-notify",
+        "serde",
+        "serde_json",
+        "serde_yaml",
+        "tokio",
+        "toml"
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "name": "tx-bakery-ogmios",
+    "deps": [
+        "anyhow",
+        "cbor_event",
+        "chrono",
+        "clap",
+        "data-encoding",
+        "derive_builder",
+        "hex",
+        "jsonrpsee",
+        "nix",
+        "num",
+        "num-bigint",
+        "plutus-ledger-api",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "tx-bakery",
+        "url"
+    ]
+}

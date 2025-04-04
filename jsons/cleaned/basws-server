@@ -1,0 +1,20 @@
+{
+    "name": "basws-server",
+    "deps": [
+        "anyhow",
+        "async-channel",
+        "async-handle",
+        "async-rwlock",
+        "async-trait",
+        "basws-shared",
+        "futures",
+        "futures-await-test",
+        "maplit",
+        "once_cell",
+        "serde",
+        "serde_cbor",
+        "serde_derive",
+        "tokio",
+        "warp"
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "name": "mollysocket",
+    "deps": [
+        "async-trait",
+        "confy",
+        "env_logger",
+        "eyre",
+        "futures-channel",
+        "futures-util",
+        "http",
+        "ip_rfc",
+        "lazy_static",
+        "log",
+        "native-tls",
+        "prost",
+        "reqwest",
+        "rocket",
+        "rocket_prometheus",
+        "rusqlite",
+        "serde",
+        "tokio",
+        "tokio-tungstenite",
+        "trust-dns-resolver",
+        "url"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "name": "netlink-tc",
+    "deps": [
+        "bincode",
+        "netlink-packet-core",
+        "netlink-packet-route",
+        "netlink-packet-utils",
+        "netlink-sys",
+        "serde",
+        "thiserror"
+    ]
+}

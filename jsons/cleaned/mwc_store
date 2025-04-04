@@ -1,0 +1,21 @@
+{
+    "name": "mwc_store",
+    "deps": [
+        "byteorder",
+        "chrono",
+        "croaring",
+        "env_logger",
+        "filetime",
+        "libc",
+        "lmdb-zero",
+        "log",
+        "memmap",
+        "mwc_core",
+        "mwc_util",
+        "rand",
+        "serde",
+        "serde_derive",
+        "tempfile",
+        "thiserror"
+    ]
+}

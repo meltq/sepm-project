@@ -1,0 +1,25 @@
+{
+    "name": "peerd",
+    "deps": [
+        "anyhow",
+        "base64",
+        "cidr",
+        "clap",
+        "crc32fast",
+        "etcd-client",
+        "futures",
+        "genetlink",
+        "log",
+        "netlink-packet-generic",
+        "netlink-packet-route",
+        "netlink-packet-wireguard",
+        "once_cell",
+        "pem",
+        "rtnetlink",
+        "serde",
+        "serde_json",
+        "simple_logger",
+        "tokio",
+        "toml"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "name": "pfctl",
+    "deps": [
+        "assert_matches",
+        "bindgen",
+        "derive_builder",
+        "errno",
+        "error-chain",
+        "ioctl-sys",
+        "ipnetwork",
+        "lazy_static",
+        "libc",
+        "scopeguard",
+        "uuid"
+    ]
+}

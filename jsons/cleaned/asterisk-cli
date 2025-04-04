@@ -1,0 +1,20 @@
+{
+    "name": "asterisk-cli",
+    "deps": [
+        "anyhow",
+        "clap",
+        "colored",
+        "futures-util",
+        "glob",
+        "regex",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "strsim",
+        "thiserror",
+        "tokio",
+        "tokio-test",
+        "url",
+        "wiremock"
+    ]
+}

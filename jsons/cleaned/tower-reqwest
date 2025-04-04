@@ -1,0 +1,23 @@
+{
+    "name": "tower-reqwest",
+    "deps": [
+        "anyhow",
+        "futures-util",
+        "http",
+        "http-body-util",
+        "hyper",
+        "include-utils",
+        "log",
+        "pin-project",
+        "pretty_assertions",
+        "reqwest",
+        "reqwest-middleware",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tower",
+        "tower-http",
+        "wiremock"
+    ]
+}

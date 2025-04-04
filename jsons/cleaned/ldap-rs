@@ -1,0 +1,22 @@
+{
+    "name": "ldap-rs",
+    "deps": [
+        "bytes",
+        "futures",
+        "log",
+        "native-tls",
+        "once_cell",
+        "parking_lot",
+        "pest",
+        "pest_derive",
+        "pretty_env_logger",
+        "rasn",
+        "rasn-ldap",
+        "regex",
+        "thiserror",
+        "tokio",
+        "tokio",
+        "tokio-native-tls",
+        "tokio-util"
+    ]
+}

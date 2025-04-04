@@ -1,0 +1,18 @@
+{
+    "name": "tower-kafka",
+    "deps": [
+        "bytes",
+        "futures",
+        "kafka-protocol",
+        "thiserror",
+        "tokio",
+        "tokio-tower",
+        "tokio-util",
+        "tower",
+        "tracing",
+        "tracing-appender",
+        "tracing-futures",
+        "tracing-subscriber",
+        "tracing-test"
+    ]
+}

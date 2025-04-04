@@ -1,0 +1,11 @@
+{
+    "name": "ws2812-pwm-dma",
+    "deps": [
+        "bitvec",
+        "embedded-dma",
+        "embedded-hal",
+        "fugit",
+        "smart-leds-trait",
+        "stm32f4xx-hal"
+    ]
+}

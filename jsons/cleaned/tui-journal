@@ -1,0 +1,22 @@
+{
+    "name": "tui-journal",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "chrono",
+        "clap",
+        "crossterm",
+        "directories",
+        "log",
+        "serde",
+        "serde_json",
+        "simplelog",
+        "sqlx",
+        "textwrap",
+        "thiserror",
+        "tokio",
+        "toml",
+        "tui",
+        "tui-textarea"
+    ]
+}

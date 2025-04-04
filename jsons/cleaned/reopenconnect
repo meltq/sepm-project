@@ -1,0 +1,33 @@
+{
+    "name": "reopenconnect",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "base64",
+        "byteorder",
+        "dotenv",
+        "eyre",
+        "futures",
+        "hyper",
+        "ipnetwork",
+        "log",
+        "minidom",
+        "openssl",
+        "packet",
+        "pretty-hex",
+        "pretty_env_logger",
+        "rand",
+        "rustls",
+        "rustls-native-certs",
+        "serde",
+        "str-macro",
+        "structopt",
+        "syslog",
+        "thiserror",
+        "tokio",
+        "tokio-rustls",
+        "tokio-tun",
+        "webpki",
+        "webrtc-dtls"
+    ]
+}

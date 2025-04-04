@@ -1,0 +1,12 @@
+{
+    "name": "ws-markdown-server",
+    "deps": [
+        "clap",
+        "comrak",
+        "futures-util",
+        "tokio",
+        "tokio-tungstenite",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

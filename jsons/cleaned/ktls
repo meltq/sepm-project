@@ -1,0 +1,20 @@
+{
+    "name": "ktls",
+    "deps": [
+        "futures",
+        "ktls-sys",
+        "libc",
+        "memoffset",
+        "pin-project-lite",
+        "rcgen",
+        "rustls",
+        "smallvec",
+        "socket2",
+        "thiserror",
+        "tokio",
+        "tokio",
+        "tokio-rustls",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "name": "libpasta",
+    "deps": [
+        "argon2rs",
+        "cargon",
+        "clap",
+        "clear_on_drop",
+        "data-encoding",
+        "env_logger",
+        "error-chain",
+        "fastpbkdf2",
+        "itertools",
+        "lazy_static",
+        "log",
+        "num-traits",
+        "optimization",
+        "regex",
+        "ring",
+        "ring-pwhash",
+        "rpassword",
+        "rust-crypto",
+        "serde",
+        "serde_bytes",
+        "serde_derive",
+        "serde_json",
+        "serde_mcf",
+        "serde_yaml",
+        "sys-info",
+        "time"
+    ]
+}

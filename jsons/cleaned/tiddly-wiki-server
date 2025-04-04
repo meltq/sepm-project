@@ -1,0 +1,14 @@
+{
+    "name": "tiddly-wiki-server",
+    "deps": [
+        "anyhow",
+        "axum",
+        "rusqlite",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tower-http",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

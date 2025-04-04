@@ -1,0 +1,21 @@
+{
+    "name": "zon_fs",
+    "deps": [
+        "bytes",
+        "futures-core",
+        "http",
+        "http-body",
+        "http-body-util",
+        "http-range-header",
+        "httpdate",
+        "mime",
+        "mime_guess",
+        "percent-encoding",
+        "pin-project-lite",
+        "tokio",
+        "tokio-util",
+        "tracing",
+        "zon_core",
+        "zon_middleware"
+    ]
+}

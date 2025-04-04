@@ -1,0 +1,31 @@
+{
+    "name": "trz-gateway-client",
+    "deps": [
+        "futures",
+        "hostname",
+        "http",
+        "humantime",
+        "mime",
+        "nameth",
+        "openssl",
+        "pin-project",
+        "portpicker",
+        "prost-types",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "tempfile",
+        "terrazzo-fixture",
+        "thiserror",
+        "tokio",
+        "tokio-rustls",
+        "tokio-tungstenite",
+        "tokio-util",
+        "tonic",
+        "tracing",
+        "tracing-futures",
+        "trz-gateway-common",
+        "trz-gateway-server",
+        "uuid"
+    ]
+}

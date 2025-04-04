@@ -1,0 +1,20 @@
+{
+    "name": "parse-tcp",
+    "deps": [
+        "clap",
+        "color-eyre",
+        "crossbeam-channel",
+        "etherparse",
+        "eyre",
+        "kinesin-rdt",
+        "libc",
+        "parking_lot",
+        "pcap-parser",
+        "serde",
+        "serde_json",
+        "tracing",
+        "tracing-error",
+        "tracing-subscriber",
+        "uuid"
+    ]
+}

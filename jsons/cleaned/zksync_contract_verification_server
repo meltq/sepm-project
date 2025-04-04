@@ -1,0 +1,16 @@
+{
+    "name": "zksync_contract_verification_server",
+    "deps": [
+        "anyhow",
+        "axum",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tower-http",
+        "tracing",
+        "vise",
+        "zksync_config",
+        "zksync_dal",
+        "zksync_types"
+    ]
+}

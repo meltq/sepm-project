@@ -1,0 +1,32 @@
+{
+    "name": "orbit-server",
+    "deps": [
+        "aide",
+        "anyhow",
+        "async-fn-stream",
+        "axum",
+        "axum-extra",
+        "axum-jsonschema",
+        "chrono",
+        "dotenvy",
+        "flate2",
+        "futures-util",
+        "http",
+        "indexmap",
+        "orbit-types",
+        "reqwest",
+        "schemars",
+        "serde",
+        "serde_json",
+        "shlex",
+        "slug",
+        "symlink",
+        "tar",
+        "thiserror",
+        "tokio",
+        "toml",
+        "tracing",
+        "tracing-subscriber",
+        "uuid"
+    ]
+}

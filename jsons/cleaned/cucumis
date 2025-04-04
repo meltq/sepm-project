@@ -1,0 +1,15 @@
+{
+    "name": "cucumis",
+    "deps": [
+        "anyhow",
+        "clap",
+        "clap-verbosity-flag",
+        "futures-util",
+        "rustls-native-certs",
+        "tokio",
+        "tokio-rustls",
+        "tokio-tungstenite",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

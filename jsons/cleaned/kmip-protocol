@@ -1,0 +1,21 @@
+{
+    "name": "kmip-protocol",
+    "deps": [
+        "enum-display-derive",
+        "enum-flags",
+        "hex",
+        "kmip-ttlv",
+        "log",
+        "openssl",
+        "pretty_assertions",
+        "rustc_version",
+        "rustls",
+        "rustls-pemfile",
+        "serde",
+        "serde_bytes",
+        "serde_derive",
+        "stderrlog",
+        "structopt",
+        "webpki"
+    ]
+}

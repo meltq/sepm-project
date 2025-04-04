@@ -1,0 +1,19 @@
+{
+    "name": "google-privateca1-cli",
+    "deps": [
+        "anyhow",
+        "clap",
+        "google-clis-common",
+        "google-privateca1",
+        "http",
+        "hyper",
+        "hyper-rustls",
+        "itertools",
+        "mime",
+        "serde",
+        "serde_json",
+        "strsim",
+        "tokio",
+        "tower-service"
+    ]
+}

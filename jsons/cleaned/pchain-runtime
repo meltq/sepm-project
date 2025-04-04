@@ -1,0 +1,26 @@
+{
+    "name": "pchain-runtime",
+    "deps": [
+        "anyhow",
+        "base64url",
+        "blake2",
+        "borsh",
+        "ed25519-dalek",
+        "keccak-hasher",
+        "loupe",
+        "pchain-types",
+        "pchain-world-state",
+        "ripemd",
+        "sha2",
+        "thiserror",
+        "tiny-keccak",
+        "wasmer",
+        "wasmer-cache",
+        "wasmer-compiler-singlepass",
+        "wasmer-engine-universal",
+        "wasmer-middlewares",
+        "wasmer-vm",
+        "wasmer-wasi",
+        "wat"
+    ]
+}

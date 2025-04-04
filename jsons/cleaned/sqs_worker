@@ -1,0 +1,22 @@
+{
+    "name": "sqs_worker",
+    "deps": [
+        "act-zero",
+        "async-trait",
+        "aws-config",
+        "aws-credential-types",
+        "aws-sdk-config",
+        "aws-sdk-sqs",
+        "aws-smithy-http",
+        "aws-types",
+        "color-eyre",
+        "derive_builder",
+        "env_logger",
+        "eyre",
+        "log",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio"
+    ]
+}

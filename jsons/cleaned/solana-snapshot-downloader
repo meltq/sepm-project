@@ -1,0 +1,14 @@
+{
+    "name": "solana-snapshot-downloader",
+    "deps": [
+        "clap",
+        "futures-util",
+        "indicatif",
+        "rayon",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "solana-client",
+        "tokio"
+    ]
+}

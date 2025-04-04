@@ -1,0 +1,27 @@
+{
+    "name": "taos-sys",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "bitvec",
+        "bstr",
+        "cfg-if",
+        "derive_more",
+        "dotenv",
+        "futures",
+        "itertools",
+        "libloading",
+        "log",
+        "num_enum",
+        "once_cell",
+        "pretty_env_logger",
+        "serde",
+        "serde",
+        "serde_json",
+        "serde_repr",
+        "taos-error",
+        "taos-macros",
+        "taos-query",
+        "tokio"
+    ]
+}

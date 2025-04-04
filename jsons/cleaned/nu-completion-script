@@ -1,0 +1,21 @@
+{
+    "name": "nu-completion-script",
+    "deps": [
+        "anyhow",
+        "async-recursion",
+        "beau_collector",
+        "clap",
+        "clap-verbosity-flag",
+        "defaultmap",
+        "derive_deref",
+        "femme",
+        "lazy-regex",
+        "log",
+        "reqwest",
+        "serde",
+        "shell-words",
+        "tempfile",
+        "tokio",
+        "which"
+    ]
+}

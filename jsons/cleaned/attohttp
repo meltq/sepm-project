@@ -1,0 +1,33 @@
+{
+    "name": "attohttp",
+    "deps": [
+        "anyhow",
+        "base64",
+        "encoding_rs",
+        "encoding_rs_io",
+        "env_logger",
+        "flate2",
+        "futures",
+        "futures-util",
+        "http",
+        "hyper",
+        "lazy_static",
+        "log",
+        "mime",
+        "multipart",
+        "multipart",
+        "native-tls",
+        "rustls-native-certs",
+        "rustls-opt-dep",
+        "rustls-pemfile",
+        "serde",
+        "serde_json",
+        "serde_urlencoded",
+        "tokio",
+        "tokio-rustls",
+        "tokio-stream",
+        "url",
+        "warp",
+        "webpki-roots"
+    ]
+}

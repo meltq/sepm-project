@@ -1,0 +1,19 @@
+{
+    "name": "pgbatis",
+    "deps": [
+        "actix-rt",
+        "chrono",
+        "deadpool",
+        "deadpool-postgres",
+        "derive_more",
+        "lazy_static",
+        "log",
+        "once_cell",
+        "pgmacro",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "tokio",
+        "tokio-postgres"
+    ]
+}

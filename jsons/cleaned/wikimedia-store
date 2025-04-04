@@ -1,0 +1,22 @@
+{
+    "name": "wikimedia-store",
+    "deps": [
+        "anyhow",
+        "capnp",
+        "chrono",
+        "crossbeam-utils",
+        "derive_builder",
+        "fd-lock",
+        "memmap2",
+        "once_cell",
+        "rayon",
+        "regex",
+        "rusqlite",
+        "sea-query",
+        "sea-query-rusqlite",
+        "serde",
+        "tracing",
+        "valuable",
+        "wikimedia"
+    ]
+}

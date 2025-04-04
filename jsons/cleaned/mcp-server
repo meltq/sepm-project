@@ -1,0 +1,21 @@
+{
+    "name": "mcp-server",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "futures",
+        "mcp-macros",
+        "mcp-spec",
+        "pin-project",
+        "schemars",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tower",
+        "tower-service",
+        "tracing",
+        "tracing-appender",
+        "tracing-subscriber"
+    ]
+}

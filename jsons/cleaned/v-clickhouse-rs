@@ -1,0 +1,29 @@
+{
+    "name": "v-clickhouse-rs",
+    "deps": [
+        "async-std",
+        "byteorder",
+        "chrono",
+        "chrono-tz",
+        "clickhouse-rs-cityhash-sys",
+        "combine",
+        "crossbeam",
+        "env_logger",
+        "futures-core",
+        "futures-sink",
+        "futures-util",
+        "hostname",
+        "lazy_static",
+        "log",
+        "lz4",
+        "native-tls",
+        "pin-project",
+        "rand",
+        "thiserror",
+        "tokio",
+        "tokio",
+        "tokio-tls",
+        "url",
+        "uuid"
+    ]
+}

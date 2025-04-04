@@ -1,0 +1,23 @@
+{
+    "name": "meanshift-rs",
+    "deps": [
+        "actix",
+        "actix-rt",
+        "anyhow",
+        "csv",
+        "env_logger",
+        "futures",
+        "futures-sink",
+        "kdtree",
+        "log",
+        "ndarray",
+        "ndarray-stats",
+        "num-integer",
+        "num-traits",
+        "numpy",
+        "pyo3",
+        "rayon",
+        "sorted-vec",
+        "tokio"
+    ]
+}

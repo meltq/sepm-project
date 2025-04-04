@@ -1,0 +1,31 @@
+{
+    "name": "ns-indexer",
+    "deps": [
+        "anyhow",
+        "axum",
+        "base64",
+        "bitcoin",
+        "bitcoincore-rpc-json",
+        "bytes",
+        "ciborium",
+        "ciborium-io",
+        "dotenvy",
+        "futures",
+        "hex",
+        "hex-literal",
+        "log",
+        "ns-axum-web",
+        "ns-protocol",
+        "ns-scylla-orm",
+        "ns-scylla-orm-macros",
+        "reqwest",
+        "scylla",
+        "serde",
+        "serde_json",
+        "structured-logger",
+        "tokio",
+        "tower",
+        "tower-http",
+        "validator"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "name": "geist_supervisor",
+    "deps": [
+        "anyhow",
+        "bytes",
+        "clap",
+        "fs_extra",
+        "log",
+        "reqwest",
+        "serde_json",
+        "tempfile",
+        "tracing",
+        "tracing-log",
+        "tracing-subscriber"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "name": "bigbytes-driver",
+    "deps": [
+        "arrow",
+        "arrow-flight",
+        "arrow-schema",
+        "async-trait",
+        "bigbytes-driver-core",
+        "bigbytes-driver-macros",
+        "chrono",
+        "csv",
+        "databend-client",
+        "glob",
+        "log",
+        "once_cell",
+        "percent-encoding",
+        "serde_json",
+        "tokio",
+        "tokio-stream",
+        "tonic",
+        "url"
+    ]
+}

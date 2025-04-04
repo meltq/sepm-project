@@ -1,0 +1,26 @@
+{
+    "name": "melnet2",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "concurrent-queue",
+        "dashmap",
+        "env_logger",
+        "fastrand",
+        "futures-util",
+        "itertools",
+        "log",
+        "lz4_flex",
+        "moka",
+        "nanorpc",
+        "pin-project",
+        "reusable-box-future",
+        "serde",
+        "serde_json",
+        "smol",
+        "smol-timeout",
+        "smol_str",
+        "smolscale",
+        "thiserror"
+    ]
+}

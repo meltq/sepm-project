@@ -1,0 +1,23 @@
+{
+    "name": "substrate-api-client",
+    "deps": [
+        "clap",
+        "codec",
+        "env_logger",
+        "frame-metadata",
+        "frame-support",
+        "frame-system",
+        "hex",
+        "log",
+        "sc-rpc-api",
+        "serde",
+        "serde_json",
+        "sp-core",
+        "sp-keyring",
+        "sp-runtime",
+        "sp-std",
+        "sp-version",
+        "thiserror",
+        "ws"
+    ]
+}

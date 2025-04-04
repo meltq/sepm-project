@@ -1,0 +1,15 @@
+{
+    "name": "genomic_interval_pipeline",
+    "deps": [
+        "env_logger",
+        "flate2",
+        "hdf5",
+        "log",
+        "memrange",
+        "ndarray",
+        "pbr",
+        "rust-htslib",
+        "structopt",
+        "theban_interval_tree"
+    ]
+}

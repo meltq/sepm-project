@@ -1,0 +1,14 @@
+{
+    "name": "libp2prs-tcp",
+    "deps": [
+        "async-std",
+        "async-trait",
+        "futures",
+        "futures-timer",
+        "get_if_addrs",
+        "ipnet",
+        "libp2prs-core",
+        "log",
+        "socket2"
+    ]
+}

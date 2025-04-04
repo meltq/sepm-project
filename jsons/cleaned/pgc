@@ -1,0 +1,16 @@
+{
+    "name": "pgc",
+    "deps": [
+        "crossbeam-deque",
+        "kernel32-sys",
+        "lazy_static",
+        "libc",
+        "mimalloc",
+        "num_cpus",
+        "parking_lot",
+        "rand",
+        "scoped_threadpool",
+        "threadpool",
+        "winapi"
+    ]
+}

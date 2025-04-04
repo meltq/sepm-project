@@ -1,0 +1,11 @@
+{
+    "name": "tcp-struct",
+    "deps": [
+        "bincode",
+        "log",
+        "serde",
+        "tcp-struct-macros",
+        "thiserror",
+        "tokio"
+    ]
+}

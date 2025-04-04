@@ -1,0 +1,26 @@
+{
+    "name": "swh-graph-grpc-server",
+    "deps": [
+        "anyhow",
+        "async-scoped",
+        "chrono",
+        "clap",
+        "env_logger",
+        "futures",
+        "itertools",
+        "java-properties",
+        "log",
+        "prost",
+        "prost-types",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "swh-graph",
+        "tokio",
+        "tokio-stream",
+        "tonic",
+        "tonic-build",
+        "tonic-middleware",
+        "tonic-reflection"
+    ]
+}

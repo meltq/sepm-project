@@ -1,0 +1,19 @@
+{
+    "name": "wasmcloud-nats-kvcache",
+    "deps": [
+        "crossbeam",
+        "crossbeam-channel",
+        "env_logger",
+        "eventsourcing",
+        "eventsourcing-derive",
+        "lazy_static",
+        "log",
+        "nats",
+        "serde",
+        "uuid",
+        "wascap",
+        "wascc-codec",
+        "wasmcloud-actor-core",
+        "wasmcloud-actor-keyvalue"
+    ]
+}

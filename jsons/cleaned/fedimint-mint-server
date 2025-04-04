@@ -1,0 +1,31 @@
+{
+    "name": "fedimint-mint-server",
+    "deps": [
+        "anyhow",
+        "assert_matches",
+        "async-trait",
+        "bincode",
+        "bitcoin_hashes",
+        "erased-serde",
+        "fedimint-core",
+        "fedimint-mint-common",
+        "fedimint-server",
+        "futures",
+        "impl-tools",
+        "itertools",
+        "rand",
+        "rand",
+        "secp256k1",
+        "secp256k1-zkp",
+        "serde",
+        "strum",
+        "strum_macros",
+        "tbs",
+        "test-log",
+        "thiserror",
+        "threshold_crypto",
+        "tokio",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

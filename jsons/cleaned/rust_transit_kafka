@@ -1,0 +1,15 @@
+{
+    "name": "rust_transit_kafka",
+    "deps": [
+        "async-trait",
+        "env_logger",
+        "futures",
+        "log",
+        "maplit",
+        "rdkafka",
+        "rust_transit",
+        "rust_transit_derive",
+        "serde",
+        "serde_json"
+    ]
+}

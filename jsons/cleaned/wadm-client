@@ -1,0 +1,18 @@
+{
+    "name": "wadm-client",
+    "deps": [
+        "anyhow",
+        "async-nats",
+        "bytes",
+        "nkeys",
+        "once_cell",
+        "serde",
+        "serde_json",
+        "serde_yaml",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "tracing-futures",
+        "wadm-types"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "name": "ttproxy",
+    "deps": [
+        "async-std",
+        "clap",
+        "flate2",
+        "lazy_static",
+        "myutil",
+        "nix",
+        "parking_lot",
+        "serde",
+        "serde_json",
+        "ttserver",
+        "ttserver_def"
+    ]
+}

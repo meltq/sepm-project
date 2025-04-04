@@ -1,0 +1,22 @@
+{
+    "name": "vault_client",
+    "deps": [
+        "atomicwrites",
+        "error-chain",
+        "futures",
+        "futures-error-chain",
+        "futures-mutex",
+        "httpdate",
+        "log",
+        "openssl",
+        "pinboard",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "tempfile",
+        "tokio-core",
+        "tokio-timer",
+        "url",
+        "vault-api"
+    ]
+}

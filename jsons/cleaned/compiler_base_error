@@ -1,0 +1,13 @@
+{
+    "name": "compiler_base_error",
+    "deps": [
+        "anyhow",
+        "compiler_base_macros",
+        "compiler_base_span",
+        "fluent",
+        "rustc_errors",
+        "termcolor",
+        "unic-langid",
+        "walkdir"
+    ]
+}

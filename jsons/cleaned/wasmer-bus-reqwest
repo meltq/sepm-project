@@ -1,0 +1,21 @@
+{
+    "name": "wasmer-bus-reqwest",
+    "deps": [
+        "async-trait",
+        "bytes",
+        "formdata",
+        "futures-core",
+        "futures-util",
+        "http",
+        "http-body",
+        "mime_guess",
+        "pin-project-lite",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tracing",
+        "url",
+        "urlencoding",
+        "wasmer-bus"
+    ]
+}

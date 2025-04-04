@@ -1,0 +1,23 @@
+{
+    "name": "tfhe-fft",
+    "deps": [
+        "aligned-vec",
+        "bincode",
+        "bytemuck",
+        "criterion",
+        "dyn-stack",
+        "fftw-sys",
+        "getrandom",
+        "js-sys",
+        "more-asserts",
+        "num-complex",
+        "pulp",
+        "rand",
+        "rug",
+        "rustfft",
+        "serde",
+        "serde_json",
+        "wasm-bindgen",
+        "wasm-bindgen-test"
+    ]
+}

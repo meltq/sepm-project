@@ -1,0 +1,17 @@
+{
+    "name": "cw20-stake-reward-distributor",
+    "deps": [
+        "cosmwasm-schema",
+        "cosmwasm-std",
+        "cw-multi-test",
+        "cw-ownable",
+        "cw-storage-plus",
+        "cw-utils",
+        "cw2",
+        "cw20",
+        "cw20-base",
+        "cw20-stake",
+        "cw20-stake-reward-distributor-v1",
+        "thiserror"
+    ]
+}

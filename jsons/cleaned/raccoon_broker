@@ -1,0 +1,14 @@
+{
+    "name": "raccoon_broker",
+    "deps": [
+        "chrono",
+        "lapin",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tokio-executor-trait",
+        "tokio-reactor-trait",
+        "tokio-stream",
+        "uuid"
+    ]
+}

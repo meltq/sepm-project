@@ -1,0 +1,17 @@
+{
+    "name": "vmadm",
+    "deps": [
+        "anyhow",
+        "bytesize",
+        "directories-next",
+        "log",
+        "pretty_env_logger",
+        "serde",
+        "serde_yaml",
+        "shell-words",
+        "structopt",
+        "tempfile",
+        "thiserror",
+        "virt"
+    ]
+}

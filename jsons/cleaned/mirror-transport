@@ -1,0 +1,20 @@
+{
+    "name": "mirror-transport",
+    "deps": [
+        "anyhow",
+        "bytes",
+        "crossbeam",
+        "libc",
+        "log",
+        "mirror-common",
+        "once_cell",
+        "os_socketaddr",
+        "parking_lot",
+        "rmp-serde",
+        "serde",
+        "socket2",
+        "tokio",
+        "which",
+        "xxhash-rust"
+    ]
+}

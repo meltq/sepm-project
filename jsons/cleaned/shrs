@@ -1,0 +1,23 @@
+{
+    "name": "shrs",
+    "deps": [
+        "anyhow",
+        "clap",
+        "criterion",
+        "crossterm",
+        "derive_builder",
+        "dirs",
+        "lazy_static",
+        "pino_deref",
+        "regex",
+        "rexpect",
+        "ron",
+        "serde",
+        "shrs_core",
+        "shrs_job",
+        "shrs_lang",
+        "shrs_line",
+        "signal-hook",
+        "thiserror"
+    ]
+}

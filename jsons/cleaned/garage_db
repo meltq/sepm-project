@@ -1,0 +1,14 @@
+{
+    "name": "garage_db",
+    "deps": [
+        "clap",
+        "err-derive",
+        "heed",
+        "hexdump",
+        "mktemp",
+        "pretty_env_logger",
+        "rusqlite",
+        "sled",
+        "tracing"
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "name": "swimos_client",
+    "deps": [
+        "bytes",
+        "fnv",
+        "futures",
+        "futures-util",
+        "ratchet",
+        "rustls",
+        "swimos_agent_protocol",
+        "swimos_api",
+        "swimos_client_api",
+        "swimos_downlink",
+        "swimos_form",
+        "swimos_messages",
+        "swimos_model",
+        "swimos_recon",
+        "swimos_remote",
+        "swimos_runtime",
+        "swimos_utilities",
+        "thiserror",
+        "tokio",
+        "tokio-util",
+        "tracing",
+        "url",
+        "uuid"
+    ]
+}

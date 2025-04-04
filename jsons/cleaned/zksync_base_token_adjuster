@@ -1,0 +1,15 @@
+{
+    "name": "zksync_base_token_adjuster",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "chrono",
+        "rand",
+        "tokio",
+        "tracing",
+        "zksync_config",
+        "zksync_dal",
+        "zksync_external_price_api",
+        "zksync_types"
+    ]
+}

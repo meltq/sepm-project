@@ -1,0 +1,17 @@
+{
+    "name": "ledger-transport-hid",
+    "deps": [
+        "byteorder",
+        "cfg-if",
+        "env_logger",
+        "hex",
+        "hidapi",
+        "lazy_static",
+        "ledger-apdu",
+        "libc",
+        "log",
+        "nix",
+        "serial_test",
+        "thiserror"
+    ]
+}

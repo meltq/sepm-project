@@ -1,0 +1,17 @@
+{
+    "name": "openweathermap_exporter",
+    "deps": [
+        "dirs",
+        "env_logger",
+        "log",
+        "metrics",
+        "metrics-exporter-prometheus",
+        "metrics-util",
+        "openweathermap_client",
+        "serde",
+        "serde_with",
+        "serde_yaml",
+        "thiserror",
+        "tokio"
+    ]
+}

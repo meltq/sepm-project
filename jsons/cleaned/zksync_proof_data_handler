@@ -1,0 +1,16 @@
+{
+    "name": "zksync_proof_data_handler",
+    "deps": [
+        "anyhow",
+        "axum",
+        "tokio",
+        "tracing",
+        "vise",
+        "zksync_config",
+        "zksync_dal",
+        "zksync_object_store",
+        "zksync_prover_interface",
+        "zksync_tee_verifier",
+        "zksync_types"
+    ]
+}

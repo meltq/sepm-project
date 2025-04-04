@@ -1,0 +1,16 @@
+{
+    "name": "libuio",
+    "deps": [
+        "crossbeam-utils",
+        "futures",
+        "io-uring",
+        "lazy_static",
+        "nix",
+        "num_cpus",
+        "slab",
+        "thiserror",
+        "thread_local",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

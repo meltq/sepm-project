@@ -1,0 +1,19 @@
+{
+    "name": "wasi-sol",
+    "deps": [
+        "anyhow",
+        "emitter-rs",
+        "gloo-storage",
+        "js-sys",
+        "log",
+        "serde",
+        "serde_json",
+        "solana-client-wasm",
+        "solana-sdk",
+        "thiserror",
+        "wasm-bindgen",
+        "wasm-bindgen-futures",
+        "web3",
+        "yew"
+    ]
+}

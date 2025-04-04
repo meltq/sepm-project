@@ -1,0 +1,27 @@
+{
+    "name": "graphgate-handler",
+    "deps": [
+        "anyhow",
+        "async-stream",
+        "async-trait",
+        "chrono",
+        "futures-util",
+        "graphgate-planner",
+        "graphgate-schema",
+        "http",
+        "indexmap",
+        "once_cell",
+        "opentelemetry",
+        "parser",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "spin",
+        "tokio",
+        "tokio-stream",
+        "tokio-tungstenite",
+        "tracing",
+        "value",
+        "warp"
+    ]
+}

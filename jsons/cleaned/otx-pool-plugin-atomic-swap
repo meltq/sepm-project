@@ -1,0 +1,20 @@
+{
+    "name": "otx-pool-plugin-atomic-swap",
+    "deps": [
+        "anyhow",
+        "ckb-jsonrpc-types",
+        "ckb-sdk",
+        "ckb-types",
+        "dashmap",
+        "derive_more",
+        "jsonrpc-core",
+        "jsonrpc-derive",
+        "log",
+        "otx-format",
+        "otx-pool-config",
+        "otx-pool-plugin-protocol",
+        "otx-sdk",
+        "serde",
+        "serde_json"
+    ]
+}

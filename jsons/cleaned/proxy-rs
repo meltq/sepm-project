@@ -1,0 +1,33 @@
+{
+    "name": "proxy-rs",
+    "deps": [
+        "async-recursion",
+        "async_once",
+        "autocompress",
+        "byteorder",
+        "byteorder-pack",
+        "clap",
+        "concurrent-queue",
+        "directories",
+        "futures-util",
+        "httparse",
+        "hyper",
+        "hyper-tls",
+        "indicatif",
+        "lazy_static",
+        "log",
+        "maxminddb",
+        "md5",
+        "native-tls",
+        "parking_lot",
+        "rand",
+        "regex",
+        "serde",
+        "serde_json",
+        "simple_logger",
+        "tokio",
+        "tokio-native-tls",
+        "trust-dns-resolver",
+        "url"
+    ]
+}

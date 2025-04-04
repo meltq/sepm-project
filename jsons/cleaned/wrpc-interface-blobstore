@@ -1,0 +1,12 @@
+{
+    "name": "wrpc-interface-blobstore",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "bytes",
+        "futures",
+        "tokio",
+        "tracing",
+        "wrpc-transport"
+    ]
+}

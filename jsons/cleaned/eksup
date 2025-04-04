@@ -1,0 +1,23 @@
+{
+    "name": "eksup",
+    "deps": [
+        "anyhow",
+        "aws-config",
+        "aws-sdk-autoscaling",
+        "aws-sdk-ec2",
+        "aws-sdk-eks",
+        "aws-types",
+        "clap",
+        "handlebars",
+        "k8s-openapi",
+        "kube",
+        "rust-embed",
+        "schemars",
+        "seq-macro",
+        "serde",
+        "serde_json",
+        "serde_yaml",
+        "tokio",
+        "tracing"
+    ]
+}

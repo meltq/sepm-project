@@ -1,0 +1,16 @@
+{
+    "name": "tanoshi-vm",
+    "deps": [
+        "bytes",
+        "env_logger",
+        "log",
+        "ron",
+        "serde",
+        "tanoshi-lib",
+        "tokio",
+        "ureq",
+        "wasmer",
+        "wasmer-compiler-cranelift",
+        "wasmer-wasi"
+    ]
+}

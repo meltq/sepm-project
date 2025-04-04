@@ -1,0 +1,24 @@
+{
+    "name": "bevy_webserver",
+    "deps": [
+        "anyhow",
+        "async-executor",
+        "async-io",
+        "axum",
+        "bevy",
+        "bevy_defer",
+        "bevy_easy_database",
+        "fjall",
+        "http-body-util",
+        "hyper",
+        "hyper-util",
+        "maud",
+        "never-type",
+        "pin-project-lite",
+        "serde",
+        "serde_json",
+        "smol-hyper",
+        "tower",
+        "tower-service"
+    ]
+}

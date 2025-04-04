@@ -1,0 +1,23 @@
+{
+    "name": "cargo-scout-audit-soroban",
+    "deps": [
+        "ansi_term",
+        "anyhow",
+        "cargo",
+        "cargo_metadata",
+        "clap",
+        "colored",
+        "config",
+        "dunce",
+        "dylint",
+        "env_logger",
+        "home",
+        "itertools",
+        "log",
+        "regex",
+        "scout-audit-internal-soroban",
+        "serde",
+        "serde_json",
+        "tempfile"
+    ]
+}

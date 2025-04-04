@@ -1,0 +1,15 @@
+{
+    "name": "node-discover",
+    "deps": [
+        "async-trait",
+        "env_logger",
+        "log",
+        "reqwest",
+        "rusoto_core",
+        "rusoto_credential",
+        "rusoto_ec2",
+        "serde",
+        "thiserror",
+        "tokio"
+    ]
+}

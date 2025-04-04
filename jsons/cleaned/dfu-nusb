@@ -1,0 +1,14 @@
+{
+    "name": "dfu-nusb",
+    "deps": [
+        "anyhow",
+        "clap",
+        "dfu-core",
+        "futures",
+        "indicatif",
+        "nusb",
+        "thiserror",
+        "tokio",
+        "tokio-util"
+    ]
+}

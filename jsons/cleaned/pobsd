@@ -1,0 +1,15 @@
+{
+    "name": "pobsd",
+    "deps": [
+        "clap",
+        "confy",
+        "crossterm",
+        "pledge",
+        "pobsd-parser",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "tui",
+        "unveil"
+    ]
+}

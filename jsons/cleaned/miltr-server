@@ -1,0 +1,19 @@
+{
+    "name": "miltr-server",
+    "deps": [
+        "async-dropper",
+        "async-trait",
+        "async-trait",
+        "asynchronous-codec",
+        "bytes",
+        "futures",
+        "miette",
+        "miltr-common",
+        "miltr-utils",
+        "once_cell",
+        "thiserror",
+        "tokio",
+        "tokio-retry",
+        "tokio-util"
+    ]
+}

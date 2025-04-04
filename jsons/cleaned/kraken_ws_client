@@ -1,0 +1,17 @@
+{
+    "name": "kraken_ws_client",
+    "deps": [
+        "futures",
+        "futures-util",
+        "rust_decimal",
+        "rust_decimal_macros",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tokio-stream",
+        "tokio-tungstenite",
+        "tracing",
+        "uuid"
+    ]
+}

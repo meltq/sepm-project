@@ -1,0 +1,27 @@
+{
+    "name": "crusty-core",
+    "deps": [
+        "anyhow",
+        "async-channel",
+        "bytes",
+        "flate2",
+        "futures-lite",
+        "http",
+        "humanize-rs",
+        "humansize",
+        "hyper",
+        "hyper-tls",
+        "lazy_static",
+        "num_cpus",
+        "pin-project",
+        "rand",
+        "select",
+        "serde",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "tracing-tools",
+        "trust-dns-resolver",
+        "url"
+    ]
+}

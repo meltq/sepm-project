@@ -1,0 +1,24 @@
+{
+    "name": "fedimint-mint-common",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "bincode",
+        "bitcoin_hashes",
+        "fedimint-core",
+        "futures",
+        "itertools",
+        "rand",
+        "rand",
+        "secp256k1",
+        "secp256k1-zkp",
+        "serde",
+        "strum",
+        "strum_macros",
+        "tbs",
+        "thiserror",
+        "threshold_crypto",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

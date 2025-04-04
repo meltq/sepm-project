@@ -1,0 +1,16 @@
+{
+    "name": "pcap-async",
+    "deps": [
+        "byteorder",
+        "criterion",
+        "env_logger",
+        "failure",
+        "futures",
+        "libc",
+        "log",
+        "pcap-sys",
+        "pin-project",
+        "tokio",
+        "tokio"
+    ]
+}

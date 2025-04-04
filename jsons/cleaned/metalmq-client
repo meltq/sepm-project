@@ -1,0 +1,14 @@
+{
+    "name": "metalmq-client",
+    "deps": [
+        "bytes",
+        "env_logger",
+        "futures",
+        "lazy_static",
+        "log",
+        "metalmq-codec",
+        "tokio",
+        "tokio-stream",
+        "tokio-util"
+    ]
+}

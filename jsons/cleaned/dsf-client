@@ -1,0 +1,24 @@
+{
+    "name": "dsf-client",
+    "deps": [
+        "async-std",
+        "async-trait",
+        "chrono",
+        "chrono-humanize",
+        "colored",
+        "dsf-core",
+        "dsf-rpc",
+        "futures",
+        "futures_codec",
+        "humantime",
+        "log",
+        "prettytable-rs",
+        "serde",
+        "serde_json",
+        "simplelog",
+        "structopt",
+        "tracing",
+        "tracing-futures",
+        "tui"
+    ]
+}

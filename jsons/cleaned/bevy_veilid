@@ -1,0 +1,15 @@
+{
+    "name": "bevy_veilid",
+    "deps": [
+        "anyhow",
+        "bevy",
+        "bevy-tokio-tasks",
+        "copypasta",
+        "mini-redis",
+        "serde",
+        "tracing",
+        "tracing-subscriber",
+        "uuid",
+        "veilid_duplex"
+    ]
+}

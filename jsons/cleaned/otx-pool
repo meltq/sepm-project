@@ -1,0 +1,28 @@
+{
+    "name": "otx-pool",
+    "deps": [
+        "ansi_term",
+        "anyhow",
+        "async-trait",
+        "ckb-async-runtime",
+        "ckb-jsonrpc-types",
+        "ckb-sdk",
+        "ckb-stop-handler",
+        "ckb-types",
+        "crossbeam-channel",
+        "dashmap",
+        "derive_more",
+        "jsonrpc-core",
+        "jsonrpc-derive",
+        "jsonrpc-http-server",
+        "jsonrpc-server-utils",
+        "log",
+        "molecule",
+        "otx-format",
+        "otx-pool-config",
+        "otx-pool-plugin-protocol",
+        "serde",
+        "serde_json",
+        "tokio"
+    ]
+}

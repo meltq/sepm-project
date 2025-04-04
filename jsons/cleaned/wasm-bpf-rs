@@ -1,0 +1,12 @@
+{
+    "name": "wasm-bpf-rs",
+    "deps": [
+        "anyhow",
+        "clap",
+        "flexi_logger",
+        "libbpf-rs",
+        "log",
+        "wasmtime",
+        "wasmtime-wasi"
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "name": "kaspa-grpc-server",
+    "deps": [
+        "async-channel",
+        "async-stream",
+        "async-trait",
+        "faster-hex",
+        "futures",
+        "h2",
+        "kaspa-core",
+        "kaspa-grpc-core",
+        "kaspa-notify",
+        "kaspa-rpc-core",
+        "kaspa-utils",
+        "log",
+        "paste",
+        "prost",
+        "rand",
+        "thiserror",
+        "tokio",
+        "tokio-stream",
+        "tonic",
+        "triggered"
+    ]
+}

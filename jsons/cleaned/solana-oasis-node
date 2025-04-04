@@ -1,0 +1,27 @@
+{
+    "name": "solana-oasis-node",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "bincode",
+        "chrono",
+        "env_logger",
+        "futures",
+        "hex",
+        "libp2p",
+        "log",
+        "mockall",
+        "pyo3",
+        "rand",
+        "rocksdb",
+        "serde",
+        "serde_json",
+        "sha2",
+        "solana-client",
+        "solana-sdk",
+        "tch",
+        "tempfile",
+        "tokio",
+        "tokio-test"
+    ]
+}

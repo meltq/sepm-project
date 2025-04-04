@@ -1,0 +1,16 @@
+{
+    "name": "rabbitmq-management-client",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "base64",
+        "chrono",
+        "http",
+        "reqwest",
+        "reqwest-middleware",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio"
+    ]
+}

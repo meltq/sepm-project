@@ -1,0 +1,23 @@
+{
+    "name": "mpc-relay",
+    "deps": [
+        "anyhow",
+        "axum-server",
+        "clap",
+        "futures",
+        "getrandom",
+        "log",
+        "mpc-relay-protocol",
+        "mpc-relay-server",
+        "serial_test",
+        "tokio",
+        "tokio",
+        "tokio-stream",
+        "tracing",
+        "tracing-subscriber",
+        "wasm-bindgen",
+        "wasm-bindgen-futures",
+        "wasm-bindgen-test",
+        "wasm-log"
+    ]
+}

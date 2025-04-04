@@ -1,0 +1,29 @@
+{
+    "name": "devicecheck",
+    "deps": [
+        "anyhow",
+        "bytes",
+        "clap",
+        "daemonize",
+        "futures-util",
+        "http",
+        "hyper",
+        "mimalloc",
+        "moka",
+        "nix",
+        "rand",
+        "rcgen",
+        "reqwest",
+        "rustls",
+        "rustls-pemfile",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "time",
+        "tokio",
+        "tokio-rustls",
+        "tracing",
+        "tracing-subscriber",
+        "typed-builder"
+    ]
+}

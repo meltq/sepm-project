@@ -1,0 +1,20 @@
+{
+    "name": "jsonrpsee-ws-client",
+    "deps": [
+        "async-std",
+        "async-tls",
+        "async-trait",
+        "fnv",
+        "futures",
+        "jsonrpsee-types",
+        "log",
+        "pin-project",
+        "serde",
+        "serde_json",
+        "soketto",
+        "thiserror",
+        "tokio",
+        "url",
+        "webpki"
+    ]
+}

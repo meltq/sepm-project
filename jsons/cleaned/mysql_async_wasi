@@ -1,0 +1,29 @@
+{
+    "name": "mysql_async_wasi",
+    "deps": [
+        "bytes",
+        "crossbeam",
+        "flate2",
+        "futures-core",
+        "futures-sink",
+        "futures-util",
+        "lazy_static",
+        "lru",
+        "mysql_common",
+        "once_cell",
+        "pem",
+        "percent-encoding",
+        "pin-project",
+        "rand",
+        "serde",
+        "serde_json",
+        "tempfile",
+        "thiserror",
+        "tokio-util_wasi",
+        "tokio_wasi",
+        "tokio_wasi",
+        "twox-hash",
+        "url",
+        "wasmedge_wasi_socket"
+    ]
+}

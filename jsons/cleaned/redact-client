@@ -1,0 +1,28 @@
+{
+    "name": "redact-client",
+    "deps": [
+        "async-session",
+        "async-trait",
+        "base64",
+        "futures",
+        "handlebars",
+        "http",
+        "hyper",
+        "mockall",
+        "mockito",
+        "rand",
+        "rand_pcg",
+        "redact-config",
+        "redact-crypto",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "sha2",
+        "sodiumoxide",
+        "thiserror",
+        "tokio",
+        "uuid",
+        "warp",
+        "warp-sessions"
+    ]
+}

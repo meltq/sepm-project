@@ -1,0 +1,29 @@
+{
+    "name": "apache-dubbo",
+    "deps": [
+        "async-stream",
+        "async-trait",
+        "axum",
+        "bytes",
+        "dubbo-config",
+        "flate2",
+        "futures",
+        "futures-core",
+        "futures-util",
+        "http",
+        "http-body",
+        "hyper",
+        "lazy_static",
+        "pin-project",
+        "prost",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tonic",
+        "tower",
+        "tower-layer",
+        "tower-service",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

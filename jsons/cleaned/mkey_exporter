@@ -1,0 +1,18 @@
+{
+    "name": "mkey_exporter",
+    "deps": [
+        "axum",
+        "clap",
+        "criterion",
+        "mtop-client",
+        "pprof",
+        "prometheus-client",
+        "regex",
+        "serde",
+        "serde_yaml",
+        "tokio",
+        "tower-http",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

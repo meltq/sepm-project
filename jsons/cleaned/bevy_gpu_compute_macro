@@ -1,0 +1,14 @@
+{
+    "name": "bevy_gpu_compute_macro",
+    "deps": [
+        "bevy_gpu_compute_core",
+        "bytemuck",
+        "pretty_assertions",
+        "proc-macro-error",
+        "proc-macro2",
+        "quote",
+        "regex",
+        "syn",
+        "trybuild"
+    ]
+}

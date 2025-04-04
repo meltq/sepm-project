@@ -1,0 +1,25 @@
+{
+    "name": "wiktionary-dump-parser",
+    "deps": [
+        "bzip2",
+        "clap",
+        "digest",
+        "futures-util",
+        "itertools",
+        "lazy_static",
+        "lexiclean",
+        "log",
+        "md-5",
+        "num-integer",
+        "quick-xml",
+        "regex",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "sha1",
+        "simplelog",
+        "tokio",
+        "url",
+        "wikitext-parser"
+    ]
+}

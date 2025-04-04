@@ -1,0 +1,16 @@
+{
+    "name": "mountpoint-sqs",
+    "deps": [
+        "anyhow",
+        "aws-config",
+        "aws-sdk-sqs",
+        "clap",
+        "env_logger",
+        "fuser",
+        "libc",
+        "log",
+        "procfs",
+        "tokio",
+        "url"
+    ]
+}

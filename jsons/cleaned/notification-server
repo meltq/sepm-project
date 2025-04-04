@@ -1,0 +1,28 @@
+{
+    "name": "notification-server",
+    "deps": [
+        "anyhow",
+        "bin_common",
+        "clap",
+        "enum-repr",
+        "freedesktop_entry_parser",
+        "futures-lite",
+        "gdk",
+        "gdk-pixbuf",
+        "gio",
+        "glib",
+        "gtk",
+        "linicon",
+        "linicon-theme",
+        "log",
+        "pango",
+        "serde",
+        "serde_plain",
+        "tokio",
+        "version",
+        "xdg",
+        "zbus",
+        "zvariant",
+        "zvariant_derive"
+    ]
+}

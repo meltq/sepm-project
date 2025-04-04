@@ -1,0 +1,21 @@
+{
+    "name": "miraland-genesis",
+    "deps": [
+        "base64",
+        "clap",
+        "miraland-clap-utils",
+        "miraland-cli-config",
+        "miraland-entry",
+        "miraland-ledger",
+        "miraland-logger",
+        "miraland-runtime",
+        "miraland-sdk",
+        "miraland-stake-program",
+        "miraland-version",
+        "miraland-vote-program",
+        "serde",
+        "serde_json",
+        "serde_yaml",
+        "tempfile"
+    ]
+}

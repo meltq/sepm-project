@@ -1,0 +1,9 @@
+{
+    "name": "dpdk-global-allocator",
+    "deps": [
+        "dpdk-core",
+        "dpdk-sys",
+        "likely",
+        "linked_list_allocator"
+    ]
+}

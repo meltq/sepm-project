@@ -1,0 +1,17 @@
+{
+    "name": "modio-localapi",
+    "deps": [
+        "argh",
+        "async-std",
+        "env_logger",
+        "fsipc",
+        "listenfd",
+        "log",
+        "modio-logger",
+        "serde",
+        "thiserror",
+        "tide",
+        "tide-rustls",
+        "zbus"
+    ]
+}

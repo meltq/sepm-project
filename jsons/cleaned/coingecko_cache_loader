@@ -1,0 +1,23 @@
+{
+    "name": "coingecko_cache_loader",
+    "deps": [
+        "base64",
+        "bigdecimal",
+        "bytes",
+        "chrono",
+        "dotenv",
+        "futures",
+        "leaky-bucket",
+        "log",
+        "pretty_env_logger",
+        "rand",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "serde_with",
+        "sha2",
+        "sqlx",
+        "tokio",
+        "uuid"
+    ]
+}

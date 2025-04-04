@@ -1,0 +1,11 @@
+{
+    "name": "libbpf-async",
+    "deps": [
+        "futures",
+        "libbpf-rs",
+        "libbpf-sys",
+        "nix",
+        "page_size",
+        "tokio"
+    ]
+}

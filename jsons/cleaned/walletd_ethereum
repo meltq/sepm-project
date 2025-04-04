@@ -1,0 +1,18 @@
+{
+    "name": "walletd_ethereum",
+    "deps": [
+        "async-trait",
+        "hex",
+        "hex-literal",
+        "keccak-hash",
+        "log",
+        "secp256k1",
+        "thiserror",
+        "tiny-keccak",
+        "tokio",
+        "walletd_bip39",
+        "walletd_coin_core",
+        "walletd_hd_key",
+        "web3"
+    ]
+}

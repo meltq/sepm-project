@@ -1,0 +1,18 @@
+{
+    "name": "ion_shell_lsp_server",
+    "deps": [
+        "anyhow",
+        "clap",
+        "derive_more",
+        "dirs",
+        "flexi_logger",
+        "insta",
+        "ion_shell_parser",
+        "log",
+        "lsp-server",
+        "lsp-types",
+        "once_cell",
+        "serde",
+        "serde_json"
+    ]
+}

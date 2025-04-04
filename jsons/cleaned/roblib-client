@@ -1,0 +1,16 @@
+{
+    "name": "roblib-client",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "bincode",
+        "env_logger",
+        "futures",
+        "log",
+        "reqwest",
+        "roblib",
+        "serde",
+        "tokio",
+        "tokio-tungstenite"
+    ]
+}

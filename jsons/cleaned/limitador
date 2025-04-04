@@ -1,0 +1,22 @@
+{
+    "name": "limitador",
+    "deps": [
+        "actix-rt",
+        "actix-web",
+        "criterion",
+        "paperclip",
+        "paste",
+        "prost",
+        "prost-types",
+        "redis",
+        "serde",
+        "serde_json",
+        "serde_yaml",
+        "serial_test",
+        "thiserror",
+        "tokio",
+        "tonic",
+        "tonic-build",
+        "ttl_cache"
+    ]
+}

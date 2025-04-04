@@ -1,0 +1,26 @@
+{
+    "name": "denokv_timemachine",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "aws-config",
+        "aws-credential-types",
+        "aws-sdk-s3",
+        "aws-smithy-async",
+        "aws-smithy-types",
+        "aws-types",
+        "chrono",
+        "clap",
+        "denokv_proto",
+        "futures",
+        "hex",
+        "prost",
+        "rand",
+        "reqwest",
+        "rusqlite",
+        "tokio",
+        "tracing",
+        "tracing-futures",
+        "tracing-subscriber"
+    ]
+}

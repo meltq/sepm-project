@@ -1,0 +1,16 @@
+{
+    "name": "ecksport-rpc",
+    "deps": [
+        "async-trait",
+        "borsh",
+        "ecksport-codec",
+        "ecksport-core",
+        "ecksport-net",
+        "futures",
+        "paste",
+        "thiserror",
+        "tokio",
+        "tokio-stream",
+        "tracing"
+    ]
+}

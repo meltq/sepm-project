@@ -1,0 +1,24 @@
+{
+    "name": "kms-aead",
+    "deps": [
+        "async-trait",
+        "aws-config",
+        "aws-sdk-kms",
+        "cargo-husky",
+        "chrono",
+        "criterion",
+        "gcloud-sdk",
+        "hex",
+        "proptest",
+        "ring",
+        "rsb_derive",
+        "rvstruct",
+        "secret-vault-value",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tonic",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

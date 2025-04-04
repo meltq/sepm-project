@@ -1,0 +1,29 @@
+{
+    "name": "aiot",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "chrono",
+        "env_logger",
+        "futures",
+        "futures-util",
+        "hmac",
+        "lazy_static",
+        "libc",
+        "log",
+        "rand",
+        "regex",
+        "reqwest",
+        "rumqttc",
+        "rustls",
+        "serde",
+        "serde_json",
+        "serde_repr",
+        "sha2",
+        "thiserror",
+        "tokio",
+        "tokio-tungstenite",
+        "tungstenite",
+        "url"
+    ]
+}

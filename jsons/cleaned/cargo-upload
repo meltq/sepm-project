@@ -1,0 +1,19 @@
+{
+    "name": "cargo-upload",
+    "deps": [
+        "anyhow",
+        "cargo",
+        "cargo-util",
+        "clap",
+        "crates-io",
+        "curl",
+        "env_logger",
+        "flate2",
+        "itertools",
+        "log",
+        "tar",
+        "tempfile",
+        "tmpdir",
+        "toml"
+    ]
+}

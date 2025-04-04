@@ -1,0 +1,31 @@
+{
+    "name": "aws-sdk-manager",
+    "deps": [
+        "avalanche-utils",
+        "aws-config",
+        "aws-sdk-cloudformation",
+        "aws-sdk-cloudwatch",
+        "aws-sdk-cloudwatchlogs",
+        "aws-sdk-ec2",
+        "aws-sdk-kms",
+        "aws-sdk-s3",
+        "aws-sdk-sts",
+        "aws-smithy-types",
+        "aws-types",
+        "byteorder",
+        "chrono",
+        "env_logger",
+        "hyper",
+        "hyper-tls",
+        "log",
+        "ring",
+        "rust-embed",
+        "serde",
+        "serde_json",
+        "tempfile",
+        "thiserror",
+        "tokio",
+        "tokio-stream",
+        "tokio-test"
+    ]
+}

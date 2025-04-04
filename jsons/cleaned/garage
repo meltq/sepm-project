@@ -1,0 +1,24 @@
+{
+    "name": "garage",
+    "deps": [
+        "bytes",
+        "futures",
+        "futures-util",
+        "garage_api",
+        "garage_model",
+        "garage_rpc",
+        "garage_table",
+        "garage_util",
+        "hex",
+        "log",
+        "pretty_env_logger",
+        "rand",
+        "rmp-serde",
+        "serde",
+        "sha2",
+        "sled",
+        "structopt",
+        "tokio",
+        "toml"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "name": "kble-dump",
+    "deps": [
+        "anyhow",
+        "bytes",
+        "chrono",
+        "clap",
+        "futures",
+        "kble-socket",
+        "miniz_oxide",
+        "notalawyer",
+        "notalawyer-build",
+        "notalawyer-clap",
+        "rmp-serde",
+        "serde",
+        "tokio",
+        "tokio-util",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

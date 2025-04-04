@@ -1,0 +1,29 @@
+{
+    "name": "grin_servers",
+    "deps": [
+        "blake2-rfc",
+        "bufstream",
+        "chrono",
+        "futures",
+        "grin_api",
+        "grin_chain",
+        "grin_core",
+        "grin_keychain",
+        "grin_p2p",
+        "grin_pool",
+        "grin_store",
+        "grin_util",
+        "grin_wallet",
+        "http",
+        "hyper",
+        "hyper-staticfile",
+        "itertools",
+        "jsonrpc-core",
+        "lmdb-zero",
+        "log",
+        "rand",
+        "serde",
+        "serde_derive",
+        "serde_json"
+    ]
+}

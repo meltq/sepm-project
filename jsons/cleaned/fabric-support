@@ -1,0 +1,26 @@
+{
+    "name": "fabric-support",
+    "deps": [
+        "arithmetic",
+        "bitflags",
+        "codec",
+        "fabric-metadata",
+        "fabric-support-procedural",
+        "impl-trait-for-tuples",
+        "log",
+        "once_cell",
+        "paste",
+        "pretty_assertions",
+        "serde",
+        "smallvec",
+        "tet-core",
+        "tet-io",
+        "tetcore-std",
+        "tetcore-tracing",
+        "tetsy-util-mem",
+        "tp-api",
+        "tp-inherents",
+        "tp-runtime",
+        "tp-state-machine"
+    ]
+}

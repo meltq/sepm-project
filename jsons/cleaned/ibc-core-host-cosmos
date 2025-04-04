@@ -1,0 +1,25 @@
+{
+    "name": "ibc-core-host-cosmos",
+    "deps": [
+        "borsh",
+        "derive_more",
+        "displaydoc",
+        "ibc-app-transfer-types",
+        "ibc-client-tendermint",
+        "ibc-core-client-context",
+        "ibc-core-client-types",
+        "ibc-core-commitment-types",
+        "ibc-core-connection-types",
+        "ibc-core-handler-types",
+        "ibc-core-host-types",
+        "ibc-primitives",
+        "ibc-proto",
+        "parity-scale-codec",
+        "prost",
+        "scale-info",
+        "serde",
+        "sha2",
+        "subtle-encoding",
+        "tendermint"
+    ]
+}

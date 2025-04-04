@@ -1,0 +1,24 @@
+{
+    "name": "tk-http",
+    "deps": [
+        "argparse",
+        "byteorder",
+        "env_logger",
+        "futures",
+        "futures-cpupool",
+        "httparse",
+        "log",
+        "matches",
+        "netbuf",
+        "quick-error",
+        "rand",
+        "rustls",
+        "sha1",
+        "time",
+        "tk-bufstream",
+        "tk-sendfile",
+        "tokio-core",
+        "tokio-rustls",
+        "url"
+    ]
+}

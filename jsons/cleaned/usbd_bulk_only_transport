@@ -1,0 +1,12 @@
+{
+    "name": "usbd_bulk_only_transport",
+    "deps": [
+        "embedded-hal",
+        "itm_logger",
+        "nb",
+        "packing",
+        "typenum",
+        "usb-device",
+        "usbd_mass_storage"
+    ]
+}

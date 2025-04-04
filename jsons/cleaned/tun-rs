@@ -1,0 +1,29 @@
+{
+    "name": "tun-rs",
+    "deps": [
+        "bytes",
+        "c2rust-bitfields",
+        "cfg-if",
+        "ctrlc2",
+        "env_logger",
+        "futures",
+        "futures-core",
+        "ipnet",
+        "libc",
+        "libloading",
+        "log",
+        "mac_address",
+        "nix",
+        "packet",
+        "rustversion",
+        "scopeguard",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tokio",
+        "tokio-util",
+        "windows-sys",
+        "winreg",
+        "wintun"
+    ]
+}

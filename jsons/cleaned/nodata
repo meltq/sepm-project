@@ -1,0 +1,29 @@
+{
+    "name": "nodata",
+    "deps": [
+        "anyhow",
+        "axum",
+        "bytes",
+        "chrono",
+        "clap",
+        "dagger-sdk",
+        "dotenv",
+        "nodata-storage",
+        "nodrift",
+        "notmad",
+        "prometheus",
+        "prost",
+        "prost-types",
+        "rand",
+        "serde",
+        "tokio",
+        "tokio-stream",
+        "tokio-util",
+        "tonic",
+        "tower-http",
+        "tracing",
+        "tracing-subscriber",
+        "tracing-test",
+        "uuid"
+    ]
+}

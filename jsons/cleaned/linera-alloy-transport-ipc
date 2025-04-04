@@ -1,0 +1,19 @@
+{
+    "name": "linera-alloy-transport-ipc",
+    "deps": [
+        "bytes",
+        "futures",
+        "interprocess",
+        "linera-alloy-json-rpc",
+        "linera-alloy-pubsub",
+        "linera-alloy-transport",
+        "pin-project",
+        "serde",
+        "serde_json",
+        "tempfile",
+        "tokio",
+        "tokio-test",
+        "tokio-util",
+        "tracing"
+    ]
+}

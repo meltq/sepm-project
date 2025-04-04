@@ -1,0 +1,17 @@
+{
+    "name": "async_labjack",
+    "deps": [
+        "async-trait",
+        "bytes",
+        "derive_builder",
+        "enum_dispatch",
+        "env_logger",
+        "mockall",
+        "thiserror",
+        "tokio",
+        "tokio",
+        "tokio-modbus",
+        "tokio-util",
+        "tracing"
+    ]
+}

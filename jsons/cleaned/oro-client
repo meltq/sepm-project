@@ -1,0 +1,20 @@
+{
+    "name": "oro-client",
+    "deps": [
+        "async-std",
+        "futures",
+        "http-cache-reqwest",
+        "maplit",
+        "miette",
+        "oro-common",
+        "pretty_assertions",
+        "reqwest",
+        "reqwest-middleware",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tracing",
+        "url",
+        "wiremock"
+    ]
+}

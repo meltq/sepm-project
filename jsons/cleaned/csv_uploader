@@ -1,0 +1,13 @@
+{
+    "name": "csv_uploader",
+    "deps": [
+        "clap",
+        "csv",
+        "futures-util",
+        "rayon",
+        "reql",
+        "serde",
+        "serde_json",
+        "tokio"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "mongodb-command-cli",
+    "deps": [
+        "anyhow",
+        "clap",
+        "futures",
+        "mongodb",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

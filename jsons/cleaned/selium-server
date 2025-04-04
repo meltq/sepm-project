@@ -1,0 +1,24 @@
+{
+    "name": "selium-server",
+    "deps": [
+        "anyhow",
+        "bytes",
+        "clap",
+        "clap-verbosity-flag",
+        "env_logger",
+        "futures",
+        "hex",
+        "hmac-sha512",
+        "log",
+        "pin-project-lite",
+        "quinn",
+        "rcgen",
+        "rustls",
+        "rustls-pemfile",
+        "selium-common",
+        "serde",
+        "tokio",
+        "tokio-stream",
+        "tokio-util"
+    ]
+}

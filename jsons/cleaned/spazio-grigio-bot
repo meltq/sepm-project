@@ -1,0 +1,30 @@
+{
+    "name": "spazio-grigio-bot",
+    "deps": [
+        "anyhow",
+        "async-imap",
+        "async-native-tls",
+        "async-std",
+        "chrono",
+        "envy",
+        "feed-rs",
+        "futures",
+        "lazy-regex",
+        "lazy_static",
+        "mail-parser",
+        "once_cell",
+        "pretty_assertions",
+        "rand",
+        "reqwest",
+        "serde",
+        "sqlx",
+        "teloxide",
+        "tempfile",
+        "thiserror",
+        "tokio",
+        "tokio-cron-scheduler",
+        "tracing",
+        "tracing-subscriber",
+        "url"
+    ]
+}

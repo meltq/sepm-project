@@ -1,0 +1,23 @@
+{
+    "name": "ibc-core-handler-types",
+    "deps": [
+        "borsh",
+        "derive_more",
+        "displaydoc",
+        "ibc-core-channel-types",
+        "ibc-core-client-types",
+        "ibc-core-commitment-types",
+        "ibc-core-connection-types",
+        "ibc-core-host-types",
+        "ibc-core-router-types",
+        "ibc-primitives",
+        "ibc-proto",
+        "parity-scale-codec",
+        "prost",
+        "scale-info",
+        "schemars",
+        "serde",
+        "subtle-encoding",
+        "tendermint"
+    ]
+}

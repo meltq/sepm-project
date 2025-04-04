@@ -1,0 +1,14 @@
+{
+    "name": "zookeeper-cache-rust",
+    "deps": [
+        "async-recursion",
+        "futures",
+        "petgraph",
+        "pin-project",
+        "testcontainers",
+        "thiserror",
+        "tokio",
+        "tokio-util",
+        "zookeeper-client"
+    ]
+}

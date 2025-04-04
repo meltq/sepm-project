@@ -1,0 +1,31 @@
+{
+    "name": "tangram_core",
+    "deps": [
+        "anyhow",
+        "bitvec",
+        "buffalo",
+        "chrono",
+        "fast-float",
+        "fnv",
+        "indexmap",
+        "itertools",
+        "ndarray",
+        "num",
+        "rand",
+        "rand_xoshiro",
+        "serde",
+        "serde_json",
+        "tangram_features",
+        "tangram_finite",
+        "tangram_id",
+        "tangram_kill_chip",
+        "tangram_linear",
+        "tangram_metrics",
+        "tangram_model",
+        "tangram_progress_counter",
+        "tangram_table",
+        "tangram_text",
+        "tangram_tree",
+        "tangram_zip"
+    ]
+}

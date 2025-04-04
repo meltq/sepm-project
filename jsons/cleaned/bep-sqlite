@@ -1,0 +1,17 @@
+{
+    "name": "bep-sqlite",
+    "deps": [
+        "anyhow",
+        "bep-core",
+        "chrono",
+        "rusqlite",
+        "serde",
+        "serde_json",
+        "sqlite-vec",
+        "tokio",
+        "tokio-rusqlite",
+        "tracing",
+        "tracing-subscriber",
+        "zerocopy"
+    ]
+}

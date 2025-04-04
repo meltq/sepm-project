@@ -1,0 +1,10 @@
+{
+    "name": "hostname_resolver",
+    "deps": [
+        "anyhow",
+        "azure_vault_secrets",
+        "db_config",
+        "hickory-resolver",
+        "serde"
+    ]
+}

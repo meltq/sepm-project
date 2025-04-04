@@ -1,0 +1,25 @@
+{
+    "name": "jwt-compact",
+    "deps": [
+        "assert_matches",
+        "base64",
+        "chrono",
+        "clear_on_drop",
+        "ed25519-dalek",
+        "exonum-crypto",
+        "failure",
+        "failure_derive",
+        "hex",
+        "hex-buffer-serde",
+        "hmac",
+        "rand",
+        "rand_core",
+        "secp256k1",
+        "serde",
+        "serde_cbor",
+        "serde_derive",
+        "serde_json",
+        "sha2",
+        "smallvec"
+    ]
+}

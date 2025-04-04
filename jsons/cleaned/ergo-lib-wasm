@@ -1,0 +1,15 @@
+{
+    "name": "ergo-lib-wasm",
+    "deps": [
+        "console_error_panic_hook",
+        "ergo-lib",
+        "getrandom",
+        "js-sys",
+        "proptest",
+        "proptest-derive",
+        "serde",
+        "serde_json",
+        "wasm-bindgen",
+        "wasm-bindgen-test"
+    ]
+}

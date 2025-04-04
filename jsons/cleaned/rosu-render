@@ -1,0 +1,30 @@
+{
+    "name": "rosu-render",
+    "deps": [
+        "bytes",
+        "form_urlencoded",
+        "futures",
+        "hyper",
+        "hyper-rustls",
+        "hyper-tls",
+        "itoa",
+        "leaky-bucket",
+        "native-tls",
+        "pin-project",
+        "rand",
+        "rustls-native-certs",
+        "rustls-tls",
+        "ryu",
+        "serde",
+        "serde_json",
+        "serde_urlencoded",
+        "thiserror",
+        "time",
+        "tokio",
+        "tokio",
+        "tokio-tungstenite",
+        "tracing",
+        "url",
+        "webpki-roots"
+    ]
+}

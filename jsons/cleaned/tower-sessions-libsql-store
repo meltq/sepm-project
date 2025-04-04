@@ -1,0 +1,17 @@
+{
+    "name": "tower-sessions-libsql-store",
+    "deps": [
+        "async-trait",
+        "axum",
+        "libsql",
+        "rmp-serde",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "time",
+        "tokio",
+        "tokio-test",
+        "tower-sessions",
+        "tower-sessions-core"
+    ]
+}

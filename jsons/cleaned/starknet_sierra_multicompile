@@ -1,0 +1,22 @@
+{
+    "name": "starknet_sierra_multicompile",
+    "deps": [
+        "assert_matches",
+        "cairo-lang-sierra",
+        "cairo-lang-starknet-classes",
+        "cairo-lang-utils",
+        "cairo-native",
+        "papyrus_config",
+        "rlimit",
+        "rstest",
+        "serde",
+        "serde_json",
+        "starknet-types-core",
+        "starknet_api",
+        "starknet_infra_utils",
+        "tempfile",
+        "tempfile",
+        "thiserror",
+        "validator"
+    ]
+}

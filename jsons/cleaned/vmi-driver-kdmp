@@ -1,0 +1,11 @@
+{
+    "name": "vmi-driver-kdmp",
+    "deps": [
+        "kdmp-parser",
+        "memmap2",
+        "tracing",
+        "vmi-arch-amd64",
+        "vmi-core",
+        "zerocopy"
+    ]
+}

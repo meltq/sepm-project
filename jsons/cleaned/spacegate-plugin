@@ -1,0 +1,32 @@
+{
+    "name": "spacegate-plugin",
+    "deps": [
+        "arc-swap",
+        "async-compression",
+        "chrono",
+        "futures-util",
+        "http-body-util",
+        "hyper",
+        "hyper-util",
+        "ipnet",
+        "libloading",
+        "pin-project-lite",
+        "regex",
+        "rustls",
+        "schemars",
+        "serde",
+        "serde_json",
+        "spacegate-ext-axum",
+        "spacegate-ext-redis",
+        "spacegate-kernel",
+        "spacegate-model",
+        "testcontainers",
+        "testcontainers-modules",
+        "tokio",
+        "tokio-util",
+        "tower-layer",
+        "tracing",
+        "tracing-subscriber",
+        "url"
+    ]
+}

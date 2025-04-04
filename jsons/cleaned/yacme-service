@@ -1,0 +1,19 @@
+{
+    "name": "yacme-service",
+    "deps": [
+        "arc-swap",
+        "chrono",
+        "http",
+        "reqwest",
+        "serde",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "url",
+        "yacme-key",
+        "yacme-protocol",
+        "yacme-schema",
+        "serde_json",
+        "tracing-subscriber"
+    ]
+}

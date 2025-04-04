@@ -1,0 +1,18 @@
+{
+    "name": "substrate-wasmtime-runtime",
+    "deps": [
+        "backtrace",
+        "cc",
+        "cfg-if",
+        "indexmap",
+        "lazy_static",
+        "libc",
+        "memoffset",
+        "more-asserts",
+        "region",
+        "thiserror",
+        "wasmtime-environ",
+        "wasmtime-profiling",
+        "winapi"
+    ]
+}

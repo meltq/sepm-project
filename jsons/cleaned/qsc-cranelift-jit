@@ -1,0 +1,21 @@
+{
+    "name": "qsc-cranelift-jit",
+    "deps": [
+        "anyhow",
+        "cranelift",
+        "cranelift-codegen",
+        "cranelift-control",
+        "cranelift-entity",
+        "cranelift-entity",
+        "cranelift-frontend",
+        "cranelift-module",
+        "cranelift-native",
+        "libc",
+        "log",
+        "memmap2",
+        "region",
+        "target-lexicon",
+        "wasmtime-jit-icache-coherence",
+        "windows-sys"
+    ]
+}

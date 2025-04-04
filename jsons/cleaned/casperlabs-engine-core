@@ -1,0 +1,27 @@
+{
+    "name": "casperlabs-engine-core",
+    "deps": [
+        "base16",
+        "blake2",
+        "contract",
+        "engine-shared",
+        "engine-storage",
+        "engine-wasm-prep",
+        "failure",
+        "hex_fmt",
+        "itertools",
+        "lazy_static",
+        "linked-hash-map",
+        "matches",
+        "num-derive",
+        "num-traits",
+        "parity-wasm",
+        "proptest",
+        "pwasm-utils",
+        "rand",
+        "rand_chacha",
+        "types",
+        "wabt",
+        "wasmi"
+    ]
+}

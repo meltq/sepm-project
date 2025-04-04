@@ -1,0 +1,9 @@
+{
+    "name": "wasmtime-vfs-memory",
+    "deps": [
+        "async-trait",
+        "tokio",
+        "wasi-common",
+        "wasmtime-vfs-ledger"
+    ]
+}

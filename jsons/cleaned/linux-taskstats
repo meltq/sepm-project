@@ -1,0 +1,13 @@
+{
+    "name": "linux-taskstats",
+    "deps": [
+        "bindgen",
+        "clap",
+        "env_logger",
+        "libc",
+        "log",
+        "netlink-sys",
+        "prettytable-rs",
+        "thiserror"
+    ]
+}

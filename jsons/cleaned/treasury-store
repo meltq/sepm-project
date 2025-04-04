@@ -1,0 +1,30 @@
+{
+    "name": "treasury-store",
+    "deps": [
+        "base64",
+        "bytemuck",
+        "dunce",
+        "envy",
+        "eyre",
+        "futures-util",
+        "hashbrown",
+        "libloading",
+        "parking_lot",
+        "pin-project",
+        "rand",
+        "serde",
+        "serde_bytes",
+        "sha2",
+        "smallvec",
+        "thiserror",
+        "tinyvec",
+        "tokio",
+        "toml",
+        "tracing",
+        "tracing-error",
+        "tracing-subscriber",
+        "treasury-id",
+        "treasury-import",
+        "url"
+    ]
+}

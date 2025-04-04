@@ -1,0 +1,13 @@
+{
+    "name": "cargo-serve-doc",
+    "deps": [
+        "bytes",
+        "cargo",
+        "clap",
+        "futures",
+        "http",
+        "replacing-buf-stream",
+        "tokio",
+        "tower-web"
+    ]
+}

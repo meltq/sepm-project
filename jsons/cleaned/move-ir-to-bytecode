@@ -1,0 +1,17 @@
+{
+    "name": "move-ir-to-bytecode",
+    "deps": [
+        "anyhow",
+        "codespan-reporting",
+        "log",
+        "move-binary-format",
+        "move-bytecode-source-map",
+        "move-command-line-common",
+        "move-core-types",
+        "move-ir-to-bytecode-syntax",
+        "move-ir-types",
+        "move-symbol-pool",
+        "ouroboros",
+        "thiserror"
+    ]
+}

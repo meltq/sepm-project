@@ -1,0 +1,23 @@
+{
+    "name": "trace_decoder",
+    "deps": [
+        "bytes",
+        "ciborium",
+        "ciborium-io",
+        "enum-as-inner",
+        "enumn",
+        "ethereum-types",
+        "evm_arithmetization",
+        "hex",
+        "hex-literal",
+        "keccak-hash",
+        "log",
+        "mpt_trie",
+        "pretty_env_logger",
+        "rlp",
+        "rlp-derive",
+        "serde",
+        "serde_with",
+        "thiserror"
+    ]
+}

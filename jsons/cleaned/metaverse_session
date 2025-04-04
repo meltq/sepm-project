@@ -1,0 +1,21 @@
+{
+    "name": "metaverse_session",
+    "deps": [
+        "actix",
+        "actix-rt",
+        "actix-web",
+        "config",
+        "env_logger",
+        "futures",
+        "hex",
+        "log",
+        "metaverse_instantiator",
+        "metaverse_login",
+        "metaverse_messages",
+        "rand",
+        "tokio",
+        "tokio-test",
+        "uuid",
+        "xmlrpc"
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "name": "sp1-cli",
+    "deps": [
+        "anstyle",
+        "anyhow",
+        "cargo_metadata",
+        "clap",
+        "dirs",
+        "downloader",
+        "futures-util",
+        "hex",
+        "indicatif",
+        "rand",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "sp1-core",
+        "sp1-prover",
+        "sp1-sdk",
+        "target-lexicon",
+        "tempfile",
+        "tokio",
+        "vergen",
+        "yansi"
+    ]
+}

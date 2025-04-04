@@ -1,0 +1,32 @@
+{
+    "name": "agp-config",
+    "deps": [
+        "agp-tracing",
+        "duration-str",
+        "futures",
+        "http",
+        "hyper-rustls",
+        "hyper-util",
+        "lazy_static",
+        "prost",
+        "protoc-bin-vendored",
+        "regex",
+        "rustls",
+        "rustls-native-certs",
+        "rustls-pki-types",
+        "serde",
+        "serde_yaml",
+        "thiserror",
+        "tokio",
+        "tonic",
+        "tonic-build",
+        "tonic-tls",
+        "tower",
+        "tower-http",
+        "tower-layer",
+        "tower-reqwest",
+        "tower-service",
+        "tracing",
+        "tracing-test"
+    ]
+}

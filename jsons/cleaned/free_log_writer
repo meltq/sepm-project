@@ -1,0 +1,23 @@
+{
+    "name": "free_log_writer",
+    "deps": [
+        "actix-cors",
+        "actix-files",
+        "actix-web",
+        "awc",
+        "aws-config",
+        "aws-sdk-cloudwatchlogs",
+        "aws-smithy-runtime-api",
+        "env_logger",
+        "free_log_models",
+        "lambda-web",
+        "lambda_runtime",
+        "log",
+        "once_cell",
+        "serde",
+        "serde_json",
+        "strum",
+        "strum_macros",
+        "thiserror"
+    ]
+}

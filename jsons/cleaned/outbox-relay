@@ -1,0 +1,15 @@
+{
+    "name": "outbox-relay",
+    "deps": [
+        "bb8-postgres",
+        "chrono",
+        "clap",
+        "futures",
+        "rdkafka",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

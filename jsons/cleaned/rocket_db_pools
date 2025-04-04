@@ -1,0 +1,13 @@
+{
+    "name": "rocket_db_pools",
+    "deps": [
+        "deadpool",
+        "deadpool-postgres",
+        "deadpool-redis",
+        "mongodb",
+        "rocket",
+        "rocket_db_pools_codegen",
+        "sqlx",
+        "version_check"
+    ]
+}

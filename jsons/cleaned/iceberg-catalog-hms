@@ -1,0 +1,11 @@
+{
+    "name": "iceberg-catalog-hms",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "hive_metastore",
+        "iceberg",
+        "typed-builder",
+        "volo-thrift"
+    ]
+}

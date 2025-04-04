@@ -1,0 +1,14 @@
+{
+    "name": "lpc8xx-hal",
+    "deps": [
+        "compiletest_rs",
+        "cortex-m",
+        "cortex-m-rt",
+        "embedded-hal",
+        "lpc82x-pac",
+        "lpc845-pac",
+        "nb",
+        "panic-halt",
+        "void"
+    ]
+}

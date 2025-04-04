@@ -1,0 +1,11 @@
+{
+    "name": "priority-inheriting-lock",
+    "deps": [
+        "libc",
+        "linux-futex",
+        "lock_api",
+        "nix",
+        "once_cell",
+        "thread_local"
+    ]
+}

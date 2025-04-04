@@ -1,0 +1,24 @@
+{
+    "name": "backup-service",
+    "deps": [
+        "anyhow",
+        "aptos-config",
+        "aptos-crypto",
+        "aptos-logger",
+        "aptos-metrics",
+        "aptos-temppath",
+        "aptos-types",
+        "aptos-workspace-hack",
+        "aptosdb",
+        "aptosdb",
+        "bcs",
+        "bytes",
+        "hyper",
+        "once_cell",
+        "reqwest",
+        "serde",
+        "storage-interface",
+        "tokio",
+        "warp"
+    ]
+}

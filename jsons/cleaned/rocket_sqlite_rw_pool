@@ -1,0 +1,25 @@
+{
+    "name": "rocket_sqlite_rw_pool",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "futures",
+        "futures-core",
+        "inventory",
+        "itertools",
+        "paste",
+        "r2d2",
+        "r2d2_sqlite",
+        "rocket",
+        "rocket_csrf_guard",
+        "rusqlite",
+        "rusqlite_migration",
+        "rust-embed",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "serde_rusqlite",
+        "thiserror",
+        "tokio"
+    ]
+}

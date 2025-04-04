@@ -1,0 +1,19 @@
+{
+    "name": "wasmer-engine-dylib",
+    "deps": [
+        "cfg-if",
+        "leb128",
+        "libloading",
+        "loupe",
+        "rkyv",
+        "serde",
+        "tempfile",
+        "tracing",
+        "wasmer-compiler",
+        "wasmer-engine",
+        "wasmer-object",
+        "wasmer-types",
+        "wasmer-vm",
+        "which"
+    ]
+}

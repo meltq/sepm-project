@@ -1,0 +1,15 @@
+{
+    "name": "anndata-hdf5",
+    "deps": [
+        "anndata",
+        "anyhow",
+        "hdf5",
+        "hdf5-sys",
+        "libz-sys",
+        "ndarray",
+        "ndarray-rand",
+        "proptest",
+        "rand",
+        "tempfile"
+    ]
+}

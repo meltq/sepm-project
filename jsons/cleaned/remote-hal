@@ -1,0 +1,21 @@
+{
+    "name": "remote-hal",
+    "deps": [
+        "crate",
+        "daemon-engine",
+        "embedded-hal",
+        "futures",
+        "futures-timer",
+        "hex",
+        "linux-embedded-hal",
+        "log",
+        "rand",
+        "rr-mux",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "simplelog",
+        "structopt",
+        "tokio"
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "name": "icann-rdap-cli",
+    "deps": [
+        "anyhow",
+        "assert_cmd",
+        "chrono",
+        "cidr-utils",
+        "clap",
+        "const_format",
+        "directories",
+        "dotenv",
+        "icann-rdap-client",
+        "icann-rdap-common",
+        "is-terminal",
+        "lazy_static",
+        "minus",
+        "reqwest",
+        "rstest",
+        "serde",
+        "serde_json",
+        "simplelog",
+        "termimad",
+        "test_dir",
+        "thiserror",
+        "tokio",
+        "tracing-subscriber"
+    ]
+}

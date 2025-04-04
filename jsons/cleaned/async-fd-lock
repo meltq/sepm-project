@@ -1,0 +1,16 @@
+{
+    "name": "async-fd-lock",
+    "deps": [
+        "async-trait",
+        "cfg-if",
+        "futures",
+        "paste",
+        "pin-project",
+        "rustix",
+        "tempfile",
+        "tokio",
+        "tokio",
+        "tokio-test",
+        "windows-sys"
+    ]
+}

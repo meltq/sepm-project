@@ -1,0 +1,23 @@
+{
+    "name": "lnurl-server",
+    "deps": [
+        "anyhow",
+        "axum",
+        "base64",
+        "bitcoin",
+        "clap",
+        "home",
+        "lightning",
+        "lightning-invoice",
+        "lnurl-rs",
+        "nostr",
+        "nostr-sdk",
+        "serde",
+        "serde_json",
+        "sled",
+        "tokio",
+        "tonic_openssl_lnd",
+        "tower-http",
+        "ureq"
+    ]
+}

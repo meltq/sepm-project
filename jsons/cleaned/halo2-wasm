@@ -1,0 +1,26 @@
+{
+    "name": "halo2-wasm",
+    "deps": [
+        "bincode",
+        "console_error_panic_hook",
+        "getrandom",
+        "halo2-base",
+        "halo2-ecc",
+        "itertools",
+        "js-sys",
+        "num-bigint",
+        "num-integer",
+        "num-traits",
+        "paste",
+        "rand",
+        "serde",
+        "serde-wasm-bindgen",
+        "serde_bytes",
+        "snark-verifier",
+        "snark-verifier-sdk",
+        "tsify",
+        "wasm-bindgen",
+        "wasm-bindgen-rayon",
+        "web-sys"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "name": "kube-leader-election",
+    "deps": [
+        "anyhow",
+        "async-std",
+        "chrono",
+        "cmd_lib",
+        "env_logger",
+        "k8s-openapi",
+        "k8s-openapi",
+        "kube",
+        "kube",
+        "kube-runtime",
+        "kube-runtime",
+        "log",
+        "rand",
+        "serde",
+        "serde_json",
+        "thiserror"
+    ]
+}

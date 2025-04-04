@@ -1,0 +1,27 @@
+{
+    "name": "senax-linker",
+    "deps": [
+        "anyhow",
+        "bincode",
+        "bytes",
+        "clap",
+        "dotenv",
+        "env_logger",
+        "etcd-client",
+        "futures-util",
+        "hostname",
+        "if-addrs",
+        "log",
+        "mimalloc",
+        "pem",
+        "quinn",
+        "rcgen",
+        "regex",
+        "rustls",
+        "rustls-pemfile",
+        "sha2",
+        "tokio",
+        "tokio-uring",
+        "zstd"
+    ]
+}

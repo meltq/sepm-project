@@ -1,0 +1,17 @@
+{
+    "name": "fedimint-empty-client",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "erased-serde",
+        "fedimint-client",
+        "fedimint-core",
+        "fedimint-empty-common",
+        "futures",
+        "serde",
+        "strum",
+        "strum_macros",
+        "thiserror",
+        "tracing"
+    ]
+}

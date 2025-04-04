@@ -1,0 +1,13 @@
+{
+    "name": "rpcx_server",
+    "deps": [
+        "futures",
+        "rmp-serde",
+        "rpcx_client",
+        "rpcx_derive",
+        "rpcx_protocol",
+        "serde",
+        "serde_json",
+        "tokio"
+    ]
+}

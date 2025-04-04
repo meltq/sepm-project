@@ -1,0 +1,21 @@
+{
+    "name": "dao-voting-cw721-staked",
+    "deps": [
+        "anyhow",
+        "cosmwasm-schema",
+        "cosmwasm-std",
+        "cw-controllers",
+        "cw-multi-test",
+        "cw-paginate-storage",
+        "cw-storage-plus",
+        "cw-utils",
+        "cw2",
+        "cw721",
+        "cw721-base",
+        "cw721-controllers",
+        "dao-dao-macros",
+        "dao-interface",
+        "dao-testing",
+        "thiserror"
+    ]
+}

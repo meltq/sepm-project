@@ -1,0 +1,12 @@
+{
+    "name": "pravega-connection-pool",
+    "deps": [
+        "async-trait",
+        "dashmap",
+        "futures",
+        "pravega-client-shared",
+        "snafu",
+        "tokio",
+        "uuid"
+    ]
+}

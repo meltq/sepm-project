@@ -1,0 +1,19 @@
+{
+    "name": "watfaq-dns",
+    "deps": [
+        "async-trait",
+        "futures",
+        "hickory-client",
+        "hickory-proto",
+        "hickory-resolver",
+        "hickory-server",
+        "mockall",
+        "rustls",
+        "rustls-pemfile",
+        "serde",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "webpki-roots"
+    ]
+}

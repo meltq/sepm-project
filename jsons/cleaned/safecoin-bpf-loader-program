@@ -1,0 +1,19 @@
+{
+    "name": "safecoin-bpf-loader-program",
+    "deps": [
+        "bincode",
+        "byteorder",
+        "log",
+        "num-derive",
+        "num-traits",
+        "rand",
+        "rand_core",
+        "rustversion",
+        "safecoin-measure",
+        "safecoin-runtime",
+        "safecoin-sdk",
+        "sha3",
+        "solana_rbpf",
+        "thiserror"
+    ]
+}

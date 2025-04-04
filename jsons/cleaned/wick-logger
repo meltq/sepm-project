@@ -1,0 +1,19 @@
+{
+    "name": "wick-logger",
+    "deps": [
+        "ansi_term",
+        "clap",
+        "opentelemetry",
+        "opentelemetry-jaeger",
+        "serde",
+        "thiserror",
+        "time",
+        "tokio",
+        "tracing",
+        "tracing-appender",
+        "tracing-bunyan-formatter",
+        "tracing-opentelemetry",
+        "tracing-subscriber",
+        "wick-xdg"
+    ]
+}

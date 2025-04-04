@@ -1,0 +1,16 @@
+{
+    "name": "defmt-influx",
+    "deps": [
+        "anyhow",
+        "ctrlc",
+        "defmt-decoder",
+        "futures",
+        "influxdb2",
+        "influxdb2-structmap",
+        "log",
+        "num-traits",
+        "structopt",
+        "thiserror",
+        "tokio"
+    ]
+}

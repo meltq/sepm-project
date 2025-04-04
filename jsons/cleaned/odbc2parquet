@@ -1,0 +1,15 @@
+{
+    "name": "odbc2parquet",
+    "deps": [
+        "anyhow",
+        "assert_cmd",
+        "chrono",
+        "log",
+        "odbc-api",
+        "parquet",
+        "predicates",
+        "stderrlog",
+        "structopt",
+        "tempfile"
+    ]
+}

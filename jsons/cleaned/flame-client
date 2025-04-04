@@ -1,0 +1,20 @@
+{
+    "name": "flame-client",
+    "deps": [
+        "async-trait",
+        "bytes",
+        "chrono",
+        "clap",
+        "env_logger",
+        "futures",
+        "log",
+        "prost",
+        "strum",
+        "strum_macros",
+        "thiserror",
+        "tokio",
+        "tokio-stream",
+        "tonic",
+        "tonic-build"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "name": "chrome-remote-interface",
+    "deps": [
+        "anyhow",
+        "bytes",
+        "chrome-remote-interface-model",
+        "futures",
+        "log",
+        "nix",
+        "pretty_env_logger",
+        "serde",
+        "serde_json",
+        "tempfile",
+        "thiserror",
+        "tokio",
+        "tokio",
+        "tokio-pipe",
+        "tokio-tungstenite",
+        "url"
+    ]
+}

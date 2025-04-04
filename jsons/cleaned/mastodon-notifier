@@ -1,0 +1,21 @@
+{
+    "name": "mastodon-notifier",
+    "deps": [
+        "anyhow",
+        "async-tungstenite",
+        "clap",
+        "dialoguer",
+        "futures",
+        "html2text",
+        "keyring",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tracing",
+        "tracing-subscriber",
+        "zbus",
+        "zbus_macros",
+        "zvariant"
+    ]
+}

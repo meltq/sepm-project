@@ -1,0 +1,24 @@
+{
+    "name": "msft-runtime",
+    "deps": [
+        "bitflags",
+        "bytes",
+        "crossbeam",
+        "futures",
+        "mockall",
+        "msft-service",
+        "num-derive",
+        "num-traits",
+        "parking_lot",
+        "pin-project-lite",
+        "tokio",
+        "tracing",
+        "tracing-appender",
+        "tracing-subscriber",
+        "trybuild",
+        "win_etw_macros",
+        "win_etw_provider",
+        "win_etw_tracing",
+        "windows-sys"
+    ]
+}

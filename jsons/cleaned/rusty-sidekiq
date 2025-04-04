@@ -1,0 +1,19 @@
+{
+    "name": "rusty-sidekiq",
+    "deps": [
+        "async-trait",
+        "bb8-redis",
+        "chrono",
+        "dyn-clone",
+        "heck",
+        "hex",
+        "num_cpus",
+        "rand",
+        "redis",
+        "serde",
+        "serde_json",
+        "slog",
+        "slog-term",
+        "tokio"
+    ]
+}

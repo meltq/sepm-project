@@ -1,0 +1,16 @@
+{
+    "name": "tower-async-bridge",
+    "deps": [
+        "futures-core",
+        "hyper",
+        "pin-project-lite",
+        "tokio",
+        "tokio-test",
+        "tower",
+        "tower",
+        "tower-async-layer",
+        "tower-async-service",
+        "tower-layer",
+        "tower-service"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "pumpkindb_mio_server",
+    "deps": [
+        "byteorder",
+        "lmdb-zero",
+        "log",
+        "log4rs",
+        "memmap",
+        "mio",
+        "num-bigint",
+        "num-traits",
+        "pumpkindb_engine",
+        "rand",
+        "slab",
+        "uuid"
+    ]
+}

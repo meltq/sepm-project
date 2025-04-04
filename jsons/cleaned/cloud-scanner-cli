@@ -1,0 +1,31 @@
+{
+    "name": "cloud-scanner-cli",
+    "deps": [
+        "anyhow",
+        "assert-json-diff",
+        "async-trait",
+        "aws-config",
+        "aws-sdk-cloudwatch",
+        "aws-sdk-ec2",
+        "aws-smithy-types-convert",
+        "aws-types",
+        "boavizta_api_sdk",
+        "chrono",
+        "clap",
+        "csv",
+        "isocountry",
+        "log",
+        "loggerv",
+        "once_cell",
+        "pkg-version",
+        "prometheus-client",
+        "rocket",
+        "rocket_okapi",
+        "schemars",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "thiserror",
+        "tokio"
+    ]
+}

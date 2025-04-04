@@ -1,0 +1,15 @@
+{
+    "name": "tower-sessions-firestore-store",
+    "deps": [
+        "async-trait",
+        "axum",
+        "chrono",
+        "firestore",
+        "serde",
+        "thiserror",
+        "time",
+        "tokio",
+        "tower-sessions",
+        "tower-sessions-core"
+    ]
+}

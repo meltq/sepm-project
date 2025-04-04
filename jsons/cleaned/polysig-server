@@ -1,0 +1,13 @@
+{
+    "name": "polysig-server",
+    "deps": [
+        "anyhow",
+        "axum-server",
+        "clap",
+        "polysig-protocol",
+        "polysig-relay-server",
+        "tokio",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "name": "risc0-ethereum-view-call",
+    "deps": [
+        "alloy-primitives",
+        "alloy-rlp",
+        "alloy-rlp-derive",
+        "alloy-sol-types",
+        "alloy-trie",
+        "anyhow",
+        "ethers-core",
+        "ethers-providers",
+        "log",
+        "nybbles",
+        "once_cell",
+        "revm",
+        "rlp",
+        "serde",
+        "serde_json",
+        "test-log",
+        "thiserror",
+        "tokio"
+    ]
+}

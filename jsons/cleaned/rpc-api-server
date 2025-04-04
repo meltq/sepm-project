@@ -1,0 +1,15 @@
+{
+    "name": "rpc-api-server",
+    "deps": [
+        "async-trait",
+        "bytes",
+        "http-body-util",
+        "hyper",
+        "pretty_env_logger",
+        "reqwest",
+        "rpc-api",
+        "serde",
+        "serde_json",
+        "tokio"
+    ]
+}

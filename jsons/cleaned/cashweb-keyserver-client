@@ -1,0 +1,18 @@
+{
+    "name": "cashweb-keyserver-client",
+    "deps": [
+        "auth-wrapper",
+        "bytes",
+        "futures-core",
+        "futures-util",
+        "hyper",
+        "hyper-tls",
+        "keyserver",
+        "prost",
+        "rand",
+        "secp256k1",
+        "tokio",
+        "tower-service",
+        "tower-util"
+    ]
+}

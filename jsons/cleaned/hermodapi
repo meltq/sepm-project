@@ -1,0 +1,29 @@
+{
+    "name": "hermodapi",
+    "deps": [
+        "actix",
+        "actix-identity",
+        "actix-rt",
+        "actix-session",
+        "actix-web",
+        "anyhow",
+        "argon2",
+        "base64",
+        "chrono",
+        "config",
+        "once_cell",
+        "rand",
+        "reqwest",
+        "serde",
+        "serde-aux",
+        "serde_json",
+        "sqlx",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "tracing-bunyan-formatter",
+        "tracing-log",
+        "tracing-subscriber",
+        "uuid"
+    ]
+}

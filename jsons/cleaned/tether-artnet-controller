@@ -1,0 +1,19 @@
+{
+    "name": "tether-artnet-controller",
+    "deps": [
+        "anyhow",
+        "artnet_protocol",
+        "clap",
+        "eframe",
+        "egui",
+        "env_logger",
+        "log",
+        "rand",
+        "rfd",
+        "rmp-serde",
+        "serde",
+        "serde_json",
+        "tether-agent",
+        "tween"
+    ]
+}

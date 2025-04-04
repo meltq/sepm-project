@@ -1,0 +1,26 @@
+{
+    "name": "fedimint-hbbft",
+    "deps": [
+        "bincode",
+        "byteorder",
+        "colored",
+        "crossbeam",
+        "crossbeam-channel",
+        "derivative",
+        "docopt",
+        "env_logger",
+        "hex_fmt",
+        "init_with",
+        "itertools",
+        "log",
+        "number_prefix",
+        "proptest",
+        "rand",
+        "rand_derive",
+        "reed-solomon-erasure",
+        "serde",
+        "thiserror",
+        "threshold_crypto",
+        "tiny-keccak"
+    ]
+}

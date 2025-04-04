@@ -1,0 +1,28 @@
+{
+    "name": "deltalake-aws",
+    "deps": [
+        "async-trait",
+        "backoff",
+        "bytes",
+        "chrono",
+        "deltalake-core",
+        "futures",
+        "lazy_static",
+        "maplit",
+        "object_store",
+        "pretty_env_logger",
+        "rand",
+        "regex",
+        "rusoto_core",
+        "rusoto_credential",
+        "rusoto_dynamodb",
+        "rusoto_sts",
+        "serde_json",
+        "serial_test",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "url",
+        "uuid"
+    ]
+}

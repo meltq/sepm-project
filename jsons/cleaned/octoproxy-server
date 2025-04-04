@@ -1,0 +1,21 @@
+{
+    "name": "octoproxy-server",
+    "deps": [
+        "anyhow",
+        "bytes",
+        "clap",
+        "futures",
+        "http",
+        "hyper",
+        "octoproxy-lib",
+        "quinn",
+        "serde",
+        "tokio",
+        "tokio-rustls",
+        "tokio-stream",
+        "tokio-util",
+        "tracing",
+        "tracing-subscriber",
+        "url"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "name": "spl-token-confidential-transfer-ciphertext-arithmetic",
+    "deps": [
+        "base64",
+        "bytemuck",
+        "curve25519-dalek",
+        "solana-curve25519",
+        "solana-zk-sdk",
+        "spl-token-confidential-transfer-proof-generation"
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "name": "tempest",
+    "deps": [
+        "actix",
+        "byteorder",
+        "bytes",
+        "config",
+        "futures",
+        "histogram",
+        "lazy_static",
+        "log",
+        "minreq",
+        "pretty_env_logger",
+        "rand",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "structopt",
+        "tokio-codec",
+        "tokio-io",
+        "tokio-signal",
+        "tokio-tcp",
+        "tokio-timer",
+        "uuid"
+    ]
+}

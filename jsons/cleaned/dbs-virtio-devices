@@ -1,0 +1,30 @@
+{
+    "name": "dbs-virtio-devices",
+    "deps": [
+        "byteorder",
+        "caps",
+        "dbs-device",
+        "dbs-interrupt",
+        "dbs-utils",
+        "epoll",
+        "fuse-backend-rs",
+        "io-uring",
+        "kvm-bindings",
+        "kvm-ioctls",
+        "libc",
+        "log",
+        "nix",
+        "nydus-blobfs",
+        "nydus-rafs",
+        "rlimit",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "threadpool",
+        "virtio-bindings",
+        "virtio-queue",
+        "vm-memory",
+        "vm-memory",
+        "vmm-sys-util"
+    ]
+}

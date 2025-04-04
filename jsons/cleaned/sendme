@@ -1,0 +1,33 @@
+{
+    "name": "sendme",
+    "deps": [
+        "anyhow",
+        "base32",
+        "bytes",
+        "clap",
+        "console",
+        "data-encoding",
+        "duct",
+        "flume",
+        "futures",
+        "hex",
+        "indicatif",
+        "iroh-bytes",
+        "iroh-io",
+        "iroh-net",
+        "nix",
+        "num_cpus",
+        "postcard",
+        "quinn",
+        "rand",
+        "rand",
+        "serde",
+        "serde_json",
+        "tempfile",
+        "tokio",
+        "tokio-util",
+        "tracing",
+        "tracing-subscriber",
+        "walkdir"
+    ]
+}

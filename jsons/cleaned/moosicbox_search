@@ -1,0 +1,18 @@
+{
+    "name": "moosicbox_search",
+    "deps": [
+        "actix-web",
+        "itertools",
+        "log",
+        "moosicbox_config",
+        "moosicbox_core",
+        "moosicbox_json_utils",
+        "moosicbox_task",
+        "regex",
+        "serde",
+        "tantivy",
+        "thiserror",
+        "tokio",
+        "utoipa"
+    ]
+}

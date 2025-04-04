@@ -1,0 +1,24 @@
+{
+    "name": "streambed-logged",
+    "deps": [
+        "async-stream",
+        "async-trait",
+        "bytes",
+        "chrono",
+        "clap",
+        "crc",
+        "criterion",
+        "env_logger",
+        "humantime",
+        "log",
+        "postcard",
+        "serde",
+        "serde_with",
+        "smol_str",
+        "streambed",
+        "test-log",
+        "tokio",
+        "tokio-stream",
+        "tokio-util"
+    ]
+}

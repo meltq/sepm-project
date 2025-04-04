@@ -1,0 +1,12 @@
+{
+    "name": "metrics_cloudwatch",
+    "deps": [
+        "chrono",
+        "futures",
+        "log",
+        "metrics",
+        "rusoto_cloudwatch",
+        "rusoto_core",
+        "tokio"
+    ]
+}

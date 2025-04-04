@@ -1,0 +1,22 @@
+{
+    "name": "xstack-tcp",
+    "deps": [
+        "async-trait",
+        "clap",
+        "futures",
+        "futures-boring",
+        "futures-test",
+        "futures-yamux",
+        "log",
+        "multistream-select",
+        "pretty_env_logger",
+        "rand",
+        "rasi",
+        "rasi",
+        "rasi-mio",
+        "uuid",
+        "xstack",
+        "xstack-spec",
+        "xstack-x509"
+    ]
+}

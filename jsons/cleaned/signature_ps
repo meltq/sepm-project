@@ -1,0 +1,23 @@
+{
+    "name": "signature_ps",
+    "deps": [
+        "blake2",
+        "bls12_381_plus",
+        "digest",
+        "ff",
+        "group",
+        "hkdf",
+        "hmac-drbg",
+        "pairing",
+        "rand",
+        "rand_chacha",
+        "rand_core",
+        "rand_xorshift",
+        "serde",
+        "short_group_signatures_core",
+        "signature_bls",
+        "subtle",
+        "typenum",
+        "zeroize"
+    ]
+}

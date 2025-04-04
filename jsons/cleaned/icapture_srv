@@ -1,0 +1,12 @@
+{
+    "name": "icapture_srv",
+    "deps": [
+        "env_logger",
+        "icapture_core",
+        "log",
+        "serde",
+        "thiserror",
+        "tokio",
+        "warp"
+    ]
+}

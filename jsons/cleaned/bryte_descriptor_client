@@ -1,0 +1,26 @@
+{
+    "name": "bryte_descriptor_client",
+    "deps": [
+        "anyhow",
+        "base64",
+        "borsh",
+        "borsh-schema-writer",
+        "borsh-serde-adapter",
+        "bs58",
+        "chrono",
+        "futures-util",
+        "log",
+        "regex",
+        "reqwest",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "solana-account-decoder",
+        "solana-pubsub-client",
+        "solana-rpc-client",
+        "solana-rpc-client-api",
+        "solana-sdk",
+        "tokio",
+        "url"
+    ]
+}

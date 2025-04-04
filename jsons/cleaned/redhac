@@ -1,0 +1,32 @@
+{
+    "name": "redhac",
+    "deps": [
+        "anyhow",
+        "async-stream",
+        "bincode",
+        "cached",
+        "chrono",
+        "criterion",
+        "ctrlc",
+        "dotenvy",
+        "flate2",
+        "flume",
+        "futures-core",
+        "futures-util",
+        "gethostname",
+        "lazy_static",
+        "nanoid",
+        "pretty_assertions",
+        "prost",
+        "rand",
+        "serde",
+        "tokio",
+        "tokio-stream",
+        "tokio-test",
+        "tonic",
+        "tonic-build",
+        "tower",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

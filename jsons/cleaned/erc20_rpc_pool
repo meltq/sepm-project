@@ -1,0 +1,33 @@
+{
+    "name": "erc20_rpc_pool",
+    "deps": [
+        "actix-files",
+        "actix-web",
+        "anyhow",
+        "async-trait",
+        "bollard",
+        "chrono",
+        "dotenv",
+        "env_logger",
+        "fastrand",
+        "futures",
+        "futures-util",
+        "hex",
+        "humantime",
+        "lazy_static",
+        "log",
+        "rand",
+        "rust_decimal",
+        "rustc-hex",
+        "secp256k1",
+        "serde",
+        "serde_json",
+        "sha3",
+        "sqlx",
+        "structopt",
+        "tokio",
+        "toml",
+        "uuid",
+        "web3"
+    ]
+}

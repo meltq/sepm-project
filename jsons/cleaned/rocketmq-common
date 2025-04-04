@@ -1,0 +1,19 @@
+{
+    "name": "rocketmq-common",
+    "deps": [
+        "anyhow",
+        "crc32fast",
+        "dirs",
+        "futures",
+        "futures-core",
+        "futures-executor",
+        "futures-task",
+        "futures-util",
+        "num_cpus",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

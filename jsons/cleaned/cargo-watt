@@ -1,0 +1,19 @@
+{
+    "name": "cargo-watt",
+    "deps": [
+        "anyhow",
+        "clap",
+        "flate2",
+        "log",
+        "pretty_env_logger",
+        "proc-macro2",
+        "quote",
+        "serde_json",
+        "syn",
+        "tar",
+        "tempfile",
+        "toml_edit",
+        "ureq",
+        "walkdir"
+    ]
+}

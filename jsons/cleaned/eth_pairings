@@ -1,0 +1,17 @@
+{
+    "name": "eth_pairings",
+    "deps": [
+        "byteorder",
+        "csv",
+        "eth_pairings_repr_derive",
+        "hex",
+        "lazy_static",
+        "num-bigint",
+        "num-integer",
+        "num-traits",
+        "rand",
+        "rand_xorshift",
+        "serde",
+        "serde_json"
+    ]
+}

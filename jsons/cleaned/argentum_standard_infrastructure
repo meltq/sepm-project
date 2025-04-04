@@ -1,0 +1,14 @@
+{
+    "name": "argentum_standard_infrastructure",
+    "deps": [
+        "argentum_log_business",
+        "argentum_standard_business",
+        "futures",
+        "serde",
+        "sqlx",
+        "sqlx-postgres",
+        "thiserror",
+        "tokio",
+        "uuid"
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "name": "lightspeed_core",
+    "deps": [
+        "actix-rt",
+        "actix-service",
+        "actix_web_external",
+        "c3p0_common",
+        "chrono",
+        "jsonwebtoken",
+        "lazy_static",
+        "lightspeed_logger",
+        "log",
+        "rand",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "structopt",
+        "strum",
+        "strum_macros",
+        "thiserror",
+        "typescript-definitions",
+        "uuid",
+        "validator"
+    ]
+}

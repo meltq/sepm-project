@@ -1,0 +1,16 @@
+{
+    "name": "caryatid_process",
+    "deps": [
+        "anyhow",
+        "caryatid_sdk",
+        "config",
+        "futures",
+        "lapin",
+        "serde",
+        "serde_cbor",
+        "serde_json",
+        "tokio",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

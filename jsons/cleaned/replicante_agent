@@ -1,0 +1,20 @@
+{
+    "name": "replicante_agent",
+    "deps": [
+        "config",
+        "git2",
+        "iron",
+        "iron-json-response",
+        "iron-test",
+        "opentracingrust",
+        "opentracingrust_zipkin",
+        "prometheus",
+        "replicante_agent_models",
+        "replicante_util_iron",
+        "router",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "slog"
+    ]
+}

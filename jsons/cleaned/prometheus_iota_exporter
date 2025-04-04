@@ -1,0 +1,15 @@
+{
+    "name": "prometheus_iota_exporter",
+    "deps": [
+        "clap",
+        "env_logger",
+        "failure",
+        "futures",
+        "http",
+        "hyper",
+        "log",
+        "serde",
+        "serde_derive",
+        "serde_json"
+    ]
+}

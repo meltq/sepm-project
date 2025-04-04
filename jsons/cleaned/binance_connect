@@ -1,0 +1,16 @@
+{
+    "name": "binance_connect",
+    "deps": [
+        "async-std",
+        "log",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "strum",
+        "strum_macros",
+        "thiserror",
+        "tracing-subscriber",
+        "tungstenite",
+        "url"
+    ]
+}

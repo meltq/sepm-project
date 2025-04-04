@@ -1,0 +1,23 @@
+{
+    "name": "ismp-parachain",
+    "deps": [
+        "codec",
+        "cumulus-pallet-parachain-system",
+        "cumulus-primitives-core",
+        "frame-support",
+        "frame-system",
+        "hex-literal",
+        "ismp",
+        "log",
+        "pallet-ismp",
+        "primitive-types",
+        "scale-info",
+        "serde",
+        "sp-consensus-aura",
+        "sp-inherents",
+        "sp-io",
+        "sp-runtime",
+        "sp-trie",
+        "substrate-state-machine"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "name": "snarkvm-ledger-store",
+    "deps": [
+        "aleo-std",
+        "anyhow",
+        "bincode",
+        "console",
+        "indexmap",
+        "ledger-block",
+        "ledger-coinbase",
+        "once_cell",
+        "parking_lot",
+        "rayon",
+        "rocksdb",
+        "serde",
+        "serial_test",
+        "synthesizer-program",
+        "synthesizer-snark",
+        "tempfile",
+        "tracing",
+        "tracing-test"
+    ]
+}

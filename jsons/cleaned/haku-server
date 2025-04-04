@@ -1,0 +1,21 @@
+{
+    "name": "haku-server",
+    "deps": [
+        "actix-cors",
+        "actix-web",
+        "chrono",
+        "dotenv",
+        "env_logger",
+        "envy",
+        "futures-util",
+        "lapin",
+        "log",
+        "sendinblue",
+        "serde",
+        "serde_json",
+        "strum",
+        "strum_macros",
+        "thiserror",
+        "tokio-amqp"
+    ]
+}

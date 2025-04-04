@@ -1,0 +1,10 @@
+{
+    "name": "headless_browser",
+    "deps": [
+        "headless_browser_lib",
+        "tikv-jemallocator",
+        "tokio",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

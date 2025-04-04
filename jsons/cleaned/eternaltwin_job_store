@@ -1,0 +1,13 @@
+{
+    "name": "eternaltwin_job_store",
+    "deps": [
+        "async-trait",
+        "eternaltwin_config",
+        "eternaltwin_core",
+        "eternaltwin_db_schema",
+        "serde_json",
+        "serial_test",
+        "sqlx",
+        "tokio"
+    ]
+}

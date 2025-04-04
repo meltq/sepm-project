@@ -1,0 +1,17 @@
+{
+    "name": "redis-om",
+    "deps": [
+        "async-trait",
+        "futures",
+        "redis",
+        "redis-om-macros",
+        "rusty_ulid",
+        "serde",
+        "serde_json",
+        "tap",
+        "thiserror",
+        "redis-swapplex",
+        "tokio",
+        "trybuild"
+    ]
+}

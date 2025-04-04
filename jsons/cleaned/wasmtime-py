@@ -1,0 +1,19 @@
+{
+    "name": "wasmtime-py",
+    "deps": [
+        "cranelift-codegen",
+        "cranelift-entity",
+        "cranelift-frontend",
+        "cranelift-native",
+        "cranelift-wasm",
+        "failure",
+        "pyo3",
+        "region",
+        "target-lexicon",
+        "wasmparser",
+        "wasmtime-environ",
+        "wasmtime-interface-types",
+        "wasmtime-jit",
+        "wasmtime-runtime"
+    ]
+}

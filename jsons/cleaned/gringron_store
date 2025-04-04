@@ -1,0 +1,21 @@
+{
+    "name": "gringron_store",
+    "deps": [
+        "byteorder",
+        "chrono",
+        "croaring",
+        "env_logger",
+        "filetime",
+        "gringron_core",
+        "gringron_util",
+        "libc",
+        "lmdb-zero",
+        "log",
+        "memmap",
+        "rand",
+        "serde",
+        "serde_derive",
+        "tempfile",
+        "thiserror"
+    ]
+}

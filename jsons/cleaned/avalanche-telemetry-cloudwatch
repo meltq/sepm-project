@@ -1,0 +1,14 @@
+{
+    "name": "avalanche-telemetry-cloudwatch",
+    "deps": [
+        "aws-manager",
+        "aws-sdk-cloudwatch",
+        "chrono",
+        "clap",
+        "env_logger",
+        "log",
+        "prometheus-manager",
+        "reqwest",
+        "tokio"
+    ]
+}

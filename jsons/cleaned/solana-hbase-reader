@@ -1,0 +1,32 @@
+{
+    "name": "solana-hbase-reader",
+    "deps": [
+        "async-trait",
+        "backoff",
+        "bincode",
+        "bytes",
+        "bzip2",
+        "dexter-storage-proto",
+        "enum-iterator",
+        "flate2",
+        "hbase-thrift",
+        "http",
+        "hyper",
+        "log",
+        "memcache",
+        "moka",
+        "openssl",
+        "openssl",
+        "prost",
+        "serde",
+        "serde_derive",
+        "solana-sdk",
+        "solana-storage-reader",
+        "solana-storage-utils",
+        "solana-transaction-status",
+        "thiserror",
+        "thrift",
+        "tokio",
+        "zstd"
+    ]
+}

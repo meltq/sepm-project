@@ -1,0 +1,17 @@
+{
+    "name": "cargo-sonar",
+    "deps": [
+        "cargo",
+        "cargo_metadata",
+        "color-eyre",
+        "eyre",
+        "regex",
+        "rustsec",
+        "serde",
+        "serde_json",
+        "skip_error",
+        "thiserror",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

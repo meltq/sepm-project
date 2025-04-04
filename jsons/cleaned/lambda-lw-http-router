@@ -1,0 +1,14 @@
+{
+    "name": "lambda-lw-http-router",
+    "deps": [
+        "aws_lambda_events",
+        "ctor",
+        "lambda-lw-http-router-core",
+        "lambda-lw-http-router-macro",
+        "lambda_runtime",
+        "serde_json",
+        "tokio",
+        "tokio-test",
+        "tower"
+    ]
+}

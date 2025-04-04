@@ -1,0 +1,26 @@
+{
+    "name": "vercre-holder",
+    "deps": [
+        "anyhow",
+        "base64ct",
+        "chrono",
+        "ecdsa",
+        "ed25519-dalek",
+        "insta",
+        "serde",
+        "serde_json",
+        "serde_qs",
+        "tokio",
+        "tracing",
+        "urlencoding",
+        "uuid",
+        "vercre-core-utils",
+        "vercre-datasec",
+        "vercre-dif-exch",
+        "vercre-issuer",
+        "vercre-openid",
+        "vercre-test-utils",
+        "vercre-verifier",
+        "vercre-w3c-vc"
+    ]
+}

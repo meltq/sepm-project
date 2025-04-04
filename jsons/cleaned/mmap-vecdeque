@@ -1,0 +1,13 @@
+{
+    "name": "mmap-vecdeque",
+    "deps": [
+        "anyhow",
+        "atomicwrites",
+        "libc",
+        "memmap2",
+        "parking_lot",
+        "postcard",
+        "serde",
+        "tempfile"
+    ]
+}

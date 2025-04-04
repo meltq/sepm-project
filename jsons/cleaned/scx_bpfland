@@ -1,0 +1,16 @@
+{
+    "name": "scx_bpfland",
+    "deps": [
+        "anyhow",
+        "clap",
+        "ctrlc",
+        "libbpf-rs",
+        "log",
+        "metrics",
+        "metrics-exporter-prometheus",
+        "rlimit",
+        "scx_utils",
+        "scx_utils",
+        "simplelog"
+    ]
+}

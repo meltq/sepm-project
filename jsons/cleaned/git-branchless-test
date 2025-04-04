@@ -1,0 +1,30 @@
+{
+    "name": "git-branchless-test",
+    "deps": [
+        "assert_cmd",
+        "bstr",
+        "clap",
+        "crossbeam",
+        "cursive",
+        "eden_dag",
+        "eyre",
+        "fslock",
+        "git-branchless-invoke",
+        "git-branchless-opts",
+        "git-branchless-revset",
+        "indexmap",
+        "insta",
+        "itertools",
+        "lazy_static",
+        "lib",
+        "maplit",
+        "num_cpus",
+        "rayon",
+        "scm-bisect",
+        "serde",
+        "serde_json",
+        "tempfile",
+        "thiserror",
+        "tracing"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "name": "cargo-fixture-lib",
+    "deps": [
+        "cargo-fixture-macros",
+        "log",
+        "serde",
+        "serde_json",
+        "smol",
+        "strum",
+        "thiserror",
+        "tokio",
+        "uds_windows"
+    ]
+}

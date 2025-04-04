@@ -1,0 +1,17 @@
+{
+    "name": "append_db_postgres",
+    "deps": [
+        "append_db",
+        "append_db_postgres_derive",
+        "async-trait",
+        "chrono",
+        "futures",
+        "log",
+        "serde",
+        "serde_json",
+        "sqlx",
+        "sqlx-database-tester",
+        "thiserror",
+        "tokio"
+    ]
+}

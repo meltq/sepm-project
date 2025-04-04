@@ -1,0 +1,15 @@
+{
+    "name": "remi-s3",
+    "deps": [
+        "async-trait",
+        "aws-config",
+        "aws-credential-types",
+        "aws-sdk-s3",
+        "bytes",
+        "derive_builder",
+        "log",
+        "remi-core",
+        "serde",
+        "tokio"
+    ]
+}

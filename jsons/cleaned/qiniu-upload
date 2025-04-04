@@ -1,0 +1,32 @@
+{
+    "name": "qiniu-upload",
+    "deps": [
+        "anyhow",
+        "base64",
+        "crc32fast",
+        "dashmap",
+        "digest",
+        "directories",
+        "env_logger",
+        "futures",
+        "hex",
+        "hmac",
+        "log",
+        "md-5",
+        "notify",
+        "once_cell",
+        "positioned-io",
+        "rand",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "sha-1",
+        "tap",
+        "tempfile",
+        "thiserror",
+        "tokio",
+        "toml",
+        "url",
+        "warp"
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "name": "darksteel",
+    "deps": [
+        "anyhow",
+        "async-raft",
+        "async-trait",
+        "bincode",
+        "darksteel-codegen",
+        "dns-lookup",
+        "downcast-rs",
+        "dyn-clone",
+        "futures",
+        "http",
+        "prost",
+        "rand",
+        "serde",
+        "sorted-insert",
+        "thiserror",
+        "tokio",
+        "tokio-stream",
+        "tonic",
+        "tonic-build",
+        "tracing",
+        "tracing-subscriber",
+        "typetag",
+        "unchecked_unwrap"
+    ]
+}

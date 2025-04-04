@@ -1,0 +1,27 @@
+{
+    "name": "blip",
+    "deps": [
+        "async_ctx",
+        "bytes",
+        "failure",
+        "failure_derive",
+        "fnv",
+        "futures",
+        "http",
+        "hyper",
+        "pin-project",
+        "prost",
+        "quickcheck",
+        "quickcheck_async",
+        "quickcheck_macros",
+        "rand",
+        "tokio",
+        "tonic",
+        "tonic-build",
+        "tower",
+        "tower-load",
+        "tower-make",
+        "tower-service",
+        "tracing"
+    ]
+}

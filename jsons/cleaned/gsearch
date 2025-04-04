@@ -1,0 +1,25 @@
+{
+    "name": "gsearch",
+    "deps": [
+        "annembed",
+        "anyhow",
+        "clap",
+        "cpu-time",
+        "crossbeam-channel",
+        "crossbeam-utils",
+        "csv",
+        "env_logger",
+        "hnsw_rs",
+        "kmerutils",
+        "lazy_static",
+        "log",
+        "needletail",
+        "num",
+        "num_cpus",
+        "parking_lot",
+        "probminhash",
+        "rayon",
+        "serde",
+        "serde_json"
+    ]
+}

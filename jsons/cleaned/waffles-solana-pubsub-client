@@ -1,0 +1,23 @@
+{
+    "name": "waffles-solana-pubsub-client",
+    "deps": [
+        "anyhow",
+        "crossbeam-channel",
+        "futures-util",
+        "log",
+        "reqwest",
+        "semver",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "solana-account-decoder",
+        "solana-rpc-client-api",
+        "solana-sdk",
+        "thiserror",
+        "tokio",
+        "tokio-stream",
+        "tokio-tungstenite",
+        "tungstenite",
+        "url"
+    ]
+}

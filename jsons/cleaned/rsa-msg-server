@@ -1,0 +1,21 @@
+{
+    "name": "rsa-msg-server",
+    "deps": [
+        "anyhow",
+        "clap",
+        "colorize",
+        "futures-util",
+        "hex",
+        "lazy_static",
+        "log",
+        "openssl",
+        "packets",
+        "pretty_env_logger",
+        "readonly",
+        "tokio",
+        "tokio-stream",
+        "tokio-util",
+        "uuid",
+        "warp"
+    ]
+}

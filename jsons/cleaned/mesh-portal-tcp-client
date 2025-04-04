@@ -1,0 +1,12 @@
+{
+    "name": "mesh-portal-tcp-client",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "dashmap",
+        "mesh-portal",
+        "mesh-portal-api-client",
+        "mesh-portal-tcp-common",
+        "tokio"
+    ]
+}

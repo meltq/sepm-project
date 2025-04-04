@@ -1,0 +1,16 @@
+{
+    "name": "etwin_services",
+    "deps": [
+        "chrono",
+        "etwin_config",
+        "etwin_core",
+        "etwin_db_schema",
+        "etwin_hammerfest_client",
+        "etwin_hammerfest_store",
+        "etwin_link_store",
+        "etwin_user_store",
+        "serial_test",
+        "sqlx",
+        "tokio"
+    ]
+}

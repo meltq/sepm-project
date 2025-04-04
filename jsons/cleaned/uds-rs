@@ -1,0 +1,20 @@
+{
+    "name": "uds-rs",
+    "deps": [
+        "bitflags",
+        "embedded-can",
+        "env_logger",
+        "futures",
+        "futures-timer",
+        "futures-util",
+        "libc",
+        "log",
+        "mio",
+        "nix",
+        "num_enum",
+        "rand",
+        "thiserror",
+        "tokio",
+        "tokio-socketcan-isotp"
+    ]
+}

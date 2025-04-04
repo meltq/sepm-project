@@ -1,0 +1,22 @@
+{
+    "name": "steady_state_aeron",
+    "deps": [
+        "cache_line_size",
+        "chrono",
+        "clap",
+        "ctrlc",
+        "galvanic-assert",
+        "hdrhistogram",
+        "lazy_static",
+        "log",
+        "memmap",
+        "memoffset",
+        "nix",
+        "num-traits",
+        "pretty_env_logger",
+        "rand",
+        "rustc_version",
+        "tempfile",
+        "thiserror"
+    ]
+}

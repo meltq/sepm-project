@@ -1,0 +1,15 @@
+{
+    "name": "bevy-firebase-firestore",
+    "deps": [
+        "bevy",
+        "bevy-firebase-auth",
+        "bevy-tokio-tasks",
+        "bevy_macro_utils",
+        "futures-lite",
+        "open",
+        "prost",
+        "prost-types",
+        "tonic",
+        "tonic-build"
+    ]
+}

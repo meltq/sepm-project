@@ -1,0 +1,28 @@
+{
+    "name": "iroh-node-util",
+    "deps": [
+        "anyhow",
+        "clap",
+        "colored",
+        "comfy-table",
+        "derive_more",
+        "dirs-next",
+        "futures-lite",
+        "human-time",
+        "iroh",
+        "nested_enum_utils",
+        "quic-rpc",
+        "quic-rpc-derive",
+        "rustyline",
+        "serde",
+        "serde-error",
+        "serde_with",
+        "strum",
+        "tempfile",
+        "time",
+        "tokio",
+        "tracing",
+        "tracing-appender",
+        "tracing-subscriber"
+    ]
+}

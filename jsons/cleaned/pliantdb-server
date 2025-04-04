@@ -1,0 +1,20 @@
+{
+    "name": "pliantdb-server",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "bincode",
+        "flume",
+        "futures",
+        "itertools",
+        "pliantdb-core",
+        "pliantdb-core",
+        "pliantdb-jobs",
+        "pliantdb-local",
+        "serde",
+        "structopt",
+        "thiserror",
+        "tokio",
+        "tokio-tungstenite"
+    ]
+}

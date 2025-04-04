@@ -1,0 +1,17 @@
+{
+    "name": "rtpeeker",
+    "deps": [
+        "clap",
+        "etherparse",
+        "futures-util",
+        "log",
+        "mime_guess",
+        "pcap",
+        "pretty_env_logger",
+        "rtpeeker_common",
+        "rust-embed",
+        "tokio",
+        "tokio-stream",
+        "warp"
+    ]
+}

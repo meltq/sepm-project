@@ -1,0 +1,16 @@
+{
+    "name": "axum_tonic",
+    "deps": [
+        "axum",
+        "futures",
+        "http-body",
+        "hyper",
+        "prost",
+        "tokio",
+        "tonic",
+        "tonic-build",
+        "tower",
+        "tower-http",
+        "tracing-subscriber"
+    ]
+}

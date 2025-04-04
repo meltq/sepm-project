@@ -1,0 +1,24 @@
+{
+    "name": "wasm_client_anchor",
+    "deps": [
+        "anchor-lang",
+        "anyhow",
+        "assert2",
+        "async-trait",
+        "derive_more",
+        "insta",
+        "log",
+        "paste",
+        "retrier",
+        "serde",
+        "serde_json",
+        "solana-program",
+        "solana-sdk",
+        "test-log",
+        "thiserror",
+        "tokio",
+        "typed-builder",
+        "wallet_standard",
+        "wasm_client_solana"
+    ]
+}

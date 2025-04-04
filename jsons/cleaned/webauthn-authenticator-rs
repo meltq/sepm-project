@@ -1,0 +1,14 @@
+{
+    "name": "webauthn-authenticator-rs",
+    "deps": [
+        "authenticator",
+        "base64",
+        "env_logger",
+        "log",
+        "nom",
+        "serde_cbor",
+        "serde_json",
+        "url",
+        "webauthn-rs"
+    ]
+}

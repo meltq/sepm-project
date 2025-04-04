@@ -1,0 +1,33 @@
+{
+    "name": "ydb",
+    "deps": [
+        "async-trait",
+        "async_once",
+        "chrono",
+        "derivative",
+        "dyn-clone",
+        "http",
+        "itertools",
+        "lazy_static",
+        "mockall",
+        "ntest",
+        "num",
+        "once_cell",
+        "prost",
+        "prost-types",
+        "rand",
+        "reqwest",
+        "rust_decimal",
+        "serde",
+        "serde_json",
+        "strum",
+        "tokio",
+        "tonic",
+        "tower",
+        "tracing",
+        "tracing-subscriber",
+        "tracing-test",
+        "url",
+        "ydb-grpc"
+    ]
+}

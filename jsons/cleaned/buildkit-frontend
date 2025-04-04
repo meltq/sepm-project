@@ -1,0 +1,28 @@
+{
+    "name": "buildkit-frontend",
+    "deps": [
+        "buildkit-llb",
+        "buildkit-proto",
+        "chrono",
+        "csv",
+        "failure",
+        "futures-preview",
+        "http-connection",
+        "hyper",
+        "libc",
+        "log",
+        "mio",
+        "pretty_assertions",
+        "regex",
+        "runtime",
+        "runtime-tokio",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tower-grpc",
+        "tower-hyper",
+        "tower-request-modifier",
+        "tower-util",
+        "url"
+    ]
+}

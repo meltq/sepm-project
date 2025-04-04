@@ -1,0 +1,23 @@
+{
+    "name": "s3ftp",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "aws-config",
+        "aws-sdk-s3",
+        "axum",
+        "clap",
+        "dotenv",
+        "instant-acme",
+        "libunftp",
+        "rcgen",
+        "serde_json",
+        "tempdir",
+        "tokio",
+        "tokio-stream",
+        "tokio-util",
+        "tracing",
+        "tracing-subscriber",
+        "unftp-sbe-fs"
+    ]
+}

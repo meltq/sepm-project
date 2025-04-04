@@ -1,0 +1,14 @@
+{
+    "name": "low_latency_log",
+    "deps": [
+        "cfg-if",
+        "chrono",
+        "core_affinity",
+        "crossbeam-channel",
+        "gettid",
+        "log",
+        "once_cell",
+        "symlink",
+        "ufmt"
+    ]
+}

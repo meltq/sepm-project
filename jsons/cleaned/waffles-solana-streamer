@@ -1,0 +1,29 @@
+{
+    "name": "waffles-solana-streamer",
+    "deps": [
+        "crossbeam-channel",
+        "futures-util",
+        "histogram",
+        "indexmap",
+        "itertools",
+        "libc",
+        "log",
+        "nix",
+        "pem",
+        "percentage",
+        "pkcs8",
+        "quinn",
+        "quinn-proto",
+        "quinn-udp",
+        "rand",
+        "rcgen",
+        "rustls",
+        "solana-logger",
+        "solana-metrics",
+        "solana-sdk",
+        "thiserror",
+        "tokio",
+        "waffles-solana-perf",
+        "x509-parser"
+    ]
+}

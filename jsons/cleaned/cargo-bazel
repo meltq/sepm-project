@@ -1,0 +1,29 @@
+{
+    "name": "cargo-bazel",
+    "deps": [
+        "anyhow",
+        "cargo-lock",
+        "cargo-platform",
+        "cargo_metadata",
+        "cargo_toml",
+        "cfg-expr",
+        "clap",
+        "crates-index",
+        "hex",
+        "indoc",
+        "maplit",
+        "normpath",
+        "pathdiff",
+        "regex",
+        "semver",
+        "serde",
+        "serde_json",
+        "serde_starlark",
+        "sha2",
+        "spectral",
+        "tempfile",
+        "tera",
+        "textwrap",
+        "toml"
+    ]
+}

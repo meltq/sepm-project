@@ -1,0 +1,12 @@
+{
+    "name": "http-echo-server",
+    "deps": [
+        "axum",
+        "clap",
+        "log",
+        "pretty_env_logger",
+        "serde",
+        "serde_derive",
+        "tokio"
+    ]
+}

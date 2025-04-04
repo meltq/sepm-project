@@ -1,0 +1,11 @@
+{
+    "name": "s3_file_manager",
+    "deps": [
+        "clap",
+        "glob",
+        "rusoto_core",
+        "rusoto_s3",
+        "serde",
+        "tokio"
+    ]
+}

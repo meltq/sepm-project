@@ -1,0 +1,17 @@
+{
+    "name": "wasmcloud-httpclient",
+    "deps": [
+        "base64",
+        "env_logger",
+        "futures",
+        "log",
+        "mockito",
+        "reqwest",
+        "serde_json",
+        "tokio",
+        "tokio",
+        "wascc-codec",
+        "wasmcloud-actor-core",
+        "wasmcloud-actor-http-client"
+    ]
+}

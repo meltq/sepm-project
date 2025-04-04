@@ -1,0 +1,23 @@
+{
+    "name": "cargo-crate-api",
+    "deps": [
+        "cargo_metadata",
+        "clap",
+        "clap-cargo",
+        "clap-verbosity-flag",
+        "concolor-clap",
+        "concolor-control",
+        "crate-api",
+        "env_logger",
+        "eyre",
+        "git2",
+        "human-panic",
+        "log",
+        "proc-exit",
+        "rustdoc-json-types-fork",
+        "serde",
+        "serde_json",
+        "termtree",
+        "yansi"
+    ]
+}

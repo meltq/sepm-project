@@ -1,0 +1,17 @@
+{
+    "name": "cron_macro",
+    "deps": [
+        "cron",
+        "cron_macro_codegen",
+        "ctrlc",
+        "lazy_static",
+        "proc-macro2",
+        "quote",
+        "serde",
+        "serde_json",
+        "syn",
+        "tokio",
+        "tokio-cron-scheduler",
+        "uuid"
+    ]
+}

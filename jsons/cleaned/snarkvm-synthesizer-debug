@@ -1,0 +1,31 @@
+{
+    "name": "snarkvm-synthesizer-debug",
+    "deps": [
+        "aleo-std",
+        "algorithms",
+        "anyhow",
+        "anyhow",
+        "circuit",
+        "console",
+        "criterion",
+        "indexmap",
+        "itertools",
+        "ledger-block",
+        "ledger-coinbase",
+        "ledger-committee",
+        "ledger-query",
+        "ledger-store",
+        "once_cell",
+        "parking_lot",
+        "rand",
+        "rayon",
+        "rayon",
+        "serde_json",
+        "serde_yaml",
+        "synthesizer-process",
+        "synthesizer-program",
+        "synthesizer-snark",
+        "tracing",
+        "walkdir"
+    ]
+}

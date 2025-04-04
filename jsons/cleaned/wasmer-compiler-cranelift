@@ -1,0 +1,19 @@
+{
+    "name": "wasmer-compiler-cranelift",
+    "deps": [
+        "cranelift-codegen",
+        "cranelift-codegen",
+        "cranelift-frontend",
+        "gimli",
+        "hashbrown",
+        "lazy_static",
+        "more-asserts",
+        "rayon",
+        "serde",
+        "target-lexicon",
+        "tracing",
+        "wasmer-compiler",
+        "wasmer-types",
+        "wasmer-vm"
+    ]
+}

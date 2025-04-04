@@ -1,0 +1,14 @@
+{
+    "name": "wasmer-runtime-near",
+    "deps": [
+        "criterion",
+        "lazy_static",
+        "memmap",
+        "serde",
+        "serde_derive",
+        "tempfile",
+        "wabt",
+        "wasmer-runtime-core-near",
+        "wasmer-singlepass-backend-near"
+    ]
+}

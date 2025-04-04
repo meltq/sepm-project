@@ -1,0 +1,23 @@
+{
+    "name": "ethers_hardhat",
+    "deps": [
+        "anyhow",
+        "async-process",
+        "async-trait",
+        "colorable",
+        "ethers_primitives",
+        "ethers_provider",
+        "ethers_signer",
+        "ethers_wallet",
+        "futures",
+        "log",
+        "once_cell",
+        "pretty_env_logger",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "async-std",
+        "criterion",
+        "dotenv"
+    ]
+}

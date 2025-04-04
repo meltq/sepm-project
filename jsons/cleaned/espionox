@@ -1,0 +1,32 @@
+{
+    "name": "espionox",
+    "deps": [
+        "anyhow",
+        "async-recursion",
+        "byteorder",
+        "bytes",
+        "dotenv",
+        "futures",
+        "futures-util",
+        "once_cell",
+        "pgvector",
+        "rand",
+        "reqwest",
+        "reqwest-streams",
+        "rust-bert",
+        "serde",
+        "serde-aux",
+        "serde_derive",
+        "serde_json",
+        "serde_yaml",
+        "sqlx",
+        "tch",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "tracing-bunyan-formatter",
+        "tracing-log",
+        "tracing-subscriber",
+        "uuid"
+    ]
+}

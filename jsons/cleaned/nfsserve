@@ -1,0 +1,19 @@
+{
+    "name": "nfsserve",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "byteorder",
+        "bytestream",
+        "filetime",
+        "futures",
+        "intaglio",
+        "num-derive",
+        "num-traits",
+        "smallvec",
+        "tokio",
+        "tracing",
+        "tracing-attributes",
+        "tracing-subscriber"
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "name": "hds_tokio-console",
+    "deps": [
+        "clap",
+        "clap_complete",
+        "color-eyre",
+        "console-api",
+        "crossterm",
+        "dirs",
+        "futures",
+        "h2",
+        "hdrhistogram",
+        "humantime",
+        "once_cell",
+        "prost-types",
+        "ratatui",
+        "regex",
+        "serde",
+        "tokio",
+        "toml",
+        "tonic",
+        "tower",
+        "tracing",
+        "tracing-journald",
+        "tracing-subscriber",
+        "trycmd"
+    ]
+}

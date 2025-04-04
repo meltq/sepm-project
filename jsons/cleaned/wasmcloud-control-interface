@@ -1,0 +1,16 @@
+{
+    "name": "wasmcloud-control-interface",
+    "deps": [
+        "actix-rt",
+        "data-encoding",
+        "futures",
+        "nats",
+        "ring",
+        "rmp-serde",
+        "serde",
+        "serde_bytes",
+        "serde_json",
+        "uuid",
+        "wascap"
+    ]
+}

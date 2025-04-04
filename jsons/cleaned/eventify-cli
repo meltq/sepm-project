@@ -1,0 +1,26 @@
+{
+    "name": "eventify-cli",
+    "deps": [
+        "alloy-primitives",
+        "clap",
+        "ethers-core",
+        "ethers-providers",
+        "eventify-http-server",
+        "eventify-idx",
+        "eventify-primitives",
+        "futures",
+        "log",
+        "num_cpus",
+        "secrecy",
+        "serial_test",
+        "sqlx",
+        "temp-env",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "tracing-bunyan-formatter",
+        "tracing-log",
+        "tracing-subscriber",
+        "url"
+    ]
+}

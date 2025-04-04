@@ -1,0 +1,12 @@
+{
+    "name": "io_uring_actor",
+    "deps": [
+        "flume",
+        "io-uring",
+        "libc",
+        "tempfile",
+        "tokio",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

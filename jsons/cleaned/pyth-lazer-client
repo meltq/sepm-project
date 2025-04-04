@@ -1,0 +1,21 @@
+{
+    "name": "pyth-lazer-client",
+    "deps": [
+        "alloy-primitives",
+        "anyhow",
+        "base64",
+        "bincode",
+        "bs58",
+        "ed25519-dalek",
+        "futures-util",
+        "hex",
+        "libsecp256k1",
+        "pyth-lazer-protocol",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tokio-tungstenite",
+        "tracing",
+        "url"
+    ]
+}

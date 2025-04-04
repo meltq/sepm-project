@@ -1,0 +1,25 @@
+{
+    "name": "htsget-axum",
+    "deps": [
+        "async-trait",
+        "axum",
+        "axum-extra",
+        "data-url",
+        "futures",
+        "htsget-config",
+        "htsget-http",
+        "htsget-search",
+        "htsget-test",
+        "http",
+        "hyper",
+        "hyper-util",
+        "reqwest",
+        "tempfile",
+        "thiserror",
+        "tokio",
+        "tokio-rustls",
+        "tower",
+        "tower-http",
+        "tracing"
+    ]
+}

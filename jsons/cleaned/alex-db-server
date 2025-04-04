@@ -1,0 +1,25 @@
+{
+    "name": "alex-db-server",
+    "deps": [
+        "alex-db-lib",
+        "axum",
+        "axum-macros",
+        "chrono",
+        "clap",
+        "fake",
+        "http",
+        "hyper",
+        "mime",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tower",
+        "tower-http",
+        "tracing",
+        "tracing-subscriber",
+        "utoipa",
+        "utoipa-swagger-ui",
+        "uuid",
+        "validator"
+    ]
+}

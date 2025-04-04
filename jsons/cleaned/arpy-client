@@ -1,0 +1,15 @@
+{
+    "name": "arpy-client",
+    "deps": [
+        "arpy",
+        "async-trait",
+        "bincode",
+        "futures",
+        "pin-project",
+        "serde",
+        "slotmap",
+        "thiserror",
+        "tokio",
+        "tokio-stream"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "name": "cca-realm-measurements",
+    "deps": [
+        "anyhow",
+        "base64",
+        "bincode",
+        "byteorder",
+        "cca-rmm",
+        "clap",
+        "fallible-iterator",
+        "log",
+        "memmap2",
+        "num-derive",
+        "num-traits",
+        "openssl",
+        "serde",
+        "serde_json",
+        "stderrlog",
+        "thiserror",
+        "toml",
+        "vm-fdt"
+    ]
+}

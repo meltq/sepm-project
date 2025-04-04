@@ -1,0 +1,18 @@
+{
+    "name": "fowner",
+    "deps": [
+        "actix-web",
+        "chrono",
+        "clap",
+        "env_logger",
+        "log",
+        "r2d2",
+        "r2d2_sqlite",
+        "rand",
+        "regex",
+        "rusqlite_migration",
+        "serde",
+        "serde_json",
+        "thiserror"
+    ]
+}

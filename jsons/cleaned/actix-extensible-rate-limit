@@ -1,0 +1,14 @@
+{
+    "name": "actix-extensible-rate-limit",
+    "deps": [
+        "actix-web",
+        "async-trait",
+        "dashmap",
+        "futures",
+        "log",
+        "once_cell",
+        "redis",
+        "thiserror",
+        "tokio"
+    ]
+}

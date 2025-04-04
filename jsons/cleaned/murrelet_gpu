@@ -1,0 +1,22 @@
+{
+    "name": "murrelet_gpu",
+    "deps": [
+        "bytemuck",
+        "glam",
+        "image",
+        "itertools",
+        "murrelet_common",
+        "murrelet_draw",
+        "murrelet_livecode",
+        "murrelet_livecode_derive",
+        "murrelet_livecode_macros",
+        "murrelet_perform",
+        "palette",
+        "rand",
+        "regex",
+        "serde",
+        "serde_yaml",
+        "wgpu_for_latest",
+        "wgpu_for_nannou"
+    ]
+}

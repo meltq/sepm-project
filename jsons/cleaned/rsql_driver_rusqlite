@@ -1,0 +1,14 @@
+{
+    "name": "rsql_driver_rusqlite",
+    "deps": [
+        "async-trait",
+        "file_type",
+        "rsql_driver",
+        "rsql_driver_sqlite",
+        "rsql_driver_test_utils",
+        "rusqlite",
+        "sqlparser",
+        "tokio",
+        "url"
+    ]
+}

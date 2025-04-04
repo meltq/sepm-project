@@ -1,0 +1,24 @@
+{
+    "name": "zksync_object_store",
+    "deps": [
+        "anyhow",
+        "assert_matches",
+        "async-trait",
+        "bincode",
+        "flate2",
+        "google-cloud-auth",
+        "google-cloud-storage",
+        "http",
+        "prost",
+        "rand",
+        "reqwest",
+        "serde_json",
+        "tempfile",
+        "tokio",
+        "tracing",
+        "vise",
+        "zksync_config",
+        "zksync_protobuf",
+        "zksync_types"
+    ]
+}

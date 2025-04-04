@@ -1,0 +1,11 @@
+{
+    "name": "rustls-cert-reloadable-resolver",
+    "deps": [
+        "async-trait",
+        "rustls",
+        "rustls-cert-read",
+        "rustls-cert-reloadable",
+        "thiserror",
+        "tokio"
+    ]
+}

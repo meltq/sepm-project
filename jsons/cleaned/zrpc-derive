@@ -1,0 +1,23 @@
+{
+    "name": "zrpc-derive",
+    "deps": [
+        "Inflector",
+        "async-trait",
+        "base64",
+        "darling",
+        "env_logger",
+        "futures",
+        "log",
+        "proc-macro2",
+        "quote",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "syn",
+        "syn-serde",
+        "tokio",
+        "zenoh",
+        "zenoh-util",
+        "zrpc"
+    ]
+}

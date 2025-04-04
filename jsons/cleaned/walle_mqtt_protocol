@@ -1,0 +1,13 @@
+{
+    "name": "walle_mqtt_protocol",
+    "deps": [
+        "anyhow",
+        "bytes",
+        "serde",
+        "thiserror",
+        "tracing",
+        "tracing-appender",
+        "tracing-opentelemetry",
+        "tracing-subscriber"
+    ]
+}

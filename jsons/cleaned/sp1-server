@@ -1,0 +1,20 @@
+{
+    "name": "sp1-server",
+    "deps": [
+        "bincode",
+        "ctrlc",
+        "prost",
+        "prost-build",
+        "prost-types",
+        "serde",
+        "serde_json",
+        "sp1-core",
+        "sp1-core",
+        "sp1-prover",
+        "tokio",
+        "tracing",
+        "tracing-subscriber",
+        "twirp",
+        "twirp-build"
+    ]
+}

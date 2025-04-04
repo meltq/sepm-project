@@ -1,0 +1,17 @@
+{
+    "name": "gnark-bn254-verifier",
+    "deps": [
+        "anyhow",
+        "ark-bn254",
+        "ark-ec",
+        "ark-ff",
+        "ark-groth16",
+        "ark-serialize",
+        "ark-snark",
+        "lazy_static",
+        "num-bigint",
+        "num-traits",
+        "rand",
+        "sha2"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "tab-command",
+    "deps": [
+        "anyhow",
+        "bincode",
+        "clap",
+        "crossterm",
+        "futures",
+        "lifeline",
+        "log",
+        "serde",
+        "serde_yaml",
+        "simplelog",
+        "tab-api",
+        "tab-websocket",
+        "thiserror",
+        "tokio",
+        "tokio-test"
+    ]
+}

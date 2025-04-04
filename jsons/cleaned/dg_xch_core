@@ -1,0 +1,27 @@
+{
+    "name": "dg_xch_core",
+    "deps": [
+        "bech32",
+        "bip39",
+        "bls12_381",
+        "blst",
+        "bytes",
+        "dg_xch_macros",
+        "dg_xch_serialize",
+        "hex",
+        "hkdf",
+        "lazy_static",
+        "log",
+        "num-bigint",
+        "num-integer",
+        "num-traits",
+        "openssl",
+        "paperclip",
+        "regex",
+        "serde",
+        "serde_json",
+        "sha2",
+        "simple_logger",
+        "tokio"
+    ]
+}

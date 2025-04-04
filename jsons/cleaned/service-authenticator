@@ -1,0 +1,20 @@
+{
+    "name": "service-authenticator",
+    "deps": [
+        "actix-connect",
+        "actix-http",
+        "actix-rt",
+        "actix-web",
+        "base64",
+        "chrono",
+        "futures",
+        "log",
+        "percent-encoding",
+        "rustls",
+        "seahash",
+        "serde",
+        "serde_json",
+        "tokio",
+        "url"
+    ]
+}

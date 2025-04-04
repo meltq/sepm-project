@@ -1,0 +1,21 @@
+{
+    "name": "netidx-sysfs",
+    "deps": [
+        "anyhow",
+        "bytes",
+        "env_logger",
+        "futures",
+        "fxhash",
+        "globset",
+        "immutable-chunkmap",
+        "log",
+        "netidx",
+        "netidx-tools",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "structopt",
+        "tokio",
+        "triomphe"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "kanidm_client",
+    "deps": [
+        "actix",
+        "env_logger",
+        "futures",
+        "kanidm",
+        "kanidm_proto",
+        "log",
+        "reqwest",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "tokio",
+        "toml"
+    ]
+}

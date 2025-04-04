@@ -1,0 +1,17 @@
+{
+    "name": "sos-remote-sync",
+    "deps": [
+        "async-trait",
+        "indexmap",
+        "rustc_version",
+        "sos-account",
+        "sos-backend",
+        "sos-core",
+        "sos-protocol",
+        "sos-sync",
+        "sos-vfs",
+        "thiserror",
+        "tokio",
+        "tracing"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "taskcluster-upload",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "base64",
+        "httptest",
+        "reqwest",
+        "ring",
+        "serde",
+        "serde_json",
+        "sha2",
+        "slugid",
+        "taskcluster",
+        "tempfile",
+        "tokio",
+        "tokio-util"
+    ]
+}

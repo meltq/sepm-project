@@ -1,0 +1,31 @@
+{
+    "name": "ledger-zcash-builder",
+    "deps": [
+        "bellman",
+        "blake2b_simd",
+        "bls12_381",
+        "byteorder",
+        "cfg-if",
+        "chacha20poly1305",
+        "educe",
+        "ff",
+        "group",
+        "hex",
+        "jubjub",
+        "lazy_static",
+        "log",
+        "pairing",
+        "rand",
+        "rand_core",
+        "ripemd",
+        "secp256k1",
+        "serde",
+        "serde_derive",
+        "sha2",
+        "tokio",
+        "wagyu-zcash-parameters",
+        "zcash_note_encryption",
+        "zcash_primitives",
+        "zcash_proofs"
+    ]
+}

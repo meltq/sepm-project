@@ -1,0 +1,26 @@
+{
+    "name": "miraland-transaction-status",
+    "deps": [
+        "Inflector",
+        "base64",
+        "bincode",
+        "borsh",
+        "bs58",
+        "lazy_static",
+        "log",
+        "miraland-account-decoder",
+        "miraland-address-lookup-table-program",
+        "miraland-measure",
+        "miraland-metrics",
+        "miraland-sdk",
+        "miraland-vote-program",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "solarti-associated-token-account",
+        "solarti-memo",
+        "solarti-token",
+        "solarti-token-2022",
+        "thiserror"
+    ]
+}

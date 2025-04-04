@@ -1,0 +1,15 @@
+{
+    "name": "agp-service",
+    "deps": [
+        "agp-config",
+        "agp-datapath",
+        "drain",
+        "serde",
+        "thiserror",
+        "tokio",
+        "tokio-util",
+        "tonic",
+        "tracing",
+        "tracing-test"
+    ]
+}

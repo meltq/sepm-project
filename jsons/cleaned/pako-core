@@ -1,0 +1,27 @@
+{
+    "name": "pako-core",
+    "deps": [
+        "base16ct",
+        "base64ct",
+        "crossbeam-channel",
+        "fnv",
+        "indexmap",
+        "lazy_static",
+        "log",
+        "multimap",
+        "num_cpus",
+        "ospf-parser",
+        "pako-tools",
+        "pnet_base",
+        "pnet_macros_support",
+        "pnet_packet",
+        "rand",
+        "rand_chacha",
+        "seahash",
+        "serde",
+        "serde_json",
+        "sha1",
+        "thiserror",
+        "tls-parser"
+    ]
+}

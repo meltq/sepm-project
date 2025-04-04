@@ -1,0 +1,28 @@
+{
+    "name": "miraland-streamer",
+    "deps": [
+        "crossbeam-channel",
+        "futures-util",
+        "histogram",
+        "indexmap",
+        "itertools",
+        "libc",
+        "log",
+        "miraland-logger",
+        "miraland-metrics",
+        "miraland-perf",
+        "miraland-sdk",
+        "nix",
+        "pem",
+        "percentage",
+        "pkcs8",
+        "quinn",
+        "rand",
+        "rcgen",
+        "rustls",
+        "thiserror",
+        "time",
+        "tokio",
+        "x509-parser"
+    ]
+}

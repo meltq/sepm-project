@@ -1,0 +1,31 @@
+{
+    "name": "stm32f1xx-hal-bxcan",
+    "deps": [
+        "bxcan",
+        "byteorder",
+        "cast",
+        "cobs",
+        "cortex-m",
+        "cortex-m-rt",
+        "cortex-m-rtic",
+        "cortex-m-semihosting",
+        "crc16",
+        "either",
+        "embedded-dma",
+        "embedded-hal",
+        "heapless",
+        "m",
+        "mfrc522",
+        "nb",
+        "panic-halt",
+        "panic-itm",
+        "panic-semihosting",
+        "serde",
+        "serde_derive",
+        "stm32-usbd",
+        "stm32f1",
+        "usb-device",
+        "usbd-serial",
+        "void"
+    ]
+}

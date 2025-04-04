@@ -1,0 +1,30 @@
+{
+    "name": "chatd",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "chrono",
+        "circular-buffer",
+        "clap",
+        "crossterm",
+        "dirs",
+        "enum_dispatch",
+        "fnv",
+        "futures",
+        "governor",
+        "humantime",
+        "lazy_static",
+        "log",
+        "log4rs",
+        "nonzero_ext",
+        "rand",
+        "regex",
+        "russh",
+        "russh-keys",
+        "strum",
+        "terminal-keycode",
+        "tokio",
+        "unicode-segmentation",
+        "unicode-width"
+    ]
+}

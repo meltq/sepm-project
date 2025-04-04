@@ -1,0 +1,14 @@
+{
+    "name": "atm0s-sdn-redis-server",
+    "deps": [
+        "async-std",
+        "atm0s-sdn-identity",
+        "atm0s-sdn-key-value",
+        "atm0s-sdn-network",
+        "atm0s-sdn-router",
+        "atm0s-sdn-utils",
+        "log",
+        "resp",
+        "serde"
+    ]
+}

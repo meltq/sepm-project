@@ -1,0 +1,16 @@
+{
+    "name": "dbmigrator",
+    "deps": [
+        "async-trait",
+        "regex",
+        "serde",
+        "sha2",
+        "tempfile",
+        "thiserror",
+        "time",
+        "tokio",
+        "tokio-postgres",
+        "version-compare",
+        "walkdir"
+    ]
+}

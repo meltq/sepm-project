@@ -1,0 +1,15 @@
+{
+    "name": "hotg-runicos-base-runtime",
+    "deps": [
+        "anyhow",
+        "hotg-rune-core",
+        "hotg-rune-runtime",
+        "hotg-rune-wasmer-runtime",
+        "log",
+        "serde_json",
+        "syn",
+        "tflite",
+        "wasmer",
+        "wasmer-vm"
+    ]
+}

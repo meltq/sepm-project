@@ -1,0 +1,12 @@
+{
+    "name": "cargolifter-storage-s3",
+    "deps": [
+        "async-trait",
+        "aws-config",
+        "aws-sdk-s3",
+        "aws-types",
+        "bytes",
+        "cargolifter-core",
+        "tracing"
+    ]
+}

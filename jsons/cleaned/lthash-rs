@@ -1,0 +1,15 @@
+{
+    "name": "lthash-rs",
+    "deps": [
+        "bytemuck",
+        "byteorder",
+        "cfg-if",
+        "criterion",
+        "criterion-cycles-per-byte",
+        "digest",
+        "num-traits",
+        "sha3",
+        "static_assertions",
+        "subtle"
+    ]
+}

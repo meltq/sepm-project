@@ -1,0 +1,15 @@
+{
+    "name": "drmem-config",
+    "deps": [
+        "async-trait",
+        "clap",
+        "drmem-api",
+        "serde",
+        "serde_derive",
+        "tokio",
+        "toml",
+        "tracing",
+        "tracing-futures",
+        "tracing-subscriber"
+    ]
+}

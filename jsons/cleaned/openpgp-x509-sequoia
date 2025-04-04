@@ -1,0 +1,19 @@
+{
+    "name": "openpgp-x509-sequoia",
+    "deps": [
+        "anyhow",
+        "asn1-rs",
+        "chrono",
+        "clap",
+        "cookie-factory",
+        "elliptic-curve",
+        "p256",
+        "p384",
+        "p521",
+        "rsa",
+        "sequoia-openpgp",
+        "sha2",
+        "x509",
+        "zeroize"
+    ]
+}

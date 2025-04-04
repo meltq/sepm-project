@@ -1,0 +1,15 @@
+{
+    "name": "rdbc_sqlite3",
+    "deps": [
+        "anyhow",
+        "log",
+        "once_cell",
+        "rdbc-rs",
+        "sqlite3-sys",
+        "uuid",
+        "async-std",
+        "criterion",
+        "dotenv",
+        "pretty_env_logger"
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "name": "mugle_servers",
+    "deps": [
+        "chrono",
+        "fs2",
+        "futures",
+        "http",
+        "hyper",
+        "hyper-rustls",
+        "lmdb-zero",
+        "log",
+        "mugle_api",
+        "mugle_chain",
+        "mugle_core",
+        "mugle_keychain",
+        "mugle_p2p",
+        "mugle_pool",
+        "mugle_store",
+        "mugle_util",
+        "rand",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "tokio",
+        "tokio-util",
+        "walkdir"
+    ]
+}

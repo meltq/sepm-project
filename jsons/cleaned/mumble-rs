@@ -1,0 +1,16 @@
+{
+    "name": "mumble-rs",
+    "deps": [
+        "anyhow",
+        "bytes",
+        "futures",
+        "prost",
+        "prost-build",
+        "rustls-pki-types",
+        "tokio",
+        "tokio-rustls",
+        "tokio-stream",
+        "tokio-util",
+        "webpki-roots"
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "name": "modbus-relay",
+    "deps": [
+        "axum",
+        "clap",
+        "config",
+        "futures",
+        "hex",
+        "humantime-serde",
+        "libc",
+        "rand",
+        "rmodbus",
+        "serde",
+        "serde_json",
+        "serde_yaml",
+        "serial_test",
+        "serialport",
+        "tempdir",
+        "tempfile",
+        "thiserror",
+        "time",
+        "tokio",
+        "tower",
+        "tower-http",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

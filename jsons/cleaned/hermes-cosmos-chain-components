@@ -1,0 +1,32 @@
+{
+    "name": "hermes-cosmos-chain-components",
+    "deps": [
+        "bech32",
+        "cgp",
+        "cgp-component-macro",
+        "eyre",
+        "futures",
+        "hermes-encoding-components",
+        "hermes-protobuf-encoding-components",
+        "hermes-relayer-components",
+        "hermes-relayer-components-extra",
+        "hermes-runtime",
+        "http",
+        "ibc",
+        "ibc-proto",
+        "ibc-relayer",
+        "ibc-relayer-types",
+        "ics23",
+        "itertools",
+        "prost",
+        "prost-types",
+        "serde_json",
+        "tendermint",
+        "tendermint-proto",
+        "tendermint-rpc",
+        "time",
+        "tokio",
+        "tonic",
+        "tracing"
+    ]
+}

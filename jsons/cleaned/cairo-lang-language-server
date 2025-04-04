@@ -1,0 +1,26 @@
+{
+    "name": "cairo-lang-language-server",
+    "deps": [
+        "cairo-lang-compiler",
+        "cairo-lang-debug",
+        "cairo-lang-defs",
+        "cairo-lang-diagnostics",
+        "cairo-lang-filesystem",
+        "cairo-lang-formatter",
+        "cairo-lang-lowering",
+        "cairo-lang-parser",
+        "cairo-lang-plugins",
+        "cairo-lang-project",
+        "cairo-lang-semantic",
+        "cairo-lang-starknet",
+        "cairo-lang-syntax",
+        "cairo-lang-utils",
+        "lsp",
+        "salsa",
+        "serde",
+        "serde_json",
+        "test-log",
+        "tokio",
+        "tower-lsp"
+    ]
+}

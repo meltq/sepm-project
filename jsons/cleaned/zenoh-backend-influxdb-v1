@@ -1,0 +1,23 @@
+{
+    "name": "zenoh-backend-influxdb-v1",
+    "deps": [
+        "async-std",
+        "async-trait",
+        "base64",
+        "env_logger",
+        "git-version",
+        "humantime",
+        "influxdb",
+        "lazy_static",
+        "log",
+        "rustc_version",
+        "serde",
+        "serde_json",
+        "uuid",
+        "zenoh",
+        "zenoh-collections",
+        "zenoh-core",
+        "zenoh-util",
+        "zenoh_backend_traits"
+    ]
+}

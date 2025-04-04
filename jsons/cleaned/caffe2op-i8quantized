@@ -1,0 +1,15 @@
+{
+    "name": "caffe2op-i8quantized",
+    "deps": [
+        "caffe2-context",
+        "caffe2-imports",
+        "caffe2-operator",
+        "caffe2-tensor",
+        "caffe2-types",
+        "caffe2-util",
+        "caffe2op-conv",
+        "caffe2op-reshape",
+        "caffe2op-slice",
+        "caffe2op-transpose"
+    ]
+}

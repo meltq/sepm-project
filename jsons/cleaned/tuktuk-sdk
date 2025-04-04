@@ -1,0 +1,23 @@
+{
+    "name": "tuktuk-sdk",
+    "deps": [
+        "anchor-lang",
+        "async-trait",
+        "base64",
+        "bincode",
+        "bytemuck",
+        "futures",
+        "futures-core",
+        "itertools",
+        "serde",
+        "serde_json",
+        "solana-account-decoder",
+        "solana-client",
+        "solana-sdk",
+        "spl-associated-token-account",
+        "spl-token",
+        "thiserror",
+        "tokio",
+        "tuktuk-program"
+    ]
+}

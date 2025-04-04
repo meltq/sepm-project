@@ -1,0 +1,20 @@
+{
+    "name": "async-llm",
+    "deps": [
+        "async-trait",
+        "derive_builder",
+        "dotenvy",
+        "futures",
+        "reqwest",
+        "reqwest-eventsource",
+        "secrecy",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tokio-stream",
+        "tracing",
+        "tracing-log",
+        "tracing-subscriber"
+    ]
+}

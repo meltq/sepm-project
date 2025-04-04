@@ -1,0 +1,32 @@
+{
+    "name": "snarkos-node",
+    "deps": [
+        "aleo-std",
+        "anyhow",
+        "async-trait",
+        "colored",
+        "deadline",
+        "futures-util",
+        "indexmap",
+        "num_cpus",
+        "parking_lot",
+        "pea2pea",
+        "rand",
+        "rand_chacha",
+        "rayon",
+        "serde_json",
+        "snarkos-account",
+        "snarkos-node-cdn",
+        "snarkos-node-consensus",
+        "snarkos-node-messages",
+        "snarkos-node-rest",
+        "snarkos-node-router",
+        "snarkos-node-tcp",
+        "snarkvm",
+        "time",
+        "tokio",
+        "tokio-util",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

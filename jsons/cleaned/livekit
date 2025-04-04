@@ -1,0 +1,21 @@
+{
+    "name": "livekit",
+    "deps": [
+        "futures",
+        "futures-util",
+        "lazy_static",
+        "livekit-utils",
+        "livekit-webrtc",
+        "parking_lot",
+        "prost",
+        "prost-build",
+        "prost-types",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tokio-tungstenite",
+        "tracing",
+        "url"
+    ]
+}

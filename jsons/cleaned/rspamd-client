@@ -1,0 +1,21 @@
+{
+    "name": "rspamd-client",
+    "deps": [
+        "async-trait",
+        "attohttpc",
+        "bytes",
+        "futures",
+        "maybe-async",
+        "native-tls",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tokio-stream",
+        "typed-builder",
+        "ureq",
+        "url",
+        "zstd"
+    ]
+}

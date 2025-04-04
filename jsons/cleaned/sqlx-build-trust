@@ -1,0 +1,28 @@
+{
+    "name": "sqlx-build-trust",
+    "deps": [
+        "anyhow",
+        "async-std",
+        "criterion",
+        "dotenvy",
+        "env_logger",
+        "futures",
+        "hex",
+        "libsqlite3-sys",
+        "paste",
+        "rand",
+        "rand_xoshiro",
+        "serde",
+        "serde_json",
+        "sqlx-build-trust-core",
+        "sqlx-build-trust-postgres",
+        "sqlx-build-trust-sqlite",
+        "sqlx-macros",
+        "sqlx-mysql",
+        "tempfile",
+        "time_",
+        "tokio",
+        "trybuild",
+        "url"
+    ]
+}

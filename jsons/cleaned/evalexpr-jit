@@ -1,0 +1,14 @@
+{
+    "name": "evalexpr-jit",
+    "deps": [
+        "cranelift",
+        "cranelift-codegen",
+        "cranelift-jit",
+        "cranelift-module",
+        "cranelift-native",
+        "evalexpr",
+        "rayon",
+        "target-lexicon",
+        "thiserror"
+    ]
+}

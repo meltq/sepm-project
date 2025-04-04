@@ -1,0 +1,17 @@
+{
+    "name": "tp-runtime-interface",
+    "deps": [
+        "codec",
+        "externalities",
+        "impl-trait-for-tuples",
+        "rustversion",
+        "static_assertions",
+        "tetcore-std",
+        "tetcore-storage",
+        "tetcore-tracing",
+        "tetcore-wasm-interface",
+        "tetsy-primitive-types",
+        "tp-runtime-interface-proc-macro",
+        "trybuild"
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "name": "lipl-display-slint",
+    "deps": [
+        "anyhow",
+        "lipl-display-common",
+        "lipl-gatt-bluer",
+        "login-poweroff-reboot",
+        "serde",
+        "serde_with",
+        "slint",
+        "slint-build",
+        "toml",
+        "tracing",
+        "tracing-appender",
+        "tracing-log",
+        "tracing-subscriber"
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "name": "website-screenshot",
+    "deps": [
+        "actix-governor",
+        "actix-web",
+        "anyhow",
+        "async-trait",
+        "base64",
+        "cfg-if",
+        "cuid",
+        "dotenv",
+        "fantoccini",
+        "portpicker",
+        "redis",
+        "reqwest",
+        "rust-s3",
+        "serde",
+        "serde_json",
+        "sled",
+        "tokio",
+        "tokio-process-stream",
+        "tokio-stream",
+        "tracing",
+        "tracing-actix-web",
+        "tracing-subscriber",
+        "validator",
+        "version_check"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "name": "glsl-lang-lexer",
+    "deps": [
+        "glsl-lang-pp",
+        "glsl-lang-types",
+        "lalrpop-util",
+        "lang-util",
+        "logos",
+        "rserde",
+        "thiserror"
+    ]
+}

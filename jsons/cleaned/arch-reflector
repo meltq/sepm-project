@@ -1,0 +1,17 @@
+{
+    "name": "arch-reflector",
+    "deps": [
+        "anyhow",
+        "arch-mirrors-rs",
+        "clap",
+        "clap-verbosity-flag",
+        "color-eyre",
+        "comfy-table",
+        "directories",
+        "hashbag",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "tokio"
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "name": "tokio-rustls-acme",
+    "deps": [
+        "async-trait",
+        "axum",
+        "axum-server",
+        "base64",
+        "chrono",
+        "clap",
+        "futures",
+        "http-types",
+        "log",
+        "pem",
+        "rcgen",
+        "reqwest",
+        "ring",
+        "rustls",
+        "serde",
+        "serde_json",
+        "simple_logger",
+        "structopt",
+        "thiserror",
+        "tokio",
+        "tokio",
+        "tokio-rustls",
+        "tokio-stream",
+        "tokio-util",
+        "url",
+        "warp",
+        "webpki-roots",
+        "x509-parser"
+    ]
+}

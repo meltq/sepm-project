@@ -1,0 +1,15 @@
+{
+    "name": "async-vfs-os",
+    "deps": [
+        "async-compat",
+        "async-std",
+        "async-vfs",
+        "cfg-if",
+        "futures-lite",
+        "smol",
+        "smol-potat",
+        "thiserror",
+        "tokio",
+        "tokio-stream"
+    ]
+}

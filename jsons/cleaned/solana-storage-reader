@@ -1,0 +1,18 @@
+{
+    "name": "solana-storage-reader",
+    "deps": [
+        "async-trait",
+        "bincode",
+        "bzip2",
+        "enum-iterator",
+        "flate2",
+        "log",
+        "serde",
+        "serde_derive",
+        "solana-sdk",
+        "solana-transaction-status",
+        "thiserror",
+        "tokio",
+        "zstd"
+    ]
+}

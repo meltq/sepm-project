@@ -1,0 +1,25 @@
+{
+    "name": "playit-agent-core",
+    "deps": [
+        "async-trait",
+        "byteorder",
+        "bytes",
+        "chrono",
+        "futures-util",
+        "hex",
+        "http-body-util",
+        "hyper",
+        "hyper-rustls",
+        "hyper-util",
+        "playit-agent-proto",
+        "rand",
+        "serde",
+        "serde_json",
+        "time",
+        "tokio",
+        "toml",
+        "tracing",
+        "tracing-subscriber",
+        "uuid"
+    ]
+}

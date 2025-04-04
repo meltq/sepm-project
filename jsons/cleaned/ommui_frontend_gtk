@@ -1,0 +1,32 @@
+{
+    "name": "ommui_frontend_gtk",
+    "deps": [
+        "chrono",
+        "crossbeam-channel",
+        "dbus",
+        "dbus-udisks2",
+        "dirs",
+        "env_logger",
+        "gdk",
+        "gdk-pixbuf",
+        "gio",
+        "glib",
+        "gtk",
+        "indexmap",
+        "log",
+        "ommui_data",
+        "ommui_file_loading",
+        "ommui_relm_widgets",
+        "pango",
+        "relm",
+        "relm-derive",
+        "serde",
+        "snafu",
+        "structopt",
+        "systemstat",
+        "toml",
+        "uuid",
+        "xio_webapi",
+        "xio_webclient"
+    ]
+}

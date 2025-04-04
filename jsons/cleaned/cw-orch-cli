@@ -1,0 +1,30 @@
+{
+    "name": "cw-orch-cli",
+    "deps": [
+        "base64",
+        "bip32",
+        "clap",
+        "color-eyre",
+        "cosmrs",
+        "cosmwasm-std",
+        "cw-orch",
+        "cw-ownable",
+        "cw-utils",
+        "cw20",
+        "derive_more",
+        "directories",
+        "dotenv",
+        "inquire",
+        "interactive-clap",
+        "interactive-clap-derive",
+        "keyring",
+        "log",
+        "rand_core",
+        "serde",
+        "serde_json",
+        "shell-words",
+        "strum",
+        "thiserror",
+        "tonic"
+    ]
+}

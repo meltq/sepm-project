@@ -1,0 +1,21 @@
+{
+    "name": "bp3d-tracing",
+    "deps": [
+        "bincode",
+        "bp3d-env",
+        "bp3d-fs",
+        "bp3d-logger",
+        "byteorder",
+        "crossbeam-channel",
+        "dashmap",
+        "log",
+        "once_cell",
+        "semver",
+        "serde",
+        "time",
+        "time-tz",
+        "tracing",
+        "tracing-core",
+        "unbounded-udp"
+    ]
+}

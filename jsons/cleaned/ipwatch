@@ -1,0 +1,17 @@
+{
+    "name": "ipwatch",
+    "deps": [
+        "clap",
+        "env_logger",
+        "failure",
+        "futures",
+        "log",
+        "netlink-packet",
+        "netlink-proto",
+        "netlink-sys",
+        "regex",
+        "subprocess",
+        "tokio",
+        "tokio-reactor"
+    ]
+}

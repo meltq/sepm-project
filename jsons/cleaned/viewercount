@@ -1,0 +1,19 @@
+{
+    "name": "viewercount",
+    "deps": [
+        "anyhow",
+        "clap",
+        "dirs",
+        "futures",
+        "human-panic",
+        "log",
+        "nostr-relay-pool",
+        "nostr-sdk",
+        "nostr-signer",
+        "pretty_env_logger",
+        "procfs",
+        "serde",
+        "serde_json",
+        "tokio"
+    ]
+}

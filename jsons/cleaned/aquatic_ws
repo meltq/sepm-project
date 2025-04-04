@@ -1,0 +1,26 @@
+{
+    "name": "aquatic_ws",
+    "deps": [
+        "anyhow",
+        "aquatic_cli_helpers",
+        "aquatic_common",
+        "aquatic_ws_protocol",
+        "crossbeam-channel",
+        "either",
+        "hashbrown",
+        "histogram",
+        "indexmap",
+        "log",
+        "mimalloc",
+        "mio",
+        "native-tls",
+        "parking_lot",
+        "privdrop",
+        "quickcheck",
+        "quickcheck_macros",
+        "rand",
+        "serde",
+        "socket2",
+        "tungstenite"
+    ]
+}

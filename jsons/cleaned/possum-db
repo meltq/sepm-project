@@ -1,0 +1,28 @@
+{
+    "name": "possum-db",
+    "deps": [
+        "anyhow",
+        "bytesize",
+        "chrono",
+        "clap",
+        "criterion",
+        "env_logger",
+        "fdlimit",
+        "itertools",
+        "libc",
+        "log",
+        "maplit",
+        "memmap2",
+        "nix",
+        "num",
+        "positioned-io",
+        "rand",
+        "rusqlite",
+        "stable_deref_trait",
+        "take_mut",
+        "tempfile",
+        "test-log",
+        "thiserror",
+        "twox-hash"
+    ]
+}

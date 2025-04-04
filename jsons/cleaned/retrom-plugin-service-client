@@ -1,0 +1,19 @@
+{
+    "name": "retrom-plugin-service-client",
+    "deps": [
+        "hyper",
+        "hyper-rustls",
+        "retrom-codegen",
+        "serde",
+        "tauri",
+        "tauri-plugin",
+        "thiserror",
+        "tokio",
+        "tokio-rustls",
+        "tonic",
+        "tonic-web",
+        "tower",
+        "tracing",
+        "webpki-roots"
+    ]
+}

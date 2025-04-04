@@ -1,0 +1,25 @@
+{
+    "name": "dbcrossbar",
+    "deps": [
+        "clap",
+        "cli_test_dir",
+        "common_failures",
+        "dbcrossbarlib",
+        "difference",
+        "env_logger",
+        "failure",
+        "log",
+        "openssl",
+        "openssl-probe",
+        "serde",
+        "serde_json",
+        "slog",
+        "slog-async",
+        "slog-envlogger",
+        "slog-term",
+        "structopt",
+        "structopt-derive",
+        "tokio",
+        "url"
+    ]
+}

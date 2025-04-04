@@ -1,0 +1,23 @@
+{
+    "name": "chainpulse",
+    "deps": [
+        "axum",
+        "clap",
+        "futures",
+        "ibc-proto",
+        "moka",
+        "prometheus",
+        "prost",
+        "serde_json",
+        "sqlx",
+        "subtle-encoding",
+        "tendermint",
+        "tendermint-proto",
+        "tendermint-rpc",
+        "thiserror",
+        "time",
+        "tokio",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

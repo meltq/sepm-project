@@ -1,0 +1,32 @@
+{
+    "name": "dnstap-utils",
+    "deps": [
+        "anyhow",
+        "async-channel",
+        "async-stream",
+        "bytes",
+        "chrono",
+        "clap",
+        "domain",
+        "extfmt",
+        "futures",
+        "futures-util",
+        "heck",
+        "hex",
+        "hyper",
+        "inotify",
+        "lazy_static",
+        "libc",
+        "log",
+        "prometheus",
+        "prometheus-static-metric",
+        "prost",
+        "prost-build",
+        "simple-error",
+        "stderrlog",
+        "thiserror",
+        "tokio",
+        "tokio-stream",
+        "tokio-util"
+    ]
+}

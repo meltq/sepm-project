@@ -1,0 +1,30 @@
+{
+    "name": "gringron_api",
+    "deps": [
+        "bytes",
+        "easy-jsonrpc-mw",
+        "futures",
+        "gringron_chain",
+        "gringron_core",
+        "gringron_p2p",
+        "gringron_pool",
+        "gringron_store",
+        "gringron_util",
+        "http",
+        "hyper",
+        "hyper-rustls",
+        "hyper-timeout",
+        "lazy_static",
+        "log",
+        "regex",
+        "ring",
+        "rustls",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tokio-rustls",
+        "url"
+    ]
+}

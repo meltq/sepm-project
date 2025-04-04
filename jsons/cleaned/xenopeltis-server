@@ -1,0 +1,16 @@
+{
+    "name": "xenopeltis-server",
+    "deps": [
+        "anyhow",
+        "bincode",
+        "env_logger",
+        "futures",
+        "log",
+        "rand",
+        "structopt",
+        "tokio",
+        "tokio-serde",
+        "tokio-util",
+        "xenopeltis-common"
+    ]
+}

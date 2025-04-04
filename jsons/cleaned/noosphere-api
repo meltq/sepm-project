@@ -1,0 +1,21 @@
+{
+    "name": "noosphere-api",
+    "deps": [
+        "anyhow",
+        "cid",
+        "libipld-cbor",
+        "libipld-core",
+        "noosphere-core",
+        "noosphere-storage",
+        "reqwest",
+        "serde",
+        "serde_urlencoded",
+        "tokio",
+        "tracing",
+        "ucan",
+        "ucan-key-support",
+        "url",
+        "wasm-bindgen",
+        "wasm-bindgen-test"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "name": "ferrischat_webserver",
+    "deps": [
+        "actix",
+        "actix-web",
+        "actix-web-actors",
+        "argonautica",
+        "base64",
+        "dotenv",
+        "ferrischat_common",
+        "ferrischat_db",
+        "ferrischat_macros",
+        "ferrischat_snowflake_generator",
+        "futures",
+        "futures-cpupool",
+        "num-traits",
+        "ring",
+        "sqlx",
+        "tokio"
+    ]
+}

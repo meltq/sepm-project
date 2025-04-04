@@ -1,0 +1,24 @@
+{
+    "name": "todo_web_server",
+    "deps": [
+        "bytes",
+        "chrono",
+        "config",
+        "futures",
+        "handlebars",
+        "http",
+        "lazy_static",
+        "log",
+        "reqwest",
+        "rusqlite",
+        "rustls",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "serde_urlencoded",
+        "simplelog",
+        "todo_app_server",
+        "tokio",
+        "warp"
+    ]
+}

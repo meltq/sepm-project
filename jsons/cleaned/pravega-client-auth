@@ -1,0 +1,13 @@
+{
+    "name": "pravega-client-auth",
+    "deps": [
+        "async-trait",
+        "base64",
+        "lazy_static",
+        "pravega-client-shared",
+        "pravega-controller-client",
+        "regex",
+        "tokio",
+        "tracing"
+    ]
+}

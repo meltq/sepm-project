@@ -1,0 +1,16 @@
+{
+    "name": "ledger-ethereum",
+    "deps": [
+        "byteorder",
+        "ledger-transport",
+        "ledger-zondax-generic",
+        "thiserror",
+        "anyhow",
+        "env_logger",
+        "hex",
+        "secp256k1",
+        "serial_test",
+        "tiny-keccak",
+        "tokio"
+    ]
+}

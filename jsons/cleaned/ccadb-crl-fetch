@@ -1,0 +1,15 @@
+{
+    "name": "ccadb-crl-fetch",
+    "deps": [
+        "ccadb-csv",
+        "futures-util",
+        "indicatif",
+        "reqwest",
+        "serde_json",
+        "tokio",
+        "tokio-stream",
+        "tracing",
+        "tracing-subscriber",
+        "url"
+    ]
+}

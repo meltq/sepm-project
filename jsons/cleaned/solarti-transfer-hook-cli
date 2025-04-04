@@ -1,0 +1,21 @@
+{
+    "name": "solarti-transfer-hook-cli",
+    "deps": [
+        "clap",
+        "futures-util",
+        "miraland-clap-v3-utils",
+        "miraland-cli-config",
+        "miraland-client",
+        "miraland-logger",
+        "miraland-remote-wallet",
+        "miraland-sdk",
+        "miraland-test-validator",
+        "solarti-tlv-account-resolution",
+        "solarti-token-2022",
+        "solarti-token-client",
+        "solarti-transfer-hook-interface",
+        "strum",
+        "strum_macros",
+        "tokio"
+    ]
+}

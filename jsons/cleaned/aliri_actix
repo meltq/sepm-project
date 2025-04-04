@@ -1,0 +1,19 @@
+{
+    "name": "aliri_actix",
+    "deps": [
+        "actix-rt",
+        "actix-web",
+        "aliri",
+        "aliri_core",
+        "aliri_jose",
+        "aliri_oauth2",
+        "color-eyre",
+        "futures",
+        "once_cell",
+        "regex",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tracing"
+    ]
+}

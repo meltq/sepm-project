@@ -1,0 +1,14 @@
+{
+    "name": "zksync_circuit_breaker",
+    "deps": [
+        "anyhow",
+        "assert_matches",
+        "async-trait",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "vise",
+        "zksync_config",
+        "zksync_dal"
+    ]
+}

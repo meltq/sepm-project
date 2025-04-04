@@ -1,0 +1,32 @@
+{
+    "name": "bulwark-host",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "bb8-redis",
+        "bulwark-build",
+        "bulwark-config",
+        "bulwark-sdk",
+        "bytes",
+        "chrono",
+        "futures",
+        "http",
+        "http-body-util",
+        "metrics",
+        "redis",
+        "redis-test",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "url",
+        "validator",
+        "wasi-common",
+        "wasmtime",
+        "wasmtime-types",
+        "wasmtime-wasi",
+        "wasmtime-wasi-http",
+        "wat",
+        "wit-component"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "houseflow-device",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "bytes",
+        "futures-util",
+        "houseflow-config",
+        "houseflow-types",
+        "http",
+        "log",
+        "serde",
+        "serde_json",
+        "strum",
+        "tokio",
+        "tokio-tungstenite",
+        "tungstenite",
+        "url"
+    ]
+}

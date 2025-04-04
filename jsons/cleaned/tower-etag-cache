@@ -1,0 +1,19 @@
+{
+    "name": "tower-etag-cache",
+    "deps": [
+        "blake3",
+        "bytes",
+        "const-lru",
+        "data-encoding",
+        "http",
+        "http-body",
+        "hyper",
+        "num-traits",
+        "pin-project",
+        "time",
+        "tokio",
+        "tokio-util",
+        "tower-layer",
+        "tower-service"
+    ]
+}

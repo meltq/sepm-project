@@ -1,0 +1,21 @@
+{
+    "name": "chidori-static-analysis",
+    "deps": [
+        "anyhow",
+        "console_error_panic_hook",
+        "indoc",
+        "insta",
+        "lazy_static",
+        "petgraph",
+        "rustpython-parser",
+        "serde",
+        "serde-wasm-bindgen",
+        "serde_yaml",
+        "swc_common",
+        "swc_ecma_ast",
+        "swc_ecma_parser",
+        "thiserror",
+        "wasm-bindgen",
+        "wasm-bindgen-test"
+    ]
+}

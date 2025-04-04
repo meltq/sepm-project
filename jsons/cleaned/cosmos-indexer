@@ -1,0 +1,21 @@
+{
+    "name": "cosmos-indexer",
+    "deps": [
+        "anyhow",
+        "async-nats",
+        "aws-config",
+        "aws-sdk-sns",
+        "aws-sdk-sqs",
+        "base64",
+        "bytes",
+        "dotenv",
+        "env_logger",
+        "log",
+        "mongodb",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "serde_yaml",
+        "tokio"
+    ]
+}

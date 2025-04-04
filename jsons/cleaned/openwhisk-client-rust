@@ -1,0 +1,16 @@
+{
+    "name": "openwhisk-client-rust",
+    "deps": [
+        "async-std",
+        "base64",
+        "bytes",
+        "derive-new",
+        "http",
+        "reqwest",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "wasi-experimental-http",
+        "wiremock"
+    ]
+}

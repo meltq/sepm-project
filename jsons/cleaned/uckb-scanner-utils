@@ -1,0 +1,16 @@
+{
+    "name": "uckb-scanner-utils",
+    "deps": [
+        "anyhow",
+        "clap",
+        "env_logger",
+        "jsonrpc-server-utils",
+        "kernel",
+        "log",
+        "parking_lot",
+        "property",
+        "thiserror",
+        "tokio",
+        "uckb-jsonrpc-client"
+    ]
+}

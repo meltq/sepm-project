@@ -1,0 +1,20 @@
+{
+    "name": "ts_influxdb",
+    "deps": [
+        "async-std",
+        "chrono",
+        "futures-util",
+        "http",
+        "indoc",
+        "influxdb_derive",
+        "lazy_static",
+        "regex",
+        "reqwest",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "surf",
+        "thiserror",
+        "tokio"
+    ]
+}

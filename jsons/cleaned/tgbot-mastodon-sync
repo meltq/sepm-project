@@ -1,0 +1,19 @@
+{
+    "name": "tgbot-mastodon-sync",
+    "deps": [
+        "anyhow",
+        "const_format",
+        "dirs",
+        "dptree",
+        "mastodon-async",
+        "once_cell",
+        "serde",
+        "serde_json",
+        "spdlog-rs",
+        "sqlx",
+        "teloxide",
+        "tempfile",
+        "thiserror",
+        "tokio"
+    ]
+}

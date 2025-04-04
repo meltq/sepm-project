@@ -1,0 +1,15 @@
+{
+    "name": "netpong",
+    "deps": [
+        "anyhow",
+        "clap",
+        "clap-num",
+        "clap-verbosity-flag",
+        "libpt",
+        "rustls-pemfile",
+        "thiserror",
+        "tokio",
+        "tokio-rustls",
+        "webpki-roots"
+    ]
+}

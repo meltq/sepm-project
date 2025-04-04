@@ -1,0 +1,27 @@
+{
+    "name": "actors-runtime",
+    "deps": [
+        "anyhow",
+        "base64",
+        "byteorder",
+        "cid",
+        "derive_builder",
+        "fvm_ipld_amt",
+        "fvm_ipld_hamt",
+        "fvm_sdk",
+        "fvm_shared",
+        "getrandom",
+        "hex",
+        "hex",
+        "indexmap",
+        "integer-encoding",
+        "lazy_static",
+        "log",
+        "multihash",
+        "num-derive",
+        "num-traits",
+        "serde",
+        "thiserror",
+        "unsigned-varint"
+    ]
+}

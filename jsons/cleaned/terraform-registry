@@ -1,0 +1,16 @@
+{
+    "name": "terraform-registry",
+    "deps": [
+        "clap",
+        "miette",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "tracing-subscriber",
+        "url",
+        "version-sync"
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "name": "noosphere-collections",
+    "deps": [
+        "anyhow",
+        "async-once-cell",
+        "async-recursion",
+        "async-std",
+        "async-stream",
+        "byteorder",
+        "cid",
+        "forest_hash_utils",
+        "libipld-cbor",
+        "libipld-core",
+        "multihash",
+        "noosphere-storage",
+        "serde",
+        "serde_bytes",
+        "serde_ipld_dagcbor",
+        "sha2",
+        "tokio",
+        "tokio",
+        "tokio-stream",
+        "unsigned-varint",
+        "wasm-bindgen-test"
+    ]
+}

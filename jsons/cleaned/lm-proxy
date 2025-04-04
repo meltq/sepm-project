@@ -1,0 +1,20 @@
+{
+    "name": "lm-proxy",
+    "deps": [
+        "anyhow",
+        "argh",
+        "axum",
+        "http",
+        "http-body",
+        "pin-project",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "sync_wrapper",
+        "tokio",
+        "toml",
+        "tower-http",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

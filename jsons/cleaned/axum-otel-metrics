@@ -1,0 +1,13 @@
+{
+    "name": "axum-otel-metrics",
+    "deps": [
+        "axum",
+        "futures-util",
+        "opentelemetry",
+        "opentelemetry-prometheus",
+        "pin-project-lite",
+        "prometheus",
+        "tokio",
+        "tower"
+    ]
+}

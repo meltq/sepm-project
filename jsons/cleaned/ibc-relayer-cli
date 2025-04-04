@@ -1,0 +1,33 @@
+{
+    "name": "ibc-relayer-cli",
+    "deps": [
+        "abscissa_core",
+        "abscissa_core",
+        "anomaly",
+        "crossbeam-channel",
+        "dirs-next",
+        "futures",
+        "gumdrop",
+        "hex",
+        "ibc",
+        "ibc-proto",
+        "ibc-relayer",
+        "once_cell",
+        "prost",
+        "prost-types",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "sled",
+        "subtle-encoding",
+        "tendermint",
+        "tendermint-light-client",
+        "tendermint-proto",
+        "tendermint-rpc",
+        "thiserror",
+        "tokio",
+        "toml",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

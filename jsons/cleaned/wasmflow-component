@@ -1,0 +1,15 @@
+{
+    "name": "wasmflow-component",
+    "deps": [
+        "cfg-if",
+        "serde",
+        "tokio",
+        "wasmflow-boundary",
+        "wasmflow-codec",
+        "wasmflow-invocation",
+        "wasmflow-packet",
+        "wasmflow-streams",
+        "wasmflow-transport",
+        "yielding-executor"
+    ]
+}

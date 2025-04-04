@@ -1,0 +1,20 @@
+{
+    "name": "zksync_node_genesis",
+    "deps": [
+        "anyhow",
+        "itertools",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "vise",
+        "zksync_config",
+        "zksync_contracts",
+        "zksync_dal",
+        "zksync_eth_client",
+        "zksync_merkle_tree",
+        "zksync_multivm",
+        "zksync_system_constants",
+        "zksync_types",
+        "zksync_utils"
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "name": "ssh-link",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "backtrace",
+        "clap",
+        "crossterm",
+        "dirs",
+        "hex",
+        "hmac",
+        "openssl",
+        "rand",
+        "ratatui",
+        "rpassword",
+        "russh",
+        "russh-keys",
+        "rust-argon2",
+        "serde",
+        "sha2",
+        "tempfile",
+        "tokio",
+        "tokio-fd",
+        "toml",
+        "uuid",
+        "zeroize"
+    ]
+}

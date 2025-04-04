@@ -1,0 +1,18 @@
+{
+    "name": "pliantdb-client",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "bincode",
+        "flume",
+        "futures",
+        "once_cell",
+        "pliantdb-core",
+        "pliantdb-server",
+        "serde_cbor",
+        "thiserror",
+        "tokio",
+        "tokio-tungstenite",
+        "url"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "name": "job_queue",
+    "deps": [
+        "async-trait",
+        "serde",
+        "serde_json",
+        "sqlx",
+        "thiserror",
+        "tokio",
+        "typetag"
+    ]
+}

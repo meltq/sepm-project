@@ -1,0 +1,25 @@
+{
+    "name": "electrs2",
+    "deps": [
+        "anyhow",
+        "bitcoin",
+        "bitcoincore-rpc",
+        "configure_me",
+        "configure_me_codegen",
+        "crossbeam-channel",
+        "dirs-next",
+        "electrs-rocksdb",
+        "env_logger",
+        "fs_extra",
+        "log",
+        "parking_lot",
+        "prometheus",
+        "rayon",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "signal-hook",
+        "tempfile",
+        "tiny_http"
+    ]
+}

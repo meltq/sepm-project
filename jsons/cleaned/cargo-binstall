@@ -1,0 +1,23 @@
+{
+    "name": "cargo-binstall",
+    "deps": [
+        "anyhow",
+        "cargo_metadata",
+        "cargo_toml",
+        "crates_io_api",
+        "dirs",
+        "flate2",
+        "log",
+        "reqwest",
+        "serde",
+        "serde_derive",
+        "simplelog",
+        "structopt",
+        "strum",
+        "strum_macros",
+        "tar",
+        "tempdir",
+        "tinytemplate",
+        "tokio"
+    ]
+}

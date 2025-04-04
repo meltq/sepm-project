@@ -1,0 +1,21 @@
+{
+    "name": "pipebuilder_common",
+    "deps": [
+        "chrono",
+        "etcd-client",
+        "fnv",
+        "http",
+        "pipegen",
+        "prost",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "serde_yaml",
+        "thiserror",
+        "tokio",
+        "toml",
+        "tonic",
+        "tonic-build",
+        "tracing"
+    ]
+}

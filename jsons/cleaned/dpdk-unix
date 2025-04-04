@@ -1,0 +1,16 @@
+{
+    "name": "dpdk-unix",
+    "deps": [
+        "bitflags-associated-constants",
+        "const-cstr-fork",
+        "errno",
+        "libc",
+        "libc-extra",
+        "nix",
+        "quick-error",
+        "rust-extra",
+        "serde",
+        "serde_derive",
+        "syscall-alt"
+    ]
+}

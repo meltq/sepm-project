@@ -1,0 +1,25 @@
+{
+    "name": "leo-interpreter",
+    "deps": [
+        "colored",
+        "crossterm",
+        "dialoguer",
+        "indexmap",
+        "leo-ast",
+        "leo-errors",
+        "leo-package",
+        "leo-parser",
+        "leo-passes",
+        "leo-span",
+        "rand",
+        "rand_chacha",
+        "ratatui",
+        "serial_test",
+        "snarkvm",
+        "snarkvm-circuit",
+        "snarkvm-synthesizer-program",
+        "tempfile",
+        "toml",
+        "tui-input"
+    ]
+}

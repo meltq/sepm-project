@@ -1,0 +1,33 @@
+{
+    "name": "dragonfly-client",
+    "deps": [
+        "bytes",
+        "chrono",
+        "clap",
+        "futures",
+        "home",
+        "hostname",
+        "humantime",
+        "lazy_static",
+        "local-ip-address",
+        "num_cpus",
+        "opentelemetry",
+        "opentelemetry-jaeger",
+        "prometheus",
+        "reqwest",
+        "rocksdb",
+        "serde",
+        "serde_json",
+        "serde_yaml",
+        "thiserror",
+        "tokio",
+        "tokio-util",
+        "tracing",
+        "tracing-appender",
+        "tracing-log",
+        "tracing-opentelemetry",
+        "tracing-subscriber",
+        "validator",
+        "warp"
+    ]
+}

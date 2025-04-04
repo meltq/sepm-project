@@ -1,0 +1,27 @@
+{
+    "name": "eureka-mmanager",
+    "deps": [
+        "actix",
+        "anyhow",
+        "api-core",
+        "bytes",
+        "ciborium",
+        "criterion",
+        "itertools",
+        "log",
+        "mangadex-api",
+        "mangadex-api-input-types",
+        "mangadex-api-schema-rust",
+        "mangadex-api-types-rust",
+        "once_cell",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tokio-stream",
+        "toml",
+        "url",
+        "uuid"
+    ]
+}

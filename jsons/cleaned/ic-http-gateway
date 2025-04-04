@@ -1,0 +1,24 @@
+{
+    "name": "ic-http-gateway",
+    "deps": [
+        "assert_matches",
+        "bytes",
+        "candid",
+        "futures",
+        "http",
+        "http-body",
+        "http-body-util",
+        "ic-agent",
+        "ic-http-certification",
+        "ic-response-verification",
+        "ic-utils",
+        "pocket-ic",
+        "rand_chacha",
+        "reqwest",
+        "rstest",
+        "sha2",
+        "testcontainers",
+        "thiserror",
+        "tokio"
+    ]
+}

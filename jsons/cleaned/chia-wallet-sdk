@@ -1,0 +1,23 @@
+{
+    "name": "chia-wallet-sdk",
+    "deps": [
+        "anyhow",
+        "bip39",
+        "chia-bls",
+        "chia-client",
+        "chia-protocol",
+        "chia-wallet",
+        "clvm-traits",
+        "clvm-utils",
+        "clvmr",
+        "hex",
+        "hex-literal",
+        "indexmap",
+        "log",
+        "once_cell",
+        "serde",
+        "sha2",
+        "thiserror",
+        "tokio"
+    ]
+}

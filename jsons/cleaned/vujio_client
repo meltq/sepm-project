@@ -1,0 +1,23 @@
+{
+    "name": "vujio_client",
+    "deps": [
+        "anyhow",
+        "async-std",
+        "atty",
+        "http-types",
+        "quote",
+        "serde",
+        "serde_json",
+        "swc",
+        "swc_atoms",
+        "swc_bundler",
+        "swc_common",
+        "swc_ecma_ast",
+        "swc_ecma_codegen",
+        "swc_ecma_parser",
+        "swc_ecma_visit",
+        "tide",
+        "tide-websockets",
+        "tungstenite"
+    ]
+}

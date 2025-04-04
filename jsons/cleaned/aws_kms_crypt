@@ -1,0 +1,16 @@
+{
+    "name": "aws_kms_crypt",
+    "deps": [
+        "base64",
+        "base64-serde",
+        "error-chain",
+        "hex-serde",
+        "openssl",
+        "rand",
+        "rusoto_core",
+        "rusoto_kms",
+        "serde",
+        "serde_derive",
+        "serde_json"
+    ]
+}

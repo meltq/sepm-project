@@ -1,0 +1,32 @@
+{
+    "name": "nethsm",
+    "deps": [
+        "base64ct",
+        "chrono",
+        "ed25519-compact",
+        "futures-util",
+        "log",
+        "md-5",
+        "nethsm-sdk-rs",
+        "nix",
+        "podman-api",
+        "rand",
+        "reqwest",
+        "rsa",
+        "rstest",
+        "rustls",
+        "rustls-native-certs",
+        "serde",
+        "serde_json",
+        "sha1",
+        "sha2",
+        "strum",
+        "strum_macros",
+        "testdir",
+        "testresult",
+        "thiserror",
+        "tokio",
+        "ureq",
+        "uuid"
+    ]
+}

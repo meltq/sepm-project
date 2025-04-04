@@ -1,0 +1,14 @@
+{
+    "name": "fcnetd",
+    "deps": [
+        "clap",
+        "fcnet",
+        "fcnet-types",
+        "nix",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

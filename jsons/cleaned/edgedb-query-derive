@@ -1,0 +1,14 @@
+{
+    "name": "edgedb-query-derive",
+    "deps": [
+        "edgedb",
+        "edgedb-protocol",
+        "edgedb-query",
+        "proc-macro2",
+        "quote",
+        "serde",
+        "serde_json",
+        "syn",
+        "trybuild"
+    ]
+}

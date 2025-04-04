@@ -1,0 +1,24 @@
+{
+    "name": "r-harvest",
+    "deps": [
+        "color-eyre",
+        "config",
+        "env_logger",
+        "futures",
+        "hostname",
+        "humantime-serde",
+        "itertools",
+        "lazy_static",
+        "log",
+        "r-neli",
+        "rdkafka",
+        "serde",
+        "serde_yaml",
+        "signal-hook",
+        "signal-hook-tokio",
+        "sqlx",
+        "thiserror",
+        "tokio",
+        "ulid"
+    ]
+}

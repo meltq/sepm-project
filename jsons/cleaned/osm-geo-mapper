@@ -1,0 +1,19 @@
+{
+    "name": "osm-geo-mapper",
+    "deps": [
+        "crossterm",
+        "geo",
+        "geo-types",
+        "geojson",
+        "log",
+        "noise",
+        "osmpbfreader",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "structopt",
+        "tokio",
+        "tui",
+        "uuid"
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "name": "freighter-registry",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "bytes",
+        "chrono",
+        "clap",
+        "dirs",
+        "git2",
+        "git2-curl",
+        "log4rs",
+        "openssl",
+        "rayon",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "sha2",
+        "thiserror",
+        "tokio",
+        "tokio-test",
+        "tokio-util",
+        "toml",
+        "tracing",
+        "tracing-subscriber",
+        "url",
+        "walkdir",
+        "warp"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "aptos-writeset-generator",
+    "deps": [
+        "anyhow",
+        "aptos-crypto",
+        "aptos-crypto-derive",
+        "aptos-state-view",
+        "aptos-transaction-replay",
+        "aptos-types",
+        "aptos-vm",
+        "aptosdb",
+        "bcs",
+        "framework",
+        "handlebars",
+        "move-deps",
+        "serde",
+        "tempfile"
+    ]
+}

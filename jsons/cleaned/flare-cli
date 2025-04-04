@@ -1,0 +1,21 @@
+{
+    "name": "flare-cli",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "clap",
+        "criterion",
+        "flare-dht",
+        "flare-zrpc",
+        "rand",
+        "rlt",
+        "tokio",
+        "tonic",
+        "tonic-reflection",
+        "tracing",
+        "tracing-subscriber",
+        "tsid",
+        "zenoh",
+        "zenoh-config"
+    ]
+}

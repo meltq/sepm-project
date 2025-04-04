@@ -1,0 +1,27 @@
+{
+    "name": "playdate-device",
+    "deps": [
+        "clap",
+        "const-hex",
+        "futures",
+        "futures-lite",
+        "hex",
+        "lfs-core",
+        "log",
+        "miette",
+        "nusb",
+        "object-pool",
+        "plist",
+        "regex",
+        "serde",
+        "serde_json",
+        "serialport",
+        "thiserror",
+        "tokio",
+        "tokio-serial",
+        "tracing",
+        "udev",
+        "usb-ids",
+        "windows"
+    ]
+}

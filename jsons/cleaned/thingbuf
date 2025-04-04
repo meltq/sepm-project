@@ -1,0 +1,12 @@
+{
+    "name": "thingbuf",
+    "deps": [
+        "futures-util",
+        "loom",
+        "parking_lot",
+        "pin-project",
+        "tokio",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

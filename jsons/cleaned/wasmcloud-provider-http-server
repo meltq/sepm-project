@@ -1,0 +1,26 @@
+{
+    "name": "wasmcloud-provider-http-server",
+    "deps": [
+        "anyhow",
+        "async-nats",
+        "axum",
+        "axum-server",
+        "base64",
+        "bytes",
+        "futures",
+        "http",
+        "http-body",
+        "pin-project-lite",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tower-http",
+        "tracing",
+        "unicase",
+        "wasmcloud-provider-sdk",
+        "wasmcloud-test-util",
+        "wrpc-interface-http"
+    ]
+}

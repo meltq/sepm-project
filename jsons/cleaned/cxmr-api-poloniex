@@ -1,0 +1,18 @@
+{
+    "name": "cxmr-api-poloniex",
+    "deps": [
+        "async-trait",
+        "cxmr-api",
+        "cxmr-api-clients-errors",
+        "cxmr-balances",
+        "cxmr-currency",
+        "cxmr-exchanges",
+        "cxmr-http-client",
+        "hashbrown",
+        "hyper",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "tokio"
+    ]
+}

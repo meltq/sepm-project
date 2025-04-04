@@ -1,0 +1,14 @@
+{
+    "name": "jsonrpc-stdio-server",
+    "deps": [
+        "env_logger",
+        "futures",
+        "jsonrpc-core",
+        "lazy_static",
+        "log",
+        "tokio",
+        "tokio-codec",
+        "tokio-io",
+        "tokio-stdin-stdout"
+    ]
+}

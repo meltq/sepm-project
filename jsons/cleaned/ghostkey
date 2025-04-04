@@ -1,0 +1,27 @@
+{
+    "name": "ghostkey",
+    "deps": [
+        "base64",
+        "blind-rsa-signatures",
+        "ciborium",
+        "clap",
+        "colored",
+        "curve25519-dalek",
+        "ed25519-dalek",
+        "env_logger",
+        "ghostkey_lib",
+        "hex",
+        "log",
+        "rand",
+        "rand_core",
+        "serde",
+        "serde_bytes",
+        "serde_cbor",
+        "serde_json",
+        "sha2",
+        "sha3",
+        "signature",
+        "tempfile",
+        "typenum"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "name": "moq-relay-ietf",
+    "deps": [
+        "anyhow",
+        "axum",
+        "clap",
+        "env_logger",
+        "futures",
+        "hex",
+        "hyper-serve",
+        "log",
+        "moq-api",
+        "moq-native-ietf",
+        "moq-transport",
+        "tokio",
+        "tower-http",
+        "tracing",
+        "tracing-subscriber",
+        "url"
+    ]
+}

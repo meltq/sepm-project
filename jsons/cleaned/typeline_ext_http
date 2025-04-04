@@ -1,0 +1,28 @@
+{
+    "name": "typeline_ext_http",
+    "deps": [
+        "bstr",
+        "derive_more",
+        "futures",
+        "http",
+        "http-body-util",
+        "hyper",
+        "hyper-tls",
+        "hyper-util",
+        "memchr",
+        "mio",
+        "mockito",
+        "once_cell",
+        "pki-types",
+        "regex",
+        "reqwest",
+        "rustls",
+        "rustls-pemfile",
+        "thiserror",
+        "tokio",
+        "tokio-rustls",
+        "typeline_core",
+        "url",
+        "webpki-roots"
+    ]
+}

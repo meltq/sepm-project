@@ -1,0 +1,21 @@
+{
+    "name": "wireman-core",
+    "deps": [
+        "http",
+        "hyper",
+        "hyper-rustls",
+        "prost",
+        "prost-build",
+        "prost-reflect",
+        "prost-types",
+        "protox",
+        "rustls",
+        "rustls-pemfile",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tonic",
+        "webpki-roots"
+    ]
+}

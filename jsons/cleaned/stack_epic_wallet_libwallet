@@ -1,0 +1,29 @@
+{
+    "name": "stack_epic_wallet_libwallet",
+    "deps": [
+        "blake2-rfc",
+        "byteorder",
+        "chrono",
+        "data-encoding",
+        "digest",
+        "ed25519-dalek",
+        "failure",
+        "failure_derive",
+        "lazy_static",
+        "log",
+        "rand",
+        "regex",
+        "ring",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "sha2",
+        "sha3",
+        "sqlite",
+        "stack_epic_wallet_config",
+        "stack_epic_wallet_util",
+        "strum",
+        "strum_macros",
+        "uuid"
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "name": "traefikctl",
+    "deps": [
+        "async-trait",
+        "axum",
+        "axum-extra",
+        "cargo-dist",
+        "chrono",
+        "clap",
+        "color-eyre",
+        "colored",
+        "config",
+        "convert_case",
+        "etcd-client",
+        "ordermap",
+        "pretty_assertions",
+        "protoc",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "serde_yaml",
+        "thiserror",
+        "time",
+        "tokio",
+        "tracing",
+        "tracing-appender",
+        "tracing-subscriber",
+        "url"
+    ]
+}

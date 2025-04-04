@@ -1,0 +1,21 @@
+{
+    "name": "ctf-packet-relay",
+    "deps": [
+        "babeltrace2-sys",
+        "bytes",
+        "chrono",
+        "ctrlc",
+        "derive_more",
+        "futures",
+        "hostname",
+        "socket2",
+        "structopt",
+        "thiserror",
+        "tokio",
+        "tokio-serial",
+        "tokio-util",
+        "tracing",
+        "tracing-subscriber",
+        "url"
+    ]
+}

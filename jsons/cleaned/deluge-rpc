@@ -1,0 +1,16 @@
+{
+    "name": "deluge-rpc",
+    "deps": [
+        "base64",
+        "byteorder",
+        "deluge-rpc-macro",
+        "hex",
+        "libflate",
+        "rustls",
+        "serde",
+        "serde_yaml",
+        "tokio",
+        "tokio-rustls",
+        "uriparse"
+    ]
+}

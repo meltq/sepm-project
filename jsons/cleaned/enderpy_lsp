@@ -1,0 +1,15 @@
+{
+    "name": "enderpy_lsp",
+    "deps": [
+        "dashmap",
+        "enderpy_python_parser",
+        "enderpy_python_type_checker",
+        "env_logger",
+        "im-rc",
+        "log",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tower-lsp"
+    ]
+}

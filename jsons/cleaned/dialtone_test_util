@@ -1,0 +1,16 @@
+{
+    "name": "dialtone_test_util",
+    "deps": [
+        "axum",
+        "const_format",
+        "dialtone_axum",
+        "dialtone_common",
+        "dialtone_reqwest",
+        "dialtone_sqlx",
+        "sqlx",
+        "testcontainers",
+        "tokio",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "llm-chain-qdrant",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "llm-chain",
+        "qdrant-client",
+        "serde",
+        "serde_json",
+        "serde_yaml",
+        "thiserror",
+        "tokio",
+        "uuid"
+    ]
+}

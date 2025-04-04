@@ -1,0 +1,14 @@
+{
+    "name": "bevy_gpu_compute",
+    "deps": [
+        "approx",
+        "bevy",
+        "bevy_gpu_compute_core",
+        "bevy_gpu_compute_macro",
+        "bytemuck",
+        "futures",
+        "pollster",
+        "sysinfo",
+        "wgpu"
+    ]
+}

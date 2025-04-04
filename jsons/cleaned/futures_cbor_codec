@@ -1,0 +1,16 @@
+{
+    "name": "futures_cbor_codec",
+    "deps": [
+        "bytes",
+        "futures-preview",
+        "futures_codec",
+        "futures_ringbuf",
+        "getrandom",
+        "naja_async_runtime",
+        "romio",
+        "serde",
+        "serde_cbor",
+        "wasm-bindgen",
+        "wasm-bindgen-test"
+    ]
+}

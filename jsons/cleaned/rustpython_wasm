@@ -1,0 +1,17 @@
+{
+    "name": "rustpython_wasm",
+    "deps": [
+        "console_error_panic_hook",
+        "js-sys",
+        "rustpython-common",
+        "rustpython-parser",
+        "rustpython-pylib",
+        "rustpython-stdlib",
+        "rustpython-vm",
+        "serde",
+        "serde-wasm-bindgen",
+        "wasm-bindgen",
+        "wasm-bindgen-futures",
+        "web-sys"
+    ]
+}

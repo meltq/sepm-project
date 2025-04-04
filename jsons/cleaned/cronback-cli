@@ -1,0 +1,30 @@
+{
+    "name": "cronback-cli",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "chrono",
+        "clap",
+        "clap-stdin",
+        "clap-verbosity-flag",
+        "colored",
+        "colored_json",
+        "cronback-api-model",
+        "cronback-client",
+        "dotenvy",
+        "env_logger",
+        "etcetera",
+        "http",
+        "once_cell",
+        "prettytable-rs",
+        "reqwest",
+        "rprompt",
+        "serde",
+        "serde_json",
+        "spinners",
+        "tokio",
+        "tracing",
+        "tracing-subscriber",
+        "url"
+    ]
+}

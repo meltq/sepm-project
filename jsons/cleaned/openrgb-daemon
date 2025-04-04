@@ -1,0 +1,19 @@
+{
+    "name": "openrgb-daemon",
+    "deps": [
+        "anyhow",
+        "askama",
+        "clap",
+        "libsystemd",
+        "nix",
+        "serde",
+        "thiserror",
+        "tokio",
+        "tokio-stream",
+        "tokio-util",
+        "toml",
+        "tracing",
+        "tracing-journald",
+        "tracing-subscriber"
+    ]
+}

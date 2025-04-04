@@ -1,0 +1,20 @@
+{
+    "name": "gmt_dos-clients_transceiver",
+    "deps": [
+        "anyhow",
+        "bincode",
+        "env_logger",
+        "flume",
+        "futures",
+        "gmt_dos-actors",
+        "gmt_dos-clients",
+        "quinn",
+        "rcgen",
+        "rustls",
+        "serde",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

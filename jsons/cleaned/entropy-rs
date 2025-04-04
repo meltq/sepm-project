@@ -1,0 +1,20 @@
+{
+    "name": "entropy-rs",
+    "deps": [
+        "bincode",
+        "bincode-sled",
+        "builder_macro",
+        "config",
+        "enum_dispatch",
+        "parking_lot",
+        "paste",
+        "rayon",
+        "rustc-hash",
+        "serde",
+        "sled",
+        "thiserror",
+        "zerocopy",
+        "zerocopy-derive",
+        "zmq"
+    ]
+}

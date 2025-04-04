@@ -1,0 +1,22 @@
+{
+    "name": "lance-encoding-datafusion",
+    "deps": [
+        "arrow-array",
+        "arrow-buffer",
+        "arrow-schema",
+        "datafusion-common",
+        "datafusion-expr",
+        "datafusion-physical-expr",
+        "futures",
+        "lance-core",
+        "lance-datagen",
+        "lance-encoding",
+        "lance-file",
+        "pprof",
+        "prost",
+        "prost-build",
+        "prost-types",
+        "rand",
+        "tokio"
+    ]
+}

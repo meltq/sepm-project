@@ -1,0 +1,21 @@
+{
+    "name": "ns-fetcher",
+    "deps": [
+        "anyhow",
+        "async-stream",
+        "base64",
+        "bloomfilter",
+        "bytes",
+        "ciborium",
+        "ciborium-io",
+        "futures",
+        "futures-core",
+        "futures-util",
+        "hex",
+        "hex-literal",
+        "ns-protocol",
+        "reqwest",
+        "serde",
+        "tokio"
+    ]
+}

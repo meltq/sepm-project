@@ -1,0 +1,23 @@
+{
+    "name": "zksync_block_reverter",
+    "deps": [
+        "anyhow",
+        "assert_matches",
+        "async-trait",
+        "futures",
+        "serde",
+        "tempfile",
+        "test-casing",
+        "tokio",
+        "tracing",
+        "zksync_config",
+        "zksync_contracts",
+        "zksync_dal",
+        "zksync_eth_client",
+        "zksync_merkle_tree",
+        "zksync_object_store",
+        "zksync_state",
+        "zksync_storage",
+        "zksync_types"
+    ]
+}

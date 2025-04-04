@@ -1,0 +1,19 @@
+{
+    "name": "meshtastic",
+    "deps": [
+        "futures-util",
+        "log",
+        "prost",
+        "prost-build",
+        "protoc-bin-vendored",
+        "rand",
+        "serde",
+        "serde_json",
+        "specta",
+        "thiserror",
+        "tokio",
+        "tokio-serial",
+        "tokio-util",
+        "walkdir"
+    ]
+}

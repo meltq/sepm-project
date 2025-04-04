@@ -1,0 +1,17 @@
+{
+    "name": "streamfly",
+    "deps": [
+        "anyhow",
+        "async-channel",
+        "async-trait",
+        "clap",
+        "env_logger",
+        "futures",
+        "log",
+        "nanoid",
+        "rmp-serde",
+        "s2n-quic",
+        "serde",
+        "tokio"
+    ]
+}

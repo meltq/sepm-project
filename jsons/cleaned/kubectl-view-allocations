@@ -1,0 +1,15 @@
+{
+    "name": "kubectl-view-allocations",
+    "deps": [
+        "env_logger",
+        "failure",
+        "itertools",
+        "k8s-openapi",
+        "kube",
+        "log",
+        "prettytable-rs",
+        "serde_json",
+        "spectral",
+        "structopt"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "termusic-server",
+    "deps": [
+        "anyhow",
+        "ctrlc",
+        "lazy_static",
+        "log",
+        "lovely_env_logger",
+        "parking_lot",
+        "serde",
+        "sysinfo",
+        "termusic-lib",
+        "termusic-playback",
+        "tokio",
+        "tonic"
+    ]
+}

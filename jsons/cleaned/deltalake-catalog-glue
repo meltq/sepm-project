@@ -1,0 +1,11 @@
+{
+    "name": "deltalake-catalog-glue",
+    "deps": [
+        "async-trait",
+        "aws-config",
+        "aws-sdk-glue",
+        "deltalake-core",
+        "thiserror",
+        "tokio"
+    ]
+}

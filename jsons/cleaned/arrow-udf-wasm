@@ -1,0 +1,17 @@
+{
+    "name": "arrow-udf-wasm",
+    "deps": [
+        "anyhow",
+        "arrow-arith",
+        "arrow-array",
+        "arrow-cast",
+        "arrow-ipc",
+        "arrow-schema",
+        "base64",
+        "criterion",
+        "genawaiter",
+        "lazy_static",
+        "wasmtime",
+        "wasmtime-wasi"
+    ]
+}

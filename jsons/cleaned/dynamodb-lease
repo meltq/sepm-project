@@ -1,0 +1,13 @@
+{
+    "name": "dynamodb-lease",
+    "deps": [
+        "anyhow",
+        "aws-config",
+        "aws-sdk-dynamodb",
+        "time",
+        "tokio",
+        "tokio",
+        "tracing",
+        "uuid"
+    ]
+}

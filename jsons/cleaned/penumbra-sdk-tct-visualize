@@ -1,0 +1,30 @@
+{
+    "name": "penumbra-sdk-tct-visualize",
+    "deps": [
+        "anyhow",
+        "axum",
+        "axum-extra",
+        "axum-server",
+        "bytes",
+        "clap",
+        "decaf377",
+        "futures",
+        "hex",
+        "include-flate",
+        "parking_lot",
+        "penumbra-sdk-tct",
+        "prost",
+        "rand",
+        "rand_chacha",
+        "rand_distr",
+        "serde",
+        "serde_json",
+        "serde_urlencoded",
+        "tokio",
+        "tokio-stream",
+        "tokio-util",
+        "tonic",
+        "tower-http",
+        "tracing-subscriber"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "name": "border-async-trainer",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "border-core",
+        "crossbeam-channel",
+        "env_logger",
+        "log",
+        "serde",
+        "serde_yaml",
+        "test-log",
+        "thiserror",
+        "tokio"
+    ]
+}

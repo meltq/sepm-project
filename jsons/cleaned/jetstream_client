@@ -1,0 +1,12 @@
+{
+    "name": "jetstream_client",
+    "deps": [
+        "anyhow",
+        "futures",
+        "jetstream_9p",
+        "jetstream_rpc",
+        "jetstream_wireformat",
+        "okstd",
+        "s2n-quic"
+    ]
+}

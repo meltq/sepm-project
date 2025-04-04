@@ -1,0 +1,29 @@
+{
+    "name": "psp_security",
+    "deps": [
+        "aes",
+        "aes-gcm",
+        "anyhow",
+        "bincode",
+        "bitfield",
+        "clap",
+        "cmac",
+        "crypto-common",
+        "derive_builder",
+        "env_logger",
+        "etherparse",
+        "exitcode",
+        "hex",
+        "log",
+        "pcap-file",
+        "pnet",
+        "pnet_macros",
+        "pnet_macros_support",
+        "pnet_packet",
+        "rand",
+        "serde",
+        "serde_json",
+        "test-log",
+        "thiserror"
+    ]
+}

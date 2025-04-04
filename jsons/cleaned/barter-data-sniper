@@ -1,0 +1,30 @@
+{
+    "name": "barter-data-sniper",
+    "deps": [
+        "async-trait",
+        "barter-instrument-copy",
+        "barter-integration-copy",
+        "barter-macro",
+        "chrono",
+        "derive_more",
+        "fnv",
+        "futures",
+        "futures-util",
+        "itertools",
+        "parking_lot",
+        "reqwest",
+        "rust_decimal",
+        "rust_decimal_macros",
+        "serde",
+        "serde_json",
+        "smol_str",
+        "ta",
+        "thiserror",
+        "tokio",
+        "tokio-stream",
+        "tracing",
+        "tracing-subscriber",
+        "url",
+        "vecmap-rs"
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "name": "solders-transaction-status",
+    "deps": [
+        "base64",
+        "bincode",
+        "bs58",
+        "derive_more",
+        "pyo3",
+        "pythonize",
+        "serde",
+        "serde_json",
+        "solana-account-decoder",
+        "solana-sdk",
+        "solana-transaction-status",
+        "solders-account-decoder",
+        "solders-hash",
+        "solders-macros",
+        "solders-message",
+        "solders-pubkey",
+        "solders-signature",
+        "solders-traits-core",
+        "solders-transaction",
+        "solders-transaction-confirmation-status",
+        "solders-transaction-error",
+        "solders-transaction-return-data",
+        "solders-transaction-status-enums",
+        "solders-transaction-status-struct"
+    ]
+}

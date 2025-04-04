@@ -1,0 +1,32 @@
+{
+    "name": "redis_wasi",
+    "deps": [
+        "ahash",
+        "arc-swap",
+        "async-native-tls",
+        "async-std",
+        "async-trait",
+        "bytes",
+        "combine_wasi",
+        "crc16",
+        "futures",
+        "futures",
+        "futures-util",
+        "itoa",
+        "native-tls",
+        "percent-encoding",
+        "pin-project-lite",
+        "r2d2",
+        "rand",
+        "ryu",
+        "serde",
+        "serde_json",
+        "sha1_smol",
+        "tokio-native-tls",
+        "tokio-util_wasi",
+        "tokio_wasi",
+        "tokio_wasi",
+        "url",
+        "wasmedge_wasi_socket"
+    ]
+}

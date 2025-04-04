@@ -1,0 +1,11 @@
+{
+    "name": "fluvio-controlplane",
+    "deps": [
+        "dataplane",
+        "fluvio-controlplane-metadata",
+        "fluvio-protocol",
+        "fluvio-types",
+        "log",
+        "tracing"
+    ]
+}

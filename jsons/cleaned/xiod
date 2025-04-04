@@ -1,0 +1,27 @@
+{
+    "name": "xiod",
+    "deps": [
+        "actix",
+        "actix-web",
+        "bidir-map",
+        "crossbeam-channel",
+        "env_logger",
+        "failure",
+        "futures",
+        "log",
+        "ommui_file_loading",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "structopt",
+        "udev",
+        "uuid",
+        "xio_base_datatypes",
+        "xio_common",
+        "xio_hwdb",
+        "xio_instructionset",
+        "xio_jobset",
+        "xio_jobset_compilation",
+        "xio_webapi"
+    ]
+}

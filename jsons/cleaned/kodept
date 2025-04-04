@@ -1,0 +1,27 @@
+{
+    "name": "kodept",
+    "deps": [
+        "anyhow",
+        "clap",
+        "codespan-reporting",
+        "criterion",
+        "derive_more",
+        "extend",
+        "indicatif",
+        "itertools",
+        "kodept-ast",
+        "kodept-core",
+        "kodept-inference",
+        "kodept-macros",
+        "kodept-parse",
+        "nom",
+        "nom-supreme",
+        "petgraph",
+        "rayon",
+        "serde_json",
+        "size-of",
+        "thiserror",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

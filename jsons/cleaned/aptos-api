@@ -1,0 +1,33 @@
+{
+    "name": "aptos-api",
+    "deps": [
+        "anyhow",
+        "aptos-api-types",
+        "aptos-config",
+        "aptos-crypto",
+        "aptos-logger",
+        "aptos-mempool",
+        "aptos-metrics",
+        "aptos-state-view",
+        "aptos-types",
+        "aptos-vm",
+        "bcs",
+        "bytes",
+        "fail",
+        "futures",
+        "goldenfile",
+        "hex",
+        "hyper",
+        "move-deps",
+        "once_cell",
+        "percent-encoding",
+        "rand",
+        "regex",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "storage-interface",
+        "tokio",
+        "warp"
+    ]
+}

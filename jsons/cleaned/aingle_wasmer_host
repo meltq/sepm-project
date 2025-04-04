@@ -1,0 +1,12 @@
+{
+    "name": "aingle_wasmer_host",
+    "deps": [
+        "aingle_middleware_bytes",
+        "aingle_wasmer_common",
+        "lazy_static",
+        "serde",
+        "tracing",
+        "wasmer-runtime",
+        "wasmer-runtime-core"
+    ]
+}

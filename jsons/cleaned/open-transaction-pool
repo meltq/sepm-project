@@ -1,0 +1,17 @@
+{
+    "name": "open-transaction-pool",
+    "deps": [
+        "anyhow",
+        "clap",
+        "ctrlc",
+        "env_logger",
+        "log",
+        "otx-pool",
+        "otx-pool-client",
+        "otx-pool-config",
+        "otx-pool-plugin-atomic-swap",
+        "otx-pool-plugin-dust-collector",
+        "otx-pool-plugin-signer",
+        "otx-sdk"
+    ]
+}

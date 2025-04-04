@@ -1,0 +1,20 @@
+{
+    "name": "trillium-http",
+    "deps": [
+        "async-compat",
+        "async-io",
+        "async-net",
+        "encoding_rs",
+        "env_logger",
+        "futures-lite",
+        "http-types",
+        "httparse",
+        "log",
+        "memmem",
+        "pin-project",
+        "smol",
+        "stopper",
+        "thiserror",
+        "tokio"
+    ]
+}

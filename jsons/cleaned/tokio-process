@@ -1,0 +1,11 @@
+{
+    "name": "tokio-process",
+    "deps": [
+        "futures",
+        "kernel32-sys",
+        "libc",
+        "tokio-core",
+        "tokio-signal",
+        "winapi"
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "name": "xiod_fakedata",
+    "deps": [
+        "actix",
+        "actix-web",
+        "actix-web-actors",
+        "askama",
+        "bidir-map",
+        "crossbeam-channel",
+        "env_logger",
+        "futures",
+        "glob",
+        "indexmap",
+        "lazy_static",
+        "log",
+        "ommui_broadcast",
+        "ommui_file_loading",
+        "regex",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "snafu",
+        "structopt",
+        "uuid",
+        "xio_base_datatypes",
+        "xio_common",
+        "xio_hwdb",
+        "xio_instructionset",
+        "xio_jobset",
+        "xio_jobset_compilation",
+        "xio_webapi"
+    ]
+}

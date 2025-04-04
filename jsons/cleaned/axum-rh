@@ -1,0 +1,17 @@
+{
+    "name": "axum-rh",
+    "deps": [
+        "arh-macros",
+        "axum",
+        "bcrypt",
+        "cfg-if",
+        "chrono",
+        "jsonwebtoken",
+        "log",
+        "serde",
+        "time",
+        "tokio",
+        "tower-sessions",
+        "tower-sessions-redis-store"
+    ]
+}

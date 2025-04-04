@@ -1,0 +1,28 @@
+{
+    "name": "confiq",
+    "deps": [
+        "async-trait",
+        "aws-config",
+        "aws-sdk-ssm",
+        "futures",
+        "hashicorp_vault",
+        "notify",
+        "once_cell",
+        "pretty_assertions",
+        "reqwest",
+        "secrecy",
+        "serde",
+        "serde_json",
+        "serde_yaml",
+        "tempfile",
+        "test-case",
+        "thiserror",
+        "tokio",
+        "tokio",
+        "tokio-stream",
+        "tokio-test",
+        "toml",
+        "tracing",
+        "tracing-test"
+    ]
+}

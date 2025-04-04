@@ -1,0 +1,17 @@
+{
+    "name": "tokio-tls",
+    "deps": [
+        "advapi32-sys",
+        "cfg-if",
+        "crypt32-sys",
+        "env_logger",
+        "futures",
+        "kernel32-sys",
+        "native-tls",
+        "openssl",
+        "schannel",
+        "security-framework",
+        "tokio-core",
+        "winapi"
+    ]
+}

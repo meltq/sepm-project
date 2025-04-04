@@ -1,0 +1,24 @@
+{
+    "name": "tari_wallet_ffi",
+    "deps": [
+        "chrono",
+        "derive-error",
+        "env_logger",
+        "futures",
+        "lazy_static",
+        "libc",
+        "log",
+        "rand",
+        "tari_broadcast_channel",
+        "tari_comms",
+        "tari_comms_dht",
+        "tari_core",
+        "tari_crypto",
+        "tari_p2p",
+        "tari_shutdown",
+        "tari_utilities",
+        "tari_wallet",
+        "tempdir",
+        "tokio"
+    ]
+}

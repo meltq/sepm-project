@@ -1,0 +1,14 @@
+{
+    "name": "sov-sequencer",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "borsh",
+        "hex",
+        "jsonrpsee",
+        "serde",
+        "sov-rollup-interface",
+        "tokio",
+        "tracing"
+    ]
+}

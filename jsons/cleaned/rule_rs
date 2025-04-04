@@ -1,0 +1,25 @@
+{
+    "name": "rule_rs",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "blake3",
+        "chrono",
+        "cron",
+        "futures",
+        "jsonschema",
+        "lazy_static",
+        "pretty_assertions",
+        "reqwest",
+        "rquickjs",
+        "serde",
+        "serde_json",
+        "test-log",
+        "thiserror",
+        "tokio",
+        "tokio-test",
+        "tracing",
+        "tracing-subscriber",
+        "uuid"
+    ]
+}

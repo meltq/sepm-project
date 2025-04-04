@@ -1,0 +1,25 @@
+{
+    "name": "ecbt-binance",
+    "deps": [
+        "async-trait",
+        "ecbt-exchange",
+        "futures",
+        "hex",
+        "hmac",
+        "reqwest",
+        "rust_decimal",
+        "serde",
+        "serde_json",
+        "serde_qs",
+        "serde_urlencoded",
+        "sha2",
+        "thiserror",
+        "time",
+        "tokio",
+        "tokio-tungstenite",
+        "tracing",
+        "tracing-appender",
+        "tracing-subscriber",
+        "url"
+    ]
+}

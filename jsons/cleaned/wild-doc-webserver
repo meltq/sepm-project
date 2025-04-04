@@ -1,0 +1,13 @@
+{
+    "name": "wild-doc-webserver",
+    "deps": [
+        "futures-util",
+        "hyper",
+        "hyper-rustls",
+        "rustls",
+        "rustls-pemfile",
+        "tokio",
+        "tokio-rustls",
+        "wild-doc-client-lib"
+    ]
+}

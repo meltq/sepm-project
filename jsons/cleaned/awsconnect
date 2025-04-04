@@ -1,0 +1,19 @@
+{
+    "name": "awsconnect",
+    "deps": [
+        "anyhow",
+        "aws-config",
+        "aws-types",
+        "clap",
+        "dialoguer",
+        "dotenv-parser",
+        "env_logger",
+        "log",
+        "rusoto_core",
+        "rusoto_ecs",
+        "strum",
+        "subprocess",
+        "tokio",
+        "which"
+    ]
+}

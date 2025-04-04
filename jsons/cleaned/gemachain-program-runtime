@@ -1,0 +1,17 @@
+{
+    "name": "gemachain-program-runtime",
+    "deps": [
+        "gemachain-frozen-abi",
+        "gemachain-frozen-abi-macro",
+        "gemachain-logger",
+        "gemachain-sdk",
+        "libc",
+        "libloading",
+        "log",
+        "num-derive",
+        "num-traits",
+        "rustc_version",
+        "serde",
+        "thiserror"
+    ]
+}

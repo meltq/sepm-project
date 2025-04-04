@@ -1,0 +1,15 @@
+{
+    "name": "cfn-guard-preview",
+    "deps": [
+        "cfn-guard-rulegen-preview",
+        "clap",
+        "jni",
+        "lazy_static",
+        "log",
+        "regex",
+        "serde",
+        "serde_json",
+        "serde_yaml",
+        "simple_logger"
+    ]
+}

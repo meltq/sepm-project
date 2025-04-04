@@ -1,0 +1,28 @@
+{
+    "name": "ockam_transport_ble",
+    "deps": [
+        "atsame54_xpro",
+        "bluenrg",
+        "bluetooth-hci",
+        "btleplug",
+        "cortex-m",
+        "embedded-hal",
+        "futures",
+        "futures-util",
+        "heapless",
+        "nb",
+        "ockam",
+        "ockam_core",
+        "ockam_executor",
+        "ockam_node",
+        "ockam_transport_core",
+        "pic32-hal",
+        "riscv",
+        "serde",
+        "stm32-device-signature",
+        "stm32f4xx-hal",
+        "stm32h7xx-hal",
+        "tracing",
+        "uuid"
+    ]
+}

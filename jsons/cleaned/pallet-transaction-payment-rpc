@@ -1,0 +1,16 @@
+{
+    "name": "pallet-transaction-payment-rpc",
+    "deps": [
+        "codec",
+        "jsonrpc-core",
+        "jsonrpc-core-client",
+        "jsonrpc-derive",
+        "pallet-transaction-payment-rpc-runtime-api",
+        "serde",
+        "sp-api",
+        "sp-blockchain",
+        "sp-core",
+        "sp-rpc",
+        "sp-runtime"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "name": "geoip-api",
+    "deps": [
+        "actix-cors",
+        "actix-rt",
+        "actix-web",
+        "actix-web-prom",
+        "chrono",
+        "dotenv",
+        "env_logger",
+        "flate2",
+        "log",
+        "maxminddb",
+        "md5",
+        "prometheus",
+        "reqwest",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "structopt",
+        "thiserror",
+        "tokio"
+    ]
+}

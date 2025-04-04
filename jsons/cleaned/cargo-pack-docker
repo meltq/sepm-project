@@ -1,0 +1,17 @@
+{
+    "name": "cargo-pack-docker",
+    "deps": [
+        "cargo",
+        "cargo-pack",
+        "clap",
+        "copy_dir",
+        "env_logger",
+        "error-chain",
+        "handlebars",
+        "log",
+        "rustc-serialize",
+        "semver",
+        "tempdir",
+        "tojson_macros"
+    ]
+}

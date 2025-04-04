@@ -1,0 +1,33 @@
+{
+    "name": "surrealdb-tikv-client",
+    "deps": [
+        "async-trait",
+        "clap",
+        "derive-new",
+        "fail",
+        "fail",
+        "futures",
+        "futures-timer",
+        "grpcio",
+        "lazy_static",
+        "log",
+        "prometheus",
+        "proptest",
+        "proptest-derive",
+        "rand",
+        "regex",
+        "reqwest",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "serial_test",
+        "simple_logger",
+        "surrealdb-tikv-client-common",
+        "surrealdb-tikv-client-pd",
+        "surrealdb-tikv-client-proto",
+        "surrealdb-tikv-client-store",
+        "thiserror",
+        "tokio",
+        "tokio"
+    ]
+}

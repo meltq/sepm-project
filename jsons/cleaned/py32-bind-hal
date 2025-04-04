@@ -1,0 +1,21 @@
+{
+    "name": "py32-bind-hal",
+    "deps": [
+        "cortex-m",
+        "cortex-m-rt",
+        "cortex-m-semihosting",
+        "critical-section",
+        "defmt",
+        "defmt-rtt",
+        "embassy-executor",
+        "embassy-futures",
+        "embassy-sync",
+        "embassy-time",
+        "embassy-time-driver",
+        "embedded-hal",
+        "embedded-hal-async",
+        "futures-util",
+        "panic-probe",
+        "py32csdk-hal-sys"
+    ]
+}

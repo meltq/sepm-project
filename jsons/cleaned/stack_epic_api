@@ -1,0 +1,33 @@
+{
+    "name": "stack_epic_api",
+    "deps": [
+        "bigint",
+        "easy-jsonrpc-mw",
+        "failure",
+        "failure_derive",
+        "futures",
+        "http",
+        "hyper",
+        "hyper-rustls",
+        "hyper-timeout",
+        "lazy_static",
+        "log",
+        "regex",
+        "ring",
+        "rustls",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "stack_epic_chain",
+        "stack_epic_core",
+        "stack_epic_p2p",
+        "stack_epic_pool",
+        "stack_epic_store",
+        "stack_epic_util",
+        "tokio",
+        "tokio-core",
+        "tokio-rustls",
+        "tokio-tcp",
+        "url"
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "name": "timeline-service",
+    "deps": [
+        "anyhow",
+        "async-stream",
+        "axum",
+        "chrono",
+        "clap",
+        "futures",
+        "futures-core",
+        "futures-util",
+        "maud",
+        "once_cell",
+        "openidconnect",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "service_conventions",
+        "sqlx",
+        "thiserror",
+        "tokio",
+        "toml",
+        "tonic",
+        "tower-cookies",
+        "tower-http",
+        "tracing",
+        "url"
+    ]
+}

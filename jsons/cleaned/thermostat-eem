@@ -1,0 +1,29 @@
+{
+    "name": "thermostat-eem",
+    "deps": [
+        "asm-delay",
+        "byteorder",
+        "cortex-m",
+        "cortex-m-rt",
+        "cortex-m-rtic",
+        "defmt",
+        "defmt-rtt",
+        "embedded-time",
+        "enum-iterator",
+        "heapless",
+        "idsp",
+        "log",
+        "miniconf",
+        "minimq",
+        "num-traits",
+        "num_enum",
+        "panic-probe",
+        "serde",
+        "serde-json-core",
+        "shared-bus-rtic",
+        "smlang",
+        "smoltcp-nal",
+        "stm32h7xx-hal",
+        "systick-monotonic"
+    ]
+}

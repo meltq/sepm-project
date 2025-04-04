@@ -1,0 +1,21 @@
+{
+    "name": "pg_sync",
+    "deps": [
+        "bunt",
+        "chrono",
+        "clap",
+        "config",
+        "fern",
+        "itertools",
+        "log",
+        "postgres",
+        "serde",
+        "serde_yaml",
+        "snafu",
+        "sqlparser",
+        "tabled",
+        "test-context",
+        "test-env-helpers",
+        "version"
+    ]
+}

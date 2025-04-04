@@ -1,0 +1,15 @@
+{
+    "name": "stund_protocol",
+    "deps": [
+        "failure",
+        "futures",
+        "libc",
+        "serde",
+        "serde_derive",
+        "state_machine_future",
+        "tokio-core",
+        "tokio-io",
+        "tokio-serde-bincode",
+        "tokio-uds"
+    ]
+}

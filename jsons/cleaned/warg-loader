@@ -1,0 +1,25 @@
+{
+    "name": "warg-loader",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "base64",
+        "bytes",
+        "dirs",
+        "docker_credential",
+        "futures-util",
+        "oci-distribution",
+        "reqwest",
+        "secrecy",
+        "semver",
+        "serde",
+        "serde_json",
+        "sha2",
+        "thiserror",
+        "tokio",
+        "tokio-util",
+        "toml",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

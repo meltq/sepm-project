@@ -1,0 +1,21 @@
+{
+    "name": "kona-rpc",
+    "deps": [
+        "alloy-eips",
+        "alloy-primitives",
+        "alloy-sol-types",
+        "async-trait",
+        "derive_more",
+        "getrandom",
+        "jsonrpsee",
+        "kona-genesis",
+        "kona-interop",
+        "kona-protocol",
+        "op-alloy-rpc-jsonrpsee",
+        "op-alloy-rpc-types-engine",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio"
+    ]
+}

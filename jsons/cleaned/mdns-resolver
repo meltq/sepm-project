@@ -1,0 +1,15 @@
+{
+    "name": "mdns-resolver",
+    "deps": [
+        "color-eyre",
+        "lazy_static",
+        "rand",
+        "simple-dns",
+        "socket2",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "tracing-error",
+        "tracing-subscriber"
+    ]
+}

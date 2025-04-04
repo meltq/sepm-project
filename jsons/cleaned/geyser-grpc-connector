@@ -1,0 +1,21 @@
+{
+    "name": "geyser-grpc-connector",
+    "deps": [
+        "anyhow",
+        "async-stream",
+        "base64",
+        "bincode",
+        "derive_more",
+        "futures",
+        "itertools",
+        "log",
+        "merge-streams",
+        "solana-sdk",
+        "tokio",
+        "tracing",
+        "tracing-subscriber",
+        "url",
+        "yellowstone-grpc-client",
+        "yellowstone-grpc-proto"
+    ]
+}

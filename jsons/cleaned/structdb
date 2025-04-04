@@ -1,0 +1,14 @@
+{
+    "name": "structdb",
+    "deps": [
+        "bincode",
+        "chrono",
+        "criterion",
+        "librocksdb-sys",
+        "rocksdb",
+        "serde",
+        "thiserror",
+        "tokio",
+        "vlseqid"
+    ]
+}

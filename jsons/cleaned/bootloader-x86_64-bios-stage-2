@@ -1,0 +1,8 @@
+{
+    "name": "bootloader-x86_64-bios-stage-2",
+    "deps": [
+        "bootloader-x86_64-bios-common",
+        "byteorder",
+        "mbr-nostd"
+    ]
+}

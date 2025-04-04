@@ -1,0 +1,23 @@
+{
+    "name": "passcod-accord",
+    "deps": [
+        "async-channel",
+        "async-std",
+        "futures",
+        "isahc",
+        "mime",
+        "regex",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tide",
+        "tide-tracing",
+        "tracing",
+        "tracing-log",
+        "tracing-subscriber",
+        "twilight-cache-inmemory",
+        "twilight-gateway",
+        "twilight-http",
+        "twilight-model"
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "name": "rocketmq-namesrv",
+    "deps": [
+        "anyhow",
+        "bytes",
+        "clap",
+        "config",
+        "env_logger",
+        "futures",
+        "futures-core",
+        "futures-io",
+        "futures-sink",
+        "futures-util",
+        "log",
+        "parking_lot",
+        "rocketmq-common",
+        "rocketmq-remoting",
+        "rocketmq-rust",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tokio-stream",
+        "tokio-util",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "name": "omniqueue",
+    "deps": [
+        "async-trait",
+        "aws-config",
+        "aws-sdk-sqs",
+        "bb8",
+        "bb8-redis",
+        "fastrand",
+        "futures",
+        "lapin",
+        "rdkafka",
+        "redis",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tokio-executor-trait",
+        "tokio-reactor-trait",
+        "tracing"
+    ]
+}

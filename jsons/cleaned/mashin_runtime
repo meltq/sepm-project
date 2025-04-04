@@ -1,0 +1,20 @@
+{
+    "name": "mashin_runtime",
+    "deps": [
+        "anyhow",
+        "deno_ast",
+        "deno_console",
+        "deno_core",
+        "deno_fetch",
+        "deno_url",
+        "deno_web",
+        "deno_webidl",
+        "deno_websocket",
+        "libffi",
+        "mashin_core",
+        "mashin_ffi",
+        "reqwest",
+        "rkv",
+        "tokio"
+    ]
+}

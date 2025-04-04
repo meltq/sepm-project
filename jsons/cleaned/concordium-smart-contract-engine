@@ -1,0 +1,26 @@
+{
+    "name": "concordium-smart-contract-engine",
+    "deps": [
+        "anyhow",
+        "arbitrary",
+        "byteorder",
+        "concordium-contracts-common",
+        "concordium-wasm",
+        "criterion",
+        "derive_more",
+        "ed25519-zebra",
+        "futures",
+        "libc",
+        "num_enum",
+        "ptree",
+        "quickcheck",
+        "rand",
+        "secp256k1",
+        "serde",
+        "sha2",
+        "sha3",
+        "slab",
+        "thiserror",
+        "tinyvec"
+    ]
+}

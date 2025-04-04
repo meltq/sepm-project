@@ -1,0 +1,12 @@
+{
+    "name": "yt-sub-workers-core",
+    "deps": [
+        "eyre",
+        "serde",
+        "serde_json",
+        "tokio",
+        "worker",
+        "worker-macros",
+        "yt-sub-core"
+    ]
+}

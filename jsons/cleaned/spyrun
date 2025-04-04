@@ -1,0 +1,31 @@
+{
+    "name": "spyrun",
+    "deps": [
+        "aead",
+        "aes-gcm-siv",
+        "anyhow",
+        "base64",
+        "chrono",
+        "clap",
+        "crypto-hash",
+        "go-defer",
+        "log",
+        "log-derive",
+        "normalize-path",
+        "notify",
+        "path-slash",
+        "rand",
+        "rayon",
+        "regex",
+        "serde",
+        "single-instance",
+        "tera",
+        "time",
+        "toml",
+        "tracing",
+        "tracing-appender",
+        "tracing-log",
+        "tracing-subscriber",
+        "walkdir"
+    ]
+}

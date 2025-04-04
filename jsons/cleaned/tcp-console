@@ -1,0 +1,16 @@
+{
+    "name": "tcp-console",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "bcs",
+        "bytes",
+        "futures-util",
+        "serde",
+        "thiserror",
+        "tokio",
+        "tokio-util",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

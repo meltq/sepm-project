@@ -1,0 +1,11 @@
+{
+    "name": "carbon-prometheus-metrics",
+    "deps": [
+        "async-trait",
+        "carbon-core",
+        "log",
+        "metrics",
+        "metrics-exporter-prometheus",
+        "tokio"
+    ]
+}

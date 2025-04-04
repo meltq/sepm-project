@@ -1,0 +1,16 @@
+{
+    "name": "netsim-embed",
+    "deps": [
+        "env_logger",
+        "futures",
+        "ipfs-embed",
+        "libipld",
+        "netsim-embed-core",
+        "netsim-embed-machine",
+        "netsim-embed-nat",
+        "netsim-embed-router",
+        "pnet_packet",
+        "smol",
+        "tempdir"
+    ]
+}

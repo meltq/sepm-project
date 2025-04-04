@@ -1,0 +1,18 @@
+{
+    "name": "nostr-sdk",
+    "deps": [
+        "anyhow",
+        "bitcoin_hashes",
+        "chrono",
+        "env_logger",
+        "futures-util",
+        "log",
+        "nostr-sdk-base",
+        "once_cell",
+        "tokio",
+        "tokio-socks",
+        "tokio-tungstenite",
+        "url",
+        "uuid"
+    ]
+}

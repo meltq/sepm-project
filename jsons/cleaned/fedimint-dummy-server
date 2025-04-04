@@ -1,0 +1,20 @@
+{
+    "name": "fedimint-dummy-server",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "bitcoin_hashes",
+        "erased-serde",
+        "fedimint-core",
+        "fedimint-dummy-common",
+        "futures",
+        "rand",
+        "secp256k1",
+        "serde",
+        "strum",
+        "strum_macros",
+        "thiserror",
+        "tokio",
+        "tracing"
+    ]
+}

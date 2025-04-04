@@ -1,0 +1,12 @@
+{
+    "name": "dwn-server",
+    "deps": [
+        "axum",
+        "dwn",
+        "reqwest",
+        "serde_json",
+        "tokio",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

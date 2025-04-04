@@ -1,0 +1,17 @@
+{
+    "name": "gluesql_shared_sled_storage",
+    "deps": [
+        "async-io",
+        "async-trait",
+        "bincode",
+        "futures",
+        "gluesql-core",
+        "gluesql-utils",
+        "gluesql_sled_storage",
+        "iter-enum",
+        "serde",
+        "sled",
+        "thiserror",
+        "tokio"
+    ]
+}

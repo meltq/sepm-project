@@ -1,0 +1,23 @@
+{
+    "name": "ayun-http",
+    "deps": [
+        "axum",
+        "axum-extra",
+        "ayun-core",
+        "bytes",
+        "metrics",
+        "mime",
+        "sea-orm",
+        "serde",
+        "serde_json",
+        "tera",
+        "thiserror",
+        "tokio",
+        "tower",
+        "tower-http",
+        "tower-livereload",
+        "tracing",
+        "uuid",
+        "validator"
+    ]
+}

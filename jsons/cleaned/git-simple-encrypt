@@ -1,0 +1,23 @@
+{
+    "name": "git-simple-encrypt",
+    "deps": [
+        "aes-gcm-siv",
+        "anyhow",
+        "assert2",
+        "clap",
+        "colored",
+        "compio",
+        "die-exit",
+        "env_logger",
+        "futures-util",
+        "git2",
+        "libz-sys",
+        "log",
+        "openssl",
+        "regex",
+        "same-file",
+        "sha3",
+        "tap",
+        "temp_testdir"
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "name": "garage_net",
+    "deps": [
+        "arc-swap",
+        "async-trait",
+        "bytes",
+        "cfg-if",
+        "err-derive",
+        "futures",
+        "hex",
+        "kuska-handshake",
+        "log",
+        "opentelemetry",
+        "opentelemetry-contrib",
+        "pin-project",
+        "pretty_env_logger",
+        "rand",
+        "rmp-serde",
+        "serde",
+        "sodiumoxide",
+        "tokio",
+        "tokio-stream",
+        "tokio-util"
+    ]
+}

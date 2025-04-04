@@ -1,0 +1,14 @@
+{
+    "name": "s3-bucket-stats",
+    "deps": [
+        "chrono",
+        "clap",
+        "futures",
+        "log",
+        "object_store",
+        "pretty_env_logger",
+        "prometheus",
+        "tokio",
+        "warp"
+    ]
+}

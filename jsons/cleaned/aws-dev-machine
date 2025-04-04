@@ -1,0 +1,22 @@
+{
+    "name": "aws-dev-machine",
+    "deps": [
+        "aws-manager",
+        "aws-sdk-cloudformation",
+        "aws-sdk-ec2",
+        "clap",
+        "compress-manager",
+        "crossterm",
+        "dialoguer",
+        "env_logger",
+        "id-manager",
+        "log",
+        "public-ip",
+        "random-manager",
+        "rust-embed",
+        "serde",
+        "serde_yaml",
+        "tempfile",
+        "tokio"
+    ]
+}

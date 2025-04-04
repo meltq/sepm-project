@@ -1,0 +1,22 @@
+{
+    "name": "universal-sierra-compiler",
+    "deps": [
+        "anyhow",
+        "cairo-lang-casm",
+        "cairo-lang-sierra",
+        "cairo-lang-sierra-to-casm",
+        "cairo-lang-starknet-classes",
+        "cairo-lang-starknet-sierra-0_1_0",
+        "cairo-lang-starknet-sierra-1_0_0",
+        "clap",
+        "console",
+        "fs_extra",
+        "indoc",
+        "num-bigint",
+        "serde",
+        "serde_json",
+        "snapbox",
+        "tempfile",
+        "test-case"
+    ]
+}

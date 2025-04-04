@@ -1,0 +1,15 @@
+{
+    "name": "falco_event",
+    "deps": [
+        "anyhow",
+        "bitflags",
+        "byteorder",
+        "falco_event_derive",
+        "falco_plugin_api",
+        "hexdump",
+        "memchr",
+        "num-derive",
+        "num-traits",
+        "thiserror"
+    ]
+}

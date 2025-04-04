@@ -1,0 +1,18 @@
+{
+    "name": "hugo_to_json",
+    "deps": [
+        "assert_cmd",
+        "env_logger",
+        "log",
+        "predicates",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "strip_markdown",
+        "structopt",
+        "tempfile",
+        "toml",
+        "walkdir",
+        "yaml-rust"
+    ]
+}

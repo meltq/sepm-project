@@ -1,0 +1,14 @@
+{
+    "name": "sdvx-controller-firmware",
+    "deps": [
+        "cortex-m",
+        "cortex-m-rt",
+        "cortex-m-semihosting",
+        "embedded-hal",
+        "panic-reset",
+        "rotary-encoder-hal",
+        "stm32f1xx-hal",
+        "usb-device",
+        "usbd-hid"
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "name": "miden-node-store",
+    "deps": [
+        "anyhow",
+        "clap",
+        "deadpool-sqlite",
+        "directories",
+        "figment",
+        "figment",
+        "hex",
+        "miden-lib",
+        "miden-node-proto",
+        "miden-node-utils",
+        "miden-node-utils",
+        "miden-objects",
+        "once_cell",
+        "prost",
+        "rusqlite",
+        "rusqlite_migration",
+        "serde",
+        "thiserror",
+        "tokio",
+        "toml",
+        "tonic",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

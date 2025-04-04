@@ -1,0 +1,33 @@
+{
+    "name": "solana-bigtable-connection",
+    "deps": [
+        "backoff",
+        "bincode",
+        "bs58",
+        "bytemuck",
+        "bzip2",
+        "chrono",
+        "crossbeam-channel",
+        "enum-iterator",
+        "flate2",
+        "goauth",
+        "libc",
+        "log",
+        "openssl",
+        "prost",
+        "prost-types",
+        "rand",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "serial_test",
+        "smpl_jwt",
+        "tempfile",
+        "thiserror",
+        "tokio",
+        "tokio-util",
+        "tonic",
+        "tonic-build",
+        "zstd"
+    ]
+}

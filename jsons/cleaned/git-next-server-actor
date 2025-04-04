@@ -1,0 +1,19 @@
+{
+    "name": "git-next-server-actor",
+    "deps": [
+        "actix",
+        "derive-with",
+        "derive_more",
+        "git-next-actor-macros",
+        "git-next-config",
+        "git-next-file-watcher-actor",
+        "git-next-forge",
+        "git-next-git",
+        "git-next-repo-actor",
+        "git-next-webhook-actor",
+        "kxio",
+        "test-log",
+        "tokio",
+        "tracing"
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "name": "bbox-map-server",
+    "deps": [
+        "actix-web",
+        "async-process",
+        "async-trait",
+        "awc",
+        "bbox-core",
+        "bufstream",
+        "clap",
+        "deadpool",
+        "fastcgi-client",
+        "log",
+        "num_cpus",
+        "once_cell",
+        "opentelemetry",
+        "prometheus",
+        "rand",
+        "serde",
+        "serde-xml-rs",
+        "serde_json",
+        "tempfile",
+        "thiserror",
+        "tokio"
+    ]
+}

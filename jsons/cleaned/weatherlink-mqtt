@@ -1,0 +1,20 @@
+{
+    "name": "weatherlink-mqtt",
+    "deps": [
+        "anyhow",
+        "async-channel",
+        "async-lock",
+        "async-net",
+        "async-std",
+        "bytes",
+        "clap",
+        "futures-lite",
+        "mdns-sd",
+        "rumqttc",
+        "serde",
+        "serde_json",
+        "surf",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

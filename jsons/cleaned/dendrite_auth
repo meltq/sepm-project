@@ -1,0 +1,20 @@
+{
+    "name": "dendrite_auth",
+    "deps": [
+        "anyhow",
+        "dendrite",
+        "dendrite_macros",
+        "jwt",
+        "lazy_static",
+        "log",
+        "pem",
+        "prost",
+        "rand_core",
+        "rsa",
+        "serde_json",
+        "sha2",
+        "sshkeys",
+        "tonic",
+        "tonic-build"
+    ]
+}

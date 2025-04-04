@@ -1,0 +1,31 @@
+{
+    "name": "netidx-browser",
+    "deps": [
+        "anyhow",
+        "base64",
+        "bytes",
+        "cairo-rs",
+        "chrono",
+        "daemonize",
+        "env_logger",
+        "futures",
+        "gdk",
+        "gio",
+        "glib",
+        "gtk",
+        "indexmap",
+        "lazy_static",
+        "log",
+        "netidx",
+        "netidx-protocols",
+        "once_cell",
+        "parking_lot",
+        "plotters",
+        "plotters-cairo",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "structopt",
+        "tokio"
+    ]
+}

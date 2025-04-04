@@ -1,0 +1,21 @@
+{
+    "name": "safecoin-program-runtime",
+    "deps": [
+        "base64",
+        "bincode",
+        "itertools",
+        "libc",
+        "libloading",
+        "log",
+        "num-derive",
+        "num-traits",
+        "rustc_version",
+        "safecoin-frozen-abi",
+        "safecoin-frozen-abi-macro",
+        "safecoin-logger",
+        "safecoin-measure",
+        "safecoin-sdk",
+        "serde",
+        "thiserror"
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "name": "cargo-lambda-watch",
+    "deps": [
+        "axum",
+        "cargo-lambda-interactive",
+        "cargo-lambda-invoke",
+        "cargo-lambda-metadata",
+        "clap",
+        "home",
+        "http-api-problem",
+        "miette",
+        "opentelemetry",
+        "opentelemetry-aws",
+        "platforms",
+        "reqwest",
+        "tar",
+        "tempfile",
+        "thiserror",
+        "tokio",
+        "tokio-graceful-shutdown",
+        "tower-http",
+        "tracing",
+        "tracing-opentelemetry",
+        "tracing-subscriber",
+        "uuid",
+        "which",
+        "xz2",
+        "zip"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "killport",
+    "deps": [
+        "assert_cmd",
+        "clap",
+        "clap-verbosity-flag",
+        "env_logger",
+        "libc",
+        "libproc",
+        "log",
+        "nix",
+        "procfs",
+        "tempfile"
+    ]
+}

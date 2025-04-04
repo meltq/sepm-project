@@ -1,0 +1,22 @@
+{
+    "name": "openlimits-coinbase",
+    "deps": [
+        "async-trait",
+        "base64",
+        "chrono",
+        "futures",
+        "futures-util",
+        "hmac",
+        "openlimits-exchange",
+        "reqwest",
+        "rust_decimal",
+        "serde",
+        "serde_json",
+        "serde_urlencoded",
+        "sha2",
+        "thiserror",
+        "tokio",
+        "tokio-tungstenite",
+        "url"
+    ]
+}

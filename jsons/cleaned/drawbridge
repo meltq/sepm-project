@@ -1,0 +1,26 @@
+{
+    "name": "drawbridge",
+    "deps": [
+        "anyhow",
+        "async-h1",
+        "async-std",
+        "async-std",
+        "clap",
+        "drawbridge-byte",
+        "drawbridge-client",
+        "drawbridge-hash",
+        "drawbridge-jose",
+        "drawbridge-server",
+        "drawbridge-type",
+        "env_logger",
+        "futures",
+        "http-types",
+        "log",
+        "openidconnect",
+        "rustls",
+        "rustls-pemfile",
+        "serde_json",
+        "tempfile",
+        "toml"
+    ]
+}

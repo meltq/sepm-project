@@ -1,0 +1,13 @@
+{
+    "name": "cdefmt-decoder",
+    "deps": [
+        "cdefmt-parser",
+        "gimli",
+        "lazy-regex",
+        "object",
+        "serde",
+        "serde_json",
+        "serde_repr",
+        "thiserror"
+    ]
+}

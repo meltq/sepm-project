@@ -1,0 +1,14 @@
+{
+    "name": "susydev-jsonrpc-ipc-server",
+    "deps": [
+        "env_logger",
+        "lazy_static",
+        "log",
+        "parking_lot",
+        "susy-tokio-ipc",
+        "susydev-jsonrpc-core",
+        "susydev-jsonrpc-server-utils",
+        "tokio-service",
+        "tokio-uds"
+    ]
+}

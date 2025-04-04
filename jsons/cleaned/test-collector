@@ -1,0 +1,16 @@
+{
+    "name": "test-collector",
+    "deps": [
+        "actix-web",
+        "chrono",
+        "dotenv",
+        "env_logger",
+        "futures",
+        "inventory",
+        "log",
+        "once_cell",
+        "reqwest",
+        "test-collector-derive",
+        "test-collector-utils"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "name": "age-plugin-openpgp-card",
+    "deps": [
+        "age-core",
+        "age-plugin",
+        "base64",
+        "bech32",
+        "card-backend-pcsc",
+        "clap",
+        "openpgp-card",
+        "subtle",
+        "thiserror",
+        "x25519-dalek",
+        "zeroize"
+    ]
+}

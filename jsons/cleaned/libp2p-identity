@@ -1,0 +1,28 @@
+{
+    "name": "libp2p-identity",
+    "deps": [
+        "asn1_der",
+        "base64",
+        "bs58",
+        "criterion",
+        "ed25519-dalek",
+        "libsecp256k1",
+        "log",
+        "multiaddr",
+        "multihash",
+        "p256",
+        "prost",
+        "prost-build",
+        "quick-protobuf",
+        "rand",
+        "ring",
+        "rmp-serde",
+        "sec1",
+        "serde",
+        "serde_json",
+        "sha2",
+        "thiserror",
+        "void",
+        "zeroize"
+    ]
+}

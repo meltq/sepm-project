@@ -1,0 +1,24 @@
+{
+    "name": "mugle_chain",
+    "deps": [
+        "bit-vec",
+        "bitflags",
+        "byteorder",
+        "chrono",
+        "croaring",
+        "enum_primitive",
+        "env_logger",
+        "failure",
+        "failure_derive",
+        "lazy_static",
+        "log",
+        "lru-cache",
+        "mugle_core",
+        "mugle_keychain",
+        "mugle_store",
+        "mugle_util",
+        "rand",
+        "serde",
+        "serde_derive"
+    ]
+}

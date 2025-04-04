@@ -1,0 +1,13 @@
+{
+    "name": "prometheus_exporter_base",
+    "deps": [
+        "clap",
+        "env_logger",
+        "failure",
+        "futures",
+        "http",
+        "hyper",
+        "log",
+        "serde_json"
+    ]
+}

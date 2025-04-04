@@ -1,0 +1,23 @@
+{
+    "name": "ethers_provider",
+    "deps": [
+        "anyhow",
+        "async-timer-rs",
+        "completeq-rs",
+        "ethers_eip2718",
+        "ethers_primitives",
+        "futures",
+        "jsonrpc-rs",
+        "log",
+        "once_cell",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tokio-tungstenite",
+        "async-std",
+        "criterion",
+        "pretty_env_logger"
+    ]
+}

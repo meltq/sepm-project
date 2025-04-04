@@ -1,0 +1,15 @@
+{
+    "name": "crypto-auditing-client",
+    "deps": [
+        "anyhow",
+        "clap",
+        "crypto-auditing",
+        "futures",
+        "serde_cbor",
+        "serde_json",
+        "tokio",
+        "toml",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

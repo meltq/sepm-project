@@ -1,0 +1,23 @@
+{
+    "name": "waasabi-matrix",
+    "deps": [
+        "anyhow",
+        "crossbeam-channel",
+        "env_logger",
+        "futures-util",
+        "governor",
+        "http",
+        "hyper",
+        "hyper-tls",
+        "log",
+        "once_cell",
+        "reqwest",
+        "ruma",
+        "ruma-client",
+        "serde",
+        "serde_json",
+        "tokio",
+        "toml",
+        "url"
+    ]
+}

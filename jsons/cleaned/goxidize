@@ -1,0 +1,25 @@
+{
+    "name": "goxidize",
+    "deps": [
+        "actix-files",
+        "actix-rt",
+        "actix-web",
+        "chrono",
+        "config",
+        "lazy_static",
+        "opentelemetry",
+        "opentelemetry-otlp",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "sqlx",
+        "tokio",
+        "tracing",
+        "tracing-actix-web",
+        "tracing-futures",
+        "tracing-log",
+        "tracing-opentelemetry",
+        "tracing-subscriber",
+        "uuid"
+    ]
+}

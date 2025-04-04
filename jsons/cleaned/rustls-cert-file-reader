@@ -1,0 +1,11 @@
+{
+    "name": "rustls-cert-file-reader",
+    "deps": [
+        "async-trait",
+        "rustls",
+        "rustls-cert-read",
+        "rustls-pemfile",
+        "thiserror",
+        "tokio"
+    ]
+}

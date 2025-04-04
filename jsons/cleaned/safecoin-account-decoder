@@ -1,0 +1,21 @@
+{
+    "name": "safecoin-account-decoder",
+    "deps": [
+        "Inflector",
+        "base64",
+        "bincode",
+        "bs58",
+        "bv",
+        "lazy_static",
+        "safecoin-config-program",
+        "safecoin-sdk",
+        "safecoin-stake-program",
+        "safecoin-vote-program",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "spl-token-v2-0",
+        "thiserror",
+        "zstd"
+    ]
+}

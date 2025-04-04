@@ -1,0 +1,24 @@
+{
+    "name": "wrpc-wasmtime-cli",
+    "deps": [
+        "anyhow",
+        "async-nats",
+        "clap",
+        "futures",
+        "humantime",
+        "reqwest",
+        "tokio",
+        "tokio-util",
+        "tracing",
+        "url",
+        "wasi-preview1-component-adapter-provider",
+        "wasmparser",
+        "wasmtime",
+        "wasmtime-wasi",
+        "wit-component",
+        "wrpc-cli",
+        "wrpc-runtime-wasmtime",
+        "wrpc-transport",
+        "wrpc-transport-nats"
+    ]
+}

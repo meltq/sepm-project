@@ -1,0 +1,20 @@
+{
+    "name": "axum_session_auth",
+    "deps": [
+        "anyhow",
+        "async-recursion",
+        "async-trait",
+        "axum-core",
+        "axum_session",
+        "bytes",
+        "chrono",
+        "dashmap",
+        "futures",
+        "http",
+        "http-body",
+        "serde",
+        "tokio",
+        "tower-layer",
+        "tower-service"
+    ]
+}

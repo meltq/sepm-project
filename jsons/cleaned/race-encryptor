@@ -1,0 +1,21 @@
+{
+    "name": "race-encryptor",
+    "deps": [
+        "aes",
+        "anyhow",
+        "arrayref",
+        "base64",
+        "chrono",
+        "ctr",
+        "getrandom",
+        "hex",
+        "openssl",
+        "race-core",
+        "rand",
+        "sha1",
+        "thiserror",
+        "tracing",
+        "wasm-bindgen",
+        "wasm-bindgen-futures"
+    ]
+}

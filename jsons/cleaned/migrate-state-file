@@ -1,0 +1,13 @@
+{
+    "name": "migrate-state-file",
+    "deps": [
+        "advisory-lock",
+        "async-trait",
+        "fs-err",
+        "migrate-core",
+        "migrate-state",
+        "migrate-state-test",
+        "thiserror",
+        "tokio"
+    ]
+}

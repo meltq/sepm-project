@@ -1,0 +1,14 @@
+{
+    "name": "ssh-agent-lib",
+    "deps": [
+        "byteorder",
+        "bytes",
+        "env_logger",
+        "futures",
+        "log",
+        "openssl",
+        "serde",
+        "tokio",
+        "tokio-uds"
+    ]
+}

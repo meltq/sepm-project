@@ -1,0 +1,15 @@
+{
+    "name": "rosetta-server-bitcoin",
+    "deps": [
+        "anyhow",
+        "async-std",
+        "async-trait",
+        "bitcoincore-rpc-async",
+        "hex",
+        "rosetta-config-bitcoin",
+        "rosetta-server",
+        "rosetta-server",
+        "serde_json",
+        "tokio"
+    ]
+}

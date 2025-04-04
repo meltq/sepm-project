@@ -1,0 +1,21 @@
+{
+    "name": "cargo-depot",
+    "deps": [
+        "anyhow",
+        "cargo-platform",
+        "cargo-util-schemas",
+        "cargo_metadata",
+        "clap",
+        "env_logger",
+        "flate2",
+        "itertools",
+        "log",
+        "serde",
+        "serde_json",
+        "sha2",
+        "tar",
+        "tempfile",
+        "toml",
+        "ureq"
+    ]
+}

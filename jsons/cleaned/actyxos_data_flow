@@ -1,0 +1,30 @@
+{
+    "name": "actyxos_data_flow",
+    "deps": [
+        "abomonation",
+        "abomonation_derive",
+        "actyxos_sdk",
+        "anyhow",
+        "chrono",
+        "chrono-tz",
+        "derive_more",
+        "differential-dataflow",
+        "futures",
+        "futures-state-stream",
+        "futures01",
+        "itertools",
+        "native-tls",
+        "postgres",
+        "postgres-native-tls",
+        "rusqlite",
+        "serde",
+        "serde_cbor",
+        "serde_json",
+        "test-env-log",
+        "tiberius",
+        "timely",
+        "tokio",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

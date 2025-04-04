@@ -1,0 +1,16 @@
+{
+    "name": "nostr-rs-ext",
+    "deps": [
+        "clap",
+        "config",
+        "libloading",
+        "nostr-rs-plugin",
+        "nostr-rs-proto",
+        "serde",
+        "tokio",
+        "tonic",
+        "tracing",
+        "tracing-subscriber",
+        "tonic-build"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "az-snp-vtpm",
+    "deps": [
+        "bincode",
+        "clap",
+        "jsonwebkey",
+        "memoffset",
+        "openssl",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "sev",
+        "static_assertions",
+        "thiserror",
+        "tss-esapi"
+    ]
+}

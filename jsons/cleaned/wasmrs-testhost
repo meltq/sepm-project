@@ -1,0 +1,30 @@
+{
+    "name": "wasmrs-testhost",
+    "deps": [
+        "anyhow",
+        "base64",
+        "bytes",
+        "cfg-if",
+        "clap",
+        "env_logger",
+        "futures",
+        "parking_lot",
+        "serde",
+        "serde",
+        "serde_json",
+        "serde_json",
+        "test-log",
+        "thiserror",
+        "tokio",
+        "tokio",
+        "tracing",
+        "wasi-common",
+        "wasmrs",
+        "wasmrs-codec",
+        "wasmrs-frames",
+        "wasmrs-host",
+        "wasmrs-rx",
+        "wasmtime",
+        "wasmtime-wasi"
+    ]
+}

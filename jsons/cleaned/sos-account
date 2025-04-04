@@ -1,0 +1,32 @@
+{
+    "name": "sos-account",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "async_zip",
+        "futures-util",
+        "hex",
+        "indexmap",
+        "sanitize-filename",
+        "secrecy",
+        "serde",
+        "serde_json",
+        "serde_json_path",
+        "sha2",
+        "sos-core",
+        "sos-database",
+        "sos-sdk",
+        "tempfile",
+        "thiserror",
+        "time",
+        "time-tz",
+        "tokio",
+        "tokio-util",
+        "tracing",
+        "typeshare",
+        "uuid",
+        "vcard4",
+        "walkdir",
+        "xclipboard"
+    ]
+}

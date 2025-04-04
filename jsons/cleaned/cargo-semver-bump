@@ -1,0 +1,14 @@
+{
+    "name": "cargo-semver-bump",
+    "deps": [
+        "anyhow",
+        "cargo-semver-checks",
+        "clap",
+        "env_logger",
+        "git-cliff",
+        "git-cliff-core",
+        "log",
+        "semver",
+        "toml_edit"
+    ]
+}

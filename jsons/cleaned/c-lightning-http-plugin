@@ -1,0 +1,15 @@
+{
+    "name": "c-lightning-http-plugin",
+    "deps": [
+        "base64",
+        "crossbeam-channel",
+        "failure",
+        "futures",
+        "hyper",
+        "lazy_async_pool",
+        "lazy_static",
+        "serde",
+        "serde_json",
+        "tokio"
+    ]
+}

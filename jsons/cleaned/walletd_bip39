@@ -1,0 +1,16 @@
+{
+    "name": "walletd_bip39",
+    "deps": [
+        "bitvec",
+        "curve25519-dalek",
+        "enum-iterator",
+        "hex",
+        "hmac",
+        "libsecp256k1",
+        "pbkdf2",
+        "rand",
+        "sha2",
+        "thiserror",
+        "walletd_mnemonics_core"
+    ]
+}

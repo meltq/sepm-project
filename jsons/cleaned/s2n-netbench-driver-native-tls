@@ -1,0 +1,11 @@
+{
+    "name": "s2n-netbench-driver-native-tls",
+    "deps": [
+        "clap",
+        "netbench",
+        "netbench-driver",
+        "openssl-sys",
+        "tokio",
+        "tokio-native-tls"
+    ]
+}

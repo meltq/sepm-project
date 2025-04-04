@@ -1,0 +1,16 @@
+{
+    "name": "triton-cli",
+    "deps": [
+        "anyhow",
+        "assert_cmd",
+        "bincode",
+        "clap",
+        "fs-err",
+        "human-panic",
+        "itertools",
+        "predicates",
+        "serde_json",
+        "tempfile",
+        "triton-vm"
+    ]
+}

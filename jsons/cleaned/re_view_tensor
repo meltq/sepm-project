@@ -1,0 +1,23 @@
+{
+    "name": "re_view_tensor",
+    "deps": [
+        "anyhow",
+        "bytemuck",
+        "egui",
+        "half",
+        "ndarray",
+        "re_chunk_store",
+        "re_data_ui",
+        "re_log_types",
+        "re_query",
+        "re_renderer",
+        "re_tracing",
+        "re_types",
+        "re_ui",
+        "re_view",
+        "re_viewer_context",
+        "re_viewport_blueprint",
+        "thiserror",
+        "wgpu"
+    ]
+}

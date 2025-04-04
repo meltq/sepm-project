@@ -1,0 +1,28 @@
+{
+    "name": "minedmap",
+    "deps": [
+        "anyhow",
+        "bincode",
+        "clap",
+        "fastnbt",
+        "futures-util",
+        "git-version",
+        "glam",
+        "image",
+        "indexmap",
+        "lru",
+        "minedmap-nbt",
+        "minedmap-resource",
+        "minedmap-types",
+        "num-integer",
+        "num_cpus",
+        "rayon",
+        "rustc-hash",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tracing",
+        "tracing-subscriber",
+        "zstd"
+    ]
+}

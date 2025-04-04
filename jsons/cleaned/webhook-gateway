@@ -1,0 +1,16 @@
+{
+    "name": "webhook-gateway",
+    "deps": [
+        "anyhow",
+        "derive_builder",
+        "once_cell",
+        "poem",
+        "regex",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

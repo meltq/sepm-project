@@ -1,0 +1,12 @@
+{
+    "name": "wrpc-wasi-keyvalue-mem",
+    "deps": [
+        "anyhow",
+        "bytes",
+        "futures",
+        "tokio",
+        "tracing",
+        "wrpc-transport",
+        "wrpc-wasi-keyvalue"
+    ]
+}

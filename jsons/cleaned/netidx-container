@@ -1,0 +1,28 @@
+{
+    "name": "netidx-container",
+    "deps": [
+        "anyhow",
+        "arcstr",
+        "base64",
+        "bytes",
+        "chrono",
+        "dirs",
+        "futures",
+        "fxhash",
+        "lazy_static",
+        "log",
+        "netidx",
+        "netidx-bscript",
+        "netidx-core",
+        "netidx-protocols",
+        "parking_lot",
+        "rayon",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "sled",
+        "structopt",
+        "tokio",
+        "uuid"
+    ]
+}

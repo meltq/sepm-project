@@ -1,0 +1,19 @@
+{
+    "name": "db-rpc",
+    "deps": [
+        "ahash",
+        "axum",
+        "axum-msgpack",
+        "chrono",
+        "futures",
+        "itertools",
+        "mysql_async",
+        "rmpv",
+        "serde",
+        "service-toolkit",
+        "tokio",
+        "toml",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

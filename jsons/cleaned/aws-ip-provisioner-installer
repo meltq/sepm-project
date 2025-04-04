@@ -1,0 +1,15 @@
+{
+    "name": "aws-ip-provisioner-installer",
+    "deps": [
+        "aws-manager",
+        "compress-manager",
+        "env_logger",
+        "http-manager",
+        "log",
+        "random-manager",
+        "serde",
+        "serde_json",
+        "tempfile",
+        "tokio"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "snarkos-node-sync",
+    "deps": [
+        "anyhow",
+        "indexmap",
+        "itertools",
+        "once_cell",
+        "parking_lot",
+        "rand",
+        "serde",
+        "snarkos-node-narwhal-ledger-service",
+        "snarkos-node-sync-communication-service",
+        "snarkos-node-sync-locators",
+        "snarkvm",
+        "snarkvm",
+        "tokio",
+        "tracing"
+    ]
+}

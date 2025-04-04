@@ -1,0 +1,21 @@
+{
+    "name": "txood",
+    "deps": [
+        "anyhow",
+        "bitcoin",
+        "blocks_iterator",
+        "clap",
+        "dirs",
+        "fern",
+        "log",
+        "rand",
+        "rayon",
+        "serde",
+        "serde_yaml",
+        "time",
+        "tokio",
+        "txoo",
+        "txoo-bitcoind-client",
+        "url"
+    ]
+}

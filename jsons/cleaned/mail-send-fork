@@ -1,0 +1,19 @@
+{
+    "name": "mail-send-fork",
+    "deps": [
+        "base64",
+        "env_logger",
+        "gethostname",
+        "mail-auth",
+        "mail-builder",
+        "md5",
+        "rand",
+        "rustls",
+        "rustls-pki-types",
+        "smtp-proto",
+        "tokio",
+        "tokio",
+        "tokio-rustls",
+        "webpki-roots"
+    ]
+}

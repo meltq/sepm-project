@@ -1,0 +1,17 @@
+{
+    "name": "mz_rusoto_sts",
+    "deps": [
+        "async-trait",
+        "bytes",
+        "chrono",
+        "futures",
+        "mz_rusoto_core",
+        "mz_rusoto_mock",
+        "serde",
+        "serde_derive",
+        "serde_urlencoded",
+        "tempfile",
+        "tokio",
+        "xml-rs"
+    ]
+}

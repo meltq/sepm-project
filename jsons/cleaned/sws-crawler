@@ -1,0 +1,22 @@
+{
+    "name": "sws-crawler",
+    "deps": [
+        "anyhow",
+        "clap",
+        "crossbeam-channel",
+        "flate2",
+        "futures",
+        "lazy_static",
+        "log",
+        "num_cpus",
+        "pin-project-lite",
+        "reqwest",
+        "serde",
+        "sxd-document",
+        "sxd-xpath",
+        "texting_robots",
+        "tokio",
+        "tokio",
+        "tokio-stream"
+    ]
+}

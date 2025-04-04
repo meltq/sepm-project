@@ -1,0 +1,15 @@
+{
+    "name": "wasmtime-debug",
+    "deps": [
+        "cranelift-codegen",
+        "cranelift-entity",
+        "cranelift-wasm",
+        "faerie",
+        "failure",
+        "failure_derive",
+        "gimli",
+        "target-lexicon",
+        "wasmparser",
+        "wasmtime-environ"
+    ]
+}

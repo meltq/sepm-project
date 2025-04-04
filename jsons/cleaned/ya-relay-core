@@ -1,0 +1,28 @@
+{
+    "name": "ya-relay-core",
+    "deps": [
+        "actix-rt",
+        "anyhow",
+        "chrono",
+        "digest",
+        "env_logger",
+        "ethsign",
+        "futures",
+        "governor",
+        "hex",
+        "lazy_static",
+        "log",
+        "rand",
+        "serde_json",
+        "sha2",
+        "sha3",
+        "thiserror",
+        "tokio",
+        "tokio-util",
+        "url",
+        "uuid",
+        "ya-client-model",
+        "ya-relay-proto",
+        "ya-relay-stack"
+    ]
+}

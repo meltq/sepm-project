@@ -1,0 +1,15 @@
+{
+    "name": "vinted-rs",
+    "deps": [
+        "bb8-postgres",
+        "once_cell",
+        "postgres-types",
+        "rand",
+        "reqwest",
+        "reqwest_cookie_store",
+        "serde",
+        "thiserror",
+        "tokio",
+        "typed-builder"
+    ]
+}

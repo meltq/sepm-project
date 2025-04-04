@@ -1,0 +1,11 @@
+{
+    "name": "pavex_session_memory_store",
+    "deps": [
+        "async-trait",
+        "pavex_session",
+        "serde_json",
+        "time",
+        "tokio",
+        "tracing"
+    ]
+}

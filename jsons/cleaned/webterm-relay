@@ -1,0 +1,17 @@
+{
+    "name": "webterm-relay",
+    "deps": [
+        "askama",
+        "askama_axum",
+        "axum",
+        "clap",
+        "flatbuffers",
+        "futures",
+        "serde",
+        "tokio",
+        "tower-http",
+        "tracing",
+        "tracing-subscriber",
+        "webterm-core"
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "name": "spacetimedb-client-api",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "axum",
+        "bytes",
+        "bytestring",
+        "chrono",
+        "email_address",
+        "futures",
+        "http",
+        "hyper",
+        "itoa",
+        "lazy_static",
+        "log",
+        "mime",
+        "prometheus",
+        "rand",
+        "regex",
+        "serde",
+        "serde_json",
+        "spacetimedb-core",
+        "spacetimedb-lib",
+        "tempdir",
+        "tokio",
+        "tokio-stream",
+        "tokio-tungstenite"
+    ]
+}

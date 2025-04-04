@@ -1,0 +1,19 @@
+{
+    "name": "tdns-cli",
+    "deps": [
+        "base64",
+        "crypto-mac",
+        "failure",
+        "futures",
+        "hmac",
+        "once_cell",
+        "rand",
+        "resolv-conf",
+        "sha2",
+        "structopt",
+        "tokio",
+        "tokio-tcp",
+        "tokio-udp",
+        "trust-dns"
+    ]
+}

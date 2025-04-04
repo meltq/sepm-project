@@ -1,0 +1,9 @@
+{
+    "name": "userfaultfd-sys",
+    "deps": [
+        "bindgen",
+        "cc",
+        "cfg-if",
+        "linux-version"
+    ]
+}

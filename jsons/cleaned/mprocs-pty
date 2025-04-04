@@ -1,0 +1,23 @@
+{
+    "name": "mprocs-pty",
+    "deps": [
+        "anyhow",
+        "bitflags",
+        "downcast-rs",
+        "filedescriptor",
+        "futures",
+        "lazy_static",
+        "libc",
+        "log",
+        "nix",
+        "serde",
+        "serde_derive",
+        "serial",
+        "shared_library",
+        "shell-words",
+        "smol",
+        "ssh2",
+        "winapi",
+        "winreg"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "name": "l3_fn_build",
+    "deps": [
+        "anyhow",
+        "base64",
+        "l3_api_base",
+        "rustpython-parser",
+        "serde",
+        "serde_json",
+        "sha2",
+        "swc",
+        "swc_common",
+        "swc_ecma_ast",
+        "swc_ecma_parser",
+        "swc_ecma_visit",
+        "temp-dir",
+        "thiserror",
+        "tokio",
+        "zip"
+    ]
+}

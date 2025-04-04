@@ -1,0 +1,17 @@
+{
+    "name": "basws",
+    "deps": [
+        "anyhow",
+        "basws-client",
+        "basws-server",
+        "basws-shared",
+        "log",
+        "pretty_env_logger",
+        "rand",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "tokio",
+        "warp"
+    ]
+}

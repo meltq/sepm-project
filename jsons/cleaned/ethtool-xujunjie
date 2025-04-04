@@ -1,0 +1,20 @@
+{
+    "name": "ethtool-xujunjie",
+    "deps": [
+        "anyhow",
+        "async-std",
+        "byteorder",
+        "env_logger",
+        "futures",
+        "genetlink",
+        "log",
+        "netlink-packet-core",
+        "netlink-packet-generic",
+        "netlink-packet-utils",
+        "netlink-proto",
+        "netlink-sys",
+        "thiserror",
+        "tokio",
+        "tokio"
+    ]
+}

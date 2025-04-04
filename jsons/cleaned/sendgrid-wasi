@@ -1,0 +1,12 @@
+{
+    "name": "sendgrid-wasi",
+    "deps": [
+        "data-encoding",
+        "reqwest_wasi",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "url"
+    ]
+}

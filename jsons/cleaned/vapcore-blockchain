@@ -1,0 +1,28 @@
+{
+    "name": "vapcore-blockchain",
+    "deps": [
+        "ansi_term",
+        "blooms-db",
+        "common-types",
+        "env_logger",
+        "itertools",
+        "log",
+        "parking_lot",
+        "rand",
+        "rayon",
+        "rlp-compress",
+        "rustc-hex",
+        "tempdir",
+        "tetsy-bytes",
+        "tetsy-crypto",
+        "tetsy-keccak-hash",
+        "tetsy-kvdb",
+        "tetsy-kvdb-memorydb",
+        "tetsy-rlp",
+        "tetsy-rlp-derive",
+        "tetsy-util-mem",
+        "triehash-vapory",
+        "vapcore-db",
+        "vapory-types"
+    ]
+}

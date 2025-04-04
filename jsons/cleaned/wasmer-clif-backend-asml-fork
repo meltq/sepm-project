@@ -1,0 +1,24 @@
+{
+    "name": "wasmer-clif-backend-asml-fork",
+    "deps": [
+        "byteorder",
+        "cranelift-codegen",
+        "cranelift-entity",
+        "cranelift-frontend",
+        "cranelift-native",
+        "cranelift-wasm",
+        "libc",
+        "nix",
+        "rayon",
+        "serde",
+        "serde-bench",
+        "serde_bytes",
+        "serde_derive",
+        "target-lexicon",
+        "wasm-debug",
+        "wasmer-runtime-core",
+        "wasmer-win-exception-handler",
+        "wasmparser",
+        "winapi"
+    ]
+}

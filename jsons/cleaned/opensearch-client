@@ -1,0 +1,32 @@
+{
+    "name": "opensearch-client",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "base64",
+        "bytes",
+        "derive_builder",
+        "futures",
+        "futures-util",
+        "http-cache-reqwest",
+        "opensearch-dsl",
+        "opensearch-testcontainer",
+        "percent-encoding",
+        "regress",
+        "reqwest",
+        "reqwest-middleware",
+        "reqwest-retry",
+        "reqwest-tracing",
+        "serde",
+        "serde_json",
+        "serde_urlencoded",
+        "task-local-extensions",
+        "testcontainers",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "tracing-test",
+        "url",
+        "walkdir"
+    ]
+}

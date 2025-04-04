@@ -1,0 +1,23 @@
+{
+    "name": "tc-transaction-graph",
+    "deps": [
+        "assert_matches",
+        "codec",
+        "criterion",
+        "derive_more",
+        "futures",
+        "linked-hash-map",
+        "log",
+        "parking_lot",
+        "retain_mut",
+        "serde",
+        "tet-core",
+        "tetcore-utils",
+        "tetsy-util-mem",
+        "thiserror",
+        "tp-blockchain",
+        "tp-runtime",
+        "tp-transaction-pool",
+        "wasm-timer"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "name": "worterbuch",
+    "deps": [
+        "anyhow",
+        "async-stream",
+        "dotenv",
+        "env_logger",
+        "futures",
+        "futures-util",
+        "juniper",
+        "juniper_graphql_ws",
+        "juniper_warp",
+        "libworterbuch",
+        "log",
+        "openssl",
+        "serde",
+        "serde_json",
+        "tokio",
+        "uuid",
+        "warp"
+    ]
+}

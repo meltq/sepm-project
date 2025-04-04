@@ -1,0 +1,13 @@
+{
+    "name": "netlink-packet-netfilter",
+    "deps": [
+        "anyhow",
+        "bitflags",
+        "byteorder",
+        "derive_more",
+        "libc",
+        "netlink-packet-core",
+        "netlink-packet-utils",
+        "netlink-sys"
+    ]
+}

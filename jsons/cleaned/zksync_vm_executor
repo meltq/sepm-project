@@ -1,0 +1,17 @@
+{
+    "name": "zksync_vm_executor",
+    "deps": [
+        "anyhow",
+        "assert_matches",
+        "async-trait",
+        "once_cell",
+        "test-casing",
+        "tokio",
+        "tracing",
+        "vise",
+        "zksync_contracts",
+        "zksync_dal",
+        "zksync_multivm",
+        "zksync_types"
+    ]
+}

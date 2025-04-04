@@ -1,0 +1,32 @@
+{
+    "name": "clockwork_plugin",
+    "deps": [
+        "anchor-lang",
+        "bincode",
+        "bs58",
+        "bugsnag",
+        "chrono",
+        "clockwork-client",
+        "clockwork-cron",
+        "clockwork-utils",
+        "dashmap",
+        "log",
+        "prost",
+        "rayon",
+        "reqwest",
+        "sentry",
+        "serde",
+        "serde_json",
+        "simple-error",
+        "solana-account-decoder",
+        "solana-client",
+        "solana-geyser-plugin-interface",
+        "solana-logger",
+        "solana-program",
+        "solana-sdk",
+        "solana-transaction-status",
+        "thiserror",
+        "tokio",
+        "cargo_toml"
+    ]
+}

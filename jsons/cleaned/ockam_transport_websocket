@@ -1,0 +1,13 @@
+{
+    "name": "ockam_transport_websocket",
+    "deps": [
+        "futures-channel",
+        "futures-util",
+        "ockam_core",
+        "ockam_node",
+        "serde_bare",
+        "tokio",
+        "tokio-tungstenite",
+        "tracing"
+    ]
+}

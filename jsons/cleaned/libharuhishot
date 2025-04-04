@@ -1,0 +1,12 @@
+{
+    "name": "libharuhishot",
+    "deps": [
+        "memmap2",
+        "nix",
+        "thiserror",
+        "tracing",
+        "wayland-client",
+        "wayland-protocols",
+        "wayland-protocols-wlr"
+    ]
+}

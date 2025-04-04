@@ -1,0 +1,26 @@
+{
+    "name": "authzen-opa",
+    "deps": [
+        "anyhow",
+        "async-backtrace",
+        "async-trait",
+        "authzen-service-util",
+        "cfg-if",
+        "derivative",
+        "derive_more",
+        "futures",
+        "hyper",
+        "hyper-rustls",
+        "lazy_static",
+        "opentelemetry",
+        "serde",
+        "serde_json",
+        "serde_with",
+        "tokio",
+        "tracing",
+        "tracing-opentelemetry",
+        "typed-builder",
+        "uuid",
+        "rustc_version"
+    ]
+}

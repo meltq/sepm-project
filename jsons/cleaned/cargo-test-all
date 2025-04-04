@@ -1,0 +1,14 @@
+{
+    "name": "cargo-test-all",
+    "deps": [
+        "cargo",
+        "cargo-clone",
+        "failure",
+        "rm_rf",
+        "rustc-serialize",
+        "structopt",
+        "structopt-derive",
+        "toml",
+        "workerpool"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "curve25519-dalek-fiat",
+    "deps": [
+        "bincode",
+        "byteorder",
+        "criterion",
+        "digest",
+        "fiat-crypto",
+        "packed_simd",
+        "rand",
+        "rand_core",
+        "serde",
+        "sha2",
+        "subtle",
+        "zeroize"
+    ]
+}

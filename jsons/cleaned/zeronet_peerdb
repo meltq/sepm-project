@@ -1,0 +1,13 @@
+{
+    "name": "zeronet_peerdb",
+    "deps": [
+        "criterion",
+        "lazy_static",
+        "log",
+        "rand",
+        "rusqlite",
+        "rusqlite_migration",
+        "thiserror",
+        "zeronet_protocol"
+    ]
+}

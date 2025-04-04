@@ -1,0 +1,17 @@
+{
+    "name": "OpenDataSH_twitter_notifier",
+    "deps": [
+        "clap",
+        "egg-mode",
+        "futures",
+        "hyper",
+        "hyper-tls",
+        "log",
+        "serde",
+        "serde_json",
+        "simple_logger",
+        "tokio",
+        "toml",
+        "twitter-text"
+    ]
+}

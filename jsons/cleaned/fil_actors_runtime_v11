@@ -1,0 +1,25 @@
+{
+    "name": "fil_actors_runtime_v11",
+    "deps": [
+        "anyhow",
+        "cid",
+        "fvm_ipld_amt",
+        "fvm_ipld_blockstore",
+        "fvm_ipld_encoding",
+        "fvm_ipld_hamt",
+        "fvm_shared3",
+        "multihash",
+        "num-bigint",
+        "num-derive",
+        "num-traits",
+        "paste",
+        "quickcheck",
+        "quickcheck_macros",
+        "serde",
+        "serde_repr",
+        "sha2",
+        "thiserror",
+        "toml",
+        "unsigned-varint"
+    ]
+}

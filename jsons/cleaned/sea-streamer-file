@@ -1,0 +1,21 @@
+{
+    "name": "sea-streamer-file",
+    "deps": [
+        "anyhow",
+        "async-std",
+        "crczoo",
+        "env_logger",
+        "fastrand",
+        "flume",
+        "lazy_static",
+        "log",
+        "notify",
+        "sea-streamer-runtime",
+        "sea-streamer-types",
+        "serde",
+        "serde_json",
+        "structopt",
+        "thiserror",
+        "tokio"
+    ]
+}

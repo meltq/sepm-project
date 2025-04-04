@@ -1,0 +1,17 @@
+{
+    "name": "solana-address-lookup-table-program",
+    "deps": [
+        "bincode",
+        "bytemuck",
+        "log",
+        "num-derive",
+        "num-traits",
+        "rustc_version",
+        "serde",
+        "solana-frozen-abi",
+        "solana-frozen-abi-macro",
+        "solana-program-runtime",
+        "solana-sdk",
+        "thiserror"
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "name": "wasmcloud-provider-sdk",
+    "deps": [
+        "async-nats",
+        "async-trait",
+        "base64",
+        "data-encoding",
+        "futures",
+        "nkeys",
+        "once_cell",
+        "opentelemetry",
+        "rmp-serde",
+        "serde",
+        "serde_bytes",
+        "serde_json",
+        "sha2",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "tracing-futures",
+        "tracing-opentelemetry",
+        "uuid",
+        "wascap",
+        "wasmcloud-core",
+        "wasmcloud-tracing"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "cable-tunnel-server-backend",
+    "deps": [
+        "cable-tunnel-server-common",
+        "clap",
+        "futures",
+        "hex",
+        "http-body",
+        "http-body-util",
+        "hyper",
+        "thiserror",
+        "tokio",
+        "tokio-native-tls",
+        "tokio-tungstenite",
+        "tracing",
+        "tracing-subscriber",
+        "tungstenite"
+    ]
+}

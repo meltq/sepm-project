@@ -1,0 +1,21 @@
+{
+    "name": "asterisk-ari-client-rs",
+    "deps": [
+        "async-trait",
+        "base64",
+        "chrono",
+        "env_logger",
+        "futures-util",
+        "http",
+        "lazy_static",
+        "log",
+        "rand",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tokio-tungstenite",
+        "url",
+        "urlencoding"
+    ]
+}

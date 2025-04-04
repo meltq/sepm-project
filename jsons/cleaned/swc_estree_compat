@@ -1,0 +1,26 @@
+{
+    "name": "swc_estree_compat",
+    "deps": [
+        "ahash",
+        "anyhow",
+        "copyless",
+        "pretty_assertions",
+        "rayon",
+        "serde",
+        "serde_json",
+        "swc",
+        "swc_atoms",
+        "swc_common",
+        "swc_ecma_ast",
+        "swc_ecma_parser",
+        "swc_ecma_transforms",
+        "swc_ecma_utils",
+        "swc_ecma_visit",
+        "swc_estree_ast",
+        "swc_estree_macros",
+        "swc_estree_visit",
+        "swc_node_base",
+        "swc_node_comments",
+        "walkdir"
+    ]
+}

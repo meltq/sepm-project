@@ -1,0 +1,21 @@
+{
+    "name": "pallet-contract-operator",
+    "deps": [
+        "codec",
+        "derive_more",
+        "frame-support",
+        "frame-system",
+        "hex-literal",
+        "pallet-balances",
+        "pallet-contracts",
+        "pallet-randomness-collective-flip",
+        "pallet-timestamp",
+        "pallet-transaction-payment",
+        "serde",
+        "sp-core",
+        "sp-io",
+        "sp-runtime",
+        "sp-std",
+        "wabt"
+    ]
+}

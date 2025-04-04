@@ -1,0 +1,19 @@
+{
+    "name": "portfu_core",
+    "deps": [
+        "async-trait",
+        "futures-util",
+        "http",
+        "http-body-util",
+        "hyper",
+        "hyper-util",
+        "log",
+        "once_cell",
+        "regex",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tokio-tungstenite",
+        "uuid"
+    ]
+}

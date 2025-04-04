@@ -1,0 +1,27 @@
+{
+    "name": "miraland-quic-client",
+    "deps": [
+        "async-mutex",
+        "async-trait",
+        "crossbeam-channel",
+        "futures",
+        "itertools",
+        "lazy_static",
+        "log",
+        "miraland-connection-cache",
+        "miraland-logger",
+        "miraland-measure",
+        "miraland-metrics",
+        "miraland-net-utils",
+        "miraland-perf",
+        "miraland-rpc-client-api",
+        "miraland-sdk",
+        "miraland-streamer",
+        "quinn",
+        "quinn-proto",
+        "rcgen",
+        "rustls",
+        "thiserror",
+        "tokio"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "name": "vhost-device-sound",
+    "deps": [
+        "alsa",
+        "clap",
+        "env_logger",
+        "log",
+        "pw",
+        "rstest",
+        "tempfile",
+        "thiserror",
+        "vhost",
+        "vhost-user-backend",
+        "virtio-bindings",
+        "virtio-queue",
+        "virtio-queue",
+        "vm-memory",
+        "vm-memory",
+        "vmm-sys-util"
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "name": "tensor-eigen",
+    "deps": [
+        "anyhow",
+        "borsh",
+        "chrono",
+        "clap",
+        "console",
+        "dirs",
+        "hex",
+        "indexmap",
+        "num-derive",
+        "num-traits",
+        "serde",
+        "serde_json",
+        "serde_with",
+        "serde_yaml",
+        "sha2",
+        "solana-account-decoder",
+        "solana-client",
+        "solana-logger",
+        "solana-program",
+        "solana-sdk",
+        "tensor-amm",
+        "tensor-marketplace",
+        "tensor-price-lock",
+        "tensor-whitelist",
+        "uuid"
+    ]
+}

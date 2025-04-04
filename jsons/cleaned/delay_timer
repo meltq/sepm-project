@@ -1,0 +1,13 @@
+{
+    "name": "delay_timer",
+    "deps": [
+        "anyhow",
+        "async-std",
+        "cron_clock",
+        "rs-snowflake",
+        "smol",
+        "surf",
+        "threadpool",
+        "waitmap"
+    ]
+}

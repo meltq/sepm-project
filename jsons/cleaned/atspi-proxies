@@ -1,0 +1,25 @@
+{
+    "name": "atspi-proxies",
+    "deps": [
+        "async-std",
+        "async-trait",
+        "atspi-common",
+        "atspi-macros",
+        "byteorder",
+        "enumflags2",
+        "fantoccini",
+        "futures-lite",
+        "futures-lite",
+        "lazy_static",
+        "rename-item",
+        "serde",
+        "serde_json",
+        "serde_plain",
+        "serial_test",
+        "tokio",
+        "tokio-stream",
+        "tokio-test",
+        "tracing",
+        "zbus"
+    ]
+}

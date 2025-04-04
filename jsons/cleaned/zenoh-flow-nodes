@@ -1,0 +1,19 @@
+{
+    "name": "zenoh-flow-nodes",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "bincode",
+        "flume",
+        "futures",
+        "prost",
+        "rustc_version",
+        "serde",
+        "serde_json",
+        "tracing",
+        "uhlc",
+        "uuid",
+        "zenoh-flow-commons",
+        "zenoh-flow-derive"
+    ]
+}

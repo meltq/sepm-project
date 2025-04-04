@@ -1,0 +1,25 @@
+{
+    "name": "bbox-routing-server",
+    "deps": [
+        "actix-web",
+        "async-trait",
+        "bbox-core",
+        "bincode",
+        "clap",
+        "fast_paths",
+        "figment",
+        "futures",
+        "geo",
+        "geo-types",
+        "geojson",
+        "geozero",
+        "log",
+        "polyline",
+        "rstar",
+        "serde",
+        "serde_json",
+        "sqlx",
+        "thiserror",
+        "tokio"
+    ]
+}

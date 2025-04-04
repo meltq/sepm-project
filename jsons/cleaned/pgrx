@@ -1,0 +1,24 @@
+{
+    "name": "pgrx",
+    "deps": [
+        "atomic-traits",
+        "bitflags",
+        "bitvec",
+        "heapless",
+        "libc",
+        "once_cell",
+        "pgrx-macros",
+        "pgrx-pg-sys",
+        "pgrx-sql-entity-graph",
+        "seahash",
+        "seq-macro",
+        "serde",
+        "serde_cbor",
+        "serde_json",
+        "thiserror",
+        "time",
+        "tracing",
+        "tracing-error",
+        "uuid"
+    ]
+}

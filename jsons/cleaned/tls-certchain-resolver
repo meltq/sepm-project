@@ -1,0 +1,14 @@
+{
+    "name": "tls-certchain-resolver",
+    "deps": [
+        "clap",
+        "der",
+        "env_logger",
+        "log",
+        "pem-rfc7468",
+        "reqwest",
+        "rustls",
+        "webpki-roots",
+        "x509-parser"
+    ]
+}

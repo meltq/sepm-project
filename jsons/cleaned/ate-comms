@@ -1,0 +1,31 @@
+{
+    "name": "ate-comms",
+    "deps": [
+        "async-trait",
+        "ate-crypto",
+        "backtrace",
+        "base64",
+        "bincode",
+        "bytes",
+        "chrono",
+        "derivative",
+        "error-chain",
+        "fastrand",
+        "futures",
+        "futures-util",
+        "hex",
+        "once_cell",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tokio",
+        "tracing",
+        "tracing-futures",
+        "tracing-subscriber",
+        "trust-dns-client",
+        "trust-dns-proto",
+        "url",
+        "wasmer-bus",
+        "wasmer-bus-ws"
+    ]
+}

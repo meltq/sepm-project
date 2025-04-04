@@ -1,0 +1,13 @@
+{
+    "name": "pqcrypto-sphincsplus-wasi",
+    "deps": [
+        "cc",
+        "glob",
+        "libc",
+        "pqcrypto-internals-wasi",
+        "pqcrypto-traits-wasi",
+        "rand",
+        "serde",
+        "serde-big-array"
+    ]
+}

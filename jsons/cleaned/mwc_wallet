@@ -1,0 +1,32 @@
+{
+    "name": "mwc_wallet",
+    "deps": [
+        "built",
+        "clap",
+        "easy-jsonrpc-mw",
+        "ed25519-dalek",
+        "funty",
+        "lazy_static",
+        "linefeed",
+        "log",
+        "mwc_wallet_api",
+        "mwc_wallet_config",
+        "mwc_wallet_controller",
+        "mwc_wallet_impls",
+        "mwc_wallet_libwallet",
+        "mwc_wallet_util",
+        "prettytable-rs",
+        "remove_dir_all",
+        "rpassword",
+        "rustyline",
+        "semver",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "shlex",
+        "thiserror",
+        "url",
+        "uuid",
+        "x25519-dalek"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "name": "smtp-server",
+    "deps": [
+        "async-trait",
+        "chrono",
+        "duplexify",
+        "futures",
+        "piper",
+        "smol",
+        "smtp-message",
+        "smtp-server-types"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "name": "reown-relay-client",
+    "deps": [
+        "chrono",
+        "futures-util",
+        "getrandom",
+        "http",
+        "pin-project",
+        "reown-relay-rpc",
+        "serde",
+        "serde_json",
+        "serde_qs",
+        "thiserror",
+        "tokio",
+        "tokio-tungstenite",
+        "tokio-tungstenite-wasm",
+        "url",
+        "wasm-bindgen-futures",
+        "web-sys"
+    ]
+}

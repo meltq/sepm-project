@@ -1,0 +1,33 @@
+{
+    "name": "storage-service-server",
+    "deps": [
+        "anyhow",
+        "aptos-channel",
+        "aptos-config",
+        "aptos-crypto",
+        "aptos-infallible",
+        "aptos-logger",
+        "aptos-metrics",
+        "aptos-network",
+        "aptos-time-service",
+        "aptos-time-service",
+        "aptos-types",
+        "aptos-types",
+        "aptos-workspace-hack",
+        "bcs",
+        "bounded-executor",
+        "bytes",
+        "claim",
+        "futures",
+        "lru",
+        "mockall",
+        "move-deps",
+        "once_cell",
+        "serde",
+        "storage-interface",
+        "storage-interface",
+        "storage-service-types",
+        "thiserror",
+        "tokio"
+    ]
+}

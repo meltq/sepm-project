@@ -1,0 +1,32 @@
+{
+    "name": "kitsune_p2p_types",
+    "deps": [
+        "base64",
+        "criterion",
+        "derive_more",
+        "futures",
+        "ghost_actor",
+        "kitsune_p2p_dht_arc",
+        "lair_keystore_api",
+        "lru",
+        "nanoid",
+        "observability",
+        "once_cell",
+        "parking_lot",
+        "paste",
+        "rmp-serde",
+        "rustls",
+        "serde",
+        "serde_bytes",
+        "serde_json",
+        "shrinkwraprs",
+        "sysinfo",
+        "thiserror",
+        "tokio",
+        "tokio-stream",
+        "tracing-subscriber",
+        "url",
+        "url2",
+        "webpki"
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "name": "fisco-bcos-service",
+    "deps": [
+        "async-trait",
+        "autocfg",
+        "cc",
+        "cfg-if",
+        "ethabi",
+        "ethereum-types",
+        "hex",
+        "hyper",
+        "keccak-hash",
+        "libc",
+        "pem",
+        "rlp",
+        "serde_json",
+        "tassl-src",
+        "thiserror",
+        "tokio",
+        "uuid",
+        "wedpr_l_crypto_hash_keccak256",
+        "wedpr_l_crypto_hash_sm3",
+        "wedpr_l_crypto_signature_secp256k1",
+        "wedpr_l_crypto_signature_sm2",
+        "wedpr_l_libsm",
+        "wedpr_l_utils"
+    ]
+}

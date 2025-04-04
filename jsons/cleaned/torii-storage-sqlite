@@ -1,0 +1,14 @@
+{
+    "name": "torii-storage-sqlite",
+    "deps": [
+        "async-trait",
+        "chrono",
+        "sqlx",
+        "thiserror",
+        "tokio",
+        "torii-core",
+        "torii-migration",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

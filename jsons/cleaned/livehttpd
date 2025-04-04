@@ -1,0 +1,13 @@
+{
+    "name": "livehttpd",
+    "deps": [
+        "axum",
+        "clap",
+        "notify",
+        "tokio",
+        "tower",
+        "tower-http",
+        "tower-livereload",
+        "tracing-subscriber"
+    ]
+}

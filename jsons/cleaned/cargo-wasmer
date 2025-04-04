@@ -1,0 +1,14 @@
+{
+    "name": "cargo-wasmer",
+    "deps": [
+        "anyhow",
+        "cargo_metadata",
+        "clap",
+        "clap-cargo",
+        "serde",
+        "toml",
+        "tracing",
+        "tracing-subscriber",
+        "wapm-toml"
+    ]
+}

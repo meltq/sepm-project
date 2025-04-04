@@ -1,0 +1,15 @@
+{
+    "name": "grpc-build",
+    "deps": [
+        "anyhow",
+        "async-std",
+        "paw",
+        "petgraph",
+        "prost",
+        "structopt",
+        "thiserror",
+        "tokio",
+        "tonic",
+        "tonic-build"
+    ]
+}

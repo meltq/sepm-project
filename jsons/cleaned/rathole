@@ -1,0 +1,23 @@
+{
+    "name": "rathole",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "backoff",
+        "bincode",
+        "bytes",
+        "clap",
+        "fdlimit",
+        "hex",
+        "lazy_static",
+        "rand",
+        "ring",
+        "serde",
+        "socket2",
+        "tokio",
+        "tokio-native-tls",
+        "toml",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

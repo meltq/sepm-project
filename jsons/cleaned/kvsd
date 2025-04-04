@@ -1,0 +1,23 @@
+{
+    "name": "kvsd",
+    "deps": [
+        "async-trait",
+        "atoi",
+        "backtrace",
+        "bytes",
+        "chrono",
+        "clap",
+        "crc32fast",
+        "num_cpus",
+        "rand",
+        "serde",
+        "serde_yaml",
+        "tempdir",
+        "tokio",
+        "tokio-rustls",
+        "tokio-test",
+        "tracing",
+        "tracing-futures",
+        "tracing-subscriber"
+    ]
+}

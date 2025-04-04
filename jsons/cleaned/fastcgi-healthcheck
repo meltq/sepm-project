@@ -1,0 +1,13 @@
+{
+    "name": "fastcgi-healthcheck",
+    "deps": [
+        "axum",
+        "chrono",
+        "env_logger",
+        "hyper",
+        "json_env_logger",
+        "kvarn-fastcgi-client",
+        "log",
+        "tokio"
+    ]
+}

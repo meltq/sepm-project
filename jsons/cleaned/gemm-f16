@@ -1,0 +1,16 @@
+{
+    "name": "gemm-f16",
+    "deps": [
+        "dyn-stack",
+        "gemm-common",
+        "gemm-f32",
+        "half",
+        "lazy_static",
+        "num-complex",
+        "num-traits",
+        "paste",
+        "raw-cpuid",
+        "rayon",
+        "seq-macro"
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "name": "datafusion-server",
+    "deps": [
+        "anyhow",
+        "axum",
+        "chrono",
+        "clap",
+        "config",
+        "datafusion",
+        "futures",
+        "futures-util",
+        "hyper",
+        "jsonpath-rust",
+        "log",
+        "num-traits",
+        "once_cell",
+        "pyo3",
+        "regex",
+        "reqwest",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "simple_logger",
+        "thiserror",
+        "tokio",
+        "tower",
+        "tower-http"
+    ]
+}

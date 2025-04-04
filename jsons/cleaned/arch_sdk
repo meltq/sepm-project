@@ -1,0 +1,22 @@
+{
+    "name": "arch_sdk",
+    "deps": [
+        "anyhow",
+        "arch_program",
+        "base64",
+        "bip322",
+        "bitcoin",
+        "bitcoincore-rpc",
+        "borsh",
+        "hex",
+        "indicatif",
+        "proptest",
+        "rand_core",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "sha256",
+        "snafu",
+        "thiserror"
+    ]
+}

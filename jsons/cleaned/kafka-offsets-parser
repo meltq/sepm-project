@@ -1,0 +1,13 @@
+{
+    "name": "kafka-offsets-parser",
+    "deps": [
+        "clap",
+        "env_logger",
+        "eyre",
+        "log",
+        "nom",
+        "rdkafka",
+        "thiserror",
+        "tokio"
+    ]
+}

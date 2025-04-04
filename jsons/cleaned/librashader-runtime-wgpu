@@ -1,0 +1,23 @@
+{
+    "name": "librashader-runtime-wgpu",
+    "deps": [
+        "array-concat",
+        "bytemuck",
+        "config",
+        "env_logger",
+        "image",
+        "librashader-common",
+        "librashader-preprocess",
+        "librashader-presets",
+        "librashader-reflect",
+        "librashader-runtime",
+        "log",
+        "pollster",
+        "raw-window-handle",
+        "rayon",
+        "rustc-hash",
+        "thiserror",
+        "wgpu",
+        "winit"
+    ]
+}

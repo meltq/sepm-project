@@ -1,0 +1,30 @@
+{
+    "name": "httpd",
+    "deps": [
+        "aws-sdk-rust",
+        "clap",
+        "futures",
+        "log",
+        "lsio",
+        "mime",
+        "mime_guess",
+        "multipart",
+        "net2",
+        "num_cpus",
+        "pretty_env_logger",
+        "regex",
+        "rustc-serialize",
+        "slog",
+        "slog-json",
+        "slog-scope",
+        "slog-term",
+        "term",
+        "time",
+        "tokio-core",
+        "tokio-http2",
+        "tokio-proto",
+        "tokio-service",
+        "toml",
+        "url"
+    ]
+}

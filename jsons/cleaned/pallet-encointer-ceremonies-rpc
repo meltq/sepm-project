@@ -1,0 +1,17 @@
+{
+    "name": "pallet-encointer-ceremonies-rpc",
+    "deps": [
+        "encointer-ceremonies-rpc-runtime-api",
+        "encointer-primitives",
+        "encointer-rpc",
+        "jsonrpsee",
+        "log",
+        "parking_lot",
+        "sc-rpc",
+        "sc-rpc-api",
+        "sp-api",
+        "sp-blockchain",
+        "sp-runtime",
+        "thiserror"
+    ]
+}

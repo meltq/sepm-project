@@ -1,0 +1,25 @@
+{
+    "name": "pix-image-viewer",
+    "deps": [
+        "bincode",
+        "boolinator",
+        "clap",
+        "crossbeam-channel",
+        "dirs",
+        "env_logger",
+        "failure",
+        "histogram",
+        "image",
+        "lazy_static",
+        "log",
+        "num_cpus",
+        "piston",
+        "piston_window",
+        "resize",
+        "rocksdb",
+        "serde",
+        "serde_derive",
+        "walkdir",
+        "wayland-client"
+    ]
+}

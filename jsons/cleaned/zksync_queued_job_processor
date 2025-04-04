@@ -1,0 +1,11 @@
+{
+    "name": "zksync_queued_job_processor",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "tokio",
+        "tracing",
+        "vise",
+        "zksync_utils"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "jail_exporter",
+    "deps": [
+        "actix-web",
+        "askama",
+        "clap",
+        "env_logger",
+        "failure",
+        "indoc",
+        "jail",
+        "lazy_static",
+        "log",
+        "mime",
+        "pretty_assertions",
+        "prometheus",
+        "rctl",
+        "users",
+        "users"
+    ]
+}

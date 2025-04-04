@@ -1,0 +1,25 @@
+{
+    "name": "ng-broker",
+    "deps": [
+        "async-std",
+        "async-trait",
+        "async-tungstenite",
+        "blake3",
+        "default-net",
+        "either",
+        "futures",
+        "getrandom",
+        "getrandom",
+        "ng-client-ws",
+        "ng-net",
+        "ng-repo",
+        "ng-storage-rocksdb",
+        "ng-verifier",
+        "once_cell",
+        "rust-embed",
+        "serde",
+        "serde_bare",
+        "serde_json",
+        "tempfile"
+    ]
+}

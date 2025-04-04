@@ -1,0 +1,26 @@
+{
+    "name": "linera-storage-service",
+    "deps": [
+        "anyhow",
+        "async-lock",
+        "async-trait",
+        "bcs",
+        "cfg_aliases",
+        "clap",
+        "linera-base",
+        "linera-version",
+        "linera-views",
+        "port-selector",
+        "proptest",
+        "prost",
+        "serde",
+        "serde-reflection",
+        "serde_yaml",
+        "similar-asserts",
+        "test-strategy",
+        "thiserror",
+        "tokio",
+        "tonic",
+        "tonic-build"
+    ]
+}

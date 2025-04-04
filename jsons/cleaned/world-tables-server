@@ -1,0 +1,20 @@
+{
+    "name": "world-tables-server",
+    "deps": [
+        "anyhow",
+        "axum",
+        "directories",
+        "lazy_static",
+        "log",
+        "r2d2",
+        "r2d2_sqlite",
+        "rusqlite",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tower-http",
+        "tracing-subscriber",
+        "world-tables-base",
+        "world-tables-data"
+    ]
+}

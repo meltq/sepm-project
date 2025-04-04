@@ -1,0 +1,13 @@
+{
+    "name": "risc0-zkvm-sys",
+    "deps": [
+        "anyhow",
+        "cxx",
+        "cxx-build",
+        "risc0-core-sys",
+        "risc0-zkp-sys",
+        "risc0-zkvm-circuit-gen",
+        "risc0-zkvm-circuit-sys",
+        "tbb"
+    ]
+}

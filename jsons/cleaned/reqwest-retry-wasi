@@ -1,0 +1,24 @@
+{
+    "name": "reqwest-retry-wasi",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "chrono",
+        "futures",
+        "futures",
+        "getrandom",
+        "http",
+        "hyper",
+        "parking_lot",
+        "paste",
+        "reqwest-middleware-wasi",
+        "reqwest_wasi",
+        "retry-policies",
+        "task-local-extensions",
+        "tokio",
+        "tokio",
+        "tracing",
+        "wasm-timer",
+        "wiremock"
+    ]
+}

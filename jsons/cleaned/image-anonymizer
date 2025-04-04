@@ -1,0 +1,16 @@
+{
+    "name": "image-anonymizer",
+    "deps": [
+        "anyhow",
+        "base64",
+        "clap",
+        "dotenv",
+        "image",
+        "rayon",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

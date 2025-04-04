@@ -1,0 +1,21 @@
+{
+    "name": "moq-native-ietf",
+    "deps": [
+        "anyhow",
+        "clap",
+        "futures",
+        "hex",
+        "log",
+        "moq-transport",
+        "quinn",
+        "ring",
+        "rustls",
+        "rustls-native-certs",
+        "rustls-pemfile",
+        "tokio",
+        "url",
+        "web-transport",
+        "web-transport-quinn",
+        "webpki"
+    ]
+}

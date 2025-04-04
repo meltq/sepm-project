@@ -1,0 +1,23 @@
+{
+    "name": "metaemu-concrete",
+    "deps": [
+        "downcast-rs",
+        "dyn-clone",
+        "fnv",
+        "fugue",
+        "fugue-db",
+        "fugue-fp",
+        "log",
+        "metaemu-hooks",
+        "metaemu-intrinsics",
+        "metaemu-loader",
+        "metaemu-machine",
+        "metaemu-microx",
+        "metaemu-state",
+        "parking_lot",
+        "rand",
+        "serde_any",
+        "thiserror",
+        "ux"
+    ]
+}

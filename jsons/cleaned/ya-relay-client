@@ -1,0 +1,19 @@
+{
+    "name": "ya-relay-client",
+    "deps": [
+        "actix-rt",
+        "anyhow",
+        "chrono",
+        "derive_more",
+        "dotenv",
+        "env_logger",
+        "futures",
+        "log",
+        "structopt",
+        "tokio",
+        "url",
+        "ya-relay-core",
+        "ya-relay-proto",
+        "ya-relay-stack"
+    ]
+}

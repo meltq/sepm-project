@@ -1,0 +1,19 @@
+{
+    "name": "wasmer-pack",
+    "deps": [
+        "anyhow",
+        "cargo_metadata",
+        "heck",
+        "insta",
+        "minijinja",
+        "once_cell",
+        "pretty_assertions",
+        "serde",
+        "serde_json",
+        "toml",
+        "wai-bindgen-gen-core",
+        "wai-bindgen-gen-js",
+        "wai-bindgen-gen-wasmer-py",
+        "wai-parser"
+    ]
+}

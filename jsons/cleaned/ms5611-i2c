@@ -1,0 +1,19 @@
+{
+    "name": "ms5611-i2c",
+    "deps": [
+        "byteorder",
+        "embassy-executor",
+        "embassy-futures",
+        "embassy-time",
+        "embedded-hal",
+        "embedded-hal-async",
+        "embedded-hal-bus",
+        "esp-alloc",
+        "esp-backtrace",
+        "esp-hal",
+        "esp-hal-embassy",
+        "esp-println",
+        "log",
+        "maybe-async"
+    ]
+}

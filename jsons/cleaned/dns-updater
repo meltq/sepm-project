@@ -1,0 +1,12 @@
+{
+    "name": "dns-updater",
+    "deps": [
+        "aws-config",
+        "aws-sdk-route53",
+        "clap",
+        "reqwest",
+        "tokio",
+        "tokio_schedule",
+        "tracing-subscriber"
+    ]
+}

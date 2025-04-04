@@ -1,0 +1,20 @@
+{
+    "name": "image-colorizer",
+    "deps": [
+        "anyhow",
+        "bytemuck",
+        "clap",
+        "config",
+        "dirs",
+        "futures",
+        "image",
+        "indicatif",
+        "palette",
+        "rand",
+        "serde",
+        "serde_derive",
+        "tokio",
+        "toml",
+        "wgpu"
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "name": "chromiumoxide",
+    "deps": [
+        "anyhow",
+        "async-std",
+        "async-tungstenite",
+        "base64",
+        "chromiumoxide_cdp",
+        "chromiumoxide_types",
+        "chrono",
+        "fnv",
+        "futures",
+        "futures-timer",
+        "log",
+        "pretty_env_logger",
+        "proc-macro2",
+        "quote",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tungstenite",
+        "url",
+        "which"
+    ]
+}

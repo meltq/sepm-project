@@ -1,0 +1,14 @@
+{
+    "name": "wayland-backend",
+    "deps": [
+        "cc",
+        "concat-idents",
+        "downcast-rs",
+        "env_logger",
+        "log",
+        "nix",
+        "scoped-tls",
+        "smallvec",
+        "wayland-sys"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "ntp-ctl",
+    "deps": [
+        "clap",
+        "ntp-daemon",
+        "ntp-metrics-exporter",
+        "ntp-proto",
+        "prometheus-client",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

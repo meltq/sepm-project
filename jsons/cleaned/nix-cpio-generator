@@ -1,0 +1,16 @@
+{
+    "name": "nix-cpio-generator",
+    "deps": [
+        "bytes",
+        "cpio",
+        "futures",
+        "lazy_static",
+        "log",
+        "tempfile",
+        "tokio",
+        "tokio-stream",
+        "tokio-util",
+        "walkdir",
+        "zstd"
+    ]
+}

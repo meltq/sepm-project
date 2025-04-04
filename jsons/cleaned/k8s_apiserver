@@ -1,0 +1,15 @@
+{
+    "name": "k8s_apiserver",
+    "deps": [
+        "actix-http",
+        "actix-service",
+        "actix-web",
+        "async-trait",
+        "env_logger",
+        "k8s-openapi",
+        "kube",
+        "serde",
+        "serde_json",
+        "tokio"
+    ]
+}

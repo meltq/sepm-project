@@ -1,0 +1,18 @@
+{
+    "name": "wacker",
+    "deps": [
+        "anyhow",
+        "cap-std",
+        "dirs",
+        "env_logger",
+        "log",
+        "rand",
+        "tokio",
+        "tokio-stream",
+        "tonic",
+        "wacker-api",
+        "wasi-common",
+        "wasmtime",
+        "wasmtime-wasi"
+    ]
+}

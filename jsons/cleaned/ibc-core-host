@@ -1,0 +1,18 @@
+{
+    "name": "ibc-core-host",
+    "deps": [
+        "derive_more",
+        "displaydoc",
+        "ibc-core-channel-types",
+        "ibc-core-client-context",
+        "ibc-core-client-types",
+        "ibc-core-commitment-types",
+        "ibc-core-connection-types",
+        "ibc-core-handler-types",
+        "ibc-core-host-types",
+        "ibc-primitives",
+        "prost",
+        "rstest",
+        "subtle-encoding"
+    ]
+}

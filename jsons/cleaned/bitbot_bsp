@@ -1,0 +1,15 @@
+{
+    "name": "bitbot_bsp",
+    "deps": [
+        "cortex-m",
+        "cortex-m-rt",
+        "defmt",
+        "defmt-rtt",
+        "embassy-executor",
+        "embassy-futures",
+        "embassy-nrf",
+        "embassy-time",
+        "microbit-bsp",
+        "panic-probe"
+    ]
+}

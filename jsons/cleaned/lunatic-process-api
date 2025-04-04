@@ -1,0 +1,15 @@
+{
+    "name": "lunatic-process-api",
+    "deps": [
+        "anyhow",
+        "async-std",
+        "hash-map-id",
+        "lunatic-common-api",
+        "lunatic-error-api",
+        "lunatic-process",
+        "lunatic-stdout-capture",
+        "lunatic-wasi-api",
+        "uuid",
+        "wasmtime"
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "name": "netwatch",
+    "deps": [
+        "anyhow",
+        "bytes",
+        "derive_more",
+        "futures-lite",
+        "futures-sink",
+        "futures-util",
+        "libc",
+        "netdev",
+        "netlink-packet-core",
+        "netlink-packet-route",
+        "netlink-sys",
+        "once_cell",
+        "rtnetlink",
+        "serde",
+        "socket2",
+        "thiserror",
+        "time",
+        "tokio",
+        "tokio",
+        "tracing",
+        "windows",
+        "wmi"
+    ]
+}

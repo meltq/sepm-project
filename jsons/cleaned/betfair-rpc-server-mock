@@ -1,0 +1,21 @@
+{
+    "name": "betfair-rpc-server-mock",
+    "deps": [
+        "betfair-adapter",
+        "betfair-types",
+        "pretty_assertions",
+        "reqwest",
+        "rstest",
+        "rust_decimal",
+        "rust_decimal_macros",
+        "serde",
+        "serde_json",
+        "serde_urlencoded",
+        "test-log",
+        "tokio",
+        "tracing-subscriber",
+        "url",
+        "wiremock",
+        "wiremock"
+    ]
+}

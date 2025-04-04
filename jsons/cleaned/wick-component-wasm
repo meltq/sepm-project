@@ -1,0 +1,28 @@
+{
+    "name": "wick-component-wasm",
+    "deps": [
+        "anyhow",
+        "flow-component",
+        "futures",
+        "parking_lot",
+        "seeded-random",
+        "serde",
+        "serde_json",
+        "test-logger",
+        "thiserror",
+        "tokio",
+        "tokio-stream",
+        "tracing",
+        "wasmrs",
+        "wasmrs-codec",
+        "wasmrs-host",
+        "wasmrs-rx",
+        "wasmrs-wasmtime",
+        "wick-config",
+        "wick-interface-types",
+        "wick-logger",
+        "wick-packet",
+        "wick-rpc",
+        "wick-wascap"
+    ]
+}

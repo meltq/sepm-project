@@ -1,0 +1,28 @@
+{
+    "name": "rs_transfer",
+    "deps": [
+        "async-std",
+        "async-trait",
+        "bytes",
+        "cloud-storage",
+        "criterion",
+        "futures",
+        "futures-util",
+        "log",
+        "mcai_ftp",
+        "mockito",
+        "reqwest",
+        "rusoto_core",
+        "rusoto_credential",
+        "rusoto_mock",
+        "rusoto_s3",
+        "schemars",
+        "serde",
+        "serde_json",
+        "ssh-transfer",
+        "threadpool",
+        "tokio",
+        "tokio-io",
+        "url"
+    ]
+}

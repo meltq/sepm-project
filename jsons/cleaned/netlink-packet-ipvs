@@ -1,0 +1,11 @@
+{
+    "name": "netlink-packet-ipvs",
+    "deps": [
+        "anyhow",
+        "byteorder",
+        "netlink-packet-core",
+        "netlink-packet-generic",
+        "netlink-packet-utils",
+        "netlink-sys"
+    ]
+}

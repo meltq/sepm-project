@@ -1,0 +1,23 @@
+{
+    "name": "zksync_vm_runner",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "dashmap",
+        "once_cell",
+        "tokio",
+        "tracing",
+        "vise",
+        "zksync_contracts",
+        "zksync_dal",
+        "zksync_multivm",
+        "zksync_object_store",
+        "zksync_prover_interface",
+        "zksync_state",
+        "zksync_state_keeper",
+        "zksync_storage",
+        "zksync_types",
+        "zksync_utils",
+        "zksync_vm_utils"
+    ]
+}

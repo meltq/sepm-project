@@ -1,0 +1,24 @@
+{
+    "name": "fermah-telemetry",
+    "deps": [
+        "anyhow",
+        "fermah-common",
+        "fermah-common",
+        "fermah-config",
+        "fermah-config",
+        "opentelemetry",
+        "opentelemetry-appender-tracing",
+        "opentelemetry-otlp",
+        "opentelemetry-resource-detectors",
+        "opentelemetry-semantic-conventions",
+        "opentelemetry-stdout",
+        "opentelemetry_sdk",
+        "serde",
+        "tokio",
+        "tokio",
+        "tracing",
+        "tracing-opentelemetry",
+        "tracing-subscriber",
+        "uuid"
+    ]
+}

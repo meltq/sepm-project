@@ -1,0 +1,16 @@
+{
+    "name": "zksync_default_da_clients",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "flate2",
+        "serde",
+        "tracing",
+        "zksync_config",
+        "zksync_da_client",
+        "zksync_env_config",
+        "zksync_node_framework",
+        "zksync_object_store",
+        "zksync_types"
+    ]
+}

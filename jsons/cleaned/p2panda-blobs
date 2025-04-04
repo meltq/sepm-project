@@ -1,0 +1,21 @@
+{
+    "name": "p2panda-blobs",
+    "deps": [
+        "anyhow",
+        "async-channel",
+        "bytes",
+        "futures-buffered",
+        "futures-lite",
+        "futures-util",
+        "iroh-base",
+        "iroh-blobs",
+        "iroh-io",
+        "iroh-net",
+        "p2panda-core",
+        "p2panda-net",
+        "p2panda-sync",
+        "serde",
+        "tokio",
+        "tracing"
+    ]
+}

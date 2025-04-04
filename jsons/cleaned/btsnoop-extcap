@@ -1,0 +1,19 @@
+{
+    "name": "btsnoop-extcap",
+    "deps": [
+        "anyhow",
+        "assert_cmd",
+        "async-trait",
+        "btsnoop",
+        "clap",
+        "env_logger",
+        "log",
+        "nom",
+        "nom-derive",
+        "pcap-file",
+        "predicates",
+        "regex",
+        "thiserror",
+        "tokio"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "name": "manage_relay_users",
+    "deps": [
+        "anyhow",
+        "axum",
+        "clap",
+        "config",
+        "ctrlc",
+        "hex",
+        "log",
+        "prost",
+        "redb",
+        "serde",
+        "serde_json",
+        "serial_test",
+        "thiserror",
+        "tokio",
+        "tonic",
+        "tonic-build",
+        "tracing",
+        "tracing-subscriber",
+        "tracing-test"
+    ]
+}

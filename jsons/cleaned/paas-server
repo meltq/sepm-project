@@ -1,0 +1,19 @@
+{
+    "name": "paas-server",
+    "deps": [
+        "actix-cors",
+        "actix-web",
+        "chrono",
+        "env_logger",
+        "futures-util",
+        "jsonwebtoken",
+        "libpep",
+        "log",
+        "paas-common",
+        "rand",
+        "redis",
+        "serde",
+        "serde_json",
+        "serde_yml"
+    ]
+}

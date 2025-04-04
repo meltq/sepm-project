@@ -1,0 +1,22 @@
+{
+    "name": "gflow",
+    "deps": [
+        "anyhow",
+        "axum",
+        "clap",
+        "clap-verbosity-flag",
+        "clap_complete",
+        "config",
+        "dirs",
+        "env_logger",
+        "log",
+        "mockall",
+        "rand",
+        "reqwest",
+        "serde",
+        "tempfile",
+        "tmux_interface",
+        "tokio",
+        "vergen-gix"
+    ]
+}

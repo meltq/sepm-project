@@ -1,0 +1,21 @@
+{
+    "name": "signway-server",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "hex",
+        "hmac",
+        "hyper",
+        "hyper-tls",
+        "lazy_static",
+        "percent-encoding",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "sha2",
+        "time",
+        "tokio",
+        "tracing",
+        "url"
+    ]
+}

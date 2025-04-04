@@ -1,0 +1,16 @@
+{
+    "name": "casperlabs-engine-storage",
+    "deps": [
+        "engine-shared",
+        "engine-wasm-prep",
+        "failure",
+        "lazy_static",
+        "lmdb",
+        "parking_lot",
+        "proptest",
+        "rand",
+        "tempfile",
+        "types",
+        "wasmi"
+    ]
+}

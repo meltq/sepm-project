@@ -1,0 +1,20 @@
+{
+    "name": "tower-server",
+    "deps": [
+        "anyhow",
+        "axum",
+        "futures-util",
+        "http",
+        "http-body",
+        "hyper",
+        "hyper-util",
+        "pin-utils",
+        "rustls",
+        "tokio",
+        "tokio-rustls",
+        "tokio-util",
+        "tower-service",
+        "tracing",
+        "url"
+    ]
+}

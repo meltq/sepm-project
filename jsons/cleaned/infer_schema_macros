@@ -1,0 +1,12 @@
+{
+    "name": "infer_schema_macros",
+    "deps": [
+        "clippy",
+        "diesel",
+        "dotenv",
+        "infer_schema_internals",
+        "quote",
+        "syn",
+        "tempdir"
+    ]
+}

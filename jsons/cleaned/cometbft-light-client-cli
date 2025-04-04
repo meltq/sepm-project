@@ -1,0 +1,16 @@
+{
+    "name": "cometbft-light-client-cli",
+    "deps": [
+        "clap",
+        "color-eyre",
+        "cometbft",
+        "cometbft-light-client",
+        "cometbft-light-client-detector",
+        "cometbft-rpc",
+        "futures",
+        "serde_json",
+        "tokio",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

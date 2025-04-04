@@ -1,0 +1,16 @@
+{
+    "name": "ora-storage-memory",
+    "deps": [
+        "async-trait",
+        "eyre",
+        "futures",
+        "indexmap",
+        "ora-proto",
+        "ora-storage",
+        "parking_lot",
+        "serde",
+        "serde_json",
+        "tokio",
+        "uuid"
+    ]
+}

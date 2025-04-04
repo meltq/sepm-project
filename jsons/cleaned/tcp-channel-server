@@ -1,0 +1,18 @@
+{
+    "name": "tcp-channel-server",
+    "deps": [
+        "anyhow",
+        "aqueue",
+        "async-channel",
+        "async-trait",
+        "env_logger",
+        "lazy_static",
+        "log",
+        "openssl",
+        "openssl-sys",
+        "tcpclient",
+        "tokio",
+        "tokio",
+        "tokio-openssl"
+    ]
+}

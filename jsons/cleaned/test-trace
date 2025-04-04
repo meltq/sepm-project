@@ -1,0 +1,13 @@
+{
+    "name": "test-trace",
+    "deps": [
+        "_lazy_static_unused",
+        "env_logger",
+        "logging",
+        "test-case",
+        "test-trace-macros",
+        "tokio",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

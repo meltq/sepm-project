@@ -1,0 +1,23 @@
+{
+    "name": "utils-cli",
+    "deps": [
+        "anyhow",
+        "assert_cmd",
+        "bcrypt",
+        "chrono",
+        "clap",
+        "console",
+        "dialoguer",
+        "dirs",
+        "include_dir",
+        "indicatif",
+        "lazy_static",
+        "sea-orm",
+        "serde",
+        "serde_json",
+        "tokio",
+        "utils-cli-entity",
+        "utils-cli-migration",
+        "uuid"
+    ]
+}

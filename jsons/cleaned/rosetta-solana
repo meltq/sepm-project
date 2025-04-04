@@ -1,0 +1,29 @@
+{
+    "name": "rosetta-solana",
+    "deps": [
+        "base64",
+        "bincode",
+        "bs58",
+        "convert_case",
+        "ed25519-dalek",
+        "hex",
+        "merge",
+        "rocket",
+        "rocket_contrib",
+        "serde",
+        "serde_json",
+        "solana-account-decoder",
+        "solana-cli-config",
+        "solana-client",
+        "solana-metrics",
+        "solana-sdk",
+        "solana-stake-program",
+        "solana-transaction-status",
+        "solana-vote-program",
+        "spl-associated-token-account",
+        "spl-token",
+        "strum",
+        "strum_macros",
+        "thiserror"
+    ]
+}

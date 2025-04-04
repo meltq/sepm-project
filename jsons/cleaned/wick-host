@@ -1,0 +1,27 @@
+{
+    "name": "wick-host",
+    "deps": [
+        "anyhow",
+        "flow-component",
+        "futures",
+        "http",
+        "once_cell",
+        "parking_lot",
+        "seeded-random",
+        "test-logger",
+        "thiserror",
+        "tokio",
+        "tokio",
+        "tokio-stream",
+        "tracing",
+        "uuid",
+        "wick-component-cli",
+        "wick-config",
+        "wick-interface-types",
+        "wick-invocation-server",
+        "wick-logger",
+        "wick-packet",
+        "wick-rpc",
+        "wick-runtime"
+    ]
+}

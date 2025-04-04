@@ -1,0 +1,12 @@
+{
+    "name": "kanidm-hsm-crypto",
+    "deps": [
+        "argon2",
+        "openssl",
+        "serde",
+        "tracing",
+        "tracing-subscriber",
+        "tss-esapi",
+        "zeroize"
+    ]
+}

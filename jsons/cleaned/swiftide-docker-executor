@@ -1,0 +1,19 @@
+{
+    "name": "swiftide-docker-executor",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "bollard",
+        "ignore",
+        "indoc",
+        "swiftide-agents",
+        "swiftide-core",
+        "tempfile",
+        "test-log",
+        "thiserror",
+        "tokio",
+        "tokio-tar",
+        "tracing",
+        "uuid"
+    ]
+}

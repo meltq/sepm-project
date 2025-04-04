@@ -1,0 +1,24 @@
+{
+    "name": "ya-service-bus",
+    "deps": [
+        "actix",
+        "actix-rt",
+        "async-stream",
+        "env_logger",
+        "futures",
+        "lazy_static",
+        "log",
+        "rand",
+        "rmp-serde",
+        "serde",
+        "serde_json",
+        "serde_json",
+        "structopt",
+        "thiserror",
+        "tokio",
+        "tokio-util",
+        "url",
+        "ya-sb-proto",
+        "ya-sb-util"
+    ]
+}

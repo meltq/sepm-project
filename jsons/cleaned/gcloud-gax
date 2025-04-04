@@ -1,0 +1,13 @@
+{
+    "name": "gcloud-gax",
+    "deps": [
+        "google-cloud-token",
+        "http",
+        "thiserror",
+        "tokio",
+        "tokio-retry2",
+        "tonic",
+        "tower",
+        "tracing"
+    ]
+}

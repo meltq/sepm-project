@@ -1,0 +1,21 @@
+{
+    "name": "tet-libp2p-mdns",
+    "deps": [
+        "async-io",
+        "async-std",
+        "data-encoding",
+        "dns-parser",
+        "futures",
+        "if-addrs",
+        "if-watch",
+        "lazy_static",
+        "log",
+        "rand",
+        "smallvec",
+        "socket2",
+        "tet-libp2p-core",
+        "tet-libp2p-swarm",
+        "tokio",
+        "void"
+    ]
+}

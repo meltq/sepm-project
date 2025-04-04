@@ -1,0 +1,24 @@
+{
+    "name": "tdb-server",
+    "deps": [
+        "async-std",
+        "chrono",
+        "circular-queue",
+        "clap",
+        "config",
+        "ctrlc",
+        "fern",
+        "futures-preview",
+        "lazy_static",
+        "libtectonic",
+        "log",
+        "openssl-probe",
+        "reqwest",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "tempdir",
+        "time",
+        "uuid"
+    ]
+}

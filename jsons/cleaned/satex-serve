@@ -1,0 +1,21 @@
+{
+    "name": "satex-serve",
+    "deps": [
+        "bytes",
+        "futures",
+        "hyper",
+        "hyper-util",
+        "pin-project-lite",
+        "rustls-pemfile",
+        "rustls-pki-types",
+        "satex-core",
+        "satex-layer",
+        "satex-matcher",
+        "satex-service",
+        "tokio",
+        "tokio-rustls",
+        "tower",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "name": "vsmtp-auth",
+    "deps": [
+        "anyhow",
+        "base64",
+        "convert_case",
+        "pretty_assertions",
+        "rand",
+        "rsa",
+        "sha1",
+        "sha2",
+        "strum",
+        "thiserror",
+        "tokio",
+        "trust-dns-resolver",
+        "vsmtp-common"
+    ]
+}

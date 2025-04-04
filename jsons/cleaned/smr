@@ -1,0 +1,27 @@
+{
+    "name": "smr",
+    "deps": [
+        "anyhow",
+        "async-io",
+        "async-trait",
+        "criterion",
+        "crossbeam",
+        "ctor",
+        "filedescriptor",
+        "futures",
+        "ipc-channel",
+        "log",
+        "nix",
+        "parking_lot",
+        "phf",
+        "prctl",
+        "pretty_env_logger",
+        "procfs",
+        "rand",
+        "ringbuffer",
+        "serde",
+        "syscallz",
+        "thiserror",
+        "tokio"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "roslibrust_rosbridge",
+    "deps": [
+        "anyhow",
+        "dashmap",
+        "deadqueue",
+        "futures",
+        "futures-util",
+        "log",
+        "roslibrust_common",
+        "serde_json",
+        "test-log",
+        "tokio",
+        "tokio-tungstenite",
+        "uuid"
+    ]
+}

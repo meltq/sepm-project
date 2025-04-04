@@ -1,0 +1,22 @@
+{
+    "name": "ibc-client-tendermint-types",
+    "deps": [
+        "borsh",
+        "bytes",
+        "displaydoc",
+        "ibc-core-client-types",
+        "ibc-core-commitment-types",
+        "ibc-core-host-types",
+        "ibc-primitives",
+        "ibc-proto",
+        "parity-scale-codec",
+        "prost",
+        "scale-info",
+        "serde",
+        "serde_json",
+        "tendermint",
+        "tendermint-light-client-verifier",
+        "tendermint-proto",
+        "tendermint-rpc"
+    ]
+}

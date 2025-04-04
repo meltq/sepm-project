@@ -1,0 +1,27 @@
+{
+    "name": "wasmtime-cli",
+    "deps": [
+        "anyhow",
+        "anyhow",
+        "faerie",
+        "file-per-thread-logger",
+        "filecheck",
+        "libc",
+        "more-asserts",
+        "pretty_env_logger",
+        "rayon",
+        "structopt",
+        "target-lexicon",
+        "tempfile",
+        "wasi-common",
+        "wasmtime",
+        "wasmtime-debug",
+        "wasmtime-environ",
+        "wasmtime-jit",
+        "wasmtime-obj",
+        "wasmtime-runtime",
+        "wasmtime-wasi",
+        "wasmtime-wast",
+        "wat"
+    ]
+}

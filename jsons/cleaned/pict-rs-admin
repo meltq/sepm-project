@@ -1,0 +1,24 @@
+{
+    "name": "pict-rs-admin",
+    "deps": [
+        "actix-web",
+        "clap",
+        "color-eyre",
+        "console-subscriber",
+        "minify-html",
+        "opentelemetry",
+        "opentelemetry-otlp",
+        "reqwest",
+        "reqwest-middleware",
+        "reqwest-tracing",
+        "ructe",
+        "serde",
+        "tracing",
+        "tracing-actix-web",
+        "tracing-error",
+        "tracing-log",
+        "tracing-opentelemetry",
+        "tracing-subscriber",
+        "url"
+    ]
+}

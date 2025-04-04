@@ -1,0 +1,26 @@
+{
+    "name": "quickscript",
+    "deps": [
+        "anyhow",
+        "clap",
+        "clap-verbosity-flag",
+        "clap_complete",
+        "const_format",
+        "cranelift",
+        "cranelift-codegen",
+        "cranelift-frontend",
+        "cranelift-module",
+        "cranelift-native",
+        "cranelift-object",
+        "log",
+        "notify",
+        "object",
+        "phf",
+        "pretty_env_logger",
+        "qsc-cranelift-jit",
+        "rand",
+        "target-lexicon",
+        "tempfile",
+        "which"
+    ]
+}

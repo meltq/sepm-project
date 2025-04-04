@@ -1,0 +1,31 @@
+{
+    "name": "libanu",
+    "deps": [
+        "anu-macros",
+        "anyhow",
+        "bincode",
+        "bitflags",
+        "blake3",
+        "byteorder",
+        "chrono",
+        "curve25519-dalek",
+        "data-encoding",
+        "diffs",
+        "flate2",
+        "ignore",
+        "lazy_static",
+        "log",
+        "lru-cache",
+        "rand",
+        "regex",
+        "sanakirja",
+        "serde",
+        "serde_derive",
+        "tar",
+        "tempfile",
+        "thiserror",
+        "tokio",
+        "toml",
+        "zstd-seekable"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "name": "wrk-api-bench",
+    "deps": [
+        "assert_cmd",
+        "chrono",
+        "csv",
+        "derive_builder",
+        "getset",
+        "log",
+        "pretty_assertions",
+        "prettytable-rs",
+        "rslua",
+        "serde",
+        "serde_json",
+        "tempfile",
+        "thiserror",
+        "tokio",
+        "tokio-serde-json",
+        "url"
+    ]
+}

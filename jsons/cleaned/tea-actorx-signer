@@ -1,0 +1,19 @@
+{
+    "name": "tea-actorx-signer",
+    "deps": [
+        "base64",
+        "bincode",
+        "clap",
+        "leb128",
+        "openssl",
+        "primitive-types",
+        "rustc-hex",
+        "serde",
+        "serde_yaml",
+        "tea-actorx-core",
+        "tea-codec",
+        "thiserror",
+        "tokio",
+        "zstd"
+    ]
+}

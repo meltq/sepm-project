@@ -1,0 +1,27 @@
+{
+    "name": "kalosm-sound",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "byteorder",
+        "candle-core",
+        "candle-nn",
+        "candle-transformers",
+        "cpal",
+        "futures-util",
+        "hf-hub",
+        "hound",
+        "itertools",
+        "kalosm-streams",
+        "rand",
+        "ringbuf",
+        "ringbuffer",
+        "rodio",
+        "rwhisper",
+        "serde_json",
+        "tokenizers",
+        "tokio",
+        "tracing",
+        "webrtc-vad"
+    ]
+}

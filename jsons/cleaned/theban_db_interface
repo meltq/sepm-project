@@ -1,0 +1,14 @@
+{
+    "name": "theban_db_interface",
+    "deps": [
+        "memrange",
+        "quick-error",
+        "rmp",
+        "rmp-serialize",
+        "rustc-serialize",
+        "theban_db",
+        "theban_db_server",
+        "theban_interval_tree",
+        "unix_socket"
+    ]
+}

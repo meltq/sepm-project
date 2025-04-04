@@ -1,0 +1,23 @@
+{
+    "name": "ecbt-coinbase",
+    "deps": [
+        "async-trait",
+        "base64",
+        "ecbt-exchange",
+        "futures",
+        "hex",
+        "hmac",
+        "reqwest",
+        "rust_decimal",
+        "serde",
+        "serde_json",
+        "serde_qs",
+        "serde_urlencoded",
+        "sha2",
+        "thiserror",
+        "time",
+        "tokio",
+        "tokio-tungstenite",
+        "url"
+    ]
+}

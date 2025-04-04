@@ -1,0 +1,29 @@
+{
+    "name": "maudit_rolldown_common",
+    "deps": [
+        "anyhow",
+        "arcstr",
+        "bitflags",
+        "dashmap",
+        "either",
+        "glob-match",
+        "itertools",
+        "oxc",
+        "oxc_index",
+        "oxc_resolver",
+        "rolldown_ecmascript",
+        "rolldown_error",
+        "rolldown_fs",
+        "rolldown_rstr",
+        "rolldown_sourcemap",
+        "rolldown_std_utils",
+        "rolldown_utils",
+        "rustc-hash",
+        "schemars",
+        "serde",
+        "serde_json",
+        "string_wizard",
+        "sugar_path",
+        "tokio"
+    ]
+}

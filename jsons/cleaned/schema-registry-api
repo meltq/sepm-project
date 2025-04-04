@@ -1,0 +1,22 @@
+{
+    "name": "schema-registry-api",
+    "deps": [
+        "anyhow",
+        "assert2",
+        "clap",
+        "insta",
+        "nanoid",
+        "proptest",
+        "reqwest",
+        "reqwest-middleware",
+        "reqwest-tracing",
+        "rstest",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "tracing-subscriber",
+        "url"
+    ]
+}

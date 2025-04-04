@@ -1,0 +1,22 @@
+{
+    "name": "satex-core",
+    "deps": [
+        "anyhow",
+        "bytes",
+        "concat-idents",
+        "futures",
+        "http-body-util",
+        "http-serde",
+        "hyper",
+        "lazy_static",
+        "pin-project-lite",
+        "regex",
+        "serde",
+        "serde-this-or-that",
+        "serde_yaml",
+        "sync_wrapper",
+        "tokio",
+        "tower",
+        "tracing"
+    ]
+}

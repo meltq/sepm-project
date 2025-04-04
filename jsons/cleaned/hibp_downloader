@@ -1,0 +1,16 @@
+{
+    "name": "hibp_downloader",
+    "deps": [
+        "anyhow",
+        "byteorder",
+        "clap",
+        "extsort",
+        "indicatif",
+        "reqwest",
+        "tokio",
+        "tracing",
+        "tracing-indicatif",
+        "tracing-log",
+        "tracing-subscriber"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "name": "qemu-rdp",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "bytes",
+        "clap",
+        "dirs",
+        "enumflags2",
+        "futures-util",
+        "ironrdp",
+        "opus",
+        "pixman-sys",
+        "qemu-display",
+        "rustc_tools_util",
+        "rustc_tools_util",
+        "rustls-pemfile",
+        "tokio",
+        "tracing",
+        "tracing-subscriber",
+        "zbus"
+    ]
+}

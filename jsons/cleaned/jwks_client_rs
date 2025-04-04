@@ -1,0 +1,17 @@
+{
+    "name": "jwks_client_rs",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "httpmock",
+        "jsonwebtoken",
+        "mockall",
+        "moka",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "url"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "name": "httproxys",
+    "deps": [
+        "anyhow",
+        "clap",
+        "rustls",
+        "rustls-platform-verifier",
+        "rustls-webpki",
+        "time",
+        "tokio",
+        "tokio-rustls"
+    ]
+}

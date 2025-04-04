@@ -1,0 +1,14 @@
+{
+    "name": "gemachain-replica-lib",
+    "deps": [
+        "crossbeam-channel",
+        "futures-util",
+        "gemachain-runtime",
+        "gemachain-sdk",
+        "log",
+        "prost",
+        "tokio",
+        "tonic",
+        "tonic-build"
+    ]
+}

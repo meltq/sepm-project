@@ -1,0 +1,15 @@
+{
+    "name": "rsiot-websocket-client",
+    "deps": [
+        "futures-util",
+        "rsiot-component-core",
+        "rsiot-extra-components",
+        "rsiot-messages-core",
+        "serde",
+        "tokio",
+        "tokio-tungstenite",
+        "tracing",
+        "tracing-subscriber",
+        "url"
+    ]
+}

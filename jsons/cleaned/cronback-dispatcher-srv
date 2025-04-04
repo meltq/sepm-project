@@ -1,0 +1,25 @@
+{
+    "name": "cronback-dispatcher-srv",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "chrono",
+        "chrono-tz",
+        "futures",
+        "lib",
+        "metrics",
+        "prost",
+        "proto",
+        "rand",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "sqlx",
+        "thiserror",
+        "tokio",
+        "tonic",
+        "tower",
+        "tracing",
+        "validator"
+    ]
+}

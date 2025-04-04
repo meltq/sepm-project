@@ -1,0 +1,18 @@
+{
+    "name": "rust-kzg-bn254-prover",
+    "deps": [
+        "ark-bn254",
+        "ark-ec",
+        "ark-ff",
+        "ark-poly",
+        "ark-std",
+        "criterion",
+        "crossbeam-channel",
+        "lazy_static",
+        "num-traits",
+        "num_cpus",
+        "rand",
+        "rayon",
+        "rust-kzg-bn254-primitives"
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "name": "ewe_platform",
+    "deps": [
+        "anyhow",
+        "axum",
+        "bytes",
+        "clap",
+        "crossbeam",
+        "derive_more",
+        "ewe_devserver",
+        "ewe_temple",
+        "ewe_trace",
+        "ewe_watch_utils",
+        "ewe_watchers",
+        "foundations_ext",
+        "http",
+        "http-body",
+        "http-body-util",
+        "hyper",
+        "hyper-util",
+        "rust-embed",
+        "serde",
+        "serde_json",
+        "serde_with",
+        "signal-hook",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

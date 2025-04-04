@@ -1,0 +1,31 @@
+{
+    "name": "mangadex-desktop-api2",
+    "deps": [
+        "actix-files",
+        "actix-web",
+        "anyhow",
+        "clap",
+        "derive_builder",
+        "derive_more",
+        "fake",
+        "fern",
+        "futures",
+        "futures",
+        "json",
+        "log",
+        "mangadex-api",
+        "mangadex-api-schema",
+        "mangadex-api-types",
+        "once_cell",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "serde_qs",
+        "thiserror",
+        "time",
+        "tokio",
+        "url",
+        "uuid",
+        "wiremock"
+    ]
+}

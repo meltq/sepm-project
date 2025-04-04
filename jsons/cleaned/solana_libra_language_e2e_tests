@@ -1,0 +1,27 @@
+{
+    "name": "solana_libra_language_e2e_tests",
+    "deps": [
+        "assert_matches",
+        "bytecode_verifier",
+        "canonical_serialization",
+        "compiler",
+        "config",
+        "crypto",
+        "failure",
+        "ir_to_bytecode",
+        "lazy_static",
+        "logger",
+        "proptest",
+        "proptest-derive",
+        "proptest_helpers",
+        "proto_conv",
+        "protobuf",
+        "state_view",
+        "stdlib",
+        "tiny-keccak",
+        "types",
+        "vm",
+        "vm_genesis",
+        "vm_runtime"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "name": "serve_embed",
+    "deps": [
+        "anyhow",
+        "axum",
+        "bytes",
+        "ctrlc",
+        "derivative",
+        "env_logger",
+        "flate2",
+        "fly-accept-encoding",
+        "futures-util",
+        "http",
+        "http-body",
+        "http-range-header",
+        "httpdate",
+        "hyper",
+        "log",
+        "reqwest",
+        "rust-embed",
+        "tokio",
+        "tower"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "name": "assistant_daemon",
+    "deps": [
+        "anyhow",
+        "assistant_common",
+        "async-trait",
+        "axum",
+        "chrono",
+        "cron",
+        "dirs",
+        "hyper",
+        "notify",
+        "reqwest",
+        "russh",
+        "russh-keys",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tracing",
+        "winapi"
+    ]
+}

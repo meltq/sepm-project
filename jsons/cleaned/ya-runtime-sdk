@@ -1,0 +1,17 @@
+{
+    "name": "ya-runtime-sdk",
+    "deps": [
+        "anyhow",
+        "directories",
+        "futures",
+        "serde",
+        "serde_json",
+        "serde_yaml",
+        "structopt",
+        "tempdir",
+        "tokio",
+        "toml",
+        "ya-runtime-api",
+        "ya-runtime-sdk-derive"
+    ]
+}

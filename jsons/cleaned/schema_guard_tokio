@@ -1,0 +1,26 @@
+{
+    "name": "schema_guard_tokio",
+    "deps": [
+        "bb8",
+        "bb8-postgres",
+        "chrono",
+        "lazy_static",
+        "native-tls",
+        "postgres",
+        "postgres-native-tls",
+        "serde",
+        "serde_json",
+        "serde_yaml",
+        "slog",
+        "slog-async",
+        "slog-envlogger",
+        "slog-stdlog",
+        "slog-term",
+        "sloggers",
+        "time",
+        "tokio",
+        "tokio-postgres",
+        "yaml-rust",
+        "yaml-validator"
+    ]
+}

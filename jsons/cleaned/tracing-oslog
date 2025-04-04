@@ -1,0 +1,13 @@
+{
+    "name": "tracing-oslog",
+    "deps": [
+        "bindgen",
+        "cc",
+        "cfg-if",
+        "fnv",
+        "once_cell",
+        "parking_lot",
+        "tracing-core",
+        "tracing-subscriber"
+    ]
+}

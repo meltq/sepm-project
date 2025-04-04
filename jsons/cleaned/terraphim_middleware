@@ -1,0 +1,20 @@
+{
+    "name": "terraphim_middleware",
+    "deps": [
+        "ahash",
+        "cached",
+        "log",
+        "serde",
+        "serde_json",
+        "terraphim_automata",
+        "terraphim_config",
+        "terraphim_persistence",
+        "terraphim_rolegraph",
+        "terraphim_types",
+        "thiserror",
+        "tokio",
+        "tokio-stream",
+        "ulid",
+        "url"
+    ]
+}

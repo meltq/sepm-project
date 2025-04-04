@@ -1,0 +1,15 @@
+{
+    "name": "parity-util-mem",
+    "deps": [
+        "cfg-if",
+        "clear_on_drop",
+        "dlmalloc",
+        "elastic-array",
+        "ethereum-types",
+        "jemallocator",
+        "malloc_size_of_derive",
+        "parking_lot",
+        "wee_alloc",
+        "winapi"
+    ]
+}

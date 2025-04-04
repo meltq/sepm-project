@@ -1,0 +1,14 @@
+{
+    "name": "atrac3p-decoder",
+    "deps": [
+        "bitstream-io",
+        "lazy_static",
+        "log",
+        "num",
+        "riff-wave-reader",
+        "rodio",
+        "rustdct",
+        "take_mut",
+        "thiserror"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "name": "ppoprf",
+    "deps": [
+        "base64",
+        "bincode",
+        "bitvec",
+        "criterion",
+        "curve25519-dalek",
+        "derive_more",
+        "dotenvy",
+        "env_logger",
+        "insta",
+        "log",
+        "rand",
+        "rand_core",
+        "rand_core_ristretto",
+        "reqwest",
+        "serde",
+        "strobe-rs",
+        "tokio",
+        "warp",
+        "zeroize"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "name": "wasmrs-request",
+    "deps": [
+        "anyhow",
+        "clap",
+        "env_logger",
+        "futures",
+        "serde_json",
+        "tokio",
+        "wasmrs",
+        "wasmrs-codec",
+        "wasmrs-host",
+        "wasmrs-rx",
+        "wasmrs-wasmtime"
+    ]
+}

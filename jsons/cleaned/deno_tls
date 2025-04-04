@@ -1,0 +1,13 @@
+{
+    "name": "deno_tls",
+    "deps": [
+        "deno_core",
+        "lazy_static",
+        "reqwest",
+        "rustls",
+        "rustls-native-certs",
+        "serde",
+        "webpki",
+        "webpki-roots"
+    ]
+}

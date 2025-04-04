@@ -1,0 +1,20 @@
+{
+    "name": "data_harvest",
+    "deps": [
+        "chrono",
+        "chrono-tz",
+        "finance_api",
+        "finance_ibex",
+        "log",
+        "once_cell",
+        "regex",
+        "reqwest",
+        "rstest",
+        "scraper",
+        "sqlx",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "uuid"
+    ]
+}

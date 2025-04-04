@@ -1,0 +1,11 @@
+{
+    "name": "opentelemetry-appender-tracing",
+    "deps": [
+        "once_cell",
+        "opentelemetry_api",
+        "opentelemetry_sdk",
+        "tracing",
+        "tracing-core",
+        "tracing-subscriber"
+    ]
+}

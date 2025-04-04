@@ -1,0 +1,25 @@
+{
+    "name": "wasmbus-rpc",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "base64",
+        "bigdecimal",
+        "cfg-if",
+        "chrono",
+        "crossbeam",
+        "log",
+        "nats",
+        "num-bigint",
+        "once_cell",
+        "rmp-serde",
+        "serde",
+        "serde_bytes",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "toml",
+        "wasmbus-macros",
+        "weld-codegen"
+    ]
+}

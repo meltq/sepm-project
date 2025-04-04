@@ -1,0 +1,23 @@
+{
+    "name": "erc20_payment_lib",
+    "deps": [
+        "chrono",
+        "dotenv",
+        "env_logger",
+        "hex",
+        "lazy_static",
+        "log",
+        "rand",
+        "rust_decimal",
+        "rustc-hex",
+        "secp256k1",
+        "serde",
+        "sha3",
+        "sqlx",
+        "structopt",
+        "thiserror",
+        "tokio",
+        "toml",
+        "web3"
+    ]
+}

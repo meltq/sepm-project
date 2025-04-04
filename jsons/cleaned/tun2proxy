@@ -1,0 +1,30 @@
+{
+    "name": "tun2proxy",
+    "deps": [
+        "android_logger",
+        "async-recursion",
+        "async-trait",
+        "base64",
+        "chrono",
+        "clap",
+        "ctrlc2",
+        "digest_auth",
+        "dotenvy",
+        "env_logger",
+        "hashlink",
+        "httparse",
+        "ipstack",
+        "jni",
+        "log",
+        "serde_json",
+        "socks5-impl",
+        "thiserror",
+        "tokio",
+        "tproxy-config",
+        "trust-dns-proto",
+        "tun2",
+        "udp-stream",
+        "unicase",
+        "url"
+    ]
+}

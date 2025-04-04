@@ -1,0 +1,20 @@
+{
+    "name": "virtiofsd",
+    "deps": [
+        "bitflags",
+        "capng",
+        "env_logger",
+        "futures",
+        "libc",
+        "log",
+        "seccomp-sys",
+        "structopt",
+        "tempdir",
+        "vhost",
+        "vhost-user-backend",
+        "virtio-bindings",
+        "virtio-queue",
+        "vm-memory",
+        "vmm-sys-util"
+    ]
+}

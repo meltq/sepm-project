@@ -1,0 +1,21 @@
+{
+    "name": "libipld",
+    "deps": [
+        "async-std",
+        "async-trait",
+        "byteorder",
+        "cid",
+        "criterion",
+        "dag-cbor",
+        "dag-cbor-derive",
+        "dag-pb",
+        "futures",
+        "libipld-base",
+        "libipld-macro",
+        "model",
+        "multibase",
+        "multihash",
+        "proptest",
+        "thiserror"
+    ]
+}

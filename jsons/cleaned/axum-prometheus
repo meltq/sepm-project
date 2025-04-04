@@ -1,0 +1,18 @@
+{
+    "name": "axum-prometheus",
+    "deps": [
+        "axum",
+        "bytes",
+        "futures",
+        "futures-core",
+        "http",
+        "http-body",
+        "hyper",
+        "metrics",
+        "metrics-exporter-prometheus",
+        "pin-project",
+        "tokio",
+        "tower",
+        "tower-http"
+    ]
+}

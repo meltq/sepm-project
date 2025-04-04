@@ -1,0 +1,25 @@
+{
+    "name": "candle-core-temp",
+    "deps": [
+        "accelerate-src",
+        "anyhow",
+        "byteorder",
+        "candle-kernels",
+        "clap",
+        "cudarc",
+        "gemm",
+        "half",
+        "intel-mkl-src",
+        "libc",
+        "memmap2",
+        "num-traits",
+        "num_cpus",
+        "rand",
+        "rand_distr",
+        "rayon",
+        "safetensors",
+        "thiserror",
+        "yoke",
+        "zip"
+    ]
+}

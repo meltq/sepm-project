@@ -1,0 +1,30 @@
+{
+    "name": "kapot-executor",
+    "deps": [
+        "anyhow",
+        "arrow",
+        "arrow-flight",
+        "async-trait",
+        "chrono",
+        "configure_me",
+        "configure_me_codegen",
+        "dashmap",
+        "datafusion",
+        "datafusion-proto",
+        "futures",
+        "kapot-core",
+        "libc",
+        "log",
+        "mimalloc",
+        "num_cpus",
+        "parking_lot",
+        "tempfile",
+        "tokio",
+        "tokio-stream",
+        "tonic",
+        "tracing",
+        "tracing-appender",
+        "tracing-subscriber",
+        "uuid"
+    ]
+}

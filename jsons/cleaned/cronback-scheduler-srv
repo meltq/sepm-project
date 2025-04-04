@@ -1,0 +1,30 @@
+{
+    "name": "cronback-scheduler-srv",
+    "deps": [
+        "anyhow",
+        "async-recursion",
+        "async-trait",
+        "chrono",
+        "chrono-tz",
+        "cron",
+        "dto",
+        "lib",
+        "metrics",
+        "prost",
+        "proto",
+        "sea-orm",
+        "sea-query",
+        "sea-query-binder",
+        "serde",
+        "serde_json",
+        "sqlx",
+        "tempfile",
+        "thiserror",
+        "tokio",
+        "tokio-stream",
+        "tonic",
+        "tower",
+        "tracing",
+        "tracing-test"
+    ]
+}

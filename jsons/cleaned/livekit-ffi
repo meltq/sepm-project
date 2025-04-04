@@ -1,0 +1,21 @@
+{
+    "name": "livekit-ffi",
+    "deps": [
+        "console-subscriber",
+        "dashmap",
+        "downcast-rs",
+        "env_logger",
+        "futures-util",
+        "lazy_static",
+        "livekit",
+        "livekit-api",
+        "livekit-protocol",
+        "log",
+        "parking_lot",
+        "prost",
+        "prost-types",
+        "thiserror",
+        "tokio",
+        "webrtc-sys-build"
+    ]
+}

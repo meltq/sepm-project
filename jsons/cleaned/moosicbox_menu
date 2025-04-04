@@ -1,0 +1,20 @@
+{
+    "name": "moosicbox_menu",
+    "deps": [
+        "actix-web",
+        "log",
+        "moosicbox_assert",
+        "moosicbox_core",
+        "moosicbox_database",
+        "moosicbox_library",
+        "moosicbox_music_api",
+        "moosicbox_paging",
+        "moosicbox_scan",
+        "moosicbox_search",
+        "moosicbox_session",
+        "serde",
+        "thiserror",
+        "tokio",
+        "utoipa"
+    ]
+}

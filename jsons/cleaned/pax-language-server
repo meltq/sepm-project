@@ -1,0 +1,16 @@
+{
+    "name": "pax-language-server",
+    "deps": [
+        "dashmap",
+        "lsp-types",
+        "pax-compiler",
+        "pest",
+        "pest_derive",
+        "proc-macro2",
+        "quote",
+        "serde",
+        "syn",
+        "tokio",
+        "tower-lsp"
+    ]
+}

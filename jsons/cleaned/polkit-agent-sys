@@ -1,0 +1,13 @@
+{
+    "name": "polkit-agent-sys",
+    "deps": [
+        "gio-sys",
+        "glib-sys",
+        "gobject-sys",
+        "libc",
+        "polkit-sys",
+        "shell-words",
+        "system-deps",
+        "tempfile"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "name": "rustup-private-download",
+    "deps": [
+        "curl",
+        "env_proxy",
+        "error-chain",
+        "hyper",
+        "lazy_static",
+        "reqwest",
+        "tempfile",
+        "tokio",
+        "url"
+    ]
+}

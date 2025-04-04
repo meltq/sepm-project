@@ -1,0 +1,28 @@
+{
+    "name": "aquatic_http",
+    "deps": [
+        "anyhow",
+        "aquatic_cli_helpers",
+        "aquatic_common",
+        "aquatic_http_protocol",
+        "crossbeam-channel",
+        "either",
+        "hashbrown",
+        "histogram",
+        "indexmap",
+        "itoa",
+        "log",
+        "memchr",
+        "mimalloc",
+        "mio",
+        "native-tls",
+        "parking_lot",
+        "privdrop",
+        "quickcheck",
+        "quickcheck_macros",
+        "rand",
+        "serde",
+        "smartstring",
+        "socket2"
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "name": "statehub",
+    "deps": [
+        "anyhow",
+        "base64",
+        "bytes",
+        "chrono",
+        "dotenv",
+        "inspector",
+        "itertools",
+        "k8s-openapi",
+        "kube",
+        "log",
+        "pretty_env_logger",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "serde_with",
+        "structopt",
+        "text_io",
+        "thiserror",
+        "tokio",
+        "uuid",
+        "which"
+    ]
+}

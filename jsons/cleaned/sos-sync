@@ -1,0 +1,16 @@
+{
+    "name": "sos-sync",
+    "deps": [
+        "async-trait",
+        "indexmap",
+        "rustc_version",
+        "serde",
+        "sos-backend",
+        "sos-core",
+        "sos-reducers",
+        "sos-vault",
+        "thiserror",
+        "tokio",
+        "tracing"
+    ]
+}

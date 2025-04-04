@@ -1,0 +1,29 @@
+{
+    "name": "substrate-subxt",
+    "deps": [
+        "async-std",
+        "codec",
+        "env_logger",
+        "frame-metadata",
+        "frame-support",
+        "frame-system",
+        "futures",
+        "hex",
+        "jsonrpsee",
+        "log",
+        "num-traits",
+        "pallet-balances",
+        "pallet-indices",
+        "serde",
+        "serde_json",
+        "sp-core",
+        "sp-keyring",
+        "sp-rpc",
+        "sp-runtime",
+        "sp-transaction-pool",
+        "sp-version",
+        "thiserror",
+        "url",
+        "wabt"
+    ]
+}

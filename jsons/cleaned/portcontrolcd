@@ -1,0 +1,14 @@
+{
+    "name": "portcontrolcd",
+    "deps": [
+        "clap",
+        "directories",
+        "libc",
+        "mio",
+        "netlink-packet-core",
+        "netlink-packet-route",
+        "netlink-sys",
+        "rand",
+        "rust-ini"
+    ]
+}

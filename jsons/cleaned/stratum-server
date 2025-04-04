@@ -1,0 +1,13 @@
+{
+    "name": "stratum-server",
+    "deps": [
+        "async-std",
+        "async-trait",
+        "futures",
+        "lru_time_cache",
+        "serde",
+        "serde_json",
+        "stratum-types",
+        "uuid"
+    ]
+}

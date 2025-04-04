@@ -1,0 +1,17 @@
+{
+    "name": "sam_encrypt",
+    "deps": [
+        "aes-gcm-siv",
+        "anyhow",
+        "cipher",
+        "criterion",
+        "curv-kzen",
+        "futures",
+        "hex",
+        "lazy_static",
+        "rand",
+        "serde",
+        "serde_cbor",
+        "sha2"
+    ]
+}

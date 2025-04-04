@@ -1,0 +1,31 @@
+{
+    "name": "resymo-agent",
+    "deps": [
+        "actix-http",
+        "actix-service",
+        "actix-tls",
+        "actix-web",
+        "actix-web-extras",
+        "actix-web-httpauth",
+        "anyhow",
+        "async-trait",
+        "clap",
+        "env_logger",
+        "futures",
+        "gethostname",
+        "homeassistant-agent",
+        "humantime",
+        "humantime-serde",
+        "log",
+        "openssl",
+        "rumqttc",
+        "schemars",
+        "serde",
+        "serde_json",
+        "serde_yaml",
+        "sysinfo",
+        "thiserror",
+        "tokio",
+        "urlencoding"
+    ]
+}

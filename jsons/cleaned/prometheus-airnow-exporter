@@ -1,0 +1,12 @@
+{
+    "name": "prometheus-airnow-exporter",
+    "deps": [
+        "anyhow",
+        "prometheus_exporter",
+        "reqwest",
+        "serde",
+        "tokio",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

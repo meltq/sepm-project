@@ -1,0 +1,15 @@
+{
+    "name": "iroh-router",
+    "deps": [
+        "anyhow",
+        "clap",
+        "futures-buffered",
+        "futures-lite",
+        "futures-util",
+        "iroh-net",
+        "tokio",
+        "tokio-util",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

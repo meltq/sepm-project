@@ -1,0 +1,16 @@
+{
+    "name": "zap-build",
+    "deps": [
+        "anyhow",
+        "chrono",
+        "env_logger",
+        "futures",
+        "guess_host_triple",
+        "log",
+        "structopt",
+        "termcolor",
+        "tokio",
+        "zap-build-engine",
+        "zap-core"
+    ]
+}

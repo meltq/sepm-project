@@ -1,0 +1,29 @@
+{
+    "name": "mun_language_server",
+    "deps": [
+        "anyhow",
+        "crossbeam-channel",
+        "hir",
+        "insta",
+        "itertools",
+        "log",
+        "lsp-server",
+        "lsp-types",
+        "mun_diagnostics",
+        "mun_syntax",
+        "mun_target",
+        "parking_lot",
+        "paths",
+        "project",
+        "ra_ap_text_edit",
+        "rustc-hash",
+        "salsa",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "tempdir",
+        "thiserror",
+        "threadpool",
+        "vfs"
+    ]
+}

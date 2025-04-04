@@ -1,0 +1,21 @@
+{
+    "name": "eternaltwin_oauth_provider_store",
+    "deps": [
+        "async-trait",
+        "eternaltwin_config",
+        "eternaltwin_constants",
+        "eternaltwin_core",
+        "eternaltwin_db_schema",
+        "eternaltwin_password",
+        "eternaltwin_populate",
+        "eternaltwin_postgres_tools",
+        "neon",
+        "regex",
+        "serde_json",
+        "serial_test",
+        "sha3",
+        "sqlx",
+        "tokio",
+        "url"
+    ]
+}

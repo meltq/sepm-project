@@ -1,0 +1,13 @@
+{
+    "name": "tower-async-hyper",
+    "deps": [
+        "http",
+        "http-body",
+        "hyper",
+        "hyper-util",
+        "pin-project-lite",
+        "tokio",
+        "tower-async-service",
+        "tracing-subscriber"
+    ]
+}

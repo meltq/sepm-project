@@ -1,0 +1,31 @@
+{
+    "name": "pijul-remote",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "byteorder",
+        "bytes",
+        "dirs-next",
+        "futures",
+        "futures-util",
+        "keyring",
+        "lazy_static",
+        "libpijul",
+        "log",
+        "pijul-config",
+        "pijul-identity",
+        "pijul-interaction",
+        "pijul-repository",
+        "regex",
+        "reqwest",
+        "sanakirja",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "thrussh",
+        "thrussh-config",
+        "thrussh-keys",
+        "tokio",
+        "url"
+    ]
+}

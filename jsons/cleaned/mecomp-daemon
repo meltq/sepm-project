@@ -1,0 +1,32 @@
+{
+    "name": "mecomp-daemon",
+    "deps": [
+        "anyhow",
+        "clap",
+        "config",
+        "criterion",
+        "futures",
+        "lofty",
+        "log",
+        "mecomp-analysis",
+        "mecomp-core",
+        "mecomp-core",
+        "mecomp-storage",
+        "mecomp-storage",
+        "notify",
+        "notify-debouncer-full",
+        "one-or-many",
+        "pretty_assertions",
+        "rand",
+        "rstest",
+        "serde",
+        "shellexpand",
+        "surrealdb",
+        "tap",
+        "tarpc",
+        "tempfile",
+        "tokio",
+        "tracing",
+        "walkdir"
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "name": "kompact",
+    "deps": [
+        "as_num",
+        "bitfields",
+        "bytes",
+        "crossbeam",
+        "crossbeam-channel",
+        "executors",
+        "futures",
+        "kompact-actor-derive",
+        "kompact-component-derive",
+        "log",
+        "num_cpus",
+        "oncemutex",
+        "sequence_trie",
+        "serde",
+        "slog",
+        "slog-async",
+        "slog-term",
+        "spaniel",
+        "synchronoise",
+        "time",
+        "tokio",
+        "tokio-retry",
+        "uuid"
+    ]
+}

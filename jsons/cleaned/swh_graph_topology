@@ -1,0 +1,22 @@
+{
+    "name": "swh_graph_topology",
+    "deps": [
+        "anyhow",
+        "arrow",
+        "bytemuck",
+        "clap",
+        "csv",
+        "dataset-writer",
+        "dsi-bitstream",
+        "dsi-progress-logger",
+        "env_logger",
+        "itertools",
+        "log",
+        "mmap-rs",
+        "parquet",
+        "rayon",
+        "rdst",
+        "serde",
+        "swh-graph"
+    ]
+}

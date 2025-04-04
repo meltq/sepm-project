@@ -1,0 +1,19 @@
+{
+    "name": "rag-toolchain",
+    "deps": [
+        "dotenv",
+        "lazy_static",
+        "mockall",
+        "mockito",
+        "pgvector",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "sqlx",
+        "testcontainers",
+        "threadpool",
+        "tiktoken-rs",
+        "tokio",
+        "typed-builder"
+    ]
+}

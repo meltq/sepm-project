@@ -1,0 +1,24 @@
+{
+    "name": "drgdfu",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "bluer",
+        "bytes",
+        "chrono",
+        "clap",
+        "drogue-ajour-protocol",
+        "futures",
+        "humantime",
+        "log",
+        "postcard",
+        "reqwest",
+        "serde",
+        "serde_cbor",
+        "serde_json",
+        "stderrlog",
+        "tokio",
+        "tokio-serial",
+        "uuid"
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "name": "typst-preview",
+    "deps": [
+        "anyhow",
+        "await-tree",
+        "clap",
+        "clap",
+        "clap_complete",
+        "clap_mangen",
+        "comemo",
+        "elsa",
+        "env_logger",
+        "futures",
+        "hyper",
+        "indexmap",
+        "log",
+        "memmap2",
+        "notify",
+        "once_cell",
+        "open",
+        "serde",
+        "serde_json",
+        "tiny-skia",
+        "tokio",
+        "tokio-tungstenite",
+        "typst",
+        "typst-assets",
+        "typst-ts-compiler",
+        "typst-ts-core",
+        "typst-ts-svg-exporter",
+        "vergen"
+    ]
+}

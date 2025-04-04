@@ -1,0 +1,11 @@
+{
+    "name": "vsock-proxy",
+    "deps": [
+        "async-trait",
+        "clap",
+        "pin-project",
+        "thiserror",
+        "tokio",
+        "tokio-vsock"
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "name": "barter-integration-copy",
+    "deps": [
+        "async-trait",
+        "barter-instrument-copy",
+        "base64",
+        "bytes",
+        "chrono",
+        "derive_more",
+        "futures",
+        "hex",
+        "hmac",
+        "pin-project",
+        "reqwest",
+        "rust_decimal",
+        "rust_decimal_macros",
+        "serde",
+        "serde_json",
+        "serde_qs",
+        "serde_urlencoded",
+        "sha2",
+        "smol_str",
+        "thiserror",
+        "tokio",
+        "tokio-stream",
+        "tokio-tungstenite",
+        "tracing",
+        "url"
+    ]
+}

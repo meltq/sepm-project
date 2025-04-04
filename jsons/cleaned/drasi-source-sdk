@@ -1,0 +1,25 @@
+{
+    "name": "drasi-source-sdk",
+    "deps": [
+        "async-stream",
+        "async-trait",
+        "axum",
+        "axum-streams",
+        "dapr",
+        "env_logger",
+        "futures",
+        "log",
+        "opentelemetry",
+        "opentelemetry-otlp",
+        "opentelemetry-semantic-conventions",
+        "opentelemetry_sdk",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "tracing-opentelemetry",
+        "tracing-subscriber"
+    ]
+}

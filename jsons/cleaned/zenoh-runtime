@@ -1,0 +1,14 @@
+{
+    "name": "zenoh-runtime",
+    "deps": [
+        "futures",
+        "lazy_static",
+        "libc",
+        "ron",
+        "serde",
+        "tokio",
+        "zenoh-collections",
+        "zenoh-macros",
+        "zenoh-result"
+    ]
+}

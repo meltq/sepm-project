@@ -1,0 +1,16 @@
+{
+    "name": "assemblylift-awslambda-host",
+    "deps": [
+        "assemblylift_core",
+        "assemblylift_core_event",
+        "assemblylift_core_event_common",
+        "awsio",
+        "clap",
+        "crossbeam-utils",
+        "lazy_static",
+        "once_cell",
+        "reqwest",
+        "wasmer_runtime",
+        "wasmer_runtime_core"
+    ]
+}

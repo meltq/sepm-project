@@ -1,0 +1,15 @@
+{
+    "name": "tari_comms_rpc_macros",
+    "deps": [
+        "futures",
+        "proc-macro2",
+        "prost",
+        "quote",
+        "syn",
+        "tari_comms",
+        "tari_test_utils",
+        "tokio",
+        "tokio-macros",
+        "tower-service"
+    ]
+}

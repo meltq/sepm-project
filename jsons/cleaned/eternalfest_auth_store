@@ -1,0 +1,19 @@
+{
+    "name": "eternalfest_auth_store",
+    "deps": [
+        "async-trait",
+        "chrono",
+        "eternalfest_config",
+        "eternalfest_core",
+        "eternalfest_db_schema",
+        "eternalfest_user_store",
+        "etwin_postgres_tools",
+        "neon",
+        "regex",
+        "serde_json",
+        "serial_test",
+        "sha3",
+        "sqlx",
+        "tokio"
+    ]
+}

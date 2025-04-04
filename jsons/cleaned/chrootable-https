@@ -1,0 +1,18 @@
+{
+    "name": "chrootable-https",
+    "deps": [
+        "bytes",
+        "ct-logs",
+        "env_logger",
+        "failure",
+        "futures",
+        "http",
+        "hyper",
+        "hyper-rustls",
+        "log",
+        "rustls",
+        "tokio-core",
+        "trust-dns-resolver",
+        "webpki-roots"
+    ]
+}

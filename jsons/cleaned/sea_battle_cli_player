@@ -1,0 +1,24 @@
+{
+    "name": "sea_battle_cli_player",
+    "deps": [
+        "clap",
+        "crossterm",
+        "env_logger",
+        "futures",
+        "hostname",
+        "hyper-rustls",
+        "lazy_static",
+        "log",
+        "num",
+        "num-derive",
+        "num-traits",
+        "rustls",
+        "sea_battle_backend",
+        "serde_json",
+        "serde_urlencoded",
+        "textwrap",
+        "tokio",
+        "tokio-tungstenite",
+        "tui"
+    ]
+}

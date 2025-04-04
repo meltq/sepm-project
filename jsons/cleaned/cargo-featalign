@@ -1,0 +1,17 @@
+{
+    "name": "cargo-featalign",
+    "deps": [
+        "anyhow",
+        "cargo_metadata",
+        "clap",
+        "color-eyre",
+        "imara-diff",
+        "num_cpus",
+        "once_cell",
+        "regex",
+        "serde",
+        "serde_json",
+        "toml_edit",
+        "vergen"
+    ]
+}

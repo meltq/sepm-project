@@ -1,0 +1,17 @@
+{
+    "name": "sea-streamer-kafka",
+    "deps": [
+        "anyhow",
+        "async-std",
+        "env_logger",
+        "fastrand",
+        "lazy_static",
+        "mac_address",
+        "rdkafka",
+        "sea-streamer-runtime",
+        "sea-streamer-types",
+        "structopt",
+        "time",
+        "tokio"
+    ]
+}

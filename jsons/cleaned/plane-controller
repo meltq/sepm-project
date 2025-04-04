@@ -1,0 +1,19 @@
+{
+    "name": "plane-controller",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "chrono",
+        "clap",
+        "dashmap",
+        "futures",
+        "plane-core",
+        "rand",
+        "serde",
+        "signal-hook",
+        "tokio",
+        "tokio-stream",
+        "tracing",
+        "trust-dns-server"
+    ]
+}

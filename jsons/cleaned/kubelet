@@ -1,0 +1,27 @@
+{
+    "name": "kubelet",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "chrono",
+        "dirs",
+        "futures",
+        "hostname",
+        "hyper",
+        "k8s-openapi",
+        "kube",
+        "lazy_static",
+        "log",
+        "native-tls",
+        "oci-distribution",
+        "reqwest",
+        "rpassword",
+        "serde",
+        "serde_json",
+        "structopt",
+        "thiserror",
+        "tokio",
+        "tokio-tls",
+        "url"
+    ]
+}

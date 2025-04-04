@@ -1,0 +1,16 @@
+{
+    "name": "tauri-plugin-mqtt",
+    "deps": [
+        "anyhow",
+        "debug_print",
+        "lazy_static",
+        "rumqttc",
+        "serde",
+        "tauri",
+        "tauri-plugin",
+        "thiserror",
+        "tokio",
+        "tokio-native-tls",
+        "url"
+    ]
+}

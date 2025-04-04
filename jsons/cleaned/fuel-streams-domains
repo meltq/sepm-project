@@ -1,0 +1,21 @@
+{
+    "name": "fuel-streams-domains",
+    "deps": [
+        "async-trait",
+        "fuel-core",
+        "fuel-core-types",
+        "fuel-streams-macros",
+        "fuel-streams-store",
+        "fuel-streams-types",
+        "fuel-tx",
+        "fuel-vm",
+        "netlink-proto",
+        "rayon",
+        "serde",
+        "serde_json",
+        "sqlx",
+        "test-case",
+        "thiserror",
+        "tracing"
+    ]
+}

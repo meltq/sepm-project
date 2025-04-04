@@ -1,0 +1,17 @@
+{
+    "name": "kitsune_p2p_bootstrap_client",
+    "deps": [
+        "ed25519-dalek",
+        "fixt",
+        "kitsune_p2p_bin_data",
+        "kitsune_p2p_types",
+        "once_cell",
+        "rand_dalek",
+        "reqwest",
+        "serde",
+        "serde_bytes",
+        "thiserror",
+        "tokio",
+        "url2"
+    ]
+}

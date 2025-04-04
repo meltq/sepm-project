@@ -1,0 +1,22 @@
+{
+    "name": "vhost-device-rng",
+    "deps": [
+        "assert_matches",
+        "clap",
+        "env_logger",
+        "epoll",
+        "libc",
+        "log",
+        "rand",
+        "tempfile",
+        "thiserror",
+        "vhost",
+        "vhost-user-backend",
+        "virtio-bindings",
+        "virtio-queue",
+        "virtio-queue",
+        "vm-memory",
+        "vm-memory",
+        "vmm-sys-util"
+    ]
+}

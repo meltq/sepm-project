@@ -1,0 +1,15 @@
+{
+    "name": "surf-middleware-cache",
+    "deps": [
+        "async-std",
+        "bincode",
+        "cacache",
+        "http",
+        "http-cache-semantics",
+        "http-types",
+        "httpdate",
+        "serde",
+        "serde_json",
+        "surf"
+    ]
+}

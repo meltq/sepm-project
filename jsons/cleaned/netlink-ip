@@ -1,0 +1,15 @@
+{
+    "name": "netlink-ip",
+    "deps": [
+        "bytes",
+        "env_logger",
+        "eui48",
+        "failure",
+        "failure_derive",
+        "futures",
+        "lazy_static",
+        "log",
+        "netlink-sys",
+        "tokio-core"
+    ]
+}

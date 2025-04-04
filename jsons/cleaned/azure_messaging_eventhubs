@@ -1,0 +1,17 @@
+{
+    "name": "azure_messaging_eventhubs",
+    "deps": [
+        "async-std",
+        "async-stream",
+        "azure_core",
+        "azure_core_amqp",
+        "futures",
+        "rustc_version",
+        "time",
+        "tokio",
+        "tracing",
+        "tracing-subscriber",
+        "url",
+        "uuid"
+    ]
+}

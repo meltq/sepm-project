@@ -1,0 +1,15 @@
+{
+    "name": "auditor-slurm-epilog-collector",
+    "deps": [
+        "anyhow",
+        "auditor",
+        "chrono",
+        "config",
+        "regex",
+        "serde",
+        "serde-aux",
+        "tokio",
+        "tracing",
+        "uuid"
+    ]
+}

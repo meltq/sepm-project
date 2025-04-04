@@ -1,0 +1,11 @@
+{
+    "name": "wasmtime-cli-flags",
+    "deps": [
+        "anyhow",
+        "clap",
+        "file-per-thread-logger",
+        "pretty_env_logger",
+        "rayon",
+        "wasmtime"
+    ]
+}

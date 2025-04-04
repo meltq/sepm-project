@@ -1,0 +1,16 @@
+{
+    "name": "aggligator-transport-websocket",
+    "deps": [
+        "aggligator",
+        "aggligator-transport-tcp",
+        "async-trait",
+        "axum",
+        "bytes",
+        "futures",
+        "tokio",
+        "tokio-tungstenite",
+        "tracing",
+        "tungstenite",
+        "url"
+    ]
+}

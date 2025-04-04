@@ -1,0 +1,26 @@
+{
+    "name": "libsql_replication",
+    "deps": [
+        "anyhow",
+        "bytemuck",
+        "bytes",
+        "crossbeam",
+        "futures",
+        "libsql-sys",
+        "memmap",
+        "nix",
+        "once_cell",
+        "parking_lot",
+        "prost",
+        "prost-build",
+        "regex",
+        "tempfile",
+        "thiserror",
+        "tokio",
+        "tokio-stream",
+        "tonic",
+        "tonic-build",
+        "tracing",
+        "uuid"
+    ]
+}

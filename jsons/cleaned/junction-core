@@ -1,0 +1,33 @@
+{
+    "name": "junction-core",
+    "deps": [
+        "arc-swap",
+        "bytes",
+        "crossbeam-skiplist",
+        "enum-map",
+        "form_urlencoded",
+        "futures",
+        "h2",
+        "http",
+        "junction-api",
+        "once_cell",
+        "petgraph",
+        "prost",
+        "rand",
+        "regex",
+        "serde",
+        "serde_json",
+        "serde_yml",
+        "smol_str",
+        "thiserror",
+        "tokio",
+        "tokio",
+        "tokio-stream",
+        "tonic",
+        "tonic-reflection",
+        "tracing",
+        "tracing-subscriber",
+        "xds-api",
+        "xxhash-rust"
+    ]
+}

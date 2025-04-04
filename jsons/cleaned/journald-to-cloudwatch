@@ -1,0 +1,11 @@
+{
+    "name": "journald-to-cloudwatch",
+    "deps": [
+        "chrono",
+        "reqwest",
+        "rusoto_core",
+        "rusoto_ec2",
+        "rusoto_logs",
+        "systemd"
+    ]
+}

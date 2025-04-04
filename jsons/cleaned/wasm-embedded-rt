@@ -1,0 +1,20 @@
+{
+    "name": "wasm-embedded-rt",
+    "deps": [
+        "anyhow",
+        "embedded-hal",
+        "embedded-hal-mock",
+        "log",
+        "serde",
+        "serde_derive",
+        "simplelog",
+        "structopt",
+        "strum",
+        "strum_macros",
+        "toml",
+        "wasm-embedded-lib",
+        "wasmtime",
+        "wasmtime-wasi",
+        "wiggle"
+    ]
+}

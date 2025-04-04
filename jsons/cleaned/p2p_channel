@@ -1,0 +1,23 @@
+{
+    "name": "p2p_channel",
+    "deps": [
+        "anyhow",
+        "chrono",
+        "clap",
+        "crossbeam",
+        "crossbeam-skiplist",
+        "ctrlc2",
+        "dashmap",
+        "env_logger",
+        "libloading",
+        "log",
+        "log",
+        "mio",
+        "network-interface",
+        "parking_lot",
+        "rand",
+        "socket2",
+        "stun-format",
+        "windows-sys"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "name": "libpgquery-sys",
+    "deps": [
+        "bindgen",
+        "prost",
+        "prost-build",
+        "serde_json",
+        "thiserror"
+    ]
+}

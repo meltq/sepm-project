@@ -1,0 +1,12 @@
+{
+    "name": "dlq-cli",
+    "deps": [
+        "clap",
+        "color-eyre",
+        "dlq-gateway-grpc",
+        "env_logger",
+        "log",
+        "tokio",
+        "tonic"
+    ]
+}

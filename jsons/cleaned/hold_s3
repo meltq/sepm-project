@@ -1,0 +1,13 @@
+{
+    "name": "hold_s3",
+    "deps": [
+        "async-trait",
+        "futures",
+        "hold",
+        "log",
+        "rusoto_core",
+        "rusoto_credential",
+        "rusoto_s3",
+        "tokio"
+    ]
+}

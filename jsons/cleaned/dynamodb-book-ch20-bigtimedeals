@@ -1,0 +1,21 @@
+{
+    "name": "dynamodb-book-ch20-bigtimedeals",
+    "deps": [
+        "aliri_braid",
+        "aws-config",
+        "aws-credential-types",
+        "aws-sdk-dynamodb",
+        "futures",
+        "modyne",
+        "once_cell",
+        "pin-project-lite",
+        "serde",
+        "serde_dynamo",
+        "svix-ksuid",
+        "test-log",
+        "time",
+        "tokio",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "name": "rsa-msg",
+    "deps": [
+        "anyhow",
+        "async-channel",
+        "async-stream",
+        "bytes",
+        "clap",
+        "colored",
+        "crossbeam-channel",
+        "fs2",
+        "futures",
+        "futures-core",
+        "futures-util",
+        "hex",
+        "indicatif",
+        "inquire",
+        "lazy_static",
+        "log",
+        "openssl",
+        "packets",
+        "pretty_env_logger",
+        "surf",
+        "tokio",
+        "tokio-stream",
+        "tokio-tungstenite",
+        "tokio-util",
+        "uuid"
+    ]
+}

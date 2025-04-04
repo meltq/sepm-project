@@ -1,0 +1,30 @@
+{
+    "name": "maicoin_max",
+    "deps": [
+        "anyhow",
+        "async-std",
+        "async-stream",
+        "async-tungstenite",
+        "base64",
+        "chrono",
+        "env_logger",
+        "futures",
+        "hex",
+        "hmac",
+        "http-types",
+        "lazy_static",
+        "log",
+        "rust_decimal",
+        "rust_decimal_macros",
+        "serde",
+        "serde_json",
+        "serde_qs",
+        "serde_yaml",
+        "sha2",
+        "surf",
+        "surf-vcr",
+        "thiserror",
+        "tokio",
+        "url"
+    ]
+}

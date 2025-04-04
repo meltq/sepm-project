@@ -1,0 +1,11 @@
+{
+    "name": "tdn_storage",
+    "deps": [
+        "async-fs",
+        "postcard",
+        "serde",
+        "sled",
+        "smol",
+        "tdn_types"
+    ]
+}

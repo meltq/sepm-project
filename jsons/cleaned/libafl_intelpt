@@ -1,0 +1,19 @@
+{
+    "name": "libafl_intelpt",
+    "deps": [
+        "arbitrary-int",
+        "bitbybit",
+        "caps",
+        "libafl_bolts",
+        "libc",
+        "libipt",
+        "log",
+        "nix",
+        "num-traits",
+        "num_enum",
+        "perf-event-open-sys",
+        "proc-maps",
+        "raw-cpuid",
+        "static_assertions"
+    ]
+}

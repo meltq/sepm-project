@@ -1,0 +1,19 @@
+{
+    "name": "taskcluster",
+    "deps": [
+        "anyhow",
+        "backoff",
+        "base64",
+        "chrono",
+        "hawk",
+        "httptest",
+        "lazy_static",
+        "percent-encoding",
+        "reqwest",
+        "rust-crypto",
+        "serde",
+        "serde_json",
+        "slugid",
+        "tokio"
+    ]
+}

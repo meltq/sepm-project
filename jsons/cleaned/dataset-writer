@@ -1,0 +1,14 @@
+{
+    "name": "dataset-writer",
+    "deps": [
+        "anyhow",
+        "arrow",
+        "arrow-array",
+        "arrow-schema",
+        "csv",
+        "parquet",
+        "rayon",
+        "thread_local",
+        "zstd"
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "name": "snocat",
+    "deps": [
+        "anyhow",
+        "async-std",
+        "ffi-support",
+        "futures",
+        "futures-io",
+        "gen-z",
+        "lazy_static",
+        "log",
+        "prost",
+        "prost-build",
+        "prost-types",
+        "quinn",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tonic",
+        "tonic-build",
+        "tracing",
+        "tracing-futures",
+        "tracing-subscriber",
+        "triggered"
+    ]
+}

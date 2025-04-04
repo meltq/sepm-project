@@ -1,0 +1,26 @@
+{
+    "name": "rspack_loader_swc",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "base64",
+        "cargo_toml",
+        "dashmap",
+        "either",
+        "jsonc-parser",
+        "rspack_ast",
+        "rspack_core",
+        "rspack_error",
+        "rspack_loader_runner",
+        "rspack_plugin_javascript",
+        "rspack_util",
+        "serde",
+        "serde_json",
+        "stacker",
+        "swc_config",
+        "swc_core",
+        "swc_plugin_import",
+        "tokio",
+        "url"
+    ]
+}

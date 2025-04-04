@@ -1,0 +1,16 @@
+{
+    "name": "nyantec-cert-auth",
+    "deps": [
+        "der-parser",
+        "hyper",
+        "rand",
+        "reqwest",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "urlencoding",
+        "x509-parser"
+    ]
+}

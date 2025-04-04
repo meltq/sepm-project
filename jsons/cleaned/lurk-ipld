@@ -1,0 +1,23 @@
+{
+    "name": "lurk-ipld",
+    "deps": [
+        "async-std",
+        "async-trait",
+        "cached",
+        "criterion",
+        "fnv",
+        "log",
+        "lurk-ipld-cbor",
+        "lurk-ipld-cbor-derive",
+        "lurk-ipld-core",
+        "lurk-ipld-json",
+        "lurk-ipld-macro",
+        "lurk-ipld-pb",
+        "model",
+        "multihash",
+        "multihash",
+        "parking_lot",
+        "proptest",
+        "thiserror"
+    ]
+}

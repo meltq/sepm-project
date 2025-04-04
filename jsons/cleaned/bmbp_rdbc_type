@@ -1,0 +1,13 @@
+{
+    "name": "bmbp_rdbc_type",
+    "deps": [
+        "bmbp_rdbc_sql",
+        "chrono",
+        "log",
+        "serde",
+        "tokio-postgres",
+        "tracing",
+        "tracing-subscriber",
+        "uuid"
+    ]
+}

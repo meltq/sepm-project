@@ -1,0 +1,18 @@
+{
+    "name": "hexodsp",
+    "deps": [
+        "anyhow",
+        "cpal",
+        "hound",
+        "jack",
+        "lazy_static",
+        "num-complex",
+        "ringbuf",
+        "rustfft",
+        "serde",
+        "serde_json",
+        "synfx-dsp",
+        "synfx-dsp-jit",
+        "triple_buffer"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "name": "async-rustls-stream",
+    "deps": [
+        "async-executor",
+        "async-io",
+        "async-net",
+        "blocking",
+        "futures-io",
+        "futures-lite",
+        "rustls",
+        "rustls-pemfile",
+        "webpki-roots"
+    ]
+}

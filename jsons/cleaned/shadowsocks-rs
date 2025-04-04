@@ -1,0 +1,21 @@
+{
+    "name": "shadowsocks-rs",
+    "deps": [
+        "env_logger",
+        "futures",
+        "getopts",
+        "log",
+        "md5",
+        "num_cpus",
+        "openssl",
+        "rand",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "tokio-core",
+        "tokio-io",
+        "tokio-socks5",
+        "tokio-timer",
+        "trust-dns-resolver"
+    ]
+}

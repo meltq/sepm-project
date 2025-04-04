@@ -1,0 +1,12 @@
+{
+    "name": "dynamodb-tester",
+    "deps": [
+        "anyhow",
+        "aws-config",
+        "aws-sdk-dynamodb",
+        "serde",
+        "serde_yaml",
+        "tokio",
+        "xid"
+    ]
+}

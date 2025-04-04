@@ -1,0 +1,16 @@
+{
+    "name": "statik_server",
+    "deps": [
+        "anyhow",
+        "base64",
+        "bytes",
+        "reqwest",
+        "serde",
+        "statik_common",
+        "statik_proto",
+        "tera",
+        "tokio",
+        "tracing",
+        "uuid"
+    ]
+}

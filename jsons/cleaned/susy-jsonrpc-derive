@@ -1,0 +1,16 @@
+{
+    "name": "susy-jsonrpc-derive",
+    "deps": [
+        "compiletest_rs",
+        "proc-macro-crate",
+        "proc-macro2",
+        "quote",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "susy-jsonrpc-core",
+        "susy-jsonrpc-pubsub",
+        "susy-jsonrpc-tcp-server",
+        "syn"
+    ]
+}

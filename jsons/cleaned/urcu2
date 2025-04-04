@@ -1,0 +1,20 @@
+{
+    "name": "urcu2",
+    "deps": [
+        "anyhow",
+        "container_of",
+        "ctrlc",
+        "env_logger",
+        "guardian",
+        "libc",
+        "log",
+        "paste",
+        "rand",
+        "static_assertions",
+        "urcu2-bp-sys",
+        "urcu2-mb-sys",
+        "urcu2-memb-sys",
+        "urcu2-qsbr-sys",
+        "urcu2-sys"
+    ]
+}

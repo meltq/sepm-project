@@ -1,0 +1,24 @@
+{
+    "name": "ptproxy",
+    "deps": [
+        "bytes",
+        "futures",
+        "h3",
+        "h3-quinn",
+        "http",
+        "hyper",
+        "quinn",
+        "rand",
+        "rustls",
+        "rustls-native-certs",
+        "rustls-pemfile",
+        "serde",
+        "socket2",
+        "structopt",
+        "tokio",
+        "tokio-util",
+        "toml",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

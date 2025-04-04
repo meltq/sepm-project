@@ -1,0 +1,29 @@
+{
+    "name": "linera-wasmer-compiler",
+    "deps": [
+        "backtrace",
+        "bytes",
+        "cfg-if",
+        "enum-iterator",
+        "enumset",
+        "hashbrown",
+        "lazy_static",
+        "leb128",
+        "memmap2",
+        "more-asserts",
+        "region",
+        "rkyv",
+        "self_cell",
+        "serde",
+        "serde_bytes",
+        "shared-buffer",
+        "smallvec",
+        "thiserror",
+        "wasmer-object",
+        "wasmer-types",
+        "wasmer-vm",
+        "wasmparser",
+        "winapi",
+        "xxhash-rust"
+    ]
+}

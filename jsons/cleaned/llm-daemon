@@ -1,0 +1,20 @@
+{
+    "name": "llm-daemon",
+    "deps": [
+        "anyhow",
+        "axum",
+        "criterion",
+        "daemonize",
+        "futures",
+        "hyper",
+        "hyper-util",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "tempfile",
+        "tokio",
+        "tracing",
+        "tracing-test",
+        "url"
+    ]
+}

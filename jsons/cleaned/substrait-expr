@@ -1,0 +1,11 @@
+{
+    "name": "substrait-expr",
+    "deps": [
+        "once_cell",
+        "prost",
+        "substrait",
+        "substrait-expr-funcgen",
+        "substrait-expr-macros",
+        "thiserror"
+    ]
+}

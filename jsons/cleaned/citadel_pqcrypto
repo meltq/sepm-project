@@ -1,0 +1,26 @@
+{
+    "name": "citadel_pqcrypto",
+    "deps": [
+        "aes-gcm-siv",
+        "bincode2",
+        "bytes",
+        "chacha20poly1305",
+        "citadel_logging",
+        "enum_primitive",
+        "generic-array",
+        "getrandom",
+        "kyber-pke",
+        "lazy_static",
+        "log",
+        "oqs",
+        "packed_struct",
+        "parking_lot",
+        "pqcrypto-falcon-wasi",
+        "pqcrypto-traits-wasi",
+        "rand",
+        "serde",
+        "serde-big-array",
+        "sha3",
+        "strum"
+    ]
+}

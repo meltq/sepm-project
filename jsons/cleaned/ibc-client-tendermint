@@ -1,0 +1,15 @@
+{
+    "name": "ibc-client-tendermint",
+    "deps": [
+        "ibc-client-tendermint-types",
+        "ibc-core-client",
+        "ibc-core-commitment-types",
+        "ibc-core-handler-types",
+        "ibc-core-host",
+        "ibc-primitives",
+        "prost",
+        "serde",
+        "tendermint",
+        "tendermint-light-client-verifier"
+    ]
+}

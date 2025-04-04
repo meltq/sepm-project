@@ -1,0 +1,20 @@
+{
+    "name": "runc",
+    "deps": [
+        "async-trait",
+        "futures",
+        "libc",
+        "log",
+        "nix",
+        "oci-spec",
+        "path-absolutize",
+        "rand",
+        "serde",
+        "serde_json",
+        "tempfile",
+        "thiserror",
+        "time",
+        "tokio",
+        "uuid"
+    ]
+}

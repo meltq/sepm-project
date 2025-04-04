@@ -1,0 +1,21 @@
+{
+    "name": "pact_verifier_ffi",
+    "deps": [
+        "cbindgen",
+        "clap",
+        "env_logger",
+        "expectest",
+        "futures",
+        "lazy_static",
+        "libc",
+        "log",
+        "maplit",
+        "pact_matching",
+        "pact_verifier",
+        "quickcheck",
+        "rand",
+        "regex",
+        "simplelog",
+        "tokio"
+    ]
+}

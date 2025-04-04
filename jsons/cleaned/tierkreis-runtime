@@ -1,0 +1,24 @@
+{
+    "name": "tierkreis-runtime",
+    "deps": [
+        "anyhow",
+        "futures",
+        "hyper-util",
+        "opentelemetry",
+        "opentelemetry-http",
+        "opentelemetry_sdk",
+        "rstest",
+        "serde",
+        "test-env-log",
+        "thiserror",
+        "tierkreis-core",
+        "tierkreis-proto",
+        "tokio",
+        "tokio-stream",
+        "tonic",
+        "tower",
+        "tracing",
+        "tracing-opentelemetry",
+        "tracing-subscriber"
+    ]
+}

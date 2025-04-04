@@ -1,0 +1,13 @@
+{
+    "name": "tower-sessions-sqlx-store",
+    "deps": [
+        "async-trait",
+        "rmp-serde",
+        "sqlx",
+        "thiserror",
+        "time",
+        "tokio-test",
+        "tower-sessions",
+        "tower-sessions-core"
+    ]
+}

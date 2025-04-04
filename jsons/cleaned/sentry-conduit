@@ -1,0 +1,14 @@
+{
+    "name": "sentry-conduit",
+    "deps": [
+        "conduit",
+        "conduit-hyper",
+        "conduit-middleware",
+        "conduit-router",
+        "hyper",
+        "sentry",
+        "sentry-core",
+        "tokio",
+        "tracing-subscriber"
+    ]
+}

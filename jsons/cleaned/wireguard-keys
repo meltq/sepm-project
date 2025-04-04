@@ -1,0 +1,17 @@
+{
+    "name": "wireguard-keys",
+    "deps": [
+        "base32",
+        "base64",
+        "hex",
+        "paste",
+        "rand_core",
+        "rocket",
+        "schemars",
+        "serde",
+        "serde_test",
+        "thiserror",
+        "x25519-dalek-fiat",
+        "zeroize"
+    ]
+}

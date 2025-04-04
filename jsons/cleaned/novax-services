@@ -1,0 +1,17 @@
+{
+    "name": "novax-services",
+    "deps": [
+        "axum",
+        "futures",
+        "novax-log",
+        "prost",
+        "prost-types",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tonic",
+        "tonic-build",
+        "tower-http"
+    ]
+}

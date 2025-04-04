@@ -1,0 +1,21 @@
+{
+    "name": "fss",
+    "deps": [
+        "anyhow",
+        "aqueue",
+        "async-trait",
+        "blake3",
+        "clap",
+        "flexi_logger",
+        "hex",
+        "log",
+        "netxserver",
+        "rustls-pemfile",
+        "serde",
+        "service-manager",
+        "tokio",
+        "tokio-rustls",
+        "toml",
+        "windows-service"
+    ]
+}

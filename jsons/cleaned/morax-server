@@ -1,0 +1,17 @@
+{
+    "name": "morax-server",
+    "deps": [
+        "error-stack",
+        "futures",
+        "latches",
+        "log",
+        "morax-kafka-broker",
+        "morax-meta",
+        "morax-protos",
+        "morax-runtime",
+        "morax-wal-broker",
+        "poem",
+        "thiserror",
+        "tokio"
+    ]
+}

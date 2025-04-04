@@ -1,0 +1,13 @@
+{
+    "name": "logcontrol-log",
+    "deps": [
+        "async-std",
+        "env_logger",
+        "log",
+        "log-reload",
+        "logcontrol",
+        "static_assertions",
+        "systemd-journal-logger",
+        "zbus"
+    ]
+}

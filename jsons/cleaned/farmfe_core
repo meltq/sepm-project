@@ -1,0 +1,30 @@
+{
+    "name": "farmfe_core",
+    "deps": [
+        "blake2",
+        "bytecheck",
+        "dashmap",
+        "downcast-rs",
+        "farmfe_macro_cache_item",
+        "farmfe_utils",
+        "glob",
+        "hashbrown",
+        "hex",
+        "parking_lot",
+        "petgraph",
+        "ptr_meta",
+        "rayon",
+        "relative-path",
+        "rkyv",
+        "rkyv_dyn",
+        "rkyv_typename",
+        "serde",
+        "serde_json",
+        "swc_common",
+        "swc_css_ast",
+        "swc_ecma_ast",
+        "swc_ecma_parser",
+        "swc_html_ast",
+        "thiserror"
+    ]
+}

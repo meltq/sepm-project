@@ -1,0 +1,32 @@
+{
+    "name": "audiobook_server",
+    "deps": [
+        "axum",
+        "bincode",
+        "chrono",
+        "chrono",
+        "clap",
+        "cookie",
+        "dotenv",
+        "eyre",
+        "futures",
+        "hex",
+        "hyper",
+        "lazy_static",
+        "md5",
+        "mime",
+        "rand",
+        "redis",
+        "regex",
+        "sea-orm",
+        "serde",
+        "tera",
+        "tokio",
+        "tokio-util",
+        "tower",
+        "tower-cookies",
+        "tower-http",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

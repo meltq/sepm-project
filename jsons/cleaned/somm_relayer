@@ -1,0 +1,24 @@
+{
+    "name": "somm_relayer",
+    "deps": [
+        "actix",
+        "actix-rt",
+        "clarity",
+        "deep_space",
+        "docopt",
+        "env_logger",
+        "lazy_static",
+        "log",
+        "num256",
+        "openssl-probe",
+        "serde",
+        "serde_derive",
+        "somm_cosmos_gravity",
+        "somm_ethereum_gravity",
+        "somm_gravity_proto",
+        "somm_gravity_utils",
+        "tokio",
+        "tonic",
+        "web30"
+    ]
+}

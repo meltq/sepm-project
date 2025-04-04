@@ -1,0 +1,20 @@
+{
+    "name": "rocksd",
+    "deps": [
+        "bytes",
+        "clap",
+        "futures",
+        "log",
+        "protobuf",
+        "rand",
+        "ring",
+        "rocksdb",
+        "time",
+        "tokio-core",
+        "tokio-io",
+        "tokio-proto",
+        "tokio-rpc",
+        "tokio-service",
+        "tokio-timer"
+    ]
+}

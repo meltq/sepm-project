@@ -1,0 +1,20 @@
+{
+    "name": "axum-server-dual-protocol",
+    "deps": [
+        "anyhow",
+        "axum",
+        "axum-server",
+        "bytes",
+        "futures-util",
+        "http",
+        "hyper",
+        "pin-project",
+        "rcgen",
+        "reqwest",
+        "tokio",
+        "tokio",
+        "tokio-rustls",
+        "tokio-util",
+        "tower-layer"
+    ]
+}

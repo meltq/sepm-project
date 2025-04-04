@@ -1,0 +1,15 @@
+{
+    "name": "boa_cli",
+    "deps": [
+        "boa_engine",
+        "boa_interner",
+        "clap",
+        "colored",
+        "jemallocator",
+        "phf",
+        "regex",
+        "rustyline",
+        "rustyline-derive",
+        "serde_json"
+    ]
+}

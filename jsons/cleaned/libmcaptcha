@@ -1,0 +1,19 @@
+{
+    "name": "libmcaptcha",
+    "deps": [
+        "actix",
+        "actix-rt",
+        "crossbeam-channel",
+        "derive_builder",
+        "derive_more",
+        "log",
+        "mcaptcha_pow_sha256",
+        "num_cpus",
+        "pretty_env_logger",
+        "rand",
+        "redis",
+        "serde",
+        "serde_json",
+        "tokio"
+    ]
+}

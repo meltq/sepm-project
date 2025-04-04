@@ -1,0 +1,19 @@
+{
+    "name": "vhost-device-i2c",
+    "deps": [
+        "assert_matches",
+        "clap",
+        "env_logger",
+        "libc",
+        "log",
+        "thiserror",
+        "vhost",
+        "vhost-user-backend",
+        "virtio-bindings",
+        "virtio-queue",
+        "virtio-queue",
+        "vm-memory",
+        "vm-memory",
+        "vmm-sys-util"
+    ]
+}

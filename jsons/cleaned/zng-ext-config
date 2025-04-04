@@ -1,0 +1,22 @@
+{
+    "name": "zng-ext-config",
+    "deps": [
+        "atomic",
+        "bytemuck",
+        "indexmap",
+        "ron",
+        "serde",
+        "serde_json",
+        "serde_yaml",
+        "toml",
+        "tracing",
+        "zng-app",
+        "zng-app-context",
+        "zng-clone-move",
+        "zng-ext-fs-watcher",
+        "zng-task",
+        "zng-txt",
+        "zng-unique-id",
+        "zng-var"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "yacme-protocol",
+    "deps": [
+        "base64ct",
+        "chrono",
+        "der",
+        "eyre",
+        "http",
+        "mime",
+        "pem-rfc7468",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "signature",
+        "thiserror",
+        "tracing",
+        "url",
+        "yacme-key"
+    ]
+}

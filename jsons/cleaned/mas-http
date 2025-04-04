@@ -1,0 +1,30 @@
+{
+    "name": "mas-http",
+    "deps": [
+        "anyhow",
+        "axum",
+        "bytes",
+        "futures-util",
+        "headers",
+        "http",
+        "http-body",
+        "hyper",
+        "hyper-rustls",
+        "mas-tower",
+        "once_cell",
+        "opentelemetry",
+        "rustls",
+        "rustls-native-certs",
+        "serde",
+        "serde_json",
+        "serde_urlencoded",
+        "thiserror",
+        "tokio",
+        "tokio",
+        "tower",
+        "tower-http",
+        "tracing",
+        "tracing-opentelemetry",
+        "webpki-roots"
+    ]
+}

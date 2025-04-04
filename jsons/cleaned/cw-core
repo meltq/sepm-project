@@ -1,0 +1,23 @@
+{
+    "name": "cw-core",
+    "deps": [
+        "cosmwasm-schema",
+        "cosmwasm-std",
+        "cosmwasm-storage",
+        "cw-core-interface",
+        "cw-core-macros",
+        "cw-paginate-storage",
+        "cw-proposal-sudo",
+        "cw-storage-plus",
+        "cw-utils",
+        "cw2",
+        "cw20",
+        "cw20-balance-voting",
+        "cw20-base",
+        "cw721",
+        "cw721-base",
+        "schemars",
+        "serde",
+        "thiserror"
+    ]
+}

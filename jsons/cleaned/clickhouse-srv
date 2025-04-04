@@ -1,0 +1,31 @@
+{
+    "name": "clickhouse-srv",
+    "deps": [
+        "async-trait",
+        "byteorder",
+        "bytes",
+        "chrono",
+        "chrono-tz",
+        "clickhouse-rs-cityhash-sys",
+        "combine",
+        "env_logger",
+        "futures",
+        "futures-core",
+        "futures-sink",
+        "futures-util",
+        "hostname",
+        "lazy_static",
+        "log",
+        "lz4",
+        "native-tls",
+        "pin-project",
+        "rand",
+        "thiserror",
+        "tokio",
+        "tokio-native-tls",
+        "tokio-stream",
+        "tokio-util",
+        "url",
+        "uuid"
+    ]
+}

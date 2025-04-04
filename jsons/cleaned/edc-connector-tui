@@ -1,0 +1,22 @@
+{
+    "name": "edc-connector-tui",
+    "deps": [
+        "anyhow",
+        "arboard",
+        "async-trait",
+        "clap",
+        "crossterm",
+        "dirs-next",
+        "edc-connector-client",
+        "enum-ordinalize",
+        "futures",
+        "keyring",
+        "ratatui",
+        "serde",
+        "serde_json",
+        "strum",
+        "tokio",
+        "toml",
+        "tui-textarea"
+    ]
+}

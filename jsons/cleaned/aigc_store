@@ -1,0 +1,22 @@
+{
+    "name": "aigc_store",
+    "deps": [
+        "aigc_core",
+        "aigc_util",
+        "byteorder",
+        "chrono",
+        "croaring",
+        "env_logger",
+        "failure",
+        "failure_derive",
+        "filetime",
+        "libc",
+        "lmdb-zero",
+        "log",
+        "memmap",
+        "rand",
+        "serde",
+        "serde_derive",
+        "tempfile"
+    ]
+}

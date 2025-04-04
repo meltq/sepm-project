@@ -1,0 +1,15 @@
+{
+    "name": "rsiot-http-server",
+    "deps": [
+        "axum",
+        "hyper",
+        "rsiot-channel-utils",
+        "rsiot-messages-core",
+        "serde",
+        "tokio",
+        "tower-http",
+        "tracing",
+        "tracing-subscriber",
+        "url"
+    ]
+}

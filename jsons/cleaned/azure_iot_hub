@@ -1,0 +1,22 @@
+{
+    "name": "azure_iot_hub",
+    "deps": [
+        "azure_core",
+        "base64",
+        "bytes",
+        "chrono",
+        "env_logger",
+        "hmac",
+        "http",
+        "hyper",
+        "hyper-rustls",
+        "reqwest",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "sha2",
+        "thiserror",
+        "tokio",
+        "url"
+    ]
+}

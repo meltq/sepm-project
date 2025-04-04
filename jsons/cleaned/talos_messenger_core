@@ -1,0 +1,25 @@
+{
+    "name": "talos_messenger_core",
+    "deps": [
+        "ahash",
+        "async-trait",
+        "env_logger",
+        "futures-executor",
+        "futures-util",
+        "indexmap",
+        "log",
+        "mockall",
+        "rand",
+        "rdkafka",
+        "serde",
+        "serde_json",
+        "strum",
+        "talos_certifier",
+        "talos_common_utils",
+        "talos_suffix",
+        "thiserror",
+        "time",
+        "tokio",
+        "tokio-test"
+    ]
+}

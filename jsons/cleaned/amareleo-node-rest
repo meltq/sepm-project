@@ -1,0 +1,25 @@
+{
+    "name": "amareleo-node-rest",
+    "deps": [
+        "amareleo-node-consensus",
+        "anyhow",
+        "axum",
+        "axum-extra",
+        "http",
+        "indexmap",
+        "jsonwebtoken",
+        "once_cell",
+        "parking_lot",
+        "rand",
+        "rayon",
+        "serde",
+        "serde_json",
+        "snarkvm",
+        "snarkvm-synthesizer",
+        "time",
+        "tokio",
+        "tower-http",
+        "tower_governor",
+        "tracing"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "embedded-runner",
+    "deps": [
+        "clap",
+        "defmt-decoder",
+        "defmt-json-schema",
+        "defmt-parser",
+        "env_logger",
+        "log",
+        "mantra",
+        "object",
+        "path-clean",
+        "serde",
+        "tera",
+        "thiserror",
+        "time",
+        "tokio",
+        "toml"
+    ]
+}

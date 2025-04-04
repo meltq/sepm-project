@@ -1,0 +1,20 @@
+{
+    "name": "opentalk-compositor",
+    "deps": [
+        "anyhow",
+        "env_logger",
+        "glib",
+        "glob",
+        "gst",
+        "gst-base",
+        "gst-plugin-inter",
+        "gst-sdp",
+        "gst-webrtc",
+        "log",
+        "once_cell",
+        "parking_lot",
+        "serde",
+        "tokio",
+        "types"
+    ]
+}

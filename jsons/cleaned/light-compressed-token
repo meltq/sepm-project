@@ -1,0 +1,27 @@
+{
+    "name": "light-compressed-token",
+    "deps": [
+        "account-compression",
+        "aligned-sized",
+        "anchor-lang",
+        "anchor-spl",
+        "bytemuck",
+        "light-circuitlib-rs",
+        "light-compressed-pda",
+        "light-concurrent-merkle-tree",
+        "light-hasher",
+        "light-heap",
+        "light-merkle-tree-reference",
+        "light-utils",
+        "light-verifier",
+        "num-bigint",
+        "num-traits",
+        "rand",
+        "reqwest",
+        "solana-program-test",
+        "solana-sdk",
+        "solana-security-txt",
+        "spl-token",
+        "tokio"
+    ]
+}

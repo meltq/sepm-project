@@ -1,0 +1,13 @@
+{
+    "name": "zerostash-fuse",
+    "deps": [
+        "anyhow",
+        "fuse_mt",
+        "infinitree",
+        "nix",
+        "scc",
+        "tokio",
+        "tracing",
+        "zerostash-files"
+    ]
+}

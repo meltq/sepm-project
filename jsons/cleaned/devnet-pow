@@ -1,0 +1,24 @@
+{
+    "name": "devnet-pow",
+    "deps": [
+        "anchor-lang",
+        "anyhow",
+        "bincode",
+        "borsh",
+        "bs58",
+        "bytemuck",
+        "clap",
+        "itertools",
+        "proof-of-work-faucet",
+        "rand",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "shellexpand",
+        "solana-account-decoder",
+        "solana-cli-config",
+        "solana-client",
+        "solana-sdk",
+        "tokio"
+    ]
+}

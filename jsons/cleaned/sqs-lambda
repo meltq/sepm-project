@@ -1,0 +1,20 @@
+{
+    "name": "sqs-lambda",
+    "deps": [
+        "aws_lambda_events",
+        "failure",
+        "futures",
+        "lambda_runtime",
+        "log",
+        "prost",
+        "rusoto_core",
+        "rusoto_s3",
+        "rusoto_sqs",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "simple_logger",
+        "stopwatch",
+        "zstd"
+    ]
+}

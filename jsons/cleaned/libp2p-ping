@@ -1,0 +1,21 @@
+{
+    "name": "libp2p-ping",
+    "deps": [
+        "arrayvec",
+        "bytes",
+        "futures",
+        "libp2p-core",
+        "libp2p-tcp",
+        "log",
+        "multiaddr",
+        "multistream-select",
+        "parking_lot",
+        "rand",
+        "tokio",
+        "tokio-codec",
+        "tokio-io",
+        "tokio-tcp",
+        "tokio-timer",
+        "void"
+    ]
+}

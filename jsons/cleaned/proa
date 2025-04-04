@@ -1,0 +1,21 @@
+{
+    "name": "proa",
+    "deps": [
+        "anyhow",
+        "clap",
+        "futures",
+        "gethostname",
+        "json",
+        "k8s-openapi",
+        "kube",
+        "nix",
+        "pin-project",
+        "reqwest",
+        "serde_json",
+        "sysinfo",
+        "tokio",
+        "tokio-stream",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

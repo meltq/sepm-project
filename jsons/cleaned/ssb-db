@@ -1,0 +1,15 @@
+{
+    "name": "ssb-db",
+    "deps": [
+        "diesel",
+        "diesel_migrations",
+        "flumedb",
+        "itertools",
+        "libsqlite3-sys",
+        "serde",
+        "serde_json",
+        "snafu",
+        "ssb-json-msg-data",
+        "ssb-multiformats"
+    ]
+}

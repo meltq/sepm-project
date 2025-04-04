@@ -1,0 +1,30 @@
+{
+    "name": "moosicbox_qobuz",
+    "deps": [
+        "actix-web",
+        "async-recursion",
+        "async-trait",
+        "base64",
+        "log",
+        "md5",
+        "moosicbox_assert",
+        "moosicbox_core",
+        "moosicbox_database",
+        "moosicbox_files",
+        "moosicbox_json_utils",
+        "moosicbox_music_api",
+        "moosicbox_paging",
+        "moosicbox_search",
+        "regex",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "strum",
+        "strum_macros",
+        "thiserror",
+        "tokio",
+        "tokio",
+        "url",
+        "utoipa"
+    ]
+}

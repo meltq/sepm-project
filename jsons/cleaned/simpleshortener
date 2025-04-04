@@ -1,0 +1,17 @@
+{
+    "name": "simpleshortener",
+    "deps": [
+        "async-trait",
+        "axum",
+        "dashmap",
+        "once_cell",
+        "serde",
+        "serde_json",
+        "sha2",
+        "sqlx",
+        "tokio",
+        "toml",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

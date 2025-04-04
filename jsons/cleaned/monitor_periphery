@@ -1,0 +1,25 @@
+{
+    "name": "monitor_periphery",
+    "deps": [
+        "anyhow",
+        "async_timing_util",
+        "axum",
+        "bollard",
+        "clap",
+        "daemonize",
+        "dotenv",
+        "envy",
+        "futures-util",
+        "helpers",
+        "run_command",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "sysinfo",
+        "tokio",
+        "tokio-util",
+        "toml",
+        "tower",
+        "types"
+    ]
+}

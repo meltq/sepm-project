@@ -1,0 +1,16 @@
+{
+    "name": "thalo_message_store",
+    "deps": [
+        "dashmap",
+        "serde",
+        "serde_cbor",
+        "serde_json",
+        "sled",
+        "thalo",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "typed-builder",
+        "uuid"
+    ]
+}

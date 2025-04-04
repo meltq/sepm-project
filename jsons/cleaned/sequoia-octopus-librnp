@@ -1,0 +1,26 @@
+{
+    "name": "sequoia-octopus-librnp",
+    "deps": [
+        "anyhow",
+        "buffered-reader",
+        "chrono",
+        "configparser",
+        "csv",
+        "lazy_static",
+        "libc",
+        "num_cpus",
+        "rand",
+        "rand_distr",
+        "rusqlite",
+        "sequoia-autocrypt",
+        "sequoia-ipc",
+        "sequoia-net",
+        "sequoia-openpgp",
+        "serde",
+        "serde_json",
+        "sha2",
+        "tempfile",
+        "thiserror",
+        "tokio"
+    ]
+}

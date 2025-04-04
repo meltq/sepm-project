@@ -1,0 +1,32 @@
+{
+    "name": "hermes-cli",
+    "deps": [
+        "cgp",
+        "cgp-error-eyre",
+        "clap",
+        "eyre",
+        "futures",
+        "hdpath",
+        "hermes-any-counterparty",
+        "hermes-cli-components",
+        "hermes-cli-framework",
+        "hermes-cosmos-chain-components",
+        "hermes-cosmos-integration-tests",
+        "hermes-cosmos-relayer",
+        "hermes-error",
+        "hermes-logger",
+        "hermes-logging-components",
+        "hermes-relayer-components",
+        "hermes-runtime",
+        "hermes-runtime-components",
+        "humantime",
+        "ibc",
+        "ibc-relayer",
+        "ibc-relayer-types",
+        "oneline-eyre",
+        "serde",
+        "serde_json",
+        "toml",
+        "tracing"
+    ]
+}

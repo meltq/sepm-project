@@ -1,0 +1,16 @@
+{
+    "name": "dd-trace-layer",
+    "deps": [
+        "axum",
+        "futures",
+        "http",
+        "http-body",
+        "hyper",
+        "opentelemetry",
+        "opentelemetry-datadog",
+        "opentelemetry-semantic-conventions",
+        "tokio",
+        "tower",
+        "tower"
+    ]
+}

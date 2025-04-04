@@ -1,0 +1,21 @@
+{
+    "name": "autocache",
+    "deps": [
+        "anyhow",
+        "async_singleflight",
+        "bytes",
+        "chrono",
+        "dashmap",
+        "derivative",
+        "futures",
+        "im",
+        "lru",
+        "moka",
+        "parking_lot",
+        "redis",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio"
+    ]
+}

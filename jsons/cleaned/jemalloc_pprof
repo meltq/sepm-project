@@ -1,0 +1,16 @@
+{
+    "name": "jemalloc_pprof",
+    "deps": [
+        "anyhow",
+        "flate2",
+        "libc",
+        "num",
+        "once_cell",
+        "paste",
+        "prost",
+        "tempfile",
+        "tikv-jemalloc-ctl",
+        "tokio",
+        "tracing"
+    ]
+}

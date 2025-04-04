@@ -1,0 +1,16 @@
+{
+    "name": "messaging_thread_pool",
+    "deps": [
+        "arrayvec",
+        "backtrace",
+        "criterion",
+        "crossbeam-channel",
+        "once_cell",
+        "rand",
+        "rand_xoshiro",
+        "tracing",
+        "tracing-appender",
+        "tracing-attributes",
+        "tracing-subscriber"
+    ]
+}

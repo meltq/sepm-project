@@ -1,0 +1,16 @@
+{
+    "name": "circom-lsp",
+    "deps": [
+        "circom_parser",
+        "circom_structure",
+        "circom_type_checker",
+        "codespan-reporting",
+        "itertools",
+        "lalrpop-util",
+        "num-traits",
+        "ropey",
+        "tempfile",
+        "tokio",
+        "tower-lsp"
+    ]
+}

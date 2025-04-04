@@ -1,0 +1,24 @@
+{
+    "name": "risc0-circuit-recursion",
+    "deps": [
+        "anyhow",
+        "bytemuck",
+        "criterion",
+        "cust",
+        "downloader",
+        "env_logger",
+        "log",
+        "metal",
+        "rand",
+        "rayon",
+        "risc0-circuit-recursion-sys",
+        "risc0-core",
+        "risc0-zkp",
+        "sha2",
+        "test-log",
+        "tracing",
+        "tracing-forest",
+        "tracing-subscriber",
+        "zip"
+    ]
+}

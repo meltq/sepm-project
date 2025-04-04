@@ -1,0 +1,29 @@
+{
+    "name": "graphannis-core",
+    "deps": [
+        "anyhow",
+        "bincode",
+        "env_logger",
+        "fake",
+        "graphannis-malloc_size_of",
+        "graphannis-malloc_size_of_derive",
+        "itertools",
+        "kernel32-sys",
+        "lazy_static",
+        "log",
+        "num-traits",
+        "percent-encoding",
+        "quick-xml",
+        "rand",
+        "rayon",
+        "regex",
+        "regex-syntax",
+        "rustc-hash",
+        "serde",
+        "serde_derive",
+        "sstable",
+        "strum",
+        "strum_macros",
+        "tempfile"
+    ]
+}

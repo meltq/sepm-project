@@ -1,0 +1,14 @@
+{
+    "name": "ami-uploader",
+    "deps": [
+        "console",
+        "futures",
+        "indicatif",
+        "rand",
+        "rusoto_core",
+        "rusoto_ec2",
+        "rusoto_s3",
+        "structopt",
+        "tokio"
+    ]
+}

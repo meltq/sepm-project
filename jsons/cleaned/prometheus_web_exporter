@@ -1,0 +1,14 @@
+{
+    "name": "prometheus_web_exporter",
+    "deps": [
+        "config",
+        "futures",
+        "log",
+        "pretty_env_logger",
+        "reqwest",
+        "scraper",
+        "serde",
+        "tokio",
+        "warp"
+    ]
+}

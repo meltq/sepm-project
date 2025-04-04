@@ -1,0 +1,28 @@
+{
+    "name": "circom-prover",
+    "deps": [
+        "anyhow",
+        "ark-bls12-381",
+        "ark-bn254",
+        "ark-crypto-primitives",
+        "ark-ec",
+        "ark-ff",
+        "ark-groth16",
+        "ark-poly",
+        "ark-relations",
+        "ark-serialize",
+        "ark-std",
+        "byteorder",
+        "hex-literal",
+        "hex-literal",
+        "num",
+        "num-bigint",
+        "num-traits",
+        "rand",
+        "rayon",
+        "rust-witness",
+        "serde_json",
+        "uuid",
+        "witnesscalc-adapter"
+    ]
+}

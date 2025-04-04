@@ -1,0 +1,26 @@
+{
+    "name": "wasmrs-wasmtime",
+    "deps": [
+        "anyhow",
+        "bytes",
+        "cfg-if",
+        "clap",
+        "env_logger",
+        "futures",
+        "parking_lot",
+        "serde",
+        "serde_json",
+        "test-log",
+        "thiserror",
+        "tokio",
+        "tokio",
+        "tracing",
+        "tracing-subscriber",
+        "wasi-common",
+        "wasmrs",
+        "wasmrs-codec",
+        "wasmrs-host",
+        "wasmtime",
+        "wasmtime-wasi"
+    ]
+}

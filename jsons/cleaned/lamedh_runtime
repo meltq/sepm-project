@@ -1,0 +1,23 @@
+{
+    "name": "lamedh_runtime",
+    "deps": [
+        "async-stream",
+        "bytes",
+        "futures-core",
+        "futures-util",
+        "http",
+        "hyper",
+        "lamedh_attributes",
+        "log",
+        "once_cell",
+        "serde",
+        "serde_json",
+        "simple-error",
+        "simple_logger",
+        "tokio",
+        "tower-service",
+        "tracing",
+        "tracing-futures",
+        "tracing-subscriber"
+    ]
+}

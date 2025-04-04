@@ -1,0 +1,25 @@
+{
+    "name": "covert-kv",
+    "deps": [
+        "anyhow",
+        "bytes",
+        "chrono",
+        "covert-framework",
+        "covert-storage",
+        "covert-types",
+        "hex",
+        "humantime-serde",
+        "rust-embed",
+        "serde",
+        "serde_json",
+        "sha2",
+        "sqlx",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "tracing-error",
+        "uuid",
+        "http",
+        "tempfile"
+    ]
+}

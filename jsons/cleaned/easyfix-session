@@ -1,0 +1,21 @@
+{
+    "name": "easyfix-session",
+    "deps": [
+        "async-stream",
+        "async-trait",
+        "bytes",
+        "chrono",
+        "easyfix-messages",
+        "futures",
+        "futures-util",
+        "once_cell",
+        "pin-project",
+        "serde",
+        "thiserror",
+        "tokio",
+        "tokio-stream",
+        "tokio-util",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

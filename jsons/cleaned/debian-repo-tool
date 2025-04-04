@@ -1,0 +1,12 @@
+{
+    "name": "debian-repo-tool",
+    "deps": [
+        "clap",
+        "debian-packaging",
+        "num_cpus",
+        "pbr",
+        "serde_yaml",
+        "thiserror",
+        "tokio"
+    ]
+}

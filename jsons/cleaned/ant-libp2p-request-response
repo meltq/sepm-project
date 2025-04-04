@@ -1,0 +1,28 @@
+{
+    "name": "ant-libp2p-request-response",
+    "deps": [
+        "ant-libp2p-core",
+        "ant-libp2p-noise",
+        "ant-libp2p-swarm",
+        "anyhow",
+        "async-std",
+        "async-trait",
+        "cbor4ii",
+        "futures",
+        "futures-bounded",
+        "futures-timer",
+        "futures_ringbuf",
+        "libp2p-identity",
+        "libp2p-tcp",
+        "libp2p-yamux",
+        "rand",
+        "rand",
+        "serde",
+        "serde",
+        "serde_json",
+        "smallvec",
+        "tracing",
+        "tracing-subscriber",
+        "web-time"
+    ]
+}

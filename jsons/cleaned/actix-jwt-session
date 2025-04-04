@@ -1,0 +1,20 @@
+{
+    "name": "actix-jwt-session",
+    "deps": [
+        "actix-web",
+        "async-trait",
+        "bincode",
+        "futures",
+        "futures-lite",
+        "futures-util",
+        "garde",
+        "jsonwebtoken",
+        "redis",
+        "redis-async-pool",
+        "ring",
+        "serde",
+        "thiserror",
+        "tokio",
+        "uuid"
+    ]
+}

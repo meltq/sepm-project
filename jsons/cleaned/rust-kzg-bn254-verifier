@@ -1,0 +1,15 @@
+{
+    "name": "rust-kzg-bn254-verifier",
+    "deps": [
+        "ark-bn254",
+        "ark-ec",
+        "ark-ff",
+        "ark-serialize",
+        "ark-std",
+        "criterion",
+        "lazy_static",
+        "rand",
+        "rust-kzg-bn254-primitives",
+        "rust-kzg-bn254-prover"
+    ]
+}

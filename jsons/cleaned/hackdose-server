@@ -1,0 +1,19 @@
+{
+    "name": "hackdose-server",
+    "deps": [
+        "byteorder",
+        "chrono",
+        "clap",
+        "futures",
+        "gpio-cdev",
+        "hackdose-sml-parser",
+        "plotters",
+        "rand",
+        "serde",
+        "serde_yaml",
+        "tokio",
+        "tokio-serial",
+        "tplinker",
+        "warp"
+    ]
+}

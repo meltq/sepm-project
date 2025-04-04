@@ -1,0 +1,15 @@
+{
+    "name": "message_db",
+    "deps": [
+        "async-trait",
+        "chrono",
+        "log",
+        "rand",
+        "refinery",
+        "serde_json",
+        "test-context",
+        "tokio",
+        "tokio-postgres",
+        "uuid"
+    ]
+}

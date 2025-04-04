@@ -1,0 +1,21 @@
+{
+    "name": "tierkreis-proto",
+    "deps": [
+        "anyhow",
+        "http",
+        "indexmap",
+        "prost",
+        "prost-build",
+        "prost-types",
+        "rand",
+        "rstest",
+        "serde",
+        "thiserror",
+        "tierkreis-core",
+        "tonic",
+        "tonic-build",
+        "tracing",
+        "uuid",
+        "warp"
+    ]
+}

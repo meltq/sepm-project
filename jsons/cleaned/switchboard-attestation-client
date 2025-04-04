@@ -1,0 +1,20 @@
+{
+    "name": "switchboard-attestation-client",
+    "deps": [
+        "arrayref",
+        "base64",
+        "bs58",
+        "bytemuck",
+        "getrandom",
+        "hex",
+        "num-derive",
+        "num-traits",
+        "serde",
+        "serde_json",
+        "sgx-quote",
+        "sgx_types",
+        "sha2",
+        "tokio",
+        "bindgen"
+    ]
+}

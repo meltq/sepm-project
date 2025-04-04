@@ -1,0 +1,23 @@
+{
+    "name": "checkpointq",
+    "deps": [
+        "async-trait",
+        "axum",
+        "axum-macros",
+        "clap",
+        "colored",
+        "futures",
+        "http",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "serde_yaml",
+        "strum",
+        "strum_macros",
+        "thiserror",
+        "tokio",
+        "tower-http",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

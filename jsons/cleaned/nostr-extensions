@@ -1,0 +1,26 @@
+{
+    "name": "nostr-extensions",
+    "deps": [
+        "actix",
+        "actix-rt",
+        "actix-test",
+        "actix-web",
+        "actix-web-actors",
+        "anyhow",
+        "bytes",
+        "futures-util",
+        "governor",
+        "metrics",
+        "metrics-exporter-prometheus",
+        "metrics-util",
+        "nostr-relay",
+        "parking_lot",
+        "serde",
+        "serde_json",
+        "temp-env",
+        "tempfile",
+        "tracing",
+        "tracing-subscriber",
+        "uuid"
+    ]
+}

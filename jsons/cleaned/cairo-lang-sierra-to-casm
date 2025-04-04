@@ -1,0 +1,22 @@
+{
+    "name": "cairo-lang-sierra-to-casm",
+    "deps": [
+        "assert_matches",
+        "cairo-lang-casm",
+        "cairo-lang-sierra",
+        "cairo-lang-sierra-ap-change",
+        "cairo-lang-sierra-gas",
+        "cairo-lang-utils",
+        "clap",
+        "env_logger",
+        "indoc",
+        "itertools",
+        "log",
+        "num-bigint",
+        "num-traits",
+        "pretty_assertions",
+        "test-case",
+        "test-log",
+        "thiserror"
+    ]
+}

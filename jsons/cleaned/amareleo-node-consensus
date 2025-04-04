@@ -1,0 +1,23 @@
+{
+    "name": "amareleo-node-consensus",
+    "deps": [
+        "aleo-std",
+        "amareleo-chain-account",
+        "amareleo-node-bft",
+        "amareleo-node-bft-ledger-service",
+        "amareleo-node-bft-storage-service",
+        "anyhow",
+        "colored",
+        "indexmap",
+        "indexmap",
+        "itertools",
+        "lru",
+        "metrics",
+        "once_cell",
+        "parking_lot",
+        "snarkvm",
+        "tokio",
+        "tracing",
+        "tracing-test"
+    ]
+}

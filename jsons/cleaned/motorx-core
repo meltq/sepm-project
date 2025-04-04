@@ -1,0 +1,31 @@
+{
+    "name": "motorx-core",
+    "deps": [
+        "axum",
+        "bytes",
+        "futures-util",
+        "http",
+        "http-body",
+        "http-body-util",
+        "http-serde",
+        "hyper",
+        "hyper_wasi",
+        "once_cell",
+        "regex",
+        "reqwest",
+        "rustls",
+        "rustls-native-certs",
+        "rustls-pemfile",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tokio",
+        "tokio-rustls",
+        "tokio_wasi",
+        "tracing",
+        "tracing-subscriber",
+        "wasmedge_wasi_socket",
+        "webpki-roots"
+    ]
+}

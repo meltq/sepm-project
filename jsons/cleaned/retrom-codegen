@@ -1,0 +1,16 @@
+{
+    "name": "retrom-codegen",
+    "deps": [
+        "derive_builder",
+        "diesel",
+        "prost",
+        "prost-types",
+        "retrom-db",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tonic",
+        "tonic-build",
+        "walkdir"
+    ]
+}

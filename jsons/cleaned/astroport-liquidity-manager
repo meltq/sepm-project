@@ -1,0 +1,20 @@
+{
+    "name": "astroport-liquidity-manager",
+    "deps": [
+        "anyhow",
+        "astroport",
+        "astroport-factory",
+        "astroport-pair",
+        "astroport-pair-stable",
+        "cosmwasm-schema",
+        "cosmwasm-std",
+        "cw-multi-test",
+        "cw-storage-plus",
+        "cw20",
+        "cw20-base",
+        "derivative",
+        "itertools",
+        "serde_json",
+        "thiserror"
+    ]
+}

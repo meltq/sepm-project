@@ -1,0 +1,29 @@
+{
+    "name": "flare-dht",
+    "deps": [
+        "bincode",
+        "clap",
+        "dashmap",
+        "deser",
+        "futures",
+        "mur3",
+        "openraft",
+        "prost",
+        "prost-types",
+        "rancor",
+        "rand",
+        "rkyv",
+        "serde",
+        "serde_json",
+        "tarpc",
+        "thiserror",
+        "tokio",
+        "tokio-serde",
+        "tonic",
+        "tonic-build",
+        "tonic-reflection",
+        "tracing",
+        "tracing-subscriber",
+        "tsid"
+    ]
+}

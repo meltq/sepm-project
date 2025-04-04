@@ -1,0 +1,17 @@
+{
+    "name": "filespooler",
+    "deps": [
+        "anyhow",
+        "bytes",
+        "chrono",
+        "clap",
+        "crc32fast",
+        "fd-lock",
+        "rmp-serde",
+        "serde",
+        "tempfile",
+        "tracing",
+        "tracing-subscriber",
+        "uuid"
+    ]
+}

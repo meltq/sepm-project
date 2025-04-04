@@ -1,0 +1,16 @@
+{
+    "name": "bitcoin-daemon",
+    "deps": [
+        "bitcoin-cli",
+        "bitcoin-derive",
+        "bitcoin-imports",
+        "bitcoin-index",
+        "bitcoin-indexed-chain",
+        "bitcoin-init",
+        "bitcoin-primitives",
+        "lazy_static",
+        "libc",
+        "static_assertions",
+        "bitcoin-cfg"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "name": "treasury-client",
+    "deps": [
+        "eyre",
+        "serde",
+        "serde_bytes",
+        "tokio",
+        "tracing",
+        "treasury-api",
+        "treasury-id",
+        "url"
+    ]
+}

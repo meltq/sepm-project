@@ -1,0 +1,27 @@
+{
+    "name": "konfigkoll",
+    "deps": [
+        "ahash",
+        "anyhow",
+        "camino",
+        "clap",
+        "compact_str",
+        "directories",
+        "either",
+        "itertools",
+        "konfigkoll_core",
+        "konfigkoll_script",
+        "konfigkoll_types",
+        "mimalloc",
+        "ouroboros",
+        "paketkoll_cache",
+        "paketkoll_core",
+        "paketkoll_types",
+        "rayon",
+        "rune",
+        "tokio",
+        "tracing",
+        "tracing-log",
+        "tracing-subscriber"
+    ]
+}

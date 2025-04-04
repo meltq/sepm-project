@@ -1,0 +1,27 @@
+{
+    "name": "actix-server",
+    "deps": [
+        "actix-rt",
+        "actix-service",
+        "bytes",
+        "env_logger",
+        "futures",
+        "log",
+        "mio",
+        "native-tls",
+        "net2",
+        "num_cpus",
+        "openssl",
+        "rustls",
+        "slab",
+        "tokio-io",
+        "tokio-openssl",
+        "tokio-reactor",
+        "tokio-rustls",
+        "tokio-signal",
+        "tokio-tcp",
+        "tokio-timer",
+        "webpki",
+        "webpki-roots"
+    ]
+}

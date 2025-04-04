@@ -1,0 +1,31 @@
+{
+    "name": "wadm-types",
+    "deps": [
+        "anyhow",
+        "async-nats",
+        "async-trait",
+        "base64",
+        "bytes",
+        "chrono",
+        "cloudevents-sdk",
+        "futures",
+        "indexmap",
+        "jsonschema",
+        "lazy_static",
+        "nkeys",
+        "rand",
+        "regex",
+        "semver",
+        "serde",
+        "serde_json",
+        "serde_yaml",
+        "sha2",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "tracing-futures",
+        "ulid",
+        "uuid",
+        "wasmcloud-control-interface"
+    ]
+}

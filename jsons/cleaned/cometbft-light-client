@@ -1,0 +1,28 @@
+{
+    "name": "cometbft-light-client",
+    "deps": [
+        "cometbft",
+        "cometbft-light-client-verifier",
+        "cometbft-rpc",
+        "contracts",
+        "crossbeam-channel",
+        "derive_more",
+        "flex-error",
+        "futures",
+        "gumdrop",
+        "proptest",
+        "rand",
+        "regex",
+        "serde",
+        "serde_cbor",
+        "serde_derive",
+        "serde_json",
+        "serde_json",
+        "sled",
+        "static_assertions",
+        "tempfile",
+        "time",
+        "tokio",
+        "tracing"
+    ]
+}

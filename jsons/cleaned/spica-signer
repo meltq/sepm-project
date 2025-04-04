@@ -1,0 +1,27 @@
+{
+    "name": "spica-signer",
+    "deps": [
+        "anyhow",
+        "askama",
+        "askama_axum",
+        "axum",
+        "axum-auth",
+        "base64",
+        "duration-str",
+        "lazy_static",
+        "openssl",
+        "pem",
+        "picky-asn1-der",
+        "picky-asn1-x509",
+        "regex",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "spica-signer-common",
+        "tokio",
+        "toml",
+        "totp-rs",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

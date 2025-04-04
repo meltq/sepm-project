@@ -1,0 +1,17 @@
+{
+    "name": "instrumenter",
+    "deps": [
+        "dashmap",
+        "human_format",
+        "instrumenter-proc-macro",
+        "libc",
+        "papi-bindings",
+        "parking_lot",
+        "plotters",
+        "serde",
+        "serde_json",
+        "structopt",
+        "thread_local",
+        "tracing"
+    ]
+}

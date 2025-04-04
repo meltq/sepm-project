@@ -1,0 +1,17 @@
+{
+    "name": "packet-stream",
+    "deps": [
+        "async-ringbuffer",
+        "atm-async-utils",
+        "atm-io-utils",
+        "futures",
+        "multi-consumer-stream",
+        "multi-producer-sink",
+        "partial-io",
+        "quickcheck",
+        "rand",
+        "tokio",
+        "tokio-io",
+        "void"
+    ]
+}

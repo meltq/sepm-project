@@ -1,0 +1,11 @@
+{
+    "name": "stateroom-wasm-host",
+    "deps": [
+        "anyhow",
+        "byteorder",
+        "stateroom",
+        "tracing",
+        "wasmtime",
+        "wasmtime-wasi"
+    ]
+}

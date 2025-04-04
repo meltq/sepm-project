@@ -1,0 +1,14 @@
+{
+    "name": "jpeg2k-sandboxed",
+    "deps": [
+        "anyhow",
+        "image",
+        "jpeg2k",
+        "log",
+        "rmp-serde",
+        "serde",
+        "wasi-common",
+        "wasmtime",
+        "wasmtime-wasi"
+    ]
+}

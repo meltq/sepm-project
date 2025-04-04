@@ -1,0 +1,14 @@
+{
+    "name": "wrpc-test",
+    "deps": [
+        "anyhow",
+        "async-nats",
+        "quinn",
+        "rcgen",
+        "rustls",
+        "tokio",
+        "tracing",
+        "wrpc-cli",
+        "wrpc-transport"
+    ]
+}

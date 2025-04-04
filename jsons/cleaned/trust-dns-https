@@ -1,0 +1,22 @@
+{
+    "name": "trust-dns-https",
+    "deps": [
+        "bytes",
+        "data-encoding",
+        "env_logger",
+        "futures",
+        "h2",
+        "http",
+        "log",
+        "rustls",
+        "tokio",
+        "tokio-executor",
+        "tokio-reactor",
+        "tokio-rustls",
+        "tokio-tcp",
+        "trust-dns-proto",
+        "trust-dns-rustls",
+        "webpki",
+        "webpki-roots"
+    ]
+}

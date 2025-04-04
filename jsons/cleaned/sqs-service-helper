@@ -1,0 +1,33 @@
+{
+    "name": "sqs-service-helper",
+    "deps": [
+        "arraydeque",
+        "arrayvec",
+        "base64",
+        "dogstatsd",
+        "flame",
+        "flamer",
+        "futures",
+        "futures-cpupool",
+        "hyper",
+        "lru_time_cache",
+        "parking_lot",
+        "rand",
+        "rusoto_core",
+        "rusoto_credential",
+        "rusoto_sns",
+        "rusoto_sqs",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "slog",
+        "slog-json",
+        "slog-term",
+        "threadpool",
+        "tokio-core",
+        "tokio-timer",
+        "two-lock-queue",
+        "uuid",
+        "xorshift"
+    ]
+}

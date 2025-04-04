@@ -1,0 +1,30 @@
+{
+    "name": "teller-providers",
+    "deps": [
+        "async-trait",
+        "aws-config",
+        "aws-sdk-secretsmanager",
+        "aws-sdk-ssm",
+        "base64",
+        "crc32c",
+        "dockertest-server",
+        "dotenvy",
+        "fs-err",
+        "google-secretmanager1",
+        "home",
+        "hyper",
+        "insta",
+        "lazy_static",
+        "rs-consul",
+        "rustify",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "serde_variant",
+        "serde_yaml",
+        "strum",
+        "thiserror",
+        "tokio",
+        "vaultrs"
+    ]
+}

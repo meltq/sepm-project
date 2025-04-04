@@ -1,0 +1,21 @@
+{
+    "name": "mcp-client",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "eventsource-client",
+        "futures",
+        "mcp-spec",
+        "rand",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tower",
+        "tower-service",
+        "tracing",
+        "tracing-subscriber",
+        "url"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "xtask-wasm",
+    "deps": [
+        "binary-install",
+        "console_error_panic_hook",
+        "env_logger",
+        "fs_extra",
+        "lazy_static",
+        "libc",
+        "log",
+        "platforms",
+        "wasm-bindgen",
+        "wasm-bindgen-cli-support",
+        "xtask-wasm-run-example",
+        "xtask-watch"
+    ]
+}

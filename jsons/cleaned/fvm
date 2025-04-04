@@ -1,0 +1,30 @@
+{
+    "name": "fvm",
+    "deps": [
+        "ahash",
+        "anyhow",
+        "anymap",
+        "byteorder",
+        "cid",
+        "derive-getters",
+        "derive_builder",
+        "derive_more",
+        "filecoin-proofs-api",
+        "fvm_ipld_amt",
+        "fvm_ipld_hamt",
+        "fvm_shared",
+        "lazy_static",
+        "log",
+        "multihash",
+        "num-derive",
+        "num-traits",
+        "num_cpus",
+        "rayon",
+        "replace_with",
+        "serde",
+        "serde_repr",
+        "serde_tuple",
+        "thiserror",
+        "wasmtime"
+    ]
+}

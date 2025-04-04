@@ -1,0 +1,22 @@
+{
+    "name": "cloud-dns",
+    "deps": [
+        "async-trait",
+        "bytes",
+        "futures",
+        "http",
+        "http-body",
+        "hyper",
+        "hyper-rustls",
+        "pin-project-lite",
+        "serde",
+        "serde_json",
+        "serde_path_to_error",
+        "tame-oauth",
+        "thiserror",
+        "tokio",
+        "tower",
+        "tower-http",
+        "url"
+    ]
+}

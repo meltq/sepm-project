@@ -1,0 +1,13 @@
+{
+    "name": "mun_compiler_daemon",
+    "deps": [
+        "anyhow",
+        "ctrlc",
+        "log",
+        "mun_codegen",
+        "mun_compiler",
+        "mun_hir",
+        "mun_project",
+        "notify"
+    ]
+}

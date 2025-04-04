@@ -1,0 +1,23 @@
+{
+    "name": "taos-optin",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "bytes",
+        "cfg-if",
+        "derive_more",
+        "dlopen2",
+        "itertools",
+        "log",
+        "num_enum",
+        "once_cell",
+        "pretty_env_logger",
+        "serde",
+        "serde",
+        "serde_json",
+        "serde_repr",
+        "taos-macros",
+        "taos-query",
+        "tokio"
+    ]
+}

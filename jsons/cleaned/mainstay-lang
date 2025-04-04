@@ -1,0 +1,21 @@
+{
+    "name": "mainstay-lang",
+    "deps": [
+        "base64",
+        "bincode",
+        "borsh",
+        "bytemuck",
+        "mainstay-attribute-access-control",
+        "mainstay-attribute-account",
+        "mainstay-attribute-constant",
+        "mainstay-attribute-error",
+        "mainstay-attribute-event",
+        "mainstay-attribute-program",
+        "mainstay-derive-accounts",
+        "mainstay-derive-serde",
+        "mainstay-derive-space",
+        "mainstay-lang-idl",
+        "solana-program",
+        "thiserror"
+    ]
+}

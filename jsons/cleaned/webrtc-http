@@ -1,0 +1,22 @@
+{
+    "name": "webrtc-http",
+    "deps": [
+        "anyhow",
+        "axum",
+        "bytes",
+        "dashmap",
+        "dotenvy",
+        "http-body-util",
+        "hyper",
+        "hyper-util",
+        "rand",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tungstenite",
+        "urlencoding",
+        "webrtc",
+        "webrtc-p2p"
+    ]
+}

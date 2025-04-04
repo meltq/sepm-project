@@ -1,0 +1,13 @@
+{
+    "name": "thrussh-agent",
+    "deps": [
+        "clap",
+        "futures",
+        "libc",
+        "rand",
+        "termion",
+        "thrussh-keys",
+        "tokio-core",
+        "tokio-uds"
+    ]
+}

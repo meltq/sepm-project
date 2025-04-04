@@ -1,0 +1,30 @@
+{
+    "name": "product-os-tower-http",
+    "deps": [
+        "async-compression",
+        "base64",
+        "bitflags",
+        "bytes",
+        "core-error",
+        "futures-core",
+        "futures-util",
+        "http-range-header",
+        "httpdate",
+        "iri-string",
+        "mime",
+        "mime_guess",
+        "no-std-compat",
+        "percent-encoding",
+        "pin-project-lite",
+        "product-os-http",
+        "product-os-http-body",
+        "product-os-http-body-util",
+        "product-os-tower",
+        "product-os-tower-layer",
+        "product-os-tower-service",
+        "tokio",
+        "tokio-util",
+        "tracing",
+        "uuid"
+    ]
+}

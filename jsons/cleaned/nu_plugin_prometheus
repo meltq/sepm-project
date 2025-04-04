@@ -1,0 +1,14 @@
+{
+    "name": "nu_plugin_prometheus",
+    "deps": [
+        "chrono",
+        "nu-plugin",
+        "nu-protocol",
+        "prometheus-http-query",
+        "reqwest",
+        "rstest",
+        "serde",
+        "serde_json",
+        "tokio"
+    ]
+}

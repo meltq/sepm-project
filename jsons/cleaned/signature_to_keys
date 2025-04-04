@@ -1,0 +1,18 @@
+{
+    "name": "signature_to_keys",
+    "deps": [
+        "age",
+        "anyhow",
+        "bech32",
+        "derive_builder",
+        "hex",
+        "hkdf",
+        "serde",
+        "serde_json",
+        "sha2",
+        "ssh-key",
+        "trezor-client",
+        "x25519-dalek",
+        "zeroize"
+    ]
+}

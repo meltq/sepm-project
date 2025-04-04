@@ -1,0 +1,17 @@
+{
+    "name": "wpblsync",
+    "deps": [
+        "anyhow",
+        "futures",
+        "hex",
+        "log",
+        "pretty_env_logger",
+        "reqwest",
+        "rusqlite",
+        "serde",
+        "serde_json",
+        "structopt",
+        "thiserror",
+        "tokio"
+    ]
+}

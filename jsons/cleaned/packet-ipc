@@ -1,0 +1,16 @@
+{
+    "name": "packet-ipc",
+    "deps": [
+        "bincode",
+        "crossbeam-channel",
+        "env_logger",
+        "failure",
+        "failure_derive",
+        "futures-preview",
+        "ipc-channel",
+        "log",
+        "serde",
+        "serde_derive",
+        "serde_json"
+    ]
+}

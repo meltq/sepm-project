@@ -1,0 +1,23 @@
+{
+    "name": "wnfs-namefilter",
+    "deps": [
+        "anyhow",
+        "async-once-cell",
+        "async-trait",
+        "bitvec",
+        "chrono",
+        "futures",
+        "libipld",
+        "multihash",
+        "proptest",
+        "proptest",
+        "rand",
+        "rand_core",
+        "serde",
+        "sha3",
+        "test-strategy",
+        "thiserror",
+        "wnfs-common",
+        "xxhash-rust"
+    ]
+}

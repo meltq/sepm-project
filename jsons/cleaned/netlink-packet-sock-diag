@@ -1,0 +1,14 @@
+{
+    "name": "netlink-packet-sock-diag",
+    "deps": [
+        "anyhow",
+        "bitflags",
+        "byteorder",
+        "lazy_static",
+        "libc",
+        "netlink-packet-core",
+        "netlink-packet-utils",
+        "netlink-sys",
+        "smallvec"
+    ]
+}

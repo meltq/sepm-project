@@ -1,0 +1,19 @@
+{
+    "name": "diwata_server",
+    "deps": [
+        "chrono",
+        "diwata_intel",
+        "env_logger",
+        "futures",
+        "hyper",
+        "lazy_static",
+        "rustorm",
+        "rustorm_codegen",
+        "rustorm_dao",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "structopt",
+        "structopt-derive"
+    ]
+}

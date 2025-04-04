@@ -1,0 +1,30 @@
+{
+    "name": "ockam_identity",
+    "deps": [
+        "bls12_381_plus",
+        "cfg-if",
+        "group",
+        "heapless",
+        "ockam_channel",
+        "ockam_core",
+        "ockam_key_exchange_core",
+        "ockam_key_exchange_xx",
+        "ockam_macros",
+        "ockam_node",
+        "ockam_vault",
+        "ockam_vault",
+        "ockam_vault_sync_core",
+        "ockam_vault_sync_core",
+        "rand",
+        "rand_xorshift",
+        "serde",
+        "serde-big-array",
+        "serde_json",
+        "sha2",
+        "signature_bbs_plus",
+        "signature_bls",
+        "signature_core",
+        "tokio",
+        "tracing"
+    ]
+}

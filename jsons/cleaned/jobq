@@ -1,0 +1,21 @@
+{
+    "name": "jobq",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "chrono",
+        "futures",
+        "log",
+        "postgres-types",
+        "pretty_env_logger",
+        "serde",
+        "serde_cbor",
+        "serde_derive",
+        "serde_json",
+        "structopt",
+        "tmq",
+        "tokio",
+        "tokio-postgres",
+        "uuid"
+    ]
+}

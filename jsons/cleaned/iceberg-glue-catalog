@@ -1,0 +1,20 @@
+{
+    "name": "iceberg-glue-catalog",
+    "deps": [
+        "async-trait",
+        "aws-config",
+        "aws-sdk-glue",
+        "datafusion",
+        "datafusion_iceberg",
+        "futures",
+        "iceberg-rust",
+        "object_store",
+        "serde_json",
+        "testcontainers",
+        "testcontainers-modules",
+        "thiserror",
+        "tokio",
+        "url",
+        "uuid"
+    ]
+}

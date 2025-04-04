@@ -1,0 +1,12 @@
+{
+    "name": "get_hwid",
+    "deps": [
+        "machineid-rs",
+        "serde",
+        "serde_json",
+        "sysinfo",
+        "winapi",
+        "windows",
+        "wmi"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "name": "wasm-run",
+    "deps": [
+        "anyhow",
+        "async-std",
+        "cargo_metadata",
+        "downcast-rs",
+        "futures",
+        "notify",
+        "structopt",
+        "tide",
+        "wasm-bindgen-cli-support",
+        "wasm-pack",
+        "wasm-run-proc-macro"
+    ]
+}

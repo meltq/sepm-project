@@ -1,0 +1,27 @@
+{
+    "name": "wasmer-asml-fork",
+    "deps": [
+        "anyhow",
+        "cfg-if",
+        "crossbeam-utils",
+        "indexmap",
+        "libc",
+        "more-asserts",
+        "target-lexicon",
+        "tempfile",
+        "thiserror",
+        "wasmer-compiler",
+        "wasmer-compiler-cranelift",
+        "wasmer-compiler-llvm",
+        "wasmer-compiler-singlepass",
+        "wasmer-derive",
+        "wasmer-engine",
+        "wasmer-engine-jit",
+        "wasmer-engine-native",
+        "wasmer-types",
+        "wasmer-vm",
+        "wat",
+        "wat",
+        "winapi"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "sftp-filesystem",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "camino",
+        "clap",
+        "env_logger",
+        "filetime",
+        "nix",
+        "sftp-server",
+        "thrussh",
+        "thrussh-keys",
+        "time",
+        "tokio"
+    ]
+}

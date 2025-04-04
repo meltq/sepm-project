@@ -1,0 +1,15 @@
+{
+    "name": "cwe-api-cli",
+    "deps": [
+        "anyhow",
+        "clap",
+        "cwe-api",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tracing",
+        "tracing-subscriber",
+        "version"
+    ]
+}

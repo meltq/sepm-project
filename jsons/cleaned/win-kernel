@@ -1,0 +1,21 @@
+{
+    "name": "win-kernel",
+    "deps": [
+        "bitflags",
+        "cfg-if",
+        "cooked-waker",
+        "crossbeam",
+        "crossbeam-queue",
+        "cty",
+        "futures",
+        "futures-channel",
+        "hashbrown",
+        "lazy_static",
+        "lock_api",
+        "pin-project",
+        "smallvec",
+        "uid",
+        "widestring",
+        "win-kernel-sys"
+    ]
+}

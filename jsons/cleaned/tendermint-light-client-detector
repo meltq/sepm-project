@@ -1,0 +1,23 @@
+{
+    "name": "tendermint-light-client-detector",
+    "deps": [
+        "contracts",
+        "crossbeam-channel",
+        "derive_more",
+        "flex-error",
+        "futures",
+        "serde",
+        "serde_cbor",
+        "serde_derive",
+        "serde_json",
+        "sled",
+        "static_assertions",
+        "tendermint",
+        "tendermint-light-client",
+        "tendermint-proto",
+        "tendermint-rpc",
+        "time",
+        "tokio",
+        "tracing"
+    ]
+}

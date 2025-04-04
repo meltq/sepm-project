@@ -1,0 +1,24 @@
+{
+    "name": "solarti-stake-pool-cli",
+    "deps": [
+        "bincode",
+        "borsh",
+        "bs58",
+        "clap",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "solana-account-decoder",
+        "solana-clap-utils",
+        "solana-cli-config",
+        "solana-cli-output",
+        "solana-client",
+        "solana-logger",
+        "solana-program",
+        "solana-remote-wallet",
+        "solana-sdk",
+        "solarti-associated-token-account",
+        "solarti-stake-pool",
+        "solarti-token"
+    ]
+}

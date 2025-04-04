@@ -1,0 +1,19 @@
+{
+    "name": "iqengine-fm-receiver-plugin",
+    "deps": [
+        "axum",
+        "fsdr-blocks",
+        "futuresdr",
+        "hound",
+        "http",
+        "iqengine-plugin",
+        "num-complex",
+        "serde",
+        "serde_derive",
+        "simple_logger",
+        "tokio",
+        "tower",
+        "tower-http",
+        "tracing-subscriber"
+    ]
+}

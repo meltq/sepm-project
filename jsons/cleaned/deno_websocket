@@ -1,0 +1,13 @@
+{
+    "name": "deno_websocket",
+    "deps": [
+        "deno_core",
+        "http",
+        "serde",
+        "tokio",
+        "tokio-rustls",
+        "tokio-tungstenite",
+        "webpki",
+        "webpki-roots"
+    ]
+}

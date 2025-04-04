@@ -1,0 +1,23 @@
+{
+    "name": "xdpsock",
+    "deps": [
+        "anyhow",
+        "bitflags",
+        "byteorder",
+        "clap",
+        "core_affinity",
+        "crossbeam-channel",
+        "ctrlc",
+        "env_logger",
+        "errno",
+        "etherparse",
+        "futures",
+        "libbpf-sys",
+        "libc",
+        "log",
+        "rand",
+        "rtnetlink",
+        "rusty-fork",
+        "serial_test"
+    ]
+}

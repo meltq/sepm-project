@@ -1,0 +1,26 @@
+{
+    "name": "identity_account_storage",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "function_name",
+        "futures",
+        "hashbrown",
+        "identity_core",
+        "identity_did",
+        "identity_iota_core",
+        "iota-crypto",
+        "iota_stronghold",
+        "once_cell",
+        "parking_lot",
+        "rand",
+        "rusty-fork",
+        "seahash",
+        "serde",
+        "strum",
+        "thiserror",
+        "tokio",
+        "tokio",
+        "zeroize"
+    ]
+}

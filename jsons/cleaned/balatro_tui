@@ -1,0 +1,19 @@
+{
+    "name": "balatro_tui",
+    "deps": [
+        "balatro_tui_core",
+        "balatro_tui_widgets",
+        "better-panic",
+        "color-eyre",
+        "crossterm",
+        "futures",
+        "human-panic",
+        "itertools",
+        "libc",
+        "ratatui",
+        "strip-ansi-escapes",
+        "tokio",
+        "tokio-util",
+        "tracing"
+    ]
+}

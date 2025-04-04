@@ -1,0 +1,17 @@
+{
+    "name": "music-lounge-daemon",
+    "deps": [
+        "bincode",
+        "ctrlc",
+        "dbus",
+        "dbus-tree",
+        "gstreamer",
+        "gstreamer-player",
+        "lazy_static",
+        "music-lounge-core",
+        "rust-utils",
+        "serde",
+        "stopwatch2",
+        "sysinfo"
+    ]
+}

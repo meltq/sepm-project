@@ -1,0 +1,20 @@
+{
+    "name": "netgauze-flow-service",
+    "deps": [
+        "byteorder",
+        "bytes",
+        "dashmap",
+        "futures",
+        "futures-core",
+        "futures-util",
+        "netgauze-flow-pkt",
+        "netgauze-parse-utils",
+        "nom",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tokio-util",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

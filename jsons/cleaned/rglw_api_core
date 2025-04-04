@@ -1,0 +1,21 @@
+{
+    "name": "rglw_api_core",
+    "deps": [
+        "async-trait",
+        "futures",
+        "futures-core",
+        "futures-util",
+        "log",
+        "log4rs",
+        "mockall",
+        "permissions",
+        "rglw",
+        "rglw_api_codegen",
+        "rglw_api_common",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tokio-stream",
+        "tokio-tungstenite"
+    ]
+}

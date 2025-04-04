@@ -1,0 +1,22 @@
+{
+    "name": "arcon_compiler",
+    "deps": [
+        "arcon_codegen",
+        "arcon_proto",
+        "arcon_spec",
+        "clap",
+        "daemonize",
+        "failure",
+        "ferris-says",
+        "futures",
+        "grpcio",
+        "lazy_static",
+        "log",
+        "num_cpus",
+        "path-clean",
+        "pretty_env_logger",
+        "serde",
+        "tempfile",
+        "toml"
+    ]
+}

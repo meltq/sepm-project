@@ -1,0 +1,21 @@
+{
+    "name": "up-transport-zenoh",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "bitmask-enum",
+        "chrono",
+        "crossbeam-channel",
+        "lazy_static",
+        "prost",
+        "prost-types",
+        "protobuf",
+        "rand",
+        "test-case",
+        "tokio",
+        "tracing",
+        "tracing-subscriber",
+        "up-rust",
+        "zenoh"
+    ]
+}

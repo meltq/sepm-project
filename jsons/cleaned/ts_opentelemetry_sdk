@@ -1,0 +1,27 @@
+{
+    "name": "ts_opentelemetry_sdk",
+    "deps": [
+        "async-std",
+        "async-trait",
+        "criterion",
+        "crossbeam-channel",
+        "futures-channel",
+        "futures-executor",
+        "futures-util",
+        "http",
+        "once_cell",
+        "ordered-float",
+        "percent-encoding",
+        "pprof",
+        "rand",
+        "regex",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tokio-stream",
+        "ts_opentelemetry_api",
+        "ts_opentelemetry_http",
+        "url"
+    ]
+}

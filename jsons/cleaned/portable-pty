@@ -1,0 +1,16 @@
+{
+    "name": "portable-pty",
+    "deps": [
+        "bitflags",
+        "failure",
+        "failure_derive",
+        "filedescriptor",
+        "lazy_static",
+        "libc",
+        "serde",
+        "serde_derive",
+        "shared_library",
+        "uds_windows",
+        "winapi"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "name": "rcu_list",
+    "deps": [
+        "criterion",
+        "crossbeam-epoch",
+        "crossbeam-queue",
+        "crossbeam-utils",
+        "parking_lot",
+        "rcu_cell",
+        "scc",
+        "seize"
+    ]
+}

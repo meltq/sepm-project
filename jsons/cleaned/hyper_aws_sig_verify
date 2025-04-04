@@ -1,0 +1,21 @@
+{
+    "name": "hyper_aws_sig_verify",
+    "deps": [
+        "aws_sig_verify",
+        "chrono",
+        "env_logger",
+        "futures",
+        "http",
+        "http-body",
+        "hyper",
+        "hyper",
+        "log",
+        "rusoto_core",
+        "rusoto_credential",
+        "rusoto_signature",
+        "scratchstack-aws-principal",
+        "test-env-log",
+        "tokio",
+        "tower"
+    ]
+}

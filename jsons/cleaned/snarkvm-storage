@@ -1,0 +1,19 @@
+{
+    "name": "snarkvm-storage",
+    "deps": [
+        "anyhow",
+        "bincode",
+        "hex",
+        "parking_lot",
+        "rand",
+        "rocksdb",
+        "serde",
+        "snarkvm-algorithms",
+        "snarkvm-errors",
+        "snarkvm-models",
+        "snarkvm-objects",
+        "snarkvm-parameters",
+        "snarkvm-utilities",
+        "thiserror"
+    ]
+}

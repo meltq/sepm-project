@@ -1,0 +1,12 @@
+{
+    "name": "etcd-discovery",
+    "deps": [
+        "async-recursion",
+        "etcd-client",
+        "tokio",
+        "tonic",
+        "tower",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "name": "nakago-warp",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "biscuit",
+        "bytes",
+        "criterion",
+        "derive-new",
+        "fake",
+        "figment",
+        "futures-util",
+        "hyper",
+        "jsonwebtoken",
+        "log",
+        "mockall",
+        "nakago",
+        "nakago-derive",
+        "pretty_assertions",
+        "pretty_env_logger",
+        "rand",
+        "reqwest",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tower-http",
+        "tracing",
+        "warp"
+    ]
+}

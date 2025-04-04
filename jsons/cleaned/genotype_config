@@ -1,0 +1,15 @@
+{
+    "name": "genotype_config",
+    "deps": [
+        "clap",
+        "figment",
+        "genotype_lang_py_config",
+        "genotype_lang_ts_config",
+        "heck",
+        "miette",
+        "pretty_assertions",
+        "serde",
+        "thiserror",
+        "toml"
+    ]
+}

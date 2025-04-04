@@ -1,0 +1,30 @@
+{
+    "name": "grin_api",
+    "deps": [
+        "failure",
+        "failure_derive",
+        "futures",
+        "grin_chain",
+        "grin_core",
+        "grin_p2p",
+        "grin_pool",
+        "grin_store",
+        "grin_util",
+        "http",
+        "hyper",
+        "hyper-rustls",
+        "lazy_static",
+        "log",
+        "regex",
+        "ring",
+        "rustls",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "tokio",
+        "tokio-core",
+        "tokio-rustls",
+        "tokio-tcp",
+        "url"
+    ]
+}

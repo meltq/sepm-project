@@ -1,0 +1,16 @@
+{
+    "name": "sn_logging",
+    "deps": [
+        "file-rotate",
+        "opentelemetry",
+        "opentelemetry-otlp",
+        "opentelemetry-semantic-conventions",
+        "rand",
+        "thiserror",
+        "tracing",
+        "tracing-appender",
+        "tracing-core",
+        "tracing-opentelemetry",
+        "tracing-subscriber"
+    ]
+}

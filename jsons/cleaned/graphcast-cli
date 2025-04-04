@@ -1,0 +1,25 @@
+{
+    "name": "graphcast-cli",
+    "deps": [
+        "anyhow",
+        "async-graphql",
+        "cargo-husky",
+        "chrono",
+        "clap",
+        "derive-getters",
+        "dotenv",
+        "ethers",
+        "ethers-contract",
+        "ethers-core",
+        "ethers-derive-eip712",
+        "graphcast-sdk",
+        "once_cell",
+        "prost",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tracing"
+    ]
+}

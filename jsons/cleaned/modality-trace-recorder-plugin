@@ -1,0 +1,20 @@
+{
+    "name": "modality-trace-recorder-plugin",
+    "deps": [
+        "clap",
+        "ctrlc",
+        "derive_more",
+        "dirs",
+        "exitcode",
+        "futures",
+        "hex",
+        "modality-ingest-client",
+        "thiserror",
+        "tokio",
+        "trace-recorder-parser",
+        "tracing",
+        "tracing-subscriber",
+        "url",
+        "uuid"
+    ]
+}

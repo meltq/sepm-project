@@ -1,0 +1,16 @@
+{
+    "name": "gemm",
+    "deps": [
+        "assert_approx_eq",
+        "criterion",
+        "dyn-stack",
+        "lazy_static",
+        "packed_simd_2",
+        "rand",
+        "raw-cpuid",
+        "rayon",
+        "seq-macro",
+        "strength_reduce",
+        "unroll-fn"
+    ]
+}

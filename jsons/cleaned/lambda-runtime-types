@@ -1,0 +1,21 @@
+{
+    "name": "lambda-runtime-types",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "futures",
+        "lambda_runtime",
+        "log",
+        "native-tls",
+        "openssl",
+        "postgres-native-tls",
+        "rusoto_core",
+        "rusoto_secretsmanager",
+        "serde",
+        "serde_json",
+        "serde_json",
+        "simple_logger",
+        "tokio",
+        "tokio-postgres"
+    ]
+}

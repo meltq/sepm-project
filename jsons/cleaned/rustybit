@@ -1,0 +1,31 @@
+{
+    "name": "rustybit",
+    "deps": [
+        "anyhow",
+        "bittorrent-peer-protocol",
+        "bitvec",
+        "bytes",
+        "clap",
+        "crypto-hash",
+        "form_urlencoded",
+        "hex",
+        "http-body-util",
+        "hyper",
+        "hyper-util",
+        "leechy-dht",
+        "rand",
+        "reqwest",
+        "serde",
+        "serde_bencode",
+        "serde_bytes",
+        "serde_json",
+        "serde_urlencoded",
+        "serde_with",
+        "socket2",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "tracing-subscriber",
+        "url"
+    ]
+}

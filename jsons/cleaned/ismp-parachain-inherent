@@ -1,0 +1,19 @@
+{
+    "name": "ismp-parachain-inherent",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "codec",
+        "cumulus-primitives-core",
+        "cumulus-relay-chain-interface",
+        "ismp",
+        "ismp-parachain",
+        "ismp-parachain-runtime-api",
+        "log",
+        "pallet-ismp-runtime-api",
+        "sp-api",
+        "sp-blockchain",
+        "sp-inherents",
+        "sp-runtime"
+    ]
+}

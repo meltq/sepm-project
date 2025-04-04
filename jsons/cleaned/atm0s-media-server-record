@@ -1,0 +1,31 @@
+{
+    "name": "atm0s-media-server-record",
+    "deps": [
+        "bytes",
+        "chrono",
+        "clap",
+        "futures",
+        "log",
+        "media-server-codecs",
+        "media-server-connector",
+        "media-server-multi-tenancy",
+        "media-server-protocol",
+        "media-server-secure",
+        "media-server-utils",
+        "openssl",
+        "poem",
+        "poem-openapi",
+        "rand",
+        "reqwest",
+        "rtp",
+        "rusty-s3",
+        "serde",
+        "serde_json",
+        "surf",
+        "tokio",
+        "tokio",
+        "tokio-util",
+        "tracing-subscriber",
+        "webm"
+    ]
+}

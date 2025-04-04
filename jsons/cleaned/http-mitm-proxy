@@ -1,0 +1,19 @@
+{
+    "name": "http-mitm-proxy",
+    "deps": [
+        "axum",
+        "axum-server",
+        "bytes",
+        "futures",
+        "http-body-util",
+        "hyper",
+        "hyper14",
+        "pin-project-lite",
+        "rcgen",
+        "reqwest",
+        "rustls",
+        "tokio",
+        "tokio-native-tls",
+        "tokio-rustls"
+    ]
+}

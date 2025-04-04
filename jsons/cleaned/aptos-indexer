@@ -1,0 +1,21 @@
+{
+    "name": "aptos-indexer",
+    "deps": [
+        "anyhow",
+        "aptos-logger",
+        "aptos-metrics",
+        "aptos-rest-client",
+        "aptos-workspace-hack",
+        "async-trait",
+        "chrono",
+        "clap",
+        "diesel",
+        "diesel_migrations",
+        "futures",
+        "once_cell",
+        "serde",
+        "serde_json",
+        "tokio",
+        "url"
+    ]
+}

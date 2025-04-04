@@ -1,0 +1,19 @@
+{
+    "name": "haveibeenpwned-downloader",
+    "deps": [
+        "bytes",
+        "clap",
+        "futures",
+        "futures-util",
+        "hex",
+        "http-body-util",
+        "indicatif",
+        "pin-project-lite",
+        "reqwest",
+        "stable-eyre",
+        "tokio",
+        "tower",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

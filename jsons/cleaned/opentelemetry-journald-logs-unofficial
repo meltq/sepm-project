@@ -1,0 +1,14 @@
+{
+    "name": "opentelemetry-journald-logs-unofficial",
+    "deps": [
+        "async-trait",
+        "libc",
+        "microbench",
+        "opentelemetry",
+        "opentelemetry-appender-tracing",
+        "opentelemetry_sdk",
+        "tracing",
+        "tracing-core",
+        "tracing-subscriber"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "name": "fedimint-client-wasm",
+    "deps": [
+        "anyhow",
+        "async-stream",
+        "async-trait",
+        "fedimint-api-client",
+        "fedimint-client",
+        "fedimint-core",
+        "fedimint-ln-client",
+        "fedimint-mint-client",
+        "futures",
+        "imbl",
+        "js-sys",
+        "rexie",
+        "serde_json",
+        "wasm-bindgen",
+        "wasm-bindgen-futures",
+        "wasm-bindgen-test"
+    ]
+}

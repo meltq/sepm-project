@@ -1,0 +1,11 @@
+{
+    "name": "dnsresolv",
+    "deps": [
+        "clap",
+        "futures",
+        "log",
+        "stderrlog",
+        "tokio",
+        "trust-dns-resolver"
+    ]
+}

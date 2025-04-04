@@ -1,0 +1,16 @@
+{
+    "name": "kelpie",
+    "deps": [
+        "clap",
+        "crossbeam-channel",
+        "ctrlc",
+        "env_logger",
+        "futures",
+        "grpcio",
+        "kelpie-client",
+        "kelpie-proto",
+        "kelpie-server",
+        "log",
+        "raft"
+    ]
+}

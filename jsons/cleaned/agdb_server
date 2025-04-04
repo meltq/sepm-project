@@ -1,0 +1,24 @@
+{
+    "name": "agdb_server",
+    "deps": [
+        "agdb",
+        "agdb_api",
+        "anyhow",
+        "assert_cmd",
+        "axum",
+        "axum-extra",
+        "http-body-util",
+        "reqwest",
+        "ring",
+        "serde",
+        "serde_json",
+        "serde_yaml",
+        "tokio",
+        "tower",
+        "tracing",
+        "tracing-subscriber",
+        "utoipa",
+        "utoipa-rapidoc",
+        "uuid"
+    ]
+}

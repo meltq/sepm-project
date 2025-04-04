@@ -1,0 +1,25 @@
+{
+    "name": "libp2p-pubsub-core",
+    "deps": [
+        "anyhow",
+        "assert_matches",
+        "asynchronous-codec",
+        "base64",
+        "bytes",
+        "futures",
+        "hex_fmt",
+        "itertools",
+        "libp2p",
+        "libp2p-pubsub-common",
+        "libp2p-pubsub-proto",
+        "prost",
+        "rand",
+        "sha2",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "tracing-futures",
+        "trait-set",
+        "unsigned-varint"
+    ]
+}

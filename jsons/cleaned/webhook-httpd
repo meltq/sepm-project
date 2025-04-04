@@ -1,0 +1,18 @@
+{
+    "name": "webhook-httpd",
+    "deps": [
+        "assert2",
+        "chrono",
+        "env_logger",
+        "hmac",
+        "hyper",
+        "log",
+        "openssl",
+        "serde",
+        "serde_yaml",
+        "sha2",
+        "structopt",
+        "tokio",
+        "tokio-openssl"
+    ]
+}

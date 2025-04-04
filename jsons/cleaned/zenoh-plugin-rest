@@ -1,0 +1,17 @@
+{
+    "name": "zenoh-plugin-rest",
+    "deps": [
+        "async-std",
+        "base64",
+        "clap",
+        "env_logger",
+        "flume",
+        "futures",
+        "http-types",
+        "log",
+        "serde_json",
+        "tide",
+        "zenoh",
+        "zenoh-plugin-trait"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "name": "trillium-rustls",
+    "deps": [
+        "async-rustls",
+        "env_logger",
+        "log",
+        "rustls",
+        "rustls-native-certs",
+        "trillium-tls-common",
+        "webpki-roots"
+    ]
+}

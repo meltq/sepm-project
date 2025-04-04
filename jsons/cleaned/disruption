@@ -1,0 +1,21 @@
+{
+    "name": "disruption",
+    "deps": [
+        "async-channel",
+        "async-trait",
+        "disruption_gateway",
+        "disruption_types",
+        "env_logger",
+        "futures",
+        "futures-channel",
+        "futures-util",
+        "log",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "serde_repr",
+        "tokio",
+        "tokio-tungstenite",
+        "url"
+    ]
+}

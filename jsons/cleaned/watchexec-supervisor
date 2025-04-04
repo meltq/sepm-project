@@ -1,0 +1,13 @@
+{
+    "name": "watchexec-supervisor",
+    "deps": [
+        "boxcar",
+        "command-group",
+        "futures",
+        "nix",
+        "tokio",
+        "tracing",
+        "watchexec-events",
+        "watchexec-signals"
+    ]
+}

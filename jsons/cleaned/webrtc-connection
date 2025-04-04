@@ -1,0 +1,22 @@
+{
+    "name": "webrtc-connection",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "base64",
+        "bytes",
+        "chrono",
+        "connection-utils",
+        "cs-trace",
+        "cs-utils",
+        "futures",
+        "rand",
+        "rstest",
+        "rstest_reuse",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tokio-util",
+        "webrtc"
+    ]
+}

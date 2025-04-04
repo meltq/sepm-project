@@ -1,0 +1,14 @@
+{
+    "name": "rsql_driver_redshift",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "file_type",
+        "rsql_driver",
+        "rsql_driver_postgresql",
+        "sqlparser",
+        "testcontainers",
+        "testcontainers-modules",
+        "tokio"
+    ]
+}

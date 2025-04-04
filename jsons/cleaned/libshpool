@@ -1,0 +1,25 @@
+{
+    "name": "libshpool",
+    "deps": [
+        "anyhow",
+        "bincode",
+        "byteorder",
+        "chrono",
+        "clap",
+        "crossbeam-channel",
+        "lazy_static",
+        "libc",
+        "log",
+        "nix",
+        "ntest",
+        "serde",
+        "serde_derive",
+        "shell-words",
+        "shpool_pty",
+        "shpool_vt100",
+        "signal-hook",
+        "toml",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

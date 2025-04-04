@@ -1,0 +1,25 @@
+{
+    "name": "bmbp_curd",
+    "deps": [
+        "async_static",
+        "bmbp_app_util",
+        "bmbp_auth",
+        "bmbp_ctx_vars",
+        "bmbp_http_type",
+        "bmbp_lib_ui",
+        "bmbp_marco",
+        "bmbp_rdbc",
+        "bmbp_util",
+        "once_cell",
+        "rust-embed",
+        "salvo",
+        "serde",
+        "serde_json",
+        "serde_repr",
+        "tera",
+        "tokio",
+        "tokio-postgres",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

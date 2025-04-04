@@ -1,0 +1,12 @@
+{
+    "name": "ddnet-account-game-server",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "ddnet-account-sql",
+        "ddnet-accounts-shared",
+        "ddnet-accounts-types",
+        "sqlx",
+        "thiserror"
+    ]
+}

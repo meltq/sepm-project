@@ -1,0 +1,25 @@
+{
+    "name": "xaynet-sdk",
+    "deps": [
+        "async-trait",
+        "base64",
+        "bincode",
+        "bytes",
+        "derive_more",
+        "futures",
+        "mockall",
+        "num",
+        "paste",
+        "rand",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "sodiumoxide",
+        "thiserror",
+        "tokio",
+        "tokio-test",
+        "tracing",
+        "url",
+        "xaynet-core"
+    ]
+}

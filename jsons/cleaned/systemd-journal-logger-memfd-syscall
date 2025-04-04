@@ -1,0 +1,13 @@
+{
+    "name": "systemd-journal-logger-memfd-syscall",
+    "deps": [
+        "libc",
+        "log",
+        "log",
+        "rand",
+        "retry",
+        "serde",
+        "serde_json",
+        "similar-asserts"
+    ]
+}

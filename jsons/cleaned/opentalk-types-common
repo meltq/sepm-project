@@ -1,0 +1,32 @@
+{
+    "name": "opentalk-types-common",
+    "deps": [
+        "actix-http",
+        "actix-web-httpauth",
+        "bytes",
+        "chrono",
+        "chrono-tz",
+        "clap",
+        "derive_more",
+        "diesel",
+        "email_address",
+        "http",
+        "itertools",
+        "kustos-shared",
+        "opentalk-client-shared",
+        "opentalk-diesel-newtype",
+        "opentalk-kustos-prefix",
+        "pretty_assertions",
+        "rand",
+        "redis",
+        "redis-args",
+        "serde",
+        "serde_json",
+        "serde_with",
+        "snafu",
+        "strum",
+        "url",
+        "utoipa",
+        "uuid"
+    ]
+}

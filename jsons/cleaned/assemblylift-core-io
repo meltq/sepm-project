@@ -1,0 +1,14 @@
+{
+    "name": "assemblylift-core-io",
+    "deps": [
+        "assemblylift-core",
+        "assemblylift-core-io-common",
+        "crossbeam-utils",
+        "futures",
+        "indexmap",
+        "lazy_static",
+        "serde",
+        "tokio",
+        "wasmer_runtime_core"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "name": "zksync_eth_client",
+    "deps": [
+        "assert_matches",
+        "async-trait",
+        "hex",
+        "jsonrpsee",
+        "pretty_assertions",
+        "rlp",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "vise",
+        "zksync_config",
+        "zksync_contracts",
+        "zksync_eth_signer",
+        "zksync_types",
+        "zksync_web3_decl"
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "name": "stac-server",
+    "deps": [
+        "async-trait",
+        "axum",
+        "bb8",
+        "bb8-postgres",
+        "http",
+        "pgstac",
+        "serde",
+        "serde_json",
+        "serde_json",
+        "serde_urlencoded",
+        "stac",
+        "stac-api",
+        "stac-async",
+        "stac-validate",
+        "thiserror",
+        "tokio",
+        "tokio-postgres",
+        "tokio-test",
+        "tower",
+        "url"
+    ]
+}

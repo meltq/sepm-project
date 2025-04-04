@@ -1,0 +1,23 @@
+{
+    "name": "atm0s-media-server",
+    "deps": [
+        "async-std",
+        "clap",
+        "cluster",
+        "cluster-local",
+        "cluster-sdn",
+        "endpoint",
+        "futures",
+        "log",
+        "media-utils",
+        "parking_lot",
+        "poem",
+        "poem-openapi",
+        "rust-embed",
+        "serde",
+        "tracing-subscriber",
+        "transport",
+        "transport-rtmp",
+        "transport-webrtc"
+    ]
+}

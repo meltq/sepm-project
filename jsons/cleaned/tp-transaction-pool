@@ -1,0 +1,14 @@
+{
+    "name": "tp-transaction-pool",
+    "deps": [
+        "codec",
+        "derive_more",
+        "futures",
+        "log",
+        "serde",
+        "thiserror",
+        "tp-api",
+        "tp-blockchain",
+        "tp-runtime"
+    ]
+}

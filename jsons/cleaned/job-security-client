@@ -1,0 +1,13 @@
+{
+    "name": "job-security-client",
+    "deps": [
+        "futures-util",
+        "libc",
+        "nix",
+        "protocol",
+        "tokio",
+        "tokio-util",
+        "tracing",
+        "withfd"
+    ]
+}

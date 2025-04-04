@@ -1,0 +1,23 @@
+{
+    "name": "nostr-sdk-base",
+    "deps": [
+        "aes",
+        "anyhow",
+        "base64",
+        "bech32",
+        "bitcoin_hashes",
+        "cbc",
+        "chrono",
+        "csv",
+        "env_logger",
+        "log",
+        "secp256k1",
+        "serde",
+        "serde_json",
+        "serde_repr",
+        "thiserror",
+        "tungstenite",
+        "url",
+        "uuid"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "name": "wgpu-native",
+    "deps": [
+        "bitflags",
+        "gfx-backend-dx11",
+        "gfx-backend-dx12",
+        "gfx-backend-empty",
+        "gfx-backend-metal",
+        "gfx-backend-vulkan",
+        "gfx-hal",
+        "lazy_static",
+        "log",
+        "parking_lot",
+        "winit"
+    ]
+}

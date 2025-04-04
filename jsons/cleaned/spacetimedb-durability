@@ -1,0 +1,11 @@
+{
+    "name": "spacetimedb-durability",
+    "deps": [
+        "anyhow",
+        "log",
+        "spacetimedb-commitlog",
+        "spacetimedb-sats",
+        "tokio",
+        "tracing"
+    ]
+}

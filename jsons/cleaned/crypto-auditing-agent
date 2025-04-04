@@ -1,0 +1,27 @@
+{
+    "name": "crypto-auditing-agent",
+    "deps": [
+        "anyhow",
+        "bytes",
+        "clap",
+        "crypto-auditing",
+        "futures",
+        "libbpf-cargo",
+        "libbpf-rs",
+        "libc",
+        "nix",
+        "openssl",
+        "page_size",
+        "plain",
+        "probe",
+        "serde",
+        "serde_cbor",
+        "tempfile",
+        "time",
+        "tokio",
+        "tokio-uring",
+        "toml",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

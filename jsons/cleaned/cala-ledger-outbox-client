@@ -1,0 +1,20 @@
+{
+    "name": "cala-ledger-outbox-client",
+    "deps": [
+        "cala_types",
+        "cel-interpreter",
+        "chrono",
+        "futures",
+        "prost",
+        "prost-wkt-types",
+        "protobuf-src",
+        "rust_decimal",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tonic",
+        "tonic-build",
+        "tracing",
+        "uuid"
+    ]
+}

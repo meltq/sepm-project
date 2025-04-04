@@ -1,0 +1,21 @@
+{
+    "name": "waffles-solana-account-decoder",
+    "deps": [
+        "Inflector",
+        "base64",
+        "bincode",
+        "bs58",
+        "bv",
+        "lazy_static",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "solana-address-lookup-table-program",
+        "solana-config-program",
+        "solana-sdk",
+        "spl-token",
+        "spl-token-2022",
+        "thiserror",
+        "zstd"
+    ]
+}

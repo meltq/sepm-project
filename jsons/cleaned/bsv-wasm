@@ -1,0 +1,27 @@
+{
+    "name": "bsv-wasm",
+    "deps": [
+        "anyhow",
+        "bitcoin_hashes",
+        "bs58",
+        "byteorder",
+        "cargo-web",
+        "cc",
+        "console_error_panic_hook",
+        "elliptic-curve",
+        "getrandom",
+        "hex",
+        "k256",
+        "num-derive",
+        "num-traits",
+        "rand_core",
+        "serde",
+        "serde_json",
+        "snafu",
+        "strum",
+        "strum_macros",
+        "wasm-bindgen",
+        "wasm-bindgen-test",
+        "wee_alloc"
+    ]
+}

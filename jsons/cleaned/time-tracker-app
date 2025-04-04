@@ -1,0 +1,31 @@
+{
+    "name": "time-tracker-app",
+    "deps": [
+        "anyhow",
+        "better-panic",
+        "clap",
+        "color-eyre",
+        "config",
+        "crossterm",
+        "derive_deref",
+        "directories",
+        "futures",
+        "human-panic",
+        "json5",
+        "lazy_static",
+        "libc",
+        "pretty_assertions",
+        "ratatui",
+        "serde",
+        "serde_json",
+        "signal-hook",
+        "strip-ansi-escapes",
+        "strum",
+        "tokio",
+        "tokio-util",
+        "tracing",
+        "tracing-error",
+        "tracing-subscriber",
+        "vergen-gix"
+    ]
+}

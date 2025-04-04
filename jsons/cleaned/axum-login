@@ -1,0 +1,19 @@
+{
+    "name": "axum-login",
+    "deps": [
+        "async-trait",
+        "axum",
+        "axum-extra",
+        "axum-sessions",
+        "base64",
+        "eyre",
+        "futures",
+        "ring",
+        "serde_json",
+        "sqlx",
+        "tokio",
+        "tower",
+        "tower-http",
+        "tracing"
+    ]
+}

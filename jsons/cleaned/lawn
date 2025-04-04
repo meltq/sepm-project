@@ -1,0 +1,22 @@
+{
+    "name": "lawn",
+    "deps": [
+        "bytes",
+        "clap",
+        "daemonize",
+        "hex",
+        "lawn-9p",
+        "lawn-constants",
+        "lawn-protocol",
+        "libc",
+        "num-derive",
+        "num-traits",
+        "serde",
+        "serde_cbor",
+        "serde_yaml",
+        "signal-hook-tokio",
+        "tempfile",
+        "tokio",
+        "tokio-pipe"
+    ]
+}

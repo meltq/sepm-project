@@ -1,0 +1,24 @@
+{
+    "name": "tx-sitter-client",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "aws-config",
+        "aws-sdk-lambda",
+        "aws-smithy-http",
+        "aws-smithy-runtime-api",
+        "chrono",
+        "ethers",
+        "eyre",
+        "hex",
+        "hex-literal",
+        "hyper",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "url"
+    ]
+}

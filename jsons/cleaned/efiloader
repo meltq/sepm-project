@@ -1,0 +1,13 @@
+{
+    "name": "efiloader",
+    "deps": [
+        "const-utf16",
+        "crc",
+        "libc",
+        "linked_list_allocator",
+        "log",
+        "once_cell",
+        "rand",
+        "widestring"
+    ]
+}

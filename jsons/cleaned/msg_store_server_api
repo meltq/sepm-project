@@ -1,0 +1,17 @@
+{
+    "name": "msg_store_server_api",
+    "deps": [
+        "bytes",
+        "futures",
+        "log",
+        "msg-store",
+        "msg_store_database_in_memory_plugin",
+        "msg_store_database_leveldb_plugin",
+        "msg_store_database_plugin",
+        "msg_store_uuid",
+        "rand",
+        "serde",
+        "serde_json",
+        "tempdir"
+    ]
+}

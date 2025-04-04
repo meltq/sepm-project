@@ -1,0 +1,25 @@
+{
+    "name": "aeron",
+    "deps": [
+        "aeron_archiver_codecs",
+        "cache_line_size",
+        "chrono",
+        "clap",
+        "core_affinity",
+        "ctrlc",
+        "galvanic-assert",
+        "hdrhistogram",
+        "lazy_static",
+        "log",
+        "memmap",
+        "memoffset",
+        "nix",
+        "ntest",
+        "num-traits",
+        "pretty_env_logger",
+        "rand",
+        "rustc_version",
+        "tempfile",
+        "thiserror"
+    ]
+}

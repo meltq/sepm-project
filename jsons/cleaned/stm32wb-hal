@@ -1,0 +1,26 @@
+{
+    "name": "stm32wb-hal",
+    "deps": [
+        "as-slice",
+        "bit_field",
+        "cast",
+        "cortex-m",
+        "cortex-m-rt",
+        "cortex-m-rtfm",
+        "cortex-m-semihosting",
+        "cortex-m-semihosting",
+        "embedded-hal",
+        "heapless",
+        "nb",
+        "nb",
+        "panic-halt",
+        "panic-semihosting",
+        "stable_deref_trait",
+        "stm32-device-signature",
+        "stm32-usbd",
+        "stm32wb-pac",
+        "usb-device",
+        "usbd-serial",
+        "void"
+    ]
+}

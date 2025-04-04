@@ -1,0 +1,14 @@
+{
+    "name": "shinyframework_application",
+    "deps": [
+        "async-trait",
+        "serde",
+        "shinyframework_common",
+        "shinyframework_configuration",
+        "shinyframework_jobs",
+        "thiserror",
+        "tokio",
+        "tokio-util",
+        "tracing"
+    ]
+}

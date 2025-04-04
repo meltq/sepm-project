@@ -1,0 +1,17 @@
+{
+    "name": "rustls-graviola",
+    "deps": [
+        "env_logger",
+        "graviola",
+        "http",
+        "http-body-util",
+        "hyper",
+        "hyper-rustls",
+        "hyper-util",
+        "rustls",
+        "rustls-pemfile",
+        "rustls-webpki",
+        "tokio",
+        "tokio-rustls"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "name": "did-method-plc",
+    "deps": [
+        "actix-rt",
+        "async-trait",
+        "base64",
+        "cid",
+        "didkit",
+        "ecdsa",
+        "hex",
+        "k256",
+        "p256",
+        "rand",
+        "reqwest",
+        "serde",
+        "serde_ipld_dagcbor",
+        "serde_json",
+        "sha2",
+        "ssi-core",
+        "thiserror"
+    ]
+}

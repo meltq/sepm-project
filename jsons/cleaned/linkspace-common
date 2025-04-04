@@ -1,0 +1,25 @@
+{
+    "name": "linkspace-common",
+    "deps": [
+        "abe",
+        "anyhow",
+        "async_executors",
+        "byte-fmt",
+        "clap",
+        "either",
+        "futures",
+        "linkspace-argon2-identity",
+        "linkspace-core",
+        "linkspace-pkt",
+        "memmap2",
+        "notify",
+        "rand",
+        "rand_chacha",
+        "rpassword",
+        "serde",
+        "thiserror",
+        "tracing",
+        "tracing-subscriber",
+        "tracing-test"
+    ]
+}

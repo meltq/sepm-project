@@ -1,0 +1,11 @@
+{
+    "name": "wast-parser",
+    "deps": [
+        "anyhow",
+        "leb128",
+        "rayon",
+        "serde_json",
+        "tempfile",
+        "wasmparser"
+    ]
+}

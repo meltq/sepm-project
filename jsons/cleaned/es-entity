@@ -1,0 +1,19 @@
+{
+    "name": "es-entity",
+    "deps": [
+        "anyhow",
+        "async-graphql",
+        "async-trait",
+        "base64",
+        "chrono",
+        "derive_builder",
+        "es-entity-macros",
+        "serde",
+        "serde_json",
+        "sim-time",
+        "sqlx",
+        "thiserror",
+        "tokio",
+        "uuid"
+    ]
+}

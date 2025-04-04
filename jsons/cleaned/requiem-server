@@ -1,0 +1,18 @@
+{
+    "name": "requiem-server",
+    "deps": [
+        "bytes",
+        "env_logger",
+        "futures",
+        "log",
+        "mio",
+        "mio-uds",
+        "net2",
+        "num_cpus",
+        "requiem-codec",
+        "requiem-rt",
+        "requiem-service",
+        "requiem-utils",
+        "slab"
+    ]
+}

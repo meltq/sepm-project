@@ -1,0 +1,27 @@
+{
+    "name": "graphile_worker",
+    "deps": [
+        "cfg-if",
+        "chrono",
+        "futures",
+        "getset",
+        "graphile_worker_crontab_parser",
+        "graphile_worker_crontab_runner",
+        "graphile_worker_crontab_types",
+        "graphile_worker_macros",
+        "graphile_worker_migrations",
+        "graphile_worker_shutdown_signal",
+        "graphile_worker_task_handler",
+        "hex",
+        "num_cpus",
+        "rand",
+        "serde",
+        "serde_json",
+        "sqlx",
+        "thiserror",
+        "tokio",
+        "tokio",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

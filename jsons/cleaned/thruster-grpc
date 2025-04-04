@@ -1,0 +1,19 @@
+{
+    "name": "thruster-grpc",
+    "deps": [
+        "async-trait",
+        "bytes",
+        "futures",
+        "http",
+        "http-body",
+        "hyper",
+        "lazy_static",
+        "log",
+        "prost",
+        "serde",
+        "serde_json",
+        "thruster",
+        "tokio",
+        "tonic-build"
+    ]
+}

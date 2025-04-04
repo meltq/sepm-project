@@ -1,0 +1,23 @@
+{
+    "name": "notion-wasi",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "cargo-husky",
+        "chrono",
+        "clap",
+        "config",
+        "crossbeam-channel",
+        "http_req_wasi",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "skim",
+        "thiserror",
+        "tokio",
+        "tokio_wasi",
+        "toml",
+        "tracing",
+        "wiremock"
+    ]
+}

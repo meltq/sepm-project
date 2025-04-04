@@ -1,0 +1,25 @@
+{
+    "name": "libepf",
+    "deps": [
+        "async-trait",
+        "chacha20poly1305",
+        "chrono",
+        "ed25519-dalek",
+        "futures",
+        "hex",
+        "hex-literal",
+        "log",
+        "pem",
+        "rand",
+        "rmp-serde",
+        "serde",
+        "serde_arrays",
+        "serial_test",
+        "sha2",
+        "simple_logger",
+        "tcp-test",
+        "tokio",
+        "tokio",
+        "x25519-dalek"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "name": "channel-async",
+    "deps": [
+        "criterion",
+        "crossbeam-channel",
+        "failure",
+        "failure_derive",
+        "futures",
+        "tokio",
+        "tokio-timer"
+    ]
+}

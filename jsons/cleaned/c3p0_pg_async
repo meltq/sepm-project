@@ -1,0 +1,13 @@
+{
+    "name": "c3p0_pg_async",
+    "deps": [
+        "async-trait",
+        "bb8",
+        "bb8-postgres",
+        "c3p0_common",
+        "futures",
+        "log",
+        "serde",
+        "tokio-postgres"
+    ]
+}

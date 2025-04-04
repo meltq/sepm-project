@@ -1,0 +1,13 @@
+{
+    "name": "ipmitool-dcmi-power-reading",
+    "deps": [
+        "binary-layout",
+        "chrono",
+        "clap",
+        "ipmi-rs",
+        "log",
+        "pretty_env_logger",
+        "serde",
+        "serde_json"
+    ]
+}

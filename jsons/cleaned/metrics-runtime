@@ -1,0 +1,26 @@
+{
+    "name": "metrics-runtime",
+    "deps": [
+        "arc-swap",
+        "criterion",
+        "crossbeam-utils",
+        "env_logger",
+        "futures",
+        "getopts",
+        "hashbrown",
+        "hdrhistogram",
+        "im",
+        "lazy_static",
+        "log",
+        "metrics",
+        "metrics-core",
+        "metrics-exporter-http",
+        "metrics-exporter-log",
+        "metrics-observer-json",
+        "metrics-observer-prometheus",
+        "metrics-observer-yaml",
+        "metrics-util",
+        "parking_lot",
+        "quanta"
+    ]
+}

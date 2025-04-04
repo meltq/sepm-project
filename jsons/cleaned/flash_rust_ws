@@ -1,0 +1,30 @@
+{
+    "name": "flash_rust_ws",
+    "deps": [
+        "anyhow",
+        "async-fcgi",
+        "bytes",
+        "chrono",
+        "futures-util",
+        "hyper",
+        "hyper-staticfile",
+        "lazy_static",
+        "libsystemd",
+        "log",
+        "log4rs",
+        "md5",
+        "mime_guess",
+        "percent-encoding",
+        "pin-project",
+        "rand",
+        "serde",
+        "serde-value",
+        "tokio",
+        "tokio-rustls",
+        "tokio-util",
+        "toml",
+        "users",
+        "websocket-codec",
+        "xml-rs"
+    ]
+}

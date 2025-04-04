@@ -1,0 +1,21 @@
+{
+    "name": "sync-ldap-subtrees",
+    "deps": [
+        "chumsky",
+        "clap",
+        "diff-struct",
+        "enum-as-inner",
+        "futures",
+        "lazy_static",
+        "ldap-types",
+        "ldap-utils",
+        "ldap3",
+        "oid",
+        "pretty_assertions",
+        "serde",
+        "simple-error",
+        "tokio",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

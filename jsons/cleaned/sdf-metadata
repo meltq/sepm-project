@@ -1,0 +1,19 @@
+{
+    "name": "sdf-metadata",
+    "deps": [
+        "anyhow",
+        "cfg-if",
+        "sdf-common",
+        "sdf-common",
+        "sdf-parser-core",
+        "sdf-parser-df",
+        "sdf-parser-package",
+        "serde",
+        "serde_yaml",
+        "syn",
+        "tracing",
+        "wasmtime",
+        "wit-bindgen",
+        "wit-encoder"
+    ]
+}

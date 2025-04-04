@@ -1,0 +1,16 @@
+{
+    "name": "stripeql",
+    "deps": [
+        "actix-web",
+        "async-stripe",
+        "config",
+        "futures-util",
+        "log",
+        "serde",
+        "serde_json",
+        "sqlx",
+        "thiserror",
+        "tokio",
+        "tracing-subscriber"
+    ]
+}

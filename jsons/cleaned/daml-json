@@ -1,0 +1,25 @@
+{
+    "name": "daml-json",
+    "deps": [
+        "anyhow",
+        "assert-json-diff",
+        "bigdecimal",
+        "bytes",
+        "chrono",
+        "daml-grpc",
+        "daml-lf",
+        "itertools",
+        "lazy_static",
+        "maplit",
+        "once_cell",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "serde_yaml",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "tracing-subscriber",
+        "url"
+    ]
+}

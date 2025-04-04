@@ -1,0 +1,13 @@
+{
+    "name": "systemd_unit",
+    "deps": [
+        "anyhow",
+        "lazy_static",
+        "regex",
+        "serde",
+        "serde_json",
+        "tracing",
+        "tracing-subscriber",
+        "uom"
+    ]
+}

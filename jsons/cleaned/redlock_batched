@@ -1,0 +1,12 @@
+{
+    "name": "redlock_batched",
+    "deps": [
+        "redis",
+        "testcontainers",
+        "testcontainers-modules",
+        "tokio",
+        "tracing",
+        "tracing-subscriber",
+        "uuid"
+    ]
+}

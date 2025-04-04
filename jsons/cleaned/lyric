@@ -1,0 +1,23 @@
+{
+    "name": "lyric",
+    "deps": [
+        "async-trait",
+        "bollard",
+        "bytes",
+        "chrono",
+        "clap",
+        "futures",
+        "futures-util",
+        "lyric-rpc",
+        "lyric-utils",
+        "serde",
+        "tokio",
+        "tokio-stream",
+        "tokio-test",
+        "tokio-util",
+        "tonic",
+        "tracing",
+        "tracing-subscriber",
+        "uuid"
+    ]
+}

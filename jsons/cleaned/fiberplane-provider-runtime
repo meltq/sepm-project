@@ -1,0 +1,18 @@
+{
+    "name": "fiberplane-provider-runtime",
+    "deps": [
+        "bytes",
+        "fiberplane-models",
+        "fp-bindgen-support",
+        "rand",
+        "reqwest",
+        "rmp-serde",
+        "rmpv",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "wasmer"
+    ]
+}

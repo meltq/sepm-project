@@ -1,0 +1,28 @@
+{
+    "name": "zenoh-plugin-ros2dds",
+    "deps": [
+        "async-std",
+        "async-trait",
+        "bincode",
+        "cdr",
+        "cyclors",
+        "derivative",
+        "env_logger",
+        "flume",
+        "futures",
+        "git-version",
+        "hex",
+        "lazy_static",
+        "log",
+        "regex",
+        "rustc_version",
+        "serde",
+        "serde_json",
+        "zenoh",
+        "zenoh-collections",
+        "zenoh-core",
+        "zenoh-ext",
+        "zenoh-plugin-trait",
+        "zenoh-util"
+    ]
+}

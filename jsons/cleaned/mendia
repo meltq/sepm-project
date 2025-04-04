@@ -1,0 +1,21 @@
+{
+    "name": "mendia",
+    "deps": [
+        "clap",
+        "diesel",
+        "futures-channel",
+        "futures-util",
+        "inquire",
+        "mendia-db",
+        "mendia-types",
+        "rand",
+        "rust-argon2",
+        "serde",
+        "serde_json",
+        "serde_yaml",
+        "teloxide",
+        "thiserror",
+        "tokio",
+        "tokio-tungstenite"
+    ]
+}

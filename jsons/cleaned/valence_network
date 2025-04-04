@@ -1,0 +1,29 @@
+{
+    "name": "valence_network",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "base64",
+        "bevy_app",
+        "bevy_ecs",
+        "bytes",
+        "flume",
+        "hmac",
+        "num-bigint",
+        "rand",
+        "reqwest",
+        "rsa",
+        "rsa-der",
+        "serde",
+        "serde_json",
+        "sha1",
+        "sha2",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "uuid",
+        "valence_lang",
+        "valence_protocol",
+        "valence_server"
+    ]
+}

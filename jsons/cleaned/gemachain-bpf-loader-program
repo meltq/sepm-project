@@ -1,0 +1,17 @@
+{
+    "name": "gemachain-bpf-loader-program",
+    "deps": [
+        "bincode",
+        "byteorder",
+        "gemachain-measure",
+        "gemachain-program-runtime",
+        "gemachain-runtime",
+        "gemachain-sdk",
+        "libsecp256k1",
+        "log",
+        "rand",
+        "regex",
+        "solana_rbpf",
+        "thiserror"
+    ]
+}

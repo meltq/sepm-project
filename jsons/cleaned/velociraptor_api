@@ -1,0 +1,19 @@
+{
+    "name": "velociraptor_api",
+    "deps": [
+        "builder-pattern",
+        "clap",
+        "dirs",
+        "env_logger",
+        "log",
+        "prost",
+        "serde",
+        "serde_json",
+        "serde_yaml",
+        "time",
+        "tokio",
+        "tokio-stream",
+        "tonic",
+        "tonic-build"
+    ]
+}

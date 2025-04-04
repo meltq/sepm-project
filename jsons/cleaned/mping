@@ -1,0 +1,19 @@
+{
+    "name": "mping",
+    "deps": [
+        "anyhow",
+        "chrono",
+        "env_logger",
+        "ipnetwork",
+        "log",
+        "ping",
+        "pnet_packet",
+        "rand",
+        "rate-limit-macro",
+        "rate_limit",
+        "socket2",
+        "structopt",
+        "thiserror",
+        "ticker"
+    ]
+}

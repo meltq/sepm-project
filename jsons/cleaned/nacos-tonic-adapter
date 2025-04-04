@@ -1,0 +1,13 @@
+{
+    "name": "nacos-tonic-adapter",
+    "deps": [
+        "async-trait",
+        "async_once",
+        "lazy_static",
+        "log",
+        "nacos-naming-client",
+        "tokio",
+        "tonic",
+        "tower"
+    ]
+}

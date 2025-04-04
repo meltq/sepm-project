@@ -1,0 +1,23 @@
+{
+    "name": "paladin-core",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "ciborium",
+        "clap",
+        "dotenvy",
+        "futures",
+        "lapin",
+        "num-traits",
+        "paladin-opkind-derive",
+        "pin-project",
+        "serde",
+        "tokio",
+        "tokio-executor-trait",
+        "tokio-reactor-trait",
+        "tokio-util",
+        "tracing",
+        "tracing-subscriber",
+        "uuid"
+    ]
+}

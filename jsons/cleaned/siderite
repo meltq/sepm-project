@@ -1,0 +1,16 @@
+{
+    "name": "siderite",
+    "deps": [
+        "anyhow",
+        "async-tungstenite",
+        "futures",
+        "ring",
+        "rustls-native-certs",
+        "serde",
+        "serde_json",
+        "slab",
+        "tokio",
+        "tokio-rustls",
+        "tokio-stream"
+    ]
+}

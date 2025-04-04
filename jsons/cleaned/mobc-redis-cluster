@@ -1,0 +1,12 @@
+{
+    "name": "mobc-redis-cluster",
+    "deps": [
+        "actix-http",
+        "actix-rt",
+        "actix-web",
+        "mobc",
+        "redis",
+        "redis_cluster_async",
+        "tokio"
+    ]
+}

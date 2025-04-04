@@ -1,0 +1,23 @@
+{
+    "name": "efi_signer",
+    "deps": [
+        "byteorder",
+        "clap",
+        "der",
+        "digest",
+        "env_logger",
+        "goblin",
+        "log",
+        "md-5",
+        "openssl",
+        "openssl-sys",
+        "picky",
+        "picky-asn1-x509",
+        "pkcs7",
+        "serde",
+        "sha1",
+        "sha2",
+        "snafu",
+        "x509-cert"
+    ]
+}

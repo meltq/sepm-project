@@ -1,0 +1,19 @@
+{
+    "name": "gluesql-mongo-storage",
+    "deps": [
+        "async-trait",
+        "bson",
+        "chrono",
+        "futures",
+        "gluesql-core",
+        "mongodb",
+        "rust_decimal",
+        "serde",
+        "serde_json",
+        "strum",
+        "strum_macros",
+        "test-suite",
+        "thiserror",
+        "tokio"
+    ]
+}

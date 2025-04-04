@@ -1,0 +1,26 @@
+{
+    "name": "alacritty_terminal",
+    "deps": [
+        "base64",
+        "bitflags",
+        "libc",
+        "log",
+        "mio",
+        "mio-anonymous-pipes",
+        "mio-extras",
+        "mio-named-pipes",
+        "miow",
+        "nix",
+        "parking_lot",
+        "regex-automata",
+        "serde",
+        "serde_json",
+        "serde_yaml",
+        "signal-hook",
+        "terminfo",
+        "unicode-width",
+        "vte",
+        "winapi",
+        "winpty"
+    ]
+}

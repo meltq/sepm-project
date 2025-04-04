@@ -1,0 +1,24 @@
+{
+    "name": "tree-sitter-stack-graphs",
+    "deps": [
+        "anyhow",
+        "clap",
+        "colored",
+        "controlled-option",
+        "env_logger",
+        "itertools",
+        "lazy_static",
+        "log",
+        "lsp-positions",
+        "pretty_assertions",
+        "regex",
+        "stack-graphs",
+        "thiserror",
+        "tree-sitter",
+        "tree-sitter-config",
+        "tree-sitter-graph",
+        "tree-sitter-loader",
+        "tree-sitter-python",
+        "walkdir"
+    ]
+}

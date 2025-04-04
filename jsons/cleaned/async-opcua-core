@@ -1,0 +1,17 @@
+{
+    "name": "async-opcua-core",
+    "deps": [
+        "async-opcua-crypto",
+        "async-opcua-types",
+        "bytes",
+        "chrono",
+        "log",
+        "parking_lot",
+        "serde",
+        "serde_yaml",
+        "thiserror",
+        "tokio",
+        "tokio-util",
+        "url"
+    ]
+}

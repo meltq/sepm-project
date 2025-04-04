@@ -1,0 +1,28 @@
+{
+    "name": "linera-alloy-signer-wallet",
+    "deps": [
+        "assert_matches",
+        "async-trait",
+        "coins-bip32",
+        "coins-bip39",
+        "elliptic-curve",
+        "eth-keystore",
+        "k256",
+        "linera-alloy-consensus",
+        "linera-alloy-consensus",
+        "linera-alloy-dyn-abi",
+        "linera-alloy-network",
+        "linera-alloy-network",
+        "linera-alloy-primitives",
+        "linera-alloy-signer",
+        "linera-alloy-sol-types",
+        "rand",
+        "serde",
+        "serde_json",
+        "tempfile",
+        "thiserror",
+        "tokio",
+        "yubihsm",
+        "yubihsm"
+    ]
+}

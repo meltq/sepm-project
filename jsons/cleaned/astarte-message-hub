@@ -1,0 +1,27 @@
+{
+    "name": "astarte-message-hub",
+    "deps": [
+        "astarte-device-sdk",
+        "async-trait",
+        "axum",
+        "chrono",
+        "clap",
+        "env_logger",
+        "log",
+        "mockall",
+        "pbjson-types",
+        "prost",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "serial_test",
+        "tempfile",
+        "thiserror",
+        "tokio",
+        "tokio-stream",
+        "toml",
+        "tonic",
+        "tonic-build",
+        "uuid"
+    ]
+}

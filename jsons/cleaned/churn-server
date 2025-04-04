@@ -1,0 +1,16 @@
+{
+    "name": "churn-server",
+    "deps": [
+        "anyhow",
+        "axum",
+        "churn-domain",
+        "clap",
+        "dotenv",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tracing",
+        "tracing-subscriber",
+        "uuid"
+    ]
+}

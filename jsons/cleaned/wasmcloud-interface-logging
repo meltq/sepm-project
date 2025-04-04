@@ -1,0 +1,15 @@
+{
+    "name": "wasmcloud-interface-logging",
+    "deps": [
+        "async-std",
+        "async-trait",
+        "base64",
+        "cfg-if",
+        "futures",
+        "serde",
+        "serde_bytes",
+        "serde_json",
+        "wasmbus-rpc",
+        "weld-codegen"
+    ]
+}

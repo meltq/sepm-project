@@ -1,0 +1,13 @@
+{
+    "name": "dis-spawner-tracing",
+    "deps": [
+        "hyper",
+        "hyper-tls",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tracing",
+        "tracing-stackdriver",
+        "tracing-subscriber"
+    ]
+}

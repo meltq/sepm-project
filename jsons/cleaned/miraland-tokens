@@ -1,0 +1,30 @@
+{
+    "name": "miraland-tokens",
+    "deps": [
+        "bincode",
+        "chrono",
+        "clap",
+        "console",
+        "csv",
+        "ctrlc",
+        "indexmap",
+        "indicatif",
+        "miraland-account-decoder",
+        "miraland-clap-utils",
+        "miraland-cli-config",
+        "miraland-client",
+        "miraland-logger",
+        "miraland-remote-wallet",
+        "miraland-sdk",
+        "miraland-streamer",
+        "miraland-test-validator",
+        "miraland-transaction-status",
+        "miraland-version",
+        "pickledb",
+        "serde",
+        "solarti-associated-token-account",
+        "solarti-token",
+        "tempfile",
+        "thiserror"
+    ]
+}

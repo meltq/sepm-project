@@ -1,0 +1,16 @@
+{
+    "name": "indexed-db",
+    "deps": [
+        "anyhow",
+        "console_error_panic_hook",
+        "futures",
+        "futures-channel",
+        "futures-util",
+        "pin-project-lite",
+        "thiserror",
+        "tracing-wasm",
+        "void",
+        "wasm-bindgen-test",
+        "web-sys"
+    ]
+}

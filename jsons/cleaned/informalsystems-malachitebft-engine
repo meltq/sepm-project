@@ -1,0 +1,23 @@
+{
+    "name": "informalsystems-malachitebft-engine",
+    "deps": [
+        "async-trait",
+        "byteorder",
+        "bytes",
+        "derive-where",
+        "eyre",
+        "libp2p",
+        "malachitebft-codec",
+        "malachitebft-config",
+        "malachitebft-core-consensus",
+        "malachitebft-core-types",
+        "malachitebft-metrics",
+        "malachitebft-network",
+        "malachitebft-sync",
+        "malachitebft-wal",
+        "ractor",
+        "rand",
+        "tokio",
+        "tracing"
+    ]
+}

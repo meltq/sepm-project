@@ -1,0 +1,27 @@
+{
+    "name": "filesystem_in_a_file",
+    "deps": [
+        "anyhow",
+        "bitflags",
+        "bytes",
+        "cpio",
+        "derive_builder",
+        "derive_more",
+        "getset",
+        "memmap",
+        "nix",
+        "remain",
+        "sendstream_parser",
+        "similar",
+        "slotmap",
+        "tar",
+        "thiserror",
+        "twox-hash",
+        "uuid",
+        "xattr",
+        "pretty_assertions",
+        "rstest",
+        "similar-asserts",
+        "tempfile"
+    ]
+}

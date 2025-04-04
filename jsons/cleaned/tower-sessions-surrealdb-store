@@ -1,0 +1,21 @@
+{
+    "name": "tower-sessions-surrealdb-store",
+    "deps": [
+        "async-trait",
+        "axum",
+        "axum-core",
+        "rmp-serde",
+        "serde",
+        "serde_json",
+        "surrealdb",
+        "surrealdb",
+        "surrealdb-nightly",
+        "thiserror",
+        "tokio",
+        "tokio-test",
+        "tower",
+        "tower-sessions",
+        "tower-sessions-core",
+        "tracing"
+    ]
+}

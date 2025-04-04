@@ -1,0 +1,14 @@
+{
+    "name": "jobserver",
+    "deps": [
+        "futures",
+        "kernel32-sys",
+        "libc",
+        "num_cpus",
+        "rand",
+        "tempdir",
+        "tokio-core",
+        "tokio-process",
+        "winapi"
+    ]
+}

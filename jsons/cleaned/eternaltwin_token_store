@@ -1,0 +1,19 @@
+{
+    "name": "eternaltwin_token_store",
+    "deps": [
+        "async-trait",
+        "eternaltwin_config",
+        "eternaltwin_core",
+        "eternaltwin_db_schema",
+        "eternaltwin_dinoparc_store",
+        "eternaltwin_hammerfest_store",
+        "eternaltwin_populate",
+        "eternaltwin_twinoid_store",
+        "neon",
+        "regex",
+        "serde_json",
+        "serial_test",
+        "sqlx",
+        "tokio"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "tracing-logger-config",
+    "deps": [
+        "anyhow",
+        "chrono",
+        "opentelemetry",
+        "opentelemetry-otlp",
+        "opentelemetry_sdk",
+        "serde",
+        "tracing",
+        "tracing-appender",
+        "tracing-opentelemetry",
+        "tracing-subscriber"
+    ]
+}

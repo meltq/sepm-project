@@ -1,0 +1,26 @@
+{
+    "name": "anda_engine",
+    "deps": [
+        "anda_core",
+        "bytes",
+        "candid",
+        "ciborium",
+        "const-hex",
+        "futures",
+        "futures-util",
+        "http",
+        "ic_cose",
+        "ic_cose_types",
+        "ic_object_store",
+        "ic_tee_agent",
+        "moka",
+        "object_store",
+        "reqwest",
+        "serde",
+        "serde_bytes",
+        "serde_json",
+        "structured-logger",
+        "thiserror",
+        "tokio-util"
+    ]
+}

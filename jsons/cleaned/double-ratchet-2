@@ -1,0 +1,16 @@
+{
+    "name": "double-ratchet-2",
+    "deps": [
+        "aes-gcm-siv",
+        "bincode",
+        "hashbrown",
+        "hkdf",
+        "hmac",
+        "rand_core",
+        "ring-compat",
+        "serde",
+        "serde_bytes",
+        "sha2",
+        "x25519-dalek"
+    ]
+}

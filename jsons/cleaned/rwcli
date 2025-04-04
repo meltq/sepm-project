@@ -1,0 +1,25 @@
+{
+    "name": "rwcli",
+    "deps": [
+        "anyhow",
+        "base64",
+        "cfg-if",
+        "dirs",
+        "ed25519-dalek",
+        "futures",
+        "hex",
+        "log",
+        "pretty_env_logger",
+        "rand",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "serde_yaml",
+        "sha2",
+        "structopt",
+        "tar",
+        "tempdir",
+        "thiserror",
+        "tokio"
+    ]
+}

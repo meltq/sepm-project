@@ -1,0 +1,20 @@
+{
+    "name": "tetsy-util-mem",
+    "deps": [
+        "cfg-if",
+        "dlmalloc",
+        "hashbrown",
+        "impl-trait-for-tuples",
+        "jemallocator",
+        "libmimalloc-sys",
+        "lru",
+        "mimalloc",
+        "parking_lot",
+        "smallvec",
+        "tetsy-primitive-types",
+        "tetsy-util-mem-derive",
+        "vapory-types",
+        "wee_alloc",
+        "winapi"
+    ]
+}

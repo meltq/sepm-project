@@ -1,0 +1,25 @@
+{
+    "name": "prov-cosmwasm-vm",
+    "deps": [
+        "clap",
+        "clru",
+        "cosmwasm-crypto",
+        "cosmwasm-std",
+        "criterion",
+        "hex",
+        "hex-literal",
+        "leb128",
+        "loupe",
+        "parity-wasm",
+        "rand",
+        "schemars",
+        "serde",
+        "serde_json",
+        "sha2",
+        "tempfile",
+        "thiserror",
+        "wasmer",
+        "wasmer-middlewares",
+        "wat"
+    ]
+}

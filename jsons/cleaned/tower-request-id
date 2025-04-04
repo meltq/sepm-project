@@ -1,0 +1,16 @@
+{
+    "name": "tower-request-id",
+    "deps": [
+        "axum",
+        "http",
+        "rusty-hook",
+        "tokio",
+        "tower",
+        "tower-http",
+        "tower-layer",
+        "tower-service",
+        "tracing",
+        "tracing-subscriber",
+        "ulid"
+    ]
+}

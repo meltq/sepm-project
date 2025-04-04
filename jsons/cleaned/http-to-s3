@@ -1,0 +1,22 @@
+{
+    "name": "http-to-s3",
+    "deps": [
+        "async-channel",
+        "async-stream",
+        "async-trait",
+        "aws-config",
+        "aws-sdk-s3",
+        "aws-smithy-http",
+        "base64",
+        "bytes",
+        "env_logger",
+        "futures",
+        "futures-channel",
+        "futures-core",
+        "futures-util",
+        "hyper",
+        "log",
+        "reqwest",
+        "tokio"
+    ]
+}

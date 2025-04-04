@@ -1,0 +1,17 @@
+{
+    "name": "zksync_external_price_api",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "bigdecimal",
+        "chrono",
+        "fraction",
+        "rand",
+        "reqwest",
+        "serde",
+        "tokio",
+        "url",
+        "zksync_config",
+        "zksync_types"
+    ]
+}

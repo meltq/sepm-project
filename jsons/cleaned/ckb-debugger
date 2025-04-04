@@ -1,0 +1,28 @@
+{
+    "name": "ckb-debugger",
+    "deps": [
+        "ckb-chain-spec",
+        "ckb-debugger-api",
+        "ckb-gdb-remote-protocol",
+        "ckb-hash",
+        "ckb-mock-tx-types",
+        "ckb-script",
+        "ckb-types",
+        "ckb-vm",
+        "ckb-vm-debug-utils",
+        "ckb-vm-pprof",
+        "clap",
+        "env_logger",
+        "faster-hex",
+        "gdbstub",
+        "gdbstub_arch",
+        "hex",
+        "lazy_static",
+        "libc",
+        "log",
+        "probe",
+        "rand",
+        "serde_json",
+        "serde_plain"
+    ]
+}

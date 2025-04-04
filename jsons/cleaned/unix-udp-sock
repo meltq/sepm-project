@@ -1,0 +1,14 @@
+{
+    "name": "unix-udp-sock",
+    "deps": [
+        "bytes",
+        "futures-core",
+        "futures-sink",
+        "libc",
+        "pin-project-lite",
+        "socket2",
+        "tokio",
+        "tokio-util",
+        "tracing"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "cargo-simics-build",
+    "deps": [
+        "anyhow",
+        "artifact-dependency",
+        "cargo-subcommand",
+        "clap",
+        "command-ext",
+        "ispm-wrapper",
+        "itertools",
+        "simics-package",
+        "simics-sign",
+        "thiserror"
+    ]
+}

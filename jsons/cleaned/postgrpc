@@ -1,0 +1,33 @@
+{
+    "name": "postgrpc",
+    "deps": [
+        "bytes",
+        "deadpool-postgres",
+        "envy",
+        "futures-util",
+        "native-tls",
+        "num",
+        "num_cpus",
+        "pbjson",
+        "pbjson-build",
+        "pbjson-types",
+        "pin-project-lite",
+        "postgres-native-tls",
+        "postgres_array",
+        "prost",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tokio-postgres",
+        "tokio-stream",
+        "tonic",
+        "tonic-build",
+        "tonic-health",
+        "tonic-reflection",
+        "tower-http",
+        "tracing",
+        "tracing-subscriber",
+        "uuid"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "arti-bench",
+    "deps": [
+        "anyhow",
+        "arti-client",
+        "arti-config",
+        "clap",
+        "rand",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tokio-socks",
+        "tor-rtcompat",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

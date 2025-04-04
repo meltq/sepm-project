@@ -1,0 +1,15 @@
+{
+    "name": "cf-turnstile",
+    "deps": [
+        "hyper",
+        "hyper-rustls",
+        "hyper-tls",
+        "hyper-trust-dns",
+        "secrecy",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "uuid"
+    ]
+}

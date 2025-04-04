@@ -1,0 +1,22 @@
+{
+    "name": "wallet_standard_browser",
+    "deps": [
+        "async-trait",
+        "bincode",
+        "futures",
+        "js-sys",
+        "log",
+        "serde",
+        "serde-wasm-bindgen",
+        "serde_bytes",
+        "solana-sdk",
+        "strum",
+        "thiserror",
+        "tokio",
+        "typed-builder",
+        "wallet_standard",
+        "wasm-bindgen",
+        "wasm-bindgen-futures",
+        "web-sys"
+    ]
+}

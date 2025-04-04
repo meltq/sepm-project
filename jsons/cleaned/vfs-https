@@ -1,0 +1,23 @@
+{
+    "name": "vfs-https",
+    "deps": [
+        "async-stream",
+        "base64",
+        "chrono",
+        "futures-util",
+        "hyper",
+        "hyper-rustls",
+        "lazy_static",
+        "rand",
+        "reqwest",
+        "rustls",
+        "serde",
+        "serde_json",
+        "syn",
+        "thiserror",
+        "tokio",
+        "tokio-rustls",
+        "vfs",
+        "vfs"
+    ]
+}

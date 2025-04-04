@@ -1,0 +1,12 @@
+{
+    "name": "yb-postgres",
+    "deps": [
+        "bytes",
+        "criterion",
+        "fallible-iterator",
+        "futures-util",
+        "log",
+        "tokio",
+        "yb-tokio-postgres"
+    ]
+}

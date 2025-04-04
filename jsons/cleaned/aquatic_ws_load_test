@@ -1,0 +1,24 @@
+{
+    "name": "aquatic_ws_load_test",
+    "deps": [
+        "anyhow",
+        "aquatic_cli_helpers",
+        "aquatic_common",
+        "aquatic_toml_config",
+        "aquatic_ws_protocol",
+        "async-tungstenite",
+        "futures",
+        "futures-rustls",
+        "glommio",
+        "log",
+        "mimalloc",
+        "quickcheck",
+        "quickcheck_macros",
+        "rand",
+        "rand_distr",
+        "rustls",
+        "serde",
+        "serde_json",
+        "tungstenite"
+    ]
+}

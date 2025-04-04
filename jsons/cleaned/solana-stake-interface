@@ -1,0 +1,26 @@
+{
+    "name": "solana-stake-interface",
+    "deps": [
+        "assert_matches",
+        "bincode",
+        "borsh",
+        "borsh0-10",
+        "num-traits",
+        "serde",
+        "serde_derive",
+        "solana-borsh",
+        "solana-clock",
+        "solana-cpi",
+        "solana-decode-error",
+        "solana-frozen-abi",
+        "solana-frozen-abi-macro",
+        "solana-instruction",
+        "solana-program",
+        "solana-program-error",
+        "solana-pubkey",
+        "solana-system-interface",
+        "static_assertions",
+        "strum",
+        "strum_macros"
+    ]
+}

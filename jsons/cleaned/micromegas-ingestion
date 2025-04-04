@@ -1,0 +1,16 @@
+{
+    "name": "micromegas-ingestion",
+    "deps": [
+        "anyhow",
+        "bytes",
+        "chrono",
+        "ciborium",
+        "micromegas-telemetry",
+        "micromegas-tracing",
+        "micromegas-transit",
+        "object_store",
+        "serde_json",
+        "sqlx",
+        "url"
+    ]
+}

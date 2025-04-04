@@ -1,0 +1,33 @@
+{
+    "name": "bluesky-firehose-stream",
+    "deps": [
+        "anyhow",
+        "atrium-api",
+        "atty",
+        "axum",
+        "chrono",
+        "cid",
+        "cid_old",
+        "clap",
+        "dotenvy",
+        "futures",
+        "ipld-core",
+        "lazy_static",
+        "lingua",
+        "log",
+        "multihash",
+        "prometheus",
+        "reqwest",
+        "rs-car-sync",
+        "serde",
+        "serde_ipld_dagcbor",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tokio-tungstenite",
+        "tracing",
+        "tracing-subscriber",
+        "trait-variant",
+        "url"
+    ]
+}

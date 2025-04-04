@@ -1,0 +1,23 @@
+{
+    "name": "karyon_jsonrpc",
+    "deps": [
+        "async-channel",
+        "async-trait",
+        "async-tungstenite",
+        "env_logger",
+        "futures-rustls",
+        "karyon_core",
+        "karyon_jsonrpc_macro",
+        "karyon_net",
+        "log",
+        "rand",
+        "rcgen",
+        "rustls-pemfile",
+        "serde",
+        "serde_json",
+        "smol",
+        "thiserror",
+        "tokio-rustls",
+        "webpki-roots"
+    ]
+}

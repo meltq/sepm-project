@@ -1,0 +1,24 @@
+{
+    "name": "daml-bridge",
+    "deps": [
+        "anyhow",
+        "anyhow",
+        "bytes",
+        "clap",
+        "daml-grpc",
+        "daml-json",
+        "daml-lf",
+        "daml-util",
+        "futures",
+        "humantime",
+        "lazy_static",
+        "parking_lot",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "tracing-subscriber",
+        "warp"
+    ]
+}

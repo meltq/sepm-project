@@ -1,0 +1,21 @@
+{
+    "name": "netidx-dbus",
+    "deps": [
+        "anyhow",
+        "dbus",
+        "dbus-tokio",
+        "env_logger",
+        "futures",
+        "fxhash",
+        "log",
+        "netidx",
+        "netidx-protocols",
+        "netidx-tools-core",
+        "rand",
+        "serde",
+        "serde-xml-rs",
+        "serde_derive",
+        "structopt",
+        "tokio"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "name": "wascc-host",
+    "deps": [
+        "crossbeam",
+        "crossbeam-channel",
+        "crossbeam-utils",
+        "env_logger",
+        "lazy_static",
+        "libloading",
+        "log",
+        "prost",
+        "wapc",
+        "wascap",
+        "wascc-codec"
+    ]
+}

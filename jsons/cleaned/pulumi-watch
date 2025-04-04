@@ -1,0 +1,15 @@
+{
+    "name": "pulumi-watch",
+    "deps": [
+        "clap",
+        "embed-resource",
+        "futures",
+        "ignore-files",
+        "miette",
+        "thiserror",
+        "tokio",
+        "tokio-util",
+        "watchexec",
+        "watchexec-filterer-globset"
+    ]
+}

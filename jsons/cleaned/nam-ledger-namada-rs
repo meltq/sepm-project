@@ -1,0 +1,20 @@
+{
+    "name": "nam-ledger-namada-rs",
+    "deps": [
+        "bincode",
+        "byteorder",
+        "ed25519-dalek",
+        "hex",
+        "leb128",
+        "ledger-transport",
+        "ledger-transport-hid",
+        "ledger-zondax-generic",
+        "once_cell",
+        "prost",
+        "prost-types",
+        "serial_test",
+        "sha2",
+        "thiserror",
+        "tokio"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "gravel-gateway",
+    "deps": [
+        "clap",
+        "futures",
+        "openmetrics-parser",
+        "serde",
+        "serde_json",
+        "slog",
+        "slog-async",
+        "slog-json",
+        "tokio",
+        "warp"
+    ]
+}

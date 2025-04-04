@@ -1,0 +1,13 @@
+{
+    "name": "wacker-daemon",
+    "deps": [
+        "anyhow",
+        "clap",
+        "env_logger",
+        "log",
+        "tokio",
+        "tokio-stream",
+        "tonic",
+        "wacker"
+    ]
+}

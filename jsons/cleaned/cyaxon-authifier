@@ -1,0 +1,31 @@
+{
+    "name": "cyaxon-authifier",
+    "deps": [
+        "async-std",
+        "async-trait",
+        "base32",
+        "bcrypt",
+        "bson",
+        "chrono",
+        "cyaxon_okapi",
+        "cyaxon_rocket_okapi",
+        "futures",
+        "handlebars",
+        "iso8601-timestamp",
+        "lazy_static",
+        "lettre",
+        "log",
+        "mongodb",
+        "nanoid",
+        "rand",
+        "regex",
+        "reqwest",
+        "rocket",
+        "schemars",
+        "serde",
+        "serde_json",
+        "totp-lite",
+        "ulid",
+        "validator"
+    ]
+}

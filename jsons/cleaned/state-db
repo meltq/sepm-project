@@ -1,0 +1,20 @@
+{
+    "name": "state-db",
+    "deps": [
+        "account-state",
+        "bloom_journal",
+        "common-types",
+        "env_logger",
+        "journaldb",
+        "log",
+        "lru-cache",
+        "memory-cache",
+        "parking_lot",
+        "tetsy-hash-db",
+        "tetsy-keccak-hash",
+        "tetsy-keccak-hasher",
+        "tetsy-kvdb",
+        "vapcore-db",
+        "vapory-types"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "talos_metrics",
+    "deps": [
+        "env_logger",
+        "log",
+        "once_cell",
+        "opentelemetry",
+        "opentelemetry-stdout",
+        "opentelemetry_api",
+        "opentelemetry_sdk",
+        "serde",
+        "serde_json",
+        "time"
+    ]
+}

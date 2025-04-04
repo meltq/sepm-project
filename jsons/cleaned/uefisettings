@@ -1,0 +1,22 @@
+{
+    "name": "uefisettings",
+    "deps": [
+        "anyhow",
+        "binrw",
+        "clap",
+        "env_logger",
+        "fbthrift",
+        "httparse",
+        "libloading",
+        "log",
+        "nix",
+        "proc-mounts",
+        "rand",
+        "serde",
+        "serde_json",
+        "tempfile",
+        "thiserror",
+        "uefisettings_backend_thrift",
+        "uefisettings_spellings_db_thrift"
+    ]
+}

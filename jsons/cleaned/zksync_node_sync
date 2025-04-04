@@ -1,0 +1,29 @@
+{
+    "name": "zksync_node_sync",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "chrono",
+        "futures",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "vise",
+        "zksync_concurrency",
+        "zksync_config",
+        "zksync_contracts",
+        "zksync_dal",
+        "zksync_eth_client",
+        "zksync_health_check",
+        "zksync_node_genesis",
+        "zksync_shared_metrics",
+        "zksync_state_keeper",
+        "zksync_system_constants",
+        "zksync_types",
+        "zksync_utils",
+        "zksync_vm_utils",
+        "zksync_web3_decl"
+    ]
+}

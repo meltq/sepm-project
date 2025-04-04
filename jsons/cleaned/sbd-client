@@ -1,0 +1,18 @@
+{
+    "name": "sbd-client",
+    "deps": [
+        "base64",
+        "ed25519-dalek",
+        "escargot",
+        "futures",
+        "hex",
+        "rand",
+        "rustls",
+        "rustls-native-certs",
+        "tokio",
+        "tokio",
+        "tokio-rustls",
+        "tokio-tungstenite",
+        "webpki-roots"
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "name": "divviup-client",
+    "deps": [
+        "base64",
+        "email_address",
+        "fastrand",
+        "futures-lite",
+        "janus_messages",
+        "log",
+        "pad-adapter",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "time",
+        "trillium",
+        "trillium-client",
+        "trillium-http",
+        "trillium-macros",
+        "trillium-rustls",
+        "trillium-testing",
+        "trillium-tokio",
+        "url",
+        "uuid"
+    ]
+}

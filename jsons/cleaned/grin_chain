@@ -1,0 +1,22 @@
+{
+    "name": "grin_chain",
+    "deps": [
+        "bitflags",
+        "byteorder",
+        "chrono",
+        "croaring",
+        "env_logger",
+        "failure",
+        "failure_derive",
+        "grin_core",
+        "grin_keychain",
+        "grin_store",
+        "grin_util",
+        "lmdb-zero",
+        "log",
+        "lru-cache",
+        "rand",
+        "serde",
+        "serde_derive"
+    ]
+}

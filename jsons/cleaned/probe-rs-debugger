@@ -1,0 +1,27 @@
+{
+    "name": "probe-rs-debugger",
+    "deps": [
+        "anyhow",
+        "bitfield",
+        "capstone",
+        "chrono",
+        "defmt-decoder",
+        "env_logger",
+        "goblin",
+        "insta",
+        "jep106",
+        "log",
+        "num-traits",
+        "parse_int",
+        "probe-rs",
+        "probe-rs-rtt",
+        "ron",
+        "rustyline",
+        "schemafy",
+        "scroll",
+        "serde",
+        "serde_json",
+        "structopt",
+        "thiserror"
+    ]
+}

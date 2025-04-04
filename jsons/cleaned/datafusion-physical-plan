@@ -1,0 +1,31 @@
+{
+    "name": "datafusion-physical-plan",
+    "deps": [
+        "ahash",
+        "arrow",
+        "arrow-array",
+        "arrow-buffer",
+        "arrow-schema",
+        "async-trait",
+        "chrono",
+        "datafusion-common",
+        "datafusion-execution",
+        "datafusion-expr",
+        "datafusion-physical-expr",
+        "futures",
+        "half",
+        "hashbrown",
+        "indexmap",
+        "itertools",
+        "log",
+        "once_cell",
+        "parking_lot",
+        "pin-project-lite",
+        "rand",
+        "rstest",
+        "termtree",
+        "tokio",
+        "tokio",
+        "uuid"
+    ]
+}

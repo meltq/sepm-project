@@ -1,0 +1,22 @@
+{
+    "name": "lateral",
+    "deps": [
+        "byteorder",
+        "crossbeam-channel",
+        "dirs",
+        "libc",
+        "log",
+        "mio",
+        "nix",
+        "pretty_env_logger",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "stoppable_listener",
+        "structopt",
+        "structopt-derive",
+        "take_mut",
+        "tempfile",
+        "workpool"
+    ]
+}

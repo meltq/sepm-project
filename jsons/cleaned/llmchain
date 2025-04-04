@@ -1,0 +1,27 @@
+{
+    "name": "llmchain",
+    "deps": [
+        "anyhow",
+        "async-openai",
+        "async-trait",
+        "databend-driver",
+        "env_logger",
+        "futures",
+        "git2",
+        "glob",
+        "goldenfile",
+        "log",
+        "md5",
+        "octocrab",
+        "opendal",
+        "parking_lot",
+        "patch",
+        "rayon",
+        "regex",
+        "serde_json",
+        "tiktoken-rs",
+        "tokio",
+        "tokio-stream",
+        "uuid"
+    ]
+}

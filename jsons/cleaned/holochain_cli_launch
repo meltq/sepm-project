@@ -1,0 +1,33 @@
+{
+    "name": "holochain_cli_launch",
+    "deps": [
+        "anyhow",
+        "futures",
+        "holochain",
+        "holochain_cli_sandbox",
+        "holochain_client",
+        "holochain_conductor_api",
+        "holochain_launcher_utils",
+        "holochain_types",
+        "holochain_util",
+        "holochain_zome_types",
+        "lair_keystore_api",
+        "log",
+        "mime_guess",
+        "notify",
+        "observability",
+        "portpicker",
+        "serde",
+        "structopt",
+        "tauri",
+        "tauri-plugin-localhost",
+        "tempdir",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "url",
+        "url2",
+        "zip",
+        "tauri-build"
+    ]
+}

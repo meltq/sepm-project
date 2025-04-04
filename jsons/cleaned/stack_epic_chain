@@ -1,0 +1,25 @@
+{
+    "name": "stack_epic_chain",
+    "deps": [
+        "bigint",
+        "bit-vec",
+        "bitflags",
+        "byteorder",
+        "chrono",
+        "croaring",
+        "env_logger",
+        "failure",
+        "failure_derive",
+        "lazy_static",
+        "log",
+        "lru-cache",
+        "rand",
+        "regex",
+        "serde",
+        "serde_derive",
+        "stack_epic_core",
+        "stack_epic_keychain",
+        "stack_epic_store",
+        "stack_epic_util"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "name": "s3get",
+    "deps": [
+        "anyhow",
+        "crossbeam",
+        "futures",
+        "num_cpus",
+        "rusoto_core",
+        "rusoto_s3",
+        "structopt",
+        "tokio"
+    ]
+}

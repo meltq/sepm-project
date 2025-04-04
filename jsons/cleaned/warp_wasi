@@ -1,0 +1,33 @@
+{
+    "name": "warp_wasi",
+    "deps": [
+        "async-compression",
+        "bytes",
+        "futures-channel",
+        "futures-util",
+        "headers",
+        "http",
+        "hyper_wasi",
+        "log",
+        "mime",
+        "mime_guess",
+        "multipart",
+        "percent-encoding",
+        "pin-project",
+        "rustls-pemfile",
+        "scoped-tls",
+        "serde",
+        "serde_json",
+        "serde_urlencoded",
+        "tokio-rustls",
+        "tokio-stream_wasi",
+        "tokio-tungstenite_wasi",
+        "tokio-util_wasi",
+        "tokio_wasi",
+        "tower-service",
+        "tracing",
+        "pretty_env_logger",
+        "tokio-stream_wasi",
+        "tokio_wasi"
+    ]
+}

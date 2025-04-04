@@ -1,0 +1,17 @@
+{
+    "name": "prometheus-mpd-exporter",
+    "deps": [
+        "actix-web",
+        "anyhow",
+        "async-mpd",
+        "env_logger",
+        "getset",
+        "itertools",
+        "log",
+        "num-traits",
+        "parse-display",
+        "prometheus_exporter_base",
+        "structopt",
+        "thiserror"
+    ]
+}

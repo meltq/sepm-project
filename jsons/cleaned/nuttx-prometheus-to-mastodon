@@ -1,0 +1,12 @@
+{
+    "name": "nuttx-prometheus-to-mastodon",
+    "deps": [
+        "clap",
+        "env_logger",
+        "log",
+        "regex",
+        "reqwest",
+        "serde_json",
+        "tokio"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "name": "slack_cmd_handlers",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "clap",
+        "log",
+        "shlex",
+        "slack_cmd_core",
+        "tokio"
+    ]
+}

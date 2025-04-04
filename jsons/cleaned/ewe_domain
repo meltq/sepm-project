@@ -1,0 +1,16 @@
+{
+    "name": "ewe_domain",
+    "deps": [
+        "anyhow",
+        "async-channel",
+        "crossbeam",
+        "ewe_channels",
+        "futures",
+        "thiserror",
+        "tokio",
+        "tokio-test",
+        "tracing",
+        "tracing-subscriber",
+        "tracing-test"
+    ]
+}

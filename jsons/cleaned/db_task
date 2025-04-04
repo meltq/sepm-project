@@ -1,0 +1,16 @@
+{
+    "name": "db_task",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "chrono",
+        "futures",
+        "mongodb",
+        "serde",
+        "serde_with",
+        "tokio",
+        "tracing",
+        "tracing-log",
+        "tracing-subscriber"
+    ]
+}

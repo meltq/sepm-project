@@ -1,0 +1,14 @@
+{
+    "name": "wasmo_runtime",
+    "deps": [
+        "anyhow",
+        "bincode",
+        "bytecheck",
+        "env_logger",
+        "llvm-sys",
+        "log",
+        "serde",
+        "wasmparser",
+        "wat"
+    ]
+}

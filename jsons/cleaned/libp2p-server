@@ -1,0 +1,19 @@
+{
+    "name": "libp2p-server",
+    "deps": [
+        "base64",
+        "clap",
+        "env_logger",
+        "futures",
+        "futures-timer",
+        "hyper",
+        "libp2p",
+        "log",
+        "prometheus-client",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "tokio",
+        "zeroize"
+    ]
+}

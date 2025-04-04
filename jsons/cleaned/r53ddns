@@ -1,0 +1,13 @@
+{
+    "name": "r53ddns",
+    "deps": [
+        "fern",
+        "log",
+        "reqwest",
+        "rusoto_core",
+        "rusoto_credential",
+        "rusoto_route53",
+        "structopt",
+        "tokio"
+    ]
+}

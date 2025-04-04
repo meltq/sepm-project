@@ -1,0 +1,24 @@
+{
+    "name": "product-os-h2",
+    "deps": [
+        "bytes",
+        "chrono",
+        "core-error",
+        "futures-core",
+        "futures-sink",
+        "futures-util",
+        "h2",
+        "indexmap-nostd",
+        "no-std-compat",
+        "pin-project-lite",
+        "product-os-async-executor",
+        "product-os-cursor",
+        "product-os-http",
+        "product-os-security",
+        "slab",
+        "spin",
+        "tokio",
+        "tokio-util",
+        "tracing"
+    ]
+}

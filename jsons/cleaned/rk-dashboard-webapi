@@ -1,0 +1,23 @@
+{
+    "name": "rk-dashboard-webapi",
+    "deps": [
+        "anyhow",
+        "axum",
+        "clap",
+        "curl",
+        "hashbrown",
+        "libc",
+        "regex",
+        "sea-orm",
+        "serde",
+        "serde_json",
+        "sysinfo",
+        "termcolor",
+        "tokio",
+        "toml",
+        "tower",
+        "tower-http",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

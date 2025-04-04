@@ -1,0 +1,23 @@
+{
+    "name": "mat-clockwork-relayer",
+    "deps": [
+        "actix-cors",
+        "actix-web",
+        "anchor-lang",
+        "bincode",
+        "byte-unit",
+        "curve25519-dalek",
+        "lazy_static",
+        "mat-clockwork-relayer-api",
+        "mat-clockwork-webhook-program",
+        "rayon",
+        "regex",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "solana-client",
+        "solana-sdk",
+        "solana-zk-token-sdk",
+        "tokio"
+    ]
+}

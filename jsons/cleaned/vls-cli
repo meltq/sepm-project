@@ -1,0 +1,15 @@
+{
+    "name": "vls-cli",
+    "deps": [
+        "anyhow",
+        "clap",
+        "clap_complete",
+        "http",
+        "jsonrpsee",
+        "serde_json",
+        "tokio",
+        "tracing",
+        "tracing-subscriber",
+        "vls-proxy"
+    ]
+}

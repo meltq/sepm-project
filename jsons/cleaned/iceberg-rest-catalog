@@ -1,0 +1,22 @@
+{
+    "name": "iceberg-rest-catalog",
+    "deps": [
+        "async-trait",
+        "futures",
+        "iceberg-rust",
+        "object_store",
+        "reqwest",
+        "reqwest-middleware",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "serde_with",
+        "testcontainers",
+        "tokio",
+        "tracing",
+        "tracing-futures",
+        "tracing-subscriber",
+        "url",
+        "uuid"
+    ]
+}

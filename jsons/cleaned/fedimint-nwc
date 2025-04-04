@@ -1,0 +1,25 @@
+{
+    "name": "fedimint-nwc",
+    "deps": [
+        "anyhow",
+        "axum",
+        "axum-macros",
+        "bincode",
+        "clap",
+        "dotenv",
+        "futures-util",
+        "image",
+        "itertools",
+        "multimint",
+        "nostr",
+        "nostr-sdk",
+        "qrcode",
+        "redb",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tower-http",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "name": "somm_test_runner",
+    "deps": [
+        "actix",
+        "actix-rt",
+        "actix-web",
+        "clarity",
+        "deep_space",
+        "docopt",
+        "env_logger",
+        "futures",
+        "lazy_static",
+        "log",
+        "num256",
+        "rand",
+        "serde",
+        "serde_derive",
+        "somm_cosmos_gravity",
+        "somm_ethereum_gravity",
+        "somm_gravity_proto",
+        "somm_gravity_utils",
+        "somm_orchestrator",
+        "tokio",
+        "tonic",
+        "url",
+        "web30"
+    ]
+}

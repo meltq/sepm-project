@@ -1,0 +1,28 @@
+{
+    "name": "jobby",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "bytes",
+        "chrono",
+        "futures",
+        "futures-core",
+        "humantime",
+        "inventory",
+        "itertools",
+        "jobby_derive",
+        "reqwest",
+        "rocket",
+        "rocket_sqlite_rw_pool",
+        "rusqlite",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "serde_repr",
+        "strum_macros",
+        "thiserror",
+        "tokio",
+        "url",
+        "zstd"
+    ]
+}

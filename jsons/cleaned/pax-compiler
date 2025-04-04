@@ -1,0 +1,32 @@
+{
+    "name": "pax-compiler",
+    "deps": [
+        "actix",
+        "actix-files",
+        "actix-web",
+        "actix-web-actors",
+        "bincode",
+        "clap",
+        "console_error_panic_hook",
+        "futures",
+        "include_dir",
+        "lazy_static",
+        "pax-message",
+        "pest",
+        "pest_derive",
+        "portpicker",
+        "rand",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "tera",
+        "tokio",
+        "tokio-serde",
+        "tokio-stream",
+        "tokio-util",
+        "toml_edit",
+        "uuid",
+        "walkdir",
+        "wasm-bindgen"
+    ]
+}

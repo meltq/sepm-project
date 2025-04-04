@@ -1,0 +1,16 @@
+{
+    "name": "llm-weaver",
+    "deps": [
+        "async-openai",
+        "async-trait",
+        "bounded-integer",
+        "chrono",
+        "num-traits",
+        "redis",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tracing"
+    ]
+}

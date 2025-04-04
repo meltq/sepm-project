@@ -1,0 +1,26 @@
+{
+    "name": "hello_idc",
+    "deps": [
+        "anyhow",
+        "axum",
+        "clap",
+        "maud",
+        "once_cell",
+        "openidconnect",
+        "opentelemetry",
+        "opentelemetry-otlp",
+        "opentelemetry-semantic-conventions",
+        "opentelemetry_sdk",
+        "serde",
+        "serde_json",
+        "tokio",
+        "toml",
+        "tonic",
+        "tower-cookies",
+        "tower-http",
+        "tracing",
+        "tracing-opentelemetry",
+        "tracing-subscriber",
+        "url"
+    ]
+}

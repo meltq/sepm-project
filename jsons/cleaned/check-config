@@ -1,0 +1,19 @@
+{
+    "name": "check-config",
+    "deps": [
+        "clap",
+        "clap-verbosity-flag",
+        "dirs",
+        "env_logger",
+        "log",
+        "regex",
+        "serde",
+        "serde_json",
+        "serde_yaml",
+        "similar",
+        "tempfile",
+        "thiserror",
+        "toml",
+        "toml_edit"
+    ]
+}

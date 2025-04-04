@@ -1,0 +1,20 @@
+{
+    "name": "markdown-linkify",
+    "deps": [
+        "anyhow",
+        "assert_cmd",
+        "assert_fs",
+        "clap",
+        "dyn-clone",
+        "predicates",
+        "pulldown-cmark",
+        "pulldown-cmark-to-cmark",
+        "regex",
+        "reqwest",
+        "select",
+        "serde",
+        "serde_regex",
+        "tempfile",
+        "toml"
+    ]
+}

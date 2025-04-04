@@ -1,0 +1,14 @@
+{
+    "name": "kuberator",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "futures",
+        "k8s-openapi",
+        "kube",
+        "log",
+        "schemars",
+        "serde",
+        "thiserror"
+    ]
+}

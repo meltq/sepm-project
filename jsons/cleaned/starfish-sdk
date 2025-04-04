@@ -1,0 +1,32 @@
+{
+    "name": "starfish-sdk",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "axum",
+        "base64",
+        "bb8-redis",
+        "chrono",
+        "config",
+        "futures",
+        "influxdb2",
+        "mongodb",
+        "num_cpus",
+        "reqwest",
+        "ring",
+        "rust_decimal",
+        "rust_decimal_macros",
+        "sea-orm",
+        "serde",
+        "serde_json",
+        "serde_urlencoded",
+        "serde_with",
+        "snowflaked",
+        "strum",
+        "tokio",
+        "tower-http",
+        "tracing",
+        "tracing-appender",
+        "tracing-subscriber"
+    ]
+}

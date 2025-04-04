@@ -1,0 +1,32 @@
+{
+    "name": "seekr",
+    "deps": [
+        "anyhow",
+        "askama",
+        "async-graphql",
+        "axum",
+        "clap",
+        "lingua",
+        "mime_guess",
+        "nom",
+        "proptest",
+        "rand",
+        "rust-embed",
+        "sea-orm",
+        "seekr-migration",
+        "serde",
+        "serde_json",
+        "sqlx",
+        "thiserror",
+        "tokio",
+        "tower",
+        "tower-http",
+        "tracing",
+        "tracing-subscriber",
+        "tracing-test",
+        "utoipa",
+        "utoipa-rapidoc",
+        "utoipa-redoc",
+        "utoipa-swagger-ui"
+    ]
+}

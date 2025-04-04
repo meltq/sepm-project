@@ -1,0 +1,17 @@
+{
+    "name": "gravitron_renderer",
+    "deps": [
+        "anyhow",
+        "ash",
+        "ash-window",
+        "glam",
+        "gpu-allocator",
+        "gravitron_ecs",
+        "gravitron_plugin",
+        "gravitron_window",
+        "image",
+        "log",
+        "thiserror",
+        "vk-shader-macros"
+    ]
+}

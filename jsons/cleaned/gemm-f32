@@ -1,0 +1,14 @@
+{
+    "name": "gemm-f32",
+    "deps": [
+        "dyn-stack",
+        "gemm-common",
+        "lazy_static",
+        "num-complex",
+        "num-traits",
+        "paste",
+        "raw-cpuid",
+        "rayon",
+        "seq-macro"
+    ]
+}

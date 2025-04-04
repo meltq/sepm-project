@@ -1,0 +1,14 @@
+{
+    "name": "netmod-udp",
+    "deps": [
+        "async-std",
+        "async-trait",
+        "bincode",
+        "identity",
+        "netmod",
+        "serde",
+        "task-notify",
+        "tracing",
+        "tracing-futures"
+    ]
+}

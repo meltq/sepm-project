@@ -1,0 +1,14 @@
+{
+    "name": "tpfs_logger_port",
+    "deps": [
+        "chrono",
+        "derive_more",
+        "lazy_static",
+        "log",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "snafu",
+        "tpfs_log_event_procmacro"
+    ]
+}

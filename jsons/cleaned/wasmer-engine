@@ -1,0 +1,17 @@
+{
+    "name": "wasmer-engine",
+    "deps": [
+        "backtrace",
+        "bincode",
+        "lazy_static",
+        "more-asserts",
+        "rustc-demangle",
+        "serde",
+        "serde_bytes",
+        "target-lexicon",
+        "thiserror",
+        "wasmer-compiler",
+        "wasmer-types",
+        "wasmer-vm"
+    ]
+}

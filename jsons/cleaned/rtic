@@ -1,0 +1,18 @@
+{
+    "name": "rtic",
+    "deps": [
+        "atomic-polyfill",
+        "bare-metal",
+        "cortex-m",
+        "cortex-m-semihosting",
+        "critical-section",
+        "futures",
+        "heapless",
+        "lm3s6965",
+        "panic-semihosting",
+        "rtic-core",
+        "rtic-macros",
+        "rtic-monotonics",
+        "trybuild"
+    ]
+}

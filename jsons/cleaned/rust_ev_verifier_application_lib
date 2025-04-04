@@ -1,0 +1,16 @@
+{
+    "name": "rust_ev_verifier_application_lib",
+    "deps": [
+        "chrono",
+        "derive-getters",
+        "rayon",
+        "rust_ev_system_library",
+        "rust_ev_verifier_lib",
+        "serde",
+        "serde_json",
+        "strum",
+        "thiserror",
+        "tracing",
+        "typed-builder"
+    ]
+}

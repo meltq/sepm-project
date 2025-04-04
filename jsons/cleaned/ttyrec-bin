@@ -1,0 +1,17 @@
+{
+    "name": "ttyrec-bin",
+    "deps": [
+        "anyhow",
+        "async-std",
+        "libc",
+        "paw",
+        "pty-process",
+        "signal-hook",
+        "signal-hook-async-std",
+        "structopt",
+        "terminal_size",
+        "textmode",
+        "ttyrec",
+        "vt100"
+    ]
+}

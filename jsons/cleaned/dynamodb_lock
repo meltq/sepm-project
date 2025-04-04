@@ -1,0 +1,13 @@
+{
+    "name": "dynamodb_lock",
+    "deps": [
+        "async-trait",
+        "log",
+        "maplit",
+        "rusoto_core",
+        "rusoto_dynamodb",
+        "thiserror",
+        "tokio",
+        "uuid"
+    ]
+}

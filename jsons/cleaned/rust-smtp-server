@@ -1,0 +1,13 @@
+{
+    "name": "rust-smtp-server",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "futures",
+        "regex",
+        "rustls-pemfile",
+        "thiserror",
+        "tokio",
+        "tokio-rustls"
+    ]
+}

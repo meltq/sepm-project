@@ -1,0 +1,28 @@
+{
+    "name": "skootrs-bin",
+    "deps": [
+        "base64",
+        "clap",
+        "clap_mangen",
+        "clio",
+        "inquire",
+        "octocrab",
+        "opentelemetry",
+        "opentelemetry-jaeger",
+        "opentelemetry_sdk",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "serde_yaml",
+        "skootrs-lib",
+        "skootrs-model",
+        "skootrs-rest",
+        "skootrs-statestore",
+        "strum",
+        "tokio",
+        "tracing",
+        "tracing-bunyan-formatter",
+        "tracing-opentelemetry",
+        "tracing-subscriber"
+    ]
+}

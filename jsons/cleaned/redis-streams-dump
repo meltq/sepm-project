@@ -1,0 +1,14 @@
+{
+    "name": "redis-streams-dump",
+    "deps": [
+        "anyhow",
+        "env_logger",
+        "log",
+        "sea-streamer-file",
+        "sea-streamer-redis",
+        "sea-streamer-types",
+        "structopt",
+        "time",
+        "tokio"
+    ]
+}

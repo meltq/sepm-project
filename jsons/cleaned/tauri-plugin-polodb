@@ -1,0 +1,16 @@
+{
+    "name": "tauri-plugin-polodb",
+    "deps": [
+        "async-channel",
+        "polodb_core",
+        "serde",
+        "serde_json",
+        "tauri",
+        "tauri-plugin",
+        "tauri-plugin-fs",
+        "thiserror",
+        "tokio",
+        "tokio-test",
+        "uuid"
+    ]
+}

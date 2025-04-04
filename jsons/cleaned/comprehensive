@@ -1,0 +1,29 @@
+{
+    "name": "comprehensive",
+    "deps": [
+        "arc-swap",
+        "axum",
+        "axum-server",
+        "clap",
+        "futures",
+        "http",
+        "log",
+        "prometheus",
+        "prost",
+        "prost-types",
+        "rand",
+        "reqwest",
+        "rustls-pemfile",
+        "tempfile",
+        "tokio",
+        "tokio-rustls",
+        "tokio-stream",
+        "tonic",
+        "tonic-build",
+        "tonic-health",
+        "tonic-reflection",
+        "tonic_prometheus_layer",
+        "tower",
+        "tower-layer"
+    ]
+}

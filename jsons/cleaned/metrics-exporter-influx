@@ -1,0 +1,22 @@
+{
+    "name": "metrics-exporter-influx",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "chrono",
+        "http",
+        "httpmock",
+        "itertools",
+        "metrics",
+        "metrics-util",
+        "quanta",
+        "reqwest",
+        "tempfile",
+        "thiserror",
+        "tokio",
+        "tokio",
+        "tokio-retry",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

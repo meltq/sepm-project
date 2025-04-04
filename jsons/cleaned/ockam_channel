@@ -1,0 +1,17 @@
+{
+    "name": "ockam_channel",
+    "deps": [
+        "async-trait",
+        "ockam_core",
+        "ockam_key_exchange_core",
+        "ockam_key_exchange_xx",
+        "ockam_node",
+        "ockam_vault",
+        "ockam_vault_core",
+        "rand",
+        "serde",
+        "serde_bare",
+        "tracing",
+        "trybuild"
+    ]
+}

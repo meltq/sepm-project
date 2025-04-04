@@ -1,0 +1,26 @@
+{
+    "name": "openstack_cli",
+    "deps": [
+        "anyhow",
+        "assert_cmd",
+        "bytes",
+        "clap",
+        "cli-table",
+        "dialoguer",
+        "http",
+        "indicatif",
+        "json-patch",
+        "openstack_sdk",
+        "regex",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "structable_derive",
+        "thiserror",
+        "tokio",
+        "tokio-util",
+        "tracing",
+        "tracing-subscriber",
+        "url"
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "name": "rsgc",
+    "deps": [
+        "atomic",
+        "cfg-if",
+        "crossbeam-deque",
+        "crossbeam-queue",
+        "env_logger",
+        "errno",
+        "error-code",
+        "libc",
+        "log",
+        "memoffset",
+        "num-traits",
+        "num_cpus",
+        "once_cell",
+        "parking_lot",
+        "parking_lot_core",
+        "paste",
+        "rand",
+        "scoped-thread-pool",
+        "thread_local",
+        "winapi"
+    ]
+}

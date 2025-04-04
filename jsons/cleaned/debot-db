@@ -1,0 +1,15 @@
+{
+    "name": "debot-db",
+    "deps": [
+        "async-trait",
+        "bson",
+        "env_logger",
+        "futures",
+        "log",
+        "mongodb",
+        "serde",
+        "serde_json",
+        "shared_mongodb",
+        "tokio"
+    ]
+}

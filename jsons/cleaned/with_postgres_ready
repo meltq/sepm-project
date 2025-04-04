@@ -1,0 +1,13 @@
+{
+    "name": "with_postgres_ready",
+    "deps": [
+        "dockertest",
+        "env_logger",
+        "futures",
+        "test-log",
+        "tokio",
+        "tokio-postgres",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

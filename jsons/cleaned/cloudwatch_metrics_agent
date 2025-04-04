@@ -1,0 +1,18 @@
+{
+    "name": "cloudwatch_metrics_agent",
+    "deps": [
+        "async-trait",
+        "atty",
+        "aws-config",
+        "aws-sdk-cloudwatch",
+        "chrono",
+        "env_logger",
+        "log",
+        "more-asserts",
+        "rstats",
+        "structopt",
+        "sysinfo",
+        "test-log",
+        "tokio"
+    ]
+}

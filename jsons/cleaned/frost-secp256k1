@@ -1,0 +1,20 @@
+{
+    "name": "frost-secp256k1",
+    "deps": [
+        "bincode",
+        "criterion",
+        "ed25519-dalek",
+        "ed25519-zebra",
+        "frost-core",
+        "hex",
+        "k256",
+        "lazy_static",
+        "proptest",
+        "proptest-derive",
+        "rand",
+        "rand_chacha",
+        "rand_core",
+        "serde_json",
+        "sha2"
+    ]
+}

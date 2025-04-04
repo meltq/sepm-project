@@ -1,0 +1,18 @@
+{
+    "name": "qbit-api-rs",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "env_logger",
+        "log",
+        "reqwest",
+        "reqwest_cookie_store",
+        "serde",
+        "serde_json",
+        "serde_repr",
+        "serde_with",
+        "thiserror",
+        "tokio",
+        "url"
+    ]
+}

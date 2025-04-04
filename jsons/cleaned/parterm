@@ -1,0 +1,15 @@
+{
+    "name": "parterm",
+    "deps": [
+        "anyhow",
+        "clap",
+        "crossbeam-channel",
+        "errno",
+        "flexi_logger",
+        "libc",
+        "log",
+        "nix",
+        "signal-hook",
+        "termion"
+    ]
+}

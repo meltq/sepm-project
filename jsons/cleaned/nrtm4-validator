@@ -1,0 +1,24 @@
+{
+    "name": "nrtm4-validator",
+    "deps": [
+        "anyhow",
+        "base64",
+        "bytes",
+        "chrono",
+        "clap",
+        "ed25519-dalek",
+        "flate2",
+        "josekit",
+        "once_cell",
+        "pem",
+        "regex",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "sha256",
+        "tokio",
+        "url",
+        "uuid",
+        "validator"
+    ]
+}

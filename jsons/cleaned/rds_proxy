@@ -1,0 +1,27 @@
+{
+    "name": "rds_proxy",
+    "deps": [
+        "byteorder",
+        "bytes",
+        "clap",
+        "color-eyre",
+        "config",
+        "eyre",
+        "futures",
+        "memchr",
+        "native-tls",
+        "postgres-native-tls",
+        "postgres-protocol",
+        "rusoto",
+        "rusoto_credential",
+        "rusoto_signature",
+        "serde",
+        "serde_derive",
+        "tokio",
+        "tokio-postgres",
+        "tokio-stream",
+        "tokio-util",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

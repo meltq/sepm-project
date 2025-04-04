@@ -1,0 +1,30 @@
+{
+    "name": "kalosm-language-model",
+    "deps": [
+        "anyhow",
+        "async-openai",
+        "async-trait",
+        "candle-core",
+        "futures-util",
+        "itertools",
+        "kalosm-sample",
+        "kalosm-streams",
+        "llm-samplers",
+        "log",
+        "num_cpus",
+        "once_cell",
+        "pin-project",
+        "rand",
+        "reqwest",
+        "rustc-hash",
+        "serde",
+        "serde_json",
+        "slab",
+        "tempfile",
+        "tokenizers",
+        "tokio",
+        "tokio-util",
+        "tracing",
+        "url"
+    ]
+}

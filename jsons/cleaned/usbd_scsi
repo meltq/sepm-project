@@ -1,0 +1,14 @@
+{
+    "name": "usbd_scsi",
+    "deps": [
+        "embedded-hal",
+        "itm_logger",
+        "nb",
+        "packing",
+        "typenum",
+        "uf2_block",
+        "usb-device",
+        "usbd_bulk_only_transport",
+        "usbd_mass_storage"
+    ]
+}

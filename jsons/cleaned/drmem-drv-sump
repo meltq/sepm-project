@@ -1,0 +1,12 @@
+{
+    "name": "drmem-drv-sump",
+    "deps": [
+        "drmem-api",
+        "drmem-config",
+        "tokio",
+        "toml",
+        "tracing",
+        "tracing-futures",
+        "tracing-subscriber"
+    ]
+}

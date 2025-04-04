@@ -1,0 +1,19 @@
+{
+    "name": "bandcamp_recommendations",
+    "deps": [
+        "actix-files",
+        "actix-web",
+        "chrono",
+        "clap",
+        "fallible-iterator",
+        "r2d2",
+        "r2d2_sqlite",
+        "reqwest",
+        "rusqlite",
+        "serde",
+        "serde_json",
+        "snafu",
+        "soup",
+        "tokio"
+    ]
+}

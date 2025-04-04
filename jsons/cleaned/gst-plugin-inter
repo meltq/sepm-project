@@ -1,0 +1,17 @@
+{
+    "name": "gst-plugin-inter",
+    "deps": [
+        "anyhow",
+        "futures",
+        "gst",
+        "gst-app",
+        "gst-check",
+        "gst-plugin-version-helper",
+        "gst-utils",
+        "once_cell",
+        "pretty_assertions",
+        "serial_test",
+        "tokio",
+        "tokio-stream"
+    ]
+}

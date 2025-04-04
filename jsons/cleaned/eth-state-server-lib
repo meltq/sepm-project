@@ -1,0 +1,19 @@
+{
+    "name": "eth-state-server-lib",
+    "deps": [
+        "clap",
+        "eth-block-history",
+        "eth-state-fold",
+        "eth-state-fold-types",
+        "eth-state-server-common",
+        "futures",
+        "serde",
+        "serde_json",
+        "snafu",
+        "tokio",
+        "tokio-stream",
+        "tonic",
+        "tonic-health",
+        "tracing"
+    ]
+}

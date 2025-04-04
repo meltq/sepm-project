@@ -1,0 +1,14 @@
+{
+    "name": "storage_hal",
+    "deps": [
+        "async-std",
+        "bincode",
+        "bytes",
+        "moka",
+        "parking_lot",
+        "serde",
+        "sled",
+        "storage_hal_derive",
+        "tracing"
+    ]
+}

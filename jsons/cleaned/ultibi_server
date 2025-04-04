@@ -1,0 +1,19 @@
+{
+    "name": "ultibi_server",
+    "deps": [
+        "actix-web",
+        "actix-web-static-files",
+        "anyhow",
+        "dotenv",
+        "log",
+        "mime",
+        "pretty_env_logger",
+        "serde",
+        "serde_json",
+        "static-files",
+        "tokio",
+        "tracing",
+        "ultibi_core",
+        "static-files"
+    ]
+}

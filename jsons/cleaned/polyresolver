@@ -1,0 +1,18 @@
+{
+    "name": "polyresolver",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "notify",
+        "openssl",
+        "serde",
+        "serde_yaml",
+        "tempdir",
+        "tokio",
+        "tracing",
+        "tracing-log",
+        "tracing-subscriber",
+        "trust-dns-resolver",
+        "trust-dns-server"
+    ]
+}

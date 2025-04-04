@@ -1,0 +1,29 @@
+{
+    "name": "wolfengine",
+    "deps": [
+        "anyhow",
+        "async-raft",
+        "async-trait",
+        "futures",
+        "hyper",
+        "lazy_static",
+        "lazy_static",
+        "may",
+        "memstore",
+        "mimalloc",
+        "parking_lot",
+        "prost",
+        "rustls-pemfile",
+        "scylla",
+        "serde",
+        "serde_json",
+        "sysinfo",
+        "tokio",
+        "tokio-rustls",
+        "tokio-tungstenite",
+        "tonic",
+        "tracing",
+        "uuid",
+        "webpki-roots"
+    ]
+}

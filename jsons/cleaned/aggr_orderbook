@@ -1,0 +1,19 @@
+{
+    "name": "aggr_orderbook",
+    "deps": [
+        "axum",
+        "clap",
+        "color-eyre",
+        "futures-util",
+        "hyper",
+        "notify",
+        "plotly",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "serde_with",
+        "tokio",
+        "tokio-tungstenite",
+        "v_utils"
+    ]
+}

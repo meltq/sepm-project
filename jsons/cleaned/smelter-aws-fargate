@@ -1,0 +1,22 @@
+{
+    "name": "smelter-aws-fargate",
+    "deps": [
+        "async-trait",
+        "aws-config",
+        "aws-sdk-ecs",
+        "aws-sdk-s3",
+        "aws-smithy-runtime-api",
+        "error-stack",
+        "eyre",
+        "futures",
+        "rand",
+        "serde",
+        "serde_json",
+        "smelter-job-manager",
+        "smelter-worker",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "url"
+    ]
+}

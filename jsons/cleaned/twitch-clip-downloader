@@ -1,0 +1,17 @@
+{
+    "name": "twitch-clip-downloader",
+    "deps": [
+        "indicatif",
+        "log",
+        "pretty_env_logger",
+        "rayon",
+        "regex",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "structopt",
+        "time",
+        "tokio",
+        "twitch-api-rs"
+    ]
+}

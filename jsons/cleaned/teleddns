@@ -1,0 +1,30 @@
+{
+    "name": "teleddns",
+    "deps": [
+        "async-global-executor",
+        "async-process",
+        "async-std",
+        "clap",
+        "clap-verbosity-flag",
+        "env_logger",
+        "env_logger",
+        "futures",
+        "http",
+        "ipnetwork",
+        "log",
+        "macaddr",
+        "netlink-packet-core",
+        "netlink-packet-route",
+        "netlink-packet-utils",
+        "netlink-proto",
+        "netlink-sys",
+        "nix",
+        "reqwest",
+        "rtnetlink",
+        "serde",
+        "serde_derive",
+        "serde_yaml",
+        "thiserror",
+        "tokio"
+    ]
+}

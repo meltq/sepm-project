@@ -1,0 +1,17 @@
+{
+    "name": "openpgp-ca-restd",
+    "deps": [
+        "anyhow",
+        "chrono",
+        "clap",
+        "once_cell",
+        "openpgp-ca-lib",
+        "reqwest",
+        "rocket",
+        "sequoia-openpgp",
+        "serde",
+        "serde_json",
+        "structopt",
+        "tokio"
+    ]
+}

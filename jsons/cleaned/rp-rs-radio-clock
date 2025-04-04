@@ -1,0 +1,16 @@
+{
+    "name": "rp-rs-radio-clock",
+    "deps": [
+        "cortex-m",
+        "cortex-m-rt",
+        "dcf77_utils",
+        "defmt-rtt",
+        "embedded-hal",
+        "embedded-time",
+        "hd44780-driver",
+        "heapless",
+        "panic-halt",
+        "radio_datetime_utils",
+        "rp-pico"
+    ]
+}

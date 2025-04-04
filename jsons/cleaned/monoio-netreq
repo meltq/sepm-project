@@ -1,0 +1,18 @@
+{
+    "name": "monoio-netreq",
+    "deps": [
+        "anyhow",
+        "bytes",
+        "http",
+        "http-body-util",
+        "hyper",
+        "monoio",
+        "monoio-http",
+        "monoio-transports-netreq-fork",
+        "serde",
+        "serde_json",
+        "service-async",
+        "smol_str",
+        "thiserror"
+    ]
+}

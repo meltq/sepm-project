@@ -1,0 +1,14 @@
+{
+    "name": "tetcore-test-runtime-transaction-pool",
+    "deps": [
+        "codec",
+        "derive_more",
+        "futures",
+        "parking_lot",
+        "tc-transaction-graph",
+        "tetcore-test-runtime-client",
+        "tp-blockchain",
+        "tp-runtime",
+        "tp-transaction-pool"
+    ]
+}

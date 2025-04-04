@@ -1,0 +1,29 @@
+{
+    "name": "hswp",
+    "deps": [
+        "aes-gcm",
+        "base64",
+        "blake2",
+        "byteorder",
+        "chacha20poly1305",
+        "clap",
+        "criterion",
+        "curve25519-dalek",
+        "hex",
+        "lazy_static",
+        "pqcrypto-kyber",
+        "pqcrypto-traits",
+        "pqkd",
+        "rand",
+        "rand_core",
+        "ring",
+        "rustc_version",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "sha2",
+        "sodiumoxide",
+        "subtle",
+        "x25519-dalek"
+    ]
+}

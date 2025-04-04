@@ -1,0 +1,24 @@
+{
+    "name": "ocsp-stapler",
+    "deps": [
+        "anyhow",
+        "arc-swap",
+        "bytes",
+        "chrono",
+        "hex-literal",
+        "http",
+        "prometheus",
+        "rasn",
+        "rasn-ocsp",
+        "rasn-pkix",
+        "reqwest",
+        "rustls",
+        "rustls-pemfile",
+        "sha1",
+        "tokio",
+        "tokio-util",
+        "tracing",
+        "url",
+        "x509-parser"
+    ]
+}

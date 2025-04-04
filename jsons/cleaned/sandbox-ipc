@@ -1,0 +1,21 @@
+{
+    "name": "sandbox-ipc",
+    "deps": [
+        "advapi32-sys",
+        "bincode",
+        "futures",
+        "kernel32-sys",
+        "libc",
+        "log",
+        "mio",
+        "mio-named-pipes",
+        "serde",
+        "serde_derive",
+        "serde_urlencoded",
+        "tokio-core",
+        "tokio-io",
+        "uuid",
+        "winapi",
+        "winhandle"
+    ]
+}

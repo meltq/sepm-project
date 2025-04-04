@@ -1,0 +1,30 @@
+{
+    "name": "boa_engine",
+    "deps": [
+        "bitflags",
+        "boa_gc",
+        "boa_interner",
+        "boa_profiler",
+        "boa_unicode",
+        "chrono",
+        "criterion",
+        "dyn-clone",
+        "fast-float",
+        "float-cmp",
+        "gc",
+        "indexmap",
+        "jemallocator",
+        "num-bigint",
+        "num-integer",
+        "num-traits",
+        "once_cell",
+        "rand",
+        "regress",
+        "rustc-hash",
+        "ryu-js",
+        "serde",
+        "serde_json",
+        "tap",
+        "unicode-normalization"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "name": "route53-exporter",
+    "deps": [
+        "aws-config",
+        "aws-sdk-route53",
+        "clap",
+        "color-eyre",
+        "inquire",
+        "serde",
+        "serde_json",
+        "tokio"
+    ]
+}

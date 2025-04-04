@@ -1,0 +1,29 @@
+{
+    "name": "indy-vdr",
+    "deps": [
+        "chrono",
+        "env_logger",
+        "etcommon-rlp",
+        "ffi-support",
+        "futures-channel",
+        "futures-executor",
+        "futures-util",
+        "hex",
+        "indy-data-types",
+        "indy-data-types",
+        "indy-test-utils",
+        "indy-utils",
+        "log",
+        "once_cell",
+        "pin-utils",
+        "rand",
+        "regex",
+        "rmp-serde",
+        "rstest",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "ursa",
+        "zmq"
+    ]
+}

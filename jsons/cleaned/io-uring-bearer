@@ -1,0 +1,15 @@
+{
+    "name": "io-uring-bearer",
+    "deps": [
+        "capacity",
+        "hashbrown",
+        "io-uring",
+        "io-uring-fd",
+        "io-uring-opcode",
+        "libc",
+        "nohash-hasher",
+        "slab",
+        "slabbable",
+        "slabbable-impl-selector"
+    ]
+}

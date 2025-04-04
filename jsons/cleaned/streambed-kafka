@@ -1,0 +1,23 @@
+{
+    "name": "streambed-kafka",
+    "deps": [
+        "async-stream",
+        "async-trait",
+        "clap",
+        "env_logger",
+        "http",
+        "humantime",
+        "hyper",
+        "log",
+        "metrics",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "smol_str",
+        "streambed",
+        "streambed-test",
+        "test-log",
+        "tokio",
+        "tokio-stream"
+    ]
+}

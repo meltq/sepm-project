@@ -1,0 +1,27 @@
+{
+    "name": "dusk-wasmtime-environ",
+    "deps": [
+        "anyhow",
+        "bincode",
+        "clap",
+        "cpp_demangle",
+        "cranelift-entity",
+        "env_logger",
+        "gimli",
+        "indexmap",
+        "log",
+        "object",
+        "paste",
+        "rustc-demangle",
+        "serde",
+        "serde_derive",
+        "target-lexicon",
+        "thiserror",
+        "wasm-encoder",
+        "wasmparser",
+        "wasmprinter",
+        "wasmtime-component-util",
+        "wasmtime-types",
+        "wat"
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "name": "spire-workload",
+    "deps": [
+        "anyhow",
+        "arc-swap",
+        "base64",
+        "env_logger",
+        "futures",
+        "jsonwebtoken",
+        "lazy_static",
+        "log",
+        "oid-registry",
+        "openssl",
+        "prost",
+        "rcgen",
+        "rustls",
+        "serde",
+        "serde_json",
+        "serde_test",
+        "tokio",
+        "tokio-rustls",
+        "tonic",
+        "tonic-build",
+        "tower",
+        "url",
+        "webpki",
+        "x509-parser"
+    ]
+}

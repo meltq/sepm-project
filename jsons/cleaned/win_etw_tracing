@@ -1,0 +1,12 @@
+{
+    "name": "win_etw_tracing",
+    "deps": [
+        "anyhow",
+        "bytes",
+        "tracing",
+        "tracing-log",
+        "tracing-subscriber",
+        "win_etw_metadata",
+        "win_etw_provider"
+    ]
+}

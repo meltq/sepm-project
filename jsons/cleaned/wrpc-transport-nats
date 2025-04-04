@@ -1,0 +1,14 @@
+{
+    "name": "wrpc-transport-nats",
+    "deps": [
+        "anyhow",
+        "async-nats",
+        "async-trait",
+        "bytes",
+        "futures",
+        "tokio",
+        "tracing",
+        "wrpc-transport",
+        "wrpc-types"
+    ]
+}

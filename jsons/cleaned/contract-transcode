@@ -1,0 +1,27 @@
+{
+    "name": "contract-transcode",
+    "deps": [
+        "anyhow",
+        "assert_matches",
+        "contract-metadata",
+        "env_logger",
+        "escape8259",
+        "hex",
+        "indexmap",
+        "ink_env",
+        "ink_lang",
+        "ink_metadata",
+        "ink_primitives",
+        "ink_storage",
+        "itertools",
+        "log",
+        "nom",
+        "nom-supreme",
+        "scale",
+        "scale-info",
+        "serde",
+        "serde_json",
+        "sp-core",
+        "sp-runtime"
+    ]
+}

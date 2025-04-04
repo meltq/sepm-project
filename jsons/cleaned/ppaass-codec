@@ -1,0 +1,19 @@
+{
+    "name": "ppaass-codec",
+    "deps": [
+        "bytes",
+        "flate2",
+        "futures",
+        "futures-util",
+        "log",
+        "pin-project",
+        "ppaass-crypto",
+        "ppaass-protocol",
+        "pretty-hex",
+        "serde",
+        "serde_derive",
+        "thiserror",
+        "tokio-util",
+        "uuid"
+    ]
+}

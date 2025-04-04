@@ -1,0 +1,28 @@
+{
+    "name": "ogcapi-services",
+    "deps": [
+        "anyhow",
+        "axum",
+        "clap",
+        "dotenv",
+        "geojson",
+        "hyper",
+        "ogcapi-drivers",
+        "ogcapi-types",
+        "once_cell",
+        "openapiv3",
+        "schemars",
+        "serde",
+        "serde_json",
+        "serde_qs",
+        "serde_yaml",
+        "thiserror",
+        "tokio",
+        "tower",
+        "tower-http",
+        "tracing",
+        "tracing-subscriber",
+        "url",
+        "uuid"
+    ]
+}

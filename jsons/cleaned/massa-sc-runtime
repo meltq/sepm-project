@@ -1,0 +1,18 @@
+{
+    "name": "massa-sc-runtime",
+    "deps": [
+        "anyhow",
+        "as-ffi-bindings",
+        "base64",
+        "cornetto",
+        "lazy_static",
+        "loupe",
+        "serde",
+        "serde_json",
+        "serial_test",
+        "wasmer",
+        "wasmer-compiler-singlepass",
+        "wasmer-engine-universal",
+        "wasmer-middlewares"
+    ]
+}

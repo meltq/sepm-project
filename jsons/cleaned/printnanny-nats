@@ -1,0 +1,27 @@
+{
+    "name": "printnanny-nats",
+    "deps": [
+        "anyhow",
+        "async-nats",
+        "async-process",
+        "bytes",
+        "chrono",
+        "clap",
+        "env_logger",
+        "futures",
+        "log",
+        "printnanny-api-client",
+        "printnanny-services",
+        "serde",
+        "serde-reflection",
+        "serde_bytes",
+        "serde_json",
+        "serde_variant",
+        "test-log",
+        "thiserror",
+        "tokio",
+        "tokio-serde",
+        "tokio-util",
+        "uuid"
+    ]
+}

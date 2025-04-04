@@ -1,0 +1,19 @@
+{
+    "name": "cargo-sbom",
+    "deps": [
+        "anyhow",
+        "built",
+        "cargo_metadata",
+        "chrono",
+        "clap",
+        "clap-cargo",
+        "duct",
+        "duct_sh",
+        "petgraph",
+        "semver",
+        "serde-cyclonedx",
+        "serde-spdx",
+        "serde_json",
+        "uuid"
+    ]
+}

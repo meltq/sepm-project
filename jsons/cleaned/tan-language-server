@@ -1,0 +1,16 @@
+{
+    "name": "tan-language-server",
+    "deps": [
+        "anyhow",
+        "clap",
+        "lsp-server",
+        "lsp-types",
+        "serde",
+        "serde_json",
+        "tan",
+        "tan-lints",
+        "tan_fmt",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

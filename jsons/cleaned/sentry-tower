@@ -1,0 +1,15 @@
+{
+    "name": "sentry-tower",
+    "deps": [
+        "anyhow",
+        "http_",
+        "pin-project",
+        "prost",
+        "sentry-core",
+        "tokio",
+        "tonic",
+        "tower",
+        "tower-layer",
+        "tower-service"
+    ]
+}

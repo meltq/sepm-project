@@ -1,0 +1,17 @@
+{
+    "name": "sfr-server",
+    "deps": [
+        "axum",
+        "reqwest",
+        "serde_json",
+        "serde_urlencoded",
+        "sfr-core",
+        "sfr-slack-api",
+        "sfr-types",
+        "tokio",
+        "tower-http",
+        "tracing",
+        "tracing-subscriber",
+        "typed-builder"
+    ]
+}

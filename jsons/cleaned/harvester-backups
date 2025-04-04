@@ -1,0 +1,16 @@
+{
+    "name": "harvester-backups",
+    "deps": [
+        "anyhow",
+        "clap",
+        "colored",
+        "itertools",
+        "k8s-crds-longhorn",
+        "k8s-openapi",
+        "kube",
+        "serde",
+        "serde_json",
+        "serde_yml",
+        "tokio"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "name": "cargo-git-semver",
+    "deps": [
+        "anyhow",
+        "clap",
+        "clap-cargo",
+        "env_logger",
+        "git2",
+        "log",
+        "regex",
+        "semver",
+        "tempfile",
+        "thiserror",
+        "toml"
+    ]
+}

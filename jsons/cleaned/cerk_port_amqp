@@ -1,0 +1,17 @@
+{
+    "name": "cerk_port_amqp",
+    "deps": [
+        "amq-protocol",
+        "amq-protocol-types",
+        "anyhow",
+        "async-global-executor",
+        "async-std",
+        "cerk",
+        "cloudevents-sdk",
+        "env_logger",
+        "futures-lite",
+        "lapin",
+        "log",
+        "serde_json"
+    ]
+}

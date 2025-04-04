@@ -1,0 +1,15 @@
+{
+    "name": "parrse-server",
+    "deps": [
+        "axum",
+        "deadpool-postgres",
+        "futures",
+        "postgres-types",
+        "rustls",
+        "serde",
+        "tokio",
+        "tokio-postgres",
+        "tokio-postgres-rustls",
+        "webpki-roots"
+    ]
+}

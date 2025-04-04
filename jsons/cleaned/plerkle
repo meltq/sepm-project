@@ -1,0 +1,31 @@
+{
+    "name": "plerkle",
+    "deps": [
+        "async-trait",
+        "base64",
+        "bs58",
+        "bytemuck",
+        "cadence",
+        "cadence-macros",
+        "chrono",
+        "figment",
+        "flatbuffers",
+        "hex",
+        "lazy_static",
+        "log",
+        "num-integer",
+        "plerkle_messenger",
+        "plerkle_serialization",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "solana-geyser-plugin-interface",
+        "solana-logger",
+        "solana-runtime",
+        "solana-sdk",
+        "solana-transaction-status",
+        "thiserror",
+        "tokio",
+        "tracing"
+    ]
+}

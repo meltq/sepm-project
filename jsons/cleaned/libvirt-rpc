@@ -1,0 +1,20 @@
+{
+    "name": "libvirt-rpc",
+    "deps": [
+        "bitflags",
+        "byteorder",
+        "bytes",
+        "env_logger",
+        "futures",
+        "log",
+        "tokio-core",
+        "tokio-io",
+        "tokio-proto",
+        "tokio-service",
+        "tokio-uds",
+        "tokio-uds-proto",
+        "uuid",
+        "xdr-codec",
+        "xdrgen"
+    ]
+}

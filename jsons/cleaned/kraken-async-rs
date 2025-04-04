@@ -1,0 +1,32 @@
+{
+    "name": "kraken-async-rs",
+    "deps": [
+        "async-rate-limit",
+        "base64",
+        "dotenvy",
+        "futures-util",
+        "hmac",
+        "http-body-util",
+        "hyper",
+        "hyper-tls",
+        "hyper-util",
+        "secrecy",
+        "serde",
+        "serde-this-or-that",
+        "serde_json",
+        "serde_tuple",
+        "serde_with",
+        "sha2",
+        "simple-builder",
+        "time",
+        "to-query-params",
+        "tokio",
+        "tokio-stream",
+        "tokio-tungstenite",
+        "tracing",
+        "tracing-subscriber",
+        "url",
+        "wiremock",
+        "ws-mock"
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "name": "ayaka-runtime",
+    "deps": [
+        "anyhow",
+        "ayaka-bindings-types",
+        "ayaka-plugin",
+        "ayaka-plugin-nop",
+        "ayaka-plugin-wasmer",
+        "ayaka-plugin-wasmi",
+        "ayaka-plugin-wasmtime",
+        "ayaka-primitive",
+        "ayaka-script",
+        "cfg-if",
+        "fallback",
+        "futures-util",
+        "generic-tests",
+        "icu_locid",
+        "language-matcher",
+        "log",
+        "rand",
+        "serde",
+        "serde_yaml",
+        "slab",
+        "stream-future",
+        "sys-locale",
+        "tokio",
+        "trylog",
+        "vfs",
+        "vfs-tar"
+    ]
+}

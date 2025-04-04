@@ -1,0 +1,33 @@
+{
+    "name": "rsql_drivers",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "base64",
+        "bit-vec",
+        "chrono",
+        "form_urlencoded",
+        "indoc",
+        "libsql",
+        "mockall",
+        "num-format",
+        "postgresql_archive",
+        "postgresql_embedded",
+        "rusqlite",
+        "rust-i18n",
+        "rust_decimal",
+        "serde",
+        "serde_json",
+        "sqlx",
+        "test-log",
+        "testcontainers",
+        "testcontainers-modules",
+        "thiserror",
+        "tokio",
+        "tokio",
+        "tokio-postgres",
+        "tracing",
+        "url",
+        "uuid"
+    ]
+}

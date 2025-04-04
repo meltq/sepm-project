@@ -1,0 +1,16 @@
+{
+    "name": "background-jobs-server",
+    "deps": [
+        "background-jobs-core",
+        "failure",
+        "futures",
+        "futures-zmq",
+        "log",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tokio-threadpool",
+        "tokio-zmq",
+        "zmq"
+    ]
+}

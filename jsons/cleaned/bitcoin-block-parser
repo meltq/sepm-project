@@ -1,0 +1,12 @@
+{
+    "name": "bitcoin-block-parser",
+    "deps": [
+        "anyhow",
+        "bitcoin",
+        "clap",
+        "postcard",
+        "rustc-hash",
+        "scalable_cuckoo_filter",
+        "threadpool"
+    ]
+}

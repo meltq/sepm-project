@@ -1,0 +1,17 @@
+{
+    "name": "mm1-core",
+    "deps": [
+        "either",
+        "eyre",
+        "futures",
+        "mm1-address",
+        "mm1-common",
+        "mm1-proc-macros",
+        "mm1-proto",
+        "mm1-proto-system",
+        "serde",
+        "thiserror",
+        "tokio",
+        "tracing"
+    ]
+}

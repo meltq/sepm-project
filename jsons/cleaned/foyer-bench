@@ -1,0 +1,28 @@
+{
+    "name": "foyer-bench",
+    "deps": [
+        "anyhow",
+        "bytesize",
+        "clap",
+        "console-subscriber",
+        "foyer",
+        "futures",
+        "hdrhistogram",
+        "itertools",
+        "metrics",
+        "metrics-exporter-prometheus",
+        "opentelemetry",
+        "opentelemetry-otlp",
+        "opentelemetry-semantic-conventions",
+        "opentelemetry_sdk",
+        "parking_lot",
+        "rand",
+        "serde",
+        "serde_bytes",
+        "tokio",
+        "tracing",
+        "tracing-opentelemetry",
+        "tracing-subscriber",
+        "zipf"
+    ]
+}

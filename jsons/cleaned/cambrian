@@ -1,0 +1,32 @@
+{
+    "name": "cambrian",
+    "deps": [
+        "anyhow",
+        "async-channel",
+        "async-process",
+        "async-trait",
+        "clap",
+        "command-group",
+        "ctrlc",
+        "derivative",
+        "enum-display-derive",
+        "env_logger",
+        "float-cmp",
+        "futures",
+        "futures-timer",
+        "itertools",
+        "lazy_static",
+        "log",
+        "nix",
+        "parse_duration",
+        "rand",
+        "rand_distr",
+        "rustc-hash",
+        "serde",
+        "serde_json",
+        "serde_yaml",
+        "tangram_finite",
+        "thiserror",
+        "tokio"
+    ]
+}

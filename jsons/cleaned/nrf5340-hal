@@ -1,0 +1,10 @@
+{
+    "name": "nrf5340-hal",
+    "deps": [
+        "cortex-m-rt",
+        "cortex-m-semihosting",
+        "nrf5340-app-pac",
+        "nrf5340-net-pac",
+        "panic-semihosting"
+    ]
+}

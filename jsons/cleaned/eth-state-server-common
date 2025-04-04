@@ -1,0 +1,13 @@
+{
+    "name": "eth-state-server-common",
+    "deps": [
+        "anyhow",
+        "eth-state-fold-types",
+        "prost",
+        "serde",
+        "serde_json",
+        "snafu",
+        "tonic",
+        "tonic-build"
+    ]
+}

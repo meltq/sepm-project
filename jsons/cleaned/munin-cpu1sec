@@ -1,0 +1,12 @@
+{
+    "name": "munin-cpu1sec",
+    "deps": [
+        "anyhow",
+        "log",
+        "munin-plugin",
+        "parse_int",
+        "procfs",
+        "simple_logger",
+        "tempfile"
+    ]
+}

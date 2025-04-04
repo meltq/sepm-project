@@ -1,0 +1,30 @@
+{
+    "name": "translator_sv2",
+    "deps": [
+        "async-channel",
+        "async-compat",
+        "async-recursion",
+        "async-std",
+        "binary_sv2",
+        "buffer_sv2",
+        "codec_sv2",
+        "error_handling",
+        "framing_sv2",
+        "futures",
+        "key-utils",
+        "network_helpers_sv2",
+        "once_cell",
+        "rand",
+        "roles_logic_sv2",
+        "serde",
+        "serde_json",
+        "sha2",
+        "stratum-common",
+        "tokio",
+        "tokio-util",
+        "toml",
+        "tracing",
+        "tracing-subscriber",
+        "v1"
+    ]
+}

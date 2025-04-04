@@ -1,0 +1,20 @@
+{
+    "name": "candle-core",
+    "deps": [
+        "anyhow",
+        "byteorder",
+        "candle-kernels",
+        "cudarc",
+        "gemm",
+        "half",
+        "intel-mkl-src",
+        "libc",
+        "memmap2",
+        "num-traits",
+        "num_cpus",
+        "rand",
+        "safetensors",
+        "thiserror",
+        "zip"
+    ]
+}

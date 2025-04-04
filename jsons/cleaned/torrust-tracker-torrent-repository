@@ -1,0 +1,18 @@
+{
+    "name": "torrust-tracker-torrent-repository",
+    "deps": [
+        "aquatic_udp_protocol",
+        "async-std",
+        "criterion",
+        "crossbeam-skiplist",
+        "dashmap",
+        "futures",
+        "parking_lot",
+        "rstest",
+        "tokio",
+        "torrust-tracker-clock",
+        "torrust-tracker-configuration",
+        "torrust-tracker-primitives",
+        "zerocopy"
+    ]
+}

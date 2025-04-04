@@ -1,0 +1,27 @@
+{
+    "name": "rusty-penguin",
+    "deps": [
+        "async-socks5",
+        "clap",
+        "env_logger",
+        "futures-util",
+        "http",
+        "log",
+        "rcgen",
+        "rustls",
+        "rustls-native-certs",
+        "rustls-pemfile",
+        "socksv5",
+        "tempfile",
+        "thiserror",
+        "tokio",
+        "tokio-stream-multiplexor",
+        "tokio-tungstenite",
+        "tungstenite",
+        "url",
+        "warp",
+        "warp-reverse-proxy",
+        "webpki",
+        "webpki-roots"
+    ]
+}

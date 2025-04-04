@@ -1,0 +1,33 @@
+{
+    "name": "mysql_wasi",
+    "deps": [
+        "bufstream",
+        "bytes",
+        "crossbeam",
+        "flate2",
+        "frunk",
+        "io-enum",
+        "lazy_static",
+        "libc",
+        "lru",
+        "mysql_common",
+        "named_pipe",
+        "native-tls",
+        "once_cell",
+        "pem",
+        "percent-encoding",
+        "rand",
+        "rustls",
+        "rustls-pemfile",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "socket2",
+        "time",
+        "twox-hash",
+        "url",
+        "wasmedge_wasi_socket",
+        "webpki",
+        "webpki-roots"
+    ]
+}

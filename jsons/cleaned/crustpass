@@ -1,0 +1,19 @@
+{
+    "name": "crustpass",
+    "deps": [
+        "aes",
+        "axum",
+        "axum-server",
+        "base64",
+        "cbc",
+        "http-body-util",
+        "libsql",
+        "rand",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tracing",
+        "tracing-subscriber",
+        "uuid"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "elasticsearch_exporter",
+    "deps": [
+        "clap",
+        "elasticsearch",
+        "futures-util",
+        "humantime",
+        "hyper",
+        "lazy_static",
+        "log",
+        "pretty_env_logger",
+        "prometheus",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "serde_qs",
+        "tokio",
+        "url"
+    ]
+}

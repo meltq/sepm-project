@@ -1,0 +1,14 @@
+{
+    "name": "mz_rusoto_route53",
+    "deps": [
+        "async-trait",
+        "bytes",
+        "futures",
+        "mz_rusoto_core",
+        "mz_rusoto_mock",
+        "serde",
+        "serde_derive",
+        "tokio",
+        "xml-rs"
+    ]
+}

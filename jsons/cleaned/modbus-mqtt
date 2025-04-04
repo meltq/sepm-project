@@ -1,0 +1,22 @@
+{
+    "name": "modbus-mqtt",
+    "deps": [
+        "bytes",
+        "clap",
+        "humantime-serde",
+        "itertools",
+        "pretty_assertions",
+        "rumqttc",
+        "rust_decimal",
+        "serde",
+        "serde_json",
+        "serialport",
+        "tokio",
+        "tokio-modbus",
+        "tokio-serial",
+        "tokio_modbus-winets",
+        "tracing",
+        "tracing-subscriber",
+        "uuid"
+    ]
+}

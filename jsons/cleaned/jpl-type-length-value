@@ -1,0 +1,16 @@
+{
+    "name": "jpl-type-length-value",
+    "deps": [
+        "bytemuck",
+        "jpl-discriminator",
+        "jpl-pod",
+        "jpl-type-length-value-derive",
+        "num-derive",
+        "num-traits",
+        "solana-account-info",
+        "solana-decode-error",
+        "solana-msg",
+        "solana-program-error",
+        "thiserror"
+    ]
+}

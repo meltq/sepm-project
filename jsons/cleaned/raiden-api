@@ -1,0 +1,17 @@
+{
+    "name": "raiden-api",
+    "deps": [
+        "parking_lot",
+        "raiden-blockchain",
+        "raiden-network-messages",
+        "raiden-pathfinding",
+        "raiden-primitives",
+        "raiden-state-machine",
+        "raiden-transition",
+        "rand",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "web3"
+    ]
+}

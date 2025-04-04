@@ -1,0 +1,30 @@
+{
+    "name": "fedimint-wallet-client",
+    "deps": [
+        "anyhow",
+        "aquamarine",
+        "async-stream",
+        "async-trait",
+        "bitcoin",
+        "erased-serde",
+        "fedimint-bitcoind",
+        "fedimint-client",
+        "fedimint-core",
+        "fedimint-wallet-common",
+        "futures",
+        "impl-tools",
+        "miniscript",
+        "rand",
+        "secp256k1",
+        "serde",
+        "serde_json",
+        "strum",
+        "strum_macros",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "tracing-subscriber",
+        "url",
+        "validator"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "name": "tikv-client-store",
+    "deps": [
+        "async-trait",
+        "derive-new",
+        "futures",
+        "grpcio",
+        "log",
+        "tikv-client-common",
+        "tikv-client-proto"
+    ]
+}

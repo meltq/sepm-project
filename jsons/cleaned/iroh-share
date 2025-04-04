@@ -1,0 +1,29 @@
+{
+    "name": "iroh-share",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "bincode",
+        "bytes",
+        "cid",
+        "clap",
+        "futures",
+        "iroh-metrics",
+        "iroh-p2p",
+        "iroh-resolver",
+        "iroh-rpc-client",
+        "iroh-rpc-types",
+        "iroh-store",
+        "iroh-util",
+        "libp2p",
+        "multibase",
+        "rand",
+        "serde",
+        "tempfile",
+        "tokio",
+        "tokio",
+        "tokio-stream",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

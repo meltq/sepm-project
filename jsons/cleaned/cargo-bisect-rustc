@@ -1,0 +1,23 @@
+{
+    "name": "cargo-bisect-rustc",
+    "deps": [
+        "chrono",
+        "dialoguer",
+        "dirs",
+        "env_logger",
+        "failure",
+        "flate2",
+        "git2",
+        "log",
+        "pbr",
+        "quickcheck",
+        "regex",
+        "reqwest",
+        "rustc_version",
+        "structopt",
+        "tar",
+        "tee",
+        "tempdir",
+        "xz2"
+    ]
+}

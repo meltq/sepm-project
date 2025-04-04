@@ -1,0 +1,27 @@
+{
+    "name": "abcperf-generic-client",
+    "deps": [
+        "abcperf",
+        "anyhow",
+        "async-channel",
+        "async-trait",
+        "base64",
+        "bincode",
+        "bytes",
+        "criterion",
+        "derivative",
+        "futures",
+        "quinn",
+        "rand",
+        "reqwest",
+        "rustls",
+        "s2n-quic",
+        "serde",
+        "serde-bytes-repr",
+        "serde_json",
+        "shared-ids",
+        "tokio",
+        "tracing",
+        "warp"
+    ]
+}

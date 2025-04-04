@@ -1,0 +1,12 @@
+{
+    "name": "iceoryx2-pal-posix",
+    "deps": [
+        "bindgen",
+        "cc",
+        "iceoryx2-bb-testing",
+        "iceoryx2-pal-concurrency-sync",
+        "iceoryx2-pal-configuration",
+        "lazy_static",
+        "windows-sys"
+    ]
+}

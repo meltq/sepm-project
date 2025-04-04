@@ -1,0 +1,13 @@
+{
+    "name": "shuttle-next",
+    "deps": [
+        "axum",
+        "futures-executor",
+        "http",
+        "rmp-serde",
+        "shuttle-codegen",
+        "shuttle-common",
+        "tower-service",
+        "tracing-subscriber"
+    ]
+}

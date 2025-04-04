@@ -1,0 +1,25 @@
+{
+    "name": "safecoin-program-test",
+    "deps": [
+        "assert_matches",
+        "async-trait",
+        "base64",
+        "bincode",
+        "chrono",
+        "chrono-humanize",
+        "log",
+        "mio",
+        "serde",
+        "serde_derive",
+        "solana-banks-client",
+        "solana-banks-server",
+        "solana-bpf-loader-program",
+        "solana-logger",
+        "solana-runtime",
+        "solana-sdk",
+        "solana-stake-program",
+        "solana-vote-program",
+        "thiserror",
+        "tokio"
+    ]
+}

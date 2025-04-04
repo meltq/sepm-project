@@ -1,0 +1,18 @@
+{
+    "name": "zksync_node_fee_model",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "bigdecimal",
+        "tokio",
+        "tracing",
+        "vise",
+        "zksync_base_token_adjuster",
+        "zksync_config",
+        "zksync_dal",
+        "zksync_eth_client",
+        "zksync_types",
+        "zksync_utils",
+        "zksync_web3_decl"
+    ]
+}

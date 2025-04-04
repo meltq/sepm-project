@@ -1,0 +1,16 @@
+{
+    "name": "grapl-config",
+    "deps": [
+        "color-eyre",
+        "eyre",
+        "log",
+        "rusoto_core",
+        "rusoto_s3",
+        "rusoto_sqs",
+        "sqs-lambda",
+        "tokio",
+        "tracing",
+        "tracing-futures",
+        "tracing-subscriber"
+    ]
+}

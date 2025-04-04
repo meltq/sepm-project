@@ -1,0 +1,17 @@
+{
+    "name": "ddnet-account-client",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "ddnet-accounts-shared",
+        "ddnet-accounts-types",
+        "email_address",
+        "hex",
+        "pollster",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "x509-cert",
+        "x509-parser"
+    ]
+}

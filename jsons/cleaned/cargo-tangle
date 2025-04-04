@@ -1,0 +1,24 @@
+{
+    "name": "cargo-tangle",
+    "deps": [
+        "alloy-json-abi",
+        "alloy-network",
+        "alloy-provider",
+        "alloy-rpc-types",
+        "alloy-signer-local",
+        "cargo-generate",
+        "cargo_metadata",
+        "clap",
+        "clap-cargo",
+        "color-eyre",
+        "escargot",
+        "gadget-blueprint-proc-macro-core",
+        "gadget-sdk",
+        "k256",
+        "serde_json",
+        "subxt",
+        "tangle-subxt",
+        "tokio",
+        "tracing-subscriber"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "name": "wai-bindgen-wasmtime",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "bitflags",
+        "thiserror",
+        "tracing-lib",
+        "wai-bindgen-wasmtime-impl",
+        "wasmtime"
+    ]
+}

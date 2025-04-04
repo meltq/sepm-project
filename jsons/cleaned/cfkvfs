@@ -1,0 +1,14 @@
+{
+    "name": "cfkvfs",
+    "deps": [
+        "lazy_static",
+        "log",
+        "lru",
+        "rayon",
+        "reqwest",
+        "rusqlite",
+        "rusqlite_migration",
+        "sha3",
+        "thiserror"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "name": "eventsourced-projection",
+    "deps": [
+        "anyhow",
+        "async-nats",
+        "bytes",
+        "eventsourced",
+        "futures",
+        "prost",
+        "serde",
+        "serde_json",
+        "sqlx",
+        "testcontainers",
+        "testcontainers-modules",
+        "thiserror",
+        "tokio",
+        "tokio",
+        "tracing",
+        "trait-variant",
+        "uuid"
+    ]
+}

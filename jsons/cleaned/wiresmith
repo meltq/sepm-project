@@ -1,0 +1,27 @@
+{
+    "name": "wiresmith",
+    "deps": [
+        "anyhow",
+        "assert_cmd",
+        "assert_fs",
+        "base64",
+        "clap",
+        "clap_complete",
+        "clap_mangen",
+        "configparser",
+        "file-owner",
+        "freedesktop_entry_parser",
+        "ipnet",
+        "pnet",
+        "port_check",
+        "pretty_assertions",
+        "reqwest",
+        "rstest",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tracing",
+        "tracing-subscriber",
+        "wireguard-keys"
+    ]
+}

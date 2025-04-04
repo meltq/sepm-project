@@ -1,0 +1,31 @@
+{
+    "name": "stack_test_epic_servers",
+    "deps": [
+        "bigint",
+        "chrono",
+        "clokwerk",
+        "fs2",
+        "futures",
+        "http",
+        "hyper",
+        "hyper-rustls",
+        "itertools",
+        "lmdb-zero",
+        "log",
+        "rand",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "stack_test_epic_api",
+        "stack_test_epic_chain",
+        "stack_test_epic_core",
+        "stack_test_epic_keychain",
+        "stack_test_epic_p2p",
+        "stack_test_epic_pool",
+        "stack_test_epic_store",
+        "stack_test_epic_util",
+        "tokio",
+        "trust-dns-resolver",
+        "walkdir"
+    ]
+}

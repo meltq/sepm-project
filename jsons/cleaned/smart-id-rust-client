@@ -1,0 +1,20 @@
+{
+    "name": "smart-id-rust-client",
+    "deps": [
+        "anyhow",
+        "base64",
+        "reqwest",
+        "ring",
+        "serde",
+        "serde_json",
+        "serde_with",
+        "serial_test",
+        "serial_test_derive",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "tracing-subscriber",
+        "tracing-test",
+        "x509-parser"
+    ]
+}

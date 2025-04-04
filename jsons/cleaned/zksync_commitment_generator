@@ -1,0 +1,27 @@
+{
+    "name": "zksync_commitment_generator",
+    "deps": [
+        "anyhow",
+        "circuit_sequencer_api_1_4_0",
+        "circuit_sequencer_api_1_4_1",
+        "circuit_sequencer_api_1_5_0",
+        "futures",
+        "itertools",
+        "num_cpus",
+        "serde_json",
+        "tokio",
+        "tracing",
+        "vise",
+        "zk_evm_1_3_3",
+        "zk_evm_1_4_1",
+        "zk_evm_1_5_0",
+        "zksync_contracts",
+        "zksync_dal",
+        "zksync_eth_client",
+        "zksync_health_check",
+        "zksync_l1_contract_interface",
+        "zksync_multivm",
+        "zksync_types",
+        "zksync_utils"
+    ]
+}

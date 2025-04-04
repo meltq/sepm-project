@@ -1,0 +1,19 @@
+{
+    "name": "declare_schema",
+    "deps": [
+        "anyhow",
+        "clap",
+        "futures",
+        "serde",
+        "serde_json",
+        "service_conventions",
+        "sqlparser",
+        "sqlx",
+        "thiserror",
+        "tokio",
+        "toml",
+        "tracing",
+        "url",
+        "uuid"
+    ]
+}

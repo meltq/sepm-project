@@ -1,0 +1,19 @@
+{
+    "name": "topiary-core",
+    "deps": [
+        "criterion",
+        "env_logger",
+        "futures",
+        "itertools",
+        "log",
+        "pretty_assertions",
+        "prettydiff",
+        "serde",
+        "serde_json",
+        "test-log",
+        "tokio",
+        "tokio-test",
+        "topiary-tree-sitter-facade",
+        "topiary-web-tree-sitter-sys"
+    ]
+}

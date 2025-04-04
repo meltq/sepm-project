@@ -1,0 +1,26 @@
+{
+    "name": "ws_stream_wasm",
+    "deps": [
+        "async_runtime",
+        "bytes",
+        "console_error_panic_hook",
+        "console_log",
+        "failure",
+        "failure",
+        "flexi_logger",
+        "futures-preview",
+        "futures_01",
+        "js-sys",
+        "log",
+        "pretty_assertions",
+        "rand",
+        "rand_xoshiro",
+        "serde",
+        "serde_cbor",
+        "tokio",
+        "tokio-serde-cbor",
+        "wasm-bindgen",
+        "wasm-bindgen-test",
+        "web-sys"
+    ]
+}

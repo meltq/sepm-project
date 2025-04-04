@@ -1,0 +1,20 @@
+{
+    "name": "holochain_persistence_lmdb",
+    "deps": [
+        "bencher",
+        "glob",
+        "holochain_json_api",
+        "holochain_persistence_api",
+        "lazy_static",
+        "lmdb-rkv",
+        "multihash",
+        "rand",
+        "rkv",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "serde_test",
+        "tempfile",
+        "uuid"
+    ]
+}

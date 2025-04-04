@@ -1,0 +1,14 @@
+{
+    "name": "tower-otel-http-metrics",
+    "deps": [
+        "axum",
+        "futures-core",
+        "futures-util",
+        "http-body",
+        "opentelemetry",
+        "opentelemetry-otlp",
+        "opentelemetry_api",
+        "pin-project-lite",
+        "tower"
+    ]
+}

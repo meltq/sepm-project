@@ -1,0 +1,19 @@
+{
+    "name": "aleph_client",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "codec",
+        "contract-transcode",
+        "futures",
+        "hex",
+        "ink_metadata",
+        "log",
+        "pallet-contracts-primitives",
+        "serde",
+        "serde_json",
+        "subxt",
+        "thiserror",
+        "tokio"
+    ]
+}

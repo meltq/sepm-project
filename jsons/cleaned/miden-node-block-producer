@@ -1,0 +1,30 @@
+{
+    "name": "miden-node-block-producer",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "clap",
+        "figment",
+        "figment",
+        "itertools",
+        "miden-air",
+        "miden-node-proto",
+        "miden-node-store",
+        "miden-node-utils",
+        "miden-objects",
+        "miden-objects",
+        "miden-processor",
+        "miden-stdlib",
+        "miden-tx",
+        "once_cell",
+        "serde",
+        "thiserror",
+        "tokio",
+        "tokio",
+        "toml",
+        "tonic",
+        "tracing",
+        "tracing-subscriber",
+        "winterfell"
+    ]
+}

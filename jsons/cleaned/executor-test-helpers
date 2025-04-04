@@ -1,0 +1,23 @@
+{
+    "name": "executor-test-helpers",
+    "deps": [
+        "anyhow",
+        "aptos-config",
+        "aptos-crypto",
+        "aptos-executor",
+        "aptos-genesis-tool",
+        "aptos-state-view",
+        "aptos-temppath",
+        "aptos-transaction-builder",
+        "aptos-types",
+        "aptos-vm",
+        "aptos-workspace-hack",
+        "aptosdb",
+        "executor-types",
+        "move-deps",
+        "rand",
+        "storage-interface",
+        "storage-service",
+        "vm-genesis"
+    ]
+}

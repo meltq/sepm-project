@@ -1,0 +1,26 @@
+{
+    "name": "snarkvm-ledger-debug",
+    "deps": [
+        "aleo-std",
+        "anyhow",
+        "bincode",
+        "console",
+        "criterion",
+        "indexmap",
+        "ledger-authority",
+        "ledger-block",
+        "ledger-coinbase",
+        "ledger-committee",
+        "ledger-narwhal-debug",
+        "ledger-query",
+        "ledger-store",
+        "ledger-test-helpers",
+        "parking_lot",
+        "rand",
+        "rayon",
+        "serde_json",
+        "synthesizer-debug",
+        "time",
+        "tracing"
+    ]
+}

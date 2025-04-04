@@ -1,0 +1,22 @@
+{
+    "name": "diffusion_rs_core",
+    "deps": [
+        "anyhow",
+        "clap",
+        "diffusion_rs_backend",
+        "diffusion_rs_common",
+        "float8",
+        "half",
+        "hf-hub",
+        "image",
+        "indicatif",
+        "objc",
+        "serde",
+        "serde_json",
+        "serde_plain",
+        "thiserror",
+        "tokenizers",
+        "tqdm",
+        "tracing"
+    ]
+}

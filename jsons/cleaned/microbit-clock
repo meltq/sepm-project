@@ -1,0 +1,14 @@
+{
+    "name": "microbit-clock",
+    "deps": [
+        "cortex-m",
+        "cortex-m-rt",
+        "defmt",
+        "defmt-rtt",
+        "embassy-executor",
+        "embassy-futures",
+        "embassy-time",
+        "microbit-bsp",
+        "panic-probe"
+    ]
+}

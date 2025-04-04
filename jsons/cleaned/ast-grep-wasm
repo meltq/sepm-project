@@ -1,0 +1,15 @@
+{
+    "name": "ast-grep-wasm",
+    "deps": [
+        "ast-grep-config",
+        "ast-grep-core",
+        "console_error_panic_hook",
+        "serde",
+        "tree-sitter",
+        "wasm-bindgen",
+        "wasm-bindgen-futures",
+        "wasm-bindgen-test",
+        "web-tree-sitter-sys",
+        "wee_alloc"
+    ]
+}

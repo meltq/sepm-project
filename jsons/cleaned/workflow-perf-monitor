@@ -1,0 +1,12 @@
+{
+    "name": "workflow-perf-monitor",
+    "deps": [
+        "bindgen",
+        "cc",
+        "criterion",
+        "libc",
+        "mach",
+        "thiserror",
+        "windows-sys"
+    ]
+}

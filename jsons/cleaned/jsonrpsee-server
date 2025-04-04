@@ -1,0 +1,24 @@
+{
+    "name": "jsonrpsee-server",
+    "deps": [
+        "anyhow",
+        "futures-channel",
+        "futures-util",
+        "http",
+        "hyper",
+        "jsonrpsee-core",
+        "jsonrpsee-types",
+        "rand",
+        "serde",
+        "serde_json",
+        "socket2",
+        "soketto",
+        "tokio",
+        "tokio-stream",
+        "tokio-util",
+        "tower",
+        "tower",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

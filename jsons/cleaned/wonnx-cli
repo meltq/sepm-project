@@ -1,0 +1,20 @@
+{
+    "name": "wonnx-cli",
+    "deps": [
+        "assert_cmd",
+        "async-trait",
+        "env_logger",
+        "human_bytes",
+        "log",
+        "ndarray",
+        "pollster",
+        "prettytable-rs",
+        "protobuf",
+        "structopt",
+        "thiserror",
+        "tract-onnx",
+        "wgpu",
+        "wonnx",
+        "wonnx-preprocessing"
+    ]
+}

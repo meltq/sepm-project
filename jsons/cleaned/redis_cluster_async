@@ -1,0 +1,16 @@
+{
+    "name": "redis_cluster_async",
+    "deps": [
+        "crc16",
+        "env_logger",
+        "futures",
+        "lazy_static",
+        "log",
+        "proptest",
+        "rand",
+        "redis",
+        "tokio",
+        "tokio-executor",
+        "tokio-timer"
+    ]
+}

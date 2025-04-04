@@ -1,0 +1,21 @@
+{
+    "name": "blake-streams-core",
+    "deps": [
+        "anyhow",
+        "bao",
+        "base64",
+        "criterion",
+        "ed25519-dalek",
+        "fnv",
+        "getrandom",
+        "parking_lot",
+        "rand",
+        "rkyv",
+        "serde",
+        "serde-big-array",
+        "sled",
+        "tempdir",
+        "tracing",
+        "zerocopy"
+    ]
+}

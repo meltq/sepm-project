@@ -1,0 +1,17 @@
+{
+    "name": "tracing-actions-otlp",
+    "deps": [
+        "http-body",
+        "hyper",
+        "hyper-rustls",
+        "log",
+        "prost",
+        "tokio",
+        "tokio-rustls",
+        "tonic",
+        "tower",
+        "tracing",
+        "tracing-actions",
+        "webpki-roots"
+    ]
+}

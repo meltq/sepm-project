@@ -1,0 +1,16 @@
+{
+    "name": "extism-runtime",
+    "deps": [
+        "anyhow",
+        "cbindgen",
+        "extism-manifest",
+        "pretty-hex",
+        "serde",
+        "serde_json",
+        "sha2",
+        "toml",
+        "ureq",
+        "wasmtime",
+        "wasmtime-wasi"
+    ]
+}

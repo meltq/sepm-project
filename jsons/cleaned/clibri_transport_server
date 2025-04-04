@@ -1,0 +1,17 @@
+{
+    "name": "clibri_transport_server",
+    "deps": [
+        "async-trait",
+        "bytes",
+        "clibri",
+        "futures",
+        "hyper",
+        "log",
+        "log4rs",
+        "thiserror",
+        "tokio",
+        "tokio-tungstenite",
+        "tokio-util",
+        "uuid"
+    ]
+}

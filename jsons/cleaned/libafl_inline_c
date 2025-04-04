@@ -1,0 +1,14 @@
+{
+    "name": "libafl_inline_c",
+    "deps": [
+        "assert_cmd",
+        "cc",
+        "lazy_static",
+        "libafl_inline_c_macro",
+        "predicates",
+        "regex",
+        "rustc_version",
+        "target-lexicon",
+        "tempfile"
+    ]
+}

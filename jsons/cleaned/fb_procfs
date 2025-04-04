@@ -1,0 +1,12 @@
+{
+    "name": "fb_procfs",
+    "deps": [
+        "lazy_static",
+        "libc",
+        "openat",
+        "procfs-thrift",
+        "tempfile",
+        "thiserror",
+        "threadpool"
+    ]
+}

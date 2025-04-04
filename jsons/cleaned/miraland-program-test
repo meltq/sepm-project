@@ -1,0 +1,23 @@
+{
+    "name": "miraland-program-test",
+    "deps": [
+        "assert_matches",
+        "async-trait",
+        "base64",
+        "bincode",
+        "chrono-humanize",
+        "log",
+        "miraland-banks-client",
+        "miraland-banks-server",
+        "miraland-bpf-loader-program",
+        "miraland-logger",
+        "miraland-program-runtime",
+        "miraland-runtime",
+        "miraland-sdk",
+        "miraland-stake-program",
+        "miraland-vote-program",
+        "serde",
+        "thiserror",
+        "tokio"
+    ]
+}

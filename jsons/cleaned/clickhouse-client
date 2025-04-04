@@ -1,0 +1,14 @@
+{
+    "name": "clickhouse-client",
+    "deps": [
+        "clickhouse-client-macros",
+        "hyper",
+        "hyper-rustls",
+        "thiserror",
+        "time",
+        "tokio",
+        "tracing",
+        "tracing-ext",
+        "tracing-subscriber"
+    ]
+}

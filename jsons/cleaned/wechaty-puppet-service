@@ -1,0 +1,18 @@
+{
+    "name": "wechaty-puppet-service",
+    "deps": [
+        "actix",
+        "actix-rt",
+        "async-trait",
+        "log",
+        "num-traits",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tonic",
+        "uuid",
+        "wechaty-grpc",
+        "wechaty_puppet"
+    ]
+}

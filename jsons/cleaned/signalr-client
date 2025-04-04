@@ -1,0 +1,24 @@
+{
+    "name": "signalr-client",
+    "deps": [
+        "async-std",
+        "base64",
+        "console_error_panic_hook",
+        "console_log",
+        "ehttp",
+        "futures",
+        "http",
+        "log",
+        "serde",
+        "serde_json",
+        "serde_repr",
+        "test-log",
+        "tokio",
+        "tokio-native-tls",
+        "tokio-websockets",
+        "wasm-bindgen",
+        "wasm-bindgen-futures",
+        "wasm-sockets",
+        "wasm-timer"
+    ]
+}

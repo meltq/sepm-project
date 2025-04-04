@@ -1,0 +1,20 @@
+{
+    "name": "aquatic_bencher",
+    "deps": [
+        "anyhow",
+        "aquatic_udp",
+        "aquatic_udp_load_test",
+        "clap",
+        "humanize-bytes",
+        "indexmap",
+        "indoc",
+        "itertools",
+        "nonblock",
+        "num-format",
+        "once_cell",
+        "regex",
+        "serde",
+        "tempfile",
+        "toml"
+    ]
+}

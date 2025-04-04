@@ -1,0 +1,19 @@
+{
+    "name": "srt_media",
+    "deps": [
+        "bytes",
+        "cpal",
+        "futures-util",
+        "log",
+        "pretty_env_logger",
+        "ringbuf",
+        "schemars",
+        "serde",
+        "serde_derive",
+        "srt-protocol",
+        "srt-tokio",
+        "stainless-ffmpeg-sys",
+        "stainless_ffmpeg",
+        "tokio"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "name": "edc-dataplane",
+    "deps": [
+        "anyhow",
+        "axum",
+        "edc-dataplane-core",
+        "sqlx",
+        "tokio",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

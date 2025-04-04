@@ -1,0 +1,21 @@
+{
+    "name": "kucoin_api",
+    "deps": [
+        "base64",
+        "failure",
+        "futures",
+        "hmac",
+        "pin-project",
+        "reqwest",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "sha2",
+        "streamunordered",
+        "tokio",
+        "tokio-native-tls",
+        "tokio-tungstenite",
+        "tungstenite",
+        "url"
+    ]
+}

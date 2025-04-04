@@ -1,0 +1,28 @@
+{
+    "name": "waffles-solana-rpc-client",
+    "deps": [
+        "assert_matches",
+        "async-trait",
+        "base64",
+        "bincode",
+        "bs58",
+        "crossbeam-channel",
+        "futures",
+        "indicatif",
+        "jsonrpc-core",
+        "jsonrpc-http-server",
+        "log",
+        "reqwest",
+        "semver",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "solana-account-decoder",
+        "solana-rpc-client-api",
+        "solana-sdk",
+        "solana-transaction-status",
+        "solana-version",
+        "tokio",
+        "waffles-solana-vote-program"
+    ]
+}

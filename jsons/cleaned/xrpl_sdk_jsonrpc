@@ -1,0 +1,14 @@
+{
+    "name": "xrpl_sdk_jsonrpc",
+    "deps": [
+        "libsecp256k1",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "sha2",
+        "thiserror",
+        "tokio",
+        "xrpl_binary_codec",
+        "xrpl_types"
+    ]
+}

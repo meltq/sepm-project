@@ -1,0 +1,31 @@
+{
+    "name": "aigc_api",
+    "deps": [
+        "aigc_chain",
+        "aigc_core",
+        "aigc_p2p",
+        "aigc_pool",
+        "aigc_store",
+        "aigc_util",
+        "bytes",
+        "easy-jsonrpc-mw",
+        "failure",
+        "failure_derive",
+        "futures",
+        "http",
+        "hyper",
+        "hyper-rustls",
+        "hyper-timeout",
+        "lazy_static",
+        "log",
+        "regex",
+        "ring",
+        "rustls",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "tokio",
+        "tokio-rustls",
+        "url"
+    ]
+}

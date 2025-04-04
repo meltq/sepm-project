@@ -1,0 +1,14 @@
+{
+    "name": "utp-socket",
+    "deps": [
+        "anyhow",
+        "bytes",
+        "libc",
+        "log",
+        "rand",
+        "tokio",
+        "tokio-uring",
+        "env_logger",
+        "tokio-stream"
+    ]
+}

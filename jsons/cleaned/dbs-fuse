@@ -1,0 +1,11 @@
+{
+    "name": "dbs-fuse",
+    "deps": [
+        "async-trait",
+        "futures",
+        "libc",
+        "tokio-uring",
+        "vm-memory",
+        "vmm-sys-util"
+    ]
+}

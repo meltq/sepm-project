@@ -1,0 +1,22 @@
+{
+    "name": "mock-omaha-server",
+    "deps": [
+        "anyhow",
+        "argh",
+        "async-net",
+        "derive_builder",
+        "futures",
+        "hex",
+        "hyper",
+        "omaha_client",
+        "p256",
+        "proptest",
+        "serde",
+        "serde_json",
+        "sha2",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "url"
+    ]
+}

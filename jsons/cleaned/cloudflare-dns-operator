@@ -1,0 +1,27 @@
+{
+    "name": "cloudflare-dns-operator",
+    "deps": [
+        "async-stream",
+        "base64",
+        "chrono",
+        "clap",
+        "color-eyre",
+        "eyre",
+        "futures",
+        "futures-util",
+        "humantime",
+        "k8s-openapi",
+        "kube",
+        "random-string",
+        "reqwest",
+        "rsdns",
+        "schemars",
+        "serde",
+        "serde_json",
+        "serde_yaml",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

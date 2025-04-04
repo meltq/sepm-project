@@ -1,0 +1,15 @@
+{
+    "name": "ckb-vm-debug-utils",
+    "deps": [
+        "byteorder",
+        "bytes",
+        "ckb-gdb-remote-protocol",
+        "ckb-vm",
+        "env_logger",
+        "gdbstub",
+        "gdbstub_arch",
+        "libc",
+        "log",
+        "nix"
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "name": "term-sesh",
+    "deps": [
+        "anyhow",
+        "clap",
+        "clap-markdown",
+        "ctrlc",
+        "dirs",
+        "env_logger",
+        "libc",
+        "log",
+        "once_cell",
+        "prost",
+        "serde",
+        "sesh-cli",
+        "sesh-cli",
+        "sesh-proto",
+        "sesh-shared",
+        "termion",
+        "tokio",
+        "tokio-stream",
+        "tonic",
+        "tower"
+    ]
+}

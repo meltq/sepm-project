@@ -1,0 +1,23 @@
+{
+    "name": "plane-core",
+    "deps": [
+        "anyhow",
+        "async-nats",
+        "bollard",
+        "bytes",
+        "chrono",
+        "clap",
+        "config",
+        "dashmap",
+        "serde",
+        "serde_json",
+        "serde_with",
+        "tokio",
+        "tokio-stream",
+        "tracing",
+        "tracing-stackdriver",
+        "tracing-subscriber",
+        "url",
+        "uuid"
+    ]
+}

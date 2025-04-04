@@ -1,0 +1,22 @@
+{
+    "name": "retrospective-crate-version-tagging",
+    "deps": [
+        "anyhow",
+        "chrono",
+        "clap",
+        "crates_io_api",
+        "flate2",
+        "gix",
+        "indicatif",
+        "parse-changelog",
+        "reqwest",
+        "scopeguard",
+        "serde",
+        "serde_json",
+        "serde_yml",
+        "tar",
+        "tracing",
+        "tracing-indicatif",
+        "tracing-subscriber"
+    ]
+}

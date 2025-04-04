@@ -1,0 +1,19 @@
+{
+    "name": "ipld_hamt",
+    "deps": [
+        "byteorder",
+        "cid",
+        "criterion",
+        "db",
+        "forest_encoding",
+        "forest_ipld",
+        "hex",
+        "ipld_blockstore",
+        "lazycell",
+        "serde",
+        "serde_bytes",
+        "sha2",
+        "thiserror",
+        "unsigned-varint"
+    ]
+}

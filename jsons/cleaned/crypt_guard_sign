@@ -1,0 +1,20 @@
+{
+    "name": "crypt_guard_sign",
+    "deps": [
+        "aes",
+        "byteorder",
+        "chacha20",
+        "colored",
+        "env",
+        "hex",
+        "hmac",
+        "indicatif",
+        "pqcrypto-dilithium",
+        "pqcrypto-falcon",
+        "pqcrypto-traits",
+        "rand",
+        "sha2",
+        "tempfile",
+        "tokio"
+    ]
+}

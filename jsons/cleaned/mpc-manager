@@ -1,0 +1,26 @@
+{
+    "name": "mpc-manager",
+    "deps": [
+        "anyhow",
+        "axum",
+        "config",
+        "dotenv",
+        "futures-util",
+        "json-rpc2",
+        "once_cell",
+        "serde",
+        "serde-aux",
+        "serde_json",
+        "strum",
+        "thiserror",
+        "tokio",
+        "tokio-stream",
+        "tower",
+        "tower-http",
+        "tracing",
+        "tracing-bunyan-formatter",
+        "tracing-log",
+        "tracing-subscriber",
+        "uuid"
+    ]
+}

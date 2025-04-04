@@ -1,0 +1,31 @@
+{
+    "name": "lightning-storage-server",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "bitcoin_hashes",
+        "clap",
+        "ctrlc",
+        "deadpool-postgres",
+        "dirs",
+        "fern",
+        "futures",
+        "hex",
+        "itertools",
+        "log",
+        "prost",
+        "secp256k1",
+        "serde",
+        "serde_cbor",
+        "sled",
+        "tempfile",
+        "thiserror",
+        "time",
+        "tokio",
+        "tokio-postgres",
+        "tonic",
+        "tonic-build",
+        "triggered",
+        "url"
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "name": "ewe_devserver",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "axum",
+        "bytes",
+        "crossbeam",
+        "derive_more",
+        "ewe_trace",
+        "ewe_watch_utils",
+        "futures",
+        "h2",
+        "h3",
+        "http",
+        "http-body",
+        "http-body-util",
+        "hyper",
+        "hyper-util",
+        "lazy_static",
+        "serde",
+        "serde_json",
+        "serde_with",
+        "tokio",
+        "tokio-stream",
+        "tower",
+        "tracing"
+    ]
+}

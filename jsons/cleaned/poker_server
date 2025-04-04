@@ -1,0 +1,13 @@
+{
+    "name": "poker_server",
+    "deps": [
+        "axum",
+        "clap",
+        "poker_eval",
+        "serde",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

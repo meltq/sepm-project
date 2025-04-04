@@ -1,0 +1,15 @@
+{
+    "name": "openraft-memstore",
+    "deps": [
+        "anyerror",
+        "anyhow",
+        "async-trait",
+        "maplit",
+        "openraft",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tracing",
+        "tracing-futures"
+    ]
+}

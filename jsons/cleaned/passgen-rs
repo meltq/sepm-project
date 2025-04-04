@@ -1,0 +1,20 @@
+{
+    "name": "passgen-rs",
+    "deps": [
+        "argon2",
+        "clap",
+        "criterion",
+        "flate2",
+        "hashbrown",
+        "pest",
+        "pest_derive",
+        "proptest",
+        "rand",
+        "rand_chacha",
+        "rand_xoshiro",
+        "rangemap",
+        "serde",
+        "test-strategy",
+        "thiserror"
+    ]
+}

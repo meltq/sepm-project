@@ -1,0 +1,17 @@
+{
+    "name": "tokio-linux-uhid",
+    "deps": [
+        "bitflags",
+        "bytes",
+        "futures",
+        "mio",
+        "nix",
+        "quick-error",
+        "slog",
+        "slog-stdlog",
+        "tokio-core",
+        "tokio-io",
+        "tokio-proto",
+        "uhid-sys"
+    ]
+}

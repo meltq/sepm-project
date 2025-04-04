@@ -1,0 +1,15 @@
+{
+    "name": "usbapi",
+    "deps": [
+        "libc",
+        "log",
+        "mio",
+        "nix",
+        "serde",
+        "serde-hex",
+        "serde_json",
+        "signal-hook",
+        "sysfs-serde",
+        "toml"
+    ]
+}

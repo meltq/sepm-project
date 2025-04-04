@@ -1,0 +1,25 @@
+{
+    "name": "tea-vmh-codec",
+    "deps": [
+        "chrono",
+        "clap",
+        "hex",
+        "log",
+        "num_enum",
+        "prost",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "serde_yaml",
+        "strum",
+        "strum_macros",
+        "tea-actor-txns",
+        "tea-codec",
+        "tea-runtime-codec",
+        "tea-solc-codec",
+        "tea-tapp-common",
+        "thiserror",
+        "anyhow",
+        "prost-build"
+    ]
+}

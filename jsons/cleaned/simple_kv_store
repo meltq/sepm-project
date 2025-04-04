@@ -1,0 +1,11 @@
+{
+    "name": "simple_kv_store",
+    "deps": [
+        "base64",
+        "k8s-openapi",
+        "kube",
+        "rusqlite",
+        "serde_json",
+        "tokio"
+    ]
+}

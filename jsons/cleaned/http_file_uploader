@@ -1,0 +1,15 @@
+{
+    "name": "http_file_uploader",
+    "deps": [
+        "anyhow",
+        "axum",
+        "axum-macros",
+        "base64",
+        "hyper",
+        "libc",
+        "pin-project",
+        "readwrite",
+        "tokio",
+        "xflags"
+    ]
+}

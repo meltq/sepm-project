@@ -1,0 +1,27 @@
+{
+    "name": "octoproxy-client",
+    "deps": [
+        "anyhow",
+        "axum",
+        "bytes",
+        "clap",
+        "futures",
+        "hashring",
+        "http",
+        "hyper",
+        "left-right",
+        "octoproxy-lib",
+        "parking_lot",
+        "quinn",
+        "rand",
+        "rustls",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tokio-rustls",
+        "tokio-util",
+        "toml",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

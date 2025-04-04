@@ -1,0 +1,23 @@
+{
+    "name": "hala-rproxy",
+    "deps": [
+        "async-trait",
+        "bytes",
+        "clap",
+        "dashmap",
+        "divan",
+        "futures",
+        "hala-future",
+        "hala-io",
+        "hala-io",
+        "hala-lockfree",
+        "hala-quic",
+        "hala-sync",
+        "hala-tcp",
+        "hala-test",
+        "hala-tls",
+        "log",
+        "pretty_env_logger",
+        "uuid"
+    ]
+}

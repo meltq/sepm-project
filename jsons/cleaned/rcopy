@@ -1,0 +1,29 @@
+{
+    "name": "rcopy",
+    "deps": [
+        "anyhow",
+        "async-stream",
+        "bytes",
+        "clap",
+        "futures",
+        "id_tree",
+        "indicatif",
+        "local-ip-address",
+        "pin-project",
+        "rand",
+        "rkyv",
+        "tabled",
+        "tempfile",
+        "thiserror",
+        "tokio",
+        "tokio-retry",
+        "tokio-serde",
+        "tokio-stream",
+        "tokio-uring",
+        "tokio-util",
+        "tracing",
+        "tracing-subscriber",
+        "tracing-test",
+        "unsigned-varint"
+    ]
+}

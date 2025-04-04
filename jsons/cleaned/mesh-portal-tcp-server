@@ -1,0 +1,16 @@
+{
+    "name": "mesh-portal-tcp-server",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "bincode",
+        "mesh-portal",
+        "mesh-portal-api-server",
+        "mesh-portal-tcp-common",
+        "serde",
+        "strum",
+        "strum_macros",
+        "tokio",
+        "uuid"
+    ]
+}

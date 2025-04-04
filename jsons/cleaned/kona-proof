@@ -1,0 +1,26 @@
+{
+    "name": "kona-proof",
+    "deps": [
+        "alloy-consensus",
+        "alloy-eips",
+        "alloy-primitives",
+        "alloy-rlp",
+        "async-trait",
+        "kona-derive",
+        "kona-driver",
+        "kona-executor",
+        "kona-mpt",
+        "kona-preimage",
+        "lru",
+        "op-alloy-consensus",
+        "op-alloy-genesis",
+        "op-alloy-protocol",
+        "op-alloy-registry",
+        "op-alloy-rpc-types-engine",
+        "serde",
+        "serde_json",
+        "spin",
+        "thiserror",
+        "tracing"
+    ]
+}

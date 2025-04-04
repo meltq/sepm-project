@@ -1,0 +1,29 @@
+{
+    "name": "ibc-types-core-client",
+    "deps": [
+        "anyhow",
+        "borsh",
+        "bytes",
+        "cfg-if",
+        "cfg-if",
+        "derive_more",
+        "displaydoc",
+        "ibc-proto",
+        "ibc-types-domain-type",
+        "ibc-types-identifier",
+        "ibc-types-timestamp",
+        "ics23",
+        "num-traits",
+        "parity-scale-codec",
+        "prost",
+        "scale-info",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "sha2",
+        "subtle-encoding",
+        "tendermint",
+        "tendermint-proto",
+        "time"
+    ]
+}

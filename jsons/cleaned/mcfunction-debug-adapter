@@ -1,0 +1,25 @@
+{
+    "name": "mcfunction-debug-adapter",
+    "deps": [
+        "async-trait",
+        "bytes",
+        "clap",
+        "debug-adapter-protocol",
+        "futures",
+        "log",
+        "log-panics",
+        "mcfunction-debugger",
+        "minect",
+        "multimap",
+        "sender-sink",
+        "serde_json",
+        "simplelog",
+        "tokio",
+        "tokio-stream",
+        "tokio-util",
+        "typed-builder",
+        "uuid",
+        "assert2",
+        "serial_test"
+    ]
+}

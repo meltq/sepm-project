@@ -1,0 +1,22 @@
+{
+    "name": "nacos-naming-client",
+    "deps": [
+        "async-trait",
+        "env_logger",
+        "flate2",
+        "itertools",
+        "lazy_static",
+        "local-ip-address",
+        "log",
+        "nacos-sdk-core",
+        "prometheus",
+        "rand",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "serde_urlencoded",
+        "thiserror",
+        "tokio",
+        "uuid"
+    ]
+}

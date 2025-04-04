@@ -1,0 +1,24 @@
+{
+    "name": "l3_extract",
+    "deps": [
+        "anyhow",
+        "async-global-executor",
+        "async-io",
+        "async-net",
+        "bytes",
+        "crossbeam-channel",
+        "derivative",
+        "event-listener",
+        "flume",
+        "futures-timer",
+        "futures-util",
+        "netlink-sys",
+        "rand",
+        "rtnetlink",
+        "rustix",
+        "smoltcp",
+        "tracing",
+        "tracing-subscriber",
+        "tun"
+    ]
+}

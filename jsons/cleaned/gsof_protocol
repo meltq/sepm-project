@@ -1,0 +1,21 @@
+{
+    "name": "gsof_protocol",
+    "deps": [
+        "async-trait",
+        "chrono",
+        "clap",
+        "futures",
+        "packed_struct",
+        "rand",
+        "reduce",
+        "seek_bufread",
+        "serde",
+        "serde_json",
+        "serde_with",
+        "structure",
+        "tokio",
+        "tracing",
+        "tracing-subscriber",
+        "tuple-conv"
+    ]
+}

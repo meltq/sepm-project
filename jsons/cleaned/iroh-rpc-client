@@ -1,0 +1,27 @@
+{
+    "name": "iroh-rpc-client",
+    "deps": [
+        "anyhow",
+        "async-stream",
+        "async-trait",
+        "bytes",
+        "cid",
+        "config",
+        "futures",
+        "iroh-metrics",
+        "iroh-rpc-types",
+        "iroh-rpc-types",
+        "iroh-util",
+        "libp2p",
+        "paste",
+        "prost",
+        "serde",
+        "tokio",
+        "tokio-stream",
+        "toml",
+        "tonic",
+        "tonic-health",
+        "tower",
+        "tracing"
+    ]
+}

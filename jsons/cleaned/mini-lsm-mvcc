@@ -1,0 +1,23 @@
+{
+    "name": "mini-lsm-mvcc",
+    "deps": [
+        "anyhow",
+        "arc-swap",
+        "bytes",
+        "clap",
+        "crc32fast",
+        "crossbeam-channel",
+        "crossbeam-epoch",
+        "crossbeam-skiplist",
+        "farmhash",
+        "moka",
+        "nom",
+        "ouroboros",
+        "parking_lot",
+        "rand",
+        "rustyline",
+        "serde",
+        "serde_json",
+        "tempfile"
+    ]
+}

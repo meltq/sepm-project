@@ -1,0 +1,13 @@
+{
+    "name": "ply_tokio_redis_mongodb",
+    "deps": [
+        "futures-util",
+        "log",
+        "r2d2_redis",
+        "redis",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio"
+    ]
+}

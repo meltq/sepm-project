@@ -1,0 +1,20 @@
+{
+    "name": "ledger-bluetooth",
+    "deps": [
+        "btleplug",
+        "byteorder",
+        "cfg-if",
+        "env_logger",
+        "futures",
+        "futures",
+        "ledger-transport",
+        "ledger-zondax-generic",
+        "libc",
+        "log",
+        "once_cell",
+        "serial_test",
+        "thiserror",
+        "tokio",
+        "uuid"
+    ]
+}

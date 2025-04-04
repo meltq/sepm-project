@@ -1,0 +1,17 @@
+{
+    "name": "wasm2usharp",
+    "deps": [
+        "anyhow",
+        "clap",
+        "cranelift-entity",
+        "float-cmp",
+        "num-traits",
+        "once_cell",
+        "petgraph",
+        "regex",
+        "tempfile",
+        "thiserror",
+        "wasmparser",
+        "wast"
+    ]
+}

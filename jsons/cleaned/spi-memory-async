@@ -1,0 +1,15 @@
+{
+    "name": "spi-memory-async",
+    "deps": [
+        "bitflags",
+        "cortex-m",
+        "cortex-m-rt",
+        "cortex-m-semihosting",
+        "defmt",
+        "embedded-hal-async",
+        "embedded-storage",
+        "embedded-storage-async",
+        "panic-semihosting",
+        "stm32f4xx-hal"
+    ]
+}

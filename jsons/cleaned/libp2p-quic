@@ -1,0 +1,24 @@
+{
+    "name": "libp2p-quic",
+    "deps": [
+        "anyhow",
+        "async-global-executor",
+        "async-io",
+        "async-std",
+        "async-trait",
+        "bytes",
+        "fnv",
+        "futures",
+        "if-watch",
+        "libp2p",
+        "libp2p",
+        "log-panics",
+        "parking_lot",
+        "quinn-proto",
+        "ring",
+        "snow",
+        "thiserror",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

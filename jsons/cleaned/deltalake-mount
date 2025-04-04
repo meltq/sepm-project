@@ -1,0 +1,24 @@
+{
+    "name": "deltalake-mount",
+    "deps": [
+        "async-trait",
+        "bytes",
+        "chrono",
+        "deltalake-core",
+        "errno",
+        "fs_extra",
+        "futures",
+        "lazy_static",
+        "object_store",
+        "pretty_env_logger",
+        "rand",
+        "regex",
+        "serde_json",
+        "serial_test",
+        "tempfile",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "url"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "name": "datafusion-python",
+    "deps": [
+        "async-trait",
+        "datafusion",
+        "datafusion-common",
+        "datafusion-expr",
+        "datafusion-optimizer",
+        "datafusion-sql",
+        "datafusion-substrait",
+        "futures",
+        "mimalloc",
+        "object_store",
+        "parking_lot",
+        "pyo3",
+        "rand",
+        "regex-syntax",
+        "tokio",
+        "uuid"
+    ]
+}

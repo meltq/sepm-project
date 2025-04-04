@@ -1,0 +1,19 @@
+{
+    "name": "sozu",
+    "deps": [
+        "clap",
+        "libc",
+        "mio",
+        "mio-uds",
+        "nix",
+        "nom",
+        "rand",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "slab",
+        "sozu-command-lib",
+        "sozu-lib",
+        "time"
+    ]
+}

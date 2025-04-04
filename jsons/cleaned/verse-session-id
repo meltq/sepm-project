@@ -1,0 +1,12 @@
+{
+    "name": "verse-session-id",
+    "deps": [
+        "anyhow",
+        "base64",
+        "ed25519-dalek",
+        "getrandom",
+        "serde",
+        "serde_json",
+        "thiserror"
+    ]
+}

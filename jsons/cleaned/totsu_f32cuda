@@ -1,0 +1,14 @@
+{
+    "name": "totsu_f32cuda",
+    "deps": [
+        "cublas-sys",
+        "env_logger",
+        "float_eq",
+        "libc",
+        "log",
+        "num-traits",
+        "rustacuda",
+        "totsu",
+        "totsu_core"
+    ]
+}

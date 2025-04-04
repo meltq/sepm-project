@@ -1,0 +1,16 @@
+{
+    "name": "linera-alloy-signer-trezor",
+    "deps": [
+        "async-trait",
+        "linera-alloy-consensus",
+        "linera-alloy-network",
+        "linera-alloy-primitives",
+        "linera-alloy-rpc-types",
+        "linera-alloy-signer",
+        "semver",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "trezor-client"
+    ]
+}

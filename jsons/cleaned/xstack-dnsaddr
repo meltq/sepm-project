@@ -1,0 +1,17 @@
+{
+    "name": "xstack-dnsaddr",
+    "deps": [
+        "async-trait",
+        "futures",
+        "futures-dnsv2",
+        "futures-test",
+        "log",
+        "pretty_env_logger",
+        "rand",
+        "rasi-mio",
+        "thiserror",
+        "xstack",
+        "xstack-quic",
+        "xstack-tcp"
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "name": "fastsar",
+    "deps": [
+        "anyhow",
+        "config",
+        "futures",
+        "log",
+        "quickcheck",
+        "quickcheck_macros",
+        "rusoto_core",
+        "rusoto_credential",
+        "rusoto_mock",
+        "rusoto_sts",
+        "rusoto_sts",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "shellexpand",
+        "simplelog",
+        "skim",
+        "structopt",
+        "subprocess",
+        "termcolor",
+        "tokio",
+        "tokio-test"
+    ]
+}

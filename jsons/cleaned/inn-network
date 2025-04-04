@@ -1,0 +1,30 @@
+{
+    "name": "inn-network",
+    "deps": [
+        "actix",
+        "actix-codec",
+        "actix-files",
+        "actix-rt",
+        "actix-web",
+        "actix-web-actors",
+        "byteorder",
+        "bytes",
+        "env_logger",
+        "futures-util",
+        "http",
+        "hyper",
+        "hyper-proxy",
+        "hyper-rustls",
+        "inn-common",
+        "log",
+        "rand",
+        "rustls-pemfile",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tokio-rustls",
+        "tokio-stream",
+        "tokio-util",
+        "webpki-roots"
+    ]
+}

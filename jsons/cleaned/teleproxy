@@ -1,0 +1,24 @@
+{
+    "name": "teleproxy",
+    "deps": [
+        "async-trait",
+        "clap",
+        "env_logger",
+        "header",
+        "http",
+        "log",
+        "pingora",
+        "pingora-core",
+        "pingora-proxy",
+        "prost",
+        "reqwest",
+        "serde",
+        "serde_yml",
+        "tokio",
+        "tokio-stream",
+        "tonic",
+        "tonic-build",
+        "tonic-reflection",
+        "ulid"
+    ]
+}

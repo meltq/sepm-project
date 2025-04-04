@@ -1,0 +1,33 @@
+{
+    "name": "openstack_sdk",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "bincode",
+        "bytes",
+        "chrono",
+        "config",
+        "derive_builder",
+        "dialoguer",
+        "dirs",
+        "futures",
+        "futures-util",
+        "http",
+        "httpmock",
+        "itertools",
+        "json-patch",
+        "log",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "serde_urlencoded",
+        "serde_yaml",
+        "simple_logger",
+        "thiserror",
+        "tokio",
+        "tokio",
+        "tokio-util",
+        "tracing",
+        "url"
+    ]
+}

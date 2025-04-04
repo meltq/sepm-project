@@ -1,0 +1,16 @@
+{
+    "name": "modio-logger-db",
+    "deps": [
+        "async-std",
+        "async-trait",
+        "env_logger",
+        "fsipc",
+        "futures",
+        "log",
+        "serde_json",
+        "sqlx",
+        "tempfile",
+        "thiserror",
+        "uuid"
+    ]
+}

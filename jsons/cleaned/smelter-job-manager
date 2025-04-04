@@ -1,0 +1,25 @@
+{
+    "name": "smelter-job-manager",
+    "deps": [
+        "ahash",
+        "async-trait",
+        "error-stack",
+        "eyre",
+        "flume",
+        "futures",
+        "once_cell",
+        "parking_lot",
+        "serde",
+        "serde_json",
+        "smelter-worker",
+        "tempfile",
+        "thiserror",
+        "time",
+        "tokio",
+        "tokio",
+        "tracing",
+        "tracing-subscriber",
+        "tracing-tree",
+        "uuid"
+    ]
+}

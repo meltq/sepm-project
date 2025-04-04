@@ -1,0 +1,24 @@
+{
+    "name": "krata-oci",
+    "deps": [
+        "anyhow",
+        "async-compression",
+        "async-trait",
+        "backhand",
+        "bytes",
+        "env_logger",
+        "krata-tokio-tar",
+        "log",
+        "oci-spec",
+        "path-clean",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "sha256",
+        "tokio",
+        "tokio-stream",
+        "url",
+        "uuid",
+        "walkdir"
+    ]
+}

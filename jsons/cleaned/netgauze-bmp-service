@@ -1,0 +1,28 @@
+{
+    "name": "netgauze-bmp-service",
+    "deps": [
+        "byteorder",
+        "bytes",
+        "chrono",
+        "futures",
+        "futures-core",
+        "futures-util",
+        "netgauze-bgp-pkt",
+        "netgauze-bmp-pkt",
+        "netgauze-parse-utils",
+        "nom",
+        "pin-project",
+        "rand",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tokio-stream",
+        "tokio-test",
+        "tokio-util",
+        "tower",
+        "tower-layer",
+        "tower-service",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

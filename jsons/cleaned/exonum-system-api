@@ -1,0 +1,15 @@
+{
+    "name": "exonum-system-api",
+    "deps": [
+        "actix-web",
+        "exonum",
+        "exonum-api",
+        "exonum-node",
+        "exonum-testkit",
+        "failure",
+        "futures",
+        "pretty_assertions",
+        "serde",
+        "serde_derive"
+    ]
+}

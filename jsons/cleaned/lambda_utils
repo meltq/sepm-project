@@ -1,0 +1,14 @@
+{
+    "name": "lambda_utils",
+    "deps": [
+        "aws-config",
+        "aws-sdk-sqs",
+        "aws-types",
+        "aws_lambda_events",
+        "lambda_http",
+        "mongodb",
+        "once_cell",
+        "serde_json",
+        "tokio"
+    ]
+}

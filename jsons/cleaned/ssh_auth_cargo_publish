@@ -1,0 +1,22 @@
+{
+    "name": "ssh_auth_cargo_publish",
+    "deps": [
+        "aes-gcm",
+        "anyhow",
+        "base64ct",
+        "camino",
+        "cargo_auto_encrypt_secret_lib",
+        "cargo_auto_lib",
+        "inquire",
+        "log",
+        "pretty_env_logger",
+        "rsa",
+        "secrecy",
+        "ssh-key",
+        "thiserror",
+        "time",
+        "tracing",
+        "tracing-appender",
+        "tracing-subscriber"
+    ]
+}

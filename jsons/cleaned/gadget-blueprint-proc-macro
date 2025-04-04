@@ -1,0 +1,11 @@
+{
+    "name": "gadget-blueprint-proc-macro",
+    "deps": [
+        "gadget-blueprint-proc-macro-core",
+        "proc-macro2",
+        "quote",
+        "serde_json",
+        "syn",
+        "trybuild"
+    ]
+}

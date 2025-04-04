@@ -1,0 +1,21 @@
+{
+    "name": "waffles-solana-faucet",
+    "deps": [
+        "bincode",
+        "byteorder",
+        "clap",
+        "crossbeam-channel",
+        "log",
+        "serde",
+        "serde_derive",
+        "solana-clap-utils",
+        "solana-cli-config",
+        "solana-logger",
+        "solana-metrics",
+        "solana-sdk",
+        "solana-version",
+        "spl-memo",
+        "thiserror",
+        "tokio"
+    ]
+}

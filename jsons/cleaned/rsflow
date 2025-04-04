@@ -1,0 +1,26 @@
+{
+    "name": "rsflow",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "axum",
+        "clap",
+        "colored",
+        "datafusion",
+        "dyn-clone",
+        "flume",
+        "futures",
+        "lazy_static",
+        "prometheus",
+        "regex",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "serde_yaml",
+        "thiserror",
+        "tokio",
+        "toml",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

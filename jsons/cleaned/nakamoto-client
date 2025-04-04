@@ -1,0 +1,17 @@
+{
+    "name": "nakamoto-client",
+    "deps": [
+        "bitcoin",
+        "crossbeam-channel",
+        "fastrand",
+        "log",
+        "microserde",
+        "nakamoto-chain",
+        "nakamoto-common",
+        "nakamoto-net-poll",
+        "nakamoto-p2p",
+        "nakamoto-test",
+        "tempfile",
+        "thiserror"
+    ]
+}

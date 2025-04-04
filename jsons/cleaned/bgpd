@@ -1,0 +1,27 @@
+{
+    "name": "bgpd",
+    "deps": [
+        "async-trait",
+        "bgp-rs",
+        "byteorder",
+        "bytes",
+        "chrono",
+        "colored",
+        "env_logger",
+        "futures",
+        "ipnetwork",
+        "itertools",
+        "jsonrpsee",
+        "log",
+        "net2",
+        "prettytable-rs",
+        "serde",
+        "serde_json",
+        "signal-hook",
+        "structopt",
+        "tokio",
+        "tokio-util",
+        "toml",
+        "twoway"
+    ]
+}

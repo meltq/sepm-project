@@ -1,0 +1,15 @@
+{
+    "name": "bep-mongodb",
+    "deps": [
+        "anyhow",
+        "bep-core",
+        "futures",
+        "mongodb",
+        "serde",
+        "serde_json",
+        "testcontainers",
+        "tokio",
+        "tokio-test",
+        "tracing"
+    ]
+}

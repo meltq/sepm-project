@@ -1,0 +1,15 @@
+{
+    "name": "sc-executor-wasmtime",
+    "deps": [
+        "codec",
+        "log",
+        "parity-wasm",
+        "sc-executor-common",
+        "sp-allocator",
+        "sp-core",
+        "sp-runtime-interface",
+        "sp-wasm-interface",
+        "wasmi",
+        "wasmtime"
+    ]
+}

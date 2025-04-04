@@ -1,0 +1,13 @@
+{
+    "name": "liboscore",
+    "deps": [
+        "bindgen",
+        "cbindgen",
+        "cc",
+        "coap-message",
+        "coap-message-utils",
+        "liboscore-cryptobackend",
+        "liboscore-msgbackend",
+        "pretty-hex"
+    ]
+}

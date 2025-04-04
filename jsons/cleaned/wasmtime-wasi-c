@@ -1,0 +1,16 @@
+{
+    "name": "wasmtime-wasi-c",
+    "deps": [
+        "bindgen",
+        "cmake",
+        "cranelift-codegen",
+        "cranelift-entity",
+        "cranelift-wasm",
+        "libc",
+        "log",
+        "target-lexicon",
+        "wasmtime-environ",
+        "wasmtime-jit",
+        "wasmtime-runtime"
+    ]
+}

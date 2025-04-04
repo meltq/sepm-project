@@ -1,0 +1,30 @@
+{
+    "name": "asport-client",
+    "deps": [
+        "asport",
+        "asport-quinn",
+        "bytes",
+        "clap",
+        "config",
+        "crossbeam-utils",
+        "env_logger",
+        "humantime",
+        "log",
+        "once_cell",
+        "parking_lot",
+        "ppp",
+        "quinn",
+        "register-count",
+        "rustls",
+        "rustls-native-certs",
+        "rustls-pemfile",
+        "serde",
+        "serde_json",
+        "socket2",
+        "thiserror",
+        "tokio",
+        "tokio-util",
+        "uuid",
+        "xdg"
+    ]
+}

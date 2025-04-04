@@ -1,0 +1,19 @@
+{
+    "name": "retrom-plugin-installer",
+    "deps": [
+        "diesel",
+        "diesel-async",
+        "dotenvy",
+        "futures",
+        "reqwest",
+        "retrom-codegen",
+        "retrom-db",
+        "serde",
+        "tauri",
+        "tauri-plugin",
+        "thiserror",
+        "tokio",
+        "tokio-util",
+        "tracing"
+    ]
+}

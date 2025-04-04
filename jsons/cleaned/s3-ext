@@ -1,0 +1,19 @@
+{
+    "name": "s3-ext",
+    "deps": [
+        "async-trait",
+        "env_logger",
+        "futures",
+        "lazy_static",
+        "log",
+        "parking_lot",
+        "rand",
+        "rand_xorshift",
+        "rusoto_core",
+        "rusoto_credential",
+        "rusoto_s3",
+        "tempdir",
+        "thiserror",
+        "tokio"
+    ]
+}

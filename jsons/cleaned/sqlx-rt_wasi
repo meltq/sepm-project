@@ -1,0 +1,13 @@
+{
+    "name": "sqlx-rt_wasi",
+    "deps": [
+        "async-native-tls",
+        "async-std",
+        "futures-rustls",
+        "native-tls",
+        "once_cell",
+        "tokio-native-tls",
+        "tokio-rustls",
+        "tokio_wasi"
+    ]
+}

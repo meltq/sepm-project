@@ -1,0 +1,24 @@
+{
+    "name": "nym-crypto",
+    "deps": [
+        "aes",
+        "blake3",
+        "bs58",
+        "cipher",
+        "ctr",
+        "digest",
+        "ed25519-dalek",
+        "generic-array",
+        "hkdf",
+        "hmac",
+        "nym-pemstore",
+        "nym-sphinx-types",
+        "rand",
+        "rand_chacha",
+        "serde_bytes",
+        "serde_crate",
+        "subtle-encoding",
+        "thiserror",
+        "x25519-dalek"
+    ]
+}

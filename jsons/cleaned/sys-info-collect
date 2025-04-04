@@ -1,0 +1,18 @@
+{
+    "name": "sys-info-collect",
+    "deps": [
+        "anyhow",
+        "cfg-if",
+        "chrono",
+        "clap",
+        "ipconfig",
+        "notify",
+        "pnet_datalink",
+        "regex",
+        "serde",
+        "serde_json",
+        "sysinfo",
+        "tokio",
+        "tracing"
+    ]
+}

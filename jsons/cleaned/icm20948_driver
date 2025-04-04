@@ -1,0 +1,14 @@
+{
+    "name": "icm20948_driver",
+    "deps": [
+        "cortex-m",
+        "cortex-m-rt",
+        "cortex-m-rtic",
+        "defmt",
+        "defmt-rtt",
+        "embedded-hal",
+        "panic-probe",
+        "stm32h7xx-hal",
+        "systick-monotonic"
+    ]
+}

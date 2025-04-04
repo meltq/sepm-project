@@ -1,0 +1,18 @@
+{
+    "name": "argentum_user_infrastructure",
+    "deps": [
+        "argentum_log_business",
+        "argentum_rest_infrastructure",
+        "argentum_standard_business",
+        "argentum_standard_infrastructure",
+        "argentum_user_business",
+        "argentum_user_rest",
+        "chrono",
+        "derive_more",
+        "futures",
+        "serde",
+        "sqlx",
+        "thiserror",
+        "uuid"
+    ]
+}

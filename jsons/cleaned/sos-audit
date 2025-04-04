@@ -1,0 +1,17 @@
+{
+    "name": "sos-audit",
+    "deps": [
+        "async-trait",
+        "binary-stream",
+        "bitflags",
+        "futures",
+        "rustc_version",
+        "serde",
+        "sos-core",
+        "sos-signer",
+        "sos-vault",
+        "sos-vfs",
+        "tokio",
+        "tokio-util"
+    ]
+}

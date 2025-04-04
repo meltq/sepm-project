@@ -1,0 +1,12 @@
+{
+    "name": "realm_core",
+    "deps": [
+        "lazy_static",
+        "log",
+        "pin-project",
+        "realm_io",
+        "realm_syscall",
+        "tokio",
+        "trust-dns-resolver"
+    ]
+}

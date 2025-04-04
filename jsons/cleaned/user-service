@@ -1,0 +1,24 @@
+{
+    "name": "user-service",
+    "deps": [
+        "actix-web",
+        "argon2",
+        "base64",
+        "derive_more",
+        "diesel",
+        "diesel_migrations",
+        "env_logger",
+        "futures",
+        "futures-util",
+        "lazy_static",
+        "num_cpus",
+        "password-hash",
+        "rand",
+        "regex",
+        "reqwest",
+        "serde",
+        "serde_with",
+        "time",
+        "tokio"
+    ]
+}

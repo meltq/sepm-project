@@ -1,0 +1,23 @@
+{
+    "name": "rustls-acme",
+    "deps": [
+        "async-h1",
+        "async-rustls",
+        "async-std",
+        "base64",
+        "chrono",
+        "futures",
+        "http-types",
+        "log",
+        "pem",
+        "rcgen",
+        "ring",
+        "serde",
+        "serde_json",
+        "simple_logger",
+        "structopt",
+        "thiserror",
+        "webpki-roots",
+        "x509-parser"
+    ]
+}

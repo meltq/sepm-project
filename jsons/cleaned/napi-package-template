@@ -1,0 +1,19 @@
+{
+    "name": "napi-package-template",
+    "deps": [
+        "async-recursion",
+        "config",
+        "lazy_static",
+        "log",
+        "log4rs",
+        "napi",
+        "napi-build",
+        "napi-derive",
+        "once_cell",
+        "openssl",
+        "openssl-sys",
+        "serde",
+        "serde_json",
+        "tikv-client"
+    ]
+}

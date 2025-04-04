@@ -1,0 +1,17 @@
+{
+    "name": "audit",
+    "deps": [
+        "bytes",
+        "env_logger",
+        "eui48",
+        "failure",
+        "failure_derive",
+        "futures",
+        "lazy_static",
+        "log",
+        "netlink-packet",
+        "netlink-proto",
+        "netlink-sys",
+        "tokio-core"
+    ]
+}

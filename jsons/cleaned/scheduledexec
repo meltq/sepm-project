@@ -1,0 +1,15 @@
+{
+    "name": "scheduledexec",
+    "deps": [
+        "axum",
+        "clap",
+        "futures",
+        "http",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tokio-listener",
+        "tokio-stream",
+        "utoipa"
+    ]
+}

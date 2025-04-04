@@ -1,0 +1,11 @@
+{
+    "name": "dpdk-time",
+    "deps": [
+        "dpdk-core",
+        "dpdk-sys",
+        "dpdk-unix",
+        "libc",
+        "serde",
+        "serde_derive"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "cargo-pgo",
+    "deps": [
+        "anyhow",
+        "cargo",
+        "cargo_metadata",
+        "clap",
+        "colored",
+        "env_logger",
+        "humansize",
+        "log",
+        "once_cell",
+        "regex",
+        "rustc-demangle",
+        "semver",
+        "tempfile",
+        "walkdir",
+        "which"
+    ]
+}

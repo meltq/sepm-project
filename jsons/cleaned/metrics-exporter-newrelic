@@ -1,0 +1,15 @@
+{
+    "name": "metrics-exporter-newrelic",
+    "deps": [
+        "http",
+        "metrics",
+        "metrics-util",
+        "reqwest",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tracing"
+    ]
+}

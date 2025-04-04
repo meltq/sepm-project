@@ -1,0 +1,23 @@
+{
+    "name": "ambient_profiling",
+    "deps": [
+        "ambient_profiling_procmacros",
+        "bincode",
+        "env_logger",
+        "glam",
+        "imgui",
+        "imgui-winit-support",
+        "lazy_static",
+        "log",
+        "optick",
+        "puffin",
+        "puffin-imgui",
+        "rafx",
+        "superluminal-perf",
+        "tracing",
+        "tracing-subscriber",
+        "tracing-tracy",
+        "tracy-client",
+        "winit"
+    ]
+}

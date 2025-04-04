@@ -1,0 +1,17 @@
+{
+    "name": "gh-action-trace",
+    "deps": [
+        "anyhow",
+        "chrono",
+        "clap",
+        "indicatif",
+        "octocrab",
+        "opentelemetry",
+        "opentelemetry-jaeger",
+        "serde_json",
+        "tokio",
+        "tracing",
+        "tracing-opentelemetry",
+        "tracing-subscriber"
+    ]
+}

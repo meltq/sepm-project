@@ -1,0 +1,28 @@
+{
+    "name": "miraland-cargo-registry",
+    "deps": [
+        "clap",
+        "flate2",
+        "hex",
+        "hyper",
+        "log",
+        "miraland-clap-utils",
+        "miraland-cli",
+        "miraland-cli-config",
+        "miraland-cli-output",
+        "miraland-logger",
+        "miraland-remote-wallet",
+        "miraland-rpc-client",
+        "miraland-rpc-client-api",
+        "miraland-sdk",
+        "miraland-version",
+        "rustc_version",
+        "serde",
+        "serde_json",
+        "sha2",
+        "tar",
+        "tempfile",
+        "tokio",
+        "toml"
+    ]
+}

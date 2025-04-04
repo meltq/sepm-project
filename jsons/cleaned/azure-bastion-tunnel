@@ -1,0 +1,17 @@
+{
+    "name": "azure-bastion-tunnel",
+    "deps": [
+        "azure_core",
+        "azure_identity",
+        "azure_mgmt_network",
+        "cfg-if",
+        "clap",
+        "futures",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tokio-tungstenite",
+        "url"
+    ]
+}

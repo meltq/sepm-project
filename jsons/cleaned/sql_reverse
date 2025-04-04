@@ -1,0 +1,14 @@
+{
+    "name": "sql_reverse",
+    "deps": [
+        "log",
+        "quicli",
+        "sql_reverse_error",
+        "sql_reverse_struct",
+        "sql_reverse_template",
+        "structopt",
+        "tokio",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

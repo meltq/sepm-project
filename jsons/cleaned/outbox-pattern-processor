@@ -1,0 +1,26 @@
+{
+    "name": "outbox-pattern-processor",
+    "deps": [
+        "aws-config",
+        "aws-sdk-sns",
+        "aws-sdk-sqs",
+        "rand",
+        "regex",
+        "reqwest",
+        "reqwest-middleware",
+        "reqwest-tracing",
+        "serde",
+        "serde_json",
+        "serial_test",
+        "sqlx",
+        "test-context",
+        "tokio",
+        "tracing",
+        "tracing-appender",
+        "tracing-serde",
+        "tracing-subscriber",
+        "uuid",
+        "wg",
+        "wiremock"
+    ]
+}

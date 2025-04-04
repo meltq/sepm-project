@@ -1,0 +1,13 @@
+{
+    "name": "nostr-bench",
+    "deps": [
+        "clap",
+        "env_logger",
+        "futures-util",
+        "log",
+        "thiserror",
+        "tokio",
+        "tokio-tungstenite",
+        "url"
+    ]
+}

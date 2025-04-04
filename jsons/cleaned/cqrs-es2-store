@@ -1,0 +1,15 @@
+{
+    "name": "cqrs-es2-store",
+    "deps": [
+        "cqrs-es2",
+        "log",
+        "mongodb",
+        "mysql",
+        "postgres",
+        "redis",
+        "rusqlite",
+        "serde",
+        "serde_json",
+        "uuid"
+    ]
+}

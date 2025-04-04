@@ -1,0 +1,16 @@
+{
+    "name": "tiered-cache",
+    "deps": [
+        "criterion",
+        "crossbeam-utils",
+        "dashmap",
+        "futures",
+        "lru-mem",
+        "parking_lot",
+        "rand",
+        "serde",
+        "smallvec",
+        "tokio",
+        "tokio-test"
+    ]
+}

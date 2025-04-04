@@ -1,0 +1,13 @@
+{
+    "name": "shared-resource-ipc",
+    "deps": [
+        "bincode",
+        "libc",
+        "rayon",
+        "rusty-fork",
+        "serde",
+        "thiserror",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

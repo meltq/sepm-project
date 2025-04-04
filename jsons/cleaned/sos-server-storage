@@ -1,0 +1,29 @@
+{
+    "name": "sos-server-storage",
+    "deps": [
+        "async-trait",
+        "binary-stream",
+        "futures",
+        "indexmap",
+        "rustc_version",
+        "secrecy",
+        "serde",
+        "sha2",
+        "sos-audit",
+        "sos-backend",
+        "sos-core",
+        "sos-database",
+        "sos-external-files",
+        "sos-filesystem",
+        "sos-protocol",
+        "sos-reducers",
+        "sos-signer",
+        "sos-sync",
+        "sos-vault",
+        "sos-vfs",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "uuid"
+    ]
+}

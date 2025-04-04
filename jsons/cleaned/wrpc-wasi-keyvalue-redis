@@ -1,0 +1,14 @@
+{
+    "name": "wrpc-wasi-keyvalue-redis",
+    "deps": [
+        "anyhow",
+        "bytes",
+        "futures",
+        "redis",
+        "tokio",
+        "tracing",
+        "uuid",
+        "wrpc-transport",
+        "wrpc-wasi-keyvalue"
+    ]
+}

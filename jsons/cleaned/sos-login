@@ -1,0 +1,23 @@
+{
+    "name": "sos-login",
+    "deps": [
+        "age",
+        "async-trait",
+        "ed25519-dalek",
+        "futures",
+        "rustc_version",
+        "secrecy",
+        "serde",
+        "sos-backend",
+        "sos-core",
+        "sos-password",
+        "sos-signer",
+        "sos-vault",
+        "sos-vfs",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "typeshare",
+        "urn"
+    ]
+}

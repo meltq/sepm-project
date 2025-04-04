@@ -1,0 +1,13 @@
+{
+    "name": "pipeamqp",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "futures-util",
+        "lapin",
+        "pipebase",
+        "serde",
+        "tokio",
+        "tokio-amqp"
+    ]
+}

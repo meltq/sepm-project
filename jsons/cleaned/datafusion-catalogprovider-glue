@@ -1,0 +1,14 @@
+{
+    "name": "datafusion-catalogprovider-glue",
+    "deps": [
+        "aws-config",
+        "aws-sdk-glue",
+        "aws-types",
+        "datafusion",
+        "datafusion-data-access",
+        "datafusion-objectstore-s3",
+        "lazy_static",
+        "regex",
+        "tokio"
+    ]
+}

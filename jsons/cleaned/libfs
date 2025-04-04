@@ -1,0 +1,13 @@
+{
+    "name": "libfs",
+    "deps": [
+        "cfg-if",
+        "libc",
+        "linux-raw-sys",
+        "log",
+        "rustix",
+        "tempfile",
+        "thiserror",
+        "xattr"
+    ]
+}

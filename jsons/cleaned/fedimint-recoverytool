@@ -1,0 +1,25 @@
+{
+    "name": "fedimint-recoverytool",
+    "deps": [
+        "anyhow",
+        "bitcoin",
+        "clap",
+        "fedimint-aead",
+        "fedimint-core",
+        "fedimint-ln-common",
+        "fedimint-ln-server",
+        "fedimint-logging",
+        "fedimint-mint-server",
+        "fedimint-rocksdb",
+        "fedimint-server",
+        "fedimint-wallet-server",
+        "futures",
+        "miniscript",
+        "secp256k1",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

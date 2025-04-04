@@ -1,0 +1,13 @@
+{
+    "name": "r53-ddns",
+    "deps": [
+        "clap",
+        "futures",
+        "lazy_static",
+        "regex",
+        "reqwest",
+        "rusoto_core",
+        "rusoto_route53",
+        "tokio"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "solana-verify",
+    "deps": [
+        "anyhow",
+        "cargo-lock",
+        "cargo_toml",
+        "clap",
+        "hex",
+        "pathdiff",
+        "reqwest",
+        "serde_json",
+        "sha256",
+        "signal-hook",
+        "solana-cli-config",
+        "solana-client",
+        "solana-sdk",
+        "uuid"
+    ]
+}

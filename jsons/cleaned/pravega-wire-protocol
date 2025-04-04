@@ -1,0 +1,23 @@
+{
+    "name": "pravega-wire-protocol",
+    "deps": [
+        "async-trait",
+        "bincode2",
+        "byteorder",
+        "derive-new",
+        "futures",
+        "lazy_static",
+        "log",
+        "pravega-client-config",
+        "pravega-client-retry",
+        "pravega-client-shared",
+        "pravega-connection-pool",
+        "serde",
+        "serde_bytes",
+        "snafu",
+        "tokio",
+        "tokio-rustls",
+        "tracing",
+        "uuid"
+    ]
+}

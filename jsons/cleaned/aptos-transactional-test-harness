@@ -1,0 +1,26 @@
+{
+    "name": "aptos-transactional-test-harness",
+    "deps": [
+        "anyhow",
+        "aptos-api-types",
+        "aptos-crypto",
+        "aptos-gas",
+        "aptos-state-view",
+        "aptos-transaction-builder",
+        "aptos-types",
+        "aptos-vm",
+        "bcs",
+        "cached-framework-packages",
+        "clap",
+        "datatest-stable",
+        "framework",
+        "hex",
+        "language-e2e-tests",
+        "move-deps",
+        "once_cell",
+        "serde",
+        "serde_json",
+        "storage-interface",
+        "vm-genesis"
+    ]
+}

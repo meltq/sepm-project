@@ -1,0 +1,23 @@
+{
+    "name": "azure_cosmos_mirror",
+    "deps": [
+        "azure_core_mirror",
+        "base64",
+        "bytes",
+        "chrono",
+        "env_logger",
+        "failure",
+        "futures",
+        "http",
+        "hyper",
+        "hyper-rustls",
+        "log",
+        "reqwest",
+        "ring",
+        "serde",
+        "serde_json",
+        "tokio",
+        "url",
+        "uuid"
+    ]
+}

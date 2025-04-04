@@ -1,0 +1,17 @@
+{
+    "name": "ppserver",
+    "deps": [
+        "clap",
+        "futures",
+        "futures-timer",
+        "lazy_static",
+        "myutil",
+        "nix",
+        "num_cpus",
+        "parking_lot",
+        "ppcore",
+        "ppserver_def",
+        "serde",
+        "serde_json"
+    ]
+}

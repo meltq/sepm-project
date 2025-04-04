@@ -1,0 +1,20 @@
+{
+    "name": "deno_telemetry",
+    "deps": [
+        "async-trait",
+        "deno_core",
+        "http-body-util",
+        "hyper",
+        "hyper-util",
+        "log",
+        "once_cell",
+        "opentelemetry",
+        "opentelemetry-http",
+        "opentelemetry-otlp",
+        "opentelemetry-semantic-conventions",
+        "opentelemetry_sdk",
+        "pin-project",
+        "serde",
+        "tokio"
+    ]
+}

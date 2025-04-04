@@ -1,0 +1,25 @@
+{
+    "name": "ftx_async",
+    "deps": [
+        "async-trait",
+        "const_format",
+        "futures",
+        "futures-util",
+        "hex",
+        "hmac",
+        "num-traits",
+        "reqwest",
+        "rustc-hash",
+        "serde",
+        "serde_json",
+        "sha2",
+        "tokio",
+        "tokio-test",
+        "tokio-tungstenite",
+        "tracing",
+        "tracing-appender",
+        "tracing-futures",
+        "tracing-subscriber",
+        "url"
+    ]
+}

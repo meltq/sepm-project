@@ -1,0 +1,19 @@
+{
+    "name": "runkins",
+    "deps": [
+        "anyhow",
+        "dotenv",
+        "env_logger",
+        "futures-core",
+        "log",
+        "prost",
+        "rand",
+        "runkins_lib",
+        "runkins_proto",
+        "structopt",
+        "tokio",
+        "tokio-stream",
+        "tonic",
+        "tracing-core"
+    ]
+}

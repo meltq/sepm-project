@@ -1,0 +1,26 @@
+{
+    "name": "carrier",
+    "deps": [
+        "bs58",
+        "byteorder",
+        "bytes",
+        "clear_on_drop",
+        "crc8",
+        "ed25519-dalek",
+        "env_logger",
+        "failure",
+        "futures",
+        "hex",
+        "lazy_static",
+        "log",
+        "prost",
+        "prost-build",
+        "prost-derive",
+        "rand",
+        "sha2",
+        "snow",
+        "subtle",
+        "tokio",
+        "x25519-dalek"
+    ]
+}

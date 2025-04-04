@@ -1,0 +1,25 @@
+{
+    "name": "product-os-service-handler",
+    "deps": [
+        "async-trait",
+        "cfg-if",
+        "chrono",
+        "hex",
+        "lazy_static",
+        "parking_lot",
+        "product-os-capabilities",
+        "product-os-command-control",
+        "product-os-configuration",
+        "product-os-router",
+        "product-os-security",
+        "product-os-store",
+        "product-os-store-macros",
+        "regex",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tracing",
+        "url",
+        "uuid"
+    ]
+}

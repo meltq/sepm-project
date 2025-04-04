@@ -1,0 +1,15 @@
+{
+    "name": "openssh-mux-client",
+    "deps": [
+        "assert_matches",
+        "once_cell",
+        "sendfd",
+        "serde",
+        "ssh_mux_format",
+        "thiserror",
+        "tokio",
+        "tokio",
+        "tokio-pipe",
+        "typed-builder"
+    ]
+}

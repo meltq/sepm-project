@@ -1,0 +1,25 @@
+{
+    "name": "cosmian_crypto_base",
+    "deps": [
+        "aes",
+        "aes-gcm",
+        "anyhow",
+        "bindgen",
+        "cosmian_fpe",
+        "cupid",
+        "curve25519-dalek",
+        "getrandom",
+        "hex",
+        "hkdf",
+        "itertools",
+        "num-bigint",
+        "num-traits",
+        "rand",
+        "rand_core",
+        "rand_distr",
+        "rand_hc",
+        "sha2",
+        "sha3",
+        "tracing"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "name": "resource-proxy-pingora",
+    "deps": [
+        "async-trait",
+        "bytes",
+        "clap",
+        "const_format",
+        "env_logger",
+        "glob",
+        "http",
+        "httpdate",
+        "log",
+        "maud",
+        "mime_guess",
+        "once_cell",
+        "percent-encoding",
+        "pingora",
+        "pingora-core",
+        "serde",
+        "serde_yaml",
+        "test-log",
+        "tokio"
+    ]
+}

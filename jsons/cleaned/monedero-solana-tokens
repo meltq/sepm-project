@@ -1,0 +1,25 @@
+{
+    "name": "monedero-solana-tokens",
+    "deps": [
+        "anyhow",
+        "dotenvy",
+        "rstest",
+        "serde",
+        "serde_json",
+        "serde_with",
+        "solana-program",
+        "solana-pubkey",
+        "solana-sdk",
+        "spl-associated-token-account",
+        "spl-associated-token-account-client",
+        "spl-token",
+        "spl-token-2022",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "tracing-subscriber",
+        "url",
+        "wasm_client_solana",
+        "wasm_client_solana"
+    ]
+}

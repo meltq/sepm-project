@@ -1,0 +1,29 @@
+{
+    "name": "ic-agent",
+    "deps": [
+        "async-trait",
+        "base32",
+        "base64",
+        "byteorder",
+        "candid",
+        "delay",
+        "hex",
+        "ic-types",
+        "leb128",
+        "mockito",
+        "openssl",
+        "pem",
+        "proptest",
+        "rand",
+        "reqwest",
+        "ring",
+        "rustls",
+        "serde",
+        "serde_bytes",
+        "serde_cbor",
+        "thiserror",
+        "tokio",
+        "url",
+        "webpki-roots"
+    ]
+}

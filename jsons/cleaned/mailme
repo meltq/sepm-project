@@ -1,0 +1,13 @@
+{
+    "name": "mailme",
+    "deps": [
+        "dotenv",
+        "log",
+        "nom",
+        "pretty_env_logger",
+        "thiserror",
+        "tokio",
+        "tokio-rustls",
+        "webpki-roots"
+    ]
+}

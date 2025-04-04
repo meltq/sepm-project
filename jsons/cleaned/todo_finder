@@ -1,0 +1,14 @@
+{
+    "name": "todo_finder",
+    "deps": [
+        "clap",
+        "hyper",
+        "hyper-tls",
+        "pretty_env_logger",
+        "serde",
+        "serde_json",
+        "serde_yaml",
+        "todo_finder_lib",
+        "tokio"
+    ]
+}

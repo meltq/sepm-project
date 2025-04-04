@@ -1,0 +1,27 @@
+{
+    "name": "waffles-solana-quic-client",
+    "deps": [
+        "async-mutex",
+        "async-trait",
+        "crossbeam-channel",
+        "futures",
+        "itertools",
+        "lazy_static",
+        "log",
+        "quinn",
+        "quinn-proto",
+        "quinn-udp",
+        "rustls",
+        "solana-logger",
+        "solana-measure",
+        "solana-metrics",
+        "solana-net-utils",
+        "solana-perf",
+        "solana-rpc-client-api",
+        "solana-sdk",
+        "solana-streamer",
+        "solana-tpu-client",
+        "thiserror",
+        "tokio"
+    ]
+}

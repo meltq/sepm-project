@@ -1,0 +1,31 @@
+{
+    "name": "warm_channels",
+    "deps": [
+        "assert_matches",
+        "async-stream",
+        "backoff",
+        "futures",
+        "http",
+        "humantime",
+        "hyper",
+        "hyper",
+        "hyper-util",
+        "lazy_static",
+        "log",
+        "pin-project-lite",
+        "prometheus",
+        "testing_logger",
+        "thiserror",
+        "tokio",
+        "tokio-rustls",
+        "tokio-stream",
+        "tokio-test",
+        "tonic",
+        "tonic-health",
+        "tonic_prometheus_layer",
+        "tower",
+        "tower-service",
+        "trust-dns-resolver",
+        "want"
+    ]
+}

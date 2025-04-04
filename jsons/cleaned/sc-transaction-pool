@@ -1,0 +1,21 @@
+{
+    "name": "sc-transaction-pool",
+    "deps": [
+        "codec",
+        "derive_more",
+        "futures",
+        "futures-diagnose",
+        "futures-timer",
+        "log",
+        "parity-util-mem",
+        "parking_lot",
+        "sc-client-api",
+        "sc-transaction-graph",
+        "sp-api",
+        "sp-blockchain",
+        "sp-core",
+        "sp-runtime",
+        "sp-transaction-pool",
+        "wasm-timer"
+    ]
+}

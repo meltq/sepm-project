@@ -1,0 +1,24 @@
+{
+    "name": "mailjet_client",
+    "deps": [
+        "anyhow",
+        "async-std",
+        "names",
+        "once_cell",
+        "pretty_assertions",
+        "reqwest",
+        "reqwest-middleware",
+        "reqwest-tracing",
+        "rstest",
+        "secrecy",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "tracing-subscriber",
+        "typetag",
+        "uuid",
+        "wiremock"
+    ]
+}

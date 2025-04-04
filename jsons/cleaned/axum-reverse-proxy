@@ -1,0 +1,18 @@
+{
+    "name": "axum-reverse-proxy",
+    "deps": [
+        "axum",
+        "bytes",
+        "criterion",
+        "http-body-util",
+        "hyper",
+        "hyper-util",
+        "reqwest",
+        "serde_json",
+        "tokio",
+        "tower",
+        "tower-http",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

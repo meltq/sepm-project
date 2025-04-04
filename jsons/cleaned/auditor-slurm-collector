@@ -1,0 +1,21 @@
+{
+    "name": "auditor-slurm-collector",
+    "deps": [
+        "auditor",
+        "bincode",
+        "chrono",
+        "color-eyre",
+        "config",
+        "fake",
+        "itertools",
+        "once_cell",
+        "regex",
+        "serde",
+        "serde-aux",
+        "serde_with",
+        "sqlx",
+        "tokio",
+        "tracing",
+        "uuid"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "name": "miraland-rpc-client-nonce-utils",
+    "deps": [
+        "anyhow",
+        "clap",
+        "futures",
+        "miraland-account-decoder",
+        "miraland-clap-utils",
+        "miraland-rpc-client",
+        "miraland-rpc-client-api",
+        "miraland-sdk",
+        "serde_json",
+        "thiserror",
+        "tokio"
+    ]
+}

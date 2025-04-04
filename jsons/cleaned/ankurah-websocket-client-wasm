@@ -1,0 +1,33 @@
+{
+    "name": "ankurah-websocket-client-wasm",
+    "deps": [
+        "ankurah",
+        "ankurah-core",
+        "ankurah-derive",
+        "ankurah-proto",
+        "ankurah-react-signals",
+        "any_spawner",
+        "anyhow",
+        "async-trait",
+        "bincode",
+        "console_error_panic_hook",
+        "futures",
+        "gloo-timers",
+        "js-sys",
+        "reactive_graph",
+        "send_wrapper",
+        "serde",
+        "serde-wasm-bindgen",
+        "strum",
+        "thiserror",
+        "tracing",
+        "tracing-wasm",
+        "ulid",
+        "uuid",
+        "wasm-bindgen",
+        "wasm-bindgen-futures",
+        "wasm-bindgen-test",
+        "wasm-logger",
+        "web-sys"
+    ]
+}

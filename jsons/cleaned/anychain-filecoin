@@ -1,0 +1,24 @@
+{
+    "name": "anychain-filecoin",
+    "deps": [
+        "anychain-core",
+        "anyhow",
+        "base64",
+        "blake2b_simd",
+        "cid",
+        "data-encoding",
+        "data-encoding-macro",
+        "forest_encoding",
+        "fvm_ipld_encoding",
+        "fvm_shared",
+        "lazy_static",
+        "num-bigint",
+        "num-derive",
+        "num-traits",
+        "rand",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "unsigned-varint"
+    ]
+}

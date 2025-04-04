@@ -1,0 +1,26 @@
+{
+    "name": "printnanny-settings",
+    "deps": [
+        "async-trait",
+        "bytes",
+        "clap",
+        "env_logger",
+        "figment",
+        "figment",
+        "file-lock",
+        "git2",
+        "glob",
+        "log",
+        "predicates",
+        "printnanny-api-client",
+        "printnanny-asyncapi-models",
+        "printnanny-dbus",
+        "serde",
+        "serde_json",
+        "sys-info",
+        "test-log",
+        "thiserror",
+        "toml",
+        "zip"
+    ]
+}

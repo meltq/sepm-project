@@ -1,0 +1,14 @@
+{
+    "name": "jetstream_cluster",
+    "deps": [
+        "anyhow",
+        "bytes",
+        "jetstream_wireformat",
+        "okstd",
+        "rand",
+        "s2n-quic",
+        "thiserror",
+        "tokio",
+        "trait-variant"
+    ]
+}

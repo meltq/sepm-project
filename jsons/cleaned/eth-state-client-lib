@@ -1,0 +1,15 @@
+{
+    "name": "eth-state-client-lib",
+    "deps": [
+        "async-trait",
+        "clap",
+        "eth-state-fold-types",
+        "eth-state-server-common",
+        "serde",
+        "serde_json",
+        "snafu",
+        "tokio",
+        "tokio-stream",
+        "tonic"
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "name": "iocaine",
+    "deps": [
+        "anyhow",
+        "axum",
+        "clap",
+        "console-subscriber",
+        "figment",
+        "figment_file_provider_adapter",
+        "handlebars",
+        "metrics",
+        "metrics-exporter-prometheus",
+        "rand",
+        "rand_chacha",
+        "regex",
+        "rust-embed",
+        "serde",
+        "serde_regex",
+        "sha2",
+        "tokio",
+        "tower-http",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

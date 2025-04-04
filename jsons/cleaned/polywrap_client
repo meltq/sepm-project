@@ -1,0 +1,15 @@
+{
+    "name": "polywrap_client",
+    "deps": [
+        "async-trait",
+        "filesystem_plugin",
+        "fs_resolver_plugin",
+        "futures",
+        "polywrap_core",
+        "polywrap_msgpack",
+        "polywrap_plugin",
+        "serde",
+        "serde_json",
+        "thiserror"
+    ]
+}

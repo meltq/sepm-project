@@ -1,0 +1,18 @@
+{
+    "name": "zksync_merkle_tree",
+    "deps": [
+        "anyhow",
+        "leb128",
+        "once_cell",
+        "rayon",
+        "thiserror",
+        "thread_local",
+        "tracing",
+        "vise",
+        "zksync_crypto_primitives",
+        "zksync_prover_interface",
+        "zksync_storage",
+        "zksync_types",
+        "zksync_utils"
+    ]
+}

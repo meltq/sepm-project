@@ -1,0 +1,15 @@
+{
+    "name": "taskcluster-download",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "futures-util",
+        "httptest",
+        "reqwest",
+        "serde_json",
+        "taskcluster",
+        "tempfile",
+        "tokio",
+        "tokio-util"
+    ]
+}

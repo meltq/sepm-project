@@ -1,0 +1,15 @@
+{
+    "name": "nat-detection",
+    "deps": [
+        "clap",
+        "clap-verbosity-flag",
+        "color-eyre",
+        "futures",
+        "libp2p",
+        "sn_networking",
+        "tokio",
+        "tracing",
+        "tracing-log",
+        "tracing-subscriber"
+    ]
+}

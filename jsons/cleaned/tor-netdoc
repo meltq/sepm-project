@@ -1,0 +1,23 @@
+{
+    "name": "tor-netdoc",
+    "deps": [
+        "base64",
+        "bitflags",
+        "chrono",
+        "digest",
+        "hex",
+        "hex-literal",
+        "once_cell",
+        "phf",
+        "rand",
+        "serde",
+        "signature",
+        "thiserror",
+        "tor-bytes",
+        "tor-cert",
+        "tor-checkable",
+        "tor-llcrypto",
+        "tor-protover",
+        "weak-table"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "name": "memadvise",
+    "deps": [
+        "kernel32-sys",
+        "libc",
+        "page_size",
+        "spin",
+        "winapi"
+    ]
+}

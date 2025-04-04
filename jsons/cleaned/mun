@@ -1,0 +1,17 @@
+{
+    "name": "mun",
+    "deps": [
+        "anyhow",
+        "cargo-husky",
+        "clap",
+        "log",
+        "mun_abi",
+        "mun_compiler",
+        "mun_compiler_daemon",
+        "mun_language_server",
+        "mun_project",
+        "mun_runtime",
+        "pretty_env_logger",
+        "tempfile"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "name": "tea-actorx2",
+    "deps": [
+        "base64",
+        "bincode",
+        "clap",
+        "command-fds",
+        "futures",
+        "primitive-types",
+        "serde",
+        "serde_yaml",
+        "strum",
+        "tea-actorx2-core",
+        "tea-actorx2-worker",
+        "tea-codec",
+        "thiserror",
+        "tokio",
+        "tokio-util",
+        "tracing"
+    ]
+}

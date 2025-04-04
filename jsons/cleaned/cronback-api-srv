@@ -1,0 +1,33 @@
+{
+    "name": "cronback-api-srv",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "axum",
+        "axum-extra",
+        "base64",
+        "chrono",
+        "cronback-api-model",
+        "dto",
+        "hyper",
+        "lib",
+        "metrics",
+        "names",
+        "proto",
+        "rand",
+        "sea-orm",
+        "serde",
+        "serde_json",
+        "serde_path_to_error",
+        "serde_with",
+        "sha2",
+        "thiserror",
+        "tokio",
+        "tonic",
+        "tower-http",
+        "tracing",
+        "ulid",
+        "uuid",
+        "validator"
+    ]
+}

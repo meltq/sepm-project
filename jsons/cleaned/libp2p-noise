@@ -1,0 +1,17 @@
+{
+    "name": "libp2p-noise",
+    "deps": [
+        "curve25519-dalek",
+        "env_logger",
+        "futures",
+        "lazy_static",
+        "libp2p-core",
+        "libp2p-tcp",
+        "log",
+        "quickcheck",
+        "rand",
+        "snow",
+        "tokio",
+        "tokio-io"
+    ]
+}

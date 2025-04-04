@@ -1,0 +1,23 @@
+{
+    "name": "solana-stake-monitor",
+    "deps": [
+        "clap",
+        "console",
+        "log",
+        "serde",
+        "serde_yaml",
+        "serial_test",
+        "serial_test_derive",
+        "solana-clap-utils",
+        "solana-cli-config",
+        "solana-client",
+        "solana-core",
+        "solana-local-cluster",
+        "solana-logger",
+        "solana-metrics",
+        "solana-sdk",
+        "solana-stake-program",
+        "solana-transaction-status",
+        "tempfile"
+    ]
+}

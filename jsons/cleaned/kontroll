@@ -1,0 +1,19 @@
+{
+    "name": "kontroll",
+    "deps": [
+        "assert_cmd",
+        "clap",
+        "directories",
+        "macroquad",
+        "prost",
+        "serde",
+        "serde_json",
+        "tempfile",
+        "tokio",
+        "tokio-stream",
+        "tonic",
+        "tonic-build",
+        "tower",
+        "uds_windows"
+    ]
+}

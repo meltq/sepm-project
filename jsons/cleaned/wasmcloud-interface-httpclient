@@ -1,0 +1,13 @@
+{
+    "name": "wasmcloud-interface-httpclient",
+    "deps": [
+        "async-trait",
+        "base64",
+        "futures",
+        "serde",
+        "serde_bytes",
+        "serde_json",
+        "wasmbus-rpc",
+        "weld-codegen"
+    ]
+}

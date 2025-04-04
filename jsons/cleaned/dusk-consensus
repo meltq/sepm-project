@@ -1,0 +1,29 @@
+{
+    "name": "dusk-consensus",
+    "deps": [
+        "aes",
+        "async-channel",
+        "base64",
+        "blake2",
+        "blake3",
+        "block-modes",
+        "bytes",
+        "clap",
+        "dusk-bls12_381-sign",
+        "dusk-bytes",
+        "hex",
+        "hex-literal",
+        "kadcast",
+        "libmath",
+        "num-bigint",
+        "rand",
+        "rand_core",
+        "rustc_tools_util",
+        "serde",
+        "serde_json",
+        "sha3",
+        "tokio",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

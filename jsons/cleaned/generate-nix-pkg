@@ -1,0 +1,14 @@
+{
+    "name": "generate-nix-pkg",
+    "deps": [
+        "clap",
+        "env_logger",
+        "log",
+        "regex",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "tempdir",
+        "toml"
+    ]
+}

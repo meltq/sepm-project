@@ -1,0 +1,20 @@
+{
+    "name": "frost-p256",
+    "deps": [
+        "bincode",
+        "criterion",
+        "ed25519-dalek",
+        "ed25519-zebra",
+        "frost-core",
+        "hex",
+        "lazy_static",
+        "p256",
+        "proptest",
+        "proptest-derive",
+        "rand",
+        "rand_chacha",
+        "rand_core",
+        "serde_json",
+        "sha2"
+    ]
+}

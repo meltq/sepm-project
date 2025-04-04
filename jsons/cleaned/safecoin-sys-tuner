@@ -1,0 +1,15 @@
+{
+    "name": "safecoin-sys-tuner",
+    "deps": [
+        "clap",
+        "libc",
+        "log",
+        "nix",
+        "safecoin-clap-utils",
+        "safecoin-logger",
+        "safecoin-version",
+        "sysctl",
+        "unix_socket2",
+        "users"
+    ]
+}

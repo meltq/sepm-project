@@ -1,0 +1,20 @@
+{
+    "name": "grin_store",
+    "deps": [
+        "byteorder",
+        "chrono",
+        "croaring",
+        "env_logger",
+        "failure",
+        "failure_derive",
+        "grin_core",
+        "grin_util",
+        "libc",
+        "lmdb-zero",
+        "log",
+        "memmap",
+        "rand",
+        "serde",
+        "serde_derive"
+    ]
+}

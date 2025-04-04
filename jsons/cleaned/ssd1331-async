@@ -1,0 +1,22 @@
+{
+    "name": "ssd1331-async",
+    "deps": [
+        "cortex-m",
+        "cortex-m-rt",
+        "defmt",
+        "defmt-rtt",
+        "embassy-executor",
+        "embassy-futures",
+        "embassy-stm32",
+        "embassy-sync",
+        "embassy-time",
+        "embedded-graphics",
+        "embedded-graphics-core",
+        "embedded-hal",
+        "embedded-hal-async",
+        "embedded-hal-bus",
+        "heapless",
+        "panic-probe",
+        "static_cell"
+    ]
+}

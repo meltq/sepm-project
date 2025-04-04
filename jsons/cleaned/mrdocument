@@ -1,0 +1,30 @@
+{
+    "name": "mrdocument",
+    "deps": [
+        "async-std",
+        "base64",
+        "clap",
+        "dirs",
+        "display_json",
+        "env_logger",
+        "fmt",
+        "futures",
+        "futures-util",
+        "log",
+        "lopdf",
+        "notify",
+        "once_cell",
+        "openai-api-rs",
+        "rstest",
+        "serde",
+        "serde_json",
+        "strum",
+        "strum_macros",
+        "tempdir",
+        "thiserror",
+        "tokio",
+        "tokio-stream",
+        "uuid",
+        "which"
+    ]
+}

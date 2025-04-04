@@ -1,0 +1,19 @@
+{
+    "name": "virtual-hosts-module",
+    "deps": [
+        "async-trait",
+        "env_logger",
+        "http",
+        "log",
+        "module-utils",
+        "pingora-core",
+        "pingora-proxy",
+        "serde",
+        "static-files-module",
+        "structopt",
+        "test-log",
+        "tokio",
+        "tokio-test",
+        "trie-rs"
+    ]
+}

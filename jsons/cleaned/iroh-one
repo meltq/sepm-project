@@ -1,0 +1,30 @@
+{
+    "name": "iroh-one",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "axum",
+        "bytes",
+        "cid",
+        "clap",
+        "config",
+        "futures",
+        "headers",
+        "http",
+        "http-serde",
+        "hyper",
+        "iroh-gateway",
+        "iroh-metrics",
+        "iroh-p2p",
+        "iroh-resolver",
+        "iroh-rpc-client",
+        "iroh-rpc-types",
+        "iroh-store",
+        "iroh-util",
+        "reqwest",
+        "serde",
+        "tempfile",
+        "tokio",
+        "tracing"
+    ]
+}

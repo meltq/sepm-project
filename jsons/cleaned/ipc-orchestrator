@@ -1,0 +1,14 @@
+{
+    "name": "ipc-orchestrator",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "crossbeam",
+        "futures",
+        "ipc-channel",
+        "log",
+        "serde",
+        "serde_bytes",
+        "tokio"
+    ]
+}

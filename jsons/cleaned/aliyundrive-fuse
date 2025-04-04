@@ -1,0 +1,20 @@
+{
+    "name": "aliyundrive-fuse",
+    "deps": [
+        "anyhow",
+        "bytes",
+        "clap",
+        "fuser",
+        "futures-util",
+        "libc",
+        "oneshot",
+        "openssl-probe",
+        "parking_lot",
+        "reqwest",
+        "serde",
+        "time",
+        "tracing",
+        "tracing-subscriber",
+        "url"
+    ]
+}

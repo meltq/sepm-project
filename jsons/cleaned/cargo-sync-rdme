@@ -1,0 +1,24 @@
+{
+    "name": "cargo-sync-rdme",
+    "deps": [
+        "cargo_metadata",
+        "clap",
+        "git2",
+        "indoc",
+        "miette",
+        "once_cell",
+        "pulldown-cmark",
+        "pulldown-cmark-to-cmark",
+        "rustdoc-types",
+        "serde",
+        "serde_json",
+        "serde_yaml",
+        "tempfile",
+        "thiserror",
+        "toml",
+        "tracing",
+        "tracing-subscriber",
+        "url",
+        "void"
+    ]
+}

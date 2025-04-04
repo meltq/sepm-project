@@ -1,0 +1,22 @@
+{
+    "name": "transaction-emitter",
+    "deps": [
+        "anyhow",
+        "aptos",
+        "aptos-config",
+        "aptos-crypto",
+        "aptos-logger",
+        "aptos-rest-client",
+        "aptos-sdk",
+        "aptos-transaction-builder",
+        "aptos-workspace-hack",
+        "futures",
+        "itertools",
+        "rand",
+        "rand_core",
+        "reqwest",
+        "structopt",
+        "termion",
+        "tokio"
+    ]
+}

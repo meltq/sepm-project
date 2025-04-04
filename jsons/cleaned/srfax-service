@@ -1,0 +1,25 @@
+{
+    "name": "srfax-service",
+    "deps": [
+        "base64",
+        "chrono",
+        "clap",
+        "failure",
+        "flexi_logger",
+        "futures",
+        "log",
+        "log-panics",
+        "mail-core",
+        "mail-headers",
+        "mail-smtp",
+        "new-tokio-smtp",
+        "quick-error",
+        "reqwest",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "unwrap",
+        "vergen",
+        "windows-service"
+    ]
+}

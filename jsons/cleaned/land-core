@@ -1,0 +1,24 @@
+{
+    "name": "land-core",
+    "deps": [
+        "anyhow",
+        "bcrypt",
+        "chrono",
+        "envconfig",
+        "futures",
+        "land-migration",
+        "lazy_static",
+        "once_cell",
+        "opendal",
+        "rand",
+        "sea-orm",
+        "serde",
+        "time",
+        "tokio",
+        "toml",
+        "tracing",
+        "tracing-subscriber",
+        "uuid",
+        "vergen"
+    ]
+}

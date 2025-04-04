@@ -1,0 +1,16 @@
+{
+    "name": "tetsy-local-store",
+    "deps": [
+        "common-types",
+        "log",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "tetsy-crypto",
+        "tetsy-kvdb",
+        "tetsy-kvdb-memorydb",
+        "tetsy-rlp",
+        "vapcore-io",
+        "vapkey"
+    ]
+}

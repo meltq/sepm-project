@@ -1,0 +1,19 @@
+{
+    "name": "vsmtp-server",
+    "deps": [
+        "async-trait",
+        "criterion",
+        "fastrand",
+        "lettre",
+        "pretty_assertions",
+        "time",
+        "tokio",
+        "tokio-rustls",
+        "trust-dns-resolver",
+        "vsmtp-common",
+        "vsmtp-config",
+        "vsmtp-delivery",
+        "vsmtp-mail-parser",
+        "vsmtp-rule-engine"
+    ]
+}

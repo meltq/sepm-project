@@ -1,0 +1,31 @@
+{
+    "name": "risq",
+    "deps": [
+        "actix",
+        "actix-web",
+        "bitcoin",
+        "bitcoin_hashes",
+        "bufstream",
+        "bytes",
+        "clap",
+        "dirs",
+        "either",
+        "env_logger",
+        "futures",
+        "futures-locks",
+        "juniper",
+        "juniper-from-schema",
+        "lazy_static",
+        "log",
+        "prost",
+        "prost-build",
+        "prost-types",
+        "rand",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "socks",
+        "tokio",
+        "uuid"
+    ]
+}

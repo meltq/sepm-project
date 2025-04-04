@@ -1,0 +1,28 @@
+{
+    "name": "yazi-core",
+    "deps": [
+        "anyhow",
+        "async-channel",
+        "clipboard-win",
+        "crossterm",
+        "futures",
+        "indexmap",
+        "libc",
+        "notify",
+        "parking_lot",
+        "ratatui",
+        "regex",
+        "serde",
+        "serde_json",
+        "syntect",
+        "tokio",
+        "tokio-stream",
+        "tracing",
+        "trash",
+        "unicode-width",
+        "yazi-adaptor",
+        "yazi-config",
+        "yazi-prebuild",
+        "yazi-shared"
+    ]
+}

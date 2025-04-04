@@ -1,0 +1,24 @@
+{
+    "name": "dms-cdc-operator",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "aws-sdk-s3",
+        "bytes",
+        "chrono",
+        "colored",
+        "indexmap",
+        "log",
+        "mockall",
+        "polars",
+        "polars-core",
+        "polars-utils",
+        "rust-pgdatadiff",
+        "rust_decimal",
+        "serde",
+        "serde_json",
+        "sqlx",
+        "tokio",
+        "tracing"
+    ]
+}

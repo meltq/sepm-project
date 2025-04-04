@@ -1,0 +1,20 @@
+{
+    "name": "libqueued",
+    "deps": [
+        "async-trait",
+        "blake3",
+        "chrono",
+        "croaring",
+        "dashmap",
+        "futures",
+        "hex",
+        "itertools",
+        "lazy_static",
+        "num_enum",
+        "rand",
+        "seekable-async-file",
+        "serde",
+        "signal-future",
+        "tokio"
+    ]
+}

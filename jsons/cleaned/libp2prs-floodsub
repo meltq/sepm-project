@@ -1,0 +1,24 @@
+{
+    "name": "libp2prs-floodsub",
+    "deps": [
+        "async-std",
+        "async-trait",
+        "env_logger",
+        "futures",
+        "lazy_static",
+        "libp2prs-core",
+        "libp2prs-mplex",
+        "libp2prs-secio",
+        "libp2prs-swarm",
+        "libp2prs-tcp",
+        "libp2prs-traits",
+        "libp2prs-yamux",
+        "log",
+        "nohash-hasher",
+        "prost",
+        "prost-build",
+        "quickcheck",
+        "rand",
+        "smallvec"
+    ]
+}

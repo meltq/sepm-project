@@ -1,0 +1,16 @@
+{
+    "name": "pallas-rolldb",
+    "deps": [
+        "async-stream",
+        "bincode",
+        "futures-core",
+        "futures-util",
+        "pallas-crypto",
+        "rocksdb",
+        "serde",
+        "tempfile",
+        "thiserror",
+        "tokio",
+        "tracing"
+    ]
+}

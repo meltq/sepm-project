@@ -1,0 +1,14 @@
+{
+    "name": "tether-rplidar",
+    "deps": [
+        "clap",
+        "ctrlc",
+        "env_logger",
+        "hex-slice",
+        "log",
+        "rmp-serde",
+        "rplidar_drv_rs",
+        "serialport",
+        "tether-agent"
+    ]
+}

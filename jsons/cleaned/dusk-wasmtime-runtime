@@ -1,0 +1,32 @@
+{
+    "name": "dusk-wasmtime-runtime",
+    "deps": [
+        "anyhow",
+        "cc",
+        "cfg-if",
+        "encoding_rs",
+        "indexmap",
+        "libc",
+        "log",
+        "mach2",
+        "memfd",
+        "memoffset",
+        "once_cell",
+        "paste",
+        "proptest",
+        "psm",
+        "rand",
+        "rustix",
+        "sptr",
+        "wasm-encoder",
+        "wasmtime-asm-macros",
+        "wasmtime-environ",
+        "wasmtime-fiber",
+        "wasmtime-jit-debug",
+        "wasmtime-slab",
+        "wasmtime-versioned-export-macros",
+        "wasmtime-versioned-export-macros",
+        "wasmtime-wmemcheck",
+        "windows-sys"
+    ]
+}

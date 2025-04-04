@@ -1,0 +1,19 @@
+{
+    "name": "remindee-bot",
+    "deps": [
+        "async-std",
+        "chrono",
+        "chrono-tz",
+        "cron-parser",
+        "directories",
+        "lazy_static",
+        "log",
+        "openssl",
+        "pretty_env_logger",
+        "regex",
+        "rusqlite",
+        "teloxide",
+        "teloxide-macros",
+        "tokio"
+    ]
+}

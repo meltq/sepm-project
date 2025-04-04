@@ -1,0 +1,15 @@
+{
+    "name": "static-video-server",
+    "deps": [
+        "askama",
+        "axum",
+        "axum-macros",
+        "clap",
+        "tokio",
+        "tokio-util",
+        "tower",
+        "tower-http",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

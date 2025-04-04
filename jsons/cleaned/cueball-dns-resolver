@@ -1,0 +1,20 @@
+{
+    "name": "cueball-dns-resolver",
+    "deps": [
+        "base64",
+        "chrono",
+        "cueball",
+        "derive_more",
+        "futures",
+        "resolv-conf",
+        "sha1",
+        "slog",
+        "slog-term",
+        "state_machine_future",
+        "tokio",
+        "tokio-core",
+        "trust-dns",
+        "trust-dns-resolver",
+        "unicode-normalization"
+    ]
+}

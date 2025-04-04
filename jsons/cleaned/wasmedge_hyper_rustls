@@ -1,0 +1,10 @@
+{
+    "name": "wasmedge_hyper_rustls",
+    "deps": [
+        "http",
+        "hyper_wasi",
+        "pretty_env_logger",
+        "tokio_wasi",
+        "wasmedge_rustls_api"
+    ]
+}

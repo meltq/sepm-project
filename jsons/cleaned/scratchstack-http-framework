@@ -1,0 +1,28 @@
+{
+    "name": "scratchstack-http-framework",
+    "deps": [
+        "async-trait",
+        "bytes",
+        "chrono",
+        "derive_builder",
+        "env_logger",
+        "futures",
+        "http",
+        "http-body",
+        "hyper",
+        "hyper",
+        "log",
+        "quick-xml",
+        "rusoto_core",
+        "rusoto_credential",
+        "rusoto_signature",
+        "rustls",
+        "scratchstack-aws-principal",
+        "scratchstack-aws-signature",
+        "scratchstack-errors",
+        "test-log",
+        "tokio",
+        "tokio-rustls",
+        "tower"
+    ]
+}

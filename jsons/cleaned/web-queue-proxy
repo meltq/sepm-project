@@ -1,0 +1,16 @@
+{
+    "name": "web-queue-proxy",
+    "deps": [
+        "actix",
+        "actix-web",
+        "actix-web-actors",
+        "env_logger",
+        "futures",
+        "log",
+        "num_cpus",
+        "serde",
+        "serde_json",
+        "web-queue-meta",
+        "ws"
+    ]
+}

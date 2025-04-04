@@ -1,0 +1,20 @@
+{
+    "name": "openpgp-card-rpgp",
+    "deps": [
+        "anyhow",
+        "card-backend-pcsc",
+        "card-backend-scdc",
+        "chrono",
+        "env_logger",
+        "hex",
+        "log",
+        "openpgp-card",
+        "pgp",
+        "rand",
+        "rsa",
+        "serde",
+        "testresult",
+        "thiserror",
+        "toml"
+    ]
+}

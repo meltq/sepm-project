@@ -1,0 +1,20 @@
+{
+    "name": "tea-actorx-host",
+    "deps": [
+        "bincode",
+        "crossbeam",
+        "dashmap",
+        "futures",
+        "parking_lot",
+        "serde",
+        "smallvec",
+        "tea-actorx-core",
+        "tea-actorx-signer",
+        "tea-codec",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "wasmer",
+        "wasmer-middlewares"
+    ]
+}

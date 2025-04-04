@@ -1,0 +1,25 @@
+{
+    "name": "timesource",
+    "deps": [
+        "async-trait",
+        "backoff",
+        "chrono",
+        "flume",
+        "futures",
+        "gabble",
+        "lru",
+        "mockall",
+        "rand",
+        "serde",
+        "serde_json",
+        "sqlx",
+        "test-case",
+        "thiserror",
+        "timesource-core",
+        "timesource-derive",
+        "tokio",
+        "tracing",
+        "tracing-subscriber",
+        "uuid"
+    ]
+}

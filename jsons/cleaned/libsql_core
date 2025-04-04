@@ -1,0 +1,14 @@
+{
+    "name": "libsql_core",
+    "deps": [
+        "criterion",
+        "futures",
+        "libsql-sys",
+        "libsql_replication",
+        "pprof",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

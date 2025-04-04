@@ -1,0 +1,11 @@
+{
+    "name": "dynamodb-mutex-rs",
+    "deps": [
+        "chrono",
+        "futures",
+        "rusoto_core",
+        "rusoto_dynamodb",
+        "thiserror",
+        "tokio"
+    ]
+}

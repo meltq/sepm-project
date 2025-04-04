@@ -1,0 +1,15 @@
+{
+    "name": "airtable-api-wasi",
+    "deps": [
+        "anyhow",
+        "chrono",
+        "log",
+        "reqwest-middleware-wasi",
+        "reqwest-retry-wasi",
+        "reqwest-tracing-wasi",
+        "reqwest_wasi",
+        "schemars",
+        "serde",
+        "serde_json"
+    ]
+}

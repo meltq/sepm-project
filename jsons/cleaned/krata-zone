@@ -1,0 +1,24 @@
+{
+    "name": "krata-zone",
+    "deps": [
+        "anyhow",
+        "cgroups-rs",
+        "env_logger",
+        "futures",
+        "ipnetwork",
+        "krata",
+        "krata-xenstore",
+        "libc",
+        "log",
+        "nix",
+        "oci-spec",
+        "path-absolutize",
+        "platform-info",
+        "rtnetlink",
+        "serde",
+        "serde_json",
+        "sys-mount",
+        "sysinfo",
+        "tokio"
+    ]
+}

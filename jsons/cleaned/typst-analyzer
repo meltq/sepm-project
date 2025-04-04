@@ -1,0 +1,13 @@
+{
+    "name": "typst-analyzer",
+    "deps": [
+        "dashmap",
+        "regex",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tower-lsp",
+        "tracing-subscriber"
+    ]
+}

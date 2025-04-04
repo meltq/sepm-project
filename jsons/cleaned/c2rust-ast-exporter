@@ -1,0 +1,13 @@
+{
+    "name": "c2rust-ast-exporter",
+    "deps": [
+        "bindgen",
+        "clang-sys",
+        "cmake",
+        "env_logger",
+        "libc",
+        "serde",
+        "serde_bytes",
+        "serde_cbor"
+    ]
+}

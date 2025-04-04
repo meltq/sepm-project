@@ -1,0 +1,17 @@
+{
+    "name": "embedded-nal-coap",
+    "deps": [
+        "coap-handler",
+        "coap-message",
+        "coap-message-utils",
+        "coap-numbers",
+        "coap-request",
+        "embassy-futures",
+        "embassy-sync",
+        "embedded-nal-async",
+        "heapless",
+        "num-derive",
+        "num-traits",
+        "rand_core"
+    ]
+}

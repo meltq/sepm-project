@@ -1,0 +1,17 @@
+{
+    "name": "ockam_executor",
+    "deps": [
+        "alloc-cortex-m",
+        "async-std",
+        "cortex-m",
+        "cortex-m-rt",
+        "cortex-m-semihosting",
+        "crossbeam-queue",
+        "futures",
+        "heapless",
+        "ockam_core",
+        "panic-semihosting",
+        "pin-project-lite",
+        "pin-utils"
+    ]
+}

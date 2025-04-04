@@ -1,0 +1,23 @@
+{
+    "name": "tor-circmgr",
+    "deps": [
+        "async-trait",
+        "futures",
+        "futures-await-test",
+        "itertools",
+        "log",
+        "pin-project",
+        "rand",
+        "retry-error",
+        "thiserror",
+        "tor-chanmgr",
+        "tor-linkspec",
+        "tor-netdir",
+        "tor-netdir",
+        "tor-netdoc",
+        "tor-proto",
+        "tor-rtcompat",
+        "tor-rtmock",
+        "weak-table"
+    ]
+}

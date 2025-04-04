@@ -1,0 +1,19 @@
+{
+    "name": "serialtui",
+    "deps": [
+        "async-trait",
+        "derive_builder",
+        "enum-iterator",
+        "lazy_static",
+        "log",
+        "rustyline",
+        "rustyline-derive",
+        "serde",
+        "serde-enum-str",
+        "serialport",
+        "tokio",
+        "tokio-serial",
+        "toml",
+        "xdg"
+    ]
+}

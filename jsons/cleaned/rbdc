@@ -1,0 +1,32 @@
+{
+    "name": "rbdc",
+    "deps": [
+        "async-trait",
+        "bytes",
+        "crossbeam-queue",
+        "event-listener",
+        "fastdate",
+        "futures-channel",
+        "futures-core",
+        "futures-intrusive",
+        "futures-util",
+        "hashlink",
+        "indexmap",
+        "log",
+        "memchr",
+        "mobc",
+        "native-tls",
+        "once_cell",
+        "rbs",
+        "rbson",
+        "rustls",
+        "rustls-pemfile",
+        "serde",
+        "serde_bytes",
+        "serde_json",
+        "tokio",
+        "tokio-native-tls",
+        "tokio-rustls",
+        "webpki-roots"
+    ]
+}

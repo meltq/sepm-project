@@ -1,0 +1,25 @@
+{
+    "name": "shadow-drive-rust",
+    "deps": [
+        "anchor-lang",
+        "async-trait",
+        "byte-unit",
+        "bytes",
+        "cryptohelpers",
+        "futures",
+        "hex",
+        "lazy_static",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "shadow-drive-user-staking",
+        "solana-account-decoder",
+        "solana-client",
+        "solana-sdk",
+        "solana-transaction-status",
+        "spl-associated-token-account",
+        "spl-token",
+        "tokio",
+        "tracing"
+    ]
+}

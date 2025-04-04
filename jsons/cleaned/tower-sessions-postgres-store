@@ -1,0 +1,22 @@
+{
+    "name": "tower-sessions-postgres-store",
+    "deps": [
+        "async-trait",
+        "axum",
+        "deadpool-postgres",
+        "http",
+        "http-body-util",
+        "hyper",
+        "rmp-serde",
+        "serde",
+        "thiserror",
+        "time",
+        "time",
+        "tokio",
+        "tokio-postgres",
+        "tower",
+        "tower-cookies",
+        "tower-sessions",
+        "tower-sessions-core"
+    ]
+}

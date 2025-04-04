@@ -1,0 +1,17 @@
+{
+    "name": "safecoin-banks-server",
+    "deps": [
+        "bincode",
+        "futures",
+        "log",
+        "mio",
+        "safecoin-banks-interface",
+        "safecoin-metrics",
+        "safecoin-runtime",
+        "safecoin-sdk",
+        "tarpc",
+        "tokio",
+        "tokio-serde",
+        "tokio-stream"
+    ]
+}

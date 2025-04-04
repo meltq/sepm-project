@@ -1,0 +1,24 @@
+{
+    "name": "currency-conversion-cli",
+    "deps": [
+        "anyhow",
+        "assert_cmd",
+        "clap",
+        "clap-verbosity-flag",
+        "confy",
+        "csv",
+        "currency-conversion",
+        "exitcode",
+        "home",
+        "httpmock",
+        "openssl",
+        "predicates",
+        "rust_decimal",
+        "rust_decimal_macros",
+        "serde",
+        "serde_json",
+        "tracing",
+        "tracing-log",
+        "tracing-subscriber"
+    ]
+}

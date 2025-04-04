@@ -1,0 +1,20 @@
+{
+    "name": "jamsocket-cli",
+    "deps": [
+        "actix",
+        "actix-web",
+        "actix-web-actors",
+        "anyhow",
+        "cargo_metadata",
+        "clap",
+        "env_logger",
+        "jamsocket",
+        "jamsocket-server",
+        "jamsocket-wasm-host",
+        "log",
+        "serde",
+        "toml",
+        "wasm-bindgen-cli-support",
+        "wasmtime"
+    ]
+}

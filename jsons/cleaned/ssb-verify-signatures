@@ -1,0 +1,19 @@
+{
+    "name": "ssb-verify-signatures",
+    "deps": [
+        "arrayvec",
+        "base64",
+        "criterion",
+        "ed25519-dalek",
+        "itertools",
+        "lazy_static",
+        "rand",
+        "rayon",
+        "regex",
+        "serde",
+        "serde_json",
+        "sha2",
+        "snafu",
+        "ssb-legacy-msg-data"
+    ]
+}

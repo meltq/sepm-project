@@ -1,0 +1,13 @@
+{
+    "name": "bls_signature_aggregator",
+    "deps": [
+        "bincode",
+        "err-derive",
+        "fake_clock",
+        "log",
+        "rand",
+        "serde",
+        "threshold_crypto",
+        "tiny-keccak"
+    ]
+}

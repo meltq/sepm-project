@@ -1,0 +1,15 @@
+{
+    "name": "numcodecs-wasm-host",
+    "deps": [
+        "anyhow",
+        "ndarray",
+        "numcodecs",
+        "schemars",
+        "semver",
+        "serde",
+        "serde-transcode",
+        "serde_json",
+        "thiserror",
+        "wasm_component_layer"
+    ]
+}

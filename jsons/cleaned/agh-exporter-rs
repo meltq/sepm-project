@@ -1,0 +1,16 @@
+{
+    "name": "agh-exporter-rs",
+    "deps": [
+        "axum",
+        "clap",
+        "clap_derive",
+        "log",
+        "reqwest",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "serde_prometheus",
+        "simple_logger",
+        "tokio"
+    ]
+}

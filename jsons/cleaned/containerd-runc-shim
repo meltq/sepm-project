@@ -1,0 +1,19 @@
+{
+    "name": "containerd-runc-shim",
+    "deps": [
+        "async-trait",
+        "cgroups-rs",
+        "containerd-shim",
+        "crossbeam",
+        "futures",
+        "libc",
+        "log",
+        "nix",
+        "oci-spec",
+        "runc",
+        "serde",
+        "serde_json",
+        "time",
+        "tokio"
+    ]
+}

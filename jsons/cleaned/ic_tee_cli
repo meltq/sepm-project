@@ -1,0 +1,20 @@
+{
+    "name": "ic_tee_cli",
+    "deps": [
+        "anyhow",
+        "candid",
+        "clap",
+        "const-hex",
+        "ed25519",
+        "ed25519-consensus",
+        "ic-agent",
+        "ic_cose_types",
+        "ic_tee_agent",
+        "ic_tee_cdk",
+        "ic_tee_nitro_attestation",
+        "pkcs8",
+        "rand",
+        "serde_bytes",
+        "tokio"
+    ]
+}

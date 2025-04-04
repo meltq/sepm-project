@@ -1,0 +1,16 @@
+{
+    "name": "actix-telegram",
+    "deps": [
+        "actix",
+        "actix-telegram-derive",
+        "actix-web",
+        "env_logger",
+        "futures",
+        "log",
+        "multipart-rfc7578",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "tokio"
+    ]
+}

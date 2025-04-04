@@ -1,0 +1,27 @@
+{
+    "name": "cmlterm",
+    "deps": [
+        "anyhow",
+        "ascii",
+        "async-io",
+        "async-ssh2-lite",
+        "clap",
+        "cml",
+        "colored",
+        "crossterm",
+        "env_logger",
+        "futures",
+        "futures-io",
+        "log",
+        "merge-io",
+        "serde",
+        "serde_json",
+        "smallvec",
+        "smol_str",
+        "thiserror",
+        "tokio",
+        "tokio-native-tls",
+        "tokio-tungstenite",
+        "tokio-util"
+    ]
+}

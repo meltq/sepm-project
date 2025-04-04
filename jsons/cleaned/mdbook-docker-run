@@ -1,0 +1,25 @@
+{
+    "name": "mdbook-docker-run",
+    "deps": [
+        "ansi-to-html",
+        "anyhow",
+        "async-recursion",
+        "camino",
+        "clap",
+        "docker-api",
+        "futures",
+        "mdbook",
+        "num_cpus",
+        "pulldown-cmark",
+        "pulldown-cmark-to-cmark",
+        "serde",
+        "serde_json",
+        "serde_yaml",
+        "tempfile",
+        "tokio",
+        "toml",
+        "tracing",
+        "tracing-subscriber",
+        "url"
+    ]
+}

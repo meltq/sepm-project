@@ -1,0 +1,22 @@
+{
+    "name": "bytecon_data_store",
+    "deps": [
+        "bytecon",
+        "bytecon_tls",
+        "chrono",
+        "cloneless_cow",
+        "deadpool-postgres",
+        "futures",
+        "rand",
+        "rand_chacha",
+        "rcgen",
+        "rusqlite",
+        "rustls",
+        "rustls-pemfile",
+        "tempfile",
+        "thiserror",
+        "tokio",
+        "tokio-postgres",
+        "tokio-rustls"
+    ]
+}

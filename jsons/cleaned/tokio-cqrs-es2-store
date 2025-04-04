@@ -1,0 +1,17 @@
+{
+    "name": "tokio-cqrs-es2-store",
+    "deps": [
+        "async-trait",
+        "cqrs-es2",
+        "futures",
+        "log",
+        "mongodb",
+        "redis",
+        "serde",
+        "serde_json",
+        "sqlx",
+        "tokio",
+        "tokio-test",
+        "uuid"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "name": "rinfluxdb-lineprotocol",
+    "deps": [
+        "anyhow",
+        "async-std",
+        "async-trait",
+        "chrono",
+        "fake",
+        "httpmock",
+        "quickcheck",
+        "quickcheck_macros",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tracing",
+        "tracing-log",
+        "tracing-subscriber",
+        "url"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "native-tls-gmssl",
+    "deps": [
+        "gmssl",
+        "gmssl-sys",
+        "lazy_static",
+        "libc",
+        "log",
+        "openssl-probe",
+        "schannel",
+        "security-framework",
+        "security-framework-sys",
+        "tempfile",
+        "tempfile",
+        "test-cert-gen"
+    ]
+}

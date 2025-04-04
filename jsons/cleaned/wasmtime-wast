@@ -1,0 +1,15 @@
+{
+    "name": "wasmtime-wast",
+    "deps": [
+        "cranelift-codegen",
+        "cranelift-entity",
+        "cranelift-wasm",
+        "failure",
+        "failure_derive",
+        "target-lexicon",
+        "wabt",
+        "wasmtime-environ",
+        "wasmtime-jit",
+        "wasmtime-runtime"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "name": "remotefs-fuse",
+    "deps": [
+        "dashmap",
+        "dokan",
+        "dokan-sys",
+        "env_logger",
+        "fuser",
+        "libc",
+        "log",
+        "nix",
+        "nix",
+        "path-slash",
+        "pretty_assertions",
+        "remotefs",
+        "remotefs-memory",
+        "seahash",
+        "serial_test",
+        "tempfile",
+        "widestring",
+        "winapi"
+    ]
+}

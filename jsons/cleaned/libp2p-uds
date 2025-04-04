@@ -1,0 +1,13 @@
+{
+    "name": "libp2p-uds",
+    "deps": [
+        "futures",
+        "libp2p-core",
+        "log",
+        "multiaddr",
+        "tempfile",
+        "tokio",
+        "tokio-io",
+        "tokio-uds"
+    ]
+}

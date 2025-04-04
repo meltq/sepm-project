@@ -1,0 +1,17 @@
+{
+    "name": "zksync_da_dispatcher",
+    "deps": [
+        "anyhow",
+        "chrono",
+        "futures",
+        "rand",
+        "tokio",
+        "tracing",
+        "vise",
+        "zksync_config",
+        "zksync_da_client",
+        "zksync_dal",
+        "zksync_types",
+        "zksync_utils"
+    ]
+}

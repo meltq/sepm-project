@@ -1,0 +1,26 @@
+{
+    "name": "pi_tcp",
+    "deps": [
+        "bytes",
+        "crossbeam-channel",
+        "dashmap",
+        "env_logger",
+        "fnv",
+        "futures",
+        "lazy_static",
+        "log",
+        "mio",
+        "num_cpus",
+        "parking_lot",
+        "pi_async",
+        "pi_async_buffer",
+        "pi_atom",
+        "pi_cancel_timer",
+        "pi_hash",
+        "pi_slotmap",
+        "rustls",
+        "rustls-pemfile",
+        "slotmap",
+        "spin_sleep"
+    ]
+}

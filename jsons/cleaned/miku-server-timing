@@ -1,0 +1,14 @@
+{
+    "name": "miku-server-timing",
+    "deps": [
+        "axum",
+        "http",
+        "macro-toolset",
+        "minreq",
+        "pin-project-lite",
+        "tokio",
+        "tower-layer",
+        "tower-service",
+        "tracing"
+    ]
+}

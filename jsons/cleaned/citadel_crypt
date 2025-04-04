@@ -1,0 +1,31 @@
+{
+    "name": "citadel_crypt",
+    "deps": [
+        "arrayvec",
+        "async-trait",
+        "auto_impl",
+        "bincode2",
+        "bitvec",
+        "byteorder",
+        "bytes",
+        "citadel_io",
+        "citadel_logging",
+        "citadel_pqcrypto",
+        "futures",
+        "kernel32-sys",
+        "libc",
+        "log",
+        "num-integer",
+        "num_cpus",
+        "rand",
+        "rayon",
+        "rstest",
+        "rust-argon2",
+        "serde",
+        "serde-big-array",
+        "sha3",
+        "sysinfo",
+        "tokio",
+        "tokio-stream"
+    ]
+}

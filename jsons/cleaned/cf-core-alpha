@@ -1,0 +1,16 @@
+{
+    "name": "cf-core-alpha",
+    "deps": [
+        "anyhow",
+        "cf-pty-process-alpha",
+        "clap",
+        "futures-util",
+        "pty",
+        "serde",
+        "serde_json",
+        "termion",
+        "tokio",
+        "tokio-tungstenite",
+        "vodozemac"
+    ]
+}

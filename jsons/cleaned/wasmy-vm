@@ -1,0 +1,18 @@
+{
+    "name": "wasmy-vm",
+    "deps": [
+        "anyhow",
+        "inventory",
+        "lazy_static",
+        "pretty_env_logger",
+        "protobuf",
+        "serde",
+        "structopt",
+        "wasmer",
+        "wasmer-compiler-cranelift",
+        "wasmer-engine-universal",
+        "wasmer-wasi",
+        "wasmy-abi",
+        "wasmy-macros"
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "name": "pssh-box",
+    "deps": [
+        "anyhow",
+        "base64",
+        "bstr",
+        "byteorder",
+        "bytes",
+        "clap",
+        "hex",
+        "hex-literal",
+        "hxdmp",
+        "num_enum",
+        "pretty_assertions",
+        "prost",
+        "prost-build",
+        "prost-types",
+        "quick-xml",
+        "reqwest",
+        "serde",
+        "serde-xml-rs",
+        "serde_json",
+        "serde_path_to_error",
+        "serde_with",
+        "test-log",
+        "tracing",
+        "zerocopy"
+    ]
+}

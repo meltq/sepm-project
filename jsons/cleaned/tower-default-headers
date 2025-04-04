@@ -1,0 +1,14 @@
+{
+    "name": "tower-default-headers",
+    "deps": [
+        "axum",
+        "futures-util",
+        "http",
+        "hyper",
+        "pin-project",
+        "tokio",
+        "tower",
+        "tower-layer",
+        "tower-service"
+    ]
+}

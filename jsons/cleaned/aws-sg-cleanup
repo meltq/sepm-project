@@ -1,0 +1,25 @@
+{
+    "name": "aws-sg-cleanup",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "aws-config",
+        "aws-sdk-ec2",
+        "aws-sdk-elasticache",
+        "aws-sdk-elasticloadbalancingv2",
+        "aws-sdk-lambda",
+        "aws-sdk-rds",
+        "aws-types",
+        "base16ct",
+        "clap",
+        "cli-table",
+        "env_logger",
+        "futures",
+        "itertools",
+        "log",
+        "parking_lot",
+        "rand",
+        "sha-1",
+        "tokio"
+    ]
+}

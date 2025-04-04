@@ -1,0 +1,19 @@
+{
+    "name": "mq-workload-generator",
+    "deps": [
+        "async-trait",
+        "clap",
+        "futures",
+        "lazy_static",
+        "leaky-bucket",
+        "rand",
+        "rocketmq",
+        "rustix",
+        "signal-hook",
+        "signal-hook-tokio",
+        "slog",
+        "slog-async",
+        "slog-term",
+        "tokio"
+    ]
+}

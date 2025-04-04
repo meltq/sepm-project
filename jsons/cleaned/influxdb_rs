@@ -1,0 +1,17 @@
+{
+    "name": "influxdb_rs",
+    "deps": [
+        "bytes",
+        "chrono",
+        "criterion",
+        "futures",
+        "reqwest",
+        "rocket",
+        "rocket_db_pools",
+        "serde",
+        "serde_json",
+        "tempdir",
+        "tokio",
+        "url"
+    ]
+}

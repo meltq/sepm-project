@@ -1,0 +1,15 @@
+{
+    "name": "tea-actorx2-worker",
+    "deps": [
+        "bincode",
+        "parking_lot",
+        "strum",
+        "tea-actorx2-core",
+        "tea-codec",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "wasmer",
+        "wasmer-middlewares"
+    ]
+}

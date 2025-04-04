@@ -1,0 +1,23 @@
+{
+    "name": "init-tracing-opentelemetry",
+    "deps": [
+        "assert2",
+        "opentelemetry",
+        "opentelemetry-aws",
+        "opentelemetry-jaeger",
+        "opentelemetry-otlp",
+        "opentelemetry-semantic-conventions",
+        "opentelemetry-zipkin",
+        "opentelemetry_api",
+        "opentelemetry_sdk",
+        "rstest",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio-stream",
+        "tracing",
+        "tracing-opentelemetry",
+        "tracing-subscriber",
+        "tracing-subscriber"
+    ]
+}

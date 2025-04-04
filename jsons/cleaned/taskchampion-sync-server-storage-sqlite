@@ -1,0 +1,13 @@
+{
+    "name": "taskchampion-sync-server-storage-sqlite",
+    "deps": [
+        "anyhow",
+        "chrono",
+        "pretty_assertions",
+        "rusqlite",
+        "taskchampion-sync-server-core",
+        "tempfile",
+        "thiserror",
+        "uuid"
+    ]
+}

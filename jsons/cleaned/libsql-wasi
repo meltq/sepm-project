@@ -1,0 +1,12 @@
+{
+    "name": "libsql-wasi",
+    "deps": [
+        "anyhow",
+        "rand",
+        "thiserror",
+        "tracing",
+        "tracing-subscriber",
+        "wasmtime",
+        "wasmtime-wasi"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "name": "nydus-blobfs",
+    "deps": [
+        "fuse-backend-rs",
+        "libc",
+        "log",
+        "nydus-app",
+        "nydus-error",
+        "nydus-rafs",
+        "nydus-storage",
+        "serde",
+        "serde_json",
+        "serde_with",
+        "vm-memory"
+    ]
+}

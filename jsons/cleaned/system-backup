@@ -1,0 +1,22 @@
+{
+    "name": "system-backup",
+    "deps": [
+        "clap",
+        "color-eyre",
+        "directories",
+        "gethostname",
+        "globset",
+        "ignore",
+        "jiff",
+        "lazy_static",
+        "pretty_assertions",
+        "serde",
+        "thiserror",
+        "tokio",
+        "toml",
+        "tracing",
+        "tracing-subscriber",
+        "varpath",
+        "which"
+    ]
+}

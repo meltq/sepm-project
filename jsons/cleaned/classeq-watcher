@@ -1,0 +1,22 @@
+{
+    "name": "classeq-watcher",
+    "deps": [
+        "anyhow",
+        "apalis",
+        "apalis-core",
+        "async-channel",
+        "async-std",
+        "chrono",
+        "clap",
+        "classeq-core",
+        "classeq-ports-lib",
+        "ctrlc",
+        "mycelium-config",
+        "rayon",
+        "serde",
+        "serde_yaml",
+        "tracing",
+        "tracing-appender",
+        "tracing-subscriber"
+    ]
+}

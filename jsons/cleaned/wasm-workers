@@ -1,0 +1,21 @@
+{
+    "name": "wasm-workers",
+    "deps": [
+        "anyhow",
+        "console_error_panic_hook",
+        "dominator",
+        "futures-signals",
+        "gloo",
+        "js-sys",
+        "rayon",
+        "serde",
+        "serde-wasm-bindgen",
+        "serde_json",
+        "tokio",
+        "url",
+        "wasm-bindgen",
+        "wasm-bindgen-futures",
+        "wasm-bindgen-rayon",
+        "web-sys"
+    ]
+}

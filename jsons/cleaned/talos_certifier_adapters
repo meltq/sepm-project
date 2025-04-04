@@ -1,0 +1,27 @@
+{
+    "name": "talos_certifier_adapters",
+    "deps": [
+        "ahash",
+        "async-trait",
+        "deadpool-postgres",
+        "env_logger",
+        "futures-util",
+        "log",
+        "mockall",
+        "rdkafka",
+        "refinery",
+        "serde",
+        "serde_json",
+        "serial_test",
+        "talos_certifier",
+        "talos_common_utils",
+        "talos_metrics",
+        "talos_rdkafka_utils",
+        "talos_suffix",
+        "thiserror",
+        "time",
+        "tokio",
+        "tokio-postgres",
+        "uuid"
+    ]
+}

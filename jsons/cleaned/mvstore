@@ -1,0 +1,28 @@
+{
+    "name": "mvstore",
+    "deps": [
+        "anyhow",
+        "blake3",
+        "bloom",
+        "bytes",
+        "foundationdb",
+        "futures",
+        "hex",
+        "hyper",
+        "log",
+        "moka",
+        "rand",
+        "rmp-serde",
+        "serde",
+        "serde_bytes",
+        "serde_json",
+        "structopt",
+        "thiserror",
+        "tokio",
+        "tokio-util",
+        "tracing",
+        "tracing-subscriber",
+        "url",
+        "zstd"
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "name": "swimos_server_app",
+    "deps": [
+        "bytes",
+        "futures",
+        "hyper",
+        "hyper",
+        "parking_lot",
+        "percent-encoding",
+        "pin-project",
+        "rand",
+        "ratchet",
+        "rustls",
+        "swimos_agent_protocol",
+        "swimos_api",
+        "swimos_http",
+        "swimos_introspection",
+        "swimos_messages",
+        "swimos_model",
+        "swimos_remote",
+        "swimos_rocks_store",
+        "swimos_runtime",
+        "swimos_utilities",
+        "thiserror",
+        "tokio",
+        "tokio",
+        "tokio-stream",
+        "tokio-util",
+        "tracing",
+        "url",
+        "uuid"
+    ]
+}

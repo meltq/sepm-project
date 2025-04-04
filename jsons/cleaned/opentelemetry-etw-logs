@@ -1,0 +1,16 @@
+{
+    "name": "opentelemetry-etw-logs",
+    "deps": [
+        "async-trait",
+        "microbench",
+        "opentelemetry",
+        "opentelemetry-appender-tracing",
+        "opentelemetry_sdk",
+        "serde_json",
+        "tracelogging",
+        "tracelogging_dynamic",
+        "tracing",
+        "tracing-core",
+        "tracing-subscriber"
+    ]
+}

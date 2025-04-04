@@ -1,0 +1,32 @@
+{
+    "name": "mwc_p2p",
+    "deps": [
+        "async-std",
+        "bitflags",
+        "bytes",
+        "chrono",
+        "ed25519-dalek",
+        "enum_primitive",
+        "futures",
+        "lazy_static",
+        "log",
+        "lru-cache",
+        "mwc-libp2p",
+        "mwc-libp2p-tokio-socks5",
+        "mwc_chain",
+        "mwc_core",
+        "mwc_store",
+        "mwc_util",
+        "net2",
+        "num",
+        "rand",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "socks",
+        "tempfile",
+        "thiserror",
+        "tokio",
+        "tor-stream"
+    ]
+}

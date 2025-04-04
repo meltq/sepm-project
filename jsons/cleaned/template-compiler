@@ -1,0 +1,15 @@
+{
+    "name": "template-compiler",
+    "deps": [
+        "anyhow",
+        "clap",
+        "miette",
+        "pretty_assertions",
+        "thiserror",
+        "wasm-encoder",
+        "wasmprinter",
+        "wasmtime",
+        "wat",
+        "wit-parser"
+    ]
+}

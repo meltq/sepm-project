@@ -1,0 +1,32 @@
+{
+    "name": "viva",
+    "deps": [
+        "anyhow",
+        "bzip2",
+        "cached",
+        "clap",
+        "console",
+        "directories",
+        "dirs",
+        "futures",
+        "indicatif",
+        "is_executable",
+        "once_cell",
+        "openssl-sys",
+        "rattler",
+        "rattler_conda_types",
+        "rattler_repodata_gateway",
+        "rattler_solve",
+        "rattler_virtual_packages",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "serde_yaml",
+        "sysinfo",
+        "tar",
+        "tokio",
+        "tracing-subscriber",
+        "zmq",
+        "static_vcruntime"
+    ]
+}

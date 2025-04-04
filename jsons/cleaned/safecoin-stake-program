@@ -1,0 +1,20 @@
+{
+    "name": "safecoin-stake-program",
+    "deps": [
+        "bincode",
+        "log",
+        "num-derive",
+        "num-traits",
+        "rustc_version",
+        "safecoin-config-program",
+        "safecoin-logger",
+        "safecoin-sdk",
+        "safecoin-vote-program",
+        "serde",
+        "serde_derive",
+        "solana-frozen-abi",
+        "solana-frozen-abi-macro",
+        "solana-metrics",
+        "thiserror"
+    ]
+}

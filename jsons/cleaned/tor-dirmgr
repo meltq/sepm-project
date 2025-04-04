@@ -1,0 +1,33 @@
+{
+    "name": "tor-dirmgr",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "base64",
+        "chrono",
+        "digest",
+        "directories",
+        "fslock",
+        "futures",
+        "futures-await-test",
+        "hex",
+        "hex-literal",
+        "humantime-serde",
+        "log",
+        "memmap",
+        "rand",
+        "retry-error",
+        "rusqlite",
+        "serde",
+        "tempdir",
+        "thiserror",
+        "tor-checkable",
+        "tor-circmgr",
+        "tor-consdiff",
+        "tor-dirclient",
+        "tor-llcrypto",
+        "tor-netdir",
+        "tor-netdoc",
+        "tor-rtcompat"
+    ]
+}

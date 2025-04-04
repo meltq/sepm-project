@@ -1,0 +1,26 @@
+{
+    "name": "zkp-stark",
+    "deps": [
+        "criterion",
+        "env_logger",
+        "hex",
+        "itertools",
+        "lazy_static",
+        "log",
+        "no-std-compat",
+        "quickcheck",
+        "quickcheck_macros",
+        "rayon",
+        "tiny-keccak",
+        "zkp-criterion-utils",
+        "zkp-elliptic-curve",
+        "zkp-elliptic-curve-crypto",
+        "zkp-hash",
+        "zkp-logging-allocator",
+        "zkp-macros-decl",
+        "zkp-merkle-tree",
+        "zkp-mmap-vec",
+        "zkp-primefield",
+        "zkp-u256"
+    ]
+}

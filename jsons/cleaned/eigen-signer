@@ -1,0 +1,22 @@
+{
+    "name": "eigen-signer",
+    "deps": [
+        "alloy-consensus",
+        "alloy-network",
+        "alloy-node-bindings",
+        "alloy-primitives",
+        "alloy-rpc-client",
+        "alloy-signer",
+        "alloy-signer-aws",
+        "alloy-signer-local",
+        "async-trait",
+        "aws-config",
+        "aws-sdk-kms",
+        "eth-keystore",
+        "serde",
+        "testcontainers",
+        "thiserror",
+        "tokio",
+        "url"
+    ]
+}

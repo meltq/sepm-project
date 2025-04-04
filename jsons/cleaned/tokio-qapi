@@ -1,0 +1,17 @@
+{
+    "name": "tokio-qapi",
+    "deps": [
+        "bytes",
+        "env_logger",
+        "futures",
+        "log",
+        "qapi-qga",
+        "qapi-qmp",
+        "qapi-spec",
+        "serde",
+        "serde_json",
+        "tokio-core",
+        "tokio-io",
+        "tokio-uds"
+    ]
+}

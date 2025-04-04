@@ -1,0 +1,20 @@
+{
+    "name": "gluesql-parquet-storage",
+    "deps": [
+        "async-trait",
+        "bincode",
+        "byteorder",
+        "futures",
+        "gluesql-core",
+        "lazy_static",
+        "num-traits",
+        "parquet",
+        "rust_decimal",
+        "serde",
+        "serde_json",
+        "test-suite",
+        "thiserror",
+        "tokio",
+        "uuid"
+    ]
+}

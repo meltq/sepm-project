@@ -1,0 +1,17 @@
+{
+    "name": "morax-kafka-broker",
+    "deps": [
+        "error-stack",
+        "kafka-api",
+        "latches",
+        "log",
+        "morax-meta",
+        "morax-protos",
+        "morax-runtime",
+        "morax-storage",
+        "serde",
+        "thiserror",
+        "tokio",
+        "uuid"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "name": "r3bl_terminal_async",
+    "deps": [
+        "async-stream",
+        "crossterm",
+        "futures-core",
+        "futures-util",
+        "miette",
+        "pretty_assertions",
+        "r3bl_rs_utils_core",
+        "r3bl_tui",
+        "r3bl_tuify",
+        "strip-ansi-escapes",
+        "strum",
+        "strum_macros",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "tracing-appender",
+        "tracing-subscriber",
+        "unicode-segmentation",
+        "unicode-width"
+    ]
+}

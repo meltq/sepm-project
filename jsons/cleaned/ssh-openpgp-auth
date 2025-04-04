@@ -1,0 +1,20 @@
+{
+    "name": "ssh-openpgp-auth",
+    "deps": [
+        "anyhow",
+        "chrono",
+        "clap",
+        "copy_dir",
+        "dir-diff",
+        "hickory-client",
+        "openpgp-cert-d",
+        "reqwest",
+        "sequoia-cert-store",
+        "sequoia-openpgp",
+        "sequoia-wot",
+        "ssh-key",
+        "tempfile",
+        "testresult",
+        "thiserror"
+    ]
+}

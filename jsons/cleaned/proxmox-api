@@ -1,0 +1,13 @@
+{
+    "name": "proxmox-api",
+    "deps": [
+        "clap",
+        "log",
+        "parking_lot",
+        "pretty_env_logger",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "serde_urlencoded"
+    ]
+}

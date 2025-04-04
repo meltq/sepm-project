@@ -1,0 +1,13 @@
+{
+    "name": "utxo-scanner",
+    "deps": [
+        "crond",
+        "db-key",
+        "lazy_static",
+        "leveldb",
+        "rocksdb",
+        "rust-base58",
+        "rust-crypto",
+        "secp256k1"
+    ]
+}

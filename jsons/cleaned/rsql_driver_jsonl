@@ -1,0 +1,14 @@
+{
+    "name": "rsql_driver_jsonl",
+    "deps": [
+        "async-trait",
+        "file_type",
+        "polars",
+        "polars-sql",
+        "rsql_driver",
+        "rsql_driver_polars",
+        "rsql_driver_test_utils",
+        "tokio",
+        "url"
+    ]
+}

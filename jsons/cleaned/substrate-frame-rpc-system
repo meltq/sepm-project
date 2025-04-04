@@ -1,0 +1,19 @@
+{
+    "name": "substrate-frame-rpc-system",
+    "deps": [
+        "codec",
+        "frame-system-rpc-runtime-api",
+        "futures",
+        "jsonrpc-core",
+        "jsonrpc-core-client",
+        "jsonrpc-derive",
+        "log",
+        "sc-client",
+        "serde",
+        "sp-api",
+        "sp-blockchain",
+        "sp-core",
+        "sp-runtime",
+        "sp-transaction-pool"
+    ]
+}

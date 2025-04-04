@@ -1,0 +1,14 @@
+{
+    "name": "lockpad-auth",
+    "deps": [
+        "axum",
+        "base64",
+        "jsonwebtoken",
+        "rsa",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tracing"
+    ]
+}

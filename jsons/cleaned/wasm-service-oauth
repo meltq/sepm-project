@@ -1,0 +1,19 @@
+{
+    "name": "wasm-service-oauth",
+    "deps": [
+        "aes-gcm",
+        "async-trait",
+        "base64",
+        "bytes",
+        "cfg-if",
+        "getrandom",
+        "js-sys",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "service-logging",
+        "thiserror",
+        "wasm-bindgen-test",
+        "wasm-service"
+    ]
+}

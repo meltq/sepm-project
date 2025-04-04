@@ -1,0 +1,16 @@
+{
+    "name": "atm0s-media-server-cluster-sdn",
+    "deps": [
+        "async-std",
+        "async-trait",
+        "atm0s-sdn",
+        "bincode",
+        "bytes",
+        "cluster",
+        "futures",
+        "log",
+        "media-utils",
+        "serde",
+        "transport"
+    ]
+}

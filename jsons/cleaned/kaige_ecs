@@ -1,0 +1,25 @@
+{
+    "name": "kaige_ecs",
+    "deps": [
+        "atomic_refcell",
+        "bincode",
+        "bit-set",
+        "cgmath",
+        "criterion",
+        "crossbeam-channel",
+        "downcast-rs",
+        "erased-serde",
+        "itertools",
+        "kaige_codegen",
+        "parking_lot",
+        "paste",
+        "rayon",
+        "scoped-tls-hkt",
+        "serde",
+        "serde_json",
+        "smallvec",
+        "thiserror",
+        "trybuild",
+        "uuid"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "rosetta-server-polkadot",
+    "deps": [
+        "anyhow",
+        "async-std",
+        "async-trait",
+        "hex",
+        "parity-scale-codec",
+        "rosetta-config-polkadot",
+        "rosetta-server",
+        "rosetta-server",
+        "scale-info",
+        "serde",
+        "serde_json",
+        "sp-keyring",
+        "subxt",
+        "tokio"
+    ]
+}

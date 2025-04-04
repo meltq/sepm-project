@@ -1,0 +1,13 @@
+{
+    "name": "pingora-header-serde",
+    "deps": [
+        "bytes",
+        "http",
+        "httparse",
+        "pingora-error",
+        "pingora-http",
+        "thread_local",
+        "zstd",
+        "zstd-safe"
+    ]
+}

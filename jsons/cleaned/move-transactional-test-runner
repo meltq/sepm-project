@@ -1,0 +1,31 @@
+{
+    "name": "move-transactional-test-runner",
+    "deps": [
+        "anyhow",
+        "clap",
+        "colored",
+        "datatest-stable",
+        "difference",
+        "move-bytecode-utils",
+        "move-command-line-common",
+        "move-stackless-bytecode-interpreter",
+        "move-symbol-pool",
+        "move-vm-test-utils",
+        "mv-binary-format",
+        "mv-bytecode-source-map",
+        "mv-cli",
+        "mv-compiler",
+        "mv-core-types",
+        "mv-disassembler",
+        "mv-ir-compiler",
+        "mv-ir-types",
+        "mv-resource-viewer",
+        "mv-stdlib",
+        "mv-vm-runtime",
+        "mv-vm-types",
+        "once_cell",
+        "rayon",
+        "regex",
+        "tempfile"
+    ]
+}

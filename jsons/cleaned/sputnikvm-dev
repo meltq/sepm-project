@@ -1,0 +1,27 @@
+{
+    "name": "sputnikvm-dev",
+    "deps": [
+        "blockchain",
+        "clap",
+        "env_logger",
+        "etcommon-bigint",
+        "etcommon-block",
+        "etcommon-bloom",
+        "etcommon-hexutil",
+        "etcommon-rlp",
+        "etcommon-trie",
+        "jsonrpc-core",
+        "jsonrpc-http-server-plus",
+        "jsonrpc-macros-plus",
+        "lazy_static",
+        "log",
+        "rand",
+        "secp256k1-plus",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "sha3",
+        "sputnikvm",
+        "sputnikvm-stateful"
+    ]
+}

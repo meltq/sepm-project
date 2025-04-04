@@ -1,0 +1,23 @@
+{
+    "name": "miraland-connection-cache",
+    "deps": [
+        "async-trait",
+        "bincode",
+        "crossbeam-channel",
+        "futures-util",
+        "indexmap",
+        "indicatif",
+        "log",
+        "miraland-logger",
+        "miraland-measure",
+        "miraland-metrics",
+        "miraland-net-utils",
+        "miraland-sdk",
+        "rand",
+        "rand_chacha",
+        "rayon",
+        "rcgen",
+        "thiserror",
+        "tokio"
+    ]
+}

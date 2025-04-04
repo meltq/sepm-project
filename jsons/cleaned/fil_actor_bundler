@@ -1,0 +1,18 @@
+{
+    "name": "fil_actor_bundler",
+    "deps": [
+        "anyhow",
+        "async-std",
+        "cid",
+        "clap",
+        "futures",
+        "fvm_ipld_car",
+        "fvm_shared",
+        "multihash",
+        "num-traits",
+        "rand",
+        "serde_cbor",
+        "serde_json",
+        "tempfile"
+    ]
+}

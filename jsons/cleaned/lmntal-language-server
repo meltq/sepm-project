@@ -1,0 +1,16 @@
+{
+    "name": "lmntal-language-server",
+    "deps": [
+        "clap",
+        "dashmap",
+        "env_logger",
+        "lmntalc",
+        "log",
+        "reqwest",
+        "semver",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tower-lsp"
+    ]
+}

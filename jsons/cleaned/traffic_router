@@ -1,0 +1,13 @@
+{
+    "name": "traffic_router",
+    "deps": [
+        "config",
+        "futures",
+        "hyper",
+        "hyper-reverse-proxy",
+        "lazy_static",
+        "serde",
+        "serde_derive",
+        "serde_json"
+    ]
+}

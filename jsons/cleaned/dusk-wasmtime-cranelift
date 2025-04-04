@@ -1,0 +1,21 @@
+{
+    "name": "dusk-wasmtime-cranelift",
+    "deps": [
+        "anyhow",
+        "cfg-if",
+        "cranelift-codegen",
+        "cranelift-control",
+        "cranelift-entity",
+        "cranelift-frontend",
+        "cranelift-native",
+        "cranelift-wasm",
+        "gimli",
+        "log",
+        "object",
+        "target-lexicon",
+        "thiserror",
+        "wasmparser",
+        "wasmtime-environ",
+        "wasmtime-versioned-export-macros"
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "name": "geph4-binder-transport",
+    "deps": [
+        "async-h1",
+        "async-tls",
+        "async-trait",
+        "bincode",
+        "blake3",
+        "chacha20poly1305",
+        "derivative",
+        "ed25519-dalek",
+        "env_logger",
+        "geph4-aioutils",
+        "http-types",
+        "log",
+        "mizaru",
+        "rand",
+        "rsa",
+        "rsa-fdh",
+        "rustls",
+        "serde",
+        "smol",
+        "smol-timeout",
+        "smolscale",
+        "thiserror",
+        "webpki-roots",
+        "x25519-dalek"
+    ]
+}

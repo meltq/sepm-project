@@ -1,0 +1,23 @@
+{
+    "name": "printer_server",
+    "deps": [
+        "anyhow",
+        "chrono",
+        "clap",
+        "directories-next",
+        "inquire",
+        "lazy_static",
+        "orion",
+        "quinn",
+        "rand",
+        "rcgen",
+        "rustls",
+        "rustls-pemfile",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tracing",
+        "tracing-subscriber",
+        "uuid"
+    ]
+}

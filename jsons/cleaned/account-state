@@ -1,0 +1,29 @@
+{
+    "name": "account-state",
+    "deps": [
+        "account-db",
+        "common-types",
+        "derive_more",
+        "journaldb",
+        "journaldb",
+        "log",
+        "lru-cache",
+        "parking_lot",
+        "rlp-compress",
+        "serde",
+        "tetsy-bytes",
+        "tetsy-bytes",
+        "tetsy-hash-db",
+        "tetsy-keccak-hash",
+        "tetsy-keccak-hasher",
+        "tetsy-kvdb",
+        "tetsy-memory-db",
+        "tetsy-rlp",
+        "tetsy-trie-db",
+        "tetsy-util-mem",
+        "trie-vm-factories",
+        "vapcore-pod",
+        "vapory-types",
+        "vaptrie"
+    ]
+}

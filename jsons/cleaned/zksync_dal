@@ -1,0 +1,30 @@
+{
+    "name": "zksync_dal",
+    "deps": [
+        "anyhow",
+        "bigdecimal",
+        "bincode",
+        "chrono",
+        "hex",
+        "itertools",
+        "prost",
+        "rand",
+        "serde",
+        "serde_json",
+        "sqlx",
+        "strum",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "vise",
+        "zksync_consensus_roles",
+        "zksync_consensus_storage",
+        "zksync_contracts",
+        "zksync_db_connection",
+        "zksync_protobuf",
+        "zksync_protobuf_build",
+        "zksync_system_constants",
+        "zksync_types",
+        "zksync_utils"
+    ]
+}

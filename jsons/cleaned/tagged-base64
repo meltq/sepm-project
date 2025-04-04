@@ -1,0 +1,22 @@
+{
+    "name": "tagged-base64",
+    "deps": [
+        "ark-serialize",
+        "ark-std",
+        "base64",
+        "bincode",
+        "clap",
+        "console_error_panic_hook",
+        "crc-any",
+        "getrandom",
+        "quickcheck",
+        "quickcheck_macros",
+        "serde",
+        "serde_json",
+        "snafu",
+        "tagged-base64-macros",
+        "wasm-bindgen",
+        "wasm-bindgen-test",
+        "web-sys"
+    ]
+}

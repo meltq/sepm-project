@@ -1,0 +1,19 @@
+{
+    "name": "embassy-dht-sensor",
+    "deps": [
+        "cortex-m",
+        "cortex-m-rt",
+        "critical-section",
+        "defmt",
+        "defmt-rtt",
+        "embassy-embedded-hal",
+        "embassy-executor",
+        "embassy-futures",
+        "embassy-rp",
+        "embassy-sync",
+        "embassy-time",
+        "embedded-hal",
+        "embedded-hal-async",
+        "panic-probe"
+    ]
+}

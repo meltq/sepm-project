@@ -1,0 +1,21 @@
+{
+    "name": "arci-urdf-viz",
+    "deps": [
+        "anyhow",
+        "arci",
+        "assert_approx_eq",
+        "async-trait",
+        "log",
+        "nalgebra",
+        "openrr-planner",
+        "openrr-sleep",
+        "rouille",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "tokio",
+        "tokio-test",
+        "ureq",
+        "url"
+    ]
+}

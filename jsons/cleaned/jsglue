@@ -1,0 +1,26 @@
+{
+    "name": "jsglue",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "axum",
+        "axumite",
+        "cfg-if",
+        "ctrlc",
+        "derive_builder",
+        "futures-util",
+        "http-body-util",
+        "hyper",
+        "hyper-util",
+        "include_dir",
+        "lazy_static",
+        "mime_guess",
+        "once_cell",
+        "regex",
+        "tokio",
+        "tokio-tungstenite",
+        "tracing",
+        "tungstenite",
+        "url"
+    ]
+}

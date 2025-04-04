@@ -1,0 +1,16 @@
+{
+    "name": "gst-plugin-vosk",
+    "deps": [
+        "async-tungstenite",
+        "atomic_refcell",
+        "futures",
+        "gst",
+        "gst-base",
+        "gst-plugin-version-helper",
+        "once_cell",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "tokio"
+    ]
+}

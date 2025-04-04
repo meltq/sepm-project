@@ -1,0 +1,29 @@
+{
+    "name": "cozo-ce-bin",
+    "deps": [
+        "async-stream",
+        "axum",
+        "axum-macros",
+        "chrono",
+        "clap",
+        "cozo-ce",
+        "crossbeam",
+        "ctrlc",
+        "env_logger",
+        "eventsource-client",
+        "futures",
+        "itertools",
+        "log",
+        "miette",
+        "minreq",
+        "prettytable",
+        "rand",
+        "rayon",
+        "rustyline",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "tokio",
+        "tower-http"
+    ]
+}

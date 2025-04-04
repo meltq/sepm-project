@@ -1,0 +1,24 @@
+{
+    "name": "zksync_state",
+    "deps": [
+        "anyhow",
+        "assert_matches",
+        "async-trait",
+        "backon",
+        "chrono",
+        "itertools",
+        "mini-moka",
+        "once_cell",
+        "rand",
+        "tempfile",
+        "test-casing",
+        "tokio",
+        "tracing",
+        "vise",
+        "zksync_dal",
+        "zksync_shared_metrics",
+        "zksync_storage",
+        "zksync_types",
+        "zksync_utils"
+    ]
+}

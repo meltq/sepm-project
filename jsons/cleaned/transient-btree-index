@@ -1,0 +1,16 @@
+{
+    "name": "transient-btree-index",
+    "deps": [
+        "bincode",
+        "criterion",
+        "debug_tree",
+        "fake",
+        "linked-hash-map",
+        "memmap2",
+        "rand",
+        "rayon",
+        "serde",
+        "serde_derive",
+        "thiserror"
+    ]
+}

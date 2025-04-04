@@ -1,0 +1,22 @@
+{
+    "name": "vk_executive",
+    "deps": [
+        "async-trait",
+        "comma_serde_urlencoded",
+        "http",
+        "hyper",
+        "hyper-tls",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "thisvk",
+        "tokio",
+        "tower",
+        "url",
+        "vk_execute_compiler",
+        "vk_method",
+        "dotenv",
+        "futures",
+        "once_cell"
+    ]
+}

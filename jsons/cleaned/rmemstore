@@ -1,0 +1,16 @@
+{
+    "name": "rmemstore",
+    "deps": [
+        "bytes",
+        "env_logger",
+        "histogram",
+        "k-lock",
+        "log",
+        "protosocket",
+        "protosocket-prost",
+        "rmemstore-messages",
+        "serde",
+        "thiserror",
+        "tokio"
+    ]
+}

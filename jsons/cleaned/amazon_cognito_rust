@@ -1,0 +1,24 @@
+{
+    "name": "amazon_cognito_rust",
+    "deps": [
+        "base64",
+        "chrono",
+        "env_logger",
+        "hex",
+        "hmac",
+        "hyper",
+        "hyper-native-tls",
+        "log",
+        "num",
+        "ring",
+        "rusoto_cognito_identity",
+        "rusoto_core",
+        "rusoto_s3",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "sha2",
+        "time",
+        "url"
+    ]
+}

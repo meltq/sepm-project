@@ -1,0 +1,26 @@
+{
+    "name": "dialtone_axum",
+    "deps": [
+        "anyhow",
+        "axum",
+        "chrono",
+        "dialtone_common",
+        "dialtone_sqlx",
+        "headers",
+        "hyper",
+        "jsonwebtoken",
+        "lazy_static",
+        "regex",
+        "serde",
+        "serde_json",
+        "serde_variant",
+        "sqlx",
+        "tokio",
+        "tokio-cron-scheduler",
+        "tower",
+        "tower",
+        "tower-http",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

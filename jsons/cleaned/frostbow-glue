@@ -1,0 +1,17 @@
+{
+    "name": "frostbow-glue",
+    "deps": [
+        "async-trait",
+        "aws-config",
+        "clap",
+        "datafusion",
+        "datafusion_iceberg",
+        "frostbow",
+        "frostbow-cli",
+        "iceberg-glue-catalog",
+        "iceberg-rust",
+        "object_store",
+        "openssl",
+        "tokio"
+    ]
+}

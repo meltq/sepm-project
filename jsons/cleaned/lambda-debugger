@@ -1,0 +1,24 @@
+{
+    "name": "lambda-debugger",
+    "deps": [
+        "async_once",
+        "aws-config",
+        "aws-sdk-sqs",
+        "aws-types",
+        "bs58",
+        "flate2",
+        "hex",
+        "http-body-util",
+        "hyper",
+        "hyper-util",
+        "lambda_runtime",
+        "lazy_static",
+        "regex",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tracing",
+        "tracing-subscriber",
+        "uuid"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "name": "booru-dl",
+    "deps": [
+        "anyhow",
+        "base16ct",
+        "clap",
+        "dialoguer",
+        "digest",
+        "indicatif",
+        "md-5",
+        "rayon",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "tempfile",
+        "thiserror",
+        "tokio",
+        "tokio-rayon",
+        "toml",
+        "validator"
+    ]
+}

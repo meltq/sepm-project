@@ -1,0 +1,27 @@
+{
+    "name": "eigen-services-operatorsinfo",
+    "deps": [
+        "alloy-primitives",
+        "alloy-provider",
+        "alloy-rpc-types",
+        "alloy-signer-local",
+        "anyhow",
+        "ark-bn254",
+        "ark-ff",
+        "ark-std",
+        "async-trait",
+        "eigen-client-avsregistry",
+        "eigen-client-elcontracts",
+        "eigen-crypto-bls",
+        "eigen-logging",
+        "eigen-logging",
+        "eigen-testing-utils",
+        "eigen-types",
+        "eigen-utils",
+        "futures-util",
+        "serial_test",
+        "thiserror",
+        "tokio",
+        "tokio-util"
+    ]
+}

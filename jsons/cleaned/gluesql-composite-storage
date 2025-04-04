@@ -1,0 +1,13 @@
+{
+    "name": "gluesql-composite-storage",
+    "deps": [
+        "async-trait",
+        "futures",
+        "gluesql-core",
+        "memory-storage",
+        "serde",
+        "sled-storage",
+        "test-suite",
+        "tokio"
+    ]
+}

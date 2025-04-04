@@ -1,0 +1,28 @@
+{
+    "name": "koios-sdk",
+    "deps": [
+        "async-trait",
+        "base64",
+        "chrono",
+        "derive_builder",
+        "futures",
+        "governor",
+        "hex",
+        "mockito",
+        "pretty_assertions",
+        "rand",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "serde_qs",
+        "test-log",
+        "thiserror",
+        "tokio",
+        "tokio-test",
+        "tracing",
+        "tracing-subscriber",
+        "url",
+        "urlencoding",
+        "wiremock"
+    ]
+}

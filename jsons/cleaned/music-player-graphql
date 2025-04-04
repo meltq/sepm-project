@@ -1,0 +1,19 @@
+{
+    "name": "music-player-graphql",
+    "deps": [
+        "async-graphql",
+        "async-graphql-tide",
+        "md5",
+        "music-player-entity",
+        "music-player-playback",
+        "music-player-scanner",
+        "music-player-settings",
+        "music-player-storage",
+        "music-player-tracklist",
+        "music-player-types",
+        "rand",
+        "sea-orm",
+        "tide",
+        "tokio"
+    ]
+}

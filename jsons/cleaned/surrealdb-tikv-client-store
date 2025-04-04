@@ -1,0 +1,12 @@
+{
+    "name": "surrealdb-tikv-client-store",
+    "deps": [
+        "async-trait",
+        "derive-new",
+        "futures",
+        "grpcio",
+        "log",
+        "surrealdb-tikv-client-common",
+        "surrealdb-tikv-client-proto"
+    ]
+}

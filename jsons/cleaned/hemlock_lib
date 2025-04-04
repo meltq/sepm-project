@@ -1,0 +1,12 @@
+{
+    "name": "hemlock_lib",
+    "deps": [
+        "aws-config",
+        "aws-sdk-dynamodb",
+        "aws-sdk-s3",
+        "aws-smithy-runtime-api",
+        "rand",
+        "rusty_crypto",
+        "tokio"
+    ]
+}

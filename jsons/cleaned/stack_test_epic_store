@@ -1,0 +1,22 @@
+{
+    "name": "stack_test_epic_store",
+    "deps": [
+        "byteorder",
+        "chrono",
+        "croaring",
+        "env_logger",
+        "failure",
+        "failure_derive",
+        "filetime",
+        "libc",
+        "lmdb-zero",
+        "log",
+        "memmap",
+        "rand",
+        "serde",
+        "serde_derive",
+        "stack_test_epic_core",
+        "stack_test_epic_util",
+        "tempfile"
+    ]
+}

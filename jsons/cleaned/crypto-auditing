@@ -1,0 +1,19 @@
+{
+    "name": "crypto-auditing",
+    "deps": [
+        "anyhow",
+        "bindgen",
+        "clap",
+        "futures",
+        "libc",
+        "serde",
+        "serde_cbor",
+        "serde_with",
+        "tarpc",
+        "thiserror",
+        "tokio",
+        "tokio-serde",
+        "tokio-stream",
+        "tracing"
+    ]
+}

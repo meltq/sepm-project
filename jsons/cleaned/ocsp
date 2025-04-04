@@ -1,0 +1,15 @@
+{
+    "name": "ocsp",
+    "deps": [
+        "asn1_der",
+        "chrono",
+        "hex",
+        "lazy_static",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "tracing-futures",
+        "tracing-log",
+        "tracing-subscriber"
+    ]
+}

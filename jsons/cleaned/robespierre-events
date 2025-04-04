@@ -1,0 +1,16 @@
+{
+    "name": "robespierre-events",
+    "deps": [
+        "async-std",
+        "async-trait",
+        "async-tungstenite",
+        "futures",
+        "robespierre-models",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tokio-rustls",
+        "tracing"
+    ]
+}

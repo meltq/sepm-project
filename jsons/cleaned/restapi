@@ -1,0 +1,29 @@
+{
+    "name": "restapi",
+    "deps": [
+        "bb8",
+        "bb8-postgres",
+        "chrono",
+        "futures",
+        "hyper",
+        "jsonwebtoken",
+        "log",
+        "native-tls",
+        "postgres",
+        "postgres-native-tls",
+        "pretty_env_logger",
+        "rusoto_core",
+        "rusoto_s3",
+        "rust-argon2",
+        "rustls",
+        "rustls-pemfile",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tokio-postgres",
+        "tokio-rustls",
+        "tokio-test",
+        "url",
+        "uuid"
+    ]
+}

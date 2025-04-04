@@ -1,0 +1,17 @@
+{
+    "name": "wasmcloud-redis",
+    "deps": [
+        "crossbeam",
+        "crossbeam-channel",
+        "crossbeam-utils",
+        "env_logger",
+        "lazy_static",
+        "log",
+        "redis",
+        "rmp-serde",
+        "serde",
+        "wascc-codec",
+        "wasmcloud-actor-core",
+        "wasmcloud-actor-keyvalue"
+    ]
+}

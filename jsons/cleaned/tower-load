@@ -1,0 +1,13 @@
+{
+    "name": "tower-load",
+    "deps": [
+        "futures-core-preview",
+        "futures-util-preview",
+        "log",
+        "pin-project",
+        "tokio-test",
+        "tokio-timer",
+        "tower-discover",
+        "tower-service"
+    ]
+}

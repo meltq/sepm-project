@@ -1,0 +1,22 @@
+{
+    "name": "re_grpc_server",
+    "deps": [
+        "re_build_info",
+        "re_byte_size",
+        "re_chunk",
+        "re_format",
+        "re_log",
+        "re_log_encoding",
+        "re_log_types",
+        "re_memory",
+        "re_protos",
+        "re_tracing",
+        "re_types",
+        "tokio",
+        "tokio-stream",
+        "tokio-util",
+        "tonic",
+        "tonic-web",
+        "tower-http"
+    ]
+}

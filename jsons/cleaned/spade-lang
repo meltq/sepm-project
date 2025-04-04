@@ -1,0 +1,32 @@
+{
+    "name": "spade-lang",
+    "deps": [
+        "clap",
+        "color-eyre",
+        "colored",
+        "indoc",
+        "itertools",
+        "logos",
+        "pretty_assertions",
+        "prettydiff",
+        "ron",
+        "serde",
+        "serde_json",
+        "spade-ast",
+        "spade-ast-lowering",
+        "spade-codespan",
+        "spade-codespan-reporting",
+        "spade-common",
+        "spade-diagnostics",
+        "spade-hir",
+        "spade-hir-lowering",
+        "spade-macros",
+        "spade-mir",
+        "spade-parser",
+        "spade-typeinference",
+        "spade-types",
+        "tracing",
+        "tracing-subscriber",
+        "tracing-tree"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "name": "swc_cli_impl",
+    "deps": [
+        "anyhow",
+        "atty",
+        "clap",
+        "glob",
+        "path-absolutize",
+        "rayon",
+        "relative-path",
+        "serde",
+        "serde_json",
+        "sourcemap",
+        "swc_core",
+        "tracing",
+        "tracing-chrome",
+        "tracing-futures",
+        "tracing-subscriber",
+        "walkdir"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "delta-sharing",
+    "deps": [
+        "anyhow",
+        "env_logger",
+        "log",
+        "parquet",
+        "polars",
+        "reqwest",
+        "rustc_version_runtime",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tokio-test",
+        "url",
+        "uuid",
+        "wiremock"
+    ]
+}

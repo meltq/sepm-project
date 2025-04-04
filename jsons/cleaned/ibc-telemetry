@@ -1,0 +1,12 @@
+{
+    "name": "ibc-telemetry",
+    "deps": [
+        "crossbeam-channel",
+        "ibc",
+        "once_cell",
+        "opentelemetry",
+        "opentelemetry-prometheus",
+        "prometheus",
+        "rouille"
+    ]
+}

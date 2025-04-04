@@ -1,0 +1,31 @@
+{
+    "name": "bitbox-api",
+    "deps": [
+        "async-trait",
+        "base32",
+        "bitcoin",
+        "byteorder",
+        "enum-assoc",
+        "getrandom",
+        "hex",
+        "hidapi",
+        "js-sys",
+        "noise-protocol",
+        "noise-rust-crypto",
+        "num-bigint",
+        "prost",
+        "prost-build",
+        "rlp",
+        "semver",
+        "serde",
+        "serde-wasm-bindgen",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "wasm-bindgen",
+        "wasm-bindgen-futures",
+        "wasm-bindgen-test",
+        "web-sys",
+        "zeroize"
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "name": "tonlib-client",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "base64",
+        "base64-serde",
+        "crc",
+        "dashmap",
+        "futures",
+        "hex",
+        "lazy_static",
+        "log",
+        "log4rs",
+        "moka",
+        "num-bigint",
+        "num-traits",
+        "pbkdf2",
+        "rand",
+        "reqwest",
+        "serde",
+        "serde-aux",
+        "serde_json",
+        "sha2",
+        "strum",
+        "thiserror",
+        "tokio",
+        "tokio-retry",
+        "tokio-test",
+        "tonlib-core",
+        "tonlib-sys"
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "name": "penumbra-sdk-fee",
+    "deps": [
+        "anyhow",
+        "ark-ff",
+        "async-trait",
+        "blake2b_simd",
+        "bytes",
+        "cnidarium",
+        "cnidarium-component",
+        "decaf377",
+        "decaf377-rdsa",
+        "getrandom",
+        "im",
+        "metrics",
+        "penumbra-sdk-asset",
+        "penumbra-sdk-num",
+        "penumbra-sdk-proto",
+        "rand",
+        "rand_core",
+        "serde",
+        "tendermint",
+        "tonic",
+        "tracing"
+    ]
+}

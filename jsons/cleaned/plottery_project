@@ -1,0 +1,23 @@
+{
+    "name": "plottery_project",
+    "deps": [
+        "anyhow",
+        "async-process",
+        "bincode",
+        "chrono",
+        "clap",
+        "futures-lite",
+        "open",
+        "path-absolutize",
+        "plottery_lib",
+        "plottery_project_macros",
+        "resvg",
+        "rust-embed",
+        "serde",
+        "serde_json",
+        "tempfile",
+        "tokio",
+        "toml",
+        "vfs"
+    ]
+}

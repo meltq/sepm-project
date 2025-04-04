@@ -1,0 +1,23 @@
+{
+    "name": "sn_service_management",
+    "deps": [
+        "async-trait",
+        "dirs-next",
+        "libp2p",
+        "libp2p-identity",
+        "mockall",
+        "prost",
+        "semver",
+        "serde",
+        "serde_json",
+        "service-manager",
+        "sn_protocol",
+        "sysinfo",
+        "thiserror",
+        "tokio",
+        "tonic",
+        "tonic-build",
+        "tracing",
+        "tracing-core"
+    ]
+}

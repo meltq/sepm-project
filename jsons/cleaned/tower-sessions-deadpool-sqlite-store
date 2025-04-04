@@ -1,0 +1,12 @@
+{
+    "name": "tower-sessions-deadpool-sqlite-store",
+    "deps": [
+        "async-trait",
+        "deadpool",
+        "deadpool-sqlite",
+        "rusqlite",
+        "serde_json",
+        "thiserror",
+        "tower-sessions"
+    ]
+}

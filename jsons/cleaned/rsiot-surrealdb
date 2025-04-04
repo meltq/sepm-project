@@ -1,0 +1,16 @@
+{
+    "name": "rsiot-surrealdb",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "rsiot-component-core",
+        "rsiot-extra-components",
+        "rsiot-messages-core",
+        "serde",
+        "surrealdb",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

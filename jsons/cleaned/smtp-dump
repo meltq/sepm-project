@@ -1,0 +1,15 @@
+{
+    "name": "smtp-dump",
+    "deps": [
+        "anyhow",
+        "async-io",
+        "chrono",
+        "file-lock",
+        "futures-lite",
+        "lettre",
+        "lettre_email",
+        "mailin",
+        "pretty_assertions",
+        "temp-file"
+    ]
+}

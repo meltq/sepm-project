@@ -1,0 +1,24 @@
+{
+    "name": "waketimed",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "chrono",
+        "env_logger",
+        "getset",
+        "lazy_static",
+        "log",
+        "nix",
+        "regex",
+        "rhai",
+        "rust-embed",
+        "serde",
+        "serde_derive",
+        "serde_yaml",
+        "signal-hook",
+        "thiserror",
+        "tokio",
+        "zbus",
+        "zvariant"
+    ]
+}

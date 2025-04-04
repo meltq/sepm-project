@@ -1,0 +1,12 @@
+{
+    "name": "vmi-driver-xen-core-dump",
+    "deps": [
+        "elf",
+        "memmap2",
+        "tracing",
+        "vmi-arch-amd64",
+        "vmi-core",
+        "xen",
+        "zerocopy"
+    ]
+}

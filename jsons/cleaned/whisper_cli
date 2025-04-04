@@ -1,0 +1,17 @@
+{
+    "name": "whisper_cli",
+    "deps": [
+        "anyhow",
+        "audrey",
+        "clap",
+        "dirs",
+        "futures-util",
+        "indicatif",
+        "num",
+        "reqwest",
+        "serde",
+        "tokio",
+        "uuid",
+        "whisper-rs"
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "name": "qx_rs_server",
+    "deps": [
+        "askama",
+        "axum",
+        "axum-core",
+        "chrono",
+        "derive_more",
+        "dotenv",
+        "hyper",
+        "lazy_static",
+        "once_cell",
+        "rand",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "serde_with",
+        "snowflake",
+        "time",
+        "tokio",
+        "tower",
+        "tracing",
+        "tracing-appender",
+        "tracing-attributes",
+        "tracing-error",
+        "tracing-subscriber",
+        "uuid",
+        "validator",
+        "validator_derive"
+    ]
+}

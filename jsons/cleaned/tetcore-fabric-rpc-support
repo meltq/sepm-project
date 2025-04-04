@@ -1,0 +1,15 @@
+{
+    "name": "tetcore-fabric-rpc-support",
+    "deps": [
+        "codec",
+        "fabric-support",
+        "fabric-system",
+        "futures",
+        "serde",
+        "tc-rpc-api",
+        "tetcore-storage",
+        "tetsy-jsonrpc-client-transports",
+        "tetsy-jsonrpc-core",
+        "tokio"
+    ]
+}

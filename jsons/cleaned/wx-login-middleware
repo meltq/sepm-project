@@ -1,0 +1,19 @@
+{
+    "name": "wx-login-middleware",
+    "deps": [
+        "actix-web",
+        "axum",
+        "bincode",
+        "fastrand",
+        "futures-util",
+        "itertools",
+        "reqwest",
+        "serde",
+        "tiny-crypto",
+        "tokio",
+        "tokio-test",
+        "tower",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

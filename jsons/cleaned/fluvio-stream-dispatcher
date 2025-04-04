@@ -1,0 +1,21 @@
+{
+    "name": "fluvio-stream-dispatcher",
+    "deps": [
+        "async-channel",
+        "async-rwlock",
+        "async-trait",
+        "event-listener",
+        "fluvio-future",
+        "fluvio-future",
+        "fluvio-stream-model",
+        "fluvio-types",
+        "flv-util",
+        "futures",
+        "k8-metadata-client",
+        "log",
+        "serde",
+        "tokio",
+        "tracing",
+        "tracing-futures"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "rnetmgr",
+    "deps": [
+        "bytes",
+        "cfg-if",
+        "clap",
+        "futures",
+        "ipcon-sys",
+        "ipnetwork",
+        "log",
+        "log4rs",
+        "netlink-packet-core",
+        "netlink-packet-route",
+        "rtnetlink",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "tokio"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "name": "s3-batch-put-tar",
+    "deps": [
+        "async-trait",
+        "log",
+        "rusoto_core",
+        "rusoto_s3",
+        "serde",
+        "serde_derive",
+        "tar",
+        "tempfile",
+        "tokio"
+    ]
+}

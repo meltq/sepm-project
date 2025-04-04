@@ -1,0 +1,12 @@
+{
+    "name": "bevy_defer_http",
+    "deps": [
+        "async-io",
+        "bevy",
+        "bevy_defer",
+        "http-body-util",
+        "hyper",
+        "smol-hyper",
+        "thiserror"
+    ]
+}

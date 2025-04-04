@@ -1,0 +1,14 @@
+{
+    "name": "metrics-exporter-prometheus",
+    "deps": [
+        "hdrhistogram",
+        "hyper",
+        "metrics",
+        "metrics-util",
+        "parking_lot",
+        "quanta",
+        "tokio",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

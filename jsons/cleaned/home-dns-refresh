@@ -1,0 +1,13 @@
+{
+    "name": "home-dns-refresh",
+    "deps": [
+        "anyhow",
+        "log",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "structopt",
+        "thiserror",
+        "tokio"
+    ]
+}

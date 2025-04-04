@@ -1,0 +1,28 @@
+{
+    "name": "zkstack_cli_common",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "clap",
+        "cliclack",
+        "console",
+        "ethers",
+        "futures",
+        "once_cell",
+        "serde",
+        "serde_json",
+        "serde_yaml",
+        "sqlx",
+        "strum",
+        "thiserror",
+        "tokio",
+        "toml",
+        "url",
+        "xshell",
+        "zkstack_cli_git_version_macro",
+        "zkstack_cli_types",
+        "zksync_system_constants",
+        "zksync_types",
+        "zksync_web3_decl"
+    ]
+}

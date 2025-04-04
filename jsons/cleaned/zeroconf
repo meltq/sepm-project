@@ -1,0 +1,13 @@
+{
+    "name": "zeroconf",
+    "deps": [
+        "avahi-sys",
+        "bonjour-sys",
+        "derive-getters",
+        "derive_builder",
+        "libc",
+        "log",
+        "serde",
+        "zeroconf-macros"
+    ]
+}

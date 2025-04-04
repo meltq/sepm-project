@@ -1,0 +1,30 @@
+{
+    "name": "simple-irc-server",
+    "deps": [
+        "argon2",
+        "bytes",
+        "chrono",
+        "clap",
+        "const-table",
+        "flagset",
+        "futures",
+        "lazy_static",
+        "openssl",
+        "rpassword",
+        "rustls",
+        "rustls-pemfile",
+        "serde",
+        "serde_derive",
+        "tokio",
+        "tokio",
+        "tokio-openssl",
+        "tokio-rustls",
+        "tokio-stream",
+        "tokio-util",
+        "toml",
+        "tracing",
+        "tracing-subscriber",
+        "trust-dns-resolver",
+        "validator"
+    ]
+}

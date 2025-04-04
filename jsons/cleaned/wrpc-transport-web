@@ -1,0 +1,14 @@
+{
+    "name": "wrpc-transport-web",
+    "deps": [
+        "anyhow",
+        "bytes",
+        "futures",
+        "quinn",
+        "test-log",
+        "tokio",
+        "tracing",
+        "wrpc-transport",
+        "wtransport"
+    ]
+}

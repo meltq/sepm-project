@@ -1,0 +1,14 @@
+{
+    "name": "openraft-sledstore",
+    "deps": [
+        "async-std",
+        "async-trait",
+        "byteorder",
+        "openraft",
+        "serde",
+        "serde_json",
+        "sled",
+        "tempdir",
+        "tracing"
+    ]
+}

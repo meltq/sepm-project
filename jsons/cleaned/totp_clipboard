@@ -1,0 +1,13 @@
+{
+    "name": "totp_clipboard",
+    "deps": [
+        "clipboard",
+        "gtk",
+        "gtk-sys",
+        "libappindicator",
+        "libreauth",
+        "log",
+        "pretty_env_logger",
+        "serde_json"
+    ]
+}

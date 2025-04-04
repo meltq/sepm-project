@@ -1,0 +1,27 @@
+{
+    "name": "actix-mqtt",
+    "deps": [
+        "actix-codec",
+        "actix-connect",
+        "actix-ioframe",
+        "actix-router",
+        "actix-server",
+        "actix-server-config",
+        "actix-service",
+        "actix-testing",
+        "actix-utils",
+        "bytes",
+        "derive_more",
+        "either",
+        "env_logger",
+        "futures",
+        "log",
+        "mqtt-codec",
+        "serde",
+        "serde_json",
+        "string",
+        "tokio-current-thread",
+        "tokio-tcp",
+        "uuid"
+    ]
+}

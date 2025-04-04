@@ -1,0 +1,21 @@
+{
+    "name": "ncbi_dl",
+    "deps": [
+        "anyhow",
+        "async-compression",
+        "clap",
+        "env_logger",
+        "futures",
+        "futures-util",
+        "lazy_static",
+        "log",
+        "md-5",
+        "num_cpus",
+        "regex",
+        "reqwest",
+        "reqwest-middleware",
+        "reqwest-retry",
+        "tar",
+        "tokio"
+    ]
+}

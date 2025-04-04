@@ -1,0 +1,28 @@
+{
+    "name": "ambient_proxy",
+    "deps": [
+        "anyhow",
+        "axum",
+        "bincode",
+        "bytes",
+        "config",
+        "flume",
+        "futures",
+        "parking_lot",
+        "quinn",
+        "rand",
+        "reqwest",
+        "rustls",
+        "serde",
+        "thiserror",
+        "tokio",
+        "tokio-util",
+        "tower",
+        "tower-http",
+        "tracing",
+        "tracing-bunyan-formatter",
+        "tracing-log",
+        "tracing-subscriber",
+        "uuid"
+    ]
+}

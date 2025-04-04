@@ -1,0 +1,14 @@
+{
+    "name": "drmem-drv-weather-wu",
+    "deps": [
+        "drmem-api",
+        "drmem-config",
+        "reqwest",
+        "tokio",
+        "toml",
+        "tracing",
+        "tracing-futures",
+        "tracing-subscriber",
+        "weather-underground"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "tikv-client-pd",
+    "deps": [
+        "async-trait",
+        "clap",
+        "fail",
+        "futures",
+        "grpcio",
+        "log",
+        "proptest",
+        "proptest-derive",
+        "tikv-client-common",
+        "tikv-client-proto"
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "name": "esdump-rs",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "byte-unit",
+        "bytes",
+        "bytesize",
+        "clap",
+        "clap-num",
+        "dotenv",
+        "elasticsearch",
+        "flate2",
+        "futures-util",
+        "human-duration",
+        "indicatif",
+        "log",
+        "object_store",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tracing",
+        "tracing-core",
+        "tracing-indicatif",
+        "tracing-subscriber",
+        "url",
+        "uuid",
+        "zstd"
+    ]
+}

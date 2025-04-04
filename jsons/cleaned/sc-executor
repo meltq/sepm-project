@@ -1,0 +1,25 @@
+{
+    "name": "sc-executor",
+    "deps": [
+        "codec",
+        "derive_more",
+        "lazy_static",
+        "libsecp256k1",
+        "log",
+        "parity-wasm",
+        "parking_lot",
+        "sc-executor-common",
+        "sc-executor-wasmi",
+        "sc-executor-wasmtime",
+        "sp-core",
+        "sp-externalities",
+        "sp-io",
+        "sp-panic-handler",
+        "sp-runtime-interface",
+        "sp-serializer",
+        "sp-trie",
+        "sp-version",
+        "sp-wasm-interface",
+        "wasmi"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "name": "os-checker-plugin-cargo",
+    "deps": [
+        "camino",
+        "cargo_metadata",
+        "color-eyre",
+        "compact_str",
+        "duct",
+        "eyre",
+        "indexmap",
+        "jiff",
+        "nextest-metadata",
+        "os-checker-types",
+        "serde",
+        "serde_json",
+        "tracing",
+        "tracing-error",
+        "tracing-subscriber",
+        "walkdir"
+    ]
+}

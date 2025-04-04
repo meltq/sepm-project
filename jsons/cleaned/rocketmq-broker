@@ -1,0 +1,33 @@
+{
+    "name": "rocketmq-broker",
+    "deps": [
+        "anyhow",
+        "bytes",
+        "clap",
+        "config",
+        "dirs",
+        "env_logger",
+        "futures",
+        "futures-core",
+        "futures-io",
+        "futures-sink",
+        "futures-util",
+        "local-ip-address",
+        "parking_lot",
+        "rand",
+        "rocketmq-common",
+        "rocketmq-filter",
+        "rocketmq-macros",
+        "rocketmq-remoting",
+        "rocketmq-runtime",
+        "rocketmq-rust",
+        "rocketmq-store",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tokio-stream",
+        "tokio-util",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

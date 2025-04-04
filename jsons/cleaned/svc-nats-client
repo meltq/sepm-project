@@ -1,0 +1,17 @@
+{
+    "name": "svc-nats-client",
+    "deps": [
+        "anyhow",
+        "async-nats",
+        "async-trait",
+        "futures",
+        "humantime-serde",
+        "reqwest",
+        "serde",
+        "svc-agent",
+        "svc-error",
+        "thiserror",
+        "tracing",
+        "uuid"
+    ]
+}

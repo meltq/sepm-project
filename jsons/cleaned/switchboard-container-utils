@@ -1,0 +1,26 @@
+{
+    "name": "switchboard-container-utils",
+    "deps": [
+        "async-trait",
+        "bollard",
+        "bs58",
+        "dashmap",
+        "envy",
+        "futures",
+        "futures-util",
+        "hex",
+        "hyper",
+        "hyper-timeout",
+        "json_env_logger",
+        "kv-log-macro",
+        "log",
+        "miette",
+        "regex",
+        "serde",
+        "serde_json",
+        "switchboard-common",
+        "tokio",
+        "tokio-tar",
+        "tokio-util"
+    ]
+}

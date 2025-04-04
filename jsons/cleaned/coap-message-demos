@@ -1,0 +1,20 @@
+{
+    "name": "coap-message-demos",
+    "deps": [
+        "coap",
+        "coap-handler",
+        "coap-handler-implementations",
+        "coap-lite",
+        "coap-message",
+        "coap-numbers",
+        "embedded-nal",
+        "embedded-nal-minimal-coapserver",
+        "log",
+        "log_buffer",
+        "serde",
+        "serde_cbor",
+        "std-embedded-nal",
+        "tokio",
+        "try-lock"
+    ]
+}

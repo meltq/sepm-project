@@ -1,0 +1,13 @@
+{
+    "name": "gst-plugin-spotify",
+    "deps": [
+        "anyhow",
+        "futures",
+        "gst",
+        "gst-base",
+        "gst-plugin-version-helper",
+        "librespot",
+        "once_cell",
+        "tokio"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "name": "pixy-server",
+    "deps": [
+        "axum",
+        "config",
+        "pixy-core",
+        "serde",
+        "tokio",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

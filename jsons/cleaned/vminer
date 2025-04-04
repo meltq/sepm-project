@@ -1,0 +1,19 @@
+{
+    "name": "vminer",
+    "deps": [
+        "bytemuck",
+        "gimli",
+        "hashbrown",
+        "libc",
+        "log",
+        "memchr",
+        "object",
+        "once_cell",
+        "pdb",
+        "serde",
+        "serde_json",
+        "spin",
+        "ureq",
+        "vminer-core"
+    ]
+}

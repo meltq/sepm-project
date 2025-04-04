@@ -1,0 +1,31 @@
+{
+    "name": "tchannel_rs",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "atoi",
+        "bb8",
+        "bitflags",
+        "bytes",
+        "derive-new",
+        "derive_builder",
+        "env_logger",
+        "futures",
+        "getset",
+        "log",
+        "num-derive",
+        "num-traits",
+        "serial_test",
+        "strum",
+        "strum_macros",
+        "test-case",
+        "thiserror",
+        "thrift",
+        "tokio",
+        "tokio",
+        "tokio-macros",
+        "tokio-stream",
+        "tokio-test",
+        "tokio-util"
+    ]
+}

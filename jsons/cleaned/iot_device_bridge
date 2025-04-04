@@ -1,0 +1,21 @@
+{
+    "name": "iot_device_bridge",
+    "deps": [
+        "chrono",
+        "find_folder",
+        "ignore-result",
+        "log",
+        "once_cell",
+        "openssl",
+        "rumqttc",
+        "rustls-pemfile",
+        "serde",
+        "serde_json",
+        "serde_yaml",
+        "simple_logger",
+        "tokio",
+        "tokio-retry",
+        "tokio-rustls",
+        "uuid"
+    ]
+}

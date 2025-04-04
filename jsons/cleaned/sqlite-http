@@ -1,0 +1,13 @@
+{
+    "name": "sqlite-http",
+    "deps": [
+        "clap",
+        "env_logger",
+        "log",
+        "rusqlite",
+        "serde",
+        "serde_json",
+        "tokio",
+        "warp"
+    ]
+}

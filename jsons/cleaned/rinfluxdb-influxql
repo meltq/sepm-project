@@ -1,0 +1,22 @@
+{
+    "name": "rinfluxdb-influxql",
+    "deps": [
+        "anyhow",
+        "async-std",
+        "async-trait",
+        "chrono",
+        "httpmock",
+        "itertools",
+        "reqwest",
+        "rinfluxdb-dataframe",
+        "rinfluxdb-types",
+        "serde",
+        "serde_json",
+        "structopt",
+        "thiserror",
+        "tracing",
+        "tracing-log",
+        "tracing-subscriber",
+        "url"
+    ]
+}

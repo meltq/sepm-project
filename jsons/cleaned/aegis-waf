@@ -1,0 +1,23 @@
+{
+    "name": "aegis-waf",
+    "deps": [
+        "actix-web",
+        "bb8",
+        "bb8-redis",
+        "bytes",
+        "clap",
+        "http-body-util",
+        "hyper",
+        "regex",
+        "reqwest",
+        "serde",
+        "serde_yaml",
+        "thiserror",
+        "tokio",
+        "tower",
+        "tower-http",
+        "tracing",
+        "tracing-subscriber",
+        "url"
+    ]
+}

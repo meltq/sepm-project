@@ -1,0 +1,25 @@
+{
+    "name": "netidx-wsproxy",
+    "deps": [
+        "anyhow",
+        "arcstr",
+        "bytes",
+        "chrono",
+        "env_logger",
+        "futures",
+        "futures-util",
+        "fxhash",
+        "log",
+        "netidx",
+        "netidx-core",
+        "netidx-protocols",
+        "parking_lot",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "structopt",
+        "tokio",
+        "uuid",
+        "warp"
+    ]
+}

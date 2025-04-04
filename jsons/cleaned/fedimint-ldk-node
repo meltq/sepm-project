@@ -1,0 +1,30 @@
+{
+    "name": "fedimint-ldk-node",
+    "deps": [
+        "bdk",
+        "bip39",
+        "bitcoin",
+        "chrono",
+        "electrsd",
+        "electrum-client",
+        "esplora-client",
+        "futures",
+        "libc",
+        "lightning",
+        "lightning-background-processor",
+        "lightning-invoice",
+        "lightning-net-tokio",
+        "lightning-persister",
+        "lightning-rapid-gossip-sync",
+        "lightning-transaction-sync",
+        "proptest",
+        "rand",
+        "regex",
+        "reqwest",
+        "rusqlite",
+        "serde_json",
+        "tokio",
+        "uniffi",
+        "uniffi"
+    ]
+}

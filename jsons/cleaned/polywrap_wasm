@@ -1,0 +1,14 @@
+{
+    "name": "polywrap_wasm",
+    "deps": [
+        "base64",
+        "polywrap_core",
+        "polywrap_msgpack",
+        "polywrap_tests_utils",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "wasmer",
+        "wrap_manifest_schemas"
+    ]
+}

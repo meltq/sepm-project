@@ -1,0 +1,13 @@
+{
+    "name": "msg_store_database_leveldb_plugin",
+    "deps": [
+        "bincode",
+        "bytes",
+        "db-key",
+        "leveldb",
+        "msg-store",
+        "msg_store_database_plugin",
+        "msg_store_uuid",
+        "serde"
+    ]
+}

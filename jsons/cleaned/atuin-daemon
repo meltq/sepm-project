@@ -1,0 +1,24 @@
+{
+    "name": "atuin-daemon",
+    "deps": [
+        "atuin-client",
+        "atuin-dotfiles",
+        "atuin-history",
+        "dashmap",
+        "eyre",
+        "listenfd",
+        "prost",
+        "prost-types",
+        "rand",
+        "time",
+        "tokio",
+        "tokio-stream",
+        "tonic",
+        "tonic-build",
+        "tonic-types",
+        "tower",
+        "tracing",
+        "tracing-subscriber",
+        "uuid"
+    ]
+}

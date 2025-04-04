@@ -1,0 +1,14 @@
+{
+    "name": "cooplan-amqp-api-consumer",
+    "deps": [
+        "cooplan-amqp-api-shared",
+        "cooplan-lapin-wrapper",
+        "futures-util",
+        "lapin",
+        "log",
+        "serde",
+        "serde_json",
+        "tokio",
+        "uuid"
+    ]
+}

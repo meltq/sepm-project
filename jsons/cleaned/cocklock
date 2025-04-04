@@ -1,0 +1,11 @@
+{
+    "name": "cocklock",
+    "deps": [
+        "native-tls",
+        "postgres",
+        "postgres-native-tls",
+        "testcontainers",
+        "tokio-postgres",
+        "uuid"
+    ]
+}

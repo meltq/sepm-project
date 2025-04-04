@@ -1,0 +1,28 @@
+{
+    "name": "fedimint-wallet-server",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "bitcoin",
+        "erased-serde",
+        "fedimint-bitcoind",
+        "fedimint-core",
+        "fedimint-server",
+        "fedimint-wallet-common",
+        "futures",
+        "impl-tools",
+        "miniscript",
+        "rand",
+        "secp256k1",
+        "serde",
+        "strum",
+        "strum_macros",
+        "thiserror",
+        "tokio",
+        "tokio",
+        "tracing",
+        "tracing-subscriber",
+        "url",
+        "validator"
+    ]
+}

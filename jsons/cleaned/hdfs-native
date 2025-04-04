@@ -1,0 +1,30 @@
+{
+    "name": "hdfs-native",
+    "deps": [
+        "async-trait",
+        "base64",
+        "bytes",
+        "chrono",
+        "crc",
+        "env_logger",
+        "futures",
+        "gsasl-sys",
+        "libc",
+        "libgssapi",
+        "log",
+        "object_store",
+        "prost",
+        "prost-build",
+        "prost-types",
+        "protobuf-src",
+        "roxmltree",
+        "socket2",
+        "tempfile",
+        "thiserror",
+        "tokio",
+        "url",
+        "users",
+        "uuid",
+        "which"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "glyph-bbox-render",
+    "deps": [
+        "clap",
+        "glyph-bbox",
+        "log",
+        "pretty_env_logger",
+        "rust-embed",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "tokio",
+        "warp"
+    ]
+}

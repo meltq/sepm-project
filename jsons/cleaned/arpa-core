@@ -1,0 +1,24 @@
+{
+    "name": "arpa-core",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "bincode",
+        "chrono",
+        "ethers-core",
+        "ethers-middleware",
+        "ethers-providers",
+        "ethers-signers",
+        "lazy_static",
+        "log",
+        "log-mdc",
+        "log4rs",
+        "parking_lot",
+        "serde",
+        "serde_json",
+        "serde_yaml",
+        "thiserror",
+        "thread-id",
+        "threshold-bls"
+    ]
+}

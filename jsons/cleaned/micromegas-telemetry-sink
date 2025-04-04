@@ -1,0 +1,29 @@
+{
+    "name": "micromegas-telemetry-sink",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "atty",
+        "chrono",
+        "ciborium",
+        "colored",
+        "ctrlc",
+        "lazy_static",
+        "log",
+        "lz4",
+        "micromegas-telemetry",
+        "micromegas-tracing",
+        "micromegas-transit",
+        "once_cell",
+        "prost",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "time",
+        "tokio",
+        "tokio-retry",
+        "tonic",
+        "uuid",
+        "winapi"
+    ]
+}

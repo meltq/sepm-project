@@ -1,0 +1,20 @@
+{
+    "name": "jsonrpc-client-transports",
+    "deps": [
+        "assert_matches",
+        "env_logger",
+        "failure",
+        "futures",
+        "hyper",
+        "hyper-tls",
+        "jsonrpc-core",
+        "jsonrpc-http-server",
+        "lazy_static",
+        "log",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tokio",
+        "websocket"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "serial_write",
+    "deps": [
+        "numtoa",
+        "usb-device",
+        "usbd-serial",
+        "cortex-m",
+        "cortex-m-rt",
+        "embedded-hal",
+        "embedded-time",
+        "futures",
+        "panic-halt",
+        "rp-pico",
+        "rp2040-boot2",
+        "rp2040-hal"
+    ]
+}

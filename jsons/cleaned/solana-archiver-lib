@@ -1,0 +1,28 @@
+{
+    "name": "solana-archiver-lib",
+    "deps": [
+        "bincode",
+        "crossbeam-channel",
+        "ed25519-dalek",
+        "hex",
+        "log",
+        "rand",
+        "rand_chacha",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "solana-archiver-utils",
+        "solana-chacha",
+        "solana-chacha-sys",
+        "solana-client",
+        "solana-core",
+        "solana-ledger",
+        "solana-logger",
+        "solana-metrics",
+        "solana-net-utils",
+        "solana-perf",
+        "solana-sdk",
+        "solana-storage-program",
+        "thiserror"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "name": "c2rust-transpile",
+    "deps": [
+        "c2rust-ast-builder",
+        "c2rust-ast-exporter",
+        "clap",
+        "dtoa",
+        "failure",
+        "fern",
+        "handlebars",
+        "indexmap",
+        "itertools",
+        "libc",
+        "log",
+        "pathdiff",
+        "regex",
+        "serde",
+        "serde_cbor",
+        "serde_derive",
+        "serde_json",
+        "strum",
+        "strum_macros"
+    ]
+}

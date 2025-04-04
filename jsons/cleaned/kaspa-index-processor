@@ -1,0 +1,26 @@
+{
+    "name": "kaspa-index-processor",
+    "deps": [
+        "async-channel",
+        "async-trait",
+        "derive_more",
+        "futures",
+        "kaspa-consensus",
+        "kaspa-consensus-core",
+        "kaspa-consensus-notify",
+        "kaspa-core",
+        "kaspa-hashes",
+        "kaspa-index-core",
+        "kaspa-notify",
+        "kaspa-utils",
+        "kaspa-utxoindex",
+        "log",
+        "parking_lot",
+        "paste",
+        "rand",
+        "thiserror",
+        "tokio",
+        "tokio",
+        "triggered"
+    ]
+}

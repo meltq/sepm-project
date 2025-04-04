@@ -1,0 +1,25 @@
+{
+    "name": "interledger-api",
+    "deps": [
+        "bytes",
+        "futures",
+        "futures-retry",
+        "http",
+        "hyper",
+        "interledger-http",
+        "interledger-ildcp",
+        "interledger-packet",
+        "interledger-router",
+        "interledger-service",
+        "interledger-service-util",
+        "interledger-settlement",
+        "interledger-spsp",
+        "log",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "tokio-retry",
+        "tower-web",
+        "url"
+    ]
+}

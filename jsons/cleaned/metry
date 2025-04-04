@@ -1,0 +1,26 @@
+{
+    "name": "metry",
+    "deps": [
+        "async-trait",
+        "aws-config",
+        "aws-sdk-cloudwatch",
+        "aws-sdk-s3",
+        "aws-sdk-xray",
+        "aws-smithy-types",
+        "futures-core",
+        "num-traits",
+        "opentelemetry",
+        "opentelemetry-appender-tracing",
+        "opentelemetry-aws",
+        "opentelemetry-otlp",
+        "opentelemetry-semantic-conventions",
+        "opentelemetry-stdout",
+        "opentelemetry_sdk",
+        "serde",
+        "serde_json",
+        "tracing",
+        "tracing-core",
+        "tracing-opentelemetry",
+        "tracing-subscriber"
+    ]
+}

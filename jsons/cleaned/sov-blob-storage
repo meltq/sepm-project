@@ -1,0 +1,20 @@
+{
+    "name": "sov-blob-storage",
+    "deps": [
+        "anyhow",
+        "bincode",
+        "borsh",
+        "clap",
+        "hex",
+        "jsonrpsee",
+        "schemars",
+        "serde",
+        "serde_json",
+        "sov-chain-state",
+        "sov-modules-api",
+        "sov-sequencer-registry",
+        "sov-state",
+        "tempfile",
+        "tracing"
+    ]
+}

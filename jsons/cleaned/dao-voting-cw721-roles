@@ -1,0 +1,20 @@
+{
+    "name": "dao-voting-cw721-roles",
+    "deps": [
+        "cosmwasm-schema",
+        "cosmwasm-std",
+        "cw-ownable",
+        "cw-paginate-storage",
+        "cw-storage-plus",
+        "cw-utils",
+        "cw2",
+        "cw4",
+        "cw721",
+        "cw721-base",
+        "cw721-controllers",
+        "dao-cw721-extensions",
+        "dao-dao-macros",
+        "dao-interface",
+        "thiserror"
+    ]
+}

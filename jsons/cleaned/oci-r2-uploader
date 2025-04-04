@@ -1,0 +1,13 @@
+{
+    "name": "oci-r2-uploader",
+    "deps": [
+        "anyhow",
+        "log",
+        "rusoto_core",
+        "rusoto_s3",
+        "serde_json",
+        "sha2",
+        "tempfile",
+        "tokio"
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "name": "iroh-net-report",
+    "deps": [
+        "anyhow",
+        "bytes",
+        "derive_more",
+        "futures-buffered",
+        "futures-lite",
+        "hickory-resolver",
+        "iroh-base",
+        "iroh-metrics",
+        "iroh-relay",
+        "iroh-relay",
+        "iroh-test",
+        "netwatch",
+        "once_cell",
+        "portmapper",
+        "pretty_assertions",
+        "rand",
+        "reqwest",
+        "rustls",
+        "surge-ping",
+        "testresult",
+        "thiserror",
+        "tokio",
+        "tokio",
+        "tokio-util",
+        "tracing",
+        "url"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "polywrap_ethereum_wallet_plugin",
+    "deps": [
+        "ethers",
+        "lazy_static",
+        "polywrap_client",
+        "polywrap_core",
+        "polywrap_msgpack",
+        "polywrap_plugin",
+        "serde",
+        "thiserror",
+        "tokio",
+        "wrap_manifest_schemas"
+    ]
+}

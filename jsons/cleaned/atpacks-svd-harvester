@@ -1,0 +1,20 @@
+{
+    "name": "atpacks-svd-harvester",
+    "deps": [
+        "anyhow",
+        "bytes",
+        "clap",
+        "clap-verbosity-flag",
+        "lazy-regex",
+        "quick-xml",
+        "reqwest",
+        "scraper",
+        "semver",
+        "serde",
+        "serde_json",
+        "strum",
+        "tempdir",
+        "tokio",
+        "zip"
+    ]
+}

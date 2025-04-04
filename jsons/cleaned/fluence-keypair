@@ -1,0 +1,24 @@
+{
+    "name": "fluence-keypair",
+    "deps": [
+        "asn1_der",
+        "bs58",
+        "ed25519",
+        "ed25519-dalek",
+        "eyre",
+        "lazy_static",
+        "libp2p-core",
+        "libsecp256k1",
+        "quickcheck",
+        "rand",
+        "ring",
+        "serde",
+        "serde_bytes",
+        "serde_json",
+        "serde_with",
+        "sha2",
+        "signature",
+        "thiserror",
+        "zeroize"
+    ]
+}

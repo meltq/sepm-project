@@ -1,0 +1,22 @@
+{
+    "name": "vhost-device-console",
+    "deps": [
+        "assert_matches",
+        "clap",
+        "console",
+        "crossterm",
+        "env_logger",
+        "epoll",
+        "log",
+        "queues",
+        "thiserror",
+        "vhost",
+        "vhost-user-backend",
+        "virtio-bindings",
+        "virtio-queue",
+        "virtio-queue",
+        "vm-memory",
+        "vm-memory",
+        "vmm-sys-util"
+    ]
+}

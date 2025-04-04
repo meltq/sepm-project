@@ -1,0 +1,30 @@
+{
+    "name": "rattler_cache",
+    "deps": [
+        "anyhow",
+        "assert_matches",
+        "axum",
+        "bytes",
+        "chrono",
+        "digest",
+        "dirs",
+        "futures",
+        "fxhash",
+        "itertools",
+        "parking_lot",
+        "rattler_conda_types",
+        "rattler_digest",
+        "rattler_networking",
+        "rattler_package_streaming",
+        "reqwest",
+        "reqwest-middleware",
+        "rstest",
+        "tempfile",
+        "thiserror",
+        "tokio",
+        "tokio-stream",
+        "tower-http",
+        "tracing",
+        "url"
+    ]
+}

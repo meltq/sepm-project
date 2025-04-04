@@ -1,0 +1,12 @@
+{
+    "name": "ssmpuller",
+    "deps": [
+        "aws-config",
+        "aws-sdk-ssm",
+        "aws-types",
+        "structopt",
+        "tempfile",
+        "thiserror",
+        "tokio"
+    ]
+}

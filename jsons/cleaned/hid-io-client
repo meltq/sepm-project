@@ -1,0 +1,16 @@
+{
+    "name": "hid-io-client",
+    "deps": [
+        "capnp",
+        "capnp-rpc",
+        "clap",
+        "futures",
+        "hid-io-core",
+        "log",
+        "rand",
+        "rustls",
+        "tokio",
+        "tokio-rustls",
+        "tokio-util"
+    ]
+}

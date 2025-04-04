@@ -1,0 +1,27 @@
+{
+    "name": "cdl-k8s-core",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "byte-unit",
+        "email_address",
+        "futures",
+        "k8s-openapi",
+        "kube",
+        "opentelemetry",
+        "opentelemetry-appender-tracing",
+        "opentelemetry-otlp",
+        "opentelemetry_sdk",
+        "regex",
+        "resolv-conf",
+        "schemars",
+        "serde",
+        "serde_json",
+        "sha2",
+        "tokio",
+        "tracing",
+        "tracing-opentelemetry",
+        "tracing-subscriber",
+        "url"
+    ]
+}

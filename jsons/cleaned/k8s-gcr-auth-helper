@@ -1,0 +1,29 @@
+{
+    "name": "k8s-gcr-auth-helper",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "base64",
+        "chrono",
+        "clap",
+        "env_logger",
+        "failure",
+        "futures",
+        "futures-timer",
+        "futures-util",
+        "k8s-openapi",
+        "kube",
+        "lazy_static",
+        "log",
+        "oauth2",
+        "regex",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "serde_yaml",
+        "tokio",
+        "tokio-util",
+        "url",
+        "webbrowser"
+    ]
+}

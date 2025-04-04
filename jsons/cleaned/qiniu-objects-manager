@@ -1,0 +1,21 @@
+{
+    "name": "qiniu-objects-manager",
+    "deps": [
+        "anyhow",
+        "async-once-cell",
+        "async-std",
+        "env_logger",
+        "form_urlencoded",
+        "futures",
+        "indexmap",
+        "log",
+        "mime",
+        "once_cell",
+        "qiniu-apis",
+        "qiniu-utils",
+        "serde",
+        "serde_json",
+        "smart-default",
+        "tap"
+    ]
+}

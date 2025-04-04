@@ -1,0 +1,22 @@
+{
+    "name": "drivesync",
+    "deps": [
+        "anyhow",
+        "argh",
+        "async-fn-stream",
+        "async-trait",
+        "directories",
+        "futures",
+        "google-drive3",
+        "hyper",
+        "hyper-rustls",
+        "indicatif",
+        "mime",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tracing",
+        "tracing-log",
+        "tracing-subscriber"
+    ]
+}

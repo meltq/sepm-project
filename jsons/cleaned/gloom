@@ -1,0 +1,19 @@
+{
+    "name": "gloom",
+    "deps": [
+        "async-raft",
+        "chrono",
+        "crossbeam",
+        "metrics",
+        "metrics-exporter-prometheus",
+        "structopt",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "tracing-bunyan-formatter",
+        "tracing-error",
+        "tracing-futures",
+        "tracing-log",
+        "tracing-subscriber"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "name": "fido-key-manager",
+    "deps": [
+        "clap",
+        "embed-resource",
+        "hex",
+        "tokio",
+        "tokio-stream",
+        "tracing",
+        "tracing-subscriber",
+        "webauthn-authenticator-rs",
+        "webauthn-rs-core"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "name": "ssh_ui",
+    "deps": [
+        "anyhow",
+        "async-std",
+        "cursive",
+        "lazy_static",
+        "libc",
+        "openpty",
+        "russh",
+        "russh-keys",
+        "tokio"
+    ]
+}

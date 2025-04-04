@@ -1,0 +1,14 @@
+{
+    "name": "vmonitor",
+    "deps": [
+        "config",
+        "futures-util",
+        "serde",
+        "serde_json",
+        "sysinfo",
+        "tokio",
+        "tokio-tungstenite",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

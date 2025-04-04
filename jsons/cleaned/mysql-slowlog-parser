@@ -1,0 +1,16 @@
+{
+    "name": "mysql-slowlog-parser",
+    "deps": [
+        "bytes",
+        "env_logger",
+        "futures",
+        "log",
+        "sqlparser",
+        "thiserror",
+        "time",
+        "tokio",
+        "tokio-util",
+        "winnow",
+        "winnow_iso8601"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "datafusion-objectstore-s3",
+    "deps": [
+        "arrow",
+        "async-trait",
+        "aws-config",
+        "aws-sdk-s3",
+        "aws-smithy-async",
+        "aws-smithy-types",
+        "aws-smithy-types-convert",
+        "aws-types",
+        "bytes",
+        "datafusion",
+        "futures",
+        "http",
+        "num_cpus",
+        "tokio"
+    ]
+}

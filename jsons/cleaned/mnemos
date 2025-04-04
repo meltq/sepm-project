@@ -1,0 +1,32 @@
+{
+    "name": "mnemos",
+    "deps": [
+        "bbqueue",
+        "byte-slab",
+        "cassette",
+        "common",
+        "cortex-m",
+        "cortex-m-rt",
+        "cortex-m-rtic",
+        "defmt",
+        "defmt-rtt",
+        "defmt-test",
+        "embedded-hal",
+        "fugit",
+        "groundhog",
+        "groundhog-nrf52",
+        "heapless",
+        "linked_list_allocator",
+        "nb",
+        "nrf-smartled",
+        "nrf52840-hal",
+        "panic-probe",
+        "postcard",
+        "rtic-monotonic",
+        "serde",
+        "smart-leds",
+        "smart-leds-trait",
+        "usb-device",
+        "usbd-serial"
+    ]
+}

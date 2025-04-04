@@ -1,0 +1,19 @@
+{
+    "name": "matrix-sdk-base",
+    "deps": [
+        "async-trait",
+        "http",
+        "matrix-sdk-common",
+        "matrix-sdk-crypto",
+        "matrix-sdk-test",
+        "serde",
+        "serde_json",
+        "tempfile",
+        "thiserror",
+        "tokio",
+        "tokio",
+        "tracing-subscriber",
+        "wasm-bindgen-test",
+        "zeroize"
+    ]
+}

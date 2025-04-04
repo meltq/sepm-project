@@ -1,0 +1,25 @@
+{
+    "name": "oma-refresh",
+    "deps": [
+        "anyhow",
+        "chrono",
+        "dashmap",
+        "futures",
+        "indicatif",
+        "oma-apt-sources-lists",
+        "oma-console",
+        "oma-debcontrol",
+        "oma-fetch",
+        "oma-topics",
+        "oma-utils",
+        "once_cell",
+        "reqwest",
+        "sequoia-openpgp",
+        "serde",
+        "serde_yaml",
+        "thiserror",
+        "tokio",
+        "tokio",
+        "url"
+    ]
+}

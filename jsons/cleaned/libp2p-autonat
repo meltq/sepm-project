@@ -1,0 +1,19 @@
+{
+    "name": "libp2p-autonat",
+    "deps": [
+        "async-std",
+        "async-trait",
+        "env_logger",
+        "futures",
+        "futures-timer",
+        "instant",
+        "libp2p-core",
+        "libp2p-request-response",
+        "libp2p-swarm",
+        "log",
+        "prost",
+        "prost-build",
+        "rand",
+        "structopt"
+    ]
+}

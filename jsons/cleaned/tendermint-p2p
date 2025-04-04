@@ -1,0 +1,22 @@
+{
+    "name": "tendermint-p2p",
+    "deps": [
+        "chacha20poly1305",
+        "ed25519-dalek",
+        "eyre",
+        "hkdf",
+        "merlin",
+        "prost",
+        "prost-amino",
+        "prost-amino-derive",
+        "rand_core",
+        "sha2",
+        "subtle",
+        "subtle-encoding",
+        "tendermint",
+        "tendermint-proto",
+        "thiserror",
+        "x25519-dalek",
+        "zeroize"
+    ]
+}

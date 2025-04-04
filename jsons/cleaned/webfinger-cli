@@ -1,0 +1,13 @@
+{
+    "name": "webfinger-cli",
+    "deps": [
+        "clap",
+        "color-eyre",
+        "http",
+        "tokio",
+        "tracing",
+        "tracing-error",
+        "tracing-subscriber",
+        "webfinger-rs"
+    ]
+}

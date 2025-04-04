@@ -1,0 +1,22 @@
+{
+    "name": "vegafusion-server",
+    "deps": [
+        "assert_cmd",
+        "clap",
+        "futures-util",
+        "predicates",
+        "prost",
+        "prost-build",
+        "protobuf-src",
+        "regex",
+        "serde_json",
+        "tokio",
+        "tonic",
+        "tonic-build",
+        "tonic-web",
+        "vegafusion-common",
+        "vegafusion-core",
+        "vegafusion-runtime",
+        "vegafusion-sql"
+    ]
+}

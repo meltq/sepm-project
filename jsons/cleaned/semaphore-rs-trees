@@ -1,0 +1,33 @@
+{
+    "name": "semaphore-rs-trees",
+    "deps": [
+        "ark-bn254",
+        "ark-circom",
+        "ark-ec",
+        "ark-ff",
+        "ark-groth16",
+        "ark-relations",
+        "ark-std",
+        "bytemuck",
+        "color-eyre",
+        "derive-where",
+        "hex",
+        "hex-literal",
+        "itertools",
+        "mmap-rs",
+        "once_cell",
+        "rand",
+        "rayon",
+        "ruint",
+        "semaphore-rs-hasher",
+        "semaphore-rs-keccak",
+        "semaphore-rs-poseidon",
+        "semaphore-rs-storage",
+        "serde",
+        "serial_test",
+        "tempfile",
+        "test-case",
+        "thiserror",
+        "tiny-keccak"
+    ]
+}

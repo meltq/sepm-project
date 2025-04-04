@@ -1,0 +1,21 @@
+{
+    "name": "mmap-loader",
+    "deps": [
+        "anyhow",
+        "lazy_static",
+        "log",
+        "ntapi",
+        "pdb",
+        "prost",
+        "reqwest",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "serial_test",
+        "simple_logger",
+        "tokio",
+        "tonic",
+        "tonic-build",
+        "winapi"
+    ]
+}

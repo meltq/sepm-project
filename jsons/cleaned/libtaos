@@ -1,0 +1,19 @@
+{
+    "name": "libtaos",
+    "deps": [
+        "bindgen",
+        "derive_builder",
+        "env_logger",
+        "itertools",
+        "lazy_static",
+        "log",
+        "num_enum",
+        "r2d2",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "serde_repr",
+        "thiserror",
+        "tokio"
+    ]
+}

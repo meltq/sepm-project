@@ -1,0 +1,28 @@
+{
+    "name": "datafusion-optd-cli",
+    "deps": [
+        "arrow",
+        "assert_cmd",
+        "async-trait",
+        "aws-config",
+        "aws-credential-types",
+        "clap",
+        "ctor",
+        "datafusion",
+        "dirs",
+        "env_logger",
+        "mimalloc",
+        "object_store",
+        "optd-datafusion-bridge",
+        "optd-datafusion-repr",
+        "parking_lot",
+        "predicates",
+        "regex",
+        "rstest",
+        "rustyline",
+        "tokio",
+        "tracing",
+        "tracing-subscriber",
+        "url"
+    ]
+}

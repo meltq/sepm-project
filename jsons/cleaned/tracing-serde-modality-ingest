@@ -1,0 +1,15 @@
+{
+    "name": "tracing-serde-modality-ingest",
+    "deps": [
+        "anyhow",
+        "hex",
+        "modality-ingest-client",
+        "once_cell",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tracing-serde-structured",
+        "tracing-serde-wire",
+        "url"
+    ]
+}

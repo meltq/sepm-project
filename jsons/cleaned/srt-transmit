@@ -1,0 +1,17 @@
+{
+    "name": "srt-transmit",
+    "deps": [
+        "anyhow",
+        "bytes",
+        "clap",
+        "futures",
+        "log",
+        "pretty_env_logger",
+        "rand",
+        "srt-tokio",
+        "tokio",
+        "tokio-stream",
+        "tokio-util",
+        "url"
+    ]
+}

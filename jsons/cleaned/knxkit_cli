@@ -1,0 +1,22 @@
+{
+    "name": "knxkit_cli",
+    "deps": [
+        "anyhow",
+        "async-stream",
+        "clap",
+        "dns-lookup",
+        "futures-util",
+        "hex",
+        "interpolator",
+        "knxkit",
+        "knxkit_dpt",
+        "local-ip-address",
+        "nom",
+        "parse_duration",
+        "time",
+        "tokio",
+        "tracing",
+        "tracing-subscriber",
+        "url"
+    ]
+}

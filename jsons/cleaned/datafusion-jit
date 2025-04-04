@@ -1,0 +1,13 @@
+{
+    "name": "datafusion-jit",
+    "deps": [
+        "arrow",
+        "cranelift",
+        "cranelift-jit",
+        "cranelift-module",
+        "cranelift-native",
+        "datafusion-common",
+        "datafusion-expr",
+        "parking_lot"
+    ]
+}

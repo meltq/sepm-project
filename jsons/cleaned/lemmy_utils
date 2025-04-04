@@ -1,0 +1,33 @@
+{
+    "name": "lemmy_utils",
+    "deps": [
+        "actix-rt",
+        "actix-web",
+        "anyhow",
+        "chrono",
+        "comrak",
+        "deser-hjson",
+        "diesel",
+        "envy",
+        "futures",
+        "http",
+        "itertools",
+        "jsonwebtoken",
+        "lazy_static",
+        "lettre",
+        "log",
+        "merge",
+        "openssl",
+        "percent-encoding",
+        "rand",
+        "regex",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "strum",
+        "strum_macros",
+        "thiserror",
+        "tokio",
+        "url"
+    ]
+}

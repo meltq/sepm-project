@@ -1,0 +1,20 @@
+{
+    "name": "ledger-lib",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "btleplug",
+        "clap",
+        "encdec",
+        "futures",
+        "hidapi",
+        "ledger-proto",
+        "once_cell",
+        "strum",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "tracing-subscriber",
+        "uuid"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "wasm-bridge-wasi",
+    "deps": [
+        "anyhow",
+        "bytes",
+        "js-sys",
+        "rand_core",
+        "wasm-bindgen",
+        "wasm-bindgen-futures",
+        "wasm-bindgen-test",
+        "wasm-bridge",
+        "wasm-bridge-macros",
+        "wasmtime-wasi"
+    ]
+}

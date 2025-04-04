@@ -1,0 +1,12 @@
+{
+    "name": "containerd-shim",
+    "deps": [
+        "command-fds",
+        "containerd-shim-client",
+        "go-flag",
+        "libc",
+        "log",
+        "nix",
+        "thiserror"
+    ]
+}

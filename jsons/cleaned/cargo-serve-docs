@@ -1,0 +1,14 @@
+{
+    "name": "cargo-serve-docs",
+    "deps": [
+        "anyhow",
+        "cargo_metadata",
+        "crossbeam-channel",
+        "hyper",
+        "hyper-staticfile",
+        "notify",
+        "qu",
+        "structopt",
+        "tokio"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "osm_pbf2json",
+    "deps": [
+        "approx",
+        "criterion",
+        "geo",
+        "geo-types",
+        "itertools",
+        "osm_boundaries_utils",
+        "osmpbfreader",
+        "petgraph",
+        "rand",
+        "rayon",
+        "rstar",
+        "serde",
+        "serde_json",
+        "smartstring",
+        "structopt"
+    ]
+}

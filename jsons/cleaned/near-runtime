@@ -1,0 +1,31 @@
+{
+    "name": "near-runtime",
+    "deps": [
+        "assert_matches",
+        "base64",
+        "borsh",
+        "byteorder",
+        "ethereum-types",
+        "hex",
+        "indicatif",
+        "lazy_static",
+        "log",
+        "near-crypto",
+        "near-metrics",
+        "near-primitives",
+        "near-runtime-utils",
+        "near-store",
+        "near-vm-errors",
+        "near-vm-logic",
+        "near-vm-runner",
+        "num-bigint",
+        "num-rational",
+        "num-traits",
+        "rand",
+        "rayon",
+        "serde",
+        "serde_json",
+        "serde_json",
+        "tempfile"
+    ]
+}

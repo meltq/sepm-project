@@ -1,0 +1,29 @@
+{
+    "name": "tofuri-wallet",
+    "deps": [
+        "argon2",
+        "bincode",
+        "chacha20poly1305",
+        "chrono",
+        "clap",
+        "colored",
+        "crossterm",
+        "hex",
+        "inquire",
+        "lazy_static",
+        "log",
+        "rand",
+        "reqwest",
+        "tofuri-address",
+        "tofuri-api-core",
+        "tofuri-api-util",
+        "tofuri-core",
+        "tofuri-int",
+        "tofuri-key",
+        "tofuri-stake",
+        "tofuri-transaction",
+        "tofuri-util",
+        "tokio",
+        "zxcvbn"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "name": "htsget-actix",
+    "deps": [
+        "actix-cors",
+        "actix-web",
+        "async-trait",
+        "criterion",
+        "futures",
+        "futures-util",
+        "htsget-config",
+        "htsget-http",
+        "htsget-search",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "tempfile",
+        "tokio",
+        "tracing",
+        "tracing-actix-web"
+    ]
+}

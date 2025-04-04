@@ -1,0 +1,17 @@
+{
+    "name": "plerkle_messenger",
+    "deps": [
+        "async-mutex",
+        "async-trait",
+        "figment",
+        "futures",
+        "log",
+        "metaplex-pulsar",
+        "plerkle_serialization",
+        "redis",
+        "serde",
+        "solana-geyser-plugin-interface",
+        "thiserror",
+        "tokio"
+    ]
+}

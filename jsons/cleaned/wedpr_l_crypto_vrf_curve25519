@@ -1,0 +1,12 @@
+{
+    "name": "wedpr_l_crypto_vrf_curve25519",
+    "deps": [
+        "curve25519-dalek",
+        "rand",
+        "sha3",
+        "wedpr_l_crypto_hash_keccak256",
+        "wedpr_l_crypto_zkp_utils",
+        "wedpr_l_macros",
+        "wedpr_l_utils"
+    ]
+}

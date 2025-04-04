@@ -1,0 +1,17 @@
+{
+    "name": "om-snapper",
+    "deps": [
+        "anyhow",
+        "atty",
+        "aws-config",
+        "aws-sdk-ebs",
+        "aws-sdk-ec2",
+        "clap",
+        "indicatif",
+        "indicatif-log-bridge",
+        "memmapix",
+        "tokio",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "name": "wascc-s3",
+    "deps": [
+        "bytes",
+        "crossbeam",
+        "crossbeam-utils",
+        "env_logger",
+        "futures",
+        "log",
+        "rusoto_core",
+        "rusoto_credential",
+        "rusoto_s3",
+        "tokio",
+        "wascc-codec"
+    ]
+}

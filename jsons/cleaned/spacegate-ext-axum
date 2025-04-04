@@ -1,0 +1,13 @@
+{
+    "name": "spacegate-ext-axum",
+    "deps": [
+        "axum",
+        "serde_json",
+        "tokio",
+        "tokio-util",
+        "tower",
+        "tower-http",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

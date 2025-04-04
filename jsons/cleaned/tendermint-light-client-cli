@@ -1,0 +1,16 @@
+{
+    "name": "tendermint-light-client-cli",
+    "deps": [
+        "clap",
+        "color-eyre",
+        "futures",
+        "serde_json",
+        "tendermint",
+        "tendermint-light-client",
+        "tendermint-light-client-detector",
+        "tendermint-rpc",
+        "tokio",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "name": "fluvio",
+    "deps": [
+        "async-channel",
+        "async-mutex",
+        "async-rwlock",
+        "async-std",
+        "async-trait",
+        "base64",
+        "dataplane",
+        "dirs",
+        "event-listener",
+        "fluvio-future",
+        "fluvio-protocol",
+        "fluvio-sc-schema",
+        "fluvio-socket",
+        "fluvio-spu-schema",
+        "fluvio-types",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "toml",
+        "tracing",
+        "tracing-futures"
+    ]
+}

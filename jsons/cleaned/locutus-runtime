@@ -1,0 +1,27 @@
+{
+    "name": "locutus-runtime",
+    "deps": [
+        "arbitrary",
+        "arbitrary",
+        "arrayvec",
+        "async-trait",
+        "bincode",
+        "blake2",
+        "bs58",
+        "dashmap",
+        "futures",
+        "locutus-stdlib",
+        "once_cell",
+        "rand",
+        "serde",
+        "serde_bytes",
+        "stretto",
+        "thiserror",
+        "tracing",
+        "walkdir",
+        "wasmer",
+        "wasmer",
+        "wasmer-compiler-llvm",
+        "wasmer-wasi"
+    ]
+}

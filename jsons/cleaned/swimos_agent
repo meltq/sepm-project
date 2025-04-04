@@ -1,0 +1,28 @@
+{
+    "name": "swimos_agent",
+    "deps": [
+        "bitflags",
+        "bytes",
+        "frunk",
+        "futures",
+        "mime",
+        "parking_lot",
+        "pin-project",
+        "serde",
+        "serde_json",
+        "static_assertions",
+        "swimos_agent_protocol",
+        "swimos_api",
+        "swimos_form",
+        "swimos_model",
+        "swimos_recon",
+        "swimos_utilities",
+        "thiserror",
+        "tokio",
+        "tokio",
+        "tokio-stream",
+        "tokio-util",
+        "tracing",
+        "uuid"
+    ]
+}

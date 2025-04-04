@@ -1,0 +1,23 @@
+{
+    "name": "tab-pty",
+    "deps": [
+        "anyhow",
+        "async-stream",
+        "async-trait",
+        "base64",
+        "bincode",
+        "dirs",
+        "futures",
+        "lifeline",
+        "log",
+        "rand",
+        "serde_yaml",
+        "simplelog",
+        "tab-api",
+        "tab-pty-process",
+        "tab-websocket",
+        "thiserror",
+        "tokio",
+        "tokio-io"
+    ]
+}

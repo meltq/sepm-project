@@ -1,0 +1,25 @@
+{
+    "name": "telemq",
+    "deps": [
+        "bytes",
+        "clap",
+        "futures",
+        "ipnet",
+        "log",
+        "log4rs",
+        "maplit",
+        "mqtt-packets",
+        "num_cpus",
+        "regex",
+        "rust-crypto",
+        "serde",
+        "signal-hook",
+        "signal-hook-tokio",
+        "tokio",
+        "tokio-rustls",
+        "tokio-stream",
+        "tokio-util",
+        "toml",
+        "warp"
+    ]
+}

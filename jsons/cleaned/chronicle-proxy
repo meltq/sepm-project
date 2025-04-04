@@ -1,0 +1,31 @@
+{
+    "name": "chronicle-proxy",
+    "deps": [
+        "async-trait",
+        "backon",
+        "bytes",
+        "chrono",
+        "error-stack",
+        "filigree",
+        "flume",
+        "http",
+        "insta",
+        "itertools",
+        "rand",
+        "reqwest",
+        "schemars",
+        "serde",
+        "serde_json",
+        "serde_path_to_error",
+        "sqlx",
+        "sqlx-transparent-json-decode",
+        "thiserror",
+        "tokio",
+        "tokio",
+        "toml",
+        "tracing",
+        "url",
+        "uuid",
+        "wiremock"
+    ]
+}

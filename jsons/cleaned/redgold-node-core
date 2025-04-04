@@ -1,0 +1,25 @@
+{
+    "name": "redgold-node-core",
+    "deps": [
+        "async-trait",
+        "flume",
+        "futures",
+        "hex",
+        "log",
+        "metrics",
+        "redgold-common",
+        "redgold-common-no-wasm",
+        "redgold-data",
+        "redgold-executor",
+        "redgold-keys",
+        "redgold-rpc-integ",
+        "redgold-schema",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tokio-stream",
+        "tracing",
+        "uuid",
+        "warp"
+    ]
+}

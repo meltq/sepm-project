@@ -1,0 +1,14 @@
+{
+    "name": "solana-accountsdb-plugin-kafka",
+    "deps": [
+        "log",
+        "prost",
+        "prost-build",
+        "rdkafka",
+        "serde",
+        "serde_json",
+        "simple-error",
+        "solana-accountsdb-plugin-interface",
+        "solana-logger"
+    ]
+}

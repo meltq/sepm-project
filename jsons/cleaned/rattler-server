@@ -1,0 +1,31 @@
+{
+    "name": "rattler-server",
+    "deps": [
+        "anyhow",
+        "async-compression",
+        "axum",
+        "clap",
+        "dashmap",
+        "futures",
+        "hyper",
+        "mime",
+        "mock_instant",
+        "mockito",
+        "rattler_conda_types",
+        "rattler_networking",
+        "rattler_repodata_gateway",
+        "rattler_solve",
+        "reqwest",
+        "rstest",
+        "serde",
+        "serde_json",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tokio-util",
+        "tower",
+        "tracing",
+        "tracing-subscriber",
+        "tracing-tree"
+    ]
+}

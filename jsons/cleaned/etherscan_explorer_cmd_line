@@ -1,0 +1,14 @@
+{
+    "name": "etherscan_explorer_cmd_line",
+    "deps": [
+        "clap",
+        "crossterm",
+        "dotenv",
+        "prettytable-rs",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "tokio",
+        "web3-unit-converter"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "name": "cargo-smart-release",
+    "deps": [
+        "anyhow",
+        "argh",
+        "bstr",
+        "cargo_metadata",
+        "crates-index",
+        "env_logger",
+        "git-lock",
+        "git-repository",
+        "log",
+        "semver",
+        "toml_edit"
+    ]
+}

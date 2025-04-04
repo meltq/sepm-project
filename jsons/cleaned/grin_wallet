@@ -1,0 +1,31 @@
+{
+    "name": "grin_wallet",
+    "deps": [
+        "blake2-rfc",
+        "byteorder",
+        "chrono",
+        "failure",
+        "failure_derive",
+        "futures",
+        "grin_api",
+        "grin_chain",
+        "grin_core",
+        "grin_keychain",
+        "grin_store",
+        "grin_store",
+        "grin_util",
+        "hyper",
+        "log",
+        "prettytable-rs",
+        "rand",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "term",
+        "tokio",
+        "tokio-core",
+        "tokio-retry",
+        "url",
+        "uuid"
+    ]
+}

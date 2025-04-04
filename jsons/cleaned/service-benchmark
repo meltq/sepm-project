@@ -1,0 +1,20 @@
+{
+    "name": "service-benchmark",
+    "deps": [
+        "async-trait",
+        "clap",
+        "derive_builder",
+        "histogram",
+        "leaky-bucket",
+        "log",
+        "log4rs",
+        "mockito",
+        "reqwest",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "serde_yaml",
+        "tokio",
+        "tokio-test"
+    ]
+}

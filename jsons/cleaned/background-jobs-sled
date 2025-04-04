@@ -1,0 +1,16 @@
+{
+    "name": "background-jobs-sled",
+    "deps": [
+        "async-trait",
+        "background-jobs-core",
+        "bincode",
+        "serde",
+        "serde_cbor",
+        "sled",
+        "thiserror",
+        "time",
+        "tokio",
+        "tracing",
+        "uuid"
+    ]
+}

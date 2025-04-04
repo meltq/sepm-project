@@ -1,0 +1,21 @@
+{
+    "name": "assemblylift-iomod-dynamodb",
+    "deps": [
+        "assemblylift_core",
+        "assemblylift_core_io",
+        "assemblylift_core_iomod",
+        "capnp",
+        "capnp-rpc",
+        "crossbeam-utils",
+        "futures",
+        "futures-util",
+        "once_cell",
+        "paste",
+        "rusoto_core",
+        "rusoto_dynamodb",
+        "serde_json",
+        "tokio",
+        "tokio-util",
+        "wasmer_runtime_core"
+    ]
+}

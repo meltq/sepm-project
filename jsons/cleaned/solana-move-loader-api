@@ -1,0 +1,25 @@
+{
+    "name": "solana-move-loader-api",
+    "deps": [
+        "bincode",
+        "bytecode_verifier",
+        "byteorder",
+        "compiler",
+        "failure",
+        "indexmap",
+        "language_e2e_tests",
+        "libc",
+        "log",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "solana-logger",
+        "solana-sdk",
+        "state_view",
+        "stdlib",
+        "types",
+        "vm",
+        "vm_cache_map",
+        "vm_runtime"
+    ]
+}

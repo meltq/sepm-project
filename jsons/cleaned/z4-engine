@@ -1,0 +1,28 @@
+{
+    "name": "z4-engine",
+    "deps": [
+        "anyhow",
+        "ark-bn254",
+        "ark-ec",
+        "ark-ed-on-bn254",
+        "ark-ff",
+        "ark-serialize",
+        "ark-std",
+        "async-trait",
+        "bincode",
+        "ethereum-types",
+        "ethers",
+        "futures-util",
+        "hex",
+        "rand_chacha",
+        "serde",
+        "serde_json",
+        "tdn",
+        "tokio",
+        "tokio-tungstenite",
+        "tracing",
+        "tracing-subscriber",
+        "uzkge",
+        "z4-types"
+    ]
+}

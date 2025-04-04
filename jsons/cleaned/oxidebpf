@@ -1,0 +1,23 @@
+{
+    "name": "oxidebpf",
+    "deps": [
+        "crossbeam-channel",
+        "ctrlc",
+        "goblin",
+        "itertools",
+        "lazy_static",
+        "libc",
+        "memmap",
+        "mio",
+        "nix",
+        "proc-mounts",
+        "retry",
+        "scopeguard",
+        "slog",
+        "slog-atomic",
+        "slog-stdlog",
+        "slog-term",
+        "thread-priority",
+        "uuid"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "name": "smtp-queue",
+    "deps": [
+        "async-trait",
+        "chrono",
+        "futures",
+        "serde",
+        "smol",
+        "smtp-message",
+        "smtp-queue-types"
+    ]
+}

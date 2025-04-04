@@ -1,0 +1,18 @@
+{
+    "name": "scrappy-server",
+    "deps": [
+        "bytes",
+        "env_logger",
+        "futures",
+        "log",
+        "mio",
+        "mio-uds",
+        "net2",
+        "num_cpus",
+        "scrappy-codec",
+        "scrappy-rt",
+        "scrappy-service",
+        "scrappy-utils",
+        "slab"
+    ]
+}

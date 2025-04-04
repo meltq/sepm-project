@@ -1,0 +1,12 @@
+{
+    "name": "axum_sessions_auth",
+    "deps": [
+        "anyhow",
+        "async-recursion",
+        "async-trait",
+        "axum",
+        "axum_database_sessions",
+        "sqlx",
+        "tokio"
+    ]
+}

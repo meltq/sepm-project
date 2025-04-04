@@ -1,0 +1,11 @@
+{
+    "name": "bitcoind-rest-api",
+    "deps": [
+        "bitcoind-request",
+        "log",
+        "pretty_env_logger",
+        "serde",
+        "tokio",
+        "warp"
+    ]
+}

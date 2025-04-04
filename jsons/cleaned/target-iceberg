@@ -1,0 +1,19 @@
+{
+    "name": "target-iceberg",
+    "deps": [
+        "anyhow",
+        "arrow",
+        "async-trait",
+        "chrono",
+        "dashtool-common",
+        "futures",
+        "iceberg-rust",
+        "iceberg-rust-spec",
+        "jsonschema",
+        "object_store",
+        "serde",
+        "serde_json",
+        "singer",
+        "thiserror"
+    ]
+}

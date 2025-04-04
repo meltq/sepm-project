@@ -1,0 +1,26 @@
+{
+    "name": "sbom-cli",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "clap",
+        "comrak",
+        "csaf",
+        "env_logger",
+        "flexible-time",
+        "html-escape",
+        "humantime",
+        "indicatif",
+        "indicatif-log-bridge",
+        "log",
+        "openssl",
+        "reqwest",
+        "sbom-walker",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "time",
+        "tokio",
+        "walker-common"
+    ]
+}

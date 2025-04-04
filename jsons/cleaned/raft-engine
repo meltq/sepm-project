@@ -1,0 +1,33 @@
+{
+    "name": "raft-engine",
+    "deps": [
+        "byteorder",
+        "crc32fast",
+        "criterion",
+        "crossbeam",
+        "ctor",
+        "env_logger",
+        "fail",
+        "fs2",
+        "hashbrown",
+        "hex",
+        "lazy_static",
+        "libc",
+        "log",
+        "lz4-sys",
+        "nix",
+        "num-derive",
+        "num-traits",
+        "parking_lot",
+        "prometheus",
+        "prometheus-static-metric",
+        "protobuf",
+        "rand",
+        "rand_distr",
+        "rayon",
+        "serde",
+        "tempfile",
+        "thiserror",
+        "toml"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "crcnt_muligo",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "chrono",
+        "crcnt_ddd",
+        "crcnt_ddd_macros",
+        "mysql_async",
+        "mysql_common",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "tracing-subscriber",
+        "ulid"
+    ]
+}

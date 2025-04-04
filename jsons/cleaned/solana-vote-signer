@@ -1,0 +1,15 @@
+{
+    "name": "solana-vote-signer",
+    "deps": [
+        "bs58",
+        "clap",
+        "jsonrpc-core",
+        "jsonrpc-derive",
+        "jsonrpc-http-server",
+        "log",
+        "serde",
+        "serde_json",
+        "solana-metrics",
+        "solana-sdk"
+    ]
+}

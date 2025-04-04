@@ -1,0 +1,15 @@
+{
+    "name": "mcp-commune",
+    "deps": [
+        "async-trait",
+        "aws-sdk-bedrockruntime",
+        "aws-smithy-types",
+        "derive_more",
+        "futures",
+        "log",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tokio-tungstenite"
+    ]
+}

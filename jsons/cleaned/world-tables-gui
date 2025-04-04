@@ -1,0 +1,22 @@
+{
+    "name": "world-tables-gui",
+    "deps": [
+        "anyhow",
+        "catppuccin-egui",
+        "clap",
+        "eframe",
+        "egui",
+        "egui_extras",
+        "enum-map",
+        "epaint",
+        "lazy_static",
+        "log",
+        "reqwest",
+        "serde",
+        "world-tables-base",
+        "tracing-subscriber",
+        "console_error_panic_hook",
+        "tracing-wasm",
+        "wasm-bindgen-futures"
+    ]
+}

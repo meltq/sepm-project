@@ -1,0 +1,10 @@
+{
+    "name": "reqwest-leaky-bucket",
+    "deps": [
+        "async-trait",
+        "leaky-bucket",
+        "reqwest",
+        "reqwest-middleware",
+        "reqwest-ratelimit"
+    ]
+}

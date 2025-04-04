@@ -1,0 +1,18 @@
+{
+    "name": "zksync_eth_watch",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "vise",
+        "zksync_concurrency",
+        "zksync_contracts",
+        "zksync_dal",
+        "zksync_eth_client",
+        "zksync_shared_metrics",
+        "zksync_system_constants",
+        "zksync_types"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "name": "boardswarm-client",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "boardswarm-protocol",
+        "bytes",
+        "futures",
+        "http",
+        "http-serde",
+        "oauth2",
+        "reqwest",
+        "serde",
+        "serde_yaml",
+        "thiserror",
+        "tokio",
+        "tonic",
+        "tower",
+        "tracing",
+        "url"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "name": "logup",
+    "deps": [
+        "async-trait",
+        "aws-config",
+        "aws-sdk-cloudwatchlogs",
+        "clap",
+        "hostname",
+        "mockall",
+        "reqwest",
+        "serde_json",
+        "tokio"
+    ]
+}

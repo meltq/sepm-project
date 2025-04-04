@@ -1,0 +1,31 @@
+{
+    "name": "cala-server",
+    "deps": [
+        "anyhow",
+        "async-graphql",
+        "async-graphql-axum",
+        "async-trait",
+        "axum",
+        "axum-extra",
+        "base64",
+        "cala-ledger",
+        "cala-ledger-outbox-client",
+        "cala-tracing",
+        "cala-types",
+        "cel-interpreter",
+        "chrono",
+        "clap",
+        "derive_builder",
+        "futures",
+        "rust_decimal",
+        "serde",
+        "serde_json",
+        "serde_with",
+        "serde_yaml",
+        "sqlx",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "uuid"
+    ]
+}

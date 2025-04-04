@@ -1,0 +1,15 @@
+{
+    "name": "bitcoincore-rest",
+    "deps": [
+        "anyhow",
+        "bitcoin",
+        "bitcoincore-rpc",
+        "bitcoincore-rpc-json",
+        "bitcoind",
+        "bytes",
+        "env_logger",
+        "reqwest",
+        "serde",
+        "tokio"
+    ]
+}

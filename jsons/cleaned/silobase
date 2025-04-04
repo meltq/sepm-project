@@ -1,0 +1,27 @@
+{
+    "name": "silobase",
+    "deps": [
+        "bincode",
+        "bytes",
+        "clap",
+        "colored",
+        "dashmap",
+        "futures",
+        "http-body-util",
+        "hyper",
+        "hyper-util",
+        "ipc-channel",
+        "log",
+        "nix",
+        "prost",
+        "rand",
+        "redis",
+        "reqwest",
+        "rtnetlink",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tonic",
+        "tonic-build"
+    ]
+}

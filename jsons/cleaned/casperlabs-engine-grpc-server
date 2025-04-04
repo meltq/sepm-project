@@ -1,0 +1,22 @@
+{
+    "name": "casperlabs-engine-grpc-server",
+    "deps": [
+        "clap",
+        "ctrlc",
+        "dirs",
+        "engine-core",
+        "engine-shared",
+        "engine-storage",
+        "engine-wasm-prep",
+        "grpc",
+        "lazy_static",
+        "lmdb",
+        "parity-wasm",
+        "proptest",
+        "protobuf",
+        "protoc-rust-grpc",
+        "rand",
+        "types",
+        "wabt"
+    ]
+}

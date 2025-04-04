@@ -1,0 +1,24 @@
+{
+    "name": "scuffle-bootstrap-telemetry",
+    "deps": [
+        "anyhow",
+        "bytes",
+        "http",
+        "http-body",
+        "http-body-util",
+        "opentelemetry",
+        "opentelemetry-appender-tracing",
+        "opentelemetry_sdk",
+        "prometheus",
+        "querystring",
+        "scuffle-bootstrap",
+        "scuffle-context",
+        "scuffle-http",
+        "scuffle-metrics",
+        "scuffle-pprof",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "tracing-opentelemetry"
+    ]
+}

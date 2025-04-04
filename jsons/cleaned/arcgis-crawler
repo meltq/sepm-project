@@ -1,0 +1,19 @@
+{
+    "name": "arcgis-crawler",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "clap",
+        "env_logger",
+        "futures",
+        "itertools",
+        "log",
+        "ptree",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tokio-stream",
+        "url"
+    ]
+}

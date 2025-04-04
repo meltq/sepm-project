@@ -1,0 +1,20 @@
+{
+    "name": "tracing-perfetto-sdk-layer",
+    "deps": [
+        "anyhow",
+        "bytes",
+        "cxx",
+        "prost",
+        "serde_yaml",
+        "thiserror",
+        "thread-id",
+        "thread_local",
+        "tokio",
+        "tokio",
+        "tracing",
+        "tracing-appender",
+        "tracing-perfetto-sdk-schema",
+        "tracing-perfetto-sdk-sys",
+        "tracing-subscriber"
+    ]
+}

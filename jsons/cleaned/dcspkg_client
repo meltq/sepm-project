@@ -1,0 +1,15 @@
+{
+    "name": "dcspkg_client",
+    "deps": [
+        "anyhow",
+        "bytes",
+        "dcspkg_common",
+        "flate2",
+        "log",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "tar",
+        "tempfile"
+    ]
+}

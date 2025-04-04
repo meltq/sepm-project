@@ -1,0 +1,30 @@
+{
+    "name": "binance_spot_connector_rust",
+    "deps": [
+        "base64",
+        "cargo-audit",
+        "env_logger",
+        "futures-util",
+        "hmac",
+        "http",
+        "hyper",
+        "hyper-tls",
+        "log",
+        "rand",
+        "rsa",
+        "rust_decimal",
+        "rust_decimal_macros",
+        "serde",
+        "serde_json",
+        "sha2",
+        "signature",
+        "strum",
+        "tokio",
+        "tokio",
+        "tokio-tungstenite",
+        "tower",
+        "tungstenite",
+        "ureq",
+        "url"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "name": "linux-bzimage-setup",
+    "deps": [
+        "bitflags",
+        "cfg-if",
+        "linux-boot-params",
+        "log",
+        "uart_16550",
+        "uefi",
+        "uefi-services",
+        "x86_64",
+        "xmas-elf"
+    ]
+}

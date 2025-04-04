@@ -1,0 +1,23 @@
+{
+    "name": "ockam_app_lib",
+    "deps": [
+        "cbindgen",
+        "duct",
+        "hex",
+        "libc",
+        "miette",
+        "ockam",
+        "ockam_api",
+        "ockam_core",
+        "ockam_multiaddr",
+        "ockam_transport_tcp",
+        "once_cell",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tokio-retry",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

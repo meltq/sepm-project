@@ -1,0 +1,13 @@
+{
+    "name": "gpu-usage-waybar",
+    "deps": [
+        "amdgpu-sysfs",
+        "color-eyre",
+        "lazy_static",
+        "nvml-wrapper",
+        "regex",
+        "serde",
+        "serde_json",
+        "strum"
+    ]
+}

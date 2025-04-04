@@ -1,0 +1,26 @@
+{
+    "name": "zephyr-vm",
+    "deps": [
+        "anyhow",
+        "bincode",
+        "hex",
+        "ledger-meta-factory",
+        "log",
+        "md5",
+        "postgres",
+        "postgres-types",
+        "rs-zephyr-common",
+        "rusqlite",
+        "serde",
+        "sha2",
+        "soroban-env-host",
+        "soroban-env-macros",
+        "soroban-simulation",
+        "stellar-strkey",
+        "stellar-xdr",
+        "thiserror",
+        "tokio",
+        "tokio-postgres",
+        "wasmi"
+    ]
+}

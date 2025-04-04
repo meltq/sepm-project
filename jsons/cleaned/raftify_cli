@@ -1,0 +1,27 @@
+{
+    "name": "raftify_cli",
+    "deps": [
+        "async-trait",
+        "bincode",
+        "built",
+        "built",
+        "bytes",
+        "chrono",
+        "clap",
+        "heed",
+        "heed-traits",
+        "log",
+        "parking_lot",
+        "prost",
+        "raft",
+        "raftify",
+        "serde",
+        "serde_json",
+        "slog",
+        "slog-stdlog",
+        "thiserror",
+        "tokio",
+        "tonic",
+        "tonic-build"
+    ]
+}

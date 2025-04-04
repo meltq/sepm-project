@@ -1,0 +1,15 @@
+{
+    "name": "zksync_house_keeper",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "tokio",
+        "tracing",
+        "vise",
+        "zksync_config",
+        "zksync_dal",
+        "zksync_prover_dal",
+        "zksync_shared_metrics",
+        "zksync_types"
+    ]
+}

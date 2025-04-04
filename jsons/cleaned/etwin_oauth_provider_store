@@ -1,0 +1,22 @@
+{
+    "name": "etwin_oauth_provider_store",
+    "deps": [
+        "async-trait",
+        "chrono",
+        "etwin_config",
+        "etwin_constants",
+        "etwin_core",
+        "etwin_db_schema",
+        "etwin_password",
+        "etwin_populate",
+        "etwin_postgres_tools",
+        "neon",
+        "regex",
+        "serde_json",
+        "serial_test",
+        "sha3",
+        "sqlx",
+        "tokio",
+        "url"
+    ]
+}

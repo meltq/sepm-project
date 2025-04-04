@@ -1,0 +1,22 @@
+{
+    "name": "mango-feeds-connector",
+    "deps": [
+        "anyhow",
+        "async-channel",
+        "async-trait",
+        "futures",
+        "jsonrpc-core",
+        "jsonrpc-core-client",
+        "log",
+        "rustls",
+        "serde",
+        "serde_derive",
+        "solana-account-decoder",
+        "solana-client",
+        "solana-rpc",
+        "solana-sdk",
+        "tokio",
+        "warp",
+        "yellowstone-grpc-proto"
+    ]
+}

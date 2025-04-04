@@ -1,0 +1,23 @@
+{
+    "name": "rsdos",
+    "deps": [
+        "anyhow",
+        "bytes",
+        "clap",
+        "fallible-streaming-iterator",
+        "flate2",
+        "hex",
+        "human_bytes",
+        "indicatif",
+        "rand",
+        "ring",
+        "rstest",
+        "rusqlite",
+        "serde",
+        "serde_json",
+        "tempfile",
+        "thiserror",
+        "uuid",
+        "zstd"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "tls-api-test",
+    "deps": [
+        "env_logger",
+        "futures",
+        "log",
+        "pem",
+        "tls-api",
+        "tokio-core",
+        "tokio-io",
+        "tokio-tls-api",
+        "untrusted",
+        "webpki"
+    ]
+}

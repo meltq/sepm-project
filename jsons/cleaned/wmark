@@ -1,0 +1,18 @@
+{
+    "name": "wmark",
+    "deps": [
+        "async-channel",
+        "crossbeam-channel",
+        "crossbeam-queue",
+        "crossbeam-utils",
+        "futures-util",
+        "hashbrown",
+        "parking_lot",
+        "scopeguard",
+        "smallvec-wrapper",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "wg"
+    ]
+}

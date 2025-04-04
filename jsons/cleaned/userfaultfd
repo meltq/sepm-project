@@ -1,0 +1,10 @@
+{
+    "name": "userfaultfd",
+    "deps": [
+        "bitflags",
+        "libc",
+        "nix",
+        "thiserror",
+        "userfaultfd-sys"
+    ]
+}

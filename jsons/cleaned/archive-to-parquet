@@ -1,0 +1,21 @@
+{
+    "name": "archive-to-parquet",
+    "deps": [
+        "anyhow",
+        "arrow",
+        "bytes",
+        "clap",
+        "derive-new",
+        "derive_more",
+        "flate2",
+        "infer",
+        "parquet",
+        "rayon",
+        "sha2",
+        "tar",
+        "thiserror",
+        "tracing",
+        "tracing-subscriber",
+        "zip"
+    ]
+}

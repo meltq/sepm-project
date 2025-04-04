@@ -1,0 +1,20 @@
+{
+    "name": "rustc_codegen_nvvm",
+    "deps": [
+        "bitflags",
+        "build-helper",
+        "cc",
+        "curl",
+        "find_cuda_helper",
+        "libc",
+        "nvvm",
+        "once_cell",
+        "rustc-demangle",
+        "rustc_codegen_nvvm_macros",
+        "tar",
+        "tar",
+        "tracing",
+        "tracing-subscriber",
+        "xz"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "name": "minidsp",
+    "deps": [
+        "anyhow",
+        "async-stream",
+        "async-trait",
+        "bytes",
+        "clap",
+        "env_logger",
+        "futures",
+        "futures-sink",
+        "futures-util",
+        "hex",
+        "hexplay",
+        "hidapi",
+        "log",
+        "thiserror",
+        "tokio",
+        "tokio-stream",
+        "tokio-util"
+    ]
+}

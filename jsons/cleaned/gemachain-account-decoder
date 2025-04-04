@@ -1,0 +1,20 @@
+{
+    "name": "gemachain-account-decoder",
+    "deps": [
+        "Inflector",
+        "base64",
+        "bincode",
+        "bs58",
+        "bv",
+        "gemachain-config-program",
+        "gemachain-sdk",
+        "gemachain-vote-program",
+        "lazy_static",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "spl-token-v2-0",
+        "thiserror",
+        "zstd"
+    ]
+}

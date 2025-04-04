@@ -1,0 +1,19 @@
+{
+    "name": "datacake-lmdb",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "datacake-crdt",
+        "datacake-eventual-consistency",
+        "datacake-eventual-consistency",
+        "datacake-node",
+        "flume",
+        "futures",
+        "heed",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "tracing-subscriber",
+        "uuid"
+    ]
+}

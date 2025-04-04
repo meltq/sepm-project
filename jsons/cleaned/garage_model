@@ -1,0 +1,22 @@
+{
+    "name": "garage_model",
+    "deps": [
+        "arc-swap",
+        "async-trait",
+        "bytes",
+        "futures",
+        "futures-util",
+        "garage_rpc",
+        "garage_table",
+        "garage_util",
+        "hex",
+        "log",
+        "rand",
+        "rmp-serde",
+        "serde",
+        "serde_bytes",
+        "sha2",
+        "sled",
+        "tokio"
+    ]
+}

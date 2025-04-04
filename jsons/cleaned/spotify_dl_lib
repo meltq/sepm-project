@@ -1,0 +1,23 @@
+{
+    "name": "spotify_dl_lib",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "audiotags",
+        "dirs",
+        "flacenc",
+        "futures",
+        "indicatif",
+        "lazy_static",
+        "librespot",
+        "machine-uid",
+        "mp3lame-encoder",
+        "rayon",
+        "regex",
+        "rpassword",
+        "structopt",
+        "tokio",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

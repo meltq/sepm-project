@@ -1,0 +1,17 @@
+{
+    "name": "cosmos-client",
+    "deps": [
+        "base64",
+        "cosmos-sdk-proto",
+        "cosmrs",
+        "env_logger",
+        "prost",
+        "prost-types",
+        "rand_core",
+        "serde",
+        "serde_json",
+        "tendermint-rpc",
+        "thiserror",
+        "tokio"
+    ]
+}

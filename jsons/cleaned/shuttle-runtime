@@ -1,0 +1,33 @@
+{
+    "name": "shuttle-runtime",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "cap-std",
+        "chrono",
+        "clap",
+        "crossbeam-channel",
+        "futures",
+        "futures",
+        "hyper",
+        "portpicker",
+        "rmp-serde",
+        "serde_json",
+        "shuttle-common",
+        "shuttle-proto",
+        "shuttle-service",
+        "shuttle-service",
+        "strfmt",
+        "thiserror",
+        "tokio",
+        "tokio-stream",
+        "tonic",
+        "tower",
+        "tracing",
+        "tracing-subscriber",
+        "uuid",
+        "wasi-common",
+        "wasmtime",
+        "wasmtime-wasi"
+    ]
+}

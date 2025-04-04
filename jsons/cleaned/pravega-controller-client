@@ -1,0 +1,26 @@
+{
+    "name": "pravega-controller-client",
+    "deps": [
+        "async-trait",
+        "clap",
+        "derive_more",
+        "h2",
+        "im",
+        "jsonwebtoken",
+        "ordered-float",
+        "pravega-client-config",
+        "pravega-client-retry",
+        "pravega-client-shared",
+        "pravega-connection-pool",
+        "pravega-wire-protocol",
+        "prost",
+        "serde",
+        "snafu",
+        "structopt",
+        "tokio",
+        "tonic",
+        "tonic-build",
+        "tracing",
+        "uuid"
+    ]
+}

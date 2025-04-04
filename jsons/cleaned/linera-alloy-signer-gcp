@@ -1,0 +1,16 @@
+{
+    "name": "linera-alloy-signer-gcp",
+    "deps": [
+        "async-trait",
+        "gcloud-sdk",
+        "k256",
+        "linera-alloy-consensus",
+        "linera-alloy-network",
+        "linera-alloy-primitives",
+        "linera-alloy-signer",
+        "spki",
+        "thiserror",
+        "tokio",
+        "tracing"
+    ]
+}

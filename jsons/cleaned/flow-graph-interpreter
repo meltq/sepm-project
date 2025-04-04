@@ -1,0 +1,33 @@
+{
+    "name": "flow-graph-interpreter",
+    "deps": [
+        "anyhow",
+        "flow-component",
+        "flow-expression-parser",
+        "flow-graph",
+        "futures",
+        "parking_lot",
+        "performance-mark",
+        "pretty_assertions",
+        "seeded-random",
+        "serde",
+        "serde-value",
+        "serde_json",
+        "serde_json",
+        "test-logger",
+        "thiserror",
+        "tokio",
+        "tokio",
+        "tokio-stream",
+        "tracing",
+        "tracing-futures",
+        "uuid",
+        "wasmrs",
+        "wasmrs-codec",
+        "wasmrs-rx",
+        "wick-config",
+        "wick-interface-types",
+        "wick-logger",
+        "wick-packet"
+    ]
+}

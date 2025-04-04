@@ -1,0 +1,16 @@
+{
+    "name": "df_ls_structure",
+    "deps": [
+        "anyhow",
+        "df_ls_core",
+        "df_ls_diagnostics",
+        "df_ls_lexical_analysis",
+        "df_ls_syntax_analysis",
+        "indexmap",
+        "log",
+        "pretty_assertions",
+        "serde",
+        "serde_json",
+        "serde_path_to_error"
+    ]
+}

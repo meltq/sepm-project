@@ -1,0 +1,20 @@
+{
+    "name": "ecbt-exchange",
+    "deps": [
+        "async-trait",
+        "futures",
+        "reqwest",
+        "rust_decimal",
+        "serde",
+        "serde_json",
+        "serde_qs",
+        "serde_urlencoded",
+        "thiserror",
+        "time",
+        "tokio",
+        "tokio-stream",
+        "tokio-tungstenite",
+        "tokio-util",
+        "url"
+    ]
+}

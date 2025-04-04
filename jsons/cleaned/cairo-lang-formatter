@@ -1,0 +1,22 @@
+{
+    "name": "cairo-lang-formatter",
+    "deps": [
+        "anyhow",
+        "cairo-lang-diagnostics",
+        "cairo-lang-filesystem",
+        "cairo-lang-parser",
+        "cairo-lang-syntax",
+        "cairo-lang-utils",
+        "cairo-lang-utils",
+        "clap",
+        "colored",
+        "diffy",
+        "itertools",
+        "log",
+        "pretty_assertions",
+        "salsa",
+        "smol_str",
+        "test-case",
+        "test-log"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "name": "deterministic-bloom-wasm",
+    "deps": [
+        "console_error_panic_hook",
+        "derive_more",
+        "deterministic-bloom",
+        "js-sys",
+        "once_cell",
+        "thiserror",
+        "tracing",
+        "wasm-bindgen",
+        "wasm-bindgen-futures",
+        "wasm-bindgen-test",
+        "web-sys"
+    ]
+}

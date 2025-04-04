@@ -1,0 +1,20 @@
+{
+    "name": "s3-algo",
+    "deps": [
+        "bytes",
+        "clap",
+        "futures",
+        "futures-retry",
+        "futures-stopwatch",
+        "multi-default-trait-impl",
+        "rand",
+        "rusoto_core",
+        "rusoto_s3",
+        "serde",
+        "snafu",
+        "tempdir",
+        "tokio",
+        "tokio-util",
+        "walkdir"
+    ]
+}

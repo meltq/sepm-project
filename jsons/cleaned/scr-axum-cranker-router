@@ -1,0 +1,24 @@
+{
+    "name": "scr-axum-cranker-router",
+    "deps": [
+        "async-channel",
+        "axum",
+        "axum-core",
+        "axum-macros",
+        "bytes",
+        "dashmap",
+        "futures",
+        "hashlink",
+        "lazy_static",
+        "local-ip-address",
+        "log",
+        "serde",
+        "serde_json",
+        "simple_logger",
+        "tokio",
+        "tokio-stream",
+        "tower",
+        "tower-http",
+        "uuid"
+    ]
+}

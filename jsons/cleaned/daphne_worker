@@ -1,0 +1,22 @@
+{
+    "name": "daphne_worker",
+    "deps": [
+        "async-trait",
+        "base64",
+        "daphne",
+        "futures",
+        "getrandom",
+        "hex",
+        "hpke",
+        "matchit",
+        "prio",
+        "rand",
+        "reqwest-wasm",
+        "ring",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "url",
+        "worker"
+    ]
+}

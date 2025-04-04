@@ -1,0 +1,31 @@
+{
+    "name": "capacity-commitment-prover",
+    "deps": [
+        "anyhow",
+        "axum",
+        "byteorder",
+        "ccp-config",
+        "ccp-msr",
+        "ccp-randomx",
+        "ccp-shared",
+        "ccp-utils",
+        "chrono",
+        "cpu-utils",
+        "crossterm",
+        "csv",
+        "futures",
+        "itertools",
+        "log",
+        "nonempty",
+        "parking_lot",
+        "prometheus-client",
+        "rand",
+        "serde",
+        "serde_json",
+        "tempfile",
+        "thiserror",
+        "tokio",
+        "tokio-stream",
+        "tokio-util"
+    ]
+}

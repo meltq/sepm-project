@@ -1,0 +1,32 @@
+{
+    "name": "snarkos-node-router",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "bincode",
+        "bytes",
+        "colored",
+        "deadline",
+        "futures",
+        "futures-util",
+        "indexmap",
+        "itertools",
+        "linked-hash-map",
+        "once_cell",
+        "parking_lot",
+        "peak_alloc",
+        "rand",
+        "reqwest",
+        "serde",
+        "snarkos-account",
+        "snarkos-node-messages",
+        "snarkos-node-tcp",
+        "snarkvm",
+        "time",
+        "tokio",
+        "tokio-stream",
+        "tokio-util",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

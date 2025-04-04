@@ -1,0 +1,18 @@
+{
+    "name": "discord-qr-auth",
+    "deps": [
+        "base64",
+        "flume",
+        "futures-util",
+        "qrcode",
+        "rand",
+        "rsa",
+        "serde",
+        "serde_json",
+        "sha2",
+        "thiserror",
+        "tokio",
+        "tokio-tungstenite",
+        "tracing"
+    ]
+}

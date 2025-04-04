@@ -1,0 +1,13 @@
+{
+    "name": "pluggable_interrupt_os",
+    "deps": [
+        "bootloader",
+        "lazy_static",
+        "pc-keyboard",
+        "pic8259_simple",
+        "spin",
+        "uart_16550",
+        "volatile",
+        "x86_64"
+    ]
+}

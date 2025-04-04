@@ -1,0 +1,24 @@
+{
+    "name": "rio-rs",
+    "deps": [
+        "async-recursion",
+        "async-trait",
+        "bb8",
+        "bincode",
+        "chrono",
+        "dashmap",
+        "futures",
+        "lru",
+        "rand",
+        "rio-macros",
+        "serde",
+        "serde_json",
+        "sqlx",
+        "state",
+        "thiserror",
+        "tokio",
+        "tokio-stream",
+        "tokio-util",
+        "tower"
+    ]
+}

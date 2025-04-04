@@ -1,0 +1,20 @@
+{
+    "name": "udp-to-hls",
+    "deps": [
+        "aws-config",
+        "aws-sdk-s3",
+        "aws-smithy-runtime-api",
+        "aws-types",
+        "chrono",
+        "clap",
+        "env_logger",
+        "futures",
+        "get_if_addrs",
+        "libc",
+        "log",
+        "notify",
+        "pcap",
+        "socket2",
+        "tokio"
+    ]
+}

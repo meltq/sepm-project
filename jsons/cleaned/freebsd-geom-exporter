@@ -1,0 +1,9 @@
+{
+    "name": "freebsd-geom-exporter",
+    "deps": [
+        "clap",
+        "freebsd-libgeom",
+        "prometheus_exporter",
+        "regex"
+    ]
+}

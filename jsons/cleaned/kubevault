@@ -1,0 +1,16 @@
+{
+    "name": "kubevault",
+    "deps": [
+        "anyhow",
+        "assert_cmd",
+        "assert_fs",
+        "clap",
+        "glob-match",
+        "k8s-openapi",
+        "lazy_static",
+        "predicates",
+        "regex",
+        "serde_yaml",
+        "walkdir"
+    ]
+}

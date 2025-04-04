@@ -1,0 +1,18 @@
+{
+    "name": "icinga-mock",
+    "deps": [
+        "axum",
+        "chrono",
+        "hyper",
+        "icinga-client",
+        "pretty_assertions",
+        "serde",
+        "serde_json",
+        "structopt",
+        "tokio",
+        "tower",
+        "tower-http",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

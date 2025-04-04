@@ -1,0 +1,13 @@
+{
+    "name": "hdp-worker",
+    "deps": [
+        "async-nats",
+        "bytes",
+        "futures",
+        "hdp_protobufs",
+        "prost",
+        "thiserror",
+        "tokio",
+        "ulid"
+    ]
+}

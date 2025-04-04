@@ -1,0 +1,22 @@
+{
+    "name": "gemachain-program-test",
+    "deps": [
+        "assert_matches",
+        "async-trait",
+        "base64",
+        "bincode",
+        "chrono-humanize",
+        "gemachain-banks-client",
+        "gemachain-banks-server",
+        "gemachain-bpf-loader-program",
+        "gemachain-logger",
+        "gemachain-program-runtime",
+        "gemachain-runtime",
+        "gemachain-sdk",
+        "gemachain-vote-program",
+        "log",
+        "serde",
+        "thiserror",
+        "tokio"
+    ]
+}

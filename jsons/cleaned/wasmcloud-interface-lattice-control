@@ -1,0 +1,14 @@
+{
+    "name": "wasmcloud-interface-lattice-control",
+    "deps": [
+        "async-trait",
+        "data-encoding",
+        "futures",
+        "log",
+        "ring",
+        "rmp-serde",
+        "serde",
+        "wasmbus-rpc",
+        "weld-codegen"
+    ]
+}

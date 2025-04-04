@@ -1,0 +1,15 @@
+{
+    "name": "aws-lib",
+    "deps": [
+        "aws-config",
+        "aws-macros",
+        "aws-sdk-cloudformation",
+        "aws-sdk-cloudfront",
+        "aws-sdk-ec2",
+        "aws-sdk-efs",
+        "aws-sdk-route53",
+        "chrono",
+        "serde",
+        "serde_json"
+    ]
+}

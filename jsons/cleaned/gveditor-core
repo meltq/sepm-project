@@ -1,0 +1,16 @@
+{
+    "name": "gveditor-core",
+    "deps": [
+        "gveditor-core-api",
+        "home",
+        "jsonrpc-core",
+        "jsonrpc-core-client",
+        "jsonrpc-derive",
+        "jsonrpc-http-server",
+        "jsonwebtoken",
+        "serde",
+        "serde_derive",
+        "tokio",
+        "warp"
+    ]
+}

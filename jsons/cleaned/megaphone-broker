@@ -1,0 +1,32 @@
+{
+    "name": "megaphone-broker",
+    "deps": [
+        "anyhow",
+        "axum",
+        "chrono",
+        "clap",
+        "config",
+        "dashmap",
+        "env_logger",
+        "futures",
+        "hex",
+        "hyper",
+        "hyperlocal",
+        "lazy_static",
+        "log",
+        "megaphone",
+        "metrics",
+        "metrics-exporter-prometheus",
+        "prost",
+        "prost-types",
+        "rand",
+        "regex",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tokio-stream",
+        "tonic",
+        "tonic-build"
+    ]
+}

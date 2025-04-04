@@ -1,0 +1,32 @@
+{
+    "name": "nydus-storage",
+    "deps": [
+        "anyhow",
+        "arc-swap",
+        "base64",
+        "bitflags",
+        "dbs-uhttp",
+        "fuse-backend-rs",
+        "futures",
+        "governor",
+        "hmac",
+        "httpdate",
+        "lazy_static",
+        "libc",
+        "log",
+        "nix",
+        "nydus-api",
+        "nydus-error",
+        "nydus-utils",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "serde_with",
+        "sha-1",
+        "sha2",
+        "tokio",
+        "url",
+        "vm-memory",
+        "vmm-sys-util"
+    ]
+}

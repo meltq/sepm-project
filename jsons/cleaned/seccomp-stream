@@ -1,0 +1,12 @@
+{
+    "name": "seccomp-stream",
+    "deps": [
+        "libc",
+        "libseccomp",
+        "libseccomp-sys",
+        "syscalls",
+        "tokio",
+        "tokio",
+        "tokio-stream"
+    ]
+}

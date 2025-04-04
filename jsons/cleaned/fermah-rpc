@@ -1,0 +1,23 @@
+{
+    "name": "fermah-rpc",
+    "deps": [
+        "anyhow",
+        "blake3",
+        "clap",
+        "const-hex",
+        "ethers",
+        "fermah-common",
+        "fermah-database",
+        "fermah-telemetry",
+        "futures-util",
+        "jsonrpsee",
+        "opentelemetry",
+        "rand",
+        "reqwest",
+        "serde",
+        "tempfile",
+        "thiserror",
+        "tokio",
+        "tracing"
+    ]
+}

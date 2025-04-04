@@ -1,0 +1,17 @@
+{
+    "name": "tumblr_api",
+    "deps": [
+        "anyhow",
+        "async-lock",
+        "reqwest",
+        "serde",
+        "serde-enum-str",
+        "serde_json",
+        "serde_with",
+        "thiserror",
+        "time",
+        "tokio",
+        "tumblr_api_derive",
+        "veil"
+    ]
+}

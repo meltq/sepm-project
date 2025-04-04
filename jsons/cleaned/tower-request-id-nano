@@ -1,0 +1,16 @@
+{
+    "name": "tower-request-id-nano",
+    "deps": [
+        "axum",
+        "http",
+        "hyper",
+        "nid",
+        "tokio",
+        "tower",
+        "tower-http",
+        "tower-layer",
+        "tower-service",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

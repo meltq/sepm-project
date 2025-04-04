@@ -1,0 +1,21 @@
+{
+    "name": "linera-service-graphql-client",
+    "deps": [
+        "graphql_client",
+        "linera-base",
+        "linera-chain",
+        "linera-core",
+        "linera-execution",
+        "linera-service",
+        "once_cell",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "tempfile",
+        "test-log",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

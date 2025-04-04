@@ -1,0 +1,14 @@
+{
+    "name": "netlink-packet-route",
+    "deps": [
+        "byteorder",
+        "criterion",
+        "failure",
+        "lazy_static",
+        "libc",
+        "netlink-packet-core",
+        "netlink-packet-utils",
+        "netlink-sys",
+        "pcap-file"
+    ]
+}

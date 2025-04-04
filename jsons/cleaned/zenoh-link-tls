@@ -1,0 +1,17 @@
+{
+    "name": "zenoh-link-tls",
+    "deps": [
+        "async-rustls",
+        "async-std",
+        "async-trait",
+        "futures",
+        "log",
+        "zenoh-cfg-properties",
+        "zenoh-config",
+        "zenoh-core",
+        "zenoh-link-commons",
+        "zenoh-protocol-core",
+        "zenoh-sync",
+        "zenoh-util"
+    ]
+}

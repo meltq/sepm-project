@@ -1,0 +1,16 @@
+{
+    "name": "c3p0_pg_migrate",
+    "deps": [
+        "c3p0_pg",
+        "err-derive",
+        "lazy_static",
+        "log",
+        "md-5",
+        "postgres",
+        "r2d2",
+        "r2d2_postgres",
+        "serde",
+        "serde_derive",
+        "testcontainers"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "name": "self_service",
+    "deps": [
+        "axum",
+        "axum-tracing-opentelemetry",
+        "config",
+        "eyre",
+        "opentelemetry",
+        "opentelemetry-otlp",
+        "reqwest",
+        "reqwest-middleware",
+        "reqwest-tracing",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tower",
+        "tower-http",
+        "tracing",
+        "tracing-opentelemetry",
+        "tracing-subscriber",
+        "wiremock"
+    ]
+}

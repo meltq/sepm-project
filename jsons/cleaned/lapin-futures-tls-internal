@@ -1,0 +1,16 @@
+{
+    "name": "lapin-futures-tls-internal",
+    "deps": [
+        "bytes",
+        "env_logger",
+        "futures",
+        "lapin-futures",
+        "native-tls",
+        "tokio",
+        "tokio-executor",
+        "tokio-io",
+        "tokio-tcp",
+        "tokio-tls",
+        "trust-dns-resolver"
+    ]
+}

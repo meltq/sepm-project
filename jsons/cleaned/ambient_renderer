@@ -1,0 +1,30 @@
+{
+    "name": "ambient_renderer",
+    "deps": [
+        "ambient_color",
+        "ambient_core",
+        "ambient_ecs",
+        "ambient_gpu",
+        "ambient_meshes",
+        "ambient_profiling",
+        "ambient_std",
+        "ambient_sys",
+        "anyhow",
+        "async-trait",
+        "bytemuck",
+        "derive_more",
+        "downcast-rs",
+        "env_logger",
+        "glam",
+        "itertools",
+        "log",
+        "ordered-float",
+        "parking_lot",
+        "serde",
+        "smallvec",
+        "tracing",
+        "tracing-subscriber",
+        "wgpu",
+        "winit"
+    ]
+}

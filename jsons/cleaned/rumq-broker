@@ -1,0 +1,15 @@
+{
+    "name": "rumq-broker",
+    "deps": [
+        "bytes",
+        "derive_more",
+        "futures-util",
+        "hyper",
+        "log",
+        "rumq-core",
+        "serde",
+        "tokio",
+        "tokio-rustls",
+        "tokio-util"
+    ]
+}

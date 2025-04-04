@@ -1,0 +1,20 @@
+{
+    "name": "mls-rs-crypto-openssl",
+    "deps": [
+        "assert_matches",
+        "async-trait",
+        "enum-iterator",
+        "hex",
+        "maybe-async",
+        "mls-rs-core",
+        "mls-rs-core",
+        "mls-rs-crypto-hpke",
+        "mls-rs-crypto-traits",
+        "mls-rs-identity-x509",
+        "openssl",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "zeroize"
+    ]
+}

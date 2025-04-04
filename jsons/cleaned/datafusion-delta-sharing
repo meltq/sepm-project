@@ -1,0 +1,24 @@
+{
+    "name": "datafusion-delta-sharing",
+    "deps": [
+        "arrow",
+        "arrow-schema",
+        "async-trait",
+        "bytes",
+        "chrono",
+        "datafusion",
+        "futures",
+        "httpmock",
+        "object_store",
+        "parquet",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "tempfile",
+        "tokio",
+        "tracing",
+        "tracing-subscriber",
+        "tracing-test",
+        "url"
+    ]
+}

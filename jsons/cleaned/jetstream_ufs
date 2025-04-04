@@ -1,0 +1,12 @@
+{
+    "name": "jetstream_ufs",
+    "deps": [
+        "anyhow",
+        "jetstream_9p",
+        "jetstream_rpc",
+        "jetstream_wireformat",
+        "libc",
+        "serde",
+        "tokio"
+    ]
+}

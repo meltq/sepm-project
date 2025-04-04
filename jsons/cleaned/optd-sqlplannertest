@@ -1,0 +1,22 @@
+{
+    "name": "optd-sqlplannertest",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "datafusion",
+        "datafusion-optd-cli",
+        "dirs",
+        "env_logger",
+        "itertools",
+        "mimalloc",
+        "optd-datafusion-bridge",
+        "optd-datafusion-repr",
+        "rand",
+        "regex",
+        "sqlplannertest",
+        "tokio",
+        "tracing",
+        "tracing-subscriber",
+        "url"
+    ]
+}

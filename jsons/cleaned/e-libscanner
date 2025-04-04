@@ -1,0 +1,21 @@
+{
+    "name": "e-libscanner",
+    "deps": [
+        "async-io",
+        "e-utils",
+        "futures",
+        "futures-lite",
+        "ipnet",
+        "libc",
+        "native-tls",
+        "once_cell",
+        "pnet_datalink",
+        "pnet_packet",
+        "rayon",
+        "serde",
+        "serde_derive",
+        "socket2",
+        "structopt",
+        "windows"
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "name": "bgpfu-netconf",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "bytes",
+        "chrono",
+        "clap",
+        "clap-verbosity-flag",
+        "iri-string",
+        "memchr",
+        "paste",
+        "quick-xml",
+        "russh",
+        "russh-keys",
+        "rustls-pemfile",
+        "rustls-pki-types",
+        "thiserror",
+        "tokio",
+        "tokio",
+        "tokio-rustls",
+        "tracing",
+        "tracing-log",
+        "tracing-subscriber",
+        "uuid",
+        "version-sync"
+    ]
+}

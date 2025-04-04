@@ -1,0 +1,25 @@
+{
+    "name": "chitey-server",
+    "deps": [
+        "async-trait",
+        "bytes",
+        "chrono",
+        "derive_more",
+        "futures-util",
+        "h3",
+        "h3-quinn",
+        "http",
+        "hyper",
+        "impl-trait-for-tuples",
+        "mime",
+        "mpart-async",
+        "quinn",
+        "rustls",
+        "rustls-pemfile",
+        "thiserror",
+        "tokio",
+        "tokio-rustls",
+        "tracing",
+        "urlpattern"
+    ]
+}

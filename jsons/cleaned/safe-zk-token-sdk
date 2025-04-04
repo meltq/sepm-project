@@ -1,0 +1,27 @@
+{
+    "name": "safe-zk-token-sdk",
+    "deps": [
+        "aes-gcm-siv",
+        "arrayref",
+        "base64",
+        "bincode",
+        "bytemuck",
+        "byteorder",
+        "cipher",
+        "curve25519-dalek",
+        "getrandom",
+        "lazy_static",
+        "merlin",
+        "num-derive",
+        "num-traits",
+        "rand",
+        "safecoin-program",
+        "safecoin-sdk",
+        "serde",
+        "serde_json",
+        "sha3",
+        "subtle",
+        "thiserror",
+        "zeroize"
+    ]
+}

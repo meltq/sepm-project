@@ -1,0 +1,25 @@
+{
+    "name": "libcgroups",
+    "deps": [
+        "anyhow",
+        "clap",
+        "dbus",
+        "env_logger",
+        "errno",
+        "fixedbitset",
+        "libbpf-sys",
+        "libc",
+        "log",
+        "mockall",
+        "nix",
+        "oci-spec",
+        "oci-spec",
+        "procfs",
+        "quickcheck",
+        "rbpf",
+        "serde",
+        "serde",
+        "serde_json",
+        "serial_test"
+    ]
+}

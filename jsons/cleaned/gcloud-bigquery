@@ -1,0 +1,33 @@
+{
+    "name": "gcloud-bigquery",
+    "deps": [
+        "anyhow",
+        "arrow",
+        "async-stream",
+        "async-trait",
+        "backon",
+        "base64",
+        "base64-serde",
+        "bigdecimal",
+        "ctor",
+        "futures-util",
+        "google-cloud-auth",
+        "google-cloud-gax",
+        "google-cloud-googleapis",
+        "google-cloud-token",
+        "num-bigint",
+        "prost",
+        "prost-types",
+        "reqwest",
+        "reqwest-middleware",
+        "serde",
+        "serde_json",
+        "serial_test",
+        "thiserror",
+        "time",
+        "tokio",
+        "tokio",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

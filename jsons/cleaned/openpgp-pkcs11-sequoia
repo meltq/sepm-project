@@ -1,0 +1,20 @@
+{
+    "name": "openpgp-pkcs11-sequoia",
+    "deps": [
+        "anyhow",
+        "asn1-rs",
+        "chrono",
+        "cryptoki",
+        "log",
+        "openpgp-x509-sequoia",
+        "p256",
+        "p384",
+        "p521",
+        "picky-asn1-der",
+        "picky-asn1-x509",
+        "rsa",
+        "sequoia-openpgp",
+        "x509",
+        "x509-certificate"
+    ]
+}

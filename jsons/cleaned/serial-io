@@ -1,0 +1,12 @@
+{
+    "name": "serial-io",
+    "deps": [
+        "futures",
+        "mio",
+        "mio-named-pipes",
+        "nix",
+        "serialport",
+        "tokio_crate",
+        "winapi"
+    ]
+}

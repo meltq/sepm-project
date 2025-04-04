@@ -1,0 +1,21 @@
+{
+    "name": "extension_host",
+    "deps": [
+        "anyhow",
+        "async-fs",
+        "async-task",
+        "async-trait",
+        "dirs",
+        "extension_http",
+        "flume",
+        "futures",
+        "futures-lite",
+        "log",
+        "serde",
+        "serde_json",
+        "tokio",
+        "wasmparser",
+        "wasmtime",
+        "wasmtime-wasi"
+    ]
+}

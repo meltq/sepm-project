@@ -1,0 +1,26 @@
+{
+    "name": "terraphim_config",
+    "deps": [
+        "ahash",
+        "anyhow",
+        "async-once-cell",
+        "async-trait",
+        "dirs",
+        "log",
+        "opendal",
+        "serde",
+        "serde_json",
+        "tempfile",
+        "terraphim_automata",
+        "terraphim_persistence",
+        "terraphim_rolegraph",
+        "terraphim_types",
+        "thiserror",
+        "tokio",
+        "toml",
+        "tracing",
+        "tracing-subscriber",
+        "ulid",
+        "url"
+    ]
+}

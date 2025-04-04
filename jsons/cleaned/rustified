@@ -1,0 +1,25 @@
+{
+    "name": "rustified",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "bytes",
+        "derive_builder",
+        "env_logger",
+        "http",
+        "httpmock",
+        "reqwest",
+        "rustified_derive",
+        "serde",
+        "serde_json",
+        "serde_urlencoded",
+        "test-log",
+        "thiserror",
+        "tokio",
+        "tokio-test",
+        "tracing",
+        "tracing-subscriber",
+        "trybuild",
+        "url"
+    ]
+}

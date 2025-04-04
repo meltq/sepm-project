@@ -1,0 +1,32 @@
+{
+    "name": "wick-component-wasmrs",
+    "deps": [
+        "anyhow",
+        "derive_builder",
+        "flow-component",
+        "futures",
+        "once_cell",
+        "parking_lot",
+        "seeded-random",
+        "serde",
+        "serde_json",
+        "test-logger",
+        "thiserror",
+        "tokio",
+        "tokio",
+        "tokio-stream",
+        "tracing",
+        "wasmrs",
+        "wasmrs-codec",
+        "wasmrs-host",
+        "wasmrs-rx",
+        "wasmrs-wasmtime",
+        "wasmtime",
+        "wick-config",
+        "wick-interface-types",
+        "wick-logger",
+        "wick-packet",
+        "wick-rpc",
+        "wick-wascap"
+    ]
+}

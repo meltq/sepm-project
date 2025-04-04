@@ -1,0 +1,15 @@
+{
+    "name": "land-server",
+    "deps": [
+        "anyhow",
+        "axum",
+        "clap",
+        "land-core",
+        "land-restful",
+        "land-runtime",
+        "serde",
+        "tokio",
+        "toml",
+        "tracing"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "kasa_exporter",
+    "deps": [
+        "clap",
+        "error-chain",
+        "futures",
+        "http",
+        "hyper",
+        "hyper-tls",
+        "prometheus",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "tokio",
+        "uuid"
+    ]
+}

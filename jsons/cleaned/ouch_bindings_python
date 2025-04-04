@@ -1,0 +1,16 @@
+{
+    "name": "ouch_bindings_python",
+    "deps": [
+        "lazy_static",
+        "links_bindings_python",
+        "links_nonblocking",
+        "log",
+        "ouch_connect_nonblocking",
+        "pyo3",
+        "pyo3-build-config",
+        "pyo3-log",
+        "serde",
+        "serde_json",
+        "spin"
+    ]
+}

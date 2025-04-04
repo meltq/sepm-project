@@ -1,0 +1,16 @@
+{
+    "name": "mpc-websocket",
+    "deps": [
+        "async-trait",
+        "futures-util",
+        "json-rpc2",
+        "log",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tokio-stream",
+        "uuid",
+        "warp"
+    ]
+}

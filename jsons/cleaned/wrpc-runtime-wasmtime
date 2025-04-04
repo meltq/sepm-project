@@ -1,0 +1,11 @@
+{
+    "name": "wrpc-runtime-wasmtime",
+    "deps": [
+        "anyhow",
+        "futures",
+        "tracing",
+        "wasmtime",
+        "wasmtime-wasi",
+        "wrpc-transport"
+    ]
+}

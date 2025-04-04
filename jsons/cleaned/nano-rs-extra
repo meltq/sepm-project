@@ -1,0 +1,28 @@
+{
+    "name": "nano-rs-extra",
+    "deps": [
+        "anyhow",
+        "axum",
+        "axum-client-ip",
+        "bytes",
+        "http-body-util",
+        "hyper",
+        "log",
+        "mime",
+        "nano-rs-build",
+        "nano-rs-core",
+        "prettyplease",
+        "quote",
+        "sea-orm",
+        "serde",
+        "serde_json",
+        "serde_yaml",
+        "syn",
+        "tokio",
+        "tower",
+        "tower-http",
+        "tracing",
+        "tracing-opentelemetry-instrumentation-sdk",
+        "uuid"
+    ]
+}

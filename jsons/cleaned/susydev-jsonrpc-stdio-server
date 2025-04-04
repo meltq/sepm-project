@@ -1,0 +1,14 @@
+{
+    "name": "susydev-jsonrpc-stdio-server",
+    "deps": [
+        "env_logger",
+        "futures",
+        "lazy_static",
+        "log",
+        "susydev-jsonrpc-core",
+        "tokio",
+        "tokio-codec",
+        "tokio-io",
+        "tokio-stdin-stdout"
+    ]
+}

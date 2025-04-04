@@ -1,0 +1,17 @@
+{
+    "name": "rlink-connector-kafka",
+    "deps": [
+        "anyhow",
+        "dashmap",
+        "futures",
+        "lazy_static",
+        "log",
+        "rdkafka",
+        "rlink",
+        "rlink-derive",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "tokio"
+    ]
+}

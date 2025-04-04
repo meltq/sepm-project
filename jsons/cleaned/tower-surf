@@ -1,0 +1,23 @@
+{
+    "name": "tower-surf",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "axum",
+        "axum-core",
+        "axum-test",
+        "base64",
+        "futures-util",
+        "hmac",
+        "http",
+        "maud",
+        "rand",
+        "sha2",
+        "thiserror",
+        "tokio",
+        "tower-cookies",
+        "tower-layer",
+        "tower-service",
+        "tracing"
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "name": "snarkos-node-rest",
+    "deps": [
+        "anyhow",
+        "axum",
+        "axum-extra",
+        "http",
+        "indexmap",
+        "jsonwebtoken",
+        "once_cell",
+        "parking_lot",
+        "rand",
+        "rayon",
+        "serde",
+        "snarkos-node-consensus",
+        "snarkos-node-env",
+        "snarkos-node-messages",
+        "snarkos-node-router",
+        "snarkvm",
+        "time",
+        "tokio",
+        "tower-http",
+        "tracing"
+    ]
+}

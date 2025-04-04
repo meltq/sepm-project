@@ -1,0 +1,23 @@
+{
+    "name": "valkey-module",
+    "deps": [
+        "anyhow",
+        "backtrace",
+        "bindgen",
+        "bitflags",
+        "cc",
+        "cfg-if",
+        "enum-primitive-derive",
+        "lazy_static",
+        "libc",
+        "linkme",
+        "log",
+        "nix",
+        "num-traits",
+        "redis",
+        "redis-module-macros-internals",
+        "regex",
+        "serde",
+        "strum_macros"
+    ]
+}

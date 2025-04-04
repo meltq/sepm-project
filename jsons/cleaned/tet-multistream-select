@@ -1,0 +1,16 @@
+{
+    "name": "tet-multistream-select",
+    "deps": [
+        "async-std",
+        "bytes",
+        "env_logger",
+        "futures",
+        "log",
+        "pin-project",
+        "quickcheck",
+        "rand",
+        "rw-stream-sink",
+        "smallvec",
+        "unsigned-varint"
+    ]
+}

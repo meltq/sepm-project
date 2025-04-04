@@ -1,0 +1,25 @@
+{
+    "name": "sc-client-db",
+    "deps": [
+        "codec",
+        "hash-db",
+        "kvdb",
+        "kvdb-memorydb",
+        "kvdb-rocksdb",
+        "linked-hash-map",
+        "log",
+        "parity-util-mem",
+        "parking_lot",
+        "rand",
+        "sc-client",
+        "sc-client-api",
+        "sc-executor",
+        "sc-state-db",
+        "sp-blockchain",
+        "sp-consensus",
+        "sp-core",
+        "sp-runtime",
+        "sp-state-machine",
+        "sp-trie"
+    ]
+}

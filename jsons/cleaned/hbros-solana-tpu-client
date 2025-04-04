@@ -1,0 +1,21 @@
+{
+    "name": "hbros-solana-tpu-client",
+    "deps": [
+        "async-trait",
+        "bincode",
+        "futures-util",
+        "indexmap",
+        "indicatif",
+        "log",
+        "rayon",
+        "solana-connection-cache",
+        "solana-measure",
+        "solana-metrics",
+        "solana-pubsub-client",
+        "solana-rpc-client",
+        "solana-rpc-client-api",
+        "solana-sdk",
+        "thiserror",
+        "tokio"
+    ]
+}

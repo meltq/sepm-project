@@ -1,0 +1,27 @@
+{
+    "name": "holochain_websocket",
+    "deps": [
+        "criterion",
+        "futures",
+        "ghost_actor",
+        "holochain_serialized_bytes",
+        "holochain_types",
+        "linefeed",
+        "must_future",
+        "nanoid",
+        "net2",
+        "observability",
+        "serde",
+        "serde_bytes",
+        "stream-cancel",
+        "thiserror",
+        "tokio",
+        "tokio-stream",
+        "tokio-tungstenite",
+        "tracing",
+        "tracing-futures",
+        "tungstenite",
+        "unwrap_to",
+        "url2"
+    ]
+}

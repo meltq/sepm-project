@@ -1,0 +1,22 @@
+{
+    "name": "earendil_topology",
+    "deps": [
+        "anyhow",
+        "arrayref",
+        "async-trait",
+        "blake3",
+        "bytemuck",
+        "bytes",
+        "earendil_crypt",
+        "earendil_packet",
+        "ed25519-compact",
+        "indexmap",
+        "log",
+        "pod",
+        "rand",
+        "serde",
+        "slab",
+        "stdcode",
+        "thiserror"
+    ]
+}

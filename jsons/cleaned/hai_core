@@ -1,0 +1,26 @@
+{
+    "name": "hai_core",
+    "deps": [
+        "anyhow",
+        "arc-swap",
+        "bytemuck",
+        "cgmath",
+        "ffmpeg-rs",
+        "futures",
+        "hai_js_runtime",
+        "hai_macros",
+        "hai_pal",
+        "image",
+        "log",
+        "once_cell",
+        "pollster",
+        "serde",
+        "serde-wasm-bindgen",
+        "tokio",
+        "wasm-bindgen",
+        "wasm-bindgen-futures",
+        "web-sys",
+        "wgpu",
+        "winit"
+    ]
+}

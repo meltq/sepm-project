@@ -1,0 +1,11 @@
+{
+    "name": "trycp_client",
+    "deps": [
+        "futures",
+        "rmp-serde",
+        "serde_json",
+        "tokio",
+        "tokio-tungstenite",
+        "trycp_api"
+    ]
+}

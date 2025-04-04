@@ -1,0 +1,22 @@
+{
+    "name": "solana-rpc-test",
+    "deps": [
+        "bincode",
+        "bs58",
+        "jsonrpc-core",
+        "jsonrpc-core-client",
+        "log",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "solana-account-decoder",
+        "solana-client",
+        "solana-logger",
+        "solana-rpc",
+        "solana-sdk",
+        "solana-streamer",
+        "solana-test-validator",
+        "solana-transaction-status",
+        "tokio"
+    ]
+}

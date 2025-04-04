@@ -1,0 +1,21 @@
+{
+    "name": "acme-dns-rust",
+    "deps": [
+        "acme-lib",
+        "bcrypt",
+        "futures-util",
+        "log",
+        "parking_lot",
+        "rustls",
+        "serde",
+        "simplelog",
+        "sqlx",
+        "tokio",
+        "tokio-rustls",
+        "toml",
+        "trust-dns-client",
+        "trust-dns-server",
+        "uuid",
+        "warp"
+    ]
+}

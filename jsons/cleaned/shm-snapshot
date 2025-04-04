@@ -1,0 +1,11 @@
+{
+    "name": "shm-snapshot",
+    "deps": [
+        "clap",
+        "libc",
+        "memfile",
+        "memmap2",
+        "shm-fd",
+        "tempfile"
+    ]
+}

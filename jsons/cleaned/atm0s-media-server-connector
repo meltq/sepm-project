@@ -1,0 +1,25 @@
+{
+    "name": "atm0s-media-server-connector",
+    "deps": [
+        "async-trait",
+        "atm0s-sdn",
+        "clap",
+        "log",
+        "lru",
+        "media-server-multi-tenancy",
+        "media-server-protocol",
+        "media-server-utils",
+        "prost",
+        "reqwest",
+        "s3-presign",
+        "sea-orm",
+        "sea-orm-migration",
+        "sea-query",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tokio",
+        "tracing-subscriber",
+        "uuid"
+    ]
+}

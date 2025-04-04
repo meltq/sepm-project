@@ -1,0 +1,24 @@
+{
+    "name": "vsmtp-protocol",
+    "deps": [
+        "addr",
+        "anyhow",
+        "async-stream",
+        "async-trait",
+        "base64",
+        "bytes",
+        "fastrand",
+        "rsasl",
+        "serde",
+        "strum",
+        "thiserror",
+        "time",
+        "tokio",
+        "tokio-rustls",
+        "tokio-stream",
+        "tracing",
+        "uuid",
+        "vsmtp-auth",
+        "vsmtp-common"
+    ]
+}

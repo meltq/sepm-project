@@ -1,0 +1,22 @@
+{
+    "name": "df_language_server",
+    "deps": [
+        "chrono",
+        "clap",
+        "colored",
+        "df_cp437",
+        "df_ls_debug_structure",
+        "df_ls_diagnostics",
+        "df_ls_lexical_analysis",
+        "df_ls_structure",
+        "df_ls_syntax_analysis",
+        "directories",
+        "log",
+        "pretty_assertions",
+        "serde",
+        "serde_json",
+        "simplelog",
+        "tokio",
+        "tower-lsp"
+    ]
+}

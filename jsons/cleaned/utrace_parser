@@ -1,0 +1,17 @@
+{
+    "name": "utrace_parser",
+    "deps": [
+        "anyhow",
+        "async-scoped",
+        "clap",
+        "gimli",
+        "memmap2",
+        "object",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tracing",
+        "tracing-subscriber",
+        "utrace_core"
+    ]
+}

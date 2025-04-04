@@ -1,0 +1,16 @@
+{
+    "name": "cypher-dto",
+    "deps": [
+        "chrono",
+        "cypher-dto-macros",
+        "lenient_semver",
+        "neo4j_testcontainers",
+        "neo4rs",
+        "pretty_env_logger",
+        "serde",
+        "testcontainers",
+        "thiserror",
+        "tokio",
+        "uuid"
+    ]
+}

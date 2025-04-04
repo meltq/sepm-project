@@ -1,0 +1,13 @@
+{
+    "name": "gemachain-storage-proto",
+    "deps": [
+        "bincode",
+        "bs58",
+        "gemachain-account-decoder",
+        "gemachain-sdk",
+        "gemachain-transaction-status",
+        "prost",
+        "serde",
+        "tonic-build"
+    ]
+}

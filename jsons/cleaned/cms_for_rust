@@ -1,0 +1,24 @@
+{
+    "name": "cms_for_rust",
+    "deps": [
+        "async-trait",
+        "axum",
+        "axum-macros",
+        "case",
+        "cms_macros",
+        "either",
+        "futures-util",
+        "http-body-util",
+        "inventory",
+        "lazy_static",
+        "paste",
+        "queries_for_sqlx",
+        "serde",
+        "serde_json",
+        "sqlx",
+        "tokio",
+        "tower",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

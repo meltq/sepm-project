@@ -1,0 +1,22 @@
+{
+    "name": "wick-packet",
+    "deps": [
+        "anyhow",
+        "bytes",
+        "futures",
+        "parking_lot",
+        "seeded-random",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tracing",
+        "url",
+        "uuid",
+        "wasmrs",
+        "wasmrs-codec",
+        "wasmrs-frames",
+        "wasmrs-guest",
+        "wasmrs-runtime",
+        "wasmrs-rx"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "pliantdb-local",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "bincode",
+        "criterion",
+        "flume",
+        "futures",
+        "itertools",
+        "pliantdb-core",
+        "pliantdb-core",
+        "pliantdb-jobs",
+        "serde",
+        "serde_cbor",
+        "sled",
+        "thiserror",
+        "tokio"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "name": "dendrite",
+    "deps": [
+        "anyhow",
+        "async-stream",
+        "base64",
+        "bytes",
+        "elasticsearch",
+        "env_logger",
+        "futures-core",
+        "futures-util",
+        "log",
+        "prost",
+        "serde",
+        "serde_json",
+        "sha2",
+        "tokio",
+        "tonic",
+        "tonic-build",
+        "uuid"
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "name": "sea-streamer-stdio",
+    "deps": [
+        "anyhow",
+        "env_logger",
+        "flume",
+        "lazy_static",
+        "log",
+        "nom",
+        "sea-streamer-runtime",
+        "sea-streamer-types",
+        "serde_json",
+        "structopt",
+        "thiserror",
+        "time",
+        "tokio"
+    ]
+}

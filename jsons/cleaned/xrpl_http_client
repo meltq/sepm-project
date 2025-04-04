@@ -1,0 +1,16 @@
+{
+    "name": "xrpl_http_client",
+    "deps": [
+        "libsecp256k1",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "sha2",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "xrpl_api",
+        "xrpl_binary_codec",
+        "xrpl_types"
+    ]
+}

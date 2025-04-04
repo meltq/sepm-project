@@ -1,0 +1,24 @@
+{
+    "name": "arpa-sqlite-db",
+    "deps": [
+        "anyhow",
+        "arpa-core",
+        "arpa-dal",
+        "async-trait",
+        "bincode",
+        "chrono",
+        "dkg-core",
+        "entity",
+        "ethers-core",
+        "libsqlite3-sys",
+        "log",
+        "migration",
+        "rand",
+        "sea-orm",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "threshold-bls",
+        "tokio"
+    ]
+}

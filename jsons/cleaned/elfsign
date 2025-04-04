@@ -1,0 +1,22 @@
+{
+    "name": "elfsign",
+    "deps": [
+        "anyhow",
+        "base16",
+        "clap",
+        "digest",
+        "ecdsa",
+        "ed25519",
+        "ed25519-dalek-fiat",
+        "hex-literal",
+        "log",
+        "object",
+        "p256",
+        "sha2",
+        "signature",
+        "sigstore",
+        "simplelog",
+        "tokio",
+        "url"
+    ]
+}

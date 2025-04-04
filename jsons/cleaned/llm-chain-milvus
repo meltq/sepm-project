@@ -1,0 +1,16 @@
+{
+    "name": "llm-chain-milvus",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "llm-chain",
+        "milvus-sdk-rust",
+        "rand",
+        "serde",
+        "serde_json",
+        "serde_yaml",
+        "thiserror",
+        "tokio",
+        "uuid"
+    ]
+}

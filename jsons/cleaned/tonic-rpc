@@ -1,0 +1,17 @@
+{
+    "name": "tonic-rpc",
+    "deps": [
+        "bincode",
+        "bytes",
+        "futures",
+        "rmp-serde",
+        "serde",
+        "serde_cbor",
+        "serde_json",
+        "tokio",
+        "tokio-stream",
+        "tonic",
+        "tonic-build",
+        "tonic-rpc-macro"
+    ]
+}

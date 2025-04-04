@@ -1,0 +1,15 @@
+{
+    "name": "wrpc-transport-derive",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "bytes",
+        "futures",
+        "proc-macro2",
+        "quote",
+        "syn",
+        "tokio",
+        "wrpc-transport",
+        "wrpc-transport-derive-macro"
+    ]
+}

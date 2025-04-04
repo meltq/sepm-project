@@ -1,0 +1,18 @@
+{
+    "name": "netlink-packet-wireguard",
+    "deps": [
+        "anyhow",
+        "base64",
+        "byteorder",
+        "env_logger",
+        "futures",
+        "genetlink",
+        "libc",
+        "log",
+        "netlink-packet-core",
+        "netlink-packet-generic",
+        "netlink-packet-utils",
+        "netlink-proto",
+        "tokio"
+    ]
+}

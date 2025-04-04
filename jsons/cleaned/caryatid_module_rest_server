@@ -1,0 +1,16 @@
+{
+    "name": "caryatid_module_rest_server",
+    "deps": [
+        "anyhow",
+        "axum",
+        "caryatid_sdk",
+        "config",
+        "futures",
+        "hyper",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

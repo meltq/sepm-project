@@ -1,0 +1,21 @@
+{
+    "name": "svc-rumq-client",
+    "deps": [
+        "async-stream",
+        "color-backtrace",
+        "crossbeam-channel",
+        "envy",
+        "futures-util",
+        "jsonwebtoken",
+        "log",
+        "pretty_env_logger",
+        "rumq-core",
+        "serde",
+        "thiserror",
+        "tokio",
+        "tokio",
+        "tokio-rustls",
+        "tokio-util",
+        "webpki"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "dicom-anonymization",
+    "deps": [
+        "anyhow",
+        "blake3",
+        "chrono",
+        "clap",
+        "dicom-core",
+        "dicom-dictionary-std",
+        "dicom-object",
+        "env_logger",
+        "log",
+        "num-bigint",
+        "num-traits",
+        "rayon",
+        "regex",
+        "thiserror",
+        "walkdir"
+    ]
+}

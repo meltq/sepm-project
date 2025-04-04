@@ -1,0 +1,26 @@
+{
+    "name": "rwf",
+    "deps": [
+        "aes",
+        "aes-gcm-siv",
+        "async-trait",
+        "base64",
+        "bytes",
+        "colored",
+        "once_cell",
+        "parking_lot",
+        "rand",
+        "regex",
+        "rwf-macros",
+        "serde",
+        "serde_json",
+        "sha1",
+        "thiserror",
+        "time",
+        "tokio",
+        "tokio-postgres",
+        "toml",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

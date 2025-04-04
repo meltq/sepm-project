@@ -1,0 +1,24 @@
+{
+    "name": "tlfs-crdt",
+    "deps": [
+        "anyhow",
+        "async-std",
+        "base64",
+        "blake3",
+        "bytecheck",
+        "crepe",
+        "ed25519-dalek",
+        "futures",
+        "getrandom",
+        "hex",
+        "log-panics",
+        "parking_lot",
+        "proptest",
+        "rkyv",
+        "smallvec",
+        "tracing",
+        "tracing-log",
+        "tracing-subscriber",
+        "vec-collections"
+    ]
+}

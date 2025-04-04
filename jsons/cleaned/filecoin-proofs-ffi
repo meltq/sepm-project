@@ -1,0 +1,14 @@
+{
+    "name": "filecoin-proofs-ffi",
+    "deps": [
+        "cbindgen",
+        "drop_struct_macro_derive",
+        "failure",
+        "ffi-toolkit",
+        "filecoin-proofs",
+        "lazy_static",
+        "libc",
+        "logging-toolkit",
+        "slog"
+    ]
+}

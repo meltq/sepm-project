@@ -1,0 +1,22 @@
+{
+    "name": "maudit_rolldown_plugin",
+    "deps": [
+        "anyhow",
+        "arcstr",
+        "async-trait",
+        "dashmap",
+        "oxc_index",
+        "rolldown_common",
+        "rolldown_ecmascript",
+        "rolldown_error",
+        "rolldown_resolver",
+        "rolldown_sourcemap",
+        "rolldown_utils",
+        "rustc-hash",
+        "serde",
+        "string_wizard",
+        "tokio",
+        "tracing",
+        "typedmap"
+    ]
+}

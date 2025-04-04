@@ -1,0 +1,31 @@
+{
+    "name": "libblobd-lite",
+    "deps": [
+        "async-recursion",
+        "async-stream",
+        "async-trait",
+        "chrono",
+        "dashmap",
+        "futures",
+        "itertools",
+        "num-derive",
+        "num-traits",
+        "off64",
+        "parking_lot",
+        "rand",
+        "rustc-hash",
+        "seekable-async-file",
+        "serde",
+        "signal-future",
+        "stochastic-queue",
+        "struct-name",
+        "struct-name-macro",
+        "strum",
+        "tinybuf",
+        "tokio",
+        "tracing",
+        "tracing-test",
+        "twox-hash",
+        "write-journal"
+    ]
+}

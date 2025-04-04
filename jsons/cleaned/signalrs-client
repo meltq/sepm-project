@@ -1,0 +1,21 @@
+{
+    "name": "signalrs-client",
+    "deps": [
+        "anyhow",
+        "async-stream",
+        "flume",
+        "futures",
+        "reqwest",
+        "rstest",
+        "serde",
+        "serde_json",
+        "serde_repr",
+        "signalrs-derive",
+        "thiserror",
+        "tokio",
+        "tokio-tungstenite",
+        "tracing",
+        "tracing-subscriber",
+        "uuid"
+    ]
+}

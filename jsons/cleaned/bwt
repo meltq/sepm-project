@@ -1,0 +1,25 @@
+{
+    "name": "bwt",
+    "deps": [
+        "async-std",
+        "bitcoin",
+        "bitcoin_hashes",
+        "chrono",
+        "dirs",
+        "dotenv",
+        "failure",
+        "hex",
+        "lazy_static",
+        "log",
+        "pretty_env_logger",
+        "reqwest",
+        "secp256k1",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "shesek-bitcoincore-rpc",
+        "structopt",
+        "tokio",
+        "warp"
+    ]
+}

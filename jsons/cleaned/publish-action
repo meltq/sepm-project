@@ -1,0 +1,14 @@
+{
+    "name": "publish-action",
+    "deps": [
+        "cargo_toml",
+        "crates_io_api",
+        "dotenv",
+        "futures",
+        "json",
+        "reqwest",
+        "thiserror",
+        "tokio",
+        "version-compare"
+    ]
+}

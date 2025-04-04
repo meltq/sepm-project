@@ -1,0 +1,26 @@
+{
+    "name": "mwatch-kernel-stm32l4",
+    "deps": [
+        "cfg-if",
+        "cortex-m",
+        "cortex-m-log",
+        "cortex-m-rt",
+        "cortex-m-rtic",
+        "crc",
+        "embedded-graphics",
+        "embedded-hal",
+        "heapless",
+        "hm11",
+        "log",
+        "max17048",
+        "mwatch-kernel",
+        "panic-itm",
+        "panic-rtt-target",
+        "panic-semihosting",
+        "rtt-target",
+        "simple-hex",
+        "ssd1351",
+        "stm32l4xx-hal",
+        "time"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "name": "ledger-hw-transport-hid",
+    "deps": [
+        "async-trait",
+        "byteorder",
+        "hidapi",
+        "ledger-hw",
+        "ledger-hw-transport",
+        "libc",
+        "nix"
+    ]
+}

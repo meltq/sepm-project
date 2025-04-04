@@ -1,0 +1,29 @@
+{
+    "name": "linera-alloy-rpc-client",
+    "deps": [
+        "futures",
+        "futures-util",
+        "hyper-util",
+        "linera-alloy-json-rpc",
+        "linera-alloy-node-bindings",
+        "linera-alloy-primitives",
+        "linera-alloy-primitives",
+        "linera-alloy-pubsub",
+        "linera-alloy-transport",
+        "linera-alloy-transport-http",
+        "linera-alloy-transport-ipc",
+        "linera-alloy-transport-ipc",
+        "linera-alloy-transport-ws",
+        "linera-alloy-transport-ws",
+        "pin-project",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "tempfile",
+        "tokio",
+        "tokio-stream",
+        "tower",
+        "tracing",
+        "url"
+    ]
+}

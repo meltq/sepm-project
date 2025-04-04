@@ -1,0 +1,13 @@
+{
+    "name": "ingress-status-sync",
+    "deps": [
+        "gumdrop",
+        "k8s-openapi",
+        "kube",
+        "kube-runtime",
+        "serde_json",
+        "tokio",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

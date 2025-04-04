@@ -1,0 +1,22 @@
+{
+    "name": "yazi-fm",
+    "deps": [
+        "ansi-to-tui",
+        "anyhow",
+        "crossterm",
+        "futures",
+        "libc",
+        "ratatui",
+        "signal-hook-tokio",
+        "tokio",
+        "tracing",
+        "tracing-appender",
+        "tracing-subscriber",
+        "unicode-width",
+        "yazi-adaptor",
+        "yazi-config",
+        "yazi-core",
+        "yazi-plugin",
+        "yazi-shared"
+    ]
+}

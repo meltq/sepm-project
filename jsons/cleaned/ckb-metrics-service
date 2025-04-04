@@ -1,0 +1,13 @@
+{
+    "name": "ckb-metrics-service",
+    "deps": [
+        "ckb-async-runtime",
+        "ckb-metrics-config",
+        "ckb-stop-handler",
+        "ckb-util",
+        "log",
+        "metrics-core",
+        "metrics-runtime",
+        "tokio"
+    ]
+}

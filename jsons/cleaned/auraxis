@@ -1,0 +1,23 @@
+{
+    "name": "auraxis",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "auraxis_macros",
+        "chrono",
+        "futures",
+        "futures-util",
+        "metrics",
+        "num_enum",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "serde_with",
+        "stream-reconnect",
+        "thiserror",
+        "tokio",
+        "tokio-tungstenite",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

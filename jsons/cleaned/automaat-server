@@ -1,0 +1,25 @@
+{
+    "name": "automaat-server",
+    "deps": [
+        "automaat-core",
+        "chrono",
+        "diesel",
+        "diesel-derive-enum",
+        "diesel_migrations",
+        "juniper",
+        "juniper_rocket",
+        "juniper_serde",
+        "paste",
+        "processor-git-clone-v1",
+        "processor-print-output-v1",
+        "processor-redis-command-v1",
+        "processor-shell-command-v1",
+        "processor-string-regex-v1",
+        "rocket",
+        "rocket_contrib",
+        "rocket_cors",
+        "serde",
+        "serde_json",
+        "version-sync"
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "name": "houseflow",
+    "deps": [
+        "actix-rt",
+        "actix-web",
+        "anyhow",
+        "async-trait",
+        "clap",
+        "clap_generate",
+        "dialoguer",
+        "env_logger",
+        "futures",
+        "hex",
+        "houseflow-api",
+        "houseflow-config",
+        "houseflow-db",
+        "houseflow-device",
+        "houseflow-server",
+        "houseflow-types",
+        "humantime",
+        "log",
+        "rand",
+        "serde",
+        "serde_json",
+        "strum",
+        "szafka",
+        "tokio",
+        "toml",
+        "url",
+        "xdg"
+    ]
+}

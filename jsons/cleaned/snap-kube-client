@@ -1,0 +1,23 @@
+{
+    "name": "snap-kube-client",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "aws-config",
+        "aws-sdk-ec2",
+        "clap",
+        "colored",
+        "k8s-openapi",
+        "kube",
+        "kube-custom-resources-rs",
+        "mockall",
+        "pretty_assertions",
+        "schemars",
+        "serde",
+        "serde_json",
+        "snap-kube",
+        "tokio",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

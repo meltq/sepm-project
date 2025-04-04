@@ -1,0 +1,19 @@
+{
+    "name": "mailstat",
+    "deps": [
+        "anyhow",
+        "chrono",
+        "clap",
+        "clap_derive",
+        "email-address-parser",
+        "env_logger",
+        "himalaya-lib",
+        "lettre",
+        "once_cell",
+        "plotters",
+        "prettytable",
+        "serde",
+        "serde_json",
+        "tokio"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "name": "nu_plugin_cloud",
+    "deps": [
+        "async-mutex",
+        "aws-config",
+        "aws-credential-types",
+        "bytes",
+        "env_logger",
+        "futures",
+        "itertools",
+        "log",
+        "mimalloc",
+        "mime_guess",
+        "nu-command",
+        "nu-command",
+        "nu-plugin",
+        "nu-plugin-test-support",
+        "nu-protocol",
+        "object_store",
+        "tokio",
+        "url"
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "name": "mv-prover-boogie-backend",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "codespan",
+        "codespan-reporting",
+        "futures",
+        "itertools",
+        "log",
+        "move-binary-format",
+        "move-command-line-common",
+        "move-core-types",
+        "move-model",
+        "move-stackless-bytecode",
+        "num",
+        "once_cell",
+        "pretty",
+        "rand",
+        "regex",
+        "serde",
+        "serde_json",
+        "tera",
+        "tokio"
+    ]
+}

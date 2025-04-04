@@ -1,0 +1,27 @@
+{
+    "name": "settings_loader",
+    "deps": [
+        "anyhow",
+        "assert_matches2",
+        "config",
+        "fake",
+        "globwalk",
+        "once_cell",
+        "path-absolutize",
+        "pretty_assertions",
+        "secrecy",
+        "serde",
+        "serde_json",
+        "serde_with",
+        "serde_yaml",
+        "sqlx",
+        "thiserror",
+        "tracing",
+        "tracing-bunyan-formatter",
+        "tracing-log",
+        "tracing-subscriber",
+        "trim-margin",
+        "url",
+        "zeroize"
+    ]
+}

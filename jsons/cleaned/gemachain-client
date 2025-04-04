@@ -1,0 +1,33 @@
+{
+    "name": "gemachain-client",
+    "deps": [
+        "assert_matches",
+        "base64",
+        "bincode",
+        "bs58",
+        "clap",
+        "gemachain-account-decoder",
+        "gemachain-clap-utils",
+        "gemachain-faucet",
+        "gemachain-logger",
+        "gemachain-net-utils",
+        "gemachain-sdk",
+        "gemachain-transaction-status",
+        "gemachain-version",
+        "gemachain-vote-program",
+        "indicatif",
+        "jsonrpc-core",
+        "jsonrpc-http-server",
+        "log",
+        "rayon",
+        "reqwest",
+        "semver",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tungstenite",
+        "url"
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "name": "swiftness_proof_parser",
+    "deps": [
+        "anyhow",
+        "clap",
+        "num-bigint",
+        "regex",
+        "serde",
+        "serde_json",
+        "starknet-types-core",
+        "swiftness_air",
+        "swiftness_commitment",
+        "swiftness_fri",
+        "swiftness_pow",
+        "swiftness_stark",
+        "thiserror"
+    ]
+}

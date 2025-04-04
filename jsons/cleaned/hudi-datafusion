@@ -1,0 +1,14 @@
+{
+    "name": "hudi-datafusion",
+    "deps": [
+        "arrow-schema",
+        "async-trait",
+        "datafusion",
+        "datafusion-common",
+        "datafusion-expr",
+        "datafusion-physical-expr",
+        "hudi-core",
+        "tokio",
+        "url"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "asyncmigrate-cli",
+    "deps": [
+        "async-trait",
+        "asyncmigrate",
+        "clap",
+        "failure",
+        "rpassword",
+        "rustyline",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tokio-postgres"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "sologger_log_transport",
+    "deps": [
+        "anyhow",
+        "log",
+        "log4rs",
+        "opentelemetry-appender-log",
+        "opentelemetry-otlp",
+        "opentelemetry-semantic-conventions",
+        "opentelemetry-stdout",
+        "opentelemetry_api",
+        "opentelemetry_sdk",
+        "qoollo-log4rs-logstash",
+        "qoollo-logstash-rs",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tokio-test"
+    ]
+}

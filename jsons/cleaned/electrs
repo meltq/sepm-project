@@ -1,0 +1,25 @@
+{
+    "name": "electrs",
+    "deps": [
+        "arrayref",
+        "base64",
+        "bincode",
+        "bitcoin",
+        "chan",
+        "chan-signal",
+        "clap",
+        "error-chain",
+        "glob",
+        "hex",
+        "log",
+        "prometheus",
+        "rocksdb",
+        "rust-crypto",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "stderrlog",
+        "time",
+        "tiny_http"
+    ]
+}

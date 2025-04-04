@@ -1,0 +1,16 @@
+{
+    "name": "ra_ap_load-cargo",
+    "deps": [
+        "anyhow",
+        "crossbeam-channel",
+        "ide",
+        "ide-db",
+        "itertools",
+        "proc-macro-api",
+        "project-model",
+        "tracing",
+        "tt",
+        "vfs",
+        "vfs-notify"
+    ]
+}

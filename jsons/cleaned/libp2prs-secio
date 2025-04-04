@@ -1,0 +1,23 @@
+{
+    "name": "libp2prs-secio",
+    "deps": [
+        "aes-ctr",
+        "async-std",
+        "async-trait",
+        "bs58",
+        "bytes",
+        "criterion",
+        "env_logger",
+        "futures",
+        "libp2prs-core",
+        "libp2prs-traits",
+        "log",
+        "prost",
+        "prost-build",
+        "rand",
+        "ring",
+        "secp256k1",
+        "stream-cipher",
+        "unsigned-varint"
+    ]
+}

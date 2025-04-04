@@ -1,0 +1,22 @@
+{
+    "name": "starknet-devnet-core",
+    "deps": [
+        "blockifier",
+        "cairo-lang-starknet",
+        "clap",
+        "ethers",
+        "hex",
+        "indexmap",
+        "rand",
+        "rand_mt",
+        "serde",
+        "serde_json",
+        "starknet-rs-core",
+        "starknet-rs-ff",
+        "starknet-rs-signers",
+        "starknet-types",
+        "starknet_api",
+        "thiserror",
+        "tracing"
+    ]
+}

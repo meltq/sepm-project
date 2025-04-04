@@ -1,0 +1,26 @@
+{
+    "name": "ovhctl",
+    "deps": [
+        "async-trait",
+        "bytes",
+        "chrono",
+        "config",
+        "futures",
+        "hyper",
+        "hyper-tls",
+        "ipnetwork",
+        "paw",
+        "pbr",
+        "prettytable-rs",
+        "rust-crypto",
+        "serde",
+        "serde_json",
+        "serde_yaml",
+        "slog",
+        "slog-async",
+        "slog-scope",
+        "slog-term",
+        "structopt",
+        "tokio"
+    ]
+}

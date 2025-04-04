@@ -1,0 +1,18 @@
+{
+    "name": "celer-pay-module-rpc",
+    "deps": [
+        "celer-pay-module-rpc-runtime-api",
+        "codec",
+        "jsonrpc-core",
+        "jsonrpc-core-client",
+        "jsonrpc-derive",
+        "serde",
+        "serde_json",
+        "sp-api",
+        "sp-blockchain",
+        "sp-core",
+        "sp-rpc",
+        "sp-runtime",
+        "sp-std"
+    ]
+}

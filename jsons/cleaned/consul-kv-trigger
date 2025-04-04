@@ -1,0 +1,14 @@
+{
+    "name": "consul-kv-trigger",
+    "deps": [
+        "clap",
+        "eyre",
+        "rs-consul",
+        "thiserror",
+        "tokio",
+        "tokio",
+        "tracing",
+        "tracing-log",
+        "tracing-subscriber"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "name": "toku_client",
+    "deps": [
+        "bytesize",
+        "failure",
+        "futures",
+        "log",
+        "tokio",
+        "tokio-util",
+        "toku_connection",
+        "toku_protocol"
+    ]
+}

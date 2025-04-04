@@ -1,0 +1,16 @@
+{
+    "name": "limitation-proxy",
+    "deps": [
+        "actix-http",
+        "actix-rt",
+        "actix-web",
+        "env_logger",
+        "futures",
+        "limitation-actix-middleware",
+        "log",
+        "structopt",
+        "typed-builder",
+        "url",
+        "version-sync"
+    ]
+}

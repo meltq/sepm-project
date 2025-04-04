@@ -1,0 +1,19 @@
+{
+    "name": "clouddns-nat-helper",
+    "deps": [
+        "chrono",
+        "clap",
+        "cloudflare",
+        "dnsclient",
+        "domain",
+        "env_logger",
+        "http",
+        "itertools",
+        "log",
+        "mockall",
+        "mockall_double",
+        "serde_json",
+        "tokio",
+        "totems"
+    ]
+}

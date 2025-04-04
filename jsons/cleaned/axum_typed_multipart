@@ -1,0 +1,15 @@
+{
+    "name": "axum_typed_multipart",
+    "deps": [
+        "anyhow",
+        "axum",
+        "axum_typed_multipart_macros",
+        "common-multipart-rfc7578",
+        "futures-util",
+        "mime",
+        "tempfile",
+        "tempfile",
+        "thiserror",
+        "tokio"
+    ]
+}

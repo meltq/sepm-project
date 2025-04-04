@@ -1,0 +1,21 @@
+{
+    "name": "opentelemetry-application-insights",
+    "deps": [
+        "base64",
+        "chrono",
+        "env_logger",
+        "log",
+        "opentelemetry",
+        "serde",
+        "serde_json",
+        "test-case",
+        "tokio",
+        "tracing",
+        "tracing-attributes",
+        "tracing-futures",
+        "tracing-opentelemetry",
+        "tracing-subscriber",
+        "ureq",
+        "version-sync"
+    ]
+}

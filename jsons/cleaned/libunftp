@@ -1,0 +1,33 @@
+{
+    "name": "libunftp",
+    "deps": [
+        "bytes",
+        "chrono",
+        "failure",
+        "failure_derive",
+        "ftp",
+        "futures",
+        "http",
+        "hyper",
+        "hyper-tls",
+        "lazy_static",
+        "log",
+        "mime",
+        "pam-auth",
+        "path_abs",
+        "pretty_assertions",
+        "pretty_env_logger",
+        "prometheus",
+        "rand",
+        "regex",
+        "rustls",
+        "serde",
+        "serde_json",
+        "tempfile",
+        "tokio",
+        "tokio-codec",
+        "tokio-io",
+        "url",
+        "uuid"
+    ]
+}

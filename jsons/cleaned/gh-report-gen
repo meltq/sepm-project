@@ -1,0 +1,17 @@
+{
+    "name": "gh-report-gen",
+    "deps": [
+        "anyhow",
+        "camino",
+        "chrono",
+        "clap",
+        "glob",
+        "graphql_client",
+        "reqwest",
+        "serde",
+        "tera",
+        "tokio",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

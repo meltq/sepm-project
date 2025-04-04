@@ -1,0 +1,31 @@
+{
+    "name": "ate-crypto",
+    "deps": [
+        "aes",
+        "backtrace",
+        "base64",
+        "bincode",
+        "blake3",
+        "ctr",
+        "error-chain",
+        "fastrand",
+        "fxhash",
+        "hex",
+        "num_enum",
+        "once_cell",
+        "pqcrypto-falcon-wasi",
+        "pqcrypto-ntru-wasi",
+        "pqcrypto-traits-wasi",
+        "rand",
+        "rand_chacha",
+        "rmp",
+        "rmp-serde",
+        "serde",
+        "serde_json",
+        "sha3",
+        "tokio",
+        "tracing",
+        "tracing-subscriber",
+        "wasmer-bus-types"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "name": "lunatic-wasi-api",
+    "deps": [
+        "anyhow",
+        "async-std",
+        "hash-map-id",
+        "lunatic-common-api",
+        "lunatic-process",
+        "lunatic-stdout-capture",
+        "tokio",
+        "wasmtime",
+        "wasmtime-wasi"
+    ]
+}

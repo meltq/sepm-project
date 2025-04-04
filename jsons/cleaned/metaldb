@@ -1,0 +1,26 @@
+{
+    "name": "metaldb",
+    "deps": [
+        "anyhow",
+        "assert_matches",
+        "bincode",
+        "byteorder",
+        "chrono",
+        "criterion",
+        "crossbeam",
+        "metaldb-derive",
+        "modifier",
+        "pretty_assertions",
+        "proptest",
+        "rand",
+        "rand_xorshift",
+        "rocksdb",
+        "rust_decimal",
+        "serde",
+        "smallvec",
+        "tempfile",
+        "thiserror",
+        "url",
+        "uuid"
+    ]
+}

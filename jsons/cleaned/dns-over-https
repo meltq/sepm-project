@@ -1,0 +1,16 @@
+{
+    "name": "dns-over-https",
+    "deps": [
+        "clap",
+        "ctrlc2",
+        "dotenvy",
+        "env_logger",
+        "futures",
+        "log",
+        "reqwest",
+        "thiserror",
+        "tokio",
+        "tokio-util",
+        "windows-service"
+    ]
+}

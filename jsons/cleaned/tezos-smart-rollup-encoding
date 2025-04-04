@@ -1,0 +1,17 @@
+{
+    "name": "tezos-smart-rollup-encoding",
+    "deps": [
+        "hex",
+        "nom",
+        "num-bigint",
+        "num-traits",
+        "proptest",
+        "tezos-smart-rollup-core",
+        "tezos-smart-rollup-host",
+        "tezos_crypto_rs",
+        "tezos_data_encoding",
+        "tezos_data_encoding_derive",
+        "thiserror",
+        "time"
+    ]
+}

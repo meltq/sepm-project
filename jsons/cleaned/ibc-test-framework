@@ -1,0 +1,31 @@
+{
+    "name": "ibc-test-framework",
+    "deps": [
+        "async-trait",
+        "color-eyre",
+        "crossbeam-channel",
+        "env_logger",
+        "eyre",
+        "flex-error",
+        "hex",
+        "http",
+        "ibc",
+        "ibc-proto",
+        "ibc-relayer",
+        "ibc-relayer-cli",
+        "itertools",
+        "rand",
+        "semver",
+        "serde",
+        "serde_json",
+        "serde_yaml",
+        "sha2",
+        "subtle-encoding",
+        "tendermint",
+        "tendermint-rpc",
+        "tokio",
+        "toml",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

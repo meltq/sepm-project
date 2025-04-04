@@ -1,0 +1,13 @@
+{
+    "name": "bicycle_sproc",
+    "deps": [
+        "bicycle_core",
+        "prost",
+        "prost-types",
+        "tokio",
+        "tokio-stream",
+        "tonic",
+        "tonic-build",
+        "tonic-reflection"
+    ]
+}

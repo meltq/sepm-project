@@ -1,0 +1,20 @@
+{
+    "name": "music-player-server",
+    "deps": [
+        "cuid",
+        "futures",
+        "md5",
+        "music-player-entity",
+        "music-player-playback",
+        "music-player-scanner",
+        "music-player-settings",
+        "music-player-storage",
+        "owo-colors",
+        "prost",
+        "sea-orm",
+        "tokio",
+        "tonic",
+        "tonic-build",
+        "tonic-web"
+    ]
+}

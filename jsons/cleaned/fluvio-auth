@@ -1,0 +1,22 @@
+{
+    "name": "fluvio-auth",
+    "deps": [
+        "async-trait",
+        "dataplane",
+        "fluvio-controlplane-metadata",
+        "fluvio-future",
+        "fluvio-protocol",
+        "fluvio-socket",
+        "fluvio-stream-model",
+        "fluvio-types",
+        "flv-tls-proxy",
+        "futures-util",
+        "log",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tracing",
+        "tracing-futures",
+        "x509-parser"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "name": "holochain_p2p",
+    "deps": [
+        "async-trait",
+        "fixt",
+        "futures",
+        "ghost_actor",
+        "holo_hash",
+        "holochain_keystore",
+        "holochain_serialized_bytes",
+        "holochain_types",
+        "holochain_util",
+        "holochain_zome_types",
+        "kitsune_p2p",
+        "kitsune_p2p_types",
+        "mockall",
+        "observability",
+        "serde",
+        "serde_bytes",
+        "thiserror",
+        "tokio",
+        "tokio-stream"
+    ]
+}

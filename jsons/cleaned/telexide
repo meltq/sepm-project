@@ -1,0 +1,19 @@
+{
+    "name": "telexide",
+    "deps": [
+        "async-trait",
+        "chrono",
+        "futures",
+        "http",
+        "hyper",
+        "hyper-tls",
+        "log",
+        "parking_lot",
+        "paste",
+        "serde",
+        "serde_json",
+        "telexide_proc_macros",
+        "tokio",
+        "typemap"
+    ]
+}

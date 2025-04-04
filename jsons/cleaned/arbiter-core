@@ -1,0 +1,28 @@
+{
+    "name": "arbiter-core",
+    "deps": [
+        "RustQuant",
+        "anyhow",
+        "assert_matches",
+        "async-trait",
+        "atomic_enum",
+        "bytes",
+        "crossbeam-channel",
+        "env_logger",
+        "ethers",
+        "futures",
+        "futures-timer",
+        "futures-util",
+        "hex",
+        "log",
+        "rand",
+        "rand_distr",
+        "revm",
+        "serde",
+        "serde_json",
+        "statrs",
+        "test-log",
+        "thiserror",
+        "tokio"
+    ]
+}

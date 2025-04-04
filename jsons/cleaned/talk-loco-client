@@ -1,0 +1,21 @@
+{
+    "name": "talk-loco-client",
+    "deps": [
+        "async-stream",
+        "bitflags",
+        "bson",
+        "futures-lite",
+        "futures-loco-protocol",
+        "num-bigint-dig",
+        "parking_lot",
+        "pin-project-lite",
+        "serde",
+        "serde-byte-array",
+        "serde_with",
+        "structstruck",
+        "thiserror",
+        "tokio",
+        "tokio-native-tls",
+        "tokio-util"
+    ]
+}

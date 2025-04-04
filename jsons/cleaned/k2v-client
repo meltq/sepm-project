@@ -1,0 +1,17 @@
+{
+    "name": "k2v-client",
+    "deps": [
+        "base64",
+        "clap",
+        "garage_util",
+        "http",
+        "log",
+        "rusoto_core",
+        "rusoto_credential",
+        "rusoto_signature",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio"
+    ]
+}

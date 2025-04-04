@@ -1,0 +1,19 @@
+{
+    "name": "crypt4ghfs",
+    "deps": [
+        "anyhow",
+        "clap",
+        "crypt4gh",
+        "fuser",
+        "itertools",
+        "log",
+        "nix",
+        "pretty_env_logger",
+        "rpassword",
+        "serde",
+        "sodiumoxide",
+        "syslog",
+        "thiserror",
+        "toml"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "datastreamservicelib",
+    "deps": [
+        "bytes",
+        "chrono",
+        "clap",
+        "datastreamcorelib",
+        "failure",
+        "fern",
+        "futures",
+        "lazy_static",
+        "log",
+        "serde_json",
+        "signal-hook",
+        "tokio",
+        "tokio-zmq",
+        "toml",
+        "zmq"
+    ]
+}

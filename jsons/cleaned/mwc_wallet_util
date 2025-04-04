@@ -1,0 +1,22 @@
+{
+    "name": "mwc_wallet_util",
+    "deps": [
+        "data-encoding",
+        "ed25519-dalek",
+        "lazy_static",
+        "mwc_api",
+        "mwc_chain",
+        "mwc_core",
+        "mwc_keychain",
+        "mwc_p2p",
+        "mwc_store",
+        "mwc_util",
+        "pretty_assertions",
+        "rand",
+        "serde",
+        "serde_derive",
+        "sha3",
+        "thiserror",
+        "tokio"
+    ]
+}

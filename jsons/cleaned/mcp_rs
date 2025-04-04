@@ -1,0 +1,26 @@
+{
+    "name": "mcp_rs",
+    "deps": [
+        "async-stream",
+        "async-trait",
+        "base64",
+        "clap",
+        "config",
+        "futures",
+        "jsonrpc-core",
+        "jsonrpc-derive",
+        "mime_guess",
+        "reqwest",
+        "reqwest-eventsource",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tokio-util",
+        "tracing",
+        "tracing-subscriber",
+        "url",
+        "uuid",
+        "warp"
+    ]
+}

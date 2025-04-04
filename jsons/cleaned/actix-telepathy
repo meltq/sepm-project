@@ -1,0 +1,26 @@
+{
+    "name": "actix-telepathy",
+    "deps": [
+        "actix",
+        "actix-broker",
+        "actix-rt",
+        "actix_telepathy_derive",
+        "byteorder",
+        "bytes",
+        "env_logger",
+        "flexbuffers",
+        "futures",
+        "log",
+        "net2",
+        "once_cell",
+        "parking_lot",
+        "port_scanner",
+        "rand",
+        "rayon",
+        "serde",
+        "serde_derive",
+        "tokio",
+        "tokio-util",
+        "uuid"
+    ]
+}

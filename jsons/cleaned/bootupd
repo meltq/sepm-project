@@ -1,0 +1,21 @@
+{
+    "name": "bootupd",
+    "deps": [
+        "anyhow",
+        "bincode",
+        "chrono",
+        "clap",
+        "fs2",
+        "hex",
+        "libc",
+        "libsystemd",
+        "nix",
+        "openat",
+        "openat-ext",
+        "openssl",
+        "serde",
+        "serde_json",
+        "structopt",
+        "tempfile"
+    ]
+}

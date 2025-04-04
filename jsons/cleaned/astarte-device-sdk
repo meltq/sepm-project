@@ -1,0 +1,32 @@
+{
+    "name": "astarte-device-sdk",
+    "deps": [
+        "astarte-device-sdk-derive",
+        "async-trait",
+        "base64",
+        "bson",
+        "cargo-husky",
+        "chrono",
+        "colored",
+        "env_logger",
+        "flate2",
+        "http",
+        "itertools",
+        "log",
+        "openssl",
+        "reqwest",
+        "rumqttc",
+        "rustls",
+        "rustls-native-certs",
+        "rustls-pemfile",
+        "serde",
+        "serde_json",
+        "sqlx",
+        "structopt",
+        "thiserror",
+        "tokio",
+        "url",
+        "uuid",
+        "webpki"
+    ]
+}

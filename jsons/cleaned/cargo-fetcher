@@ -1,0 +1,17 @@
+{
+    "name": "cargo-fetcher",
+    "deps": [
+        "bytes",
+        "dirs",
+        "env_logger",
+        "failure",
+        "log",
+        "rayon",
+        "reqwest",
+        "serde",
+        "structopt",
+        "tame-gcs",
+        "tame-oauth",
+        "toml"
+    ]
+}

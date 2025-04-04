@@ -1,0 +1,24 @@
+{
+    "name": "network-builder",
+    "deps": [
+        "aptos-channel",
+        "aptos-config",
+        "aptos-crypto",
+        "aptos-infallible",
+        "aptos-logger",
+        "aptos-network",
+        "aptos-secure-storage",
+        "aptos-time-service",
+        "aptos-types",
+        "aptos-workspace-hack",
+        "async-trait",
+        "bcs",
+        "event-notifications",
+        "futures",
+        "netcore",
+        "network-discovery",
+        "rand",
+        "serde",
+        "tokio"
+    ]
+}

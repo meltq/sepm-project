@@ -1,0 +1,16 @@
+{
+    "name": "monero-address-mirror",
+    "deps": [
+        "curve25519-dalek",
+        "hex",
+        "hex-literal",
+        "monero-io",
+        "monero-primitives",
+        "rand_core",
+        "serde",
+        "serde_json",
+        "std-shims",
+        "thiserror",
+        "zeroize"
+    ]
+}

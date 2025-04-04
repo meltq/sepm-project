@@ -1,0 +1,15 @@
+{
+    "name": "hostparser",
+    "deps": [
+        "async-std",
+        "clap",
+        "futures",
+        "futures-util",
+        "governor",
+        "itertools",
+        "reqwest",
+        "spmc",
+        "tldextract",
+        "tokio"
+    ]
+}

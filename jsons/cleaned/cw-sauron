@@ -1,0 +1,16 @@
+{
+    "name": "cw-sauron",
+    "deps": [
+        "async-trait",
+        "aws-config",
+        "aws-sdk-cloudwatchlogs",
+        "aws-smithy-http",
+        "aws-smithy-types",
+        "chrono",
+        "clap",
+        "derive_builder",
+        "mockall",
+        "mockall_double",
+        "tokio"
+    ]
+}

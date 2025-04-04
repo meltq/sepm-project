@@ -1,0 +1,24 @@
+{
+    "name": "snarkos-consensus",
+    "deps": [
+        "bincode",
+        "chrono",
+        "futures-await-test",
+        "hex",
+        "log",
+        "rand",
+        "rand_xorshift",
+        "serde",
+        "snarkos-algorithms",
+        "snarkos-curves",
+        "snarkos-dpc",
+        "snarkos-errors",
+        "snarkos-models",
+        "snarkos-objects",
+        "snarkos-posw",
+        "snarkos-profiler",
+        "snarkos-storage",
+        "snarkos-utilities",
+        "tokio"
+    ]
+}

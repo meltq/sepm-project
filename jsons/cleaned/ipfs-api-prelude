@@ -1,0 +1,24 @@
+{
+    "name": "ipfs-api-prelude",
+    "deps": [
+        "async-trait",
+        "bytes",
+        "common-multipart-rfc7578",
+        "dirs",
+        "futures",
+        "http",
+        "parity-multiaddr",
+        "serde",
+        "serde_json",
+        "serde_urlencoded",
+        "thiserror",
+        "tokio",
+        "tokio",
+        "tokio-stream",
+        "tokio-util",
+        "tracing",
+        "tracing-subscriber",
+        "typed-builder",
+        "walkdir"
+    ]
+}

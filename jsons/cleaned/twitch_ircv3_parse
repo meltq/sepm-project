@@ -1,0 +1,11 @@
+{
+    "name": "twitch_ircv3_parse",
+    "deps": [
+        "ircv3_parse",
+        "nom",
+        "pretty_assertions",
+        "serde",
+        "serde_json",
+        "twitch_helix_api"
+    ]
+}

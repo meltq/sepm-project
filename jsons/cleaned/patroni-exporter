@@ -1,0 +1,17 @@
+{
+    "name": "patroni-exporter",
+    "deps": [
+        "hyper",
+        "lazy_static",
+        "prometheus",
+        "sentry",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "structopt",
+        "tokio",
+        "tracing",
+        "tracing-subscriber",
+        "uuid"
+    ]
+}

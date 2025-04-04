@@ -1,0 +1,23 @@
+{
+    "name": "azure_storage_datalake",
+    "deps": [
+        "async-trait",
+        "azure_core",
+        "azure_identity",
+        "azure_storage",
+        "base64",
+        "bytes",
+        "chrono",
+        "futures",
+        "http",
+        "log",
+        "ring",
+        "serde",
+        "serde-xml-rs",
+        "serde_derive",
+        "serde_json",
+        "tokio",
+        "url",
+        "uuid"
+    ]
+}

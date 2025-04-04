@@ -1,0 +1,17 @@
+{
+    "name": "pgstac",
+    "deps": [
+        "async_once",
+        "bb8",
+        "bb8-postgres",
+        "geojson",
+        "lazy_static",
+        "serde",
+        "serde_json",
+        "stac",
+        "thiserror",
+        "tokio",
+        "tokio-postgres",
+        "tokio-test"
+    ]
+}

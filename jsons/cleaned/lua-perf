@@ -1,0 +1,29 @@
+{
+    "name": "lua-perf",
+    "deps": [
+        "anyhow",
+        "blazesym",
+        "byteorder",
+        "clap",
+        "clap_derive",
+        "ctrlc",
+        "gimli",
+        "goblin",
+        "iced-x86",
+        "lazy_static",
+        "libbpf-cargo",
+        "libbpf-rs",
+        "libc",
+        "memmap2",
+        "nix",
+        "plain",
+        "procfs",
+        "procmaps",
+        "psutil",
+        "regex",
+        "rustc-demangle",
+        "time",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

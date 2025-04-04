@@ -1,0 +1,27 @@
+{
+    "name": "pkarr-relay",
+    "deps": [
+        "anyhow",
+        "axum",
+        "axum-server",
+        "bytes",
+        "clap",
+        "dirs-next",
+        "governor",
+        "http",
+        "httpdate",
+        "mainline",
+        "pkarr",
+        "pubky-timestamp",
+        "rustls",
+        "serde",
+        "thiserror",
+        "tokio",
+        "toml",
+        "tower-http",
+        "tower_governor",
+        "tracing",
+        "tracing-subscriber",
+        "url"
+    ]
+}

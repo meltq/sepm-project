@@ -1,0 +1,22 @@
+{
+    "name": "k8s-ares",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "clap",
+        "futures",
+        "k8s-openapi",
+        "kube",
+        "kube-derive",
+        "kube-runtime",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "serde_yaml",
+        "slog",
+        "slog-async",
+        "slog-term",
+        "tokio",
+        "trait_enum"
+    ]
+}

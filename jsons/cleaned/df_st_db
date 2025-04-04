@@ -1,0 +1,19 @@
+{
+    "name": "df_st_db",
+    "deps": [
+        "df_st_core",
+        "df_st_derive",
+        "diesel",
+        "diesel_migrations",
+        "failure",
+        "indexmap",
+        "indicatif",
+        "libsqlite3-sys",
+        "log",
+        "r2d2",
+        "rand",
+        "rand_chacha",
+        "serde",
+        "serde_json"
+    ]
+}

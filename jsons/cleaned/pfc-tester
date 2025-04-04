@@ -1,0 +1,21 @@
+{
+    "name": "pfc-tester",
+    "deps": [
+        "anyhow",
+        "base64",
+        "chrono",
+        "clap",
+        "dotenv",
+        "env_logger",
+        "glob",
+        "log",
+        "secp256k1",
+        "serde",
+        "serde_json",
+        "terra-rust-api",
+        "terra-rust-cli",
+        "terra-rust-wallet",
+        "thiserror",
+        "tokio"
+    ]
+}

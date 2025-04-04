@@ -1,0 +1,20 @@
+{
+    "name": "turingdb-server",
+    "deps": [
+        "anyhow",
+        "async-dup",
+        "bincode",
+        "custom_codes",
+        "futures",
+        "nanoserde",
+        "pico-args",
+        "serde",
+        "signal-msg",
+        "simple-signal",
+        "smol",
+        "tai64",
+        "turingdb",
+        "turingdb-helpers",
+        "yansi"
+    ]
+}

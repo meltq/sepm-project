@@ -1,0 +1,33 @@
+{
+    "name": "ckb-testkit",
+    "deps": [
+        "bytes",
+        "ckb-crypto",
+        "ckb-error",
+        "ckb-hash",
+        "ckb-indexer",
+        "ckb-jsonrpc-types",
+        "ckb-stop-handler",
+        "ckb-types",
+        "ckb2019-jsonrpc-types",
+        "crossbeam",
+        "fs_extra",
+        "futures",
+        "jsonrpc-core",
+        "lazy_static",
+        "log",
+        "p2p",
+        "reqwest",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "snap",
+        "tempfile",
+        "tentacle-multiaddr",
+        "tentacle-secio",
+        "tokio",
+        "tokio-util",
+        "tokio-yamux",
+        "version-compare"
+    ]
+}

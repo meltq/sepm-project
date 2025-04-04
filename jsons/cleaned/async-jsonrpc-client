@@ -1,0 +1,16 @@
+{
+    "name": "async-jsonrpc-client",
+    "deps": [
+        "async-trait",
+        "async-tungstenite",
+        "env_logger",
+        "futures",
+        "log",
+        "parking_lot",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio"
+    ]
+}

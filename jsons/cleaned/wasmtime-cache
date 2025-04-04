@@ -1,0 +1,23 @@
+{
+    "name": "wasmtime-cache",
+    "deps": [
+        "anyhow",
+        "base64",
+        "bincode",
+        "directories",
+        "errno",
+        "file-per-thread-logger",
+        "filetime",
+        "lazy_static",
+        "libc",
+        "log",
+        "more-asserts",
+        "pretty_env_logger",
+        "serde",
+        "sha2",
+        "tempfile",
+        "toml",
+        "winapi",
+        "zstd"
+    ]
+}

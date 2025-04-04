@@ -1,0 +1,16 @@
+{
+    "name": "machine-check-exec",
+    "deps": [
+        "anyhow",
+        "bimap",
+        "clap",
+        "env_logger",
+        "log",
+        "machine-check-common",
+        "mck",
+        "petgraph",
+        "serde",
+        "serde_json",
+        "thiserror"
+    ]
+}

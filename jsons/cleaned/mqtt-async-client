@@ -1,0 +1,17 @@
+{
+    "name": "mqtt-async-client",
+    "deps": [
+        "bytes",
+        "env_logger",
+        "futures-core",
+        "futures-util",
+        "log",
+        "maplit",
+        "mqttrs",
+        "rustls",
+        "structopt",
+        "tokio",
+        "tokio-rustls",
+        "webpki-roots"
+    ]
+}

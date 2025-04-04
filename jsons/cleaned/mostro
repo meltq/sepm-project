@@ -1,0 +1,24 @@
+{
+    "name": "mostro",
+    "deps": [
+        "anyhow",
+        "chrono",
+        "clap",
+        "config",
+        "easy-hasher",
+        "lightning-invoice",
+        "lnurl-rs",
+        "mostro-core",
+        "nostr-sdk",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "sqlx",
+        "sqlx-crud",
+        "tokio",
+        "tonic_openssl_lnd",
+        "tracing",
+        "tracing-subscriber",
+        "uuid"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "name": "graph_executor",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "dashmap",
+        "futures",
+        "log",
+        "once_cell",
+        "petgraph",
+        "tokio"
+    ]
+}

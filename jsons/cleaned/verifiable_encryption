@@ -1,0 +1,21 @@
+{
+    "name": "verifiable_encryption",
+    "deps": [
+        "ark-bls12-381",
+        "ark-ec",
+        "ark-ff",
+        "ark-secp256r1",
+        "ark-serialize",
+        "ark-std",
+        "blake2",
+        "digest",
+        "dock_crypto_utils",
+        "itertools",
+        "rayon",
+        "secret_sharing_and_dkg",
+        "serde",
+        "serde_with",
+        "sha3",
+        "zeroize"
+    ]
+}

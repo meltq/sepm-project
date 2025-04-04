@@ -1,0 +1,14 @@
+{
+    "name": "sgx_backtrace",
+    "deps": [
+        "sgx_backtrace_sys",
+        "sgx_demangle",
+        "sgx_libc",
+        "sgx_serialize",
+        "sgx_serialize_derive",
+        "sgx_trts",
+        "sgx_tstd",
+        "sgx_types",
+        "sgx_unwind"
+    ]
+}

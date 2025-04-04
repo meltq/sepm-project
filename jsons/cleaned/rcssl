@@ -1,0 +1,22 @@
+{
+    "name": "rcssl",
+    "deps": [
+        "bytes",
+        "chrono",
+        "clap",
+        "color-eyre",
+        "lazy_static",
+        "openssl",
+        "rcgen",
+        "serde",
+        "serde_json",
+        "serde_yaml",
+        "tempfile",
+        "thiserror",
+        "time",
+        "tokio",
+        "tracing",
+        "tracing-appender",
+        "tracing-subscriber"
+    ]
+}

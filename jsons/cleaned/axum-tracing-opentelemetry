@@ -1,0 +1,21 @@
+{
+    "name": "axum-tracing-opentelemetry",
+    "deps": [
+        "assert-json-diff",
+        "axum",
+        "http",
+        "opentelemetry",
+        "opentelemetry-jaeger",
+        "opentelemetry-otlp",
+        "opentelemetry-otlp",
+        "opentelemetry-semantic-conventions",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tower",
+        "tower-http",
+        "tracing",
+        "tracing-opentelemetry",
+        "tracing-subscriber"
+    ]
+}

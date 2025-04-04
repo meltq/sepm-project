@@ -1,0 +1,10 @@
+{
+    "name": "ryde_db",
+    "deps": [
+        "rusqlite",
+        "ryde_db_macros",
+        "serde",
+        "tokio",
+        "tokio-rusqlite"
+    ]
+}

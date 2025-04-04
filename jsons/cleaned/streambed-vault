@@ -1,0 +1,22 @@
+{
+    "name": "streambed-vault",
+    "deps": [
+        "async-trait",
+        "cache_loader_async",
+        "clap",
+        "env_logger",
+        "git-version",
+        "http",
+        "humantime",
+        "hyper",
+        "log",
+        "metrics",
+        "reqwest",
+        "serde",
+        "streambed",
+        "streambed-test",
+        "test-log",
+        "tokio",
+        "tokio-stream"
+    ]
+}

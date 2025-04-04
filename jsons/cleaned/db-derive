@@ -1,0 +1,12 @@
+{
+    "name": "db-derive",
+    "deps": [
+        "db-derive-impl",
+        "postgres",
+        "postgres-types",
+        "r2d2",
+        "r2d2_postgres",
+        "r2d2_sqlite",
+        "rusqlite"
+    ]
+}

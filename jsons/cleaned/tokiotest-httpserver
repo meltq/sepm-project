@@ -1,0 +1,16 @@
+{
+    "name": "tokiotest-httpserver",
+    "deps": [
+        "async-trait",
+        "futures",
+        "hyper",
+        "lazy_static",
+        "queues",
+        "serde_json",
+        "serial_test",
+        "test-context",
+        "tokio",
+        "tokio-test",
+        "tower-http"
+    ]
+}

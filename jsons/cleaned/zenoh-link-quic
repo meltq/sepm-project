@@ -1,0 +1,21 @@
+{
+    "name": "zenoh-link-quic",
+    "deps": [
+        "async-std",
+        "async-trait",
+        "futures",
+        "log",
+        "quinn",
+        "rustls",
+        "rustls-native-certs",
+        "rustls-pemfile",
+        "webpki",
+        "zenoh-cfg-properties",
+        "zenoh-config",
+        "zenoh-core",
+        "zenoh-link-commons",
+        "zenoh-protocol-core",
+        "zenoh-sync",
+        "zenoh-util"
+    ]
+}

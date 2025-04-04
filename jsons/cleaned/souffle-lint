@@ -1,0 +1,16 @@
+{
+    "name": "souffle-lint",
+    "deps": [
+        "anyhow",
+        "atty",
+        "clap",
+        "colored",
+        "rayon",
+        "serde",
+        "serde_yaml",
+        "tracing",
+        "tracing-subscriber",
+        "tree-sitter",
+        "tree-sitter-souffle"
+    ]
+}

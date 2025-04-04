@@ -1,0 +1,17 @@
+{
+    "name": "bmbp_dev_manage",
+    "deps": [
+        "async-trait",
+        "bmbp_rdbc_sql",
+        "chrono",
+        "reqwest",
+        "salvo",
+        "serde",
+        "serde_json",
+        "serde_repr",
+        "tokio",
+        "tracing",
+        "tracing-subscriber",
+        "uuid"
+    ]
+}

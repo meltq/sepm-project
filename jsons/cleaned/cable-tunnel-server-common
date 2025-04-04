@@ -1,0 +1,17 @@
+{
+    "name": "cable-tunnel-server-common",
+    "deps": [
+        "clap",
+        "hex",
+        "http-body",
+        "http-body-util",
+        "hyper",
+        "thiserror",
+        "tokio",
+        "tokio-native-tls",
+        "tokio-tungstenite",
+        "tracing",
+        "tracing-subscriber",
+        "tungstenite"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "firebase-admin-auth-rs",
+    "deps": [
+        "actix-cors",
+        "actix-files",
+        "actix-web",
+        "async-trait",
+        "dotenv",
+        "env_logger",
+        "futures-util",
+        "hyper",
+        "jsonwebtoken",
+        "log",
+        "reqwest",
+        "serde",
+        "tokio",
+        "wiremock"
+    ]
+}

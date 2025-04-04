@@ -1,0 +1,27 @@
+{
+    "name": "trino-rust-client",
+    "deps": [
+        "bigdecimal",
+        "chrono",
+        "chrono-tz",
+        "derive_more",
+        "dotenv",
+        "futures",
+        "http",
+        "iterable",
+        "lazy_static",
+        "log",
+        "maplit",
+        "paste",
+        "regex",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "trino-rust-client-macros",
+        "trybuild",
+        "urlencoding",
+        "uuid"
+    ]
+}

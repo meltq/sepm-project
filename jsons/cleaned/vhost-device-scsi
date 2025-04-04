@@ -1,0 +1,19 @@
+{
+    "name": "vhost-device-scsi",
+    "deps": [
+        "assert_matches",
+        "clap",
+        "env_logger",
+        "epoll",
+        "log",
+        "num_enum",
+        "tempfile",
+        "thiserror",
+        "vhost",
+        "vhost-user-backend",
+        "virtio-bindings",
+        "virtio-queue",
+        "vm-memory",
+        "vmm-sys-util"
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "name": "tetsy-libp2p-secio",
+    "deps": [
+        "aes-ctr",
+        "aesni",
+        "async-std",
+        "criterion",
+        "ctr",
+        "futures",
+        "hmac",
+        "js-sys",
+        "lazy_static",
+        "log",
+        "pin-project",
+        "prost",
+        "prost-build",
+        "quicksink",
+        "rand",
+        "ring",
+        "rw-stream-sink",
+        "sha2",
+        "static_assertions",
+        "tetsy-libp2p-core",
+        "tetsy-send-wrapper",
+        "twofish",
+        "wasm-bindgen",
+        "wasm-bindgen-futures",
+        "web-sys"
+    ]
+}

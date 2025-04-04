@@ -1,0 +1,24 @@
+{
+    "name": "distant-ssh2",
+    "deps": [
+        "assert_cmd",
+        "assert_fs",
+        "async-compat",
+        "distant-core",
+        "flexi_logger",
+        "futures",
+        "indoc",
+        "log",
+        "once_cell",
+        "predicates",
+        "rand",
+        "rpassword",
+        "rstest",
+        "serde",
+        "shell-words",
+        "smol",
+        "tokio",
+        "wezterm-ssh",
+        "whoami"
+    ]
+}

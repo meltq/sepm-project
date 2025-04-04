@@ -1,0 +1,26 @@
+{
+    "name": "zksync_contract_verifier_lib",
+    "deps": [
+        "anyhow",
+        "chrono",
+        "ethabi",
+        "hex",
+        "lazy_static",
+        "regex",
+        "semver",
+        "serde",
+        "serde_json",
+        "tempfile",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "vise",
+        "zksync_config",
+        "zksync_contracts",
+        "zksync_dal",
+        "zksync_env_config",
+        "zksync_queued_job_processor",
+        "zksync_types",
+        "zksync_utils"
+    ]
+}

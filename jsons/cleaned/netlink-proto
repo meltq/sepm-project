@@ -1,0 +1,15 @@
+{
+    "name": "netlink-proto",
+    "deps": [
+        "bytes",
+        "env_logger",
+        "failure",
+        "futures",
+        "lazy_static",
+        "log",
+        "netlink-packet",
+        "netlink-sys",
+        "tokio-io",
+        "tokio-reactor"
+    ]
+}

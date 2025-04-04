@@ -1,0 +1,29 @@
+{
+    "name": "ptth_relay",
+    "deps": [
+        "base64",
+        "blake3",
+        "chrono",
+        "clap",
+        "dashmap",
+        "futures",
+        "futures-util",
+        "handlebars",
+        "http",
+        "hyper",
+        "itertools",
+        "ptth_core",
+        "rand",
+        "rmp-serde",
+        "rusty_ulid",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tokio-stream",
+        "toml",
+        "tracing",
+        "tracing-futures",
+        "tracing-subscriber"
+    ]
+}

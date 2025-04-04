@@ -1,0 +1,27 @@
+{
+    "name": "helium-crypto",
+    "deps": [
+        "base64",
+        "bs58",
+        "drop_guard",
+        "ecc608-linux",
+        "ed25519-compact",
+        "hex",
+        "hex-literal",
+        "k256",
+        "lazy_static",
+        "libc",
+        "multihash",
+        "p256",
+        "rand",
+        "rand_core",
+        "serde",
+        "serde_json",
+        "serde_test",
+        "sha2",
+        "signature",
+        "sqlx",
+        "thiserror",
+        "tss2"
+    ]
+}

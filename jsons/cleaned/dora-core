@@ -1,0 +1,15 @@
+{
+    "name": "dora-core",
+    "deps": [
+        "dora-message",
+        "eyre",
+        "once_cell",
+        "serde",
+        "serde-with-expand-env",
+        "serde_yaml",
+        "tracing",
+        "uuid",
+        "which",
+        "zenoh"
+    ]
+}

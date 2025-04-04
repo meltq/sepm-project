@@ -1,0 +1,16 @@
+{
+    "name": "wasi-experimental-http-wasmtime",
+    "deps": [
+        "anyhow",
+        "bytes",
+        "futures",
+        "http",
+        "reqwest",
+        "tokio",
+        "url",
+        "wasi-common",
+        "wasi-experimental-http",
+        "wasmtime",
+        "wasmtime-wasi"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "name": "fluvio-cluster",
+    "deps": [
+        "fluvio",
+        "fluvio-controlplane-metadata",
+        "fluvio-future",
+        "fluvio-future",
+        "flv-util",
+        "k8-client",
+        "k8-config",
+        "k8-obj-core",
+        "k8-obj-metadata",
+        "semver",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tracing",
+        "tracing-futures",
+        "url"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "todo_app_server",
+    "deps": [
+        "bytes",
+        "chrono",
+        "config",
+        "futures",
+        "lazy_static",
+        "log",
+        "rusqlite",
+        "rustls",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "serde_urlencoded",
+        "simplelog",
+        "tokio",
+        "warp"
+    ]
+}

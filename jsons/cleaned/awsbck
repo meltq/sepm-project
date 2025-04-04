@@ -1,0 +1,19 @@
+{
+    "name": "awsbck",
+    "deps": [
+        "anyhow",
+        "aws-config",
+        "aws-sdk-s3",
+        "aws-smithy-http",
+        "chrono",
+        "clap",
+        "cron",
+        "ctor",
+        "dotenvy",
+        "flate2",
+        "tar",
+        "tempfile",
+        "tokio",
+        "tokio-cron-scheduler"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "merriam-webster-http",
+    "deps": [
+        "hyper",
+        "hyper-rustls",
+        "hyper-tls",
+        "hyper-trust-dns",
+        "merriam-webster-model",
+        "secrecy",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio"
+    ]
+}

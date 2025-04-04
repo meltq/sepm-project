@@ -1,0 +1,22 @@
+{
+    "name": "openpgp-card-tool-git",
+    "deps": [
+        "card-backend-pcsc",
+        "clap",
+        "env_logger",
+        "hex",
+        "log",
+        "notify-rust",
+        "openpgp-card",
+        "openpgp-card-rpgp",
+        "openpgp-card-state",
+        "openpgp-cert-d",
+        "pgp",
+        "rpassword",
+        "rpgpie",
+        "rpgpie-certificate-store",
+        "rstest",
+        "testdir",
+        "testresult"
+    ]
+}

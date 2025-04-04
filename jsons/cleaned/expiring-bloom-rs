@@ -1,0 +1,24 @@
+{
+    "name": "expiring-bloom-rs",
+    "deps": [
+        "axum",
+        "bincode",
+        "bitvec",
+        "criterion",
+        "derive_builder",
+        "dotenvy",
+        "fnv",
+        "murmur3",
+        "rand",
+        "redb",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tower",
+        "tracing",
+        "tracing-subscriber",
+        "utoipa",
+        "utoipa-swagger-ui"
+    ]
+}

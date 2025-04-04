@@ -1,0 +1,31 @@
+{
+    "name": "feroxfuzz",
+    "deps": [
+        "allocation-counter",
+        "async-trait",
+        "base64",
+        "cfg-if",
+        "derive_more",
+        "futures",
+        "hex",
+        "http",
+        "httpmock",
+        "lazy_static",
+        "libafl",
+        "num",
+        "regex",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "serde_regex",
+        "tempdir",
+        "thiserror",
+        "tokio",
+        "tokio-test",
+        "tracing",
+        "tracing-subscriber",
+        "tuple_list",
+        "typetag",
+        "url"
+    ]
+}

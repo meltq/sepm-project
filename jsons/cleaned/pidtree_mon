@@ -1,0 +1,17 @@
+{
+    "name": "pidtree_mon",
+    "deps": [
+        "clap",
+        "daemonize",
+        "env_logger",
+        "fork",
+        "futures",
+        "itertools",
+        "log",
+        "num",
+        "num-derive",
+        "num-traits",
+        "procfs",
+        "tokio"
+    ]
+}

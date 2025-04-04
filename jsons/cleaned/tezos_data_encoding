@@ -1,0 +1,16 @@
+{
+    "name": "tezos_data_encoding",
+    "deps": [
+        "bit-vec",
+        "hex",
+        "lazy_static",
+        "nom",
+        "num-bigint",
+        "num-traits",
+        "serde",
+        "serde_json",
+        "tezos_crypto_rs",
+        "tezos_data_encoding_derive",
+        "thiserror"
+    ]
+}

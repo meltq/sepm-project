@@ -1,0 +1,20 @@
+{
+    "name": "cw-orch-interchain-core",
+    "deps": [
+        "base64",
+        "cosmwasm-schema",
+        "cosmwasm-std",
+        "cw-orch-core",
+        "cw-orch-daemon",
+        "cw-orch-mock",
+        "futures",
+        "ibc-relayer-types",
+        "log",
+        "polytone",
+        "prost",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tonic"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "name": "httpbin-rs",
+    "deps": [
+        "actix-web",
+        "base64",
+        "env_logger",
+        "serde",
+        "serde_json",
+        "tokio",
+        "utoipa",
+        "utoipa-swagger-ui"
+    ]
+}

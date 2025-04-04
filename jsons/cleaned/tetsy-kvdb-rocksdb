@@ -1,0 +1,23 @@
+{
+    "name": "tetsy-kvdb-rocksdb",
+    "deps": [
+        "alloc_counter",
+        "chrono",
+        "criterion",
+        "ctrlc",
+        "fs-swap",
+        "log",
+        "num_cpus",
+        "owning_ref",
+        "parking_lot",
+        "rand",
+        "regex",
+        "rocksdb",
+        "smallvec",
+        "sysinfo",
+        "tempfile",
+        "tetsy-kvdb",
+        "tetsy-kvdb-shared-tests",
+        "tetsy-util-mem"
+    ]
+}

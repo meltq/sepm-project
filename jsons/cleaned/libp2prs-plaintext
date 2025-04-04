@@ -1,0 +1,17 @@
+{
+    "name": "libp2prs-plaintext",
+    "deps": [
+        "async-std",
+        "async-trait",
+        "bytes",
+        "criterion",
+        "env_logger",
+        "futures",
+        "libp2prs-core",
+        "libp2prs-traits",
+        "log",
+        "prost",
+        "prost-build",
+        "secp256k1"
+    ]
+}

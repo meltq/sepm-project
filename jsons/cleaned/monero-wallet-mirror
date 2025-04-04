@@ -1,0 +1,26 @@
+{
+    "name": "monero-wallet-mirror",
+    "deps": [
+        "curve25519-dalek",
+        "dalek-ff-group",
+        "frost",
+        "group",
+        "hex",
+        "monero-address",
+        "monero-clsag",
+        "monero-rpc",
+        "monero-serai",
+        "monero-simple-request-rpc",
+        "rand",
+        "rand_chacha",
+        "rand_core",
+        "rand_distr",
+        "serde",
+        "serde_json",
+        "std-shims",
+        "thiserror",
+        "tokio",
+        "transcript",
+        "zeroize"
+    ]
+}

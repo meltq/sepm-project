@@ -1,0 +1,31 @@
+{
+    "name": "penumbra-sdk-tendermint-proxy",
+    "deps": [
+        "anyhow",
+        "chrono",
+        "futures",
+        "hex",
+        "http",
+        "metrics",
+        "pbjson-types",
+        "penumbra-sdk-proto",
+        "penumbra-sdk-transaction",
+        "pin-project",
+        "pin-project-lite",
+        "sha2",
+        "tap",
+        "tendermint",
+        "tendermint-config",
+        "tendermint-light-client-verifier",
+        "tendermint-proto",
+        "tendermint-rpc",
+        "tokio",
+        "tokio-stream",
+        "tokio-util",
+        "tonic",
+        "tower",
+        "tower-service",
+        "tracing",
+        "url"
+    ]
+}

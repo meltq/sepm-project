@@ -1,0 +1,16 @@
+{
+    "name": "dendrite_mongodb",
+    "deps": [
+        "anyhow",
+        "async-channel",
+        "async-trait",
+        "bytes",
+        "dendrite_lib",
+        "dendrite_macros",
+        "log",
+        "mongodb",
+        "prost",
+        "serde",
+        "tokio"
+    ]
+}

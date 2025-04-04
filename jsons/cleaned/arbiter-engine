@@ -1,0 +1,26 @@
+{
+    "name": "arbiter-engine",
+    "deps": [
+        "anyhow",
+        "arbiter-bindings",
+        "arbiter-bindings",
+        "arbiter-core",
+        "arbiter-core",
+        "arbiter-macros",
+        "async-stream",
+        "async-trait",
+        "crossbeam-channel",
+        "ethers",
+        "futures",
+        "futures-util",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tokio-stream",
+        "toml",
+        "tracing",
+        "tracing-subscriber",
+        "tracing-test"
+    ]
+}

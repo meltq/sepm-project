@@ -1,0 +1,23 @@
+{
+    "name": "iroh-mainline-content-discovery",
+    "deps": [
+        "anyhow",
+        "clap",
+        "derive_more",
+        "futures",
+        "genawaiter",
+        "iroh-bytes",
+        "iroh-net",
+        "iroh-pkarr-node-discovery",
+        "mainline",
+        "postcard",
+        "quinn",
+        "rcgen",
+        "rustls",
+        "serde",
+        "tempfile",
+        "tokio",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

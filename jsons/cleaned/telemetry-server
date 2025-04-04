@@ -1,0 +1,28 @@
+{
+    "name": "telemetry-server",
+    "deps": [
+        "anyhow",
+        "axum",
+        "cfg-if",
+        "chrono",
+        "clap",
+        "duckdb",
+        "env_logger",
+        "futures",
+        "http-serde",
+        "native-tls",
+        "pgtemp",
+        "postgres-native-tls",
+        "rand",
+        "rusqlite",
+        "serde",
+        "serde_json",
+        "tempfile",
+        "tokio",
+        "tokio-postgres",
+        "tokio-util",
+        "tower-http",
+        "tracing",
+        "zstd"
+    ]
+}

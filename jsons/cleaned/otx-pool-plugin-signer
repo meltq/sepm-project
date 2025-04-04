@@ -1,0 +1,16 @@
+{
+    "name": "otx-pool-plugin-signer",
+    "deps": [
+        "anyhow",
+        "ckb-jsonrpc-types",
+        "ckb-sdk",
+        "ckb-types",
+        "dashmap",
+        "log",
+        "otx-format",
+        "otx-pool-config",
+        "otx-pool-plugin-protocol",
+        "otx-sdk",
+        "secp256k1"
+    ]
+}

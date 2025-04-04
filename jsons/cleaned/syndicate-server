@@ -1,0 +1,16 @@
+{
+    "name": "syndicate-server",
+    "deps": [
+        "futures",
+        "structopt",
+        "syndicate",
+        "syndicate-macros",
+        "tokio",
+        "tokio-tungstenite",
+        "tokio-util",
+        "tracing",
+        "tracing-futures",
+        "tracing-subscriber",
+        "tungstenite"
+    ]
+}

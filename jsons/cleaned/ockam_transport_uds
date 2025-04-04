@@ -1,0 +1,13 @@
+{
+    "name": "ockam_transport_uds",
+    "deps": [
+        "ockam_core",
+        "ockam_macros",
+        "ockam_node",
+        "ockam_transport_core",
+        "serde",
+        "socket2",
+        "tokio",
+        "tracing"
+    ]
+}

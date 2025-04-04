@@ -1,0 +1,21 @@
+{
+    "name": "pipebased_common",
+    "deps": [
+        "fslock",
+        "pipebuilder_common",
+        "prost",
+        "prost-build",
+        "prost-types",
+        "rand",
+        "serde",
+        "serde_yaml",
+        "systemd_client",
+        "thiserror",
+        "tonic",
+        "tonic-build",
+        "tracing",
+        "tracing-subscriber",
+        "zbus",
+        "zvariant"
+    ]
+}

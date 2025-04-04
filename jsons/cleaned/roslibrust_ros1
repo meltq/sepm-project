@@ -1,0 +1,21 @@
+{
+    "name": "roslibrust_ros1",
+    "deps": [
+        "abort-on-drop",
+        "anyhow",
+        "byteorder",
+        "gethostname",
+        "hyper",
+        "lazy_static",
+        "log",
+        "regex",
+        "reqwest",
+        "roslibrust_common",
+        "roslibrust_serde_rosmsg",
+        "serde",
+        "serde_xmlrpc",
+        "test-log",
+        "thiserror",
+        "tokio"
+    ]
+}

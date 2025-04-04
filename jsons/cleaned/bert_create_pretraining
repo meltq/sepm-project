@@ -1,0 +1,14 @@
+{
+    "name": "bert_create_pretraining",
+    "deps": [
+        "anyhow",
+        "bert_tokenizer",
+        "clap",
+        "rand",
+        "rand_chacha",
+        "serde",
+        "tfrecord",
+        "unicode-normalization",
+        "unicode_categories"
+    ]
+}

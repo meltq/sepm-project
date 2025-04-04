@@ -1,0 +1,18 @@
+{
+    "name": "move-stackless-bytecode-interpreter",
+    "deps": [
+        "anyhow",
+        "bytecode-interpreter-crypto",
+        "clap",
+        "codespan-reporting",
+        "datatest-stable",
+        "itertools",
+        "move-binary-format",
+        "move-core-types",
+        "move-model",
+        "move-prover-test-utils",
+        "move-stackless-bytecode",
+        "num",
+        "serde"
+    ]
+}

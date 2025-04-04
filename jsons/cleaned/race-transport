@@ -1,0 +1,25 @@
+{
+    "name": "race-transport",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "borsh",
+        "jsonrpsee",
+        "mpl-token-metadata",
+        "project-root",
+        "race-core",
+        "race-env",
+        "race-solana-types",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "shellexpand",
+        "solana-client",
+        "solana-sdk",
+        "spl-associated-token-account",
+        "spl-token",
+        "thiserror",
+        "tokio",
+        "tracing"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "name": "micromegas-analytics",
+    "deps": [
+        "anyhow",
+        "async-recursion",
+        "chrono",
+        "ciborium",
+        "micromegas-telemetry",
+        "micromegas-telemetry-sink",
+        "micromegas-tracing",
+        "micromegas-transit",
+        "prost",
+        "serde_json",
+        "sqlx"
+    ]
+}

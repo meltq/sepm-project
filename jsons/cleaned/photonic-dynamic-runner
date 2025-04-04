@@ -1,0 +1,20 @@
+{
+    "name": "photonic-dynamic-runner",
+    "deps": [
+        "anyhow",
+        "clap",
+        "photonic",
+        "photonic-dynamic",
+        "photonic-effects",
+        "photonic-output-null",
+        "photonic-output-split",
+        "photonic-output-terminal",
+        "ron",
+        "serde",
+        "serde_dhall",
+        "serde_json",
+        "serde_yaml",
+        "tokio",
+        "toml"
+    ]
+}

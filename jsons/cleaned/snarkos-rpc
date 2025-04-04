@@ -1,0 +1,26 @@
+{
+    "name": "snarkos-rpc",
+    "deps": [
+        "base64",
+        "chrono",
+        "hex",
+        "jsonrpc-core",
+        "jsonrpc-core-client",
+        "jsonrpc-derive",
+        "jsonrpc-http-server",
+        "jsonrpc-test",
+        "rand",
+        "rustc_version",
+        "serde",
+        "serde_json",
+        "snarkos-consensus",
+        "snarkos-dpc",
+        "snarkos-errors",
+        "snarkos-models",
+        "snarkos-network",
+        "snarkos-objects",
+        "snarkos-storage",
+        "snarkos-utilities",
+        "tokio"
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "name": "gossipsub",
+    "deps": [
+        "async-std",
+        "asynchronous-codec",
+        "base64",
+        "byteorder",
+        "bytes",
+        "derive_builder",
+        "env_logger",
+        "fnv",
+        "futures",
+        "hex",
+        "hex_fmt",
+        "log",
+        "prost",
+        "prost-build",
+        "quickcheck",
+        "rand",
+        "regex",
+        "sha2",
+        "smallvec",
+        "tet-libp2p-core",
+        "tet-libp2p-swarm",
+        "unsigned-varint",
+        "wasm-timer"
+    ]
+}

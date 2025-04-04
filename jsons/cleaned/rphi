@@ -1,0 +1,24 @@
+{
+    "name": "rphi",
+    "deps": [
+        "accelerate-src",
+        "anyhow",
+        "async-trait",
+        "candle-core",
+        "candle-nn",
+        "candle-transformers",
+        "cudarc",
+        "half",
+        "hf-hub",
+        "intel-mkl-src",
+        "kalosm-language-model",
+        "kalosm-sample",
+        "kalosm-streams",
+        "llm-samplers",
+        "rand",
+        "serde_json",
+        "tokenizers",
+        "tokio",
+        "tracing"
+    ]
+}

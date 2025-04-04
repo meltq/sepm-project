@@ -1,0 +1,30 @@
+{
+    "name": "demikernel",
+    "deps": [
+        "anyhow",
+        "arrayvec",
+        "async-trait",
+        "bit-iter",
+        "cfg-if",
+        "clap",
+        "crc",
+        "crossbeam-channel",
+        "demikernel-dpdk-rs",
+        "demikernel-nettest",
+        "demikernel-xdp-rs",
+        "eui48",
+        "flexi_logger",
+        "futures",
+        "histogram",
+        "libc",
+        "log",
+        "mimalloc",
+        "rand",
+        "slab",
+        "socket2",
+        "windows",
+        "windows-sys",
+        "x86",
+        "yaml-rust"
+    ]
+}

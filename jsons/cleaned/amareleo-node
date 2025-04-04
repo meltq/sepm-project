@@ -1,0 +1,22 @@
+{
+    "name": "amareleo-node",
+    "deps": [
+        "aleo-std",
+        "amareleo-chain-account",
+        "amareleo-node-bft",
+        "amareleo-node-consensus",
+        "amareleo-node-rest",
+        "amareleo-node-sync",
+        "anyhow",
+        "metrics",
+        "once_cell",
+        "parking_lot",
+        "rand",
+        "rand_chacha",
+        "rayon",
+        "snarkvm",
+        "tokio",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

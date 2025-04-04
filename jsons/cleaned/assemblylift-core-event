@@ -1,0 +1,13 @@
+{
+    "name": "assemblylift-core-event",
+    "deps": [
+        "assemblylift-core-event-common",
+        "bincode",
+        "crossbeam-utils",
+        "futures",
+        "indexmap",
+        "lazy_static",
+        "serde",
+        "tokio"
+    ]
+}

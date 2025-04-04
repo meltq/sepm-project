@@ -1,0 +1,20 @@
+{
+    "name": "rgz_transport",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "local-ip-address",
+        "once_cell",
+        "prost",
+        "prost-types",
+        "regex",
+        "rgz_msgs",
+        "socket2",
+        "tokio",
+        "tracing",
+        "tracing-subscriber",
+        "uuid",
+        "whoami",
+        "zmq"
+    ]
+}

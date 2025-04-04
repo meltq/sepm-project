@@ -1,0 +1,23 @@
+{
+    "name": "graphsync",
+    "deps": [
+        "anyhow",
+        "async-std",
+        "clap",
+        "criterion",
+        "futures",
+        "hex",
+        "ipld_traversal",
+        "libipld",
+        "libp2p",
+        "rand",
+        "serde",
+        "serde_bytes",
+        "serde_ipld_dagcbor",
+        "serde_repr",
+        "serde_tuple",
+        "smallvec",
+        "thiserror",
+        "uuid"
+    ]
+}

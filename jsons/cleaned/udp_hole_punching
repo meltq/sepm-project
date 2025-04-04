@@ -1,0 +1,13 @@
+{
+    "name": "udp_hole_punching",
+    "deps": [
+        "anyhow",
+        "async-std",
+        "lazy_static",
+        "punching_client",
+        "punching_server",
+        "serde",
+        "serde_derive",
+        "serde_json"
+    ]
+}

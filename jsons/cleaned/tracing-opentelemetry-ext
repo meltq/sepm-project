@@ -1,0 +1,16 @@
+{
+    "name": "tracing-opentelemetry-ext",
+    "deps": [
+        "axum",
+        "axum-tracing-opentelemetry",
+        "opentelemetry",
+        "opentelemetry-http",
+        "thiserror",
+        "tokio",
+        "tonic",
+        "tower",
+        "tracing",
+        "tracing-opentelemetry",
+        "tracing-subscriber"
+    ]
+}

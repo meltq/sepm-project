@@ -1,0 +1,25 @@
+{
+    "name": "linker-diff",
+    "deps": [
+        "anyhow",
+        "bytemuck",
+        "clap",
+        "colored",
+        "fallible-iterator",
+        "gimli",
+        "iced-x86",
+        "itertools",
+        "linker-layout",
+        "linker-trace",
+        "linker-utils",
+        "memchr",
+        "memmap2",
+        "object",
+        "rayon",
+        "symbolic-demangle",
+        "tempfile",
+        "tracing",
+        "tracing-subscriber",
+        "which"
+    ]
+}

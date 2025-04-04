@@ -1,0 +1,25 @@
+{
+    "name": "thruster-socketio",
+    "deps": [
+        "base64",
+        "chashmap",
+        "crossbeam",
+        "dotenv",
+        "env_logger",
+        "futures",
+        "futures-util",
+        "hyper",
+        "lazy_static",
+        "log",
+        "rand",
+        "rust-crypto",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "thruster",
+        "thruster-socketio-proc",
+        "tokio",
+        "tokio-tungstenite",
+        "trezm-redis"
+    ]
+}

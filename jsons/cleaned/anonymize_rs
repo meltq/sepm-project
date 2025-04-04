@@ -1,0 +1,19 @@
+{
+    "name": "anonymize_rs",
+    "deps": [
+        "actix-web",
+        "anyhow",
+        "clap",
+        "env_logger",
+        "ndarray",
+        "regex",
+        "reqwest",
+        "serde",
+        "serde_yaml",
+        "thiserror",
+        "tokenizers",
+        "tokio",
+        "tract-onnx",
+        "url"
+    ]
+}

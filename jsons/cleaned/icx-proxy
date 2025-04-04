@@ -1,0 +1,21 @@
+{
+    "name": "icx-proxy",
+    "deps": [
+        "candid",
+        "clap",
+        "delay",
+        "hex",
+        "hyper",
+        "hyper-tls",
+        "ic-agent",
+        "ic-types",
+        "ic-utils",
+        "serde",
+        "serde_json",
+        "slog",
+        "slog-async",
+        "slog-term",
+        "tokio",
+        "url"
+    ]
+}

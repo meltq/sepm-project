@@ -1,0 +1,20 @@
+{
+    "name": "axum-health",
+    "deps": [
+        "async-trait",
+        "axum",
+        "axum-test",
+        "diesel",
+        "diesel-async",
+        "futures",
+        "sea-orm",
+        "serde",
+        "sqlx",
+        "sqlx",
+        "tempfile",
+        "testcontainers",
+        "testcontainers-modules",
+        "tokio",
+        "tower-layer"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "name": "miraland-stake-program",
+    "deps": [
+        "assert_matches",
+        "bincode",
+        "log",
+        "miraland-config-program",
+        "miraland-frozen-abi",
+        "miraland-frozen-abi-macro",
+        "miraland-logger",
+        "miraland-metrics",
+        "miraland-program-runtime",
+        "miraland-sdk",
+        "miraland-vote-program",
+        "num-derive",
+        "num-traits",
+        "proptest",
+        "rustc_version",
+        "serde",
+        "serde_derive",
+        "test-case",
+        "thiserror"
+    ]
+}

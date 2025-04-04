@@ -1,0 +1,14 @@
+{
+    "name": "vsmtp-delivery",
+    "deps": [
+        "async-trait",
+        "lettre",
+        "time",
+        "tokio",
+        "tokio",
+        "trust-dns-resolver",
+        "users",
+        "vsmtp-common",
+        "vsmtp-config"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "name": "aptos-management",
+    "deps": [
+        "anyhow",
+        "aptos-config",
+        "aptos-config",
+        "aptos-crypto",
+        "aptos-global-constants",
+        "aptos-secure-storage",
+        "aptos-temppath",
+        "aptos-time-service",
+        "aptos-transaction-builder",
+        "aptos-types",
+        "bcs",
+        "hex",
+        "serde",
+        "serde_yaml",
+        "structopt",
+        "thiserror"
+    ]
+}

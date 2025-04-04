@@ -1,0 +1,12 @@
+{
+    "name": "prometheus-serve-metrics",
+    "deps": [
+        "hyper",
+        "opentelemetry",
+        "opentelemetry-prometheus",
+        "prometheus",
+        "tokio",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

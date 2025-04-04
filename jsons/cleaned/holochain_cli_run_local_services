@@ -1,0 +1,13 @@
+{
+    "name": "holochain_cli_run_local_services",
+    "deps": [
+        "futures",
+        "holochain_trace",
+        "if-addrs",
+        "kitsune_p2p_bootstrap",
+        "structopt",
+        "tokio",
+        "tracing",
+        "tx5-signal-srv"
+    ]
+}

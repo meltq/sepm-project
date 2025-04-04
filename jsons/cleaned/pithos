@@ -1,0 +1,28 @@
+{
+    "name": "pithos",
+    "deps": [
+        "anyhow",
+        "async-channel",
+        "async-trait",
+        "base64",
+        "borsh",
+        "bytes",
+        "chacha20poly1305",
+        "clap",
+        "crypto_kx",
+        "dotenvy",
+        "futures",
+        "futures-util",
+        "indicatif",
+        "openssl",
+        "pithos_lib",
+        "rand",
+        "serde_json",
+        "tokio",
+        "tokio-stream",
+        "tokio-util",
+        "tracing",
+        "tracing-subscriber",
+        "x25519-dalek"
+    ]
+}

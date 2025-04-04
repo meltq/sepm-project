@@ -1,0 +1,15 @@
+{
+    "name": "s3-transfer-manager",
+    "deps": [
+        "aws-config",
+        "aws-sdk-s3",
+        "aws-smithy-types",
+        "bytes",
+        "futures",
+        "futures-core",
+        "indicatif",
+        "log",
+        "tokio",
+        "tokio-util"
+    ]
+}

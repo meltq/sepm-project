@@ -1,0 +1,25 @@
+{
+    "name": "background-jobs-postgres",
+    "deps": [
+        "async-trait",
+        "background-jobs-core",
+        "barrel",
+        "dashmap",
+        "deadpool",
+        "diesel",
+        "diesel-async",
+        "diesel-derive-enum",
+        "flume",
+        "futures-core",
+        "metrics",
+        "pin-project-lite",
+        "refinery",
+        "serde_json",
+        "time",
+        "tokio",
+        "tokio-postgres",
+        "tracing",
+        "url",
+        "uuid"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "broccoli_queue",
+    "deps": [
+        "async-trait",
+        "bb8-redis",
+        "chrono",
+        "env_logger",
+        "futures",
+        "log",
+        "redis",
+        "serde",
+        "serde_json",
+        "sha256",
+        "thiserror",
+        "tokio",
+        "tokio",
+        "uuid"
+    ]
+}

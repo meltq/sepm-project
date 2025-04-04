@@ -1,0 +1,19 @@
+{
+    "name": "system_info_collector",
+    "deps": [
+        "anyhow",
+        "chrono",
+        "crossbeam-channel",
+        "csv",
+        "ctrlc",
+        "handsome_logger",
+        "humansize",
+        "log",
+        "open",
+        "plotly",
+        "serde",
+        "sysinfo",
+        "time",
+        "tokio"
+    ]
+}

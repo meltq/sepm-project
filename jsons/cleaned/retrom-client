@@ -1,0 +1,15 @@
+{
+    "name": "retrom-client",
+    "deps": [
+        "prost",
+        "retrom-codegen",
+        "serde",
+        "serde_json",
+        "tauri",
+        "tauri-build",
+        "tokio",
+        "tonic",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

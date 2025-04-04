@@ -1,0 +1,25 @@
+{
+    "name": "tetcore-browser-utils",
+    "deps": [
+        "chrono",
+        "console_error_panic_hook",
+        "futures",
+        "futures-timer",
+        "futures01",
+        "getrandom",
+        "js-sys",
+        "log",
+        "rand",
+        "tc-chain-spec",
+        "tc-informant",
+        "tc-network",
+        "tc-service",
+        "tc-telemetry",
+        "tc-tracing",
+        "tetcore-database",
+        "tetsy-kvdb-web",
+        "tetsy-libp2p-wasm-ext",
+        "wasm-bindgen",
+        "wasm-bindgen-futures"
+    ]
+}

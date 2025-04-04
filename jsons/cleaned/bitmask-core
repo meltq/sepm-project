@@ -1,0 +1,27 @@
+{
+    "name": "bitmask-core",
+    "deps": [
+        "anyhow",
+        "base64",
+        "bdk",
+        "bip39",
+        "bitcoin",
+        "console_error_panic_hook",
+        "futures",
+        "getrandom",
+        "gloo-console",
+        "gloo-storage",
+        "js-sys",
+        "once_cell",
+        "reqwasm",
+        "serde",
+        "serde-encrypt",
+        "serde_json",
+        "sha2",
+        "wasm-bindgen",
+        "wasm-bindgen-futures",
+        "wasm-bindgen-test",
+        "web-sys",
+        "wee_alloc"
+    ]
+}

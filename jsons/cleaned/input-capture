@@ -1,0 +1,23 @@
+{
+    "name": "input-capture",
+    "deps": [
+        "anyhow",
+        "ashpd",
+        "core-graphics",
+        "futures",
+        "futures-core",
+        "input-event",
+        "log",
+        "memmap",
+        "once_cell",
+        "reis",
+        "tempfile",
+        "thiserror",
+        "tokio",
+        "wayland-client",
+        "wayland-protocols",
+        "wayland-protocols-wlr",
+        "windows",
+        "x11"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "name": "wasmer-wasix-types",
+    "deps": [
+        "anyhow",
+        "bitflags",
+        "byteorder",
+        "cfg-if",
+        "num_enum",
+        "pretty_assertions",
+        "serde",
+        "time",
+        "wai-bindgen-gen-core",
+        "wai-bindgen-gen-rust",
+        "wai-bindgen-gen-rust-wasm",
+        "wai-bindgen-rust",
+        "wai-parser",
+        "wasmer",
+        "wasmer-derive",
+        "wasmer-types"
+    ]
+}

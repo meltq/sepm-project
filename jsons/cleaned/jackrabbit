@@ -1,0 +1,19 @@
+{
+    "name": "jackrabbit",
+    "deps": [
+        "anyhow",
+        "async-tungstenite",
+        "futures",
+        "go-flag",
+        "lazy_static",
+        "rmp-serde",
+        "rocksdb",
+        "serde",
+        "serde_bytes",
+        "serde_derive",
+        "tokio",
+        "tokio-rustls",
+        "uuid",
+        "webpki-roots"
+    ]
+}

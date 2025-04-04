@@ -1,0 +1,14 @@
+{
+    "name": "post-commands",
+    "deps": [
+        "axum",
+        "clap",
+        "config",
+        "env_logger",
+        "log",
+        "serde",
+        "thiserror",
+        "tokio",
+        "tower-http"
+    ]
+}

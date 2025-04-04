@@ -1,0 +1,26 @@
+{
+    "name": "ci-manager",
+    "deps": [
+        "anyhow",
+        "assert_cmd",
+        "assert_fs",
+        "clap",
+        "clap_complete",
+        "distance",
+        "gitlab",
+        "log",
+        "octocrab",
+        "once_cell",
+        "predicates",
+        "pretty_assertions",
+        "regex",
+        "serde",
+        "serde_json",
+        "stderrlog",
+        "strum",
+        "temp-dir",
+        "time",
+        "tokio",
+        "zip"
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "name": "tower-sesh",
+    "deps": [
+        "anyhow",
+        "async-once-cell",
+        "async-trait",
+        "axum",
+        "cookie",
+        "futures",
+        "http",
+        "insta",
+        "itoa",
+        "parking_lot",
+        "pin-project-lite",
+        "quickcheck",
+        "rmp-serde",
+        "ryu",
+        "serde",
+        "serde_json",
+        "time",
+        "tokio",
+        "tower",
+        "tower-sesh-core",
+        "tracing"
+    ]
+}

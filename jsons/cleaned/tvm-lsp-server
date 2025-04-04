@@ -1,0 +1,16 @@
+{
+    "name": "tvm-lsp-server",
+    "deps": [
+        "ahash",
+        "anyhow",
+        "async-trait",
+        "dashmap",
+        "either",
+        "everscale-asm",
+        "serde_json",
+        "tokio",
+        "tower-lsp",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

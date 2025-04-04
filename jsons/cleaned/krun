@@ -1,0 +1,19 @@
+{
+    "name": "krun",
+    "deps": [
+        "anyhow",
+        "bpaf",
+        "byteorder",
+        "env_logger",
+        "krun-sys",
+        "log",
+        "nix",
+        "rustix",
+        "serde",
+        "serde_json",
+        "tempfile",
+        "tokio",
+        "tokio-stream",
+        "uuid"
+    ]
+}

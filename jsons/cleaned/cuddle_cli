@@ -1,0 +1,25 @@
+{
+    "name": "cuddle_cli",
+    "deps": [
+        "anyhow",
+        "clap",
+        "dirs",
+        "dotenv",
+        "envconfig",
+        "git2",
+        "inquire",
+        "libz-sys",
+        "log",
+        "openssl",
+        "rlua",
+        "rlua-searcher",
+        "serde",
+        "serde_json",
+        "serde_yaml",
+        "tempfile",
+        "tera",
+        "tracing",
+        "tracing-subscriber",
+        "walkdir"
+    ]
+}

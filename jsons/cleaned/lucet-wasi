@@ -1,0 +1,19 @@
+{
+    "name": "lucet-wasi",
+    "deps": [
+        "bindgen",
+        "cast",
+        "clap",
+        "failure",
+        "human-size",
+        "libc",
+        "lucet-module-data",
+        "lucet-runtime",
+        "lucet-runtime-internals",
+        "lucet-wasi-sdk",
+        "lucetc",
+        "nix",
+        "rand",
+        "tempfile"
+    ]
+}

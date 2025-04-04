@@ -1,0 +1,26 @@
+{
+    "name": "omnix-ci",
+    "deps": [
+        "anyhow",
+        "clap",
+        "colored",
+        "futures-lite",
+        "lazy_static",
+        "nix_rs",
+        "nonempty",
+        "omnix-common",
+        "omnix-health",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "shell-words",
+        "tempfile",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "tracing-subscriber",
+        "try-guard",
+        "url",
+        "urlencoding"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "name": "waffles-solana-tpu-client",
+    "deps": [
+        "async-trait",
+        "bincode",
+        "futures-util",
+        "indexmap",
+        "indicatif",
+        "log",
+        "rand",
+        "rand_chacha",
+        "rayon",
+        "solana-logger",
+        "solana-measure",
+        "solana-metrics",
+        "solana-net-utils",
+        "solana-pubsub-client",
+        "solana-rpc-client",
+        "solana-rpc-client-api",
+        "solana-sdk",
+        "thiserror",
+        "tokio"
+    ]
+}

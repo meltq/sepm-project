@@ -1,0 +1,25 @@
+{
+    "name": "pricedb",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "chrono",
+        "clap",
+        "confy",
+        "env_logger",
+        "env_logger",
+        "log",
+        "reqwest",
+        "rusqlite",
+        "rust_decimal",
+        "rust_decimal_macros",
+        "sea-query",
+        "sea-query-rusqlite",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "tempfile",
+        "test-log",
+        "tokio"
+    ]
+}

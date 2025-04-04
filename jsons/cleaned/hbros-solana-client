@@ -1,0 +1,31 @@
+{
+    "name": "hbros-solana-client",
+    "deps": [
+        "async-trait",
+        "bincode",
+        "crossbeam-channel",
+        "dashmap",
+        "futures",
+        "futures-util",
+        "indexmap",
+        "indicatif",
+        "log",
+        "quinn",
+        "rayon",
+        "solana-connection-cache",
+        "solana-measure",
+        "solana-metrics",
+        "solana-pubsub-client",
+        "solana-quic-client",
+        "solana-rpc-client",
+        "solana-rpc-client-api",
+        "solana-rpc-client-nonce-utils",
+        "solana-sdk",
+        "solana-streamer",
+        "solana-thin-client",
+        "solana-tpu-client",
+        "solana-udp-client",
+        "thiserror",
+        "tokio"
+    ]
+}

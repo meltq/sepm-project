@@ -1,0 +1,27 @@
+{
+    "name": "libzerostash",
+    "deps": [
+        "blake2b_simd",
+        "criterion",
+        "crossbeam-channel",
+        "crossbeam-utils",
+        "dashmap",
+        "getrandom",
+        "glob",
+        "itertools",
+        "libc",
+        "lru",
+        "lz4",
+        "memmap",
+        "ring",
+        "rust-argon2",
+        "seahash",
+        "secrecy",
+        "serde",
+        "serde_cbor",
+        "serde_derive",
+        "thiserror",
+        "walkdir",
+        "zeroize"
+    ]
+}

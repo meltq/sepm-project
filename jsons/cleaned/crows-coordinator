@@ -1,0 +1,16 @@
+{
+    "name": "crows-coordinator",
+    "deps": [
+        "crows-service",
+        "crows-shared",
+        "crows-utils",
+        "crows-wasm",
+        "futures",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tokio-serde",
+        "tokio-util",
+        "uuid"
+    ]
+}

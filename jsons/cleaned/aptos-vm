@@ -1,0 +1,26 @@
+{
+    "name": "aptos-vm",
+    "deps": [
+        "anyhow",
+        "aptos-crypto",
+        "aptos-crypto-derive",
+        "aptos-framework",
+        "aptos-logger",
+        "aptos-metrics",
+        "aptos-parallel-executor",
+        "aptos-state-view",
+        "aptos-types",
+        "bcs",
+        "fail",
+        "mirai-annotations",
+        "move-deps",
+        "mvhashmap",
+        "num_cpus",
+        "once_cell",
+        "proptest",
+        "rayon",
+        "serde",
+        "serde_json",
+        "tracing"
+    ]
+}

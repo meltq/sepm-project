@@ -1,0 +1,12 @@
+{
+    "name": "yb-postgres-openssl",
+    "deps": [
+        "futures-util",
+        "openssl",
+        "tokio",
+        "tokio",
+        "tokio-openssl",
+        "yb-postgres",
+        "yb-tokio-postgres"
+    ]
+}

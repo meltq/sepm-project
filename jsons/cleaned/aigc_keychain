@@ -1,0 +1,20 @@
+{
+    "name": "aigc_keychain",
+    "deps": [
+        "aigc_util",
+        "blake2-rfc",
+        "byteorder",
+        "digest",
+        "hmac",
+        "lazy_static",
+        "log",
+        "pbkdf2",
+        "rand",
+        "ripemd160",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "sha2",
+        "zeroize"
+    ]
+}

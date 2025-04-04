@@ -1,0 +1,12 @@
+{
+    "name": "nt-network",
+    "deps": [
+        "bytes",
+        "crossbeam-channel",
+        "failure",
+        "futures",
+        "nt-leb128",
+        "tokio-codec",
+        "wasm-bindgen"
+    ]
+}

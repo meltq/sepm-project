@@ -1,0 +1,24 @@
+{
+    "name": "ore-private-pool-cli",
+    "deps": [
+        "base64",
+        "bincode",
+        "clap",
+        "core_affinity",
+        "crossbeam",
+        "drillx",
+        "futures-util",
+        "ore-api",
+        "ore-utils",
+        "rand",
+        "rand_chacha",
+        "rayon",
+        "reqwest",
+        "rpassword",
+        "solana-sdk",
+        "spl-token",
+        "tokio",
+        "tokio-tungstenite",
+        "url"
+    ]
+}

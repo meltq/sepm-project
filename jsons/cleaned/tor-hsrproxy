@@ -1,0 +1,24 @@
+{
+    "name": "tor-hsrproxy",
+    "deps": [
+        "derive-adhoc",
+        "derive_builder",
+        "futures",
+        "rangemap",
+        "safelog",
+        "serde",
+        "serde_json",
+        "serde_with",
+        "thiserror",
+        "toml",
+        "tor-async-utils",
+        "tor-cell",
+        "tor-config",
+        "tor-error",
+        "tor-hsservice",
+        "tor-proto",
+        "tor-rtcompat",
+        "tracing",
+        "void"
+    ]
+}

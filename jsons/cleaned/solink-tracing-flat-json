@@ -1,0 +1,13 @@
+{
+    "name": "solink-tracing-flat-json",
+    "deps": [
+        "chrono",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tracing",
+        "tracing-appender",
+        "tracing-serde",
+        "tracing-subscriber"
+    ]
+}

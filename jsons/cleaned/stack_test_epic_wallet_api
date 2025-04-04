@@ -1,0 +1,24 @@
+{
+    "name": "stack_test_epic_wallet_api",
+    "deps": [
+        "base64",
+        "chrono",
+        "easy-jsonrpc-mw",
+        "ed25519-dalek",
+        "failure",
+        "failure_derive",
+        "log",
+        "rand",
+        "ring",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "serde_json",
+        "stack_test_epic_wallet_config",
+        "stack_test_epic_wallet_impls",
+        "stack_test_epic_wallet_libwallet",
+        "stack_test_epic_wallet_util",
+        "tempfile",
+        "uuid"
+    ]
+}

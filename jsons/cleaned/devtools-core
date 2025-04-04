@@ -1,0 +1,23 @@
+{
+    "name": "devtools-core",
+    "deps": [
+        "async-stream",
+        "bytes",
+        "devtools-wire-format",
+        "futures",
+        "http",
+        "prost-types",
+        "ringbuf",
+        "thiserror",
+        "tokio",
+        "tokio-stream",
+        "tonic",
+        "tonic-health",
+        "tonic-web",
+        "tower-http",
+        "tower-layer",
+        "tracing",
+        "tracing-core",
+        "tracing-subscriber"
+    ]
+}

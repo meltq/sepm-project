@@ -1,0 +1,17 @@
+{
+    "name": "tower-sessions-rusqlite-store",
+    "deps": [
+        "async-trait",
+        "axum",
+        "rmp-serde",
+        "rusqlite",
+        "serde",
+        "thiserror",
+        "time",
+        "tokio",
+        "tokio-rusqlite",
+        "tokio-test",
+        "tower-sessions",
+        "tower-sessions-core"
+    ]
+}

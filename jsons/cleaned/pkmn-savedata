@@ -1,0 +1,15 @@
+{
+    "name": "pkmn-savedata",
+    "deps": [
+        "clap",
+        "crc32fast",
+        "no_std_io2",
+        "num_enum",
+        "pkmn-core-types",
+        "pkmn-strings",
+        "serde",
+        "serde_json",
+        "static_assertions",
+        "zerocopy"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "rsql_driver_postgres",
+    "deps": [
+        "async-trait",
+        "bit-vec",
+        "chrono",
+        "file_type",
+        "postgresql_embedded",
+        "rsql_driver",
+        "rsql_driver_postgresql",
+        "serde_json",
+        "sqlparser",
+        "tokio",
+        "tokio",
+        "tokio-postgres",
+        "tracing",
+        "url"
+    ]
+}

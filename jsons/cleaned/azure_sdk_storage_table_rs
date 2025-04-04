@@ -1,0 +1,18 @@
+{
+    "name": "azure_sdk_storage_table_rs",
+    "deps": [
+        "azure_sdk_core_rs",
+        "azure_sdk_storage_core_rs",
+        "chrono",
+        "env_logger",
+        "futures",
+        "http",
+        "hyper",
+        "log",
+        "quick-error",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "tokio"
+    ]
+}

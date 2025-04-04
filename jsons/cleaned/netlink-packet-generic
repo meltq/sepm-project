@@ -1,0 +1,11 @@
+{
+    "name": "netlink-packet-generic",
+    "deps": [
+        "anyhow",
+        "byteorder",
+        "libc",
+        "netlink-packet-core",
+        "netlink-packet-utils",
+        "netlink-sys"
+    ]
+}

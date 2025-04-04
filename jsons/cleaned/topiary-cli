@@ -1,0 +1,22 @@
+{
+    "name": "topiary-cli",
+    "deps": [
+        "assert_cmd",
+        "async-scoped",
+        "clap",
+        "clap_complete",
+        "env_logger",
+        "futures",
+        "itertools",
+        "log",
+        "predicates",
+        "serde",
+        "tempfile",
+        "tokio",
+        "toml",
+        "topiary-config",
+        "topiary-core",
+        "topiary-queries",
+        "topiary-tree-sitter-facade"
+    ]
+}

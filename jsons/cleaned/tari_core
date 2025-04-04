@@ -1,0 +1,19 @@
+{
+    "name": "tari_core",
+    "deps": [
+        "base64",
+        "bitflags",
+        "chrono",
+        "curve25519-dalek",
+        "derive-error",
+        "digest",
+        "rand",
+        "rmp-serde",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "tari_crypto",
+        "tari_infra_derive",
+        "tari_utilities"
+    ]
+}

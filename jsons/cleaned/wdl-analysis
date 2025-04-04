@@ -1,0 +1,23 @@
+{
+    "name": "wdl-analysis",
+    "deps": [
+        "anyhow",
+        "codespan-reporting",
+        "colored",
+        "futures",
+        "glob",
+        "indexmap",
+        "log",
+        "parking_lot",
+        "path-clean",
+        "petgraph",
+        "pretty_assertions",
+        "rayon",
+        "reqwest",
+        "rowan",
+        "tokio",
+        "url",
+        "wdl-ast",
+        "wdl-lint"
+    ]
+}

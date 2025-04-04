@@ -1,0 +1,21 @@
+{
+    "name": "tcp_ip",
+    "deps": [
+        "anyhow",
+        "bytes",
+        "clap",
+        "crossbeam",
+        "dashmap",
+        "env_logger",
+        "flume",
+        "log",
+        "num_enum",
+        "packet",
+        "parking_lot",
+        "pnet_packet",
+        "rand",
+        "tokio",
+        "tokio-util",
+        "tun-rs"
+    ]
+}

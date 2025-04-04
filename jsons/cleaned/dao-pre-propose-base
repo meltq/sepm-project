@@ -1,0 +1,18 @@
+{
+    "name": "dao-pre-propose-base",
+    "deps": [
+        "cosmwasm-schema",
+        "cosmwasm-std",
+        "cw-denom",
+        "cw-hooks",
+        "cw-multi-test",
+        "cw-storage-plus",
+        "cw-utils",
+        "cw2",
+        "dao-interface",
+        "dao-proposal-hooks",
+        "dao-voting",
+        "serde",
+        "thiserror"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "libwebrtc",
+    "deps": [
+        "cxx",
+        "env_logger",
+        "jni",
+        "js-sys",
+        "lazy_static",
+        "livekit-protocol",
+        "log",
+        "parking_lot",
+        "thiserror",
+        "tokio",
+        "tokio-stream",
+        "wasm-bindgen",
+        "wasm-bindgen-futures",
+        "web-sys",
+        "webrtc-sys"
+    ]
+}

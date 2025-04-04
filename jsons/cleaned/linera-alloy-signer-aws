@@ -1,0 +1,17 @@
+{
+    "name": "linera-alloy-signer-aws",
+    "deps": [
+        "async-trait",
+        "aws-config",
+        "aws-sdk-kms",
+        "k256",
+        "linera-alloy-consensus",
+        "linera-alloy-network",
+        "linera-alloy-primitives",
+        "linera-alloy-signer",
+        "spki",
+        "thiserror",
+        "tokio",
+        "tracing"
+    ]
+}

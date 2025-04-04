@@ -1,0 +1,21 @@
+{
+    "name": "sparreal-rt",
+    "deps": [
+        "aarch64-cpu",
+        "arm-gic-driver",
+        "arm-pl011-rs",
+        "arm_pl031",
+        "bitflags",
+        "driver-interface",
+        "embedded-io",
+        "fdt-parser",
+        "futures",
+        "log",
+        "memory_addr",
+        "page-table-arm",
+        "page-table-generic",
+        "sparreal-kernel",
+        "sparreal-macros",
+        "tock-registers"
+    ]
+}

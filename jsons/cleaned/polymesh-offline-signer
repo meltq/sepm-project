@@ -1,0 +1,19 @@
+{
+    "name": "polymesh-offline-signer",
+    "deps": [
+        "anyhow",
+        "clap",
+        "codec",
+        "dotenv",
+        "env_logger",
+        "hex",
+        "log",
+        "polymesh-api",
+        "rust_decimal",
+        "serde_json",
+        "sp-core",
+        "sp-keyring",
+        "subxt-signer",
+        "tokio"
+    ]
+}

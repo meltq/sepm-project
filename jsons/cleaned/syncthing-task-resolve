@@ -1,0 +1,21 @@
+{
+    "name": "syncthing-task-resolve",
+    "deps": [
+        "clap",
+        "color-eyre",
+        "directories",
+        "env_logger",
+        "jiff",
+        "log",
+        "once_cell",
+        "regex",
+        "serde",
+        "serde_json",
+        "task-hookrs",
+        "taskchampion",
+        "tempfile",
+        "toml",
+        "uuid",
+        "which"
+    ]
+}

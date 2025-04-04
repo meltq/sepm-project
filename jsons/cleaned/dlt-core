@@ -1,0 +1,26 @@
+{
+    "name": "dlt-core",
+    "deps": [
+        "byteorder",
+        "bytes",
+        "chrono",
+        "criterion",
+        "crossbeam-channel",
+        "derive_more",
+        "dirs",
+        "env_logger",
+        "humantime",
+        "lazy_static",
+        "log",
+        "nom",
+        "pcap-parser",
+        "pretty_assertions",
+        "proptest",
+        "proptest-derive",
+        "quick-xml",
+        "rustc-hash",
+        "serde",
+        "serde_json",
+        "thiserror"
+    ]
+}

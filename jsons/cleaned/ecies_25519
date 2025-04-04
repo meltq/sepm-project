@@ -1,0 +1,21 @@
+{
+    "name": "ecies_25519",
+    "deps": [
+        "aes-gcm",
+        "base64",
+        "curve25519-dalek",
+        "curve25519-parser",
+        "digest",
+        "hex",
+        "hkdf",
+        "rand",
+        "rand_core",
+        "serde",
+        "serde_cbor",
+        "serde_json",
+        "sha2",
+        "thiserror",
+        "x25519-dalek",
+        "zeroize"
+    ]
+}

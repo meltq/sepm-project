@@ -1,0 +1,29 @@
+{
+    "name": "http-tunnel",
+    "deps": [
+        "async-trait",
+        "bytes",
+        "clap",
+        "derive_builder",
+        "futures",
+        "humantime-serde",
+        "log",
+        "log4rs",
+        "native-tls",
+        "rand",
+        "regex",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "serde_regex",
+        "serde_yaml",
+        "strum",
+        "strum_macros",
+        "time",
+        "tokio",
+        "tokio-test",
+        "tokio-tls",
+        "tokio-util",
+        "yaml-rust"
+    ]
+}

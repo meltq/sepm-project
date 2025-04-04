@@ -1,0 +1,26 @@
+{
+    "name": "odilia",
+    "deps": [
+        "atspi",
+        "circular-queue",
+        "eyre",
+        "futures",
+        "lazy_static",
+        "odilia-cache",
+        "odilia-common",
+        "odilia-input",
+        "odilia-tts",
+        "serde_json",
+        "serde_plain",
+        "ssip-client-async",
+        "tokio",
+        "tokio-test",
+        "tracing",
+        "tracing-error",
+        "tracing-log",
+        "tracing-subscriber",
+        "tracing-tree",
+        "xdg",
+        "zbus"
+    ]
+}

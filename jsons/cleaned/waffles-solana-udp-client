@@ -1,0 +1,13 @@
+{
+    "name": "waffles-solana-udp-client",
+    "deps": [
+        "async-trait",
+        "solana-connection-cache",
+        "solana-net-utils",
+        "solana-sdk",
+        "solana-streamer",
+        "thiserror",
+        "tokio",
+        "waffles-solana-tpu-client"
+    ]
+}

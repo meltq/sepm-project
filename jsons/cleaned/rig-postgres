@@ -1,0 +1,20 @@
+{
+    "name": "rig-postgres",
+    "deps": [
+        "anyhow",
+        "dotenvy",
+        "httpmock",
+        "log",
+        "pgvector",
+        "rig-core",
+        "serde",
+        "serde_json",
+        "sqlx",
+        "testcontainers",
+        "tokio",
+        "tokio-test",
+        "tracing",
+        "tracing-subscriber",
+        "uuid"
+    ]
+}

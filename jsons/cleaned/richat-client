@@ -1,0 +1,25 @@
+{
+    "name": "richat-client",
+    "deps": [
+        "anyhow",
+        "bytes",
+        "futures",
+        "humantime-serde",
+        "pin-project-lite",
+        "prost",
+        "quinn",
+        "richat-proto",
+        "richat-shared",
+        "rustls",
+        "rustls-native-certs",
+        "rustls-pemfile",
+        "serde",
+        "solana-sdk",
+        "thiserror",
+        "tokio",
+        "tonic",
+        "tonic-build",
+        "tracing",
+        "webpki-roots"
+    ]
+}

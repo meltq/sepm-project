@@ -1,0 +1,15 @@
+{
+    "name": "cord-client",
+    "deps": [
+        "clap",
+        "cord-message",
+        "env_logger",
+        "error-chain",
+        "futures",
+        "futures-locks",
+        "log",
+        "retain_mut",
+        "termcolor",
+        "tokio"
+    ]
+}

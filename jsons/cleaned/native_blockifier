@@ -1,0 +1,17 @@
+{
+    "name": "native_blockifier",
+    "deps": [
+        "blockifier",
+        "cairo-lang-starknet",
+        "cairo-vm",
+        "indexmap",
+        "log",
+        "num-bigint",
+        "papyrus_storage",
+        "pyo3",
+        "pyo3-log",
+        "serde_json",
+        "starknet_api",
+        "thiserror"
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "name": "walletd_bitcoin",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "base58",
+        "bitcoin",
+        "bitcoin_hashes",
+        "hex",
+        "log",
+        "mockito",
+        "reqwest",
+        "ripemd",
+        "secp256k1",
+        "serde",
+        "serde_json",
+        "sha2",
+        "signature",
+        "thiserror",
+        "time",
+        "tokio",
+        "tokio-test",
+        "walletd_bip39",
+        "walletd_coin_core",
+        "walletd_hd_key"
+    ]
+}

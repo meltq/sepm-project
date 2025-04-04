@@ -1,0 +1,25 @@
+{
+    "name": "tetsy-jsonrpc-client-transports",
+    "deps": [
+        "assert_matches",
+        "env_logger",
+        "failure",
+        "futures",
+        "hyper",
+        "hyper-tls",
+        "lazy_static",
+        "log",
+        "serde",
+        "serde_json",
+        "tetsy-jsonrpc-core",
+        "tetsy-jsonrpc-http-server",
+        "tetsy-jsonrpc-ipc-server",
+        "tetsy-jsonrpc-pubsub",
+        "tetsy-jsonrpc-server-utils",
+        "tetsy-tokio-ipc",
+        "tokio",
+        "tokio",
+        "url",
+        "websocket"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "name": "async-rdma",
+    "deps": [
+        "async-bincode",
+        "bincode",
+        "clippy-utilities",
+        "enumflags2",
+        "errno",
+        "futures",
+        "lazy_static",
+        "libc",
+        "lockfree-cuckoohash",
+        "num-derive",
+        "num-traits",
+        "portpicker",
+        "rand",
+        "rdma-sys",
+        "serde",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

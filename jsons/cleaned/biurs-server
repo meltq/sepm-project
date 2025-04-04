@@ -1,0 +1,15 @@
+{
+    "name": "biurs-server",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "biurs-core",
+        "clap",
+        "filetime",
+        "tokio",
+        "tonic",
+        "tracing",
+        "tracing-subscriber",
+        "walkdir"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "name": "mining_proxy_sv2",
+    "deps": [
+        "async-channel",
+        "async-recursion",
+        "binary_sv2",
+        "buffer_sv2",
+        "codec_sv2",
+        "const_sv2",
+        "futures",
+        "key-utils",
+        "network_helpers_sv2",
+        "nohash-hasher",
+        "once_cell",
+        "roles_logic_sv2",
+        "serde",
+        "stratum-common",
+        "tokio",
+        "toml",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

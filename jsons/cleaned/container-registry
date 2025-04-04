@@ -1,0 +1,30 @@
+{
+    "name": "container-registry",
+    "deps": [
+        "anyhow",
+        "axum",
+        "base64",
+        "constant_time_eq",
+        "futures",
+        "hex",
+        "http-body-util",
+        "nom",
+        "rm",
+        "sec",
+        "serde",
+        "serde_json",
+        "sha2",
+        "structopt",
+        "tempdir",
+        "tempdir",
+        "thiserror",
+        "tokio",
+        "tokio-util",
+        "tower",
+        "tower-http",
+        "tower-http",
+        "tracing",
+        "tracing-subscriber",
+        "uuid"
+    ]
+}

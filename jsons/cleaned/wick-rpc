@@ -1,0 +1,17 @@
+{
+    "name": "wick-rpc",
+    "deps": [
+        "flow-component",
+        "prost",
+        "serde",
+        "thiserror",
+        "tokio",
+        "tokio-stream",
+        "tonic",
+        "tonic-build",
+        "tracing",
+        "uuid",
+        "wick-interface-types",
+        "wick-packet"
+    ]
+}

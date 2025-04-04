@@ -1,0 +1,17 @@
+{
+    "name": "lambda_http",
+    "deps": [
+        "base64",
+        "failure",
+        "failure_derive",
+        "http",
+        "lambda_runtime",
+        "log",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "serde_urlencoded",
+        "simple_logger",
+        "tokio"
+    ]
+}

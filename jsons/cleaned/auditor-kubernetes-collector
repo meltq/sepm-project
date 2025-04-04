@@ -1,0 +1,23 @@
+{
+    "name": "auditor-kubernetes-collector",
+    "deps": [
+        "anyhow",
+        "auditor",
+        "auditor-client",
+        "bincode",
+        "chrono",
+        "fake",
+        "k8s-openapi",
+        "kube",
+        "prometheus-http-query",
+        "reqwest",
+        "serde",
+        "serde_yaml",
+        "sqlx",
+        "tokio",
+        "tracing",
+        "tracing-subscriber",
+        "uuid",
+        "wiremock"
+    ]
+}

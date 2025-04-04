@@ -1,0 +1,17 @@
+{
+    "name": "axum-keycloak-auth",
+    "deps": [
+        "axum",
+        "futures",
+        "http",
+        "jsonwebtoken",
+        "once_cell",
+        "serde",
+        "serde_json",
+        "snafu",
+        "time",
+        "tower",
+        "tracing",
+        "typed-builder"
+    ]
+}

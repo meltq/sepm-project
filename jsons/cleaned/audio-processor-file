@@ -1,0 +1,16 @@
+{
+    "name": "audio-processor-file",
+    "deps": [
+        "audio-garbage-collector",
+        "audio-processor-testing-helpers",
+        "audio-processor-traits",
+        "augmented-audio-metrics",
+        "augmented-convert-sample-rate",
+        "hound",
+        "log",
+        "rayon",
+        "symphonia",
+        "symphonia-bundle-mp3",
+        "thiserror"
+    ]
+}

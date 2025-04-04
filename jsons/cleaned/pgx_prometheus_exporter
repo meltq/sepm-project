@@ -1,0 +1,11 @@
+{
+    "name": "pgx_prometheus_exporter",
+    "deps": [
+        "actix-web",
+        "pgx",
+        "prometheus-client",
+        "signal-hook",
+        "tokio",
+        "pgx-tests"
+    ]
+}

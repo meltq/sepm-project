@@ -1,0 +1,20 @@
+{
+    "name": "aws-ec2",
+    "deps": [
+        "aws-config",
+        "aws-sdk-ec2",
+        "aws-smithy-http",
+        "clap",
+        "flate2",
+        "http",
+        "serde",
+        "serde_json",
+        "ssh2",
+        "tar",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "tracing-subscriber",
+        "walkdir"
+    ]
+}

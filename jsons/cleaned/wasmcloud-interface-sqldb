@@ -1,0 +1,14 @@
+{
+    "name": "wasmcloud-interface-sqldb",
+    "deps": [
+        "async-trait",
+        "base64",
+        "futures",
+        "minicbor",
+        "serde",
+        "serde_bytes",
+        "serde_json",
+        "wasmbus-rpc",
+        "weld-codegen"
+    ]
+}

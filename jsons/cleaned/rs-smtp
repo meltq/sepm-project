@@ -1,0 +1,16 @@
+{
+    "name": "rs-smtp",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "base64",
+        "futures",
+        "log",
+        "regex",
+        "rs-sasl",
+        "rustls-pemfile",
+        "thiserror",
+        "tokio",
+        "tokio-rustls"
+    ]
+}

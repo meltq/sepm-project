@@ -1,0 +1,15 @@
+{
+    "name": "nu_plugin_dns",
+    "deps": [
+        "chrono",
+        "futures-util",
+        "nu-plugin",
+        "nu-protocol",
+        "rustls",
+        "tokio",
+        "trust-dns-client",
+        "trust-dns-proto",
+        "trust-dns-resolver",
+        "webpki-roots"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "netperf",
+    "deps": [
+        "anyhow",
+        "async-std",
+        "bytes",
+        "clap-verbosity-flag",
+        "env_logger",
+        "futures",
+        "log",
+        "nix",
+        "pretty_assertions",
+        "serde",
+        "serde_json",
+        "structopt",
+        "thiserror",
+        "tokio",
+        "uuid"
+    ]
+}

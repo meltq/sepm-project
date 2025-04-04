@@ -1,0 +1,21 @@
+{
+    "name": "blockscout-contracts-info-proto",
+    "deps": [
+        "actix-prost",
+        "actix-prost-build",
+        "actix-prost-macros",
+        "actix-web",
+        "api-client-framework",
+        "async-trait",
+        "mockall",
+        "prost",
+        "prost-build",
+        "reqwest-retry",
+        "serde",
+        "serde_json",
+        "serde_with",
+        "tokio",
+        "tonic",
+        "tonic-build"
+    ]
+}

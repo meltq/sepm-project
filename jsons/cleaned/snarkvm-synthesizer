@@ -1,0 +1,25 @@
+{
+    "name": "snarkvm-synthesizer",
+    "deps": [
+        "anyhow",
+        "bincode",
+        "blake2",
+        "circuit",
+        "colored",
+        "console",
+        "criterion",
+        "indexmap",
+        "once_cell",
+        "parking_lot",
+        "paste",
+        "rand",
+        "rayon",
+        "serde",
+        "serde_json",
+        "snarkvm-algorithms",
+        "snarkvm-curves",
+        "snarkvm-fields",
+        "snarkvm-utilities",
+        "tracing"
+    ]
+}

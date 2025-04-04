@@ -1,0 +1,15 @@
+{
+    "name": "drmem-db-redis",
+    "deps": [
+        "async-trait",
+        "drmem-api",
+        "drmem-config",
+        "futures",
+        "futures-util",
+        "redis",
+        "tokio",
+        "tracing",
+        "tracing-futures",
+        "tracing-subscriber"
+    ]
+}

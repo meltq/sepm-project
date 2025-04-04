@@ -1,0 +1,22 @@
+{
+    "name": "openfga-client",
+    "deps": [
+        "http",
+        "middle",
+        "needs_env_var",
+        "pretty_assertions",
+        "prost",
+        "prost-types",
+        "prost-wkt",
+        "prost-wkt-types",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tonic",
+        "tower",
+        "tracing",
+        "url",
+        "uuid"
+    ]
+}

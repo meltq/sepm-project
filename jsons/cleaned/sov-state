@@ -1,0 +1,18 @@
+{
+    "name": "sov-state",
+    "deps": [
+        "anyhow",
+        "borsh",
+        "hex",
+        "jmt",
+        "serde",
+        "sha2",
+        "sov-db",
+        "sov-db",
+        "sov-first-read-last-write-cache",
+        "sov-rollup-interface",
+        "sov-schema-db",
+        "thiserror",
+        "tracing"
+    ]
+}

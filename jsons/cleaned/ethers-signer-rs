@@ -1,0 +1,18 @@
+{
+    "name": "ethers-signer-rs",
+    "deps": [
+        "anyhow",
+        "ethers-types-rs",
+        "ethers-wallet-rs",
+        "futures",
+        "jsonrpc-rs",
+        "log",
+        "once_cell",
+        "thiserror",
+        "async-std",
+        "criterion",
+        "dotenv",
+        "pretty_env_logger",
+        "serde_json"
+    ]
+}

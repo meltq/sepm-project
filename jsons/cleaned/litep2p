@@ -1,0 +1,30 @@
+{
+    "name": "litep2p",
+    "deps": [
+        "async-trait",
+        "asynchronous-codec",
+        "bs58",
+        "bytes",
+        "ed25519-dalek",
+        "futures",
+        "lazy_static",
+        "multiaddr",
+        "multihash",
+        "multistream-select",
+        "prost",
+        "prost-build",
+        "protoc",
+        "rand",
+        "serde",
+        "snow",
+        "thiserror",
+        "tokio",
+        "tokio-stream",
+        "tokio-util",
+        "tracing",
+        "tracing-subscriber",
+        "unsigned-varint",
+        "yamux",
+        "zeroize"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "name": "jpl-transfer-hook-interface",
+    "deps": [
+        "arrayref",
+        "bytemuck",
+        "jpl-discriminator",
+        "jpl-pod",
+        "jpl-program-error",
+        "jpl-tlv-account-resolution",
+        "jpl-type-length-value",
+        "num-derive",
+        "num-traits",
+        "solana-account-info",
+        "solana-cpi",
+        "solana-decode-error",
+        "solana-instruction",
+        "solana-msg",
+        "solana-program",
+        "solana-program-error",
+        "solana-pubkey",
+        "thiserror",
+        "tokio"
+    ]
+}

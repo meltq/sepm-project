@@ -1,0 +1,26 @@
+{
+    "name": "opentelemetry-datadog-cloudflare",
+    "deps": [
+        "async-trait",
+        "base64",
+        "bytes",
+        "futures-channel",
+        "futures-util",
+        "http",
+        "isahc",
+        "itertools",
+        "lazy_static",
+        "opentelemetry",
+        "opentelemetry-http",
+        "opentelemetry-semantic-conventions",
+        "prost",
+        "prost-build",
+        "rmp",
+        "surf",
+        "surf",
+        "surf",
+        "thiserror",
+        "tonic-build",
+        "worker"
+    ]
+}

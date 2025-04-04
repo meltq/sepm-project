@@ -1,0 +1,19 @@
+{
+    "name": "kinesis-firehose-producer",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "bytes",
+        "env_logger",
+        "fehler",
+        "futures",
+        "log",
+        "rand",
+        "rusoto_core",
+        "rusoto_firehose",
+        "structopt",
+        "test-env-log",
+        "thiserror",
+        "tokio"
+    ]
+}

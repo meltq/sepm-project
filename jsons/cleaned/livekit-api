@@ -1,0 +1,19 @@
+{
+    "name": "livekit-api",
+    "deps": [
+        "futures-util",
+        "jsonwebtoken",
+        "livekit-protocol",
+        "log",
+        "parking_lot",
+        "prost",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "sha2",
+        "thiserror",
+        "tokio",
+        "tokio-tungstenite",
+        "url"
+    ]
+}

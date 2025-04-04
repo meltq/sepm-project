@@ -1,0 +1,16 @@
+{
+    "name": "tracing-modality",
+    "deps": [
+        "anyhow",
+        "ctrlc",
+        "rand",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "tracing-core",
+        "tracing-serde-modality-ingest",
+        "tracing-serde-subscriber",
+        "tracing-subscriber"
+    ]
+}

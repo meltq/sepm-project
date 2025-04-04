@@ -1,0 +1,30 @@
+{
+    "name": "fluvio_ws_stream_wasm",
+    "deps": [
+        "async_io_stream",
+        "async_io_stream",
+        "bytes",
+        "console_error_panic_hook",
+        "console_log",
+        "futures",
+        "futures_codec",
+        "getrandom",
+        "js-sys",
+        "log",
+        "pharos",
+        "rand",
+        "rand_xoshiro",
+        "rustc_version",
+        "send_wrapper",
+        "serde",
+        "serde_cbor",
+        "thiserror",
+        "tokio",
+        "tokio-serde-cbor",
+        "tokio-util",
+        "wasm-bindgen",
+        "wasm-bindgen-futures",
+        "wasm-bindgen-test",
+        "web-sys"
+    ]
+}

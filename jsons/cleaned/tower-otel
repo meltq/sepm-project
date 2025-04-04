@@ -1,0 +1,13 @@
+{
+    "name": "tower-otel",
+    "deps": [
+        "http",
+        "opentelemetry",
+        "opentelemetry-http",
+        "pin-project",
+        "tower-layer",
+        "tower-service",
+        "tracing",
+        "tracing-opentelemetry"
+    ]
+}

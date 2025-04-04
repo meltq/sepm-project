@@ -1,0 +1,19 @@
+{
+    "name": "lock_box",
+    "deps": [
+        "aes-gcm",
+        "anyhow",
+        "clap",
+        "clipboard",
+        "colored",
+        "mockall",
+        "passwords",
+        "ring",
+        "rpassword",
+        "rstest",
+        "serde",
+        "serde_json",
+        "tempfile",
+        "terminal_size"
+    ]
+}

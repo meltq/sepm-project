@@ -1,0 +1,24 @@
+{
+    "name": "mls-rs-core",
+    "deps": [
+        "arbitrary",
+        "assert_matches",
+        "async-trait",
+        "base64",
+        "enum-iterator",
+        "hex",
+        "indexmap",
+        "itertools",
+        "maybe-async",
+        "mls-rs-codec",
+        "num_enum",
+        "safer-ffi",
+        "safer-ffi-gen",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "wasm-bindgen",
+        "wasm-bindgen-test",
+        "zeroize"
+    ]
+}

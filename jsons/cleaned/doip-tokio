@@ -1,0 +1,21 @@
+{
+    "name": "doip-tokio",
+    "deps": [
+        "anyhow",
+        "async-stream",
+        "async-trait",
+        "bytes",
+        "doip",
+        "futures",
+        "openssl",
+        "socket2",
+        "thiserror",
+        "tls-api",
+        "tls-api-openssl",
+        "tls-api-stub",
+        "tokio",
+        "tokio-util",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

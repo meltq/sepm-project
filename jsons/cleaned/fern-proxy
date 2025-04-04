@@ -1,0 +1,14 @@
+{
+    "name": "fern-proxy",
+    "deps": [
+        "config",
+        "env_logger",
+        "fern-masking",
+        "fern-protocol-postgresql",
+        "fern-proxy-interfaces",
+        "futures",
+        "log",
+        "tokio",
+        "tokio-util"
+    ]
+}

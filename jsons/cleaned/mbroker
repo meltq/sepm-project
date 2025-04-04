@@ -1,0 +1,23 @@
+{
+    "name": "mbroker",
+    "deps": [
+        "anyhow",
+        "async-channel",
+        "async-trait",
+        "crossbeam",
+        "dashmap",
+        "erased-serde",
+        "futures",
+        "lazy_static",
+        "log",
+        "parking_lot",
+        "regex",
+        "segvec",
+        "serde",
+        "sharded-slab",
+        "thiserror",
+        "tokio",
+        "tokio",
+        "waker-fn"
+    ]
+}

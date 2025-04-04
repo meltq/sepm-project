@@ -1,0 +1,21 @@
+{
+    "name": "kuso-subdomain-adder",
+    "deps": [
+        "actix-web",
+        "anyhow",
+        "async-trait",
+        "bytes",
+        "clap",
+        "cloudflare",
+        "domain",
+        "env_logger",
+        "lazy_static",
+        "log",
+        "punycode",
+        "serde",
+        "serde_derive",
+        "tera",
+        "toml",
+        "vergen"
+    ]
+}

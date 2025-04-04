@@ -1,0 +1,22 @@
+{
+    "name": "dg_xch_clients",
+    "deps": [
+        "async-trait",
+        "dg_xch_core",
+        "dg_xch_macros",
+        "dg_xch_pos",
+        "dg_xch_serialize",
+        "futures-util",
+        "hyper",
+        "log",
+        "reqwest",
+        "rustls",
+        "rustls-pemfile",
+        "serde",
+        "serde_json",
+        "time",
+        "tokio",
+        "tokio-tungstenite",
+        "uuid"
+    ]
+}

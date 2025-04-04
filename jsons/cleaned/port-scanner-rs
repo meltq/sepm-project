@@ -1,0 +1,13 @@
+{
+    "name": "port-scanner-rs",
+    "deps": [
+        "clap",
+        "colored",
+        "futures",
+        "indicatif",
+        "ipnetwork",
+        "thiserror",
+        "tokio",
+        "trust-dns-resolver"
+    ]
+}

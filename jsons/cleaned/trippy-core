@@ -1,0 +1,32 @@
+{
+    "name": "trippy-core",
+    "deps": [
+        "anyhow",
+        "arrayvec",
+        "bitflags",
+        "derive_more",
+        "hex-literal",
+        "indexmap",
+        "ipnetwork",
+        "itertools",
+        "mockall",
+        "nix",
+        "parking_lot",
+        "paste",
+        "rand",
+        "serde",
+        "serde_yaml",
+        "socket2",
+        "test-case",
+        "thiserror",
+        "tokio",
+        "tokio-util",
+        "tracing",
+        "tracing-subscriber",
+        "trippy-packet",
+        "trippy-privilege",
+        "tun2",
+        "widestring",
+        "windows-sys"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "oddity-rtsp-server",
+    "deps": [
+        "config",
+        "futures",
+        "oddity-rtsp-protocol",
+        "oddity-sdp-protocol",
+        "rand",
+        "serde",
+        "tokio",
+        "tokio-stream",
+        "tokio-util",
+        "tracing",
+        "tracing-subscriber",
+        "video-rs"
+    ]
+}

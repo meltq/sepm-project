@@ -1,0 +1,22 @@
+{
+    "name": "mugle_store",
+    "deps": [
+        "byteorder",
+        "chrono",
+        "croaring",
+        "env_logger",
+        "failure",
+        "failure_derive",
+        "filetime",
+        "libc",
+        "lmdb-zero",
+        "log",
+        "memmap",
+        "mugle_core",
+        "mugle_util",
+        "rand",
+        "serde",
+        "serde_derive",
+        "tempfile"
+    ]
+}

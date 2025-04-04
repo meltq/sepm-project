@@ -1,0 +1,15 @@
+{
+    "name": "rmq_monitor",
+    "deps": [
+        "anyhow",
+        "env_logger",
+        "human-panic",
+        "log",
+        "reqwest",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "structopt",
+        "toml"
+    ]
+}

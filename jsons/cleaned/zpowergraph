@@ -1,0 +1,17 @@
+{
+    "name": "zpowergraph",
+    "deps": [
+        "anyhow",
+        "clap",
+        "env_logger",
+        "lazy_static",
+        "log",
+        "rumqttc",
+        "sea-query",
+        "sea-query-binder",
+        "serde",
+        "serde_json",
+        "sqlx",
+        "tokio"
+    ]
+}

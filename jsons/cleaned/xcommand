@@ -1,0 +1,24 @@
+{
+    "name": "xcommand",
+    "deps": [
+        "async-stream",
+        "env_logger",
+        "eyre",
+        "futures",
+        "futures-core",
+        "futures-util",
+        "libc",
+        "log",
+        "nix",
+        "pretty_assertions",
+        "s-string",
+        "serde",
+        "terminal_size",
+        "thiserror",
+        "tokio",
+        "tokio-fd",
+        "tokio-stream",
+        "which",
+        "winnow"
+    ]
+}

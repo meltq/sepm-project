@@ -1,0 +1,12 @@
+{
+    "name": "pihole-influx-agent",
+    "deps": [
+        "env_logger",
+        "log",
+        "reqwest",
+        "serde",
+        "structopt",
+        "sys-info",
+        "tokio"
+    ]
+}

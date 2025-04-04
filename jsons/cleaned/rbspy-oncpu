@@ -1,0 +1,33 @@
+{
+    "name": "rbspy-oncpu",
+    "deps": [
+        "anyhow",
+        "byteorder",
+        "chrono",
+        "clap",
+        "ctrlc",
+        "directories",
+        "elf",
+        "env_logger",
+        "flate2",
+        "inferno",
+        "libc",
+        "libproc",
+        "log",
+        "nix",
+        "proc-maps",
+        "prost",
+        "rand",
+        "rbspy-ruby-structs",
+        "rbspy-testdata",
+        "remoteprocess",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "tempdir",
+        "tempdir",
+        "term_size",
+        "thiserror",
+        "winapi"
+    ]
+}

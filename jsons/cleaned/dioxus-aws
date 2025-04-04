@@ -1,0 +1,17 @@
+{
+    "name": "dioxus-aws",
+    "deps": [
+        "axum",
+        "dioxus",
+        "dioxus-fullstack",
+        "http",
+        "lambda_http",
+        "lambda_runtime",
+        "time",
+        "tokio",
+        "tower",
+        "tower-sessions",
+        "tower-sessions-dynamodb-store",
+        "tracing"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "name": "gst-plugin-quinn",
+    "deps": [
+        "bytes",
+        "futures",
+        "gst",
+        "gst-base",
+        "gst-check",
+        "gst-plugin-version-helper",
+        "once_cell",
+        "quinn",
+        "quinn-proto",
+        "rcgen",
+        "rustls",
+        "rustls-pemfile",
+        "rustls-pki-types",
+        "serial_test",
+        "thiserror",
+        "tokio"
+    ]
+}

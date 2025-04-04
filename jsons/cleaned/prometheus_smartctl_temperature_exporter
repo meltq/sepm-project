@@ -1,0 +1,16 @@
+{
+    "name": "prometheus_smartctl_temperature_exporter",
+    "deps": [
+        "clap",
+        "env_logger",
+        "hyper",
+        "log",
+        "prometheus_exporter_base",
+        "regex",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "thiserror",
+        "tokio"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "telemetry-subscribers",
+    "deps": [
+        "camino",
+        "console-subscriber",
+        "crossterm",
+        "once_cell",
+        "opentelemetry",
+        "opentelemetry-jaeger",
+        "prometheus",
+        "tokio",
+        "tracing",
+        "tracing-appender",
+        "tracing-bunyan-formatter",
+        "tracing-chrome",
+        "tracing-opentelemetry",
+        "tracing-subscriber"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "name": "crypt_guard_kyber",
+    "deps": [
+        "aes",
+        "byteorder",
+        "chacha20",
+        "colored",
+        "crypt_guard_sign",
+        "env",
+        "hex",
+        "hmac",
+        "indicatif",
+        "pqcrypto-dilithium",
+        "pqcrypto-falcon",
+        "pqcrypto-kyber",
+        "pqcrypto-traits",
+        "rand",
+        "sha2",
+        "tempfile",
+        "tokio"
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "name": "soph-server",
+    "deps": [
+        "async-trait",
+        "axum",
+        "axum-extra",
+        "bytes",
+        "metrics",
+        "mime",
+        "sea-orm",
+        "serde",
+        "serde_json",
+        "soph-auth",
+        "soph-config",
+        "soph-core",
+        "soph-runtime",
+        "soph-view",
+        "tera",
+        "thiserror",
+        "tokio",
+        "tower",
+        "tower-http",
+        "tower-livereload",
+        "tracing",
+        "uuid",
+        "validator"
+    ]
+}

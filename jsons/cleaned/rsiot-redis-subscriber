@@ -1,0 +1,13 @@
+{
+    "name": "rsiot-redis-subscriber",
+    "deps": [
+        "futures-util",
+        "redis",
+        "rsiot-messages-core",
+        "serde",
+        "tokio",
+        "tracing",
+        "tracing-subscriber",
+        "url"
+    ]
+}

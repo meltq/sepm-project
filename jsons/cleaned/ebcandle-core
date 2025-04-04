@@ -1,0 +1,32 @@
+{
+    "name": "ebcandle-core",
+    "deps": [
+        "accelerate-src",
+        "anyhow",
+        "byteorder",
+        "clap",
+        "criterion",
+        "cudarc",
+        "ebcandle-kernels",
+        "ebcandle-metal-kernels",
+        "float8",
+        "gemm",
+        "half",
+        "intel-mkl-src",
+        "libc",
+        "memmap2",
+        "metal",
+        "num-traits",
+        "num_cpus",
+        "rand",
+        "rand_distr",
+        "rayon",
+        "safetensors",
+        "thiserror",
+        "ug",
+        "ug-cuda",
+        "ug-metal",
+        "yoke",
+        "zip"
+    ]
+}

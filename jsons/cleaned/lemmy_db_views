@@ -1,0 +1,12 @@
+{
+    "name": "lemmy_db_views",
+    "deps": [
+        "diesel",
+        "lemmy_db_queries",
+        "lemmy_db_schema",
+        "log",
+        "serde",
+        "serial_test",
+        "url"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "name": "gnostr_rs",
+    "deps": [
+        "aes",
+        "base64",
+        "bech32",
+        "cbc",
+        "futures",
+        "futures-util",
+        "hex",
+        "rand",
+        "reqwest",
+        "secp256k1",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "sha256",
+        "thiserror",
+        "tokio",
+        "tokio-tungstenite",
+        "tungstenite",
+        "url"
+    ]
+}

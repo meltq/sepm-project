@@ -1,0 +1,27 @@
+{
+    "name": "gix-transport",
+    "deps": [
+        "async-std",
+        "async-std",
+        "async-trait",
+        "base64",
+        "blocking",
+        "bstr",
+        "curl",
+        "document-features",
+        "futures-io",
+        "futures-lite",
+        "gix-command",
+        "gix-credentials",
+        "gix-features",
+        "gix-packetline",
+        "gix-quote",
+        "gix-sec",
+        "gix-url",
+        "maybe-async",
+        "pin-project-lite",
+        "reqwest",
+        "serde",
+        "thiserror"
+    ]
+}

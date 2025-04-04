@@ -1,0 +1,24 @@
+{
+    "name": "zengine_asset",
+    "deps": [
+        "ahash",
+        "async-trait",
+        "cfg-if",
+        "crossbeam-channel",
+        "downcast-rs",
+        "getrandom",
+        "js-sys",
+        "log",
+        "ndk-glue",
+        "pollster",
+        "pollster",
+        "rustc-hash",
+        "tempfile",
+        "wasm-bindgen",
+        "wasm-bindgen-futures",
+        "web-sys",
+        "zengine_ecs",
+        "zengine_engine",
+        "zengine_macro"
+    ]
+}

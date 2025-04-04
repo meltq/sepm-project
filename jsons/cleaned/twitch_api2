@@ -1,0 +1,19 @@
+{
+    "name": "twitch_api2",
+    "deps": [
+        "async-trait",
+        "dotenv",
+        "reqwest",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "serde_urlencoded",
+        "slog",
+        "thiserror",
+        "tokio",
+        "tokio",
+        "twitch_oauth2",
+        "typed-builder",
+        "url"
+    ]
+}

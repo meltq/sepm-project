@@ -1,0 +1,24 @@
+{
+    "name": "nimiq-jsonrpc-server",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "blake2",
+        "bytes",
+        "futures",
+        "headers",
+        "http",
+        "log",
+        "nimiq-jsonrpc-client",
+        "nimiq-jsonrpc-core",
+        "nimiq-jsonrpc-derive",
+        "pretty_env_logger",
+        "serde",
+        "serde_json",
+        "subtle",
+        "thiserror",
+        "tokio",
+        "tokio",
+        "warp"
+    ]
+}

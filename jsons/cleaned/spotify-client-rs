@@ -1,0 +1,27 @@
+{
+    "name": "spotify-client-rs",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "chrono",
+        "config_parser2",
+        "dirs-next",
+        "dotenvy",
+        "env_logger",
+        "flume",
+        "librespot-connect",
+        "librespot-core",
+        "maybe-async",
+        "once_cell",
+        "parking_lot",
+        "regex",
+        "reqwest",
+        "rspotify",
+        "serde",
+        "serde_json",
+        "tokio",
+        "toml",
+        "tracing",
+        "ttl_cache"
+    ]
+}

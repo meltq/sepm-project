@@ -1,0 +1,19 @@
+{
+    "name": "sql_reverse_struct",
+    "deps": [
+        "Inflector",
+        "async-trait",
+        "mysql",
+        "once_cell",
+        "postgres",
+        "quicli",
+        "regex",
+        "serde",
+        "serde_yaml",
+        "sql_reverse_error",
+        "sql_reverse_template",
+        "tokio",
+        "tokio-postgres",
+        "tracing"
+    ]
+}

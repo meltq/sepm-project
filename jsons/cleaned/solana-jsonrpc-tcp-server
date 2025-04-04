@@ -1,0 +1,12 @@
+{
+    "name": "solana-jsonrpc-tcp-server",
+    "deps": [
+        "env_logger",
+        "lazy_static",
+        "log",
+        "parking_lot",
+        "solana-jsonrpc-core",
+        "solana-jsonrpc-server-utils",
+        "tokio-service"
+    ]
+}

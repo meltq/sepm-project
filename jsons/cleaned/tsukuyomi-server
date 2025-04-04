@@ -1,0 +1,15 @@
+{
+    "name": "tsukuyomi-server",
+    "deps": [
+        "bytes",
+        "futures",
+        "http",
+        "hyper",
+        "log",
+        "rustls",
+        "tokio",
+        "tokio-rustls",
+        "tokio-threadpool",
+        "tower-service"
+    ]
+}

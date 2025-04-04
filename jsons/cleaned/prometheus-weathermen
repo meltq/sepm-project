@@ -1,0 +1,26 @@
+{
+    "name": "prometheus-weathermen",
+    "deps": [
+        "anyhow",
+        "bcrypt",
+        "clap",
+        "clap-verbosity-flag",
+        "figment",
+        "hex",
+        "hmac",
+        "humantime-serde",
+        "log",
+        "moka",
+        "openssl",
+        "prometheus-client",
+        "reqwest",
+        "rocket",
+        "rocket-basicauth",
+        "serde",
+        "serde_json",
+        "sha2",
+        "stderrlog",
+        "tokio",
+        "toml"
+    ]
+}

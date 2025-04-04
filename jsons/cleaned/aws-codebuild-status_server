@@ -1,0 +1,13 @@
+{
+    "name": "aws-codebuild-status_server",
+    "deps": [
+        "actix-files",
+        "actix-rt",
+        "actix-web",
+        "askama",
+        "aws-codebuild-status_aws",
+        "log",
+        "loggify",
+        "serde"
+    ]
+}

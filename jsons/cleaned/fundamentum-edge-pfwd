@@ -1,0 +1,22 @@
+{
+    "name": "fundamentum-edge-pfwd",
+    "deps": [
+        "anyhow",
+        "backoff",
+        "bson",
+        "cargo-husky",
+        "clap",
+        "derive-new",
+        "fundamentum-portforwarding-proto-rust",
+        "fundamentum-sdk-mqtt",
+        "prost",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tokio-util",
+        "tracing",
+        "tracing-subscriber",
+        "uuid"
+    ]
+}

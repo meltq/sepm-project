@@ -1,0 +1,22 @@
+{
+    "name": "statehub-kenie",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "either",
+        "futures",
+        "http",
+        "inspector",
+        "k8s-openapi",
+        "kube",
+        "maplit",
+        "num-integer",
+        "serde",
+        "serde_json",
+        "serde_yaml",
+        "statehub-k8s-helper",
+        "tokio",
+        "tracing",
+        "uuid"
+    ]
+}

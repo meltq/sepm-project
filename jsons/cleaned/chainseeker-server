@@ -1,0 +1,22 @@
+{
+    "name": "chainseeker-server",
+    "deps": [
+        "bitcoin-rest",
+        "bitcoincore-rpc",
+        "criterion",
+        "futures-util",
+        "hex",
+        "hyper",
+        "indexmap",
+        "num-format",
+        "num_cpus",
+        "rocksdb",
+        "routerify",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tokio-tungstenite",
+        "toml",
+        "zmq"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "name": "hitdns",
+    "deps": [
+        "anyhow",
+        "async-lock",
+        "async-tls",
+        "async-trait",
+        "bincode",
+        "bytes",
+        "dashmap",
+        "directories",
+        "env_logger",
+        "hickory-proto",
+        "hyper",
+        "log",
+        "once_cell",
+        "reqwest",
+        "serde",
+        "smol",
+        "smol-timeout",
+        "smolscale",
+        "sqlx"
+    ]
+}

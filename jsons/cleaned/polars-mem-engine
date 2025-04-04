@@ -1,0 +1,19 @@
+{
+    "name": "polars-mem-engine",
+    "deps": [
+        "arrow",
+        "futures",
+        "polars-core",
+        "polars-error",
+        "polars-expr",
+        "polars-io",
+        "polars-json",
+        "polars-ops",
+        "polars-plan",
+        "polars-time",
+        "polars-utils",
+        "pyo3",
+        "rayon",
+        "tokio"
+    ]
+}

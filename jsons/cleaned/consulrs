@@ -1,0 +1,26 @@
+{
+    "name": "consulrs",
+    "deps": [
+        "async-trait",
+        "base64",
+        "consulrs_derive",
+        "derive_builder",
+        "dockertest-server",
+        "env_logger",
+        "futures",
+        "http",
+        "reqwest",
+        "rustify",
+        "rustify_derive",
+        "serde",
+        "serde_json",
+        "serde_with",
+        "test-env-log",
+        "thiserror",
+        "tokio",
+        "tokio-test",
+        "tracing",
+        "tracing-subscriber",
+        "url"
+    ]
+}

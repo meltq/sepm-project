@@ -1,0 +1,32 @@
+{
+    "name": "firewood",
+    "deps": [
+        "assert_cmd",
+        "async-trait",
+        "bytemuck",
+        "clap",
+        "criterion",
+        "enum-as-inner",
+        "firewood-growth-ring",
+        "firewood-libaio",
+        "firewood-shale",
+        "futures",
+        "hex",
+        "keccak-hasher",
+        "lru",
+        "nix",
+        "once_cell",
+        "parking_lot",
+        "predicates",
+        "primitive-types",
+        "rand",
+        "rlp",
+        "serde",
+        "serial_test",
+        "sha3",
+        "thiserror",
+        "tokio",
+        "triehash",
+        "typed-builder"
+    ]
+}

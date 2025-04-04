@@ -1,0 +1,20 @@
+{
+    "name": "music-player-audio",
+    "deps": [
+        "anyhow",
+        "bytes",
+        "futures-util",
+        "hyper",
+        "hyper-rustls",
+        "md5",
+        "mime_guess",
+        "music-player-settings",
+        "parking_lot",
+        "rustls",
+        "symphonia",
+        "tempfile",
+        "thiserror",
+        "tokio",
+        "url"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "artiqwest",
+    "deps": [
+        "anyhow",
+        "arti-client",
+        "bytes",
+        "http-body-util",
+        "hyper",
+        "hyper-util",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tokio-native-tls",
+        "tor-rtcompat",
+        "tracing-subscriber",
+        "url"
+    ]
+}

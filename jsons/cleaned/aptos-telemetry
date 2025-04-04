@@ -1,0 +1,15 @@
+{
+    "name": "aptos-telemetry",
+    "deps": [
+        "aptos-logger",
+        "aptos-metrics",
+        "aptos-workspace-hack",
+        "once_cell",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "sysinfo",
+        "tokio",
+        "uuid"
+    ]
+}

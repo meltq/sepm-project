@@ -1,0 +1,19 @@
+{
+    "name": "brk_server",
+    "deps": [
+        "axum",
+        "brk_computer",
+        "brk_indexer",
+        "brk_logger",
+        "color-eyre",
+        "derive_deref",
+        "jiff",
+        "log",
+        "oxc",
+        "serde",
+        "serde_json",
+        "storable_vec",
+        "tokio",
+        "tower-http"
+    ]
+}

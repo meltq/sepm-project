@@ -1,0 +1,20 @@
+{
+    "name": "zenoh-link",
+    "deps": [
+        "async-std",
+        "async-trait",
+        "rcgen",
+        "zenoh-cfg-properties",
+        "zenoh-config",
+        "zenoh-core",
+        "zenoh-link-commons",
+        "zenoh-link-quic",
+        "zenoh-link-serial",
+        "zenoh-link-tcp",
+        "zenoh-link-tls",
+        "zenoh-link-udp",
+        "zenoh-link-unixsock_stream",
+        "zenoh-link-ws",
+        "zenoh-protocol-core"
+    ]
+}

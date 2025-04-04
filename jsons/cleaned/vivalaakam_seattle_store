@@ -1,0 +1,17 @@
+{
+    "name": "vivalaakam_seattle_store",
+    "deps": [
+        "actix-http",
+        "actix-web",
+        "actix-web-httpauth",
+        "anyhow",
+        "dotenv",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tracing",
+        "tracing-subscriber",
+        "vivalaakam_seattle_collection",
+        "vivalaakam_seattle_collection_postgres"
+    ]
+}

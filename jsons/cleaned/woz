@@ -1,0 +1,22 @@
+{
+    "name": "woz",
+    "deps": [
+        "clap",
+        "failure",
+        "handlebars",
+        "lazy_static",
+        "ring",
+        "rusoto_cognito_identity",
+        "rusoto_cognito_idp",
+        "rusoto_cognito_sync",
+        "rusoto_core",
+        "rusoto_credential",
+        "rusoto_s3",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "stderrlog",
+        "termion",
+        "toml"
+    ]
+}

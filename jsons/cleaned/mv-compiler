@@ -1,0 +1,28 @@
+{
+    "name": "mv-compiler",
+    "deps": [
+        "anyhow",
+        "bcs",
+        "clap",
+        "codespan-reporting",
+        "datatest-stable",
+        "difference",
+        "hex",
+        "move-binary-format",
+        "move-borrow-graph",
+        "move-bytecode-source-map",
+        "move-bytecode-verifier",
+        "move-command-line-common",
+        "move-core-types",
+        "move-ir-to-bytecode",
+        "move-ir-types",
+        "move-symbol-pool",
+        "num-bigint",
+        "once_cell",
+        "petgraph",
+        "regex",
+        "sha3",
+        "tempfile",
+        "walkdir"
+    ]
+}

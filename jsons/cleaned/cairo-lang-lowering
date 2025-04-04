@@ -1,0 +1,27 @@
+{
+    "name": "cairo-lang-lowering",
+    "deps": [
+        "cairo-lang-debug",
+        "cairo-lang-defs",
+        "cairo-lang-diagnostics",
+        "cairo-lang-filesystem",
+        "cairo-lang-parser",
+        "cairo-lang-plugins",
+        "cairo-lang-proc-macros",
+        "cairo-lang-semantic",
+        "cairo-lang-syntax",
+        "cairo-lang-test-utils",
+        "cairo-lang-utils",
+        "env_logger",
+        "id-arena",
+        "indoc",
+        "itertools",
+        "log",
+        "num-bigint",
+        "num-traits",
+        "pretty_assertions",
+        "salsa",
+        "smol_str",
+        "test-log"
+    ]
+}

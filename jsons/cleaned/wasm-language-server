@@ -1,0 +1,19 @@
+{
+    "name": "wasm-language-server",
+    "deps": [
+        "cc",
+        "dashmap",
+        "env_logger",
+        "failure",
+        "futures",
+        "jsonrpc-core",
+        "log",
+        "lsp-types",
+        "sled",
+        "tokio",
+        "tower-lsp",
+        "tree-sitter",
+        "uuid",
+        "zerocopy"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "name": "rlink-elasticsearch-connector",
+    "deps": [
+        "anyhow",
+        "elasticsearch",
+        "futures",
+        "log",
+        "rlink-core",
+        "rlink-derive",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "thiserror",
+        "tokio"
+    ]
+}

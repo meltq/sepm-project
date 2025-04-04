@@ -1,0 +1,20 @@
+{
+    "name": "tritonserver-rs",
+    "deps": [
+        "async-trait",
+        "bindgen",
+        "bitflags",
+        "cfg-if",
+        "cuda-driver-sys",
+        "futures",
+        "half",
+        "lazy_static",
+        "libc",
+        "log",
+        "parking_lot",
+        "serde",
+        "serde-hjson",
+        "serde_json",
+        "tokio"
+    ]
+}

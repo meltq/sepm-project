@@ -1,0 +1,28 @@
+{
+    "name": "ddns-cli",
+    "deps": [
+        "bytes",
+        "clap",
+        "criterion",
+        "futures",
+        "futures-core",
+        "hex",
+        "http",
+        "lazy_static",
+        "regex",
+        "regex",
+        "reqwest",
+        "ring",
+        "rustls",
+        "serde",
+        "serde_json",
+        "slog",
+        "slog-async",
+        "slog-envlogger",
+        "slog-stdlog",
+        "slog-term",
+        "time",
+        "tokio",
+        "uuid"
+    ]
+}

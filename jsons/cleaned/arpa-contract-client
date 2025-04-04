@@ -1,0 +1,24 @@
+{
+    "name": "arpa-contract-client",
+    "deps": [
+        "anyhow",
+        "arpa-core",
+        "async-trait",
+        "bincode",
+        "dkg-core",
+        "ethers",
+        "ethers-contract-abigen",
+        "log",
+        "prost",
+        "prost-build",
+        "rustc-hex",
+        "serde",
+        "simple_logger",
+        "thiserror",
+        "threshold-bls",
+        "tokio",
+        "tokio-retry",
+        "tonic",
+        "tonic-build"
+    ]
+}

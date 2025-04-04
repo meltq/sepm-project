@@ -1,0 +1,16 @@
+{
+    "name": "dachannel-server",
+    "deps": [
+        "async-channel",
+        "axum",
+        "dachannel",
+        "datachannel-facade",
+        "http-body-util",
+        "hyper-util",
+        "log",
+        "thiserror",
+        "tokio",
+        "tokio-util",
+        "tower-http"
+    ]
+}

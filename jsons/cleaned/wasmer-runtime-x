@@ -1,0 +1,16 @@
+{
+    "name": "wasmer-runtime-x",
+    "deps": [
+        "criterion",
+        "lazy_static",
+        "memmap",
+        "serde",
+        "serde_derive",
+        "tempfile",
+        "wabt",
+        "wasmer-clif-backend",
+        "wasmer-llvm-backend",
+        "wasmer-runtime-core",
+        "wasmer-singlepass-backend"
+    ]
+}

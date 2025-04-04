@@ -1,0 +1,16 @@
+{
+    "name": "gn-communicator",
+    "deps": [
+        "async-trait",
+        "chrono",
+        "futures-lite",
+        "gn-matchmaking-state",
+        "gn-matchmaking-state-types",
+        "lapin",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tracing",
+        "uuid"
+    ]
+}

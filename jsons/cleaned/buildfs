@@ -1,0 +1,22 @@
+{
+    "name": "buildfs",
+    "deps": [
+        "async-trait",
+        "bollard",
+        "clap",
+        "flate2",
+        "fs_extra",
+        "futures",
+        "libc",
+        "log",
+        "podman-rest-client",
+        "serde",
+        "simple_logger",
+        "sys-mount",
+        "tar",
+        "tokio",
+        "toml",
+        "uuid",
+        "which"
+    ]
+}

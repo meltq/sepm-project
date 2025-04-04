@@ -1,0 +1,33 @@
+{
+    "name": "mecomp-core",
+    "deps": [
+        "anyhow",
+        "directories",
+        "env_logger",
+        "lofty",
+        "log",
+        "mecomp-storage",
+        "mecomp-storage",
+        "once_cell",
+        "one-or-many",
+        "opentelemetry",
+        "opentelemetry-otlp",
+        "opentelemetry-semantic-conventions",
+        "opentelemetry_sdk",
+        "pretty_assertions",
+        "rand",
+        "rodio",
+        "rstest",
+        "rstest_reuse",
+        "serde",
+        "surrealdb",
+        "tarpc",
+        "tempfile",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "tracing-flame",
+        "tracing-opentelemetry",
+        "tracing-subscriber"
+    ]
+}

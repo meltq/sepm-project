@@ -1,0 +1,29 @@
+{
+    "name": "trifid-api",
+    "deps": [
+        "actix-cors",
+        "actix-request-identifier",
+        "actix-web",
+        "aes-gcm",
+        "base64",
+        "chrono",
+        "derivative",
+        "dnapi-rs",
+        "ed25519-dalek",
+        "hex",
+        "ipnet",
+        "log",
+        "once_cell",
+        "rand",
+        "sea-orm",
+        "serde",
+        "serde_json",
+        "serde_yaml",
+        "simple_logger",
+        "toml",
+        "totp-rs",
+        "trifid-pki",
+        "trifid_api_entities",
+        "trifid_api_migration"
+    ]
+}

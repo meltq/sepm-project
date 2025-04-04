@@ -1,0 +1,13 @@
+{
+    "name": "jit-allocator",
+    "deps": [
+        "cfgenius",
+        "errno",
+        "intrusive-collections",
+        "libc",
+        "once_cell",
+        "parking_lot",
+        "wasmtime-jit-icache-coherence",
+        "winapi"
+    ]
+}

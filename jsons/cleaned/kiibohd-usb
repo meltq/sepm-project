@@ -1,0 +1,13 @@
+{
+    "name": "kiibohd-usb",
+    "deps": [
+        "defmt",
+        "heapless",
+        "kiibohd-hid-io",
+        "kll-core",
+        "libc-print",
+        "log",
+        "usb-device",
+        "usbd-hid"
+    ]
+}

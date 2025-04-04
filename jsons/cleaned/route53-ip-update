@@ -1,0 +1,24 @@
+{
+    "name": "route53-ip-update",
+    "deps": [
+        "aws-config",
+        "aws-sdk-route53",
+        "clap",
+        "env_logger",
+        "futures",
+        "humantime",
+        "humantime-serde",
+        "hyper",
+        "log",
+        "network-interface",
+        "once_cell",
+        "reqwest",
+        "serde",
+        "serde_yaml",
+        "tokio",
+        "toml",
+        "tower",
+        "trust-dns-proto",
+        "trust-dns-resolver"
+    ]
+}

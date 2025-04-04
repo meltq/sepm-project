@@ -1,0 +1,27 @@
+{
+    "name": "ecs_helpers",
+    "deps": [
+        "assert_cmd",
+        "aws-config",
+        "aws-sdk-ecr",
+        "aws-sdk-ecrpublic",
+        "aws-sdk-ecs",
+        "aws-sdk-ssm",
+        "aws-sdk-sts",
+        "aws-smithy-runtime",
+        "aws-smithy-runtime-api",
+        "aws-smithy-types",
+        "base64",
+        "clap",
+        "futures",
+        "git2",
+        "http",
+        "log",
+        "miette",
+        "regex",
+        "sealed_test",
+        "thiserror",
+        "tokio",
+        "tracing-subscriber"
+    ]
+}

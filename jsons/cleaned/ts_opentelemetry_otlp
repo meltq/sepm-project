@@ -1,0 +1,25 @@
+{
+    "name": "ts_opentelemetry_otlp",
+    "deps": [
+        "async-trait",
+        "futures",
+        "grpcio",
+        "http",
+        "prost",
+        "protobuf",
+        "reqwest",
+        "serde",
+        "surf",
+        "thiserror",
+        "time",
+        "tokio",
+        "tokio",
+        "tokio-stream",
+        "tonic",
+        "ts_opentelemetry_api",
+        "ts_opentelemetry_http",
+        "ts_opentelemetry_proto",
+        "ts_opentelemetry_sdk",
+        "ts_opentelemetry_semantic_conventions"
+    ]
+}

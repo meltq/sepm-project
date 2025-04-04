@@ -1,0 +1,21 @@
+{
+    "name": "log-analyzer",
+    "deps": [
+        "anyhow",
+        "async-std",
+        "async-trait",
+        "chrono",
+        "flume",
+        "futures",
+        "log-source",
+        "num_cpus",
+        "pariter",
+        "parking_lot",
+        "rayon",
+        "regex",
+        "rustc-hash",
+        "serde",
+        "serde_json",
+        "tokio"
+    ]
+}

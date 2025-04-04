@@ -1,0 +1,26 @@
+{
+    "name": "sqlsonnet",
+    "deps": [
+        "anyhow",
+        "itertools",
+        "jrsonnet-evaluator-95",
+        "jrsonnet-evaluator-96",
+        "jrsonnet-gcmodule",
+        "jrsonnet-parser-95",
+        "jrsonnet-parser-96",
+        "jrsonnet-stdlib-95",
+        "jrsonnet-stdlib-96",
+        "miette",
+        "num-traits",
+        "pest",
+        "pest_derive",
+        "pretty_assertions",
+        "serde",
+        "serde_json",
+        "serde_path_to_error",
+        "serde_with",
+        "sqlsonnet-macros",
+        "thiserror",
+        "tracing-subscriber"
+    ]
+}

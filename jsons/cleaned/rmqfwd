@@ -1,0 +1,24 @@
+{
+    "name": "rmqfwd",
+    "deps": [
+        "chrono",
+        "clap",
+        "env_logger",
+        "failure",
+        "failure_derive",
+        "futures",
+        "hyper",
+        "lapin-futures",
+        "log",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "structopt",
+        "tempdir",
+        "tokio",
+        "tokio-codec",
+        "tokio-fs",
+        "try_from",
+        "url"
+    ]
+}

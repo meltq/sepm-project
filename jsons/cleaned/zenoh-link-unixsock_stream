@@ -1,0 +1,15 @@
+{
+    "name": "zenoh-link-unixsock_stream",
+    "deps": [
+        "async-std",
+        "async-trait",
+        "futures",
+        "log",
+        "nix",
+        "uuid",
+        "zenoh-core",
+        "zenoh-link-commons",
+        "zenoh-protocol-core",
+        "zenoh-sync"
+    ]
+}

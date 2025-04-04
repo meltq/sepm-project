@@ -1,0 +1,31 @@
+{
+    "name": "xand-api-client",
+    "deps": [
+        "async-trait",
+        "async_sync_trait_procmacro",
+        "bincode",
+        "blake2",
+        "bs58",
+        "chrono",
+        "derive_more",
+        "futures",
+        "hex",
+        "http",
+        "once_cell",
+        "pseudo",
+        "rand",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "snafu",
+        "tokio",
+        "tonic",
+        "tower-service",
+        "tpfs_logger_extensions",
+        "tpfs_logger_port",
+        "url",
+        "xand-address",
+        "xand-api-proto",
+        "xand-utils"
+    ]
+}

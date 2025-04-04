@@ -1,0 +1,22 @@
+{
+    "name": "flnet-libc",
+    "deps": [
+        "anyhow",
+        "async-std",
+        "async-trait",
+        "env_logger",
+        "flnet",
+        "flutils",
+        "futures",
+        "log",
+        "native-tls",
+        "rand",
+        "serde",
+        "serde_json",
+        "test-log",
+        "thiserror",
+        "tokio",
+        "tokio-tungstenite",
+        "webrtc"
+    ]
+}

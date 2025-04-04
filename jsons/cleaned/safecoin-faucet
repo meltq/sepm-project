@@ -1,0 +1,20 @@
+{
+    "name": "safecoin-faucet",
+    "deps": [
+        "bincode",
+        "byteorder",
+        "clap",
+        "log",
+        "safecoin-clap-utils",
+        "safecoin-cli-config",
+        "safecoin-logger",
+        "safecoin-metrics",
+        "safecoin-sdk",
+        "safecoin-version",
+        "serde",
+        "serde_derive",
+        "spl-memo",
+        "thiserror",
+        "tokio"
+    ]
+}

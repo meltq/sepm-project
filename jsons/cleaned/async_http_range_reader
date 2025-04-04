@@ -1,0 +1,21 @@
+{
+    "name": "async_http_range_reader",
+    "deps": [
+        "assert_matches",
+        "async_zip",
+        "axum",
+        "bisection",
+        "futures",
+        "http-content-range",
+        "itertools",
+        "memmap2",
+        "reqwest",
+        "thiserror",
+        "tokio",
+        "tokio",
+        "tokio-stream",
+        "tokio-util",
+        "tower-http",
+        "tracing"
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "name": "car-mirror-axum",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "axum",
+        "axum-macros",
+        "axum-server",
+        "axum-server-dual-protocol",
+        "bytes",
+        "car-mirror",
+        "futures",
+        "http",
+        "libipld",
+        "mime",
+        "rand",
+        "rand_chacha",
+        "rcgen",
+        "serde",
+        "serde_ipld_dagcbor",
+        "test-log",
+        "test-strategy",
+        "testresult",
+        "thiserror",
+        "tokio",
+        "tokio-util",
+        "tower-http",
+        "tracing",
+        "tracing-subscriber",
+        "wnfs-common",
+        "wnfs-unixfs-file"
+    ]
+}

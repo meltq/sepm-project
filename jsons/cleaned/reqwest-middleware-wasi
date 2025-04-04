@@ -1,0 +1,15 @@
+{
+    "name": "reqwest-middleware-wasi",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "http",
+        "reqwest",
+        "reqwest_wasi",
+        "serde",
+        "task-local-extensions",
+        "thiserror",
+        "tokio",
+        "wiremock"
+    ]
+}

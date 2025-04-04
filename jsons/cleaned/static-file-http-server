@@ -1,0 +1,13 @@
+{
+    "name": "static-file-http-server",
+    "deps": [
+        "axum",
+        "clap",
+        "include_directory",
+        "new_mime_guess",
+        "once_cell",
+        "open",
+        "reqwest",
+        "tokio"
+    ]
+}

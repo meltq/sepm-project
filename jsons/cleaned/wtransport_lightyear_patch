@@ -1,0 +1,27 @@
+{
+    "name": "wtransport_lightyear_patch",
+    "deps": [
+        "anyhow",
+        "axum",
+        "base64",
+        "bytes",
+        "hyper",
+        "pathsearch",
+        "quinn",
+        "rcgen",
+        "ring",
+        "rustls",
+        "rustls-native-certs",
+        "rustls-pemfile",
+        "socket2",
+        "sysinfo",
+        "thiserror",
+        "time",
+        "tokio",
+        "tokio",
+        "tracing",
+        "tracing-subscriber",
+        "url",
+        "wtransport-proto"
+    ]
+}

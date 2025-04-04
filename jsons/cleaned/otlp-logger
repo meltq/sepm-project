@@ -1,0 +1,17 @@
+{
+    "name": "otlp-logger",
+    "deps": [
+        "anyhow",
+        "derive_builder",
+        "opentelemetry",
+        "opentelemetry-otlp",
+        "opentelemetry-semantic-conventions",
+        "opentelemetry_sdk",
+        "testcontainers",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "tracing-opentelemetry",
+        "tracing-subscriber"
+    ]
+}

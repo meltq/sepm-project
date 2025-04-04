@@ -1,0 +1,12 @@
+{
+    "name": "wasm_main_executor",
+    "deps": [
+        "arc-swap",
+        "dummy-waker",
+        "futures",
+        "gloo-timers",
+        "once_cell",
+        "thiserror",
+        "web-sys"
+    ]
+}

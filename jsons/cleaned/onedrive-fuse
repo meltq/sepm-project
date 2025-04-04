@@ -1,0 +1,21 @@
+{
+    "name": "onedrive-fuse",
+    "deps": [
+        "anyhow",
+        "bytes",
+        "env_logger",
+        "fuse",
+        "http",
+        "libc",
+        "log",
+        "nix",
+        "onedrive-api",
+        "pico-args",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "static_assertions",
+        "time",
+        "tokio"
+    ]
+}

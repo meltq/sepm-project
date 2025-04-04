@@ -1,0 +1,14 @@
+{
+    "name": "kafka_json_processor_core",
+    "deps": [
+        "crossbeam",
+        "crossbeam-channel",
+        "env_logger",
+        "lazy_static",
+        "log",
+        "rdkafka",
+        "regex",
+        "serde_json",
+        "tokio"
+    ]
+}

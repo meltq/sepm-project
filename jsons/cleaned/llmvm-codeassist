@@ -1,0 +1,18 @@
+{
+    "name": "llmvm-codeassist",
+    "deps": [
+        "anyhow",
+        "futures",
+        "llmvm-protocol",
+        "llmvm-util",
+        "lsp-types",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tokio-stream",
+        "tower",
+        "tracing",
+        "tracing-subscriber",
+        "url"
+    ]
+}

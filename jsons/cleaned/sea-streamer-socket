@@ -1,0 +1,13 @@
+{
+    "name": "sea-streamer-socket",
+    "deps": [
+        "anyhow",
+        "env_logger",
+        "sea-streamer-kafka",
+        "sea-streamer-stdio",
+        "sea-streamer-types",
+        "structopt",
+        "thiserror",
+        "tokio"
+    ]
+}

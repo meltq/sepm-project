@@ -1,0 +1,15 @@
+{
+    "name": "ws2can",
+    "deps": [
+        "env_logger",
+        "futures-channel",
+        "futures-util",
+        "log",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "tokio",
+        "tokio-socketcan",
+        "tokio-tungstenite"
+    ]
+}

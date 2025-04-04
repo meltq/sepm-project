@@ -1,0 +1,19 @@
+{
+    "name": "ecies-ed25519-silene",
+    "deps": [
+        "aes-gcm",
+        "curve25519-dalek",
+        "digest",
+        "hex",
+        "hkdf",
+        "rand",
+        "ring",
+        "serde",
+        "serde_cbor",
+        "serde_json",
+        "sha2",
+        "sha3",
+        "thiserror",
+        "zeroize"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "name": "xenet-datalink",
+    "deps": [
+        "default-net",
+        "libc",
+        "netmap_sys",
+        "pcap",
+        "serde",
+        "windows-sys",
+        "xenet-core",
+        "xenet-sys"
+    ]
+}

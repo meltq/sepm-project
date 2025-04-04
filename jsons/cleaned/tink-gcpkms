@@ -1,0 +1,12 @@
+{
+    "name": "tink-gcpkms",
+    "deps": [
+        "base64",
+        "google-cloudkms1",
+        "hyper",
+        "hyper-rustls",
+        "serde_json",
+        "tink-core",
+        "yup-oauth2"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "name": "cargo-config2",
+    "deps": [
+        "anyhow",
+        "cfg-expr",
+        "clap",
+        "duct",
+        "fs-err",
+        "home",
+        "lexopt",
+        "once_cell",
+        "rustversion",
+        "serde",
+        "serde_json",
+        "shell-escape",
+        "static_assertions",
+        "tempfile",
+        "toml_edit",
+        "walkdir"
+    ]
+}

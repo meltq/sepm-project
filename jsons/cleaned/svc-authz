@@ -1,0 +1,12 @@
+{
+    "name": "svc-authz",
+    "deps": [
+        "failure",
+        "jsonwebtoken",
+        "reqwest",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "svc-authn"
+    ]
+}

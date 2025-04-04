@@ -1,0 +1,21 @@
+{
+    "name": "pv_inspect",
+    "deps": [
+        "anyhow",
+        "chrono",
+        "clap",
+        "crossterm",
+        "env_logger",
+        "futures",
+        "k8s-openapi",
+        "kube",
+        "log",
+        "rand_core",
+        "serde_yaml",
+        "ssh-key",
+        "tabled",
+        "tempfile",
+        "tokio",
+        "tokio-util"
+    ]
+}

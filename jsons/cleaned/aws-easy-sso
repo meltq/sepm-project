@@ -1,0 +1,20 @@
+{
+    "name": "aws-easy-sso",
+    "deps": [
+        "anyhow",
+        "aws-config",
+        "aws-sdk-sso",
+        "aws-sdk-ssooidc",
+        "aws-types",
+        "chrono",
+        "clap",
+        "directories",
+        "inquire",
+        "open",
+        "rust-crypto",
+        "rust-ini",
+        "serde",
+        "serde_json",
+        "tokio"
+    ]
+}

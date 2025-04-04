@@ -1,0 +1,20 @@
+{
+    "name": "swc_jni",
+    "deps": [
+        "anyhow",
+        "jni",
+        "jni_fn",
+        "serde",
+        "serde_json",
+        "swc",
+        "swc_common",
+        "swc_core",
+        "swc_ecma_ast",
+        "swc_ecma_codegen",
+        "swc_ecma_transforms",
+        "swc_ecma_transforms_base",
+        "swc_ecma_visit",
+        "thiserror",
+        "tracing"
+    ]
+}

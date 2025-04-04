@@ -1,0 +1,26 @@
+{
+    "name": "entropy-client",
+    "deps": [
+        "base64",
+        "blake2",
+        "entropy-protocol",
+        "entropy-shared",
+        "futures",
+        "hex",
+        "js-sys",
+        "num",
+        "rand_core",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "serial_test",
+        "sha3",
+        "sp-core",
+        "subxt",
+        "synedrion",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "x25519-dalek"
+    ]
+}

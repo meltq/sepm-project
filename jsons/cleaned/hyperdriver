@@ -1,0 +1,31 @@
+{
+    "name": "hyperdriver",
+    "deps": [
+        "axum",
+        "bytes",
+        "camino",
+        "dashmap",
+        "futures-core",
+        "futures-util",
+        "http",
+        "http-body",
+        "http-body-util",
+        "humantime-serde",
+        "hyper",
+        "libc",
+        "ouroboros",
+        "pin-project",
+        "rustls",
+        "rustls-native-certs",
+        "serde",
+        "socket2",
+        "static-assertions",
+        "tempfile",
+        "thiserror",
+        "tokio",
+        "tokio-rustls",
+        "tower",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

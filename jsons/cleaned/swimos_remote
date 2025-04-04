@@ -1,0 +1,32 @@
+{
+    "name": "swimos_remote",
+    "deps": [
+        "bytes",
+        "either",
+        "flate2",
+        "futures",
+        "http",
+        "pin-project",
+        "ratchet",
+        "rustls",
+        "rustls-pemfile",
+        "smallvec",
+        "static_assertions",
+        "swimos_api",
+        "swimos_messages",
+        "swimos_model",
+        "swimos_recon",
+        "swimos_utilities",
+        "thiserror",
+        "tokio",
+        "tokio",
+        "tokio-rustls",
+        "tokio-stream",
+        "tokio-util",
+        "tracing",
+        "url",
+        "uuid",
+        "webpki",
+        "webpki-roots"
+    ]
+}

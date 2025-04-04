@@ -1,0 +1,30 @@
+{
+    "name": "netsblox-vm",
+    "deps": [
+        "actix-cors",
+        "actix-web",
+        "async-channel",
+        "bin-pool",
+        "clap",
+        "crossterm",
+        "derive_builder",
+        "futures",
+        "gc-arena",
+        "getrandom",
+        "libm",
+        "liquid",
+        "names",
+        "netsblox-ast",
+        "no-std-compat",
+        "num-derive",
+        "num-traits",
+        "rand",
+        "rand_chacha",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tokio-tungstenite",
+        "uuid"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "name": "rsmq_async_lite",
+    "deps": [
+        "bb8-redis",
+        "lazy_static",
+        "net2",
+        "radix_fmt",
+        "rand",
+        "redis",
+        "thiserror",
+        "tokio"
+    ]
+}

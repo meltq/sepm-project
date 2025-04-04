@@ -1,0 +1,21 @@
+{
+    "name": "dns-firewall",
+    "deps": [
+        "anyhow",
+        "assert_cmd",
+        "assert_matches",
+        "chrono",
+        "clap",
+        "env_logger",
+        "ipnet",
+        "lazy_static",
+        "log",
+        "maplit",
+        "rand",
+        "tempfile",
+        "thiserror",
+        "tokio",
+        "trust-dns-proto",
+        "trust-dns-resolver"
+    ]
+}

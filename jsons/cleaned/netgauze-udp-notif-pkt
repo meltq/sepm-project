@@ -1,0 +1,22 @@
+{
+    "name": "netgauze-udp-notif-pkt",
+    "deps": [
+        "arbitrary",
+        "arbitrary_ext",
+        "byteorder",
+        "bytes",
+        "netgauze-locate",
+        "netgauze-parse-utils",
+        "netgauze-parse-utils",
+        "netgauze-pcap-reader",
+        "netgauze-serde-macros",
+        "nom",
+        "pcap-parser",
+        "rstest",
+        "serde",
+        "serde_json",
+        "strum",
+        "strum_macros",
+        "tokio-util"
+    ]
+}

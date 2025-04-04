@@ -1,0 +1,19 @@
+{
+    "name": "miden-node",
+    "deps": [
+        "anyhow",
+        "clap",
+        "figment",
+        "miden-lib",
+        "miden-node-block-producer",
+        "miden-node-rpc",
+        "miden-node-store",
+        "miden-node-utils",
+        "miden-node-utils",
+        "miden-objects",
+        "serde",
+        "tokio",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

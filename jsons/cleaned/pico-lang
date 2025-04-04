@@ -1,0 +1,27 @@
+{
+    "name": "pico-lang",
+    "deps": [
+        "anyhow",
+        "clap",
+        "env_logger",
+        "futures",
+        "hashcow",
+        "itertools",
+        "jsonpath_lib",
+        "log",
+        "nats",
+        "regex",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "serde_path_to_error",
+        "serde_regex",
+        "thiserror",
+        "tinytemplate",
+        "tokio",
+        "unicode-segmentation",
+        "uuid",
+        "valico",
+        "warp"
+    ]
+}

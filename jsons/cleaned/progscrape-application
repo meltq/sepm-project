@@ -1,0 +1,19 @@
+{
+    "name": "progscrape-application",
+    "deps": [
+        "base64",
+        "itertools",
+        "keepcalm",
+        "progscrape-scrapers",
+        "rstest",
+        "rusqlite",
+        "serde",
+        "serde_json",
+        "serde_rusqlite",
+        "tantivy",
+        "tempfile",
+        "thiserror",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

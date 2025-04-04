@@ -1,0 +1,21 @@
+{
+    "name": "pallet-plasm-validator",
+    "deps": [
+        "codec",
+        "frame-support",
+        "frame-system",
+        "hex-literal",
+        "pallet-balances",
+        "pallet-plasm-rewards",
+        "pallet-randomness-collective-flip",
+        "pallet-session",
+        "pallet-timestamp",
+        "serde",
+        "sp-arithmetic",
+        "sp-core",
+        "sp-io",
+        "sp-runtime",
+        "sp-staking",
+        "sp-std"
+    ]
+}

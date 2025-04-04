@@ -1,0 +1,25 @@
+{
+    "name": "proksi",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "bollard",
+        "bollard-stubs",
+        "bytes",
+        "figment",
+        "http",
+        "instant-acme",
+        "pingora",
+        "pingora-http",
+        "pingora-load-balancing",
+        "pingora-openssl",
+        "pingora-pool",
+        "pingora-proxy",
+        "rcgen",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "name": "remotefs-fuse-cli",
+    "deps": [
+        "anyhow",
+        "argh",
+        "ctrlc",
+        "env_logger",
+        "log",
+        "nix",
+        "remotefs",
+        "remotefs-aws-s3",
+        "remotefs-ftp",
+        "remotefs-fuse",
+        "remotefs-kube",
+        "remotefs-memory",
+        "remotefs-smb",
+        "remotefs-ssh",
+        "remotefs-webdav",
+        "thiserror",
+        "tokio"
+    ]
+}

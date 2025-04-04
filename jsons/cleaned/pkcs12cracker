@@ -1,0 +1,17 @@
+{
+    "name": "pkcs12cracker",
+    "deps": [
+        "anyhow",
+        "assert_cmd",
+        "clap",
+        "log",
+        "memmap2",
+        "num_cpus",
+        "openssl",
+        "predicates",
+        "pretty_assertions",
+        "rayon",
+        "tempfile",
+        "test-log"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "name": "rsql_driver_mariadb",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "file_type",
+        "rsql_driver",
+        "rsql_driver_mysql",
+        "testcontainers",
+        "testcontainers-modules",
+        "tokio"
+    ]
+}

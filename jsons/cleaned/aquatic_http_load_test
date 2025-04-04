@@ -1,0 +1,21 @@
+{
+    "name": "aquatic_http_load_test",
+    "deps": [
+        "anyhow",
+        "aquatic_cli_helpers",
+        "aquatic_common",
+        "aquatic_http_protocol",
+        "aquatic_toml_config",
+        "futures-lite",
+        "glommio",
+        "hashbrown",
+        "log",
+        "mimalloc",
+        "quickcheck",
+        "quickcheck_macros",
+        "rand",
+        "rand_distr",
+        "rustls",
+        "serde"
+    ]
+}

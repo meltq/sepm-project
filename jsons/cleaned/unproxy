@@ -1,0 +1,11 @@
+{
+    "name": "unproxy",
+    "deps": [
+        "anyhow",
+        "async-http-proxy",
+        "tokio",
+        "tokio-rustls",
+        "url",
+        "webpki-roots"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "name": "emit_otlp",
+    "deps": [
+        "bytes",
+        "emit",
+        "emit",
+        "emit_batcher",
+        "flate2",
+        "hyper",
+        "prost",
+        "prost-types",
+        "rustls-native-certs",
+        "sval",
+        "sval_buffer",
+        "sval_derive",
+        "sval_json",
+        "sval_protobuf",
+        "sval_ref",
+        "tokio",
+        "tokio",
+        "tokio-rustls"
+    ]
+}

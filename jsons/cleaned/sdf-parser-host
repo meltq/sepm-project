@@ -1,0 +1,11 @@
+{
+    "name": "sdf-parser-host",
+    "deps": [
+        "anyhow",
+        "sdf-metadata",
+        "sdf-parser-df",
+        "sdf-parser-package",
+        "tracing",
+        "wasmtime"
+    ]
+}

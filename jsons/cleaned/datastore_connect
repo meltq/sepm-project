@@ -1,0 +1,11 @@
+{
+    "name": "datastore_connect",
+    "deps": [
+        "bb8-redis",
+        "env_utils",
+        "sqlx",
+        "surrealdb",
+        "thiserror",
+        "tokio"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "name": "vsock-relay",
+    "deps": [
+        "anyhow",
+        "bytes",
+        "clap",
+        "tokio",
+        "tokio-vsock",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

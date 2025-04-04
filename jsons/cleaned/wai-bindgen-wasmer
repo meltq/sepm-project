@@ -1,0 +1,13 @@
+{
+    "name": "wai-bindgen-wasmer",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "bitflags",
+        "once_cell",
+        "thiserror",
+        "tracing-lib",
+        "wai-bindgen-wasmer-impl",
+        "wasmer"
+    ]
+}

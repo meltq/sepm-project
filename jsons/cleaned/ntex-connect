@@ -1,0 +1,22 @@
+{
+    "name": "ntex-connect",
+    "deps": [
+        "env_logger",
+        "log",
+        "ntex-async-std",
+        "ntex-bytes",
+        "ntex-glommio",
+        "ntex-http",
+        "ntex-io",
+        "ntex-rt",
+        "ntex-service",
+        "ntex-tls",
+        "ntex-tokio",
+        "ntex-util",
+        "rand",
+        "thiserror",
+        "tls-openssl",
+        "tls-rustls",
+        "webpki-roots"
+    ]
+}

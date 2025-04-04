@@ -1,0 +1,21 @@
+{
+    "name": "otlp-sigv4-client",
+    "deps": [
+        "async-trait",
+        "aws-config",
+        "aws-credential-types",
+        "aws-sigv4",
+        "aws-smithy-runtime-api",
+        "bytes",
+        "doc-comment",
+        "http",
+        "opentelemetry",
+        "opentelemetry-http",
+        "opentelemetry-otlp",
+        "opentelemetry_sdk",
+        "reqwest",
+        "thiserror",
+        "tokio",
+        "tracing"
+    ]
+}

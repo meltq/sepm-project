@@ -1,0 +1,20 @@
+{
+    "name": "surrealdb-migrate-cli",
+    "deps": [
+        "assert_fs",
+        "assertor",
+        "chrono",
+        "clap",
+        "cli-table",
+        "color-eyre",
+        "database-migration",
+        "dotenvy",
+        "log",
+        "simplelog",
+        "snapbox",
+        "surrealdb-migrate",
+        "surrealdb-migrate-db-client",
+        "testcontainers-modules",
+        "tokio"
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "name": "storage-proofs-porep",
+    "deps": [
+        "anyhow",
+        "bellperson",
+        "criterion",
+        "ff",
+        "fil-sapling-crypto",
+        "generic-array",
+        "log",
+        "memmap",
+        "merkletree",
+        "neptune",
+        "num-bigint",
+        "num-traits",
+        "num_cpus",
+        "once_cell",
+        "paired",
+        "pretty_assertions",
+        "rand",
+        "rand_xorshift",
+        "rayon",
+        "serde",
+        "sha2",
+        "sha2raw",
+        "storage-proofs-core",
+        "tempdir",
+        "tempfile"
+    ]
+}

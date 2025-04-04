@@ -1,0 +1,17 @@
+{
+    "name": "ntp-metrics-exporter",
+    "deps": [
+        "axum",
+        "clap",
+        "ntp-daemon",
+        "ntp-os-clock",
+        "ntp-proto",
+        "prometheus-client",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

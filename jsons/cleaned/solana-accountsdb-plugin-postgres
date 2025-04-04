@@ -1,0 +1,18 @@
+{
+    "name": "solana-accountsdb-plugin-postgres",
+    "deps": [
+        "bs58",
+        "chrono",
+        "crossbeam-channel",
+        "log",
+        "postgres",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "solana-accountsdb-plugin-interface",
+        "solana-logger",
+        "solana-metrics",
+        "solana-sdk",
+        "thiserror"
+    ]
+}

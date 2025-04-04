@@ -1,0 +1,33 @@
+{
+    "name": "atuin-client",
+    "deps": [
+        "async-trait",
+        "atuin-common",
+        "base64",
+        "chrono",
+        "chrono-english",
+        "config",
+        "directories",
+        "eyre",
+        "fern",
+        "humantime",
+        "indicatif",
+        "itertools",
+        "log",
+        "parse_duration",
+        "rand",
+        "reqwest",
+        "rmp-serde",
+        "rust-crypto",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "shellexpand",
+        "sodiumoxide",
+        "sqlx",
+        "tokio",
+        "urlencoding",
+        "uuid",
+        "whoami"
+    ]
+}

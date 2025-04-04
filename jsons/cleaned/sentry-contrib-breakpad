@@ -1,0 +1,10 @@
+{
+    "name": "sentry-contrib-breakpad",
+    "deps": [
+        "breakpad-handler",
+        "crossbeam",
+        "parking_lot",
+        "sentry-core",
+        "serde_json"
+    ]
+}

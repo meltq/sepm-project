@@ -1,0 +1,19 @@
+{
+    "name": "interledger-spsp",
+    "deps": [
+        "base64",
+        "bytes",
+        "failure",
+        "futures",
+        "hyper",
+        "interledger-ildcp",
+        "interledger-packet",
+        "interledger-service",
+        "interledger-stream",
+        "log",
+        "reqwest",
+        "serde",
+        "serde_derive",
+        "serde_json"
+    ]
+}

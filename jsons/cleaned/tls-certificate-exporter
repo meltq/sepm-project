@@ -1,0 +1,32 @@
+{
+    "name": "tls-certificate-exporter",
+    "deps": [
+        "anyhow",
+        "axum",
+        "backtrace",
+        "base64",
+        "chrono",
+        "config",
+        "dotenvy",
+        "duration-str",
+        "futures",
+        "hickory-resolver",
+        "num-bigint",
+        "pem",
+        "prometheus",
+        "rustls-native-certs",
+        "rustls-pemfile",
+        "rustls-pki-types",
+        "rustls-webpki",
+        "serde",
+        "serde_bytes",
+        "serde_with",
+        "thiserror",
+        "tokio",
+        "tokio-rustls",
+        "tracing",
+        "tracing-subscriber",
+        "webpki-roots",
+        "x509-certificate"
+    ]
+}

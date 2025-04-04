@@ -1,0 +1,16 @@
+{
+    "name": "convergence-dynamodb",
+    "deps": [
+        "async-trait",
+        "convergence",
+        "convergence-arrow",
+        "datafusion",
+        "rusoto_core",
+        "rusoto_dynamodb",
+        "sqlparser",
+        "thiserror",
+        "tokio",
+        "tokio-postgres",
+        "uuid"
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "name": "containerd-shim-wasm",
+    "deps": [
+        "anyhow",
+        "caps",
+        "chrono",
+        "clone3",
+        "command-fds",
+        "containerd-shim",
+        "env_logger",
+        "libc",
+        "log",
+        "nix",
+        "oci-spec",
+        "pretty_assertions",
+        "proc-mounts",
+        "protobuf",
+        "rand",
+        "serde",
+        "serde_json",
+        "signal-hook",
+        "tempfile",
+        "thiserror",
+        "ttrpc",
+        "ttrpc-codegen"
+    ]
+}

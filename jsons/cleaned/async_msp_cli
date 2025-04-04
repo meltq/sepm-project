@@ -1,0 +1,14 @@
+{
+    "name": "async_msp_cli",
+    "deps": [
+        "async-std",
+        "async_msp_lib",
+        "clap-v3",
+        "futures",
+        "itertools",
+        "multiwii_serial_protocol_v2",
+        "packed_struct",
+        "packed_struct_codegen",
+        "serialport"
+    ]
+}

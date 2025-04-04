@@ -1,0 +1,26 @@
+{
+    "name": "webclient",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "clap",
+        "crossbeam",
+        "ctrlc",
+        "dashmap",
+        "futures",
+        "futures-channel",
+        "futures-util",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "time",
+        "tokio",
+        "tokio-tungstenite",
+        "tracing",
+        "tracing-appender",
+        "tracing-subscriber",
+        "url",
+        "uuid",
+        "webproto"
+    ]
+}

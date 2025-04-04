@@ -1,0 +1,16 @@
+{
+    "name": "jellyfin-remote-proxy",
+    "deps": [
+        "anyhow",
+        "env_logger",
+        "log",
+        "nix",
+        "serde",
+        "serde_json",
+        "serde_yaml",
+        "sozu-command-lib",
+        "sozu-lib",
+        "time",
+        "url"
+    ]
+}

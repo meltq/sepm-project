@@ -1,0 +1,22 @@
+{
+    "name": "tracing-actix-web-mozlog",
+    "deps": [
+        "actix-http",
+        "actix-rt",
+        "actix-service",
+        "actix-web",
+        "chrono",
+        "gethostname",
+        "jsonschema",
+        "lazy_static",
+        "maplit",
+        "pretty_assertions",
+        "serde",
+        "serde_json",
+        "tracing",
+        "tracing-actix-web",
+        "tracing-bunyan-formatter",
+        "tracing-futures",
+        "tracing-subscriber"
+    ]
+}

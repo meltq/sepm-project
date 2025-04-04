@@ -1,0 +1,16 @@
+{
+    "name": "redis-fs",
+    "deps": [
+        "anyhow",
+        "bytes",
+        "clap",
+        "dashmap",
+        "env_logger",
+        "fuse3",
+        "futures-util",
+        "libc",
+        "log",
+        "redis",
+        "tokio"
+    ]
+}

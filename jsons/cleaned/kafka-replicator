@@ -1,0 +1,21 @@
+{
+    "name": "kafka-replicator",
+    "deps": [
+        "byte-unit",
+        "clap",
+        "env_logger",
+        "futures",
+        "log",
+        "pretty-bytes",
+        "rand",
+        "rdkafka",
+        "rdkafka-sys",
+        "regex",
+        "serde",
+        "serde_json",
+        "serde_yaml",
+        "structopt",
+        "tokio",
+        "toml"
+    ]
+}

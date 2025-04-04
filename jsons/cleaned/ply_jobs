@@ -1,0 +1,23 @@
+{
+    "name": "ply_jobs",
+    "deps": [
+        "async-trait",
+        "base64",
+        "chrono",
+        "cron",
+        "derive_more",
+        "futures",
+        "log",
+        "mongodb",
+        "pickledb",
+        "rand",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "simple_logger",
+        "thiserror",
+        "tokio",
+        "tokio-retry",
+        "tokio-timer"
+    ]
+}

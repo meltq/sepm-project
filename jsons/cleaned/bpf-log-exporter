@@ -1,0 +1,14 @@
+{
+    "name": "bpf-log-exporter",
+    "deps": [
+        "anyhow",
+        "env_logger",
+        "futures",
+        "hex",
+        "log",
+        "netlink-packet-audit",
+        "netlink-packet-core",
+        "netlink-sys",
+        "regex"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "waffles-solana-banks-server",
+    "deps": [
+        "bincode",
+        "crossbeam-channel",
+        "futures",
+        "solana-banks-interface",
+        "solana-client",
+        "solana-runtime",
+        "solana-sdk",
+        "solana-send-transaction-service",
+        "tarpc",
+        "tokio",
+        "tokio-serde",
+        "tokio-stream"
+    ]
+}

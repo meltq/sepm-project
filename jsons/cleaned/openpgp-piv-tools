@@ -1,0 +1,14 @@
+{
+    "name": "openpgp-piv-tools",
+    "deps": [
+        "anyhow",
+        "clap",
+        "env_logger",
+        "openpgp-piv-sequoia",
+        "openpgp-x509-sequoia",
+        "sequoia-ipc",
+        "sequoia-openpgp",
+        "x509-certificate",
+        "yubikey"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "tmp-postgrust",
+    "deps": [
+        "glob",
+        "lazy_static",
+        "nix",
+        "tempdir",
+        "test-env-log",
+        "thiserror",
+        "tokio",
+        "tokio",
+        "tokio-postgres",
+        "tracing",
+        "tracing-subscriber",
+        "which"
+    ]
+}

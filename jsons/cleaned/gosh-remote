@@ -1,0 +1,22 @@
+{
+    "name": "gosh-remote",
+    "deps": [
+        "axum",
+        "clap",
+        "crossbeam-channel",
+        "fs2",
+        "gosh-core",
+        "gosh-model",
+        "gosh-runner",
+        "nix",
+        "rand",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "spmc",
+        "tempfile",
+        "tokio",
+        "tokio-util",
+        "warp"
+    ]
+}

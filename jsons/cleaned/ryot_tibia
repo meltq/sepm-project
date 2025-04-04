@@ -1,0 +1,26 @@
+{
+    "name": "ryot_tibia",
+    "deps": [
+        "bevy_app",
+        "bevy_asset",
+        "bevy_utils",
+        "derive_more",
+        "glam",
+        "prost",
+        "prost-build",
+        "prost-types",
+        "quickcheck",
+        "quickcheck_macros",
+        "rand",
+        "rstest",
+        "ryot_core",
+        "ryot_sprites",
+        "serde",
+        "serde_json",
+        "serde_repr",
+        "strum",
+        "thiserror",
+        "time-test",
+        "wasm-bindgen-futures"
+    ]
+}

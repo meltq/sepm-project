@@ -1,0 +1,16 @@
+{
+    "name": "tor-chanmgr",
+    "deps": [
+        "async-trait",
+        "futures",
+        "futures-await-test",
+        "hex-literal",
+        "log",
+        "thiserror",
+        "tor-linkspec",
+        "tor-llcrypto",
+        "tor-proto",
+        "tor-rtcompat",
+        "tor-rtmock"
+    ]
+}

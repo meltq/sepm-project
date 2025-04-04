@@ -1,0 +1,16 @@
+{
+    "name": "superviseur-webui",
+    "deps": [
+        "actix-cors",
+        "actix-web",
+        "async-graphql",
+        "async-graphql-actix-web",
+        "mime_guess",
+        "rust-embed",
+        "superviseur-core",
+        "superviseur-graphql",
+        "superviseur-provider",
+        "superviseur-types",
+        "tokio"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "name": "krata-guest",
+    "deps": [
+        "anyhow",
+        "env_logger",
+        "futures",
+        "ipnetwork",
+        "krata",
+        "krata-xenstore",
+        "libc",
+        "log",
+        "nix",
+        "oci-spec",
+        "path-absolutize",
+        "rtnetlink",
+        "serde",
+        "serde_json",
+        "sys-mount",
+        "tokio",
+        "walkdir"
+    ]
+}

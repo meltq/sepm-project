@@ -1,0 +1,22 @@
+{
+    "name": "aptos-publish",
+    "deps": [
+        "anyhow",
+        "aptos-cli-common",
+        "aptos-cli-config",
+        "aptos-crypto",
+        "aptos-rest-client",
+        "aptos-sdk",
+        "aptos-types",
+        "async-trait",
+        "bcs",
+        "clap",
+        "clitool",
+        "move-deps",
+        "mv-core-types",
+        "serde",
+        "static-address",
+        "tokio",
+        "url"
+    ]
+}

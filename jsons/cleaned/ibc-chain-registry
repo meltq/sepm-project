@@ -1,0 +1,19 @@
+{
+    "name": "ibc-chain-registry",
+    "deps": [
+        "async-trait",
+        "flex-error",
+        "futures",
+        "http",
+        "ibc-proto",
+        "ibc-relayer-types",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "tendermint-rpc",
+        "tokio",
+        "toml",
+        "tracing",
+        "url"
+    ]
+}

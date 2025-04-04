@@ -1,0 +1,15 @@
+{
+    "name": "wl-distore",
+    "deps": [
+        "clap",
+        "expanduser",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "toml",
+        "tracing",
+        "tracing-subscriber",
+        "wayland-client",
+        "wayland-protocols-wlr"
+    ]
+}

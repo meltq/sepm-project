@@ -1,0 +1,19 @@
+{
+    "name": "eternalfest_user_store",
+    "deps": [
+        "async-trait",
+        "chrono",
+        "eternalfest_buffer_store",
+        "eternalfest_config",
+        "eternalfest_core",
+        "eternalfest_db_schema",
+        "futures",
+        "neon",
+        "regex",
+        "serial_test",
+        "sqlx",
+        "thiserror",
+        "tokio",
+        "uuid"
+    ]
+}

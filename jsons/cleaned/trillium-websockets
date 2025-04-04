@@ -1,0 +1,19 @@
+{
+    "name": "trillium-websockets",
+    "deps": [
+        "async-dup",
+        "async-net",
+        "async-tungstenite",
+        "base64",
+        "env_logger",
+        "futures-util",
+        "log",
+        "pin-project",
+        "serde",
+        "serde_json",
+        "sha-1",
+        "stopper",
+        "trillium",
+        "trillium-http"
+    ]
+}

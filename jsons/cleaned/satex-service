@@ -1,0 +1,16 @@
+{
+    "name": "satex-service",
+    "deps": [
+        "bytes",
+        "futures",
+        "hyper",
+        "hyper-rustls",
+        "hyper-util",
+        "satex-core",
+        "satex-discovery",
+        "serde",
+        "tower",
+        "tower-http",
+        "tracing"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "name": "cdk-mintd",
+    "deps": [
+        "anyhow",
+        "axum",
+        "axum-macros",
+        "bip39",
+        "cdk",
+        "cdk-axum",
+        "cdk-cln",
+        "cdk-redb",
+        "cdk-sqlite",
+        "clap",
+        "config",
+        "futures",
+        "home",
+        "lightning-invoice",
+        "serde",
+        "tokio",
+        "tower-http",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "name": "bitcoins-provider",
+    "deps": [
+        "async-trait",
+        "bitcoins",
+        "bytes",
+        "coins-core",
+        "futures-core",
+        "futures-timer",
+        "futures-util",
+        "hex",
+        "lru",
+        "pin-project",
+        "reqwest",
+        "secrecy",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "wasm-bindgen"
+    ]
+}

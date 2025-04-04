@@ -1,0 +1,15 @@
+{
+    "name": "loggestd",
+    "deps": [
+        "byteorder",
+        "bytes",
+        "env_logger",
+        "futures",
+        "log",
+        "nix",
+        "structopt",
+        "tokio",
+        "tokio-signal",
+        "zstd"
+    ]
+}

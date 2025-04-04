@@ -1,0 +1,26 @@
+{
+    "name": "chia-sdk-test",
+    "deps": [
+        "anyhow",
+        "chia-bls",
+        "chia-client",
+        "chia-consensus",
+        "chia-protocol",
+        "chia-puzzles",
+        "chia-sdk-signer",
+        "chia-sdk-types",
+        "chia-traits",
+        "clvm-traits",
+        "clvm-utils",
+        "clvmr",
+        "futures-channel",
+        "futures-util",
+        "hex-literal",
+        "indexmap",
+        "once_cell",
+        "rand",
+        "rand_chacha",
+        "tokio",
+        "tokio-tungstenite"
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "name": "candle-gemm",
+    "deps": [
+        "assert_approx_eq",
+        "criterion",
+        "dyn-stack",
+        "gemm-c32",
+        "gemm-c64",
+        "gemm-common",
+        "gemm-f16",
+        "gemm-f32",
+        "gemm-f64",
+        "lazy_static",
+        "nalgebra",
+        "num-complex",
+        "num-traits",
+        "num_cpus",
+        "paste",
+        "rand",
+        "raw-cpuid",
+        "rayon",
+        "rayon",
+        "seq-macro"
+    ]
+}

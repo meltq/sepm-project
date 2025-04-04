@@ -1,0 +1,21 @@
+{
+    "name": "aquavm-air-parser",
+    "deps": [
+        "air-lambda-ast",
+        "air-lambda-parser",
+        "codespan",
+        "codespan-reporting",
+        "criterion",
+        "fstrings",
+        "itertools",
+        "lalrpop",
+        "lalrpop-util",
+        "multimap",
+        "non-empty-vec",
+        "regex",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tracing"
+    ]
+}

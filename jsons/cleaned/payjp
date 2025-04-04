@@ -1,0 +1,21 @@
+{
+    "name": "payjp",
+    "deps": [
+        "async-payjp-client-core",
+        "async-payjp-shared",
+        "async-std",
+        "base64",
+        "bytes",
+        "http-types",
+        "httpmock",
+        "hyper",
+        "hyper-rustls",
+        "hyper-tls",
+        "miniserde",
+        "serde",
+        "serde_json",
+        "surf",
+        "thiserror",
+        "tokio"
+    ]
+}

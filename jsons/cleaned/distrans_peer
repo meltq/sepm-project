@@ -1,0 +1,16 @@
+{
+    "name": "distrans_peer",
+    "deps": [
+        "capnp",
+        "capnpc",
+        "distrans_fileindex",
+        "flume",
+        "path-absolutize",
+        "tempfile",
+        "thiserror",
+        "tokio",
+        "tokio-util",
+        "tracing",
+        "veilid-core"
+    ]
+}

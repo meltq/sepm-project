@@ -1,0 +1,18 @@
+{
+    "name": "safecoin-banks-client",
+    "deps": [
+        "bincode",
+        "borsh",
+        "borsh-derive",
+        "futures",
+        "mio",
+        "safecoin-banks-interface",
+        "safecoin-banks-server",
+        "safecoin-program",
+        "safecoin-runtime",
+        "safecoin-sdk",
+        "tarpc",
+        "tokio",
+        "tokio-serde"
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "name": "libblobd-kv",
+    "deps": [
+        "async-trait",
+        "blake3",
+        "bufpool",
+        "chrono",
+        "crossbeam-channel",
+        "dashmap",
+        "futures",
+        "io-uring",
+        "itertools",
+        "libc",
+        "off64",
+        "once_cell",
+        "parking_lot",
+        "rand",
+        "roaring",
+        "rustc-hash",
+        "serde",
+        "signal-future",
+        "stochastic-queue",
+        "struct-name",
+        "struct-name-macro",
+        "strum",
+        "tinybuf",
+        "tokio",
+        "tracing",
+        "tracing-test"
+    ]
+}

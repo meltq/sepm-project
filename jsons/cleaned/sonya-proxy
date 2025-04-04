@@ -1,0 +1,22 @@
+{
+    "name": "sonya-proxy",
+    "deps": [
+        "actix",
+        "actix-web",
+        "actix-web-actors",
+        "async-stream",
+        "awc",
+        "derive_more",
+        "etcd-client",
+        "futures",
+        "log",
+        "num_cpus",
+        "parking_lot",
+        "pin-project-lite",
+        "serde",
+        "serde_json",
+        "sonya-meta",
+        "tokio",
+        "ws"
+    ]
+}

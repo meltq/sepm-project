@@ -1,0 +1,23 @@
+{
+    "name": "confidential_identity_v2",
+    "deps": [
+        "blake2",
+        "byteorder",
+        "codec",
+        "confidential_identity_core",
+        "criterion",
+        "curve25519-dalek",
+        "getrandom",
+        "rand",
+        "rand_core",
+        "scale-info",
+        "serde",
+        "serde_bytes",
+        "serde_json",
+        "sha3",
+        "sp-io",
+        "sp-std",
+        "wasm-bindgen-test",
+        "zeroize"
+    ]
+}

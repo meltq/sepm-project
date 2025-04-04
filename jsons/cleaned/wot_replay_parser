@@ -1,0 +1,29 @@
+{
+    "name": "wot_replay_parser",
+    "deps": [
+        "bimap",
+        "blowfish",
+        "byteorder",
+        "criterion",
+        "definition_parser",
+        "env_logger",
+        "hex",
+        "macros",
+        "miniz_oxide",
+        "nom",
+        "phf",
+        "phf_codegen",
+        "serde",
+        "serde-pickle",
+        "serde_bytes",
+        "serde_json",
+        "serde_with",
+        "thiserror",
+        "time",
+        "tracing",
+        "utils",
+        "utils",
+        "version-sync",
+        "wot_types"
+    ]
+}

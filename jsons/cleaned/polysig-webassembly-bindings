@@ -1,0 +1,22 @@
+{
+    "name": "polysig-webassembly-bindings",
+    "deps": [
+        "console_error_panic_hook",
+        "futures",
+        "getrandom",
+        "log",
+        "polysig-client",
+        "polysig-driver",
+        "polysig-protocol",
+        "rand",
+        "rustc_version",
+        "serde",
+        "serde-wasm-bindgen",
+        "serde_json",
+        "tracing",
+        "tracing-subscriber",
+        "tracing-subscriber-wasm",
+        "wasm-bindgen",
+        "wasm-bindgen-futures"
+    ]
+}

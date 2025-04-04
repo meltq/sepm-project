@@ -1,0 +1,15 @@
+{
+    "name": "jetstream_server",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "jetstream_9p",
+        "jetstream_client",
+        "jetstream_rpc",
+        "jetstream_wireformat",
+        "okstd",
+        "s2n-quic",
+        "tokio",
+        "tokio-vsock"
+    ]
+}

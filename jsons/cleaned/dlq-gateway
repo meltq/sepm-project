@@ -1,0 +1,11 @@
+{
+    "name": "dlq-gateway",
+    "deps": [
+        "clap",
+        "dlq-gateway-grpc",
+        "env_logger",
+        "log",
+        "tokio",
+        "tonic"
+    ]
+}

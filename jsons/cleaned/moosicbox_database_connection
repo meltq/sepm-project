@@ -1,0 +1,18 @@
+{
+    "name": "moosicbox_database_connection",
+    "deps": [
+        "aws-config",
+        "aws-sdk-ssm",
+        "log",
+        "moosicbox_database",
+        "native-tls",
+        "openssl",
+        "postgres-native-tls",
+        "postgres-openssl",
+        "rusqlite",
+        "sqlx",
+        "thiserror",
+        "tokio",
+        "tokio-postgres"
+    ]
+}

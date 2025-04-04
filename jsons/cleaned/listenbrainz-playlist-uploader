@@ -1,0 +1,29 @@
+{
+    "name": "listenbrainz-playlist-uploader",
+    "deps": [
+        "anyhow",
+        "audiotags",
+        "cached",
+        "clap",
+        "clap-markdown",
+        "clap-verbosity-flag",
+        "config",
+        "env_logger",
+        "ffprobe",
+        "futures",
+        "governor",
+        "indicatif",
+        "inquire",
+        "log",
+        "m3u",
+        "musicbrainz_rs",
+        "num-traits",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "serde_test",
+        "tokio",
+        "tokio-stream",
+        "url"
+    ]
+}

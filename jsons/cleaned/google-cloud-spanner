@@ -1,0 +1,26 @@
+{
+    "name": "google-cloud-spanner",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "base64",
+        "chrono",
+        "env_logger",
+        "futures-channel",
+        "futures-util",
+        "google-cloud-auth",
+        "google-cloud-gax",
+        "google-cloud-googleapis",
+        "hyper",
+        "hyper-tls",
+        "log",
+        "parking_lot",
+        "prost",
+        "prost-types",
+        "rust_decimal",
+        "serial_test",
+        "thiserror",
+        "tokio",
+        "tonic"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "name": "susyp2p-noise",
+    "deps": [
+        "curve25519-dalek",
+        "env_logger",
+        "futures",
+        "lazy_static",
+        "log",
+        "quickcheck",
+        "rand",
+        "ring",
+        "snow",
+        "sodiumoxide",
+        "susyp2p-core",
+        "susyp2p-tcp",
+        "tokio",
+        "tokio-io",
+        "x25519-dalek",
+        "zeroize"
+    ]
+}

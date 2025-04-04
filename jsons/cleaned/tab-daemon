@@ -1,0 +1,26 @@
+{
+    "name": "tab-daemon",
+    "deps": [
+        "anyhow",
+        "async-stream",
+        "async-trait",
+        "async-tungstenite",
+        "base64",
+        "bincode",
+        "dirs",
+        "futures",
+        "http",
+        "lifeline",
+        "log",
+        "rand",
+        "serde_yaml",
+        "simplelog",
+        "tab-api",
+        "tab-websocket",
+        "thiserror",
+        "tokio",
+        "tokio-io",
+        "tokio-test",
+        "tungstenite"
+    ]
+}

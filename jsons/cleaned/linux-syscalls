@@ -1,0 +1,11 @@
+{
+    "name": "linux-syscalls",
+    "deps": [
+        "cc",
+        "cfg-if",
+        "linux-errnos",
+        "linux-raw-vdso",
+        "linux-sysno",
+        "rustc_version"
+    ]
+}

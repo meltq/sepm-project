@@ -1,0 +1,17 @@
+{
+    "name": "terraphim_persistence",
+    "deps": [
+        "async-once-cell",
+        "async-trait",
+        "log",
+        "opendal",
+        "serde",
+        "serde_json",
+        "tempfile",
+        "terraphim_settings",
+        "terraphim_types",
+        "thiserror",
+        "tokio",
+        "tracing-subscriber"
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "name": "fvm_integration_tests",
+    "deps": [
+        "actors-v7",
+        "anyhow",
+        "cid",
+        "futures",
+        "fvm",
+        "fvm_ipld_amt",
+        "fvm_ipld_blockstore",
+        "fvm_ipld_car",
+        "fvm_ipld_encoding",
+        "fvm_ipld_hamt",
+        "fvm_shared",
+        "lazy_static",
+        "libsecp256k1",
+        "multihash",
+        "num-traits",
+        "rand",
+        "rand_chacha",
+        "serde",
+        "serde_repr",
+        "serde_tuple",
+        "thiserror",
+        "wasmtime"
+    ]
+}

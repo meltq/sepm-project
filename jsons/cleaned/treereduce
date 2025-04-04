@@ -1,0 +1,23 @@
+{
+    "name": "treereduce",
+    "deps": [
+        "anyhow",
+        "bencher",
+        "clap",
+        "clap-verbosity-flag",
+        "log",
+        "nu-ansi-term",
+        "num_cpus",
+        "serde",
+        "serde_json",
+        "tempfile",
+        "thiserror",
+        "tracing",
+        "tracing-mutex",
+        "tracing-subscriber",
+        "tree-sitter",
+        "tree-sitter-c",
+        "tree-sitter-edit",
+        "tree-sitter-java"
+    ]
+}

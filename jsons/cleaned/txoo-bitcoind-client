@@ -1,0 +1,17 @@
+{
+    "name": "txoo-bitcoind-client",
+    "deps": [
+        "async-trait",
+        "bitcoin",
+        "env_logger",
+        "jsonrpc-async",
+        "log",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "test-log",
+        "tokio",
+        "txoo",
+        "url"
+    ]
+}

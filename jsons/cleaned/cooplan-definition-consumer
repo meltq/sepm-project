@@ -1,0 +1,20 @@
+{
+    "name": "cooplan-definition-consumer",
+    "deps": [
+        "async-channel",
+        "async-recursion",
+        "cooplan-amqp-api-consumer",
+        "cooplan-amqp-api-shared",
+        "cooplan-auth",
+        "cooplan-definitions-lib",
+        "cooplan-lapin-wrapper",
+        "cooplan-state-tracker",
+        "futures-util",
+        "lapin",
+        "log",
+        "serde",
+        "serde_json",
+        "tokio",
+        "uuid"
+    ]
+}

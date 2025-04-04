@@ -1,0 +1,28 @@
+{
+    "name": "ayun-server",
+    "deps": [
+        "async-trait",
+        "axum",
+        "axum-extra",
+        "ayun-auth",
+        "ayun-config",
+        "ayun-core",
+        "ayun-runtime",
+        "ayun-view",
+        "bytes",
+        "metrics",
+        "mime",
+        "sea-orm",
+        "serde",
+        "serde_json",
+        "tera",
+        "thiserror",
+        "tokio",
+        "tower",
+        "tower-http",
+        "tower-livereload",
+        "tracing",
+        "uuid",
+        "validator"
+    ]
+}

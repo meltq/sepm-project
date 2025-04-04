@@ -1,0 +1,33 @@
+{
+    "name": "light-system-program",
+    "deps": [
+        "account-compression",
+        "aligned-sized",
+        "anchor-lang",
+        "borsh",
+        "bytemuck",
+        "groth16-solana",
+        "lazy_static",
+        "light-circuitlib-rs",
+        "light-concurrent-merkle-tree",
+        "light-hash-set",
+        "light-hasher",
+        "light-heap",
+        "light-indexed-merkle-tree",
+        "light-macros",
+        "light-merkle-tree-reference",
+        "light-utils",
+        "light-verifier",
+        "num-bigint",
+        "num-traits",
+        "rand",
+        "reqwest",
+        "serde_json",
+        "solana-banks-interface",
+        "solana-cli-output",
+        "solana-program-test",
+        "solana-sdk",
+        "solana-sdk",
+        "tokio"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "name": "quicsock",
+    "deps": [
+        "anyhow",
+        "bytes",
+        "clap",
+        "netdev",
+        "quinn",
+        "quinn-proto",
+        "rcgen",
+        "rustls",
+        "rustls-native-certs",
+        "rustls-pemfile",
+        "serde",
+        "tokio",
+        "tokio",
+        "tracing",
+        "tracing-subscriber",
+        "uuid"
+    ]
+}

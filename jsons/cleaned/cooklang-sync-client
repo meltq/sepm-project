@@ -1,0 +1,26 @@
+{
+    "name": "cooklang-sync-client",
+    "deps": [
+        "diesel",
+        "diesel_migrations",
+        "env_logger",
+        "futures",
+        "log",
+        "notify",
+        "notify-debouncer-mini",
+        "openssl",
+        "quick_cache",
+        "reqwest",
+        "reqwest-middleware",
+        "rusqlite",
+        "serde",
+        "serde_json",
+        "sha2",
+        "thiserror",
+        "time",
+        "tokio",
+        "uniffi",
+        "uuid",
+        "walkdir"
+    ]
+}

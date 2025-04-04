@@ -1,0 +1,14 @@
+{
+    "name": "reverse-proxy-service",
+    "deps": [
+        "axum",
+        "http",
+        "hyper",
+        "hyper-tls",
+        "log",
+        "mockito",
+        "regex",
+        "tokio",
+        "tower-service"
+    ]
+}

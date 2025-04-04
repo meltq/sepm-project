@@ -1,0 +1,16 @@
+{
+    "name": "walletd",
+    "deps": [
+        "anyhow",
+        "hex",
+        "thiserror",
+        "tokio",
+        "walletd_bip39",
+        "walletd_bitcoin",
+        "walletd_coin_core",
+        "walletd_ethereum",
+        "walletd_hd_key",
+        "walletd_mnemonics_core",
+        "web3"
+    ]
+}

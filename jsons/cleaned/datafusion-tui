@@ -1,0 +1,24 @@
+{
+    "name": "datafusion-tui",
+    "deps": [
+        "arrow",
+        "aws-sdk-s3",
+        "aws-types",
+        "ballista",
+        "clap",
+        "crossterm",
+        "datafusion",
+        "datafusion-objectstore-s3",
+        "dirs",
+        "futures",
+        "http",
+        "log",
+        "mimalloc",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tui",
+        "tui-logger",
+        "unicode-width"
+    ]
+}

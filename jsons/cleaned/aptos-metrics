@@ -1,0 +1,17 @@
+{
+    "name": "aptos-metrics",
+    "deps": [
+        "aptos-logger",
+        "aptos-metrics-core",
+        "aptos-workspace-hack",
+        "assert_approx_eq",
+        "futures",
+        "hyper",
+        "once_cell",
+        "prometheus",
+        "rusty-fork",
+        "serde_json",
+        "sysinfo",
+        "tokio"
+    ]
+}

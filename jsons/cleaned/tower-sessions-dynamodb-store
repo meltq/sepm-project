@@ -1,0 +1,20 @@
+{
+    "name": "tower-sessions-dynamodb-store",
+    "deps": [
+        "async-trait",
+        "aws-config",
+        "aws-sdk-dynamodb",
+        "axum",
+        "axum-core",
+        "rmp-serde",
+        "serde",
+        "thiserror",
+        "time",
+        "tokio",
+        "tokio-test",
+        "tower",
+        "tower-sessions",
+        "tower-sessions-core",
+        "tracing"
+    ]
+}

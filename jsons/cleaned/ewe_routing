@@ -1,0 +1,27 @@
+{
+    "name": "ewe_routing",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "axum",
+        "bytes",
+        "criterion",
+        "ewe_async_utils",
+        "ewe_mem",
+        "ewe_trace",
+        "http",
+        "lazy-regex",
+        "lazy_static",
+        "regex",
+        "serde",
+        "serde_json",
+        "serde_with",
+        "thiserror",
+        "tokio",
+        "tokio",
+        "tokio-test",
+        "tower",
+        "tracing",
+        "tracing-test"
+    ]
+}

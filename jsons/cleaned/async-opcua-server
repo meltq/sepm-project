@@ -1,0 +1,24 @@
+{
+    "name": "async-opcua-server",
+    "deps": [
+        "arc-swap",
+        "async-opcua-client",
+        "async-opcua-core",
+        "async-opcua-core-namespace",
+        "async-opcua-crypto",
+        "async-opcua-nodes",
+        "async-opcua-types",
+        "async-trait",
+        "bitflags",
+        "chrono",
+        "futures",
+        "hashbrown",
+        "log",
+        "parking_lot",
+        "postcard",
+        "regex",
+        "serde",
+        "tokio",
+        "tokio-util"
+    ]
+}

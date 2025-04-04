@@ -1,0 +1,20 @@
+{
+    "name": "webserver-rs",
+    "deps": [
+        "anyhow",
+        "chrono",
+        "config-file",
+        "futures",
+        "jsonwebtoken",
+        "openssl",
+        "salvo",
+        "sea-orm",
+        "serde",
+        "serde_json",
+        "time",
+        "tokio",
+        "tracing",
+        "tracing-appender",
+        "tracing-subscriber"
+    ]
+}

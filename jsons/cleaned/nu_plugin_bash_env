@@ -1,0 +1,18 @@
+{
+    "name": "nu_plugin_bash_env",
+    "deps": [
+        "anyhow",
+        "itertools",
+        "nu-plugin",
+        "nu-protocol",
+        "once_cell",
+        "rust-embed",
+        "serde",
+        "serde_json",
+        "shellexpand",
+        "subprocess",
+        "tempfile",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "name": "libp2prs-noise",
+    "deps": [
+        "async-std",
+        "async-trait",
+        "bytes",
+        "curve25519-dalek",
+        "env_logger",
+        "futures",
+        "lazy_static",
+        "libp2prs-core",
+        "libp2prs-traits",
+        "log",
+        "prost",
+        "prost-build",
+        "quickcheck",
+        "rand",
+        "sha2",
+        "snow",
+        "snow",
+        "sodiumoxide",
+        "static_assertions",
+        "x25519-dalek",
+        "zeroize"
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "name": "fuel-streams-store",
+    "deps": [
+        "async-stream",
+        "async-trait",
+        "dotenvy",
+        "fuel-data-parser",
+        "fuel-streams-macros",
+        "fuel-streams-types",
+        "futures",
+        "serde",
+        "sqlx",
+        "test-case",
+        "thiserror",
+        "tokio",
+        "tracing"
+    ]
+}

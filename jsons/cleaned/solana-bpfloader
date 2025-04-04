@@ -1,0 +1,15 @@
+{
+    "name": "solana-bpfloader",
+    "deps": [
+        "bincode",
+        "byteorder",
+        "elf",
+        "env_logger",
+        "libc",
+        "log",
+        "rbpf",
+        "serde",
+        "serde_derive",
+        "solana-sdk"
+    ]
+}

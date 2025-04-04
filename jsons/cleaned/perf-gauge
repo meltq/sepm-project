@@ -1,0 +1,24 @@
+{
+    "name": "perf-gauge",
+    "deps": [
+        "async-trait",
+        "bytesize",
+        "clap",
+        "derive_builder",
+        "histogram",
+        "humantime",
+        "leaky-bucket",
+        "log",
+        "log4rs",
+        "mockito",
+        "prometheus",
+        "regex",
+        "reqwest",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "serde_yaml",
+        "tokio",
+        "tokio-test"
+    ]
+}

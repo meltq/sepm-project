@@ -1,0 +1,15 @@
+{
+    "name": "einsum-derive",
+    "deps": [
+        "criterion",
+        "einsum-codegen",
+        "insta",
+        "ndarray",
+        "ndarray-linalg",
+        "proc-macro-error",
+        "proc-macro2",
+        "quote",
+        "syn",
+        "trybuild"
+    ]
+}

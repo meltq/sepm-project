@@ -1,0 +1,21 @@
+{
+    "name": "bliss-audio",
+    "deps": [
+        "bliss-audio-aubio-rs",
+        "crossbeam",
+        "env_logger",
+        "ffmpeg-next",
+        "lazy_static",
+        "log",
+        "ndarray",
+        "ndarray-npy",
+        "ndarray-stats",
+        "noisy_float",
+        "num_cpus",
+        "rayon",
+        "ripemd160",
+        "rustfft",
+        "serde",
+        "thiserror"
+    ]
+}

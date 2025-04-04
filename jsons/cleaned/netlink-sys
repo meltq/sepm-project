@@ -1,0 +1,15 @@
+{
+    "name": "netlink-sys",
+    "deps": [
+        "byteorder",
+        "bytes",
+        "env_logger",
+        "futures",
+        "lazy_static",
+        "libc",
+        "log",
+        "mio",
+        "tokio-io",
+        "tokio-reactor"
+    ]
+}

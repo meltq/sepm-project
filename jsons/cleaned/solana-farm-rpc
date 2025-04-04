@@ -1,0 +1,25 @@
+{
+    "name": "solana-farm-rpc",
+    "deps": [
+        "bs58",
+        "clap",
+        "dirs-next",
+        "lazy_static",
+        "log",
+        "reqwest",
+        "rocket",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "serde_yaml",
+        "solana-account-decoder",
+        "solana-clap-utils",
+        "solana-client",
+        "solana-farm-client",
+        "solana-farm-sdk",
+        "solana-logger",
+        "solana-sdk",
+        "solana-version",
+        "url"
+    ]
+}

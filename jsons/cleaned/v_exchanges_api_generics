@@ -1,0 +1,15 @@
+{
+    "name": "v_exchanges_api_generics",
+    "deps": [
+        "bytes",
+        "futures-util",
+        "parking_lot",
+        "reqwest",
+        "serde",
+        "thiserror",
+        "tokio",
+        "tokio-tungstenite",
+        "tracing",
+        "v_utils"
+    ]
+}

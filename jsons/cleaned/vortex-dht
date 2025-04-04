@@ -1,0 +1,24 @@
+{
+    "name": "vortex-dht",
+    "deps": [
+        "ahash",
+        "anyhow",
+        "bytes",
+        "futures",
+        "log",
+        "rand",
+        "serde",
+        "serde_bencoded",
+        "serde_bytes",
+        "serde_derive",
+        "serde_json",
+        "sha1",
+        "slotmap",
+        "thiserror",
+        "time",
+        "tokio",
+        "tokio-uring",
+        "env_logger",
+        "num-bigint"
+    ]
+}

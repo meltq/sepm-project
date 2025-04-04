@@ -1,0 +1,13 @@
+{
+    "name": "tower-sessions-redis-store",
+    "deps": [
+        "async-trait",
+        "fred",
+        "rmp-serde",
+        "thiserror",
+        "time",
+        "tokio-test",
+        "tower-sessions",
+        "tower-sessions-core"
+    ]
+}

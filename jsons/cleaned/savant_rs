@@ -1,0 +1,22 @@
+{
+    "name": "savant_rs",
+    "deps": [
+        "anyhow",
+        "derive_builder",
+        "env_logger",
+        "geo",
+        "hashbrown",
+        "itertools",
+        "lazy_static",
+        "num_cpus",
+        "numpy",
+        "pyo3",
+        "pyo3-build-config",
+        "pyo3-log",
+        "rayon",
+        "rkyv",
+        "serde_json",
+        "serial_test",
+        "thiserror"
+    ]
+}

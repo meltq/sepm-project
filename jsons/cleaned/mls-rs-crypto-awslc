@@ -1,0 +1,18 @@
+{
+    "name": "mls-rs-crypto-awslc",
+    "deps": [
+        "assert_matches",
+        "async-trait",
+        "aws-lc-rs",
+        "aws-lc-sys",
+        "futures-test",
+        "maybe-async",
+        "mls-rs-core",
+        "mls-rs-core",
+        "mls-rs-crypto-hpke",
+        "mls-rs-crypto-traits",
+        "mls-rs-identity-x509",
+        "thiserror",
+        "zeroize"
+    ]
+}

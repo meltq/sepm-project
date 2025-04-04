@@ -1,0 +1,25 @@
+{
+    "name": "sos-backend",
+    "deps": [
+        "async-trait",
+        "binary-stream",
+        "futures",
+        "indexmap",
+        "rustc_version",
+        "sos-audit",
+        "sos-core",
+        "sos-database",
+        "sos-filesystem",
+        "sos-preferences",
+        "sos-reducers",
+        "sos-system-messages",
+        "sos-vault",
+        "sos-vfs",
+        "tempfile",
+        "thiserror",
+        "tokio",
+        "tokio-util",
+        "tracing",
+        "urn"
+    ]
+}

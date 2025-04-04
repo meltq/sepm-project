@@ -1,0 +1,15 @@
+{
+    "name": "ezrtc-server",
+    "deps": [
+        "anyhow",
+        "axum",
+        "futures-util",
+        "log",
+        "serde",
+        "serde_json",
+        "simplelog",
+        "tokio",
+        "tokio-stream",
+        "wasm-peers-protocol"
+    ]
+}

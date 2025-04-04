@@ -1,0 +1,19 @@
+{
+    "name": "google-authz",
+    "deps": [
+        "bytes",
+        "futures-util",
+        "gcemeta",
+        "hyper",
+        "hyper-rustls",
+        "jsonwebtoken",
+        "parking_lot",
+        "pin-utils",
+        "serde",
+        "serde_json",
+        "serde_urlencoded",
+        "thiserror",
+        "tower-service",
+        "tracing"
+    ]
+}

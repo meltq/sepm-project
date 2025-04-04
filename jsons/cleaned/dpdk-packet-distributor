@@ -1,0 +1,10 @@
+{
+    "name": "dpdk-packet-distributor",
+    "deps": [
+        "dpdk-core",
+        "dpdk-sys",
+        "likely",
+        "lock-free-multi-producer-single-consumer-ring-buffer",
+        "network-collections"
+    ]
+}

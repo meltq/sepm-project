@@ -1,0 +1,33 @@
+{
+    "name": "mcp_daemon",
+    "deps": [
+        "actix-cors",
+        "actix-web",
+        "actix-web-lab",
+        "actix-ws",
+        "anyhow",
+        "async-openai",
+        "async-trait",
+        "bytes",
+        "bytestring",
+        "criterion",
+        "futures",
+        "futures-core",
+        "futures-util",
+        "jsonwebtoken",
+        "pin-project-lite",
+        "reqwest",
+        "rustls",
+        "rustls-pemfile",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tokio-stream",
+        "tokio-tungstenite",
+        "tracing",
+        "tracing-subscriber",
+        "url",
+        "uuid"
+    ]
+}

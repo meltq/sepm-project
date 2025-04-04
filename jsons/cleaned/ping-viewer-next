@@ -1,0 +1,31 @@
+{
+    "name": "ping-viewer-next",
+    "deps": [
+        "actix",
+        "actix-web",
+        "actix-web-actors",
+        "bluerobotics-ping",
+        "chrono",
+        "clap",
+        "lazy_static",
+        "mime_guess",
+        "paperclip",
+        "regex",
+        "rust-embed",
+        "serde",
+        "serde_json",
+        "shellexpand",
+        "thiserror",
+        "tokio",
+        "tokio-serial",
+        "tracing",
+        "tracing-appender",
+        "tracing-log",
+        "tracing-subscriber",
+        "tracing-tracy",
+        "udp-stream",
+        "uuid",
+        "validator",
+        "vergen-gix"
+    ]
+}

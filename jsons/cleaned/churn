@@ -1,0 +1,15 @@
+{
+    "name": "churn",
+    "deps": [
+        "anyhow",
+        "axum",
+        "churn-domain",
+        "clap",
+        "dotenv",
+        "reqwest",
+        "tokio",
+        "tracing",
+        "tracing-subscriber",
+        "uuid"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "name": "copy_on_write",
+    "deps": [
+        "env_logger",
+        "lazy_static",
+        "log",
+        "reflink-copy",
+        "tempfile",
+        "widestring",
+        "windows"
+    ]
+}

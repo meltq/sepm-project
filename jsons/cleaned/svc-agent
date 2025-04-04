@@ -1,0 +1,14 @@
+{
+    "name": "svc-agent",
+    "deps": [
+        "base64",
+        "diesel",
+        "failure",
+        "http",
+        "rumqtt",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "svc-authn"
+    ]
+}

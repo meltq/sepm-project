@@ -1,0 +1,25 @@
+{
+    "name": "fedimint-wallet-common",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "bitcoin",
+        "erased-serde",
+        "fedimint-core",
+        "futures",
+        "impl-tools",
+        "miniscript",
+        "rand",
+        "secp256k1",
+        "serde",
+        "strum",
+        "strum_macros",
+        "test-log",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "tracing-subscriber",
+        "url",
+        "validator"
+    ]
+}

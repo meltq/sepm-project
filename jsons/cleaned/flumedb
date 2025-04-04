@@ -1,0 +1,20 @@
+{
+    "name": "flumedb",
+    "deps": [
+        "bidir_iter",
+        "buffered_offset_reader",
+        "byteorder",
+        "bytes",
+        "criterion",
+        "failure",
+        "log",
+        "pretty_env_logger",
+        "serde",
+        "serde_bytes",
+        "serde_cbor",
+        "serde_derive",
+        "serde_json",
+        "ssb-multiformats",
+        "tempfile"
+    ]
+}

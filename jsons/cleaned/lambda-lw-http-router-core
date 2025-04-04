@@ -1,0 +1,16 @@
+{
+    "name": "lambda-lw-http-router-core",
+    "deps": [
+        "aws_lambda_events",
+        "ctor",
+        "lambda_runtime",
+        "lazy_static",
+        "once_cell",
+        "opentelemetry",
+        "regex",
+        "serde_json",
+        "tokio",
+        "tracing",
+        "tracing-opentelemetry"
+    ]
+}

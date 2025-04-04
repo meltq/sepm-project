@@ -1,0 +1,19 @@
+{
+    "name": "wasmrs-replay",
+    "deps": [
+        "anyhow",
+        "base64",
+        "clap",
+        "env_logger",
+        "futures",
+        "serde_json",
+        "tokio",
+        "tracing",
+        "wasmrs",
+        "wasmrs-codec",
+        "wasmrs-frames",
+        "wasmrs-host",
+        "wasmrs-rx",
+        "wasmrs-testhost"
+    ]
+}

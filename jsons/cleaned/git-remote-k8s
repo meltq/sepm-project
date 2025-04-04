@@ -1,0 +1,23 @@
+{
+    "name": "git-remote-k8s",
+    "deps": [
+        "anyhow",
+        "clap",
+        "default_macro",
+        "futures",
+        "humantime",
+        "k8s-openapi",
+        "kube",
+        "kube_quantity",
+        "once_cell",
+        "regex",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tokio-util",
+        "tracing",
+        "tracing-subscriber",
+        "url"
+    ]
+}

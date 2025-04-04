@@ -1,0 +1,29 @@
+{
+    "name": "wasmcloud-provider-httpserver",
+    "deps": [
+        "async-trait",
+        "atty",
+        "base64",
+        "bytes",
+        "dashmap",
+        "flume",
+        "futures",
+        "http",
+        "opentelemetry",
+        "serde",
+        "serde_bytes",
+        "serde_json",
+        "smithy-bindgen",
+        "thiserror",
+        "tokio",
+        "toml",
+        "tracing",
+        "tracing-subscriber",
+        "warp",
+        "wasmbus-rpc",
+        "assert_matches",
+        "blake2",
+        "reqwest",
+        "wasmcloud-test-util"
+    ]
+}

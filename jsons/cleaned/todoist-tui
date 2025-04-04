@@ -1,0 +1,26 @@
+{
+    "name": "todoist-tui",
+    "deps": [
+        "anyhow",
+        "assert_cmd",
+        "assert_fs",
+        "chrono",
+        "clap",
+        "crossterm",
+        "dirs",
+        "predicates",
+        "ratatui",
+        "reqwest",
+        "rexpect",
+        "serde",
+        "serde_json",
+        "smart-date",
+        "tokio",
+        "toml",
+        "tui-input",
+        "tui-scrollview",
+        "tui-tree-widget",
+        "uuid",
+        "wiremock"
+    ]
+}

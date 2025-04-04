@@ -1,0 +1,20 @@
+{
+    "name": "chik-sdk-client",
+    "deps": [
+        "aws-lc-rs",
+        "chik-protocol",
+        "chik-sdk-types",
+        "chik-ssl",
+        "chik-traits",
+        "futures-util",
+        "native-tls",
+        "once_cell",
+        "rustls",
+        "rustls-pemfile",
+        "thiserror",
+        "tokio",
+        "tokio-tungstenite",
+        "tracing",
+        "tungstenite"
+    ]
+}

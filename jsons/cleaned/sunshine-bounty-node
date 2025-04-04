@@ -1,0 +1,28 @@
+{
+    "name": "sunshine-bounty-node",
+    "deps": [
+        "futures",
+        "log",
+        "sc-basic-authorship",
+        "sc-cli",
+        "sc-client-api",
+        "sc-consensus",
+        "sc-consensus-aura",
+        "sc-executor",
+        "sc-finality-grandpa",
+        "sc-network",
+        "sc-service",
+        "sc-transaction-pool",
+        "sp-consensus",
+        "sp-consensus-aura",
+        "sp-core",
+        "sp-finality-grandpa",
+        "sp-inherents",
+        "sp-runtime",
+        "sp-transaction-pool",
+        "structopt",
+        "substrate-build-script-utils",
+        "suntime",
+        "utils-identity"
+    ]
+}

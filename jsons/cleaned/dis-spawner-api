@@ -1,0 +1,22 @@
+{
+    "name": "dis-spawner-api",
+    "deps": [
+        "anyhow",
+        "atty",
+        "axum",
+        "clap",
+        "dis-spawner",
+        "futures",
+        "k8s-openapi",
+        "kube",
+        "serde",
+        "serde_json",
+        "serde_yaml",
+        "thiserror",
+        "tokio",
+        "tokio-stream",
+        "tower-http",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

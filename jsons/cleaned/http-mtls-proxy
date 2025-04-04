@@ -1,0 +1,21 @@
+{
+    "name": "http-mtls-proxy",
+    "deps": [
+        "anyhow",
+        "clap",
+        "env_logger",
+        "http-body-util",
+        "hyper",
+        "hyper-util",
+        "log",
+        "regex",
+        "rustls",
+        "rustls-pemfile",
+        "rustls-pki-types",
+        "tokio",
+        "tokio-rustls",
+        "url",
+        "urlpattern",
+        "webpki-roots"
+    ]
+}

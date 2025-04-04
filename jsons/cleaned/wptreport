@@ -1,0 +1,12 @@
+{
+    "name": "wptreport",
+    "deps": [
+        "rayon",
+        "serde",
+        "serde-jsonlines",
+        "serde_json",
+        "tikv-jemallocator",
+        "xz2",
+        "zstd"
+    ]
+}

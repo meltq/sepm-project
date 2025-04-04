@@ -1,0 +1,30 @@
+{
+    "name": "serva",
+    "deps": [
+        "anyhow",
+        "axum",
+        "clap",
+        "const_format",
+        "env_logger",
+        "fs_extra",
+        "futures",
+        "get_if_addrs",
+        "http",
+        "http-range-header",
+        "hyper",
+        "log",
+        "mime_guess",
+        "prost",
+        "rust-embed",
+        "serde",
+        "serde_json",
+        "serde_urlencoded",
+        "tokio",
+        "tokio-util",
+        "tonic",
+        "tonic-build",
+        "tonic-web",
+        "tower",
+        "tower-http"
+    ]
+}

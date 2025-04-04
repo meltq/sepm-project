@@ -1,0 +1,15 @@
+{
+    "name": "osmchangesets2csv",
+    "deps": [
+        "anyhow",
+        "clap",
+        "clap-verbosity-flag",
+        "csv",
+        "env_logger",
+        "indicatif",
+        "log",
+        "osmio",
+        "read-progress",
+        "tokio"
+    ]
+}

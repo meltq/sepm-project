@@ -1,0 +1,18 @@
+{
+    "name": "aptos-transaction-replay",
+    "deps": [
+        "anyhow",
+        "aptos-framework",
+        "aptos-resource-viewer",
+        "aptos-state-view",
+        "aptos-types",
+        "aptos-validator-interface",
+        "aptos-vm",
+        "aptosdb",
+        "bcs",
+        "difference",
+        "hex",
+        "move-deps",
+        "structopt"
+    ]
+}

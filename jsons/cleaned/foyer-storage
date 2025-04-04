@@ -1,0 +1,33 @@
+{
+    "name": "foyer-storage",
+    "deps": [
+        "anyhow",
+        "bitflags",
+        "bitmaps",
+        "bytes",
+        "bytesize",
+        "clap",
+        "cmsketch",
+        "foyer-common",
+        "foyer-intrusive",
+        "foyer-workspace-hack",
+        "futures",
+        "hdrhistogram",
+        "itertools",
+        "libc",
+        "lz4",
+        "memoffset",
+        "nix",
+        "parking_lot",
+        "paste",
+        "prometheus",
+        "rand",
+        "rand_mt",
+        "tempfile",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "twox-hash",
+        "zstd"
+    ]
+}

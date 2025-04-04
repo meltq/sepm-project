@@ -1,0 +1,14 @@
+{
+    "name": "deterministic-wasi-ctx",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "cap-std",
+        "more-asserts",
+        "rand_core",
+        "rand_pcg",
+        "wasi-common",
+        "wasmtime",
+        "wasmtime-wasi"
+    ]
+}

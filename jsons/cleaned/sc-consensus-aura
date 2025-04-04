@@ -1,0 +1,28 @@
+{
+    "name": "sc-consensus-aura",
+    "deps": [
+        "codec",
+        "derive_more",
+        "futures",
+        "futures-timer",
+        "log",
+        "parking_lot",
+        "sc-client",
+        "sc-client-api",
+        "sc-consensus-slots",
+        "sc-keystore",
+        "sc-telemetry",
+        "sp-api",
+        "sp-application-crypto",
+        "sp-block-builder",
+        "sp-blockchain",
+        "sp-consensus",
+        "sp-consensus-aura",
+        "sp-core",
+        "sp-inherents",
+        "sp-io",
+        "sp-runtime",
+        "sp-timestamp",
+        "sp-version"
+    ]
+}

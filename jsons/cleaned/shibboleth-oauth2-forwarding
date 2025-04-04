@@ -1,0 +1,22 @@
+{
+    "name": "shibboleth-oauth2-forwarding",
+    "deps": [
+        "actix-rt",
+        "actix-web",
+        "chrono",
+        "clap",
+        "config",
+        "handlebars",
+        "jsonwebtoken",
+        "log",
+        "oxide-auth",
+        "oxide-auth-actix",
+        "serde",
+        "serde_json",
+        "simplelog",
+        "tempfile",
+        "thiserror",
+        "toml",
+        "url"
+    ]
+}

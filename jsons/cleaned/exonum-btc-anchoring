@@ -1,0 +1,25 @@
+{
+    "name": "exonum-btc-anchoring",
+    "deps": [
+        "bitcoin",
+        "bodyparser",
+        "byteorder",
+        "clap",
+        "derive-error",
+        "exonum",
+        "exonum-configuration",
+        "exonum_bitcoinrpc",
+        "iron",
+        "log",
+        "mount",
+        "params",
+        "rand",
+        "router",
+        "secp256k1",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "tempdir",
+        "toml"
+    ]
+}

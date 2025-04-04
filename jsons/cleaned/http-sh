@@ -1,0 +1,28 @@
+{
+    "name": "http-sh",
+    "deps": [
+        "clap",
+        "command-fds",
+        "futures",
+        "http",
+        "http-serde",
+        "hyper",
+        "hyper-staticfile",
+        "indoc",
+        "nix",
+        "pretty_assertions",
+        "rustls",
+        "rustls-pemfile",
+        "scopeguard",
+        "scru128",
+        "serde",
+        "serde_json",
+        "sysinfo",
+        "tempfile",
+        "tokio",
+        "tokio-pipe",
+        "tokio-rustls",
+        "tokio-util",
+        "url"
+    ]
+}

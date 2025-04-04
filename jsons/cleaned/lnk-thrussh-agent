@@ -1,0 +1,15 @@
+{
+    "name": "lnk-thrussh-agent",
+    "deps": [
+        "async-trait",
+        "byteorder",
+        "data-encoding",
+        "futures",
+        "lnk-cryptovec",
+        "lnk-thrussh-encoding",
+        "log",
+        "smol",
+        "thiserror",
+        "tokio"
+    ]
+}

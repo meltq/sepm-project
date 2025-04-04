@@ -1,0 +1,12 @@
+{
+    "name": "openfga_compiler",
+    "deps": [
+        "ariadne",
+        "chumsky",
+        "clap",
+        "openfga_checker",
+        "openfga_common",
+        "openfga_model_dsl_parser",
+        "serde_json"
+    ]
+}

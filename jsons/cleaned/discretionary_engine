@@ -1,0 +1,30 @@
+{
+    "name": "discretionary_engine",
+    "deps": [
+        "anyhow",
+        "chrono",
+        "clap",
+        "config",
+        "derive-new",
+        "futures-util",
+        "hex",
+        "hmac",
+        "lazy_static",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "serde_urlencoded",
+        "serde_with",
+        "sha2",
+        "tokio",
+        "tokio-tungstenite",
+        "tracing",
+        "tracing-bunyan-formatter",
+        "tracing-log",
+        "tracing-subscriber",
+        "url",
+        "uuid",
+        "v_utils",
+        "v_utils_macros"
+    ]
+}

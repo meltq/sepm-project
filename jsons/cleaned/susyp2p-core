@@ -1,0 +1,33 @@
+{
+    "name": "susyp2p-core",
+    "deps": [
+        "asn1_der",
+        "bs58",
+        "bytes",
+        "ed25519-dalek",
+        "failure",
+        "fnv",
+        "futures",
+        "lazy_static",
+        "log",
+        "multiaddr",
+        "multihash",
+        "multistream-select",
+        "parking_lot",
+        "protobuf",
+        "quick-error",
+        "rand",
+        "ring",
+        "rw-stream-sink",
+        "secp256k1",
+        "sha2",
+        "smallvec",
+        "tokio-executor",
+        "tokio-io",
+        "tokio-timer",
+        "unsigned-varint",
+        "untrusted",
+        "void",
+        "zeroize"
+    ]
+}

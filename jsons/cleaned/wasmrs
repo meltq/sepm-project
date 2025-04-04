@@ -1,0 +1,23 @@
+{
+    "name": "wasmrs",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "bytes",
+        "crossbeam-channel",
+        "dashmap",
+        "env_logger",
+        "futures",
+        "futures-executor",
+        "futures-util",
+        "parking_lot",
+        "pin-project-lite",
+        "test-log",
+        "tokio",
+        "tokio",
+        "tokio",
+        "tokio-stream",
+        "tracing",
+        "wasmrs-codec"
+    ]
+}

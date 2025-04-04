@@ -1,0 +1,21 @@
+{
+    "name": "gix-protocol",
+    "deps": [
+        "async-std",
+        "async-trait",
+        "bstr",
+        "btoi",
+        "document-features",
+        "futures-io",
+        "futures-lite",
+        "gix-credentials",
+        "gix-features",
+        "gix-hash",
+        "gix-packetline",
+        "gix-transport",
+        "maybe-async",
+        "nom",
+        "serde",
+        "thiserror"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "name": "covert-storage",
+    "deps": [
+        "anyhow",
+        "chrono",
+        "covert-types",
+        "futures",
+        "libsqlite3-sys",
+        "parking_lot",
+        "rand",
+        "rust-embed",
+        "serde",
+        "serde_json",
+        "sha2",
+        "snailquote",
+        "sqlparser",
+        "sqlx",
+        "tempfile",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "tracing-error"
+    ]
+}

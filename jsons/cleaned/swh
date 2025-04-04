@@ -1,0 +1,18 @@
+{
+    "name": "swh",
+    "deps": [
+        "anyhow",
+        "assert_cmd",
+        "async-trait",
+        "clap",
+        "clap-verbosity-flag",
+        "comfy-table",
+        "env_logger",
+        "log",
+        "mockall",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "tokio"
+    ]
+}

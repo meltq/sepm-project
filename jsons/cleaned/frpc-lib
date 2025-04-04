@@ -1,0 +1,22 @@
+{
+    "name": "frpc-lib",
+    "deps": [
+        "anyhow",
+        "bytes",
+        "chrono",
+        "futures",
+        "prost",
+        "prost-reflect",
+        "prost-types",
+        "protobuf",
+        "protox",
+        "regex",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tokio-stream",
+        "tokio-util",
+        "tonic",
+        "tonic-reflection"
+    ]
+}

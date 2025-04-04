@@ -1,0 +1,21 @@
+{
+    "name": "move-idl-parse",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "clap",
+        "errmapgen",
+        "json-cli",
+        "module-id",
+        "move-bytecode-verifier",
+        "move-idl",
+        "move-idl-types",
+        "mv-binary-format",
+        "mv-core-types",
+        "mv-model",
+        "mv-package",
+        "serde",
+        "serde_json",
+        "tokio"
+    ]
+}

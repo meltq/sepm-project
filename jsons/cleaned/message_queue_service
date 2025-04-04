@@ -1,0 +1,13 @@
+{
+    "name": "message_queue_service",
+    "deps": [
+        "bytes",
+        "futures",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "tokio-io",
+        "tokio-proto",
+        "tokio-service"
+    ]
+}

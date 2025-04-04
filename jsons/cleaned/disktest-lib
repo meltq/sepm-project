@@ -1,0 +1,15 @@
+{
+    "name": "disktest-lib",
+    "deps": [
+        "anyhow",
+        "chrono",
+        "clap",
+        "disktest-rawio",
+        "movavg",
+        "rand",
+        "rand_chacha",
+        "ring",
+        "signal-hook",
+        "tempfile"
+    ]
+}

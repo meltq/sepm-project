@@ -1,0 +1,14 @@
+{
+    "name": "gcode-serial",
+    "deps": [
+        "anyhow",
+        "event-listener",
+        "lazy_static",
+        "log",
+        "regex",
+        "serde",
+        "serialport",
+        "strum",
+        "tokio"
+    ]
+}

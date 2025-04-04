@@ -1,0 +1,13 @@
+{
+    "name": "tafkars-lemmy",
+    "deps": [
+        "actix-web",
+        "env_logger",
+        "lemmy_api_common",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "tafkars",
+        "thiserror"
+    ]
+}

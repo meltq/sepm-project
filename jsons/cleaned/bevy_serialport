@@ -1,0 +1,15 @@
+{
+    "name": "bevy_serialport",
+    "deps": [
+        "bevy",
+        "bytes",
+        "clap",
+        "futures",
+        "parking_lot",
+        "serialport",
+        "thiserror",
+        "tokio",
+        "tokio-serial",
+        "tokio-util"
+    ]
+}

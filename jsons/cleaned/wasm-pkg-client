@@ -1,0 +1,32 @@
+{
+    "name": "wasm-pkg-client",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "base64",
+        "bytes",
+        "dirs",
+        "docker_credential",
+        "futures-util",
+        "oci-client",
+        "oci-wasm",
+        "secrecy",
+        "serde",
+        "serde_json",
+        "sha2",
+        "tempfile",
+        "testcontainers",
+        "thiserror",
+        "tokio",
+        "tokio-util",
+        "toml",
+        "tracing",
+        "tracing-subscriber",
+        "url",
+        "warg-client",
+        "warg-crypto",
+        "warg-protocol",
+        "wasm-pkg-common",
+        "wit-component"
+    ]
+}

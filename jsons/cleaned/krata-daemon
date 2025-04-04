@@ -1,0 +1,22 @@
+{
+    "name": "krata-daemon",
+    "deps": [
+        "anyhow",
+        "async-stream",
+        "async-trait",
+        "bytes",
+        "clap",
+        "env_logger",
+        "futures",
+        "krata",
+        "krata-runtime",
+        "log",
+        "prost",
+        "redb",
+        "signal-hook",
+        "tokio",
+        "tokio-stream",
+        "tonic",
+        "uuid"
+    ]
+}

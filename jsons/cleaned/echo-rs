@@ -1,0 +1,16 @@
+{
+    "name": "echo-rs",
+    "deps": [
+        "anyhow",
+        "axum",
+        "clap",
+        "log",
+        "metrics",
+        "metrics-exporter-prometheus",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

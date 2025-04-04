@@ -1,0 +1,16 @@
+{
+    "name": "deconz-exporter",
+    "deps": [
+        "clap",
+        "env_logger",
+        "lazy_static",
+        "log",
+        "prometheus",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "tiny_http",
+        "tungstenite",
+        "url"
+    ]
+}

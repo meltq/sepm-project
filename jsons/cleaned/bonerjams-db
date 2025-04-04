@@ -1,0 +1,28 @@
+{
+    "name": "bonerjams-db",
+    "deps": [
+        "anyhow",
+        "async-stream",
+        "base64",
+        "bonerjams-config",
+        "chrono",
+        "futures",
+        "http",
+        "hyper",
+        "hyper-openssl",
+        "log",
+        "openssl",
+        "rcgen",
+        "serde",
+        "serde_json",
+        "sled",
+        "tokio",
+        "tokio-openssl",
+        "tokio-stream",
+        "tonic",
+        "tonic-health",
+        "tonic-rpc",
+        "tower",
+        "tower-http"
+    ]
+}

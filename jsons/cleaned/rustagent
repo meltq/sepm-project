@@ -1,0 +1,17 @@
+{
+    "name": "rustagent",
+    "deps": [
+        "actix-http",
+        "actix-web",
+        "bytes-utils",
+        "config",
+        "futures-util",
+        "opentelemetry",
+        "opentelemetry-otlp",
+        "opentelemetry-semantic-conventions",
+        "opentelemetry-stdout",
+        "opentelemetry_sdk",
+        "serde",
+        "serde_json"
+    ]
+}

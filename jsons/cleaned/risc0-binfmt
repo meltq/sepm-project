@@ -1,0 +1,15 @@
+{
+    "name": "risc0-binfmt",
+    "deps": [
+        "anyhow",
+        "elf",
+        "env_logger",
+        "log",
+        "risc0-zkp",
+        "risc0-zkvm-platform",
+        "serde",
+        "test-log",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

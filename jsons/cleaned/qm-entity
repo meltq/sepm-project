@@ -1,0 +1,20 @@
+{
+    "name": "qm-entity",
+    "deps": [
+        "anyhow",
+        "async-graphql",
+        "async-trait",
+        "chrono",
+        "futures",
+        "qm-entity-derive",
+        "qm-keycloak",
+        "qm-mongodb",
+        "qm-redis",
+        "qm-role",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tynm"
+    ]
+}

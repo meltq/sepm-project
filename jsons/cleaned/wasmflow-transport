@@ -1,0 +1,21 @@
+{
+    "name": "wasmflow-transport",
+    "deps": [
+        "anyhow",
+        "env_logger",
+        "parking_lot",
+        "serde",
+        "serde-value",
+        "serde_json",
+        "test-log",
+        "thiserror",
+        "tokio",
+        "tokio",
+        "tokio-stream",
+        "tracing",
+        "tracing",
+        "wasmflow-codec",
+        "wasmflow-macros",
+        "wasmflow-packet"
+    ]
+}

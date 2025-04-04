@@ -1,0 +1,17 @@
+{
+    "name": "surf_bucket_select",
+    "deps": [
+        "async-std",
+        "async-trait",
+        "crc32fast",
+        "futures",
+        "http",
+        "log",
+        "rusoto_core",
+        "rusoto_s3",
+        "serde",
+        "serde_json",
+        "surf",
+        "xml-rs"
+    ]
+}

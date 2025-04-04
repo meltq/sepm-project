@@ -1,0 +1,17 @@
+{
+    "name": "dicom-web",
+    "deps": [
+        "dicom-core",
+        "dicom-dictionary-std",
+        "dicom-json",
+        "dicom-object",
+        "futures-util",
+        "mime",
+        "multipart-rs",
+        "reqwest",
+        "serde_json",
+        "snafu",
+        "tokio",
+        "wiremock"
+    ]
+}

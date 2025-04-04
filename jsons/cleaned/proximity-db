@@ -1,0 +1,21 @@
+{
+    "name": "proximity-db",
+    "deps": [
+        "anyhow",
+        "dashmap",
+        "enum-iterator",
+        "futures",
+        "human_format",
+        "nalgebra",
+        "num_enum",
+        "proximity",
+        "proximity-grpc",
+        "rand",
+        "streaming-stats",
+        "structopt",
+        "thiserror",
+        "tokio",
+        "tonic",
+        "typenum"
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "name": "hessra-sdk",
+    "deps": [
+        "anyhow",
+        "bytes",
+        "dirs",
+        "futures",
+        "futures-util",
+        "h3",
+        "h3-quinn",
+        "hessra-macros",
+        "http",
+        "hyper",
+        "mockito",
+        "quinn",
+        "quinn-proto",
+        "reqwest",
+        "rustls",
+        "rustls-pemfile",
+        "serde",
+        "serde_json",
+        "tempfile",
+        "tokio",
+        "tokio-util",
+        "toml",
+        "wiremock"
+    ]
+}

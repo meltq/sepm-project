@@ -1,0 +1,33 @@
+{
+    "name": "synd-term",
+    "deps": [
+        "anyhow",
+        "axum-server",
+        "chrono",
+        "clap",
+        "crossterm",
+        "directories",
+        "edit",
+        "futures-util",
+        "graphql_client",
+        "html2text",
+        "kvsd",
+        "open",
+        "ratatui",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "serial_test",
+        "synd-auth",
+        "synd-feed",
+        "synd-o11y",
+        "tempdir",
+        "tokio",
+        "tokio-stream",
+        "tracing",
+        "tracing-appender",
+        "tracing-subscriber",
+        "unicode-segmentation",
+        "url"
+    ]
+}

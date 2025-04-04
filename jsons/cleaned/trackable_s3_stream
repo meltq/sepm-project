@@ -1,0 +1,12 @@
+{
+    "name": "trackable_s3_stream",
+    "deps": [
+        "aws-config",
+        "aws-sdk-s3",
+        "aws-smithy-http",
+        "futures",
+        "hyper",
+        "indicatif",
+        "tokio"
+    ]
+}

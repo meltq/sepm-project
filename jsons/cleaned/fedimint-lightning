@@ -1,0 +1,25 @@
+{
+    "name": "fedimint-lightning",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "bitcoin",
+        "fedimint-bip39",
+        "fedimint-bitcoind",
+        "fedimint-core",
+        "fedimint-ln-common",
+        "fedimint-lnv2-common",
+        "futures",
+        "hex",
+        "ldk-node",
+        "lightning",
+        "lightning-invoice",
+        "lockable",
+        "serde",
+        "thiserror",
+        "tokio",
+        "tokio-stream",
+        "tonic_lnd",
+        "tracing"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "hass-rs",
+    "deps": [
+        "async-std",
+        "async-tls",
+        "async-tungstenite",
+        "env_logger",
+        "futures",
+        "lazy_static",
+        "log",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "tokio",
+        "tokio-native-tls",
+        "url",
+        "uuid"
+    ]
+}

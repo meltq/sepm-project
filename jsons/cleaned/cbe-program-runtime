@@ -1,0 +1,26 @@
+{
+    "name": "cbe-program-runtime",
+    "deps": [
+        "base64",
+        "bincode",
+        "cbe-frozen-abi",
+        "cbe-frozen-abi-macro",
+        "cbe-measure",
+        "cbe-metrics",
+        "cbe-sdk",
+        "cbe_rbpf",
+        "eager",
+        "enum-iterator",
+        "itertools",
+        "libc",
+        "libloading",
+        "log",
+        "num-derive",
+        "num-traits",
+        "rand",
+        "serde",
+        "thiserror",
+        "cbe-logger",
+        "rustc_version"
+    ]
+}

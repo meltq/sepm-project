@@ -1,0 +1,14 @@
+{
+    "name": "photonio-uring",
+    "deps": [
+        "futures",
+        "io-uring",
+        "libc",
+        "log",
+        "num_cpus",
+        "photonio-base",
+        "scoped-tls",
+        "slab",
+        "socket2"
+    ]
+}

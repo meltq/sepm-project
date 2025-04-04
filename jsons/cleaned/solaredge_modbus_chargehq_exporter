@@ -1,0 +1,11 @@
+{
+    "name": "solaredge_modbus_chargehq_exporter",
+    "deps": [
+        "anyhow",
+        "clap",
+        "reqwest",
+        "serde",
+        "tokio",
+        "tokio-modbus"
+    ]
+}

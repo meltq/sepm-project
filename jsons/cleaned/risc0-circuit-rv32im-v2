@@ -1,0 +1,26 @@
+{
+    "name": "risc0-circuit-rv32im-v2",
+    "deps": [
+        "anyhow",
+        "bytemuck",
+        "cfg-if",
+        "clap",
+        "derive_more",
+        "flate2",
+        "num-derive",
+        "num-traits",
+        "paste",
+        "rand",
+        "rayon",
+        "risc0-binfmt",
+        "risc0-circuit-rv32im-v2-sys",
+        "risc0-core",
+        "risc0-sys",
+        "risc0-zkp",
+        "serde",
+        "tar",
+        "test-log",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

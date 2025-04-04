@@ -1,0 +1,22 @@
+{
+    "name": "hydro2-operator-derive",
+    "deps": [
+        "async-trait",
+        "derive_builder",
+        "export-magic",
+        "getset",
+        "hydro2-3p",
+        "hydro2-operator",
+        "named-item",
+        "named-item-derive",
+        "proc-macro2",
+        "quote",
+        "syn",
+        "tokio",
+        "tracing",
+        "tracing-setup",
+        "tracing-subscriber",
+        "trybuild",
+        "unsafe-erased"
+    ]
+}

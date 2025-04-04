@@ -1,0 +1,16 @@
+{
+    "name": "ssb-box-stream",
+    "deps": [
+        "async-std",
+        "bytes",
+        "duplexify",
+        "futures",
+        "libsodium-sys",
+        "pin-project",
+        "proptest",
+        "proptest-derive",
+        "sodiumoxide",
+        "test-strategy",
+        "thiserror"
+    ]
+}

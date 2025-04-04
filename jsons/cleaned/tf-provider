@@ -1,0 +1,32 @@
+{
+    "name": "tf-provider",
+    "deps": [
+        "anyhow",
+        "async-stream",
+        "async-trait",
+        "base64",
+        "futures",
+        "futures-core",
+        "futures-util",
+        "pem",
+        "prost",
+        "rand",
+        "rcgen",
+        "rmp",
+        "rmp-serde",
+        "rustls",
+        "serde",
+        "serde_bytes",
+        "serde_json",
+        "time",
+        "tokio",
+        "tokio-stream",
+        "tokio-util",
+        "tonic",
+        "tonic-build",
+        "tower-http",
+        "tracing",
+        "tracing-subscriber",
+        "webpki"
+    ]
+}

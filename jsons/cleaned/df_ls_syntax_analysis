@@ -1,0 +1,17 @@
+{
+    "name": "df_ls_syntax_analysis",
+    "deps": [
+        "anyhow",
+        "colored",
+        "df_cp437",
+        "df_ls_core",
+        "df_ls_derive",
+        "df_ls_diagnostics",
+        "df_ls_lexical_analysis",
+        "log",
+        "pretty_assertions",
+        "serde",
+        "serde_json",
+        "serde_path_to_error"
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "name": "karyon_core",
+    "deps": [
+        "async-channel",
+        "async-process",
+        "bincode",
+        "chrono",
+        "dirs",
+        "ed25519-dalek",
+        "log",
+        "once_cell",
+        "pin-project-lite",
+        "rand",
+        "smol",
+        "thiserror",
+        "tokio"
+    ]
+}

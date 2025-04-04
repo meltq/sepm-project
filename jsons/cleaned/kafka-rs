@@ -1,0 +1,14 @@
+{
+    "name": "kafka-rs",
+    "deps": [
+        "anyhow",
+        "bytes",
+        "futures",
+        "kafka-protocol",
+        "socket2",
+        "tokio",
+        "tokio-util",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

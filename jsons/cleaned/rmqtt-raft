@@ -1,0 +1,22 @@
+{
+    "name": "rmqtt-raft",
+    "deps": [
+        "ahash",
+        "async-trait",
+        "bincode",
+        "chrono",
+        "dashmap",
+        "futures",
+        "lazy_static",
+        "log",
+        "prost",
+        "protobuf",
+        "serde",
+        "slog",
+        "thiserror",
+        "tikv-raft",
+        "tokio",
+        "tonic",
+        "tonic-build"
+    ]
+}

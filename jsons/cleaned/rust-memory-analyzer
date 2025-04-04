@@ -1,0 +1,14 @@
+{
+    "name": "rust-memory-analyzer",
+    "deps": [
+        "anyhow",
+        "clap",
+        "clap_derive",
+        "itertools",
+        "near-rust-allocator-proxy",
+        "nix",
+        "rustc-demangle",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

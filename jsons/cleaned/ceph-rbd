@@ -1,0 +1,10 @@
+{
+    "name": "ceph-rbd",
+    "deps": [
+        "bindgen",
+        "ceph",
+        "libc",
+        "log",
+        "nix"
+    ]
+}

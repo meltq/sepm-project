@@ -1,0 +1,17 @@
+{
+    "name": "ln-websocket-proxy",
+    "deps": [
+        "axum",
+        "bitcoin_hashes",
+        "bytes",
+        "futures",
+        "headers",
+        "serde",
+        "serde_json",
+        "serde_with",
+        "tokio",
+        "tower-http",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "name": "interledger-settlement",
+    "deps": [
+        "bytes",
+        "env_logger",
+        "futures",
+        "hyper",
+        "interledger-ildcp",
+        "interledger-packet",
+        "interledger-service",
+        "lazy_static",
+        "log",
+        "mockito",
+        "num-bigint",
+        "num-traits",
+        "parking_lot",
+        "rand",
+        "reqwest",
+        "ring",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tokio-retry",
+        "tower-web",
+        "url",
+        "uuid"
+    ]
+}

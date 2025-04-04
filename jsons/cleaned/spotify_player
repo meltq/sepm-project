@@ -1,0 +1,20 @@
+{
+    "name": "spotify_player",
+    "deps": [
+        "anyhow",
+        "clap",
+        "config_parser2",
+        "crossterm",
+        "dirs-next",
+        "env_logger",
+        "log",
+        "lru",
+        "reqwest",
+        "rspotify",
+        "serde",
+        "tokio",
+        "toml",
+        "tui",
+        "unicode-width"
+    ]
+}

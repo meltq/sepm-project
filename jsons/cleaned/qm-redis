@@ -1,0 +1,17 @@
+{
+    "name": "qm-redis",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "deadpool-redis",
+        "envy",
+        "futures",
+        "log",
+        "redis",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "uuid"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "wasmcloud-provider-wit-bindgen-macro",
+    "deps": [
+        "anyhow",
+        "heck",
+        "proc-macro2",
+        "quote",
+        "serde",
+        "serde_json",
+        "syn",
+        "tracing",
+        "tracing-subscriber",
+        "wasmtime-wit-bindgen",
+        "wit-parser",
+        "wrpc-types"
+    ]
+}

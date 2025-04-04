@@ -1,0 +1,15 @@
+{
+    "name": "tailwag_macros",
+    "deps": [
+        "darling",
+        "proc-macro2",
+        "quote",
+        "serde",
+        "sqlx",
+        "syn",
+        "tailwag_macro_exports",
+        "tailwag_macro_inline",
+        "tailwag_orm_macros",
+        "uuid"
+    ]
+}

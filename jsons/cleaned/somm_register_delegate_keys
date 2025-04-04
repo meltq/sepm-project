@@ -1,0 +1,23 @@
+{
+    "name": "somm_register_delegate_keys",
+    "deps": [
+        "actix-rt",
+        "clarity",
+        "contact",
+        "deep_space",
+        "docopt",
+        "env_logger",
+        "lazy_static",
+        "log",
+        "openssl-probe",
+        "rand",
+        "serde",
+        "serde_derive",
+        "somm_cosmos_gravity",
+        "somm_ethereum_gravity",
+        "somm_gravity_proto",
+        "somm_gravity_utils",
+        "somm_relayer",
+        "web30"
+    ]
+}

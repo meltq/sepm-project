@@ -1,0 +1,15 @@
+{
+    "name": "solana-banks-client",
+    "deps": [
+        "async-trait",
+        "bincode",
+        "futures",
+        "solana-banks-interface",
+        "solana-banks-server",
+        "solana-runtime",
+        "solana-sdk",
+        "tarpc",
+        "tokio",
+        "tokio-serde"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "name": "sgx_crypto_helper",
+    "deps": [
+        "itertools",
+        "libc",
+        "rand_core",
+        "rdrand",
+        "serde",
+        "serde-big-array",
+        "serde_derive",
+        "sgx_tcrypto",
+        "sgx_types",
+        "sgx_ucrypto",
+        "sgx_ucrypto"
+    ]
+}

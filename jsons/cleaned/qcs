@@ -1,0 +1,33 @@
+{
+    "name": "qcs",
+    "deps": [
+        "dirs",
+        "enum-as-inner",
+        "env_logger",
+        "erased-serde",
+        "eyre",
+        "float-cmp",
+        "futures",
+        "hex",
+        "indexmap",
+        "lazy_static",
+        "log",
+        "maplit",
+        "num",
+        "qcs-api",
+        "quil-rs",
+        "reqwest",
+        "rmp-serde",
+        "serde",
+        "serde_bytes",
+        "serde_json",
+        "tempfile",
+        "thiserror",
+        "tokio",
+        "tokio",
+        "toml",
+        "uuid",
+        "warp",
+        "zmq"
+    ]
+}

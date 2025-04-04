@@ -1,0 +1,21 @@
+{
+    "name": "miraland-faucet",
+    "deps": [
+        "bincode",
+        "byteorder",
+        "clap",
+        "crossbeam-channel",
+        "log",
+        "miraland-clap-utils",
+        "miraland-cli-config",
+        "miraland-logger",
+        "miraland-metrics",
+        "miraland-sdk",
+        "miraland-version",
+        "serde",
+        "serde_derive",
+        "solarti-memo",
+        "thiserror",
+        "tokio"
+    ]
+}

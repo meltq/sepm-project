@@ -1,0 +1,11 @@
+{
+    "name": "block_until_sigint",
+    "deps": [
+        "anyhow",
+        "futures",
+        "log",
+        "signal-hook",
+        "signal-hook-tokio",
+        "tokio"
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "name": "ambient_api_core",
+    "deps": [
+        "ambient_api_macros",
+        "ambient_project_rt",
+        "ambient_shared_types",
+        "anyhow",
+        "byteorder",
+        "data-encoding",
+        "futures",
+        "glam",
+        "once_cell",
+        "paste",
+        "rand",
+        "thiserror",
+        "wit-bindgen"
+    ]
+}

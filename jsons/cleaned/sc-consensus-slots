@@ -1,0 +1,19 @@
+{
+    "name": "sc-consensus-slots",
+    "deps": [
+        "codec",
+        "futures",
+        "futures-timer",
+        "log",
+        "parking_lot",
+        "sc-client-api",
+        "sc-telemetry",
+        "sp-api",
+        "sp-blockchain",
+        "sp-consensus",
+        "sp-core",
+        "sp-inherents",
+        "sp-runtime",
+        "sp-state-machine"
+    ]
+}

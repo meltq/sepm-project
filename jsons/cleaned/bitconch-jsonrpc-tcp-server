@@ -1,0 +1,12 @@
+{
+    "name": "bitconch-jsonrpc-tcp-server",
+    "deps": [
+        "bitconch-jsonrpc-core",
+        "bitconch-jsonrpc-server-utils",
+        "env_logger",
+        "lazy_static",
+        "log",
+        "parking_lot",
+        "tokio-service"
+    ]
+}

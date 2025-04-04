@@ -1,0 +1,22 @@
+{
+    "name": "coinbase_pro",
+    "deps": [
+        "async-trait",
+        "base64",
+        "chrono",
+        "hmac",
+        "log",
+        "mockall",
+        "rand",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "sha1",
+        "sha2",
+        "simple_logger",
+        "thiserror",
+        "tokio",
+        "tokio-native-tls",
+        "tokio-test"
+    ]
+}

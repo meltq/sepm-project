@@ -1,0 +1,15 @@
+{
+    "name": "gosh-database",
+    "deps": [
+        "bincode",
+        "diesel",
+        "diesel_migrations",
+        "dotenv",
+        "gosh-core",
+        "gosh-model",
+        "libsqlite3-sys",
+        "serde",
+        "serde_json",
+        "tempfile"
+    ]
+}

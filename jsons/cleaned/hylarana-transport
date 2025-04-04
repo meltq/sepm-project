@@ -1,0 +1,20 @@
+{
+    "name": "hylarana-transport",
+    "deps": [
+        "anyhow",
+        "bytes",
+        "crossbeam",
+        "hylarana-common",
+        "libc",
+        "log",
+        "once_cell",
+        "os_socketaddr",
+        "parking_lot",
+        "rmp-serde",
+        "serde",
+        "socket2",
+        "tokio",
+        "which",
+        "xxhash-rust"
+    ]
+}

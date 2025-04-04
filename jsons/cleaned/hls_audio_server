@@ -1,0 +1,14 @@
+{
+    "name": "hls_audio_server",
+    "deps": [
+        "anyhow",
+        "byteorder",
+        "chrono",
+        "fdk-aac",
+        "hyper",
+        "id3",
+        "m3u8-rs",
+        "tokio",
+        "wav"
+    ]
+}

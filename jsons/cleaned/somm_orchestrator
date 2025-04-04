@@ -1,0 +1,31 @@
+{
+    "name": "somm_orchestrator",
+    "deps": [
+        "actix-rt",
+        "axum",
+        "clarity",
+        "deep_space",
+        "docopt",
+        "env_logger",
+        "futures",
+        "hyper",
+        "lazy_static",
+        "log",
+        "num256",
+        "openssl",
+        "openssl-probe",
+        "prometheus",
+        "rand",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "somm_cosmos_gravity",
+        "somm_ethereum_gravity",
+        "somm_gravity_proto",
+        "somm_gravity_utils",
+        "somm_relayer",
+        "tokio",
+        "tonic",
+        "web30"
+    ]
+}

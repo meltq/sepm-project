@@ -1,0 +1,21 @@
+{
+    "name": "minismtp",
+    "deps": [
+        "async-smtp",
+        "async-std",
+        "base64",
+        "env_logger",
+        "futures",
+        "hickory-resolver",
+        "ipnetwork",
+        "lettre",
+        "log",
+        "mail-parser",
+        "openssl",
+        "rustls-pemfile",
+        "thiserror",
+        "tokio",
+        "tokio-rustls",
+        "tokio-tls-upgrade"
+    ]
+}

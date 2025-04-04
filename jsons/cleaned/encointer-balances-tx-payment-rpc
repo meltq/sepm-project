@@ -1,0 +1,22 @@
+{
+    "name": "encointer-balances-tx-payment-rpc",
+    "deps": [
+        "codec",
+        "encointer-balances-tx-payment-rpc-runtime-api",
+        "encointer-primitives",
+        "encointer-rpc",
+        "jsonrpsee",
+        "log",
+        "pallet-transaction-payment",
+        "pallet-transaction-payment-rpc",
+        "parking_lot",
+        "sc-rpc",
+        "sc-rpc-api",
+        "sp-api",
+        "sp-blockchain",
+        "sp-core",
+        "sp-rpc",
+        "sp-runtime",
+        "thiserror"
+    ]
+}

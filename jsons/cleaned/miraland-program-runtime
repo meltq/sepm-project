@@ -1,0 +1,25 @@
+{
+    "name": "miraland-program-runtime",
+    "deps": [
+        "base64",
+        "bincode",
+        "eager",
+        "enum-iterator",
+        "itertools",
+        "libc",
+        "libloading",
+        "log",
+        "miraland-frozen-abi",
+        "miraland-frozen-abi-macro",
+        "miraland-logger",
+        "miraland-measure",
+        "miraland-metrics",
+        "miraland-sdk",
+        "num-derive",
+        "num-traits",
+        "rand",
+        "rustc_version",
+        "serde",
+        "thiserror"
+    ]
+}

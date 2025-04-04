@@ -1,0 +1,18 @@
+{
+    "name": "dd-tracing-layer",
+    "deps": [
+        "async-recursion",
+        "async-trait",
+        "chrono",
+        "httpmock",
+        "log",
+        "log-tracing-layer",
+        "reqwest",
+        "serde_json",
+        "simple_logger",
+        "tokio",
+        "tracing",
+        "tracing-subscriber",
+        "tracing-subscriber"
+    ]
+}

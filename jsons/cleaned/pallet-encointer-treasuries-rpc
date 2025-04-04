@@ -1,0 +1,20 @@
+{
+    "name": "pallet-encointer-treasuries-rpc",
+    "deps": [
+        "encointer-primitives",
+        "encointer-rpc",
+        "jsonrpsee",
+        "log",
+        "pallet-encointer-treasuries-rpc-runtime-api",
+        "parity-scale-codec",
+        "parking_lot",
+        "sc-rpc",
+        "sc-rpc-api",
+        "sp-api",
+        "sp-blockchain",
+        "sp-core",
+        "sp-rpc",
+        "sp-runtime",
+        "thiserror"
+    ]
+}

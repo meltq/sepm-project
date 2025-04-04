@@ -1,0 +1,21 @@
+{
+    "name": "transprompt",
+    "deps": [
+        "anyhow",
+        "async-openai-wasm",
+        "async-trait",
+        "ctrlc",
+        "futures",
+        "lazy_static",
+        "log",
+        "qdrant-client",
+        "readonly",
+        "regex",
+        "serde",
+        "serde_json",
+        "termimad",
+        "tiktoken-rs",
+        "tokio",
+        "url"
+    ]
+}

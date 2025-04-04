@@ -1,0 +1,28 @@
+{
+    "name": "juper_swap_api",
+    "deps": [
+        "anchor-lang",
+        "anyhow",
+        "anyix",
+        "async-trait",
+        "base64",
+        "bincode",
+        "itertools",
+        "juper_swap_cpi",
+        "log",
+        "once_cell",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "simplelog",
+        "solana-client",
+        "solana-sdk",
+        "solana-transaction-status",
+        "spl-associated-token-account",
+        "spl-token",
+        "static-pubkey",
+        "thiserror",
+        "tokio",
+        "tokio"
+    ]
+}

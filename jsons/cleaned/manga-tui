@@ -1,0 +1,28 @@
+{
+    "name": "manga-tui",
+    "deps": [
+        "anyhow",
+        "bytes",
+        "chrono",
+        "clap",
+        "color-eyre",
+        "crossterm",
+        "directories",
+        "futures",
+        "image",
+        "once_cell",
+        "open",
+        "ratatui",
+        "ratatui-image",
+        "reqwest",
+        "rusqlite",
+        "serde",
+        "serde_json",
+        "strum",
+        "strum_macros",
+        "throbber-widgets-tui",
+        "tokio",
+        "tui-input",
+        "tui-widget-list"
+    ]
+}

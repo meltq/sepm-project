@@ -1,0 +1,12 @@
+{
+    "name": "sentry-contexts",
+    "deps": [
+        "hostname",
+        "lazy_static",
+        "libc",
+        "regex",
+        "rustc_version",
+        "sentry-core",
+        "uname"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "crud",
+    "deps": [
+        "clap",
+        "crud-api",
+        "crud-api-derive",
+        "crud-auth",
+        "crud-auth-bearer",
+        "crud-auth-no-auth",
+        "crud-derive",
+        "hyper",
+        "log",
+        "miette",
+        "openssl",
+        "pretty_env_logger",
+        "serde",
+        "tokio"
+    ]
+}

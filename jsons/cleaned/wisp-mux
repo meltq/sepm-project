@@ -1,0 +1,17 @@
+{
+    "name": "wisp-mux",
+    "deps": [
+        "async_io_stream",
+        "bytes",
+        "event-listener",
+        "fastwebsockets",
+        "futures",
+        "futures-util",
+        "hyper",
+        "hyper-util-wasm",
+        "pin-project-lite",
+        "tokio",
+        "tower-service",
+        "ws_stream_wasm"
+    ]
+}

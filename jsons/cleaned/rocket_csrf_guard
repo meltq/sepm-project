@@ -1,0 +1,19 @@
+{
+    "name": "rocket_csrf_guard",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "base64",
+        "console",
+        "hex",
+        "mini-moka",
+        "rand",
+        "rocket",
+        "rocket_csrf_guard_derive",
+        "rocket_dyn_templates",
+        "serde",
+        "sha3",
+        "similar",
+        "thiserror"
+    ]
+}

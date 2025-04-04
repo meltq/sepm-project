@@ -1,0 +1,33 @@
+{
+    "name": "matterdb",
+    "deps": [
+        "anyhow",
+        "assert_matches",
+        "bincode",
+        "byteorder",
+        "chrono",
+        "criterion",
+        "crossbeam",
+        "enum-primitive-derive",
+        "hex",
+        "leb128",
+        "matterdb-derive",
+        "modifier",
+        "num-traits",
+        "pretty_assertions",
+        "proptest",
+        "protobuf",
+        "rand",
+        "rand_xorshift",
+        "rocksdb",
+        "rust_decimal",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "smallvec",
+        "tempfile",
+        "thiserror",
+        "url",
+        "uuid"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "name": "safepkt-backend",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "base64",
+        "bollard",
+        "color-eyre",
+        "dotenv",
+        "futures",
+        "hex",
+        "hyper",
+        "rand",
+        "rand_core",
+        "routerify",
+        "routerify-cors",
+        "serde",
+        "serde_json",
+        "sha2",
+        "tokio",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

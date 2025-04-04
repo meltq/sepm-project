@@ -1,0 +1,22 @@
+{
+    "name": "chef_api",
+    "deps": [
+        "chrono",
+        "clippy",
+        "env_logger",
+        "failure",
+        "futures",
+        "hyper",
+        "hyper-openssl",
+        "log",
+        "openssl",
+        "rustc-serialize",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "time",
+        "tokio-core",
+        "toml",
+        "url"
+    ]
+}

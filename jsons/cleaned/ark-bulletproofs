@@ -1,0 +1,27 @@
+{
+    "name": "ark-bulletproofs",
+    "deps": [
+        "ark-algebra-test-templates",
+        "ark-curve25519",
+        "ark-ec",
+        "ark-ed25519",
+        "ark-ff",
+        "ark-secp256k1",
+        "ark-secq256k1",
+        "ark-serialize",
+        "ark-std",
+        "byteorder",
+        "clear_on_drop",
+        "criterion",
+        "digest",
+        "merlin",
+        "rand",
+        "rand_chacha",
+        "rand_chacha",
+        "rand_core",
+        "serde",
+        "serde_derive",
+        "sha3",
+        "thiserror"
+    ]
+}

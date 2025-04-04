@@ -1,0 +1,16 @@
+{
+    "name": "lapin-tower-worker",
+    "deps": [
+        "anyhow",
+        "futures",
+        "lapin",
+        "sqlx",
+        "thiserror",
+        "tokio",
+        "tokio-stream",
+        "tower",
+        "tracing",
+        "tracing-subscriber",
+        "trait-variant"
+    ]
+}

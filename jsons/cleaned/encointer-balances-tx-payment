@@ -1,0 +1,18 @@
+{
+    "name": "encointer-balances-tx-payment",
+    "deps": [
+        "codec",
+        "encointer-primitives",
+        "frame-support",
+        "frame-system",
+        "log",
+        "pallet-asset-tx-payment",
+        "pallet-encointer-balances",
+        "pallet-encointer-ceremonies",
+        "pallet-transaction-payment",
+        "rstest",
+        "scale-info",
+        "sp-io",
+        "sp-runtime"
+    ]
+}

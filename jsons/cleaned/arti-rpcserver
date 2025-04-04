@@ -1,0 +1,24 @@
+{
+    "name": "arti-rpcserver",
+    "deps": [
+        "arti-client",
+        "asynchronous-codec",
+        "bytes",
+        "erased-serde",
+        "futures",
+        "futures-await-test",
+        "once_cell",
+        "pin-project",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio-crate",
+        "tokio-util",
+        "tor-async-utils",
+        "tor-error",
+        "tor-rpcbase",
+        "tor-rtcompat",
+        "tracing",
+        "typetag"
+    ]
+}

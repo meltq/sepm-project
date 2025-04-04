@@ -1,0 +1,23 @@
+{
+    "name": "suricata-ipc",
+    "deps": [
+        "askama",
+        "async-trait",
+        "chrono",
+        "criterion",
+        "env_logger",
+        "failure",
+        "futures",
+        "lazy_static",
+        "libc",
+        "log",
+        "packet-ipc",
+        "pin-project",
+        "regex",
+        "serde",
+        "serde_json",
+        "tempfile",
+        "tokio",
+        "tokio"
+    ]
+}

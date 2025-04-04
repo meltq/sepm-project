@@ -1,0 +1,13 @@
+{
+    "name": "log-analyzer-server",
+    "deps": [
+        "anyhow",
+        "log-analyzer-transient-types",
+        "parking_lot",
+        "serde",
+        "serde_yaml",
+        "tantivy",
+        "tokio",
+        "warp"
+    ]
+}

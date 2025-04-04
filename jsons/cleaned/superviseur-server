@@ -1,0 +1,28 @@
+{
+    "name": "superviseur-server",
+    "deps": [
+        "anyhow",
+        "chrono",
+        "hcl-rs",
+        "indexmap",
+        "local-ip-addr",
+        "names",
+        "owo-colors",
+        "prost",
+        "serde",
+        "superviseur-core",
+        "superviseur-drivers",
+        "superviseur-log",
+        "superviseur-macros",
+        "superviseur-provider",
+        "superviseur-types",
+        "superviseur-util",
+        "superviseur-webui",
+        "tokio",
+        "tokio-stream",
+        "toml",
+        "tonic",
+        "tonic-build",
+        "tonic-web"
+    ]
+}

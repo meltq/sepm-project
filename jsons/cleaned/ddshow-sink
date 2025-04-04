@@ -1,0 +1,12 @@
+{
+    "name": "ddshow-sink",
+    "deps": [
+        "bytecheck",
+        "byteorder",
+        "ddshow-types",
+        "differential-dataflow",
+        "rkyv",
+        "timely",
+        "tracing_dep"
+    ]
+}

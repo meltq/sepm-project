@@ -1,0 +1,14 @@
+{
+    "name": "actix-jwt-auth-middleware",
+    "deps": [
+        "actix-jwt-auth-middleware-macros",
+        "actix-web",
+        "ed25519-dalek",
+        "futures-util",
+        "jwt-compact",
+        "rand",
+        "serde",
+        "serde",
+        "serde_cbor"
+    ]
+}

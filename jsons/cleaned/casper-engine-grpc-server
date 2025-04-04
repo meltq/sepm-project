@@ -1,0 +1,19 @@
+{
+    "name": "casper-engine-grpc-server",
+    "deps": [
+        "casper-execution-engine",
+        "casper-types",
+        "clap",
+        "ctrlc",
+        "datasize",
+        "dirs",
+        "grpc",
+        "lmdb",
+        "log",
+        "parity-wasm",
+        "proptest",
+        "protobuf",
+        "protoc-rust-grpc",
+        "rand"
+    ]
+}

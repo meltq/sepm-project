@@ -1,0 +1,20 @@
+{
+    "name": "rincon_connector",
+    "deps": [
+        "dotenv",
+        "futures",
+        "hyper",
+        "hyper-timeout",
+        "hyper-tls",
+        "log",
+        "log4rs",
+        "native-tls",
+        "rincon_core",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "tokio-core",
+        "url",
+        "version-sync"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "es-wifi-driver",
+    "deps": [
+        "atomic-polyfill",
+        "defmt",
+        "embassy-sync",
+        "embassy-time",
+        "embedded-hal",
+        "embedded-hal-async",
+        "embedded-io",
+        "embedded-nal-async",
+        "futures-intrusive",
+        "heapless",
+        "moveslice",
+        "nom"
+    ]
+}

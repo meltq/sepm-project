@@ -1,0 +1,18 @@
+{
+    "name": "vhost-device-scmi",
+    "deps": [
+        "assert_matches",
+        "clap",
+        "env_logger",
+        "itertools",
+        "log",
+        "thiserror",
+        "vhost",
+        "vhost-user-backend",
+        "virtio-bindings",
+        "virtio-queue",
+        "virtio-queue",
+        "vm-memory",
+        "vmm-sys-util"
+    ]
+}

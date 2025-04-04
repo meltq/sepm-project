@@ -1,0 +1,22 @@
+{
+    "name": "quickwit-ingest-api",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "flume",
+        "futures",
+        "once_cell",
+        "quickwit-actors",
+        "quickwit-metastore",
+        "quickwit-proto",
+        "rand",
+        "rand_distr",
+        "rocksdb",
+        "serde",
+        "serde_json",
+        "tempfile",
+        "thiserror",
+        "tokio",
+        "tracing"
+    ]
+}

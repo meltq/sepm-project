@@ -1,0 +1,22 @@
+{
+    "name": "re_data_store",
+    "deps": [
+        "ahash",
+        "anyhow",
+        "criterion",
+        "document-features",
+        "itertools",
+        "mimalloc",
+        "nohash-hasher",
+        "once_cell",
+        "ordered-float",
+        "puffin",
+        "rand",
+        "re_arrow_store",
+        "re_log",
+        "re_log_types",
+        "re_string_interner",
+        "serde",
+        "thiserror"
+    ]
+}

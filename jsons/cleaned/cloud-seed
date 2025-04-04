@@ -1,0 +1,23 @@
+{
+    "name": "cloud-seed",
+    "deps": [
+        "anyhow",
+        "async-compression",
+        "async-trait",
+        "aws-config",
+        "base64",
+        "flate2",
+        "futures-util",
+        "hostname",
+        "hyper",
+        "nix",
+        "once_cell",
+        "serde",
+        "serde_json",
+        "serde_yaml",
+        "tokio",
+        "tokio-util",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

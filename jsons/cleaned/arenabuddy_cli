@@ -1,0 +1,15 @@
+{
+    "name": "arenabuddy_cli",
+    "deps": [
+        "anyhow",
+        "arenabuddy_core",
+        "clap",
+        "crossbeam",
+        "ctrlc",
+        "rusqlite",
+        "serde",
+        "serde_json",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

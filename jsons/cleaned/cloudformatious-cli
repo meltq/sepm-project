@@ -1,0 +1,14 @@
+{
+    "name": "cloudformatious-cli",
+    "deps": [
+        "clap",
+        "cloudformatious",
+        "colored",
+        "futures-util",
+        "rusoto_cloudformation",
+        "rusoto_core",
+        "rusoto_credential",
+        "serde_json",
+        "tokio"
+    ]
+}

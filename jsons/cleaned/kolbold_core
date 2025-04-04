@@ -1,0 +1,29 @@
+{
+    "name": "kolbold_core",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "chrono",
+        "futures",
+        "hex",
+        "kolbold_macros",
+        "num_cpus",
+        "rand",
+        "rayon",
+        "ring",
+        "rust_decimal",
+        "rustc-hash",
+        "serde",
+        "serde_json",
+        "serde_with",
+        "sha2",
+        "smol_str",
+        "sysinfo",
+        "thiserror",
+        "tokio",
+        "tokio-test",
+        "tokio-tungstenite",
+        "tracing",
+        "uuid"
+    ]
+}

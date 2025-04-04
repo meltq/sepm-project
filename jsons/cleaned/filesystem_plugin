@@ -1,0 +1,18 @@
+{
+    "name": "filesystem_plugin",
+    "deps": [
+        "async-trait",
+        "bigdecimal",
+        "futures",
+        "num-bigint",
+        "polywrap_core",
+        "polywrap_manifest",
+        "polywrap_msgpack",
+        "polywrap_plugin",
+        "rm_rf",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "ureq"
+    ]
+}

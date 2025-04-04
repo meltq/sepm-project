@@ -1,0 +1,25 @@
+{
+    "name": "geph4-vpn-helper",
+    "deps": [
+        "anyhow",
+        "cached",
+        "crossbeam-utils",
+        "defmac",
+        "env_logger",
+        "flume",
+        "geph4-protocol",
+        "governor",
+        "log",
+        "nix",
+        "once_cell",
+        "parking_lot",
+        "pnet_packet",
+        "smol",
+        "sosistab",
+        "sysinfo",
+        "thiserror",
+        "threadpool",
+        "tundevice",
+        "winapi"
+    ]
+}

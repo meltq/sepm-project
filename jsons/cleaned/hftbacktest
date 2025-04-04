@@ -1,0 +1,20 @@
+{
+    "name": "hftbacktest",
+    "deps": [
+        "anyhow",
+        "chrono",
+        "futures-util",
+        "hmac",
+        "rand",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "sha2",
+        "thiserror",
+        "tokio",
+        "tokio-tungstenite",
+        "tracing",
+        "tracing-subscriber",
+        "zip"
+    ]
+}

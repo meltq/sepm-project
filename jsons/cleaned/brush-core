@@ -1,0 +1,29 @@
+{
+    "name": "brush-core",
+    "deps": [
+        "anyhow",
+        "async-recursion",
+        "async-trait",
+        "brush-parser",
+        "cached",
+        "clap",
+        "command-fds",
+        "criterion",
+        "fancy-regex",
+        "futures",
+        "homedir",
+        "hostname",
+        "itertools",
+        "lazy_static",
+        "nix",
+        "os_pipe",
+        "pprof",
+        "procfs",
+        "rand",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "uzers",
+        "whoami"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "name": "dao-voting-token-staked",
+    "deps": [
+        "cosmwasm-schema",
+        "cosmwasm-std",
+        "cosmwasm-storage",
+        "cw-controllers",
+        "cw-hooks",
+        "cw-ownable",
+        "cw-paginate-storage",
+        "cw-storage-plus",
+        "cw-tokenfactory-issuer",
+        "cw-utils",
+        "cw2",
+        "dao-dao-macros",
+        "dao-hooks",
+        "dao-interface",
+        "dao-voting",
+        "thiserror"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "name": "stund",
+    "deps": [
+        "atty",
+        "base64",
+        "daemonize",
+        "failure",
+        "futures",
+        "libc",
+        "rand",
+        "state_machine_future",
+        "structopt",
+        "stund_protocol",
+        "tokio-borrow-stdio",
+        "tokio-core",
+        "tokio-io",
+        "tokio-pty-process",
+        "tokio-serde-bincode",
+        "tokio-signal",
+        "tokio-uds"
+    ]
+}

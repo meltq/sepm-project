@@ -1,0 +1,27 @@
+{
+    "name": "kube-forward",
+    "deps": [
+        "anyhow",
+        "chrono",
+        "clap",
+        "ctrlc",
+        "futures",
+        "humantime-serde",
+        "k8s-openapi",
+        "kube",
+        "metrics",
+        "metrics-exporter-prometheus",
+        "metrics-util",
+        "serde",
+        "serde_yaml",
+        "socket2",
+        "tempfile",
+        "thiserror",
+        "tokio",
+        "tokio",
+        "tokio-stream",
+        "tokio-test",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

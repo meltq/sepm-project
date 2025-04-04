@@ -1,0 +1,23 @@
+{
+    "name": "music-player-webui",
+    "deps": [
+        "actix-cors",
+        "actix-files",
+        "actix-web",
+        "async-graphql",
+        "async-graphql-actix-web",
+        "dirs",
+        "mime_guess",
+        "music-player-graphql",
+        "music-player-playback",
+        "music-player-settings",
+        "music-player-storage",
+        "music-player-tracklist",
+        "owo-colors",
+        "parking_lot",
+        "rust-embed",
+        "serde",
+        "serde_derive",
+        "tokio"
+    ]
+}

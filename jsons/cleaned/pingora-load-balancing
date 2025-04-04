@@ -1,0 +1,17 @@
+{
+    "name": "pingora-load-balancing",
+    "deps": [
+        "arc-swap",
+        "async-trait",
+        "fnv",
+        "futures",
+        "log",
+        "pingora-core",
+        "pingora-error",
+        "pingora-http",
+        "pingora-ketama",
+        "pingora-runtime",
+        "rand",
+        "tokio"
+    ]
+}

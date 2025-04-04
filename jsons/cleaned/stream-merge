@@ -1,0 +1,32 @@
+{
+    "name": "stream-merge",
+    "deps": [
+        "anyhow",
+        "assert_cmd",
+        "async-channel",
+        "async-compat",
+        "async-compression",
+        "bytes",
+        "coz",
+        "criterion",
+        "futures",
+        "futures-test",
+        "futures-util",
+        "hex-literal",
+        "itertools",
+        "jemallocator",
+        "nom",
+        "num_cpus",
+        "pcap-parser",
+        "pin-project",
+        "pin-project-lite",
+        "predicates",
+        "rusoto_core",
+        "rusoto_s3",
+        "smol",
+        "structopt",
+        "tempfile",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

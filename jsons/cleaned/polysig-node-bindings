@@ -1,0 +1,15 @@
+{
+    "name": "polysig-node-bindings",
+    "deps": [
+        "anyhow",
+        "napi",
+        "napi-build",
+        "napi-derive",
+        "polysig-client",
+        "polysig-driver",
+        "polysig-protocol",
+        "serde",
+        "serde_json",
+        "tokio"
+    ]
+}

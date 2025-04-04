@@ -1,0 +1,29 @@
+{
+    "name": "tuic-client",
+    "deps": [
+        "bytes",
+        "crossbeam-utils",
+        "env_logger",
+        "humantime",
+        "lexopt",
+        "log",
+        "once_cell",
+        "parking_lot",
+        "quinn",
+        "register-count",
+        "rustls",
+        "rustls-native-certs",
+        "rustls-pemfile",
+        "serde",
+        "serde_json",
+        "socket2",
+        "socks5-proto",
+        "socks5-server",
+        "thiserror",
+        "tokio",
+        "tokio-util",
+        "tuic",
+        "tuic-quinn",
+        "uuid"
+    ]
+}

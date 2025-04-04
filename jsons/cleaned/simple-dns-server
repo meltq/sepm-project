@@ -1,0 +1,17 @@
+{
+    "name": "simple-dns-server",
+    "deps": [
+        "anyhow",
+        "futures",
+        "serde",
+        "serde_yaml",
+        "thiserror",
+        "tokio",
+        "tokio",
+        "tracing",
+        "tracing-subscriber",
+        "trust-dns-proto",
+        "trust-dns-resolver",
+        "trust-dns-server"
+    ]
+}

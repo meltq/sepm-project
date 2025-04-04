@@ -1,0 +1,32 @@
+{
+    "name": "zksync_state_keeper",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "futures",
+        "hex",
+        "itertools",
+        "once_cell",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "vise",
+        "zksync_base_token_adjuster",
+        "zksync_config",
+        "zksync_contracts",
+        "zksync_dal",
+        "zksync_mempool",
+        "zksync_multivm",
+        "zksync_node_fee_model",
+        "zksync_node_genesis",
+        "zksync_node_test_utils",
+        "zksync_protobuf",
+        "zksync_shared_metrics",
+        "zksync_state",
+        "zksync_storage",
+        "zksync_test_account",
+        "zksync_types",
+        "zksync_utils",
+        "zksync_vm_utils"
+    ]
+}

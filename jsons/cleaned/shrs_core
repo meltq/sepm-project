@@ -1,0 +1,20 @@
+{
+    "name": "shrs_core",
+    "deps": [
+        "anyhow",
+        "anymap",
+        "clap",
+        "crossterm",
+        "derive_builder",
+        "dirs",
+        "lazy_static",
+        "multimap",
+        "nix",
+        "pino_deref",
+        "regex",
+        "rexpect",
+        "shrs_job",
+        "signal-hook",
+        "thiserror"
+    ]
+}

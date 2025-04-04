@@ -1,0 +1,20 @@
+{
+    "name": "cargo-test-fuzz",
+    "deps": [
+        "afl",
+        "anyhow",
+        "assert_cmd",
+        "cargo_metadata",
+        "clap",
+        "dirs",
+        "env_logger",
+        "lazy_static",
+        "log",
+        "predicates",
+        "regex",
+        "rlimit",
+        "serde",
+        "subprocess",
+        "test_fuzz"
+    ]
+}

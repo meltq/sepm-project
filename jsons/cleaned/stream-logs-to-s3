@@ -1,0 +1,31 @@
+{
+    "name": "stream-logs-to-s3",
+    "deps": [
+        "async-compression",
+        "base32",
+        "byte-unit",
+        "chrono",
+        "env_logger",
+        "flate2",
+        "futures",
+        "get_if_addrs",
+        "gethostname",
+        "getopts",
+        "humantime",
+        "lazy_static",
+        "log",
+        "nix",
+        "rand",
+        "regex",
+        "reqwest",
+        "rusoto_core",
+        "rusoto_credential",
+        "rusoto_s3",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "tempfile",
+        "tokio",
+        "tokio-util"
+    ]
+}

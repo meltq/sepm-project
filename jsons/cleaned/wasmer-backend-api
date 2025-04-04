@@ -1,0 +1,29 @@
+{
+    "name": "wasmer-backend-api",
+    "deps": [
+        "anyhow",
+        "async-tungstenite",
+        "base64",
+        "cynic",
+        "futures",
+        "getrandom",
+        "graphql-ws-client",
+        "harsh",
+        "merge-streams",
+        "pin-project-lite",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "serde_path_to_error",
+        "time",
+        "tokio",
+        "tokio",
+        "tokio-tungstenite",
+        "tracing",
+        "url",
+        "uuid",
+        "wasmer-config",
+        "wasmer-package",
+        "webc"
+    ]
+}

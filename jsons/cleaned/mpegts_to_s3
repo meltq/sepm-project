@@ -1,0 +1,19 @@
+{
+    "name": "mpegts_to_s3",
+    "deps": [
+        "aws-config",
+        "aws-sdk-s3",
+        "aws-smithy-runtime-api",
+        "aws-types",
+        "chrono",
+        "clap",
+        "env_logger",
+        "futures",
+        "get_if_addrs",
+        "log",
+        "notify",
+        "pcap",
+        "socket2",
+        "tokio"
+    ]
+}

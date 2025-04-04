@@ -1,0 +1,17 @@
+{
+    "name": "sys2mqtt",
+    "deps": [
+        "async-trait",
+        "chrono",
+        "dirs",
+        "env_logger",
+        "log",
+        "machine-uid",
+        "rumqttc",
+        "serde",
+        "serde_yaml",
+        "sysinfo",
+        "tokio",
+        "user-idle"
+    ]
+}

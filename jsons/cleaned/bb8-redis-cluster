@@ -1,0 +1,11 @@
+{
+    "name": "bb8-redis-cluster",
+    "deps": [
+        "async-trait",
+        "bb8",
+        "futures-util",
+        "redis",
+        "redis_cluster_async",
+        "tokio"
+    ]
+}

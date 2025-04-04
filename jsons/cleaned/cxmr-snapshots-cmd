@@ -1,0 +1,15 @@
+{
+    "name": "cxmr-snapshots-cmd",
+    "deps": [
+        "clap",
+        "cxmr-candles",
+        "cxmr-feeds",
+        "cxmr-orderbook",
+        "cxmr-snapshots",
+        "cxmr-tectonic",
+        "itertools",
+        "log",
+        "pretty_env_logger",
+        "rayon"
+    ]
+}

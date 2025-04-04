@@ -1,0 +1,30 @@
+{
+    "name": "sc-finality-grandpa",
+    "deps": [
+        "assert_matches",
+        "finality-grandpa",
+        "fork-tree",
+        "futures",
+        "futures-timer",
+        "log",
+        "parity-scale-codec",
+        "parking_lot",
+        "pin-project",
+        "rand",
+        "sc-client",
+        "sc-client-api",
+        "sc-keystore",
+        "sc-network",
+        "sc-network-gossip",
+        "sc-telemetry",
+        "serde_json",
+        "sp-arithmetic",
+        "sp-blockchain",
+        "sp-consensus",
+        "sp-core",
+        "sp-finality-grandpa",
+        "sp-finality-tracker",
+        "sp-inherents",
+        "sp-runtime"
+    ]
+}

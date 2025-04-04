@@ -1,0 +1,17 @@
+{
+    "name": "lunatic-distributed-api",
+    "deps": [
+        "anyhow",
+        "async_cell",
+        "bincode",
+        "dashmap",
+        "log",
+        "lunatic-common-api",
+        "lunatic-distributed",
+        "lunatic-process",
+        "lunatic-process-api",
+        "serde",
+        "tokio",
+        "wasmtime"
+    ]
+}

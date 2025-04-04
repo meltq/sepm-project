@@ -1,0 +1,23 @@
+{
+    "name": "jito-core",
+    "deps": [
+        "crossbeam-channel",
+        "jito-rpc",
+        "lazy_static",
+        "log",
+        "rayon",
+        "solana-client",
+        "solana-core",
+        "solana-gossip",
+        "solana-measure",
+        "solana-metrics",
+        "solana-perf",
+        "solana-rayon-threadlimit",
+        "solana-runtime",
+        "solana-sdk",
+        "solana-streamer",
+        "thiserror",
+        "tokio",
+        "tokio-stream"
+    ]
+}

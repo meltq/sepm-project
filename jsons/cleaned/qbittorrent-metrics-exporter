@@ -1,0 +1,14 @@
+{
+    "name": "qbittorrent-metrics-exporter",
+    "deps": [
+        "futures",
+        "metrics",
+        "metrics-exporter-prometheus",
+        "metrics-util",
+        "qbit-rs",
+        "tokio",
+        "tracing",
+        "tracing-subscriber",
+        "url"
+    ]
+}

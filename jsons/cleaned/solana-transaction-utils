@@ -1,0 +1,22 @@
+{
+    "name": "solana-transaction-utils",
+    "deps": [
+        "bincode",
+        "dashmap",
+        "futures",
+        "futures-core",
+        "futures-util",
+        "indicatif",
+        "itertools",
+        "solana-client",
+        "solana-program",
+        "solana-quic-client",
+        "solana-rpc-client",
+        "solana-rpc-client-api",
+        "solana-sdk",
+        "solana-tpu-client",
+        "solana-transaction-status",
+        "thiserror",
+        "tokio"
+    ]
+}

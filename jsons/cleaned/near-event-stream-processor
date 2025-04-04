@@ -1,0 +1,16 @@
+{
+    "name": "near-event-stream-processor",
+    "deps": [
+        "anyhow",
+        "derive_builder",
+        "futures",
+        "openssl",
+        "openssl-probe",
+        "rdkafka",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tracing"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "ipfs-webdav",
+    "deps": [
+        "async-trait",
+        "bytes",
+        "env_logger",
+        "futures",
+        "http",
+        "hyper",
+        "ipfs-api-backend-hyper",
+        "log",
+        "tokio",
+        "webdav-handler"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "phaneron-plugin-webrtc",
+    "deps": [
+        "abi_stable",
+        "axum",
+        "byteorder",
+        "lazy_static",
+        "log",
+        "opus",
+        "phaneron-plugin",
+        "serde_json",
+        "tokio",
+        "tower",
+        "tower-http",
+        "tracing",
+        "uuid",
+        "vpx-encode",
+        "webrtc"
+    ]
+}

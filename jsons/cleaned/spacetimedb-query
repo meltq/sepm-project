@@ -1,0 +1,16 @@
+{
+    "name": "spacetimedb-query",
+    "deps": [
+        "anyhow",
+        "itertools",
+        "rayon",
+        "spacetimedb-client-api-messages",
+        "spacetimedb-execution",
+        "spacetimedb-expr",
+        "spacetimedb-lib",
+        "spacetimedb-physical-plan",
+        "spacetimedb-primitives",
+        "spacetimedb-sql-parser",
+        "spacetimedb-table"
+    ]
+}

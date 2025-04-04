@@ -1,0 +1,24 @@
+{
+    "name": "mwc_wallet_api",
+    "deps": [
+        "base64",
+        "chrono",
+        "colored",
+        "easy-jsonrpc-mw",
+        "ed25519-dalek",
+        "log",
+        "mwc_wallet_config",
+        "mwc_wallet_impls",
+        "mwc_wallet_libwallet",
+        "mwc_wallet_util",
+        "rand",
+        "ring",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "serde_json",
+        "tempfile",
+        "uuid",
+        "x25519-dalek"
+    ]
+}

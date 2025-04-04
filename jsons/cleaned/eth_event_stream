@@ -1,0 +1,15 @@
+{
+    "name": "eth_event_stream",
+    "deps": [
+        "anyhow",
+        "clap",
+        "eth_event_macro",
+        "ethabi",
+        "ethereum-types",
+        "hex",
+        "nom",
+        "tokio",
+        "tokio-retry",
+        "web3"
+    ]
+}

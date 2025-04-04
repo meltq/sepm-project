@@ -1,0 +1,17 @@
+{
+    "name": "netlink-packet",
+    "deps": [
+        "bit_field",
+        "byteorder",
+        "bytes",
+        "env_logger",
+        "eui48",
+        "failure",
+        "failure_derive",
+        "futures",
+        "lazy_static",
+        "libc",
+        "log",
+        "netlink-sys"
+    ]
+}

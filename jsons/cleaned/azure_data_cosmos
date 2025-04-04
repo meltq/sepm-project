@@ -1,0 +1,25 @@
+{
+    "name": "azure_data_cosmos",
+    "deps": [
+        "async-trait",
+        "azure_core",
+        "base64",
+        "bytes",
+        "chrono",
+        "env_logger",
+        "futures",
+        "http",
+        "hyper",
+        "hyper-rustls",
+        "log",
+        "reqwest",
+        "ring",
+        "serde",
+        "serde_json",
+        "stop-token",
+        "thiserror",
+        "tokio",
+        "url",
+        "uuid"
+    ]
+}

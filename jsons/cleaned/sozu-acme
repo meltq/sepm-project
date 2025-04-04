@@ -1,0 +1,13 @@
+{
+    "name": "sozu-acme",
+    "deps": [
+        "acme-client",
+        "clap",
+        "log",
+        "mio-uds",
+        "pretty_env_logger",
+        "rand",
+        "sozu-command-lib",
+        "tiny_http"
+    ]
+}

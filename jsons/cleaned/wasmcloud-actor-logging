@@ -1,0 +1,14 @@
+{
+    "name": "wasmcloud-actor-logging",
+    "deps": [
+        "base64",
+        "lazy_static",
+        "log",
+        "rmp-serde",
+        "serde",
+        "serde_bytes",
+        "serde_json",
+        "structopt",
+        "wapc-guest"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "name": "Simple-Wayland-HotKey-Daemon",
+    "deps": [
+        "clap",
+        "env_logger",
+        "evdev",
+        "itertools",
+        "log",
+        "nix",
+        "signal-hook",
+        "signal-hook-tokio",
+        "sysinfo",
+        "tokio",
+        "tokio-stream"
+    ]
+}

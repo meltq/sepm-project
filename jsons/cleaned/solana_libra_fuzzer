@@ -1,0 +1,20 @@
+{
+    "name": "solana_libra_fuzzer",
+    "deps": [
+        "byteorder",
+        "canonical_serialization",
+        "datatest",
+        "failure",
+        "hex",
+        "lazy_static",
+        "proptest",
+        "proto_conv",
+        "rusty-fork",
+        "sha-1",
+        "stats_alloc",
+        "structopt",
+        "types",
+        "vm",
+        "vm_runtime"
+    ]
+}

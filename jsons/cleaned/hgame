@@ -1,0 +1,30 @@
+{
+    "name": "hgame",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "bson",
+        "chrono",
+        "crossbeam-channel",
+        "dyn-clone",
+        "egui_demo_lib",
+        "egui_extras",
+        "failure",
+        "futures-util",
+        "hconf",
+        "html-builder",
+        "image",
+        "mktree",
+        "mkutil",
+        "mongodb",
+        "quick-protobuf",
+        "reqwest",
+        "serde",
+        "serde_bytes",
+        "serde_json",
+        "serde_repr",
+        "strum",
+        "tokio",
+        "tokio-tungstenite"
+    ]
+}

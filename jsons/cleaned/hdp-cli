@@ -1,0 +1,14 @@
+{
+    "name": "hdp-cli",
+    "deps": [
+        "anyhow",
+        "clap",
+        "dotenv",
+        "hdp-core",
+        "hdp-provider",
+        "serde_json",
+        "tokio",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

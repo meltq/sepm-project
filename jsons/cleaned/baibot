@@ -1,0 +1,24 @@
+{
+    "name": "baibot",
+    "deps": [
+        "anthropic-rs",
+        "anyhow",
+        "async-openai",
+        "base64",
+        "etke_openai_api_rust",
+        "matrix-sdk",
+        "mxidwc",
+        "mxlink",
+        "quick_cache",
+        "regex",
+        "serde",
+        "serde_json",
+        "serde_yaml",
+        "tempfile",
+        "tiktoken-rs",
+        "tokio",
+        "tracing",
+        "tracing-subscriber",
+        "url"
+    ]
+}

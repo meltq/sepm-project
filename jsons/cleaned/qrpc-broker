@@ -1,0 +1,14 @@
+{
+    "name": "qrpc-broker",
+    "deps": [
+        "async-std",
+        "byteorder",
+        "capnp",
+        "identity",
+        "lazy_static",
+        "qrpc-sdk",
+        "signal-hook",
+        "socket2",
+        "tracing"
+    ]
+}

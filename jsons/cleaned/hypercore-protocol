@@ -1,0 +1,31 @@
+{
+    "name": "hypercore-protocol",
+    "deps": [
+        "anyhow",
+        "async-std",
+        "async-trait",
+        "blake2-rfc",
+        "bytes",
+        "criterion",
+        "duplexify",
+        "env_logger",
+        "futures",
+        "futures-timer",
+        "getrandom",
+        "hex",
+        "instant",
+        "log",
+        "piper",
+        "pretty-bytes",
+        "pretty-hash",
+        "prost",
+        "prost-build",
+        "rand",
+        "random-access-disk",
+        "random-access-memory",
+        "random-access-storage",
+        "salsa20",
+        "snow",
+        "varinteger"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "name": "nvcodec",
+    "deps": [
+        "clap",
+        "cuda-rs",
+        "ffmpeg-next",
+        "flume",
+        "futures",
+        "indicatif",
+        "num-traits",
+        "nvcodec-sys",
+        "thiserror",
+        "tokio",
+        "tracing"
+    ]
+}

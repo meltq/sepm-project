@@ -1,0 +1,20 @@
+{
+    "name": "bls_dkg",
+    "deps": [
+        "aes",
+        "bincode",
+        "block-modes",
+        "bytes",
+        "crossbeam-channel",
+        "ed25519_dalek",
+        "err-derive",
+        "itertools",
+        "log",
+        "quic-p2p",
+        "rand",
+        "rand_core",
+        "serde",
+        "serde_derive",
+        "threshold_crypto"
+    ]
+}

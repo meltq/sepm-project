@@ -1,0 +1,30 @@
+{
+    "name": "product-os-content",
+    "deps": [
+        "ammonia",
+        "async-trait",
+        "cfg-if",
+        "chrono",
+        "evalexpr",
+        "futures",
+        "html-escape",
+        "html2text",
+        "lazy_static",
+        "parking_lot",
+        "product-os-capabilities",
+        "product-os-command-control",
+        "product-os-configuration",
+        "product-os-router",
+        "product-os-security",
+        "product-os-store",
+        "product-os-store-macros",
+        "pulldown-cmark",
+        "regex",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tracing",
+        "url",
+        "uuid"
+    ]
+}

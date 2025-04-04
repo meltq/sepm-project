@@ -1,0 +1,25 @@
+{
+    "name": "keda-oracle-scaler",
+    "deps": [
+        "async-stream",
+        "env-var",
+        "env_logger",
+        "futures-core",
+        "futures-util",
+        "grpc",
+        "grpc-protobuf",
+        "log",
+        "once_cell",
+        "oracle",
+        "prost",
+        "protobuf",
+        "protoc-rust-grpc",
+        "rand",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tokio-stream",
+        "tonic",
+        "tonic-build"
+    ]
+}

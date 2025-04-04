@@ -1,0 +1,21 @@
+{
+    "name": "libp2p-relay",
+    "deps": [
+        "asynchronous-codec",
+        "bytes",
+        "env_logger",
+        "futures",
+        "futures-timer",
+        "libp2p-core",
+        "libp2p-swarm",
+        "log",
+        "pin-project",
+        "prost",
+        "prost-build",
+        "rand",
+        "smallvec",
+        "unsigned-varint",
+        "void",
+        "wasm-timer"
+    ]
+}

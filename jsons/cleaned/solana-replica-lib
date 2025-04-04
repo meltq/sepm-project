@@ -1,0 +1,15 @@
+{
+    "name": "solana-replica-lib",
+    "deps": [
+        "crossbeam-channel",
+        "futures-util",
+        "log",
+        "prost",
+        "solana-rpc",
+        "solana-runtime",
+        "solana-sdk",
+        "tokio",
+        "tonic",
+        "tonic-build"
+    ]
+}

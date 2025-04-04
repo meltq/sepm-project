@@ -1,0 +1,33 @@
+{
+    "name": "aptos-executor",
+    "deps": [
+        "anyhow",
+        "aptos-config",
+        "aptos-crypto",
+        "aptos-infallible",
+        "aptos-logger",
+        "aptos-metrics",
+        "aptos-scratchpad",
+        "aptos-secure-net",
+        "aptos-state-view",
+        "aptos-temppath",
+        "aptos-transaction-builder",
+        "aptos-types",
+        "aptos-types",
+        "aptos-vm",
+        "aptos-workspace-hack",
+        "bcs",
+        "consensus-types",
+        "executor-types",
+        "fail",
+        "itertools",
+        "move-deps",
+        "move-deps",
+        "once_cell",
+        "proptest",
+        "rand",
+        "rayon",
+        "serde",
+        "storage-interface"
+    ]
+}

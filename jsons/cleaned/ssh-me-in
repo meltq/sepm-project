@@ -1,0 +1,21 @@
+{
+    "name": "ssh-me-in",
+    "deps": [
+        "anyhow",
+        "chrono",
+        "clap-verbosity-flag",
+        "directories",
+        "env_logger",
+        "external-ip",
+        "futures",
+        "indicatif",
+        "log",
+        "quick-xml",
+        "rusoto_core",
+        "rusoto_ec2",
+        "serde",
+        "structopt",
+        "tokio",
+        "whoami"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "openlimits-exchange",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "chrono",
+        "derive_more",
+        "futures",
+        "openlimits-messaging",
+        "reqwest",
+        "rust_decimal",
+        "serde",
+        "serde_json",
+        "serde_urlencoded",
+        "thiserror",
+        "tokio",
+        "tokio-tungstenite",
+        "url"
+    ]
+}

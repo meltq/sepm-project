@@ -1,0 +1,19 @@
+{
+    "name": "gemachain-perf",
+    "deps": [
+        "bincode",
+        "curve25519-dalek",
+        "dlopen",
+        "dlopen_derive",
+        "gemachain-logger",
+        "gemachain-metrics",
+        "gemachain-rayon-threadlimit",
+        "gemachain-sdk",
+        "lazy_static",
+        "log",
+        "matches",
+        "rand",
+        "rayon",
+        "serde"
+    ]
+}

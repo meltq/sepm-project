@@ -1,0 +1,31 @@
+{
+    "name": "index_camera_passthrough",
+    "deps": [
+        "anyhow",
+        "argh",
+        "ash",
+        "bytemuck",
+        "config",
+        "ctrlc",
+        "env_logger",
+        "humantime-serde",
+        "image",
+        "itertools",
+        "libloading",
+        "log",
+        "nalgebra",
+        "openvr-sys2",
+        "renderdoc",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "toml",
+        "udev",
+        "v4l",
+        "vulkano",
+        "vulkano-shaders",
+        "xdg",
+        "anyhow",
+        "shaderc"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "thalo_cli",
+    "deps": [
+        "anyhow",
+        "cargo_metadata",
+        "clap",
+        "libc",
+        "owo-colors",
+        "serde_json",
+        "thalo",
+        "thalo_runtime",
+        "tokio",
+        "tonic",
+        "tracing",
+        "tracing-subscriber",
+        "wasm-metadata",
+        "wit-component"
+    ]
+}

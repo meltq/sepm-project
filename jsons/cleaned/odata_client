@@ -1,0 +1,16 @@
+{
+    "name": "odata_client",
+    "deps": [
+        "anyhow",
+        "chrono",
+        "iso8601",
+        "odata_client_codegen",
+        "odata_client_derive",
+        "odata_client_util",
+        "reqwest",
+        "serde",
+        "serde_with",
+        "tokio",
+        "uuid"
+    ]
+}

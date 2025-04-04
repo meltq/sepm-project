@@ -1,0 +1,26 @@
+{
+    "name": "sn-node-manager",
+    "deps": [
+        "assert_cmd",
+        "assert_fs",
+        "assert_matches",
+        "async-trait",
+        "clap",
+        "color-eyre",
+        "colored",
+        "indicatif",
+        "libp2p-identity",
+        "mockall",
+        "nix",
+        "predicates",
+        "serde",
+        "serde_json",
+        "service-manager",
+        "sn-releases",
+        "sn_node_rpc_client",
+        "sysinfo",
+        "tokio",
+        "users",
+        "uuid"
+    ]
+}

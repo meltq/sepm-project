@@ -1,0 +1,33 @@
+{
+    "name": "crusty",
+    "deps": [
+        "anyhow",
+        "async-channel",
+        "backoff",
+        "bytes",
+        "chrono",
+        "clickhouse",
+        "crc32fast",
+        "crusty-core",
+        "fdlimit",
+        "futures",
+        "futures-lite",
+        "futures-util",
+        "http",
+        "humanize-rs",
+        "num_cpus",
+        "once_cell",
+        "reflection",
+        "reflection_derive",
+        "scopeguard",
+        "serde",
+        "serde_yaml",
+        "tokio",
+        "tracing",
+        "tracing-futures",
+        "tracing-subscriber",
+        "tracing-tools",
+        "ttl_cache",
+        "url"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "flac-tracksplit",
+    "deps": [
+        "anyhow",
+        "bytesize",
+        "clap",
+        "int-conv",
+        "metaflac",
+        "more-asserts",
+        "proptest",
+        "rayon",
+        "symphonia-bundle-flac",
+        "symphonia-core",
+        "symphonia-utils-xiph",
+        "tracing",
+        "tracing-indicatif",
+        "tracing-subscriber"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "iceberg-catalog-glue",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "aws-config",
+        "aws-sdk-glue",
+        "ctor",
+        "iceberg",
+        "log",
+        "port_scanner",
+        "serde_json",
+        "tokio",
+        "typed-builder",
+        "uuid"
+    ]
+}

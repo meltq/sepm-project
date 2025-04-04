@@ -1,0 +1,20 @@
+{
+    "name": "mrepl",
+    "deps": [
+        "anyhow",
+        "check-latest",
+        "clap",
+        "env_logger",
+        "fluence-app-service",
+        "fluence-sdk-main",
+        "itertools",
+        "log",
+        "rustop",
+        "rustyline",
+        "rustyline-derive",
+        "serde_json",
+        "termion",
+        "uuid",
+        "wasmer-wasi"
+    ]
+}

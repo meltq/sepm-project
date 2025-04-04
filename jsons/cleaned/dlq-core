@@ -1,0 +1,14 @@
+{
+    "name": "dlq-core",
+    "deps": [
+        "anyhow",
+        "aws-config",
+        "aws-sdk-sqs",
+        "env_logger",
+        "log",
+        "serde",
+        "serde_json",
+        "sqlx",
+        "tokio"
+    ]
+}

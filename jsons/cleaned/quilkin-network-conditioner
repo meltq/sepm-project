@@ -1,0 +1,20 @@
+{
+    "name": "quilkin-network-conditioner",
+    "deps": [
+        "async-trait",
+        "bytes",
+        "clap",
+        "prost",
+        "prost-build",
+        "prost-types",
+        "protobuf-src",
+        "quilkin",
+        "schemars",
+        "serde",
+        "serde_yaml",
+        "tokio",
+        "tonic",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

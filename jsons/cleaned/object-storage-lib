@@ -1,0 +1,31 @@
+{
+    "name": "object-storage-lib",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "aws-sdk-s3",
+        "aws-smithy-http",
+        "aws-types",
+        "chrono",
+        "futures",
+        "headers",
+        "http",
+        "http-body-util",
+        "hyper",
+        "log",
+        "multer",
+        "num-bigint",
+        "num-integer",
+        "num-traits",
+        "object-storage-sdk",
+        "pin-project",
+        "rust-crypto",
+        "serde",
+        "serde_json",
+        "sync_wrapper",
+        "thiserror",
+        "tihu",
+        "tihu-native",
+        "tokio"
+    ]
+}

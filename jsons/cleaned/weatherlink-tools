@@ -1,0 +1,21 @@
+{
+    "name": "weatherlink-tools",
+    "deps": [
+        "anyhow",
+        "bytes",
+        "clap",
+        "futures-lite",
+        "http-body-util",
+        "hyper",
+        "hyper-util",
+        "mdns-sd",
+        "prometheus",
+        "reqwest",
+        "rumqttc",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

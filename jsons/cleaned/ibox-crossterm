@@ -1,0 +1,20 @@
+{
+    "name": "ibox-crossterm",
+    "deps": [
+        "async-std",
+        "bitflags",
+        "crossterm_winapi",
+        "futures",
+        "futures-core",
+        "futures-timer",
+        "libc",
+        "mio",
+        "parking_lot",
+        "serde",
+        "serde_json",
+        "signal-hook",
+        "signal-hook-mio",
+        "tokio",
+        "winapi"
+    ]
+}

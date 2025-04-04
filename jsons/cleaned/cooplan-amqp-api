@@ -1,0 +1,18 @@
+{
+    "name": "cooplan-amqp-api",
+    "deps": [
+        "async-channel",
+        "async-trait",
+        "futures-util",
+        "jsonwebtoken",
+        "lapin",
+        "log",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tokio-executor-trait",
+        "tokio-reactor-trait",
+        "uuid"
+    ]
+}

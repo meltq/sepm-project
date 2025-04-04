@@ -1,0 +1,24 @@
+{
+    "name": "pact-proxy-rs",
+    "deps": [
+        "bytes",
+        "clap",
+        "flame",
+        "flamer",
+        "http",
+        "pact_mock_server",
+        "pact_models",
+        "rand",
+        "reqwest",
+        "serde_json",
+        "signal-hook",
+        "tiny_http",
+        "tokio",
+        "tracing",
+        "tracing-subscriber",
+        "url",
+        "env_logger",
+        "test-log",
+        "tracing-test"
+    ]
+}

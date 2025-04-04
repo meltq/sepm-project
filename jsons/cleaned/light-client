@@ -1,0 +1,25 @@
+{
+    "name": "light-client",
+    "deps": [
+        "async-trait",
+        "bb8",
+        "borsh",
+        "light-concurrent-merkle-tree",
+        "light-indexed-merkle-tree",
+        "light-merkle-tree-reference",
+        "light-prover-client",
+        "light-sdk",
+        "log",
+        "num-bigint",
+        "num-traits",
+        "reqwest",
+        "solana-banks-client",
+        "solana-client",
+        "solana-program",
+        "solana-program-test",
+        "solana-sdk",
+        "solana-transaction-status",
+        "thiserror",
+        "tokio"
+    ]
+}

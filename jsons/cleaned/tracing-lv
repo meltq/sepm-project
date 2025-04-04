@@ -1,0 +1,21 @@
+{
+    "name": "tracing-lv",
+    "deps": [
+        "chrono",
+        "flume",
+        "futures-util",
+        "hyper",
+        "hyper-util",
+        "pin-project",
+        "serde",
+        "smol_str",
+        "tokio",
+        "tonic",
+        "tower",
+        "tracing",
+        "tracing-core",
+        "tracing-lv-proto",
+        "tracing-subscriber",
+        "uuid"
+    ]
+}

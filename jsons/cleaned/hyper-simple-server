@@ -1,0 +1,20 @@
+{
+    "name": "hyper-simple-server",
+    "deps": [
+        "argparse",
+        "bytes",
+        "futures",
+        "http",
+        "http-body",
+        "hyper",
+        "jemalloc-sys",
+        "jemallocator",
+        "native-tls",
+        "path-tree",
+        "rustls",
+        "rustls-pemfile",
+        "tokio",
+        "tokio-native-tls",
+        "tokio-rustls"
+    ]
+}

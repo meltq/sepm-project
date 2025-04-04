@@ -1,0 +1,26 @@
+{
+    "name": "exonum-explorer-service",
+    "deps": [
+        "actix",
+        "actix-web",
+        "assert_matches",
+        "exonum",
+        "exonum-api",
+        "exonum-derive",
+        "exonum-explorer",
+        "exonum-merkledb",
+        "exonum-rust-runtime",
+        "exonum-supervisor",
+        "exonum-testkit",
+        "failure",
+        "futures",
+        "hex",
+        "log",
+        "rand",
+        "reqwest",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "websocket"
+    ]
+}

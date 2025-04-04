@@ -1,0 +1,18 @@
+{
+    "name": "ant-libp2p-dns",
+    "deps": [
+        "ant-libp2p-core",
+        "async-std-crate",
+        "async-std-resolver",
+        "async-trait",
+        "futures",
+        "hickory-resolver",
+        "libp2p-identity",
+        "libp2p-identity",
+        "parking_lot",
+        "smallvec",
+        "tokio",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

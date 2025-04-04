@@ -1,0 +1,29 @@
+{
+    "name": "fedimint-ln-common",
+    "deps": [
+        "anyhow",
+        "aquamarine",
+        "async-trait",
+        "bitcoin",
+        "bitcoin_hashes",
+        "erased-serde",
+        "fedimint-client",
+        "fedimint-core",
+        "futures",
+        "itertools",
+        "lightning-invoice",
+        "rand",
+        "secp256k1",
+        "serde",
+        "serde-big-array",
+        "serde_json",
+        "strum",
+        "strum_macros",
+        "thiserror",
+        "threshold_crypto",
+        "tokio",
+        "tracing",
+        "tracing-subscriber",
+        "url"
+    ]
+}

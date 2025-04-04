@@ -1,0 +1,22 @@
+{
+    "name": "sector-builder",
+    "deps": [
+        "bitvec",
+        "blake2b_simd",
+        "byteorder",
+        "failure",
+        "filecoin-proofs",
+        "itertools",
+        "lazy_static",
+        "logging-toolkit",
+        "paired",
+        "rand",
+        "serde",
+        "serde_cbor",
+        "serde_json",
+        "sled",
+        "slog",
+        "storage-proofs",
+        "tempfile"
+    ]
+}

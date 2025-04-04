@@ -1,0 +1,17 @@
+{
+    "name": "moosicbox_audio_decoder",
+    "deps": [
+        "bytes",
+        "flume",
+        "futures",
+        "log",
+        "moosicbox_stream_utils",
+        "moosicbox_task",
+        "rangemap",
+        "reqwest",
+        "symphonia",
+        "thiserror",
+        "tokio",
+        "tokio-util"
+    ]
+}

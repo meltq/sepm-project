@@ -1,0 +1,29 @@
+{
+    "name": "lvp",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "env_logger",
+        "futures",
+        "http",
+        "http-body",
+        "hyper",
+        "hyper-unix-connector",
+        "indexmap",
+        "lazy_static",
+        "libc",
+        "log",
+        "pin-project",
+        "prost",
+        "prost-types",
+        "redb",
+        "serde",
+        "serde_json",
+        "serde_yaml",
+        "tokio",
+        "tonic",
+        "tonic-build",
+        "tower-layer",
+        "tower-service"
+    ]
+}

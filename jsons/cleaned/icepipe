@@ -1,0 +1,19 @@
+{
+    "name": "icepipe",
+    "deps": [
+        "anyhow",
+        "base64",
+        "bytes",
+        "clap",
+        "env_logger",
+        "futures",
+        "log",
+        "ring",
+        "tokio",
+        "tokio-tungstenite",
+        "url",
+        "webrtc-ice",
+        "webrtc-sctp",
+        "webrtc-util"
+    ]
+}

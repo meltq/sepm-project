@@ -1,0 +1,33 @@
+{
+    "name": "bevy_r_place",
+    "deps": [
+        "async-channel",
+        "async-trait",
+        "bevy",
+        "bevy-inspector-egui",
+        "bevy_args",
+        "bevy_pancam",
+        "cbor4ii",
+        "clap",
+        "console_error_panic_hook",
+        "criterion",
+        "futures",
+        "futures-intrusive",
+        "futures-lite",
+        "libp2p",
+        "libp2p-webrtc",
+        "libp2p-webrtc-websys",
+        "pollster",
+        "rand",
+        "rcgen",
+        "serde",
+        "serde_json",
+        "serial_test",
+        "tokio",
+        "wasm-bindgen",
+        "wasm-bindgen-futures",
+        "web-sys",
+        "web-time",
+        "winit"
+    ]
+}

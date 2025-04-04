@@ -1,0 +1,12 @@
+{
+    "name": "baza_cli",
+    "deps": [
+        "baza_core",
+        "clap",
+        "sequoia-openpgp",
+        "tokio",
+        "toml",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

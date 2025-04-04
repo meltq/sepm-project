@@ -1,0 +1,23 @@
+{
+    "name": "secop-core",
+    "deps": [
+        "base64",
+        "crossbeam-channel",
+        "derive-new",
+        "hashbrown",
+        "lazy_static",
+        "log",
+        "memchr",
+        "mlzlog",
+        "mlzutil",
+        "parking_lot",
+        "regex",
+        "secop-derive",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "time",
+        "toml",
+        "url"
+    ]
+}

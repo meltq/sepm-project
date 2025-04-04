@@ -1,0 +1,22 @@
+{
+    "name": "sourcepawn_lsp",
+    "deps": [
+        "anyhow",
+        "clap",
+        "crossbeam-channel",
+        "dashmap",
+        "derive-new",
+        "lazy_static",
+        "log",
+        "lsp-server",
+        "lsp-types",
+        "regex",
+        "rowan",
+        "serde",
+        "serde_json",
+        "threadpool",
+        "tree-sitter",
+        "tree-sitter-sourcepawn",
+        "walkdir"
+    ]
+}

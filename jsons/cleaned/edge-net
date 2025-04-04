@@ -1,0 +1,22 @@
+{
+    "name": "edge-net",
+    "deps": [
+        "anyhow",
+        "async-io",
+        "base64",
+        "domain",
+        "embassy-futures",
+        "embassy-sync",
+        "embedded-io",
+        "embedded-nal-async",
+        "embedded-svc",
+        "futures-lite",
+        "heapless",
+        "httparse",
+        "log",
+        "no-std-net",
+        "sha1_smol",
+        "simple_logger",
+        "smol"
+    ]
+}

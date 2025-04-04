@@ -1,0 +1,13 @@
+{
+    "name": "sentry_usage_accountant",
+    "deps": [
+        "chrono",
+        "clap",
+        "rdkafka",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

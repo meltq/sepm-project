@@ -1,0 +1,14 @@
+{
+    "name": "nft_storage_cli",
+    "deps": [
+        "anyhow",
+        "clap",
+        "directories",
+        "nft_storage_api",
+        "nft_storage_core",
+        "serde",
+        "serde_json",
+        "tokio",
+        "toml"
+    ]
+}

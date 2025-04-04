@@ -1,0 +1,13 @@
+{
+    "name": "rs_oss_cli",
+    "deps": [
+        "aws-config",
+        "aws-sdk-s3",
+        "clap",
+        "credentials",
+        "serde",
+        "serde_yaml",
+        "tokio",
+        "walkdir"
+    ]
+}

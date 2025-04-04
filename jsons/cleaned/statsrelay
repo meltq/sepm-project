@@ -1,0 +1,28 @@
+{
+    "name": "statsrelay",
+    "deps": [
+        "anyhow",
+        "built",
+        "bytes",
+        "chrono",
+        "criterion",
+        "crossbeam",
+        "crossbeam-utils",
+        "env_logger",
+        "futures",
+        "hyper",
+        "log",
+        "memchr",
+        "murmur3",
+        "parking_lot",
+        "qp-trie",
+        "regex",
+        "serde",
+        "serde_json",
+        "stream-cancel",
+        "structopt",
+        "tempfile",
+        "thiserror",
+        "tokio"
+    ]
+}

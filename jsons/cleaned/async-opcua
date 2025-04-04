@@ -1,0 +1,23 @@
+{
+    "name": "async-opcua",
+    "deps": [
+        "async-opcua-client",
+        "async-opcua-core",
+        "async-opcua-core-namespace",
+        "async-opcua-crypto",
+        "async-opcua-macros",
+        "async-opcua-nodes",
+        "async-opcua-server",
+        "async-opcua-types",
+        "async-opcua-xml",
+        "async-trait",
+        "bytes",
+        "chrono",
+        "env_logger",
+        "log",
+        "serde_json",
+        "tempdir",
+        "tokio",
+        "tokio-util"
+    ]
+}

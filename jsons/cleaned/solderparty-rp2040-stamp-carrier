@@ -1,0 +1,19 @@
+{
+    "name": "solderparty-rp2040-stamp-carrier",
+    "deps": [
+        "cortex-m",
+        "cortex-m-rt",
+        "defmt",
+        "defmt-rtt",
+        "embedded-hal",
+        "embedded-time",
+        "nb",
+        "panic-halt",
+        "panic-probe",
+        "pio",
+        "rp2040-boot2",
+        "rp2040-hal",
+        "smart-leds",
+        "ws2812-pio"
+    ]
+}

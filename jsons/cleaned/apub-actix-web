@@ -1,0 +1,13 @@
+{
+    "name": "apub-actix-web",
+    "deps": [
+        "actix-web",
+        "apub-core",
+        "apub-privatekey",
+        "apub-publickey",
+        "http-signature-normalization-actix",
+        "serde",
+        "thiserror",
+        "url"
+    ]
+}

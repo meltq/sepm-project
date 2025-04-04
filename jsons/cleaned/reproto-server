@@ -1,0 +1,16 @@
+{
+    "name": "reproto-server",
+    "deps": [
+        "clap",
+        "error-chain",
+        "flate2",
+        "futures",
+        "futures-cpupool",
+        "hyper",
+        "log",
+        "pretty_env_logger",
+        "reproto-core",
+        "reproto-repository",
+        "tempfile"
+    ]
+}

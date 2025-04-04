@@ -1,0 +1,29 @@
+{
+    "name": "overlord",
+    "deps": [
+        "async-trait",
+        "bincode",
+        "bit-vec",
+        "blake2b_simd",
+        "bytes",
+        "creep",
+        "crossbeam-channel",
+        "derive_more",
+        "env_logger",
+        "futures-preview",
+        "futures-timer",
+        "hasher",
+        "hex",
+        "lazy_static",
+        "log",
+        "parking_lot",
+        "rand",
+        "rand_core",
+        "rand_pcg",
+        "rlp",
+        "runtime",
+        "runtime-tokio",
+        "serde",
+        "serde_json"
+    ]
+}

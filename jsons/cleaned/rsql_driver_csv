@@ -1,0 +1,12 @@
+{
+    "name": "rsql_driver_csv",
+    "deps": [
+        "async-trait",
+        "file_type",
+        "rsql_driver",
+        "rsql_driver_delimited",
+        "rsql_driver_test_utils",
+        "tokio",
+        "url"
+    ]
+}

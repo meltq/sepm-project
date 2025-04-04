@@ -1,0 +1,22 @@
+{
+    "name": "wick-config",
+    "deps": [
+        "anyhow",
+        "flow-expression-parser",
+        "logger",
+        "num-traits",
+        "pretty_assertions",
+        "regex",
+        "serde",
+        "serde-value",
+        "serde-with-expand-env",
+        "serde_json",
+        "serde_yaml",
+        "shellexpand",
+        "test-logger",
+        "thiserror",
+        "tracing",
+        "wick-interface-types",
+        "wick-packet"
+    ]
+}

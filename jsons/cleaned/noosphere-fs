@@ -1,0 +1,21 @@
+{
+    "name": "noosphere-fs",
+    "deps": [
+        "anyhow",
+        "async-stream",
+        "bytes",
+        "cid",
+        "futures-util",
+        "libipld-cbor",
+        "libipld-core",
+        "noosphere-core",
+        "noosphere-storage",
+        "once_cell",
+        "tokio",
+        "tokio-stream",
+        "tokio-util",
+        "ucan",
+        "ucan-key-support",
+        "wasm-bindgen-test"
+    ]
+}

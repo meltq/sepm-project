@@ -1,0 +1,22 @@
+{
+    "name": "wkd-server",
+    "deps": [
+        "anyhow",
+        "axum",
+        "axum-macros",
+        "clap",
+        "dotenv",
+        "env_logger",
+        "once_cell",
+        "regex",
+        "sequoia-openpgp",
+        "sha1",
+        "time",
+        "tokio",
+        "tower",
+        "tower-http",
+        "tracing",
+        "tracing-subscriber",
+        "zbase32"
+    ]
+}

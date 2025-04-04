@@ -1,0 +1,29 @@
+{
+    "name": "solana-test-client",
+    "deps": [
+        "assert_matches",
+        "async-trait",
+        "base64",
+        "bincode",
+        "borsh",
+        "chrono-humanize",
+        "crossbeam-channel",
+        "futures",
+        "itertools",
+        "lazy_static",
+        "log",
+        "serde",
+        "solana-bpf-loader-program",
+        "solana-client",
+        "solana-logger",
+        "solana-program-runtime",
+        "solana-runtime",
+        "solana-sdk",
+        "solana-send-transaction-service",
+        "solana-vote-program",
+        "tarpc",
+        "thiserror",
+        "tokio",
+        "tokio-serde"
+    ]
+}

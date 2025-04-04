@@ -1,0 +1,24 @@
+{
+    "name": "wasmer-deploy-cli",
+    "deps": [
+        "anyhow",
+        "clap",
+        "comfy-table",
+        "dialoguer",
+        "futures",
+        "is-terminal",
+        "reqwest",
+        "semver",
+        "serde",
+        "serde_json",
+        "serde_yaml",
+        "tokio",
+        "toml",
+        "url",
+        "wasmer-api",
+        "wasmer-deploy-schema",
+        "wasmer-registry",
+        "wasmer-toml",
+        "webc"
+    ]
+}

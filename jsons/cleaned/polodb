@@ -1,0 +1,23 @@
+{
+    "name": "polodb",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "bitflags",
+        "bson",
+        "chrono",
+        "clap",
+        "env_logger",
+        "flate2",
+        "futures",
+        "log",
+        "mongodb",
+        "polodb_core",
+        "serde",
+        "serde_json",
+        "snap",
+        "tokio",
+        "tokio-util",
+        "zstd"
+    ]
+}

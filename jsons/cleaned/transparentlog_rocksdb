@@ -1,0 +1,14 @@
+{
+    "name": "transparentlog_rocksdb",
+    "deps": [
+        "anyhow",
+        "byteorder",
+        "maybe-owned",
+        "rmp",
+        "rmp-serde",
+        "rocksdb",
+        "serde",
+        "serial_test",
+        "transparentlog_core"
+    ]
+}

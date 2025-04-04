@@ -1,0 +1,30 @@
+{
+    "name": "plane-drone",
+    "deps": [
+        "acme2-eab",
+        "anyhow",
+        "base64",
+        "bollard",
+        "chrono",
+        "clap",
+        "config",
+        "dashmap",
+        "futures",
+        "http",
+        "hyper",
+        "notify",
+        "openssl",
+        "plane-core",
+        "reqwest",
+        "rustls",
+        "rustls-pemfile",
+        "serde",
+        "serde_json",
+        "signal-hook",
+        "sqlx",
+        "tokio",
+        "tokio-rustls",
+        "tokio-stream",
+        "tracing"
+    ]
+}

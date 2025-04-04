@@ -1,0 +1,15 @@
+{
+    "name": "certificate_manager",
+    "deps": [
+        "actix-web",
+        "argh",
+        "pkcs8",
+        "rand",
+        "rcgen",
+        "rustls",
+        "rustls-pki-types",
+        "tempfile",
+        "thiserror",
+        "x509-parser"
+    ]
+}

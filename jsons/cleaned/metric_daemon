@@ -1,0 +1,17 @@
+{
+    "name": "metric_daemon",
+    "deps": [
+        "anyhow",
+        "color-eyre",
+        "hostname",
+        "pretty_assertions",
+        "retry",
+        "shadow-rs",
+        "shadow-rs",
+        "structopt",
+        "thiserror",
+        "tracing",
+        "tracing-subscriber",
+        "ureq"
+    ]
+}

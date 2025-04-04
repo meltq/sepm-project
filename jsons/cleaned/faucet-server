@@ -1,0 +1,13 @@
+{
+    "name": "faucet-server",
+    "deps": [
+        "async-trait",
+        "clap",
+        "env_logger",
+        "log",
+        "num_cpus",
+        "tokio",
+        "tokio-stream",
+        "tokio-util"
+    ]
+}

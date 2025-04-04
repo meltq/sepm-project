@@ -1,0 +1,13 @@
+{
+    "name": "sts_profile_auth",
+    "deps": [
+        "dirs",
+        "lazy_static",
+        "regex",
+        "rusoto_core",
+        "rusoto_credential",
+        "rusoto_ec2",
+        "rusoto_sts",
+        "thiserror"
+    ]
+}

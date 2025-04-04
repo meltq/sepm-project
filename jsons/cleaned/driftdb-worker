@@ -1,0 +1,14 @@
+{
+    "name": "driftdb-worker",
+    "deps": [
+        "cfg-if",
+        "chrono",
+        "console_error_panic_hook",
+        "driftdb",
+        "getrandom",
+        "rand",
+        "serde_json",
+        "tokio-stream",
+        "worker"
+    ]
+}

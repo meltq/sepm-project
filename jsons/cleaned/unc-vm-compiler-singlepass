@@ -1,0 +1,21 @@
+{
+    "name": "unc-vm-compiler-singlepass",
+    "deps": [
+        "dynasm",
+        "dynasmrt",
+        "enumset",
+        "finite-wasm",
+        "hashbrown",
+        "lazy_static",
+        "memoffset",
+        "more-asserts",
+        "rayon",
+        "smallvec",
+        "strum",
+        "target-lexicon",
+        "tracing",
+        "unc-vm-compiler",
+        "unc-vm-types",
+        "unc-vm-vm"
+    ]
+}

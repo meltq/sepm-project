@@ -1,0 +1,19 @@
+{
+    "name": "owl-ms-language-server",
+    "deps": [
+        "cc",
+        "clap",
+        "criterion",
+        "dashmap",
+        "log",
+        "once_cell",
+        "ropey",
+        "serde",
+        "serde_json",
+        "simple-logging",
+        "tokio",
+        "tower-lsp",
+        "tree-sitter",
+        "tree-sitter-owl-ms"
+    ]
+}

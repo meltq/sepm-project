@@ -1,0 +1,16 @@
+{
+    "name": "cargo-compiler-interrupts",
+    "deps": [
+        "anyhow",
+        "cargo-util",
+        "cargo_metadata",
+        "clap",
+        "dirs",
+        "faccess",
+        "serde",
+        "thiserror",
+        "toml",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

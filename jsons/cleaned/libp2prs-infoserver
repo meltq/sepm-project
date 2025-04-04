@@ -1,0 +1,16 @@
+{
+    "name": "libp2prs-infoserver",
+    "deps": [
+        "async-std",
+        "env_logger",
+        "lazy_static",
+        "libp2prs-core",
+        "libp2prs-swarm",
+        "log",
+        "quickcheck",
+        "rand",
+        "serde",
+        "serde_json",
+        "tide"
+    ]
+}

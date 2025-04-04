@@ -1,0 +1,17 @@
+{
+    "name": "skootrs-rest",
+    "deps": [
+        "actix-web",
+        "serde",
+        "serde_json",
+        "skootrs-lib",
+        "skootrs-model",
+        "skootrs-statestore",
+        "tokio",
+        "tracing-actix-web",
+        "utoipa",
+        "utoipa-rapidoc",
+        "utoipa-redoc",
+        "utoipa-swagger-ui"
+    ]
+}

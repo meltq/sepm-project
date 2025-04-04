@@ -1,0 +1,27 @@
+{
+    "name": "ontprox",
+    "deps": [
+        "axum",
+        "axum-extra",
+        "clap",
+        "cli_utils",
+        "const_format",
+        "dirs",
+        "futures",
+        "git-version",
+        "mediatype",
+        "once_cell",
+        "openssl",
+        "rdfoothills",
+        "regex",
+        "reqwest",
+        "serde",
+        "thiserror",
+        "tokio",
+        "tokio-util",
+        "tower-http",
+        "tracing",
+        "tracing-subscriber",
+        "url"
+    ]
+}

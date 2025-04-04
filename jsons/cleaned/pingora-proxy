@@ -1,0 +1,29 @@
+{
+    "name": "pingora-proxy",
+    "deps": [
+        "async-trait",
+        "bytes",
+        "env_logger",
+        "futures",
+        "futures-util",
+        "h2",
+        "http",
+        "hyper",
+        "hyperlocal",
+        "log",
+        "once_cell",
+        "pingora-cache",
+        "pingora-core",
+        "pingora-error",
+        "pingora-http",
+        "pingora-load-balancing",
+        "pingora-timeout",
+        "prometheus",
+        "regex",
+        "reqwest",
+        "structopt",
+        "tokio",
+        "tokio-test",
+        "tokio-tungstenite"
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "name": "mirror-cache",
+    "deps": [
+        "async-trait",
+        "bytefmt",
+        "bytes",
+        "chrono",
+        "clap",
+        "config",
+        "futures",
+        "lazy_static",
+        "log",
+        "metrics",
+        "metrics-exporter-prometheus",
+        "metrics-util",
+        "notify",
+        "pretty_env_logger",
+        "redis",
+        "regex",
+        "reqwest",
+        "serde",
+        "serde_derive",
+        "sled",
+        "thiserror",
+        "tokio",
+        "tokio-util",
+        "warp"
+    ]
+}

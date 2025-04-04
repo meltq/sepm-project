@@ -1,0 +1,14 @@
+{
+    "name": "atuin-server-postgres",
+    "deps": [
+        "async-trait",
+        "atuin-common",
+        "atuin-server-database",
+        "chrono",
+        "futures-util",
+        "serde",
+        "sqlx",
+        "tracing",
+        "uuid"
+    ]
+}

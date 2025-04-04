@@ -1,0 +1,24 @@
+{
+    "name": "bbox-server",
+    "deps": [
+        "actix-service",
+        "actix-web",
+        "async-trait",
+        "bbox-asset-server",
+        "bbox-core",
+        "bbox-feature-server",
+        "bbox-frontend",
+        "bbox-map-server",
+        "bbox-processes-server",
+        "bbox-routing-server",
+        "bbox-tile-server",
+        "clap",
+        "log",
+        "minijinja",
+        "once_cell",
+        "open",
+        "rust-embed",
+        "serde",
+        "serde_json"
+    ]
+}

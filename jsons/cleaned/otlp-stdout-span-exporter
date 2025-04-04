@@ -1,0 +1,16 @@
+{
+    "name": "otlp-stdout-span-exporter",
+    "deps": [
+        "async-trait",
+        "base64",
+        "flate2",
+        "futures-util",
+        "opentelemetry",
+        "opentelemetry-proto",
+        "opentelemetry_sdk",
+        "prost",
+        "serde",
+        "serde_json",
+        "tokio"
+    ]
+}

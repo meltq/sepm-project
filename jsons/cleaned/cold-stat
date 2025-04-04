@@ -1,0 +1,17 @@
+{
+    "name": "cold-stat",
+    "deps": [
+        "anyhow",
+        "async-recursion",
+        "aws-config",
+        "aws-sdk-cloudwatchlogs",
+        "aws-sdk-lambda",
+        "chrono",
+        "clap",
+        "log",
+        "simple_logger",
+        "tabled",
+        "tokio",
+        "uuid"
+    ]
+}

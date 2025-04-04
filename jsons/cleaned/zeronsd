@@ -1,0 +1,14 @@
+{
+    "name": "zeronsd",
+    "deps": [
+        "anyhow",
+        "cidr-utils",
+        "clap",
+        "regex",
+        "tokio",
+        "trust-dns-resolver",
+        "trust-dns-server",
+        "zerotier-central-api",
+        "zerotier-one-api"
+    ]
+}

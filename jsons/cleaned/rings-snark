@@ -1,0 +1,29 @@
+{
+    "name": "rings-snark",
+    "deps": [
+        "bellman_ce",
+        "bellpepper-core",
+        "byteorder",
+        "cfg-if",
+        "crypto-bigint",
+        "eyre",
+        "ff",
+        "fnv",
+        "itertools",
+        "lalrpop",
+        "log",
+        "memory-stats",
+        "nova-snark",
+        "pasta_curves",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "wasm-bindgen",
+        "wasm-bindgen-test",
+        "wasmer",
+        "wasmer",
+        "wasmer-compiler-llvm"
+    ]
+}

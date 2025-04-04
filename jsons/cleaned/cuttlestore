@@ -1,0 +1,25 @@
+{
+    "name": "cuttlestore",
+    "deps": [
+        "async-stream",
+        "async-trait",
+        "bb8",
+        "bb8-redis",
+        "bincode",
+        "dashmap",
+        "futures",
+        "lazy-regex",
+        "log",
+        "redis",
+        "serde",
+        "sqlx",
+        "thiserror",
+        "tokio",
+        "tokio-stream",
+        "tracing",
+        "criterion",
+        "lipsum",
+        "nanoid",
+        "rand"
+    ]
+}

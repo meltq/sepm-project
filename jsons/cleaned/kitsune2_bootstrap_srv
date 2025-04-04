@@ -1,0 +1,21 @@
+{
+    "name": "kitsune2_bootstrap_srv",
+    "deps": [
+        "async-channel",
+        "axum",
+        "base64",
+        "bytes",
+        "clap",
+        "ctrlc",
+        "ed25519-dalek",
+        "futures",
+        "num_cpus",
+        "serde",
+        "serde_json",
+        "tempfile",
+        "tokio",
+        "tracing",
+        "tracing-subscriber",
+        "ureq"
+    ]
+}

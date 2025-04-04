@@ -1,0 +1,20 @@
+{
+    "name": "thalo",
+    "deps": [
+        "actix",
+        "async-trait",
+        "bb8-postgres",
+        "chrono",
+        "futures",
+        "lru",
+        "outbox-relay",
+        "rdkafka",
+        "sea-query",
+        "serde",
+        "serde_json",
+        "thalo-macros",
+        "thiserror",
+        "tokio",
+        "tracing"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "mirror-capture",
+    "deps": [
+        "cpal",
+        "log",
+        "mirror-common",
+        "mirror-ffmpeg-sys",
+        "mirror-graphics",
+        "mirror-resample",
+        "once_cell",
+        "parking_lot",
+        "thiserror",
+        "v4l",
+        "windows",
+        "windows-capture"
+    ]
+}

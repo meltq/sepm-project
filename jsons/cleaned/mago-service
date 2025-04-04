@@ -1,0 +1,27 @@
+{
+    "name": "mago-service",
+    "deps": [
+        "ahash",
+        "async-walkdir",
+        "config",
+        "futures",
+        "glob-match",
+        "mago-ast",
+        "mago-feedback",
+        "mago-formatter",
+        "mago-interner",
+        "mago-linter",
+        "mago-parser",
+        "mago-reflection",
+        "mago-reflector",
+        "mago-reporting",
+        "mago-semantics",
+        "mago-source",
+        "mago-span",
+        "num_cpus",
+        "serde",
+        "tokio",
+        "toml",
+        "tracing"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "rig-sqlite",
+    "deps": [
+        "anyhow",
+        "chrono",
+        "rig-core",
+        "rusqlite",
+        "serde",
+        "serde_json",
+        "sqlite-vec",
+        "tokio",
+        "tokio-rusqlite",
+        "tracing",
+        "tracing-subscriber",
+        "zerocopy"
+    ]
+}

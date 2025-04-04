@@ -1,0 +1,22 @@
+{
+    "name": "scrappy-actor",
+    "deps": [
+        "bitflags",
+        "bytes",
+        "crossbeam-channel",
+        "derive_more",
+        "futures",
+        "lazy_static",
+        "log",
+        "parking_lot",
+        "pin-project",
+        "scrappy-derive",
+        "scrappy-http",
+        "scrappy-rt",
+        "smallvec",
+        "tokio",
+        "tokio-util",
+        "trust-dns-proto",
+        "trust-dns-resolver"
+    ]
+}

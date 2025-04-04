@@ -1,0 +1,23 @@
+{
+    "name": "idempotent-proxy-server",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "axum",
+        "axum-server",
+        "base64",
+        "bb8",
+        "ciborium",
+        "dotenvy",
+        "ed25519-dalek",
+        "http",
+        "idempotent-proxy-types",
+        "k256",
+        "log",
+        "reqwest",
+        "rustis",
+        "serde",
+        "structured-logger",
+        "tokio"
+    ]
+}

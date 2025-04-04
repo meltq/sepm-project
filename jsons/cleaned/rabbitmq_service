@@ -1,0 +1,13 @@
+{
+    "name": "rabbitmq_service",
+    "deps": [
+        "async-trait",
+        "mockall",
+        "rabbit_mqr",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "uuid"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "ast-grep-napi",
+    "deps": [
+        "ast-grep-config",
+        "ast-grep-core",
+        "napi",
+        "napi-build",
+        "napi-derive",
+        "serde",
+        "serde_json",
+        "tree-sitter-html",
+        "tree-sitter-javascript",
+        "tree-sitter-typescript"
+    ]
+}

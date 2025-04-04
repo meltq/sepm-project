@@ -1,0 +1,17 @@
+{
+    "name": "tracing-attributes-http",
+    "deps": [
+        "hyper",
+        "opentelemetry",
+        "opentelemetry-jaeger",
+        "proc-macro-error",
+        "proc-macro2",
+        "quote",
+        "syn",
+        "tokio",
+        "tracing",
+        "tracing-core",
+        "tracing-tree",
+        "trybuild"
+    ]
+}

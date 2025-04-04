@@ -1,0 +1,14 @@
+{
+    "name": "datafusion_iceberg",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "chrono",
+        "datafusion",
+        "iceberg-rust",
+        "object_store",
+        "serde_json",
+        "tokio",
+        "url"
+    ]
+}

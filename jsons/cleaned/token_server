@@ -1,0 +1,22 @@
+{
+    "name": "token_server",
+    "deps": [
+        "axum",
+        "axum-macros",
+        "chrono",
+        "gumdrop",
+        "http",
+        "hyper",
+        "lazy-regex",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tower",
+        "tower-http",
+        "tracing",
+        "tracing-subscriber",
+        "url",
+        "uuid"
+    ]
+}

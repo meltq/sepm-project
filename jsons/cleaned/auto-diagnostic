@@ -1,0 +1,21 @@
+{
+    "name": "auto-diagnostic",
+    "deps": [
+        "async-openai",
+        "aws-config",
+        "aws-sdk-cloudwatch",
+        "aws-sdk-cloudwatchlogs",
+        "aws-sdk-ec2",
+        "aws-sdk-rds",
+        "aws-smithy-types",
+        "chrono",
+        "chrono-tz",
+        "clap",
+        "csv",
+        "futures",
+        "indicatif",
+        "serde",
+        "tokio",
+        "toml"
+    ]
+}

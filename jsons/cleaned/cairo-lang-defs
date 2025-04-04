@@ -1,0 +1,19 @@
+{
+    "name": "cairo-lang-defs",
+    "deps": [
+        "cairo-lang-debug",
+        "cairo-lang-diagnostics",
+        "cairo-lang-filesystem",
+        "cairo-lang-parser",
+        "cairo-lang-syntax",
+        "cairo-lang-utils",
+        "indexmap",
+        "indoc",
+        "itertools",
+        "pretty_assertions",
+        "salsa",
+        "smol_str",
+        "test-log",
+        "thiserror"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "name": "github-workflow-update",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "clap",
+        "env_logger",
+        "futures",
+        "lenient_semver",
+        "once_cell",
+        "regex",
+        "reqwest",
+        "semver",
+        "serde_json",
+        "serde_yaml",
+        "thiserror",
+        "tokio",
+        "tokio-stream",
+        "tracing"
+    ]
+}

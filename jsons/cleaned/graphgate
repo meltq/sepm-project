@@ -1,0 +1,24 @@
+{
+    "name": "graphgate",
+    "deps": [
+        "anyhow",
+        "async-graphql",
+        "async-graphql-warp",
+        "async-stream",
+        "fastrand",
+        "futures-util",
+        "futures-util",
+        "graphgate-handler",
+        "k8s-openapi",
+        "kube",
+        "opentelemetry",
+        "opentelemetry-jaeger",
+        "serde",
+        "structopt",
+        "tokio",
+        "toml",
+        "tracing",
+        "tracing-subscriber",
+        "warp"
+    ]
+}

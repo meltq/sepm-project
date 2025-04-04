@@ -1,0 +1,19 @@
+{
+    "name": "speechmatics",
+    "deps": [
+        "anyhow",
+        "async-std",
+        "base64",
+        "futures",
+        "futures-io",
+        "http",
+        "log",
+        "rand",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tokio-tungstenite",
+        "url"
+    ]
+}

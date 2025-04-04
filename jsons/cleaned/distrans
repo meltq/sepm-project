@@ -1,0 +1,17 @@
+{
+    "name": "distrans",
+    "deps": [
+        "clap",
+        "distrans_fileindex",
+        "distrans_peer",
+        "flume",
+        "futures",
+        "metrics",
+        "metrics-exporter-prometheus",
+        "tokio",
+        "tokio-util",
+        "tracing",
+        "tracing-subscriber",
+        "veilid-core"
+    ]
+}

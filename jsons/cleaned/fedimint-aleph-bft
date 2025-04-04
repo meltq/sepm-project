@@ -1,0 +1,21 @@
+{
+    "name": "fedimint-aleph-bft",
+    "deps": [
+        "aleph-bft-rmc",
+        "aleph-bft-types",
+        "anyhow",
+        "async-trait",
+        "codec",
+        "derivative",
+        "env_logger",
+        "futures",
+        "futures-timer",
+        "itertools",
+        "log",
+        "parking_lot",
+        "rand",
+        "serial_test",
+        "thiserror",
+        "tokio"
+    ]
+}

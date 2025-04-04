@@ -1,0 +1,22 @@
+{
+    "name": "videocall-cli",
+    "deps": [
+        "anyhow",
+        "clap",
+        "cpal",
+        "env-libvpx-sys",
+        "image",
+        "opus",
+        "protobuf",
+        "quinn",
+        "rustls",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "tracing-subscriber",
+        "url",
+        "videocall-nokhwa",
+        "videocall-types",
+        "webpki-roots"
+    ]
+}

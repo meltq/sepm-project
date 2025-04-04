@@ -1,0 +1,27 @@
+{
+    "name": "xstack-circuit",
+    "deps": [
+        "async-trait",
+        "futures",
+        "futures-map",
+        "futures-test",
+        "log",
+        "pretty_env_logger",
+        "protobuf",
+        "protobuf-codegen",
+        "protoc-bin-vendored",
+        "rand",
+        "rasi",
+        "rasi-mio",
+        "thiserror",
+        "unsigned-varint",
+        "xstack",
+        "xstack",
+        "xstack-autonat",
+        "xstack-dnsaddr",
+        "xstack-kad",
+        "xstack-quic",
+        "xstack-tcp",
+        "xstack-tls"
+    ]
+}

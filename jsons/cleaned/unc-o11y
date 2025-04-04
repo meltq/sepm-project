@@ -1,0 +1,28 @@
+{
+    "name": "unc-o11y",
+    "deps": [
+        "actix",
+        "base64",
+        "bencher",
+        "clap",
+        "itoa",
+        "once_cell",
+        "opentelemetry",
+        "opentelemetry-otlp",
+        "opentelemetry-semantic-conventions",
+        "prometheus",
+        "serde",
+        "serde_json",
+        "smartstring",
+        "strum",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "tracing-appender",
+        "tracing-opentelemetry",
+        "tracing-subscriber",
+        "unc-crypto",
+        "unc-fmt",
+        "unc-primitives-core"
+    ]
+}

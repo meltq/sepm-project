@@ -1,0 +1,17 @@
+{
+    "name": "nodata-storage",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "aws-config",
+        "aws-sdk-s3",
+        "bytes",
+        "hex",
+        "prost",
+        "prost-types",
+        "sha2",
+        "tokio",
+        "tracing",
+        "uuid"
+    ]
+}

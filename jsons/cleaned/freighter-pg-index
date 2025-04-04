@@ -1,0 +1,19 @@
+{
+    "name": "freighter-pg-index",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "axum",
+        "chrono",
+        "deadpool-postgres",
+        "freighter-api-types",
+        "futures-util",
+        "metrics",
+        "postgres-types",
+        "semver",
+        "serde",
+        "thiserror",
+        "tokio",
+        "tracing"
+    ]
+}

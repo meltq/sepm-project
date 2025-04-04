@@ -1,0 +1,12 @@
+{
+    "name": "rs-jsonrpc-tcp-server",
+    "deps": [
+        "env_logger",
+        "lazy_static",
+        "log",
+        "parking_lot",
+        "rs-jsonrpc-core",
+        "rs-jsonrpc-server-utils",
+        "tokio-service"
+    ]
+}

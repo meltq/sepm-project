@@ -1,0 +1,22 @@
+{
+    "name": "jproxy",
+    "deps": [
+        "bytes",
+        "clap",
+        "config",
+        "futures-util",
+        "glob",
+        "http",
+        "http-body-util",
+        "hyper",
+        "hyper-util",
+        "ipnet",
+        "notify",
+        "serde",
+        "thiserror",
+        "tokio",
+        "tower-service",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

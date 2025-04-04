@@ -1,0 +1,13 @@
+{
+    "name": "geoip-http",
+    "deps": [
+        "axum",
+        "axum-client-ip",
+        "clap",
+        "maxminddb",
+        "once_cell",
+        "serde",
+        "serde_json",
+        "tokio"
+    ]
+}

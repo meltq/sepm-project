@@ -1,0 +1,27 @@
+{
+    "name": "sosistab2-obfsws",
+    "deps": [
+        "anyhow",
+        "async-lock",
+        "async-std",
+        "async-trait",
+        "async-tungstenite",
+        "base64",
+        "bincode",
+        "blake3",
+        "bytes",
+        "clap",
+        "cryptoxide",
+        "env_logger",
+        "fastrand",
+        "futures-util",
+        "hex",
+        "log",
+        "serde",
+        "smol",
+        "smol-timeout",
+        "smolscale",
+        "socksv5",
+        "sosistab2"
+    ]
+}

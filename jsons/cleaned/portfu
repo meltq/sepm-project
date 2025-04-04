@@ -1,0 +1,31 @@
+{
+    "name": "portfu",
+    "deps": [
+        "async-trait",
+        "cookie",
+        "dashmap",
+        "futures-util",
+        "hex",
+        "http",
+        "http-body-util",
+        "hyper",
+        "hyper-util",
+        "log",
+        "oauth2",
+        "octocrab",
+        "once_cell",
+        "portfu_core",
+        "portfu_macros",
+        "reqwest",
+        "rustls",
+        "rustls-pemfile",
+        "serde",
+        "serde_json",
+        "sha2",
+        "tokio",
+        "tokio-rustls",
+        "tokio-tungstenite",
+        "uuid",
+        "x509-cert"
+    ]
+}

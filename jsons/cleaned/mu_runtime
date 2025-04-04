@@ -1,0 +1,15 @@
+{
+    "name": "mu_runtime",
+    "deps": [
+        "async-trait",
+        "aws_lambda_events",
+        "httpmock",
+        "hyper",
+        "maplit",
+        "rusoto_core",
+        "rusoto_dynamodb",
+        "serde",
+        "serde_json",
+        "tokio"
+    ]
+}

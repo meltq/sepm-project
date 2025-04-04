@@ -1,0 +1,10 @@
+{
+    "name": "wayland-clipboard-listener",
+    "deps": [
+        "os_pipe",
+        "thiserror",
+        "wayland-client",
+        "wayland-protocols",
+        "wayland-protocols-wlr"
+    ]
+}

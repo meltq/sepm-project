@@ -1,0 +1,28 @@
+{
+    "name": "sunspec_rs",
+    "deps": [
+        "anyhow",
+        "async-recursion",
+        "bitvec",
+        "clap",
+        "clap-verbosity-flag",
+        "config",
+        "indicatif",
+        "lazy_static",
+        "pprof",
+        "reqwest",
+        "reqwest-middleware",
+        "reqwest-retry",
+        "serde",
+        "serde-xml-rs",
+        "serde_json",
+        "serde_xml",
+        "tokio",
+        "tokio-modbus",
+        "tokio-retry",
+        "tracing",
+        "tracing-log",
+        "tracing-subscriber",
+        "url"
+    ]
+}

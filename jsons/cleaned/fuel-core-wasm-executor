@@ -1,0 +1,11 @@
+{
+    "name": "fuel-core-wasm-executor",
+    "deps": [
+        "anyhow",
+        "fuel-core-executor",
+        "fuel-core-storage",
+        "fuel-core-types",
+        "postcard",
+        "proptest"
+    ]
+}

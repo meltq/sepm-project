@@ -1,0 +1,12 @@
+{
+    "name": "bsp-server",
+    "deps": [
+        "anyhow",
+        "bsp-types",
+        "crossbeam-channel",
+        "serde",
+        "serde_json",
+        "serde_repr",
+        "tracing"
+    ]
+}

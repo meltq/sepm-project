@@ -1,0 +1,20 @@
+{
+    "name": "rvcr",
+    "deps": [
+        "async-trait",
+        "base64",
+        "bytes",
+        "chrono",
+        "http",
+        "lazy_static",
+        "reqwest",
+        "reqwest-middleware",
+        "serde",
+        "serde_json",
+        "task-local-extensions",
+        "tokio",
+        "tracing",
+        "tracing-subscriber",
+        "vcr-cassette"
+    ]
+}

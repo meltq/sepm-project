@@ -1,0 +1,16 @@
+{
+    "name": "cfn-exports-fetcher",
+    "deps": [
+        "aws-config",
+        "aws-sdk-cloudformation",
+        "aws-types",
+        "futures",
+        "serde",
+        "serde_json",
+        "serde_yaml",
+        "tempfile",
+        "thiserror",
+        "tokio",
+        "validator"
+    ]
+}

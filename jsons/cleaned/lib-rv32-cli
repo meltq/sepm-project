@@ -1,0 +1,11 @@
+{
+    "name": "lib-rv32-cli",
+    "deps": [
+        "clap",
+        "lazy_static",
+        "lib-rv32-asm",
+        "lib-rv32-mcu",
+        "log",
+        "serde_json"
+    ]
+}

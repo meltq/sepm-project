@@ -1,0 +1,31 @@
+{
+    "name": "predawn",
+    "deps": [
+        "async-trait",
+        "bytes",
+        "config",
+        "futures-util",
+        "http",
+        "hyper",
+        "hyper-util",
+        "indexmap",
+        "matchit",
+        "mime",
+        "once_cell",
+        "paste",
+        "percent-encoding",
+        "predawn-core",
+        "predawn-macro",
+        "predawn-schema",
+        "rudi",
+        "serde",
+        "serde_html_form",
+        "serde_json",
+        "serde_path_to_error",
+        "thiserror",
+        "tokio",
+        "tower",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

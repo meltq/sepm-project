@@ -1,0 +1,9 @@
+{
+    "name": "wasi-binio-host",
+    "deps": [
+        "bincode",
+        "serde",
+        "wasi_binio_shared_mods",
+        "wasmtime"
+    ]
+}

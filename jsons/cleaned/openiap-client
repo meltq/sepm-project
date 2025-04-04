@@ -1,0 +1,17 @@
+{
+    "name": "openiap-client",
+    "deps": [
+        "futures",
+        "openiap-proto",
+        "prost",
+        "prost-types",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tokio-stream",
+        "tonic",
+        "tracing",
+        "tracing-subscriber",
+        "url"
+    ]
+}

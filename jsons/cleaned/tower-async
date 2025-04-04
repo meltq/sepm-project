@@ -1,0 +1,20 @@
+{
+    "name": "tower-async",
+    "deps": [
+        "futures",
+        "futures-core",
+        "futures-util",
+        "http",
+        "pin-project-lite",
+        "quickcheck",
+        "tokio",
+        "tokio",
+        "tokio-stream",
+        "tokio-test",
+        "tower-async-layer",
+        "tower-async-service",
+        "tower-async-test",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

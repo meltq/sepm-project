@@ -1,0 +1,17 @@
+{
+    "name": "pacdef_core",
+    "deps": [
+        "alpm",
+        "anyhow",
+        "clap",
+        "const_format",
+        "pacdef_macros",
+        "path-absolutize",
+        "regex",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "serde_yaml",
+        "termios"
+    ]
+}

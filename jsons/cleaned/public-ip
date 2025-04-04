@@ -1,0 +1,14 @@
+{
+    "name": "public-ip",
+    "deps": [
+        "async-std",
+        "futures",
+        "http",
+        "hyper",
+        "once_cell",
+        "regex",
+        "tokio",
+        "trust-dns-client",
+        "trust-dns-proto"
+    ]
+}

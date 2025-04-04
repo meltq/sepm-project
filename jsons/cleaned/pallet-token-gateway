@@ -1,0 +1,22 @@
+{
+    "name": "pallet-token-gateway",
+    "deps": [
+        "alloy-primitives",
+        "alloy-sol-macro",
+        "alloy-sol-types",
+        "anyhow",
+        "codec",
+        "frame-support",
+        "frame-system",
+        "ismp",
+        "log",
+        "pallet-hyperbridge",
+        "pallet-ismp",
+        "primitive-types",
+        "scale-info",
+        "sp-core",
+        "sp-io",
+        "sp-runtime",
+        "token-gateway-primitives"
+    ]
+}

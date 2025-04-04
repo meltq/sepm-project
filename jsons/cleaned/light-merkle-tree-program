@@ -1,0 +1,30 @@
+{
+    "name": "light-merkle-tree-program",
+    "deps": [
+        "anchor-lang",
+        "anchor-spl",
+        "ark-bn254",
+        "ark-crypto-primitives",
+        "ark-ec",
+        "ark-ed-on-bn254",
+        "ark-ff",
+        "ark-groth16",
+        "ark-relations",
+        "ark-serialize",
+        "ark-std",
+        "arkworks-gadgets",
+        "arrayref",
+        "bincode",
+        "borsh",
+        "bytemuck",
+        "byteorder",
+        "getrandom",
+        "light-macros",
+        "light-merkle-tree",
+        "serde_json",
+        "solana-program-test",
+        "solana-sdk",
+        "solana-security-txt",
+        "spl-token"
+    ]
+}

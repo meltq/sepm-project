@@ -1,0 +1,17 @@
+{
+    "name": "plantuml-server-client-rs",
+    "deps": [
+        "anyhow",
+        "base64",
+        "bytes",
+        "clap",
+        "deflate",
+        "futures",
+        "plantuml-parser",
+        "reqwest",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

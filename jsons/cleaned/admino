@@ -1,0 +1,30 @@
+{
+    "name": "admino",
+    "deps": [
+        "actix-files",
+        "actix-rt",
+        "actix-web",
+        "chrono",
+        "config",
+        "deadpool",
+        "deadpool-postgres",
+        "deadpool-redis",
+        "derive_more",
+        "env_logger",
+        "failure",
+        "futures",
+        "hex-serde",
+        "log",
+        "phonenumber",
+        "postgres-types",
+        "rand",
+        "redis",
+        "serde",
+        "serde_json",
+        "time",
+        "tokio",
+        "tokio-pg-mapper",
+        "tokio-pg-mapper-derive",
+        "tokio-postgres"
+    ]
+}

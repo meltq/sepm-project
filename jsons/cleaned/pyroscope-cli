@@ -1,0 +1,30 @@
+{
+    "name": "pyroscope-cli",
+    "deps": [
+        "assert_cmd",
+        "better-panic",
+        "clap",
+        "clap_complete",
+        "color-backtrace",
+        "config",
+        "ctrlc",
+        "duct",
+        "human-panic",
+        "lazy_static",
+        "log",
+        "names",
+        "predicates",
+        "pretty_env_logger",
+        "pyroscope",
+        "pyroscope_pprofrs",
+        "pyroscope_pyspy",
+        "pyroscope_rbspy",
+        "serde",
+        "slog",
+        "slog-async",
+        "slog-scope",
+        "slog-stdlog",
+        "slog-term",
+        "thiserror"
+    ]
+}

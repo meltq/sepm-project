@@ -1,0 +1,33 @@
+{
+    "name": "golem-test-framework",
+    "deps": [
+        "anyhow",
+        "async-dropper",
+        "async-dropper-simple",
+        "async-scoped",
+        "async-trait",
+        "clap",
+        "golem-api-grpc",
+        "golem-common",
+        "golem-wasm-ast",
+        "golem-wasm-rpc",
+        "k8s-openapi",
+        "kill_tree",
+        "kube",
+        "kube-derive",
+        "once_cell",
+        "postgres",
+        "redis",
+        "serde_json",
+        "testcontainers",
+        "testcontainers-modules",
+        "tokio",
+        "tokio-postgres",
+        "tokio-stream",
+        "tonic",
+        "tracing",
+        "tracing-subscriber",
+        "url",
+        "uuid"
+    ]
+}

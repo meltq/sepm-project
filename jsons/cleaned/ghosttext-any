@@ -1,0 +1,18 @@
+{
+    "name": "ghosttext-any",
+    "deps": [
+        "anyhow",
+        "env_logger",
+        "futures",
+        "inotify",
+        "log",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "shell-words",
+        "structopt",
+        "tempdir",
+        "tokio",
+        "warp"
+    ]
+}

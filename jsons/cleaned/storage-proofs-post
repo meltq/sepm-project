@@ -1,0 +1,27 @@
+{
+    "name": "storage-proofs-post",
+    "deps": [
+        "anyhow",
+        "bellperson",
+        "blake2b_simd",
+        "blake2s_simd",
+        "byteorder",
+        "ff",
+        "fil-sapling-crypto",
+        "generic-array",
+        "hex",
+        "log",
+        "merkletree",
+        "neptune",
+        "paired",
+        "pretty_assertions",
+        "rand",
+        "rand_xorshift",
+        "rayon",
+        "serde",
+        "sha2",
+        "storage-proofs-core",
+        "tempdir",
+        "tempfile"
+    ]
+}

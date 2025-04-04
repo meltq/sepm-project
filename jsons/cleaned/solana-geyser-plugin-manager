@@ -1,0 +1,21 @@
+{
+    "name": "solana-geyser-plugin-manager",
+    "deps": [
+        "bs58",
+        "crossbeam-channel",
+        "libloading",
+        "log",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "solana-geyser-plugin-interface",
+        "solana-logger",
+        "solana-measure",
+        "solana-metrics",
+        "solana-rpc",
+        "solana-runtime",
+        "solana-sdk",
+        "solana-transaction-status",
+        "thiserror"
+    ]
+}

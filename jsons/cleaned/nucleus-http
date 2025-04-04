@@ -1,0 +1,29 @@
+{
+    "name": "nucleus-http",
+    "deps": [
+        "acme-lib",
+        "anyhow",
+        "argh",
+        "async-trait",
+        "base64",
+        "bytes",
+        "enum-map",
+        "get-port",
+        "hmac",
+        "log",
+        "memchr",
+        "pretty_env_logger",
+        "rand",
+        "reqwest",
+        "rustls-pemfile",
+        "secrecy",
+        "serde",
+        "serde_json",
+        "sha2",
+        "tokio",
+        "tokio-rustls",
+        "tokio-util",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

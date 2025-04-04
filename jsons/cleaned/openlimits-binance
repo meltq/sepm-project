@@ -1,0 +1,22 @@
+{
+    "name": "openlimits-binance",
+    "deps": [
+        "async-trait",
+        "chrono",
+        "futures",
+        "hex",
+        "hmac",
+        "log",
+        "openlimits-exchange",
+        "reqwest",
+        "rust_decimal",
+        "serde",
+        "serde_json",
+        "serde_urlencoded",
+        "sha2",
+        "thiserror",
+        "tokio",
+        "tokio-tungstenite",
+        "url"
+    ]
+}

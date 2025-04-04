@@ -1,0 +1,29 @@
+{
+    "name": "tandem_http_client",
+    "deps": [
+        "anyhow",
+        "assert_cmd",
+        "bincode",
+        "clap",
+        "console_error_panic_hook",
+        "console_log",
+        "criterion",
+        "getrandom",
+        "js-sys",
+        "predicates",
+        "rand",
+        "rand_chacha",
+        "reqwest",
+        "serde",
+        "serde-wasm-bindgen",
+        "serde_json",
+        "tandem",
+        "tandem_garble_interop",
+        "tokio",
+        "url",
+        "wasm-bindgen",
+        "wasm-bindgen-futures",
+        "wasm-bindgen-test",
+        "wee_alloc"
+    ]
+}

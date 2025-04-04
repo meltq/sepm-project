@@ -1,0 +1,21 @@
+{
+    "name": "axiston-db-client",
+    "deps": [
+        "axiston-db-schema",
+        "deadpool",
+        "derive_more",
+        "diesel",
+        "diesel-async",
+        "diesel_migrations",
+        "futures",
+        "ipnet",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "time",
+        "tokio",
+        "tokio",
+        "tracing",
+        "uuid"
+    ]
+}

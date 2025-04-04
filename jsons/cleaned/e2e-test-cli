@@ -1,0 +1,16 @@
+{
+    "name": "e2e-test-cli",
+    "deps": [
+        "anyhow",
+        "clap",
+        "config",
+        "e2e-test-client",
+        "reqwest-middleware",
+        "serde",
+        "tabwriter",
+        "time",
+        "tokio",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

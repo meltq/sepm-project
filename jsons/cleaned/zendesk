@@ -1,0 +1,19 @@
+{
+    "name": "zendesk",
+    "deps": [
+        "anyhow",
+        "chrono",
+        "parse-display",
+        "pretty_assertions",
+        "reqwest",
+        "reqwest-middleware",
+        "reqwest-retry",
+        "reqwest-tracing",
+        "schemars",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tracing"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "name": "libcryptsetup-rs",
+    "deps": [
+        "base64",
+        "either",
+        "libc",
+        "libcryptsetup-rs-sys",
+        "loopdev",
+        "nix",
+        "rand",
+        "serde_json",
+        "uuid"
+    ]
+}

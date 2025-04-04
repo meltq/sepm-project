@@ -1,0 +1,21 @@
+{
+    "name": "keyvaluedb-sqlite",
+    "deps": [
+        "alloc_counter",
+        "chrono",
+        "criterion",
+        "ctrlc",
+        "ethereum-types",
+        "hex",
+        "keccak-hash",
+        "keyvaluedb",
+        "keyvaluedb-shared-tests",
+        "log",
+        "parking_lot",
+        "rand",
+        "rusqlite",
+        "sysinfo",
+        "tempfile",
+        "tokio"
+    ]
+}

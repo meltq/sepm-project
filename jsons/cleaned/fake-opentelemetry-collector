@@ -1,0 +1,17 @@
+{
+    "name": "fake-opentelemetry-collector",
+    "deps": [
+        "futures",
+        "hex",
+        "opentelemetry",
+        "opentelemetry-otlp",
+        "opentelemetry-proto",
+        "opentelemetry_api",
+        "opentelemetry_sdk",
+        "serde",
+        "tokio",
+        "tokio-stream",
+        "tonic",
+        "tracing"
+    ]
+}

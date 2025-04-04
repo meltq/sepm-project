@@ -1,0 +1,26 @@
+{
+    "name": "sbd-server",
+    "deps": [
+        "anstyle",
+        "base64",
+        "bytes",
+        "clap",
+        "ed25519-dalek",
+        "escargot",
+        "fastwebsockets",
+        "futures",
+        "http-body-util",
+        "hyper",
+        "hyper-util",
+        "rand",
+        "rcgen",
+        "rustls",
+        "rustls-pemfile",
+        "slab",
+        "tempfile",
+        "tokio",
+        "tokio",
+        "tokio-rustls",
+        "tokio-tungstenite"
+    ]
+}

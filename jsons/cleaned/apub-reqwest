@@ -1,0 +1,17 @@
+{
+    "name": "apub-reqwest",
+    "deps": [
+        "apub-core",
+        "apub-rustcrypto",
+        "async-trait",
+        "http-signature-normalization-reqwest",
+        "httpdate",
+        "rand",
+        "reqwest",
+        "rsa",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "url"
+    ]
+}

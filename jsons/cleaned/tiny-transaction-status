@@ -1,0 +1,23 @@
+{
+    "name": "tiny-transaction-status",
+    "deps": [
+        "Inflector",
+        "base64",
+        "bincode",
+        "borsh",
+        "bs58",
+        "lazy_static",
+        "log",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "solana-account-decoder",
+        "solana-address-lookup-table-program",
+        "spl-associated-token-account",
+        "spl-memo",
+        "spl-token",
+        "spl-token-2022",
+        "thiserror",
+        "tiny-sdk"
+    ]
+}

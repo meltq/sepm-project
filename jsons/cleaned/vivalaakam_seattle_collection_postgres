@@ -1,0 +1,18 @@
+{
+    "name": "vivalaakam_seattle_collection_postgres",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "chrono",
+        "dotenv",
+        "serde",
+        "serde_json",
+        "sql_query_builder",
+        "sqlx",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "tracing-subscriber",
+        "vivalaakam_seattle_collection"
+    ]
+}

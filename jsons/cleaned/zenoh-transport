@@ -1,0 +1,27 @@
+{
+    "name": "zenoh-transport",
+    "deps": [
+        "async-executor",
+        "async-global-executor",
+        "async-std",
+        "async-trait",
+        "env_logger",
+        "flume",
+        "log",
+        "paste",
+        "rand",
+        "ringbuffer-spsc",
+        "rsa",
+        "serde",
+        "zenoh-buffers",
+        "zenoh-cfg-properties",
+        "zenoh-collections",
+        "zenoh-config",
+        "zenoh-core",
+        "zenoh-crypto",
+        "zenoh-link",
+        "zenoh-protocol",
+        "zenoh-protocol-core",
+        "zenoh-sync"
+    ]
+}

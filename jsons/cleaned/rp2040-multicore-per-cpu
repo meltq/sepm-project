@@ -1,0 +1,12 @@
+{
+    "name": "rp2040-multicore-per-cpu",
+    "deps": [
+        "cortex-m",
+        "cortex-m-rt",
+        "critical-section",
+        "embedded-hal",
+        "panic-halt",
+        "rp2040-boot2",
+        "rp2040-hal"
+    ]
+}

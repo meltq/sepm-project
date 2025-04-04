@@ -1,0 +1,26 @@
+{
+    "name": "sqllogictest-bin",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "chrono",
+        "clap",
+        "console",
+        "difference",
+        "env_logger",
+        "futures",
+        "futures-lite",
+        "glob",
+        "humantime",
+        "itertools",
+        "log",
+        "postgres-types",
+        "quick-junit",
+        "rust_decimal",
+        "sqllogictest",
+        "tempfile",
+        "thiserror",
+        "tokio",
+        "tokio-postgres"
+    ]
+}

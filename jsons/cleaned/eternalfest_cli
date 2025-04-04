@@ -1,0 +1,23 @@
+{
+    "name": "eternalfest_cli",
+    "deps": [
+        "chrono",
+        "clap",
+        "console",
+        "dialoguer",
+        "eternalfest_blob_store",
+        "eternalfest_buffer_store",
+        "eternalfest_config",
+        "eternalfest_core",
+        "eternalfest_db_schema",
+        "eternalfest_file_store",
+        "eternalfest_services",
+        "eternalfest_user_store",
+        "etwin_client",
+        "etwin_core",
+        "sqlx",
+        "tokio",
+        "url",
+        "warp"
+    ]
+}

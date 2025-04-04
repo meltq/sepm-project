@@ -1,0 +1,15 @@
+{
+    "name": "opentelemetry-common",
+    "deps": [
+        "anyhow",
+        "clap",
+        "env_logger",
+        "log",
+        "opentelemetry",
+        "opentelemetry-appender-log",
+        "opentelemetry-otlp",
+        "opentelemetry-semantic-conventions",
+        "opentelemetry_sdk",
+        "tokio"
+    ]
+}

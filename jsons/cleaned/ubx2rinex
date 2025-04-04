@@ -1,0 +1,16 @@
+{
+    "name": "ubx2rinex",
+    "deps": [
+        "chrono",
+        "clap",
+        "gnss-rs",
+        "log",
+        "pretty_env_logger",
+        "rinex",
+        "serde",
+        "serde_json",
+        "serialport",
+        "thiserror",
+        "ublox"
+    ]
+}

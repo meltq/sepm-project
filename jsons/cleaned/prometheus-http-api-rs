@@ -1,0 +1,19 @@
+{
+    "name": "prometheus-http-api-rs",
+    "deps": [
+        "env_logger",
+        "http",
+        "hyper",
+        "hyper-tls",
+        "percent-encoding",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "tracing",
+        "tracing-log",
+        "tracing-subscriber"
+    ]
+}

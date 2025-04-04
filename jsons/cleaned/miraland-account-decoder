@@ -1,0 +1,23 @@
+{
+    "name": "miraland-account-decoder",
+    "deps": [
+        "Inflector",
+        "base64",
+        "bincode",
+        "bs58",
+        "bv",
+        "lazy_static",
+        "miraland-address-lookup-table-program",
+        "miraland-config-program",
+        "miraland-sdk",
+        "miraland-vote-program",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "solarti-token",
+        "solarti-token-2022",
+        "thiserror",
+        "winnow",
+        "zstd"
+    ]
+}

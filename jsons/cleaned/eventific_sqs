@@ -1,0 +1,14 @@
+{
+    "name": "eventific_sqs",
+    "deps": [
+        "eventific",
+        "failure",
+        "futures",
+        "rusoto_core",
+        "rusoto_sqs",
+        "serde_derive",
+        "slog",
+        "tokio",
+        "uuid"
+    ]
+}

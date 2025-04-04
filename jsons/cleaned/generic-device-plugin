@@ -1,0 +1,17 @@
+{
+    "name": "generic-device-plugin",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "notify",
+        "once_cell",
+        "prost",
+        "tokio",
+        "tokio-stream",
+        "tonic",
+        "tonic-build",
+        "tower",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

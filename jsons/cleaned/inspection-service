@@ -1,0 +1,21 @@
+{
+    "name": "inspection-service",
+    "deps": [
+        "anyhow",
+        "aptos-config",
+        "aptos-infallible",
+        "aptos-logger",
+        "aptos-metrics-core",
+        "aptos-telemetry",
+        "assert_approx_eq",
+        "futures",
+        "hyper",
+        "once_cell",
+        "prometheus",
+        "reqwest",
+        "rusty-fork",
+        "serde_json",
+        "sysinfo",
+        "tokio"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "tracing-serde-subscriber",
+    "deps": [
+        "anyhow",
+        "once_cell",
+        "parking_lot",
+        "tokio",
+        "tracing-core",
+        "tracing-serde-modality-ingest",
+        "tracing-serde-structured",
+        "tracing-serde-wire",
+        "tracing-subscriber",
+        "uuid"
+    ]
+}

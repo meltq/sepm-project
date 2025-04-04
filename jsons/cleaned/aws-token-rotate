@@ -1,0 +1,11 @@
+{
+    "name": "aws-token-rotate",
+    "deps": [
+        "clap",
+        "configparser",
+        "dirs",
+        "rusoto_core",
+        "rusoto_iam",
+        "tokio"
+    ]
+}

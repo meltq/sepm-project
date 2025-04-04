@@ -1,0 +1,13 @@
+{
+    "name": "tokio-prometheus-metered-channel",
+    "deps": [
+        "async-trait",
+        "futures",
+        "pin-project",
+        "prometheus",
+        "tokio",
+        "tracing",
+        "tracing-futures",
+        "tracing-subscriber"
+    ]
+}

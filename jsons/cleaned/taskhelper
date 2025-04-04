@@ -1,0 +1,27 @@
+{
+    "name": "taskhelper",
+    "deps": [
+        "async-stream",
+        "async-trait",
+        "clap",
+        "color-eyre",
+        "directories",
+        "env_logger",
+        "fern",
+        "futures",
+        "futures-core",
+        "futures-util",
+        "libc",
+        "log",
+        "nix",
+        "pretty_assertions",
+        "s-string",
+        "serde",
+        "terminal_size",
+        "thiserror",
+        "tokio-fd",
+        "tokio-stream",
+        "which",
+        "winnow"
+    ]
+}

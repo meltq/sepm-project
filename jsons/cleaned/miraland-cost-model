@@ -1,0 +1,24 @@
+{
+    "name": "miraland-cost-model",
+    "deps": [
+        "lazy_static",
+        "log",
+        "miraland-address-lookup-table-program",
+        "miraland-bpf-loader-program",
+        "miraland-compute-budget-program",
+        "miraland-config-program",
+        "miraland-frozen-abi",
+        "miraland-frozen-abi-macro",
+        "miraland-loader-v4-program",
+        "miraland-logger",
+        "miraland-metrics",
+        "miraland-program-runtime",
+        "miraland-sdk",
+        "miraland-stake-program",
+        "miraland-system-program",
+        "miraland-vote-program",
+        "rustc_version",
+        "static_assertions",
+        "test-case"
+    ]
+}

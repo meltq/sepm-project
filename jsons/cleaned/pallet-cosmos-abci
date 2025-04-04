@@ -1,0 +1,19 @@
+{
+    "name": "pallet-cosmos-abci",
+    "deps": [
+        "alt_serde",
+        "codec",
+        "frame-support",
+        "frame-system",
+        "lazy_static",
+        "pallet-abci",
+        "parking_lot",
+        "sp-api",
+        "sp-core",
+        "sp-io",
+        "sp-runtime",
+        "sp-runtime-interface",
+        "sp-std",
+        "testcontainers"
+    ]
+}

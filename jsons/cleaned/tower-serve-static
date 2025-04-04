@@ -1,0 +1,21 @@
+{
+    "name": "tower-serve-static",
+    "deps": [
+        "axum",
+        "bytes",
+        "futures-util",
+        "http",
+        "http-body",
+        "http-body-util",
+        "include_dir",
+        "mime",
+        "mime_guess",
+        "percent-encoding",
+        "pin-project",
+        "tokio",
+        "tokio",
+        "tokio-util",
+        "tower",
+        "tower-service"
+    ]
+}

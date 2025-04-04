@@ -1,0 +1,19 @@
+{
+    "name": "leftwm-core",
+    "deps": [
+        "dirs-next",
+        "futures",
+        "libc",
+        "log",
+        "mio",
+        "nix",
+        "serde",
+        "serde_json",
+        "signal-hook",
+        "tempfile",
+        "thiserror",
+        "tokio",
+        "x11-dl",
+        "xdg"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "name": "smtp-client",
+    "deps": [
+        "async-trait",
+        "bitflags",
+        "chrono",
+        "duplexify",
+        "futures",
+        "rand",
+        "smol",
+        "smtp-message",
+        "thiserror",
+        "tracing",
+        "trust-dns-resolver"
+    ]
+}

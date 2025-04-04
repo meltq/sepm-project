@@ -1,0 +1,25 @@
+{
+    "name": "pyrinas-server",
+    "deps": [
+        "cfg-if",
+        "chrono",
+        "clap",
+        "env_logger",
+        "flume",
+        "futures",
+        "influxdb",
+        "log",
+        "pyrinas-shared",
+        "rumqttd",
+        "serde",
+        "serde_cbor",
+        "serde_json",
+        "sled",
+        "thiserror",
+        "tokio",
+        "tokio-compat-02",
+        "tokio-stream",
+        "toml",
+        "warp"
+    ]
+}

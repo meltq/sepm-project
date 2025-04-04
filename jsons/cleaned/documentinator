@@ -1,0 +1,15 @@
+{
+    "name": "documentinator",
+    "deps": [
+        "anyhow",
+        "clap",
+        "clap-verbosity-flag",
+        "concurrent-queue",
+        "env_logger",
+        "log",
+        "rayon",
+        "serde",
+        "serde_derive",
+        "toml"
+    ]
+}

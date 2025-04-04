@@ -1,0 +1,22 @@
+{
+    "name": "spacegate-shell",
+    "deps": [
+        "criterion",
+        "futures-util",
+        "hyper",
+        "regex",
+        "reqwest",
+        "rustls-pemfile",
+        "spacegate-config",
+        "spacegate-ext-axum",
+        "spacegate-ext-redis",
+        "spacegate-kernel",
+        "spacegate-plugin",
+        "testcontainers-modules",
+        "tokio",
+        "tokio-rustls",
+        "tokio-util",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

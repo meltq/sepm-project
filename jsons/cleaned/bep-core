@@ -1,0 +1,22 @@
+{
+    "name": "bep-core",
+    "deps": [
+        "anyhow",
+        "assert_fs",
+        "bep-derive",
+        "futures",
+        "glob",
+        "lopdf",
+        "ordered-float",
+        "rayon",
+        "reqwest",
+        "schemars",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tokio-test",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

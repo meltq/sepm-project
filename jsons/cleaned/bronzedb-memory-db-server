@@ -1,0 +1,13 @@
+{
+    "name": "bronzedb-memory-db-server",
+    "deps": [
+        "bronzedb-engine",
+        "bronzedb-server",
+        "bronzedb-util",
+        "config",
+        "env_logger",
+        "serde",
+        "serde_derive",
+        "sled"
+    ]
+}

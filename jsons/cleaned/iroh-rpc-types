@@ -1,0 +1,19 @@
+{
+    "name": "iroh-rpc-types",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "futures",
+        "iroh-metrics",
+        "paste",
+        "prost",
+        "prost-build",
+        "prost-types",
+        "serde_with",
+        "tokio",
+        "tokio-stream",
+        "tonic",
+        "tonic-build",
+        "tonic-health"
+    ]
+}

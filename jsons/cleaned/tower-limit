@@ -1,0 +1,13 @@
+{
+    "name": "tower-limit",
+    "deps": [
+        "futures",
+        "tokio",
+        "tokio-mock-task",
+        "tokio-sync",
+        "tokio-timer",
+        "tower-layer",
+        "tower-service",
+        "tower-test"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "name": "trz-gateway-common",
+    "deps": [
+        "axum",
+        "cms",
+        "nameth",
+        "oid-registry",
+        "openssl",
+        "prost",
+        "prost-types",
+        "rustls",
+        "rustls-native-certs",
+        "scopeguard",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tonic",
+        "tonic-build",
+        "tracing",
+        "tracing-subscriber",
+        "x509-parser"
+    ]
+}

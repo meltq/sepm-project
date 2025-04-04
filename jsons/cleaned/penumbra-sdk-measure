@@ -1,0 +1,17 @@
+{
+    "name": "penumbra-sdk-measure",
+    "deps": [
+        "anyhow",
+        "bytesize",
+        "clap",
+        "indicatif",
+        "penumbra-sdk-compact-block",
+        "penumbra-sdk-proto",
+        "serde_json",
+        "tokio",
+        "tonic",
+        "tracing",
+        "tracing-subscriber",
+        "url"
+    ]
+}

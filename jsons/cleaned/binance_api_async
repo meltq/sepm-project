@@ -1,0 +1,22 @@
+{
+    "name": "binance_api_async",
+    "deps": [
+        "async-trait",
+        "failure",
+        "futures",
+        "hex",
+        "hmac",
+        "pin-project",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "sha2",
+        "streamunordered",
+        "tokio",
+        "tokio-native-tls",
+        "tokio-tungstenite",
+        "tungstenite",
+        "url",
+        "uuid"
+    ]
+}

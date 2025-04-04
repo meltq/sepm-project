@@ -1,0 +1,17 @@
+{
+    "name": "cloud_task_executor",
+    "deps": [
+        "anyhow",
+        "cte_basic_macros",
+        "futures",
+        "lambda_runtime",
+        "openssl",
+        "quote",
+        "serde",
+        "serde_json",
+        "structopt",
+        "syn",
+        "tokio",
+        "warp"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "name": "assemblylift-core",
+    "deps": [
+        "assemblylift_core_event",
+        "assemblylift_core_event_common",
+        "crossbeam-utils",
+        "lazy_static",
+        "paste",
+        "serde",
+        "wasmer_runtime",
+        "wasmer_runtime_core"
+    ]
+}

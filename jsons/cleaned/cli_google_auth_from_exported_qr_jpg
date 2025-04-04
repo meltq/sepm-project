@@ -1,0 +1,17 @@
+{
+    "name": "cli_google_auth_from_exported_qr_jpg",
+    "deps": [
+        "anyhow",
+        "bardecoder",
+        "base32",
+        "base64",
+        "bytes",
+        "image",
+        "log",
+        "pretty_env_logger",
+        "prost",
+        "thiserror",
+        "totp-rs",
+        "urlencoding"
+    ]
+}

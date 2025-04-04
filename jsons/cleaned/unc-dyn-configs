@@ -1,0 +1,16 @@
+{
+    "name": "unc-dyn-configs",
+    "deps": [
+        "anyhow",
+        "once_cell",
+        "prometheus",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "unc-chain-configs",
+        "unc-o11y",
+        "unc-primitives"
+    ]
+}

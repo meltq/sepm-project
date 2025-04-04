@@ -1,0 +1,14 @@
+{
+    "name": "redis-lua",
+    "deps": [
+        "async-trait",
+        "futures",
+        "proc-macro-hack",
+        "redis",
+        "redis-lua-macro",
+        "rmp-serde",
+        "serde",
+        "serde_bytes",
+        "tokio"
+    ]
+}

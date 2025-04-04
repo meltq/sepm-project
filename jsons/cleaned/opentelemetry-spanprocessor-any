@@ -1,0 +1,25 @@
+{
+    "name": "opentelemetry-spanprocessor-any",
+    "deps": [
+        "async-std",
+        "async-trait",
+        "crossbeam-channel",
+        "dashmap",
+        "fnv",
+        "futures-channel",
+        "futures-executor",
+        "futures-util",
+        "lazy_static",
+        "percent-encoding",
+        "pin-project",
+        "rand",
+        "serde",
+        "thiserror",
+        "tokio",
+        "tokio-stream",
+        "bincode",
+        "criterion",
+        "rand_distr",
+        "js-sys"
+    ]
+}

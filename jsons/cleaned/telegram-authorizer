@@ -1,0 +1,16 @@
+{
+    "name": "telegram-authorizer",
+    "deps": [
+        "async-trait",
+        "axum",
+        "hex",
+        "qstring",
+        "ring",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tower-layer",
+        "tower-service",
+        "tracing"
+    ]
+}

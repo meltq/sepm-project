@@ -1,0 +1,10 @@
+{
+    "name": "dbs-interrupt",
+    "deps": [
+        "dbs-device",
+        "kvm-bindings",
+        "kvm-ioctls",
+        "libc",
+        "vmm-sys-util"
+    ]
+}

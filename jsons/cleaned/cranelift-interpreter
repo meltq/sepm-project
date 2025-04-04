@@ -1,0 +1,12 @@
+{
+    "name": "cranelift-interpreter",
+    "deps": [
+        "cranelift-codegen",
+        "cranelift-entity",
+        "cranelift-frontend",
+        "cranelift-reader",
+        "hashbrown",
+        "log",
+        "thiserror"
+    ]
+}

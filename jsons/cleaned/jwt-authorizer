@@ -1,0 +1,23 @@
+{
+    "name": "jwt-authorizer",
+    "deps": [
+        "axum",
+        "futures-core",
+        "futures-util",
+        "headers",
+        "http",
+        "jsonwebtoken",
+        "pin-project",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tower-http",
+        "tower-layer",
+        "tower-service",
+        "tracing",
+        "tracing-subscriber",
+        "wiremock"
+    ]
+}

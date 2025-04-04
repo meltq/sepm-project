@@ -1,0 +1,23 @@
+{
+    "name": "nextpass",
+    "deps": [
+        "aes-gcm",
+        "anyhow",
+        "base64",
+        "dirs-next",
+        "generic-array",
+        "getrandom",
+        "log",
+        "nextcloud-passwords-client",
+        "promptly",
+        "rpassword",
+        "rust-argon2",
+        "serde",
+        "serde_json",
+        "sha-1",
+        "simplelog",
+        "structopt",
+        "tokio",
+        "uuid"
+    ]
+}

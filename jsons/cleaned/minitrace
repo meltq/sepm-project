@@ -1,0 +1,27 @@
+{
+    "name": "minitrace",
+    "deps": [
+        "async-trait",
+        "criterion",
+        "crossbeam",
+        "futures",
+        "futures",
+        "futures-timer",
+        "minitrace-macro",
+        "minstant",
+        "once_cell",
+        "opentelemetry",
+        "opentelemetry-jaeger",
+        "parking_lot",
+        "petgraph",
+        "pin-project",
+        "rand",
+        "retain_mut",
+        "rustracing",
+        "tokio",
+        "tracing",
+        "tracing-core",
+        "tracing-opentelemetry",
+        "tracing-subscriber"
+    ]
+}

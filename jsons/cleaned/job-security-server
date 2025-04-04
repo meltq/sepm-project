@@ -1,0 +1,17 @@
+{
+    "name": "job-security-server",
+    "deps": [
+        "bincode",
+        "dlv-list",
+        "futures-util",
+        "indexmap",
+        "nix",
+        "protocol",
+        "serde",
+        "tokio",
+        "tokio-command-fds",
+        "tokio-util",
+        "tracing",
+        "withfd"
+    ]
+}

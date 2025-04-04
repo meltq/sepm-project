@@ -1,0 +1,13 @@
+{
+    "name": "docker-container-log-streamer",
+    "deps": [
+        "bollard",
+        "clap",
+        "futures-core",
+        "futures-util",
+        "pretty_env_logger",
+        "serde",
+        "tokio",
+        "warp"
+    ]
+}

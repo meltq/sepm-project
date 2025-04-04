@@ -1,0 +1,28 @@
+{
+    "name": "passgen-telegram",
+    "deps": [
+        "axum",
+        "bincode",
+        "chrono",
+        "clap",
+        "clap_derive",
+        "dptree",
+        "env-file-reader",
+        "log",
+        "log4rs",
+        "mime_guess",
+        "passgen-lib",
+        "rand",
+        "serde",
+        "serde_cbor",
+        "serde_json",
+        "sqlx",
+        "sqlx-cli",
+        "teloxide",
+        "teloxide-core",
+        "teloxide-macros",
+        "tokio",
+        "tokio-util",
+        "url"
+    ]
+}

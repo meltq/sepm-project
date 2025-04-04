@@ -1,0 +1,19 @@
+{
+    "name": "biller",
+    "deps": [
+        "actix-cors",
+        "actix-rt",
+        "actix-web",
+        "chrono",
+        "env_logger",
+        "envy",
+        "futures",
+        "json",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "sled",
+        "sse-actix-web",
+        "tokio"
+    ]
+}

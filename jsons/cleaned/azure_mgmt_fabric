@@ -1,0 +1,16 @@
+{
+    "name": "azure_mgmt_fabric",
+    "deps": [
+        "anyhow",
+        "azure_core",
+        "bytes",
+        "env_logger",
+        "futures",
+        "log",
+        "once_cell",
+        "serde",
+        "serde_json",
+        "time",
+        "tokio"
+    ]
+}

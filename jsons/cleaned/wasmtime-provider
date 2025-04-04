@@ -1,0 +1,14 @@
+{
+    "name": "wasmtime-provider",
+    "deps": [
+        "anyhow",
+        "env_logger",
+        "log",
+        "serde",
+        "serde_json",
+        "wapc",
+        "wasi-common",
+        "wasmtime",
+        "wasmtime-wasi"
+    ]
+}

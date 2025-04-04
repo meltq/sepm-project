@@ -1,0 +1,13 @@
+{
+    "name": "cerk_port_mqtt_mosquitto",
+    "deps": [
+        "anyhow",
+        "cerk",
+        "cloudevents-sdk",
+        "env_logger",
+        "log",
+        "mosquitto-client-wrapper",
+        "serde_json",
+        "url"
+    ]
+}

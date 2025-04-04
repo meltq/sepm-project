@@ -1,0 +1,10 @@
+{
+    "name": "electrs-rocksdb",
+    "deps": [
+        "libc",
+        "librocksdb-sys",
+        "pretty_assertions",
+        "tempfile",
+        "trybuild"
+    ]
+}

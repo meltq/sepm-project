@@ -1,0 +1,29 @@
+{
+    "name": "land-runtime",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "axum",
+        "clap",
+        "deadpool",
+        "futures-util",
+        "hyper",
+        "land-core",
+        "lazy_static",
+        "moka",
+        "once_cell",
+        "reqwest",
+        "serde",
+        "tokio",
+        "tokio",
+        "toml",
+        "tracing",
+        "uuid",
+        "wasmtime",
+        "wasmtime-wasi",
+        "which",
+        "wit-bindgen-core",
+        "wit-bindgen-rust",
+        "wit-component"
+    ]
+}

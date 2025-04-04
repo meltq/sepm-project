@@ -1,0 +1,19 @@
+{
+    "name": "quartz-tm-prover",
+    "deps": [
+        "clap",
+        "color-eyre",
+        "cosmrs",
+        "futures",
+        "quartz-cw-proof",
+        "serde",
+        "serde_json",
+        "tendermint",
+        "tendermint-light-client",
+        "tendermint-light-client-detector",
+        "tendermint-rpc",
+        "tokio",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

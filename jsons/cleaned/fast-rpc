@@ -1,0 +1,25 @@
+{
+    "name": "fast-rpc",
+    "deps": [
+        "byteorder",
+        "bytes",
+        "chrono",
+        "clap",
+        "crc16",
+        "num",
+        "num-derive",
+        "num-traits",
+        "quickcheck",
+        "rand",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "slog",
+        "slog-stdlog",
+        "slog-term",
+        "tokio",
+        "tokio-codec",
+        "tokio-io",
+        "tokio-uds"
+    ]
+}

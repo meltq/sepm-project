@@ -1,0 +1,31 @@
+{
+    "name": "openleadr-vtn",
+    "deps": [
+        "argon2",
+        "axum",
+        "axum-extra",
+        "base64",
+        "chrono",
+        "dotenvy",
+        "http-body-util",
+        "jsonwebtoken",
+        "mime",
+        "openleadr-wire",
+        "rand",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "serde_with",
+        "sqlx",
+        "thiserror",
+        "tokio",
+        "tokio",
+        "tower",
+        "tower-http",
+        "tracing",
+        "tracing-subscriber",
+        "url",
+        "uuid",
+        "validator"
+    ]
+}

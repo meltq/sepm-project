@@ -1,0 +1,15 @@
+{
+    "name": "koibumi-secp256k1",
+    "deps": [
+        "bincode",
+        "getrandom",
+        "hashes",
+        "rand",
+        "rand_core",
+        "secp256k1-sys",
+        "serde",
+        "serde_cbor",
+        "serde_test",
+        "wasm-bindgen-test"
+    ]
+}

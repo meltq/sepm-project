@@ -1,0 +1,21 @@
+{
+    "name": "ora-store-memory",
+    "deps": [
+        "ahash",
+        "async-stream",
+        "async-trait",
+        "eyre",
+        "futures",
+        "indexmap",
+        "memmem",
+        "ora-client",
+        "ora-common",
+        "ora-scheduler",
+        "ora-worker",
+        "parking_lot",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "uuid"
+    ]
+}

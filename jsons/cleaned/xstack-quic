@@ -1,0 +1,21 @@
+{
+    "name": "xstack-quic",
+    "deps": [
+        "async-trait",
+        "clap",
+        "futures",
+        "futures-boring",
+        "futures-quic",
+        "futures-test",
+        "log",
+        "multistream-select",
+        "pretty_env_logger",
+        "rand",
+        "rasi",
+        "rasi",
+        "rasi-mio",
+        "xstack",
+        "xstack-spec",
+        "xstack-x509"
+    ]
+}

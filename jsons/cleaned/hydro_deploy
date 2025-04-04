@@ -1,0 +1,29 @@
+{
+    "name": "hydro_deploy",
+    "deps": [
+        "anyhow",
+        "async-channel",
+        "async-once-cell",
+        "async-process",
+        "async-recursion",
+        "async-ssh2-lite",
+        "async-trait",
+        "bytes",
+        "cargo_metadata",
+        "dunce",
+        "dyn-clone",
+        "futures",
+        "futures-core",
+        "hydroflow_cli_integration",
+        "indicatif",
+        "nanoid",
+        "nix",
+        "once_cell",
+        "serde",
+        "serde_json",
+        "shell-escape",
+        "tempfile",
+        "tokio",
+        "tokio-util"
+    ]
+}

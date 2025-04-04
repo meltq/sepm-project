@@ -1,0 +1,23 @@
+{
+    "name": "tari_comms_middleware",
+    "deps": [
+        "derive-error",
+        "futures",
+        "futures-test",
+        "lmdb-zero",
+        "log",
+        "rand",
+        "serde",
+        "serde_derive",
+        "tari_comms",
+        "tari_crypto",
+        "tari_pubsub",
+        "tari_shutdown",
+        "tari_storage",
+        "tari_test_utils",
+        "tari_utilities",
+        "tempdir",
+        "tokio",
+        "tower"
+    ]
+}

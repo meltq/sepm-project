@@ -1,0 +1,31 @@
+{
+    "name": "waffles-solana-tokens",
+    "deps": [
+        "chrono",
+        "clap",
+        "console",
+        "csv",
+        "ctrlc",
+        "indexmap",
+        "indicatif",
+        "pickledb",
+        "serde",
+        "solana-account-decoder",
+        "solana-clap-utils",
+        "solana-cli-config",
+        "solana-remote-wallet",
+        "solana-rpc-client",
+        "solana-rpc-client-api",
+        "solana-sdk",
+        "solana-transaction-status",
+        "solana-version",
+        "spl-associated-token-account",
+        "spl-token",
+        "tempfile",
+        "thiserror",
+        "bincode",
+        "solana-logger",
+        "solana-streamer",
+        "solana-test-validator"
+    ]
+}

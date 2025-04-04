@@ -1,0 +1,17 @@
+{
+    "name": "dbcc",
+    "deps": [
+        "byteorder",
+        "can-dbc",
+        "codegen",
+        "futures",
+        "heck",
+        "log",
+        "nom",
+        "pretty_env_logger",
+        "socketcan",
+        "structopt",
+        "tokio",
+        "tokio-socketcan-bcm"
+    ]
+}

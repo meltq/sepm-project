@@ -1,0 +1,14 @@
+{
+    "name": "ccp-rpc-server",
+    "deps": [
+        "async-trait",
+        "ccp",
+        "ccp-rpc-client",
+        "ccp-shared",
+        "cpu-utils",
+        "eyre",
+        "jsonrpsee",
+        "tokio",
+        "tracing"
+    ]
+}

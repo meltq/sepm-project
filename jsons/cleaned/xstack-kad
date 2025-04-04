@@ -1,0 +1,28 @@
+{
+    "name": "xstack-kad",
+    "deps": [
+        "async-trait",
+        "bs58",
+        "futures",
+        "futures-test",
+        "generic-array",
+        "libp2p-identity",
+        "log",
+        "pretty_env_logger",
+        "protobuf",
+        "protobuf-codegen",
+        "protoc-bin-vendored",
+        "quickcheck",
+        "rasi",
+        "rasi-mio",
+        "sha2",
+        "thiserror",
+        "uint",
+        "unsigned-varint",
+        "xstack",
+        "xstack",
+        "xstack-dnsaddr",
+        "xstack-quic",
+        "xstack-tcp"
+    ]
+}

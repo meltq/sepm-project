@@ -1,0 +1,22 @@
+{
+    "name": "csaf-walker",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "bytes",
+        "csaf",
+        "digest",
+        "env_logger",
+        "humantime",
+        "log",
+        "reqwest",
+        "sequoia-openpgp",
+        "serde",
+        "serde_json",
+        "sha2",
+        "thiserror",
+        "time",
+        "tokio",
+        "url"
+    ]
+}

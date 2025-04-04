@@ -1,0 +1,26 @@
+{
+    "name": "comprehensive_grpc",
+    "deps": [
+        "clap",
+        "comprehensive",
+        "comprehensive_macros",
+        "const_format",
+        "futures",
+        "http",
+        "log",
+        "prometheus",
+        "prost",
+        "prost-types",
+        "rand",
+        "tokio",
+        "tokio-rustls",
+        "tokio-stream",
+        "tonic",
+        "tonic-build",
+        "tonic-health",
+        "tonic-reflection",
+        "tonic_prometheus_layer",
+        "tower",
+        "tower-layer"
+    ]
+}

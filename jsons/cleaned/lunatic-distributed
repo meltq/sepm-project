@@ -1,0 +1,20 @@
+{
+    "name": "lunatic-distributed",
+    "deps": [
+        "anyhow",
+        "async_cell",
+        "bincode",
+        "dashmap",
+        "futures-util",
+        "log",
+        "lunatic-process",
+        "quinn",
+        "rcgen",
+        "rustls",
+        "rustls-pemfile",
+        "s2n-quic",
+        "serde",
+        "tokio",
+        "wasmtime"
+    ]
+}

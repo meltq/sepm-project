@@ -1,0 +1,16 @@
+{
+    "name": "wasmium-securemem",
+    "deps": [
+        "blake3",
+        "chacha20poly1305",
+        "ed25519-dalek",
+        "ed25519-dalek",
+        "lazy_static",
+        "nanorand",
+        "rand",
+        "secrecy",
+        "wasmium-random",
+        "wasmium_errors",
+        "zeroize"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "name": "miden-client",
+    "deps": [
+        "async-trait",
+        "clap",
+        "comfy-table",
+        "figment",
+        "lazy_static",
+        "miden-lib",
+        "miden-node-proto",
+        "miden-objects",
+        "miden-tx",
+        "rand",
+        "rusqlite",
+        "rusqlite_migration",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tonic",
+        "tracing",
+        "tracing-subscriber",
+        "uuid"
+    ]
+}

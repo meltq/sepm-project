@@ -1,0 +1,23 @@
+{
+    "name": "betfair-adapter",
+    "deps": [
+        "betfair-types",
+        "eyre",
+        "pretty_assertions",
+        "redact",
+        "reqwest",
+        "rstest",
+        "rust_decimal",
+        "rust_decimal_macros",
+        "serde",
+        "serde_json",
+        "test-log",
+        "thiserror",
+        "tokio",
+        "toml",
+        "tracing",
+        "tracing-subscriber",
+        "url",
+        "wiremock"
+    ]
+}

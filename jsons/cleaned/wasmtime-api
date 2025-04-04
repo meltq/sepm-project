@@ -1,0 +1,27 @@
+{
+    "name": "wasmtime-api",
+    "deps": [
+        "cranelift-codegen",
+        "cranelift-entity",
+        "cranelift-frontend",
+        "cranelift-native",
+        "cranelift-wasm",
+        "docopt",
+        "failure",
+        "failure_derive",
+        "file-per-thread-logger",
+        "pretty_env_logger",
+        "rayon",
+        "region",
+        "serde",
+        "target-lexicon",
+        "wabt",
+        "wasi-common",
+        "wasmparser",
+        "wasmtime-environ",
+        "wasmtime-jit",
+        "wasmtime-runtime",
+        "wasmtime-wasi",
+        "wasmtime-wast"
+    ]
+}

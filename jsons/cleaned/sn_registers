@@ -1,0 +1,21 @@
+{
+    "name": "sn_registers",
+    "deps": [
+        "assert_fs",
+        "bincode",
+        "bls",
+        "crdts",
+        "eyre",
+        "hex",
+        "proptest",
+        "rand",
+        "self_encryption",
+        "serde",
+        "sn_protocol",
+        "tiny-keccak",
+        "tokio",
+        "tracing",
+        "walkdir",
+        "xor_name"
+    ]
+}

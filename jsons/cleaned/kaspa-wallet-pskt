@@ -1,0 +1,27 @@
+{
+    "name": "kaspa-wallet-pskt",
+    "deps": [
+        "bincode",
+        "derive_builder",
+        "futures",
+        "hex",
+        "js-sys",
+        "kaspa-addresses",
+        "kaspa-bip32",
+        "kaspa-consensus-client",
+        "kaspa-consensus-core",
+        "kaspa-txscript",
+        "kaspa-txscript-errors",
+        "kaspa-utils",
+        "secp256k1",
+        "serde",
+        "serde-value",
+        "serde-wasm-bindgen",
+        "serde_json",
+        "serde_json",
+        "serde_repr",
+        "thiserror",
+        "wasm-bindgen",
+        "workflow-wasm"
+    ]
+}

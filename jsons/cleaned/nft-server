@@ -1,0 +1,16 @@
+{
+    "name": "nft-server",
+    "deps": [
+        "async-trait",
+        "axum",
+        "ethers",
+        "eyre",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tower-http",
+        "tracing",
+        "url"
+    ]
+}

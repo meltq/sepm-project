@@ -1,0 +1,19 @@
+{
+    "name": "daemon-engine",
+    "deps": [
+        "clap",
+        "futures",
+        "libc",
+        "log",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "tokio",
+        "tokio-io",
+        "tokio-serde-json-mirror",
+        "tokio-timer",
+        "tokio-uds",
+        "users",
+        "uuid"
+    ]
+}

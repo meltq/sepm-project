@@ -1,0 +1,15 @@
+{
+    "name": "bitcoin-secp256k1",
+    "deps": [
+        "bitcoin-imports",
+        "bitcoin-key",
+        "bitcoinsecp256k1-ec",
+        "bitcoinsecp256k1-field",
+        "bitcoinsecp256k1-group",
+        "bitcoinsecp256k1-modinv",
+        "bitcoinsecp256k1-scalar",
+        "bitcoinsecp256k1-scratch",
+        "static_assertions",
+        "bitcoin-cfg"
+    ]
+}

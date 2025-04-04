@@ -1,0 +1,19 @@
+{
+    "name": "unm_engine_kugou",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "concat-string",
+        "futures",
+        "http",
+        "log",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "tokio",
+        "unm_engine",
+        "unm_request",
+        "unm_selector",
+        "unm_types"
+    ]
+}

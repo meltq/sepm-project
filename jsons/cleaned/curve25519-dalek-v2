@@ -1,0 +1,23 @@
+{
+    "name": "curve25519-dalek-v2",
+    "deps": [
+        "bincode",
+        "cfg-if",
+        "cpufeatures",
+        "criterion",
+        "curve25519-dalek-derive",
+        "digest",
+        "ff",
+        "fiat-crypto",
+        "group",
+        "hex",
+        "rand",
+        "rand_core",
+        "rand_core",
+        "rustc_version",
+        "serde",
+        "sha2",
+        "subtle",
+        "zeroize"
+    ]
+}

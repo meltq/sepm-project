@@ -1,0 +1,19 @@
+{
+    "name": "starlane",
+    "deps": [
+        "clap",
+        "ctrlc",
+        "dirs",
+        "lazy_static",
+        "serde",
+        "serde_json",
+        "starlane-core",
+        "starlane-resources",
+        "tempfile",
+        "tokio",
+        "tracing",
+        "tracing-futures",
+        "tracing-subscriber",
+        "zip"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "name": "hnsw_rs_thousand_birds",
+    "deps": [
+        "bincode",
+        "cpu-time",
+        "env_logger",
+        "hashbrown",
+        "hdf5",
+        "lazy_static",
+        "log",
+        "mmap-rs",
+        "ndarray",
+        "num-traits",
+        "num_cpus",
+        "packed_simd_2",
+        "parking_lot",
+        "rand",
+        "rayon",
+        "serde",
+        "simdeez",
+        "skiplist"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "name": "lsm",
+    "deps": [
+        "bincode",
+        "env_logger",
+        "futures",
+        "log",
+        "lru",
+        "parking_lot",
+        "serde",
+        "serde_bytes",
+        "snap",
+        "tempfile",
+        "tokio"
+    ]
+}

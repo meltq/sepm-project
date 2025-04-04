@@ -1,0 +1,16 @@
+{
+    "name": "torii-storage-postgres",
+    "deps": [
+        "async-trait",
+        "chrono",
+        "rand",
+        "sqlx",
+        "thiserror",
+        "tokio",
+        "torii-core",
+        "torii-migration",
+        "tracing",
+        "tracing-subscriber",
+        "uuid"
+    ]
+}

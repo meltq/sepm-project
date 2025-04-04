@@ -1,0 +1,18 @@
+{
+    "name": "reqwest-eventsource-wasi",
+    "deps": [
+        "eventsource-stream",
+        "futures",
+        "futures-core",
+        "futures-retry",
+        "futures-timer",
+        "mime",
+        "nom",
+        "pin-project-lite",
+        "pin-utils",
+        "reqwest_wasi",
+        "rocket",
+        "thiserror",
+        "tokio"
+    ]
+}

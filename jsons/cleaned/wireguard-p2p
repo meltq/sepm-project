@@ -1,0 +1,19 @@
+{
+    "name": "wireguard-p2p",
+    "deps": [
+        "base64",
+        "byteorder",
+        "dbus",
+        "dbus-tokio",
+        "docopt",
+        "env_logger",
+        "error-chain",
+        "futures-await",
+        "log",
+        "rust-ini",
+        "sodiumoxide",
+        "stun3489",
+        "tokio-core",
+        "tokio-process"
+    ]
+}

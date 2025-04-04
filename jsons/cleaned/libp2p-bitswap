@@ -1,0 +1,21 @@
+{
+    "name": "libp2p-bitswap",
+    "deps": [
+        "anyhow",
+        "async-std",
+        "async-trait",
+        "env_logger",
+        "fnv",
+        "futures",
+        "libipld",
+        "libp2p",
+        "libp2p-core",
+        "libp2p-swarm",
+        "log",
+        "multihash",
+        "prost",
+        "prost-build",
+        "thiserror",
+        "unsigned-varint"
+    ]
+}

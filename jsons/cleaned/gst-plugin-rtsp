@@ -1,0 +1,23 @@
+{
+    "name": "gst-plugin-rtsp",
+    "deps": [
+        "anyhow",
+        "atomic_refcell",
+        "data-encoding",
+        "futures",
+        "gst",
+        "gst-app",
+        "gst-net",
+        "gst-pbutils",
+        "gst-plugin-version-helper",
+        "lru",
+        "once_cell",
+        "rtsp-types",
+        "sdp-types",
+        "socket2",
+        "thiserror",
+        "tokio",
+        "tokio-stream",
+        "url"
+    ]
+}

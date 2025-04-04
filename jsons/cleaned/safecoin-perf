@@ -1,0 +1,21 @@
+{
+    "name": "safecoin-perf",
+    "deps": [
+        "bincode",
+        "curve25519-dalek",
+        "dlopen",
+        "dlopen_derive",
+        "lazy_static",
+        "log",
+        "matches",
+        "rand",
+        "rayon",
+        "safecoin-budget-program",
+        "safecoin-logger",
+        "safecoin-measure",
+        "safecoin-metrics",
+        "safecoin-rayon-threadlimit",
+        "safecoin-sdk",
+        "serde"
+    ]
+}

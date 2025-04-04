@@ -1,0 +1,17 @@
+{
+    "name": "wasmworker",
+    "deps": [
+        "futures",
+        "js-sys",
+        "postcard",
+        "send_wrapper",
+        "serde",
+        "serde-wasm-bindgen",
+        "serde_bytes",
+        "thiserror",
+        "tokio",
+        "wasm-bindgen",
+        "wasm-bindgen-futures",
+        "web-sys"
+    ]
+}

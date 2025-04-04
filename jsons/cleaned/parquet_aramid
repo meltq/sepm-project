@@ -1,0 +1,22 @@
+{
+    "name": "parquet_aramid",
+    "deps": [
+        "anyhow",
+        "arrow",
+        "bytes",
+        "crossbeam-queue",
+        "epserde",
+        "futures",
+        "itertools",
+        "num_cpus",
+        "object_store",
+        "parquet",
+        "rdst",
+        "sux",
+        "tokio",
+        "tokio-stream",
+        "tokio-test",
+        "tracing",
+        "url"
+    ]
+}

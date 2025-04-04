@@ -1,0 +1,28 @@
+{
+    "name": "tuktuk-cli",
+    "deps": [
+        "anchor-client",
+        "anchor-lang",
+        "anyhow",
+        "bincode",
+        "bs58",
+        "chrono",
+        "clap",
+        "dirs",
+        "itertools",
+        "serde",
+        "serde_json",
+        "solana-client",
+        "solana-program",
+        "solana-quic-client",
+        "solana-sdk",
+        "solana-transaction-utils",
+        "spl-associated-token-account",
+        "spl-token",
+        "thiserror",
+        "tokio",
+        "tokio-util",
+        "tuktuk-program",
+        "tuktuk-sdk"
+    ]
+}

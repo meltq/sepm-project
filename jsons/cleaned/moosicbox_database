@@ -1,0 +1,21 @@
+{
+    "name": "moosicbox_database",
+    "deps": [
+        "actix-web",
+        "async-trait",
+        "chrono",
+        "futures",
+        "log",
+        "moosicbox_task",
+        "postgres-protocol",
+        "qstring",
+        "regex",
+        "rusqlite",
+        "sqlx",
+        "sqlx-postgres",
+        "thiserror",
+        "tokio",
+        "tokio-postgres",
+        "tokio-util"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "hyperspeed-broadcast",
+    "deps": [
+        "async-std",
+        "async-trait",
+        "async-tungstenite",
+        "ftl-protocol",
+        "futures",
+        "log",
+        "mediasoup",
+        "once_cell",
+        "rtp",
+        "serde",
+        "serde_json",
+        "webrtc-util"
+    ]
+}

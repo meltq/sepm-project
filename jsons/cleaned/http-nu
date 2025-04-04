@@ -1,0 +1,25 @@
+{
+    "name": "http-nu",
+    "deps": [
+        "bytes",
+        "clap",
+        "http",
+        "http-body-util",
+        "http-serde",
+        "hyper",
+        "hyper-util",
+        "nu-cli",
+        "nu-cmd-lang",
+        "nu-command",
+        "nu-engine",
+        "nu-parser",
+        "nu-protocol",
+        "serde",
+        "serde_json",
+        "tempfile",
+        "tokio",
+        "tokio-stream",
+        "tokio-test",
+        "url"
+    ]
+}

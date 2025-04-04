@@ -1,0 +1,32 @@
+{
+    "name": "drogue-bazaar",
+    "deps": [
+        "actix-cors",
+        "actix-http",
+        "actix-service",
+        "actix-web",
+        "actix-web-extras",
+        "actix-web-opentelemetry",
+        "actix-web-prom",
+        "anyhow",
+        "async-trait",
+        "config",
+        "dotenv",
+        "env_logger",
+        "futures-core",
+        "futures-util",
+        "http",
+        "humantime",
+        "humantime-serde",
+        "log",
+        "opentelemetry",
+        "opentelemetry-jaeger",
+        "prometheus",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tracing",
+        "tracing-opentelemetry",
+        "tracing-subscriber"
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "name": "seedelf-cli",
+    "deps": [
+        "aes-gcm",
+        "argon2",
+        "base64",
+        "blake2",
+        "blstrs",
+        "clap",
+        "colored",
+        "dirs",
+        "ff",
+        "hex",
+        "include_dir",
+        "pallas-addresses",
+        "pallas-codec",
+        "pallas-crypto",
+        "pallas-primitives",
+        "pallas-traverse",
+        "pallas-txbuilder",
+        "pallas-wallet",
+        "rand_core",
+        "reqwest",
+        "rpassword",
+        "self_update",
+        "serde",
+        "serde_cbor",
+        "serde_json",
+        "tokio",
+        "warp",
+        "whoami"
+    ]
+}

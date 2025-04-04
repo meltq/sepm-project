@@ -1,0 +1,23 @@
+{
+    "name": "gemachain-storage-bigtable",
+    "deps": [
+        "backoff",
+        "bincode",
+        "bzip2",
+        "enum-iterator",
+        "flate2",
+        "gemachain-sdk",
+        "gemachain-storage-proto",
+        "gemachain-transaction-status",
+        "goauth",
+        "log",
+        "prost",
+        "prost-types",
+        "serde",
+        "serde_derive",
+        "smpl_jwt",
+        "thiserror",
+        "tonic",
+        "zstd"
+    ]
+}

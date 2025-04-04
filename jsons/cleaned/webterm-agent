@@ -1,0 +1,16 @@
+{
+    "name": "webterm-agent",
+    "deps": [
+        "clap",
+        "flatbuffers",
+        "futures",
+        "pty-process",
+        "semver",
+        "tokio",
+        "tokio-tungstenite",
+        "tracing",
+        "tracing-subscriber",
+        "url",
+        "webterm-core"
+    ]
+}

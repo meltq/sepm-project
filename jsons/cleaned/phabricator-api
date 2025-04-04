@@ -1,0 +1,18 @@
+{
+    "name": "phabricator-api",
+    "deps": [
+        "anyhow",
+        "chrono",
+        "env_logger",
+        "erased-serde",
+        "reqwest",
+        "rust_decimal",
+        "serde",
+        "serde_json",
+        "serde_urlencoded",
+        "structopt",
+        "thiserror",
+        "tokio",
+        "url"
+    ]
+}

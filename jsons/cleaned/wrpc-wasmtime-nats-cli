@@ -1,0 +1,30 @@
+{
+    "name": "wrpc-wasmtime-nats-cli",
+    "deps": [
+        "anyhow",
+        "async-nats",
+        "clap",
+        "futures",
+        "hyper",
+        "hyper-util",
+        "reqwest",
+        "tokio",
+        "tracing",
+        "tracing-subscriber",
+        "url",
+        "wasmcloud-component-adapters",
+        "wasmparser",
+        "wasmtime",
+        "wasmtime-wasi",
+        "wasmtime-wasi-http",
+        "wit-bindgen-wrpc",
+        "wit-component",
+        "wit-parser",
+        "wrpc-cli",
+        "wrpc-interface-http",
+        "wrpc-runtime-wasmtime",
+        "wrpc-transport",
+        "wrpc-transport-nats",
+        "wrpc-types"
+    ]
+}

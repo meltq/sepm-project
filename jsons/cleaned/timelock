@@ -1,0 +1,30 @@
+{
+    "name": "timelock",
+    "deps": [
+        "aes-gcm",
+        "ark-bls12-377",
+        "ark-bls12-381",
+        "ark-ec",
+        "ark-ed-on-bls12-381",
+        "ark-ff",
+        "ark-poly",
+        "ark-serialize",
+        "ark-std",
+        "array-bytes",
+        "chacha20poly1305",
+        "codec",
+        "criterion",
+        "generic-array",
+        "hex",
+        "rand_chacha",
+        "rand_core",
+        "scale-info",
+        "serde",
+        "serde_cbor",
+        "serde_json",
+        "sha2",
+        "sha3",
+        "simulacrum",
+        "w3f-bls"
+    ]
+}

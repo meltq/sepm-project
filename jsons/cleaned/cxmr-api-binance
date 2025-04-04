@@ -1,0 +1,21 @@
+{
+    "name": "cxmr-api-binance",
+    "deps": [
+        "async-trait",
+        "chrono",
+        "cxmr-api",
+        "cxmr-api-clients-errors",
+        "cxmr-balances",
+        "cxmr-currency",
+        "cxmr-exchanges",
+        "cxmr-http-client",
+        "hashbrown",
+        "hex",
+        "hyper",
+        "ring",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "tokio"
+    ]
+}

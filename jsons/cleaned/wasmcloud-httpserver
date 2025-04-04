@@ -1,0 +1,20 @@
+{
+    "name": "wasmcloud-httpserver",
+    "deps": [
+        "actix-multipart",
+        "actix-rt",
+        "actix-web",
+        "crossbeam",
+        "crossbeam-channel",
+        "crossbeam-utils",
+        "env_logger",
+        "futures",
+        "log",
+        "rmp-serde",
+        "serde",
+        "serde_bytes",
+        "wascc-codec",
+        "wasmcloud-actor-core",
+        "wasmcloud-actor-http-server"
+    ]
+}

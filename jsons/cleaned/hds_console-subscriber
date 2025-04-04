@@ -1,0 +1,29 @@
+{
+    "name": "hds_console-subscriber",
+    "deps": [
+        "console-api",
+        "crossbeam-channel",
+        "crossbeam-utils",
+        "futures",
+        "futures-task",
+        "hdrhistogram",
+        "http",
+        "humantime",
+        "parking_lot_crate",
+        "prost",
+        "prost-types",
+        "serde",
+        "serde_json",
+        "thread_local",
+        "tokio",
+        "tokio",
+        "tokio-stream",
+        "tonic",
+        "tonic-web",
+        "tower",
+        "tower-http",
+        "tracing",
+        "tracing-core",
+        "tracing-subscriber"
+    ]
+}

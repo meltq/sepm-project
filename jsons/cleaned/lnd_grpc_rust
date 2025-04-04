@@ -1,0 +1,17 @@
+{
+    "name": "lnd_grpc_rust",
+    "deps": [
+        "hex",
+        "hyper",
+        "hyper-openssl",
+        "openssl",
+        "pretty_env_logger",
+        "prost",
+        "tokio",
+        "tokio-stream",
+        "tonic",
+        "tonic-build",
+        "tonic-openssl",
+        "tower"
+    ]
+}

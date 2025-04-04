@@ -1,0 +1,32 @@
+{
+    "name": "russh-keys",
+    "deps": [
+        "aes",
+        "bcrypt-pbkdf",
+        "bit-vec",
+        "block-modes",
+        "byteorder",
+        "data-encoding",
+        "dirs",
+        "env_logger",
+        "futures",
+        "hmac",
+        "log",
+        "md5",
+        "num-bigint",
+        "num-integer",
+        "openssl",
+        "pbkdf2",
+        "rand",
+        "russh-cryptovec",
+        "russh-libsodium",
+        "serde",
+        "serde_derive",
+        "sha2",
+        "tempdir",
+        "thiserror",
+        "tokio",
+        "tokio-stream",
+        "yasna"
+    ]
+}

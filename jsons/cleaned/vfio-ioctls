@@ -1,0 +1,14 @@
+{
+    "name": "vfio-ioctls",
+    "deps": [
+        "byteorder",
+        "kvm-bindings",
+        "kvm-ioctls",
+        "libc",
+        "log",
+        "thiserror",
+        "vfio-bindings",
+        "vm-memory",
+        "vmm-sys-util"
+    ]
+}

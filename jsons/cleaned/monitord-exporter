@@ -1,0 +1,13 @@
+{
+    "name": "monitord-exporter",
+    "deps": [
+        "anyhow",
+        "clap",
+        "clap-verbosity-flag",
+        "env_logger",
+        "log",
+        "monitord",
+        "prometheus_exporter",
+        "signal-hook"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "name": "moosicbox_load_balancer",
+    "deps": [
+        "async-trait",
+        "log",
+        "moosicbox_env_utils",
+        "moosicbox_logging",
+        "pingora",
+        "pingora-core",
+        "pingora-http",
+        "pingora-load-balancing",
+        "pingora-proxy"
+    ]
+}

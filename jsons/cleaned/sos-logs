@@ -1,0 +1,12 @@
+{
+    "name": "sos-logs",
+    "deps": [
+        "rev_buf_reader",
+        "rustc_version",
+        "sos-core",
+        "thiserror",
+        "time",
+        "tracing-appender",
+        "tracing-subscriber"
+    ]
+}

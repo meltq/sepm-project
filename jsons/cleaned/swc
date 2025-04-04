@@ -1,0 +1,28 @@
+{
+    "name": "swc",
+    "deps": [
+        "anyhow",
+        "base64",
+        "dashmap",
+        "either",
+        "log",
+        "once_cell",
+        "rayon",
+        "regex",
+        "serde",
+        "serde_json",
+        "sourcemap",
+        "swc_atoms",
+        "swc_common",
+        "swc_ecma_ast",
+        "swc_ecma_codegen",
+        "swc_ecma_ext_transforms",
+        "swc_ecma_parser",
+        "swc_ecma_preset_env",
+        "swc_ecma_transforms",
+        "swc_ecma_visit",
+        "swc_visit",
+        "testing",
+        "walkdir"
+    ]
+}

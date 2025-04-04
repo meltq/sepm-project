@@ -1,0 +1,28 @@
+{
+    "name": "pallet-dapps-staking",
+    "deps": [
+        "codec",
+        "derive_more",
+        "frame-support",
+        "frame-system",
+        "hex-literal",
+        "num-traits",
+        "pallet-balances",
+        "pallet-contract-operator",
+        "pallet-contracts",
+        "pallet-plasm-rewards",
+        "pallet-randomness-collective-flip",
+        "pallet-session",
+        "pallet-staking",
+        "pallet-timestamp",
+        "pallet-transaction-payment",
+        "serde",
+        "sp-arithmetic",
+        "sp-core",
+        "sp-io",
+        "sp-runtime",
+        "sp-staking",
+        "sp-std",
+        "wabt"
+    ]
+}

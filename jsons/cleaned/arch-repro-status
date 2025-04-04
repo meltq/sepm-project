@@ -1,0 +1,27 @@
+{
+    "name": "arch-repro-status",
+    "deps": [
+        "alpm",
+        "anyhow",
+        "bytesize",
+        "chrono",
+        "clap",
+        "clap_complete",
+        "colored",
+        "console",
+        "ctrlc",
+        "dialoguer",
+        "dirs-next",
+        "futures",
+        "log",
+        "pretty_assertions",
+        "pretty_env_logger",
+        "rebuilderd-common",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "vecrem"
+    ]
+}

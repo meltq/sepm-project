@@ -1,0 +1,17 @@
+{
+    "name": "execution-engine",
+    "deps": [
+        "async-trait",
+        "dyn-clone",
+        "eval",
+        "futures",
+        "nats",
+        "rand",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "uuid"
+    ]
+}

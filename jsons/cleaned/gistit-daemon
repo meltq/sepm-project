@@ -1,0 +1,15 @@
+{
+    "name": "gistit-daemon",
+    "deps": [
+        "async-trait",
+        "clap",
+        "either",
+        "env_logger",
+        "gistit-ipc",
+        "libp2p",
+        "log",
+        "thiserror",
+        "tokio",
+        "void"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "name": "http-relay",
+    "deps": [
+        "anyhow",
+        "axum",
+        "axum-server",
+        "futures-util",
+        "tokio",
+        "tower-http",
+        "tracing",
+        "url"
+    ]
+}

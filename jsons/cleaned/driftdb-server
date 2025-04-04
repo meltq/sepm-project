@@ -1,0 +1,17 @@
+{
+    "name": "driftdb-server",
+    "deps": [
+        "anyhow",
+        "axum",
+        "chrono",
+        "clap",
+        "driftdb",
+        "hyper",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tower-http",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

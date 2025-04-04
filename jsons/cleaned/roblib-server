@@ -1,0 +1,17 @@
+{
+    "name": "roblib-server",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "axum",
+        "bincode",
+        "env_logger",
+        "envy",
+        "futures-util",
+        "log",
+        "roblib",
+        "serde",
+        "tokio",
+        "tokio-util"
+    ]
+}

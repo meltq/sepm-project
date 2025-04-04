@@ -1,0 +1,27 @@
+{
+    "name": "spring-opentelemetry",
+    "deps": [
+        "anyhow",
+        "axum",
+        "futures-util",
+        "http",
+        "opentelemetry",
+        "opentelemetry-appender-tracing",
+        "opentelemetry-http",
+        "opentelemetry-jaeger-propagator",
+        "opentelemetry-otlp",
+        "opentelemetry-resource-detectors",
+        "opentelemetry-semantic-conventions",
+        "opentelemetry-zipkin",
+        "opentelemetry_sdk",
+        "pin-project",
+        "schemars",
+        "serde",
+        "spring",
+        "tonic",
+        "tower",
+        "tracing",
+        "tracing-opentelemetry",
+        "tracing-subscriber"
+    ]
+}

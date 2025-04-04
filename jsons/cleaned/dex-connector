@@ -1,0 +1,20 @@
+{
+    "name": "dex-connector",
+    "deps": [
+        "async-trait",
+        "chrono",
+        "crypto-mac",
+        "ctrlc",
+        "debot-utils",
+        "futures",
+        "hex",
+        "hmac",
+        "log",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "sha2",
+        "tokio",
+        "tokio-tungstenite"
+    ]
+}

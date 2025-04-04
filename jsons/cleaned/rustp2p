@@ -1,0 +1,24 @@
+{
+    "name": "rustp2p",
+    "deps": [
+        "anyhow",
+        "async-shutdown",
+        "async-trait",
+        "bytes",
+        "clap",
+        "crossbeam-utils",
+        "dashmap",
+        "dns-parser",
+        "env_logger",
+        "log",
+        "log",
+        "mimalloc-rust",
+        "parking_lot",
+        "rand",
+        "rmp-serde",
+        "rust-p2p-core",
+        "thiserror",
+        "tokio",
+        "tun-rs"
+    ]
+}

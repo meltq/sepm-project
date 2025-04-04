@@ -1,0 +1,14 @@
+{
+    "name": "openai_client",
+    "deps": [
+        "async-trait",
+        "derive_builder",
+        "dotenv",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "wiremock"
+    ]
+}

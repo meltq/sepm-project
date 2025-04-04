@@ -1,0 +1,24 @@
+{
+    "name": "portal-pc-waffle",
+    "deps": [
+        "addr2line",
+        "anyhow",
+        "either",
+        "env_logger",
+        "fxhash",
+        "indexmap",
+        "lazy_static",
+        "libc",
+        "libfuzzer-sys",
+        "log",
+        "paste",
+        "rayon",
+        "serde",
+        "smallvec",
+        "stacker",
+        "structopt",
+        "wasm-encoder",
+        "wasm-smith",
+        "wasmparser"
+    ]
+}

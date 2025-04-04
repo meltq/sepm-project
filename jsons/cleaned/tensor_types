@@ -1,0 +1,12 @@
+{
+    "name": "tensor_types",
+    "deps": [
+        "anyhow",
+        "serde",
+        "serde_json",
+        "tch",
+        "tensor_types_proc",
+        "thiserror",
+        "trybuild"
+    ]
+}

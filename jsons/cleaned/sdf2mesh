@@ -1,0 +1,23 @@
+{
+    "name": "sdf2mesh",
+    "deps": [
+        "bytemuck",
+        "clap",
+        "common_macros",
+        "encase",
+        "env_logger",
+        "euclid",
+        "futures-intrusive",
+        "lazy_static",
+        "log",
+        "naga",
+        "nalgebra",
+        "png",
+        "pollster",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "tokio",
+        "wgpu"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "name": "liserk-client",
+    "deps": [
+        "config",
+        "liserk-shared",
+        "pqc_kyber",
+        "rand",
+        "serde",
+        "serde_cbor",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "tracing-subscriber",
+        "uuid"
+    ]
+}

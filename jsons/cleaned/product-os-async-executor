@@ -1,0 +1,12 @@
+{
+    "name": "product-os-async-executor",
+    "deps": [
+        "async-std",
+        "async-trait",
+        "futures-task",
+        "futures-util",
+        "no-std-compat",
+        "smol",
+        "tokio"
+    ]
+}

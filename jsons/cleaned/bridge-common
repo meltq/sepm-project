@@ -1,0 +1,28 @@
+{
+    "name": "bridge-common",
+    "deps": [
+        "anyhow",
+        "askama",
+        "async-recursion",
+        "async-trait",
+        "bollard",
+        "candle-core",
+        "candle-nn",
+        "candle-transformers",
+        "chrono",
+        "fantoccini",
+        "futures-util",
+        "hf-hub",
+        "markdown",
+        "regex",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "sqlx",
+        "thiserror",
+        "tokenizers",
+        "tokio",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

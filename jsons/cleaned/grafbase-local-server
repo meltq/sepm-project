@@ -1,0 +1,25 @@
+{
+    "name": "grafbase-local-server",
+    "deps": [
+        "anyhow",
+        "axum",
+        "chrono",
+        "common",
+        "exitcode",
+        "hyper",
+        "indoc",
+        "log",
+        "reqwest",
+        "rust-embed",
+        "serde",
+        "serde_json",
+        "serde_json",
+        "sqlx",
+        "thiserror",
+        "tokio",
+        "tower-http",
+        "tracing",
+        "version-compare",
+        "which"
+    ]
+}

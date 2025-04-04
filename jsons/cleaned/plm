@@ -1,0 +1,21 @@
+{
+    "name": "plm",
+    "deps": [
+        "anyhow",
+        "async-std",
+        "bitflags",
+        "bytes",
+        "futures",
+        "futures-timer",
+        "lazy_static",
+        "log",
+        "nom",
+        "pretty_env_logger",
+        "prettytable-rs",
+        "structopt",
+        "thiserror",
+        "tokio",
+        "tokio-serial",
+        "tokio-util"
+    ]
+}

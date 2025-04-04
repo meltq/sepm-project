@@ -1,0 +1,22 @@
+{
+    "name": "brig",
+    "deps": [
+        "actix",
+        "actix-web",
+        "anyhow",
+        "async-trait",
+        "dotenv",
+        "futures",
+        "prost",
+        "serde",
+        "serde_json",
+        "sqlx",
+        "thiserror",
+        "tokio",
+        "tokio-pg-mapper",
+        "tokio-pg-mapper-derive",
+        "tonic",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

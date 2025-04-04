@@ -1,0 +1,21 @@
+{
+    "name": "tdn_did",
+    "deps": [
+        "anyhow",
+        "bs58",
+        "curve25519-dalek",
+        "ed25519-dalek",
+        "ethsign",
+        "hex",
+        "hmac",
+        "libsecp256k1",
+        "pbkdf2",
+        "rand",
+        "serde",
+        "sha2",
+        "signature",
+        "tdn_types",
+        "unicode-normalization",
+        "zeroize"
+    ]
+}

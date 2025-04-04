@@ -1,0 +1,31 @@
+{
+    "name": "vegafusion-sql",
+    "deps": [
+        "arrow",
+        "async-std",
+        "async-trait",
+        "datafusion",
+        "datafusion-common",
+        "datafusion-expr",
+        "deterministic-hash",
+        "lazy_static",
+        "log",
+        "regex",
+        "reqwest",
+        "reqwest-middleware",
+        "reqwest-retry",
+        "rstest",
+        "rstest_reuse",
+        "serde",
+        "serde_json",
+        "sqlparser",
+        "tempfile",
+        "tokio",
+        "toml",
+        "vegafusion-common",
+        "vegafusion-common",
+        "vegafusion-dataframe",
+        "vegafusion-datafusion-udfs",
+        "vegafusion-datafusion-udfs"
+    ]
+}

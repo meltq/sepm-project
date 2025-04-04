@@ -1,0 +1,15 @@
+{
+    "name": "hdf5-metno-sys",
+    "deps": [
+        "hdf5-src",
+        "libc",
+        "libloading",
+        "libz-sys",
+        "mpi-sys",
+        "pkg-config",
+        "regex",
+        "serde",
+        "serde_derive",
+        "winreg"
+    ]
+}

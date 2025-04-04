@@ -1,0 +1,15 @@
+{
+    "name": "goldboot-registry",
+    "deps": [
+        "anyhow",
+        "axum",
+        "clap",
+        "goldboot",
+        "goldboot-image",
+        "reqwest",
+        "tftpd",
+        "tokio",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

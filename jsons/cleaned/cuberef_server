@@ -1,0 +1,30 @@
+{
+    "name": "cuberef_server",
+    "deps": [
+        "anyhow",
+        "argfile",
+        "cgmath",
+        "clap",
+        "config",
+        "ctor",
+        "cuberef_core",
+        "env_logger",
+        "hex",
+        "integer-encoding",
+        "lazy_static",
+        "log",
+        "microbench",
+        "parking_lot",
+        "prost",
+        "rocksdb",
+        "sha2",
+        "thiserror",
+        "tokio",
+        "tokio-stream",
+        "tokio-util",
+        "tonic",
+        "tonic-reflection",
+        "uuid",
+        "vec3D"
+    ]
+}

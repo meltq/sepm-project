@@ -1,0 +1,23 @@
+{
+    "name": "leptos_workers",
+    "deps": [
+        "bincode",
+        "console_error_panic_hook",
+        "const_format",
+        "flume",
+        "futures",
+        "js-sys",
+        "leptos_workers_macro",
+        "serde",
+        "serde-wasm-bindgen",
+        "serde_json",
+        "thiserror",
+        "tracing",
+        "tracing-subscriber",
+        "tracing-subscriber-wasm",
+        "wasm-bindgen",
+        "wasm-bindgen-futures",
+        "web-sys",
+        "xxhash-rust"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "name": "qiniu-upload-token",
+    "deps": [
+        "anyhow",
+        "assert-impl",
+        "async-std",
+        "auto_impl",
+        "duplicate",
+        "dyn-clonable",
+        "futures",
+        "mime",
+        "once_cell",
+        "qiniu-credential",
+        "qiniu-utils",
+        "serde",
+        "serde_json",
+        "smart-default",
+        "structopt",
+        "tap",
+        "thiserror"
+    ]
+}

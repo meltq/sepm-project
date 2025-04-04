@@ -1,0 +1,19 @@
+{
+    "name": "slint-lsp",
+    "deps": [
+        "clap",
+        "crossbeam-channel",
+        "dunce",
+        "euclid",
+        "i-slint-backend-selector",
+        "i-slint-compiler",
+        "i-slint-core",
+        "lsp-server",
+        "lsp-types",
+        "once_cell",
+        "serde",
+        "serde_json",
+        "slint-interpreter",
+        "spin_on"
+    ]
+}

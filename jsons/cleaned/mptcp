@@ -1,0 +1,20 @@
+{
+    "name": "mptcp",
+    "deps": [
+        "async-h1",
+        "async-std",
+        "async-trait",
+        "axum",
+        "bytes",
+        "http-body-util",
+        "http-types",
+        "hyper",
+        "hyper-util",
+        "libc",
+        "socket2",
+        "sysctl",
+        "tokio",
+        "tokio",
+        "tower-service"
+    ]
+}

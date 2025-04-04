@@ -1,0 +1,15 @@
+{
+    "name": "castle_api",
+    "deps": [
+        "async-trait",
+        "castle_error",
+        "castle_query_parser",
+        "castle_schema_parser",
+        "castle_shared_parser",
+        "derivative",
+        "rmpv",
+        "serde",
+        "tokio",
+        "uuid"
+    ]
+}

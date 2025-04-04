@@ -1,0 +1,15 @@
+{
+    "name": "mz_rusoto_redshift",
+    "deps": [
+        "async-trait",
+        "bytes",
+        "futures",
+        "mz_rusoto_core",
+        "mz_rusoto_mock",
+        "serde",
+        "serde_derive",
+        "serde_urlencoded",
+        "tokio",
+        "xml-rs"
+    ]
+}

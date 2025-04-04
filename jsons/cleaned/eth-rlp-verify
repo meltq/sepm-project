@@ -1,0 +1,17 @@
+{
+    "name": "eth-rlp-verify",
+    "deps": [
+        "clap",
+        "dotenv",
+        "ethereum-types",
+        "hex",
+        "reqwest",
+        "rlp",
+        "serde",
+        "serde_json",
+        "sha3",
+        "tokio",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

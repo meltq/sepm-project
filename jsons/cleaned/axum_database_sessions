@@ -1,0 +1,28 @@
+{
+    "name": "axum_database_sessions",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "axum",
+        "axum-extra",
+        "chrono",
+        "cookie",
+        "futures",
+        "futures-util",
+        "http",
+        "http-body",
+        "pin-project-lite",
+        "rand",
+        "serde",
+        "serde_json",
+        "sqlx",
+        "thiserror",
+        "tokio",
+        "tower-cookies",
+        "tower-http",
+        "tower-layer",
+        "tower-service",
+        "tracing",
+        "uuid"
+    ]
+}

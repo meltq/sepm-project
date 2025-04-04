@@ -1,0 +1,27 @@
+{
+    "name": "onagre-launcher-service",
+    "deps": [
+        "anyhow",
+        "async-oneshot",
+        "async-trait",
+        "dirs",
+        "flume",
+        "futures",
+        "futures_codec",
+        "gen-z",
+        "num_cpus",
+        "onagre-launcher",
+        "regex",
+        "ron",
+        "serde",
+        "serde_json",
+        "serde_with",
+        "slab",
+        "strsim",
+        "tokio",
+        "tokio-stream",
+        "toml",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

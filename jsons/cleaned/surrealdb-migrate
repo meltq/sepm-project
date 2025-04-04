@@ -1,0 +1,21 @@
+{
+    "name": "surrealdb-migrate",
+    "deps": [
+        "anyhow",
+        "assert_fs",
+        "assertor",
+        "chrono",
+        "color-eyre",
+        "database-migration",
+        "database-migration",
+        "database-migration-files",
+        "dotenvy",
+        "indexmap",
+        "log",
+        "surrealdb-migrate-config",
+        "surrealdb-migrate-db-client",
+        "testcontainers-modules",
+        "tokio",
+        "version-sync"
+    ]
+}

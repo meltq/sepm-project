@@ -1,0 +1,21 @@
+{
+    "name": "karyon_net",
+    "deps": [
+        "async-channel",
+        "async-trait",
+        "async-tungstenite",
+        "bincode",
+        "futures-rustls",
+        "futures-util",
+        "karyon_core",
+        "log",
+        "pin-project-lite",
+        "rustls-pki-types",
+        "serde",
+        "smol",
+        "thiserror",
+        "tokio",
+        "tokio-rustls",
+        "url"
+    ]
+}

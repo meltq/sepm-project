@@ -1,0 +1,16 @@
+{
+    "name": "ibc-middleware-overflow-receive",
+    "deps": [
+        "ibc-app-transfer-types",
+        "ibc-core-channel-types",
+        "ibc-core-host-types",
+        "ibc-core-router",
+        "ibc-core-router-types",
+        "ibc-middleware-module",
+        "ibc-middleware-module-macros",
+        "ibc-primitives",
+        "ibc-testkit",
+        "serde",
+        "serde_json"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "edm-axum",
+    "deps": [
+        "async-trait",
+        "axum",
+        "bytes",
+        "edm-core",
+        "futures",
+        "image",
+        "parking_lot",
+        "serde_json",
+        "tokio",
+        "tokio-stream",
+        "tower",
+        "tower-http",
+        "tracing",
+        "utoipa",
+        "utoipa-rapidoc"
+    ]
+}

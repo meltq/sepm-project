@@ -1,0 +1,14 @@
+{
+    "name": "fastboot-protocol",
+    "deps": [
+        "anyhow",
+        "bytes",
+        "clap",
+        "futures",
+        "nusb",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

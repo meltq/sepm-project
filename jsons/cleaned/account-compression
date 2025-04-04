@@ -1,0 +1,32 @@
+{
+    "name": "account-compression",
+    "deps": [
+        "aligned-sized",
+        "anchor-lang",
+        "ark-ff",
+        "ark-serialize",
+        "borsh",
+        "bytemuck",
+        "light-bounded-vec",
+        "light-concurrent-merkle-tree",
+        "light-hash-set",
+        "light-hasher",
+        "light-heap",
+        "light-indexed-merkle-tree",
+        "light-macros",
+        "light-merkle-tree-reference",
+        "light-utils",
+        "light-verifier",
+        "log",
+        "memoffset",
+        "num-bigint",
+        "num-traits",
+        "solana-program-test",
+        "solana-sdk",
+        "solana-sdk",
+        "spl-account-compression",
+        "spl-concurrent-merkle-tree",
+        "thiserror",
+        "tokio"
+    ]
+}

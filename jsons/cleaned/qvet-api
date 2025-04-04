@@ -1,0 +1,19 @@
+{
+    "name": "qvet-api",
+    "deps": [
+        "anyhow",
+        "axum",
+        "clap",
+        "env_logger",
+        "hex",
+        "hyper",
+        "oauth2",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tower-http",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "name": "substrate-wasmtime",
+    "deps": [
+        "anyhow",
+        "backtrace",
+        "cfg-if",
+        "file-per-thread-logger",
+        "lazy_static",
+        "libc",
+        "pretty_env_logger",
+        "rayon",
+        "region",
+        "rustc-demangle",
+        "target-lexicon",
+        "tempfile",
+        "wasi-common",
+        "wasmparser",
+        "wasmtime-environ",
+        "wasmtime-jit",
+        "wasmtime-profiling",
+        "wasmtime-runtime",
+        "wat",
+        "wat",
+        "winapi"
+    ]
+}

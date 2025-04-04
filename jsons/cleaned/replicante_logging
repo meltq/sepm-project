@@ -1,0 +1,11 @@
+{
+    "name": "replicante_logging",
+    "deps": [
+        "serde",
+        "serde_derive",
+        "slog",
+        "slog-async",
+        "slog-journald",
+        "slog-json"
+    ]
+}

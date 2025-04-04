@@ -1,0 +1,24 @@
+{
+    "name": "konarr-server",
+    "deps": [
+        "anyhow",
+        "chrono",
+        "clap",
+        "console",
+        "dotenvy",
+        "env_logger",
+        "geekorm",
+        "konarr",
+        "libsql",
+        "log",
+        "rocket",
+        "rocket-governor",
+        "rocket_cors",
+        "semver",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "ws"
+    ]
+}

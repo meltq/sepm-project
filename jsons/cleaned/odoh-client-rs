@@ -1,0 +1,19 @@
+{
+    "name": "odoh-client-rs",
+    "deps": [
+        "anyhow",
+        "clap",
+        "hex",
+        "lazy_static",
+        "odoh-rs",
+        "rand",
+        "regex",
+        "reqwest",
+        "serde",
+        "tokio",
+        "toml",
+        "trust-dns-client",
+        "trust-dns-proto",
+        "url"
+    ]
+}

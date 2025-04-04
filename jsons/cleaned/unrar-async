@@ -1,0 +1,19 @@
+{
+    "name": "unrar-async",
+    "deps": [
+        "anyhow",
+        "async-std",
+        "bitflags",
+        "clap",
+        "enum_primitive",
+        "futures",
+        "lazy-regex",
+        "libc",
+        "regex",
+        "tempdir",
+        "thiserror",
+        "tokio",
+        "unrar_sys",
+        "widestring"
+    ]
+}

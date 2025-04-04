@@ -1,0 +1,17 @@
+{
+    "name": "opentelemetry-tracing-utils",
+    "deps": [
+        "anyhow",
+        "opentelemetry",
+        "opentelemetry-otlp",
+        "opentelemetry-semantic-conventions",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tonic",
+        "tracing",
+        "tracing-opentelemetry",
+        "tracing-serde",
+        "tracing-subscriber"
+    ]
+}

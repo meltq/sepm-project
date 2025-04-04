@@ -1,0 +1,14 @@
+{
+    "name": "aws-mfa",
+    "deps": [
+        "anyhow",
+        "aws-config",
+        "aws-sdk-sts",
+        "aws-smithy-client",
+        "aws-smithy-http",
+        "clap",
+        "http",
+        "thiserror",
+        "tokio"
+    ]
+}

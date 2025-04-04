@@ -1,0 +1,26 @@
+{
+    "name": "blueprint-manager",
+    "deps": [
+        "async-trait",
+        "auto_impl",
+        "clap",
+        "color-eyre",
+        "failure",
+        "futures",
+        "gadget-io",
+        "gadget-sdk",
+        "hex",
+        "itertools",
+        "libp2p",
+        "parking_lot",
+        "reqwest",
+        "serde",
+        "sha2",
+        "sp-core",
+        "tangle-subxt",
+        "tokio",
+        "toml",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

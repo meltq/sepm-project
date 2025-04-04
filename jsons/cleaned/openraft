@@ -1,0 +1,24 @@
+{
+    "name": "openraft",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "byte-unit",
+        "bytes",
+        "derive_more",
+        "futures",
+        "lazy_static",
+        "maplit",
+        "memstore",
+        "pretty_assertions",
+        "rand",
+        "serde",
+        "structopt",
+        "thiserror",
+        "tokio",
+        "tracing",
+        "tracing-appender",
+        "tracing-futures",
+        "tracing-subscriber"
+    ]
+}

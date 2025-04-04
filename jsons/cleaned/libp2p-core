@@ -1,0 +1,28 @@
+{
+    "name": "libp2p-core",
+    "deps": [
+        "assert_matches",
+        "bs58",
+        "bytes",
+        "fnv",
+        "futures",
+        "log",
+        "multiaddr",
+        "multihash",
+        "multistream-select",
+        "parking_lot",
+        "protobuf",
+        "quick-error",
+        "rand",
+        "rw-stream-sink",
+        "smallvec",
+        "tokio",
+        "tokio-codec",
+        "tokio-executor",
+        "tokio-io",
+        "tokio-mock-task",
+        "tokio-timer",
+        "tokio-timer",
+        "void"
+    ]
+}

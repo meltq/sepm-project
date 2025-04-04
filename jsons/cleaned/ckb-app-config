@@ -1,0 +1,25 @@
+{
+    "name": "ckb-app-config",
+    "deps": [
+        "ckb-build-info",
+        "ckb-chain-spec",
+        "ckb-fee-estimator",
+        "ckb-jsonrpc-types",
+        "ckb-logger",
+        "ckb-logger-config",
+        "ckb-metrics-config",
+        "ckb-pow",
+        "ckb-resource",
+        "ckb-types",
+        "clap",
+        "multiaddr",
+        "path-clean",
+        "rand",
+        "secio",
+        "sentry",
+        "serde",
+        "serde_plain",
+        "tempfile",
+        "toml"
+    ]
+}

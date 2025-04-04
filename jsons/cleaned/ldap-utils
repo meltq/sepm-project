@@ -1,0 +1,21 @@
+{
+    "name": "ldap-utils",
+    "deps": [
+        "ariadne",
+        "chumsky",
+        "derive_builder",
+        "dirs",
+        "itertools",
+        "ldap-types",
+        "ldap3",
+        "native-tls",
+        "oid",
+        "openssl",
+        "regex",
+        "serde",
+        "thiserror",
+        "tokio",
+        "toml",
+        "tracing"
+    ]
+}

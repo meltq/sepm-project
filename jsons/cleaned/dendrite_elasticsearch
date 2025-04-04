@@ -1,0 +1,14 @@
+{
+    "name": "dendrite_elasticsearch",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "dendrite_lib",
+        "dendrite_macros",
+        "elasticsearch",
+        "log",
+        "serde",
+        "serde_json",
+        "tokio"
+    ]
+}

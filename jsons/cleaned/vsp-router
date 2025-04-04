@@ -1,0 +1,17 @@
+{
+    "name": "vsp-router",
+    "deps": [
+        "anyhow",
+        "bytes",
+        "camino",
+        "clap",
+        "futures",
+        "thiserror",
+        "tokio",
+        "tokio-serial",
+        "tokio-stream",
+        "tokio-util",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

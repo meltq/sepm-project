@@ -1,0 +1,23 @@
+{
+    "name": "sqlpage",
+    "deps": [
+        "actix-files",
+        "actix-web",
+        "anyhow",
+        "async-recursion",
+        "async-stream",
+        "async-trait",
+        "env_logger",
+        "futures-util",
+        "handlebars",
+        "include_dir",
+        "lambda-web",
+        "log",
+        "serde",
+        "serde_json",
+        "sqlparser",
+        "sqlx",
+        "tokio",
+        "tokio-stream"
+    ]
+}

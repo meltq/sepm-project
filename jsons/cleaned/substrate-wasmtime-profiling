@@ -1,0 +1,17 @@
+{
+    "name": "substrate-wasmtime-profiling",
+    "deps": [
+        "anyhow",
+        "cfg-if",
+        "gimli",
+        "ittapi-rs",
+        "lazy_static",
+        "libc",
+        "object",
+        "scroll",
+        "serde",
+        "target-lexicon",
+        "wasmtime-environ",
+        "wasmtime-runtime"
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "name": "wrzasqpl-commons-aws",
+    "deps": [
+        "async-trait",
+        "aws-config",
+        "aws-sdk-dynamodb",
+        "aws-smithy-http",
+        "aws-smithy-types",
+        "env_logger",
+        "futures",
+        "http",
+        "lambda_runtime",
+        "log",
+        "serde",
+        "serde_dynamo",
+        "test-context",
+        "thiserror",
+        "tokio",
+        "tokio-stream",
+        "tower",
+        "tracing",
+        "tracing-core",
+        "tracing-subscriber",
+        "xray-tracing"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "name": "pchain_network",
+    "deps": [
+        "async-trait",
+        "base64url",
+        "ed25519-dalek",
+        "futures",
+        "libp2p",
+        "libp2p-mplex",
+        "log",
+        "pchain-types",
+        "rand",
+        "serial_test",
+        "tokio"
+    ]
+}

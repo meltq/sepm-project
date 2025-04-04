@@ -1,0 +1,21 @@
+{
+    "name": "risc0-zkvm",
+    "deps": [
+        "anyhow",
+        "bytemuck",
+        "criterion",
+        "ctor",
+        "cxx",
+        "env_logger",
+        "log",
+        "rand",
+        "risc0-zkp",
+        "risc0-zkvm-circuit",
+        "risc0-zkvm-platform",
+        "risc0-zkvm-sys",
+        "serde",
+        "sha2",
+        "tempfile",
+        "xmas-elf"
+    ]
+}

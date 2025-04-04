@@ -1,0 +1,19 @@
+{
+    "name": "modio-logger",
+    "deps": [
+        "argh",
+        "async-std",
+        "env_logger",
+        "event-listener",
+        "fsipc",
+        "futures",
+        "futures-util",
+        "log",
+        "modio-logger-db",
+        "serde",
+        "tempfile",
+        "thiserror",
+        "uuid",
+        "zbus"
+    ]
+}

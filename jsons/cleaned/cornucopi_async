@@ -1,0 +1,9 @@
+{
+    "name": "cornucopi_async",
+    "deps": [
+        "async-trait",
+        "cornucopi_client_core",
+        "deadpool-postgres",
+        "tokio-postgres"
+    ]
+}

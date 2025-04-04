@@ -1,0 +1,12 @@
+{
+    "name": "utmp-rs",
+    "deps": [
+        "anyhow",
+        "chrono",
+        "libc",
+        "once_cell",
+        "thiserror",
+        "utmp-raw",
+        "zerocopy"
+    ]
+}

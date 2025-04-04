@@ -1,0 +1,18 @@
+{
+    "name": "loreweaver",
+    "deps": [
+        "async-openai",
+        "async-trait",
+        "chrono",
+        "clap",
+        "google-cloud-storage",
+        "lazy_static",
+        "redis",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tiktoken-rs",
+        "tokio",
+        "tracing"
+    ]
+}

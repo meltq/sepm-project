@@ -1,0 +1,23 @@
+{
+    "name": "tor-dirclient",
+    "deps": [
+        "anyhow",
+        "async-compression",
+        "base64",
+        "futures",
+        "futures-await-test",
+        "hex",
+        "http",
+        "httparse",
+        "httpdate",
+        "log",
+        "memchr",
+        "thiserror",
+        "tor-circmgr",
+        "tor-llcrypto",
+        "tor-netdoc",
+        "tor-proto",
+        "tor-rtcompat",
+        "tor-rtmock"
+    ]
+}

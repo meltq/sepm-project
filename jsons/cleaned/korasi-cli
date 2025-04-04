@@ -1,0 +1,27 @@
+{
+    "name": "korasi-cli",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "aws-config",
+        "aws-sdk-ec2",
+        "aws-sdk-ssm",
+        "aws-smithy-runtime-api",
+        "aws-types",
+        "base64",
+        "clap",
+        "ignore",
+        "inquire",
+        "petname",
+        "pretty_assertions",
+        "reqwest",
+        "russh",
+        "russh-sftp",
+        "shell-escape",
+        "termion",
+        "tokio",
+        "tokio-fd",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

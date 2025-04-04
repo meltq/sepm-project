@@ -1,0 +1,24 @@
+{
+    "name": "nimiq-jsonrpc-client",
+    "deps": [
+        "async-stream",
+        "async-trait",
+        "base64",
+        "futures",
+        "http",
+        "js-sys",
+        "log",
+        "nimiq-jsonrpc-core",
+        "nimiq-jsonrpc-derive",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tokio-tungstenite",
+        "url",
+        "wasm-bindgen",
+        "wasm-bindgen-futures",
+        "web-sys"
+    ]
+}

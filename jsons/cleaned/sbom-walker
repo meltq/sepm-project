@@ -1,0 +1,25 @@
+{
+    "name": "sbom-walker",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "bytes",
+        "chrono",
+        "csv",
+        "digest",
+        "filetime",
+        "futures",
+        "humantime",
+        "log",
+        "reqwest",
+        "sequoia-openpgp",
+        "serde",
+        "serde_json",
+        "sha2",
+        "thiserror",
+        "time",
+        "tokio",
+        "url",
+        "walker-common"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "name": "gemachain-poh",
+    "deps": [
+        "bincode",
+        "core_affinity",
+        "crossbeam-channel",
+        "gemachain-entry",
+        "gemachain-ledger",
+        "gemachain-logger",
+        "gemachain-measure",
+        "gemachain-metrics",
+        "gemachain-perf",
+        "gemachain-runtime",
+        "gemachain-sdk",
+        "gemachain-sys-tuner",
+        "log",
+        "matches",
+        "rand",
+        "thiserror"
+    ]
+}

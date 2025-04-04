@@ -1,0 +1,23 @@
+{
+    "name": "lichess-api",
+    "deps": [
+        "actix-web",
+        "async-std",
+        "awc",
+        "bytes",
+        "futures",
+        "futures-core",
+        "http",
+        "mime",
+        "reqwest",
+        "rustls",
+        "serde",
+        "serde_json",
+        "serde_urlencoded",
+        "serde_with",
+        "thiserror",
+        "tokio",
+        "url",
+        "webpki-roots"
+    ]
+}

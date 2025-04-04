@@ -1,0 +1,13 @@
+{
+    "name": "bevy_terminal_display",
+    "deps": [
+        "bevy",
+        "bevy_dither_post_process",
+        "bevy_headless_render",
+        "crossbeam-channel",
+        "crossterm",
+        "downcast-rs",
+        "once_cell",
+        "ratatui"
+    ]
+}

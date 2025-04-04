@@ -1,0 +1,27 @@
+{
+    "name": "kv-rs",
+    "deps": [
+        "bincode",
+        "byteorder",
+        "bytes",
+        "clap",
+        "fs4",
+        "hex",
+        "log",
+        "paste",
+        "pretty_assertions",
+        "rand",
+        "serde",
+        "serde_bytes",
+        "serde_derive",
+        "serde_json",
+        "serial_test",
+        "tempdir",
+        "tempfile",
+        "tokio",
+        "tokio-serde",
+        "tokio-stream",
+        "tokio-util",
+        "whosly"
+    ]
+}

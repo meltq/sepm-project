@@ -1,0 +1,13 @@
+{
+    "name": "holochain_client_instrumented",
+    "deps": [
+        "anyhow",
+        "holo_hash",
+        "holochain_client",
+        "holochain_conductor_api",
+        "holochain_types",
+        "holochain_zome_types",
+        "wind_tunnel_instruments",
+        "wind_tunnel_instruments_derive"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "name": "listenbrainz-mpd",
+    "deps": [
+        "anyhow",
+        "dirs",
+        "mpd_client",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tokio-stream",
+        "toml",
+        "tracing",
+        "tracing-subscriber"
+    ]
+}

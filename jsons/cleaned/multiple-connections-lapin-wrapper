@@ -1,0 +1,13 @@
+{
+    "name": "multiple-connections-lapin-wrapper",
+    "deps": [
+        "async-recursion",
+        "lapin",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tokio-executor-trait",
+        "tokio-reactor-trait",
+        "uuid"
+    ]
+}

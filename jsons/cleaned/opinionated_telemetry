@@ -1,0 +1,22 @@
+{
+    "name": "opinionated_telemetry",
+    "deps": [
+        "anyhow",
+        "async-trait",
+        "futures",
+        "hyper",
+        "metrics",
+        "metrics-util",
+        "once_cell",
+        "opentelemetry",
+        "opentelemetry-stackdriver",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tokio",
+        "tracing",
+        "tracing-log",
+        "tracing-opentelemetry",
+        "tracing-subscriber"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "oml-storage",
+    "deps": [
+        "async-trait",
+        "aws-config",
+        "aws-sdk-dynamodb",
+        "chrono",
+        "color-eyre",
+        "nanoid",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tracing",
+        "tracing-error",
+        "tracing-subscriber"
+    ]
+}

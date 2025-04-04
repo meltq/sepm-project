@@ -1,0 +1,21 @@
+{
+    "name": "sunscreen_bulletproofs",
+    "deps": [
+        "bincode",
+        "byteorder",
+        "clear_on_drop",
+        "criterion",
+        "curve25519-dalek",
+        "digest",
+        "hex",
+        "merlin",
+        "rand",
+        "rand_chacha",
+        "rand_core",
+        "serde",
+        "serde_derive",
+        "sha3",
+        "subtle",
+        "thiserror"
+    ]
+}

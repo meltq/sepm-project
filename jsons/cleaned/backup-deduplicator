@@ -1,0 +1,19 @@
+{
+    "name": "backup-deduplicator",
+    "deps": [
+        "anyhow",
+        "clap",
+        "env_logger",
+        "exitcode",
+        "file-id",
+        "filetime",
+        "log",
+        "num_cpus",
+        "serde",
+        "serde_json",
+        "sha1",
+        "sha2",
+        "sysinfo",
+        "xxhash-rust"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "burst-pool",
+    "deps": [
+        "env_logger",
+        "lazy_static",
+        "log",
+        "lossyq",
+        "mio",
+        "nix",
+        "parking_lot_core",
+        "rand",
+        "rb",
+        "scoped_threadpool",
+        "spmc",
+        "threadpool"
+    ]
+}

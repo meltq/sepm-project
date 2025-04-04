@@ -1,0 +1,16 @@
+{
+    "name": "tensor_compute",
+    "deps": [
+        "async-trait",
+        "blocking",
+        "bytemuck",
+        "env_logger",
+        "futures",
+        "log",
+        "once_cell",
+        "rand",
+        "wgpu",
+        "winit",
+        "zerocopy"
+    ]
+}

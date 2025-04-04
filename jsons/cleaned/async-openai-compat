@@ -1,0 +1,24 @@
+{
+    "name": "async-openai-compat",
+    "deps": [
+        "backoff",
+        "base64",
+        "bytes",
+        "derive_builder",
+        "eventsource-stream",
+        "futures",
+        "rand",
+        "reqwest",
+        "reqwest-eventsource",
+        "secrecy",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "tokio-stream",
+        "tokio-test",
+        "tokio-tungstenite",
+        "tokio-util",
+        "tracing"
+    ]
+}

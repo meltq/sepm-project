@@ -1,0 +1,22 @@
+{
+    "name": "cometbft-light-client-detector",
+    "deps": [
+        "cometbft",
+        "cometbft-light-client",
+        "cometbft-proto",
+        "cometbft-rpc",
+        "crossbeam-channel",
+        "derive_more",
+        "flex-error",
+        "futures",
+        "serde",
+        "serde_cbor",
+        "serde_derive",
+        "serde_json",
+        "sled",
+        "static_assertions",
+        "time",
+        "tokio",
+        "tracing"
+    ]
+}

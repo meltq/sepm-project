@@ -1,0 +1,20 @@
+{
+    "name": "wspty",
+    "deps": [
+        "anyhow",
+        "bytes",
+        "env_logger",
+        "futures",
+        "futures-util",
+        "libc",
+        "log",
+        "nix",
+        "pretty-hex",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "tokio",
+        "tokio-tungstenite",
+        "tungstenite"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "feattle-sync",
+    "deps": [
+        "async-trait",
+        "chrono",
+        "dotenv",
+        "feattle-core",
+        "log",
+        "parking_lot",
+        "rusoto_core",
+        "rusoto_s3",
+        "serde",
+        "serde_json",
+        "tempfile",
+        "thiserror",
+        "tokio",
+        "tokio"
+    ]
+}

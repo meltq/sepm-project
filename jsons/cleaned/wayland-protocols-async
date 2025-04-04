@@ -1,0 +1,11 @@
+{
+    "name": "wayland-protocols-async",
+    "deps": [
+        "slotmap",
+        "tokio",
+        "wayland-client",
+        "wayland-protocols",
+        "wayland-protocols-misc",
+        "wayland-protocols-wlr"
+    ]
+}

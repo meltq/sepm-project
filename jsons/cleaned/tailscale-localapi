@@ -1,0 +1,17 @@
+{
+    "name": "tailscale-localapi",
+    "deps": [
+        "async-trait",
+        "base64",
+        "chrono",
+        "http",
+        "hyper",
+        "libc",
+        "rustls-pemfile",
+        "serde",
+        "serde-aux",
+        "serde_json",
+        "thiserror",
+        "tokio"
+    ]
+}

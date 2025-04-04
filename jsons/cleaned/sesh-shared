@@ -1,0 +1,14 @@
+{
+    "name": "sesh-shared",
+    "deps": [
+        "anyhow",
+        "libc",
+        "prost",
+        "sesh-proto",
+        "termion",
+        "tokio",
+        "tokio-stream",
+        "tonic",
+        "tower"
+    ]
+}

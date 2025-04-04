@@ -1,0 +1,13 @@
+{
+    "name": "va416xx-embassy",
+    "deps": [
+        "critical-section",
+        "embassy-executor",
+        "embassy-sync",
+        "embassy-time-driver",
+        "embassy-time-queue-utils",
+        "once_cell",
+        "portable-atomic",
+        "va416xx-hal"
+    ]
+}

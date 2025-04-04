@@ -1,0 +1,27 @@
+{
+    "name": "lrzcc-api",
+    "deps": [
+        "actix-web",
+        "anyhow",
+        "cargo-husky",
+        "config",
+        "jzon",
+        "lrzcc-wire",
+        "once_cell",
+        "rand",
+        "reqwest",
+        "secrecy",
+        "serde",
+        "serde-aux",
+        "serde_json",
+        "sqlx",
+        "tokio",
+        "tracing",
+        "tracing-actix-web",
+        "tracing-bunyan-formatter",
+        "tracing-log",
+        "tracing-subscriber",
+        "uuid",
+        "wiremock"
+    ]
+}

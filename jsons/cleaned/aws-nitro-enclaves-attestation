@@ -1,0 +1,18 @@
+{
+    "name": "aws-nitro-enclaves-attestation",
+    "deps": [
+        "aws-nitro-enclaves-cose",
+        "chrono",
+        "hex",
+        "itertools",
+        "openssl",
+        "serde",
+        "serde_bytes",
+        "serde_cbor",
+        "serde_json",
+        "serde_repr",
+        "serde_with",
+        "webpki",
+        "x509-parser"
+    ]
+}

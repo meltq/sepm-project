@@ -1,0 +1,33 @@
+{
+    "name": "libcontainer",
+    "deps": [
+        "anyhow",
+        "bitflags",
+        "caps",
+        "chrono",
+        "crossbeam-channel",
+        "fastrand",
+        "futures",
+        "libc",
+        "libcgroups",
+        "libseccomp",
+        "log",
+        "mio",
+        "nix",
+        "oci-spec",
+        "oci-spec",
+        "path-clean",
+        "prctl",
+        "procfs",
+        "quickcheck",
+        "rand",
+        "rust-criu",
+        "serde",
+        "serde_json",
+        "serial_test",
+        "syscalls",
+        "wasmedge-sdk",
+        "wasmer",
+        "wasmer-wasi"
+    ]
+}

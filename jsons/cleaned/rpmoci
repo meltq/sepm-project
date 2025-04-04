@@ -1,0 +1,27 @@
+{
+    "name": "rpmoci",
+    "deps": [
+        "anyhow",
+        "chrono",
+        "clap",
+        "clap-verbosity-flag",
+        "env_logger",
+        "flate2",
+        "glob",
+        "log",
+        "oci-spec",
+        "openssl",
+        "pathdiff",
+        "pyo3",
+        "rpm",
+        "serde",
+        "serde_json",
+        "tar",
+        "tempfile",
+        "termcolor",
+        "toml",
+        "url",
+        "walkdir",
+        "xattr"
+    ]
+}

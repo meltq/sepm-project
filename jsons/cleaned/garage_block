@@ -1,0 +1,22 @@
+{
+    "name": "garage_block",
+    "deps": [
+        "async-trait",
+        "bytes",
+        "futures",
+        "futures-util",
+        "garage_rpc",
+        "garage_table",
+        "garage_util",
+        "hex",
+        "opentelemetry",
+        "rand",
+        "rmp-serde",
+        "serde",
+        "serde_bytes",
+        "sled",
+        "tokio",
+        "tracing",
+        "zstd"
+    ]
+}

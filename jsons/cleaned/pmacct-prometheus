@@ -1,0 +1,28 @@
+{
+    "name": "pmacct-prometheus",
+    "deps": [
+        "anyhow",
+        "axum",
+        "chrono",
+        "clap",
+        "csv",
+        "exitcode",
+        "geohash",
+        "ipnet",
+        "opentelemetry",
+        "opentelemetry-otlp",
+        "opentelemetry_sdk",
+        "pretty_assertions",
+        "prometheus",
+        "rstest",
+        "self_update",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tower-http",
+        "tracing",
+        "tracing-opentelemetry",
+        "tracing-subscriber",
+        "which"
+    ]
+}

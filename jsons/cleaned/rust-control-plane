@@ -1,0 +1,13 @@
+{
+    "name": "rust-control-plane",
+    "deps": [
+        "data-plane-api",
+        "futures",
+        "log",
+        "prost",
+        "slab",
+        "tokio",
+        "tokio-stream",
+        "tonic"
+    ]
+}

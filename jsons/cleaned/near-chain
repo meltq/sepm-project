@@ -1,0 +1,28 @@
+{
+    "name": "near-chain",
+    "deps": [
+        "actix",
+        "borsh",
+        "cached",
+        "chrono",
+        "failure",
+        "failure_derive",
+        "itertools",
+        "lazy_static",
+        "near-chain-configs",
+        "near-chain-primitives",
+        "near-crypto-v01",
+        "near-delay-detector",
+        "near-metrics",
+        "near-pool-v01",
+        "near-primitives-v01",
+        "near-store-v01",
+        "num-rational",
+        "rand",
+        "rayon",
+        "serde",
+        "strum",
+        "thiserror",
+        "tracing"
+    ]
+}

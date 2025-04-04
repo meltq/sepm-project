@@ -1,0 +1,20 @@
+{
+    "name": "shardio",
+    "deps": [
+        "bincode",
+        "byteorder",
+        "criterion",
+        "crossbeam-channel",
+        "failure",
+        "failure_derive",
+        "fxhash",
+        "lazy_static",
+        "libc",
+        "lz4",
+        "min-max-heap",
+        "pretty_assertions",
+        "serde",
+        "serde_derive",
+        "tempfile"
+    ]
+}

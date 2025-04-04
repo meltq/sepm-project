@@ -1,0 +1,33 @@
+{
+    "name": "tor-proto",
+    "deps": [
+        "arrayref",
+        "asynchronous-codec",
+        "bytes",
+        "cipher",
+        "crypto-mac",
+        "digest",
+        "event-listener",
+        "futures",
+        "futures-await-test",
+        "generic-array",
+        "hex",
+        "hex-literal",
+        "hkdf",
+        "hmac",
+        "log",
+        "rand",
+        "rand_core",
+        "subtle",
+        "thiserror",
+        "tor-bytes",
+        "tor-cell",
+        "tor-cert",
+        "tor-checkable",
+        "tor-linkspec",
+        "tor-llcrypto",
+        "tor-protover",
+        "typenum",
+        "zeroize"
+    ]
+}

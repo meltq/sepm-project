@@ -1,0 +1,20 @@
+{
+    "name": "canvas-lms-sync",
+    "deps": [
+        "async-stream",
+        "clap",
+        "crossbeam",
+        "crossbeam-channel",
+        "env_logger",
+        "futures",
+        "log",
+        "once_cell",
+        "regex",
+        "reqwest",
+        "serde",
+        "serde_json",
+        "serde_yaml",
+        "tokio",
+        "tokio-stream"
+    ]
+}

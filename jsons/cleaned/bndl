@@ -1,0 +1,21 @@
+{
+    "name": "bndl",
+    "deps": [
+        "async-compression",
+        "count-write",
+        "derive-new",
+        "envy",
+        "futures",
+        "pin-project",
+        "rusoto_core",
+        "rusoto_credential",
+        "rusoto_s3",
+        "serde",
+        "serde_with",
+        "shlex",
+        "tokio",
+        "tokio-stream",
+        "tokio-tar",
+        "walkdir"
+    ]
+}

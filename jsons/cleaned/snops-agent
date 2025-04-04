@@ -1,0 +1,31 @@
+{
+    "name": "snops-agent",
+    "deps": [
+        "anyhow",
+        "axum",
+        "bincode",
+        "chrono",
+        "clap",
+        "dashmap",
+        "futures",
+        "futures-util",
+        "http",
+        "httpdate",
+        "local-ip-address",
+        "nix",
+        "reqwest",
+        "serde_json",
+        "sha2",
+        "simple_moving_average",
+        "sled",
+        "snops-checkpoint",
+        "snops-common",
+        "tarpc",
+        "tokio",
+        "tokio-tungstenite",
+        "tracing",
+        "tracing-appender",
+        "tracing-subscriber",
+        "url"
+    ]
+}

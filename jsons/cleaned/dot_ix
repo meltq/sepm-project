@@ -1,0 +1,29 @@
+{
+    "name": "dot_ix",
+    "deps": [
+        "axum",
+        "cfg-if",
+        "console_error_panic_hook",
+        "console_log",
+        "dot_ix_model",
+        "dot_ix_rt",
+        "dot_ix_static_check_macros",
+        "dot_ix_web_components",
+        "http",
+        "leptos",
+        "leptos_axum",
+        "leptos_meta",
+        "leptos_router",
+        "log",
+        "log4rs",
+        "lz-str",
+        "serde",
+        "serde_yaml",
+        "tokio",
+        "tower",
+        "tower-http",
+        "tracing",
+        "wasm-bindgen",
+        "web-sys"
+    ]
+}

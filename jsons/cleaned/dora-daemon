@@ -1,0 +1,24 @@
+{
+    "name": "dora-daemon",
+    "deps": [
+        "async-trait",
+        "bincode",
+        "clap",
+        "ctrlc",
+        "dora-core",
+        "dora-download",
+        "dora-tracing",
+        "eyre",
+        "flume",
+        "futures",
+        "futures-concurrency",
+        "serde",
+        "serde_json",
+        "serde_yaml",
+        "shared-memory-server",
+        "tokio",
+        "tokio-stream",
+        "tracing",
+        "uuid"
+    ]
+}

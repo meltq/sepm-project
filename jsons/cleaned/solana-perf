@@ -1,0 +1,20 @@
+{
+    "name": "solana-perf",
+    "deps": [
+        "bincode",
+        "dlopen",
+        "dlopen_derive",
+        "lazy_static",
+        "log",
+        "matches",
+        "rand",
+        "rayon",
+        "serde",
+        "serde_derive",
+        "solana-budget-program",
+        "solana-logger",
+        "solana-metrics",
+        "solana-rayon-threadlimit",
+        "solana-sdk"
+    ]
+}

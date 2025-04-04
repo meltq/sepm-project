@@ -1,0 +1,21 @@
+{
+    "name": "concurrent_tor",
+    "deps": [
+        "anyhow",
+        "arti-client",
+        "arti-hyper",
+        "async-trait",
+        "enum_delegate",
+        "futures",
+        "hyper",
+        "log",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tls-api",
+        "tls-api-native-tls",
+        "tls-api-openssl",
+        "tokio",
+        "tor-rtcompat"
+    ]
+}

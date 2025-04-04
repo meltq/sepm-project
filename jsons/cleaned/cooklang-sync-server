@@ -1,0 +1,20 @@
+{
+    "name": "cooklang-sync-server",
+    "deps": [
+        "async-notify",
+        "diesel",
+        "diesel_migrations",
+        "futures-core",
+        "jsonwebtoken",
+        "mime",
+        "multer",
+        "rocket",
+        "rocket-multipart",
+        "rocket_sync_db_pools",
+        "rusqlite",
+        "serde",
+        "serde_json",
+        "tokio",
+        "tokio-util"
+    ]
+}

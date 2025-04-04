@@ -1,0 +1,27 @@
+{
+    "name": "houseflow-server",
+    "deps": [
+        "actix",
+        "actix-rt",
+        "actix-service",
+        "actix-web",
+        "actix-web-actors",
+        "async-trait",
+        "bytes",
+        "futures",
+        "houseflow-config",
+        "houseflow-db",
+        "houseflow-types",
+        "itertools",
+        "log",
+        "rand",
+        "redis",
+        "rust-argon2",
+        "semver",
+        "serde",
+        "serde_json",
+        "thiserror",
+        "tokio",
+        "validator"
+    ]
+}

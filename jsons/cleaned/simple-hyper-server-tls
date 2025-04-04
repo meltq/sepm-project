@@ -1,0 +1,14 @@
+{
+    "name": "simple-hyper-server-tls",
+    "deps": [
+        "futures",
+        "hyper",
+        "openssl",
+        "reqwest",
+        "rustls",
+        "rustls-pemfile",
+        "tls-listener",
+        "tokio",
+        "tokio-rustls"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "pgrx-pg-sys",
+    "deps": [
+        "bindgen",
+        "eyre",
+        "libc",
+        "memoffset",
+        "once_cell",
+        "pgrx-macros",
+        "pgrx-pg-config",
+        "pgrx-sql-entity-graph",
+        "proc-macro2",
+        "quote",
+        "serde",
+        "shlex",
+        "sptr",
+        "syn"
+    ]
+}

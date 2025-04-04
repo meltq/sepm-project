@@ -1,0 +1,13 @@
+{
+    "name": "aggligator-transport-tcp",
+    "deps": [
+        "aggligator",
+        "aggligator-wrapper-tls",
+        "async-trait",
+        "futures",
+        "network-interface",
+        "socket2",
+        "tokio",
+        "tracing"
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "name": "cuda11-cudnn-sys",
+    "deps": [
+        "bindgen",
+        "cuda11-cuda-sys",
+        "cuda11-cudart-sys",
+        "libc"
+    ]
+}

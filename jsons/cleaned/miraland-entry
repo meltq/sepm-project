@@ -1,0 +1,22 @@
+{
+    "name": "miraland-entry",
+    "deps": [
+        "bincode",
+        "crossbeam-channel",
+        "dlopen",
+        "dlopen_derive",
+        "lazy_static",
+        "log",
+        "matches",
+        "miraland-logger",
+        "miraland-measure",
+        "miraland-merkle-tree",
+        "miraland-metrics",
+        "miraland-perf",
+        "miraland-rayon-threadlimit",
+        "miraland-sdk",
+        "rand",
+        "rayon",
+        "serde"
+    ]
+}

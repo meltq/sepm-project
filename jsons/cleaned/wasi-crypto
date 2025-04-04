@@ -1,0 +1,29 @@
+{
+    "name": "wasi-crypto",
+    "deps": [
+        "aes-gcm",
+        "anyhow",
+        "bincode",
+        "byteorder",
+        "chacha20poly1305",
+        "curve25519-dalek",
+        "derivative",
+        "ed25519-dalek",
+        "getrandom",
+        "hkdf",
+        "hmac",
+        "k256",
+        "p256",
+        "parking_lot",
+        "pqcrypto",
+        "rand_core",
+        "rsa",
+        "rsa-export",
+        "serde",
+        "sha2",
+        "subtle",
+        "thiserror",
+        "xoodyak",
+        "zeroize"
+    ]
+}

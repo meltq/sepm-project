@@ -1,0 +1,16 @@
+{
+    "name": "solana-account-decoder",
+    "deps": [
+        "Inflector",
+        "bincode",
+        "bs58",
+        "lazy_static",
+        "serde",
+        "serde_derive",
+        "serde_json",
+        "solana-sdk",
+        "solana-vote-program",
+        "spl-token-v1-0",
+        "thiserror"
+    ]
+}
